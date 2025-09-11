@@ -1,0 +1,198 @@
+{
+  "profile_version": "1.0",
+  "generated_at": "2025-09-11",
+  "origin": {
+    "city": "Kansas City",
+    "state": "MO",
+    "country": "USA",
+    "timezone": "America/Chicago",
+    "primary_airport": "MCI"
+  },
+  "household": {
+    "adults": 2,
+    "children": 2,
+    "members": [
+      {
+        "name": "Trey",
+        "age": 40,
+        "gender": "male",
+        "ethnicity": "white",
+        "roles": [
+          "partner",
+          "parent"
+        ],
+        "occupations": [
+          "Web/Software Developer",
+          ".NET Developer",
+          "Software Architect",
+          "Unity Game Developer",
+          "Entrepreneur"
+        ],
+        "skills": [
+          "Azure",
+          "Unity",
+          "C#",
+          ".NET",
+          "Web development",
+          "Game design"
+        ],
+        "interests": [
+          "gaming",
+          "board gaming",
+          "tabletop",
+          "rock climbing"
+        ],
+        "work_goals": [
+          "found an indie game studio",
+          "political alignment",
+          "professional growth"
+        ],
+        "relationship_style": "polyamory-positive"
+      },
+      {
+        "name": "Sarah",
+        "age": 34,
+        "gender": "female",
+        "ethnicity": "white",
+        "roles": [
+          "partner",
+          "parent"
+        ],
+        "occupations": [
+          "Web Developer"
+        ],
+        "skills": [
+          "front-end development",
+          "full‑stack web (framework‑agnostic)"
+        ],
+        "interests": [
+          "community",
+          "family time"
+        ],
+        "work_goals": [
+          "lower stress role",
+          "strong work‑life balance",
+          "supportive community"
+        ],
+        "relationship_style": "polyamory-positive"
+      },
+      {
+        "name": "Anduin",
+        "age": 5,
+        "gender": "male",
+        "roles": [
+          "child"
+        ]
+      },
+      {
+        "name": "Alasdair",
+        "age": 1,
+        "gender": "male",
+        "roles": [
+          "child"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "political_alignment": "progressive",
+    "social_alignment": "progressive, sex‑positive",
+    "community": "actively seeks community",
+    "education_priority": "high",
+    "quality_of_life_priority": "high",
+    "climate_preference": "mild weather",
+    "language_preference": "English ubiquity important; willing to learn local language",
+    "media_propoganda_interest": "wants to understand state narratives and intent",
+    "non_monogamy_acceptance_importance": "high (legal/social acceptance matters)",
+    "pace_of_life": "prefer slower than typical US metro (esp. for Sarah)",
+    "work_life_balance": "family‑friendly policies valued",
+    "entrepreneurship_support": "valued (ecosystem, grants, visas)",
+    "bureaucracy_tolerance": "low; prefers simple day‑to‑day and taxes",
+    "climate_risk_aversion": "prefers lower risk areas",
+    "authoritarianism_concern": "believes inequality can drive authoritarian backsliding; seeks resilient democracies"
+  },
+  "preferences": {
+    "urbanicity": [
+      "urban",
+      "inner‑suburban"
+    ],
+    "beach": "optional / nice‑to‑have",
+    "housing": "family‑friendly neighborhoods; parks and walkability appreciated"
+  },
+  "child_needs": {
+    "ages": [
+      5,
+      1
+    ],
+    "education": "quality public schools; early childhood programs; bilingual exposure acceptable",
+    "childcare": "affordable, reliable childcare important",
+    "healthcare": "universal/affordable healthcare preferred",
+    "safety": "low crime; social cohesion valued"
+  },
+  "work": {
+    "trey": {
+      "sectors": [
+        "games",
+        "software",
+        "cloud"
+      ],
+      "employment_modes": [
+        "founder",
+        "remote",
+        "local"
+      ],
+      "needs": [
+        "reliable broadband",
+        "good latency to game servers",
+        "Azure access/nearby DC",
+        "game dev ecosystem",
+        "grant/funding access"
+      ]
+    },
+    "sarah": {
+      "sectors": [
+        "web development"
+      ],
+      "stack": [
+        "framework‑agnostic web (front‑end/full‑stack)"
+      ],
+      "needs": [
+        "low‑stress team culture",
+        "predictable hours",
+        "remote or hybrid options"
+      ]
+    }
+  },
+  "financials": {
+    "home_equity_usd": 200000,
+    "liquid_assets_usd": 30000
+  },
+  "deal_breakers": [
+    "authoritarian trends or curbs on civil liberties",
+    "hostility toward LGBTQ+ / polyamory",
+    "very low English access with poor language pathways",
+    "weak K‑12 outcomes",
+    "extreme heat/cold without mitigation",
+    "onerous immigration paths that disrupt family stability",
+    "elevated war risk"
+  ],
+  "evaluation_weights_0_to_5": {
+    "political_stability": 5,
+    "progressive_alignment": 5,
+    "education_quality": 4,
+    "english_ubiquity": 4,
+    "qol_and_wlb": 5,
+    "entrepreneurship_and_grants": 4,
+    "immigration_accessibility": 4,
+    "bureaucracy_and_tax_simplicity": 3,
+    "climate_mildness": 4,
+    "climate_change_risk": 4,
+    "war_risk": 4,
+    "housing_affordability": 3,
+    "childcare_support": 4,
+    "healthcare_quality_cost": 4,
+    "broadband_latency": 3,
+    "community_openness_poly_lgbtq": 5
+  },
+  "notes": "Profile intended for migration‑planning applications; origin is Kansas City, MO (MCI)."
+}
