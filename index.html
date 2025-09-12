@@ -12,6 +12,8 @@
       --md-color-on-surface: #111827;
       --md-color-outline: #e0e0e0;
       --md-color-primary: #2962ff;
+      --glass-bg: rgba(255,255,255,0.7);
+      --diff-bg: #fff3cd; /* soft amber */
 
       /* Score palette (Material-ish) */
       --score-red: #d32f2f;      /* Red 700 */
@@ -22,6 +24,21 @@
       --score-muted-text: #0b3954; /* Dark teal for contrast */
     }
 
+    body[data-theme="dark"] {
+      --md-color-surface: #0f172a;
+      --md-color-surface-variant: #111827;
+      --md-color-background: #0b1220;
+      --md-color-on-surface: #e5e7eb;
+      --md-color-outline: #1f2937;
+      --md-color-primary: #82aaff;
+      --glass-bg: rgba(17,24,39,0.6);
+      --diff-bg: #3b2f0b; /* deep amber-brown tint */
+      /* Score palette adjustments remain readable on dark */
+      --score-orange: #ff9800;
+      --score-yellow: #ffd54f;
+      --score-green: #66bb6a;
+    }
+
     html, body {
       margin: 0;
       padding: 0;
@@ -30,15 +47,56 @@
       font-family: var(--md-font-family);
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
+      min-height: 100vh;
     }
+    /* Let the body/page scroll naturally for sticky headers */
 
     h1 {
       font-size: 22px;
       margin: 16px 0 8px;
     }
 
-    .container { max-width: 1100px; margin: 0 auto; padding: 12px 16px 24px; }
+    .container { max-width: 100%; margin: 0 auto; padding: 12px 24px 24px; }
     .controls { display: block; margin-bottom: 8px; }
+    .layout { display: grid; grid-template-columns: minmax(260px, 320px) 1fr; gap: 16px; align-items: start; width: 100%; }
+    @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+    .sidebar {
+      position: sticky; top: 12px;
+      background: var(--md-color-surface);
+      border: 1px solid var(--md-color-outline);
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .content { }
+    #report { }
+    .toolbar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin: 8px 0; }
+    .toggle {
+      display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px;
+      border: 1px solid var(--md-color-outline); border-radius: 9999px; background: var(--md-color-surface);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      font-size: 12px; user-select: none; color: var(--md-color-on-surface);
+      transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease;
+    }
+    .toggle:hover { border-color: var(--md-color-primary); box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent); }
+    .toggle:has(input:checked) { background: color-mix(in srgb, var(--md-color-primary) 18%, var(--md-color-surface)); border-color: var(--md-color-primary); }
+    body[data-theme="dark"] .toggle {
+      background: #111827; border-color: #334155; color: var(--md-color-on-surface);
+      box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    }
+    body[data-theme="dark"] .toggle:hover {
+      border-color: var(--md-color-primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 24%, transparent);
+    }
+    body[data-theme="dark"] .toggle:has(input:checked) {
+      background: color-mix(in srgb, var(--md-color-primary) 28%, #111827);
+      border-color: var(--md-color-primary);
+      color: #ffffff;
+    }
+    .toggle input { accent-color: var(--md-color-primary); }
+    .hero { background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 45%, #10b981 100%); color: #fff; padding: 14px 16px; border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.15); }
+    .hero-full { border-radius: 0; padding: 18px 0; }
+    .hero-full .hero-inner h1 { margin: 0; font-size: 24px; }
     #countrySelect {
       width: 100%;
       max-width: 520px;
@@ -47,25 +105,41 @@
       border-radius: 8px;
       padding: 6px 8px;
       box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      color: var(--md-color-on-surface);
     }
     #countrySelect:focus {
       outline: none;
       border-color: var(--md-color-primary);
       box-shadow: 0 0 0 3px rgba(41,98,255,0.15);
     }
+    /* Improve multi-select readability */
+    #countrySelect option { background: var(--md-color-surface); color: var(--md-color-on-surface); }
+    #countrySelect option:checked { background: color-mix(in srgb, var(--md-color-primary) 22%, transparent); color: var(--md-color-on-surface); }
+    #countrySelect optgroup { color: var(--md-color-on-surface); }
+    /* Dark mode-specific tweaks for the selector */
+    body[data-theme="dark"] #countrySelect {
+      border-color: #334155; /* slate-700 */
+      box-shadow: 0 0 0 0 rgba(0,0,0,0.0);
+    }
+    body[data-theme="dark"] #countrySelect:focus {
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 30%, transparent);
+    }
+    body[data-theme="dark"] #countrySelect option { background: var(--md-color-surface); color: var(--md-color-on-surface); }
+    body[data-theme="dark"] #countrySelect option:checked { background: color-mix(in srgb, var(--md-color-primary) 30%, transparent); color: var(--md-color-on-surface); }
     /* Remove default bullets for data lists */
     ul.score-list {
       list-style: none;
       padding-left: 0;
       margin-left: 0;
+      margin-top: 8px;
+      background: var(--glass-bg);
+      border: 1px solid var(--md-color-outline);
+      border-radius: 12px;
+      padding: 8px 8px;
     }
 
     /* Align dot and text nicely */
-    li.score-item {
-      display: flex;
-      align-items: center;
-      margin: 4px 0;
-    }
+    li.score-item { display: flex; align-items: center; margin: 6px 0; color: var(--md-color-on-surface); }
 
     /* The colored score dot */
     .score-dot {
@@ -83,16 +157,20 @@
       border-collapse: collapse;
       margin-top: 12px;
       font-size: 14px;
+      table-layout: fixed;
     }
     table.comparison-table th, table.comparison-table td {
       border: 1px solid #ddd;
       padding: 6px 8px;
       vertical-align: top;
+      transition: background-color 180ms ease, box-shadow 180ms ease;
+      overflow-wrap: anywhere;
     }
     table.comparison-table th.country-header {
       background: #f7f7f7;
       text-align: left;
       white-space: nowrap;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     }
     /* Sticky header row */
     table.comparison-table thead th {
@@ -100,6 +178,12 @@
       top: 0;
       z-index: 3;
       background: #f7f7f7;
+    }
+    body[data-theme="dark"] table.comparison-table thead th,
+    body[data-theme="dark"] table.comparison-table th.country-header {
+      background: #0f172a;
+      color: var(--md-color-on-surface);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
     }
     /* Sticky first column (header cell and body key cells) */
     table.comparison-table thead th:first-child {
@@ -109,15 +193,15 @@
     tr.category-header-row th {
       background: #1f2937; /* slate-800 */
       color: #ffffff;
-      font-weight: 700;
+      font-weight: 800;
       text-align: left;
       text-transform: uppercase;
-      letter-spacing: 0.02em;
-      font-size: 12.5px;
+      letter-spacing: 0.04em;
+      font-size: 14px;
+      padding: 10px 8px;
     }
     td.key-cell {
       font-weight: 600;
-      width: 22%;
       white-space: normal;
       position: sticky;
       left: 0;
@@ -127,10 +211,14 @@
     td.value-cell {
       width: auto;
     }
+    .value-cell.diff-cell { background: var(--diff-bg) !important; }
+    .col-hover { background: #eef3ff !important; }
     /* Zebra rows and hover */
     .comparison-table tbody tr:nth-child(odd) td { background: var(--md-color-surface); }
     .comparison-table tbody tr:nth-child(even) td { background: var(--md-color-surface-variant); }
     .comparison-table tbody tr:hover td { background: #eef3ff; }
+    body[data-theme="dark"] .comparison-table tbody tr:hover td { background: #1e293b; }
+    body[data-theme="dark"] .col-hover { background: #1e293b !important; }
     .cell-inner {
       display: flex;
       align-items: center;
@@ -138,12 +226,13 @@
     }
     /* Scroll container for sticky positioning to work */
     .table-wrap {
-      max-height: 70vh;
-      overflow: auto;
+      overflow-x: auto; /* allow horizontal scroll as columns grow */
+      overflow-y: visible; /* page handles vertical scroll for sticky headers */
       border: 1px solid var(--md-color-outline);
       border-radius: 12px;
-      background: var(--md-color-surface);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.08);
+      background: var(--glass-bg);
+      backdrop-filter: saturate(140%) blur(8px);
+      box-shadow: 0 10px 24px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.08);
     }
     #notice {
       color: #a33;
@@ -164,29 +253,57 @@
       line-height: 1;
       letter-spacing: 0.02em;
       box-shadow: inset 0 -1px 0 rgba(0,0,0,0.08);
+      transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
     }
+    .score-chip:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.15), inset 0 -1px 0 rgba(0,0,0,0.08); }
     .bucket-red { background: var(--score-red); color: #fff; }
     .bucket-orange { background: var(--score-orange); color: #111; }
     .bucket-yellow { background: var(--score-yellow); color: #111; }
     .bucket-green { background: var(--score-green); color: #fff; }
     .bucket-muted { background: var(--score-muted); color: var(--score-muted-text); }
     /* Legend */
-    .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 8px 0 4px; font-size: 12px; color: #444; }
+    .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 8px 0 4px; font-size: 12px; color: var(--md-color-on-surface); }
     .legend-item { display: inline-flex; align-items: center; gap: 6px; }
+
+    /* Density: compact mode */
+    body.density-compact .comparison-table th,
+    body.density-compact .comparison-table td { padding: 4px 6px; font-size: 13px; }
+    body.density-compact .score-chip { min-width: 24px; height: 18px; padding: 0 6px; font-size: 11px; }
+
+    /* Themed link styles */
+    a { color: var(--md-color-primary); text-decoration: underline; text-underline-offset: 2px; }
+    a:visited { color: var(--md-color-primary); }
+    a:hover { color: color-mix(in srgb, var(--md-color-primary) 90%, #ffffff 10%); }
+    a:focus-visible { outline: 2px solid color-mix(in srgb, var(--md-color-primary) 50%, transparent); outline-offset: 2px; border-radius: 2px; }
+    /* Ensure links inside cells/lists inherit */
+    .cell-inner a, ul.score-list a { color: var(--md-color-primary); }
+    body[data-theme="dark"] a:hover { color: color-mix(in srgb, var(--md-color-primary) 80%, #ffffff 20%); }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Migration Report</h1>
-    <div class="controls">
-      <label for="countrySelect">Select Countries (up to 4):</label>
-      <br/>
-      <small>Tip: Hold Ctrl/Cmd to select multiple</small>
-      <br/>
-      <select id="countrySelect" multiple size="8"></select>
-      <div id="notice"></div>
-    </div>
-    <div id="report"></div>
+  <div class="hero hero-full">
+    <div class="hero-inner container"><h1>Migration Report</h1></div>
+  </div>
+
+  <div class="container layout">
+    <aside class="sidebar">
+      <div class="controls">
+        <label for="countrySelect">Select Countries (up to 4):</label>
+        <br/>
+        <small>Tip: Hold Ctrl/Cmd to select multiple</small>
+        <br/>
+        <select id="countrySelect" multiple size="12"></select>
+        <div id="notice"></div>
+      </div>
+      <div class="toolbar">
+        <label class="toggle"><input type="checkbox" id="diffToggle"/> Highlight differences</label>
+        <label class="toggle"><input type="checkbox" id="densityToggle"/> Compact density</label>
+        <label class="toggle"><input type="checkbox" id="themeToggle"/> Dark mode</label>
+      </div>
+    </aside>
+    <main class="content">
+      <div id="report"></div>
+    </main>
   </div>
   <script src="script.js"></script>
 </body>
