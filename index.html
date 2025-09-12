@@ -3,6 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>Migration Report</title>
+  <style>
+    /* Remove default bullets for data lists */
+    ul.score-list {
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+    }
+
+    /* Align dot and text nicely */
+    li.score-item {
+      display: flex;
+      align-items: center;
+      margin: 4px 0;
+    }
+
+    /* The colored score dot */
+    .score-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 8px;
+      flex: 0 0 auto;
+      background-color: #ccc; /* default fallback */
+    }
+  </style>
 </head>
 <body>
   <h1>Migration Report</h1>
