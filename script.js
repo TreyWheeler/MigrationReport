@@ -1,28 +1,32 @@
+const appState = { items: [], selected: [] };
+
 async function loadMain() {
   const response = await fetch('main.json');
   const mainData = await response.json();
-  const select = document.getElementById('countrySelect');
+  const listEl = document.getElementById('countryList');
   const notice = document.getElementById('notice');
   // Initialize UI preferences and toggles
   initUiPreferences();
 
-  mainData.Countries.forEach(country => {
-    const option = document.createElement('option');
-    option.value = country.file;
-    option.dataset.name = country.name; // keep raw name without flag for logic
-    // Set provisional label; update with flag when iso loads
-    option.textContent = country.name;
-    select.appendChild(option);
-    fetchCountry(country.file).then(data => {
-      const flag = data && data.iso ? isoToFlagEmoji(String(data.iso)) : '';
-      option.dataset.iso = data && data.iso ? String(data.iso) : '';
-      // Keep text to name only; options don't render images reliably
-      option.textContent = country.name;
-    }).catch(() => {});
-  });
-
-  // Multi-select: handle up to 4
-  select.addEventListener('change', () => { handleSelection(select, mainData, notice); updateSelectionPreview(select); });
+  // Build items for custom list
+  appState.items = mainData.Countries.map(c => ({ name: c.name, file: c.file, iso: '' }));
+  // Render immediately for responsiveness
+  renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
+  // Default selection: first country
+  if (appState.items.length > 0) {
+    appState.selected = [appState.items[0]];
+    updateCountryListSelection(listEl);
+    onSelectionChanged(mainData, notice);
+  }
+  // Enrich with ISO in the background and refresh flags
+  try {
+    await Promise.all(appState.items.map(async it => {
+      try { const data = await fetchCountry(it.file); if (data && data.iso) it.iso = String(data.iso); } catch {}
+    }));
+    renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
+    updateCountryListSelection(listEl);
+    updateSelectionPreviewFromSelected(appState.selected);
+  } catch {}
 
   // Toolbar toggles
   const diffToggle = document.getElementById('diffToggle');
@@ -30,10 +34,7 @@ async function loadMain() {
   const themeToggle = document.getElementById('themeToggle');
   if (diffToggle) {
     diffToggle.checked = getStored('diffEnabled', false);
-    diffToggle.addEventListener('change', () => {
-      setStored('diffEnabled', diffToggle.checked);
-      handleSelection(select, mainData, notice);
-    });
+    diffToggle.addEventListener('change', () => { setStored('diffEnabled', diffToggle.checked); onSelectionChanged(mainData, notice); });
   }
   if (densityToggle) {
     densityToggle.checked = getStored('densityCompact', false);
@@ -54,13 +55,6 @@ async function loadMain() {
       setStored('theme', mode);
       applyTheme(mode);
     });
-  }
-
-  if (mainData.Countries.length > 0) {
-    // Default to first country selected
-    select.options[0].selected = true;
-    handleSelection(select, mainData, notice);
-    updateSelectionPreview(select);
   }
 }
 
@@ -85,42 +79,65 @@ async function fetchCountry(file) {
   return data;
 }
 
-function getSelectedOptions(select) {
-  return Array.from(select.selectedOptions).map(opt => ({ file: opt.value, name: opt.dataset.name || opt.textContent }));
+function onSelectionChanged(mainData, notice) {
+  const selected = appState.selected;
+  if (!selected || selected.length === 0) return;
+  updateSelectionPreviewFromSelected(selected);
+  renderComparison(selected, mainData, { diffEnabled: getStored('diffEnabled', false) });
 }
 
-function enforceLimit(select, notice, limit = 3) {
-  const selected = getSelectedOptions(select);
-  if (selected.length > limit) {
-    // Deselect extras beyond limit
-    let count = 0;
-    for (const opt of Array.from(select.options)) {
-      if (opt.selected) {
-        if (count < limit) {
-          count++;
-        } else {
-          opt.selected = false;
-        }
-      }
+function renderCountryList(listEl, items, notice, onChange) {
+  if (!listEl) return;
+  listEl.innerHTML = '';
+  items.forEach(it => {
+    const row = document.createElement('div');
+    row.className = 'country-item';
+    row.setAttribute('role', 'option');
+    row.dataset.file = it.file;
+    row.dataset.name = it.name;
+    row.dataset.iso = it.iso || '';
+    if (it.iso) {
+      const img = createFlagImg(it.iso, 18);
+      if (img) row.appendChild(img);
     }
-    notice.textContent = `Limited to ${limit} countries; extras were deselected.`;
+    const nameSpan = document.createElement('span');
+    nameSpan.className = 'name';
+    nameSpan.textContent = it.name;
+    row.appendChild(nameSpan);
+
+    row.addEventListener('click', () => {
+      toggleSelectCountry(it, notice);
+      updateCountryListSelection(listEl);
+      onChange && onChange();
+    });
+
+    listEl.appendChild(row);
+  });
+}
+
+function updateCountryListSelection(listEl) {
+  const selectedFiles = new Set(appState.selected.map(s => s.file));
+  Array.from(listEl.children).forEach(child => {
+    if (!(child instanceof HTMLElement)) return;
+    const isSel = selectedFiles.has(child.dataset.file);
+    child.classList.toggle('selected', isSel);
+    child.setAttribute('aria-selected', isSel ? 'true' : 'false');
+  });
+}
+
+function toggleSelectCountry(item, notice) {
+  const idx = appState.selected.findIndex(s => s.file === item.file);
+  if (idx >= 0) {
+    appState.selected.splice(idx, 1);
+    notice.textContent = '';
   } else {
+    if (appState.selected.length >= 4) {
+      notice.textContent = 'Limited to 4 countries; deselect one to add more.';
+      return;
+    }
+    appState.selected.push(item);
     notice.textContent = '';
   }
-}
-
-async function handleSelection(select, mainData, notice) {
-  // Ensure at least one selected and no more than 3
-  if (getSelectedOptions(select).length === 0 && select.options.length > 0) {
-    select.options[0].selected = true;
-  }
-  enforceLimit(select, notice, 4);
-
-  const selected = getSelectedOptions(select);
-  const files = selected.map(s => s.file);
-  if (files.length === 0 && select.options.length > 0) return; // nothing to render yet
-  // Always use comparison view, even for a single selection
-  await renderComparison(selected, mainData, { diffEnabled: getStored('diffEnabled', false) });
 }
 
 async function loadCountry(file, mainData) {
@@ -288,21 +305,50 @@ async function renderComparison(selectedList, mainData, options = {}) {
   const wrap = document.createElement('div');
   wrap.className = 'table-wrap';
   wrap.appendChild(table);
+
+  // Floating header overlay (as sibling of wrap for reliable sticky)
+  const floating = document.createElement('div');
+  floating.className = 'floating-header';
+  const frow = document.createElement('div');
+  frow.className = 'floating-row';
+  floating.appendChild(frow);
+  // Insert floating header above the scroll container
+  reportDiv.appendChild(floating);
   reportDiv.appendChild(wrap);
-  // Column hover highlighting
-  let lastCol = -1;
-  const clearCol = () => { if (lastCol < 0) return; table.querySelectorAll('.col-hover').forEach(el => el.classList.remove('col-hover')); lastCol = -1; };
-  table.addEventListener('mouseleave', clearCol);
-  table.addEventListener('mousemove', (e) => {
-    const cell = e.target.closest('td,th');
-    if (!cell) return;
-    const colIndex = cell.cellIndex;
-    if (colIndex === lastCol) return;
-    table.querySelectorAll('.col-hover').forEach(el => el.classList.remove('col-hover'));
-    Array.from(table.tHead.rows).forEach(r => { const c = r.cells[colIndex]; if (c) c.classList.add('col-hover'); });
-    Array.from(table.tBodies[0].rows).forEach(r => { const c = r.cells[colIndex]; if (c) c.classList.add('col-hover'); });
-    lastCol = colIndex;
-  });
+
+  function buildFloatingFromThead() {
+    frow.innerHTML = '';
+    const headerRow = table.tHead && table.tHead.rows[0];
+    if (!headerRow) return;
+    const cells = Array.from(headerRow.cells);
+    const widths = cells.map(c => Math.ceil(c.getBoundingClientRect().width));
+    frow.style.gridTemplateColumns = widths.map(w => `${w}px`).join(' ');
+    cells.forEach(c => {
+      const cell = document.createElement('div');
+      cell.className = 'fh-cell';
+      cell.innerHTML = c.innerHTML;
+      frow.appendChild(cell);
+    });
+    // Match container width to visible scroll area
+    floating.style.width = wrap.clientWidth + 'px';
+  }
+
+  function updateFloatingVisibility() {
+    try {
+      const headerRect = table.tHead.getBoundingClientRect();
+      // Show once the real header scrolls above the viewport top
+      const show = headerRect.top < 0;
+      floating.classList.toggle('visible', show);
+      // Keep header horizontally aligned with scrolled content
+      frow.style.transform = `translateX(${-wrap.scrollLeft}px)`;
+    } catch {}
+  }
+
+  buildFloatingFromThead();
+  updateFloatingVisibility();
+  wrap.addEventListener('scroll', updateFloatingVisibility);
+  window.addEventListener('scroll', updateFloatingVisibility, { passive: true });
+  window.addEventListener('resize', buildFloatingFromThead);
 }
 
 // Preferences helpers
@@ -443,6 +489,23 @@ function updateSelectionPreview(selectEl) {
       if (img) row.appendChild(img);
     }
     row.appendChild(document.createTextNode(opt.dataset.name || opt.textContent));
+    preview.appendChild(row);
+  });
+}
+
+// New preview updater for custom picker: takes selected items array
+function updateSelectionPreviewFromSelected(selectedList) {
+  const preview = document.getElementById('selectionPreview');
+  if (!preview) return;
+  preview.innerHTML = '';
+  selectedList.forEach(it => {
+    const row = document.createElement('div');
+    row.className = 'selection-item';
+    if (it.iso) {
+      const img = createFlagImg(it.iso, 18);
+      if (img) row.appendChild(img);
+    }
+    row.appendChild(document.createTextNode(it.name));
     preview.appendChild(row);
   });
 }

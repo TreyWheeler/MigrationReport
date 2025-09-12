@@ -49,6 +49,7 @@
       -moz-osx-font-smoothing: grayscale;
       min-height: 100vh;
     }
+    body { display: flex; flex-direction: column; min-height: 100vh; }
     /* Let the body/page scroll naturally for sticky headers */
 
     h1 {
@@ -58,7 +59,7 @@
 
     .container { max-width: 100%; margin: 0 auto; padding: 12px 24px 24px; }
     .controls { display: block; margin-bottom: 8px; }
-    .layout { display: grid; grid-template-columns: minmax(260px, 320px) 1fr; gap: 16px; align-items: start; width: 100%; }
+    .layout { display: grid; grid-template-columns: minmax(260px, 320px) 1fr; gap: 16px; align-items: stretch; width: 100%; flex: 1 1 auto; min-height: 0; }
     @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
     .sidebar {
       position: sticky; top: 12px;
@@ -68,7 +69,7 @@
       padding: 12px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     }
-    .content { }
+    .content { display: flex; flex-direction: column; min-height: 0; }
     #report { }
     .toolbar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin: 8px 0; }
     .toggle {
@@ -98,6 +99,15 @@
     th.country-header .flag-icon { margin-right: 6px; vertical-align: -2px; }
     .selection-preview { margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
     .selection-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--md-color-on-surface); }
+    /* Custom country list */
+    .country-list { display: flex; flex-direction: column; gap: 6px; padding: 8px; border: 1px solid var(--md-color-outline); border-radius: 12px; background: var(--md-color-surface); max-height: 60vh; overflow: auto; }
+    .country-item { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border: 1px solid var(--md-color-outline); border-radius: 10px; background: var(--md-color-surface); cursor: pointer; user-select: none; }
+    .country-item:hover { border-color: var(--md-color-primary); box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent); }
+    .country-item.selected { background: color-mix(in srgb, var(--md-color-primary) 16%, var(--md-color-surface)); border-color: var(--md-color-primary); }
+    .country-item .name { font-size: 13px; }
+    body[data-theme="dark"] .country-list { background: #0f172a; border-color: #334155; }
+    body[data-theme="dark"] .country-item { background: #111827; border-color: #334155; }
+    body[data-theme="dark"] .country-item.selected { background: color-mix(in srgb, var(--md-color-primary) 24%, #111827); border-color: var(--md-color-primary); }
     .hero { background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 45%, #10b981 100%); color: #fff; padding: 14px 16px; border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.15); }
     .hero-full { border-radius: 0; padding: 18px 0; }
     .hero-full .hero-inner h1 { margin: 0; font-size: 24px; }
@@ -176,11 +186,9 @@
       white-space: nowrap;
       box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     }
-    /* Sticky header row */
+    /* Header row appearance (not sticky; we handle stickiness via floating header) */
     table.comparison-table thead th {
-      position: sticky;
-      top: 0;
-      z-index: 3;
+      position: static;
       background: #f7f7f7;
     }
     body[data-theme="dark"] table.comparison-table thead th,
@@ -216,13 +224,9 @@
       width: auto;
     }
     .value-cell.diff-cell { background: var(--diff-bg) !important; }
-    .col-hover { background: #eef3ff !important; }
-    /* Zebra rows and hover */
+    /* Zebra rows */
     .comparison-table tbody tr:nth-child(odd) td { background: var(--md-color-surface); }
     .comparison-table tbody tr:nth-child(even) td { background: var(--md-color-surface-variant); }
-    .comparison-table tbody tr:hover td { background: #eef3ff; }
-    body[data-theme="dark"] .comparison-table tbody tr:hover td { background: #1e293b; }
-    body[data-theme="dark"] .col-hover { background: #1e293b !important; }
     .cell-inner {
       display: flex;
       align-items: center;
@@ -230,14 +234,25 @@
     }
     /* Scroll container for sticky positioning to work */
     .table-wrap {
-      overflow-x: auto; /* allow horizontal scroll as columns grow */
-      overflow-y: visible; /* page handles vertical scroll for sticky headers */
+      /* Fill available height in content column and provide scroll context for sticky thead */
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow: auto;
       border: 1px solid var(--md-color-outline);
       border-radius: 12px;
       background: var(--glass-bg);
       backdrop-filter: saturate(140%) blur(8px);
       box-shadow: 0 10px 24px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.08);
     }
+
+    /* Floating header overlay (replaces sticky thead for reliability) */
+    .floating-header { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid #ddd; visibility: hidden; opacity: 0; pointer-events: none; transition: opacity 120ms ease; }
+    .floating-header.visible { visibility: visible; opacity: 1; pointer-events: auto; }
+    .floating-row { display: grid; align-items: center; background: #f7f7f7; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+    .floating-row .fh-cell { padding: 6px 8px; border-right: 1px solid #ddd; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .floating-row .fh-cell:last-child { border-right: none; }
+    body[data-theme="dark"] .floating-row { background: #0f172a; box-shadow: 0 2px 8px rgba(0,0,0,0.4); }
+    .floating-row .fh-cell .flag-icon { margin-right: 6px; vertical-align: -2px; }
     #notice {
       color: #a33;
       margin-top: 6px;
@@ -292,11 +307,8 @@
   <div class="container layout">
     <aside class="sidebar">
       <div class="controls">
-        <label for="countrySelect">Select Countries (up to 4):</label>
-        <br/>
-        <small>Tip: Hold Ctrl/Cmd to select multiple</small>
-        <br/>
-        <select id="countrySelect" multiple size="12"></select>
+        <label>Select Countries (up to 4):</label>
+        <div id="countryList" class="country-list" role="listbox" aria-multiselectable="true"></div>
         <div id="notice"></div>
       </div>
       <div class="toolbar">
