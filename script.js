@@ -187,9 +187,12 @@ async function renderComparison(selectedList, mainData, options = {}) {
     data: await fetchCountry(s.file)
   })));
 
-  // Legend
-  const legend = buildLegend();
-  reportDiv.appendChild(legend);
+  // Legend in header bar
+  const legendMount = document.getElementById('legendMount');
+  if (legendMount) {
+    legendMount.innerHTML = '';
+    legendMount.appendChild(buildLegend());
+  }
 
   const table = document.createElement('table');
   table.className = 'comparison-table';

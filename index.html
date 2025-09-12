@@ -296,11 +296,30 @@
     /* Ensure links inside cells/lists inherit */
     .cell-inner a, ul.score-list a { color: var(--md-color-primary); }
     body[data-theme="dark"] a:hover { color: color-mix(in srgb, var(--md-color-primary) 80%, #ffffff 20%); }
+    /* Header layout */
+    .header-flex { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .header-controls { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+    #legendMount { display: flex; justify-content: flex-end; }
+    .hero .legend { margin: 0; color: #fff; }
+    /* Consistent header toggle styling (same in light and dark) */
+    .hero .toolbar .toggle { background: #ffffff; border-color: #e5e7eb; color: #111; }
+    .hero .toolbar .toggle:hover { border-color: var(--md-color-primary); box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 16%, transparent); }
+    .hero .toolbar .toggle:has(input:checked) { background: color-mix(in srgb, var(--md-color-primary) 14%, #ffffff); border-color: var(--md-color-primary); color: #111; }
   </style>
 </head>
 <body>
   <div class="hero hero-full">
-    <div class="hero-inner container"><h1>Migration Report</h1></div>
+    <div class="hero-inner container header-flex">
+      <h1>Migration Report</h1>
+      <div class="header-controls">
+        <div class="toolbar">
+          <label class="toggle"><input type="checkbox" id="diffToggle"/> Highlight differences</label>
+          <label class="toggle"><input type="checkbox" id="densityToggle"/> Compact density</label>
+          <label class="toggle"><input type="checkbox" id="themeToggle"/> Dark mode</label>
+        </div>
+        <div id="legendMount" class="legend"></div>
+      </div>
+    </div>
   </div>
 
   <div class="container layout">
@@ -309,11 +328,6 @@
         <label>Select Countries (up to 4):</label>
         <div id="countryList" class="country-list" role="listbox" aria-multiselectable="true"></div>
         <div id="notice"></div>
-      </div>
-      <div class="toolbar">
-        <label class="toggle"><input type="checkbox" id="diffToggle"/> Highlight differences</label>
-        <label class="toggle"><input type="checkbox" id="densityToggle"/> Compact density</label>
-        <label class="toggle"><input type="checkbox" id="themeToggle"/> Dark mode</label>
       </div>
       
     </aside>
