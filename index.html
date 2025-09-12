@@ -27,12 +27,79 @@
       flex: 0 0 auto;
       background-color: #ccc; /* default fallback */
     }
+
+    /* Comparison table styles */
+    table.comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 14px;
+    }
+    table.comparison-table th, table.comparison-table td {
+      border: 1px solid #ddd;
+      padding: 6px 8px;
+      vertical-align: top;
+    }
+    table.comparison-table th.country-header {
+      background: #f7f7f7;
+      text-align: left;
+      white-space: nowrap;
+    }
+    /* Sticky header row */
+    table.comparison-table thead th {
+      position: sticky;
+      top: 0;
+      z-index: 3;
+      background: #f7f7f7;
+    }
+    /* Sticky first column (header cell and body key cells) */
+    table.comparison-table thead th:first-child {
+      left: 0;
+      z-index: 4;
+    }
+    tr.category-header-row th {
+      background: #f0f0f0;
+      font-weight: 600;
+      text-align: left;
+    }
+    td.key-cell {
+      font-weight: 600;
+      width: 22%;
+      white-space: normal;
+      position: sticky;
+      left: 0;
+      background: #fff;
+      z-index: 2;
+    }
+    td.value-cell {
+      width: auto;
+    }
+    .cell-inner {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    /* Scroll container for sticky positioning to work */
+    .table-wrap {
+      max-height: 70vh;
+      overflow: auto;
+      border: 1px solid #ddd;
+    }
+    #notice {
+      color: #a33;
+      margin-top: 6px;
+      font-size: 12px;
+    }
   </style>
 </head>
 <body>
   <h1>Migration Report</h1>
-  <label for="countrySelect">Select Country:</label>
-  <select id="countrySelect"></select>
+  <label for="countrySelect">Select Countries (up to 4):</label>
+  <br/>
+  <small>Tip: Hold Ctrl/Cmd to select multiple</small>
+  <br/>
+  <select id="countrySelect" multiple size="8"></select>
+  <div id="notice"></div>
   <div id="report"></div>
   <script src="script.js"></script>
 </body>
