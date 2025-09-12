@@ -1,0 +1,159 @@
+{
+  "Categories": [
+    {
+      "Category": "Environment & Climate",
+      "Keys": [
+        {"Key": "Environment", "Guidance": "Overall environmental quality; protected areas; biodiversity."},
+        {"Key": "Global Warming Risk", "Guidance": "Sea-level, heatwaves, drought, wildfire, flood risk."},
+        {"Key": "Seasonal Weather", "Guidance": "Temp/precip by season; humidity; daylight; storms."},
+        {"Key": "Air Quality", "Guidance": "PM2.5 annual average; seasonal spikes."},
+        {"Key": "Natural Disasters", "Guidance": "Earthquake/volcano/hurricane exposure; building codes."}
+      ]
+    },
+    {
+      "Category": "Nature & Outdoors",
+      "Keys": [
+        {"Key": "Beach Life", "Guidance": "Access, cleanliness, crowding, amenities, safety."},
+        {"Key": "Seasonal Beach Water Temp", "Guidance": "Monthly SST; comfortable swim months."},
+        {"Key": "Natural Beauty", "Guidance": "Landscapes, parks, hiking, diving; ease of access."}
+      ]
+    },
+    {
+      "Category": "Work Opportunities",
+      "Keys": [
+        {"Key": "Minimum Wage", "Guidance": "National/sectoral; enforcement; living wage comparison."},
+        {"Key": "Typical Software Salaries", "Guidance": ".NET / Ruby / Game dev ranges; senior vs. mid."},
+        {"Key": ".NET Work Prospects", "Guidance": "Market demand; top employers; remote vs. onsite."},
+        {"Key": "Ruby Work Prospects", "Guidance": "Market demand; key sectors; frameworks in use."},
+        {"Key": "Employer Visa Sponsorship", "Guidance": "Common/rare; processing reliability."},
+        {"Key": "Economic Health", "Guidance": "GDP growth, unemployment, inflation snapshot."},
+        {"Key": "Remote-Friendly Culture", "Guidance": "Hybrid norms; coworking; time-zone alignment."}
+      ]
+    },
+    {
+      "Category": "Work-Life Balance",
+      "Keys": [
+        {"Key": "Work-Life Balance", "Guidance": "Cultural norms; after-hours boundaries."},
+        {"Key": "Work Week Hours", "Guidance": "Statutory vs. typical; overtime norms."},
+        {"Key": "Vacation Days (Minimum)", "Guidance": "Legal floor incl. public holidays."},
+        {"Key": "Vacation Days (Typical)", "Guidance": "Common practice for tech roles."},
+        {"Key": "Pace of Life", "Guidance": "City vs. regional differences; commute times."}
+      ]
+    },
+    {
+      "Category": "Family Friendliness",
+      "Keys": [
+        {"Key": "Family Life", "Guidance": "Family-friendly amenities; school schedules; work-family balance."},
+        {"Key": "Polyamory", "Guidance": "Social acceptance; legal risks; custody implications."},
+        {"Key": "Parenting Expectations", "Guidance": "Discipline norms; extracurricular load; autonomy."},
+        {"Key": "Child-Friendliness of Cities", "Guidance": "Playgrounds, parks, cafes; breastfeeding norms."},
+        {"Key": "Schooling Options", "Guidance": "Public vs. private; language tracks; international schools."}
+      ]
+    },
+    {
+      "Category": "Gender Equality & Norms",
+      "Keys": [
+        {"Key": "Gender Roles", "Guidance": "Traditional vs. egalitarian norms."},
+        {"Key": "Gender Fluidity", "Guidance": "Social visibility; non-binary recognition."},
+        {"Key": "Gender Rights", "Guidance": "Legal protections; workplace equality; parental leave."},
+        {"Key": "Femininity Norms", "Guidance": "Appearance, behavior expectations; safety."},
+        {"Key": "Masculinity Norms", "Guidance": "Work, emotion, caregiving expectations."}
+      ]
+    },
+    {
+      "Category": "Culture & Values Fit",
+      "Keys": [
+        {"Key": "What Is Intriguing", "Guidance": "Unique cultural draws; lifestyle perks."},
+        {"Key": "Language & English Ubiquity", "Guidance": "English proficiency; necessity of local language."},
+        {"Key": "Progressivism", "Guidance": "Social liberalism; civil liberties; inclusion."},
+        {"Key": "Marxism (Societal Attitudes)", "Guidance": "Public discourse; historical context."},
+        {"Key": "Atheism", "Guidance": "Prevalence; social acceptance; religious diversity."},
+        {"Key": "Sex (Attitudes)", "Guidance": "Public norms; sex education; media openness."},
+        {"Key": "LGBTQ+ Attitudes", "Guidance": "Social acceptance; legal protections (see Rights below)."},
+        {"Key": "Community Vibes", "Guidance": "Friendliness to newcomers; social clubs; expat density."},
+        {"Key": "View of self", "Guidance": "How do they generally view themselves."},
+        {"Key": "View of Neighboring Countries", "Guidance": "How do they generally view their neighboring countries."},
+        {"Key": "View of Them by Neighboring Countries", "Guidance": "How do neighboring countries generally view them."}
+      ]
+    },
+    {
+      "Category": "Entertainment & Community",
+      "Keys": [
+        {"Key": "Common Hobbies", "Guidance": "Popular pastimes; outdoor/indoor balance."},
+        {"Key": "Boardgaming & Tabletop", "Guidance": "FLGS density; clubs; conventions; cafes."},
+        {"Key": "Nightlife & Music", "Guidance": "Venues; noise norms; live scenes."},
+        {"Key": "Meetups & Communities", "Guidance": "Tech, game dev, parenting, LGBTQ+, poly groups."},
+        {"Key": "Nature Access", "Guidance": "Day-trip options; weekend getaways."}
+      ]
+    },
+    {
+      "Category": "Governance & Stability",
+      "Keys": [
+        {"Key": "Political System", "Guidance": "Structure; party dynamics; electoral fairness."},
+        {"Key": "Religion in Politics", "Guidance": "Secularism; clerical influence."},
+        {"Key": "Workers' Rights", "Guidance": "Unions, protections, termination norms, non-competes."},
+        {"Key": "State Ideology", "Guidance": "Marxism/Socialism/Capitalism in practice and rhetoric."},
+        {"Key": "Authoritarian Backsliding Risk", "Guidance": "Media freedom; judiciary independence."},
+        {"Key": "State of Capitalism", "Guidance": "Market competition; monopolies; SME friendliness."},
+        {"Key": "Stability", "Guidance": "Political and economic stability; protest risk."},
+        {"Key": "Propaganda Prevalence", "Guidance": "State/private media narratives; disinfo exposure."},
+        {"Key": "Propaganda Messaging", "Guidance": "Common themes; impact on daily life."},
+        {"Key": "Social Policies", "Guidance": "Reproductive rights; LGBTQ+ rights; antidiscrimination."},
+        {"Key": "Trust in Government", "Guidance": "Surveys; participation; service reliability."},
+        {"Key": "Perceived Corruption", "Guidance": "CPI rank; enforcement; transparency."},
+        {"Key": "Type of Corruption", "Guidance": "Petty vs. grand; sectors affected."},
+        {"Key": "Housing Situation", "Guidance": "Availability; renting norms; tenant protections; prices."},
+        {"Key": "Safety & Crime", "Guidance": "Violent/property crime; hate crime risk; policing."}
+      ]
+    },
+    {
+      "Category": "Public Services (Health/Edu/Transit)",
+      "Keys": [
+        {"Key": "Healthcare (Citizens)", "Guidance": "Coverage model; quality; access times; costs."},
+        {"Key": "Healthcare (Visa Holders)", "Guidance": "Eligibility; insurance requirements; wait times."},
+        {"Key": "Child Care Support", "Guidance": "Subsidies; availability; quality; costs."},
+        {"Key": "Family Policy (Common Family)", "Guidance": "Typical household structures; benefits."},
+        {"Key": "Education", "Guidance": "K-12 quality; higher ed; language of instruction; costs."},
+        {"Key": "Public Transportation", "Guidance": "Coverage, frequency, reliability; car dependency."}
+      ]
+    },
+    {
+      "Category": "Financial & Tax",
+      "Keys": [
+        {"Key": "Economic System", "Guidance": "Market characteristics; social safety nets."},
+        {"Key": "Retirement (Immigrants)", "Guidance": "Access to pensions; portability; private options."},
+        {"Key": "How Taxes Are Handled", "Guidance": "Filing process; PAYE; joint vs. individual."},
+        {"Key": "Expected Tax Rate (Our Family)", "Guidance": "Income bands; social contributions; credits."},
+        {"Key": "Banking & Payments", "Guidance": "Account access for migrants; fees; mobile wallets."},
+        {"Key": "Cost of Living (Optional)", "Guidance": "Housing, groceries, transit vs. benchmark city."}
+      ]
+    },
+    {
+      "Category": "Migration & Residency",
+      "Keys": [
+        {"Key": "Visa Paths", "Guidance": "Work, startup, family, student; eligibility and quotas."},
+        {"Key": "Welcoming of US Migrants", "Guidance": "Social attitudes; official stance."},
+        {"Key": "Residency Types & Durations", "Guidance": "TRP/PR; renewals; physical presence rules."},
+        {"Key": "Path to Citizenship", "Guidance": "Timelines; tests; dual citizenship policy."},
+        {"Key": "Family Members", "Guidance": "Work authorization for partner; dependents' schooling."},
+        {"Key": "Timelines & Costs", "Guidance": "Processing times; fees; legal assistance norms."},
+        {"Key": "Compliance & Risks", "Guidance": "Overstay penalties; tax residency triggers."}
+      ]
+    },
+    {
+      "Category": "Startup & Game Dev Ecosystem",
+      "Keys": [
+        {"Key": "Game Dev Work Prospects", "Guidance": "Openings; indie vs. AAA; publishing ecosystem."},
+        {"Key": "Notable Game Studios", "Guidance": "Names, locations, size; hiring climate."},
+        {"Key": "Notable Game Development Communities", "Guidance": "Names, locations, size; value proposition."},
+        {"Key": "Opportunities for Video Game Startup", "Guidance": "Visas, grants, incubators, publishers."}
+      ]
+    },
+    {
+      "Category": "Modernity & Infrastructure",
+      "Keys": [
+        {"Key": "Modernity & Infrastructure", "Guidance": "Internet speed; payments; e-gov; grid."}
+      ]
+    }
+  ]
+}
