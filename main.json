@@ -22,6 +22,22 @@
         {
           "Key": "Natural Disasters",
           "Guidance": "Earthquake/volcano/hurricane exposure; building codes."
+        },
+        {
+          "Key": "Spring Temperature Range (°C/°F)",
+          "Guidance": "Typical min–max daytime temps; note humidity and rain."
+        },
+        {
+          "Key": "Summer Temperature Range (°C/°F)",
+          "Guidance": "Typical min–max; comment on humidity/heat index and nights."
+        },
+        {
+          "Key": "Fall Temperature Range (°C/°F)",
+          "Guidance": "Typical min–max; onset of rains/winds; daylight changes."
+        },
+        {
+          "Key": "Winter Temperature Range (°C/°F)",
+          "Guidance": "Typical min–max; snow/ice frequency; damp cold vs dry cold."
         }
       ]
     },
@@ -97,6 +113,14 @@
         {
           "Key": "Pace of Life",
           "Guidance": "City vs. regional differences; commute times."
+        },
+        {
+          "Key": "Typical Workday Schedule (Family of Four)",
+          "Guidance": "Common school/work hours; lunch length; after-school care patterns."
+        },
+        {
+          "Key": "Typical Weekend Schedule (Family of Four)",
+          "Guidance": "Typical weekend rhythms; opening hours; family activities."
         }
       ]
     },
@@ -122,6 +146,46 @@
         {
           "Key": "Schooling Options",
           "Guidance": "Public vs. private; language tracks; international schools."
+        },
+        {
+          "Key": "Pre‑K / Early Childcare Landscape",
+          "Guidance": "What care looks like before public school: availability, hours, costs."
+        },
+        {
+          "Key": "Childcare Support (Citizens)",
+          "Guidance": "Subsidies/vouchers/leave for citizens; eligibility and amounts."
+        },
+        {
+          "Key": "Childcare Support (Visa Holders)",
+          "Guidance": "Access for non-citizens; waiting periods; documentation hurdles."
+        },
+        {
+          "Key": "K‑12 Education Access (Citizens)",
+          "Guidance": "Enrollment ease; zoning; costs; secular options."
+        },
+        {
+          "Key": "K‑12 Education Access (Visa Holders)",
+          "Guidance": "Eligibility by status; fees; language support; secular options."
+        },
+        {
+          "Key": "Private Education",
+          "Guidance": "Availability; typical costs; secular vs denominational; admissions."
+        },
+        {
+          "Key": "Family Policy (Citizens)",
+          "Guidance": "Parental leave, child benefits, tax credits for citizens."
+        },
+        {
+          "Key": "Family Policy (Visa Holders)",
+          "Guidance": "Which benefits extend to temporary residents; waiting periods."
+        },
+        {
+          "Key": "Higher Education Access (Citizens)",
+          "Guidance": "Tuition, financial aid, admission competitiveness for citizens."
+        },
+        {
+          "Key": "Higher Education Access (Visa Holders)",
+          "Guidance": "Eligibility, international tuition, scholarships for non-citizens."
         }
       ]
     },
@@ -196,6 +260,18 @@
         {
           "Key": "View of Them by Neighboring Countries",
           "Guidance": "How do neighboring countries generally view them."
+        },
+        {
+          "Key": "Nightlife Culture",
+          "Guidance": "Evening norms; venues; safety; opening hours; family-friendliness."
+        },
+        {
+          "Key": "Fashion Trends (Male)",
+          "Guidance": "Prevailing attractive styles; modesty norms; body positivity; swimwear."
+        },
+        {
+          "Key": "Fashion Trends (Female)",
+          "Guidance": "Prevailing attractive styles; modesty norms; body positivity; swimwear."
         }
       ]
     },
@@ -326,10 +402,6 @@
           "Guidance": "Market characteristics; social safety nets."
         },
         {
-          "Key": "Retirement (Immigrants)",
-          "Guidance": "Access to pensions; portability; private options."
-        },
-        {
           "Key": "How Taxes Are Handled",
           "Guidance": "Filing process; PAYE; joint vs. individual."
         },
@@ -344,6 +416,14 @@
         {
           "Key": "Cost of Living (Optional)",
           "Guidance": "Housing, groceries, transit vs. benchmark city."
+        },
+        {
+          "Key": "Retirement (Citizens)",
+          "Guidance": "State/occupational pensions for citizens; private pillars."
+        },
+        {
+          "Key": "Retirement (Visa Holders)",
+          "Guidance": "Eligibility for temporary/permanent residents; portability."
         }
       ]
     },
@@ -364,7 +444,7 @@
         },
         {
           "Key": "Path to Citizenship",
-          "Guidance": "Timelines; tests; dual citizenship policy."
+          "Guidance": "Timelines; residency years; language/civics tests."
         },
         {
           "Key": "Family Members",
@@ -377,6 +457,14 @@
         {
           "Key": "Compliance & Risks",
           "Guidance": "Overstay penalties; tax residency triggers."
+        },
+        {
+          "Key": "Dual Citizenship Allowed",
+          "Guidance": "Whether dual nationality is recognized; restrictions and exceptions."
+        },
+        {
+          "Key": "General Considerations for Visa Holders",
+          "Guidance": "Restrictions affecting schooling, benefits, banking, housing, travel."
         }
       ]
     },
