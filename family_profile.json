@@ -114,10 +114,11 @@
   "preferences": {
     "urbanicity": [
       "urban",
-      "inner‑suburban"
+      "inner-suburban"
     ],
-    "beach": "optional / nice‑to‑have",
-    "housing": "family‑friendly neighborhoods; parks and walkability appreciated"
+    "beach": "optional / nice-to-have",
+    "housing": "family-friendly neighborhoods; parks and walkability appreciated",
+    "climate": "dislike humid Midwestern summers and extreme winters; prefer mild year-round; summers >85°F are acceptable if not humid"
   },
   "child_needs": {
     "ages": [
@@ -125,6 +126,7 @@
       1
     ],
     "education": "quality public schools; early childhood programs; bilingual exposure acceptable",
+    "school_ethos": "secular / non-denominational preferred",
     "childcare": "affordable, reliable childcare important",
     "healthcare": "universal/affordable healthcare preferred",
     "safety": "low crime; social cohesion valued"
@@ -162,6 +164,11 @@
         "remote or hybrid options"
       ]
     }
+  },
+  "immigration": {
+    "passports": ["US"],
+    "prior_visas": [],
+    "first_time_visa_applicants": true
   },
   "financials": {
     "home_equity_usd": 200000,
