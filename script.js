@@ -16,12 +16,13 @@ async function loadMain() {
     fetchCountry(country.file).then(data => {
       const flag = data && data.iso ? isoToFlagEmoji(String(data.iso)) : '';
       option.dataset.iso = data && data.iso ? String(data.iso) : '';
-      option.textContent = flag ? `${flag} ${country.name}` : country.name;
+      // Keep text to name only; options don't render images reliably
+      option.textContent = country.name;
     }).catch(() => {});
   });
 
   // Multi-select: handle up to 4
-  select.addEventListener('change', () => handleSelection(select, mainData, notice));
+  select.addEventListener('change', () => { handleSelection(select, mainData, notice); updateSelectionPreview(select); });
 
   // Toolbar toggles
   const diffToggle = document.getElementById('diffToggle');
@@ -59,6 +60,7 @@ async function loadMain() {
     // Default to first country selected
     select.options[0].selected = true;
     handleSelection(select, mainData, notice);
+    updateSelectionPreview(select);
   }
 }
 
@@ -185,9 +187,14 @@ async function renderComparison(selectedList, mainData, options = {}) {
   headRow.appendChild(thLeft);
   datasets.forEach(ds => {
     const th = document.createElement('th');
-    const flag = ds.data && ds.data.iso ? isoToFlagEmoji(String(ds.data.iso)) : '';
-    th.textContent = flag ? `${flag} ${ds.name}` : ds.name;
     th.className = 'country-header';
+    const wrap = document.createElement('span');
+    if (ds.data && ds.data.iso) {
+      const img = createFlagImg(ds.data.iso, 18);
+      if (img) wrap.appendChild(img);
+    }
+    wrap.appendChild(document.createTextNode(ds.name));
+    th.appendChild(wrap);
     headRow.appendChild(th);
   });
   thead.appendChild(headRow);
@@ -402,5 +409,41 @@ function appendTextWithLinks(parent, text) {
   if (lastIndex < text.length) {
     parent.appendChild(document.createTextNode(text.slice(lastIndex)));
   }
+}
+
+// Create an <img> for a country ISO code using a public flag CDN (SVG)
+function createFlagImg(iso, width = 18) {
+  if (!iso || typeof iso !== 'string') return null;
+  const lower = iso.toLowerCase();
+  // FlagCDN SVG endpoint
+  const url = `https://flagcdn.com/${lower}.svg`;
+  const img = document.createElement('img');
+  img.src = url;
+  img.alt = `${iso} flag`;
+  img.className = 'flag-icon';
+  img.width = width;
+  img.height = Math.round(width * (2/3));
+  img.loading = 'lazy';
+  img.decoding = 'async';
+  return img;
+}
+
+// Update the preview list of selected countries with flags in the sidebar
+function updateSelectionPreview(selectEl) {
+  const preview = document.getElementById('selectionPreview');
+  if (!preview) return;
+  preview.innerHTML = '';
+  const selected = Array.from(selectEl.selectedOptions);
+  selected.forEach(opt => {
+    const iso = (opt.dataset && opt.dataset.iso) ? String(opt.dataset.iso) : '';
+    const row = document.createElement('div');
+    row.className = 'selection-item';
+    if (iso) {
+      const img = createFlagImg(iso, 18);
+      if (img) row.appendChild(img);
+    }
+    row.appendChild(document.createTextNode(opt.dataset.name || opt.textContent));
+    preview.appendChild(row);
+  });
 }
 

@@ -94,6 +94,10 @@
       color: #ffffff;
     }
     .toggle input { accent-color: var(--md-color-primary); }
+    .flag-icon { width: 18px; height: 12px; border-radius: 2px; object-fit: cover; box-shadow: 0 0 0 1px rgba(0,0,0,0.06); }
+    th.country-header .flag-icon { margin-right: 6px; vertical-align: -2px; }
+    .selection-preview { margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
+    .selection-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--md-color-on-surface); }
     .hero { background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 45%, #10b981 100%); color: #fff; padding: 14px 16px; border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.15); }
     .hero-full { border-radius: 0; padding: 18px 0; }
     .hero-full .hero-inner h1 { margin: 0; font-size: 24px; }
@@ -300,6 +304,7 @@
         <label class="toggle"><input type="checkbox" id="densityToggle"/> Compact density</label>
         <label class="toggle"><input type="checkbox" id="themeToggle"/> Dark mode</label>
       </div>
+      <div id="selectionPreview" class="selection-preview"></div>
     </aside>
     <main class="content">
       <div id="report"></div>
