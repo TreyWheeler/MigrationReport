@@ -97,19 +97,14 @@ async function loadCountry(file, mainData) {
     category.Keys.forEach(keyObj => {
       const li = document.createElement('li');
       li.className = 'score-item';
-      const dot = document.createElement('span');
-      dot.className = 'score-dot';
       const key = keyObj.Key;
       const match = countryData.values.find(v => v.key === key);
       const hasText = match && typeof match.alignmentText === 'string' && match.alignmentText.trim().length > 0;
+      const chip = makeScoreChip(hasText ? Number(match.alignmentValue) : null);
+      li.appendChild(chip);
       if (match && hasText) {
-        const score = Number(match.alignmentValue);
-        dot.style.backgroundColor = colorForScore(score);
-        li.appendChild(dot);
-        li.appendChild(document.createTextNode(`${key}: ${match.alignmentText} (Score: ${match.alignmentValue})`));
+        li.appendChild(document.createTextNode(`${key}: ${match.alignmentText}`));
       } else {
-        dot.style.backgroundColor = '#cccccc';
-        li.appendChild(dot);
         li.appendChild(document.createTextNode(`${key}: No data`));
       }
       ul.appendChild(li);
@@ -132,6 +127,10 @@ async function renderComparison(selectedList, mainData) {
     file: s.file,
     data: await fetchCountry(s.file)
   })));
+
+  // Legend
+  const legend = buildLegend();
+  reportDiv.appendChild(legend);
 
   const table = document.createElement('table');
   table.className = 'comparison-table';
@@ -180,19 +179,13 @@ async function renderComparison(selectedList, mainData) {
 
         const wrap = document.createElement('div');
         wrap.className = 'cell-inner';
-        const dot = document.createElement('span');
-        dot.className = 'score-dot';
         let contentText = 'No data';
 
+        const chip = makeScoreChip(hasText ? Number(match.alignmentValue) : null);
+        wrap.appendChild(chip);
         if (hasText) {
-          const score = Number(match.alignmentValue);
-          dot.style.backgroundColor = colorForScore(score);
-          contentText = `${match.alignmentText} (Score: ${match.alignmentValue})`;
-        } else {
-          dot.style.backgroundColor = '#cccccc';
+          contentText = match.alignmentText;
         }
-
-        wrap.appendChild(dot);
         wrap.appendChild(document.createTextNode(contentText));
         td.appendChild(wrap);
         tr.appendChild(td);
@@ -209,5 +202,73 @@ async function renderComparison(selectedList, mainData) {
   wrap.className = 'table-wrap';
   wrap.appendChild(table);
   reportDiv.appendChild(wrap);
+}
+
+// Determine score bucket and class/label
+function getScoreBucket(score) {
+  const num = Number(score);
+  if (!isFinite(num) || num <= 0) return { key: 'muted', label: 'No data' };
+  if (num <= 3) return { key: 'red', label: '0-3' };
+  if (num <= 6) return { key: 'orange', label: '4-6' };
+  if (num === 7) return { key: 'yellow', label: '7' };
+  return { key: 'green', label: '8-10' };
+}
+
+function createScoreChip(score) {
+  const span = document.createElement('span');
+  const bucket = getScoreBucket(score);
+  span.className = `score-chip bucket-${bucket.key}`;
+  const n = Number(score);
+  if (isFinite(Number(score))) {
+    span.textContent = String(Number(score));
+    span.title = `Score: ${Number(score)} - ${bucket.label}`;
+    span.title = `Score: ${score} • ${bucket.label}`;
+  } else {
+    span.textContent = '—';
+    span.title = 'No data';
+  }
+  if (isFinite(n)) {
+    // Ensure a clean ASCII title regardless of earlier assignments
+    span.title = `Score: ${n} - ${bucket.label}`;
+  }
+  return span;
+}
+
+function buildLegend() {
+  const legend = document.createElement('div');
+  legend.className = 'legend';
+  const items = [
+    { score: 2, text: '0-3 (Poor)' },
+    { score: 5, text: '4-6 (Mixed)' },
+    { score: 7, text: '7 (Caution)' },
+    { score: 9, text: '8-10 (Strong)' },
+    { score: null, text: 'No data' }
+  ];
+  items.forEach(it => {
+    const wrap = document.createElement('span');
+    wrap.className = 'legend-item';
+    wrap.appendChild(makeScoreChip(it.score));
+    const label = document.createElement('span');
+    label.textContent = it.text;
+    wrap.appendChild(label);
+    legend.appendChild(wrap);
+  });
+  return legend;
+}
+
+// New score chip factory that treats 0 as No data (muted)
+function makeScoreChip(score) {
+  const span = document.createElement('span');
+  const bucket = getScoreBucket(score);
+  span.className = `score-chip bucket-${bucket.key}`;
+  const n = Number(score);
+  if (!isFinite(n) || n <= 0) {
+    span.textContent = '—';
+    span.title = 'No data';
+  } else {
+    span.textContent = String(n);
+    span.title = `Score: ${n} - ${bucket.label}`;
+  }
+  return span;
 }
 

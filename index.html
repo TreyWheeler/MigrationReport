@@ -4,6 +4,55 @@
   <meta charset="UTF-8">
   <title>Migration Report</title>
   <style>
+    :root {
+      --md-font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      --md-color-surface: #ffffff;
+      --md-color-surface-variant: #f5f5f7;
+      --md-color-background: #f3f4f6;
+      --md-color-on-surface: #111827;
+      --md-color-outline: #e0e0e0;
+      --md-color-primary: #2962ff;
+
+      /* Score palette (Material-ish) */
+      --score-red: #d32f2f;      /* Red 700 */
+      --score-orange: #f57c00;   /* Orange 700 */
+      --score-yellow: #ffc107;   /* Amber 500 */
+      --score-green: #388e3c;    /* Green 700 */
+      --score-muted: #87CEEB;    /* SkyBlue */
+      --score-muted-text: #0b3954; /* Dark teal for contrast */
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--md-color-background);
+      color: var(--md-color-on-surface);
+      font-family: var(--md-font-family);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1 {
+      font-size: 22px;
+      margin: 16px 0 8px;
+    }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 12px 16px 24px; }
+    .controls { display: block; margin-bottom: 8px; }
+    #countrySelect {
+      width: 100%;
+      max-width: 520px;
+      background: var(--md-color-surface);
+      border: 1px solid var(--md-color-outline);
+      border-radius: 8px;
+      padding: 6px 8px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+    }
+    #countrySelect:focus {
+      outline: none;
+      border-color: var(--md-color-primary);
+      box-shadow: 0 0 0 3px rgba(41,98,255,0.15);
+    }
     /* Remove default bullets for data lists */
     ul.score-list {
       list-style: none;
@@ -58,9 +107,13 @@
       z-index: 4;
     }
     tr.category-header-row th {
-      background: #f0f0f0;
-      font-weight: 600;
+      background: #1f2937; /* slate-800 */
+      color: #ffffff;
+      font-weight: 700;
       text-align: left;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      font-size: 12.5px;
     }
     td.key-cell {
       font-weight: 600;
@@ -68,12 +121,16 @@
       white-space: normal;
       position: sticky;
       left: 0;
-      background: #fff;
+      background: var(--md-color-surface);
       z-index: 2;
     }
     td.value-cell {
       width: auto;
     }
+    /* Zebra rows and hover */
+    .comparison-table tbody tr:nth-child(odd) td { background: var(--md-color-surface); }
+    .comparison-table tbody tr:nth-child(even) td { background: var(--md-color-surface-variant); }
+    .comparison-table tbody tr:hover td { background: #eef3ff; }
     .cell-inner {
       display: flex;
       align-items: center;
@@ -83,24 +140,54 @@
     .table-wrap {
       max-height: 70vh;
       overflow: auto;
-      border: 1px solid #ddd;
+      border: 1px solid var(--md-color-outline);
+      border-radius: 12px;
+      background: var(--md-color-surface);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.08);
     }
     #notice {
       color: #a33;
       margin-top: 6px;
       font-size: 12px;
     }
+    /* Score chips */
+    .score-chip {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 28px;
+      height: 22px;
+      padding: 0 8px;
+      border-radius: 9999px;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 1;
+      letter-spacing: 0.02em;
+      box-shadow: inset 0 -1px 0 rgba(0,0,0,0.08);
+    }
+    .bucket-red { background: var(--score-red); color: #fff; }
+    .bucket-orange { background: var(--score-orange); color: #111; }
+    .bucket-yellow { background: var(--score-yellow); color: #111; }
+    .bucket-green { background: var(--score-green); color: #fff; }
+    .bucket-muted { background: var(--score-muted); color: var(--score-muted-text); }
+    /* Legend */
+    .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 8px 0 4px; font-size: 12px; color: #444; }
+    .legend-item { display: inline-flex; align-items: center; gap: 6px; }
   </style>
 </head>
 <body>
-  <h1>Migration Report</h1>
-  <label for="countrySelect">Select Countries (up to 4):</label>
-  <br/>
-  <small>Tip: Hold Ctrl/Cmd to select multiple</small>
-  <br/>
-  <select id="countrySelect" multiple size="8"></select>
-  <div id="notice"></div>
-  <div id="report"></div>
+  <div class="container">
+    <h1>Migration Report</h1>
+    <div class="controls">
+      <label for="countrySelect">Select Countries (up to 4):</label>
+      <br/>
+      <small>Tip: Hold Ctrl/Cmd to select multiple</small>
+      <br/>
+      <select id="countrySelect" multiple size="8"></select>
+      <div id="notice"></div>
+    </div>
+    <div id="report"></div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
