@@ -245,7 +245,7 @@
     }
 
     /* Floating header overlay (replaces sticky thead for reliability) */
-    .floating-header { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid #ddd; visibility: hidden; opacity: 0; pointer-events: none; transition: opacity 120ms ease; }
+    .floating-header { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid #ddd; visibility: hidden; opacity: 0; pointer-events: none; transition: opacity 120ms ease; height:0px; }
     .floating-header.visible { visibility: visible; opacity: 1; pointer-events: auto; }
     .floating-row { display: grid; align-items: center; background: #f7f7f7; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
     .floating-row .fh-cell { padding: 6px 8px; border-right: 1px solid #ddd; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
