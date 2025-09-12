@@ -97,8 +97,7 @@
     .toggle input { accent-color: var(--md-color-primary); }
     .flag-icon { width: 18px; height: 12px; border-radius: 2px; object-fit: cover; box-shadow: 0 0 0 1px rgba(0,0,0,0.06); }
     th.country-header .flag-icon { margin-right: 6px; vertical-align: -2px; }
-    .selection-preview { margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
-    .selection-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--md-color-on-surface); }
+    /* selection preview removed */
     /* Custom country list */
     .country-list { display: flex; flex-direction: column; gap: 6px; padding: 8px; border: 1px solid var(--md-color-outline); border-radius: 12px; background: var(--md-color-surface); max-height: 60vh; overflow: auto; }
     .country-item { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border: 1px solid var(--md-color-outline); border-radius: 10px; background: var(--md-color-surface); cursor: pointer; user-select: none; }
@@ -316,7 +315,7 @@
         <label class="toggle"><input type="checkbox" id="densityToggle"/> Compact density</label>
         <label class="toggle"><input type="checkbox" id="themeToggle"/> Dark mode</label>
       </div>
-      <div id="selectionPreview" class="selection-preview"></div>
+      
     </aside>
     <main class="content">
       <div id="report"></div>

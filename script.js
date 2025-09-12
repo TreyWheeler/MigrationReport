@@ -25,7 +25,6 @@ async function loadMain() {
     }));
     renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
     updateCountryListSelection(listEl);
-    updateSelectionPreviewFromSelected(appState.selected);
   } catch {}
 
   // Toolbar toggles
@@ -82,7 +81,6 @@ async function fetchCountry(file) {
 function onSelectionChanged(mainData, notice) {
   const selected = appState.selected;
   if (!selected || selected.length === 0) return;
-  updateSelectionPreviewFromSelected(selected);
   renderComparison(selected, mainData, { diffEnabled: getStored('diffEnabled', false) });
 }
 
@@ -493,20 +491,5 @@ function updateSelectionPreview(selectEl) {
   });
 }
 
-// New preview updater for custom picker: takes selected items array
-function updateSelectionPreviewFromSelected(selectedList) {
-  const preview = document.getElementById('selectionPreview');
-  if (!preview) return;
-  preview.innerHTML = '';
-  selectedList.forEach(it => {
-    const row = document.createElement('div');
-    row.className = 'selection-item';
-    if (it.iso) {
-      const img = createFlagImg(it.iso, 18);
-      if (img) row.appendChild(img);
-    }
-    row.appendChild(document.createTextNode(it.name));
-    preview.appendChild(row);
-  });
-}
+// selection preview removed
 
