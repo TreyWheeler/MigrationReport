@@ -144,6 +144,19 @@ async function loadCountry(file, mainData) {
   const reportDiv = document.getElementById('report');
   reportDiv.innerHTML = '';
 
+  // Normalize key strings to avoid Unicode-degree/encoding mismatches in lookups
+  const canonKey = (s) => {
+    try {
+      let t = typeof s === 'string' ? s : '';
+      if (t.normalize) t = t.normalize('NFKC');
+      // Remove degree-like or replacement chars sometimes seen as '°', '�', or '?' before C/F
+      t = t.replace(/[°�?]/g, '');
+      t = t.toLowerCase();
+      t = t.replace(/\s+/g, ' ').trim();
+      return t;
+    } catch { return String(s || ''); }
+  };
+
   mainData.Categories.forEach(category => {
     const catHeader = document.createElement('h2');
     catHeader.textContent = category.Category;
@@ -156,7 +169,7 @@ async function loadCountry(file, mainData) {
       const li = document.createElement('li');
       li.className = 'score-item';
       const key = keyObj.Key;
-      const match = countryData.values.find(v => v.key === key);
+      const match = countryData.values.find(v => canonKey(v.key) === canonKey(key));
       const hasText = match && typeof match.alignmentText === 'string' && match.alignmentText.trim().length > 0;
       const chip = makeScoreChip(hasText ? Number(match.alignmentValue) : null);
       li.appendChild(chip);
@@ -233,6 +246,18 @@ async function renderComparison(selectedList, mainData, options = {}) {
 
   const tbody = document.createElement('tbody');
 
+  // Normalize key strings to avoid Unicode-degree/encoding mismatches in lookups
+  const canonKey = (s) => {
+    try {
+      let t = typeof s === 'string' ? s : '';
+      if (t.normalize) t = t.normalize('NFKC');
+      t = t.replace(/[°�?]/g, '');
+      t = t.toLowerCase();
+      t = t.replace(/\s+/g, ' ').trim();
+      return t;
+    } catch { return String(s || ''); }
+  };
+
   mainData.Categories.forEach(category => {
     // Category header row
     const catRow = document.createElement('tr');
@@ -253,7 +278,7 @@ async function renderComparison(selectedList, mainData, options = {}) {
 
       // Precompute per-country values for this key
       const perCountry = datasets.map(ds => {
-        const match = ds.data.values.find(v => v.key === keyObj.Key);
+        const match = ds.data.values.find(v => canonKey(v.key) === canonKey(keyObj.Key));
         const hasText = match && typeof match.alignmentText === 'string' && match.alignmentText.trim().length > 0;
         const numeric = hasText ? Number(match.alignmentValue) : NaN;
         const bucket = getScoreBucket(numeric);
