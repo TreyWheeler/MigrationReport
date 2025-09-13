@@ -171,13 +171,15 @@ async function loadCountry(file, mainData) {
       const key = keyObj.Key;
       const match = countryData.values.find(v => canonKey(v.key) === canonKey(key));
       const hasText = match && typeof match.alignmentText === 'string' && match.alignmentText.trim().length > 0;
-      const chip = makeScoreChip(hasText ? Number(match.alignmentValue) : null);
+      const numeric = match ? Number(match.alignmentValue) : NaN;
+      const chip = makeScoreChip(match ? numeric : null);
       li.appendChild(chip);
       if (match && hasText) {
         li.appendChild(document.createTextNode(`${key}: `));
         appendTextWithLinks(li, match.alignmentText);
       } else {
-        li.appendChild(document.createTextNode(`${key}: No data`));
+        const label = (match && Number(match.alignmentValue) === -1) ? 'Unknown' : 'No data';
+        li.appendChild(document.createTextNode(`${key}: ${label}`));
       }
       ul.appendChild(li);
     });
@@ -280,7 +282,7 @@ async function renderComparison(selectedList, mainData, options = {}) {
       const perCountry = datasets.map(ds => {
         const match = ds.data.values.find(v => canonKey(v.key) === canonKey(keyObj.Key));
         const hasText = match && typeof match.alignmentText === 'string' && match.alignmentText.trim().length > 0;
-        const numeric = hasText ? Number(match.alignmentValue) : NaN;
+        const numeric = match ? Number(match.alignmentValue) : NaN;
         const bucket = getScoreBucket(numeric);
         return { match, hasText, numeric, bucketKey: bucket.key };
       });
@@ -301,12 +303,13 @@ async function renderComparison(selectedList, mainData, options = {}) {
         wrap.className = 'cell-inner';
         let contentText = 'No data';
 
-        const chip = makeScoreChip(hasText ? Number(match.alignmentValue) : null);
+        const chip = makeScoreChip(match ? info.numeric : null);
         wrap.appendChild(chip);
         if (hasText) {
           appendTextWithLinks(wrap, match.alignmentText);
         } else {
-          wrap.appendChild(document.createTextNode(contentText));
+          const label = (match && info.numeric === -1) ? 'Unknown' : 'No data';
+          wrap.appendChild(document.createTextNode(label));
         }
         td.appendChild(wrap);
         if (options.diffEnabled && counts.size > 1 && info.bucketKey !== majorityKey) {
@@ -421,7 +424,7 @@ function buildLegend() {
     { score: 5, text: '4-6 (Mixed)' },
     { score: 7, text: '7 (Caution)' },
     { score: 9, text: '8-10 (Strong)' },
-    { score: null, text: 'No data' }
+    { score: null, text: 'No Data or Unknown' }
   ];
   items.forEach(it => {
     const wrap = document.createElement('span');
@@ -442,8 +445,8 @@ function makeScoreChip(score) {
   span.className = `score-chip bucket-${bucket.key}`;
   const n = Number(score);
   if (!isFinite(n) || n <= 0) {
-    span.textContent = '—';
-    span.title = 'No data';
+    span.textContent = '-';
+    span.title = (n === -1) ? 'Unknown' : 'No data';
   } else {
     span.textContent = String(n);
     span.title = `Score: ${n} - ${bucket.label}`;

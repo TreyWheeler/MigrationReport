@@ -24,7 +24,8 @@ Follow these steps precisely and conservatively to maximize alignment accuracy.
 - Use the correct country `iso` code (two letters). If unknown, research; do not guess. If you truly cannot determine it, leave out the country until it’s known.
 
 3) Scoring and Text Guidance
-- alignmentValue scale (use integers 1–10; reserve 0 for “No data”):
+- alignmentValue scale (use integers 1-10; reserve 0 for "No data"):
+  - -1: Unknown (treated same color as No data in UI; leave alignmentText empty).
   - 0: No data (leave alignmentText empty string "").
   - 1–3: Poor fit or mostly negative for our family.
   - 4–6: Mixed/uncertain; notable trade‑offs or variability.
