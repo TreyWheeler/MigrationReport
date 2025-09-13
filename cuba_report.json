@@ -1,0 +1,540 @@
+{
+  "iso": "CU",
+  "values": [
+    {
+      "key": "Environment",
+      "alignmentText": "Rich biodiversity and preserved natural areas; urban infrastructure can be aged.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Caribbean location faces sea-level rise and stronger hurricanes.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Tropical: hot, humid summers; warm winters; pronounced wet/hurricane season.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Generally decent outside traffic corridors; limited heavy industry.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Regular hurricane exposure and coastal flooding risk.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Havana days ~27–31 C (81–88 F); humidity rises; rains increase in May [source](https://en.wikipedia.org/wiki/Havana#Climate).",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "Havana days ~31–33 C (88–91 F); very humid; frequent storms; hurricane season (Jun–Nov) [source](https://en.wikipedia.org/wiki/Havana#Climate).",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Havana days ~27–31 C (81–88 F); peak rains and hurricane risk in Sep–Oct; easing by Nov [source](https://en.wikipedia.org/wiki/Havana#Climate).",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Havana days ~25–27 C (77–81 F); drier season; cooler nights ~18–20 C (64–68 F) [source](https://en.wikipedia.org/wiki/Havana#Climate).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Outstanding beaches and warm Caribbean water; tourism amenities concentrated in hubs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Warm most of the year; most comfortable late spring through fall.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Lush landscapes, reefs, and scenic valleys; many outdoor options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Very low in global terms; limited purchasing power.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Low salary levels and limited private sector demand.",
+      "alignmentValue": 1
+    },
+    {
+      "key": ".NET Work Prospects",
+      "alignmentText": "Small market; few enterprise roles; public sector dominates.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Niche to non-existent; startup ecosystem constrained.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Rare for non-Cubans; regulatory and policy barriers.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Chronic constraints, sanctions, and shortages; limited growth.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Internet access improving but inconsistent; power and connectivity reliability vary.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Cultural emphasis on family and community, but practical constraints can add stress.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "",
+      "alignmentValue": -1
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "",
+      "alignmentValue": -1
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "",
+      "alignmentValue": -1
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Generally slower and community-oriented, especially outside Havana.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "",
+      "alignmentValue": -1
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "",
+      "alignmentValue": -1
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Strong community bonds and kid-friendly public spaces.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Limited social acceptance and no legal recognition.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Family-centric culture; schools emphasize structure and discipline.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Public areas are social and children are welcomed; infrastructure varies.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Public system is the default; international/private options are limited.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Availability varies; information for foreigners limited.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "State services exist but resources can be constrained.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "Access unclear for non-residents; limited information.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Universal access with strong emphasis on literacy and STEM.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "Eligibility and language support for foreigners unclear.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "Few private/international schools; admission options limited.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "Some family benefits; service quality depends on local capacity.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Benefits typically target citizens/residents; unclear extension to foreigners.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Tuition-free higher education for citizens; strong state role.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "Limited pathways for non-citizens; Spanish proficiency needed.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "More traditional norms persist alongside increased female workforce participation.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Visibility improving but constrained by broader social controls.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Legal frameworks exist but civil liberties environment limits advocacy.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Conventional presentation norms; urban areas somewhat more flexible.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Traditional expectations remain common; gradual shifts in cities.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Music, dance, and historic architecture; vibrant everyday culture.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "alignmentText": "Spanish is essential; English less common outside tourism hubs.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Some social services are universal, but civil liberties and pluralism are limited.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Official discourse favors socialist principles; market activity is restricted.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "State is secular; religious practice present but not dominant in policy.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Public norms are modest; sex education exists within state systems.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "alignmentText": "Legal changes have advanced in recent years; lived acceptance varies.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Welcoming, communal street life; relationships deepen through neighborhoods and schools.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "Resilient, proud, and culturally rich; emphasis on solidarity.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Regional outlook shaped by history and geopolitics.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Seen as culturally vibrant but politically isolated.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Music and dance scenes are a major draw; hours vary by locale.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "Practical, climate-appropriate attire; expressive in social settings.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Colorful, expressive fashion common; practicality in heat/humidity.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Music, dance, baseball, and community gatherings.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "alignmentText": "Limited visibility; small informal circles possible.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Nightlife & Music",
+      "alignmentText": "Globally renowned music traditions and live venues.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Meetups & Communities",
+      "alignmentText": "Grassroots meetups exist; tech/community groups limited online.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Beaches, reefs, and national parks are accessible from major cities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "One-party socialist state with constrained political pluralism.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Secular state; religion has limited policy influence.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Workers' Rights",
+      "alignmentText": "Codified labor rights but independent union activity is restricted.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "State-led socialist model; private enterprise tightly managed.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Authoritarian governance entrenched; very limited political freedoms.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "State-dominated economy with limited market mechanisms.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Regime stability amid economic volatility and shortages.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "State media dominates; restricted independent press.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Messaging emphasizes revolution, sovereignty, and social solidarity.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Broad access to education and healthcare; resource constraints affect quality.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Varies; public expression constrained; limited independent polling.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Difficult to assess transparently; data limited.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Bureaucratic and petty corruption can occur in constrained economies.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Aging housing stock; private rental/ownership options limited for foreigners.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Safety & Crime",
+      "alignmentText": "Violent crime relatively uncommon; petty theft in tourist areas.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Universal coverage; outcomes constrained by shortages and infrastructure.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Tourists access clinics; long-term foreigner pathways unclear.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Formal childcare exists but capacity and consistency vary.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Strong community support; state benefits exist but resources are tight.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Education",
+      "alignmentText": "High literacy and strong foundational education; Spanish-only instruction.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Buses and shared taxis operate; reliability and comfort vary.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Centrally planned with limited private activity and dual-currency legacy.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "State-centric administration; guidance for foreigners is limited.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "",
+      "alignmentValue": -1
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentText": "Sanctions and banking restrictions complicate accounts and payments for US persons.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Local prices can be low; imported goods and tourist sectors are costly.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "State pension system exists; adequacy depends on resources.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": -1
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Residence/work authorization for US citizens is highly constrained.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Cultural warmth toward visitors, but policy and sanctions limit settlement.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Residency Types & Durations",
+      "alignmentText": "Foreign residency options are narrow and tightly regulated.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Naturalization pathways for foreigners are uncommon and opaque.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Family reunification rules for non-citizens are limited.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Timelines & Costs",
+      "alignmentText": "Processes can be slow with additional hurdles due to sanctions and bureaucracy.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Compliance & Risks",
+      "alignmentText": "US persons face OFAC restrictions; ensure legal compliance on travel and income.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Cuban-born dual nationals are treated as Cuban while in Cuba and must use Cuban passports; practical recognition is limited and subject to local rules [source](https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Cuba.html).",
+      "alignmentValue": 3
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "Expect language needs, limited banking, and documentation checks; housing and connectivity hurdles.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Very small market; few studios or publisher connections.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "No widely known commercial studios; activity centered in small teams/academia.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Limited presence; small informal groups more likely than formal communities.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Regulatory and funding barriers; exports and payments complicated by sanctions.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "alignmentText": "Infrastructure lags; periodic power/internet disruptions; cash-centric payments.",
+      "alignmentValue": 3
+    }
+  ]
+}
