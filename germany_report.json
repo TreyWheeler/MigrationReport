@@ -1,90 +1,545 @@
 {
   "iso": "DE",
   "values": [
-    {"key": "Environment", "alignmentText": "High environmental standards and abundant green spaces.", "alignmentValue": 8},
-    {"key": "Global Warming Risk", "alignmentText": "Moderate risk from floods and heatwaves.", "alignmentValue": 6},
-    {"key": "Seasonal Weather", "alignmentText": "Cold winters and mild summers with frequent clouds.", "alignmentValue": 6},
-    {"key": "Air Quality", "alignmentText": "Generally good though some urban pollution.", "alignmentValue": 7},
-    {"key": "Natural Disasters", "alignmentText": "Low major disaster threat but occasional flooding.", "alignmentValue": 7},
-    {"key": "Beach Life", "alignmentText": "Northern coasts offer beaches though water is cool.", "alignmentValue": 5},
-    {"key": "Seasonal Beach Water Temp", "alignmentText": "Swimmable mainly in late summer; otherwise chilly.", "alignmentValue": 4},
-    {"key": "Natural Beauty", "alignmentText": "Forests, Alps, and the Rhine valley provide scenery.", "alignmentValue": 8},
-    {"key": "Minimum Wage", "alignmentText": "Solid national minimum wage supports basic living.", "alignmentValue": 7},
-    {"key": "Typical Software Salaries", "alignmentText": "Good pay in Berlin and Munich though taxed heavily.", "alignmentValue": 7},
-    {"key": ".NET Work Prospects", "alignmentText": "Enterprises widely use .NET creating steady demand.", "alignmentValue": 7},
-    {"key": "Ruby Work Prospects", "alignmentText": "Active startup scene especially in Berlin.", "alignmentValue": 7},
-    {"key": "Employer Visa Sponsorship", "alignmentText": "EU Blue Card makes skilled immigration feasible.", "alignmentValue": 7},
-    {"key": "Economic Health", "alignmentText": "Strong export economy with stable growth.", "alignmentValue": 8},
-    {"key": "Remote-Friendly Culture", "alignmentText": "Remote work accepted though offices remain common.", "alignmentValue": 6},
-    {"key": "Work-Life Balance", "alignmentText": "Protected leisure time and clear boundaries.", "alignmentValue": 8},
-    {"key": "Work Week Hours", "alignmentText": "Standard 35-40 hour weeks with overtime limits.", "alignmentValue": 8},
-    {"key": "Vacation Days (Minimum)", "alignmentText": "At least 20 days statutory leave plus holidays.", "alignmentValue": 8},
-    {"key": "Vacation Days (Typical)", "alignmentText": "Four to six weeks common in tech roles.", "alignmentValue": 9},
-    {"key": "Pace of Life", "alignmentText": "Efficient yet not hectic; slower in smaller towns.", "alignmentValue": 7},
-    {"key": "Family Life", "alignmentText": "Generous parental leave and child benefits.", "alignmentValue": 8},
-    {"key": "Polyamory", "alignmentText": "Small communities with limited social recognition.", "alignmentValue": 4},
-    {"key": "Parenting Expectations", "alignmentText": "Structured education with moderate extracurricular demands.", "alignmentValue": 6},
-    {"key": "Child-Friendliness of Cities", "alignmentText": "Playgrounds and safe infrastructure widespread.", "alignmentValue": 8},
-    {"key": "Schooling Options", "alignmentText": "Quality public schools and bilingual options in cities.", "alignmentValue": 7},
-    {"key": "What Is Intriguing", "alignmentText": "Engineering culture and rich history.", "alignmentValue": 7},
-    {"key": "Language & English Ubiquity", "alignmentText": "English widely taught but German needed for daily life.", "alignmentValue": 6},
-    {"key": "Progressivism", "alignmentText": "Socially liberal with strong welfare state.", "alignmentValue": 8},
-    {"key": "Marxism (Societal Attitudes)", "alignmentText": "Left-wing parties present though capitalism dominant.", "alignmentValue": 6},
-    {"key": "Atheism", "alignmentText": "Secular trend especially in the east.", "alignmentValue": 7},
-    {"key": "Sex (Attitudes)", "alignmentText": "Generally open-minded but not explicit.", "alignmentValue": 7},
-    {"key": "LGBTQ+ Attitudes", "alignmentText": "Legal protections and growing acceptance.", "alignmentValue": 8},
-    {"key": "Community Vibes", "alignmentText": "Reserved at first but dependable once connected.", "alignmentValue": 6},
-    {"key": "View of self", "alignmentText": "Values efficiency and environmental consciousness.", "alignmentValue": 7},
-    {"key": "View of Neighboring Countries", "alignmentText": "Collaborative within EU though mindful of history.", "alignmentValue": 7},
-    {"key": "View of Them by Neighboring Countries", "alignmentText": "Seen as economic leader, occasionally dominant.", "alignmentValue": 6},
-    {"key": "Gender Roles", "alignmentText": "Fairly egalitarian though traditional in some regions.", "alignmentValue": 7},
-    {"key": "Gender Fluidity", "alignmentText": "Legal recognition exists with improving social acceptance.", "alignmentValue": 7},
-    {"key": "Gender Rights", "alignmentText": "Strong laws on equality and parental leave.", "alignmentValue": 8},
-    {"key": "Femininity Norms", "alignmentText": "Practical fashion and independence valued.", "alignmentValue": 7},
-    {"key": "Masculinity Norms", "alignmentText": "Work ethic and reliability emphasized.", "alignmentValue": 7},
-    {"key": "Common Hobbies", "alignmentText": "Hiking, football, and car culture.", "alignmentValue": 7},
-    {"key": "Boardgaming & Tabletop", "alignmentText": "Major board game hub with events like Spiel.", "alignmentValue": 9},
-    {"key": "Nightlife & Music", "alignmentText": "Vibrant scenes in Berlin and Hamburg.", "alignmentValue": 8},
-    {"key": "Meetups & Communities", "alignmentText": "Active tech and maker meetups across cities.", "alignmentValue": 7},
-    {"key": "Nature Access", "alignmentText": "Forests and countryside easily reached by train.", "alignmentValue": 8},
-    {"key": "Political System", "alignmentText": "Federal parliamentary republic with coalition governance.", "alignmentValue": 9},
-    {"key": "Religion in Politics", "alignmentText": "Limited church influence on policy.", "alignmentValue": 7},
-    {"key": "Workers' Rights", "alignmentText": "Strong protections and codetermination.", "alignmentValue": 9},
-    {"key": "State Ideology", "alignmentText": "Social market economy balancing welfare and markets.", "alignmentValue": 8},
-    {"key": "Healthcare (Citizens)", "alignmentText": "Universal statutory health insurance.", "alignmentValue": 9},
-    {"key": "Healthcare (Visa Holders)", "alignmentText": "Mandatory coverage with good access.", "alignmentValue": 8},
-    {"key": "Child Care Support", "alignmentText": "Subsidized Kita programs though shortages exist.", "alignmentValue": 7},
-    {"key": "Family Policy (Common Family)", "alignmentText": "Benefits and parental leave support families.", "alignmentValue": 8},
-    {"key": "Authoritarian Backsliding Risk", "alignmentText": "Low risk with strong institutions.", "alignmentValue": 9},
-    {"key": "State of Capitalism", "alignmentText": "Regulated capitalism with strong SMEs.", "alignmentValue": 8},
-    {"key": "Education", "alignmentText": "High-quality vocational and university systems.", "alignmentValue": 8},
-    {"key": "Stability", "alignmentText": "Economically and politically stable.", "alignmentValue": 9},
-    {"key": "Propaganda Prevalence", "alignmentText": "Free press with minimal propaganda.", "alignmentValue": 8},
-    {"key": "Propaganda Messaging", "alignmentText": "Public broadcasters emphasize civic responsibility.", "alignmentValue": 6},
-    {"key": "Social Policies", "alignmentText": "Progressive labor and social welfare policies.", "alignmentValue": 8},
-    {"key": "Trust in Government", "alignmentText": "Moderate to high trust levels.", "alignmentValue": 7},
-    {"key": "Perceived Corruption", "alignmentText": "Low corruption levels overall.", "alignmentValue": 8},
-    {"key": "Type of Corruption", "alignmentText": "Occasional political or corporate scandals.", "alignmentValue": 8},
-    {"key": "Housing Situation", "alignmentText": "High rents in major cities but strong tenant protections.", "alignmentValue": 5},
-    {"key": "Public Transportation", "alignmentText": "Extensive rail and urban transit networks.", "alignmentValue": 9},
-    {"key": "Safety & Crime", "alignmentText": "Generally safe with low violent crime.", "alignmentValue": 8},
-    {"key": "Economic System", "alignmentText": "Social market economy.", "alignmentValue": 8},
-    {"key": "Retirement (Immigrants)", "alignmentText": "Pension access with contributions; aging population challenges.", "alignmentValue": 6},
-    {"key": "How Taxes Are Handled", "alignmentText": "PAYE with annual adjustments; can be complex.", "alignmentValue": 6},
-    {"key": "Expected Tax Rate (Our Family)", "alignmentText": "Higher tax rates with social contributions.", "alignmentValue": 4},
-    {"key": "Banking & Payments", "alignmentText": "Modern though cash is still common.", "alignmentValue": 7},
-    {"key": "Cost of Living (Optional)", "alignmentText": "Moderate overall; high in Munich or Frankfurt.", "alignmentValue": 6},
-    {"key": "Visa Paths", "alignmentText": "EU Blue Card and job seeker visas available.", "alignmentValue": 7},
-    {"key": "Welcoming of US Migrants", "alignmentText": "Generally positive for skilled workers.", "alignmentValue": 7},
-    {"key": "Residency Types & Durations", "alignmentText": "Temporary permits lead to permanent residence after several years.", "alignmentValue": 7},
-    {"key": "Path to Citizenship", "alignmentText": "Naturalization after 6-8 years; dual citizenship limited.", "alignmentValue": 6},
-    {"key": "Family Members", "alignmentText": "Spouses get work rights and children receive benefits.", "alignmentValue": 8},
-    {"key": "Timelines & Costs", "alignmentText": "Processing times moderate with reasonable fees.", "alignmentValue": 6},
-    {"key": "Compliance & Risks", "alignmentText": "Must maintain registration and health insurance.", "alignmentValue": 7},
-    {"key": "Game Dev Work Prospects", "alignmentText": "Growing industry with government support.", "alignmentValue": 7},
-    {"key": "Notable Game Studios", "alignmentText": "Crytek, Daedalic, and Ubisoft Blue Byte operate here.", "alignmentValue": 8},
-    {"key": "Notable Game Development Communities", "alignmentText": "Events like Gamescom foster community.", "alignmentValue": 9},
-    {"key": "Opportunities for Video Game Startup", "alignmentText": "Funding schemes like the German Games Fund aid startups.", "alignmentValue": 8},
-    {"key": "Modernity & Infrastructure", "alignmentText": "Reliable utilities and high-speed autobahns.", "alignmentValue": 8}
+    {
+      "key": ".NET Work Prospects",
+      "alignmentText": "Enterprises widely use .NET creating steady demand.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Generally good though some urban pollution.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "Secular trend especially in the east.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Low risk with strong institutions.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentText": "Modern though cash is still common.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Northern coasts offer beaches though water is cool.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "alignmentText": "Major board game hub with events like Spiel.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Subsidized Kita programs though shortages exist.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Playgrounds and safe infrastructure widespread.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Hiking, football, and car culture.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Reserved at first but dependable once connected.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Compliance & Risks",
+      "alignmentText": "Must maintain registration and health insurance.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Moderate overall; high in Munich or Frankfurt.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Strong export economy with stable growth.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Social market economy.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Education",
+      "alignmentText": "High-quality vocational and university systems.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "EU Blue Card makes skilled immigration feasible.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "High environmental standards and abundant green spaces.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Higher tax rates with social contributions.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Fall Temperature Range (°C/°F)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Generous parental leave and child benefits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Spouses get work rights and children receive benefits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Benefits and parental leave support families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Practical fashion and independence valued.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Growing industry with government support.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Legal recognition exists with improving social acceptance.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Strong laws on equality and parental leave.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Fairly egalitarian though traditional in some regions.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Moderate risk from floods and heatwaves.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Universal statutory health insurance.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Mandatory coverage with good access.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "High rents in major cities but strong tenant protections.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "PAYE with annual adjustments; can be complex.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "alignmentText": "English widely taught but German needed for daily life.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "alignmentText": "Legal protections and growing acceptance.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Left-wing parties present though capitalism dominant.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Work ethic and reliability emphasized.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Meetups & Communities",
+      "alignmentText": "Active tech and maker meetups across cities.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Solid national minimum wage supports basic living.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "alignmentText": "Reliable utilities and high-speed autobahns.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Forests, Alps, and the Rhine valley provide scenery.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Low major disaster threat but occasional flooding.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Forests and countryside easily reached by train.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Nightlife & Music",
+      "alignmentText": "Vibrant scenes in Berlin and Hamburg.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Events like Gamescom foster community.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Crytek, Daedalic, and Ubisoft Blue Byte operate here.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Funding schemes like the German Games Fund aid startups.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Efficient yet not hectic; slower in smaller towns.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Structured education with moderate extracurricular demands.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Naturalization after 6-8 years; dual citizenship limited.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Low corruption levels overall.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "Federal parliamentary republic with coalition governance.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Small communities with limited social recognition.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Socially liberal with strong welfare state.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Public broadcasters emphasize civic responsibility.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Free press with minimal propaganda.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Extensive rail and urban transit networks.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Limited church influence on policy.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Remote work accepted though offices remain common.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Residency Types & Durations",
+      "alignmentText": "Temporary permits lead to permanent residence after several years.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Retirement (Immigrants)",
+      "alignmentText": "Pension access with contributions; aging population challenges.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Active startup scene especially in Berlin.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Safety & Crime",
+      "alignmentText": "Generally safe with low violent crime.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Quality public schools and bilingual options in cities.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Swimmable mainly in late summer; otherwise chilly.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Cold winters and mild summers with frequent clouds.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Generally open-minded but not explicit.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Progressive labor and social welfare policies.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Spring Temperature Range (°C/°F)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Economically and politically stable.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Social market economy balancing welfare and markets.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "Regulated capitalism with strong SMEs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Summer Temperature Range (°C/°F)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Timelines & Costs",
+      "alignmentText": "Processing times moderate with reasonable fees.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Moderate to high trust levels.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Occasional political or corporate scandals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Good pay in Berlin and Munich though taxed heavily.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "At least 20 days statutory leave plus holidays.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Four to six weeks common in tech roles.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Collaborative within EU though mindful of history.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "Values efficiency and environmental consciousness.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Seen as economic leader, occasionally dominant.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "EU Blue Card and job seeker visas available.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Generally positive for skilled workers.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Engineering culture and rich history.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Winter Temperature Range (°C/°F)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "Standard 35-40 hour weeks with overtime limits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Protected leisure time and clear boundaries.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Workers' Rights",
+      "alignmentText": "Strong protections and codetermination.",
+      "alignmentValue": 9
+    }
   ]
 }

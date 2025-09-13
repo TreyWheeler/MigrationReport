@@ -1,90 +1,545 @@
 {
   "iso": "ES",
   "values": [
-    {"key": "Environment", "alignmentText": "Varied ecosystems from Pyrenees to Mediterranean coast.", "alignmentValue": 8},
-    {"key": "Global Warming Risk", "alignmentText": "Heatwaves and drought are increasing concerns.", "alignmentValue": 5},
-    {"key": "Seasonal Weather", "alignmentText": "Hot summers and mild winters with wetter north.", "alignmentValue": 7},
-    {"key": "Air Quality", "alignmentText": "Generally good but urban pollution and Saharan dust affect some areas.", "alignmentValue": 6},
-    {"key": "Natural Disasters", "alignmentText": "Earthquake risk in south and occasional floods.", "alignmentValue": 5},
-    {"key": "Beach Life", "alignmentText": "Famous beaches with warm waters and amenities.", "alignmentValue": 9},
-    {"key": "Seasonal Beach Water Temp", "alignmentText": "Comfortable swimming from late spring through fall.", "alignmentValue": 8},
-    {"key": "Natural Beauty", "alignmentText": "Historic cities and scenic landscapes abound.", "alignmentValue": 9},
-    {"key": "Minimum Wage", "alignmentText": "Rising but still moderate.", "alignmentValue": 5},
-    {"key": "Typical Software Salaries", "alignmentText": "Lower than Northern Europe but cost of living is lower too.", "alignmentValue": 6},
-    {"key": ".NET Work Prospects", "alignmentText": "Used in enterprises with solid demand.", "alignmentValue": 6},
-    {"key": "Ruby Work Prospects", "alignmentText": "Startup hubs in Madrid and Barcelona use Ruby.", "alignmentValue": 6},
-    {"key": "Employer Visa Sponsorship", "alignmentText": "Digital nomad and startup visas available with moderate bureaucracy.", "alignmentValue": 6},
-    {"key": "Economic Health", "alignmentText": "Growing economy but high youth unemployment.", "alignmentValue": 6},
-    {"key": "Remote-Friendly Culture", "alignmentText": "Remote work embraced during pandemic and for nomads.", "alignmentValue": 7},
-    {"key": "Work-Life Balance", "alignmentText": "Strong culture of leisure and siesta tradition.", "alignmentValue": 8},
-    {"key": "Work Week Hours", "alignmentText": "40-hour week with flexible schedules in some sectors.", "alignmentValue": 7},
-    {"key": "Vacation Days (Minimum)", "alignmentText": "30 calendar days required.", "alignmentValue": 8},
-    {"key": "Vacation Days (Typical)", "alignmentText": "August shutdowns provide extended holidays.", "alignmentValue": 8},
-    {"key": "Pace of Life", "alignmentText": "Relaxed, especially in smaller towns.", "alignmentValue": 8},
-    {"key": "Family Life", "alignmentText": "Family-oriented society with close ties.", "alignmentValue": 8},
-    {"key": "Polyamory", "alignmentText": "Limited acceptance; urban areas more tolerant.", "alignmentValue": 4},
-    {"key": "Parenting Expectations", "alignmentText": "Late bedtimes and strong family involvement.", "alignmentValue": 6},
-    {"key": "Child-Friendliness of Cities", "alignmentText": "Playgrounds and public spaces are abundant.", "alignmentValue": 8},
-    {"key": "Schooling Options", "alignmentText": "Public, concertado, and international schools available.", "alignmentValue": 7},
-    {"key": "What Is Intriguing", "alignmentText": "Vibrant culture, food, and festivals.", "alignmentValue": 9},
-    {"key": "Language & English Ubiquity", "alignmentText": "Spanish required; English moderate in cities.", "alignmentValue": 5},
-    {"key": "Progressivism", "alignmentText": "Progressive social policies post-democracy.", "alignmentValue": 8},
-    {"key": "Marxism (Societal Attitudes)", "alignmentText": "Left-wing parties active with historical context.", "alignmentValue": 6},
-    {"key": "Atheism", "alignmentText": "Increasingly secular though Catholic traditions remain.", "alignmentValue": 7},
-    {"key": "Sex (Attitudes)", "alignmentText": "Open attitudes with sex education present.", "alignmentValue": 7},
-    {"key": "LGBTQ+ Attitudes", "alignmentText": "Among Europe's most LGBTQ-friendly nations.", "alignmentValue": 9},
-    {"key": "Community Vibes", "alignmentText": "Sociable culture with strong community ties.", "alignmentValue": 8},
-    {"key": "View of self", "alignmentText": "Proud of regional identities and national heritage.", "alignmentValue": 7},
-    {"key": "View of Neighboring Countries", "alignmentText": "Friendly with EU neighbors; occasional rivalry with Portugal.", "alignmentValue": 7},
-    {"key": "View of Them by Neighboring Countries", "alignmentText": "Seen as warm and lively.", "alignmentValue": 8},
-    {"key": "Gender Roles", "alignmentText": "Evolving toward equality though machismo persists.", "alignmentValue": 6},
-    {"key": "Gender Fluidity", "alignmentText": "Legal recognition and social support.", "alignmentValue": 8},
-    {"key": "Gender Rights", "alignmentText": "Strong legal framework for gender equality.", "alignmentValue": 8},
-    {"key": "Femininity Norms", "alignmentText": "Fashionable but diverse expressions.", "alignmentValue": 7},
-    {"key": "Masculinity Norms", "alignmentText": "Traditional machismo fading; family involvement increasing.", "alignmentValue": 6},
-    {"key": "Common Hobbies", "alignmentText": "Football, fiestas, and outdoor cafes.", "alignmentValue": 8},
-    {"key": "Boardgaming & Tabletop", "alignmentText": "Growing scene with dedicated bars.", "alignmentValue": 7},
-    {"key": "Nightlife & Music", "alignmentText": "Renowned nightlife and music festivals.", "alignmentValue": 9},
-    {"key": "Meetups & Communities", "alignmentText": "Active expat and tech meetups.", "alignmentValue": 7},
-    {"key": "Nature Access", "alignmentText": "Mountains, beaches, and rural getaways accessible.", "alignmentValue": 8},
-    {"key": "Political System", "alignmentText": "Parliamentary monarchy with regional autonomy.", "alignmentValue": 7},
-    {"key": "Religion in Politics", "alignmentText": "Secular state with minimal religious influence.", "alignmentValue": 7},
-    {"key": "Workers' Rights", "alignmentText": "Strong labor laws and unions.", "alignmentValue": 8},
-    {"key": "State Ideology", "alignmentText": "Social market economy with welfare programs.", "alignmentValue": 7},
-    {"key": "Healthcare (Citizens)", "alignmentText": "Universal, high-quality public system.", "alignmentValue": 9},
-    {"key": "Healthcare (Visa Holders)", "alignmentText": "Access via residency; private insurance initially.", "alignmentValue": 8},
-    {"key": "Child Care Support", "alignmentText": "Limited public daycare; family networks fill gap.", "alignmentValue": 5},
-    {"key": "Family Policy (Common Family)", "alignmentText": "Extended family support common.", "alignmentValue": 7},
-    {"key": "Authoritarian Backsliding Risk", "alignmentText": "Low; democratic institutions remain strong.", "alignmentValue": 8},
-    {"key": "State of Capitalism", "alignmentText": "Market economy with regulation.", "alignmentValue": 7},
-    {"key": "Education", "alignmentText": "Solid public schools with regional disparities.", "alignmentValue": 7},
-    {"key": "Stability", "alignmentText": "Generally stable though regional independence tensions exist.", "alignmentValue": 6},
-    {"key": "Propaganda Prevalence", "alignmentText": "Free press with some regional media bias.", "alignmentValue": 7},
-    {"key": "Propaganda Messaging", "alignmentText": "Public broadcasters promote national unity.", "alignmentValue": 6},
-    {"key": "Social Policies", "alignmentText": "Progressive on LGBTQ and healthcare.", "alignmentValue": 8},
-    {"key": "Trust in Government", "alignmentText": "Moderate trust affected by corruption scandals.", "alignmentValue": 5},
-    {"key": "Perceived Corruption", "alignmentText": "Moderate but improving.", "alignmentValue": 5},
-    {"key": "Type of Corruption", "alignmentText": "Political and housing-related scandals.", "alignmentValue": 5},
-    {"key": "Housing Situation", "alignmentText": "Rising rents in major cities; affordable elsewhere.", "alignmentValue": 5},
-    {"key": "Public Transportation", "alignmentText": "Good urban transit and extensive rail network.", "alignmentValue": 8},
-    {"key": "Safety & Crime", "alignmentText": "Low violent crime; petty theft in tourist areas.", "alignmentValue": 7},
-    {"key": "Economic System", "alignmentText": "Mixed economy integrated within the EU.", "alignmentValue": 7},
-    {"key": "Retirement (Immigrants)", "alignmentText": "Pension access after contributions; popular for retirees.", "alignmentValue": 7},
-    {"key": "How Taxes Are Handled", "alignmentText": "PAYE plus annual filings with regional variations.", "alignmentValue": 6},
-    {"key": "Expected Tax Rate (Our Family)", "alignmentText": "Moderate income tax with social contributions.", "alignmentValue": 6},
-    {"key": "Banking & Payments", "alignmentText": "Modern banking and widespread card use.", "alignmentValue": 8},
-    {"key": "Cost of Living (Optional)", "alignmentText": "Lower than Northern Europe; high in Barcelona and Madrid.", "alignmentValue": 6},
-    {"key": "Visa Paths", "alignmentText": "Digital nomad and non-lucrative visas available.", "alignmentValue": 7},
-    {"key": "Welcoming of US Migrants", "alignmentText": "Positive attitude with growing expat communities.", "alignmentValue": 7},
-    {"key": "Residency Types & Durations", "alignmentText": "Temporary residency leading to permanent after five years.", "alignmentValue": 7},
-    {"key": "Path to Citizenship", "alignmentText": "Ten-year residency; dual citizenship limited.", "alignmentValue": 5},
-    {"key": "Family Members", "alignmentText": "Family reunification allows work and schooling.", "alignmentValue": 8},
-    {"key": "Timelines & Costs", "alignmentText": "Processing moderate with bureaucratic delays.", "alignmentValue": 5},
-    {"key": "Compliance & Risks", "alignmentText": "Need to maintain residency days and paperwork.", "alignmentValue": 6},
-    {"key": "Game Dev Work Prospects", "alignmentText": "Growing industry in Barcelona and Madrid.", "alignmentValue": 6},
-    {"key": "Notable Game Studios", "alignmentText": "MercurySteam and Tequila Works located here.", "alignmentValue": 7},
-    {"key": "Notable Game Development Communities", "alignmentText": "Events like Gamelab Barcelona foster networking.", "alignmentValue": 7},
-    {"key": "Opportunities for Video Game Startup", "alignmentText": "Regional grants and incubators support startups.", "alignmentValue": 7},
-    {"key": "Modernity & Infrastructure", "alignmentText": "Modern cities with high-speed rail and fiber internet.", "alignmentValue": 8}
+    {
+      "key": ".NET Work Prospects",
+      "alignmentText": "Used in enterprises with solid demand.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Generally good but urban pollution and Saharan dust affect some areas.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "Increasingly secular though Catholic traditions remain.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Low; democratic institutions remain strong.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentText": "Modern banking and widespread card use.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Famous beaches with warm waters and amenities.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "alignmentText": "Growing scene with dedicated bars.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Limited public daycare; family networks fill gap.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Playgrounds and public spaces are abundant.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Football, fiestas, and outdoor cafes.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Sociable culture with strong community ties.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compliance & Risks",
+      "alignmentText": "Need to maintain residency days and paperwork.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Lower than Northern Europe; high in Barcelona and Madrid.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Growing economy but high youth unemployment.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Mixed economy integrated within the EU.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Solid public schools with regional disparities.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Digital nomad and startup visas available with moderate bureaucracy.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "Varied ecosystems from Pyrenees to Mediterranean coast.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Moderate income tax with social contributions.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fall Temperature Range (°C/°F)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Family-oriented society with close ties.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Family reunification allows work and schooling.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Extended family support common.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Fashionable but diverse expressions.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Growing industry in Barcelona and Madrid.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Legal recognition and social support.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Strong legal framework for gender equality.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Evolving toward equality though machismo persists.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Heatwaves and drought are increasing concerns.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Universal, high-quality public system.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Access via residency; private insurance initially.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Rising rents in major cities; affordable elsewhere.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "PAYE plus annual filings with regional variations.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "alignmentText": "Spanish required; English moderate in cities.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "alignmentText": "Among Europe's most LGBTQ-friendly nations.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Left-wing parties active with historical context.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Traditional machismo fading; family involvement increasing.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Meetups & Communities",
+      "alignmentText": "Active expat and tech meetups.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Rising but still moderate.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "alignmentText": "Modern cities with high-speed rail and fiber internet.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Historic cities and scenic landscapes abound.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Earthquake risk in south and occasional floods.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Mountains, beaches, and rural getaways accessible.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Nightlife & Music",
+      "alignmentText": "Renowned nightlife and music festivals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Events like Gamelab Barcelona foster networking.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "MercurySteam and Tequila Works located here.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Regional grants and incubators support startups.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Relaxed, especially in smaller towns.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Late bedtimes and strong family involvement.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Ten-year residency; dual citizenship limited.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Moderate but improving.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "Parliamentary monarchy with regional autonomy.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Limited acceptance; urban areas more tolerant.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Progressive social policies post-democracy.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Public broadcasters promote national unity.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Free press with some regional media bias.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Good urban transit and extensive rail network.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Secular state with minimal religious influence.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Remote work embraced during pandemic and for nomads.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Residency Types & Durations",
+      "alignmentText": "Temporary residency leading to permanent after five years.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Retirement (Immigrants)",
+      "alignmentText": "Pension access after contributions; popular for retirees.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Startup hubs in Madrid and Barcelona use Ruby.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Safety & Crime",
+      "alignmentText": "Low violent crime; petty theft in tourist areas.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Public, concertado, and international schools available.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Comfortable swimming from late spring through fall.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Hot summers and mild winters with wetter north.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Open attitudes with sex education present.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Progressive on LGBTQ and healthcare.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Spring Temperature Range (°C/°F)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Generally stable though regional independence tensions exist.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Social market economy with welfare programs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "Market economy with regulation.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Summer Temperature Range (°C/°F)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Timelines & Costs",
+      "alignmentText": "Processing moderate with bureaucratic delays.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Moderate trust affected by corruption scandals.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Political and housing-related scandals.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Lower than Northern Europe but cost of living is lower too.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "30 calendar days required.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "August shutdowns provide extended holidays.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Friendly with EU neighbors; occasional rivalry with Portugal.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "Proud of regional identities and national heritage.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Seen as warm and lively.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Digital nomad and non-lucrative visas available.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Positive attitude with growing expat communities.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Vibrant culture, food, and festivals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Winter Temperature Range (°C/°F)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "40-hour week with flexible schedules in some sectors.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Strong culture of leisure and siesta tradition.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Workers' Rights",
+      "alignmentText": "Strong labor laws and unions.",
+      "alignmentValue": 8
+    }
   ]
 }

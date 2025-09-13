@@ -1,90 +1,545 @@
 {
   "iso": "CN",
   "values": [
-    {"key": "Environment", "alignmentText": "Rapid development causes pollution yet vast natural areas remain.", "alignmentValue": 4},
-    {"key": "Global Warming Risk", "alignmentText": "High exposure to heatwaves, floods, and rising seas.", "alignmentValue": 4},
-    {"key": "Seasonal Weather", "alignmentText": "Varies widely; many regions have harsh winters or humid summers.", "alignmentValue": 4},
-    {"key": "Air Quality", "alignmentText": "Major cities often suffer severe pollution despite improvements.", "alignmentValue": 2},
-    {"key": "Natural Disasters", "alignmentText": "Earthquakes, floods, and typhoons present notable risks.", "alignmentValue": 3},
-    {"key": "Beach Life", "alignmentText": "Coasts exist but water quality and crowding reduce appeal.", "alignmentValue": 3},
-    {"key": "Seasonal Beach Water Temp", "alignmentText": "Warm in the south but limited swim quality elsewhere.", "alignmentValue": 4},
-    {"key": "Natural Beauty", "alignmentText": "Spectacular landscapes like Guilin and Zhangjiajie.", "alignmentValue": 8},
-    {"key": "Minimum Wage", "alignmentText": "Varies by province; low compared to Western standards.", "alignmentValue": 3},
-    {"key": "Typical Software Salaries", "alignmentText": "Growing tech hubs like Shenzhen offer competitive pay.", "alignmentValue": 6},
-    {"key": ".NET Work Prospects", "alignmentText": "Used in enterprises but Java dominates.", "alignmentValue": 5},
-    {"key": "Ruby Work Prospects", "alignmentText": "Niche usage with limited opportunities.", "alignmentValue": 2},
-    {"key": "Employer Visa Sponsorship", "alignmentText": "Strict quotas and paperwork make foreign hiring difficult.", "alignmentValue": 2},
-    {"key": "Economic Health", "alignmentText": "Large economy with high growth yet debt concerns.", "alignmentValue": 6},
-    {"key": "Remote-Friendly Culture", "alignmentText": "Office-centric; remote work less common.", "alignmentValue": 3},
-    {"key": "Work-Life Balance", "alignmentText": "Long hours culture such as 996 in tech.", "alignmentValue": 2},
-    {"key": "Work Week Hours", "alignmentText": "Often exceed statutory 40 hours with overtime.", "alignmentValue": 2},
-    {"key": "Vacation Days (Minimum)", "alignmentText": "Five days after first year increasing with tenure.", "alignmentValue": 3},
-    {"key": "Vacation Days (Typical)", "alignmentText": "Many workers take little time off.", "alignmentValue": 2},
-    {"key": "Pace of Life", "alignmentText": "Fast-paced in major cities; slower in rural areas.", "alignmentValue": 4},
-    {"key": "Family Life", "alignmentText": "Strong family obligations and multigenerational households.", "alignmentValue": 6},
-    {"key": "Polyamory", "alignmentText": "Socially unacceptable with potential legal risks.", "alignmentValue": 1},
-    {"key": "Parenting Expectations", "alignmentText": "High academic pressure and competitiveness.", "alignmentValue": 2},
-    {"key": "Child-Friendliness of Cities", "alignmentText": "Infrastructure varies; urban parks limited.", "alignmentValue": 4},
-    {"key": "Schooling Options", "alignmentText": "Public schools intense; international schools costly but available.", "alignmentValue": 4},
-    {"key": "What Is Intriguing", "alignmentText": "Ancient culture and rapid modernization.", "alignmentValue": 7},
-    {"key": "Language & English Ubiquity", "alignmentText": "Mandarin necessary; limited English outside expat zones.", "alignmentValue": 2},
-    {"key": "Progressivism", "alignmentText": "State conservatism limits social freedoms.", "alignmentValue": 2},
-    {"key": "Marxism (Societal Attitudes)", "alignmentText": "Official ideology influences rhetoric and education.", "alignmentValue": 6},
-    {"key": "Atheism", "alignmentText": "High official atheism though traditional religions persist.", "alignmentValue": 5},
-    {"key": "Sex (Attitudes)", "alignmentText": "Public conservatism and limited sex education.", "alignmentValue": 3},
-    {"key": "LGBTQ+ Attitudes", "alignmentText": "Increasing awareness but no legal protections.", "alignmentValue": 2},
-    {"key": "Community Vibes", "alignmentText": "Strong local networks yet wary of outsiders.", "alignmentValue": 4},
-    {"key": "View of self", "alignmentText": "Proud of history and national resurgence.", "alignmentValue": 7},
-    {"key": "View of Neighboring Countries", "alignmentText": "Varies with regional rivalries and disputes.", "alignmentValue": 3},
-    {"key": "View of Them by Neighboring Countries", "alignmentText": "Often seen as assertive or domineering.", "alignmentValue": 3},
-    {"key": "Gender Roles", "alignmentText": "Traditional roles prevalent especially outside cities.", "alignmentValue": 3},
-    {"key": "Gender Fluidity", "alignmentText": "Limited acceptance and no legal recognition.", "alignmentValue": 1},
-    {"key": "Gender Rights", "alignmentText": "Legal equality on paper but gaps in practice.", "alignmentValue": 4},
-    {"key": "Femininity Norms", "alignmentText": "Emphasis on appearance and family roles.", "alignmentValue": 3},
-    {"key": "Masculinity Norms", "alignmentText": "Expectation of long work hours and provider role.", "alignmentValue": 3},
-    {"key": "Common Hobbies", "alignmentText": "Mahjong, karaoke, and mobile gaming.", "alignmentValue": 5},
-    {"key": "Boardgaming & Tabletop", "alignmentText": "Niche but growing in urban hubs.", "alignmentValue": 4},
-    {"key": "Nightlife & Music", "alignmentText": "Vibrant club scenes in big cities.", "alignmentValue": 6},
-    {"key": "Meetups & Communities", "alignmentText": "Expanding tech meetups though gatherings are regulated.", "alignmentValue": 4},
-    {"key": "Nature Access", "alignmentText": "Travel required to reach scenic areas; pollution can hinder.", "alignmentValue": 4},
-    {"key": "Political System", "alignmentText": "One-party socialist state with centralized control.", "alignmentValue": 1},
-    {"key": "Religion in Politics", "alignmentText": "State atheism; religion tightly regulated.", "alignmentValue": 2},
-    {"key": "Workers' Rights", "alignmentText": "Unions are state-run with limited protections.", "alignmentValue": 2},
-    {"key": "State Ideology", "alignmentText": "Socialism with Chinese characteristics guides policy.", "alignmentValue": 5},
-    {"key": "Healthcare (Citizens)", "alignmentText": "Public system improving but uneven quality.", "alignmentValue": 5},
-    {"key": "Healthcare (Visa Holders)", "alignmentText": "Private insurance often required for expats.", "alignmentValue": 4},
-    {"key": "Child Care Support", "alignmentText": "Urban childcare expensive and scarce.", "alignmentValue": 3},
-    {"key": "Family Policy (Common Family)", "alignmentText": "State encourages two-child families after relaxing policy.", "alignmentValue": 4},
-    {"key": "Authoritarian Backsliding Risk", "alignmentText": "Very high; civil liberties tightly controlled.", "alignmentValue": 1},
-    {"key": "State of Capitalism", "alignmentText": "State-guided market economy.", "alignmentValue": 5},
-    {"key": "Education", "alignmentText": "Top-tier academics but heavy rote learning and pressure.", "alignmentValue": 5},
-    {"key": "Stability", "alignmentText": "Political stability high but dissent suppressed.", "alignmentValue": 5},
-    {"key": "Propaganda Prevalence", "alignmentText": "State media strongly shapes narratives.", "alignmentValue": 1},
-    {"key": "Propaganda Messaging", "alignmentText": "Promotes unity and party achievements.", "alignmentValue": 2},
-    {"key": "Social Policies", "alignmentText": "Limited rights for dissenting groups.", "alignmentValue": 2},
-    {"key": "Trust in Government", "alignmentText": "Official surveys show high trust; dissent is suppressed.", "alignmentValue": 5},
-    {"key": "Perceived Corruption", "alignmentText": "Anti-corruption campaigns ongoing yet local corruption persists.", "alignmentValue": 4},
-    {"key": "Type of Corruption", "alignmentText": "Both petty and grand corruption, especially locally.", "alignmentValue": 3},
-    {"key": "Housing Situation", "alignmentText": "High urban housing costs with government controls.", "alignmentValue": 3},
-    {"key": "Public Transportation", "alignmentText": "Extensive high-speed rail and metro systems.", "alignmentValue": 9},
-    {"key": "Safety & Crime", "alignmentText": "Low street crime but heavy surveillance.", "alignmentValue": 6},
-    {"key": "Economic System", "alignmentText": "State capitalism with market reforms.", "alignmentValue": 5},
-    {"key": "Retirement (Immigrants)", "alignmentText": "Pension access limited for foreigners.", "alignmentValue": 3},
-    {"key": "How Taxes Are Handled", "alignmentText": "Withholding with annual self-report; complex for expats.", "alignmentValue": 3},
-    {"key": "Expected Tax Rate (Our Family)", "alignmentText": "Moderate personal taxes with social contributions.", "alignmentValue": 5},
-    {"key": "Banking & Payments", "alignmentText": "Advanced mobile payments and cashless society.", "alignmentValue": 9},
-    {"key": "Cost of Living (Optional)", "alignmentText": "Lower outside Tier 1 cities; high in major hubs.", "alignmentValue": 6},
-    {"key": "Visa Paths", "alignmentText": "Work visas available but strict quotas and employer ties.", "alignmentValue": 2},
-    {"key": "Welcoming of US Migrants", "alignmentText": "Political tensions create mixed reception.", "alignmentValue": 3},
-    {"key": "Residency Types & Durations", "alignmentText": "Temporary permits; permanent residency difficult.", "alignmentValue": 2},
-    {"key": "Path to Citizenship", "alignmentText": "Naturalization is rare and restrictive.", "alignmentValue": 1},
-    {"key": "Family Members", "alignmentText": "Dependent visas allowed but with restrictions.", "alignmentValue": 4},
-    {"key": "Timelines & Costs", "alignmentText": "Processing can be lengthy with heavy paperwork.", "alignmentValue": 3},
-    {"key": "Compliance & Risks", "alignmentText": "Strict monitoring with penalties for violations.", "alignmentValue": 2},
-    {"key": "Game Dev Work Prospects", "alignmentText": "Massive mobile market though censorship limits content.", "alignmentValue": 6},
-    {"key": "Notable Game Studios", "alignmentText": "Tencent, NetEase, and miHoYo are major players.", "alignmentValue": 9},
-    {"key": "Notable Game Development Communities", "alignmentText": "Government-supported incubators and conferences exist.", "alignmentValue": 6},
-    {"key": "Opportunities for Video Game Startup", "alignmentText": "Funding available but regulatory hurdles significant.", "alignmentValue": 5},
-    {"key": "Modernity & Infrastructure", "alignmentText": "Cutting-edge infrastructure and smart cities.", "alignmentValue": 8}
+    {
+      "key": ".NET Work Prospects",
+      "alignmentText": "Used in enterprises but Java dominates.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Major cities often suffer severe pollution despite improvements.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "High official atheism though traditional religions persist.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Very high; civil liberties tightly controlled.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentText": "Advanced mobile payments and cashless society.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Coasts exist but water quality and crowding reduce appeal.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "alignmentText": "Niche but growing in urban hubs.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Urban childcare expensive and scarce.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Infrastructure varies; urban parks limited.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Pronatalist incentives expanding (cash/fee subsidies) vary by city/province; maternity leave typically 98+ days; evolving policies.",
+      "alignmentValue": 5.0
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "Access to subsidies limited; eligibility varies by locality; residence permits and documentation required; often excluded.",
+      "alignmentValue": 3.0
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Mahjong, karaoke, and mobile gaming.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Strong local networks yet wary of outsiders.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Compliance & Risks",
+      "alignmentText": "Strict monitoring with penalties for violations.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Lower outside Tier 1 cities; high in major hubs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "No—dual nationality is not recognized; naturalization typically requires renouncing prior citizenship.",
+      "alignmentValue": 1.0
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Large economy with high growth yet debt concerns.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "State capitalism with market reforms.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Top-tier academics but heavy rote learning and pressure.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Strict quotas and paperwork make foreign hiring difficult.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "Rapid development causes pollution yet vast natural areas remain.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Moderate personal taxes with social contributions.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Fall Temperature Range (°C/°F)",
+      "alignmentText": "Generally pleasant in many regions; Beijing ~10–20 C; Shanghai ~18–26 C; drier skies; typhoon season lingers along SE coast.",
+      "alignmentValue": 7.0
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Strong family obligations and multigenerational households.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Dependent visas allowed but with restrictions.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "Maternity/paternity leave expanding; local cash/childcare incentives; housing/tax perks in some cities; coverage uneven.",
+      "alignmentValue": 6.0
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "State encourages two-child families after relaxing policy.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Benefits generally tied to hukou/social insurance; foreign residents often ineligible for local family subsidies.",
+      "alignmentValue": 3.0
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Contemporary street style to minimalist chic; dresses/skirts with layering; strong beauty/skin‑care culture.",
+      "alignmentValue": 6.0
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "Urban streetwear and smart‑casual tailoring; sneakers/athleisure common; techwear influences in big cities.",
+      "alignmentValue": 6.0
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Emphasis on appearance and family roles.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Massive mobile market though censorship limits content.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Limited acceptance and no legal recognition.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Legal equality on paper but gaps in practice.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Traditional roles prevalent especially outside cities.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "Residence/work permits tied to employer or category; local registration needed for banking/housing; healthcare insurance; internet controls (VPN use).",
+      "alignmentValue": 4.0
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "High exposure to heatwaves, floods, and rising seas.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Public system improving but uneven quality.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Private insurance often required for expats.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Extensive public HE; competitive gaokao; tuition moderate; scholarships and aid exist.",
+      "alignmentValue": 6.0
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "International student options widely available; tuition higher; scholarships exist; residency status may improve options.",
+      "alignmentValue": 5.0
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "High urban housing costs with government controls.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Withholding with annual self-report; complex for expats.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Public schools broadly available but admissions tied to hukou/residence; quality varies; academic load often heavy.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "Foreign dependents often steered to international schools (higher tuition); some cities allow public enrolment with conditions.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "alignmentText": "Mandarin necessary; limited English outside expat zones.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "alignmentText": "Increasing awareness but no legal protections.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Official ideology influences rhetoric and education.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Expectation of long work hours and provider role.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Meetups & Communities",
+      "alignmentText": "Expanding tech meetups though gatherings are regulated.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Varies by province; low compared to Western standards.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "alignmentText": "Cutting-edge infrastructure and smart cities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Spectacular landscapes like Guilin and Zhangjiajie.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Earthquakes, floods, and typhoons present notable risks.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Travel required to reach scenic areas; pollution can hinder.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Nightlife & Music",
+      "alignmentText": "Vibrant club scenes in big cities.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Vibrant in tier‑1 cities (bars, clubs, live music); quieter elsewhere; closing times and enforcement vary by locality.",
+      "alignmentValue": 6.0
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Government-supported incubators and conferences exist.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Tencent, NetEase, and miHoYo are major players.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Funding available but regulatory hurdles significant.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Fast-paced in major cities; slower in rural areas.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "High academic pressure and competitiveness.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Naturalization is rare and restrictive.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Anti-corruption campaigns ongoing yet local corruption persists.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "One-party socialist state with centralized control.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Socially unacceptable with potential legal risks.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Public kindergartens and private centers; supply/cost vary by city tier; expanding 0–3 services; waitlists in core districts.",
+      "alignmentValue": 5.0
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "International/private schools in major cities (IB/AP/A-Levels); high fees and limited seats; admissions selective.",
+      "alignmentValue": 5.0
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "State conservatism limits social freedoms.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Promotes unity and party achievements.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "State media strongly shapes narratives.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Extensive high-speed rail and metro systems.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "State atheism; religion tightly regulated.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Office-centric; remote work less common.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Residency Types & Durations",
+      "alignmentText": "Temporary permits; permanent residency difficult.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "Urban employee basic pension plus enterprise/individual pillars; adequacy varies by region; reforms underway.",
+      "alignmentValue": 6.0
+    },
+    {
+      "key": "Retirement (Immigrants)",
+      "alignmentText": "Pension access limited for foreigners.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "Participation depends on city/employer; some contributions refundable on exit; portability limited.",
+      "alignmentValue": 4.0
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Niche usage with limited opportunities.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Safety & Crime",
+      "alignmentText": "Low street crime but heavy surveillance.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Public schools intense; international schools costly but available.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Warm in the south but limited swim quality elsewhere.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Varies widely; many regions have harsh winters or humid summers.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Public conservatism and limited sex education.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Limited rights for dissenting groups.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Spring Temperature Range (°C/°F)",
+      "alignmentText": "Highly regional; e.g., Beijing 5–20 C (41–68 F), Shanghai 10–22 C (50–72 F); drier north, wetter south; occasional dust in north.",
+      "alignmentValue": 5.0
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Political stability high but dissent suppressed.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Socialism with Chinese characteristics guides policy.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "State-guided market economy.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Summer Temperature Range (°C/°F)",
+      "alignmentText": "Many cities are hot/humid (e.g., Shanghai 26–35 C / 79–95 F); north can be hot/dry; heat index high in southeast; nights warm.",
+      "alignmentValue": 3.0
+    },
+    {
+      "key": "Timelines & Costs",
+      "alignmentText": "Processing can be lengthy with heavy paperwork.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Official surveys show high trust; dissent is suppressed.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Both petty and grand corruption, especially locally.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Growing tech hubs like Shenzhen offer competitive pay.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Weekends: parks, malls, dining, family visits; extracurriculars common; some sectors work Saturdays; long retail hours in large cities.",
+      "alignmentValue": 6.0
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Primary ~08:00–15:30; secondary often longer with evening study. Many offices 09:00–18:00; some sectors have long-hours norms (e.g., 996).",
+      "alignmentValue": 4.0
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Five days after first year increasing with tenure.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Many workers take little time off.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Varies with regional rivalries and disputes.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "Proud of history and national resurgence.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Often seen as assertive or domineering.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Work visas available but strict quotas and employer ties.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Political tensions create mixed reception.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Ancient culture and rapid modernization.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Winter Temperature Range (°C/°F)",
+      "alignmentText": "North: cold/dry with central heating (e.g., Beijing −5–5 C); South: cool/damp (5–12 C) often without central heating; snow varies.",
+      "alignmentValue": 4.0
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "Often exceed statutory 40 hours with overtime.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Long hours culture such as 996 in tech.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Workers' Rights",
+      "alignmentText": "Unions are state-run with limited protections.",
+      "alignmentValue": 2
+    }
   ]
 }

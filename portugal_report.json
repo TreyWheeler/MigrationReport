@@ -1,90 +1,545 @@
 {
   "iso": "PT",
   "values": [
-    {"key": "Environment", "alignmentText": "Pleasant Mediterranean climate with scenic coastlines and low pollution.", "alignmentValue": 9},
-    {"key": "Global Warming Risk", "alignmentText": "Increasing drought and wildfire risk in summer months.", "alignmentValue": 5},
-    {"key": "Seasonal Weather", "alignmentText": "Mild winters and hot dry summers.", "alignmentValue": 8},
-    {"key": "Air Quality", "alignmentText": "Generally good across the country.", "alignmentValue": 8},
-    {"key": "Natural Disasters", "alignmentText": "Earthquake risk near Lisbon and wildfires in rural areas.", "alignmentValue": 5},
-    {"key": "Beach Life", "alignmentText": "Extensive beaches with active surf culture.", "alignmentValue": 9},
-    {"key": "Seasonal Beach Water Temp", "alignmentText": "Atlantic waters are cooler but warm in southern summer.", "alignmentValue": 6},
-    {"key": "Natural Beauty", "alignmentText": "Historic towns, cliffs, and vineyards offer charm.", "alignmentValue": 8},
-    {"key": "Minimum Wage", "alignmentText": "Lower than Western European peers.", "alignmentValue": 4},
-    {"key": "Typical Software Salaries", "alignmentText": "Growing tech scene yet wages remain modest.", "alignmentValue": 5},
-    {"key": ".NET Work Prospects", "alignmentText": "Used in enterprises with moderate demand.", "alignmentValue": 6},
-    {"key": "Ruby Work Prospects", "alignmentText": "Small but active startup community in Lisbon and Porto.", "alignmentValue": 6},
-    {"key": "Employer Visa Sponsorship", "alignmentText": "Tech visas available and relatively accessible.", "alignmentValue": 6},
-    {"key": "Economic Health", "alignmentText": "Recovering economy reliant on tourism and services.", "alignmentValue": 6},
-    {"key": "Remote-Friendly Culture", "alignmentText": "Popular with digital nomads and remote workers.", "alignmentValue": 8},
-    {"key": "Work-Life Balance", "alignmentText": "Relaxed lifestyle with long lunch breaks.", "alignmentValue": 8},
-    {"key": "Work Week Hours", "alignmentText": "Standard 40-hour workweek with regulated overtime.", "alignmentValue": 7},
-    {"key": "Vacation Days (Minimum)", "alignmentText": "22 working days plus public holidays.", "alignmentValue": 7},
-    {"key": "Vacation Days (Typical)", "alignmentText": "Often more time off with tenure.", "alignmentValue": 7},
-    {"key": "Pace of Life", "alignmentText": "Laid-back, especially outside major cities.", "alignmentValue": 8},
-    {"key": "Family Life", "alignmentText": "Family-oriented culture with strong support networks.", "alignmentValue": 8},
-    {"key": "Polyamory", "alignmentText": "Limited awareness but tolerant in urban areas.", "alignmentValue": 4},
-    {"key": "Parenting Expectations", "alignmentText": "Emphasis on family time and relaxed schedules.", "alignmentValue": 7},
-    {"key": "Child-Friendliness of Cities", "alignmentText": "Parks and playgrounds make cities welcoming to children.", "alignmentValue": 8},
-    {"key": "Schooling Options", "alignmentText": "Decent public schools and international options in Lisbon/Porto.", "alignmentValue": 6},
-    {"key": "What Is Intriguing", "alignmentText": "Affordable coastal living and rich history.", "alignmentValue": 8},
-    {"key": "Language & English Ubiquity", "alignmentText": "Portuguese is primary; good English in cities.", "alignmentValue": 7},
-    {"key": "Progressivism", "alignmentText": "Progressive on social issues including LGBTQ rights.", "alignmentValue": 8},
-    {"key": "Marxism (Societal Attitudes)", "alignmentText": "Left parties present but market economy prevails.", "alignmentValue": 6},
-    {"key": "Atheism", "alignmentText": "Catholic heritage with rising secularism.", "alignmentValue": 6},
-    {"key": "Sex (Attitudes)", "alignmentText": "Generally liberal attitudes toward sexuality.", "alignmentValue": 7},
-    {"key": "LGBTQ+ Attitudes", "alignmentText": "Strong legal protections and social acceptance.", "alignmentValue": 8},
-    {"key": "Community Vibes", "alignmentText": "Welcoming and friendly locals.", "alignmentValue": 8},
-    {"key": "View of self", "alignmentText": "Proud of maritime history and cultural heritage.", "alignmentValue": 7},
-    {"key": "View of Neighboring Countries", "alignmentText": "Good relations with Spain and other EU members.", "alignmentValue": 7},
-    {"key": "View of Them by Neighboring Countries", "alignmentText": "Seen as friendly and relaxed.", "alignmentValue": 8},
-    {"key": "Gender Roles", "alignmentText": "Improving equality though traditional in some areas.", "alignmentValue": 6},
-    {"key": "Gender Fluidity", "alignmentText": "Legal recognition but small communities.", "alignmentValue": 6},
-    {"key": "Gender Rights", "alignmentText": "Legal protections including parental leave.", "alignmentValue": 7},
-    {"key": "Femininity Norms", "alignmentText": "Casual and diverse expressions.", "alignmentValue": 7},
-    {"key": "Masculinity Norms", "alignmentText": "Family-oriented; machismo declining.", "alignmentValue": 6},
-    {"key": "Common Hobbies", "alignmentText": "Football, surfing, and festivals.", "alignmentValue": 8},
-    {"key": "Boardgaming & Tabletop", "alignmentText": "Small but growing hobby stores.", "alignmentValue": 6},
-    {"key": "Nightlife & Music", "alignmentText": "Vibrant nightlife in Lisbon and Porto.", "alignmentValue": 8},
-    {"key": "Meetups & Communities", "alignmentText": "Tech meetups and expat groups are active.", "alignmentValue": 7},
-    {"key": "Nature Access", "alignmentText": "Close access to beaches and hiking areas.", "alignmentValue": 8},
-    {"key": "Political System", "alignmentText": "Semi-presidential parliamentary republic.", "alignmentValue": 7},
-    {"key": "Religion in Politics", "alignmentText": "Secular state with low religious influence.", "alignmentValue": 7},
-    {"key": "Workers' Rights", "alignmentText": "Strong labor laws though enforcement varies.", "alignmentValue": 7},
-    {"key": "State Ideology", "alignmentText": "Social democracy with liberal market.", "alignmentValue": 7},
-    {"key": "Healthcare (Citizens)", "alignmentText": "Universal SNS system with good coverage.", "alignmentValue": 8},
-    {"key": "Healthcare (Visa Holders)", "alignmentText": "Access with residency or private insurance.", "alignmentValue": 7},
-    {"key": "Child Care Support", "alignmentText": "Subsidies exist but availability limited.", "alignmentValue": 6},
-    {"key": "Family Policy (Common Family)", "alignmentText": "Supports families via child benefits.", "alignmentValue": 7},
-    {"key": "Authoritarian Backsliding Risk", "alignmentText": "Low; stable democracy.", "alignmentValue": 8},
-    {"key": "State of Capitalism", "alignmentText": "Open market with some state involvement.", "alignmentValue": 7},
-    {"key": "Education", "alignmentText": "Improving schools and affordable higher education.", "alignmentValue": 7},
-    {"key": "Stability", "alignmentText": "Politically stable with low crime.", "alignmentValue": 8},
-    {"key": "Propaganda Prevalence", "alignmentText": "Independent media with low state propaganda.", "alignmentValue": 8},
-    {"key": "Propaganda Messaging", "alignmentText": "Public broadcasting focuses on culture and news.", "alignmentValue": 6},
-    {"key": "Social Policies", "alignmentText": "Progressive on healthcare and LGBTQ rights.", "alignmentValue": 8},
-    {"key": "Trust in Government", "alignmentText": "Moderate public trust.", "alignmentValue": 6},
-    {"key": "Perceived Corruption", "alignmentText": "Moderate levels with improvements in recent years.", "alignmentValue": 6},
-    {"key": "Type of Corruption", "alignmentText": "Occasional political scandals.", "alignmentValue": 6},
-    {"key": "Housing Situation", "alignmentText": "Rising rents in Lisbon and Porto due to tourism.", "alignmentValue": 4},
-    {"key": "Public Transportation", "alignmentText": "Good urban transit and national rail network.", "alignmentValue": 7},
-    {"key": "Safety & Crime", "alignmentText": "One of Europe's safest countries.", "alignmentValue": 9},
-    {"key": "Economic System", "alignmentText": "Open economy integrated with the EU.", "alignmentValue": 7},
-    {"key": "Retirement (Immigrants)", "alignmentText": "Non-habitual resident program offers tax benefits.", "alignmentValue": 7},
-    {"key": "How Taxes Are Handled", "alignmentText": "PAYE plus annual filing with moderate complexity.", "alignmentValue": 6},
-    {"key": "Expected Tax Rate (Our Family)", "alignmentText": "Moderate income tax and social contributions.", "alignmentValue": 6},
-    {"key": "Banking & Payments", "alignmentText": "Modern banking with MB Way mobile payments.", "alignmentValue": 8},
-    {"key": "Cost of Living (Optional)", "alignmentText": "Lower than many EU countries, especially outside major cities.", "alignmentValue": 7},
-    {"key": "Visa Paths", "alignmentText": "D7 passive income and startup visas popular.", "alignmentValue": 7},
-    {"key": "Welcoming of US Migrants", "alignmentText": "Generally welcoming with growing expat communities.", "alignmentValue": 8},
-    {"key": "Residency Types & Durations", "alignmentText": "Temporary residence leading to permanent after five years.", "alignmentValue": 7},
-    {"key": "Path to Citizenship", "alignmentText": "Five years residency plus language test.", "alignmentValue": 7},
-    {"key": "Family Members", "alignmentText": "Family reunification straightforward with work rights.", "alignmentValue": 8},
-    {"key": "Timelines & Costs", "alignmentText": "Moderate fees but bureaucratic delays common.", "alignmentValue": 5},
-    {"key": "Compliance & Risks", "alignmentText": "Need to maintain stay requirements and income proof.", "alignmentValue": 6},
-    {"key": "Game Dev Work Prospects", "alignmentText": "Small but emerging game development scene.", "alignmentValue": 5},
-    {"key": "Notable Game Studios", "alignmentText": "Miniclip and Lockwood have operations in Lisbon.", "alignmentValue": 6},
-    {"key": "Notable Game Development Communities", "alignmentText": "Events like Lisboa Games Week support the scene.", "alignmentValue": 6},
-    {"key": "Opportunities for Video Game Startup", "alignmentText": "StartUP Portugal and EU funds offer support.", "alignmentValue": 7},
-    {"key": "Modernity & Infrastructure", "alignmentText": "Good roads and fiber in cities though rural areas lag.", "alignmentValue": 7}
+    {
+      "key": ".NET Work Prospects",
+      "alignmentText": "Used in enterprises with moderate demand.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Generally good across the country.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "Catholic heritage with rising secularism.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Low; stable democracy.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentText": "Modern banking with MB Way mobile payments.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Extensive beaches with active surf culture.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "alignmentText": "Small but growing hobby stores.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Subsidies exist but availability limited.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Parks and playgrounds make cities welcoming to children.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Football, surfing, and festivals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Welcoming and friendly locals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compliance & Risks",
+      "alignmentText": "Need to maintain stay requirements and income proof.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Lower than many EU countries, especially outside major cities.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Recovering economy reliant on tourism and services.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Open economy integrated with the EU.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Improving schools and affordable higher education.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Tech visas available and relatively accessible.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "Pleasant Mediterranean climate with scenic coastlines and low pollution.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Moderate income tax and social contributions.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fall Temperature Range (°C/°F)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Family-oriented culture with strong support networks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Family reunification straightforward with work rights.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Supports families via child benefits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Casual and diverse expressions.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Small but emerging game development scene.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Legal recognition but small communities.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Legal protections including parental leave.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Improving equality though traditional in some areas.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Increasing drought and wildfire risk in summer months.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Universal SNS system with good coverage.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Access with residency or private insurance.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Rising rents in Lisbon and Porto due to tourism.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "PAYE plus annual filing with moderate complexity.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "alignmentText": "Portuguese is primary; good English in cities.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "alignmentText": "Strong legal protections and social acceptance.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Left parties present but market economy prevails.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Family-oriented; machismo declining.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Meetups & Communities",
+      "alignmentText": "Tech meetups and expat groups are active.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Lower than Western European peers.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "alignmentText": "Good roads and fiber in cities though rural areas lag.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Historic towns, cliffs, and vineyards offer charm.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Earthquake risk near Lisbon and wildfires in rural areas.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Close access to beaches and hiking areas.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Nightlife & Music",
+      "alignmentText": "Vibrant nightlife in Lisbon and Porto.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Events like Lisboa Games Week support the scene.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Miniclip and Lockwood have operations in Lisbon.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "StartUP Portugal and EU funds offer support.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Laid-back, especially outside major cities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Emphasis on family time and relaxed schedules.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Five years residency plus language test.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Moderate levels with improvements in recent years.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "Semi-presidential parliamentary republic.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Limited awareness but tolerant in urban areas.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Progressive on social issues including LGBTQ rights.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Public broadcasting focuses on culture and news.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Independent media with low state propaganda.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Good urban transit and national rail network.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Secular state with low religious influence.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Popular with digital nomads and remote workers.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Residency Types & Durations",
+      "alignmentText": "Temporary residence leading to permanent after five years.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Retirement (Immigrants)",
+      "alignmentText": "Non-habitual resident program offers tax benefits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Small but active startup community in Lisbon and Porto.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Safety & Crime",
+      "alignmentText": "One of Europe's safest countries.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Decent public schools and international options in Lisbon/Porto.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Atlantic waters are cooler but warm in southern summer.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Mild winters and hot dry summers.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Generally liberal attitudes toward sexuality.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Progressive on healthcare and LGBTQ rights.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Spring Temperature Range (°C/°F)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Politically stable with low crime.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Social democracy with liberal market.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "Open market with some state involvement.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Summer Temperature Range (°C/°F)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Timelines & Costs",
+      "alignmentText": "Moderate fees but bureaucratic delays common.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Moderate public trust.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Occasional political scandals.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Growing tech scene yet wages remain modest.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "22 working days plus public holidays.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Often more time off with tenure.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Good relations with Spain and other EU members.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "Proud of maritime history and cultural heritage.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Seen as friendly and relaxed.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "D7 passive income and startup visas popular.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Generally welcoming with growing expat communities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Affordable coastal living and rich history.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Winter Temperature Range (°C/°F)",
+      "alignmentText": "",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "Standard 40-hour workweek with regulated overtime.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Relaxed lifestyle with long lunch breaks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Workers' Rights",
+      "alignmentText": "Strong labor laws though enforcement varies.",
+      "alignmentValue": 7
+    }
   ]
 }
