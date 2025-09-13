@@ -1,5 +1,21 @@
 const appState = { items: [], selected: [] };
 
+function saveSelectedToStorage() {
+  try {
+    const files = appState.selected.map(s => s.file);
+    setStored('selectedCountries', files);
+  } catch {}
+}
+
+function loadSelectedFromStorage(items) {
+  const saved = getStored('selectedCountries', null);
+  if (!Array.isArray(saved) || saved.length === 0) return [];
+  const byFile = new Map(items.map(it => [it.file, it]));
+  const result = [];
+  saved.forEach(f => { if (byFile.has(f) && result.length < 4) result.push(byFile.get(f)); });
+  return result;
+}
+
 async function loadMain() {
   const response = await fetch('main.json');
   const mainData = await response.json();
@@ -10,14 +26,16 @@ async function loadMain() {
 
   // Build items for custom list
   appState.items = mainData.Countries.map(c => ({ name: c.name, file: c.file, iso: '' }));
-  // Render immediately for responsiveness
+  // Restore previously selected countries or default to first
   renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
-  // Default selection: first country
-  if (appState.items.length > 0) {
+  const restored = loadSelectedFromStorage(appState.items);
+  if (restored.length > 0) {
+    appState.selected = restored;
+  } else if (appState.items.length > 0) {
     appState.selected = [appState.items[0]];
-    updateCountryListSelection(listEl);
-    onSelectionChanged(mainData, notice);
   }
+  updateCountryListSelection(listEl);
+  onSelectionChanged(mainData, notice);
   // Enrich with ISO in the background and refresh flags
   try {
     await Promise.all(appState.items.map(async it => {
@@ -81,7 +99,11 @@ async function fetchCountry(file) {
 function onSelectionChanged(mainData, notice) {
   const selected = appState.selected;
   if (!selected || selected.length === 0) return;
-  renderComparison(selected, mainData, { diffEnabled: getStored('diffEnabled', false) });
+  // Preserve current table scroll if present
+  const reportDiv = document.getElementById('report');
+  const oldWrap = reportDiv ? reportDiv.querySelector('.table-wrap') : null;
+  const restoreScroll = oldWrap ? { x: oldWrap.scrollLeft, y: oldWrap.scrollTop } : getStored('tableScroll', { x: 0, y: 0 });
+  renderComparison(selected, mainData, { diffEnabled: getStored('diffEnabled', false), restoreScroll });
 }
 
 function renderCountryList(listEl, items, notice, onChange) {
@@ -136,6 +158,7 @@ function toggleSelectCountry(item, notice) {
     appState.selected.push(item);
     notice.textContent = '';
   }
+  saveSelectedToStorage();
 }
 
 async function loadCountry(file, mainData) {
@@ -345,6 +368,15 @@ async function renderComparison(selectedList, mainData, options = {}) {
   reportDiv.appendChild(floating);
   reportDiv.appendChild(wrap);
 
+  // Restore scroll position (from prior render or stored between sessions)
+  try {
+    const rs = options && options.restoreScroll ? options.restoreScroll : getStored('tableScroll', { x: 0, y: 0 });
+    if (rs && typeof rs.x === 'number' && typeof rs.y === 'number') {
+      wrap.scrollLeft = rs.x;
+      wrap.scrollTop = rs.y;
+    }
+  } catch {}
+
   function buildFloatingFromThead() {
     frow.innerHTML = '';
     const headerRow = table.tHead && table.tHead.rows[0];
@@ -375,7 +407,10 @@ async function renderComparison(selectedList, mainData, options = {}) {
 
   buildFloatingFromThead();
   updateFloatingVisibility();
-  wrap.addEventListener('scroll', updateFloatingVisibility);
+  wrap.addEventListener('scroll', () => {
+    updateFloatingVisibility();
+    setStored('tableScroll', { x: wrap.scrollLeft, y: wrap.scrollTop });
+  });
   window.addEventListener('scroll', updateFloatingVisibility, { passive: true });
   window.addEventListener('resize', buildFloatingFromThead);
 }
