@@ -11,7 +11,7 @@ Follow these steps precisely and conservatively to maximize alignment accuracy.
 - Read `main.json` and list all Keys under each Category in `Categories`. These Keys form the required checklist for the country report.
 
 2) Create the Country Report File
-- File name: `<lower_snake_case_country>_report.json` (e.g., `japan_report.json`).
+- Place the file under `reports/` with name `<lower_snake_case_country>_report.json` (e.g., `reports/japan_report.json`).
 - JSON shape must match existing reports exactly:
   {
     "iso": "XX",   // ISO 3166-1 alpha-2 code (required for flag)
@@ -48,9 +48,9 @@ Follow these steps precisely and conservatively to maximize alignment accuracy.
 - Open `main.json` and append your country to `Countries`:
   {
     "name": "Country Name",
-    "file": "country_name_report.json"
+    "file": "reports/country_name_report.json"
   }
-- Ensure the `file` matches the report filename you created.
+- Ensure the `file` path (including `reports/`) matches the report filename you created.
 
 6) Quality Checks Before Finishing
 - The report includes:

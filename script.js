@@ -90,10 +90,22 @@ const countryCache = new Map();
 
 async function fetchCountry(file) {
   if (countryCache.has(file)) return countryCache.get(file);
-  const response = await fetch(file);
-  const data = await response.json();
-  countryCache.set(file, data);
-  return data;
+  const candidates = [];
+  if (typeof file === 'string') {
+    candidates.push(file);
+    if (!file.includes('/')) candidates.push(`reports/${file}`);
+  }
+  let lastErr = null;
+  for (const path of candidates) {
+    try {
+      const response = await fetch(path);
+      if (!response.ok) continue;
+      const data = await response.json();
+      countryCache.set(file, data);
+      return data;
+    } catch (e) { lastErr = e; }
+  }
+  throw lastErr || new Error(`Failed to fetch country report: ${file}`);
 }
 
 function onSelectionChanged(mainData, notice) {
