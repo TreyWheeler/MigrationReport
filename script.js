@@ -196,7 +196,35 @@ async function loadCountry(file, mainData) {
 
   mainData.Categories.forEach(category => {
     const catHeader = document.createElement('h2');
-    catHeader.textContent = category.Category;
+    // Compute average score for this category (ignore <=0 and non-numeric)
+    const nums = [];
+    category.Keys.forEach(keyObj => {
+      const match = countryData.values.find(v => canonKey(v.key) === canonKey(keyObj.Key));
+      const n = match ? Number(match.alignmentValue) : NaN;
+      if (isFinite(n) && n > 0) nums.push(n);
+    });
+    const avg = nums.length > 0 ? (nums.reduce((a,b)=>a+b,0) / nums.length) : NaN;
+    // Header text + average chip
+    const headerLabel = document.createElement('span');
+    headerLabel.textContent = category.Category + ' ';
+    catHeader.appendChild(headerLabel);
+    const avgNum = isFinite(avg) ? Number(avg.toFixed(1)) : NaN;
+    catHeader.appendChild(makeScoreChip(isFinite(avgNum) ? avgNum : null));
+    // Person-adjusted chips: [Name]: [Score] where Score = CategoryAvg * Weight
+    try {
+      if (Array.isArray(mainData.People) && isFinite(avgNum)) {
+        const peopleWrap = document.createElement('span');
+        peopleWrap.style.marginLeft = '8px';
+        mainData.People.forEach(person => {
+          const w = person && person.weights ? Number(person.weights[category.Category]) : NaN;
+          if (!isFinite(w)) return;
+          const adjusted = Number((avgNum * w).toFixed(1));
+          peopleWrap.appendChild(document.createTextNode(' '));
+          peopleWrap.appendChild(makePersonScoreChip(person.name, adjusted));
+        });
+        catHeader.appendChild(peopleWrap);
+      }
+    } catch {}
     reportDiv.appendChild(catHeader);
 
     const ul = document.createElement('ul');
@@ -297,14 +325,105 @@ async function renderComparison(selectedList, mainData, options = {}) {
     } catch { return String(s || ''); }
   };
 
+  // Compute and append overall average chip in each country header
+  try {
+    const headerCells = Array.from(headRow.cells || []);
+    // headerCells[0] is the left key header; countries start at index 1
+    datasets.forEach((ds, idx) => {
+      const catAverages = [];
+      mainData.Categories.forEach(cat => {
+        const vals = [];
+        cat.Keys.forEach(k => {
+          const m = ds.data.values.find(v => canonKey(v.key) === canonKey(k.Key));
+          const n = m ? Number(m.alignmentValue) : NaN;
+          if (isFinite(n) && n > 0) vals.push(n);
+        });
+        if (vals.length > 0) {
+          const avg = vals.reduce((a,b)=>a+b,0) / vals.length;
+          if (isFinite(avg)) catAverages.push(avg);
+        }
+      });
+      const overall = catAverages.length > 0 ? Number((catAverages.reduce((a,b)=>a+b,0) / catAverages.length).toFixed(1)) : NaN;
+      const th = headerCells[idx + 1];
+      if (th) {
+        th.appendChild(document.createTextNode(' '));
+        th.appendChild(makeScoreChip(isFinite(overall) ? overall : null));
+        // Also append per-person total scores across categories for this country
+        try {
+          if (Array.isArray(mainData.People) && mainData.People.length > 0) {
+            const totals = [];
+            mainData.People.forEach(person => {
+              if (!person || !person.weights) return;
+              let sum = 0;
+              let any = false;
+              mainData.Categories.forEach(cat => {
+                const w = Number(person.weights[cat.Category]);
+                if (!isFinite(w)) return;
+                const vals = [];
+                cat.Keys.forEach(k => {
+                  const m = ds.data.values.find(v => canonKey(v.key) === canonKey(k.Key));
+                  const n = m ? Number(m.alignmentValue) : NaN;
+                  if (isFinite(n) && n > 0) vals.push(n);
+                });
+                if (vals.length > 0) {
+                  const avg = vals.reduce((a,b)=>a+b,0) / vals.length;
+                  if (isFinite(avg)) {
+                    sum += (avg * w);
+                    any = true;
+                  }
+                }
+              });
+              if (any) {
+                const total = Number(sum.toFixed(1));
+                th.appendChild(document.createTextNode(' '));
+                th.appendChild(makePersonScoreChip(person.name, total));
+                totals.push(sum);
+              }
+            });
+            if (totals.length > 0) {
+              const allAvg = Number((totals.reduce((a,b)=>a+b,0) / totals.length).toFixed(1));
+              th.appendChild(document.createTextNode(' '));
+              th.appendChild(makePersonScoreChip('All', allAvg));
+            }
+          }
+        } catch {}
+      }
+    });
+  } catch {}
+
   mainData.Categories.forEach(category => {
-    // Category header row
+    // Category header row with per-country averages
     const catRow = document.createElement('tr');
     catRow.className = 'category-header-row';
-    const catTh = document.createElement('th');
-    catTh.colSpan = 1 + datasets.length;
-    catTh.textContent = category.Category;
-    catRow.appendChild(catTh);
+    const catNameTh = document.createElement('th');
+    catNameTh.textContent = category.Category;
+    catRow.appendChild(catNameTh);
+    // Compute and render per-country average for this category
+    datasets.forEach(ds => {
+      const values = [];
+      category.Keys.forEach(k => {
+        const m = ds.data.values.find(v => canonKey(v.key) === canonKey(k.Key));
+        const n = m ? Number(m.alignmentValue) : NaN;
+        if (isFinite(n) && n > 0) values.push(n);
+      });
+      const avg = values.length > 0 ? (values.reduce((a,b)=>a+b,0) / values.length) : NaN;
+      const th = document.createElement('th');
+      const avgNum = isFinite(avg) ? Number(avg.toFixed(1)) : NaN;
+      th.appendChild(makeScoreChip(isFinite(avgNum) ? avgNum : null));
+      // Append person-adjusted chips per country for this category
+      try {
+        if (Array.isArray(mainData.People) && isFinite(avgNum)) {
+          mainData.People.forEach(person => {
+            const w = person && person.weights ? Number(person.weights[category.Category]) : NaN;
+            if (!isFinite(w)) return;
+            const adjusted = Number((avgNum * w).toFixed(1));
+            th.appendChild(document.createTextNode(' '));
+            th.appendChild(makePersonScoreChip(person.name, adjusted));
+          });
+        }
+      } catch {}
+      catRow.appendChild(th);
+    });
     tbody.appendChild(catRow);
 
     // Key rows
@@ -499,6 +618,26 @@ function makeScoreChip(score) {
   } else {
     span.textContent = String(n);
     span.title = `Score: ${n} - ${bucket.label}`;
+  }
+  return span;
+}
+
+// Chip showing person-adjusted category score with label "Name: score"
+function makePersonScoreChip(name, score) {
+  const span = document.createElement('span');
+  const n = Number(score);
+  const bucket = getScoreBucket(n);
+  // Person chips use neutral styling regardless of bucket
+  span.className = 'score-chip person-chip';
+  const labelName = (typeof name === 'string' && name) ? name : 'Person';
+  if (!isFinite(n) || n <= 0) {
+    span.textContent = `${labelName}: -`;
+    span.title = `${labelName}: No data`;
+  } else {
+    // Show 1 decimal when present, otherwise integer
+    const text = (Math.abs(n - Math.round(n)) < 1e-6) ? String(Math.round(n)) : String(n);
+    span.textContent = `${labelName}: ${text}`;
+    span.title = `${labelName} adjusted: ${n} - ${bucket.label}`;
   }
   return span;
 }
