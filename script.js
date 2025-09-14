@@ -28,8 +28,22 @@ async function loadMain() {
   appState.items = mainData.Countries
     .map(c => ({ name: c.name, file: c.file, iso: '' }))
     .sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
+
+  // Setup sort dropdown (adds person options and reads stored preference)
+  try { setupCountrySortControls(mainData, listEl, notice); } catch {}
+
+  // Initial render: apply stored sort if not alphabetical; otherwise render alphabetically
+  try {
+    const s = document.getElementById('countrySort');
+    if (s && s.value && s.value !== 'alpha') {
+      await applyCountrySort(mainData, listEl, notice);
+    } else {
+      renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
+    }
+  } catch {
+    renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
+  }
   // Restore previously selected countries or default to first
-  renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
   const restored = loadSelectedFromStorage(appState.items);
   if (restored.length > 0) {
     appState.selected = restored;
@@ -77,13 +91,160 @@ async function loadMain() {
   }
 }
 
-// Map score to fixed colors by thresholds: 0-3 red, 4-6 orange, 7 caution yellow, 8-10 forest green
+// Build and wire the sort dropdown in the sidebar
+function setupCountrySortControls(mainData, listEl, notice) {
+  const sel = document.getElementById('countrySort');
+  if (!sel) return;
+  // Append person options
+  if (Array.isArray(mainData.People)) {
+    mainData.People.forEach(p => {
+      if (!p || !p.name) return;
+      const opt = document.createElement('option');
+      opt.value = `person:${p.name}`;
+      opt.textContent = `Person: ${p.name}`;
+      sel.appendChild(opt);
+    });
+  }
+  // Restore stored choice or default
+  const stored = getStored('countrySort', 'alpha');
+  if (typeof stored === 'string') sel.value = stored;
+  sel.addEventListener('change', () => {
+    setStored('countrySort', sel.value);
+    applyCountrySort(mainData, listEl, notice);
+  });
+}
+
+// Compute scores used for sorting for a given country's data
+function computeCountryScoresForSorting(countryData, mainData, peopleList) {
+  const canonKey = (s) => {
+    try {
+      let t = typeof s === 'string' ? s : '';
+      if (t.normalize) t = t.normalize('NFKC');
+      t = t.replace(/[�??]/g, '');
+      t = t.toLowerCase();
+      t = t.replace(/\s+/g, ' ').trim();
+      return t;
+    } catch { return String(s || ''); }
+  };
+  // Per-category averages
+  const catAverages = [];
+  mainData.Categories.forEach(cat => {
+    const vals = [];
+    cat.Keys.forEach(k => {
+      const m = countryData.values.find(v => canonKey(v.key) === canonKey(k.Key));
+      const n = m ? Number(m.alignmentValue) : NaN;
+      if (isFinite(n) && n > 0) vals.push(n);
+    });
+    if (vals.length > 0) {
+      const avg = vals.reduce((a,b)=>a+b,0) / vals.length;
+      if (isFinite(avg)) catAverages.push(avg);
+    }
+  });
+  const overall = catAverages.length > 0 ? (catAverages.reduce((a,b)=>a+b,0) / catAverages.length) : NaN;
+
+  const personTotals = {};
+  const totalsArr = [];
+  if (Array.isArray(peopleList)) {
+    peopleList.forEach(person => {
+      if (!person || !person.weights) return;
+      let sum = 0; let any = false;
+      mainData.Categories.forEach(cat => {
+        const w = Number(person.weights[cat.Category]);
+        if (!isFinite(w)) return;
+        const vals = [];
+        cat.Keys.forEach(k => {
+          const m = countryData.values.find(v => canonKey(v.key) === canonKey(k.Key));
+          const n = m ? Number(m.alignmentValue) : NaN;
+          if (isFinite(n) && n > 0) vals.push(n);
+        });
+        if (vals.length > 0) {
+          const avg = vals.reduce((a,b)=>a+b,0) / vals.length;
+          if (isFinite(avg)) { sum += (avg * w); any = true; }
+        }
+      });
+      if (any) { personTotals[person.name] = sum; totalsArr.push(sum); }
+    });
+  }
+  const allAvg = totalsArr.length > 0 ? (totalsArr.reduce((a,b)=>a+b,0) / totalsArr.length) : NaN;
+  return { overall, personTotals, allAvg };
+}
+
+async function ensureCountryMetrics(item, mainData) {
+  if (item.metrics) return item.metrics;
+  const data = await fetchCountry(item.file);
+  if (data && data.iso && !item.iso) item.iso = String(data.iso);
+  const m = computeCountryScoresForSorting(data, mainData, mainData.People || []);
+  // Normalize to 1 decimal to match chips
+  const round1 = (x) => isFinite(x) ? Number(x.toFixed(1)) : NaN;
+  const metrics = {
+    overall: round1(m.overall),
+    allAvg: round1(m.allAvg),
+    personTotals: {}
+  };
+  Object.keys(m.personTotals || {}).forEach(name => { metrics.personTotals[name] = round1(m.personTotals[name]); });
+  item.metrics = metrics;
+  return metrics;
+}
+
+async function applyCountrySort(mainData, listEl, notice) {
+  const sel = document.getElementById('countrySort');
+  if (!sel) return;
+  const mode = sel.value || 'alpha';
+  const items = appState.items.slice();
+
+  function byName(a,b){ return a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }); }
+  function descNum(a,b){ return (b - a); }
+
+  if (mode === 'alpha') {
+    items.sort(byName);
+    appState.items = items;
+    renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
+    updateCountryListSelection(listEl);
+    return;
+  }
+
+  // For numeric sorts, compute metrics first
+  try {
+    await Promise.all(items.map(it => ensureCountryMetrics(it, mainData)));
+  } catch {}
+
+  if (mode === 'alignment') {
+    items.sort((a,b) => {
+      const av = (a.metrics && isFinite(a.metrics.overall)) ? a.metrics.overall : -Infinity;
+      const bv = (b.metrics && isFinite(b.metrics.overall)) ? b.metrics.overall : -Infinity;
+      if (av === bv) return byName(a,b);
+      return descNum(av, bv);
+    });
+  } else if (mode === 'total') {
+    items.sort((a,b) => {
+      const av = (a.metrics && isFinite(a.metrics.allAvg)) ? a.metrics.allAvg : -Infinity;
+      const bv = (b.metrics && isFinite(b.metrics.allAvg)) ? b.metrics.allAvg : -Infinity;
+      if (av === bv) return byName(a,b);
+      return descNum(av, bv);
+    });
+  } else if (mode.startsWith('person:')) {
+    const personName = mode.slice('person:'.length);
+    items.sort((a,b) => {
+      const av = (a.metrics && a.metrics.personTotals && isFinite(a.metrics.personTotals[personName])) ? a.metrics.personTotals[personName] : -Infinity;
+      const bv = (b.metrics && b.metrics.personTotals && isFinite(b.metrics.personTotals[personName])) ? b.metrics.personTotals[personName] : -Infinity;
+      if (av === bv) return byName(a,b);
+      return descNum(av, bv);
+    });
+  }
+
+  appState.items = items;
+  renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
+  updateCountryListSelection(listEl);
+}
+
+// Map score to fixed colors by thresholds using rounded integer: 0-3 red, 4-6 orange, 7 caution yellow, 8-10 green
 function colorForScore(value) {
   const num = Number(value);
   if (!isFinite(num)) return '#cccccc';
-  if (num <= 3) return 'red';
-  if (num <= 6) return 'orange';
-  if (num === 7) return '#FFCC00'; // caution yellow
+  const rounded = Math.round(num);
+  if (rounded <= 3) return 'red';
+  if (rounded <= 6) return 'orange';
+  if (rounded === 7) return '#FFCC00'; // caution yellow
   return 'forestgreen';
 }
 
@@ -139,6 +300,12 @@ function renderCountryList(listEl, items, notice, onChange) {
     nameSpan.textContent = it.name;
     row.appendChild(nameSpan);
 
+    // Optional right-aligned chip depending on current sort mode
+    try {
+      const chipWrap = buildCountryListChip(it);
+      if (chipWrap) row.appendChild(chipWrap);
+    } catch {}
+
     row.addEventListener('click', () => {
       toggleSelectCountry(it, notice);
       updateCountryListSelection(listEl);
@@ -147,6 +314,30 @@ function renderCountryList(listEl, items, notice, onChange) {
 
     listEl.appendChild(row);
   });
+}
+
+function buildCountryListChip(item) {
+  const sel = document.getElementById('countrySort');
+  if (!sel) return null;
+  const mode = sel.value || 'alpha';
+  if (mode === 'alpha') return null;
+  let chip = null;
+  if (mode === 'alignment') {
+    const v = item.metrics && isFinite(item.metrics.overall) ? item.metrics.overall : null;
+    chip = makeScoreChip(isFinite(v) ? v : null);
+  } else if (mode === 'total') {
+    const v = item.metrics && isFinite(item.metrics.allAvg) ? item.metrics.allAvg : null;
+    chip = makePersonScoreChip('All', isFinite(v) ? v : null);
+  } else if (mode.startsWith('person:')) {
+    const personName = mode.slice('person:'.length);
+    const v = (item.metrics && item.metrics.personTotals && isFinite(item.metrics.personTotals[personName])) ? item.metrics.personTotals[personName] : null;
+    chip = makePersonScoreChip(personName, isFinite(v) ? v : null);
+  }
+  if (!chip) return null;
+  const wrap = document.createElement('span');
+  wrap.className = 'right-chip';
+  wrap.appendChild(chip);
+  return wrap;
 }
 
 function updateCountryListSelection(listEl) {
@@ -555,13 +746,14 @@ function applyTheme(mode) { document.body.setAttribute('data-theme', mode === 'd
 function applyDensity(isCompact) { document.body.classList.toggle('density-compact', !!isCompact); }
 function initUiPreferences() { /* reserved for future */ }
 
-// Determine score bucket and class/label
+// Determine score bucket and class/label using rounded integer for thresholds
 function getScoreBucket(score) {
   const num = Number(score);
   if (!isFinite(num) || num <= 0) return { key: 'muted', label: 'No data' };
-  if (num <= 3) return { key: 'red', label: '0-3' };
-  if (num <= 6) return { key: 'orange', label: '4-6' };
-  if (num === 7) return { key: 'yellow', label: '7' };
+  const rounded = Math.round(num);
+  if (rounded <= 3) return { key: 'red', label: '0-3' };
+  if (rounded <= 6) return { key: 'orange', label: '4-6' };
+  if (rounded === 7) return { key: 'yellow', label: '7' };
   return { key: 'green', label: '8-10' };
 }
 
