@@ -24,8 +24,10 @@ async function loadMain() {
   // Initialize UI preferences and toggles
   initUiPreferences();
 
-  // Build items for custom list
-  appState.items = mainData.Countries.map(c => ({ name: c.name, file: c.file, iso: '' }));
+  // Build items for custom list (sorted by name)
+  appState.items = mainData.Countries
+    .map(c => ({ name: c.name, file: c.file, iso: '' }))
+    .sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
   // Restore previously selected countries or default to first
   renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
   const restored = loadSelectedFromStorage(appState.items);
