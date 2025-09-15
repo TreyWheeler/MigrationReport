@@ -240,6 +240,24 @@
     td.value-cell {
       width: auto;
     }
+    /* Dig In button visibility on hover */
+    .value-cell .dig-in-btn {
+      margin-left: auto;
+      font-size: 12px;
+      padding: 4px 8px;
+      border: 1px solid var(--md-color-outline);
+      border-radius: 9999px;
+      background: var(--md-color-surface);
+      color: var(--md-color-on-surface);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+    }
+    .value-cell:hover .dig-in-btn { opacity: 1; pointer-events: auto; }
+    .value-cell .dig-in-btn:hover {
+      border-color: var(--md-color-primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent);
+    }
     .value-cell.diff-cell { background: var(--diff-bg) !important; }
     /* Zebra rows */
     .comparison-table tbody tr:nth-child(odd) td { background: var(--md-color-surface); }

@@ -661,12 +661,20 @@ async function renderComparison(selectedList, mainData, options = {}) {
 
         const chip = makeScoreChip(match ? info.numeric : null);
         wrap.appendChild(chip);
+        let textForQuery = '';
         if (hasText) {
           appendTextWithLinks(wrap, match.alignmentText);
+          textForQuery = String(match.alignmentText || '');
         } else {
           const label = (match && info.numeric === -1) ? 'Unknown' : 'No data';
           wrap.appendChild(document.createTextNode(label));
+          textForQuery = label;
         }
+        // Add Dig In button (hidden until hover via CSS)
+        try {
+          const btn = makeDigInButton(ds.name, category.Category, textForQuery);
+          wrap.appendChild(btn);
+        } catch {}
         td.appendChild(wrap);
         if (options.diffEnabled && counts.size > 1 && info.bucketKey !== majorityKey) {
           td.classList.add('diff-cell');
@@ -994,6 +1002,23 @@ function appendTextWithLinks(parent, text) {
   if (lastIndex < text.length) {
     parent.appendChild(document.createTextNode(text.slice(lastIndex)));
   }
+}
+
+// Create a "Dig In" button that opens a Perplexity query in a new tab
+function makeDigInButton(country, category, cellText) {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'dig-in-btn';
+  btn.textContent = 'Dig In';
+  btn.title = 'Open in Perplexity';
+  btn.addEventListener('click', (e) => {
+    try { e.stopPropagation(); } catch {}
+    const text = typeof cellText === 'string' && cellText.length > 0 ? cellText : 'No data';
+    const q = `I am considering migrating from the United State to ${country}. I am looking at some data describing ${category} in ${country}. Please elaborate on the following text to help me understand what it means: "${text}"`;
+    const url = `https://www.perplexity.ai/search?q=${encodeURIComponent(q)}`;
+    try { window.open(url, '_blank', 'noopener'); } catch { window.location.href = url; }
+  });
+  return btn;
 }
 
 // Create an <img> for a country ISO code using a public flag CDN (SVG)
