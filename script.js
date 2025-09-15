@@ -65,6 +65,7 @@ async function loadMain() {
   const diffToggle = document.getElementById('diffToggle');
   const densityToggle = document.getElementById('densityToggle');
   const themeToggle = document.getElementById('themeToggle');
+  const weightsBtn = document.getElementById('weightsBtn');
   if (diffToggle) {
     diffToggle.checked = getStored('diffEnabled', false);
     diffToggle.addEventListener('change', () => { setStored('diffEnabled', diffToggle.checked); onSelectionChanged(mainData, notice); });
@@ -88,6 +89,11 @@ async function loadMain() {
       setStored('theme', mode);
       applyTheme(mode);
     });
+  }
+
+  // Weights dialog
+  if (weightsBtn) {
+    weightsBtn.addEventListener('click', () => openWeightsDialog(mainData));
   }
 }
 
@@ -173,7 +179,7 @@ async function ensureCountryMetrics(item, mainData) {
   if (item.metrics) return item.metrics;
   const data = await fetchCountry(item.file);
   if (data && data.iso && !item.iso) item.iso = String(data.iso);
-  const m = computeCountryScoresForSorting(data, mainData, mainData.People || []);
+  const m = computeCountryScoresForSorting(data, mainData, getEffectivePeople(mainData));
   // Normalize to 1 decimal to match chips
   const round1 = (x) => isFinite(x) ? Number(x.toFixed(1)) : NaN;
   const metrics = {
@@ -403,10 +409,11 @@ async function loadCountry(file, mainData) {
     catHeader.appendChild(makeScoreChip(isFinite(avgNum) ? avgNum : null));
     // Person-adjusted chips: [Name]: [Score] where Score = CategoryAvg * Weight
     try {
-      if (Array.isArray(mainData.People) && isFinite(avgNum)) {
+      const peopleEff = getEffectivePeople(mainData);
+      if (Array.isArray(peopleEff) && isFinite(avgNum)) {
         const peopleWrap = document.createElement('span');
         peopleWrap.style.marginLeft = '8px';
-        mainData.People.forEach(person => {
+        peopleEff.forEach(person => {
           const w = person && person.weights ? Number(person.weights[category.Category]) : NaN;
           if (!isFinite(w)) return;
           const adjusted = Number((avgNum * w).toFixed(1));
@@ -541,9 +548,10 @@ async function renderComparison(selectedList, mainData, options = {}) {
         th.appendChild(makeScoreChip(isFinite(overall) ? overall : null));
         // Also append per-person total scores across categories for this country
         try {
-          if (Array.isArray(mainData.People) && mainData.People.length > 0) {
+          const peopleEff = getEffectivePeople(mainData);
+          if (Array.isArray(peopleEff) && peopleEff.length > 0) {
             const totals = [];
-            mainData.People.forEach(person => {
+            peopleEff.forEach(person => {
               if (!person || !person.weights) return;
               let sum = 0;
               let any = false;
@@ -603,8 +611,9 @@ async function renderComparison(selectedList, mainData, options = {}) {
       th.appendChild(makeScoreChip(isFinite(avgNum) ? avgNum : null));
       // Append person-adjusted chips per country for this category
       try {
-        if (Array.isArray(mainData.People) && isFinite(avgNum)) {
-          mainData.People.forEach(person => {
+        const peopleEff = getEffectivePeople(mainData);
+        if (Array.isArray(peopleEff) && isFinite(avgNum)) {
+          peopleEff.forEach(person => {
             const w = person && person.weights ? Number(person.weights[category.Category]) : NaN;
             if (!isFinite(w)) return;
             const adjusted = Number((avgNum * w).toFixed(1));
@@ -832,6 +841,127 @@ function makePersonScoreChip(name, score) {
     span.title = `${labelName} adjusted: ${n} - ${bucket.label}`;
   }
   return span;
+}
+
+// ========== Weights overrides and dialog ==========
+function getWeightsOverrides() {
+  const obj = getStored('personWeightsOverrides', {});
+  return (obj && typeof obj === 'object') ? obj : {};
+}
+
+function setWeightsOverrides(obj) {
+  setStored('personWeightsOverrides', obj && typeof obj === 'object' ? obj : {});
+}
+
+function getEffectivePeople(mainData) {
+  try {
+    const overrides = getWeightsOverrides();
+    const people = Array.isArray(mainData.People) ? mainData.People : [];
+    return people.map(p => {
+      const ov = overrides && overrides[p.name] ? overrides[p.name] : {};
+      const w = Object.create(null);
+      // Use categories from main to define stable order
+      (mainData.Categories || []).forEach(cat => {
+        const key = cat.Category;
+        const v = (ov && typeof ov[key] !== 'undefined') ? Number(ov[key]) : Number((p.weights || {})[key]);
+        w[key] = isFinite(v) ? v : NaN;
+      });
+      return { name: p.name, weights: w };
+    });
+  } catch { return Array.isArray(mainData.People) ? mainData.People : []; }
+}
+
+function invalidateCountryMetricsCache() {
+  try { (appState.items || []).forEach(it => { if (it) delete it.metrics; }); } catch {}
+}
+
+function openWeightsDialog(mainData) {
+  const dlg = document.getElementById('weightsDialog');
+  const body = document.getElementById('weightsDialogBody');
+  const btnSave = document.getElementById('weightsSave');
+  const btnCancel = document.getElementById('weightsCancel');
+  const btnReset = document.getElementById('weightsReset');
+  if (!dlg || !body) return;
+
+  // Build content
+  body.innerHTML = '';
+  const overrides = getWeightsOverrides();
+  const categories = Array.isArray(mainData.Categories) ? mainData.Categories.map(c => c.Category) : [];
+  const people = Array.isArray(mainData.People) ? mainData.People : [];
+
+  people.forEach(person => {
+    const section = document.createElement('div');
+    section.className = 'wd-section';
+    const h = document.createElement('h4');
+    h.textContent = person.name;
+    section.appendChild(h);
+    const grid = document.createElement('div');
+    grid.className = 'wd-grid';
+    const personOv = overrides[person.name] || {};
+    categories.forEach(cat => {
+      const row = document.createElement('div');
+      row.className = 'wd-row';
+      const lab = document.createElement('label');
+      lab.textContent = cat;
+      const wrap = document.createElement('div');
+      wrap.className = 'wd-slider';
+      const slider = document.createElement('input');
+      slider.type = 'range'; slider.min = '0'; slider.max = '10'; slider.step = '0.1';
+      const fallback = Number((person.weights || {})[cat]);
+      const current = (typeof personOv[cat] !== 'undefined') ? Number(personOv[cat]) : (isFinite(fallback) ? fallback : 0);
+      slider.value = String(isFinite(current) ? current : 0);
+      slider.dataset.person = person.name;
+      slider.dataset.category = cat;
+      const out = document.createElement('output');
+      out.value = slider.value;
+      out.textContent = slider.value;
+      slider.addEventListener('input', () => { out.value = slider.value; out.textContent = slider.value; });
+      wrap.appendChild(slider);
+      wrap.appendChild(out);
+      grid.appendChild(lab);
+      grid.appendChild(wrap);
+    });
+    section.appendChild(grid);
+    body.appendChild(section);
+  });
+
+  function closeDialog() { try { dlg.close(); } catch {} }
+
+  if (btnCancel) btnCancel.onclick = () => closeDialog();
+  if (btnReset) btnReset.onclick = () => {
+    setWeightsOverrides({});
+    invalidateCountryMetricsCache();
+    // Refresh UI using current mainData
+    afterWeightsChanged(mainData);
+    closeDialog();
+  };
+  if (btnSave) btnSave.onclick = () => {
+    const inputs = body.querySelectorAll('input[type="range"][data-person][data-category]');
+    const next = getWeightsOverrides();
+    inputs.forEach(inp => {
+      const person = inp.dataset.person;
+      const category = inp.dataset.category;
+      const val = Number(inp.value);
+      if (!next[person]) next[person] = {};
+      next[person][category] = isFinite(val) ? val : 0;
+    });
+    setWeightsOverrides(next);
+    invalidateCountryMetricsCache();
+    afterWeightsChanged(mainData);
+    closeDialog();
+  };
+
+  try { dlg.showModal(); } catch { try { dlg.show(); } catch {} }
+}
+
+function afterWeightsChanged(mainData) {
+  try {
+    // Re-sort and re-render list and table based on updated weights
+    const listEl = document.getElementById('countryList');
+    const notice = document.getElementById('notice');
+    applyCountrySort(mainData, listEl, notice);
+    onSelectionChanged(mainData, notice);
+  } catch {}
 }
 
 function isoToFlagEmoji(iso) {

@@ -275,6 +275,23 @@
       margin-top: 6px;
       font-size: 12px;
     }
+    /* Weights dialog */
+    dialog#weightsDialog { border: none; border-radius: 12px; padding: 0; width: min(900px, 96vw); }
+    dialog#weightsDialog::backdrop { background: rgba(0,0,0,0.35); }
+    #weightsForm { background: var(--md-color-surface); color: var(--md-color-on-surface); border: 1px solid var(--md-color-outline); border-radius: 12px; overflow: hidden; }
+    .wd-header { padding: 12px 16px; border-bottom: 1px solid var(--md-color-outline); background: var(--md-color-surface-variant); }
+    .wd-body { max-height: min(65vh, 720px); overflow: auto; padding: 12px 16px; display: flex; flex-direction: column; gap: 16px; }
+    .wd-footer { display: flex; justify-content: flex-end; gap: 8px; padding: 12px 16px; border-top: 1px solid var(--md-color-outline); background: var(--md-color-surface-variant); }
+    .wd-section { border: 1px solid var(--md-color-outline); border-radius: 10px; padding: 10px; background: var(--md-color-surface); }
+    .wd-section h4 { margin: 0 0 8px; }
+    .wd-grid { display: grid; grid-template-columns: 1fr auto; gap: 10px 12px; align-items: center; }
+    .wd-row { display: contents; }
+    .wd-row label { font-weight: 600; }
+    .wd-row .wd-slider { display: flex; align-items: center; gap: 8px; }
+    .wd-row input[type="range"] { width: 280px; }
+    .wd-row output { min-width: 42px; text-align: right; font-variant-numeric: tabular-nums; }
+    .wd-footer .primary { background: var(--md-color-primary); color: white; border: none; padding: 6px 12px; border-radius: 8px; }
+    .wd-footer button { border: 1px solid var(--md-color-outline); background: var(--md-color-surface); color: var(--md-color-on-surface); padding: 6px 12px; border-radius: 8px; }
     /* Score chips */
     .score-chip {
       display: inline-flex;
@@ -336,6 +353,7 @@
           <label class="toggle"><input type="checkbox" id="diffToggle"/> Highlight differences</label>
           <label class="toggle"><input type="checkbox" id="densityToggle"/> Compact density</label>
           <label class="toggle"><input type="checkbox" id="themeToggle"/> Dark mode</label>
+          <button id="weightsBtn" type="button" class="toggle">Adjust weights</button>
         </div>
         <div id="legendMount" class="legend"></div>
       </div>
@@ -364,5 +382,20 @@
     </main>
   </div>
   <script src="script.js"></script>
+  
+  <!-- Weights Adjustment Dialog -->
+  <dialog id="weightsDialog">
+    <form id="weightsForm" method="dialog">
+      <div class="wd-header">
+        <h3 style="margin:0">Adjust Weights</h3>
+      </div>
+      <div id="weightsDialogBody" class="wd-body"></div>
+      <div class="wd-footer">
+        <button value="cancel" type="button" id="weightsCancel">Cancel</button>
+        <button type="button" id="weightsReset">Reset to defaults</button>
+        <button value="default" type="button" id="weightsSave" class="primary">Save</button>
+      </div>
+    </form>
+  </dialog>
 </body>
 </html>
