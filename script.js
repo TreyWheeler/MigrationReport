@@ -631,7 +631,19 @@ async function renderComparison(selectedList, mainData, options = {}) {
       const tr = document.createElement('tr');
       const keyTd = document.createElement('td');
       keyTd.className = 'key-cell';
-      keyTd.textContent = keyObj.Key;
+      const keyInner = document.createElement('div');
+      keyInner.className = 'key-inner';
+      const keyLabel = document.createElement('span');
+      keyLabel.textContent = keyObj.Key;
+      keyInner.appendChild(keyLabel);
+      try {
+        if (Array.isArray(selectedList) && selectedList.length > 1) {
+          const names = datasets.map(d => d.name).slice(0, 4);
+          const btn = makeCompareButton(names, category.Category, keyObj.Key);
+          keyInner.appendChild(btn);
+        }
+      } catch {}
+      keyTd.appendChild(keyInner);
       tr.appendChild(keyTd);
 
       // Precompute per-country values for this key
@@ -1016,6 +1028,27 @@ function makeDigInButton(country, category, categoryKey, cellText) {
     const text = typeof cellText === 'string' && cellText.length > 0 ? cellText : 'No data';
     const catLabel = `${category} - ${categoryKey}`;
     const q = `I am considering migrating from the United State to ${country}. I am looking at some data describing ${catLabel} in ${country}. Please elaborate on the following text to help me understand what it means: "${text}"`;
+    const url = `https://www.perplexity.ai/search?q=${encodeURIComponent(q)}`;
+    try { window.open(url, '_blank', 'noopener'); } catch { window.location.href = url; }
+  });
+  return btn;
+}
+
+// Create a "Compare" button that opens a Perplexity query comparing two selected countries
+function makeCompareButton(countries, category, categoryKey) {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'compare-btn';
+  btn.textContent = 'Compare';
+  btn.title = 'Compare countries in Perplexity';
+  btn.addEventListener('click', (e) => {
+    try { e.stopPropagation(); } catch {}
+    const list = Array.isArray(countries) ? countries.filter(Boolean).map(String) : [];
+    if (list.length < 2) return;
+    const toList = (list.length === 2) ? `${list[0]} or ${list[1]}` : `${list.slice(0,-1).join(', ')}, or ${list[list.length-1]}`;
+    const inList = (list.length === 2) ? `${list[0]} and ${list[1]}` : `${list.slice(0,-1).join(', ')}, and ${list[list.length-1]}`;
+    const catLabel = `${category} - ${categoryKey}`;
+    const q = `I am considering migrating from the United States to ${toList}. I am looking at some data describing ${catLabel} in ${inList}. Please explain how these countries differ from the United States and each other.`;
     const url = `https://www.perplexity.ai/search?q=${encodeURIComponent(q)}`;
     try { window.open(url, '_blank', 'noopener'); } catch { window.location.href = url; }
   });
