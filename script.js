@@ -511,6 +511,10 @@ async function renderComparison(selectedList, mainData, options = {}) {
 
   const tbody = document.createElement('tbody');
 
+  // Collapsible category support
+  const collapsedSet = new Set(getStored('collapsedCategories', []));
+  const catSections = [];
+
   // Normalize key strings to avoid Unicode-degree/encoding mismatches in lookups
   const canonKey = (s) => {
     try {
@@ -595,7 +599,19 @@ async function renderComparison(selectedList, mainData, options = {}) {
     const catRow = document.createElement('tr');
     catRow.className = 'category-header-row';
     const catNameTh = document.createElement('th');
-    catNameTh.textContent = category.Category;
+    const catName = category.Category;
+    // Build collapse toggle + label
+    catNameTh.innerHTML = '';
+    const toggle = document.createElement('button');
+    toggle.className = 'cat-toggle';
+    const initiallyCollapsed = collapsedSet.has(catName);
+    toggle.textContent = initiallyCollapsed ? '▸' : '▾';
+    toggle.setAttribute('aria-expanded', initiallyCollapsed ? 'false' : 'true');
+    toggle.title = initiallyCollapsed ? 'Expand category' : 'Collapse category';
+    const catLabelSpan = document.createElement('span');
+    catLabelSpan.textContent = catName;
+    catNameTh.appendChild(toggle);
+    catNameTh.appendChild(catLabelSpan);
     catRow.appendChild(catNameTh);
     // Compute and render per-country average for this category
     datasets.forEach(ds => {
@@ -626,9 +642,11 @@ async function renderComparison(selectedList, mainData, options = {}) {
     });
     tbody.appendChild(catRow);
 
-    // Key rows
+    // Key rows (track refs for collapse)
+    const keyRowRefs = [];
     category.Keys.forEach(keyObj => {
       const tr = document.createElement('tr');
+      tr.dataset.category = catName;
       const keyTd = document.createElement('td');
       keyTd.className = 'key-cell';
       const keyInner = document.createElement('div');
@@ -695,6 +713,27 @@ async function renderComparison(selectedList, mainData, options = {}) {
       });
 
       tbody.appendChild(tr);
+      keyRowRefs.push(tr);
+    });
+    // Track section and apply initial collapsed state
+    catSections.push({ name: catName, header: catRow, rows: keyRowRefs, toggle });
+    if (initiallyCollapsed) {
+      keyRowRefs.forEach(r => { r.style.display = 'none'; });
+      catRow.classList.add('collapsed');
+    }
+    // Toggle click handler
+    toggle.addEventListener('click', () => {
+      const isCollapsed = catRow.classList.toggle('collapsed');
+      toggle.textContent = isCollapsed ? '▸' : '▾';
+      toggle.setAttribute('aria-expanded', isCollapsed ? 'false' : 'true');
+      toggle.title = isCollapsed ? 'Expand category' : 'Collapse category';
+      keyRowRefs.forEach(r => { r.style.display = isCollapsed ? 'none' : ''; });
+      // Persist
+      try {
+        const current = new Set(getStored('collapsedCategories', []));
+        if (isCollapsed) current.add(catName); else current.delete(catName);
+        setStored('collapsedCategories', Array.from(current));
+      } catch {}
     });
   });
 
