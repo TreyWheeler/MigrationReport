@@ -65,6 +65,7 @@ async function loadMain() {
   const diffToggle = document.getElementById('diffToggle');
   const densityToggle = document.getElementById('densityToggle');
   const themeToggle = document.getElementById('themeToggle');
+  const scoresToggle = document.getElementById('scoresToggle');
   const weightsBtn = document.getElementById('weightsBtn');
   if (diffToggle) {
     diffToggle.checked = getStored('diffEnabled', false);
@@ -88,6 +89,16 @@ async function loadMain() {
       const mode = themeToggle.checked ? 'dark' : 'light';
       setStored('theme', mode);
       applyTheme(mode);
+    });
+  }
+
+  if (scoresToggle) {
+    const show = getStored('showScores', true);
+    scoresToggle.checked = !!show;
+    applyScoresVisibility(!!show);
+    scoresToggle.addEventListener('change', () => {
+      setStored('showScores', scoresToggle.checked);
+      applyScoresVisibility(scoresToggle.checked);
     });
   }
 
@@ -812,6 +823,7 @@ function getStored(key, fallback) { try { const v = localStorage.getItem(key); r
 function setStored(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch {} }
 function applyTheme(mode) { document.body.setAttribute('data-theme', mode === 'dark' ? 'dark' : 'light'); }
 function applyDensity(isCompact) { document.body.classList.toggle('density-compact', !!isCompact); }
+function applyScoresVisibility(show) { document.body.classList.toggle('scores-hidden', !show); }
 function initUiPreferences() { /* reserved for future */ }
 
 // Determine score bucket and class/label using rounded integer for thresholds
