@@ -25,19 +25,19 @@
         },
         {
           "Key": "Spring Temperature Range (C/F)",
-          "Guidance": "Typical min–max daytime temps; note humidity and rain."
+          "Guidance": "Typical min\u2013max daytime temps; note humidity and rain."
         },
         {
           "Key": "Summer Temperature Range (C/F)",
-          "Guidance": "Typical min–max; comment on humidity/heat index and nights."
+          "Guidance": "Typical min\u2013max; comment on humidity/heat index and nights."
         },
         {
           "Key": "Fall Temperature Range (C/F)",
-          "Guidance": "Typical min–max; onset of rains/winds; daylight changes."
+          "Guidance": "Typical min\u2013max; onset of rains/winds; daylight changes."
         },
         {
           "Key": "Winter Temperature Range (C/F)",
-          "Guidance": "Typical min–max; snow/ice frequency; damp cold vs dry cold."
+          "Guidance": "Typical min\u2013max; snow/ice frequency; damp cold vs dry cold."
         }
       ]
     },
@@ -599,6 +599,42 @@
     {
       "name": "Netherlands",
       "file": "reports/netherlands_report.json"
+    },
+    {
+      "name": "Ecuador",
+      "file": "reports/ecuador_report.json"
+    },
+    {
+      "name": "Albania",
+      "file": "reports/albania_report.json"
+    },
+    {
+      "name": "Vietnam",
+      "file": "reports/vietnam_report.json"
+    },
+    {
+      "name": "Laos",
+      "file": "reports/laos_report.json"
+    },
+    {
+      "name": "Sweden",
+      "file": "reports/sweden_report.json"
+    },
+    {
+      "name": "Denmark",
+      "file": "reports/denmark_report.json"
+    },
+    {
+      "name": "Greece",
+      "file": "reports/greece_report.json"
+    },
+    {
+      "name": "Italy",
+      "file": "reports/italy_report.json"
+    },
+    {
+      "name": "Uruguay",
+      "file": "reports/uruguay_report.json"
     }
   ],
   "People": [
