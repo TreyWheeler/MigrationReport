@@ -25,19 +25,19 @@
         },
         {
           "Key": "Spring Temperature Range (C/F)",
-          "Guidance": "Typical min\u2013max daytime temps; note humidity and rain."
+          "Guidance": "Typical min–max daytime temps; note humidity and rain."
         },
         {
           "Key": "Summer Temperature Range (C/F)",
-          "Guidance": "Typical min\u2013max; comment on humidity/heat index and nights."
+          "Guidance": "Typical min–max; comment on humidity/heat index and nights."
         },
         {
           "Key": "Fall Temperature Range (C/F)",
-          "Guidance": "Typical min\u2013max; onset of rains/winds; daylight changes."
+          "Guidance": "Typical min–max; onset of rains/winds; daylight changes."
         },
         {
           "Key": "Winter Temperature Range (C/F)",
-          "Guidance": "Typical min\u2013max; snow/ice frequency; damp cold vs dry cold."
+          "Guidance": "Typical min–max; snow/ice frequency; damp cold vs dry cold."
         }
       ]
     },
@@ -557,6 +557,10 @@
       "file": "reports/australia_report.json"
     },
     {
+      "name": "Austria",
+      "file": "reports/austria_report.json"
+    },
+    {
       "name": "Switzerland",
       "file": "reports/switzerland_report.json"
     },
@@ -639,6 +643,18 @@
     {
       "name": "Estonia",
       "file": "reports/estonia_report.json"
+    },
+    {
+      "name": "Iceland",
+      "file": "reports/iceland_report.json"
+    },
+    {
+      "name": "Czechia",
+      "file": "reports/czechia_report.json"
+    },
+    {
+      "name": "Slovenia",
+      "file": "reports/slovenia_report.json"
     }
   ],
   "People": [
