@@ -25,6 +25,7 @@ Perform the following loop for every `Key` (use the worksheet order to avoid ski
    - Reference the family’s needs (“polyamory-positive communities”, “quality public schools”, etc.).
    - Cite concrete factors or trade-offs. Mention sourcing context in plain language; add short Markdown links only when necessary.
    - Make it clear why the chosen score fits the guide (e.g., “Transit is efficient but rural gaps keep it at a 7 per the guide’s caution tier”).
+   - Keep the justification in plain language—describe the evidence and impact without name-checking the rating guide explicitly.
 5. **Document gaps.** If reliable data is missing, set `alignmentValue` to `0` and `alignmentText` to `""`. Call this out in your worksheet so a future pass can research it.
 
 ## 3. Apply Updates to the JSON
