@@ -1,68 +1,63 @@
-# MigrationReport
+# MigrationReport Country Update SOP
 
-## How To: Add a Country (for ChatGPT or similar LLM)
+This SOP is optimized for LLM agents that need to refresh an existing country report so it better reflects the family’s priorities. Follow the sequence exactly—each step is designed to minimize back-and-forth commands while maximizing scoring accuracy.
 
-Goal: Create a new country JSON report that matches this repo’s schema, aligns the values to our family’s needs (from `family_profile.json`), and register the country in `main.json` so it appears in the UI.
+## 0. Load Context Once
+1. Open `family_profile.json` to anchor every judgement in the household’s priorities, deal-breakers, and weighting (`evaluation_weights_0_to_5`).
+2. Open `main.json` and list every `Key` under `Categories`; this is the authoritative checklist of fields you must keep in the report.
+3. Open `rating_guides.json` and locate the section for each `Key`. This file defines what every score from 1–10 should mean; use it to calibrate your revisions.
+4. Open the target country file inside `reports/` (e.g., `reports/portugal_report.json`). Copy its current structure locally so you can compare old vs. new entries as you revise.
 
-Follow these steps precisely and conservatively to maximize alignment accuracy.
+> **Do not** move forward until you have all four files loaded. They are the only sources you need for the update.
 
-1) Load Inputs and Build Context
-- Read `family_profile.json` and extract key preferences, constraints, and priorities (e.g., climate, job market, schools, culture, cost). Keep these top‑of‑mind for every judgment you make.
-- Read `main.json` and list all Keys under each Category in `Categories`. These Keys form the required checklist for the country report.
+## 1. Build an Update Worksheet
+1. Create a working table (mentally or in notes) that lists every `Key` from `main.json`.
+2. For each `Key`, note the existing `alignmentValue` and `alignmentText` from the country report. This creates a baseline you can audit against.
+3. Flag keys whose guidance in `rating_guides.json` does not currently align with the existing score or explanation.
 
-2) Create the Country Report File
-- Place the file under `reports/` with name `<lower_snake_case_country>_report.json` (e.g., `reports/japan_report.json`).
-- JSON shape must match existing reports exactly:
-  {
-    "iso": "XX",   // ISO 3166-1 alpha-2 code (required for flag)
-    "values": [
-      { "key": "…", "alignmentText": "…", "alignmentValue": N },
-      … one object per Key from main.json …
-    ]
-  }
-- Include every Key from `main.json` once, in any order. Do not invent new Keys.
-- Use the correct country `iso` code (two letters). If unknown, research; do not guess. If you truly cannot determine it, leave out the country until it’s known.
+## 2. Re-Evaluate Each Key
+Perform the following loop for every `Key` (use the worksheet order to avoid skipping anything):
 
-3) Scoring and Text Guidance
-- alignmentValue scale (use integers 1-10; reserve 0 for "No data"):
-  - -1: Unknown (treated same color as No data in UI; leave alignmentText empty).
-  - 0: No data (leave alignmentText empty string "").
-  - 1–3: Poor fit or mostly negative for our family.
-  - 4–6: Mixed/uncertain; notable trade‑offs or variability.
-  - 7: Caution/mostly positive but with important caveats.
-  - 8–10: Strong fit with clear, consistent evidence for our family.
-- alignmentText style:
-  - 1–2 concise sentences tailored to our family profile. State the “why” (evidence/logic) in plain language that reflects our needs.
-  - If helpful, include short Markdown links like [source](https://example.com). Links are auto‑rendered in the UI.
-  - Avoid filler or generic claims. Call out trade‑offs explicitly where relevant to the profile.
-- Missing info:
-  - If you cannot make a justified judgment, set alignmentValue to 0 and alignmentText to "" (empty). The UI will show “No data”.
+1. **Interpret the rating guide.** Read the 1–10 descriptions for the `Key`. Identify the two closest ratings that bracket the country’s real situation; interpolate if necessary.
+2. **Cross-check with the family profile.** Confirm the new score honors the family’s needs (e.g., progressive politics, childcare, entrepreneurship). If the profile elevates a topic, lean conservative unless evidence is very strong.
+3. **Adjust the score.** Set `alignmentValue` to the rating that best fits both the guide and the family’s priorities. Use integers 1–10; use `0` only when you truly have insufficient data (leave the text empty in that case). Avoid `-1` unless you are intentionally marking “Unknown”.
+4. **Rewrite the justification.** Craft 1–2 concise sentences for `alignmentText` that:
+   - Reference the family’s needs (“polyamory-positive communities”, “quality public schools”, etc.).
+   - Cite concrete factors or trade-offs. Mention sourcing context in plain language; add short Markdown links only when necessary.
+   - Make it clear why the chosen score fits the guide (e.g., “Transit is efficient but rural gaps keep it at a 7 per the guide’s caution tier”).
+5. **Document gaps.** If reliable data is missing, set `alignmentValue` to `0` and `alignmentText` to `""`. Call this out in your worksheet so a future pass can research it.
 
-4) Alignment Process (do this for each Key)
-- Read the Key’s Category and Guidance from `main.json` to understand what to evaluate.
-- Ask: “Given `family_profile.json`, how does this country align with this Key?”
-- Weigh pros/cons, be specific (e.g., “good broadband coverage in cities” vs. generic “good internet”).
-- Choose a score using the rubric above; write a short justification in alignmentText.
+## 3. Apply Updates to the JSON
+1. Work inside the existing country JSON file. Preserve the `iso` value and the array order (order is flexible but staying close to the original minimizes diff noise).
+2. For every `Key` in your worksheet, update the corresponding object’s `alignmentValue` and `alignmentText`.
+3. Add a top-level `"version": 2` field directly under the opening `{`. This marks the country as refreshed; if a `version` already exists, overwrite it with `2`.
+4. Ensure every `Key` from `main.json` still appears exactly once. Do **not** add or remove keys.
+5. Keep valid JSON formatting (commas, quotes, etc.).
 
-5) Register the Country in main.json
-- Open `main.json` and append your country to `Countries`:
-  {
-    "name": "Country Name",
-    "file": "reports/country_name_report.json"
-  }
-- Ensure the `file` path (including `reports/`) matches the report filename you created.
+Example structure after updates:
+```json
+{
+  "version": 2,
+  "iso": "XX",
+  "values": [
+    { "key": "Air Quality", "alignmentText": "…", "alignmentValue": 6 },
+    { "key": "Public Transportation", "alignmentText": "…", "alignmentValue": 7 }
+  ]
+}
+```
 
-6) Quality Checks Before Finishing
-- The report includes:
-  - An `iso` field (uppercase ISO 3166‑1 alpha‑2).
-  - A `values` array with exactly one entry per Key from `main.json`.
-- JSON is valid and loads without errors.
-- No hallucinated facts: prefer conservative, evidence‑based claims. Use “No data” (0 + empty text) rather than guessing.
-- Scores reflect the family’s stated needs, not generic averages.
+## 4. Spot-Check Before Saving
+1. Re-read the entire file to confirm tone is evidence-driven and tailored to the family profile.
+2. Verify that every `alignmentValue` is compatible with its rating guide narrative.
+3. Confirm no `alignmentText` contradicts the family’s stated deal-breakers or weights.
+4. Validate JSON syntax (e.g., by using a formatter or running `node -e "JSON.parse(fs.readFileSync('reports/<file>.json','utf8'))"`).
 
-7) Quick Manual Validation (optional but encouraged)
-- Open `index.html` and select the new country in the left panel.
-- Verify the table renders; flag appears; chips show colors that match scores.
-- Confirm that only intentionally missing items show as “No data”.
+## 5. Update Metadata (if needed)
+- `main.json` already lists the country. Only edit it if the filename changed (it shouldn’t in an update). If you touched `main.json`, keep formatting consistent.
 
-That’s it. Be precise, justify every score succinctly, and favor accuracy over coverage.
+## 6. Final Review for Commit Readiness
+1. Ensure your diff shows only the intended score/text changes plus the `version` field.
+2. Summarize the major rating shifts in your commit message so reviewers understand what improved.
+3. Run any available linting or formatting tools if the repository provides them (none are required by default).
+
+When you finish these steps, the country report will be aligned to the new rating guides, grounded in the family profile, and clearly marked as a version 2 update.
