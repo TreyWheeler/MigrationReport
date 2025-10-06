@@ -1,0 +1,541 @@
+{
+  "version": 2,
+  "iso": "US",
+  "values": [
+    {
+      "key": "Environment",
+      "alignmentValue": 5,
+      "alignmentText": "The lakefront park system, riverwalk, and neighborhood greenways provide regular outdoor relief, though industry and winter road salt impact overall quality."
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentValue": 5,
+      "alignmentText": "Warming boosts heat waves and heavy rainstorms but inland geography avoids sea-level rise, keeping risk moderate with basement flood vigilance."
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentValue": 4,
+      "alignmentText": "Chicago delivers dramatic seasonal swings—glorious springs and falls sandwiched between humid summers and frigid, windy winters."
+    },
+    {
+      "key": "Air Quality",
+      "alignmentValue": 5,
+      "alignmentText": "Air has improved, yet ozone alerts and industrial corridors on the South and West Sides occasionally push PM2.5 into unhealthy territory."
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentValue": 5,
+      "alignmentText": "Severe thunderstorms, river flooding, and polar vortex cold snaps are the main threats; earthquakes and hurricanes are rare."
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentValue": 4,
+      "alignmentText": "March–May warms from 3–18 °C (37–65 °F) with unpredictable rain and late frosts that delay gardening."
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentValue": 5,
+      "alignmentText": "June–August averages 18–30 °C (65–86 °F); lake breezes cool downtown but humidity and heat indexes spike during Midwestern heat waves."
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentValue": 6,
+      "alignmentText": "September–November brings 7–21 °C (45–70 °F) days with crisp air, making it ideal for lakefront outings."
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentValue": 3,
+      "alignmentText": "Winters drop to −12–2 °C (10–35 °F), with lake-effect snow and bitter wind chills that require heavy gear and reliable heating."
+    },
+    {
+      "key": "Beach Life",
+      "alignmentValue": 6,
+      "alignmentText": "Lake Michigan beaches like North Avenue and Promontory Point offer clean sand and lifeguards in summer, though water stays cool and closes after Labor Day."
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentValue": 4,
+      "alignmentText": "Water peaks near 21 °C (70 °F) mid-summer but sits below 10 °C (50 °F) for much of the year, limiting the swim season to July–August."
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentValue": 6,
+      "alignmentText": "The lakefront trail, forest preserves, and nearby state parks provide ample biking and hiking, though drives are needed for more rugged terrain."
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentValue": 7,
+      "alignmentText": "Chicago’s $15.80+ city minimum and stronger enforcement elevate baseline wages, though inflation erodes purchasing power."
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentValue": 7,
+      "alignmentText": "Big employers like Google, Salesforce, and trading firms offer $140k–$190k packages; compensation trails the coasts but remains strong."
+    },
+    {
+      "key": ".NET Work Prospects",
+      "alignmentValue": 8,
+      "alignmentText": "Financial trading, manufacturing, and insurance firms rely on Microsoft stacks, sustaining robust demand for experienced developers."
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentValue": 6,
+      "alignmentText": "Rails shops and startups operate in the West Loop and River North, yet demand is thinner than JavaScript or Python roles."
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentValue": 6,
+      "alignmentText": "Major consultancies and tech firms sponsor visas, but fewer headquarters than New York mean competition for sponsorship slots."
+    },
+    {
+      "key": "Economic Health",
+      "alignmentValue": 6,
+      "alignmentText": "A diversified economy spans finance, logistics, and healthcare, offsetting fiscal stress from pension obligations and population stagnation."
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentValue": 7,
+      "alignmentText": "Coworking spaces, central time overlap, and a large remote workforce support hybrid arrangements, though some firms push office returns."
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentValue": 5,
+      "alignmentText": "Midwestern norms temper hustle culture, yet long commutes on Metra or the Kennedy Expressway can chip away at personal time."
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentValue": 5,
+      "alignmentText": "Standard 40-hour expectations hold, with crunch time during product launches or trading cycles."
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentValue": 3,
+      "alignmentText": "Federal leave laws remain minimal; Illinois recently added guaranteed paid leave days but coverage depends on employer size."
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentValue": 4,
+      "alignmentText": "Tech employers offer 15–20 PTO days, with easier scheduling outside summer when teams stagger travel."
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentValue": 5,
+      "alignmentText": "Downtown feels energetic, but neighborhoods like Lincoln Square and Hyde Park run at a calmer pace that suits family routines."
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentValue": 5,
+      "alignmentText": "Schools start around 8 a.m., offices 9–5, and after-school programs bridge to 6 p.m., with CTA and Metra supporting transit commutes."
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentValue": 6,
+      "alignmentText": "Weekends highlight farmers markets, museum visits, and neighborhood festivals, with manageable travel times."
+    },
+    {
+      "key": "Family Life",
+      "alignmentValue": 6,
+      "alignmentText": "Park District programming, libraries, and neighborhood block clubs support families, though winter cabin fever requires indoor planning."
+    },
+    {
+      "key": "Polyamory",
+      "alignmentValue": 5,
+      "alignmentText": "Queer and kink-friendly communities exist in neighborhoods like Rogers Park and Humboldt Park, but openness varies by social circle."
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentValue": 5,
+      "alignmentText": "Parents advocate for selective enrollment schools and extracurriculars, yet community schools and park programs keep pressure moderate."
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentValue": 6,
+      "alignmentText": "Playlots, family festivals, and car-free events are common, though crime perceptions lead some families to favor specific neighborhoods."
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentValue": 6,
+      "alignmentText": "Chicago Public Schools offer strong selective programs alongside uneven neighborhood schools; charters and Catholic schools add options."
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentValue": 5,
+      "alignmentText": "Universal pre-K expansion continues, yet supply gaps remain in certain wards and private daycare costs stay high."
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentValue": 4,
+      "alignmentText": "State subsidies assist lower-income families, but middle-income households shoulder high daycare or nanny expenses."
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentValue": 3,
+      "alignmentText": "Eligibility for subsidies can be limited, so visa holders often depend on employer stipends or private care."
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentValue": 6,
+      "alignmentText": "Neighborhood enrollment is straightforward, but desired magnet or gifted seats require lotteries and testing strategies."
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentValue": 6,
+      "alignmentText": "Schools enroll all resident children, though documentation proof and language support may require advocacy."
+    },
+    {
+      "key": "Private Education",
+      "alignmentValue": 5,
+      "alignmentText": "Catholic and independent schools cost $12k–$35k annually, more attainable than coastal cities but still a significant budget item."
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentValue": 5,
+      "alignmentText": "Illinois Paid Leave for All Workers and family leave laws provide job-protected time, though wage replacement depends on employer programs."
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentValue": 4,
+      "alignmentText": "Protections extend to qualifying employees, yet navigating benefits while maintaining visa status can add stress."
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentValue": 7,
+      "alignmentText": "University of Illinois campuses, DePaul, Northwestern, and City Colleges offer abundant pathways with in-state tuition advantages."
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentValue": 6,
+      "alignmentText": "International students find strong university options, but tuition is higher and scholarships competitive."
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentValue": 6,
+      "alignmentText": "Workplaces value dual-career households, though some corporate cultures remain male-dominated in leadership."
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentValue": 6,
+      "alignmentText": "Legal protections exist and queer communities are visible, yet inclusive facilities vary by neighborhood."
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentValue": 7,
+      "alignmentText": "State law safeguards reproductive rights and LGBTQ+ protections, aligning with progressive expectations."
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentValue": 5,
+      "alignmentText": "Professional attire trends toward polished but pragmatic looks, with less pressure for couture statements."
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentValue": 5,
+      "alignmentText": "Midwestern friendliness mixes with traditional sports culture, though creative scenes broaden expression."
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentValue": 6,
+      "alignmentText": "The blend of world-class arts, Midwest affordability, and civic activism offers rich experiences for the family."
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "alignmentValue": 9,
+      "alignmentText": "English dominates, with Spanish, Polish, and Mandarin communities adding multilingual opportunities."
+    },
+    {
+      "key": "Progressivism",
+      "alignmentValue": 6,
+      "alignmentText": "City governance is progressive on policing reform and climate, but statewide politics require compromise with moderates."
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentValue": 4,
+      "alignmentText": "Leftist organizing is visible, yet the broader civic climate leans pragmatic and market-oriented."
+    },
+    {
+      "key": "Atheism",
+      "alignmentValue": 6,
+      "alignmentText": "Secular households are common, though faith-based community work remains influential across neighborhoods."
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentValue": 6,
+      "alignmentText": "Sex-positive workshops and inclusive venues exist, yet Midwestern modesty can temper public conversations."
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "alignmentValue": 7,
+      "alignmentText": "Boystown, South Side collectives, and legal protections ensure strong support, though pockets of conservatism linger."
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentValue": 6,
+      "alignmentText": "Block clubs, neighborhood associations, and mutual aid groups foster connection, especially on the South and West Sides."
+    },
+    {
+      "key": "View of self",
+      "alignmentValue": 6,
+      "alignmentText": "Residents embrace a resilient, no-nonsense identity rooted in labor history and cultural pride."
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentValue": 6,
+      "alignmentText": "Proximity to Canada and immigrant heritage spark curiosity about global affairs without intense focus."
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentValue": 6,
+      "alignmentText": "Canadians and Midwestern neighbors view Chicago as cosmopolitan yet approachable, albeit with crime stereotypes."
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentValue": 7,
+      "alignmentText": "Jazz clubs, theater, breweries, and late-night dining thrive, though licensing laws quiet down earlier than New York."
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentValue": 6,
+      "alignmentText": "Style blends streetwear, athleisure, and office casual, allowing flexible self-expression."
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentValue": 6,
+      "alignmentText": "Layering for changing weather defines fashion, with independent designers gaining prominence."
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentValue": 6,
+      "alignmentText": "Residents enjoy lakefront biking, improv classes, sports fandom, and culinary exploration."
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "alignmentValue": 7,
+      "alignmentText": "Local game cafés like Bonus Round and robust meetup groups keep tabletop gaming lively."
+    },
+    {
+      "key": "Nightlife & Music",
+      "alignmentValue": 7,
+      "alignmentText": "House music roots, blues clubs, and festival seasons deliver consistent live entertainment."
+    },
+    {
+      "key": "Meetups & Communities",
+      "alignmentValue": 7,
+      "alignmentText": "1871, mHUB, and library spaces host tech, parenting, and creative meetups welcoming newcomers."
+    },
+    {
+      "key": "Nature Access",
+      "alignmentValue": 5,
+      "alignmentText": "Forest preserves and Indiana Dunes are within an hour’s drive, but car access is helpful for frequent escapes."
+    },
+    {
+      "key": "Political System",
+      "alignmentValue": 5,
+      "alignmentText": "City politics involve machine legacies and reform pushes, requiring awareness of aldermanic dynamics."
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentValue": 6,
+      "alignmentText": "Faith coalitions influence social services, yet state policy remains largely secular on core civil rights."
+    },
+    {
+      "key": "Workers' Rights",
+      "alignmentValue": 6,
+      "alignmentText": "Strong union presence and recent wins for rideshare and fast food workers improve labor leverage."
+    },
+    {
+      "key": "State Ideology",
+      "alignmentValue": 5,
+      "alignmentText": "Illinois balances progressive Chicago interests with conservative downstate voices, driving incremental policy change."
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentValue": 6,
+      "alignmentText": "Independent courts and active media watchdogs provide safeguards, though national polarization still looms."
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentValue": 5,
+      "alignmentText": "Corporate headquarters, private equity, and logistics hubs reinforce market-first economics alongside civic philanthropy."
+    },
+    {
+      "key": "Stability",
+      "alignmentValue": 6,
+      "alignmentText": "The metro weathers downturns with diverse industries, yet state pension debt and population loss require monitoring."
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentValue": 6,
+      "alignmentText": "Local news ecosystems and public radio remain strong, but national partisan media influences perceptions."
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentValue": 6,
+      "alignmentText": "Political messaging mixes reform rhetoric with tough-on-crime narratives, demanding media literacy."
+    },
+    {
+      "key": "Social Policies",
+      "alignmentValue": 6,
+      "alignmentText": "Progressive ordinances on housing and equity exist, yet implementation is uneven across wards."
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentValue": 4,
+      "alignmentText": "Residents voice skepticism about City Hall efficiency and corruption probes, even as they rely on municipal services."
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentValue": 4,
+      "alignmentText": "Historical patronage and recent bribery cases keep corruption concerns alive despite oversight reforms."
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentValue": 4,
+      "alignmentText": "Pay-to-play contracting, property tax appeals, and aldermanic power abuses are recurring issues."
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentValue": 5,
+      "alignmentText": "Compared to coastal cities, larger apartments are attainable, but rising taxes and gentrification pressure certain neighborhoods."
+    },
+    {
+      "key": "Safety & Crime",
+      "alignmentValue": 4,
+      "alignmentText": "Gun violence persists in specific areas, though targeted policing and community programs improve safety in many neighborhoods."
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentValue": 6,
+      "alignmentText": "Top hospitals like Northwestern and University of Chicago offer excellent care, but navigating insurance networks is essential."
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentValue": 5,
+      "alignmentText": "Employer coverage generally applies, yet out-of-pocket costs and network restrictions hit international families hard."
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentValue": 4,
+      "alignmentText": "Daycare averages $1,500–$2,000 per month; nanny shares reduce costs but require coordination."
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentValue": 5,
+      "alignmentText": "Employers increasingly offer parental leave and flex time, but benefits vary widely by company size."
+    },
+    {
+      "key": "Education",
+      "alignmentValue": 6,
+      "alignmentText": "Selective enrollment high schools and expanding STEM programs deliver strong outcomes, though district inequities remain."
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentValue": 6,
+      "alignmentText": "The CTA and Metra network enable car-light living, yet reliability dips in winter and some neighborhoods lack rapid service."
+    },
+    {
+      "key": "Economic System",
+      "alignmentValue": 4,
+      "alignmentText": "As part of the United States, Chicago experiences similar dynamics: A lightly regulated capitalist system prioritizes markets over social protections."
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentValue": 5,
+      "alignmentText": "Illinois’ flat income tax simplifies filings, but property taxes and city fees add paperwork and budgeting challenges."
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentValue": 5,
+      "alignmentText": "State income tax of 4.95% plus city sales and property taxes create an effective rate around 25–28% for dual tech incomes."
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentValue": 8,
+      "alignmentText": "Major banks, fintech startups, and contactless transit payments support frictionless finances."
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentValue": 5,
+      "alignmentText": "Housing remains cheaper than coastal peers, but childcare and property taxes narrow the affordability gap."
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentValue": 5,
+      "alignmentText": "Access to quality healthcare and cultural amenities supports aging in place if savings cover property taxes and utilities."
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentValue": 3,
+      "alignmentText": "Without Social Security access, long-term visa holders must prioritize private savings or eventual naturalization."
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentValue": 3,
+      "alignmentText": "As part of the United States, Chicago experiences similar dynamics: Diverse visa categories exist, but quotas, interviews, and sponsorship hurdles make immigration arduous for non-citizens."
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentValue": 7,
+      "alignmentText": "Chicago’s transplant culture and Midwestern friendliness make newcomers feel at home, especially in diverse neighborhoods."
+    },
+    {
+      "key": "Residency Types & Durations",
+      "alignmentValue": 9,
+      "alignmentText": "As part of the United States, Chicago experiences similar dynamics: Citizenship grants permanent residency rights nationwide, though state benefits depend on domicile."
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentValue": 10,
+      "alignmentText": "As part of the United States, Chicago experiences similar dynamics: Citizenship is automatic for the family and their children, eliminating naturalization concerns."
+    },
+    {
+      "key": "Family Members",
+      "alignmentValue": 9,
+      "alignmentText": "As part of the United States, Chicago experiences similar dynamics: Immediate relatives of citizens have streamlined sponsorship options, though backlogs affect extended family."
+    },
+    {
+      "key": "Timelines & Costs",
+      "alignmentValue": 7,
+      "alignmentText": "As part of the United States, Chicago experiences similar dynamics: For citizens moves are immediate; sponsoring relatives involves fees and multi-year waits but predictable processes."
+    },
+    {
+      "key": "Compliance & Risks",
+      "alignmentValue": 8,
+      "alignmentText": "As part of the United States, Chicago experiences similar dynamics: Legal compliance is straightforward for citizens, though regulated industries require diligent paperwork."
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentValue": 9,
+      "alignmentText": "As part of the United States, Chicago experiences similar dynamics: The U.S. tolerates dual citizenship, though obligations like taxes remain."
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentValue": 3,
+      "alignmentText": "As part of the United States, Chicago experiences similar dynamics: Visa holders must maintain employment, face travel restrictions, and manage complex paperwork to avoid status loss."
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentValue": 6,
+      "alignmentText": "Studios like NetherRealm, Iron Galaxy, and Jackbox offer roles, but the scene is smaller than coasts and focuses on specific niches."
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentValue": 6,
+      "alignmentText": "NetherRealm Studios, Iron Galaxy, Jackbox Games, and several VR startups anchor the local industry."
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentValue": 7,
+      "alignmentText": "IGDA Chicago, DePaul’s game program, and Bit Bash festival cultivate a collaborative developer community."
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentValue": 6,
+      "alignmentText": "Accelerators and indie showcases exist, but venture capital is thinner and founders often bootstrap or work remotely."
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "alignmentValue": 6,
+      "alignmentText": "Downtown boasts modern transit hubs and broadband, while aging roads, lead service lines, and legacy buildings require ongoing upgrades."
+    }
+  ]
+}

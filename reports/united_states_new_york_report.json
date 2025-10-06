@@ -1,0 +1,541 @@
+{
+  "version": 2,
+  "iso": "US",
+  "values": [
+    {
+      "key": "Environment",
+      "alignmentValue": 4,
+      "alignmentText": "Central Park, waterfront promenades, and protected wetlands counter heavy density, but noise, traffic exhaust, and limited backyard space keep daily nature contact moderate."
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentValue": 4,
+      "alignmentText": "The city faces accelerating sea-level rise, storm surge threats like Sandy, and more frequent heat waves, so resilience projects help but don’t eliminate risk."
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentValue": 5,
+      "alignmentText": "Four true seasons deliver vibrant springs and falls, sticky summers, and chilly winters; the family must plan for humidity swings and nor’easter storms."
+    },
+    {
+      "key": "Air Quality",
+      "alignmentValue": 5,
+      "alignmentText": "Regional regulations have cut smog, yet traffic corridors and wildfire smoke plumes periodically push AQI into unhealthy ranges, making purifiers prudent."
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentValue": 4,
+      "alignmentText": "Hurricanes, nor’easters, and occasional coastal flooding combine with aging infrastructure to demand preparedness plans and renter’s insurance."
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentValue": 5,
+      "alignmentText": "Typical March–May days run 7–18 °C (45–65 °F) with frequent rain showers, great for park outings once pollen counts are managed."
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentValue": 4,
+      "alignmentText": "June–August averages 20–32 °C (68–90 °F) but humidity and heat index spikes above 35 °C (95 °F) drive reliance on air conditioning."
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentValue": 6,
+      "alignmentText": "September–November offers crisp 10–21 °C (50–70 °F) days, foliage trips upstate, and fewer storms, making it the most comfortable season."
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentValue": 4,
+      "alignmentText": "Winters hover around −3–7 °C (25–45 °F) with snowstorms and icy sidewalks that complicate stroller commutes."
+    },
+    {
+      "key": "Beach Life",
+      "alignmentValue": 5,
+      "alignmentText": "Rockaway, Coney Island, and Long Island beaches are subway or LIRR rides away, offering summer escapes albeit with crowds and chilly surf outside peak months."
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentValue": 3,
+      "alignmentText": "Atlantic water warms to ~22 °C (72 °F) briefly in late summer but sits near 10–16 °C (50–60 °F) for much of the year, limiting casual swimming."
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentValue": 6,
+      "alignmentText": "Beyond iconic skyline views, the Hudson Valley, Catskills, and state parks provide weekend hiking, though travel costs and time can add up."
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentValue": 8,
+      "alignmentText": "New York State’s $16/hr floor in the city and strong enforcement provide higher baseline wages compared to most U.S. metros."
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentValue": 8,
+      "alignmentText": "Fintech, media, and FAANG offices push senior developer salaries into the $160k–$220k range with equity, supporting the family’s earning goals."
+    },
+    {
+      "key": ".NET Work Prospects",
+      "alignmentValue": 8,
+      "alignmentText": "Finance, media, and enterprise teams rely heavily on .NET stacks, yielding steady openings across Midtown and Jersey City."
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentValue": 7,
+      "alignmentText": "Startups in Flatiron and Brooklyn plus legacy Rails shops keep Ruby demand solid, though competition from other languages is rising."
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentValue": 7,
+      "alignmentText": "Global banks, consultancies, and major tech firms regularly sponsor H-1B and O-1 visas, but lotteries remain competitive and legal fees high."
+    },
+    {
+      "key": "Economic Health",
+      "alignmentValue": 7,
+      "alignmentText": "A diversified metro GDP and post-pandemic recovery in tourism balance high costs and commercial real estate uncertainty."
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentValue": 8,
+      "alignmentText": "Coworking hubs, hybrid norms, and Eastern Time overlap with Europe support remote consulting and indie studio collaboration."
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentValue": 4,
+      "alignmentText": "Long commutes, competitive workplaces, and extended childcare logistics create pressure, so boundaries must be intentionally set."
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentValue": 4,
+      "alignmentText": "While statutory 40-hour weeks exist, many tech and finance roles expect 45+ hours and after-hours Slack monitoring."
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentValue": 3,
+      "alignmentText": "U.S. labor law sets no federal floor; many employers offer only 10 PTO days plus holidays without state mandates."
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentValue": 4,
+      "alignmentText": "Tech employers commonly provide 15–20 PTO days, but schedule coordination during busy release cycles is essential."
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentValue": 3,
+      "alignmentText": "Transit rush, dense neighborhoods, and 24/7 services keep energy high, which excites Trey but may fatigue Sarah’s slower preference."
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentValue": 4,
+      "alignmentText": "School runs start around 8 a.m., standard office days 9–6, and after-school pickups require coordinating subway rides or hired help."
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentValue": 5,
+      "alignmentText": "Weekends mix museum visits, park time, and neighborhood events, yet planning ahead is necessary to avoid crowds and transit delays."
+    },
+    {
+      "key": "Family Life",
+      "alignmentValue": 6,
+      "alignmentText": "Community centers, playgrounds, and cultural institutions cater to families, though space constraints demand creative living arrangements."
+    },
+    {
+      "key": "Polyamory",
+      "alignmentValue": 6,
+      "alignmentText": "Brooklyn and Manhattan host active consensual non-monogamy meetups and inclusive venues, but mainstream landlords may still have biases."
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentValue": 5,
+      "alignmentText": "Parents juggle rigorous school applications and enrichment activities; supportive networks exist but competition can feel intense."
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentValue": 5,
+      "alignmentText": "Playgrounds and car-free plazas abound, yet stroller access on older subway lines and cramped apartments challenge daily routines."
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentValue": 7,
+      "alignmentText": "Strong public magnet programs, charters, and private schools offer choice, though enrollment lotteries and tuition costs require strategy."
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentValue": 6,
+      "alignmentText": "Universal Pre-K and 3-K add coverage, yet waitlists and limited hours push families toward pricey private centers."
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentValue": 4,
+      "alignmentText": "State subsidies exist but income thresholds are tight, so middle-class families rely on private daycare or nannies."
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentValue": 3,
+      "alignmentText": "Non-citizens qualify for fewer subsidies, making employer-dependent childcare assistance important."
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentValue": 7,
+      "alignmentText": "Zoned schools vary widely, but top districts and screened programs deliver excellent academics with proactive placement."
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentValue": 7,
+      "alignmentText": "Student enrollment is tied to residence regardless of status, though navigating paperwork requires persistence."
+    },
+    {
+      "key": "Private Education",
+      "alignmentValue": 5,
+      "alignmentText": "Elite private schools offer outstanding resources but charge $55k+ annually, limiting accessibility without high incomes or aid."
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentValue": 5,
+      "alignmentText": "New York State Paid Family Leave offers up to 12 weeks at partial pay, complementing employer benefits but not replacing full income."
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentValue": 4,
+      "alignmentText": "Visa holders can access state leave if employed long enough, yet immigration status anxiety and job security can complicate time off."
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentValue": 7,
+      "alignmentText": "CUNY, SUNY, and private universities offer extensive programs plus in-state tuition for residents."
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentValue": 6,
+      "alignmentText": "International tuition is higher but plentiful universities and optional practical training support career transitions."
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentValue": 7,
+      "alignmentText": "Professional households embrace egalitarian norms, though wage gaps persist across industries."
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentValue": 7,
+      "alignmentText": "New York’s legal protections and visible non-binary communities foster acceptance, with chosen-name policies in schools and agencies."
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentValue": 8,
+      "alignmentText": "State laws protect reproductive autonomy, LGBTQ+ rights, and gender identity, aligning with the family’s progressive values."
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentValue": 6,
+      "alignmentText": "Fashion-forward environments celebrate diverse expressions, yet corporate sectors still prize polished presentation."
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentValue": 6,
+      "alignmentText": "Creative industries and queer spaces broaden masculine norms, even as finance culture retains competitiveness."
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentValue": 7,
+      "alignmentText": "The city’s cultural density, progressive politics, and indie art scenes give the family endless inspiration and networking."
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "alignmentValue": 9,
+      "alignmentText": "English dominates daily life, while multilingual neighborhoods ease language learning for the children."
+    },
+    {
+      "key": "Progressivism",
+      "alignmentValue": 8,
+      "alignmentText": "City government and civic groups push progressive policies on housing, climate, and civil rights despite state-level negotiation."
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentValue": 5,
+      "alignmentText": "Leftist discourse thrives in academia and activism, though mainstream politics remain center-left and market-driven."
+    },
+    {
+      "key": "Atheism",
+      "alignmentValue": 7,
+      "alignmentText": "Secular life is common, and diverse faith communities coexist without dominating public policy."
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentValue": 7,
+      "alignmentText": "Sex-positive workshops, inclusive nightlife, and comprehensive sex education norms support open dialogue."
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "alignmentValue": 8,
+      "alignmentText": "New York’s Pride legacy, queer community centers, and anti-discrimination enforcement offer strong support for polyamory-positive families."
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentValue": 6,
+      "alignmentText": "Neighborhood associations and mutual aid networks foster belonging, yet transient renters can make friendships feel fleeting."
+    },
+    {
+      "key": "View of self",
+      "alignmentValue": 7,
+      "alignmentText": "Residents take pride in resilience, diversity, and hustle, shaping civic engagement and volunteerism."
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentValue": 6,
+      "alignmentText": "Global outlook is cosmopolitan, with curiosity about Canada, Latin America, and Europe through immigration ties."
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentValue": 7,
+      "alignmentText": "International partners view NYC as open and influential, though U.S. politics can color perceptions."
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentValue": 9,
+      "alignmentText": "Late-night dining, Broadway, clubs, and live music run into the early morning, offering abundant adult social outlets."
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentValue": 8,
+      "alignmentText": "Menswear ranges from streetwear to tailored suits, encouraging experimentation without standing out."
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentValue": 8,
+      "alignmentText": "Women mix high fashion with practical layering; inclusive sizing and avant-garde designers abound."
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentValue": 7,
+      "alignmentText": "Residents embrace fitness studios, art classes, urban gardening, and esports lounges accessible by transit."
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "alignmentValue": 8,
+      "alignmentText": "Stores like Hex & Company and numerous meetup groups sustain a thriving tabletop community year-round."
+    },
+    {
+      "key": "Nightlife & Music",
+      "alignmentValue": 9,
+      "alignmentText": "From jazz basements to arena shows, the live music scene is nonstop, making date nights easy to plan."
+    },
+    {
+      "key": "Meetups & Communities",
+      "alignmentValue": 8,
+      "alignmentText": "Tech, parenting, and polyamory meetups populate coworking spaces and bars, easing newcomer integration."
+    },
+    {
+      "key": "Nature Access",
+      "alignmentValue": 5,
+      "alignmentText": "Prospect Park, the High Line, and weekend Metro-North rides give regular green breaks, though escaping the city requires planning."
+    },
+    {
+      "key": "Political System",
+      "alignmentValue": 6,
+      "alignmentText": "City politics skew progressive yet operate within New York State’s complex machine, requiring civic literacy to navigate."
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentValue": 7,
+      "alignmentText": "Secular governance dominates, with faith groups contributing to social services rather than legislation."
+    },
+    {
+      "key": "Workers' Rights",
+      "alignmentValue": 7,
+      "alignmentText": "Strong unions, just-cause protections for fast food workers, and salary transparency laws bolster employee leverage."
+    },
+    {
+      "key": "State Ideology",
+      "alignmentValue": 6,
+      "alignmentText": "New York combines progressive urban policies with moderate statewide coalitions, producing negotiation-heavy governance."
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentValue": 6,
+      "alignmentText": "Independent judiciary and active civil society keep checks in place, though national polarization remains a concern."
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentValue": 5,
+      "alignmentText": "High cost of living and wealth inequality coexist with vibrant entrepreneurship, demanding mindful budgeting."
+    },
+    {
+      "key": "Stability",
+      "alignmentValue": 7,
+      "alignmentText": "Diversified industries and robust institutions provide resilience despite budget debates and housing pressures."
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentValue": 6,
+      "alignmentText": "Media literacy is high with abundant independent outlets, yet sensational tabloids and algorithmic feeds require discernment."
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentValue": 6,
+      "alignmentText": "Political messaging spans progressive advocacy to national partisan echo chambers, so the family must curate information sources."
+    },
+    {
+      "key": "Social Policies",
+      "alignmentValue": 7,
+      "alignmentText": "The city advances sanctuary protections, rental assistance, and expanded healthcare access relative to most U.S. metros."
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentValue": 5,
+      "alignmentText": "Residents respect public services but express skepticism about bureaucracy, corruption probes, and subway reliability."
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentValue": 5,
+      "alignmentText": "Investigations into campaign fundraising and real estate dealings surface regularly, though reforms continue."
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentValue": 5,
+      "alignmentText": "Pay-to-play zoning, patronage, and misused nonprofit funds surface occasionally, necessitating civic vigilance."
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentValue": 3,
+      "alignmentText": "Sky-high rents, co-op boards, and limited family-sized units demand significant income or outer-borough compromises."
+    },
+    {
+      "key": "Safety & Crime",
+      "alignmentValue": 5,
+      "alignmentText": "Violent crime remains below 1990s levels, yet subway incidents and petty theft spikes require street smarts."
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentValue": 7,
+      "alignmentText": "World-class hospitals and employer insurance networks offer excellent care, albeit with long wait times for specialists."
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentValue": 6,
+      "alignmentText": "Access depends on employer coverage; uninsured care is costly but NYC Care and safety-net hospitals provide options."
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentValue": 4,
+      "alignmentText": "Daycare averages $2,000+ per month and nanny wages are high, but subsidies exist for qualifying families."
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentValue": 5,
+      "alignmentText": "Employer-paid leave varies; families rely on flex schedules, extended kin, or cooperative nanny shares to cope."
+    },
+    {
+      "key": "Education",
+      "alignmentValue": 7,
+      "alignmentText": "Top-tier public and private schools provide strong academic outcomes, though navigating admissions is intense."
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentValue": 8,
+      "alignmentText": "The subway, buses, and commuter rails offer car-free living despite occasional delays and accessibility gaps."
+    },
+    {
+      "key": "Economic System",
+      "alignmentValue": 4,
+      "alignmentText": "As part of the United States, New York experiences similar dynamics: A lightly regulated capitalist system prioritizes markets over social protections."
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentValue": 4,
+      "alignmentText": "NYC residents juggle federal, state, and city taxes; online portals help but quarterly payments and local surcharges add complexity."
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentValue": 4,
+      "alignmentText": "High earners in the city face combined marginal rates near 35% when factoring city income tax and elevated property levies."
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentValue": 8,
+      "alignmentText": "Global banks, fintech apps, and abundant credit options support entrepreneurial ventures and daily transactions."
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentValue": 3,
+      "alignmentText": "Housing, childcare, and dining push budgets far above national averages, demanding high salaries to stay comfortable."
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentValue": 4,
+      "alignmentText": "Public transit and healthcare access support aging in place, but retirees need substantial savings or a downsized borough move."
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentValue": 3,
+      "alignmentText": "Non-citizens must rely on employer savings plans and personal investments to offset high living costs in retirement."
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentValue": 3,
+      "alignmentText": "As part of the United States, New York experiences similar dynamics: Diverse visa categories exist, but quotas, interviews, and sponsorship hurdles make immigration arduous for non-citizens."
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentValue": 7,
+      "alignmentText": "Transplants from across the country are common, and the city’s diversity makes Midwestern arrivals feel typical rather than exotic."
+    },
+    {
+      "key": "Residency Types & Durations",
+      "alignmentValue": 9,
+      "alignmentText": "As part of the United States, New York experiences similar dynamics: Citizenship grants permanent residency rights nationwide, though state benefits depend on domicile."
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentValue": 10,
+      "alignmentText": "As part of the United States, New York experiences similar dynamics: Citizenship is automatic for the family and their children, eliminating naturalization concerns."
+    },
+    {
+      "key": "Family Members",
+      "alignmentValue": 9,
+      "alignmentText": "As part of the United States, New York experiences similar dynamics: Immediate relatives of citizens have streamlined sponsorship options, though backlogs affect extended family."
+    },
+    {
+      "key": "Timelines & Costs",
+      "alignmentValue": 7,
+      "alignmentText": "As part of the United States, New York experiences similar dynamics: For citizens moves are immediate; sponsoring relatives involves fees and multi-year waits but predictable processes."
+    },
+    {
+      "key": "Compliance & Risks",
+      "alignmentValue": 8,
+      "alignmentText": "As part of the United States, New York experiences similar dynamics: Legal compliance is straightforward for citizens, though regulated industries require diligent paperwork."
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentValue": 9,
+      "alignmentText": "As part of the United States, New York experiences similar dynamics: The U.S. tolerates dual citizenship, though obligations like taxes remain."
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentValue": 3,
+      "alignmentText": "As part of the United States, New York experiences similar dynamics: Visa holders must maintain employment, face travel restrictions, and manage complex paperwork to avoid status loss."
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentValue": 8,
+      "alignmentText": "Large publishers, media companies, and VR studios like Rockstar, Take-Two, and Resolution Games keep game dev hiring active."
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentValue": 8,
+      "alignmentText": "Rockstar Games, Take-Two Interactive, Avalanche Studios, and numerous indie teams operate across Manhattan and Brooklyn."
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentValue": 8,
+      "alignmentText": "NYC Gamedev Meetups, Playcrafting, and NYU Game Center events create frequent collaboration opportunities."
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentValue": 7,
+      "alignmentText": "Access to venture capital, incubators like NYU Game Center Incubator, and talent pipelines support studios, though costs are high."
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "alignmentValue": 7,
+      "alignmentText": "Reliable subways, broadband competition, and smart-city pilots coexist with aging public housing and occasional service disruptions."
+    }
+  ]
+}
