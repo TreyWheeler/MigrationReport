@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Migration Report</title>
   <style>
+    *, *::before, *::after { box-sizing: border-box; }
     :root {
       --md-font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
       --md-color-surface: #ffffff;
@@ -60,7 +61,7 @@
     .container { max-width: 100%; margin: 0 auto; padding: 12px 24px 24px; }
     .controls { display: flex; flex-direction: column; gap: 8px; flex: 1 1 auto; min-height: 0; overflow: hidden; }
     .controls .toggle { align-self: flex-start; }
-    .layout { display: grid; grid-template-columns: minmax(260px, 320px) 1fr; gap: 16px; align-items: stretch; width: 100%; flex: 1 1 auto; min-height: 0; }
+    .layout { display: grid; grid-template-columns: minmax(260px, 320px) minmax(0, 1fr); gap: 16px; align-items: stretch; width: 100%; flex: 1 1 auto; min-height: 0; }
     @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
     .sidebar {
       position: sticky; top: 12px;
@@ -74,7 +75,7 @@
       flex-direction: column;
       overflow: hidden;
     }
-    .content { display: flex; flex-direction: column; min-height: 0; }
+    .content { display: flex; flex-direction: column; min-height: 0; min-width: 0; }
     #report { }
     .empty-state {
       border: 2px dashed var(--md-color-outline);
@@ -174,12 +175,6 @@
     }
     .toggle input { accent-color: var(--md-color-primary); }
     .controls .pill-button { align-self: flex-start; }
-    .report-actions {
-      display: flex;
-      justify-content: flex-end;
-      margin: 8px 0 4px;
-    }
-    .report-actions .pill-button { margin-left: auto; }
     .flag-icon { width: 18px; height: 12px; border-radius: 2px; object-fit: cover; box-shadow: 0 0 0 1px rgba(0,0,0,0.06); }
     th.country-header .flag-icon { margin-right: 6px; vertical-align: -2px; }
     /* selection preview removed */
@@ -534,6 +529,15 @@
     .hero .toolbar .toggle { background: #ffffff; border-color: #e5e7eb; color: #111; }
     .hero .toolbar .toggle:hover { border-color: var(--md-color-primary); box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 16%, transparent); }
     .hero .toolbar .toggle:has(input:checked) { background: color-mix(in srgb, var(--md-color-primary) 14%, #ffffff); border-color: var(--md-color-primary); color: #111; }
+    .hero .toolbar .pill-button {
+      background: #ffffff;
+      border-color: #e5e7eb;
+      color: #111827;
+    }
+    .hero .toolbar .pill-button:hover {
+      border-color: var(--md-color-primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 16%, transparent);
+    }
   </style>
 </head>
 <body>
@@ -547,6 +551,7 @@
           <label class="toggle"><input type="checkbox" id="themeToggle"/> Dark mode</label>
           <label class="toggle"><input type="checkbox" id="scoresToggle"/> Show scores</label>
           <button id="weightsBtn" type="button" class="toggle">Adjust weights</button>
+          <button id="collapseCategoriesBtn" type="button" class="pill-button">Collapse all categories</button>
         </div>
         <div id="legendMount" class="legend"></div>
       </div>

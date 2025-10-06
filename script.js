@@ -772,6 +772,12 @@ loadMain();
 async function renderComparison(selectedList, mainData, options = {}) {
   const reportDiv = document.getElementById('report');
   reportDiv.innerHTML = '';
+  const collapseCategoriesBtn = document.getElementById('collapseCategoriesBtn');
+  if (collapseCategoriesBtn) {
+    collapseCategoriesBtn.disabled = true;
+    collapseCategoriesBtn.onclick = null;
+    collapseCategoriesBtn.setAttribute('aria-disabled', 'true');
+  }
 
   // Fetch all selected countries (with caching)
   const datasets = await Promise.all(selectedList.map(async s => ({
@@ -891,34 +897,6 @@ async function renderComparison(selectedList, mainData, options = {}) {
   // Collapsible category support
   const collapsedSet = new Set(getStored('collapsedCategories', []));
   const catSections = [];
-  const actionsBar = document.createElement('div');
-  actionsBar.className = 'report-actions';
-  const collapseCategoriesBtn = document.createElement('button');
-  collapseCategoriesBtn.type = 'button';
-  collapseCategoriesBtn.className = 'pill-button';
-  collapseCategoriesBtn.textContent = 'Collapse all categories';
-  collapseCategoriesBtn.addEventListener('click', () => {
-    if (!catSections.length) return;
-    const collapsedNames = [];
-    catSections.forEach(section => {
-      if (!section) return;
-      if (section.name) collapsedNames.push(section.name);
-      if (section.header) {
-        section.header.classList.add('collapsed');
-      }
-      if (Array.isArray(section.rows)) {
-        section.rows.forEach(row => { row.style.display = 'none'; });
-      }
-      if (section.toggle) {
-        section.toggle.textContent = '▸';
-        section.toggle.setAttribute('aria-expanded', 'false');
-        section.toggle.title = 'Expand category';
-      }
-    });
-    const uniqueNames = Array.from(new Set(collapsedNames.filter(Boolean)));
-    setStored('collapsedCategories', uniqueNames);
-  });
-  actionsBar.appendChild(collapseCategoriesBtn);
 
   // Normalize key strings to avoid Unicode-degree/encoding mismatches in lookups
   const canonKey = (s) => {
@@ -1140,9 +1118,36 @@ async function renderComparison(selectedList, mainData, options = {}) {
 
   table.appendChild(tbody);
 
-  if (!catSections.length) {
-    actionsBar.hidden = true;
-    collapseCategoriesBtn.disabled = true;
+  if (collapseCategoriesBtn) {
+    if (!catSections.length) {
+      collapseCategoriesBtn.disabled = true;
+      collapseCategoriesBtn.onclick = null;
+      collapseCategoriesBtn.setAttribute('aria-disabled', 'true');
+    } else {
+      collapseCategoriesBtn.disabled = false;
+      collapseCategoriesBtn.removeAttribute('aria-disabled');
+      collapseCategoriesBtn.onclick = () => {
+        if (!catSections.length) return;
+        const collapsedNames = [];
+        catSections.forEach(section => {
+          if (!section) return;
+          if (section.name) collapsedNames.push(section.name);
+          if (section.header) {
+            section.header.classList.add('collapsed');
+          }
+          if (Array.isArray(section.rows)) {
+            section.rows.forEach(row => { row.style.display = 'none'; });
+          }
+          if (section.toggle) {
+            section.toggle.textContent = '▸';
+            section.toggle.setAttribute('aria-expanded', 'false');
+            section.toggle.title = 'Expand category';
+          }
+        });
+        const uniqueNames = Array.from(new Set(collapsedNames.filter(Boolean)));
+        setStored('collapsedCategories', uniqueNames);
+      };
+    }
   }
 
   // Ensure sensible minimum width to avoid initial horizontal scrollbar with one country,
@@ -1163,7 +1168,6 @@ async function renderComparison(selectedList, mainData, options = {}) {
   frow.className = 'floating-row';
   floating.appendChild(frow);
   // Insert floating header above the scroll container
-  reportDiv.appendChild(actionsBar);
   reportDiv.appendChild(floating);
   reportDiv.appendChild(wrap);
 
