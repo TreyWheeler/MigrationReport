@@ -25,6 +25,7 @@ async function loadMain() {
   const mainData = await response.json();
   const listEl = document.getElementById('countryList');
   const notice = document.getElementById('notice');
+  const collapseCountriesBtn = document.getElementById('collapseCountriesBtn');
   // Initialize UI preferences and toggles
   initUiPreferences();
 
@@ -35,6 +36,10 @@ async function loadMain() {
   const citiesOnlyToggle = document.getElementById('citiesOnlyToggle');
   if (citiesOnlyToggle) {
     citiesOnlyToggle.checked = appState.showCitiesOnly;
+  }
+  if (collapseCountriesBtn) {
+    collapseCountriesBtn.hidden = !!appState.showCitiesOnly;
+    collapseCountriesBtn.addEventListener('click', () => collapseAllCountries());
   }
 
   const countries = Array.isArray(mainData.Countries) ? mainData.Countries.map(c => {
@@ -402,8 +407,47 @@ function persistCountryExpandedState(country) {
   setStored('countryExpandedState', appState.expandedState);
 }
 
+function collapseAllCountries() {
+  if (appState.showCitiesOnly) return;
+  const listEl = document.getElementById('countryList');
+  if (!listEl) return;
+  const groups = Array.from(listEl.querySelectorAll('.country-group'));
+  if (groups.length === 0) return;
+
+  if (!Array.isArray(appState.countries)) return;
+  appState.countries.forEach(country => {
+    if (!country || !Array.isArray(country.cities) || country.cities.length === 0) return;
+    country.expanded = false;
+    persistCountryExpandedState(country);
+  });
+
+  groups.forEach(group => {
+    group.classList.remove('expanded');
+    group.classList.add('collapsed');
+    const cityList = group.querySelector('.city-list');
+    if (cityList) {
+      cityList.hidden = true;
+      cityList.style.display = 'none';
+    }
+    const toggle = group.querySelector('.tree-toggle');
+    if (toggle) {
+      const countryNode = group.querySelector('.country-item-root');
+      const countryName = countryNode && countryNode.dataset ? countryNode.dataset.name : '';
+      toggle.textContent = '▸';
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', countryName ? `Expand ${countryName}` : 'Expand country');
+    }
+  });
+}
+
 function renderCountryList(listEl, countries, notice, onChange) {
   if (!listEl) return;
+  const collapseBtn = document.getElementById('collapseCountriesBtn');
+  const hasExpandable = Array.isArray(countries) && countries.some(country => Array.isArray(country.cities) && country.cities.length > 0);
+  if (collapseBtn) {
+    collapseBtn.hidden = !!appState.showCitiesOnly;
+    collapseBtn.disabled = !hasExpandable;
+  }
   const mode = getCurrentSortMode();
   listEl.innerHTML = '';
   listEl.classList.toggle('cities-only', !!appState.showCitiesOnly);
@@ -732,6 +776,34 @@ async function renderComparison(selectedList, mainData, options = {}) {
   // Collapsible category support
   const collapsedSet = new Set(getStored('collapsedCategories', []));
   const catSections = [];
+  const actionsBar = document.createElement('div');
+  actionsBar.className = 'report-actions';
+  const collapseCategoriesBtn = document.createElement('button');
+  collapseCategoriesBtn.type = 'button';
+  collapseCategoriesBtn.className = 'pill-button';
+  collapseCategoriesBtn.textContent = 'Collapse all categories';
+  collapseCategoriesBtn.addEventListener('click', () => {
+    if (!catSections.length) return;
+    const collapsedNames = [];
+    catSections.forEach(section => {
+      if (!section) return;
+      if (section.name) collapsedNames.push(section.name);
+      if (section.header) {
+        section.header.classList.add('collapsed');
+      }
+      if (Array.isArray(section.rows)) {
+        section.rows.forEach(row => { row.style.display = 'none'; });
+      }
+      if (section.toggle) {
+        section.toggle.textContent = '▸';
+        section.toggle.setAttribute('aria-expanded', 'false');
+        section.toggle.title = 'Expand category';
+      }
+    });
+    const uniqueNames = Array.from(new Set(collapsedNames.filter(Boolean)));
+    setStored('collapsedCategories', uniqueNames);
+  });
+  actionsBar.appendChild(collapseCategoriesBtn);
 
   // Normalize key strings to avoid Unicode-degree/encoding mismatches in lookups
   const canonKey = (s) => {
@@ -957,6 +1029,11 @@ async function renderComparison(selectedList, mainData, options = {}) {
 
   table.appendChild(tbody);
 
+  if (!catSections.length) {
+    actionsBar.hidden = true;
+    collapseCategoriesBtn.disabled = true;
+  }
+
   // Ensure sensible minimum width to avoid initial horizontal scrollbar with one country,
   // while allowing more columns to expand and scroll if needed.
   const keyMin = 240; // px
@@ -975,6 +1052,7 @@ async function renderComparison(selectedList, mainData, options = {}) {
   frow.className = 'floating-row';
   floating.appendChild(frow);
   // Insert floating header above the scroll container
+  reportDiv.appendChild(actionsBar);
   reportDiv.appendChild(floating);
   reportDiv.appendChild(wrap);
 

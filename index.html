@@ -85,6 +85,29 @@
     }
     .toggle:hover { border-color: var(--md-color-primary); box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent); }
     .toggle:has(input:checked) { background: color-mix(in srgb, var(--md-color-primary) 18%, var(--md-color-surface)); border-color: var(--md-color-primary); }
+    .pill-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border: 1px solid var(--md-color-outline);
+      border-radius: 9999px;
+      background: var(--md-color-surface);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      font-size: 12px;
+      color: var(--md-color-on-surface);
+      cursor: pointer;
+      transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease;
+    }
+    .pill-button:hover {
+      border-color: var(--md-color-primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent);
+    }
+    .pill-button:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
     body[data-theme="dark"] .toggle {
       background: #111827; border-color: #334155; color: var(--md-color-on-surface);
       box-shadow: 0 1px 1px rgba(0,0,0,0.4);
@@ -98,7 +121,27 @@
       border-color: var(--md-color-primary);
       color: #ffffff;
     }
+    body[data-theme="dark"] .pill-button {
+      background: #111827;
+      border-color: #334155;
+      color: var(--md-color-on-surface);
+      box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    }
+    body[data-theme="dark"] .pill-button:hover {
+      border-color: var(--md-color-primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 24%, transparent);
+    }
+    body[data-theme="dark"] .pill-button:disabled {
+      box-shadow: none;
+    }
     .toggle input { accent-color: var(--md-color-primary); }
+    .controls .pill-button { align-self: flex-start; }
+    .report-actions {
+      display: flex;
+      justify-content: flex-end;
+      margin: 8px 0 4px;
+    }
+    .report-actions .pill-button { margin-left: auto; }
     .flag-icon { width: 18px; height: 12px; border-radius: 2px; object-fit: cover; box-shadow: 0 0 0 1px rgba(0,0,0,0.06); }
     th.country-header .flag-icon { margin-right: 6px; vertical-align: -2px; }
     /* selection preview removed */
@@ -441,10 +484,11 @@
           </select>
         </div>
         <label class="toggle"><input type="checkbox" id="citiesOnlyToggle"/> Show only cities</label>
+        <button id="collapseCountriesBtn" type="button" class="pill-button">Collapse all countries</button>
         <div id="countryList" class="country-list" role="listbox" aria-multiselectable="true"></div>
         <div id="notice"></div>
       </div>
-      
+
     </aside>
     <main class="content">
       <div id="report"></div>
