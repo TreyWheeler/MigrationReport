@@ -520,7 +520,13 @@
     },
     {
       "name": "China",
-      "file": "reports/china_report.json"
+      "file": "reports/china_report.json",
+      "cities": [
+        {
+          "name": "Shanghai",
+          "file": "reports/china_shanghai_report.json"
+        }
+      ]
     },
     {
       "name": "New Zealand",
@@ -579,6 +585,14 @@
         {
           "name": "San Diego",
           "file": "reports/united_states_san_diego_report.json"
+        },
+        {
+          "name": "Portland",
+          "file": "reports/united_states_portland_report.json"
+        },
+        {
+          "name": "Seattle",
+          "file": "reports/united_states_seattle_report.json"
         }
       ]
     },
@@ -597,6 +611,10 @@
         {
           "name": "Bordeaux",
           "file": "reports/france_bordeaux_report.json"
+        },
+        {
+          "name": "Paris",
+          "file": "reports/france_paris_report.json"
         }
       ]
     },
@@ -701,6 +719,10 @@
         {
           "name": "Walthamstow",
           "file": "reports/united_kingdom_walthamstow_report.json"
+        },
+        {
+          "name": "London",
+          "file": "reports/united_kingdom_london_report.json"
         }
       ]
     },
@@ -802,7 +824,13 @@
     },
     {
       "name": "Japan",
-      "file": "reports/japan_report.json"
+      "file": "reports/japan_report.json",
+      "cities": [
+        {
+          "name": "Tokyo",
+          "file": "reports/japan_tokyo_report.json"
+        }
+      ]
     },
     {
       "name": "Greenland",
@@ -810,7 +838,13 @@
     },
     {
       "name": "South Korea",
-      "file": "reports/south_korea_report.json"
+      "file": "reports/south_korea_report.json",
+      "cities": [
+        {
+          "name": "Seoul",
+          "file": "reports/south_korea_seoul_report.json"
+        }
+      ]
     },
     {
       "name": "North Korea",
