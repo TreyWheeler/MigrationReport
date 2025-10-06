@@ -1,104 +1,105 @@
 {
+  "version": 2,
   "iso": "GL",
   "values": [
     {
       "key": "Environment",
-      "alignmentText": "Vast unspoiled wilderness with minimal pollution, appealing for outdoor family adventures.",
+      "alignmentText": "Glaciers, fjords, and low pollution create spectacular nature escapes, even if gear and careful planning are needed for the kids.",
       "alignmentValue": 8
     },
     {
       "key": "Global Warming Risk",
-      "alignmentText": "Rapid Arctic warming threatens ecosystems and traditional lifestyles.",
-      "alignmentValue": 3
+      "alignmentText": "Arctic warming is racing ahead of global averages, threatening permafrost, fisheries, and coastal settlements the family would rely on.",
+      "alignmentValue": 2
     },
     {
       "key": "Seasonal Weather",
-      "alignmentText": "Long, dark winters and short, cool summers pose challenges for a family preferring mild climates.",
-      "alignmentValue": 3
+      "alignmentText": "Polar night stretches for months and short summers stay chilly, far from the mild year-round climate we want.",
+      "alignmentValue": 1
     },
     {
       "key": "Air Quality",
-      "alignmentText": "Crisp Arctic air with low industrial emissions offers excellent breathing conditions.",
+      "alignmentText": "With minimal industry and ocean winds, air stays crisp except for occasional wood-stove smoke in winter.",
       "alignmentValue": 9
     },
     {
       "key": "Natural Disasters",
-      "alignmentText": "Limited earthquake or storm activity but risk of ice-related hazards.",
-      "alignmentValue": 6
+      "alignmentText": "Major quakes or storms are rare, yet warming-driven landslides and coastal erosion add nontrivial safety planning.",
+      "alignmentValue": 4
     },
     {
       "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Around -5°C to 5°C (23-41°F) with lingering snow and increasing daylight.",
-      "alignmentValue": 2
+      "alignmentText": "Spring hovers below freezing until May, so playground time still needs snow gear.",
+      "alignmentValue": 1
     },
     {
       "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Typically 5-15°C (41-59°F); cool even in peak season, aligning poorly with warmth preference.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Cool 0-5°C (32-41°F) with rapidly shortening days and early snowfall.",
+      "alignmentText": "Summer highs around 10–12°C (50–54°F) stay brisk for outdoor play despite the long daylight.",
       "alignmentValue": 2
     },
     {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Autumn rapidly slides back to freezing with early snowfall and storms shortening daylight.",
+      "alignmentValue": 1
+    },
+    {
       "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "-20°C (-4°F) or colder with polar night, far from desired mild winters.",
+      "alignmentText": "Winter brings -20°C (-4°F) cold snaps and weeks without sun, a poor fit for Sarah’s low-stress climate goals.",
       "alignmentValue": 1
     },
     {
       "key": "Beach Life",
-      "alignmentText": "Beaches are rugged and icy, not suitable for typical family beach outings.",
+      "alignmentText": "Shorelines are icy and rugged, so there’s no family-friendly beach culture.",
       "alignmentValue": 1
     },
     {
       "key": "Seasonal Beach Water Temp",
-      "alignmentText": "Sea rarely exceeds 5°C (41°F), making swimming impractical.",
+      "alignmentText": "Sea temperatures rarely top 5°C (41°F), making swimming unsafe without drysuits.",
       "alignmentValue": 1
     },
     {
       "key": "Natural Beauty",
-      "alignmentText": "Dramatic glaciers and fjords provide extraordinary scenery for nature-focused trips.",
+      "alignmentText": "Towering icebergs, northern lights, and fjords provide awe-inspiring backdrops for family adventures.",
       "alignmentValue": 9
     },
     {
       "key": "Minimum Wage",
-      "alignmentText": "No statutory minimum wage; wages negotiated through unions and often high to offset costs.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "Few local tech roles; salaries trail major markets, though remote pay could match international levels.",
+      "alignmentText": "There’s no statutory minimum; union contracts pay well on paper but disappear quickly under Greenland’s extreme living costs.",
       "alignmentValue": 3
     },
     {
-      "key": ".NET Work Prospects",
-      "alignmentText": "Limited local demand; remote work essential for .NET opportunities.",
+      "key": "Typical Software Salaries",
+      "alignmentText": "Local tech hiring is sparse, so sustaining US-level income would depend on remote contracts.",
       "alignmentValue": 2
     },
     {
+      "key": ".NET Work Prospects",
+      "alignmentText": "Government IT teams are tiny, leaving .NET specialists reliant on remote-first roles.",
+      "alignmentValue": 1
+    },
+    {
       "key": "Ruby Work Prospects",
-      "alignmentText": "Sparse ecosystem with almost no Ruby-focused employers; remote contracting required.",
+      "alignmentText": "No meaningful Ruby market exists, so any work would have to stay with international clients.",
       "alignmentValue": 1
     },
     {
       "key": "Employer Visa Sponsorship",
-      "alignmentText": "Few companies and limited need for foreign hires make sponsorship uncommon.",
+      "alignmentText": "Few employers recruit abroad, and sponsorship still routes through Denmark’s quotas.",
       "alignmentValue": 2
     },
     {
       "key": "Economic Health",
-      "alignmentText": "Small economy reliant on fishing and Danish subsidies with narrow diversification.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "Internet connections improving but latency and bandwidth can hamper remote work.",
+      "alignmentText": "GDP hinges on fisheries and Danish block grants, leaving little resilience for entrepreneurs.",
       "alignmentValue": 4
     },
     {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Internet has improved but long-haul links stay latency-heavy, so Trey would need backup connectivity.",
+      "alignmentValue": 3
+    },
+    {
       "key": "Work-Life Balance",
-      "alignmentText": "Nordic norms support reasonable hours and family time.",
+      "alignmentText": "Nordic norms keep overtime rare and leave time for family, even in small public-sector offices.",
       "alignmentValue": 7
     },
     {
@@ -108,27 +109,27 @@
     },
     {
       "key": "Vacation Days (Minimum)",
-      "alignmentText": "Roughly five weeks of leave following Danish labor standards.",
+      "alignmentText": "Five weeks of statutory leave mirror Denmark, giving space for long trips back to the States.",
       "alignmentValue": 8
     },
     {
       "key": "Vacation Days (Typical)",
-      "alignmentText": "Public sector often exceeds minimums, enabling extended family trips.",
-      "alignmentValue": 8
+      "alignmentText": "Most teams take the full allowance, though small staffs sometimes stagger time off to keep services running.",
+      "alignmentValue": 7
     },
     {
       "key": "Pace of Life",
-      "alignmentText": "Slow-paced communities may suit the family’s desire for less hectic living.",
-      "alignmentValue": 7
+      "alignmentText": "Short commutes and tight-knit towns offer the slower daily rhythm Sarah craves.",
+      "alignmentValue": 8
     },
     {
       "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Schools and offices often run 8:00-16:00, aligning with family routines.",
-      "alignmentValue": 7
+      "alignmentText": "Schools run roughly 8–14h and offices finish by 16h, but limited after-school care means parents juggle shifts.",
+      "alignmentValue": 6
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Weekends focus on outdoor activities and local events but options are limited.",
+      "alignmentText": "Weekends revolve around outdoor excursions and community events, yet weather can cancel plans last-minute.",
       "alignmentValue": 6
     },
     {
@@ -238,13 +239,13 @@
     },
     {
       "key": "Language & English Ubiquity",
-      "alignmentText": "Greenlandic and Danish dominate; English spoken in tourism and youth circles.",
-      "alignmentValue": 4
+      "alignmentText": "Greenlandic and Danish dominate daily life; English helps with youth and tourism but isn’t reliable for bureaucracy.",
+      "alignmentValue": 3
     },
     {
       "key": "Progressivism",
-      "alignmentText": "Political leanings favor social welfare though social views can be conservative.",
-      "alignmentValue": 5
+      "alignmentText": "Politics lean social-democratic, though some social issues track more traditional Inuit and Danish norms.",
+      "alignmentValue": 6
     },
     {
       "key": "Marxism (Societal Attitudes)",
@@ -263,8 +264,8 @@
     },
     {
       "key": "LGBTQ+ Attitudes",
-      "alignmentText": "Legal protections exist yet small communities offer limited visibility and support.",
-      "alignmentValue": 4
+      "alignmentText": "Legal protections follow Denmark, but tiny communities mean limited queer visibility and peer support.",
+      "alignmentValue": 5
     },
     {
       "key": "Community Vibes",
@@ -328,8 +329,8 @@
     },
     {
       "key": "Political System",
-      "alignmentText": "Parliamentary democracy under the Kingdom of Denmark with local self-rule.",
-      "alignmentValue": 6
+      "alignmentText": "A home-rule parliament under Denmark keeps democratic institutions transparent and accountable.",
+      "alignmentValue": 8
     },
     {
       "key": "Religion in Politics",
@@ -348,8 +349,8 @@
     },
     {
       "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Danish oversight and democratic institutions keep risks low.",
-      "alignmentValue": 7
+      "alignmentText": "Strong links to Danish rule-of-law and an active press make backsliding unlikely despite the small media market.",
+      "alignmentValue": 8
     },
     {
       "key": "State of Capitalism",
@@ -373,22 +374,22 @@
     },
     {
       "key": "Social Policies",
-      "alignmentText": "Comprehensive welfare state supports healthcare and education.",
+      "alignmentText": "Universal healthcare, subsidized childcare, and education support mirror Nordic welfare priorities.",
       "alignmentValue": 8
     },
     {
       "key": "Trust in Government",
-      "alignmentText": "Moderate trust, though some skepticism exists about efficiency.",
+      "alignmentText": "Residents trust core services but question how efficiently Nuuk manages remote settlements.",
       "alignmentValue": 6
     },
     {
       "key": "Perceived Corruption",
-      "alignmentText": "Overall low but small communities sometimes report favoritism.",
+      "alignmentText": "Transparency is generally good, though small-town hiring can feel insider-based.",
       "alignmentValue": 6
     },
     {
       "key": "Type of Corruption",
-      "alignmentText": "Petty nepotism more common than large-scale scandals.",
+      "alignmentText": "Issues mostly involve patronage or family ties rather than large-scale graft.",
       "alignmentValue": 5
     },
     {
@@ -398,23 +399,23 @@
     },
     {
       "key": "Safety & Crime",
-      "alignmentText": "Low violent crime but social issues like alcohol abuse remain concerns.",
-      "alignmentValue": 5
+      "alignmentText": "Violent crime is rare, yet alcohol-related domestic incidents mean we’d need robust community support networks.",
+      "alignmentValue": 4
     },
     {
       "key": "Healthcare (Citizens)",
-      "alignmentText": "Universal coverage with local clinics; serious cases referred to Denmark.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Foreign residents can access care but may face language and referral hurdles.",
+      "alignmentText": "Primary care is universal, but serious cases require medevac to Denmark, adding travel stress.",
       "alignmentValue": 6
     },
     {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Resident permits grant access, though Danish referrals and language gaps add friction.",
+      "alignmentValue": 5
+    },
+    {
       "key": "Child Care Support",
-      "alignmentText": "Limited provider availability despite subsidies.",
-      "alignmentValue": 4
+      "alignmentText": "Municipal daycares exist but waitlists and staffing shortages are common in Nuuk.",
+      "alignmentValue": 3
     },
     {
       "key": "Family Policy (Common Family)",
@@ -423,17 +424,17 @@
     },
     {
       "key": "Education",
-      "alignmentText": "Basic education is accessible yet lacks advanced programs.",
-      "alignmentValue": 5
+      "alignmentText": "Outcomes trail Danish averages, so the boys would likely need supplemental tutoring or boarding options later on.",
+      "alignmentValue": 4
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "Local bus networks exist in towns, but intercity travel relies on air or boat.",
-      "alignmentValue": 3
+      "alignmentText": "Town buses cover short hops, yet there are no intercity roads—travel between communities needs flights or ferries.",
+      "alignmentValue": 2
     },
     {
       "key": "Economic System",
-      "alignmentText": "Market activity constrained by geography; heavy reliance on fishing.",
+      "alignmentText": "A mixed economy balances public control with small private firms, but scale is limited.",
       "alignmentValue": 5
     },
     {
@@ -453,7 +454,7 @@
     },
     {
       "key": "Cost of Living (Optional)",
-      "alignmentText": "Imported goods make day-to-day expenses among the highest worldwide.",
+      "alignmentText": "Almost everything is imported, so groceries and gear cost well above Danish levels.",
       "alignmentValue": 3
     },
     {
@@ -468,38 +469,38 @@
     },
     {
       "key": "Visa Paths",
-      "alignmentText": "Danish-controlled visa system offers work and family permits but quotas are tight.",
-      "alignmentValue": 4
+      "alignmentText": "Residence permits flow through Danish immigration, with tight quotas and case-by-case approvals.",
+      "alignmentValue": 3
     },
     {
       "key": "Welcoming of US Migrants",
-      "alignmentText": "Small population is generally polite yet cautious toward newcomers.",
-      "alignmentValue": 5
+      "alignmentText": "Locals are friendly yet protective of community resources, so integration takes time.",
+      "alignmentValue": 4
     },
     {
       "key": "Residency Types & Durations",
-      "alignmentText": "Temporary and permanent residency follow Danish rules with renewal requirements.",
-      "alignmentValue": 5
+      "alignmentText": "Temporary permits require renewal and proof of employment; permanent residency demands long stays and language.",
+      "alignmentValue": 4
     },
     {
       "key": "Path to Citizenship",
-      "alignmentText": "Naturalization through Denmark requires long residence and language proficiency.",
+      "alignmentText": "Naturalization follows Denmark’s 9+ year timeline plus Danish-language exams.",
       "alignmentValue": 4
     },
     {
       "key": "Family Members",
-      "alignmentText": "Spouses and children can usually obtain dependent permits with access to services.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Timelines & Costs",
-      "alignmentText": "Processing can take many months and incurs Danish application fees.",
+      "alignmentText": "Dependents qualify for permits, but housing and school placement must be secured in advance.",
       "alignmentValue": 5
     },
     {
+      "key": "Timelines & Costs",
+      "alignmentText": "Applications can stretch past six months and require travel to Danish consulates.",
+      "alignmentValue": 4
+    },
+    {
       "key": "Compliance & Risks",
-      "alignmentText": "Overstays or failure to maintain employment jeopardize status.",
-      "alignmentValue": 6
+      "alignmentText": "Losing the sponsoring job or failing Danish paperwork can quickly end the stay.",
+      "alignmentValue": 5
     },
     {
       "key": "Dual Citizenship Allowed",
@@ -508,32 +509,32 @@
     },
     {
       "key": "General Considerations for Visa Holders",
-      "alignmentText": "Remote healthcare and schooling access require careful planning.",
+      "alignmentText": "Remote logistics, medevac travel, and language barriers mean the family would need contingency plans.",
       "alignmentValue": 4
     },
     {
       "key": "Game Dev Work Prospects",
-      "alignmentText": "No established industry; remote freelancing is the primary option.",
+      "alignmentText": "No local studios exist, so Trey would have to build everything remotely.",
       "alignmentValue": 1
     },
     {
       "key": "Notable Game Studios",
-      "alignmentText": "No notable local studios present.",
+      "alignmentText": "There are no established Greenlandic studios to network with.",
       "alignmentValue": 1
     },
     {
       "key": "Notable Game Development Communities",
-      "alignmentText": "Lacks organized dev meetups; online communities fill the gap.",
+      "alignmentText": "Occasional school workshops happen, but most collaboration would remain online.",
       "alignmentValue": 2
     },
     {
       "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Sparse market and high costs limit viability; Danish grants may help.",
-      "alignmentValue": 3
+      "alignmentText": "Funding is scarce beyond small cultural grants, and the local market is tiny.",
+      "alignmentValue": 2
     },
     {
       "key": "Modernity & Infrastructure",
-      "alignmentText": "Basic services in towns but limited road networks and high reliance on imports.",
+      "alignmentText": "Nuuk has reliable power and broadband, yet settlements rely on diesel and limited transport links.",
       "alignmentValue": 4
     }
   ]

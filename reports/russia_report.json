@@ -1,30 +1,31 @@
 {
+  "version": 2,
   "iso": "RU",
   "values": [
     {
       "key": "Environment",
-      "alignmentText": "Vast landscapes mix pristine taiga with polluted industrial zones, making access to clean nature uneven for families.",
+      "alignmentText": "Wild taiga and lake districts are beautiful, yet pollution around industrial hubs limits easy weekend escapes.",
       "alignmentValue": 4
     },
     {
       "key": "Global Warming Risk",
-      "alignmentText": "Rapid Arctic warming and permafrost thaw pose long-term ecological and infrastructure challenges.",
+      "alignmentText": "Permafrost melt, Siberian wildfires, and volatile harvests signal rising climate risk.",
       "alignmentValue": 3
     },
     {
       "key": "Seasonal Weather",
-      "alignmentText": "Continental extremes bring hot summers and very cold winters, far from the mild climate preference.",
+      "alignmentText": "Winters plunge well below freezing and summers swing hot, far from the family’s mild-climate goal.",
       "alignmentValue": 2
     },
     {
       "key": "Air Quality",
-      "alignmentText": "Major cities suffer from vehicle and coal pollution while remote areas remain fairly clean.",
-      "alignmentValue": 3
+      "alignmentText": "Major cities regularly exceed PM limits due to coal heat and traffic, though coastal and northern towns fare better.",
+      "alignmentValue": 4
     },
     {
       "key": "Natural Disasters",
-      "alignmentText": "Generally low risk, though some regions face floods, wildfires, or Far East earthquakes.",
-      "alignmentValue": 5
+      "alignmentText": "Flooding, wildfires, and thawing permafrost threaten infrastructure in multiple regions.",
+      "alignmentValue": 4
     },
     {
       "key": "Spring Temperature Range (C/F)",
@@ -33,7 +34,7 @@
     },
     {
       "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Typically 15–30°C (59–86°F); occasional heat waves and humidity in cities.",
+      "alignmentText": "Moscow and Saint Petersburg average 20–26°C (68–79°F) but heatwaves now top 32°C (90°F).",
       "alignmentValue": 4
     },
     {
@@ -43,8 +44,8 @@
     },
     {
       "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "Commonly -15 to -5°C (5–23°F) with heavy snow and icy streets.",
-      "alignmentValue": 1
+      "alignmentText": "Extended stretches below -10°C (14°F) demand heavy gear and limit outdoor family time.",
+      "alignmentValue": 2
     },
     {
       "key": "Beach Life",
@@ -63,43 +64,43 @@
     },
     {
       "key": "Minimum Wage",
-      "alignmentText": "Approximately ₽16k/month (~$170), offering little support for a family of four.",
+      "alignmentText": "Regional minimums often sit under 20,000 RUB (~$220), insufficient for a four-person household.",
       "alignmentValue": 2
     },
     {
       "key": "Typical Software Salaries",
-      "alignmentText": "Salaries in Moscow average $20–40k USD, well below Western levels.",
-      "alignmentValue": 3
+      "alignmentText": "Senior engineers may earn 2–3 million RUB annually, but currency controls complicate international pay.",
+      "alignmentValue": 4
     },
     {
       "key": ".NET Work Prospects",
-      "alignmentText": "Domestic demand exists but sanctions limit international projects and stability.",
-      "alignmentValue": 3
+      "alignmentText": "Banks and state enterprises keep .NET roles available, yet most require in-country presence.",
+      "alignmentValue": 4
     },
     {
       "key": "Ruby Work Prospects",
-      "alignmentText": "Smaller ecosystem with few high-paying roles.",
-      "alignmentValue": 2
+      "alignmentText": "Ruby teams exist in e-commerce, but many companies relocated talent after 2022.",
+      "alignmentValue": 3
     },
     {
       "key": "Employer Visa Sponsorship",
-      "alignmentText": "Foreign tech hires face tight quotas and heightened scrutiny, making sponsorship rare.",
+      "alignmentText": "US citizens face severe scrutiny; few employers will undertake sponsorship amid geopolitical tension.",
       "alignmentValue": 1
     },
     {
       "key": "Economic Health",
-      "alignmentText": "Energy exports prop up GDP, yet sanctions and inflation weigh on growth.",
+      "alignmentText": "Sanctions and wartime spending warp the economy, limiting entrepreneurial stability.",
       "alignmentValue": 3
     },
     {
       "key": "Remote-Friendly Culture",
-      "alignmentText": "Some firms allow remote work, though monitoring and time-zone gaps hinder US collaboration.",
+      "alignmentText": "Broadband is fast in cities, but VPNs are required for many Western services and censorship is tightening.",
       "alignmentValue": 4
     },
     {
       "key": "Work-Life Balance",
-      "alignmentText": "Urban offices often expect long hours and weekend availability.",
-      "alignmentValue": 3
+      "alignmentText": "Tech teams often expect late hours during releases, and vacation can be curtailed by staffing pressures.",
+      "alignmentValue": 4
     },
     {
       "key": "Work Week Hours",
@@ -108,27 +109,27 @@
     },
     {
       "key": "Vacation Days (Minimum)",
-      "alignmentText": "Labor law guarantees 28 paid days plus public holidays.",
+      "alignmentText": "Employees receive at least 28 days plus public holidays, supporting extended travel.",
       "alignmentValue": 7
     },
     {
       "key": "Vacation Days (Typical)",
-      "alignmentText": "Most workers take the legal minimum, with few extended breaks.",
+      "alignmentText": "Many staff take the legal minimum, and managers sometimes discourage long absences.",
       "alignmentValue": 6
     },
     {
       "key": "Pace of Life",
-      "alignmentText": "Moscow and St. Petersburg are hectic; provincial towns move slower but offer fewer amenities.",
+      "alignmentText": "Major metros move fast with long commutes; only smaller regional cities offer slower rhythms.",
       "alignmentValue": 4
     },
     {
       "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "9–6 schedules with short lunches; limited after‑school programs strain family logistics.",
-      "alignmentValue": 3
+      "alignmentText": "Schools run 8:30–14:30 and parents often extend days with extracurriculars to cover childcare gaps.",
+      "alignmentValue": 4
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Families often visit dachas or malls; many services remain open Saturdays.",
+      "alignmentText": "Families split time between city parks and dachas, though political rallies can disrupt public events.",
       "alignmentValue": 5
     },
     {
@@ -238,13 +239,13 @@
     },
     {
       "key": "Language & English Ubiquity",
-      "alignmentText": "English spoken in tourist zones but limited outside major cities, requiring Russian proficiency.",
+      "alignmentText": "Outside international firms, daily life requires Russian for paperwork and social integration.",
       "alignmentValue": 3
     },
     {
       "key": "Progressivism",
-      "alignmentText": "Government promotes conservative values and restricts dissent.",
-      "alignmentValue": 2
+      "alignmentText": "State ideology leans nationalist and socially conservative, clashing with the family’s progressive values.",
+      "alignmentValue": 1
     },
     {
       "key": "Marxism (Societal Attitudes)",
@@ -263,12 +264,12 @@
     },
     {
       "key": "LGBTQ+ Attitudes",
-      "alignmentText": "\"Gay propaganda\" laws and social stigma create a hostile climate.",
+      "alignmentText": "Broad anti-\"propaganda\" laws criminalize queer visibility, making it unsafe for polyamory-positive families.",
       "alignmentValue": 1
     },
     {
       "key": "Community Vibes",
-      "alignmentText": "Local networks are tight but can feel closed to outsiders.",
+      "alignmentText": "Neighborhood networks are close-knit but can be wary of outspoken foreigners.",
       "alignmentValue": 3
     },
     {
@@ -328,7 +329,7 @@
     },
     {
       "key": "Political System",
-      "alignmentText": "Highly centralized presidency with limited opposition and media control.",
+      "alignmentText": "Power concentrates in the presidency with managed elections and limited opposition.",
       "alignmentValue": 1
     },
     {
@@ -348,7 +349,7 @@
     },
     {
       "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Already authoritarian with little prospect for liberalization.",
+      "alignmentText": "Ongoing crackdowns on media and NGOs show active democratic erosion.",
       "alignmentValue": 1
     },
     {
@@ -358,8 +359,8 @@
     },
     {
       "key": "Stability",
-      "alignmentText": "Political stability masks repression and economic unpredictability.",
-      "alignmentValue": 3
+      "alignmentText": "Institutions appear stable but mobilization and war-related sanctions create daily uncertainty.",
+      "alignmentValue": 2
     },
     {
       "key": "Propaganda Prevalence",
@@ -373,47 +374,47 @@
     },
     {
       "key": "Social Policies",
-      "alignmentText": "Policies favor conservative norms and limit civil liberties.",
-      "alignmentValue": 2
+      "alignmentText": "Benefits prioritize traditional families and military service over inclusive support.",
+      "alignmentValue": 3
     },
     {
       "key": "Trust in Government",
-      "alignmentText": "Reported trust is high but may reflect controlled media rather than genuine approval.",
+      "alignmentText": "Polling shows reported trust, yet it’s shaped by state media and limited alternatives.",
       "alignmentValue": 3
     },
     {
       "key": "Perceived Corruption",
-      "alignmentText": "Transparency International ranks Russia as highly corrupt.",
+      "alignmentText": "Russia ranks near the bottom globally, with corruption embedded in many transactions.",
       "alignmentValue": 2
     },
     {
       "key": "Type of Corruption",
-      "alignmentText": "Bureaucratic bribery and oligarchic favoritism are common.",
+      "alignmentText": "Bribes and patronage networks influence everything from courts to utilities.",
       "alignmentValue": 2
     },
     {
       "key": "Housing Situation",
-      "alignmentText": "Soviet-era apartments dominate; modern housing is costly in major cities.",
+      "alignmentText": "Renovated flats in safe districts command high prices, while Soviet-era blocks need costly upgrades.",
       "alignmentValue": 3
     },
     {
       "key": "Safety & Crime",
-      "alignmentText": "Violent crime is moderate but police harassment and political risk remain.",
+      "alignmentText": "Street crime is moderate, but arbitrary policing and political risk add stress.",
       "alignmentValue": 3
     },
     {
       "key": "Healthcare (Citizens)",
-      "alignmentText": "Universal coverage but underfunded facilities and long waits.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Private insurance required; quality varies widely.",
+      "alignmentText": "Universal coverage struggles with staffing shortages and outdated equipment outside flagship hospitals.",
       "alignmentValue": 3
     },
     {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Expats rely on private clinics for quality care and often plan for evacuation insurance.",
+      "alignmentValue": 2
+    },
+    {
       "key": "Child Care Support",
-      "alignmentText": "Early education shortages and limited subsidies challenge working parents.",
+      "alignmentText": "Public kindergartens exist but have waitlists, especially in major cities.",
       "alignmentValue": 3
     },
     {
@@ -423,38 +424,38 @@
     },
     {
       "key": "Education",
-      "alignmentText": "Strong math and science tradition but curriculum leans patriotic.",
-      "alignmentValue": 5
+      "alignmentText": "STEM instruction is strong, yet civic curriculum emphasizes state narratives that conflict with progressive values.",
+      "alignmentValue": 4
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "Extensive metros and railways enable car-free life in major cities.",
-      "alignmentValue": 7
+      "alignmentText": "Moscow and Saint Petersburg boast efficient metros, though regional coverage is patchier.",
+      "alignmentValue": 6
     },
     {
       "key": "Economic System",
-      "alignmentText": "Mixed economy with heavy state intervention and sanctions distortions.",
+      "alignmentText": "State-owned giants and sanctions limit competition and access to Western markets.",
       "alignmentValue": 3
     },
     {
       "key": "How Taxes Are Handled",
-      "alignmentText": "Flat 13% income tax simplifies filing though reporting for foreigners can be complex.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "With resident status, income tax around 13% plus social contributions.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Banking & Payments",
-      "alignmentText": "Modern digital payments exist but sanctions limit international cards and transfers.",
+      "alignmentText": "Flat income tax keeps filing simple, but currency controls and reporting rules complicate expat finances.",
       "alignmentValue": 4
     },
     {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Residents pay 13–15% income tax, yet double-tax treaties and sanctions make compliance tricky.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentText": "Domestic cards and QR payments work, but international transfers and cards remain heavily restricted.",
+      "alignmentValue": 3
+    },
+    {
       "key": "Cost of Living (Optional)",
-      "alignmentText": "Everyday expenses are lower than in the US, though imported goods cost more.",
-      "alignmentValue": 6
+      "alignmentText": "Groceries and transit stay affordable, while imported goods and tuition have spiked.",
+      "alignmentValue": 5
     },
     {
       "key": "Retirement (Citizens)",
@@ -468,8 +469,8 @@
     },
     {
       "key": "Visa Paths",
-      "alignmentText": "Work and temporary residence visas require employer sponsorship and quotas.",
-      "alignmentValue": 2
+      "alignmentText": "Investor and work visas exist on paper, yet approvals for US applicants are exceedingly rare.",
+      "alignmentValue": 1
     },
     {
       "key": "Welcoming of US Migrants",
@@ -478,18 +479,18 @@
     },
     {
       "key": "Residency Types & Durations",
-      "alignmentText": "Temporary residency precedes permanent status after several years.",
-      "alignmentValue": 3
+      "alignmentText": "Temporary residence requires employer or family sponsorship and strict annual reporting.",
+      "alignmentValue": 2
     },
     {
       "key": "Path to Citizenship",
-      "alignmentText": "Requires language exam and five years' residency; exceptions are rare.",
-      "alignmentValue": 3
+      "alignmentText": "Naturalization generally demands five years, Russian fluency, and loyalty oaths, with security vetting.",
+      "alignmentValue": 2
     },
     {
       "key": "Family Members",
-      "alignmentText": "Spousal and child visas allowed but paperwork is lengthy and intrusive.",
-      "alignmentValue": 3
+      "alignmentText": "Dependents can join but face registration, schooling, and healthcare hurdles.",
+      "alignmentValue": 2
     },
     {
       "key": "Timelines & Costs",
@@ -498,8 +499,8 @@
     },
     {
       "key": "Compliance & Risks",
-      "alignmentText": "Strict registration laws and political risks make noncompliance costly.",
-      "alignmentValue": 2
+      "alignmentText": "Registration lapses, political speech, or visa technicalities can trigger fines or deportation.",
+      "alignmentValue": 1
     },
     {
       "key": "Dual Citizenship Allowed",
@@ -508,33 +509,33 @@
     },
     {
       "key": "General Considerations for Visa Holders",
-      "alignmentText": "Movement between regions can require permits and some jobs restrict foreign workers.",
+      "alignmentText": "Expect travel restrictions, data monitoring, and difficulties accessing Western platforms for work.",
       "alignmentValue": 2
     },
     {
       "key": "Game Dev Work Prospects",
-      "alignmentText": "Studios exist but many professionals have left, shrinking opportunities.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Notable Game Studios",
-      "alignmentText": "Gaijin Entertainment and Saber Interactive maintain offices despite relocations.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "Small meetups and online forums continue but are subdued by emigration.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Access to funding is limited and international publishing hampered by sanctions.",
+      "alignmentText": "Studios operate, but sanctions limit publishing and many peers have relocated.",
       "alignmentValue": 2
     },
     {
+      "key": "Notable Game Studios",
+      "alignmentText": "Teams like Gaijin and Saber keep Russian branches, though leadership often sits abroad.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Meetups persist but are smaller due to emigration and censorship concerns.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Access to capital and global distribution is severely limited under sanctions.",
+      "alignmentValue": 1
+    },
+    {
       "key": "Modernity & Infrastructure",
-      "alignmentText": "Urban centers boast fast internet and e-payments while rural areas lag considerably.",
-      "alignmentValue": 5
+      "alignmentText": "Urban infrastructure remains modern, yet import bans create maintenance challenges and rural gaps.",
+      "alignmentValue": 4
     }
   ]
 }

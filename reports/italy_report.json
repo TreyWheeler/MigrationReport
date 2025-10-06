@@ -1,30 +1,31 @@
 {
+  "version": 2,
   "iso": "IT",
   "values": [
     {
       "key": "Environment",
-      "alignmentText": "Varied landscapes from alpine valleys to Mediterranean coasts give options for mild microclimates, though industrial northern plains feel less pristine.",
-      "alignmentValue": 6
+      "alignmentText": "Regional parks and Mediterranean coasts offer quick escapes, though the Po Valley’s smog keeps it shy of a top score.",
+      "alignmentValue": 7
     },
     {
       "key": "Global Warming Risk",
-      "alignmentText": "Mediterranean heatwaves, Alpine glacier melt, and rising Adriatic flood risk require adaptation planning for a climate-sensitive family.",
-      "alignmentValue": 4
+      "alignmentText": "Hotter summers, drought-prone agriculture, and Venice lagoon flooding require active adaptation for a climate-cautious family.",
+      "alignmentValue": 3
     },
     {
       "key": "Seasonal Weather",
-      "alignmentText": "Central Italy delivers spring and fall shoulder seasons but summers can swing hot and humid, especially in the Po Valley.",
-      "alignmentValue": 6
+      "alignmentText": "Spring and fall are pleasant, but humid 35°C (95°F) summer spikes and damp northern winters demand careful city selection.",
+      "alignmentValue": 5
     },
     {
       "key": "Air Quality",
-      "alignmentText": "Cities like Milan and Turin see PM2.5 spikes in winter inversions, so cleaner air would mean targeting coastal or hill towns.",
-      "alignmentValue": 4
+      "alignmentText": "Alpine breezes help smaller towns, yet Milan and Turin frequently breach EU particulate limits.",
+      "alignmentValue": 5
     },
     {
       "key": "Natural Disasters",
-      "alignmentText": "Earthquakes along the Apennines plus occasional flooding and volcanic risk near Naples demand location-specific mitigation.",
-      "alignmentValue": 3
+      "alignmentText": "Earthquakes, floods, and volcanic zones mean we’d need to vet housing and insurance closely.",
+      "alignmentValue": 4
     },
     {
       "key": "Spring Temperature Range (C/F)",
@@ -33,7 +34,7 @@
     },
     {
       "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Many regions hit 20–32°C (68–90°F) and humidity builds in July–August, making shade and siesta culture important.",
+      "alignmentText": "Coastal cities hold around 28–32°C (82–90°F), but inland heatwaves can feel oppressive for Sarah.",
       "alignmentValue": 5
     },
     {
@@ -43,8 +44,8 @@
     },
     {
       "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "Coastal cities hover 3–12°C (37–54°F) with damp chill, while the north can drop below freezing and see snow.",
-      "alignmentValue": 6
+      "alignmentText": "Winters in central Italy hover 4–10°C (39–50°F) with damp chill rather than deep freezes.",
+      "alignmentValue": 5
     },
     {
       "key": "Beach Life",
@@ -63,72 +64,72 @@
     },
     {
       "key": "Minimum Wage",
-      "alignmentText": "No national minimum wage; sectoral contracts set pay and can lag behind living costs, challenging for newcomers.",
+      "alignmentText": "No national minimum wage exists; sectoral contracts often lag the cost of family life in major metros.",
       "alignmentValue": 4
     },
     {
       "key": "Typical Software Salaries",
-      "alignmentText": "Mid-level devs often earn €35–45k in Milan/Rome—lower than Northern Europe, so remote USD income would stretch further.",
+      "alignmentText": "Senior developers earn roughly €40–55k, so Trey would likely lean on remote US clients.",
       "alignmentValue": 4
     },
     {
       "key": ".NET Work Prospects",
-      "alignmentText": "Banking, telecom, and public-sector vendors rely on .NET, but roles concentrate in Milan/Rome and expect Italian fluency.",
+      "alignmentText": "Finance and consulting hubs in Milan and Rome hire .NET talent, but roles skew on-site.",
       "alignmentValue": 5
     },
     {
       "key": "Ruby Work Prospects",
-      "alignmentText": "Ruby scenes exist in fintech and agencies yet remain niche; many teams pivot to JavaScript or Java stacks.",
+      "alignmentText": "Ruby shops cluster in Turin and remote consultancies, yet openings remain sporadic.",
       "alignmentValue": 4
     },
     {
       "key": "Employer Visa Sponsorship",
-      "alignmentText": "Quota-driven work permits and paperwork-heavy employers make sponsorship inconsistent unless joining multinationals.",
-      "alignmentValue": 3
+      "alignmentText": "Larger firms sponsor EU Blue Cards, but paperwork and quotas make timelines unpredictable.",
+      "alignmentValue": 5
     },
     {
       "key": "Economic Health",
-      "alignmentText": "Italy’s GDP growth is modest with high debt, yet unemployment is trending down and inflation stabilized within EU norms.",
+      "alignmentText": "Growth is modest with high public debt, though Northern industry still offers stability.",
       "alignmentValue": 5
     },
     {
       "key": "Remote-Friendly Culture",
-      "alignmentText": "Post-pandemic hybrid policies exist in tech hubs, but many firms still expect office presence and Italian working hours.",
+      "alignmentText": "Hybrid work is more accepted post-pandemic, yet many employers expect regular office days.",
       "alignmentValue": 5
     },
     {
       "key": "Work-Life Balance",
-      "alignmentText": "Long lunches, protected vacation time, and strong labor rules reinforce boundaries Sarah would appreciate.",
+      "alignmentText": "Even demanding teams respect evening family time, and extended lunch breaks ease daily pacing.",
       "alignmentValue": 7
     },
     {
       "key": "Work Week Hours",
-      "alignmentText": "Contracts mandate ~40 hours, but some offices expect extra availability despite union protections.",
+      "alignmentText": "The legal 40-hour week is standard, with occasional overtime during product pushes.",
       "alignmentValue": 6
     },
     {
       "key": "Vacation Days (Minimum)",
-      "alignmentText": "Statutory leave is at least four weeks plus ~11 public holidays, giving ample family recharge time.",
+      "alignmentText": "Employees receive at least four weeks plus 10–12 public holidays, supporting long US visits.",
       "alignmentValue": 8
     },
     {
       "key": "Vacation Days (Typical)",
-      "alignmentText": "Most staff take extended August breaks and bridge holidays, though startups may temper that flexibility.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pace of Life",
-      "alignmentText": "Outside Milan, daily rhythms favor slower meals and evening passeggiata, matching their desire for a calmer vibe.",
+      "alignmentText": "Many tech companies close in August, but newer startups sometimes trade leave for fast growth.",
       "alignmentValue": 7
     },
     {
+      "key": "Pace of Life",
+      "alignmentText": "Urban cores feel busy, yet medium cities like Bologna deliver a calmer rhythm.",
+      "alignmentValue": 6
+    },
+    {
       "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Schools often end by early afternoon, so parents juggle midday pickups unless after-school programs are secured.",
+      "alignmentText": "School runs 8:30–16:00 with a midday meal; parents navigate lunch breaks and occasional after-school gaps.",
       "alignmentValue": 6
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Weekends revolve around markets, parks, and Sunday closures, encouraging family time but requiring planning for errands.",
+      "alignmentText": "Weekends revolve around markets, park strolls, and day trips by train when weather cooperates.",
       "alignmentValue": 7
     },
     {
@@ -238,12 +239,12 @@
     },
     {
       "key": "Language & English Ubiquity",
-      "alignmentText": "English proficiency is moderate in tourist centers but scarce with officials, making Italian study essential.",
-      "alignmentValue": 3
+      "alignmentText": "Tourism corridors speak English, but local bureaucracy expects Italian proficiency.",
+      "alignmentValue": 4
     },
     {
       "key": "Progressivism",
-      "alignmentText": "Urban voters back progressive coalitions, yet national politics swings centrist-to-conservative with Catholic influence.",
+      "alignmentText": "Cities vote center-left, yet national politics swing conservative on migration and family policy.",
       "alignmentValue": 5
     },
     {
@@ -263,7 +264,7 @@
     },
     {
       "key": "LGBTQ+ Attitudes",
-      "alignmentText": "Civil unions are legal and Pride events thrive in Milan/Rome, yet legal gaps on adoption and surrogacy remain.",
+      "alignmentText": "Civil unions exist and big cities host Pride events, but adoption rights and rural acceptance lag.",
       "alignmentValue": 5
     },
     {
@@ -328,8 +329,8 @@
     },
     {
       "key": "Political System",
-      "alignmentText": "Parliamentary democracy with proportional representation encourages pluralism but creates complex coalitions.",
-      "alignmentValue": 6
+      "alignmentText": "Parliamentary institutions are democratic though governments change frequently.",
+      "alignmentValue": 7
     },
     {
       "key": "Religion in Politics",
@@ -348,7 +349,7 @@
     },
     {
       "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Populist rhetoric surfaces, but institutions, EU oversight, and active civil society keep checks in place.",
+      "alignmentText": "Independent courts and media persist, yet far-right coalitions test civil society vigilance.",
       "alignmentValue": 6
     },
     {
@@ -373,47 +374,47 @@
     },
     {
       "key": "Social Policies",
-      "alignmentText": "Welfare reforms target families and low-income workers, though benefits lag behind Northern Europe.",
+      "alignmentText": "Universal healthcare and family allowances exist, but childcare and housing aid vary by region.",
       "alignmentValue": 6
     },
     {
       "key": "Trust in Government",
-      "alignmentText": "Surveys show low institutional trust, reflecting frustration with bureaucracy and political churn.",
+      "alignmentText": "Citizens often view institutions as inefficient, fueling reliance on personal networks.",
       "alignmentValue": 4
     },
     {
       "key": "Perceived Corruption",
-      "alignmentText": "Transparency International scores highlight persistent corruption risks, especially in procurement.",
-      "alignmentValue": 3
+      "alignmentText": "Transparency International ranks Italy mid-pack, with concerns about procurement and patronage.",
+      "alignmentValue": 4
     },
     {
       "key": "Type of Corruption",
-      "alignmentText": "Clientelism and organized crime-linked patronage shape certain regions, demanding diligence from newcomers.",
-      "alignmentValue": 3
+      "alignmentText": "Influence peddling and regional favoritism dominate rather than overt bribery.",
+      "alignmentValue": 4
     },
     {
       "key": "Housing Situation",
-      "alignmentText": "Homeownership is high but rentals in Florence/Milan are tight; smaller towns offer better value.",
+      "alignmentText": "Buying is pricey in Milan and Rome, but rentals in secondary cities remain attainable.",
       "alignmentValue": 5
     },
     {
       "key": "Safety & Crime",
-      "alignmentText": "Violent crime is low; petty theft in tourist zones is the main concern to manage.",
-      "alignmentValue": 7
+      "alignmentText": "Violent crime stays low, while petty theft requires vigilance in tourist hubs.",
+      "alignmentValue": 6
     },
     {
       "key": "Healthcare (Citizens)",
-      "alignmentText": "The Servizio Sanitario Nazionale delivers universal care with strong preventive services and modest co-pays.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Non-EU residents can enroll once holding a permesso, but the registration process requires patience.",
+      "alignmentText": "The Servizio Sanitario Nazionale provides comprehensive care with respected specialists in major cities.",
       "alignmentValue": 7
     },
     {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Residents can enroll in the national system, yet enrollment paperwork and waitlists take time.",
+      "alignmentValue": 6
+    },
+    {
       "key": "Child Care Support",
-      "alignmentText": "Means-tested vouchers and expanding nursery slots exist, yet availability varies widely by municipality.",
+      "alignmentText": "Municipal nurseries offer subsidies, but slots are limited and schedules can be half-day.",
       "alignmentValue": 5
     },
     {
@@ -423,37 +424,37 @@
     },
     {
       "key": "Education",
-      "alignmentText": "Academic rigor is strong but teaching methods skew traditional, so project-based learners may need extracurriculars.",
+      "alignmentText": "Public schools provide solid academics, though families often supplement English and STEM enrichment.",
       "alignmentValue": 6
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "High-speed rail and metro networks in Rome/Milan make car-free living feasible, though southern service is patchier.",
-      "alignmentValue": 7
+      "alignmentText": "High-speed rail links major cities, yet local buses and metros suffer from occasional strikes.",
+      "alignmentValue": 6
     },
     {
       "key": "Economic System",
-      "alignmentText": "EU single-market access and diversified SMEs create stability despite bureaucracy.",
+      "alignmentText": "A regulated market economy balances strong manufacturing with state oversight and bureaucracy.",
       "alignmentValue": 6
     },
     {
       "key": "How Taxes Are Handled",
-      "alignmentText": "High payroll taxes and complex filings require a commercialista, adding overhead for freelancers.",
-      "alignmentValue": 4
+      "alignmentText": "Italy offers online filing, but deductions and regional surtaxes make professional help wise.",
+      "alignmentValue": 5
     },
     {
       "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "Combined income taxes and social contributions can approach 35–40% for middle-class households.",
-      "alignmentValue": 4
+      "alignmentText": "Combined income near €120k faces 35–43% brackets plus municipal surcharges.",
+      "alignmentValue": 5
     },
     {
       "key": "Banking & Payments",
-      "alignmentText": "SEPA instant transfers, widespread contactless payments, and modern fintech apps support daily life.",
-      "alignmentValue": 7
+      "alignmentText": "Digital banking is improving, though some landlords still prefer traditional bank transfers.",
+      "alignmentValue": 6
     },
     {
       "key": "Cost of Living (Optional)",
-      "alignmentText": "Housing and groceries cost less than coastal US cities, but Milan tech hubs feel pricier than Iberia.",
+      "alignmentText": "Groceries and childcare run cheaper than US coasts, but Milan housing narrows the gap.",
       "alignmentValue": 6
     },
     {
@@ -468,38 +469,38 @@
     },
     {
       "key": "Visa Paths",
-      "alignmentText": "Elective residency suits retirees, while startup and digital nomad visas demand high income proofs and patience.",
+      "alignmentText": "Elective residence visas require high passive income, while the new digital nomad visa demands employer documentation.",
       "alignmentValue": 4
     },
     {
       "key": "Welcoming of US Migrants",
-      "alignmentText": "Locals are friendly to Americans, yet limited English and bureaucratic offices can feel unwelcoming initially.",
+      "alignmentText": "Large expat enclaves exist, yet integration still hinges on speaking Italian and respecting local rhythm.",
       "alignmentValue": 5
     },
     {
       "key": "Residency Types & Durations",
-      "alignmentText": "Permessi di soggiorno start at 1–2 years with renewals before a 5-year long-term permit.",
+      "alignmentText": "Most permits renew annually at first, with long-term EU residence available after five years.",
       "alignmentValue": 5
     },
     {
       "key": "Path to Citizenship",
-      "alignmentText": "Naturalization requires 10 years’ legal residency plus language certification and can take years to process.",
+      "alignmentText": "Naturalization requires 10 years of residence and language certification.",
       "alignmentValue": 4
     },
     {
       "key": "Family Members",
-      "alignmentText": "Family reunification is allowed and dependents can share residency status once documentation is approved.",
+      "alignmentText": "Dependents can join once the main applicant meets income and housing requirements.",
       "alignmentValue": 6
     },
     {
       "key": "Timelines & Costs",
-      "alignmentText": "Permesso renewals can take months, with revenue stamps, translations, and postal kits adding recurring costs.",
+      "alignmentText": "Permesso di soggiorno processing can stretch 3–6 months with multiple in-person appointments.",
       "alignmentValue": 4
     },
     {
       "key": "Compliance & Risks",
-      "alignmentText": "Strict address registration, annual income proofs, and regional rule variations create tripwires for overstays.",
-      "alignmentValue": 4
+      "alignmentText": "Falling below income thresholds or missing annual renewals risks lapses in status.",
+      "alignmentValue": 5
     },
     {
       "key": "Dual Citizenship Allowed",
@@ -508,33 +509,33 @@
     },
     {
       "key": "General Considerations for Visa Holders",
-      "alignmentText": "Expect in-person appointments, Italian-only portals, and the need for local helpers to navigate paperwork.",
-      "alignmentValue": 4
+      "alignmentText": "Translations, health insurance proof, and periodic in-person check-ins are routine requirements.",
+      "alignmentValue": 5
     },
     {
       "key": "Game Dev Work Prospects",
-      "alignmentText": "Industry is growing with studios in Milan and Rome, but total headcount remains limited compared to UK/France.",
+      "alignmentText": "Studios like Milestone and Ubisoft Milan offer roles, but the ecosystem is smaller than Northern Europe.",
       "alignmentValue": 5
     },
     {
       "key": "Notable Game Studios",
-      "alignmentText": "Milestone, Ubisoft Milan, 505 Games, and Nacon Italy offer recognizable AAA or AA opportunities.",
-      "alignmentValue": 6
+      "alignmentText": "Key players include Milestone, 34BigThings, and Storm in a Teacup clustered around Milan and Turin.",
+      "alignmentValue": 5
     },
     {
       "key": "Notable Game Development Communities",
-      "alignmentText": "Events like Milan Games Week, First Playable in Florence, and indie meetups provide networking albeit infrequently.",
+      "alignmentText": "Meetups such as Codemotion and Italian Game Developer Summit provide networking and mentorship.",
       "alignmentValue": 6
     },
     {
       "key": "Opportunities for Video Game Startup",
-      "alignmentText": "EU Creative Europe grants and local incubators exist, yet bureaucracy and small domestic market require export focus.",
-      "alignmentValue": 5
+      "alignmentText": "Public grants exist but bureaucracy, limited venture capital, and high payroll taxes slow new studios.",
+      "alignmentValue": 4
     },
     {
       "key": "Modernity & Infrastructure",
-      "alignmentText": "Fiber broadband covers major cities and high-speed rail links north-south, while some southern infrastructure still lags.",
-      "alignmentValue": 6
+      "alignmentText": "Fiber broadband reaches most cities, high-speed trains connect regions, and utilities are reliable outside occasional strikes.",
+      "alignmentValue": 7
     }
   ]
 }
