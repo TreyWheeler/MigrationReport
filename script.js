@@ -1,5 +1,43 @@
 const appState = { countries: [], selected: [], nodesByFile: new Map(), showCitiesOnly: false, expandedState: {} };
 
+function renderEmptyReportState() {
+  const reportDiv = document.getElementById('report');
+  if (!reportDiv) return;
+  reportDiv.innerHTML = '';
+  const wrap = document.createElement('div');
+  wrap.className = 'empty-state';
+
+  const iconWrap = document.createElement('div');
+  iconWrap.className = 'empty-state__icon';
+  iconWrap.innerHTML = `
+    <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="12" y="10" width="40" height="50" rx="6" ry="6"></rect>
+        <path d="M24 8h16l2 6H22l2-6z"></path>
+        <line x1="20" y1="26" x2="44" y2="26"></line>
+        <line x1="20" y1="36" x2="44" y2="36"></line>
+        <line x1="20" y1="46" x2="36" y2="46"></line>
+      </g>
+    </svg>
+  `;
+  wrap.appendChild(iconWrap);
+
+  const heading = document.createElement('h2');
+  heading.textContent = 'Nothing selected yet';
+  wrap.appendChild(heading);
+
+  const message = document.createElement('p');
+  message.textContent = 'Select up to four countries or cities from the list to build a migration comparison report.';
+  wrap.appendChild(message);
+
+  const hint = document.createElement('p');
+  hint.className = 'empty-state__hint';
+  hint.textContent = 'Tip: tap a location again to remove it and make space for another.';
+  wrap.appendChild(hint);
+
+  reportDiv.appendChild(wrap);
+}
+
 function saveSelectedToStorage() {
   try {
     const files = appState.selected.map(s => s.file);
@@ -347,7 +385,12 @@ async function fetchCountry(file) {
 
 function onSelectionChanged(mainData, notice) {
   const selected = appState.selected;
-  if (!selected || selected.length === 0) return;
+  if (!selected || selected.length === 0) {
+    const legendMount = document.getElementById('legendMount');
+    if (legendMount) legendMount.innerHTML = '';
+    renderEmptyReportState();
+    return;
+  }
   // Preserve current table scroll if present
   const reportDiv = document.getElementById('report');
   const oldWrap = reportDiv ? reportDiv.querySelector('.table-wrap') : null;
