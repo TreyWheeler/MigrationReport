@@ -634,7 +634,21 @@
     },
     {
       "name": "Netherlands",
-      "file": "reports/netherlands_report.json"
+      "file": "reports/netherlands_report.json",
+      "cities": [
+        {
+          "name": "Amsterdam",
+          "file": "reports/netherlands_amsterdam_report.json"
+        },
+        {
+          "name": "Utrecht",
+          "file": "reports/netherlands_utrecht_report.json"
+        },
+        {
+          "name": "Eindhoven",
+          "file": "reports/netherlands_eindhoven_report.json"
+        }
+      ]
     },
     {
       "name": "Ecuador",
