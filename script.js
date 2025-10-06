@@ -20,6 +20,18 @@ function loadSelectedFromStorage(nodesMap) {
   return result;
 }
 
+function updateCollapseCountriesButton(hasExpandable) {
+  const collapseBtn = document.getElementById('collapseCountriesBtn');
+  if (!collapseBtn) return;
+  let canExpand = hasExpandable;
+  if (typeof canExpand !== 'boolean') {
+    canExpand = Array.isArray(appState.countries) && appState.countries.some(country => Array.isArray(country.cities) && country.cities.length > 0);
+  }
+  const hideCollapse = !!appState.showCitiesOnly;
+  collapseBtn.hidden = hideCollapse;
+  collapseBtn.disabled = hideCollapse || !canExpand;
+}
+
 async function loadMain() {
   const response = await fetch('main.json');
   const mainData = await response.json();
@@ -38,9 +50,9 @@ async function loadMain() {
     citiesOnlyToggle.checked = appState.showCitiesOnly;
   }
   if (collapseCountriesBtn) {
-    collapseCountriesBtn.hidden = !!appState.showCitiesOnly;
     collapseCountriesBtn.addEventListener('click', () => collapseAllCountries());
   }
+  updateCollapseCountriesButton();
 
   const countries = Array.isArray(mainData.Countries) ? mainData.Countries.map(c => {
     const country = { name: c.name, file: c.file, iso: '', type: 'country', expanded: false, cities: [] };
@@ -186,9 +198,11 @@ function setupCitiesOnlyToggle(mainData, listEl, notice) {
   const toggle = document.getElementById('citiesOnlyToggle');
   if (!toggle) return;
   toggle.checked = !!appState.showCitiesOnly;
+  updateCollapseCountriesButton();
   toggle.addEventListener('change', () => {
     appState.showCitiesOnly = toggle.checked;
     setStored('showCitiesOnly', appState.showCitiesOnly);
+    updateCollapseCountriesButton();
     renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
     updateCountryListSelection(listEl);
   });
@@ -442,12 +456,8 @@ function collapseAllCountries() {
 
 function renderCountryList(listEl, countries, notice, onChange) {
   if (!listEl) return;
-  const collapseBtn = document.getElementById('collapseCountriesBtn');
   const hasExpandable = Array.isArray(countries) && countries.some(country => Array.isArray(country.cities) && country.cities.length > 0);
-  if (collapseBtn) {
-    collapseBtn.hidden = !!appState.showCitiesOnly;
-    collapseBtn.disabled = !hasExpandable;
-  }
+  updateCollapseCountriesButton(hasExpandable);
   const mode = getCurrentSortMode();
   listEl.innerHTML = '';
   listEl.classList.toggle('cities-only', !!appState.showCitiesOnly);
