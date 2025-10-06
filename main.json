@@ -676,7 +676,33 @@
     },
     {
       "name": "United Kingdom",
-      "file": "reports/united_kingdom_report.json"
+      "file": "reports/united_kingdom_report.json",
+      "cities": [
+        {
+          "name": "Brighton & Hove",
+          "file": "reports/united_kingdom_brighton_and_hove_report.json"
+        },
+        {
+          "name": "Bristol",
+          "file": "reports/united_kingdom_bristol_report.json"
+        },
+        {
+          "name": "Edinburgh",
+          "file": "reports/united_kingdom_edinburgh_report.json"
+        },
+        {
+          "name": "Manchester",
+          "file": "reports/united_kingdom_manchester_report.json"
+        },
+        {
+          "name": "Richmond",
+          "file": "reports/united_kingdom_richmond_report.json"
+        },
+        {
+          "name": "Walthamstow",
+          "file": "reports/united_kingdom_walthamstow_report.json"
+        }
+      ]
     },
     {
       "name": "Belgium",
