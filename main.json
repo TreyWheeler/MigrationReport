@@ -724,7 +724,21 @@
     },
     {
       "name": "Sweden",
-      "file": "reports/sweden_report.json"
+      "file": "reports/sweden_report.json",
+      "cities": [
+        {
+          "name": "Stockholm",
+          "file": "reports/sweden_stockholm_report.json"
+        },
+        {
+          "name": "Malmö",
+          "file": "reports/sweden_malmo_report.json"
+        },
+        {
+          "name": "Gothenburg",
+          "file": "reports/sweden_gothenburg_report.json"
+        }
+      ]
     },
     {
       "name": "Denmark",
