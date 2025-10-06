@@ -514,7 +514,21 @@
     },
     {
       "name": "United States",
-      "file": "reports/united_states_report.json"
+      "file": "reports/united_states_report.json",
+      "cities": [
+        {
+          "name": "Olathe",
+          "file": "reports/united_states_olathe_report.json"
+        },
+        {
+          "name": "Burbank",
+          "file": "reports/united_states_burbank_report.json"
+        },
+        {
+          "name": "Austin",
+          "file": "reports/united_states_austin_report.json"
+        }
+      ]
     },
     {
       "name": "France",
