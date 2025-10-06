@@ -1,14 +1,15 @@
 {
+  "version": 2,
   "iso": "CU",
   "values": [
     {
       "key": "Environment",
-      "alignmentText": "Rich biodiversity and preserved natural areas; urban infrastructure can be aged.",
+      "alignmentText": "UNESCO biosphere reserves and reefs are pristine, but aging city infrastructure and fuel shortages create periodic pollution spikes in Havana.",
       "alignmentValue": 6
     },
     {
       "key": "Global Warming Risk",
-      "alignmentText": "Caribbean location faces sea-level rise and stronger hurricanes.",
+      "alignmentText": "Sea-level rise, stronger hurricanes, and saltwater intrusion threaten coastal housing and agriculture, demanding resilient construction and evacuation plans.",
       "alignmentValue": 3
     },
     {
@@ -18,8 +19,8 @@
     },
     {
       "key": "Air Quality",
-      "alignmentText": "Generally decent outside traffic corridors; limited heavy industry.",
-      "alignmentValue": 6
+      "alignmentText": "Outside Havana the air is clean, but aging diesel buses and classic cars can leave city corridors hazy, so indoor air filters help sensitive family members.",
+      "alignmentValue": 5
     },
     {
       "key": "Natural Disasters",
@@ -93,28 +94,28 @@
     },
     {
       "key": "Remote-Friendly Culture",
-      "alignmentText": "Internet access improving but inconsistent; power and connectivity reliability vary.",
-      "alignmentValue": 3
+      "alignmentText": "Wi-Fi hotspots require prepaid cards, home broadband rarely exceeds 10–20 Mbps, and power cuts still interrupt remote meetings.",
+      "alignmentValue": 2
     },
     {
       "key": "Work-Life Balance",
-      "alignmentText": "Cultural emphasis on family and community, but practical constraints can add stress.",
-      "alignmentValue": 5
+      "alignmentText": "Neighbors prioritize family gatherings and music, yet ration lines and power outages consume hours that would otherwise be downtime.",
+      "alignmentValue": 4
     },
     {
       "key": "Work Week Hours",
       "alignmentText": "",
-      "alignmentValue": -1
+      "alignmentValue": 0
     },
     {
       "key": "Vacation Days (Minimum)",
       "alignmentText": "",
-      "alignmentValue": -1
+      "alignmentValue": 0
     },
     {
       "key": "Vacation Days (Typical)",
       "alignmentText": "",
-      "alignmentValue": -1
+      "alignmentValue": 0
     },
     {
       "key": "Pace of Life",
@@ -124,12 +125,12 @@
     {
       "key": "Typical Workday Schedule (Family of Four)",
       "alignmentText": "",
-      "alignmentValue": -1
+      "alignmentValue": 0
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
       "alignmentText": "",
-      "alignmentValue": -1
+      "alignmentValue": 0
     },
     {
       "key": "Family Life",
@@ -153,8 +154,8 @@
     },
     {
       "key": "Schooling Options",
-      "alignmentText": "Public system is the default; international/private options are limited.",
-      "alignmentValue": 3
+      "alignmentText": "Outside a handful of Havana schools tied to foreign embassies, international curricula are scarce, so homeschooling or online programs would fill gaps.",
+      "alignmentValue": 2
     },
     {
       "key": "Pre-K / Early Childcare Landscape",
@@ -163,27 +164,27 @@
     },
     {
       "key": "Childcare Support (Citizens)",
-      "alignmentText": "State services exist but resources can be constrained.",
+      "alignmentText": "Citizens can enroll children in círculos infantiles and receive subsidized meals, but staffing and supplies fluctuate.",
       "alignmentValue": 4
     },
     {
       "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "Access unclear for non-residents; limited information.",
+      "alignmentText": "Foreign families rarely secure subsidized slots without residency; most hire private caregivers informally.",
       "alignmentValue": 2
     },
     {
       "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "Universal access with strong emphasis on literacy and STEM.",
-      "alignmentValue": 7
+      "alignmentText": "Enrollment is universal with high literacy, yet classroom materials and technology lag due to shortages.",
+      "alignmentValue": 6
     },
     {
       "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "Eligibility and language support for foreigners unclear.",
+      "alignmentText": "Foreign children may attend public schools but instruction is entirely in Spanish and supplies can be scarce, so most expats seek private tutors.",
       "alignmentValue": 2
     },
     {
       "key": "Private Education",
-      "alignmentText": "Few private/international schools; admission options limited.",
+      "alignmentText": "Only a small set of embassy-linked schools operate in Havana with high fees payable in foreign currency and long waitlists.",
       "alignmentValue": 2
     },
     {
@@ -238,12 +239,12 @@
     },
     {
       "key": "Language & English Ubiquity",
-      "alignmentText": "Spanish is essential; English less common outside tourism hubs.",
+      "alignmentText": "Spanish dominates government offices and schools; beyond resort zones we would rely on fluent Spanish to manage bureaucracy.",
       "alignmentValue": 3
     },
     {
       "key": "Progressivism",
-      "alignmentText": "Some social services are universal, but civil liberties and pluralism are limited.",
+      "alignmentText": "Universal healthcare and education coexist with restrictions on speech and association, leaving progressive reforms tightly state-managed.",
       "alignmentValue": 3
     },
     {
@@ -263,7 +264,7 @@
     },
     {
       "key": "LGBTQ+ Attitudes",
-      "alignmentText": "Legal changes have advanced in recent years; lived acceptance varies.",
+      "alignmentText": "Marriage equality passed in 2022 and Havana hosts Pride events, yet outside urban centers queer families still face gossip and limited legal enforcement.",
       "alignmentValue": 5
     },
     {
@@ -403,17 +404,17 @@
     },
     {
       "key": "Healthcare (Citizens)",
-      "alignmentText": "Universal coverage; outcomes constrained by shortages and infrastructure.",
-      "alignmentValue": 6
+      "alignmentText": "Preventive care and doctor density are high, yet medicine and equipment shortages require rationing or trips abroad for complex treatment.",
+      "alignmentValue": 5
     },
     {
       "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Tourists access clinics; long-term foreigner pathways unclear.",
+      "alignmentText": "Foreigners rely on international clinics priced in hard currency, and evacuations are common for serious care.",
       "alignmentValue": 3
     },
     {
       "key": "Child Care Support",
-      "alignmentText": "Formal childcare exists but capacity and consistency vary.",
+      "alignmentText": "State-run daycares operate with low fees yet limited slots and occasional closures tied to shortages, so parents lean on relatives.",
       "alignmentValue": 4
     },
     {
@@ -428,7 +429,7 @@
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "Buses and shared taxis operate; reliability and comfort vary.",
+      "alignmentText": "Havana’s buses and colectivos are inexpensive but irregular, so planning family outings requires patience and backup rides.",
       "alignmentValue": 4
     },
     {
@@ -444,17 +445,17 @@
     {
       "key": "Expected Tax Rate (Our Family)",
       "alignmentText": "",
-      "alignmentValue": -1
+      "alignmentValue": 0
     },
     {
       "key": "Banking & Payments",
-      "alignmentText": "Sanctions and banking restrictions complicate accounts and payments for US persons.",
-      "alignmentValue": 2
+      "alignmentText": "US cards do not work; most transactions require cash or MLC cards loaded via third-country accounts.",
+      "alignmentValue": 1
     },
     {
       "key": "Cost of Living (Optional)",
-      "alignmentText": "Local prices can be low; imported goods and tourist sectors are costly.",
-      "alignmentValue": 4
+      "alignmentText": "Staples are cheap when available, yet imported groceries, internet access, and generator fuel priced in MLC quickly consume remote income.",
+      "alignmentValue": 3
     },
     {
       "key": "Retirement (Citizens)",
@@ -464,22 +465,22 @@
     {
       "key": "Retirement (Visa Holders)",
       "alignmentText": "",
-      "alignmentValue": -1
+      "alignmentValue": 0
     },
     {
       "key": "Visa Paths",
-      "alignmentText": "Residence/work authorization for US citizens is highly constrained.",
+      "alignmentText": "Work and residence visas are tightly limited; US citizens typically only qualify for short cultural or humanitarian stays, not long-term relocation.",
       "alignmentValue": 1
     },
     {
       "key": "Welcoming of US Migrants",
-      "alignmentText": "Cultural warmth toward visitors, but policy and sanctions limit settlement.",
-      "alignmentValue": 2
+      "alignmentText": "Cubans are hospitable, yet US sanctions and state scrutiny make long-term settlement impractical for American families.",
+      "alignmentValue": 1
     },
     {
       "key": "Residency Types & Durations",
-      "alignmentText": "Foreign residency options are narrow and tightly regulated.",
-      "alignmentValue": 2
+      "alignmentText": "Temporary residence permits renew yearly and require Cuban family ties or state contracts; independent paths are essentially absent.",
+      "alignmentValue": 1
     },
     {
       "key": "Path to Citizenship",
@@ -488,17 +489,17 @@
     },
     {
       "key": "Family Members",
-      "alignmentText": "Family reunification rules for non-citizens are limited.",
-      "alignmentValue": 2
+      "alignmentText": "Foreign spouses rarely obtain derivative status unless married to Cuban citizens; dependent visas for children are not standard.",
+      "alignmentValue": 1
     },
     {
       "key": "Timelines & Costs",
-      "alignmentText": "Processes can be slow with additional hurdles due to sanctions and bureaucracy.",
-      "alignmentValue": 2
+      "alignmentText": "Permits require multiple ministry approvals and US sanctions complicate payments, so expect long waits and currency hurdles.",
+      "alignmentValue": 1
     },
     {
       "key": "Compliance & Risks",
-      "alignmentText": "US persons face OFAC restrictions; ensure legal compliance on travel and income.",
+      "alignmentText": "US OFAC rules limit spending, while Cuban authorities can confiscate equipment or revoke permits if regulations shift.",
       "alignmentValue": 2
     },
     {
@@ -508,12 +509,12 @@
     },
     {
       "key": "General Considerations for Visa Holders",
-      "alignmentText": "Expect language needs, limited banking, and documentation checks; housing and connectivity hurdles.",
-      "alignmentValue": 3
+      "alignmentText": "Plan for cash-based living, limited access to foreign banking, and frequent police check-ins on rental addresses.",
+      "alignmentValue": 2
     },
     {
       "key": "Game Dev Work Prospects",
-      "alignmentText": "Very small market; few studios or publisher connections.",
+      "alignmentText": "Only small collectives experiment with games, and export controls plus internet limits make commercial releases nearly impossible.",
       "alignmentValue": 1
     },
     {
