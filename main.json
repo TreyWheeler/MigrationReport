@@ -502,7 +502,21 @@
   "Countries": [
     {
       "name": "Ireland",
-      "file": "reports/ireland_report.json"
+      "file": "reports/ireland_report.json",
+      "cities": [
+        {
+          "name": "Dublin",
+          "file": "reports/ireland_dublin_report.json"
+        },
+        {
+          "name": "Cork",
+          "file": "reports/ireland_cork_report.json"
+        },
+        {
+          "name": "Galway",
+          "file": "reports/ireland_galway_report.json"
+        }
+      ]
     },
     {
       "name": "China",
