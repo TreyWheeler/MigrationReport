@@ -724,6 +724,7 @@ async function renderComparison(selectedList, mainData, options = {}) {
   const datasets = await Promise.all(selectedList.map(async s => ({
     name: s.name,
     file: s.file,
+    node: s,
     data: await fetchCountry(s.file)
   })));
 
@@ -737,6 +738,36 @@ async function renderComparison(selectedList, mainData, options = {}) {
   const table = document.createElement('table');
   table.className = 'comparison-table';
 
+  const handleDeselect = (file) => {
+    if (!file) return;
+    try {
+      const map = appState.nodesByFile;
+      if (!map || typeof map.get !== 'function') return;
+      const node = map.get(file);
+      if (!node) return;
+      const noticeEl = document.getElementById('notice');
+      toggleSelectNode(node, noticeEl);
+      const listEl = document.getElementById('countryList');
+      if (listEl) updateCountryListSelection(listEl);
+      onSelectionChanged(mainData, noticeEl);
+    } catch {}
+  };
+
+  const attachRemoveHandlers = (root) => {
+    if (!root) return;
+    const buttons = root.querySelectorAll('.country-header-remove');
+    buttons.forEach(btn => {
+      if (!(btn instanceof HTMLButtonElement)) return;
+      btn.addEventListener('click', ev => {
+        ev.preventDefault();
+        ev.stopPropagation();
+        handleDeselect(btn.dataset.file || '');
+      });
+    });
+  };
+
+  const headerScoreTargets = [];
+
   const thead = document.createElement('thead');
   const headRow = document.createElement('tr');
   const thLeft = document.createElement('th');
@@ -746,14 +777,45 @@ async function renderComparison(selectedList, mainData, options = {}) {
   datasets.forEach(ds => {
     const th = document.createElement('th');
     th.className = 'country-header';
-    const wrap = document.createElement('span');
+    if (ds.file) th.dataset.file = ds.file;
+    if (ds.node && ds.node.type) th.dataset.type = ds.node.type;
+
+    const inner = document.createElement('div');
+    inner.className = 'country-header-inner';
+
+    const labelWrap = document.createElement('span');
+    labelWrap.className = 'country-header-label';
     if (ds.data && ds.data.iso) {
       const img = createFlagImg(ds.data.iso, 18);
-      if (img) wrap.appendChild(img);
+      if (img) labelWrap.appendChild(img);
     }
-    wrap.appendChild(document.createTextNode(ds.name));
-    th.appendChild(wrap);
+    const nameNode = document.createElement('span');
+    nameNode.textContent = ds.name;
+    labelWrap.appendChild(nameNode);
+    inner.appendChild(labelWrap);
+
+    const scoresWrap = document.createElement('div');
+    scoresWrap.className = 'country-header-scores';
+    inner.appendChild(scoresWrap);
+
+    const removeBtn = document.createElement('button');
+    removeBtn.type = 'button';
+    removeBtn.className = 'country-header-remove';
+    removeBtn.title = `Deselect ${ds.name}`;
+    removeBtn.setAttribute('aria-label', `Deselect ${ds.name}`);
+    removeBtn.dataset.file = ds.file || '';
+    removeBtn.textContent = '×';
+    removeBtn.addEventListener('click', ev => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      handleDeselect(ds.file || '');
+    });
+    inner.appendChild(removeBtn);
+
+    th.appendChild(inner);
     headRow.appendChild(th);
+
+    headerScoreTargets.push({ container: scoresWrap });
   });
   thead.appendChild(headRow);
   // Colgroup with equal country widths and a fixed key column
@@ -819,9 +881,9 @@ async function renderComparison(selectedList, mainData, options = {}) {
 
   // Compute and append overall average chip in each country header
   try {
-    const headerCells = Array.from(headRow.cells || []);
-    // headerCells[0] is the left key header; countries start at index 1
     datasets.forEach((ds, idx) => {
+      const target = headerScoreTargets[idx];
+      const container = target && target.container ? target.container : null;
       const catAverages = [];
       mainData.Categories.forEach(cat => {
         const vals = [];
@@ -836,10 +898,8 @@ async function renderComparison(selectedList, mainData, options = {}) {
         }
       });
       const overall = catAverages.length > 0 ? Number((catAverages.reduce((a,b)=>a+b,0) / catAverages.length).toFixed(1)) : NaN;
-      const th = headerCells[idx + 1];
-      if (th) {
-        th.appendChild(document.createTextNode(' '));
-        th.appendChild(makeScoreChip(isFinite(overall) ? overall : null));
+      if (container) {
+        container.appendChild(makeScoreChip(isFinite(overall) ? overall : null));
         // Also append per-person total scores across categories for this country
         try {
           const peopleEff = getEffectivePeople(mainData);
@@ -868,15 +928,13 @@ async function renderComparison(selectedList, mainData, options = {}) {
               });
               if (any) {
                 const total = Number(sum.toFixed(1));
-                th.appendChild(document.createTextNode(' '));
-                th.appendChild(makePersonScoreChip(person.name, total));
+                container.appendChild(makePersonScoreChip(person.name, total));
                 totals.push(sum);
               }
             });
             if (totals.length > 0) {
               const allAvg = Number((totals.reduce((a,b)=>a+b,0) / totals.length).toFixed(1));
-              th.appendChild(document.createTextNode(' '));
-              th.appendChild(makePersonScoreChip('All', allAvg));
+              container.appendChild(makePersonScoreChip('All', allAvg));
             }
           }
         } catch {}
@@ -1080,6 +1138,7 @@ async function renderComparison(selectedList, mainData, options = {}) {
     });
     // Match container width to visible scroll area
     floating.style.width = wrap.clientWidth + 'px';
+    attachRemoveHandlers(floating);
   }
 
   function updateFloatingVisibility() {

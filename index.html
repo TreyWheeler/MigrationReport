@@ -258,6 +258,50 @@
       white-space: nowrap;
       box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     }
+    .country-header-inner { display: flex; align-items: center; gap: 8px; }
+    .country-header-label { display: inline-flex; align-items: center; gap: 6px; }
+    .country-header-scores { display: flex; align-items: center; gap: 6px; margin-left: auto; flex-wrap: wrap; }
+    .country-header-remove {
+      display: none;
+      margin-left: auto;
+      width: 24px;
+      height: 24px;
+      border-radius: 9999px;
+      border: 1px solid #b91c1c;
+      background: rgba(220,38,38,0.12);
+      color: #b91c1c;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease, transform 160ms ease;
+    }
+    .country-header-remove:hover {
+      background: #dc2626;
+      border-color: #dc2626;
+      color: #ffffff;
+      transform: scale(1.05);
+    }
+    .country-header-remove:focus-visible {
+      outline: 2px solid #dc2626;
+      outline-offset: 2px;
+    }
+    body[data-theme="dark"] .country-header-remove {
+      border-color: #f87171;
+      background: rgba(248,113,113,0.16);
+      color: #fecaca;
+    }
+    body[data-theme="dark"] .country-header-remove:hover {
+      background: #f87171;
+      border-color: #f87171;
+      color: #0b1220;
+    }
+    .country-header:hover .country-header-scores,
+    .country-header-inner:hover .country-header-scores { display: none; }
+    .country-header:hover .country-header-remove,
+    .country-header-inner:hover .country-header-remove { display: inline-flex; }
     /* Header row appearance (not sticky; we handle stickiness via floating header) */
     table.comparison-table thead th {
       position: static;
