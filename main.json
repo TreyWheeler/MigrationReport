@@ -572,7 +572,29 @@
     },
     {
       "name": "Canada",
-      "file": "reports/canada_report.json"
+      "file": "reports/canada_report.json",
+      "cities": [
+        {
+          "name": "Vancouver",
+          "file": "reports/canada_vancouver_report.json"
+        },
+        {
+          "name": "Victoria",
+          "file": "reports/canada_victoria_report.json"
+        },
+        {
+          "name": "Montreal",
+          "file": "reports/canada_montreal_report.json"
+        },
+        {
+          "name": "Ottawa",
+          "file": "reports/canada_ottawa_report.json"
+        },
+        {
+          "name": "Toronto",
+          "file": "reports/canada_toronto_report.json"
+        }
+      ]
     },
     {
       "name": "Portugal",
