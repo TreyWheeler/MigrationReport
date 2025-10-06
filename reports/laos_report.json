@@ -1,30 +1,31 @@
 {
+  "version": 2,
   "iso": "LA",
   "values": [
     {
       "key": "Environment",
-      "alignmentText": "Mountain forests along the Mekong still feel wild, though hydropower projects and logging mean protected areas take extra travel to enjoy.",
-      "alignmentValue": 5
+      "alignmentText": "Forest reserves and the Mekong remain stunning, but slash-and-burn agriculture erodes access to pristine nature.",
+      "alignmentValue": 4
     },
     {
       "key": "Global Warming Risk",
-      "alignmentText": "Laos ranks among Southeast Asia’s most climate-vulnerable countries, facing stronger Mekong floods, erratic droughts, and landslides with limited adaptive infrastructure.",
-      "alignmentValue": 3
+      "alignmentText": "Hotter monsoons, Mekong dam impacts, and drought stress keep climate risk uncomfortably high.",
+      "alignmentValue": 2
     },
     {
       "key": "Seasonal Weather",
-      "alignmentText": "A tropical monsoon pattern brings a long hot, humid wet season and a short dry spell, far from the mild weather the family prefers.",
-      "alignmentValue": 3
+      "alignmentText": "Six sticky monsoon months with 35°C+ highs clash with the family’s mild-weather preference.",
+      "alignmentValue": 2
     },
     {
       "key": "Air Quality",
-      "alignmentText": "Slash-and-burn agriculture and smoky dry-season haze regularly push PM2.5 above WHO guidance in Vientiane and northern valleys.",
+      "alignmentText": "Crop burning and regional haze push PM2.5 above WHO limits each dry season.",
       "alignmentValue": 3
     },
     {
       "key": "Natural Disasters",
-      "alignmentText": "Seasonal Mekong flooding, drought, and occasional earthquakes or dam issues are recurring risks with limited emergency capacity.",
-      "alignmentValue": 4
+      "alignmentText": "Floods and landslides frequently disrupt rural provinces, and urban drainage is limited.",
+      "alignmentValue": 3
     },
     {
       "key": "Spring Temperature Range (C/F)",
@@ -33,8 +34,8 @@
     },
     {
       "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "June–August stay near 24–32 °C (75–90 °F) but feel hotter thanks to heavy monsoon humidity and cloudbursts.",
-      "alignmentValue": 3
+      "alignmentText": "April and May often sit at 33–37°C (91–99°F) with high humidity, requiring constant cooling.",
+      "alignmentValue": 2
     },
     {
       "key": "Fall Temperature Range (C/F)",
@@ -43,8 +44,8 @@
     },
     {
       "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "December–February drop to 17–28 °C (63–82 °F) with drier air—still warm but the most comfortable window.",
-      "alignmentValue": 5
+      "alignmentText": "Dry-season highs around 25–28°C (77–82°F) feel pleasant, though nights stay warm.",
+      "alignmentValue": 6
     },
     {
       "key": "Beach Life",
@@ -63,43 +64,43 @@
     },
     {
       "key": "Minimum Wage",
-      "alignmentText": "The national minimum wage is about 1.3 million kip (~US$70) per month, signaling a very low baseline for local pay.",
+      "alignmentText": "Monthly minimum wages near $150 USD cannot cover international school fees or housing upgrades.",
       "alignmentValue": 2
     },
     {
       "key": "Typical Software Salaries",
-      "alignmentText": "Software roles in Vientiane often pay US$6k–12k annually—well below Western compensation and rarely remote-ready.",
+      "alignmentText": "Local developers often earn under $15k USD, so sustaining US income requires remote contracts.",
       "alignmentValue": 2
     },
     {
       "key": ".NET Work Prospects",
-      "alignmentText": "Only a handful of banks, telecoms, or regional outsourcing firms hire .NET developers, so opportunities are scarce.",
+      "alignmentText": "Government digitization projects hire a handful of .NET devs, but the market is tiny.",
       "alignmentValue": 2
     },
     {
       "key": "Ruby Work Prospects",
-      "alignmentText": "Ruby shops are nearly nonexistent; most Lao tech work leans on PHP or Java, meaning little fit for Sarah’s stack.",
+      "alignmentText": "Ruby is virtually absent from the local tech stack outside of a few regional startups.",
       "alignmentValue": 1
     },
     {
       "key": "Employer Visa Sponsorship",
-      "alignmentText": "NGOs, hydropower firms, and hotels sometimes sponsor skilled foreigners, but bureaucracy makes approvals uncommon.",
+      "alignmentText": "Most companies rely on short business visas; long-term sponsorship is rare and bureaucratic.",
       "alignmentValue": 2
     },
     {
       "key": "Economic Health",
-      "alignmentText": "Laos remains a lower-middle-income economy driven by hydropower and mining; growth near 4–5% masks high debt and inflation shocks.",
+      "alignmentText": "GDP growth is fast but from a low base, with heavy reliance on hydropower concessions.",
       "alignmentValue": 4
     },
     {
       "key": "Remote-Friendly Culture",
-      "alignmentText": "Coworking hubs in Vientiane and Luang Prabang exist, yet broadband reliability and time-zone collaboration remain inconsistent.",
+      "alignmentText": "Fiber exists in Vientiane, yet outages and power fluctuations mean Trey needs backup plans.",
       "alignmentValue": 3
     },
     {
       "key": "Work-Life Balance",
-      "alignmentText": "Workplaces outside hospitality tend to observe formal hours and a slower pace, though limited labor protections add stress.",
-      "alignmentValue": 5
+      "alignmentText": "Workdays tend to finish by early evening, and family gatherings are culturally important.",
+      "alignmentValue": 6
     },
     {
       "key": "Work Week Hours",
@@ -108,28 +109,28 @@
     },
     {
       "key": "Vacation Days (Minimum)",
-      "alignmentText": "Employees earn at least 15 paid leave days plus public holidays after a year of service, but enforcement varies.",
-      "alignmentValue": 5
+      "alignmentText": "Labor law grants 15 days, but smaller firms may only honor the legal floor.",
+      "alignmentValue": 4
     },
     {
       "key": "Vacation Days (Typical)",
-      "alignmentText": "Most private employers stick close to the legal floor, offering little extra time off beyond national festivals.",
+      "alignmentText": "Companies rarely go beyond the minimum, so extended US trips require negotiation.",
       "alignmentValue": 4
     },
     {
       "key": "Pace of Life",
-      "alignmentText": "Outside a few tourist hubs, daily life is slow and communal, aligning with Sarah’s desire to ease the family’s pace.",
-      "alignmentValue": 6
+      "alignmentText": "Daily rhythms feel laid back compared to US metros, matching Sarah’s slower pace goal.",
+      "alignmentValue": 7
     },
     {
       "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Schools start around 7:30 a.m.; offices run 8 a.m.–5 p.m. with a midday lunch break, requiring afternoon childcare planning.",
+      "alignmentText": "Schools often run half-day shifts, requiring parents to juggle midday pickups or hire help.",
       "alignmentValue": 5
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Weekends revolve around markets, temple visits, and river outings; many services close early, so structured kids’ activities are limited.",
-      "alignmentValue": 5
+      "alignmentText": "Weekends highlight river markets and temple visits, though heat can limit outdoor time.",
+      "alignmentValue": 6
     },
     {
       "key": "Family Life",
@@ -238,12 +239,12 @@
     },
     {
       "key": "Language & English Ubiquity",
-      "alignmentText": "Lao is dominant; outside tourism corridors, sustained daily life requires learning Lao or Thai.",
+      "alignmentText": "Lao is essential; English is limited outside tourism and NGO circles.",
       "alignmentValue": 2
     },
     {
       "key": "Progressivism",
-      "alignmentText": "The one-party state maintains conservative speech controls and resists the kind of social liberalism the family values.",
+      "alignmentText": "The single-party state maintains conservative social norms with little space for dissent.",
       "alignmentValue": 2
     },
     {
@@ -263,7 +264,7 @@
     },
     {
       "key": "LGBTQ+ Attitudes",
-      "alignmentText": "Urban nightlife is somewhat tolerant, yet there are no anti-discrimination protections or legal recognition.",
+      "alignmentText": "There’s social tolerance in Vientiane nightlife, but no legal protections or recognition.",
       "alignmentValue": 2
     },
     {
@@ -328,7 +329,7 @@
     },
     {
       "key": "Political System",
-      "alignmentText": "Laos is a one-party socialist republic with tight control over media and civil society.",
+      "alignmentText": "The Lao People’s Revolutionary Party monopolizes power with no competitive elections.",
       "alignmentValue": 2
     },
     {
@@ -348,8 +349,8 @@
     },
     {
       "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Civil liberties are already curtailed, and recent arrests of activists show no sign of liberalization.",
-      "alignmentValue": 1
+      "alignmentText": "Civil society is tightly controlled, and criticism of the state can trigger surveillance.",
+      "alignmentValue": 2
     },
     {
       "key": "State of Capitalism",
@@ -373,48 +374,48 @@
     },
     {
       "key": "Social Policies",
-      "alignmentText": "Welfare coverage is thin, with pilot health insurance and poverty reduction schemes reaching only parts of the population.",
+      "alignmentText": "Basic healthcare and schooling exist but funding gaps limit quality and access.",
       "alignmentValue": 3
     },
     {
       "key": "Trust in Government",
-      "alignmentText": "Official surveys report high trust, but limited civic space means skepticism is voiced quietly.",
-      "alignmentValue": 4
+      "alignmentText": "Citizens rely on state media; grievances are often managed quietly rather than publicly.",
+      "alignmentValue": 3
     },
     {
       "key": "Perceived Corruption",
-      "alignmentText": "Business surveys cite pervasive bribery in customs, land, and police interactions.",
-      "alignmentValue": 2
+      "alignmentText": "Petty bribery and favoritism remain common in permitting and policing.",
+      "alignmentValue": 3
     },
     {
       "key": "Type of Corruption",
-      "alignmentText": "Rent-seeking around infrastructure concessions and petty facilitation payments are both common.",
-      "alignmentValue": 2
+      "alignmentText": "Officials expect facilitation payments for licensing, and state-owned firms dominate deals.",
+      "alignmentValue": 3
     },
     {
       "key": "Housing Situation",
-      "alignmentText": "Housing is inexpensive, yet quality varies and expats often renovate older homes for reliable utilities.",
-      "alignmentValue": 4
+      "alignmentText": "Expats can find affordable detached homes, but quality varies and insulation is minimal.",
+      "alignmentValue": 5
     },
     {
       "key": "Safety & Crime",
-      "alignmentText": "Violent crime rates are low; petty theft is the main concern in tourist corridors.",
-      "alignmentValue": 7
+      "alignmentText": "Violent crime is rare, yet petty theft and road safety issues require vigilance.",
+      "alignmentValue": 5
     },
     {
       "key": "Healthcare (Citizens)",
-      "alignmentText": "Primary clinics exist nationwide, but limited specialists and equipment push serious cases abroad.",
+      "alignmentText": "Provincial hospitals lack specialists; serious cases often go to Thailand.",
       "alignmentValue": 3
     },
     {
       "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Foreigners rely on private clinics for basics and fly to Bangkok for advanced care, adding time and cost.",
+      "alignmentText": "Expats typically rely on private clinics for basics and evacuate to Bangkok for major care.",
       "alignmentValue": 2
     },
     {
       "key": "Child Care Support",
-      "alignmentText": "Babysitters are typically informal hires; few licensed daycare centers meet Western expectations.",
-      "alignmentValue": 3
+      "alignmentText": "Formal daycare options are scarce; most families lean on relatives or hired nannies.",
+      "alignmentValue": 2
     },
     {
       "key": "Family Policy (Common Family)",
@@ -423,37 +424,37 @@
     },
     {
       "key": "Education",
-      "alignmentText": "Education reforms aim to improve literacy, yet outcomes trail neighbors and English-medium options are rare.",
+      "alignmentText": "Public schools lag in English and STEM, pushing expats toward costly international programs.",
       "alignmentValue": 3
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "Outside a new China-Laos railway, public transit is limited to songthaews and tuk-tuks without schedules.",
+      "alignmentText": "Aside from Vientiane buses and the China–Laos railway, transit is informal tuk-tuks or private vans.",
       "alignmentValue": 2
     },
     {
       "key": "Economic System",
-      "alignmentText": "The economy mixes socialist planning with growing private enterprise, anchored by hydropower exports.",
-      "alignmentValue": 3
+      "alignmentText": "A state-led economy coexists with growing private enterprise, but regulation can be opaque.",
+      "alignmentValue": 4
     },
     {
       "key": "How Taxes Are Handled",
-      "alignmentText": "Personal income tax uses a progressive schedule up to 24%; filings are manual but relatively straightforward with employer assistance.",
+      "alignmentText": "Tax filing is manual, and foreign earners often hire local accountants to navigate incentives.",
       "alignmentValue": 4
     },
     {
       "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "Foreign professionals typically face marginal rates between 10–20%, plus social security if locally contracted.",
-      "alignmentValue": 4
+      "alignmentText": "Personal income tax tops out near 24%, though treaty gaps may complicate remote income.",
+      "alignmentValue": 3
     },
     {
       "key": "Banking & Payments",
-      "alignmentText": "Cash remains dominant; ATMs can be unreliable, though QR payments via LaoPay and Thai wallets are expanding.",
+      "alignmentText": "Cash dominates; ATMs work in cities but online payments remain limited.",
       "alignmentValue": 3
     },
     {
       "key": "Cost of Living (Optional)",
-      "alignmentText": "Housing, food, and domestic help are affordable, enabling a low monthly burn if content with local standards.",
+      "alignmentText": "Local food and services are inexpensive, though imported goods carry a premium.",
       "alignmentValue": 7
     },
     {
@@ -468,37 +469,37 @@
     },
     {
       "key": "Visa Paths",
-      "alignmentText": "Tourist visas on arrival are easy, yet long-term options revolve around business, NGO, or spouse sponsorship with strict reporting.",
-      "alignmentValue": 3
+      "alignmentText": "Most foreigners rotate business visas; permanent residency is difficult without deep investment.",
+      "alignmentValue": 2
     },
     {
       "key": "Welcoming of US Migrants",
-      "alignmentText": "Americans are generally treated warmly, but few support networks exist and bureaucracy can feel opaque.",
-      "alignmentValue": 3
+      "alignmentText": "Laotians are friendly, yet the state monitors NGOs and media, limiting outspoken activism.",
+      "alignmentValue": 4
     },
     {
       "key": "Residency Types & Durations",
-      "alignmentText": "Most residence permits are one-year renewable and tied to an employer or investment project.",
-      "alignmentValue": 3
+      "alignmentText": "Long-term residence requires annual renewals tied to employment or investment.",
+      "alignmentValue": 2
     },
     {
       "key": "Path to Citizenship",
-      "alignmentText": "Naturalization demands a decade of residency, Lao language fluency, and is rarely approved.",
+      "alignmentText": "Naturalization is rare and demands a decade of residence plus government approval.",
       "alignmentValue": 1
     },
     {
       "key": "Family Members",
-      "alignmentText": "Dependent visas are possible but require repeated police clearances, housing checks, and school letters.",
+      "alignmentText": "Dependents may accompany work permits, but schooling and healthcare arrangements fall on the family.",
       "alignmentValue": 3
     },
     {
       "key": "Timelines & Costs",
-      "alignmentText": "Processing often takes several months with unofficial fees for paperwork and renewals.",
-      "alignmentValue": 2
+      "alignmentText": "Paperwork often needs multiple in-person visits and translation fees.",
+      "alignmentValue": 3
     },
     {
       "key": "Compliance & Risks",
-      "alignmentText": "Work permits and address reporting are strictly enforced; falling out of status risks fines or deportation.",
+      "alignmentText": "Visa overstays draw fines, and political speech restrictions apply to foreigners.",
       "alignmentValue": 3
     },
     {
@@ -508,32 +509,32 @@
     },
     {
       "key": "General Considerations for Visa Holders",
-      "alignmentText": "Expect quarterly reporting at immigration, travel permits for some provinces, and reliance on local fixers for paperwork.",
+      "alignmentText": "We’d need evacuation insurance, language support, and contingency plans for power and schooling.",
       "alignmentValue": 3
     },
     {
       "key": "Game Dev Work Prospects",
-      "alignmentText": "The domestic game industry is nascent, with only a few small mobile teams and little middleware expertise.",
+      "alignmentText": "There is virtually no local game industry, so Trey would operate entirely remotely.",
       "alignmentValue": 1
     },
     {
       "key": "Notable Game Studios",
-      "alignmentText": "Beyond micro studios in Vientiane and regional outsourcing shops, there are no prominent Lao game companies.",
+      "alignmentText": "No internationally recognized studios are based in Laos.",
       "alignmentValue": 1
     },
     {
       "key": "Notable Game Development Communities",
-      "alignmentText": "Developer meetups happen sporadically through Facebook groups, lacking structured mentorship or events.",
-      "alignmentValue": 1
+      "alignmentText": "Small co-working spaces host occasional tech meetups, but consistent game-dev groups are rare.",
+      "alignmentValue": 2
     },
     {
       "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Ultra-low operating costs help, but limited talent pipelines, funding, and consumer spend hinder a studio launch.",
+      "alignmentText": "Startup grants are minimal and digital payment penetration is low for monetization.",
       "alignmentValue": 2
     },
     {
       "key": "Modernity & Infrastructure",
-      "alignmentText": "Roads, power, and internet are improving but still uneven outside cities, and frequent outages demand backups.",
+      "alignmentText": "Vientiane has improving fiber and 4G, yet power grids and roads outside the capital remain fragile.",
       "alignmentValue": 3
     }
   ]

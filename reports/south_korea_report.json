@@ -1,29 +1,30 @@
 {
+  "version": 2,
   "iso": "KR",
   "values": [
     {
       "key": "Environment",
-      "alignmentText": "Mountainous terrain and well-kept parks offer plentiful outdoor escapes despite dense cities.",
-      "alignmentValue": 7
+      "alignmentText": "National parks and coastal trails are easy to reach, yet dense metros mean weekend nature breaks require travel planning.",
+      "alignmentValue": 6
     },
     {
       "key": "Global Warming Risk",
-      "alignmentText": "Heatwaves and rising seas threaten coastal zones though mitigation planning is active.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "Four distinct seasons bring humid summers and cold winters, challenging our mild-climate preference.",
+      "alignmentText": "Hotter summers, stronger typhoons, and sea-level rise around Busan raise adaptation stakes.",
       "alignmentValue": 4
     },
     {
-      "key": "Air Quality",
-      "alignmentText": "Frequent fine-dust episodes from industry and China degrade urban air.",
+      "key": "Seasonal Weather",
+      "alignmentText": "Humid monsoon summers and below-freezing winters clash with the family’s mild-weather wish list.",
       "alignmentValue": 3
     },
     {
+      "key": "Air Quality",
+      "alignmentText": "Spring yellow dust and winter coal emissions push PM2.5 well above WHO guidance several times a year.",
+      "alignmentValue": 4
+    },
+    {
       "key": "Natural Disasters",
-      "alignmentText": "Typhoons and occasional quakes occur but building standards reduce impact.",
+      "alignmentText": "Typhoons, flash floods, and the remote risk of DPRK escalation require contingency plans despite strong preparedness.",
       "alignmentValue": 5
     },
     {
@@ -33,8 +34,8 @@
     },
     {
       "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "22–30°C (72–86°F) and humid monsoon rains.",
-      "alignmentValue": 4
+      "alignmentText": "July–August highs reach 30–33°C (86–91°F) with heavy humidity and tropical nights.",
+      "alignmentValue": 3
     },
     {
       "key": "Fall Temperature Range (C/F)",
@@ -43,7 +44,7 @@
     },
     {
       "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "-2–5°C (28–41°F) with occasional snow.",
+      "alignmentText": "Winter lows dip to -7°C (19°F) in Seoul, with dry winds that limit playground time.",
       "alignmentValue": 3
     },
     {
@@ -63,73 +64,73 @@
     },
     {
       "key": "Minimum Wage",
-      "alignmentText": "2024 rate about ₩9,860/hour (~$7.50) provides modest baseline.",
-      "alignmentValue": 5
+      "alignmentText": "The 2024 minimum wage is ₩9,860/hour (~$7.40), supporting service workers but still tight in Seoul.",
+      "alignmentValue": 6
     },
     {
       "key": "Typical Software Salaries",
-      "alignmentText": "Seoul devs earn roughly $45k–$70k USD, lower than US but livable.",
+      "alignmentText": "Senior engineers earn ₩70–100M ($55–78k), with bonuses in major studios and fintech firms.",
       "alignmentValue": 6
     },
     {
       "key": ".NET Work Prospects",
-      "alignmentText": "Enterprise and game studios use .NET but market is smaller than Java.",
+      "alignmentText": "Finance, telecom, and public agencies run .NET stacks, though many roles expect Korean fluency and office time.",
       "alignmentValue": 5
     },
     {
       "key": "Ruby Work Prospects",
-      "alignmentText": "Ruby is niche with limited openings outside startups.",
+      "alignmentText": "Ruby is niche beyond startups like Coupang or Woowa Brothers, so openings are sporadic.",
       "alignmentValue": 4
     },
     {
       "key": "Employer Visa Sponsorship",
-      "alignmentText": "E‑7 and other work visas exist yet require sponsorship and degree.",
+      "alignmentText": "Large companies sponsor E-7 visas, but documentation and points-based reviews can slow onboarding.",
       "alignmentValue": 5
     },
     {
       "key": "Economic Health",
-      "alignmentText": "Advanced high-income economy with strong exports and tech sector.",
-      "alignmentValue": 8
+      "alignmentText": "A resilient export economy with strong R&D keeps unemployment low despite global slowdowns.",
+      "alignmentValue": 7
     },
     {
       "key": "Remote-Friendly Culture",
-      "alignmentText": "Pandemic normalized some remote work but office presence remains standard.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "Long hours culture clashes with our family’s balance goals despite reforms.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Work Week Hours",
-      "alignmentText": "Legal 40 but overtime often pushes weeks toward 50–60.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "15 days after first year by labor law.",
+      "alignmentText": "Hybrid schedules are growing, yet many teams still value in-office collaboration.",
       "alignmentValue": 5
     },
     {
+      "key": "Work-Life Balance",
+      "alignmentText": "The 52-hour cap exists, but presenteeism and late client calls remain common in tech.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "Official weeks are 40 hours, yet unpaid overtime or weekend sprints surface near launches.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Annual leave starts around 15 days after the first year, backed by national holidays.",
+      "alignmentValue": 6
+    },
+    {
       "key": "Vacation Days (Typical)",
-      "alignmentText": "Workers often take fewer than allowed due to culture.",
+      "alignmentText": "Many employees leave days unused due to workload and cultural pressure.",
       "alignmentValue": 4
     },
     {
       "key": "Pace of Life",
-      "alignmentText": "Seoul’s pace is fast and competitive; smaller cities slower.",
+      "alignmentText": "Seoul moves fast with crowded commutes; coastal cities like Busan feel marginally slower.",
       "alignmentValue": 4
     },
     {
       "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Parents often return after 7 pm; kids attend after-school hagwons.",
-      "alignmentValue": 3
+      "alignmentText": "Schools run 8:30–15:00, but cram schools extend evenings, and parents often sync late office hours.",
+      "alignmentValue": 4
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Family outings to parks, cafes, or hiking; catch up on rest.",
-      "alignmentValue": 5
+      "alignmentText": "Families split weekends between kid activities, markets, and short rail trips to national parks.",
+      "alignmentValue": 6
     },
     {
       "key": "Family Life",
@@ -238,13 +239,13 @@
     },
     {
       "key": "Language & English Ubiquity",
-      "alignmentText": "English taught widely; proficiency moderate outside tourist areas.",
-      "alignmentValue": 5
+      "alignmentText": "English signage helps in Seoul, yet bureaucracy and social circles still rely on Korean.",
+      "alignmentValue": 4
     },
     {
       "key": "Progressivism",
-      "alignmentText": "Democratic politics with active civil society yet conservative social views linger.",
-      "alignmentValue": 5
+      "alignmentText": "Younger voters push progressive reforms, but national politics remain centrist-conservative on many issues.",
+      "alignmentValue": 4
     },
     {
       "key": "Marxism (Societal Attitudes)",
@@ -263,8 +264,8 @@
     },
     {
       "key": "LGBTQ+ Attitudes",
-      "alignmentText": "Activism growing but legal recognition and social acceptance remain limited.",
-      "alignmentValue": 3
+      "alignmentText": "Pride events occur, yet there’s no legal recognition for same-sex or polyamorous families and stigma persists.",
+      "alignmentValue": 2
     },
     {
       "key": "Community Vibes",
@@ -328,8 +329,8 @@
     },
     {
       "key": "Political System",
-      "alignmentText": "Presidential republic with regular competitive elections.",
-      "alignmentValue": 7
+      "alignmentText": "A robust democracy with competitive elections and independent courts, despite polarization.",
+      "alignmentValue": 8
     },
     {
       "key": "Religion in Politics",
@@ -348,8 +349,8 @@
     },
     {
       "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Institutions are stable though past military rule prompts vigilance.",
-      "alignmentValue": 5
+      "alignmentText": "Institutions are strong, though national security laws and surveillance powers merit monitoring.",
+      "alignmentValue": 6
     },
     {
       "key": "State of Capitalism",
@@ -373,48 +374,48 @@
     },
     {
       "key": "Social Policies",
-      "alignmentText": "Gradual expansion of welfare and child incentives.",
+      "alignmentText": "Universal healthcare and expanding childcare subsidies help, but social safety nets still lag Nordic peers.",
       "alignmentValue": 6
     },
     {
       "key": "Trust in Government",
-      "alignmentText": "Varies with scandals; moderate overall.",
+      "alignmentText": "Trust swings with political scandals; citizens often rely on civic activism to push reforms.",
       "alignmentValue": 5
     },
     {
       "key": "Perceived Corruption",
-      "alignmentText": "Chaebol-political ties continue to raise concerns.",
-      "alignmentValue": 4
+      "alignmentText": "Transparency scores are mid-to-high, though chaebol influence prompts periodic investigations.",
+      "alignmentValue": 5
     },
     {
       "key": "Type of Corruption",
-      "alignmentText": "Influence peddling and favoritism linked to conglomerates.",
-      "alignmentValue": 4
+      "alignmentText": "Elite favoritism and corporate collusion surface more than street-level bribery.",
+      "alignmentValue": 5
     },
     {
       "key": "Housing Situation",
-      "alignmentText": "Seoul housing costly with heavy reliance on jeonse deposits.",
+      "alignmentText": "Seoul’s jeonse deposits and condo prices are high, demanding significant savings.",
       "alignmentValue": 4
     },
     {
       "key": "Safety & Crime",
-      "alignmentText": "Violent crime rates are low and streets feel safe.",
+      "alignmentText": "Violent crime is rare; late-night transit feels safe for the kids and adults alike.",
       "alignmentValue": 8
     },
     {
       "key": "Healthcare (Citizens)",
-      "alignmentText": "Universal National Health Insurance offers affordable care.",
+      "alignmentText": "National Health Insurance offers fast access to quality hospitals and specialists.",
       "alignmentValue": 8
     },
     {
       "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Foreign residents can enroll after registration and pay into the system.",
+      "alignmentText": "Most long-term visas can join NHI, though initial enrollment requires paperwork in Korean.",
       "alignmentValue": 7
     },
     {
       "key": "Child Care Support",
-      "alignmentText": "Government subsidies help with daycare but long waits in cities.",
-      "alignmentValue": 6
+      "alignmentText": "Government stipends and public daycare slots are expanding, yet hours can be shorter than US standards.",
+      "alignmentValue": 5
     },
     {
       "key": "Family Policy (Common Family)",
@@ -423,38 +424,38 @@
     },
     {
       "key": "Education",
-      "alignmentText": "Students excel in OECD rankings but pressure and rote learning are concerns.",
+      "alignmentText": "Public schools deliver excellent academics, albeit with intense exam culture that may stress the kids.",
       "alignmentValue": 7
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "Subways and buses are extensive, punctual, and affordable.",
+      "alignmentText": "Extensive subways, KTX high-speed rail, and cashless fare systems enable car-free living.",
       "alignmentValue": 9
     },
     {
       "key": "Economic System",
-      "alignmentText": "Advanced mixed economy with strong export base.",
+      "alignmentText": "A market economy led by chaebol conglomerates balances innovation with regulatory oversight.",
       "alignmentValue": 7
     },
     {
       "key": "How Taxes Are Handled",
-      "alignmentText": "Income tax withheld monthly with annual reconciliation.",
-      "alignmentValue": 6
+      "alignmentText": "E-filing is streamlined, and year-end settlements auto-populate many deductions.",
+      "alignmentValue": 7
     },
     {
       "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "Middle-income families face roughly 10–20% effective rates.",
+      "alignmentText": "Combined income around ₩150M incurs marginal rates near 24% plus pension and health contributions.",
       "alignmentValue": 5
     },
     {
       "key": "Banking & Payments",
-      "alignmentText": "Highly digitized banking; mobile payments ubiquitous.",
+      "alignmentText": "Contactless payments and fast bank transfers are ubiquitous, though some apps require Korean ID verification.",
       "alignmentValue": 8
     },
     {
       "key": "Cost of Living (Optional)",
-      "alignmentText": "Seoul living costs are high relative to local wages.",
-      "alignmentValue": 4
+      "alignmentText": "Groceries and transit are affordable, but housing, education, and imported goods can be costly.",
+      "alignmentValue": 5
     },
     {
       "key": "Retirement (Citizens)",
@@ -468,38 +469,38 @@
     },
     {
       "key": "Visa Paths",
-      "alignmentText": "Multiple work and business visas exist but paperwork is detailed.",
-      "alignmentValue": 5
+      "alignmentText": "Points-based F-2 residence and D-8 startup visas exist, yet they demand language, income, or investment proof.",
+      "alignmentValue": 4
     },
     {
       "key": "Welcoming of US Migrants",
-      "alignmentText": "Generally neutral reception; cultural adaptation expected.",
-      "alignmentValue": 5
+      "alignmentText": "Koreans are generally friendly, though social integration hinges on learning Korean and respecting norms.",
+      "alignmentValue": 6
     },
     {
       "key": "Residency Types & Durations",
-      "alignmentText": "E and D visas typically valid 1–3 years before renewal.",
+      "alignmentText": "Most visas renew yearly initially, with longer F-series options after meeting residence and language criteria.",
       "alignmentValue": 5
     },
     {
       "key": "Path to Citizenship",
-      "alignmentText": "Requires 5+ years residency, language test, and renouncing prior citizenship.",
+      "alignmentText": "Naturalization requires five years, TOPIK level 4, and renouncing prior citizenship unless special cases apply.",
       "alignmentValue": 4
     },
     {
       "key": "Family Members",
-      "alignmentText": "Spouses and children can accompany on dependent visas.",
+      "alignmentText": "Spouses and children can join on dependent visas once the main applicant meets income and housing standards.",
       "alignmentValue": 6
     },
     {
       "key": "Timelines & Costs",
-      "alignmentText": "Processing takes several months with moderate legal fees.",
+      "alignmentText": "Immigration offices process applications in 2–4 months with moderate legal and translation fees.",
       "alignmentValue": 5
     },
     {
       "key": "Compliance & Risks",
-      "alignmentText": "Strict immigration checks; overstays result in fines or bans.",
-      "alignmentValue": 5
+      "alignmentText": "Maintaining address registration, visa-specific employment, and health insurance is essential to avoid fines.",
+      "alignmentValue": 4
     },
     {
       "key": "Dual Citizenship Allowed",
@@ -508,32 +509,32 @@
     },
     {
       "key": "General Considerations for Visa Holders",
-      "alignmentText": "Must maintain employment and address changes; bureaucracy in Korean.",
+      "alignmentText": "Expect mandatory national pension contributions and periodic document checks, but services are reliable.",
       "alignmentValue": 5
     },
     {
       "key": "Game Dev Work Prospects",
-      "alignmentText": "Large online and mobile game sector offers many roles.",
-      "alignmentValue": 8
+      "alignmentText": "Major studios like Nexon, NCSoft, and Pearl Abyss actively hire and partner globally.",
+      "alignmentValue": 7
     },
     {
       "key": "Notable Game Studios",
-      "alignmentText": "Home to Nexon, NCSoft, Netmarble, and others.",
+      "alignmentText": "Seoul houses Nexon, NCSoft, Smilegate, and Krafton with sizable dev teams.",
       "alignmentValue": 8
     },
     {
       "key": "Notable Game Development Communities",
-      "alignmentText": "Indie meetups and university clubs support collaboration.",
-      "alignmentValue": 6
+      "alignmentText": "KR G-Star, Seoul Indies, and campus clubs provide strong networking and mentorship.",
+      "alignmentValue": 7
     },
     {
       "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Government incubators and esports culture aid startups, though competition is stiff.",
+      "alignmentText": "Government grants and accelerator programs exist, though competition and labor costs are high.",
       "alignmentValue": 6
     },
     {
       "key": "Modernity & Infrastructure",
-      "alignmentText": "World-class broadband, transit, and smart-city tech everywhere.",
+      "alignmentText": "Gigabit internet, efficient transit, and smart-city services make daily life highly connected.",
       "alignmentValue": 9
     }
   ]
