@@ -522,7 +522,13 @@
     },
     {
       "name": "Germany",
-      "file": "reports/germany_report.json"
+      "file": "reports/germany_report.json",
+      "cities": [
+        {
+          "name": "Munich",
+          "file": "reports/germany_munich_report.json"
+        }
+      ]
     },
     {
       "name": "Canada",
