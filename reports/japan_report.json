@@ -1,539 +1,540 @@
 {
+  "version": 2,
   "iso": "JP",
   "values": [
     {
       "key": "Environment",
-      "alignmentText": "Dense cities contrast with mountains and coastal forests, giving the family access to nature with short train rides.",
-      "alignmentValue": 6
+      "alignmentText": "Even in dense Tokyo, clean streets and quick escapes to wooded mountains give the kids fresh air, though cedar pollen season means we plan outdoor time.",
+      "alignmentValue": 7
     },
     {
       "key": "Global Warming Risk",
-      "alignmentText": "Rising seas and stronger typhoons threaten low-lying coasts, though northern regions face less acute climate stress.",
+      "alignmentText": "Sea-level rise, harsher typhoons, and deadly heatwaves already test coastal metros, so our risk-averse family would need evacuation plans and extra insurance.",
       "alignmentValue": 4
     },
     {
       "key": "Seasonal Weather",
-      "alignmentText": "Japan's four seasons bring pleasant springs and autumns but humid, rainy summers that may challenge the family's comfort.",
-      "alignmentValue": 4
+      "alignmentText": "Spring and autumn stay mild enough for park days, but sticky monsoon summers and occasional chilly snaps mean Sarah has to schedule around weather swings.",
+      "alignmentValue": 5
     },
     {
       "key": "Air Quality",
-      "alignmentText": "Strict emissions rules keep urban air relatively clean, with occasional pollution spikes from traffic and regional dust.",
-      "alignmentValue": 7
+      "alignmentText": "National emissions standards keep PM2.5 low most days so the kids can play outside, with only occasional yellow-dust spikes near the capital.",
+      "alignmentValue": 8
     },
     {
       "key": "Natural Disasters",
-      "alignmentText": "Frequent earthquakes, tsunamis, and typhoons require strong preparedness and can disrupt family routines.",
+      "alignmentText": "Frequent earthquakes, tsunami alerts, and late-summer typhoons demand constant preparedness and could upend school and work routines.",
       "alignmentValue": 2
     },
     {
       "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Typical 5–20°C (41–68°F) with cherry blossoms and moderate rain, matching the family's mild-climate preference.",
+      "alignmentText": "March–May run roughly 5–20°C (41–68°F) with blooms and light rain, great for outings once we manage cedar allergies.",
       "alignmentValue": 7
     },
     {
       "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Often 20–32°C (68–90°F) with high humidity and a rainy season, making outdoor play sticky for the kids.",
+      "alignmentText": "July–August sit around 30–33°C (86–91°F) with sauna-level humidity and warm nights, so outdoor play needs early mornings and strong A/C.",
       "alignmentValue": 3
     },
     {
       "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Around 10–25°C (50–77°F) with colorful foliage and occasional typhoons, offering comfortable outings once storms pass.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "Generally 0–10°C (32–50°F) in Tokyo with light snowfall, milder than Midwest winters the family dislikes.",
+      "alignmentText": "September starts humid near 25°C (77°F) before cooling to the teens, but typhoons and lingering rain mean we need backup plans.",
       "alignmentValue": 6
     },
     {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Tokyo winters hover near 0–10°C (32–50°F); light coats and occasional frost feel gentler than Missouri cold snaps.",
+      "alignmentValue": 7
+    },
+    {
       "key": "Beach Life",
-      "alignmentText": "Coastal areas and islands offer clean beaches, though many require travel and are busy during peak season.",
+      "alignmentText": "Clean beaches and island getaways exist, yet they require train or flight planning and crowd management during school holidays.",
       "alignmentValue": 5
     },
     {
       "key": "Seasonal Beach Water Temp",
-      "alignmentText": "Waters near Tokyo warm to 22–26°C (72–79°F) mid-summer but stay cool most of the year.",
+      "alignmentText": "Coastal water only warms above 22°C (72°F) for a short mid-summer window, staying brisk the rest of the year.",
       "alignmentValue": 4
     },
     {
       "key": "Natural Beauty",
-      "alignmentText": "Easy train access to mountains, onsens, and national parks provides abundant weekend adventures for the family.",
+      "alignmentText": "Rail trips unlock alpine hikes, onsens, and coastlines, giving the family easy weekend nature escapes.",
       "alignmentValue": 8
     },
     {
       "key": "Minimum Wage",
-      "alignmentText": "National averages near ¥1,000/hour (~$7) lag behind living costs in major cities.",
+      "alignmentText": "The national average near ¥1,000/hour (~$7) lags far behind big-city living costs, so side income or skilled roles remain essential.",
       "alignmentValue": 4
     },
     {
       "key": "Typical Software Salaries",
-      "alignmentText": "Mid-level developers earn roughly ¥6–8M/year, adequate but lower than North American pay scales.",
+      "alignmentText": "Mid-level engineers typically earn ¥6–8M ($40–55k), which covers local expenses but limits US-style savings for our goals.",
       "alignmentValue": 5
     },
     {
       "key": ".NET Work Prospects",
-      "alignmentText": "Enterprise demand exists for .NET, though most listings favor local language skills and in-office culture.",
+      "alignmentText": "Enterprise firms still run .NET stacks, yet most roles expect Japanese fluency and office presence, narrowing Trey's options.",
       "alignmentValue": 5
     },
     {
       "key": "Ruby Work Prospects",
-      "alignmentText": "Ruby's origins in Japan support a healthy Rails community, especially in Tokyo and Osaka.",
+      "alignmentText": "Tokyo and Osaka host lively Ruby/Rails teams with English-friendly startups, supporting Sarah's stack more easily.",
       "alignmentValue": 7
     },
     {
       "key": "Employer Visa Sponsorship",
-      "alignmentText": "Tech firms routinely sponsor skilled visas, but paperwork is precise and requires Japanese documentation.",
+      "alignmentText": "Large tech employers sponsor engineer visas routinely, though meticulous paperwork and Japanese documents demand patience.",
       "alignmentValue": 6
     },
     {
       "key": "Economic Health",
-      "alignmentText": "Low unemployment and stable prices contrast with slow growth and an aging workforce.",
+      "alignmentText": "Low unemployment and manageable inflation support stability, but aging demographics keep growth sluggish for entrepreneurs.",
       "alignmentValue": 6
     },
     {
       "key": "Remote-Friendly Culture",
-      "alignmentText": "Post-pandemic flexibility is improving yet many teams still expect regular office presence.",
+      "alignmentText": "Hybrid policies exist after 2020, yet many teams still default to office-first norms that limit Sarah's preferred remote cadence.",
       "alignmentValue": 4
     },
     {
       "key": "Work-Life Balance",
-      "alignmentText": "Long hours and after-work obligations remain common, challenging Sarah's desire for predictable schedules.",
+      "alignmentText": "After-hours expectations and nomikai culture remain strong, clashing with the family's need for predictable evenings.",
       "alignmentValue": 3
     },
     {
       "key": "Work Week Hours",
-      "alignmentText": "Statutory 40-hour weeks are overshadowed by frequent unpaid overtime for full-time staff.",
+      "alignmentText": "Legal 40-hour weeks are undercut by common unpaid overtime and weekend crunches in tech.",
       "alignmentValue": 3
     },
     {
       "key": "Vacation Days (Minimum)",
-      "alignmentText": "Employees earn 10 days after six months, increasing with tenure but below European norms.",
+      "alignmentText": "Employees accrue 10 paid days after six months and slowly build from there, leaving little buffer for extended US visits.",
       "alignmentValue": 4
     },
     {
       "key": "Vacation Days (Typical)",
-      "alignmentText": "Cultural pressure leads many workers to take only half their accrued leave.",
+      "alignmentText": "Many staff take fewer than 10 days because of workload and team pressure, so unplugged family trips require negotiation.",
       "alignmentValue": 3
     },
     {
       "key": "Pace of Life",
-      "alignmentText": "Tokyo's fast pace contrasts with slower rural regions, requiring careful location choice for a calmer lifestyle.",
-      "alignmentValue": 4
+      "alignmentText": "Urban life oscillates between intense rush hours and quiet neighborhoods, so we would constantly plan downtime to keep Sarah's stress down.",
+      "alignmentValue": 5
     },
     {
       "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Office jobs often run 9–6 plus overtime, while schools operate roughly 8:30–3 with limited aftercare.",
+      "alignmentText": "Schools run roughly 8:30–15:00 while tech jobs stretch past 18:00, forcing us to juggle after-school care or staggered shifts.",
       "alignmentValue": 4
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Weekends are generally free for family outings, though older students may attend cram schools.",
-      "alignmentValue": 5
+      "alignmentText": "Weekends offer museums, festivals, and arcades, yet popular spots book up fast and transit crowds require advance planning.",
+      "alignmentValue": 6
     },
     {
       "key": "Family Life",
-      "alignmentText": "Safe streets and clean public spaces support family activities, yet compact housing limits indoor space.",
+      "alignmentText": "Safe streets and abundant kid amenities support family routines, though long work hours can cut into shared time.",
       "alignmentValue": 6
     },
     {
       "key": "Polyamory",
-      "alignmentText": "Non-monogamous relationships are largely hidden and unsupported by law, requiring discretion.",
+      "alignmentText": "Polyamorous relationships lack legal standing and are kept discreet, limiting the family's social openness.",
       "alignmentValue": 2
     },
     {
       "key": "Parenting Expectations",
-      "alignmentText": "Parents are expected to engage deeply with schools and extracurriculars, especially mothers.",
+      "alignmentText": "Schools expect parents to volunteer, manage homework clubs, and coordinate uniforms, adding cultural homework for newcomers.",
       "alignmentValue": 4
     },
     {
       "key": "Child-Friendliness of Cities",
-      "alignmentText": "Cities offer clean parks and safe transit, though strollers and play space can be tight.",
+      "alignmentText": "Cities provide spotless parks, nursing rooms, and stroller-friendly transit, offset by small housing that limits indoor play.",
       "alignmentValue": 6
     },
     {
       "key": "Schooling Options",
-      "alignmentText": "Public schools are high quality, and international schools exist but carry high tuition.",
+      "alignmentText": "Public schools are high performing and safe, and major metros add international campuses for continuity.",
       "alignmentValue": 7
     },
     {
       "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Nursery schools and kindergartens are common yet have waitlists in major metros.",
-      "alignmentValue": 5
+      "alignmentText": "Municipal daycares exist but waitlists in Tokyo and Osaka push dual-working parents to apply early or use pricier private hoikuen.",
+      "alignmentValue": 6
     },
     {
       "key": "Childcare Support (Citizens)",
-      "alignmentText": "Subsidies help with daycare fees, but availability gaps force some parents to stay home.",
-      "alignmentValue": 5
+      "alignmentText": "Citizens receive subsidies and capped daycare fees, yet limited slots and paperwork still require backups.",
+      "alignmentValue": 6
     },
     {
       "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "Foreign residents can access subsidized care after registration, though paperwork and language add friction.",
-      "alignmentValue": 4
+      "alignmentText": "Registered foreign residents qualify for subsidies after enrolling, but language-heavy forms and guarantor requirements slow access.",
+      "alignmentValue": 5
     },
     {
       "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "Compulsory education offers consistent quality nationwide with extensive extracurricular options.",
+      "alignmentText": "Compulsory schooling delivers consistent quality with safe campuses and strong STEM tracks.",
       "alignmentValue": 7
     },
     {
       "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "Resident visa holders may enroll in public schools, but Japanese language immersion is expected.",
+      "alignmentText": "Resident visa holders can join local schools, though instruction is Japanese-first and supplemental language support is limited.",
       "alignmentValue": 6
     },
     {
       "key": "Private Education",
-      "alignmentText": "International and private academies provide English instruction at premium prices.",
+      "alignmentText": "International schools provide English continuity but command tuition comparable to US private schools.",
       "alignmentValue": 5
     },
     {
       "key": "Family Policy (Citizens)",
-      "alignmentText": "Generous parental leave and child allowances exist, though social norms limit fathers' usage.",
+      "alignmentText": "Parental leave policies and child allowances exist, yet corporate culture discourages fathers from taking the full benefit.",
       "alignmentValue": 6
     },
     {
       "key": "Family Policy (Visa Holders)",
-      "alignmentText": "Most benefits extend to long-term residents, but navigating eligibility requires bureaucratic diligence.",
+      "alignmentText": "Long-term residents can tap leave and allowances, but approvals hinge on employer sponsorship and Japanese filings.",
       "alignmentValue": 5
     },
     {
       "key": "Higher Education Access (Citizens)",
-      "alignmentText": "Universities are respected globally with affordable tuition and strong STEM programs.",
+      "alignmentText": "Prestigious national universities charge modest tuition and offer strong engineering and design pipelines.",
       "alignmentValue": 7
     },
     {
       "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "Foreign students can enroll with visas, though many programs require Japanese proficiency.",
+      "alignmentText": "International programs are growing, though language exams and limited English tracks require early planning.",
       "alignmentValue": 6
     },
     {
       "key": "Gender Roles",
-      "alignmentText": "Traditional expectations persist, with women often handling domestic duties despite rising participation.",
+      "alignmentText": "Workplaces still assume women manage home life, making it harder for Sarah to find egalitarian teams.",
       "alignmentValue": 3
     },
     {
       "key": "Gender Fluidity",
-      "alignmentText": "Non-binary identities gain gradual visibility but face social hesitation and limited legal recognition.",
+      "alignmentText": "Non-binary visibility is increasing in cities, yet legal recognition and workplace comfort lag behind family expectations.",
       "alignmentValue": 3
     },
     {
       "key": "Gender Rights",
-      "alignmentText": "Legal equality exists, yet wage gaps and political underrepresentation remain significant.",
+      "alignmentText": "Legal protections exist on paper, but political representation and pay equity trail progressive benchmarks.",
       "alignmentValue": 5
     },
     {
       "key": "Femininity Norms",
-      "alignmentText": "Beauty standards emphasize modesty and cute fashion, which can constrain self-expression.",
+      "alignmentText": "Kawaii aesthetics and modest dress codes dominate, which may feel restrictive for Sarah's style.",
       "alignmentValue": 3
     },
     {
       "key": "Masculinity Norms",
-      "alignmentText": "Salaryman dedication and emotional restraint define mainstream male expectations.",
+      "alignmentText": "Salaryman expectations prize long hours and stoicism, pressuring Trey to conform in traditional firms.",
       "alignmentValue": 4
     },
     {
       "key": "What Is Intriguing",
-      "alignmentText": "Rich gaming culture, safety, and mix of tradition with high-tech lifestyles appeal to the family's interests.",
+      "alignmentText": "Cutting-edge tech, safety, and vibrant pop culture align with the family's creative hobbies and game interests.",
       "alignmentValue": 7
     },
     {
       "key": "Language & English Ubiquity",
-      "alignmentText": "English is studied but spoken proficiency is limited outside major tourist zones, challenging daily life.",
+      "alignmentText": "English signage helps in tourist zones, but daily bureaucracy and most workplaces operate in Japanese, requiring study.",
       "alignmentValue": 4
     },
     {
       "key": "Progressivism",
-      "alignmentText": "Urban centers lean socially liberal while national politics remain centrist with conservative streaks.",
+      "alignmentText": "Urban governments champion inclusivity more than national politics, so progressive change moves in incremental steps.",
       "alignmentValue": 5
     },
     {
       "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "Leftist parties exist but command little influence in a market-oriented society.",
+      "alignmentText": "Leftist parties exist but remain minority voices, yielding modest support for socialist policies.",
       "alignmentValue": 4
     },
     {
       "key": "Atheism",
-      "alignmentText": "Many residents are secular or blend Shinto-Buddhist traditions without strong religious obligations.",
+      "alignmentText": "Most residents engage in secular rituals without dogma, matching the family's preference for low religious pressure.",
       "alignmentValue": 7
     },
     {
       "key": "Sex (Attitudes)",
-      "alignmentText": "Public discourse stays conservative despite a robust private industry, offering little openness for poly families.",
+      "alignmentText": "Public conversation stays conservative and sex education is limited, despite a robust private adult industry.",
       "alignmentValue": 3
     },
     {
       "key": "LGBTQ+ Attitudes",
-      "alignmentText": "Visibility is increasing in cities but national law still lacks marriage equality or broad protections.",
+      "alignmentText": "Major cities host Pride events, yet national law still lacks marriage equality and rural acceptance lags.",
       "alignmentValue": 4
     },
     {
       "key": "Community Vibes",
-      "alignmentText": "Neighborhoods are polite and orderly, yet breaking into social circles takes time and language effort.",
-      "alignmentValue": 5
+      "alignmentText": "Neighborhoods are polite and safe, but making deep friendships takes time and Japanese fluency.",
+      "alignmentValue": 4
     },
     {
       "key": "View of self",
-      "alignmentText": "A collectivist ethos encourages fitting in and avoiding disruption, which can constrain individual expression.",
+      "alignmentText": "Collectivist norms encourage humility and fitting in, which may challenge the family's desire for direct feedback.",
       "alignmentValue": 4
     },
     {
       "key": "View of Neighboring Countries",
-      "alignmentText": "Historical disputes fuel cool relations with China and Korea despite economic interdependence.",
+      "alignmentText": "Historical tensions with China and Korea flare periodically, though day-to-day interactions stay cordial.",
       "alignmentValue": 4
     },
     {
       "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Neighbors respect Japan's economy but harbor lingering resentment over wartime history.",
-      "alignmentValue": 4
+      "alignmentText": "Japan's defense posture and history still draw criticism from neighbors, affecting regional sentiment.",
+      "alignmentValue": 3
     },
     {
       "key": "Nightlife Culture",
-      "alignmentText": "Karaoke, izakaya, and arcades keep cities lively late into the night for adults and teens.",
+      "alignmentText": "Late-night trains, izakaya, karaoke, and arcades keep city nightlife lively for adults once childcare is arranged.",
       "alignmentValue": 7
     },
     {
       "key": "Fashion Trends (Male)",
-      "alignmentText": "Streetwear and tailored suits coexist, allowing Trey to blend casual and professional styles.",
+      "alignmentText": "Men's fashion swings between tailored suits and streetwear, so Trey can blend in whether commuting or networking.",
       "alignmentValue": 5
     },
     {
       "key": "Fashion Trends (Female)",
-      "alignmentText": "From minimalist to kawaii, women's fashion spans many niches but leans toward conservative office wear.",
+      "alignmentText": "Women's styles range from minimalist to kawaii, offering Sarah creative options if she navigates modest dress codes.",
       "alignmentValue": 6
     },
     {
       "key": "Common Hobbies",
-      "alignmentText": "Anime, gaming, hiking, and seasonal festivals offer plenty of family-friendly pastimes.",
+      "alignmentText": "Gaming, anime, seasonal travel, and craft clubs align with the family's interests and offer ready-made communities.",
       "alignmentValue": 6
     },
     {
       "key": "Boardgaming & Tabletop",
-      "alignmentText": "Niche communities and cafes exist in major cities, though the scene is smaller than in the US.",
+      "alignmentText": "Board game cafes operate in major cities, but many events run in Japanese, so participation may need translation.",
       "alignmentValue": 5
     },
     {
       "key": "Nightlife & Music",
-      "alignmentText": "Live houses and clubs in Tokyo and Osaka support diverse music scenes for occasional date nights.",
+      "alignmentText": "Tokyo and Osaka deliver dense live-music scenes, game bars, and festivals that suit Trey's creative networking.",
       "alignmentValue": 7
     },
     {
       "key": "Meetups & Communities",
-      "alignmentText": "Tech and language meetups are common but often conducted in Japanese, which may slow integration.",
-      "alignmentValue": 5
+      "alignmentText": "Tech and language meetups abound, yet conversations lean Japanese-first, requiring extra effort to fully engage.",
+      "alignmentValue": 4
     },
     {
       "key": "Nature Access",
-      "alignmentText": "Efficient rail links put mountains, hot springs, and coastal trails within a few hours of major cities.",
+      "alignmentText": "Rail passes unlock mountains, ski towns, and coasts within a few hours, keeping weekend adventures easy.",
       "alignmentValue": 7
     },
     {
       "key": "Political System",
-      "alignmentText": "A parliamentary democracy under a constitutional monarchy provides stable, rule-of-law governance.",
+      "alignmentText": "A constitutional monarchy with regular elections maintains democratic norms important to the family.",
       "alignmentValue": 7
     },
     {
       "key": "Religion in Politics",
-      "alignmentText": "Secular governance keeps religion largely separate from policymaking.",
-      "alignmentValue": 7
+      "alignmentText": "Religion rarely shapes policy debates, keeping governance largely secular as the family prefers.",
+      "alignmentValue": 8
     },
     {
       "key": "Workers' Rights",
-      "alignmentText": "Labor laws mandate overtime pay and leave, yet social pressure discourages exercising them.",
-      "alignmentValue": 5
+      "alignmentText": "Labor laws promise overtime pay and leave, but weak enforcement and social pressure undercut protections.",
+      "alignmentValue": 4
     },
     {
       "key": "State Ideology",
-      "alignmentText": "Centrist politics blend capitalism with social safety nets, aligning moderately with the family's values.",
+      "alignmentText": "Centrist coalitions favor market stability with social insurance, offering predictability without radical swings.",
       "alignmentValue": 6
     },
     {
       "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Independent courts and media keep backsliding risk low despite ruling-party dominance.",
+      "alignmentText": "Independent courts and media plus international alliances keep institutions steady despite ruling-party dominance.",
       "alignmentValue": 7
     },
     {
       "key": "State of Capitalism",
-      "alignmentText": "Highly developed markets offer consumer choice but foster workaholic expectations.",
+      "alignmentText": "A mature market economy offers consumer choice yet still favors keiretsu over scrappy startups.",
       "alignmentValue": 6
     },
     {
       "key": "Stability",
-      "alignmentText": "Japan enjoys long-term political and social stability with minimal unrest.",
+      "alignmentText": "Crime and political unrest stay low, supporting long-term planning and the kids' schooling continuity.",
       "alignmentValue": 8
     },
     {
       "key": "Propaganda Prevalence",
-      "alignmentText": "Media is mostly independent, though government messaging highlights national pride and disaster readiness.",
+      "alignmentText": "Media is largely independent, though government disaster messaging is coordinated and omnipresent.",
       "alignmentValue": 7
     },
     {
       "key": "Propaganda Messaging",
-      "alignmentText": "Themes stress resilience and cultural heritage, rarely pushing hardline ideology.",
+      "alignmentText": "Official communications emphasize resilience, safety drills, and national unity more than overt ideology.",
       "alignmentValue": 6
     },
     {
       "key": "Social Policies",
-      "alignmentText": "Universal health care and pensions provide a solid safety net but struggle with aging demographics.",
+      "alignmentText": "Universal health care and pensions provide a safety net, but child benefits lag Scandinavian standards.",
       "alignmentValue": 6
     },
     {
       "key": "Trust in Government",
-      "alignmentText": "Citizens show moderate trust, tempered by periodic political scandals.",
+      "alignmentText": "Public trust is moderate: scandals surface, yet agencies generally deliver services competently.",
       "alignmentValue": 6
     },
     {
       "key": "Perceived Corruption",
-      "alignmentText": "Corruption is relatively rare and often exposed quickly in the press.",
+      "alignmentText": "Corruption cases are infrequent and often investigated, supporting the family's desire for rule of law.",
       "alignmentValue": 7
     },
     {
       "key": "Type of Corruption",
-      "alignmentText": "When present, issues involve political factions, bid-rigging, or cozy bureaucratic ties.",
+      "alignmentText": "When corruption appears, it centers on factional favoritism or bid-rigging rather than street-level bribery.",
       "alignmentValue": 5
     },
     {
       "key": "Housing Situation",
-      "alignmentText": "Tokyo's housing is expensive and compact, pushing families toward suburbs for space.",
+      "alignmentText": "Urban housing is compact and pricey; larger family units near good schools require high rents or suburban commutes.",
       "alignmentValue": 4
     },
     {
       "key": "Safety & Crime",
-      "alignmentText": "Extremely low violent crime and kids walking to school make for peace of mind.",
+      "alignmentText": "Extremely low violent crime lets the kids navigate transit independently once older.",
       "alignmentValue": 9
     },
     {
       "key": "Healthcare (Citizens)",
-      "alignmentText": "Universal insurance delivers affordable care with short wait times.",
+      "alignmentText": "Universal insurance keeps doctor visits affordable with short waits, even for specialists.",
       "alignmentValue": 8
     },
     {
       "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Registered residents join the national plan at reasonable premiums, ensuring accessible treatment.",
+      "alignmentText": "Foreign residents join national insurance after registering, though English-speaking providers can be scarce.",
       "alignmentValue": 7
     },
     {
       "key": "Child Care Support",
-      "alignmentText": "Child allowances and municipal daycares help, yet slots are limited in urban centers.",
+      "alignmentText": "Monthly child allowances and daycare subsidies exist, yet long hours and waitlists limit how much support feels usable.",
       "alignmentValue": 5
     },
     {
       "key": "Family Policy (Common Family)",
-      "alignmentText": "Benefits exist but demanding work culture leaves little time for family engagement.",
-      "alignmentValue": 5
+      "alignmentText": "Benefits exist on paper, but workplace expectations and small apartments make it hard for a typical family to recharge.",
+      "alignmentValue": 4
     },
     {
       "key": "Education",
-      "alignmentText": "High-performing schools emphasize discipline and academics, potentially stressful for some children.",
+      "alignmentText": "Academic outcomes are strong with safe campuses, but pressure-heavy culture may require balancing activities for the kids.",
       "alignmentValue": 7
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "World-class trains and subways offer car-free living across major cities and regions.",
+      "alignmentText": "High-frequency trains, shinkansen links, and IC-card access make car-free living realistic even with children.",
       "alignmentValue": 9
     },
     {
       "key": "Economic System",
-      "alignmentText": "A mature market economy supports entrepreneurial ventures but favors established corporations.",
-      "alignmentValue": 7
+      "alignmentText": "A stable market economy ensures reliable services, yet bureaucracy and keiretsu dominance can slow indie ventures.",
+      "alignmentValue": 6
     },
     {
       "key": "How Taxes Are Handled",
-      "alignmentText": "Income taxes are withheld by employers and combined with 10% consumption tax, requiring annual filings for some.",
+      "alignmentText": "Employers withhold income tax and file year-end adjustments, but freelancers must navigate Japanese-only e-tax portals.",
       "alignmentValue": 6
     },
     {
       "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "Middle-income households face roughly 20–30% combined national and local income taxes.",
+      "alignmentText": "Combined national and local taxes plus social insurance usually land near 22–28% for a dual tech household.",
       "alignmentValue": 5
     },
     {
       "key": "Banking & Payments",
-      "alignmentText": "Modern banking coexists with a cash culture, though contactless cards like Suica ease daily spending.",
+      "alignmentText": "Cash remains common for rent and clinics, yet IC cards and online banking cover most daily spending once accounts are set up.",
       "alignmentValue": 6
     },
     {
       "key": "Cost of Living (Optional)",
-      "alignmentText": "Tokyo ranks among the world's pricier cities, stretching budgets for housing and childcare.",
+      "alignmentText": "Tokyo's rents, childcare fees, and imported groceries stretch budgets unless the family embraces smaller spaces.",
       "alignmentValue": 3
     },
     {
       "key": "Retirement (Citizens)",
-      "alignmentText": "Public pensions provide modest support but are strained by an aging society.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "Contributors can claim pensions after long residency or receive partial refunds upon leaving.",
+      "alignmentText": "National pensions provide modest stipends that need private savings as the population ages.",
       "alignmentValue": 5
     },
     {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "Visa holders earn pension credits but must stay long-term to benefit; otherwise only partial lump-sum refunds apply.",
+      "alignmentValue": 4
+    },
+    {
       "key": "Visa Paths",
-      "alignmentText": "Options include skilled worker, highly skilled, startup, and cultural visas, each with clear criteria.",
+      "alignmentText": "Skilled worker, highly-skilled points, and startup visas are available with clear criteria but high documentation burdens.",
       "alignmentValue": 5
     },
     {
       "key": "Welcoming of US Migrants",
-      "alignmentText": "Immigration is managed cautiously but Americans with skills generally face neutral reception.",
-      "alignmentValue": 5
+      "alignmentText": "Immigration officers stay polite yet formal; American talent is accepted professionally but social integration takes work.",
+      "alignmentValue": 4
     },
     {
       "key": "Residency Types & Durations",
-      "alignmentText": "Work visas run 1–5 years, and permanent residency is possible after roughly a decade or via points system.",
+      "alignmentText": "Work visas span 1–5 years and permanent residency is possible in 5–10 years with stable income.",
       "alignmentValue": 6
     },
     {
       "key": "Path to Citizenship",
-      "alignmentText": "Naturalization typically requires five years' residence and renouncing prior citizenship.",
-      "alignmentValue": 4
+      "alignmentText": "Naturalization is doable after five years with language interviews but requires renouncing US citizenship.",
+      "alignmentValue": 6
     },
     {
       "key": "Family Members",
-      "alignmentText": "Spouses and children can obtain dependent visas tied to the primary applicant's status.",
+      "alignmentText": "Spouses and dependent kids receive linked visas with school access, while extended relatives face steeper barriers.",
       "alignmentValue": 7
     },
     {
       "key": "Timelines & Costs",
-      "alignmentText": "Processing takes several months with moderate fees, demanding detailed documentation.",
+      "alignmentText": "Applications take several months and require translations, guarantors, and moderate fees that we must budget.",
       "alignmentValue": 5
     },
     {
       "key": "Compliance & Risks",
-      "alignmentText": "Strict rules on work activity and address reporting mean lapses can jeopardize status quickly.",
+      "alignmentText": "Strict reporting rules on address changes and employment mean administrative slip-ups can jeopardize status.",
       "alignmentValue": 4
     },
     {
       "key": "Dual Citizenship Allowed",
-      "alignmentText": "Japan generally requires renouncing other nationalities upon naturalization, limiting flexibility.",
+      "alignmentText": "Japan expects naturalized citizens to drop other passports, limiting flexibility for the kids.",
       "alignmentValue": 2
     },
     {
       "key": "General Considerations for Visa Holders",
-      "alignmentText": "Securing housing often needs a local guarantor, and some benefits hinge on Japanese-language paperwork.",
+      "alignmentText": "Securing housing and phones often needs a guarantor and Japanese contracts, so we'd lean on local partners.",
       "alignmentValue": 4
     },
     {
       "key": "Game Dev Work Prospects",
-      "alignmentText": "Home to Nintendo and Sony, Japan offers robust game industry jobs for those with language skills.",
+      "alignmentText": "Nintendo, Sony, and a strong mobile sector offer plentiful roles for experienced developers with some Japanese.",
       "alignmentValue": 7
     },
     {
       "key": "Notable Game Studios",
-      "alignmentText": "Major players include Nintendo (Kyoto), Sony Interactive (Tokyo), Square Enix (Tokyo), and Capcom (Osaka).",
+      "alignmentText": "Heavyweights like Nintendo, Sony, Square Enix, Sega, and Capcom anchor thriving hubs across Tokyo, Osaka, and Kyoto.",
       "alignmentValue": 8
     },
     {
       "key": "Notable Game Development Communities",
-      "alignmentText": "Groups like Tokyo Indies and Kyoto's dev meetups provide networking though mostly in Japanese.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Startup visas in cities like Fukuoka and Tokyo aid entrepreneurs, but high costs and language barriers persist.",
+      "alignmentText": "Meetups such as Tokyo Indies exist but run mostly in Japanese, limiting casual networking until we build fluency.",
       "alignmentValue": 5
     },
     {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Startup visas in places like Fukuoka help, yet high costs, local investors favoring proven teams, and language-heavy paperwork raise the bar.",
+      "alignmentValue": 4
+    },
+    {
       "key": "Modernity & Infrastructure",
-      "alignmentText": "High-speed internet, bullet trains, and efficient e-government services showcase cutting-edge infrastructure.",
+      "alignmentText": "Bullet trains, resilient power grids, and fast fiber connections meet the family's need for reliable modern infrastructure.",
       "alignmentValue": 9
     }
   ]
