@@ -20,7 +20,7 @@ Perform the following loop for every `Key` (use the worksheet order to avoid ski
 
 1. **Interpret the rating guide.** Read the 1–10 descriptions for the `Key`. Identify the two closest ratings that bracket the country’s real situation; interpolate if necessary.
 2. **Cross-check with the family profile.** Confirm the new score honors the family’s needs (e.g., progressive politics, childcare, entrepreneurship). If the profile elevates a topic, lean conservative unless evidence is very strong.
-3. **Adjust the score.** Set `alignmentValue` to the rating that best fits both the guide and the family’s priorities. Use integers 1–10; use `0` only when you truly have insufficient data (leave the text empty in that case). Avoid `-1` unless you are intentionally marking “Unknown”.
+3. **Adjust the score.** Set `alignmentValue` to the rating that best fits both the guide and the family’s priorities. Make the call on the number before you touch the write-up—if the prior value still fits, note that in your worksheet; if it does not, update the number even if the text will need heavier editing to match. Use integers 1–10; use `0` only when you truly have insufficient data (leave the text empty in that case). Avoid `-1` unless you are intentionally marking “Unknown”.
 4. **Rewrite the justification.** Craft 1–2 concise sentences for `alignmentText` that:
    - Reference the family’s needs (“polyamory-positive communities”, “quality public schools”, etc.).
    - Cite concrete factors or trade-offs. Mention sourcing context in plain language; add short Markdown links only when necessary.
