@@ -580,7 +580,21 @@
     },
     {
       "name": "Norway",
-      "file": "reports/norway_report.json"
+      "file": "reports/norway_report.json",
+      "cities": [
+        {
+          "name": "Bergen",
+          "file": "reports/norway_bergen_report.json"
+        },
+        {
+          "name": "Oslo",
+          "file": "reports/norway_oslo_report.json"
+        },
+        {
+          "name": "Trondheim",
+          "file": "reports/norway_trondheim_report.json"
+        }
+      ]
     },
     {
       "name": "Japan",
