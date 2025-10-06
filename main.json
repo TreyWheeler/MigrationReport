@@ -606,7 +606,25 @@
     },
     {
       "name": "Belgium",
-      "file": "reports/belgium_report.json"
+      "file": "reports/belgium_report.json",
+      "cities": [
+        {
+          "name": "Brussels",
+          "file": "reports/belgium_brussels_report.json"
+        },
+        {
+          "name": "Ghent",
+          "file": "reports/belgium_ghent_report.json"
+        },
+        {
+          "name": "Leuven",
+          "file": "reports/belgium_leuven_report.json"
+        },
+        {
+          "name": "Antwerp",
+          "file": "reports/belgium_antwerp_report.json"
+        }
+      ]
     },
     {
       "name": "Finland",
