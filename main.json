@@ -682,7 +682,25 @@
     },
     {
       "name": "Australia",
-      "file": "reports/australia_report.json"
+      "file": "reports/australia_report.json",
+      "cities": [
+        {
+          "name": "Melbourne",
+          "file": "reports/australia_melbourne_report.json"
+        },
+        {
+          "name": "Sydney",
+          "file": "reports/australia_sydney_report.json"
+        },
+        {
+          "name": "Adelaide",
+          "file": "reports/australia_adelaide_report.json"
+        },
+        {
+          "name": "Hobart",
+          "file": "reports/australia_hobart_report.json"
+        }
+      ]
     },
     {
       "name": "Austria",
