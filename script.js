@@ -27,7 +27,7 @@ function renderEmptyReportState() {
   wrap.appendChild(heading);
 
   const message = document.createElement('p');
-  message.textContent = 'Select up to four countries or cities from the list to build a migration comparison report.';
+  message.textContent = 'Select up to three countries or cities from the list to build a migration comparison report.';
   wrap.appendChild(message);
 
   const hint = document.createElement('p');
@@ -51,7 +51,7 @@ function loadSelectedFromStorage(nodesMap) {
   const result = [];
   saved.forEach(f => {
     if (!nodesMap || typeof nodesMap.get !== 'function') return;
-    if (nodesMap.has(f) && result.length < 4) {
+    if (nodesMap.has(f) && result.length < 3) {
       result.push(nodesMap.get(f));
     }
   });
@@ -677,8 +677,8 @@ function toggleSelectNode(item, notice) {
     appState.selected.splice(idx, 1);
     if (notice) notice.textContent = '';
   } else {
-    if (appState.selected.length >= 4) {
-      if (notice) notice.textContent = 'Limited to 4 selections; deselect one to add more.';
+    if (appState.selected.length >= 3) {
+      if (notice) notice.textContent = 'Limited to 3 selections; deselect one to add more.';
       return;
     }
     appState.selected.push(item);
