@@ -1,4 +1,4 @@
-const appState = { items: [], selected: [] };
+const appState = { countries: [], selected: [], nodesByFile: new Map() };
 
 function saveSelectedToStorage() {
   try {
@@ -7,12 +7,16 @@ function saveSelectedToStorage() {
   } catch {}
 }
 
-function loadSelectedFromStorage(items) {
+function loadSelectedFromStorage(nodesMap) {
   const saved = getStored('selectedCountries', null);
   if (!Array.isArray(saved) || saved.length === 0) return [];
-  const byFile = new Map(items.map(it => [it.file, it]));
   const result = [];
-  saved.forEach(f => { if (byFile.has(f) && result.length < 4) result.push(byFile.get(f)); });
+  saved.forEach(f => {
+    if (!nodesMap || typeof nodesMap.get !== 'function') return;
+    if (nodesMap.has(f) && result.length < 4) {
+      result.push(nodesMap.get(f));
+    }
+  });
   return result;
 }
 
@@ -24,10 +28,29 @@ async function loadMain() {
   // Initialize UI preferences and toggles
   initUiPreferences();
 
-  // Build items for custom list (sorted by name)
-  appState.items = mainData.Countries
-    .map(c => ({ name: c.name, file: c.file, iso: '' }))
-    .sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
+  const countries = Array.isArray(mainData.Countries) ? mainData.Countries.map(c => {
+    const country = { name: c.name, file: c.file, iso: '', type: 'country', expanded: false, cities: [] };
+    const cityList = Array.isArray(c.cities) ? c.cities : [];
+    country.cities = cityList.map(city => ({
+      name: city.name,
+      file: city.file,
+      iso: '',
+      type: 'city',
+      parentCountry: country,
+    })).sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
+    if (country.cities.length > 0) country.expanded = true;
+    return country;
+  }) : [];
+
+  countries.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
+  appState.countries = countries;
+  appState.nodesByFile = new Map();
+  countries.forEach(country => {
+    appState.nodesByFile.set(country.file, country);
+    (country.cities || []).forEach(city => {
+      appState.nodesByFile.set(city.file, city);
+    });
+  });
 
   // Setup sort dropdown (adds person options and reads stored preference)
   try { setupCountrySortControls(mainData, listEl, notice); } catch {}
@@ -38,26 +61,37 @@ async function loadMain() {
     if (s && s.value && s.value !== 'alpha') {
       await applyCountrySort(mainData, listEl, notice);
     } else {
-      renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
+      renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
     }
   } catch {
-    renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
+    renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
   }
   // Restore previously selected countries or default to first
-  const restored = loadSelectedFromStorage(appState.items);
+  const restored = loadSelectedFromStorage(appState.nodesByFile);
   if (restored.length > 0) {
     appState.selected = restored;
-  } else if (appState.items.length > 0) {
-    appState.selected = [appState.items[0]];
+  } else if (appState.countries.length > 0) {
+    appState.selected = [appState.countries[0]];
   }
   updateCountryListSelection(listEl);
   onSelectionChanged(mainData, notice);
   // Enrich with ISO in the background and refresh flags
   try {
-    await Promise.all(appState.items.map(async it => {
-      try { const data = await fetchCountry(it.file); if (data && data.iso) it.iso = String(data.iso); } catch {}
+    const allNodes = [];
+    appState.countries.forEach(country => {
+      allNodes.push(country);
+      (country.cities || []).forEach(city => allNodes.push(city));
+    });
+    await Promise.all(allNodes.map(async node => {
+      try {
+        const data = await fetchCountry(node.file);
+        if (data && data.iso && !node.iso) node.iso = String(data.iso);
+        if (!node.metrics) {
+          node.metrics = computeRoundedMetrics(data, mainData);
+        }
+      } catch {}
     }));
-    renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
+    renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
     updateCountryListSelection(listEl);
   } catch {}
 
@@ -186,19 +220,23 @@ function computeCountryScoresForSorting(countryData, mainData, peopleList) {
   return { overall, personTotals, allAvg };
 }
 
-async function ensureCountryMetrics(item, mainData) {
-  if (item.metrics) return item.metrics;
-  const data = await fetchCountry(item.file);
-  if (data && data.iso && !item.iso) item.iso = String(data.iso);
-  const m = computeCountryScoresForSorting(data, mainData, getEffectivePeople(mainData));
-  // Normalize to 1 decimal to match chips
+function computeRoundedMetrics(countryData, mainData) {
+  const m = computeCountryScoresForSorting(countryData, mainData, getEffectivePeople(mainData));
   const round1 = (x) => isFinite(x) ? Number(x.toFixed(1)) : NaN;
   const metrics = {
     overall: round1(m.overall),
     allAvg: round1(m.allAvg),
-    personTotals: {}
+    personTotals: {},
   };
   Object.keys(m.personTotals || {}).forEach(name => { metrics.personTotals[name] = round1(m.personTotals[name]); });
+  return metrics;
+}
+
+async function ensureReportMetrics(item, mainData) {
+  if (item.metrics) return item.metrics;
+  const data = await fetchCountry(item.file);
+  if (data && data.iso && !item.iso) item.iso = String(data.iso);
+  const metrics = computeRoundedMetrics(data, mainData);
   item.metrics = metrics;
   return metrics;
 }
@@ -207,22 +245,22 @@ async function applyCountrySort(mainData, listEl, notice) {
   const sel = document.getElementById('countrySort');
   if (!sel) return;
   const mode = sel.value || 'alpha';
-  const items = appState.items.slice();
+  const items = appState.countries.slice();
 
   function byName(a,b){ return a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }); }
   function descNum(a,b){ return (b - a); }
 
   if (mode === 'alpha') {
     items.sort(byName);
-    appState.items = items;
-    renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
+    appState.countries = items;
+    renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
     updateCountryListSelection(listEl);
     return;
   }
 
   // For numeric sorts, compute metrics first
   try {
-    await Promise.all(items.map(it => ensureCountryMetrics(it, mainData)));
+    await Promise.all(items.map(it => ensureReportMetrics(it, mainData)));
   } catch {}
 
   if (mode === 'alignment') {
@@ -249,8 +287,8 @@ async function applyCountrySort(mainData, listEl, notice) {
     });
   }
 
-  appState.items = items;
-  renderCountryList(listEl, appState.items, notice, () => onSelectionChanged(mainData, notice));
+  appState.countries = items;
+  renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
   updateCountryListSelection(listEl);
 }
 
@@ -298,42 +336,69 @@ function onSelectionChanged(mainData, notice) {
   renderComparison(selected, mainData, { diffEnabled: getStored('diffEnabled', false), restoreScroll });
 }
 
-function renderCountryList(listEl, items, notice, onChange) {
+function renderCountryList(listEl, countries, notice, onChange) {
   if (!listEl) return;
   listEl.innerHTML = '';
-  items.forEach(it => {
-    const row = document.createElement('div');
-    row.className = 'country-item';
-    row.setAttribute('role', 'option');
-    row.dataset.file = it.file;
-    row.dataset.name = it.name;
-    row.dataset.iso = it.iso || '';
-    if (it.iso) {
-      const img = createFlagImg(it.iso, 18);
-      if (img) row.appendChild(img);
+  countries.forEach(country => {
+    const group = document.createElement('div');
+    group.className = 'country-group';
+    if ((country.cities || []).length > 0) {
+      group.classList.toggle('expanded', !!country.expanded);
+      group.classList.toggle('collapsed', !country.expanded);
     }
-    const nameSpan = document.createElement('span');
-    nameSpan.className = 'name';
-    nameSpan.textContent = it.name;
-    row.appendChild(nameSpan);
 
-    // Optional right-aligned chip depending on current sort mode
-    try {
-      const chipWrap = buildCountryListChip(it);
-      if (chipWrap) row.appendChild(chipWrap);
-    } catch {}
+    const countryRow = buildTreeRow(country, { listEl, notice, onChange });
+    countryRow.classList.add('country-node');
 
-    row.addEventListener('click', () => {
-      toggleSelectCountry(it, notice);
-      updateCountryListSelection(listEl);
-      onChange && onChange();
-    });
+    let cityList = null;
+    if ((country.cities || []).length > 0) {
+      const toggle = document.createElement('button');
+      toggle.type = 'button';
+      toggle.className = 'tree-toggle';
+      if (typeof country.expanded !== 'boolean') {
+        country.expanded = true;
+      }
 
-    listEl.appendChild(row);
+      const updateToggle = () => {
+        toggle.textContent = country.expanded ? '▾' : '▸';
+        toggle.setAttribute('aria-label', `${country.expanded ? 'Collapse' : 'Expand'} ${country.name}`);
+        toggle.setAttribute('aria-expanded', country.expanded ? 'true' : 'false');
+      };
+      updateToggle();
+      toggle.addEventListener('click', ev => {
+        ev.stopPropagation();
+        country.expanded = !country.expanded;
+        group.classList.toggle('expanded', country.expanded);
+        group.classList.toggle('collapsed', !country.expanded);
+        if (cityList) {
+          cityList.hidden = !country.expanded;
+          cityList.style.display = country.expanded ? 'flex' : 'none';
+        }
+        updateToggle();
+      });
+      countryRow.prepend(toggle);
+    }
+
+    group.appendChild(countryRow);
+
+    if ((country.cities || []).length > 0) {
+      cityList = document.createElement('div');
+      cityList.className = 'city-list';
+      cityList.hidden = !country.expanded;
+      cityList.style.display = country.expanded ? 'flex' : 'none';
+      country.cities.forEach(city => {
+        const cityRow = buildTreeRow(city, { listEl, notice, onChange });
+        cityRow.classList.add('city-node');
+        cityList.appendChild(cityRow);
+      });
+      group.appendChild(cityList);
+    }
+
+    listEl.appendChild(group);
   });
 }
 
-function buildCountryListChip(item) {
+function buildTreeNodeChip(item) {
   const sel = document.getElementById('countrySort');
   if (!sel) return null;
   const mode = sel.value || 'alpha';
@@ -359,26 +424,66 @@ function buildCountryListChip(item) {
 
 function updateCountryListSelection(listEl) {
   const selectedFiles = new Set(appState.selected.map(s => s.file));
-  Array.from(listEl.children).forEach(child => {
-    if (!(child instanceof HTMLElement)) return;
-    const isSel = selectedFiles.has(child.dataset.file);
-    child.classList.toggle('selected', isSel);
-    child.setAttribute('aria-selected', isSel ? 'true' : 'false');
+  const nodes = listEl.querySelectorAll('[data-file]');
+  nodes.forEach(node => {
+    if (!(node instanceof HTMLElement)) return;
+    const isSel = selectedFiles.has(node.dataset.file);
+    node.classList.toggle('selected', isSel);
+    node.setAttribute('aria-selected', isSel ? 'true' : 'false');
   });
 }
 
-function toggleSelectCountry(item, notice) {
+function buildTreeRow(item, ctx) {
+  const { listEl, notice, onChange } = ctx || {};
+  const row = document.createElement('div');
+  row.className = 'country-item';
+  if (item.type === 'city') {
+    row.classList.add('city-item');
+  } else {
+    row.classList.add('country-item-root');
+  }
+  row.setAttribute('role', 'option');
+  row.dataset.file = item.file;
+  row.dataset.name = item.name;
+  row.dataset.iso = item.iso || '';
+  row.dataset.type = item.type || '';
+
+  if (item.type === 'country' && item.iso) {
+    const img = createFlagImg(item.iso, 18);
+    if (img) row.appendChild(img);
+  }
+
+  const nameSpan = document.createElement('span');
+  nameSpan.className = 'name';
+  nameSpan.textContent = item.name;
+  row.appendChild(nameSpan);
+
+  try {
+    const chipWrap = buildTreeNodeChip(item);
+    if (chipWrap) row.appendChild(chipWrap);
+  } catch {}
+
+  row.addEventListener('click', () => {
+    toggleSelectNode(item, notice);
+    updateCountryListSelection(listEl);
+    onChange && onChange();
+  });
+
+  return row;
+}
+
+function toggleSelectNode(item, notice) {
   const idx = appState.selected.findIndex(s => s.file === item.file);
   if (idx >= 0) {
     appState.selected.splice(idx, 1);
-    notice.textContent = '';
+    if (notice) notice.textContent = '';
   } else {
     if (appState.selected.length >= 4) {
-      notice.textContent = 'Limited to 4 countries; deselect one to add more.';
+      if (notice) notice.textContent = 'Limited to 4 countries; deselect one to add more.';
       return;
     }
     appState.selected.push(item);
-    notice.textContent = '';
+    if (notice) notice.textContent = '';
   }
   saveSelectedToStorage();
 }
@@ -943,7 +1048,14 @@ function getEffectivePeople(mainData) {
 }
 
 function invalidateCountryMetricsCache() {
-  try { (appState.items || []).forEach(it => { if (it) delete it.metrics; }); } catch {}
+  try {
+    (appState.countries || []).forEach(country => {
+      if (country) {
+        delete country.metrics;
+        (country.cities || []).forEach(city => { if (city) delete city.metrics; });
+      }
+    });
+  } catch {}
 }
 
 function openWeightsDialog(mainData) {
