@@ -355,12 +355,15 @@ function renderCountryList(listEl, countries, notice, onChange) {
       const toggle = document.createElement('button');
       toggle.type = 'button';
       toggle.className = 'tree-toggle';
+      if (typeof country.expanded !== 'boolean') {
+        country.expanded = true;
+      }
+
       const updateToggle = () => {
         toggle.textContent = country.expanded ? '▾' : '▸';
         toggle.setAttribute('aria-label', `${country.expanded ? 'Collapse' : 'Expand'} ${country.name}`);
         toggle.setAttribute('aria-expanded', country.expanded ? 'true' : 'false');
       };
-      country.expanded = country.expanded !== false; // default to expanded when undefined
       updateToggle();
       toggle.addEventListener('click', ev => {
         ev.stopPropagation();

@@ -4,9 +4,9 @@ This SOP is optimized for LLM agents that need to refresh an existing country re
 
 ## 0. Load Context Once
 1. Open `family_profile.json` to anchor every judgement in the household’s priorities, deal-breakers, and weighting (`evaluation_weights_0_to_5`).
-2. Open `main.json` and list every `Key` under `Categories`; this is the authoritative checklist of fields you must keep in the report.
+2. Open `main.json` and list every `Key` under `Categories`; this is the authoritative checklist of fields you must keep in the report. If you are adding or revising a **city** report, also note the parent country entry because the city reference belongs in that country’s `cities` array.
 3. Open `rating_guides.json` and locate the section for each `Key`. This file defines what every score from 1–10 should mean; use it to calibrate your revisions.
-4. Open the target country file inside `reports/` (e.g., `reports/portugal_report.json`). Copy its current structure locally so you can compare old vs. new entries as you revise.
+4. Open the target country file inside `reports/` (e.g., `reports/portugal_report.json`). For city work, open the specific city file (e.g., `reports/germany_munich_report.json`) alongside the parent so you can mirror structure and tone.
 
 > **Do not** move forward until you have all four files loaded. They are the only sources you need for the update.
 
@@ -55,6 +55,7 @@ Example structure after updates:
 
 ## 5. Update Metadata (if needed)
 - `main.json` already lists the country. Only edit it if the filename changed (it shouldn’t in an update). If you touched `main.json`, keep formatting consistent.
+- When you add a city, place it inside the parent country’s `cities` array in `main.json` and keep the city’s report file in `reports/` with a clear `{country}_{city}_report.json` naming convention. Cities inherit the same evaluation keys as countries, so the JSON structure should mirror the national reports.
 
 ## 6. Final Review for Commit Readiness
 1. Ensure your diff shows only the intended score/text changes plus the `version` field.
