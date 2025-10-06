@@ -370,7 +370,10 @@ function renderCountryList(listEl, countries, notice, onChange) {
         country.expanded = !country.expanded;
         group.classList.toggle('expanded', country.expanded);
         group.classList.toggle('collapsed', !country.expanded);
-        if (cityList) cityList.hidden = !country.expanded;
+        if (cityList) {
+          cityList.hidden = !country.expanded;
+          cityList.style.display = country.expanded ? 'flex' : 'none';
+        }
         updateToggle();
       });
       countryRow.prepend(toggle);
@@ -382,6 +385,7 @@ function renderCountryList(listEl, countries, notice, onChange) {
       cityList = document.createElement('div');
       cityList.className = 'city-list';
       cityList.hidden = !country.expanded;
+      cityList.style.display = country.expanded ? 'flex' : 'none';
       country.cities.forEach(city => {
         const cityRow = buildTreeRow(city, { listEl, notice, onChange });
         cityRow.classList.add('city-node');
