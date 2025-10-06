@@ -778,7 +778,21 @@
     },
     {
       "name": "Denmark",
-      "file": "reports/denmark_report.json"
+      "file": "reports/denmark_report.json",
+      "cities": [
+        {
+          "name": "Copenhagen",
+          "file": "reports/denmark_copenhagen_report.json"
+        },
+        {
+          "name": "Aarhus",
+          "file": "reports/denmark_aarhus_report.json"
+        },
+        {
+          "name": "Odense",
+          "file": "reports/denmark_odense_report.json"
+        }
+      ]
     },
     {
       "name": "Greece",
