@@ -524,7 +524,21 @@
     },
     {
       "name": "New Zealand",
-      "file": "reports/new_zealand_report.json"
+      "file": "reports/new_zealand_report.json",
+      "cities": [
+        {
+          "name": "Auckland",
+          "file": "reports/new_zealand_auckland_report.json"
+        },
+        {
+          "name": "Christchurch",
+          "file": "reports/new_zealand_christchurch_report.json"
+        },
+        {
+          "name": "Wellington",
+          "file": "reports/new_zealand_wellington_report.json"
+        }
+      ]
     },
     {
       "name": "United States",
