@@ -566,7 +566,21 @@
     },
     {
       "name": "Spain",
-      "file": "reports/spain_report.json"
+      "file": "reports/spain_report.json",
+      "cities": [
+        {
+          "name": "Barcelona",
+          "file": "reports/spain_barcelona_report.json"
+        },
+        {
+          "name": "San Sebastián",
+          "file": "reports/spain_san_sebastian_report.json"
+        },
+        {
+          "name": "Valencia",
+          "file": "reports/spain_valencia_report.json"
+        }
+      ]
     },
     {
       "name": "Northern Ireland",
