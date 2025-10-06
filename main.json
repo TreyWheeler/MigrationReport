@@ -556,7 +556,21 @@
     },
     {
       "name": "Finland",
-      "file": "reports/finland_report.json"
+      "file": "reports/finland_report.json",
+      "cities": [
+        {
+          "name": "Helsinki",
+          "file": "reports/finland_helsinki_report.json"
+        },
+        {
+          "name": "Espoo",
+          "file": "reports/finland_espoo_report.json"
+        },
+        {
+          "name": "Tampere",
+          "file": "reports/finland_tampere_report.json"
+        }
+      ]
     },
     {
       "name": "Australia",
