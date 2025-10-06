@@ -560,7 +560,21 @@
     },
     {
       "name": "France",
-      "file": "reports/france_report.json"
+      "file": "reports/france_report.json",
+      "cities": [
+        {
+          "name": "Nantes",
+          "file": "reports/france_nantes_report.json"
+        },
+        {
+          "name": "Lyon",
+          "file": "reports/france_lyon_report.json"
+        },
+        {
+          "name": "Bordeaux",
+          "file": "reports/france_bordeaux_report.json"
+        }
+      ]
     },
     {
       "name": "Germany",
