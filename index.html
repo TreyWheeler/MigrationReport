@@ -59,6 +59,7 @@
 
     .container { max-width: 100%; margin: 0 auto; padding: 12px 24px 24px; }
     .controls { display: flex; flex-direction: column; gap: 8px; }
+    .controls .toggle { align-self: flex-start; }
     .layout { display: grid; grid-template-columns: minmax(260px, 320px) 1fr; gap: 16px; align-items: stretch; width: 100%; flex: 1 1 auto; min-height: 0; }
     @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
     .sidebar {
@@ -430,7 +431,7 @@
   <div class="container layout">
     <aside class="sidebar">
       <div class="controls">
-        <label>Select Countries (up to 4):</label>
+        <label>Select Locations (up to 4):</label>
         <div class="sort-controls">
           <label for="countrySort">Sort by:</label>
           <select id="countrySort">
@@ -439,6 +440,7 @@
             <option value="total">Total Score</option>
           </select>
         </div>
+        <label class="toggle"><input type="checkbox" id="citiesOnlyToggle"/> Show only cities</label>
         <div id="countryList" class="country-list" role="listbox" aria-multiselectable="true"></div>
         <div id="notice"></div>
       </div>
