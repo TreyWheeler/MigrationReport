@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "iso": "AU",
   "values": [
     {
@@ -18,7 +19,7 @@
     },
     {
       "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Stable institutions and a free press keep risk low.",
+      "alignmentText": "Independent courts, a muscular press, and compulsory voting keep power rotations healthy, though activists still monitor surveillance laws and media concentration.",
       "alignmentValue": 8
     },
     {
@@ -38,7 +39,7 @@
     },
     {
       "key": "Child Care Support",
-      "alignmentText": "Means-tested subsidies help offset childcare expenses.",
+      "alignmentText": "The Child Care Subsidy covers up to 90% for middle-income families, yet capped hours and long waitlists mean we still budget for significant out-of-pocket costs.",
       "alignmentValue": 6
     },
     {
@@ -48,12 +49,12 @@
     },
     {
       "key": "Childcare Support (Citizens)",
-      "alignmentText": "Subsidies help reduce costs for eligible families.",
+      "alignmentText": "Citizens tap the Child Care Subsidy and paid parental leave, but urban demand still pushes fees to AUD 120–180 per day.",
       "alignmentValue": 6
     },
     {
       "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "Temporary residents receive limited subsidies.",
+      "alignmentText": "Temporary skilled visas can access limited subsidies after meeting residency tests; others pay full private rates until permanent residency.",
       "alignmentValue": 4
     },
     {
@@ -68,12 +69,12 @@
     },
     {
       "key": "Compliance & Risks",
-      "alignmentText": "Strict adherence to visa conditions required; tax residency rules apply.",
+      "alignmentText": "Bridging visa lapses and work-hour limits are enforced electronically, and once you pass 183 days the ATO expects full tax filings on worldwide income.",
       "alignmentValue": 6
     },
     {
       "key": "Cost of Living (Optional)",
-      "alignmentText": "High costs in Sydney and Melbourne are offset by wages.",
+      "alignmentText": "Sydney and Melbourne rents top AUD 700–900 per week for family homes, so remote USD income must stretch to cover premium housing and groceries.",
       "alignmentValue": 4
     },
     {
@@ -93,7 +94,7 @@
     },
     {
       "key": "Education",
-      "alignmentText": "Strong education system with high literacy rates.",
+      "alignmentText": "Public schools score above OECD averages in literacy and science, with selective and international options for advanced learners, though outcomes vary between states.",
       "alignmentValue": 8
     },
     {
@@ -183,17 +184,17 @@
     },
     {
       "key": "Global Warming Risk",
-      "alignmentText": "Rising heat and bushfire exposure pose moderate climate risks.",
+      "alignmentText": "Climate models point to hotter summers, megafires, and coastal flooding, so long-term planning requires evacuation kits and careful city selection.",
       "alignmentValue": 4
     },
     {
       "key": "Healthcare (Citizens)",
-      "alignmentText": "Medicare provides universal coverage with minimal cost.",
+      "alignmentText": "Medicare covers GP visits and hospital care with low out-of-pocket costs, and families often add private cover to skip waitlists for elective procedures.",
       "alignmentValue": 8
     },
     {
       "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Some visas require private insurance; limited public coverage.",
+      "alignmentText": "Many skilled visas require private insurance until permanent residency; US citizens rely on Overseas Visitor Cover because no reciprocal Medicare agreement exists.",
       "alignmentValue": 5
     },
     {
@@ -233,7 +234,7 @@
     },
     {
       "key": "Language & English Ubiquity",
-      "alignmentText": "English is the primary language nationwide.",
+      "alignmentText": "English dominates government, schooling, and business, so the family can operate immediately while exploring community languages on the side.",
       "alignmentValue": 10
     },
     {
@@ -258,7 +259,7 @@
     },
     {
       "key": "Modernity & Infrastructure",
-      "alignmentText": "Advanced infrastructure and reliable broadband in urban areas.",
+      "alignmentText": "Capital cities boast reliable power, modern healthcare, and 250+ Mbps NBN fiber plans, though regional coverage still depends on slower fixed wireless.",
       "alignmentValue": 8
     },
     {
@@ -268,7 +269,7 @@
     },
     {
       "key": "Natural Disasters",
-      "alignmentText": "Bushfires, floods, and cyclones occur, especially in certain regions.",
+      "alignmentText": "Black Summer bushfires, Brisbane floods, and northern cyclones highlight the need for disaster insurance and evacuation plans depending on region.",
       "alignmentValue": 4
     },
     {
@@ -343,7 +344,7 @@
     },
     {
       "key": "Progressivism",
-      "alignmentText": "Political culture leans center-left with social-liberal policies.",
+      "alignmentText": "Urban states back climate policy, marriage equality, and Indigenous reconciliation, while resource-heavy regions temper how fast reforms move.",
       "alignmentValue": 7
     },
     {
@@ -358,7 +359,7 @@
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "Comprehensive in big cities but sparse in rural areas.",
+      "alignmentText": "Sydney and Melbourne run dense train, tram, and bus networks with contactless payment, yet coverage thins quickly in outer suburbs, so a car remains handy for weekend adventures.",
       "alignmentValue": 6
     },
     {
@@ -368,12 +369,12 @@
     },
     {
       "key": "Remote-Friendly Culture",
-      "alignmentText": "Hybrid work is gaining ground though office presence is still common.",
+      "alignmentText": "Tech firms embrace hybrid schedules and coworking hubs abound, but East Coast time zones are 16–18 hours ahead of US clients, so late calls persist.",
       "alignmentValue": 6
     },
     {
       "key": "Residency Types & Durations",
-      "alignmentText": "Temporary visas can lead to permanent residency after several years.",
+      "alignmentText": "Temporary Skill Shortage visas run up to four years and can transition to permanent residency after employer nomination or points-tested pathways.",
       "alignmentValue": 6
     },
     {
@@ -503,12 +504,12 @@
     },
     {
       "key": "Visa Paths",
-      "alignmentText": "Points-based skilled visas and entrepreneur routes exist but are competitive.",
+      "alignmentText": "Points-tested skilled visas favor younger applicants with degrees and high English scores; business and global talent visas exist but require significant assets or endorsements.",
       "alignmentValue": 6
     },
     {
       "key": "Welcoming of US Migrants",
-      "alignmentText": "Generally positive attitude toward Americans.",
+      "alignmentText": "Australians are accustomed to US expats in tech hubs, though visa gatekeeping means enthusiasm rises once paperwork proves you’re committed.",
       "alignmentValue": 7
     },
     {
@@ -528,7 +529,7 @@
     },
     {
       "key": "Work-Life Balance",
-      "alignmentText": "Cultural emphasis on leisure and outdoor time promotes balance.",
+      "alignmentText": "A 38-hour workweek, enforced leave, and colleagues who unplug on weekends support Sarah’s quest for calmer schedules, though big-city commutes can still stretch days.",
       "alignmentValue": 8
     },
     {

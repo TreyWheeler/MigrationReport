@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "iso": "CN",
   "values": [
     {
@@ -8,7 +9,7 @@
     },
     {
       "key": "Air Quality",
-      "alignmentText": "Major cities often suffer severe pollution despite improvements.",
+      "alignmentText": "Tier 1 cities still see PM2.5 spikes well above WHO limits—sandstorms in Beijing and winter smog in the north make outdoor play risky without air purifiers.",
       "alignmentValue": 2
     },
     {
@@ -18,7 +19,7 @@
     },
     {
       "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Very high; civil liberties tightly controlled.",
+      "alignmentText": "The one-party system deploys surveillance, censorship, and security laws that leave no space for dissent, representing the lowest possible score for democratic resilience.",
       "alignmentValue": 1
     },
     {
@@ -38,7 +39,7 @@
     },
     {
       "key": "Child Care Support",
-      "alignmentText": "Urban childcare expensive and scarce.",
+      "alignmentText": "Public nurseries are limited, private centers are costly, and most families rely on grandparents or nannies to cover long work hours.",
       "alignmentValue": 3
     },
     {
@@ -48,13 +49,13 @@
     },
     {
       "key": "Childcare Support (Citizens)",
-      "alignmentText": "Pronatalist incentives expanding (cash/fee subsidies) vary by city/province; maternity leave typically 98+ days; evolving policies.",
-      "alignmentValue": 5.0
+      "alignmentText": "Select cities now offer monthly stipends and extended maternity leave, but benefits remain patchy and tied to local hukou registration.",
+      "alignmentValue": 5
     },
     {
       "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "Access to subsidies limited; eligibility varies by locality; residence permits and documentation required; often excluded.",
-      "alignmentValue": 3.0
+      "alignmentText": "Foreign residents rarely qualify for subsidies, leaving private care or ayi support as the primary option.",
+      "alignmentValue": 3
     },
     {
       "key": "Common Hobbies",
@@ -68,7 +69,7 @@
     },
     {
       "key": "Compliance & Risks",
-      "alignmentText": "Strict monitoring with penalties for violations.",
+      "alignmentText": "Police registrations, exit permits for kids, and Great Firewall compliance are enforced rigorously; policy shifts can void visas with little notice.",
       "alignmentValue": 2
     },
     {
@@ -79,7 +80,7 @@
     {
       "key": "Dual Citizenship Allowed",
       "alignmentText": "No—dual nationality is not recognized; naturalization typically requires renouncing prior citizenship.",
-      "alignmentValue": 1.0
+      "alignmentValue": 1
     },
     {
       "key": "Economic Health",
@@ -93,12 +94,12 @@
     },
     {
       "key": "Education",
-      "alignmentText": "Top-tier academics but heavy rote learning and pressure.",
-      "alignmentValue": 5
+      "alignmentText": "Flagship schools deliver elite math and science results, yet gaokao pressure, censorship in curricula, and limited progressive pedagogy clash with the family’s priorities.",
+      "alignmentValue": 4
     },
     {
       "key": "Employer Visa Sponsorship",
-      "alignmentText": "Strict quotas and paperwork make foreign hiring difficult.",
+      "alignmentText": "Class A/B work permits require degree, experience, and clean police checks; tech firms sponsor sparingly given quota scrutiny.",
       "alignmentValue": 2
     },
     {
@@ -114,7 +115,7 @@
     {
       "key": "Fall Temperature Range (C/F)",
       "alignmentText": "Generally pleasant in many regions; Beijing ~10–20 C; Shanghai ~18–26 C; drier skies; typhoon season lingers along SE coast.",
-      "alignmentValue": 7.0
+      "alignmentValue": 7
     },
     {
       "key": "Family Life",
@@ -129,7 +130,7 @@
     {
       "key": "Family Policy (Citizens)",
       "alignmentText": "Maternity/paternity leave expanding; local cash/childcare incentives; housing/tax perks in some cities; coverage uneven.",
-      "alignmentValue": 6.0
+      "alignmentValue": 6
     },
     {
       "key": "Family Policy (Common Family)",
@@ -139,17 +140,17 @@
     {
       "key": "Family Policy (Visa Holders)",
       "alignmentText": "Benefits generally tied to hukou/social insurance; foreign residents often ineligible for local family subsidies.",
-      "alignmentValue": 3.0
+      "alignmentValue": 3
     },
     {
       "key": "Fashion Trends (Female)",
       "alignmentText": "Contemporary street style to minimalist chic; dresses/skirts with layering; strong beauty/skin‑care culture.",
-      "alignmentValue": 6.0
+      "alignmentValue": 6
     },
     {
       "key": "Fashion Trends (Male)",
       "alignmentText": "Urban streetwear and smart‑casual tailoring; sneakers/athleisure common; techwear influences in big cities.",
-      "alignmentValue": 6.0
+      "alignmentValue": 6
     },
     {
       "key": "Femininity Norms",
@@ -179,7 +180,7 @@
     {
       "key": "General Considerations for Visa Holders",
       "alignmentText": "Residence/work permits tied to employer or category; local registration needed for banking/housing; healthcare insurance; internet controls (VPN use).",
-      "alignmentValue": 4.0
+      "alignmentValue": 4
     },
     {
       "key": "Global Warming Risk",
@@ -199,12 +200,12 @@
     {
       "key": "Higher Education Access (Citizens)",
       "alignmentText": "Extensive public HE; competitive gaokao; tuition moderate; scholarships and aid exist.",
-      "alignmentValue": 6.0
+      "alignmentValue": 6
     },
     {
       "key": "Higher Education Access (Visa Holders)",
       "alignmentText": "International student options widely available; tuition higher; scholarships exist; residency status may improve options.",
-      "alignmentValue": 5.0
+      "alignmentValue": 5
     },
     {
       "key": "Housing Situation",
@@ -228,12 +229,12 @@
     },
     {
       "key": "Language & English Ubiquity",
-      "alignmentText": "Mandarin necessary; limited English outside expat zones.",
+      "alignmentText": "Mandarin is essential for schooling, healthcare, and paperwork; English support exists only in expat enclaves of Shanghai and Shenzhen.",
       "alignmentValue": 2
     },
     {
       "key": "LGBTQ+ Attitudes",
-      "alignmentText": "Increasing awareness but no legal protections.",
+      "alignmentText": "Pride events are regularly shut down and censorship targets queer media, so openly poly/LGBTQ+ families face persistent state pressure despite decriminalization.",
       "alignmentValue": 2
     },
     {
@@ -284,7 +285,7 @@
     {
       "key": "Nightlife Culture",
       "alignmentText": "Vibrant in tier‑1 cities (bars, clubs, live music); quieter elsewhere; closing times and enforcement vary by locality.",
-      "alignmentValue": 6.0
+      "alignmentValue": 6
     },
     {
       "key": "Notable Game Development Communities",
@@ -334,16 +335,16 @@
     {
       "key": "Pre-K / Early Childcare Landscape",
       "alignmentText": "Public kindergartens and private centers; supply/cost vary by city tier; expanding 0–3 services; waitlists in core districts.",
-      "alignmentValue": 5.0
+      "alignmentValue": 5
     },
     {
       "key": "Private Education",
       "alignmentText": "International/private schools in major cities (IB/AP/A-Levels); high fees and limited seats; admissions selective.",
-      "alignmentValue": 5.0
+      "alignmentValue": 5
     },
     {
       "key": "Progressivism",
-      "alignmentText": "State conservatism limits social freedoms.",
+      "alignmentText": "Party ideology prioritizes social harmony over individual rights, curbing feminist, queer, and labor activism.",
       "alignmentValue": 2
     },
     {
@@ -358,7 +359,7 @@
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "Extensive high-speed rail and metro systems.",
+      "alignmentText": "High-speed rail and dense metro networks make city-to-city travel seamless, though real-name ticketing and health-code checks add surveillance overhead.",
       "alignmentValue": 9
     },
     {
@@ -368,18 +369,18 @@
     },
     {
       "key": "Remote-Friendly Culture",
-      "alignmentText": "Office-centric; remote work less common.",
-      "alignmentValue": 3
+      "alignmentText": "996-style expectations keep teams in-office; only multinational branches support sustained remote schedules.",
+      "alignmentValue": 2
     },
     {
       "key": "Residency Types & Durations",
-      "alignmentText": "Temporary permits; permanent residency difficult.",
+      "alignmentText": "Z visas convert to 1-year residence permits renewed annually; green cards are rare and require high investment or state sponsorship.",
       "alignmentValue": 2
     },
     {
       "key": "Retirement (Citizens)",
       "alignmentText": "Urban employee basic pension plus enterprise/individual pillars; adequacy varies by region; reforms underway.",
-      "alignmentValue": 6.0
+      "alignmentValue": 6
     },
     {
       "key": "Retirement (Immigrants)",
@@ -389,7 +390,7 @@
     {
       "key": "Retirement (Visa Holders)",
       "alignmentText": "Participation depends on city/employer; some contributions refundable on exit; portability limited.",
-      "alignmentValue": 4.0
+      "alignmentValue": 4
     },
     {
       "key": "Ruby Work Prospects",
@@ -429,7 +430,7 @@
     {
       "key": "Spring Temperature Range (C/F)",
       "alignmentText": "Highly regional; e.g., Beijing 5–20 C (41–68 F), Shanghai 10–22 C (50–72 F); drier north, wetter south; occasional dust in north.",
-      "alignmentValue": 5.0
+      "alignmentValue": 5
     },
     {
       "key": "Stability",
@@ -449,7 +450,7 @@
     {
       "key": "Summer Temperature Range (C/F)",
       "alignmentText": "Many cities are hot/humid (e.g., Shanghai 26–35 C / 79–95 F); north can be hot/dry; heat index high in southeast; nights warm.",
-      "alignmentValue": 3.0
+      "alignmentValue": 3
     },
     {
       "key": "Timelines & Costs",
@@ -474,12 +475,12 @@
     {
       "key": "Typical Weekend Schedule (Family of Four)",
       "alignmentText": "Weekends: parks, malls, dining, family visits; extracurriculars common; some sectors work Saturdays; long retail hours in large cities.",
-      "alignmentValue": 6.0
+      "alignmentValue": 6
     },
     {
       "key": "Typical Workday Schedule (Family of Four)",
       "alignmentText": "Primary ~08:00–15:30; secondary often longer with evening study. Many offices 09:00–18:00; some sectors have long-hours norms (e.g., 996).",
-      "alignmentValue": 4.0
+      "alignmentValue": 4
     },
     {
       "key": "Vacation Days (Minimum)",
@@ -508,13 +509,13 @@
     },
     {
       "key": "Visa Paths",
-      "alignmentText": "Work visas available but strict quotas and employer ties.",
+      "alignmentText": "Z visas demand employer sponsorship, background checks, and health exams; entrepreneur or talent visas target high-investment applicants and are rarely approved.",
       "alignmentValue": 2
     },
     {
       "key": "Welcoming of US Migrants",
-      "alignmentText": "Political tensions create mixed reception.",
-      "alignmentValue": 3
+      "alignmentText": "Hospitality at the neighborhood level coexists with rising geopolitical suspicion; regular visa renewals face tighter scrutiny for US citizens.",
+      "alignmentValue": 2
     },
     {
       "key": "What Is Intriguing",
@@ -524,7 +525,7 @@
     {
       "key": "Winter Temperature Range (C/F)",
       "alignmentText": "North: cold/dry with central heating (e.g., Beijing −5–5 C); South: cool/damp (5–12 C) often without central heating; snow varies.",
-      "alignmentValue": 4.0
+      "alignmentValue": 4
     },
     {
       "key": "Work Week Hours",
