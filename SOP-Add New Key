@@ -1,0 +1,48 @@
+# SOP-Add New Key
+
+This SOP walks LLM agents through introducing a brand-new evaluation `Key` across the MigrationReport dataset. Follow every step in order so the new metric lands in `main.json`, `rating_guides.json`, and every country and city report with perfectly aligned scoring text.
+
+## 0. Establish the Rationale
+1. Open `family_profile.json` to confirm why the household needs this new dimension and how heavily it should influence recommendations.
+2. Review existing `Keys` in `main.json` to ensure you are not duplicating coverage. Only proceed when the gap is real and material to the family.
+
+## 1. Define the Key Blueprint
+1. Draft the exact `Key` string you will add. Keep it concise and consistent with existing naming conventions (Title Case, no trailing punctuation unless required).
+2. Write a one- or two-sentence guidance note that explains what evidence the key should evaluate. This text will live alongside the key inside `main.json` and informs future writers.
+3. Decide which Category in `main.json` should host the new key. If no category fits, design a new Category entry using the same structure (`Category`, `Keys`).
+
+## 2. Update `main.json`
+1. Insert the new key object into the chosen Category’s `Keys` array. Match formatting, indentation, and comma usage.
+2. If you created a new Category, append it to the `Categories` array with a descriptive label and a `Keys` array containing the new key.
+3. Save the file and double-check that the key label and guidance read exactly as intended.
+
+## 3. Expand the Rating Guide
+1. Open `rating_guides.json` and add a new top-level object for the key. Mirror the format used by existing entries: `"Key"`, optional `"Considerations"`, and a `"Ratings"` array with 1–10 descriptions.
+2. Craft each rating description so an agent can unambiguously map real-world evidence to a score. Highlight deal-breakers from the family profile and call out what constitutes a perfect 10 vs. a 5.
+3. Proofread for internal consistency—scores must escalate logically and avoid contradictions. Accurate guidance here is essential for keeping `alignmentValue` and `alignmentText` trustworthy.
+
+## 4. Seed a Master Alignment Reference
+1. Create a temporary worksheet (outside the repo) that lists every country and city report file path from `main.json`.
+2. For each location, note any preliminary research or sources required to evaluate the new key accurately. If data is scarce, plan how you will justify a `0` (insufficient data) vs. a cautious numeric score.
+
+## 5. Iterate Through Every Report
+For each `reports/*.json` file (countries and nested cities):
+
+1. Load the file and ensure a `version` field exists. If not, add `"version": 2` at the top to signal the refresh.
+2. Append a new object inside the `values` array with the following fields:
+   - `"key"`: the exact key string from `main.json`.
+   - `"alignmentValue"`: an integer 0–10 chosen using the new rating guide. Use `0` only when evidence is unavailable; never leave `-1` in final output.
+   - `"alignmentText"`: 1–2 sentences that cite concrete facts and reference the family’s priorities. The text must explicitly justify the numeric score per the rating guide.
+3. If the report already contains a placeholder for this key, replace it rather than appending a duplicate. Maintain the original ordering logic when possible.
+4. Validate that the alignment text mirrors the selected rating tier. If the narrative does not match the number, revise before moving on.
+
+## 6. Quality Control Pass
+1. After updating every report, run a JSON syntax check (e.g., `node -e "JSON.parse(fs.readFileSync('<file>','utf8'))"`) on the modified files.
+2. Spot-check a sample of country and city entries to confirm the new key appears exactly once and the tone is consistent.
+3. Re-read the rating guide entry to ensure it still supports the values you assigned. Adjust wording if ambiguity remains.
+
+## 7. Finalize Metadata
+1. Update any documentation (including this SOP) if the key triggers follow-on workflows or dependencies.
+2. Summarize the new key, notable scoring patterns, and any research gaps in your commit message or PR description so reviewers can audit quickly.
+
+> **Accuracy mandate:** Every `alignmentValue` and `alignmentText` must stay perfectly synchronized with the rating guide and family priorities. If you are unsure, choose a conservative score, mark it for follow-up, and never guess.
