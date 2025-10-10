@@ -1,7 +1,7 @@
 {
   "Categories": [
     {
-      "Category": "Environment & Climate",
+      "Category": "Environmental Comfort",
       "Keys": [
         {
           "Key": "Environment",
@@ -25,25 +25,24 @@
         },
         {
           "Key": "Spring Temperature Range (C/F)",
-          "Guidance": "Typical min–max daytime temps; note humidity and rain."
+          "Guidance": "Typical min-max daytime temps; note humidity and rain."
         },
         {
           "Key": "Summer Temperature Range (C/F)",
-          "Guidance": "Typical min–max; comment on humidity/heat index and nights."
+          "Guidance": "Typical min-max; comment on humidity/heat index and nights."
         },
         {
           "Key": "Fall Temperature Range (C/F)",
-          "Guidance": "Typical min–max; onset of rains/winds; daylight changes."
+          "Guidance": "Typical min-max; onset of rains/winds; daylight changes."
         },
         {
           "Key": "Winter Temperature Range (C/F)",
-          "Guidance": "Typical min–max; snow/ice frequency; damp cold vs dry cold."
-        }
-      ]
-    },
-    {
-      "Category": "Nature & Outdoors",
-      "Keys": [
+          "Guidance": "Typical min-max; snow/ice frequency; damp cold vs dry cold."
+        },
+        {
+          "Key": "Natural Beauty",
+          "Guidance": "Landscapes, parks, hiking, diving; ease of access."
+        },
         {
           "Key": "Beach Life",
           "Guidance": "Access, cleanliness, crowding, amenities, safety."
@@ -53,47 +52,50 @@
           "Guidance": "Monthly SST; comfortable swim months."
         },
         {
-          "Key": "Natural Beauty",
-          "Guidance": "Landscapes, parks, hiking, diving; ease of access."
+          "Key": "Seasonal Extremes & Variability",
+          "Guidance": "Record highs/lows, sudden swings, and intra-season volatility."
+        },
+        {
+          "Key": "Seasonal Sunlight Hours",
+          "Guidance": "Average daylight hours and sunniness by season; note polar extremes."
+        },
+        {
+          "Key": "Pleasant Weather Windows",
+          "Guidance": "Months with comfortable outdoor conditions considering humidity, wind, and storms."
         }
       ]
     },
     {
-      "Category": "Work Opportunities",
+      "Category": "Community Belonging & Activities",
       "Keys": [
         {
-          "Key": "Minimum Wage",
-          "Guidance": "National/sectoral; enforcement; living wage comparison."
+          "Key": "Community Vibes",
+          "Guidance": "Friendliness to newcomers; social clubs; expat density."
         },
         {
-          "Key": "Typical Software Salaries",
-          "Guidance": ".NET / Ruby / Game dev ranges; senior vs. mid."
+          "Key": "Meetups & Communities",
+          "Guidance": "Tech, game dev, parenting, LGBTQ+, poly groups."
         },
         {
-          "Key": ".NET Work Prospects",
-          "Guidance": "Market demand; top employers; remote vs. onsite."
+          "Key": "Common Hobbies",
+          "Guidance": "Popular pastimes; outdoor/indoor balance."
         },
         {
-          "Key": "Ruby Work Prospects",
-          "Guidance": "Market demand; key sectors; frameworks in use."
+          "Key": "Boardgaming & Tabletop",
+          "Guidance": "FLGS density; clubs; conventions; cafes."
         },
         {
-          "Key": "Employer Visa Sponsorship",
-          "Guidance": "Common/rare; processing reliability."
+          "Key": "Nightlife & Music",
+          "Guidance": "Venues; noise norms; live scenes."
         },
         {
-          "Key": "Economic Health",
-          "Guidance": "GDP growth, unemployment, inflation snapshot."
+          "Key": "Nightlife Culture",
+          "Guidance": "Evening norms; venues; safety; opening hours; family-friendliness."
         },
         {
-          "Key": "Remote-Friendly Culture",
-          "Guidance": "Hybrid norms; coworking; time-zone alignment."
-        }
-      ]
-    },
-    {
-      "Category": "Work-Life Balance",
-      "Keys": [
+          "Key": "Nature Access",
+          "Guidance": "Day-trip options; weekend getaways."
+        },
         {
           "Key": "Work-Life Balance",
           "Guidance": "Cultural norms; after-hours boundaries."
@@ -121,19 +123,47 @@
         {
           "Key": "Typical Weekend Schedule (Family of Four)",
           "Guidance": "Typical weekend rhythms; opening hours; family activities."
+        },
+        {
+          "Key": "Friendliness & Neighborliness Index",
+          "Guidance": "Perceived warmth, helpfulness, and reciprocity among residents."
+        },
+        {
+          "Key": "Immigrant Sentiment - General",
+          "Guidance": "Prevailing attitudes and policies toward immigrants overall."
+        },
+        {
+          "Key": "Immigrant Sentiment - White Migrants",
+          "Guidance": "Specific perceptions and reception of white immigrants."
+        },
+        {
+          "Key": "Surface Interaction Norms",
+          "Guidance": "Expectations for small talk, pleasantries, and politeness rituals."
+        },
+        {
+          "Key": "Depth-Seeking Social Norms",
+          "Guidance": "How quickly relationships move toward authenticity and deeper topics."
+        },
+        {
+          "Key": "Personal Boundary & Bubble Norms",
+          "Guidance": "Comfort with personal space, invitations home, and drop-in etiquette."
+        },
+        {
+          "Key": "Moral, Honesty & Openness Expectations",
+          "Guidance": "Cultural norms around honesty, transparency, and follow-through."
         }
       ]
     },
     {
-      "Category": "Family Friendliness",
+      "Category": "Inclusivity, Family Support & Livability Economics",
       "Keys": [
+        {
+          "Key": "Welcoming of US Migrants",
+          "Guidance": "Social attitudes; official stance."
+        },
         {
           "Key": "Family Life",
           "Guidance": "Family-friendly amenities; school schedules; work-family balance."
-        },
-        {
-          "Key": "Polyamory",
-          "Guidance": "Social acceptance; legal risks; custody implications."
         },
         {
           "Key": "Parenting Expectations",
@@ -160,6 +190,22 @@
           "Guidance": "Access for non-citizens; waiting periods; documentation hurdles."
         },
         {
+          "Key": "Child Care Support",
+          "Guidance": "Subsidies; availability; quality; costs."
+        },
+        {
+          "Key": "Family Policy (Citizens)",
+          "Guidance": "Parental leave, child benefits, tax credits for citizens."
+        },
+        {
+          "Key": "Family Policy (Visa Holders)",
+          "Guidance": "Which benefits extend to temporary residents; waiting periods."
+        },
+        {
+          "Key": "Family Policy (Common Family)",
+          "Guidance": "Typical household structures; benefits."
+        },
+        {
           "Key": "K-12 Education Access (Citizens)",
           "Guidance": "Enrollment ease; zoning; costs; secular options."
         },
@@ -172,50 +218,105 @@
           "Guidance": "Availability; typical costs; secular vs denominational; admissions."
         },
         {
-          "Key": "Family Policy (Citizens)",
-          "Guidance": "Parental leave, child benefits, tax credits for citizens."
-        },
-        {
-          "Key": "Family Policy (Visa Holders)",
-          "Guidance": "Which benefits extend to temporary residents; waiting periods."
-        },
-        {
           "Key": "Higher Education Access (Citizens)",
           "Guidance": "Tuition, financial aid, admission competitiveness for citizens."
         },
         {
           "Key": "Higher Education Access (Visa Holders)",
           "Guidance": "Eligibility, international tuition, scholarships for non-citizens."
+        },
+        {
+          "Key": "Education",
+          "Guidance": "K-12 quality; higher ed; language of instruction; costs."
+        },
+        {
+          "Key": "Housing Situation",
+          "Guidance": "Availability; renting norms; tenant protections; prices."
+        },
+        {
+          "Key": "Community Living Opportunities",
+          "Guidance": "Co-ops, co-housing, and multigenerational living options plus entry hurdles."
+        },
+        {
+          "Key": "Quality of Life - Lower-Income Tier",
+          "Guidance": "Livability, services, and safety accessible to budget-constrained households."
+        },
+        {
+          "Key": "Quality of Life - Middle-Income Tier",
+          "Guidance": "Amenities, neighborhoods, and experiences typical for median earners."
+        },
+        {
+          "Key": "Quality of Life - Higher-Income Tier",
+          "Guidance": "Premium lifestyle options, schooling, and services for affluent families."
+        },
+        {
+          "Key": "Spacious Housing Benchmark (2k sq ft Rent)",
+          "Guidance": "Availability and USD pricing of ~2,000 sq ft family rentals."
+        },
+        {
+          "Key": "Economic System",
+          "Guidance": "Market characteristics; social safety nets."
+        },
+        {
+          "Key": "How Taxes Are Handled",
+          "Guidance": "Filing process; PAYE; joint vs. individual."
+        },
+        {
+          "Key": "Expected Tax Rate (Our Family)",
+          "Guidance": "Income bands; social contributions; credits."
+        },
+        {
+          "Key": "Banking & Payments",
+          "Guidance": "Account access for migrants; fees; mobile wallets."
+        },
+        {
+          "Key": "Cost of Living (Optional)",
+          "Guidance": "Housing, groceries, transit vs. benchmark city."
+        },
+        {
+          "Key": "Retirement (Citizens)",
+          "Guidance": "State/occupational pensions for citizens; private pillars."
+        },
+        {
+          "Key": "Retirement (Visa Holders)",
+          "Guidance": "Eligibility for temporary/permanent residents; portability."
+        },
+        {
+          "Key": "Visa Paths",
+          "Guidance": "Work, startup, family, student; eligibility and quotas."
+        },
+        {
+          "Key": "Residency Types & Durations",
+          "Guidance": "TRP/PR; renewals; physical presence rules."
+        },
+        {
+          "Key": "Path to Citizenship",
+          "Guidance": "Timelines; residency years; language/civics tests."
+        },
+        {
+          "Key": "Family Members",
+          "Guidance": "Work authorization for partner; dependents' schooling."
+        },
+        {
+          "Key": "Timelines & Costs",
+          "Guidance": "Processing times; fees; legal assistance norms."
+        },
+        {
+          "Key": "Compliance & Risks",
+          "Guidance": "Overstay penalties; tax residency triggers."
+        },
+        {
+          "Key": "Dual Citizenship Allowed",
+          "Guidance": "Whether dual nationality is recognized; restrictions and exceptions."
+        },
+        {
+          "Key": "General Considerations for Visa Holders",
+          "Guidance": "Restrictions affecting schooling, benefits, banking, housing, travel."
         }
       ]
     },
     {
-      "Category": "Gender Equality & Norms",
-      "Keys": [
-        {
-          "Key": "Gender Roles",
-          "Guidance": "Traditional vs. egalitarian norms."
-        },
-        {
-          "Key": "Gender Fluidity",
-          "Guidance": "Social visibility; non-binary recognition."
-        },
-        {
-          "Key": "Gender Rights",
-          "Guidance": "Legal protections; workplace equality; parental leave."
-        },
-        {
-          "Key": "Femininity Norms",
-          "Guidance": "Appearance, behavior expectations; safety."
-        },
-        {
-          "Key": "Masculinity Norms",
-          "Guidance": "Work, emotion, caregiving expectations."
-        }
-      ]
-    },
-    {
-      "Category": "Culture & Values Fit",
+      "Category": "Cultural Expression, Relationships & Values",
       "Keys": [
         {
           "Key": "What Is Intriguing",
@@ -246,8 +347,28 @@
           "Guidance": "Social acceptance; legal protections (see Rights below)."
         },
         {
-          "Key": "Community Vibes",
-          "Guidance": "Friendliness to newcomers; social clubs; expat density."
+          "Key": "Polyamory",
+          "Guidance": "Social acceptance; legal risks; custody implications."
+        },
+        {
+          "Key": "Gender Roles",
+          "Guidance": "Traditional vs. egalitarian norms."
+        },
+        {
+          "Key": "Gender Fluidity",
+          "Guidance": "Social visibility; non-binary recognition."
+        },
+        {
+          "Key": "Gender Rights",
+          "Guidance": "Legal protections; workplace equality; parental leave."
+        },
+        {
+          "Key": "Femininity Norms",
+          "Guidance": "Appearance, behavior expectations; safety."
+        },
+        {
+          "Key": "Masculinity Norms",
+          "Guidance": "Work, emotion, caregiving expectations."
         },
         {
           "Key": "View of self",
@@ -262,47 +383,58 @@
           "Guidance": "How do neighboring countries generally view them."
         },
         {
-          "Key": "Nightlife Culture",
-          "Guidance": "Evening norms; venues; safety; opening hours; family-friendliness."
-        },
-        {
           "Key": "Fashion Trends (Male)",
           "Guidance": "Prevailing attractive styles; modesty norms; body positivity; swimwear."
         },
         {
           "Key": "Fashion Trends (Female)",
           "Guidance": "Prevailing attractive styles; modesty norms; body positivity; swimwear."
+        },
+        {
+          "Key": "Grooming & Beauty Investment",
+          "Guidance": "Time and money spent on salons, barbers, and personal grooming."
+        },
+        {
+          "Key": "Body Image & Fitness Pressure",
+          "Guidance": "Social expectations around physique, dieting culture, and fitness visibility."
+        },
+        {
+          "Key": "Fashion & Style Expectations",
+          "Guidance": "Degree of trend adoption, dress codes, and brand consciousness."
+        },
+        {
+          "Key": "Flirting Boundaries & Consent Culture",
+          "Guidance": "Respect for boundaries, catcalling prevalence, and consent norms."
+        },
+        {
+          "Key": "Gendered Flirting Expectations",
+          "Guidance": "Behaviors expected from men vs. women when flirting."
+        },
+        {
+          "Key": "Monogamy vs. Non-Monogamy Acceptance",
+          "Guidance": "Attitudes toward open, poly, and other non-monogamous relationships."
+        },
+        {
+          "Key": "Promiscuity Attitudes",
+          "Guidance": "Cultural comfort with casual sex and expectations around exclusivity."
+        },
+        {
+          "Key": "Group & Multi-Partner Relationship Attitudes",
+          "Guidance": "Perceptions of polyamory, swinging, and group relationship structures."
+        },
+        {
+          "Key": "Personal Space & Touch Norms",
+          "Guidance": "Accepted levels of touch, hugging, and conversational distance."
         }
       ]
     },
     {
-      "Category": "Entertainment & Community",
+      "Category": "Safety, Governance & Legal Climate",
       "Keys": [
         {
-          "Key": "Common Hobbies",
-          "Guidance": "Popular pastimes; outdoor/indoor balance."
+          "Key": "Safety & Crime",
+          "Guidance": "Violent/property crime; hate crime risk; policing."
         },
-        {
-          "Key": "Boardgaming & Tabletop",
-          "Guidance": "FLGS density; clubs; conventions; cafes."
-        },
-        {
-          "Key": "Nightlife & Music",
-          "Guidance": "Venues; noise norms; live scenes."
-        },
-        {
-          "Key": "Meetups & Communities",
-          "Guidance": "Tech, game dev, parenting, LGBTQ+, poly groups."
-        },
-        {
-          "Key": "Nature Access",
-          "Guidance": "Day-trip options; weekend getaways."
-        }
-      ]
-    },
-    {
-      "Category": "Governance & Stability",
-      "Keys": [
         {
           "Key": "Political System",
           "Guidance": "Structure; party dynamics; electoral fairness."
@@ -356,17 +488,46 @@
           "Guidance": "Petty vs. grand; sectors affected."
         },
         {
-          "Key": "Housing Situation",
-          "Guidance": "Availability; renting norms; tenant protections; prices."
+          "Key": "Firearm Laws & Ownership Culture",
+          "Guidance": "Gun regulation strictness, ownership rates, and cultural attitudes."
         },
         {
-          "Key": "Safety & Crime",
-          "Guidance": "Violent/property crime; hate crime risk; policing."
+          "Key": "Controlled Substance Policies",
+          "Guidance": "Legality of marijuana and other drugs; harm-reduction approaches."
+        },
+        {
+          "Key": "Drug Enforcement Climate",
+          "Guidance": "Enforcement intensity, policing priorities, and sentencing."
+        },
+        {
+          "Key": "Mass Violence Incidence",
+          "Guidance": "Frequency and nature of mass shootings or comparable events."
+        },
+        {
+          "Key": "Carceral Conditions & Prison Labor",
+          "Guidance": "Prison conditions, rehabilitation access, and use of prison labor."
         }
       ]
     },
     {
-      "Category": "Public Services (Health/Edu/Transit)",
+      "Category": "Mobility & Built Environment",
+      "Keys": [
+        {
+          "Key": "Walkability & Pedestrian Safety",
+          "Guidance": "Sidewalk coverage, crossings, traffic calming, and pedestrian safety data."
+        },
+        {
+          "Key": "Public Transportation",
+          "Guidance": "Coverage, frequency, reliability; car dependency."
+        },
+        {
+          "Key": "Modernity & Infrastructure",
+          "Guidance": "Internet speed; payments; e-gov; grid."
+        }
+      ]
+    },
+    {
+      "Category": "Health, Food Access & Wellness",
       "Keys": [
         {
           "Key": "Healthcare (Citizens)",
@@ -377,100 +538,62 @@
           "Guidance": "Eligibility; insurance requirements; wait times."
         },
         {
-          "Key": "Child Care Support",
-          "Guidance": "Subsidies; availability; quality; costs."
+          "Key": "Community Health Consciousness",
+          "Guidance": "Nutrition awareness, preventative care participation, and fitness culture."
         },
         {
-          "Key": "Family Policy (Common Family)",
-          "Guidance": "Typical household structures; benefits."
+          "Key": "Processed Food Saturation",
+          "Guidance": "Prevalence of processed foods versus fresh, whole options."
         },
         {
-          "Key": "Education",
-          "Guidance": "K-12 quality; higher ed; language of instruction; costs."
+          "Key": "Fresh & International Cuisine Access",
+          "Guidance": "Availability of fresh markets and diverse international cuisines."
         },
         {
-          "Key": "Public Transportation",
-          "Guidance": "Coverage, frequency, reliability; car dependency."
+          "Key": "Depression Prevalence",
+          "Guidance": "Mental health indicators, treatment access, and stigma levels."
+        },
+        {
+          "Key": "Obesity Rate",
+          "Guidance": "Population obesity statistics and recent trends."
+        },
+        {
+          "Key": "Cancer Incidence",
+          "Guidance": "Cancer rates, screening programs, and survival outcomes."
         }
       ]
     },
     {
-      "Category": "Financial & Tax",
+      "Category": "Employment & Opportunity Context",
       "Keys": [
         {
-          "Key": "Economic System",
-          "Guidance": "Market characteristics; social safety nets."
+          "Key": "Economic Health",
+          "Guidance": "GDP growth, unemployment, inflation snapshot."
         },
         {
-          "Key": "How Taxes Are Handled",
-          "Guidance": "Filing process; PAYE; joint vs. individual."
+          "Key": "Minimum Wage",
+          "Guidance": "National/sectoral; enforcement; living wage comparison."
         },
         {
-          "Key": "Expected Tax Rate (Our Family)",
-          "Guidance": "Income bands; social contributions; credits."
+          "Key": "Typical Software Salaries",
+          "Guidance": ".NET / Ruby / Game dev ranges; senior vs. mid."
         },
         {
-          "Key": "Banking & Payments",
-          "Guidance": "Account access for migrants; fees; mobile wallets."
+          "Key": ".NET Work Prospects",
+          "Guidance": "Market demand; top employers; remote vs. onsite."
         },
         {
-          "Key": "Cost of Living (Optional)",
-          "Guidance": "Housing, groceries, transit vs. benchmark city."
+          "Key": "Ruby Work Prospects",
+          "Guidance": "Market demand; key sectors; frameworks in use."
         },
         {
-          "Key": "Retirement (Citizens)",
-          "Guidance": "State/occupational pensions for citizens; private pillars."
+          "Key": "Employer Visa Sponsorship",
+          "Guidance": "Common/rare; processing reliability."
         },
         {
-          "Key": "Retirement (Visa Holders)",
-          "Guidance": "Eligibility for temporary/permanent residents; portability."
-        }
-      ]
-    },
-    {
-      "Category": "Migration & Residency",
-      "Keys": [
-        {
-          "Key": "Visa Paths",
-          "Guidance": "Work, startup, family, student; eligibility and quotas."
+          "Key": "Remote-Friendly Culture",
+          "Guidance": "Hybrid norms; coworking; time-zone alignment."
         },
-        {
-          "Key": "Welcoming of US Migrants",
-          "Guidance": "Social attitudes; official stance."
-        },
-        {
-          "Key": "Residency Types & Durations",
-          "Guidance": "TRP/PR; renewals; physical presence rules."
-        },
-        {
-          "Key": "Path to Citizenship",
-          "Guidance": "Timelines; residency years; language/civics tests."
-        },
-        {
-          "Key": "Family Members",
-          "Guidance": "Work authorization for partner; dependents' schooling."
-        },
-        {
-          "Key": "Timelines & Costs",
-          "Guidance": "Processing times; fees; legal assistance norms."
-        },
-        {
-          "Key": "Compliance & Risks",
-          "Guidance": "Overstay penalties; tax residency triggers."
-        },
-        {
-          "Key": "Dual Citizenship Allowed",
-          "Guidance": "Whether dual nationality is recognized; restrictions and exceptions."
-        },
-        {
-          "Key": "General Considerations for Visa Holders",
-          "Guidance": "Restrictions affecting schooling, benefits, banking, housing, travel."
-        }
-      ]
-    },
-    {
-      "Category": "Startup & Game Dev Ecosystem",
-      "Keys": [
         {
           "Key": "Game Dev Work Prospects",
           "Guidance": "Openings; indie vs. AAA; publishing ecosystem."
@@ -486,15 +609,10 @@
         {
           "Key": "Opportunities for Video Game Startup",
           "Guidance": "Visas, grants, incubators, publishers."
-        }
-      ]
-    },
-    {
-      "Category": "Modernity & Infrastructure",
-      "Keys": [
+        },
         {
-          "Key": "Modernity & Infrastructure",
-          "Guidance": "Internet speed; payments; e-gov; grid."
+          "Key": "Broader Job Market Resilience",
+          "Guidance": "Diversity of non-tech sectors, hiring momentum, and economic resilience."
         }
       ]
     }
@@ -635,7 +753,7 @@
           "file": "reports/germany_dresden_report.json"
         },
         {
-          "name": "Düsseldorf",
+          "name": "D\u00fcsseldorf",
           "file": "reports/germany_duesseldorf_report.json"
         },
         {
@@ -671,7 +789,7 @@
           "file": "reports/germany_kiel_report.json"
         },
         {
-          "name": "Köln",
+          "name": "K\u00f6ln",
           "file": "reports/germany_koeln_report.json"
         },
         {
@@ -679,7 +797,7 @@
           "file": "reports/germany_leipzig_report.json"
         },
         {
-          "name": "Lübeck",
+          "name": "L\u00fcbeck",
           "file": "reports/germany_lubeck_report.json"
         },
         {
@@ -691,11 +809,11 @@
           "file": "reports/germany_mainz_report.json"
         },
         {
-          "name": "München",
+          "name": "M\u00fcnchen",
           "file": "reports/germany_muenchen_report.json"
         },
         {
-          "name": "Nürnberg",
+          "name": "N\u00fcrnberg",
           "file": "reports/germany_nuernberg_report.json"
         },
         {
@@ -755,7 +873,7 @@
           "file": "reports/spain_barcelona_report.json"
         },
         {
-          "name": "San Sebastián",
+          "name": "San Sebasti\u00e1n",
           "file": "reports/spain_san_sebastian_report.json"
         },
         {
@@ -989,7 +1107,7 @@
           "file": "reports/sweden_stockholm_report.json"
         },
         {
-          "name": "Malmö",
+          "name": "Malm\u00f6",
           "file": "reports/sweden_malmo_report.json"
         },
         {
