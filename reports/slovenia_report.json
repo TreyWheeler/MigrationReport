@@ -2,112 +2,725 @@
   "version": 2,
   "iso": "SI",
   "values": [
-    { "key": "Environment", "alignmentText": "Nearly 60% forest cover, well-protected rivers, and strong recycling norms keep air, water, and green space quality high for an outdoorsy family.", "alignmentValue": 8 },
-    { "key": "Global Warming Risk", "alignmentText": "Inland elevation buffers sea-level rise, but heavier rains have produced damaging floods (2023) and call for resilient housing choices.", "alignmentValue": 6 },
-    { "key": "Seasonal Weather", "alignmentText": "Continental seasons bring mild springs and falls, warm 27 °C summers with some humidity, and snowy winters that need kid-friendly gear but stay manageable.", "alignmentValue": 6 },
-    { "key": "Air Quality", "alignmentText": "Generally clean Alpine air, though winter inversions around Ljubljana and the Sava Valley can push PM2.5 into moderate ranges.", "alignmentValue": 7 },
-    { "key": "Natural Disasters", "alignmentText": "Moderate seismicity and recurring river floods; strong building codes mitigate risk but insurance and location choices matter.", "alignmentValue": 6 },
-    { "key": "Spring Temperature Range (C/F)", "alignmentText": "Ljubljana averages 5–18 °C (41–64 °F); shoulder-season rain common but humidity manageable.", "alignmentValue": 6 },
-    { "key": "Summer Temperature Range (C/F)", "alignmentText": "Typically 15–30 °C (59–86 °F); occasional heat waves reach low 30s °C but nights usually cool off.", "alignmentValue": 7 },
-    { "key": "Fall Temperature Range (C/F)", "alignmentText": "About 6–18 °C (43–64 °F); crisp weather with early fogs and steady rainfall.", "alignmentValue": 6 },
-    { "key": "Winter Temperature Range (C/F)", "alignmentText": "Ljubljana winters hover around -3 to 5 °C (27–41 °F) with steady snow, so we budget for heating and snow tires while coastal Primorska stays milder yet damp.", "alignmentValue": 6 },
-    { "key": "Beach Life", "alignmentText": "Short Adriatic coast (~46 km) offers tidy marinas and pebble beaches; nice for day trips but limited variety compared with Mediterranean hubs.", "alignmentValue": 5 },
-    { "key": "Seasonal Beach Water Temp", "alignmentText": "Piran Bay sees ~24–26 °C (75–79 °F) in July/August, dropping below comfortable swimming by late September.", "alignmentValue": 6 },
-    { "key": "Natural Beauty", "alignmentText": "Julian Alps, Lake Bled/Bohinj, and karst caves pack dramatic scenery and easy hiking within an hour or two of Ljubljana.", "alignmentValue": 9 },
-    { "key": "Minimum Wage", "alignmentText": "The 2024 gross minimum (€1,254; ~€878 net) barely covers Ljubljana rents, so families lean on allowances or dual incomes despite solid enforcement.", "alignmentValue": 6 },
-    { "key": "Typical Software Salaries", "alignmentText": "Senior roles around €45–60k gross beat local averages but trail Western Europe, so Trey may blend local offers with remote or freelance work to hit goals.", "alignmentValue": 6 },
-    { "key": ".NET Work Prospects", "alignmentText": "Small yet steady demand from banks, insurance, and nearshore agencies in Ljubljana/Maribor; limited openings but less competition.", "alignmentValue": 6 },
-    { "key": "Ruby Work Prospects", "alignmentText": "Ruby shops are niche—few startups use Rails—so opportunities are sparse outside remote EU contracts.", "alignmentValue": 3 },
-    { "key": "Employer Visa Sponsorship", "alignmentText": "EU Blue Card and standard work permits exist, yet smaller firms seldom navigate sponsorship; larger multinationals occasionally do.", "alignmentValue": 4 },
-    { "key": "Economic Health", "alignmentText": "Stable eurozone economy with ~2% growth forecasts, low unemployment (~3.5%), and moderate inflation trending down.", "alignmentValue": 7 },
-    { "key": "Remote-Friendly Culture", "alignmentText": "Pandemic accelerated remote norms; coworking hubs in Ljubljana/Celje exist, but many employers still expect hybrid presence.", "alignmentValue": 6 },
-    { "key": "Work-Life Balance", "alignmentText": "Central European norms favor leaving by 4–5 pm; legal protections for overtime help preserve evenings for family.", "alignmentValue": 8 },
-    { "key": "Work Week Hours", "alignmentText": "Standard 40-hour week; flex schedules possible in tech though crunch culture rare outside startups.", "alignmentValue": 7 },
-    { "key": "Vacation Days (Minimum)", "alignmentText": "Law guarantees 20 paid days plus 12 public holidays and extra leave for parents of young kids, giving workable coverage even if it is shy of the 25-day elite tier.", "alignmentValue": 7 },
-    { "key": "Vacation Days (Typical)", "alignmentText": "Tech employers usually grant 25–28 days of leave and respect downtime, letting us plan long family trips without burning unpaid time.", "alignmentValue": 8 },
-    { "key": "Pace of Life", "alignmentText": "Ljubljana offers urban amenities with walkable scale; evenings feel relaxed compared with major U.S. metros.", "alignmentValue": 8 },
-    { "key": "Typical Workday Schedule (Family of Four)", "alignmentText": "Schools 8:15–15:00, aftercare till 17:00; offices 8:00–16:00, enabling late-afternoon family time.", "alignmentValue": 7 },
-    { "key": "Typical Weekend Schedule (Family of Four)", "alignmentText": "Weekends skew toward hikes, lake trips, and kid festivals; Sunday retail closures mean planning ahead but outdoor options stay plentiful.", "alignmentValue": 7 },
-    { "key": "Family Life", "alignmentText": "Child allowances, generous parental leave, and safe neighborhoods support a young family settling in.", "alignmentValue": 8 },
-    { "key": "Polyamory", "alignmentText": "Polyamory has no legal footing, yet Ljubljana’s progressive queer and alt scenes are quietly welcoming if we keep conversations within trusted circles.", "alignmentValue": 6 },
-    { "key": "Parenting Expectations", "alignmentText": "Culture values active parenting and education, with emphasis on outdoor play and academic diligence.", "alignmentValue": 7 },
-    { "key": "Child-Friendliness of Cities", "alignmentText": "Ljubljana invests in car-lite zones, playgrounds, and safe cycling infrastructure well-suited to kids.", "alignmentValue": 8 },
-    { "key": "Schooling Options", "alignmentText": "Public schools perform strongly but teach in Slovene; limited international programs (IB) clustered in Ljubljana.", "alignmentValue": 6 },
-    { "key": "Pre-K / Early Childcare Landscape", "alignmentText": "Municipal kindergartens (vrtec) provide structured care; demand can exceed slots in Ljubljana without early registration.", "alignmentValue": 6 },
-    { "key": "Childcare Support (Citizens)", "alignmentText": "Income-based subsidies cover 30–90% of preschool fees, and parents receive monthly child allowances.", "alignmentValue": 8 },
-    { "key": "Childcare Support (Visa Holders)", "alignmentText": "Non-EU residents gain access once registered and contributing locally, but initial waitlists and paperwork add friction.", "alignmentValue": 6 },
-    { "key": "K-12 Education Access (Citizens)", "alignmentText": "Free, compulsory education through lower secondary with high PISA outcomes and strong arts/STEM balance.", "alignmentValue": 9 },
-    { "key": "K-12 Education Access (Visa Holders)", "alignmentText": "Resident children can enroll in public schools, yet Slovene-language immersion and limited ESL support require adjustment time.", "alignmentValue": 6 },
-    { "key": "Private Education", "alignmentText": "Few private schools; one British and one American school in Ljubljana with tuition €10–18k/year and waitlists.", "alignmentValue": 4 },
-    { "key": "Family Policy (Citizens)", "alignmentText": "105 days maternity, 30 days paternity, and 260 days shared parental leave paid at 100% salary up to a cap.", "alignmentValue": 8 },
-    { "key": "Family Policy (Visa Holders)", "alignmentText": "Foreign residents contributing to social insurance qualify, but benefits require prior months of payments and local bank accounts.", "alignmentValue": 6 },
-    { "key": "Higher Education Access (Citizens)", "alignmentText": "Tuition-free public universities with strong STEM programs and Erasmus mobility options.", "alignmentValue": 8 },
-    { "key": "Higher Education Access (Visa Holders)", "alignmentText": "Non-EU students pay €3–8k per year unless on exchange; admissions expect Slovene or English proficiency depending on program.", "alignmentValue": 5 },
-    { "key": "Gender Roles", "alignmentText": "Dual-income households are standard; men increasingly share childcare though domestic labor gaps persist.", "alignmentValue": 7 },
-    { "key": "Gender Fluidity", "alignmentText": "Legal gender change is possible; visibility remains limited outside activist circles, so acceptance varies by age/geography.", "alignmentValue": 5 },
-    { "key": "Gender Rights", "alignmentText": "EU-aligned protections, pay equity laws, and violence prevention frameworks are robust though enforcement can lag.", "alignmentValue": 7 },
-    { "key": "Femininity Norms", "alignmentText": "Women mix practical outdoor gear with Central European fashion; career ambition is broadly supported.", "alignmentValue": 7 },
-    { "key": "Masculinity Norms", "alignmentText": "Expectations emphasize being hands-on, sporty, and family-involved rather than macho posturing.", "alignmentValue": 7 },
-    { "key": "What Is Intriguing", "alignmentText": "Compact country offers skiing, seaside, wine regions, and a vibrant design scene all within 2-hour drives.", "alignmentValue": 8 },
-    { "key": "Language & English Ubiquity", "alignmentText": "Ljubljana professionals and service staff handle English well, yet forms, parent meetings, and bureaucracy default to Slovene, so our family still needs steady language study.", "alignmentValue": 7 },
-    { "key": "Progressivism", "alignmentText": "Coalition politics lean center-left on social issues (marriage equality, reproductive rights) despite occasional conservative swings.", "alignmentValue": 7 },
-    { "key": "Marxism (Societal Attitudes)", "alignmentText": "Legacy of Yugoslav self-management yields mild nostalgia in older generations, but mainstream discourse is social-democratic rather than Marxist.", "alignmentValue": 5 },
-    { "key": "Atheism", "alignmentText": "About 58% identify Catholic yet many are secular in practice; open non-religious life is widely accepted.", "alignmentValue": 7 },
-    { "key": "Sex (Attitudes)", "alignmentText": "European openness toward sex education and contraception; casual discussion is moderately comfortable in urban areas.", "alignmentValue": 7 },
-    { "key": "LGBTQ+ Attitudes", "alignmentText": "Same-sex marriage legalized 2022, Pride events in Ljubljana/Maribor; smaller towns still conservative but legal protections strong.", "alignmentValue": 7 },
-    { "key": "Community Vibes", "alignmentText": "Tight-knit neighborhoods with frequent festivals encourage participation; language learning speeds integration.", "alignmentValue": 7 },
-    { "key": "View of self", "alignmentText": "Slovenians emphasize being small yet innovative, proud of green credentials and cooperative spirit.", "alignmentValue": 7 },
-    { "key": "View of Neighboring Countries", "alignmentText": "Generally cordial with Italy, Austria, Croatia, and Hungary; occasional border spats with Croatia but handled diplomatically.", "alignmentValue": 6 },
-    { "key": "View of Them by Neighboring Countries", "alignmentText": "Seen as reliable EU partner with tourism appeal; limited geopolitical baggage.", "alignmentValue": 7 },
-    { "key": "Nightlife Culture", "alignmentText": "Ljubljana offers compact bar and club scene with 2am closing; outside the capital options are sparse.", "alignmentValue": 5 },
-    { "key": "Fashion Trends (Male)", "alignmentText": "Smart-casual Euro styles—tailored jeans, technical outerwear—fit in; business dress is conservative but not formal daily.", "alignmentValue": 6 },
-    { "key": "Fashion Trends (Female)", "alignmentText": "Mix of minimalist Scandinavian-inspired outfits and practical outdoor wear; heels mostly for events.", "alignmentValue": 6 },
-    { "key": "Common Hobbies", "alignmentText": "Hiking, skiing, cycling, beekeeping, and wine-tasting dominate leisure time.", "alignmentValue": 8 },
-    { "key": "Boardgaming & Tabletop", "alignmentText": "Growing scene via Ljubljana board-game cafes and the Na Meji Nevidnega convention, though communities remain small.", "alignmentValue": 6 },
-    { "key": "Nightlife & Music", "alignmentText": "Metelkova alternative district hosts live music, while festivals like Lent in Maribor bring seasonal variety.", "alignmentValue": 6 },
-    { "key": "Meetups & Communities", "alignmentText": "Tech meetups (PyLjubljana, Ljubljana .NET), Slovenia Games, and numerous outdoor clubs offer entry points for newcomers.", "alignmentValue": 7 },
-    { "key": "Nature Access", "alignmentText": "Within 30–60 minutes you can reach national parks, karst caves, or alpine lakes—ideal for weekend adventures.", "alignmentValue": 9 },
-    { "key": "Political System", "alignmentText": "Parliamentary republic with proportional representation and active multi-party competition.", "alignmentValue": 8 },
-    { "key": "Religion in Politics", "alignmentText": "Secular governance predominates; Catholic parties exist but wield limited national power.", "alignmentValue": 7 },
-    { "key": "Workers' Rights", "alignmentText": "Strong unions, collective bargaining coverage, and enforcement of overtime pay benefit employees.", "alignmentValue": 7 },
-    { "key": "State Ideology", "alignmentText": "Social-market economy balancing EU liberalism with welfare protections.", "alignmentValue": 7 },
-    { "key": "Authoritarian Backsliding Risk", "alignmentText": "EU oversight, active civil society, and recent voter pushback against illiberal reforms keep risk relatively low.", "alignmentValue": 7 },
-    { "key": "State of Capitalism", "alignmentText": "Mixed economy with significant public ownership in banking/energy yet open to foreign investment.", "alignmentValue": 6 },
-    { "key": "Stability", "alignmentText": "Consistent democratic handovers, NATO/EU membership, and low geopolitical tension.", "alignmentValue": 8 },
-    { "key": "Propaganda Prevalence", "alignmentText": "Public broadcaster offers balanced coverage; state propaganda is minimal though media ownership concentration is watched.", "alignmentValue": 7 },
-    { "key": "Propaganda Messaging", "alignmentText": "Narratives emphasize environmental stewardship and EU solidarity over nationalism.", "alignmentValue": 7 },
-    { "key": "Social Policies", "alignmentText": "Universal healthcare, paid parental leave, and means-tested benefits reflect Nordic-lite welfare ambitions.", "alignmentValue": 8 },
-    { "key": "Trust in Government", "alignmentText": "Eurobarometer shows ~35–40% trust—higher than U.S. but dips when corruption scandals surface.", "alignmentValue": 6 },
-    { "key": "Perceived Corruption", "alignmentText": "Transparency International scores Slovenia mid-pack in EU; petty nepotism and public procurement issues persist.", "alignmentValue": 5 },
-    { "key": "Type of Corruption", "alignmentText": "More administrative favoritism and insider deals than violent or organized crime-driven corruption.", "alignmentValue": 6 },
-    { "key": "Housing Situation", "alignmentText": "Ljubljana’s €12–15/m² rentals and scarce listings demand quick offers and hefty deposits, though nearby towns stay attainable if we sacrifice proximity to international schools.", "alignmentValue": 5 },
-    { "key": "Safety & Crime", "alignmentText": "Among Europe’s safest nations; low violent crime and community policing boost day-to-day security.", "alignmentValue": 9 },
-    { "key": "Healthcare (Citizens)", "alignmentText": "Compulsory insurance covers comprehensive services with modest co-pays; hospital wait times manageable but longer for specialists.", "alignmentValue": 8 },
-    { "key": "Healthcare (Visa Holders)", "alignmentText": "Temporary residents must buy public insurance (≈€120/month adult) before coverage; once enrolled, access mirrors citizens.", "alignmentValue": 7 },
-    { "key": "Child Care Support", "alignmentText": "Means-tested child allowance (€20–120/month) plus subsidized kindergarten lighten costs for young families.", "alignmentValue": 7 },
-    { "key": "Family Policy (Common Family)", "alignmentText": "Large-family supplements, baby bonuses, and flexible parental leave encourage work-life balance for dual earners.", "alignmentValue": 8 },
-    { "key": "Education", "alignmentText": "OECD PISA places Slovenia above EU average; emphasis on STEM, music, and language tracks from grade 5.", "alignmentValue": 8 },
-    { "key": "Public Transportation", "alignmentText": "Integrated bus/rail network connects major towns; Ljubljana city buses reliable though metro absent.", "alignmentValue": 6 },
-    { "key": "Economic System", "alignmentText": "Eurozone member with regulated free market and robust social insurance contributions.", "alignmentValue": 7 },
-    { "key": "How Taxes Are Handled", "alignmentText": "Employers withhold income tax and social contributions monthly; annual returns filed digitally via eDavki.", "alignmentValue": 7 },
-    { "key": "Expected Tax Rate (Our Family)", "alignmentText": "A €60k salary faces roughly 33–36% effective income tax plus 22% VAT, a mid-30s burden we tolerate in exchange for the universal healthcare and schooling we will use.", "alignmentValue": 6 },
-    { "key": "Banking & Payments", "alignmentText": "SEPA banking, widespread contactless/NFC, and e-invoicing support easy bill payment; some bureaucracy opening accounts.", "alignmentValue": 7 },
-    { "key": "Cost of Living (Optional)", "alignmentText": "Family budget ~€3,200–3,600/month in Ljubljana (rent, food, transit) — cheaper than Western EU yet rising quickly.", "alignmentValue": 6 },
-    { "key": "Retirement (Citizens)", "alignmentText": "Public PAYG pensions replace ~58% average wage; long-term sustainability debated but system currently reliable.", "alignmentValue": 6 },
-    { "key": "Retirement (Visa Holders)", "alignmentText": "Non-EU residents can accrue rights after 15+ years of contributions; otherwise need private savings or bilateral agreements.", "alignmentValue": 4 },
-    { "key": "Visa Paths", "alignmentText": "Options include EU Blue Card, highly-skilled work permit, company formation visa, and student-to-residence transitions.", "alignmentValue": 6 },
-    { "key": "Welcoming of US Migrants", "alignmentText": "Small U.S. expat base; authorities process cases professionally but quotas and language expectations mean moderate hurdles.", "alignmentValue": 5 },
-    { "key": "Residency Types & Durations", "alignmentText": "Temporary residence usually issued for 1 year, extendable; permanent after 5 years of continuous legal stay.", "alignmentValue": 6 },
-    { "key": "Path to Citizenship", "alignmentText": "Requires 10 years residency (5 continuous), B1 Slovene, and usually renouncing prior citizenship unless exempt.", "alignmentValue": 4 },
-    { "key": "Family Members", "alignmentText": "Spouses and dependent children qualify for reunification after sponsor shows stable income and housing.", "alignmentValue": 6 },
-    { "key": "Timelines & Costs", "alignmentText": "Work/residence permits take ~2–4 months; government fees roughly €120–175 per applicant plus translations.", "alignmentValue": 6 },
-    { "key": "Compliance & Risks", "alignmentText": "Need to register address within 8 days, renew on time, and maintain employment; quotas for non-EU hires can delay approvals.", "alignmentValue": 5 },
-    { "key": "Dual Citizenship Allowed", "alignmentText": "Naturalized citizens are generally expected to renounce originals unless qualifying for an exception (notably difficult for US nationals).", "alignmentValue": 3 },
-    { "key": "General Considerations for Visa Holders", "alignmentText": "Expect Slovene-language bureaucracy, proof of health insurance, and local tax filings; plan for language study before long-term stay.", "alignmentValue": 5 },
-    { "key": "Game Dev Work Prospects", "alignmentText": "Boutique studios (Outfit7’s Ljubljana branch, EKIPA2) hire Unity/ mobile talent, but AAA opportunities are scarce.", "alignmentValue": 5 },
-    { "key": "Notable Game Studios", "alignmentText": "Outfit7 (Talking Tom), EKIPA2, and small indie teams like Owlbear & Friends anchor the local scene.", "alignmentValue": 6 },
-    { "key": "Notable Game Development Communities", "alignmentText": "Slovenia Games and GameDev.si host jams, mentorship, and cross-border collaborations with Croatia/Austria.", "alignmentValue": 7 },
-    { "key": "Opportunities for Video Game Startup", "alignmentText": "Startup Slovenia, ABC Accelerator, and EU cohesion funds support founders, though talent pool and market size require remote teams.", "alignmentValue": 6 },
-    { "key": "Modernity & Infrastructure", "alignmentText": "Extensive fiber broadband (GigaBit Slovenia), modern highways, and fast rail upgrades; nearest Azure region in Austria provides low latency.", "alignmentValue": 7 }
+    {
+      "key": "Environment",
+      "alignmentText": "Nearly 60% forest cover, well-protected rivers, and strong recycling norms keep air, water, and green space quality high for an outdoorsy family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Inland elevation buffers sea-level rise, but heavier rains have produced damaging floods (2023) and call for resilient housing choices.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Continental seasons bring mild springs and falls, warm 27 °C summers with some humidity, and snowy winters that need kid-friendly gear but stay manageable.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Generally clean Alpine air, though winter inversions around Ljubljana and the Sava Valley can push PM2.5 into moderate ranges.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Moderate seismicity and recurring river floods; strong building codes mitigate risk but insurance and location choices matter.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Ljubljana averages 5–18 °C (41–64 °F); shoulder-season rain common but humidity manageable.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "Typically 15–30 °C (59–86 °F); occasional heat waves reach low 30s °C but nights usually cool off.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "About 6–18 °C (43–64 °F); crisp weather with early fogs and steady rainfall.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Ljubljana winters hover around -3 to 5 °C (27–41 °F) with steady snow, so we budget for heating and snow tires while coastal Primorska stays milder yet damp.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Short Adriatic coast (~46 km) offers tidy marinas and pebble beaches; nice for day trips but limited variety compared with Mediterranean hubs.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Piran Bay sees ~24–26 °C (75–79 °F) in July/August, dropping below comfortable swimming by late September.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Julian Alps, Lake Bled/Bohinj, and karst caves pack dramatic scenery and easy hiking within an hour or two of Ljubljana.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "The 2024 gross minimum (€1,254; ~€878 net) barely covers Ljubljana rents, so families lean on allowances or dual incomes despite solid enforcement.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Senior roles around €45–60k gross beat local averages but trail Western Europe, so Trey may blend local offers with remote or freelance work to hit goals.",
+      "alignmentValue": 6
+    },
+    {
+      "key": ".NET Work Prospects",
+      "alignmentText": "Small yet steady demand from banks, insurance, and nearshore agencies in Ljubljana/Maribor; limited openings but less competition.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Ruby shops are niche—few startups use Rails—so opportunities are sparse outside remote EU contracts.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "EU Blue Card and standard work permits exist, yet smaller firms seldom navigate sponsorship; larger multinationals occasionally do.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Stable eurozone economy with ~2% growth forecasts, low unemployment (~3.5%), and moderate inflation trending down.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Pandemic accelerated remote norms; coworking hubs in Ljubljana/Celje exist, but many employers still expect hybrid presence.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Central European norms favor leaving by 4–5 pm; legal protections for overtime help preserve evenings for family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "Standard 40-hour week; flex schedules possible in tech though crunch culture rare outside startups.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Law guarantees 20 paid days plus 12 public holidays and extra leave for parents of young kids, giving workable coverage even if it is shy of the 25-day elite tier.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Tech employers usually grant 25–28 days of leave and respect downtime, letting us plan long family trips without burning unpaid time.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Ljubljana offers urban amenities with walkable scale; evenings feel relaxed compared with major U.S. metros.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Schools 8:15–15:00, aftercare till 17:00; offices 8:00–16:00, enabling late-afternoon family time.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Weekends skew toward hikes, lake trips, and kid festivals; Sunday retail closures mean planning ahead but outdoor options stay plentiful.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Child allowances, generous parental leave, and safe neighborhoods support a young family settling in.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Polyamory has no legal footing, yet Ljubljana’s progressive queer and alt scenes are quietly welcoming if we keep conversations within trusted circles.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Culture values active parenting and education, with emphasis on outdoor play and academic diligence.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Ljubljana invests in car-lite zones, playgrounds, and safe cycling infrastructure well-suited to kids.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Public schools perform strongly but teach in Slovene; limited international programs (IB) clustered in Ljubljana.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Municipal kindergartens (vrtec) provide structured care; demand can exceed slots in Ljubljana without early registration.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Income-based subsidies cover 30–90% of preschool fees, and parents receive monthly child allowances.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "Non-EU residents gain access once registered and contributing locally, but initial waitlists and paperwork add friction.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Free, compulsory education through lower secondary with high PISA outcomes and strong arts/STEM balance.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "Resident children can enroll in public schools, yet Slovene-language immersion and limited ESL support require adjustment time.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "Few private schools; one British and one American school in Ljubljana with tuition €10–18k/year and waitlists.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "105 days maternity, 30 days paternity, and 260 days shared parental leave paid at 100% salary up to a cap.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Foreign residents contributing to social insurance qualify, but benefits require prior months of payments and local bank accounts.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Tuition-free public universities with strong STEM programs and Erasmus mobility options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "Non-EU students pay €3–8k per year unless on exchange; admissions expect Slovene or English proficiency depending on program.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Dual-income households are standard; men increasingly share childcare though domestic labor gaps persist.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Legal gender change is possible; visibility remains limited outside activist circles, so acceptance varies by age/geography.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "EU-aligned protections, pay equity laws, and violence prevention frameworks are robust though enforcement can lag.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Women mix practical outdoor gear with Central European fashion; career ambition is broadly supported.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Expectations emphasize being hands-on, sporty, and family-involved rather than macho posturing.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Compact country offers skiing, seaside, wine regions, and a vibrant design scene all within 2-hour drives.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "alignmentText": "Ljubljana professionals and service staff handle English well, yet forms, parent meetings, and bureaucracy default to Slovene, so our family still needs steady language study.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Coalition politics lean center-left on social issues (marriage equality, reproductive rights) despite occasional conservative swings.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Legacy of Yugoslav self-management yields mild nostalgia in older generations, but mainstream discourse is social-democratic rather than Marxist.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "About 58% identify Catholic yet many are secular in practice; open non-religious life is widely accepted.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "European openness toward sex education and contraception; casual discussion is moderately comfortable in urban areas.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "alignmentText": "Same-sex marriage legalized 2022, Pride events in Ljubljana/Maribor; smaller towns still conservative but legal protections strong.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Tight-knit neighborhoods with frequent festivals encourage participation; language learning speeds integration.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "Slovenians emphasize being small yet innovative, proud of green credentials and cooperative spirit.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Generally cordial with Italy, Austria, Croatia, and Hungary; occasional border spats with Croatia but handled diplomatically.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Seen as reliable EU partner with tourism appeal; limited geopolitical baggage.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Ljubljana offers compact bar and club scene with 2am closing; outside the capital options are sparse.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "Smart-casual Euro styles—tailored jeans, technical outerwear—fit in; business dress is conservative but not formal daily.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Mix of minimalist Scandinavian-inspired outfits and practical outdoor wear; heels mostly for events.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Hiking, skiing, cycling, beekeeping, and wine-tasting dominate leisure time.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "alignmentText": "Growing scene via Ljubljana board-game cafes and the Na Meji Nevidnega convention, though communities remain small.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Nightlife & Music",
+      "alignmentText": "Metelkova alternative district hosts live music, while festivals like Lent in Maribor bring seasonal variety.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Meetups & Communities",
+      "alignmentText": "Tech meetups (PyLjubljana, Ljubljana .NET), Slovenia Games, and numerous outdoor clubs offer entry points for newcomers.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Within 30–60 minutes you can reach national parks, karst caves, or alpine lakes—ideal for weekend adventures.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "Parliamentary republic with proportional representation and active multi-party competition.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Secular governance predominates; Catholic parties exist but wield limited national power.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Workers' Rights",
+      "alignmentText": "Strong unions, collective bargaining coverage, and enforcement of overtime pay benefit employees.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Social-market economy balancing EU liberalism with welfare protections.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "EU oversight, active civil society, and recent voter pushback against illiberal reforms keep risk relatively low.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "Mixed economy with significant public ownership in banking/energy yet open to foreign investment.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Consistent democratic handovers, NATO/EU membership, and low geopolitical tension.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Public broadcaster offers balanced coverage; state propaganda is minimal though media ownership concentration is watched.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Narratives emphasize environmental stewardship and EU solidarity over nationalism.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Universal healthcare, paid parental leave, and means-tested benefits reflect Nordic-lite welfare ambitions.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Eurobarometer shows ~35–40% trust—higher than U.S. but dips when corruption scandals surface.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Transparency International scores Slovenia mid-pack in EU; petty nepotism and public procurement issues persist.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "More administrative favoritism and insider deals than violent or organized crime-driven corruption.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Ljubljana’s €12–15/m² rentals and scarce listings demand quick offers and hefty deposits, though nearby towns stay attainable if we sacrifice proximity to international schools.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Safety & Crime",
+      "alignmentText": "Among Europe’s safest nations; low violent crime and community policing boost day-to-day security.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Compulsory insurance covers comprehensive services with modest co-pays; hospital wait times manageable but longer for specialists.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Temporary residents must buy public insurance (≈€120/month adult) before coverage; once enrolled, access mirrors citizens.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Means-tested child allowance (€20–120/month) plus subsidized kindergarten lighten costs for young families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Large-family supplements, baby bonuses, and flexible parental leave encourage work-life balance for dual earners.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Education",
+      "alignmentText": "OECD PISA places Slovenia above EU average; emphasis on STEM, music, and language tracks from grade 5.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Integrated bus/rail network connects major towns; Ljubljana city buses reliable though metro absent.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Eurozone member with regulated free market and robust social insurance contributions.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Employers withhold income tax and social contributions monthly; annual returns filed digitally via eDavki.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "A €60k salary faces roughly 33–36% effective income tax plus 22% VAT, a mid-30s burden we tolerate in exchange for the universal healthcare and schooling we will use.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentText": "SEPA banking, widespread contactless/NFC, and e-invoicing support easy bill payment; some bureaucracy opening accounts.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Family budget ~€3,200–3,600/month in Ljubljana (rent, food, transit) — cheaper than Western EU yet rising quickly.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "Public PAYG pensions replace ~58% average wage; long-term sustainability debated but system currently reliable.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "Non-EU residents can accrue rights after 15+ years of contributions; otherwise need private savings or bilateral agreements.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Options include EU Blue Card, highly-skilled work permit, company formation visa, and student-to-residence transitions.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Small U.S. expat base; authorities process cases professionally but quotas and language expectations mean moderate hurdles.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Residency Types & Durations",
+      "alignmentText": "Temporary residence usually issued for 1 year, extendable; permanent after 5 years of continuous legal stay.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Requires 10 years residency (5 continuous), B1 Slovene, and usually renouncing prior citizenship unless exempt.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Spouses and dependent children qualify for reunification after sponsor shows stable income and housing.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Timelines & Costs",
+      "alignmentText": "Work/residence permits take ~2–4 months; government fees roughly €120–175 per applicant plus translations.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Compliance & Risks",
+      "alignmentText": "Need to register address within 8 days, renew on time, and maintain employment; quotas for non-EU hires can delay approvals.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Naturalized citizens are generally expected to renounce originals unless qualifying for an exception (notably difficult for US nationals).",
+      "alignmentValue": 3
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "Expect Slovene-language bureaucracy, proof of health insurance, and local tax filings; plan for language study before long-term stay.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Boutique studios (Outfit7’s Ljubljana branch, EKIPA2) hire Unity/ mobile talent, but AAA opportunities are scarce.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Outfit7 (Talking Tom), EKIPA2, and small indie teams like Owlbear & Friends anchor the local scene.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Slovenia Games and GameDev.si host jams, mentorship, and cross-border collaborations with Croatia/Austria.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Startup Slovenia, ABC Accelerator, and EU cohesion funds support founders, though talent pool and market size require remote teams.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "alignmentText": "Extensive fiber broadband (GigaBit Slovenia), modern highways, and fast rail upgrades; nearest Azure region in Austria provides low latency.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Seasonal Extremes & Variability",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Seasonal Extremes & Variability\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Seasonal Sunlight Hours\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Pleasant Weather Windows\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Friendliness & Neighborliness Index",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Friendliness & Neighborliness Index\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Immigrant Sentiment - General",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Immigrant Sentiment - General\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Immigrant Sentiment - White Migrants",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Immigrant Sentiment - White Migrants\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Surface Interaction Norms\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Depth-Seeking Social Norms\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Personal Boundary & Bubble Norms",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Personal Boundary & Bubble Norms\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Moral, Honesty & Openness Expectations",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Moral, Honesty & Openness Expectations\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Community Living Opportunities\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Quality of Life - Lower-Income Tier",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Quality of Life - Lower-Income Tier\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Quality of Life - Middle-Income Tier",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Quality of Life - Middle-Income Tier\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Quality of Life - Higher-Income Tier",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Quality of Life - Higher-Income Tier\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Spacious Housing Benchmark (2k sq ft Rent)\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Grooming & Beauty Investment",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Grooming & Beauty Investment\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Body Image & Fitness Pressure",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Body Image & Fitness Pressure\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Fashion & Style Expectations",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Fashion & Style Expectations\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Flirting Boundaries & Consent Culture",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Flirting Boundaries & Consent Culture\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Gendered Flirting Expectations\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Monogamy vs. Non-Monogamy Acceptance\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Promiscuity Attitudes\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Group & Multi-Partner Relationship Attitudes",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Group & Multi-Partner Relationship Attitudes\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Personal Space & Touch Norms",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Personal Space & Touch Norms\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Firearm Laws & Ownership Culture",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Firearm Laws & Ownership Culture\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Controlled Substance Policies\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Drug Enforcement Climate\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Mass Violence Incidence\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Carceral Conditions & Prison Labor",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Carceral Conditions & Prison Labor\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Walkability & Pedestrian Safety",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Walkability & Pedestrian Safety\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Community Health Consciousness\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Processed Food Saturation\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Fresh & International Cuisine Access",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Fresh & International Cuisine Access\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Depression Prevalence\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Obesity Rate\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Cancer Incidence\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Broader Job Market Resilience\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    }
   ]
 }

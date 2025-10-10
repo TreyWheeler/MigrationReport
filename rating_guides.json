@@ -495,6 +495,141 @@
     ]
   },
   {
+    "key": "Seasonal Extremes & Variability",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Temperature swings stay within a 5 C (9 F) band, humidity shifts are gentle, and decade records pose no threat to comfort or infrastructure."
+      },
+      {
+        "rating": 9,
+        "guidance": "Seasonal highs and lows are predictable with only rare cold snaps or heat spikes that modern homes handle easily."
+      },
+      {
+        "rating": 8,
+        "guidance": "We plan around a few noticeable spikes each year, yet they are short-lived and mitigated by robust utilities."
+      },
+      {
+        "rating": 7,
+        "guidance": "Large swings arrive a handful of times per season; families prepare with extra layers or cooling but disruption is manageable."
+      },
+      {
+        "rating": 6,
+        "guidance": "Weather is generally mild but shoulder seasons can bring abrupt changes that require constant wardrobe vigilance."
+      },
+      {
+        "rating": 5,
+        "guidance": "Climate feels fickle—cold snaps, heat waves, or storms surface monthly and complicate school and outdoor plans."
+      },
+      {
+        "rating": 4,
+        "guidance": "We endure frequent severe swings (20 C / 36 F shifts, hail, or temp inversions) that stress utilities and require backup plans."
+      },
+      {
+        "rating": 3,
+        "guidance": "Extreme variability dominates: families face sudden blizzards followed by thaws or heat waves in the same week."
+      },
+      {
+        "rating": 2,
+        "guidance": "Climate volatility routinely damages infrastructure, threatens health, and drives recurring insurance claims."
+      },
+      {
+        "rating": 1,
+        "guidance": "Dangerous swings are the norm—extended polar outbreaks, deadly heat domes, or storm clusters make relocation necessary."
+      }
+    ]
+  },
+  {
+    "key": "Seasonal Sunlight Hours",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Daylight stays between 10-16 hours year-round with gentle transitions, avoiding seasonal affective concerns."
+      },
+      {
+        "rating": 9,
+        "guidance": "Seasonal daylight shifts are noticeable but still provide 8+ hours even in winter and long bright summers."
+      },
+      {
+        "rating": 8,
+        "guidance": "Winter dips to about 7 hours yet community lighting, indoor amenities, and sunny spells offset gloom."
+      },
+      {
+        "rating": 7,
+        "guidance": "Short winter days (6 hours) require light therapy or routine adjustments but the family adapts."
+      },
+      {
+        "rating": 6,
+        "guidance": "Daylight drops below 6 hours midwinter, creating mild mood or productivity strain without careful planning."
+      },
+      {
+        "rating": 5,
+        "guidance": "Dark winters (4-5 hours) and intense bright summers disrupt circadian rhythms, demanding strong coping tools."
+      },
+      {
+        "rating": 4,
+        "guidance": "Polar-style extremes mean near-dark winters and midnight-sun summers; only well-prepared families thrive."
+      },
+      {
+        "rating": 3,
+        "guidance": "Very limited daylight (under 3 hours) coincides with cloud cover, elevating SAD risk and complicating school routines."
+      },
+      {
+        "rating": 2,
+        "guidance": "Months of twilight or darkness strain mental health, and sunlight supplements become essential for basic functioning."
+      },
+      {
+        "rating": 1,
+        "guidance": "Daylight is effectively absent for extended periods, creating unsustainable living conditions for the family."
+      }
+    ]
+  },
+  {
+    "key": "Pleasant Weather Windows",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Eight or more months deliver 18-26 C (64-79 F), low humidity, light breezes, and minimal storms—ideal for outdoor living."
+      },
+      {
+        "rating": 9,
+        "guidance": "Six to seven months feel comfortable with only brief muggy or chilly stretches that rarely derail plans."
+      },
+      {
+        "rating": 8,
+        "guidance": "Roughly half the year is delightful; shoulder seasons bring passing rain or gusts but remain workable."
+      },
+      {
+        "rating": 7,
+        "guidance": "Four to five months are great, yet summers or winters demand climate control and careful scheduling."
+      },
+      {
+        "rating": 6,
+        "guidance": "Outdoor comfort exists in shorter spurts—perhaps spring and fall only—with humidity, storms, or cold limiting usage."
+      },
+      {
+        "rating": 5,
+        "guidance": "We chase microclimates or specific times of day to enjoy weather, balancing equal parts pleasant and unpleasant periods."
+      },
+      {
+        "rating": 4,
+        "guidance": "Usable windows are rare; heat indexes or windchill dominate most months despite occasional nice weekends."
+      },
+      {
+        "rating": 3,
+        "guidance": "Only a few weeks per year feel comfortable; storms, humidity, or cold cancel outdoor routines."
+      },
+      {
+        "rating": 2,
+        "guidance": "Comfortable days are exceptional outliers, making outdoor family life impractical without travel."
+      },
+      {
+        "rating": 1,
+        "guidance": "Climate is hostile nearly year-round, forcing the family indoors or to relocate for pleasant weather."
+      }
+    ]
+  },
+  {
     "key": "Natural Beauty",
     "ratingGuide": [
       {
@@ -2430,6 +2565,321 @@
     ]
   },
   {
+    "key": "Friendliness & Neighborliness Index",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Block-level relationships form effortlessly; neighbors share resources, proactively offer help, and celebrate diverse families like ours."
+      },
+      {
+        "rating": 9,
+        "guidance": "Everyday interactions feel warm and generous with quick invitations to social gatherings and support networks."
+      },
+      {
+        "rating": 8,
+        "guidance": "People are cheerful and helpful though deeper ties still require a little initiative from us."
+      },
+      {
+        "rating": 7,
+        "guidance": "Neighbors are polite and responsive once we break the ice, yet interactions stay light unless nurtured."
+      },
+      {
+        "rating": 6,
+        "guidance": "Friendliness varies by neighborhood; some residents welcome newcomers while others keep distance."
+      },
+      {
+        "rating": 5,
+        "guidance": "Day-to-day contact is neutral—cordial greetings without meaningful support or follow-through."
+      },
+      {
+        "rating": 4,
+        "guidance": "Noticeable aloofness or mild suspicion; we rely on external networks for help."
+      },
+      {
+        "rating": 3,
+        "guidance": "Neighbors are unwelcoming, gossip about outsiders, or question our family makeup."
+      },
+      {
+        "rating": 2,
+        "guidance": "Hostility or discrimination surfaces regularly, making home life stressful."
+      },
+      {
+        "rating": 1,
+        "guidance": "Harassment or threats toward newcomers are common, forcing the family to consider relocation."
+      }
+    ]
+  },
+  {
+    "key": "Immigrant Sentiment - General",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Immigrants are celebrated in media and policy; integration services are generous and xenophobia is rare."
+      },
+      {
+        "rating": 9,
+        "guidance": "Broadly positive sentiment with strong legal protections; occasional isolated bias is swiftly addressed."
+      },
+      {
+        "rating": 8,
+        "guidance": "Public opinion skews welcoming in major metros while some rural pockets remain cautious."
+      },
+      {
+        "rating": 7,
+        "guidance": "Attitudes are mixed but manageable—immigrants are accepted in professional settings yet face sporadic prejudice."
+      },
+      {
+        "rating": 6,
+        "guidance": "Debates over immigration are polarized; we rely on supportive enclaves to avoid discomfort."
+      },
+      {
+        "rating": 5,
+        "guidance": "Sentiment is lukewarm with frequent political rhetoric that questions migrant contributions."
+      },
+      {
+        "rating": 4,
+        "guidance": "Skepticism is widespread; immigrants encounter bureaucratic hurdles and microaggressions."
+      },
+      {
+        "rating": 3,
+        "guidance": "Negative narratives dominate media, leading to regular hostility or exclusionary policies."
+      },
+      {
+        "rating": 2,
+        "guidance": "Anti-immigrant sentiment is entrenched, producing protests or vigilante enforcement."
+      },
+      {
+        "rating": 1,
+        "guidance": "Government and society actively oppose immigration, making relocation unsafe for our family."
+      }
+    ]
+  },
+  {
+    "key": "Immigrant Sentiment - White Migrants",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "White immigrants are treated as valued community members with equitable access to services and leadership roles."
+      },
+      {
+        "rating": 9,
+        "guidance": "Reception is consistently positive with only minor curiosity about origins."
+      },
+      {
+        "rating": 8,
+        "guidance": "Generally welcoming, though class perceptions or legacy colonial narratives occasionally appear."
+      },
+      {
+        "rating": 7,
+        "guidance": "Professional contexts are smooth, but some locals assume temporary residency or question commitment."
+      },
+      {
+        "rating": 6,
+        "guidance": "Expect periodic stereotypes (wealthy expat, gentrifier) that require patient relationship-building."
+      },
+      {
+        "rating": 5,
+        "guidance": "Mixed attitudes—acceptance in cosmopolitan circles, suspicion in nationalist spaces."
+      },
+      {
+        "rating": 4,
+        "guidance": "Frequent grumbling about foreigners driving up costs or cultural dilution; we tread carefully."
+      },
+      {
+        "rating": 3,
+        "guidance": "White migrants are resented, facing exclusion or bureaucratic gatekeeping."
+      },
+      {
+        "rating": 2,
+        "guidance": "Overt hostility surfaces including protests, targeted crime, or employment barriers."
+      },
+      {
+        "rating": 1,
+        "guidance": "Policy or society openly discriminates, making safe integration impossible."
+      }
+    ]
+  },
+  {
+    "key": "Surface Interaction Norms",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Casual chats are lively, inclusive, and culturally nuanced; small talk is a joyful gateway to friendships."
+      },
+      {
+        "rating": 9,
+        "guidance": "Friendly pleasantries are expected, with neighbors and clerks engaging sincerely."
+      },
+      {
+        "rating": 8,
+        "guidance": "People exchange courteous greetings and brief conversations without awkwardness."
+      },
+      {
+        "rating": 7,
+        "guidance": "Small talk occurs situationally (schools, shops) but stays brief and formal."
+      },
+      {
+        "rating": 6,
+        "guidance": "Politeness is transactional; we adapt scripts to avoid seeming intrusive."
+      },
+      {
+        "rating": 5,
+        "guidance": "Limited chit-chat—silence is acceptable and initiating conversation can feel out of place."
+      },
+      {
+        "rating": 4,
+        "guidance": "Surface interactions are curt; newcomers risk being labeled pushy for casual friendliness."
+      },
+      {
+        "rating": 3,
+        "guidance": "Public interactions feel cold or suspicious, discouraging outreach."
+      },
+      {
+        "rating": 2,
+        "guidance": "Small talk is unwelcome; attempts trigger visible discomfort or reprimands."
+      },
+      {
+        "rating": 1,
+        "guidance": "Cultural norms discourage casual interaction so strongly that the family risks social penalties."
+      }
+    ]
+  },
+  {
+    "key": "Depth-Seeking Social Norms",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Communities quickly move from pleasantries to heartfelt conversations, making authentic friendships effortless."
+      },
+      {
+        "rating": 9,
+        "guidance": "Within weeks, peers invite deeper dialogue about values, family, and personal growth."
+      },
+      {
+        "rating": 8,
+        "guidance": "People are open to meaningful chats once mutual trust is established through regular meetups."
+      },
+      {
+        "rating": 7,
+        "guidance": "Deep talks emerge slowly, often anchored around shared activities or parenting circles."
+      },
+      {
+        "rating": 6,
+        "guidance": "Residents value privacy; emotional openness is limited to long-term friends."
+      },
+      {
+        "rating": 5,
+        "guidance": "Cultural norms favor light conversation; exploring personal topics feels awkward."
+      },
+      {
+        "rating": 4,
+        "guidance": "Attempts to discuss values, relationships, or vulnerabilities are rebuffed."
+      },
+      {
+        "rating": 3,
+        "guidance": "Depth is stigmatized—people interpret candid conversation as oversharing."
+      },
+      {
+        "rating": 2,
+        "guidance": "No appetite for authentic dialogue beyond immediate family; loneliness is likely."
+      },
+      {
+        "rating": 1,
+        "guidance": "Emotional expression is discouraged or policed, undermining the family’s support system."
+      }
+    ]
+  },
+  {
+    "key": "Personal Boundary & Bubble Norms",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "People articulate boundaries clearly and respect personal space while remaining warm and inclusive."
+      },
+      {
+        "rating": 9,
+        "guidance": "Physical and social distance cues are well-understood; invitations home balance hospitality with consent."
+      },
+      {
+        "rating": 8,
+        "guidance": "Most residents read social cues well; occasional misunderstandings are resolved gracefully."
+      },
+      {
+        "rating": 7,
+        "guidance": "Norms lean either slightly reserved or slightly tactile; we adjust but remain comfortable."
+      },
+      {
+        "rating": 6,
+        "guidance": "Expect varied expectations—some value drop-ins while others prefer scheduling, requiring explicit discussion."
+      },
+      {
+        "rating": 5,
+        "guidance": "Boundaries are ambiguous; unsolicited visits or persistent closeness can occur."
+      },
+      {
+        "rating": 4,
+        "guidance": "Physical space is frequently violated or hospitality obligations feel burdensome."
+      },
+      {
+        "rating": 3,
+        "guidance": "Cultural norms clash with our comfort, leading to repeated conflict or misunderstanding."
+      },
+      {
+        "rating": 2,
+        "guidance": "Boundary pushing is common—neighbors pry into private life or ignore consent cues."
+      },
+      {
+        "rating": 1,
+        "guidance": "Personal autonomy is disregarded, making the environment unsafe for our family."
+      }
+    ]
+  },
+  {
+    "key": "Moral, Honesty & Openness Expectations",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Culture prizes integrity and transparency; commitments are honored and candid feedback is welcomed."
+      },
+      {
+        "rating": 9,
+        "guidance": "High trust society—agreements are reliable and corruption is socially condemned."
+      },
+      {
+        "rating": 8,
+        "guidance": "Most interactions are trustworthy with rare white lies or social smoothing."
+      },
+      {
+        "rating": 7,
+        "guidance": "People value honesty but may avoid hard conversations to preserve harmony."
+      },
+      {
+        "rating": 6,
+        "guidance": "Expect a mix of forthright and indirect communication; we clarify expectations often."
+      },
+      {
+        "rating": 5,
+        "guidance": "Social saving-face norms create ambiguity; commitments sometimes slip without notice."
+      },
+      {
+        "rating": 4,
+        "guidance": "Cutting corners or exaggerating is common, eroding trust in institutions and neighbors."
+      },
+      {
+        "rating": 3,
+        "guidance": "We must guard against scams or unreliable promises even within community circles."
+      },
+      {
+        "rating": 2,
+        "guidance": "Dishonesty is normalized; corruption or nepotism undercuts daily life."
+      },
+      {
+        "rating": 1,
+        "guidance": "Open deception and exploitation are routine, making it impossible to build secure roots."
+      }
+    ]
+  },
+  {
     "key": "View of self",
     "ratingGuide": [
       {
@@ -2696,6 +3146,411 @@
       {
         "rating": 1,
         "guidance": "Deviation from mandated dress invites fines, arrest, or violence."
+      }
+    ]
+  },
+  {
+    "key": "Grooming & Beauty Investment",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "High-quality salons, spas, and barbers are plentiful at varied price points with inclusive services for all genders."
+      },
+      {
+        "rating": 9,
+        "guidance": "Strong grooming culture with eco-conscious products and flexible hours supporting busy parents."
+      },
+      {
+        "rating": 8,
+        "guidance": "Good mix of premium and affordable options; occasional waitlists for specialty treatments."
+      },
+      {
+        "rating": 7,
+        "guidance": "Services are reliable in major areas but limited in suburbs or require advance booking."
+      },
+      {
+        "rating": 6,
+        "guidance": "Basic grooming is available yet diversity in products or techniques is modest."
+      },
+      {
+        "rating": 5,
+        "guidance": "We find standard salons but must compromise on style range, inclusivity, or cost."
+      },
+      {
+        "rating": 4,
+        "guidance": "Grooming options are sparse, expensive, or reinforce narrow beauty norms."
+      },
+      {
+        "rating": 3,
+        "guidance": "Quality services are rare; we travel far or DIY for preferred looks."
+      },
+      {
+        "rating": 2,
+        "guidance": "Beauty services are prohibitively priced or discriminate against non-traditional clients."
+      },
+      {
+        "rating": 1,
+        "guidance": "No reliable grooming infrastructure; unsafe or unregulated providers dominate."
+      }
+    ]
+  },
+  {
+    "key": "Body Image & Fitness Pressure",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Culture champions body diversity, evidence-based health, and rejects shame; kids learn positive body talk."
+      },
+      {
+        "rating": 9,
+        "guidance": "Body positivity is mainstream though some media still idolize certain physiques."
+      },
+      {
+        "rating": 8,
+        "guidance": "Healthy lifestyles are encouraged without intense appearance pressure; gyms promote inclusivity."
+      },
+      {
+        "rating": 7,
+        "guidance": "Moderate social pressure exists but balanced by supportive communities and mental health awareness."
+      },
+      {
+        "rating": 6,
+        "guidance": "Noticeable expectations around dieting or fitness; kids encounter some teasing."
+      },
+      {
+        "rating": 5,
+        "guidance": "Mixed signals—wellness messaging coexists with image-centric marketing."
+      },
+      {
+        "rating": 4,
+        "guidance": "Strong societal focus on thinness or muscularity creates daily pressure."
+      },
+      {
+        "rating": 3,
+        "guidance": "Body shaming is common in schools, workplaces, or media."
+      },
+      {
+        "rating": 2,
+        "guidance": "Extreme dieting norms or cosmetic mandates harm wellbeing."
+      },
+      {
+        "rating": 1,
+        "guidance": "Intense body policing and harassment make the environment unsafe, especially for children."
+      }
+    ]
+  },
+  {
+    "key": "Fashion & Style Expectations",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Dress codes are flexible; creative expression is welcomed across workplaces, schools, and social life."
+      },
+      {
+        "rating": 9,
+        "guidance": "Style is progressive with inclusive sizing and minimal judgement about presentation."
+      },
+      {
+        "rating": 8,
+        "guidance": "Urban centers embrace varied looks though some industries stay conservative."
+      },
+      {
+        "rating": 7,
+        "guidance": "Expect smart-casual norms; deviations are fine once we understand context."
+      },
+      {
+        "rating": 6,
+        "guidance": "Notable expectations exist for events or offices, requiring wardrobe planning."
+      },
+      {
+        "rating": 5,
+        "guidance": "Social judgement surfaces when dressing outside local norms."
+      },
+      {
+        "rating": 4,
+        "guidance": "Strict style conventions limit expression; dressier standards cost time and money."
+      },
+      {
+        "rating": 3,
+        "guidance": "Nonconformity sparks gossip or HR issues; uniforms common beyond schools."
+      },
+      {
+        "rating": 2,
+        "guidance": "Mandated attire is widespread; transgressive fashion invites sanctions."
+      },
+      {
+        "rating": 1,
+        "guidance": "State or religious authorities enforce dress to the point of criminal penalties."
+      }
+    ]
+  },
+  {
+    "key": "Flirting Boundaries & Consent Culture",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Consent education is robust; respectful flirting norms are modeled publicly and enforced legally."
+      },
+      {
+        "rating": 9,
+        "guidance": "Social cues emphasize mutual consent; harassment is rare and promptly addressed."
+      },
+      {
+        "rating": 8,
+        "guidance": "Most settings uphold clear boundaries though nightlife may require awareness."
+      },
+      {
+        "rating": 7,
+        "guidance": "Consent norms exist but enforcement relies on self-advocacy; microaggressions appear occasionally."
+      },
+      {
+        "rating": 6,
+        "guidance": "Street harassment or unwanted touching surfaces in specific districts; allies help mitigate."
+      },
+      {
+        "rating": 5,
+        "guidance": "Boundaries are inconsistently respected; reporting mechanisms feel burdensome."
+      },
+      {
+        "rating": 4,
+        "guidance": "Casual harassment is normalized; legal follow-through is weak."
+      },
+      {
+        "rating": 3,
+        "guidance": "Consent is poorly understood; victims often blamed or ignored."
+      },
+      {
+        "rating": 2,
+        "guidance": "Systemic sexism enables coercion; law enforcement dismisses complaints."
+      },
+      {
+        "rating": 1,
+        "guidance": "Harassment and assault are pervasive with no meaningful recourse."
+      }
+    ]
+  },
+  {
+    "key": "Gendered Flirting Expectations",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Flirting norms are egalitarian; all genders can initiate or decline without stigma."
+      },
+      {
+        "rating": 9,
+        "guidance": "Progressive dating culture values mutual initiative; subtle gender scripts remain in older circles."
+      },
+      {
+        "rating": 8,
+        "guidance": "Expectations lean modern but occasionally assume men initiate."
+      },
+      {
+        "rating": 7,
+        "guidance": "Mild double standards persist, requiring conversation to set expectations."
+      },
+      {
+        "rating": 6,
+        "guidance": "Clear gender roles dominate social scenes though respectful partners exist."
+      },
+      {
+        "rating": 5,
+        "guidance": "Traditional courting norms shape behavior; deviating draws commentary."
+      },
+      {
+        "rating": 4,
+        "guidance": "Strong cultural scripts expect men to lead and women to respond modestly."
+      },
+      {
+        "rating": 3,
+        "guidance": "Nontraditional flirting invites ridicule or reputational harm."
+      },
+      {
+        "rating": 2,
+        "guidance": "Rigid gender rules backed by family or religious pressure."
+      },
+      {
+        "rating": 1,
+        "guidance": "Law or custom enforces gendered courtship, punishing deviation."
+      }
+    ]
+  },
+  {
+    "key": "Monogamy vs. Non-Monogamy Acceptance",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Consensual non-monogamy is socially and legally respected; resources and communities are visible."
+      },
+      {
+        "rating": 9,
+        "guidance": "Polyamory is broadly accepted in progressive circles with minimal stigma."
+      },
+      {
+        "rating": 8,
+        "guidance": "Open relationships are tolerated privately though public discussion stays discreet."
+      },
+      {
+        "rating": 7,
+        "guidance": "Acceptance varies by region; we find supportive networks but stay selective."
+      },
+      {
+        "rating": 6,
+        "guidance": "Non-monogamy triggers curiosity or gossip yet rarely official consequences."
+      },
+      {
+        "rating": 5,
+        "guidance": "Social stigma is common; we limit disclosure to trusted friends."
+      },
+      {
+        "rating": 4,
+        "guidance": "Community or employers may penalize openly poly families."
+      },
+      {
+        "rating": 3,
+        "guidance": "Non-monogamy invites discrimination in housing, custody, or employment."
+      },
+      {
+        "rating": 2,
+        "guidance": "Legal risks such as adultery laws or moral clauses threaten family stability."
+      },
+      {
+        "rating": 1,
+        "guidance": "Polyamory is criminalized or results in child protective action; relocation required."
+      }
+    ]
+  },
+  {
+    "key": "Promiscuity Attitudes",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Consensual adult sexuality is treated respectfully; no shaming in schools, media, or law."
+      },
+      {
+        "rating": 9,
+        "guidance": "Open-minded culture with occasional conservative commentary."
+      },
+      {
+        "rating": 8,
+        "guidance": "Most peers are accepting privately though public discourse stays modest."
+      },
+      {
+        "rating": 7,
+        "guidance": "Mild judgement arises in traditional spaces; urban areas remain relaxed."
+      },
+      {
+        "rating": 6,
+        "guidance": "Double standards exist; women or queer folks face more scrutiny."
+      },
+      {
+        "rating": 5,
+        "guidance": "Casual relationships are tolerated but gossip-prone; we stay discreet."
+      },
+      {
+        "rating": 4,
+        "guidance": "Perceived promiscuity affects reputation or job prospects."
+      },
+      {
+        "rating": 3,
+        "guidance": "Moral policing and slut-shaming are frequent, impacting wellbeing."
+      },
+      {
+        "rating": 2,
+        "guidance": "Community leaders denounce non-monogamous behavior; legal sanctions possible."
+      },
+      {
+        "rating": 1,
+        "guidance": "Criminal or religious enforcement punishes perceived promiscuity."
+      }
+    ]
+  },
+  {
+    "key": "Group & Multi-Partner Relationship Attitudes",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Polycules and group relationships receive social acceptance, legal recognition pathways, and community support."
+      },
+      {
+        "rating": 9,
+        "guidance": "Strong poly communities with meetup spaces and limited stigma from institutions."
+      },
+      {
+        "rating": 8,
+        "guidance": "Acceptance thrives in subcultures; mainstream society remains curious but not hostile."
+      },
+      {
+        "rating": 7,
+        "guidance": "Open-minded friends are easy to find though public disclosure stays selective."
+      },
+      {
+        "rating": 6,
+        "guidance": "Group relationships are tolerated privately but risk gossip or family tension."
+      },
+      {
+        "rating": 5,
+        "guidance": "Limited support; we rely on online groups and careful discretion."
+      },
+      {
+        "rating": 4,
+        "guidance": "Social or professional penalties discourage multi-partner visibility."
+      },
+      {
+        "rating": 3,
+        "guidance": "Group relationships face discrimination in housing, employment, or custody."
+      },
+      {
+        "rating": 2,
+        "guidance": "Religious or legal frameworks actively oppose multi-partner structures."
+      },
+      {
+        "rating": 1,
+        "guidance": "Criminal sanctions or child removal target group relationships."
+      }
+    ]
+  },
+  {
+    "key": "Personal Space & Touch Norms",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Social cues about touch are explicit; consent-based culture ensures hugs/handshakes are negotiated."
+      },
+      {
+        "rating": 9,
+        "guidance": "People typically ask before touching; public transit etiquette respects personal bubbles."
+      },
+      {
+        "rating": 8,
+        "guidance": "Most settings balance warmth with respect for space; occasional crowded events require awareness."
+      },
+      {
+        "rating": 7,
+        "guidance": "Norms lean tactile or reserved depending on context, but missteps are forgiven."
+      },
+      {
+        "rating": 6,
+        "guidance": "Expect cultural adjustment—some locals greet with cheek kisses or stand close without asking."
+      },
+      {
+        "rating": 5,
+        "guidance": "Personal space varies widely; we set boundaries proactively to avoid discomfort."
+      },
+      {
+        "rating": 4,
+        "guidance": "Frequent unwanted touch or crowding requires constant vigilance."
+      },
+      {
+        "rating": 3,
+        "guidance": "Ignoring personal space is normalized; kids face unsolicited contact."
+      },
+      {
+        "rating": 2,
+        "guidance": "Physical boundaries are disregarded in workplaces or schools, risking safety."
+      },
+      {
+        "rating": 1,
+        "guidance": "Coercive touch is common and culturally endorsed, making residency unsafe."
       }
     ]
   },
@@ -3555,6 +4410,231 @@
     ]
   },
   {
+    "key": "Community Living Opportunities",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Intentional communities, co-ops, and multigenerational options are plentiful, affordable, and welcome poly-friendly families."
+      },
+      {
+        "rating": 9,
+        "guidance": "Strong network of co-housing projects with transparent waitlists and supportive governance."
+      },
+      {
+        "rating": 8,
+        "guidance": "Several co-living models exist; joining requires moderate effort or deposits."
+      },
+      {
+        "rating": 7,
+        "guidance": "Opportunities exist primarily in major metros; availability cycles require patience."
+      },
+      {
+        "rating": 6,
+        "guidance": "A few communities match our values but have lengthy waits or strict eligibility criteria."
+      },
+      {
+        "rating": 5,
+        "guidance": "Limited co-living infrastructure; we might rely on informal house shares or create our own collective."
+      },
+      {
+        "rating": 4,
+        "guidance": "Most cooperative options are exclusive, expensive, or conflict with our family structure."
+      },
+      {
+        "rating": 3,
+        "guidance": "Intentional communities are rare; legal frameworks hinder shared living arrangements."
+      },
+      {
+        "rating": 2,
+        "guidance": "Authorities actively restrict multi-family housing, making co-living unviable."
+      },
+      {
+        "rating": 1,
+        "guidance": "No legal or cultural space for community living; attempts risk eviction or fines."
+      }
+    ]
+  },
+  {
+    "key": "Quality of Life - Lower-Income Tier",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Even budget-constrained families enjoy safe neighborhoods, quality schools, healthcare, and transit."
+      },
+      {
+        "rating": 9,
+        "guidance": "Lower-income areas are stable with solid public services and inclusive community programs."
+      },
+      {
+        "rating": 8,
+        "guidance": "Most essential services remain strong though some amenities (e.g., specialty clinics) require travel."
+      },
+      {
+        "rating": 7,
+        "guidance": "Affordable neighborhoods are livable but may lack green space or have longer commutes."
+      },
+      {
+        "rating": 6,
+        "guidance": "Services are inconsistent; families patch together schooling or childcare solutions."
+      },
+      {
+        "rating": 5,
+        "guidance": "Quality varies block to block—safe housing exists but schools or healthcare lag."
+      },
+      {
+        "rating": 4,
+        "guidance": "Lower-income households face chronic shortages of clinics, safe parks, or reliable transit."
+      },
+      {
+        "rating": 3,
+        "guidance": "Living conditions are precarious with high crime or underfunded services."
+      },
+      {
+        "rating": 2,
+        "guidance": "Poverty traps dominate; families struggle to access basic utilities or schooling."
+      },
+      {
+        "rating": 1,
+        "guidance": "Lower-income tiers face humanitarian-level deficits in housing, safety, and public health."
+      }
+    ]
+  },
+  {
+    "key": "Quality of Life - Middle-Income Tier",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Median earners access vibrant neighborhoods, high-performing schools, healthcare, and leisure without financial strain."
+      },
+      {
+        "rating": 9,
+        "guidance": "Comfortable lifestyle with only modest compromises on housing or travel."
+      },
+      {
+        "rating": 8,
+        "guidance": "Most amenities are attainable though saving for extras (travel, enrichment) requires budgeting."
+      },
+      {
+        "rating": 7,
+        "guidance": "Middle-income families balance good services with higher living costs or limited housing stock."
+      },
+      {
+        "rating": 6,
+        "guidance": "We maintain stability but trade-offs emerge—perhaps smaller homes or longer commutes."
+      },
+      {
+        "rating": 5,
+        "guidance": "Lifestyle feels average; some public services lag or private alternatives become necessary."
+      },
+      {
+        "rating": 4,
+        "guidance": "Middle-class squeeze—housing, childcare, or healthcare costs absorb most income."
+      },
+      {
+        "rating": 3,
+        "guidance": "Median earners struggle to maintain quality schools or safe neighborhoods without debt."
+      },
+      {
+        "rating": 2,
+        "guidance": "Middle-income families face frequent economic shocks and diminished services."
+      },
+      {
+        "rating": 1,
+        "guidance": "Median earners experience near-poverty conditions with failing institutions."
+      }
+    ]
+  },
+  {
+    "key": "Quality of Life - Higher-Income Tier",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Affluent neighborhoods deliver exceptional schools, healthcare, culture, and low bureaucracy while remaining inclusive."
+      },
+      {
+        "rating": 9,
+        "guidance": "Premium amenities are abundant; service quality justifies the price."
+      },
+      {
+        "rating": 8,
+        "guidance": "High-income families enjoy strong options though certain luxuries require travel to larger hubs."
+      },
+      {
+        "rating": 7,
+        "guidance": "Upscale lifestyle exists but involves trade-offs such as smaller expat networks or limited specialized care."
+      },
+      {
+        "rating": 6,
+        "guidance": "Top-tier options exist yet are clustered in one area with high premiums or waitlists."
+      },
+      {
+        "rating": 5,
+        "guidance": "Upscale experiences are average; private schools or clinics underperform global peers."
+      },
+      {
+        "rating": 4,
+        "guidance": "Even with resources, families struggle to secure quality services or cosmopolitan amenities."
+      },
+      {
+        "rating": 3,
+        "guidance": "High-income households often leave for neighboring countries to meet expectations."
+      },
+      {
+        "rating": 2,
+        "guidance": "Luxury goods exist but basic governance gaps (safety, infrastructure) erode quality."
+      },
+      {
+        "rating": 1,
+        "guidance": "Affluence cannot overcome systemic instability; even elite enclaves feel insecure."
+      }
+    ]
+  },
+  {
+    "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "2,000 sq ft rentals are abundant under USD 2,500 equivalent in desirable school zones."
+      },
+      {
+        "rating": 9,
+        "guidance": "Plenty of listings between USD 2,500-3,000 with flexible lease terms."
+      },
+      {
+        "rating": 8,
+        "guidance": "Homes exist at USD 3,000-3,500, requiring moderate search effort or suburban trade-offs."
+      },
+      {
+        "rating": 7,
+        "guidance": "Inventory appears seasonally; prices hover around USD 3,500-4,000 or longer commutes."
+      },
+      {
+        "rating": 6,
+        "guidance": "Few listings meet size/price targets—expect USD 4,000-4,500 or compromises on condition."
+      },
+      {
+        "rating": 5,
+        "guidance": "Large rentals exist but cost USD 4,500-5,000+ and require rapid decisions."
+      },
+      {
+        "rating": 4,
+        "guidance": "Mostly luxury stock above USD 5,500; families rely on distant suburbs or smaller homes."
+      },
+      {
+        "rating": 3,
+        "guidance": "2,000 sq ft rentals are rare; we must consider buying or splitting locations."
+      },
+      {
+        "rating": 2,
+        "guidance": "Virtually no compliant rentals; only mansions or informal leases exceed USD 7,000."
+      },
+      {
+        "rating": 1,
+        "guidance": "Zero viable inventory or legal barriers prevent large-family rentals."
+      }
+    ]
+  },
+  {
     "key": "Safety & Crime",
     "ratingGuide": [
       {
@@ -3596,6 +4676,231 @@
       {
         "rating": 1,
         "guidance": "Environment is dangerous with constant threat to life and property."
+      }
+    ]
+  },
+  {
+    "key": "Firearm Laws & Ownership Culture",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Strict licensing, low gun prevalence, and strong safe-storage norms keep public spaces peaceful."
+      },
+      {
+        "rating": 9,
+        "guidance": "Comprehensive regulations with limited civilian ownership; recreational use is tightly controlled."
+      },
+      {
+        "rating": 8,
+        "guidance": "Ownership exists but requires permits and training; gun violence is rare."
+      },
+      {
+        "rating": 7,
+        "guidance": "Moderate gun culture; families encounter firearms mainly in rural sport contexts."
+      },
+      {
+        "rating": 6,
+        "guidance": "Permissive laws; safe living requires awareness of local storage habits and school policies."
+      },
+      {
+        "rating": 5,
+        "guidance": "Guns are common; we vet playdates and consider security upgrades."
+      },
+      {
+        "rating": 4,
+        "guidance": "Loose regulation enables widespread ownership; public carrying is normalized."
+      },
+      {
+        "rating": 3,
+        "guidance": "High gun prevalence intersects with crime or political unrest."
+      },
+      {
+        "rating": 2,
+        "guidance": "Minimal oversight; shootings or accidental discharges are frequent risks."
+      },
+      {
+        "rating": 1,
+        "guidance": "Armed violence or militia activity destabilizes daily life."
+      }
+    ]
+  },
+  {
+    "key": "Controlled Substance Policies",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Progressive, harm-reduction policies with legal cannabis, safe supply programs, and minimal criminalization."
+      },
+      {
+        "rating": 9,
+        "guidance": "Decriminalized personal use and regulated markets with robust public health support."
+      },
+      {
+        "rating": 8,
+        "guidance": "Medical cannabis and partial decriminalization; enforcement emphasizes treatment."
+      },
+      {
+        "rating": 7,
+        "guidance": "Cannabis legal yet other substances remain illegal; policing generally proportionate."
+      },
+      {
+        "rating": 6,
+        "guidance": "Possession technically illegal but enforcement typically lenient in urban areas."
+      },
+      {
+        "rating": 5,
+        "guidance": "Mixed approach—some reforms exist while punitive laws linger."
+      },
+      {
+        "rating": 4,
+        "guidance": "Strict prohibition with significant fines or short jail terms even for small possession."
+      },
+      {
+        "rating": 3,
+        "guidance": "Harsh penalties including long incarceration; limited treatment access."
+      },
+      {
+        "rating": 2,
+        "guidance": "Drug policy fuels mass arrests and human rights concerns."
+      },
+      {
+        "rating": 1,
+        "guidance": "Zero-tolerance or death-penalty regimes create extreme risk for residents."
+      }
+    ]
+  },
+  {
+    "key": "Drug Enforcement Climate",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Evidence-based policing prioritizes treatment; families rarely encounter raids or profiling."
+      },
+      {
+        "rating": 9,
+        "guidance": "Enforcement is proportionate with oversight preventing abuses."
+      },
+      {
+        "rating": 8,
+        "guidance": "Occasional crackdowns occur but due process and diversion programs mitigate harm."
+      },
+      {
+        "rating": 7,
+        "guidance": "Policing varies by district; we monitor local news to avoid targeted sweeps."
+      },
+      {
+        "rating": 6,
+        "guidance": "Street-level enforcement can be heavy-handed, especially toward marginalized groups."
+      },
+      {
+        "rating": 5,
+        "guidance": "Expect sporadic raids or moral panics; foreigners may face scrutiny."
+      },
+      {
+        "rating": 4,
+        "guidance": "Punitive enforcement leads to frequent arrests and surveillance of nightlife or youth spaces."
+      },
+      {
+        "rating": 3,
+        "guidance": "Corruption or brutality is tied to drug policing, undermining community trust."
+      },
+      {
+        "rating": 2,
+        "guidance": "Militarized tactics and planted evidence are reported; legal defense costly."
+      },
+      {
+        "rating": 1,
+        "guidance": "Enforcement is violent and arbitrary, posing existential risk to residents."
+      }
+    ]
+  },
+  {
+    "key": "Mass Violence Incidence",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "No recorded mass shootings or mass-casualty attacks in the past decade; prevention systems are strong."
+      },
+      {
+        "rating": 9,
+        "guidance": "Extremely rare incidents with rapid response and community resilience planning."
+      },
+      {
+        "rating": 8,
+        "guidance": "Occasional incidents (less than one per five years) with robust support services."
+      },
+      {
+        "rating": 7,
+        "guidance": "Isolated events arise; schools and venues maintain active drills and security measures."
+      },
+      {
+        "rating": 6,
+        "guidance": "Mass violence occurs every few years nationally; situational awareness advised."
+      },
+      {
+        "rating": 5,
+        "guidance": "Recurring incidents (yearly) tied to terrorism, hate, or workplace violence; risk manageable with planning."
+      },
+      {
+        "rating": 4,
+        "guidance": "Multiple annual events or regional clusters heighten anxiety and insurance costs."
+      },
+      {
+        "rating": 3,
+        "guidance": "Mass attacks are frequent; public spaces feel unsafe."
+      },
+      {
+        "rating": 2,
+        "guidance": "Government response is slow or ineffective; families reconsider participation in public gatherings."
+      },
+      {
+        "rating": 1,
+        "guidance": "Mass violence is endemic, making relocation urgent for safety."
+      }
+    ]
+  },
+  {
+    "key": "Carceral Conditions & Prison Labor",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Prisons focus on rehabilitation with humane conditions, independent oversight, and no forced labor."
+      },
+      {
+        "rating": 9,
+        "guidance": "Facilities meet international standards; any labor programs are voluntary and fairly compensated."
+      },
+      {
+        "rating": 8,
+        "guidance": "Some overcrowding issues but strong reform efforts and legal safeguards."
+      },
+      {
+        "rating": 7,
+        "guidance": "Conditions vary by facility; advocacy groups monitor abuses."
+      },
+      {
+        "rating": 6,
+        "guidance": "Overcrowding or labor requirements exist yet basic rights remain intact."
+      },
+      {
+        "rating": 5,
+        "guidance": "Carceral system struggles with humane treatment; labor programs pay minimal wages."
+      },
+      {
+        "rating": 4,
+        "guidance": "Reports of abuse, poor healthcare, or coerced labor surface regularly."
+      },
+      {
+        "rating": 3,
+        "guidance": "Forced labor and rights violations are systemic; watchdog access limited."
+      },
+      {
+        "rating": 2,
+        "guidance": "Prisons are punitive, dangerous, and tied to political repression."
+      },
+      {
+        "rating": 1,
+        "guidance": "Inhumane conditions with torture, slave labor, or disappearances are documented."
       }
     ]
   },
@@ -3686,6 +4991,276 @@
       {
         "rating": 1,
         "guidance": "Healthcare is effectively unavailable for visa families, endangering residency plans."
+      }
+    ]
+  },
+  {
+    "key": "Community Health Consciousness",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Residents prioritize preventative care, nutrition, and mental wellness; schools and workplaces reinforce healthy habits."
+      },
+      {
+        "rating": 9,
+        "guidance": "Strong health culture with regular checkups, active living, and minimal stigma around seeking help."
+      },
+      {
+        "rating": 8,
+        "guidance": "Wellness is valued though some neighborhoods lag in participation or awareness."
+      },
+      {
+        "rating": 7,
+        "guidance": "Health-conscious subcultures thrive but broader society balances good and indulgent habits."
+      },
+      {
+        "rating": 6,
+        "guidance": "Preventative care is available yet busy lifestyles limit uptake."
+      },
+      {
+        "rating": 5,
+        "guidance": "Mixed signals: fitness centers exist but community norms lean sedentary."
+      },
+      {
+        "rating": 4,
+        "guidance": "Low emphasis on preventative care; nutrition education is sparse."
+      },
+      {
+        "rating": 3,
+        "guidance": "Unhealthy behaviors dominate and public messaging is weak."
+      },
+      {
+        "rating": 2,
+        "guidance": "Chronic disease rates soar due to minimal health literacy or access."
+      },
+      {
+        "rating": 1,
+        "guidance": "Health consciousness is absent; preventable illnesses proliferate unchecked."
+      }
+    ]
+  },
+  {
+    "key": "Processed Food Saturation",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Fresh, whole foods dominate markets and school meals; ultra-processed options are limited and clearly labeled."
+      },
+      {
+        "rating": 9,
+        "guidance": "Healthy staples are abundant with strong regulations on additives and marketing to kids."
+      },
+      {
+        "rating": 8,
+        "guidance": "Balanced scene—processed foods exist but fresh alternatives are accessible and affordable."
+      },
+      {
+        "rating": 7,
+        "guidance": "Convenience foods are common yet families can source quality produce with moderate effort."
+      },
+      {
+        "rating": 6,
+        "guidance": "Grocery aisles skew processed; we plan weekly trips to farmers markets."
+      },
+      {
+        "rating": 5,
+        "guidance": "Processed options dominate; fresh food is available but pricier or seasonal."
+      },
+      {
+        "rating": 4,
+        "guidance": "Highly processed diets are the norm; healthy options require specialty stores."
+      },
+      {
+        "rating": 3,
+        "guidance": "Food deserts or import dependence limit access to fresh ingredients."
+      },
+      {
+        "rating": 2,
+        "guidance": "Ultra-processed foods overwhelm markets, contributing to widespread health issues."
+      },
+      {
+        "rating": 1,
+        "guidance": "Fresh food availability is negligible, forcing reliance on processed staples."
+      }
+    ]
+  },
+  {
+    "key": "Fresh & International Cuisine Access",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Daily access to farmers markets and diverse cuisines (Italian, Mexican, Asian, etc.) within a short walk or transit ride."
+      },
+      {
+        "rating": 9,
+        "guidance": "Excellent variety of fresh markets and international restaurants across the metro."
+      },
+      {
+        "rating": 8,
+        "guidance": "Strong selection in city centers; suburbs require short commutes for specialty ingredients."
+      },
+      {
+        "rating": 7,
+        "guidance": "Diverse cuisine exists but some niches are limited or pricey."
+      },
+      {
+        "rating": 6,
+        "guidance": "International options cluster in certain districts; we plan outings to stock pantry favorites."
+      },
+      {
+        "rating": 5,
+        "guidance": "Moderate variety; key cuisines or fresh produce require effort or membership stores."
+      },
+      {
+        "rating": 4,
+        "guidance": "Few authentic options; ingredients rely on infrequent imports."
+      },
+      {
+        "rating": 3,
+        "guidance": "Limited to basic fare; cultural food experiences feel rare."
+      },
+      {
+        "rating": 2,
+        "guidance": "International cuisine is nearly absent; fresh produce scarce outside staples."
+      },
+      {
+        "rating": 1,
+        "guidance": "Food choices are highly restricted with minimal fresh or diverse offerings."
+      }
+    ]
+  },
+  {
+    "key": "Depression Prevalence",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Low depression rates with comprehensive mental health services, early screening, and de-stigmatized care."
+      },
+      {
+        "rating": 9,
+        "guidance": "Rates below global average; therapy access is timely and affordable."
+      },
+      {
+        "rating": 8,
+        "guidance": "Moderate prevalence but strong public awareness campaigns and school supports."
+      },
+      {
+        "rating": 7,
+        "guidance": "Depression is somewhat common; services exist but require waitlists or private options."
+      },
+      {
+        "rating": 6,
+        "guidance": "Noticeable mental health strain; families plan for insurance and proactive self-care."
+      },
+      {
+        "rating": 5,
+        "guidance": "Rates mirror US levels with uneven access to counseling."
+      },
+      {
+        "rating": 4,
+        "guidance": "High prevalence; stigma or cost discourages treatment."
+      },
+      {
+        "rating": 3,
+        "guidance": "Mental health crisis with limited providers and long waits."
+      },
+      {
+        "rating": 2,
+        "guidance": "Very high depression rates alongside policy neglect."
+      },
+      {
+        "rating": 1,
+        "guidance": "Severe mental health emergency; suicide and untreated depression are endemic."
+      }
+    ]
+  },
+  {
+    "key": "Obesity Rate",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Low obesity prevalence thanks to active transport, healthy food culture, and strong public health programs."
+      },
+      {
+        "rating": 9,
+        "guidance": "Below-average obesity with widespread wellness initiatives."
+      },
+      {
+        "rating": 8,
+        "guidance": "Slightly above ideal but trending downward with policy support."
+      },
+      {
+        "rating": 7,
+        "guidance": "Comparable to EU averages; families monitor nutrition to stay ahead."
+      },
+      {
+        "rating": 6,
+        "guidance": "Higher obesity rates in certain demographics; active lifestyle requires conscious effort."
+      },
+      {
+        "rating": 5,
+        "guidance": "Obesity mirrors US levels; public health campaigns are inconsistent."
+      },
+      {
+        "rating": 4,
+        "guidance": "Rising obesity with limited policy response; healthy choices cost extra."
+      },
+      {
+        "rating": 3,
+        "guidance": "Obesity crisis burdens healthcare and daily life."
+      },
+      {
+        "rating": 2,
+        "guidance": "Very high rates across age groups; supportive infrastructure is minimal."
+      },
+      {
+        "rating": 1,
+        "guidance": "Severe obesity epidemic undermines quality of life and longevity."
+      }
+    ]
+  },
+  {
+    "key": "Cancer Incidence",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Cancer rates are low with robust screening, early detection, and accessible oncology care."
+      },
+      {
+        "rating": 9,
+        "guidance": "Below-average incidence; national registries support preventative programs."
+      },
+      {
+        "rating": 8,
+        "guidance": "Moderate rates but high survival thanks to modern treatment access."
+      },
+      {
+        "rating": 7,
+        "guidance": "Incidence aligns with global averages; screenings require proactive scheduling."
+      },
+      {
+        "rating": 6,
+        "guidance": "Certain cancers prevalent due to environmental or lifestyle factors; healthcare manages but warns."
+      },
+      {
+        "rating": 5,
+        "guidance": "Higher-than-average incidence; we budget for supplemental insurance."
+      },
+      {
+        "rating": 4,
+        "guidance": "Cancer rates rising; diagnostic delays common outside major hospitals."
+      },
+      {
+        "rating": 3,
+        "guidance": "Significant incidence with limited treatment capacity, forcing medical travel."
+      },
+      {
+        "rating": 2,
+        "guidance": "High mortality due to late detection and inadequate care."
+      },
+      {
+        "rating": 1,
+        "guidance": "Critical cancer burden overwhelms health systems; relocation recommended."
       }
     ]
   },
@@ -3821,6 +5396,51 @@
       {
         "rating": 1,
         "guidance": "Education is failing or inaccessible, forcing families to leave."
+      }
+    ]
+  },
+  {
+    "key": "Walkability & Pedestrian Safety",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Continuous sidewalks, protected crossings, low traffic speeds, and vibrant street life make walking effortless with kids."
+      },
+      {
+        "rating": 9,
+        "guidance": "Excellent pedestrian network with only minor gaps or seasonal maintenance needs."
+      },
+      {
+        "rating": 8,
+        "guidance": "Most neighborhoods are walkable; occasional arterials require caution."
+      },
+      {
+        "rating": 7,
+        "guidance": "Walkability is good in core areas but drops in newer suburbs or industrial zones."
+      },
+      {
+        "rating": 6,
+        "guidance": "Sidewalk coverage is inconsistent; crossings lack signals or curb cuts."
+      },
+      {
+        "rating": 5,
+        "guidance": "Pedestrian access exists yet high speeds or poor lighting demand vigilance."
+      },
+      {
+        "rating": 4,
+        "guidance": "Limited sidewalks and hostile road design make daily walking stressful."
+      },
+      {
+        "rating": 3,
+        "guidance": "Walking feels unsafe due to heavy traffic, crime, or harassment."
+      },
+      {
+        "rating": 2,
+        "guidance": "Pedestrians lack protection; serious injuries are common."
+      },
+      {
+        "rating": 1,
+        "guidance": "Infrastructure virtually ignores pedestrians, forcing car dependency for safety."
       }
     ]
   },
@@ -4721,6 +6341,51 @@
       {
         "rating": 1,
         "guidance": "No visible game development community; creators work in isolation."
+      }
+    ]
+  },
+  {
+    "key": "Broader Job Market Resilience",
+    "ratingGuide": [
+      {
+        "rating": 10,
+        "guidance": "Diverse economy with strong growth across tech, healthcare, manufacturing, and services; layoffs are rare and retraining plentiful."
+      },
+      {
+        "rating": 9,
+        "guidance": "Multiple thriving sectors absorb shocks; unemployment stays low even during downturns."
+      },
+      {
+        "rating": 8,
+        "guidance": "Healthy job market with cyclical variations but quick recovery."
+      },
+      {
+        "rating": 7,
+        "guidance": "Economy leans on a few key industries yet still offers alternatives for skilled workers."
+      },
+      {
+        "rating": 6,
+        "guidance": "Growth is moderate; downturns lead to longer job searches outside flagship sectors."
+      },
+      {
+        "rating": 5,
+        "guidance": "Job market is average; relocating or reskilling may be necessary after layoffs."
+      },
+      {
+        "rating": 4,
+        "guidance": "Economy is vulnerable to sector-specific shocks; safety nets are limited."
+      },
+      {
+        "rating": 3,
+        "guidance": "High unemployment risk; few industries are hiring consistently."
+      },
+      {
+        "rating": 2,
+        "guidance": "Economic instability causes frequent layoffs with little recovery support."
+      },
+      {
+        "rating": 1,
+        "guidance": "Job market is collapsing or highly volatile; relocation is necessary for stability."
       }
     ]
   },

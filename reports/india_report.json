@@ -2,112 +2,725 @@
   "version": 2,
   "iso": "IN",
   "values": [
-    {"key": "Environment", "alignmentText": "National parks like Jim Corbett and the Western Ghats protect biodiversity, yet rapid industrialization leaves many urban rivers polluted, so the family would need to balance eco getaways with city environmental stressors.", "alignmentValue": 4},
-    {"key": "Global Warming Risk", "alignmentText": "Heatwaves topping 45°C, erratic monsoons, and sea-level rise along the Bay of Bengal signal high exposure to climate volatility, demanding resilient housing and backup cooling plans.", "alignmentValue": 3},
-    {"key": "Seasonal Weather", "alignmentText": "Cities such as Bengaluru offer relatively mild seasons, but most hubs swing from scorching pre-monsoon heat to torrential rains, challenging Sarah’s preference for gentle transitions.", "alignmentValue": 4},
-    {"key": "Air Quality", "alignmentText": "Delhi, Mumbai, and even Bengaluru struggle with PM2.5 spikes well above WHO limits, meaning HEPA filtration and monitoring would be essential for the kids.", "alignmentValue": 2},
-    {"key": "Natural Disasters", "alignmentText": "Cyclones impact eastern coasts, Himalayan quakes threaten the north, and urban flooding is frequent during monsoon, creating a complex risk profile compared with the family’s lower-risk preference.", "alignmentValue": 4},
-    {"key": "Spring Temperature Range (C/F)", "alignmentText": "In tech hubs like Bengaluru spring highs hover near 30°C (86°F), but Delhi can spike toward 35°C (95°F), reflecting the country’s broad climatic spread.", "alignmentValue": 5},
-    {"key": "Summer Temperature Range (C/F)", "alignmentText": "Summer highs exceed 40°C (104°F) in northern metros with oppressive humidity, while southern plateaus hold near 32°C (90°F); the heat index will feel punishing for Sarah.", "alignmentValue": 3},
-    {"key": "Fall Temperature Range (C/F)", "alignmentText": "Autumn after the monsoon brings 28–32°C (82–90°F) days in most cities with residual humidity, making outdoor play possible but still sticky compared with the family’s mild-weather goal.", "alignmentValue": 5},
-    {"key": "Winter Temperature Range (C/F)", "alignmentText": "Winters vary from near-freezing nights in Delhi to pleasant 15–27°C (59–81°F) days in Bengaluru, but pollution inversions can make northern cold snaps feel harsher.", "alignmentValue": 6},
-    {"key": "Beach Life", "alignmentText": "Goa, Kerala, and Tamil Nadu offer warm beaches with vibrant scenes, yet water cleanliness and monsoon storms can limit reliable seaside routines.", "alignmentValue": 5},
-    {"key": "Seasonal Beach Water Temp", "alignmentText": "Arabian Sea and Bay of Bengal waters stay 26–29°C (79–84°F) year-round, so swimming is comfortable outside monsoon-driven rough surf.", "alignmentValue": 8},
-    {"key": "Natural Beauty", "alignmentText": "From the Himalayas to Kerala backwaters, landscapes are stunning and accessible via domestic flights, though infrastructure gaps mean extra planning for family-friendly trips.", "alignmentValue": 6},
-    {"key": "Minimum Wage", "alignmentText": "Minimum wages vary by state and skill tier and often trail living costs, signaling weak wage floors compared with US standards.", "alignmentValue": 3},
-    {"key": "Typical Software Salaries", "alignmentText": "Senior engineers in Bengaluru or Hyderabad often earn ₹2.5–3.5M (~$30–42k) annually, stretching further locally but well below US pay, so Trey may prefer remote USD income.", "alignmentValue": 5},
-    {"key": ".NET Work Prospects", "alignmentText": "Large consultancies like Infosys and TCS run extensive .NET teams serving global clients, though competition is fierce and enterprise roles can be bureaucratic.", "alignmentValue": 6},
-    {"key": "Ruby Work Prospects", "alignmentText": "Ruby jobs are niche compared with JavaScript and Java, with a few startups in Bengaluru and Pune, making it harder for Sarah to find low-stress local roles.", "alignmentValue": 4},
-    {"key": "Employer Visa Sponsorship", "alignmentText": "India is not a destination for foreign hiring; most firms focus on domestic talent and bureaucracy limits employment visas for US families.", "alignmentValue": 2},
-    {"key": "Economic Health", "alignmentText": "GDP growth above 6% and a booming tech sector show dynamism, yet inflation swings and infrastructure gaps pose volatility.", "alignmentValue": 6},
-    {"key": "Remote-Friendly Culture", "alignmentText": "Tech companies embraced hybrid post-pandemic, with coworking spaces in Bengaluru and Pune supporting remote founders, though time-zone gaps with US clients require late evenings.", "alignmentValue": 6},
-    {"key": "Work-Life Balance", "alignmentText": "Indian tech culture often expects long hours and weekend availability, complicating Sarah’s desire for predictable schedules.", "alignmentValue": 3},
-    {"key": "Work Week Hours", "alignmentText": "A nominal 40–48 hour week frequently stretches beyond due to client demands and office commutes.", "alignmentValue": 3},
-    {"key": "Vacation Days (Minimum)", "alignmentText": "Labour laws grant around 12 earned leave days plus public holidays, lower than European norms and requiring accrued service time.", "alignmentValue": 4},
-    {"key": "Vacation Days (Typical)", "alignmentText": "Tech firms commonly offer 15–18 days, but blackout periods around project releases are common, limiting truly unplugged time.", "alignmentValue": 4},
-    {"key": "Pace of Life", "alignmentText": "Bengaluru neighborhoods mix bustling traffic with slower residential pockets, yet congestion and bureaucracy keep daily life on the hectic side.", "alignmentValue": 4},
-    {"key": "Typical Workday Schedule (Family of Four)", "alignmentText": "School runs start near 8 a.m., tech teams often sync with US clients into late evenings, and commutes can exceed an hour, squeezing family dinners.", "alignmentValue": 4},
-    {"key": "Typical Weekend Schedule (Family of Four)", "alignmentText": "Weekends favor mall outings, parks, and extended family visits; many services remain open Sundays, offering flexible recreation despite crowding.", "alignmentValue": 6},
-    {"key": "Family Life", "alignmentText": "Extended families are common and community support abounds, yet expat nuclear families may need to build their own networks from scratch.", "alignmentValue": 6},
-    {"key": "Polyamory", "alignmentText": "Polyamory lacks legal recognition and faces conservative social attitudes, posing discretion challenges for the couple.", "alignmentValue": 2},
-    {"key": "Parenting Expectations", "alignmentText": "Society emphasizes academic achievement and structured routines, which can provide stability but pressure children toward intense study.", "alignmentValue": 5},
-    {"key": "Child-Friendliness of Cities", "alignmentText": "Malls and gated communities offer play zones, yet sidewalks, traffic safety, and air quality often fall short of family-friendly ideals.", "alignmentValue": 4},
-    {"key": "Schooling Options", "alignmentText": "Indian curriculum, CBSE, and international schools coexist, but quality varies widely and admissions favor early planning and connections.", "alignmentValue": 5},
-    {"key": "Pre-K / Early Childcare Landscape", "alignmentText": "Private preschools and Montessori centers exist in metros, yet quality control is uneven and slots can be pricey for expats.", "alignmentValue": 5},
-    {"key": "Childcare Support (Citizens)", "alignmentText": "Middle-class families often rely on grandparents or hired domestic helpers; formal subsidies are limited.", "alignmentValue": 4},
-    {"key": "Childcare Support (Visa Holders)", "alignmentText": "Foreigners can hire domestic help but must handle visas and vetting; there is no state subsidy for expat families.", "alignmentValue": 3},
-    {"key": "K-12 Education Access (Citizens)", "alignmentText": "Public schools vary drastically by state, with top-tier government institutions but many under-resourced campuses, pushing families toward private options.", "alignmentValue": 4},
-    {"key": "K-12 Education Access (Visa Holders)", "alignmentText": "International schools accept foreigners but charge high tuition and may have waiting lists, while public schools rarely accommodate non-citizens smoothly.", "alignmentValue": 3},
-    {"key": "Private Education", "alignmentText": "CBSE and IB schools deliver strong academics and English instruction, but tuition and admissions interviews can be intense.", "alignmentValue": 6},
-    {"key": "Family Policy (Citizens)", "alignmentText": "Maternity leave spans 26 weeks for formal employees and some states add childcare stipends, yet implementation is uneven.", "alignmentValue": 5},
-    {"key": "Family Policy (Visa Holders)", "alignmentText": "Expat workers depend on employer policies; legal leave protections are limited and childcare subsidies are rare.", "alignmentValue": 3},
-    {"key": "Higher Education Access (Citizens)", "alignmentText": "Public universities like IITs and state colleges are affordable but highly competitive, offering strong STEM pathways for locals.", "alignmentValue": 6},
-    {"key": "Higher Education Access (Visa Holders)", "alignmentText": "Foreign students face higher fees and limited reserved seats, making Indian universities less attractive unless targeting niche programs.", "alignmentValue": 4},
-    {"key": "Gender Roles", "alignmentText": "Urban professionals push toward egalitarian norms, yet patriarchal expectations persist, especially around caregiving.", "alignmentValue": 4},
-    {"key": "Gender Fluidity", "alignmentText": "Legal recognition of a third gender exists, but day-to-day acceptance varies and trans people face discrimination.", "alignmentValue": 4},
-    {"key": "Gender Rights", "alignmentText": "Progressive laws on workplace harassment exist, yet enforcement gaps and safety concerns keep overall rights middling.", "alignmentValue": 5},
-    {"key": "Femininity Norms", "alignmentText": "Women balance modern careers with expectations of family caretaking, and modest dress is still encouraged outside cosmopolitan enclaves.", "alignmentValue": 4},
-    {"key": "Masculinity Norms", "alignmentText": "Breadwinner expectations remain strong, though urban men increasingly share childcare; emotional openness still lags.", "alignmentValue": 5},
-    {"key": "What Is Intriguing", "alignmentText": "India’s blend of millennia-old culture with a surging tech scene offers rich storytelling fodder for Trey’s creative projects.", "alignmentValue": 7},
-    {"key": "Language & English Ubiquity", "alignmentText": "English is an official language for business and higher education, making daily transactions manageable even as regional languages dominate social life.", "alignmentValue": 8},
-    {"key": "Progressivism", "alignmentText": "Progressive civic movements exist in metros, but national politics trend more conservative on social issues, requiring selective community-building.", "alignmentValue": 4},
-    {"key": "Marxism (Societal Attitudes)", "alignmentText": "Left-leaning states like Kerala and West Bengal keep socialist traditions alive, yet market liberalization is popular nationwide.", "alignmentValue": 6},
-    {"key": "Atheism", "alignmentText": "Secularism is constitutional, but public life remains religious, so open atheism is accepted in cosmopolitan circles yet sensitive elsewhere.", "alignmentValue": 5},
-    {"key": "Sex (Attitudes)", "alignmentText": "Conversations about sexuality remain conservative in many regions, so a polyamory-positive family would keep relationships discreet.", "alignmentValue": 3},
-    {"key": "LGBTQ+ Attitudes", "alignmentText": "Decriminalization in 2018 opened space for queer communities in Mumbai and Delhi, yet social acceptance and legal protections remain limited.", "alignmentValue": 4},
-    {"key": "Community Vibes", "alignmentText": "Neighborhoods are communal and supportive, but privacy is limited and expats may field frequent personal questions.", "alignmentValue": 6},
-    {"key": "View of self", "alignmentText": "National pride is strong, with emphasis on India’s rise as a global power and cultural heritage.", "alignmentValue": 6},
-    {"key": "View of Neighboring Countries", "alignmentText": "Relations with Pakistan and China are tense while ties with Nepal and Bangladesh are pragmatic, shaping news cycles and public discourse.", "alignmentValue": 5},
-    {"key": "View of Them by Neighboring Countries", "alignmentText": "Neighbors respect India’s economy yet critique its border policies and trade dominance, influencing regional narratives.", "alignmentValue": 4},
-    {"key": "Nightlife Culture", "alignmentText": "Major metros host craft breweries, clubs, and late-night dining, though alcohol regulations and conservative norms create earlier closing times than Europe.", "alignmentValue": 5},
-    {"key": "Fashion Trends (Male)", "alignmentText": "Urban men mix Western casual wear with tailored kurtas for festivals, offering Trey chances to blend comfort with local style.", "alignmentValue": 6},
-    {"key": "Fashion Trends (Female)", "alignmentText": "Women toggle between business casual, fusion wear, and saris; dress codes are more modest outside cosmopolitan centers.", "alignmentValue": 5},
-    {"key": "Common Hobbies", "alignmentText": "Cricket, mobile gaming, yoga, and Bollywood fandom dominate leisure time, with growing interest in esports and tabletop cafés.", "alignmentValue": 6},
-    {"key": "Boardgaming & Tabletop", "alignmentText": "Board-game cafés in Bengaluru and Mumbai run regular meetups, though imports are pricey and communities smaller than in Europe.", "alignmentValue": 5},
-    {"key": "Nightlife & Music", "alignmentText": "Independent music venues, EDM clubs, and Bollywood nights thrive in metros, but licensing rules and noise curfews limit spontaneity.", "alignmentValue": 5},
-    {"key": "Meetups & Communities", "alignmentText": "Tech, startup, and maker meetups are abundant, offering Trey and Sarah professional networks despite crowding.", "alignmentValue": 7},
-    {"key": "Nature Access", "alignmentText": "Weekend treks to the Western Ghats or Nilgiris are popular, yet transit time and monsoon conditions require planning.", "alignmentValue": 6},
-    {"key": "Political System", "alignmentText": "India’s federal parliamentary democracy holds regular elections with active opposition, even as ruling-party dominance shapes discourse.", "alignmentValue": 6},
-    {"key": "Religion in Politics", "alignmentText": "Hindu nationalist rhetoric increasingly influences policy debates, clashing with the family’s secular preference.", "alignmentValue": 3},
-    {"key": "Workers' Rights", "alignmentText": "Labour codes guarantee protections on paper, but enforcement in tech and gig sectors is inconsistent, especially for contractors.", "alignmentValue": 4},
-    {"key": "State Ideology", "alignmentText": "A mix of economic liberalization and cultural conservatism defines the current governance model.", "alignmentValue": 4},
-    {"key": "Authoritarian Backsliding Risk", "alignmentText": "Concerns over press freedom, NGO restrictions, and majoritarian politics signal moderate democratic erosion.", "alignmentValue": 4},
-    {"key": "State of Capitalism", "alignmentText": "A dynamic private sector coexists with protectionist policies and conglomerate dominance, requiring navigation of bureaucracy.", "alignmentValue": 5},
-    {"key": "Stability", "alignmentText": "Despite regional protests, institutions and courts continue to function, offering moderate political stability.", "alignmentValue": 6},
-    {"key": "Propaganda Prevalence", "alignmentText": "Government-friendly media narratives are common, though independent outlets and social media still provide alternative viewpoints.", "alignmentValue": 4},
-    {"key": "Propaganda Messaging", "alignmentText": "Messaging centers on nationalism, economic development, and cultural pride, which may feel heavy-handed compared with the family’s pluralistic expectations.", "alignmentValue": 4},
-    {"key": "Social Policies", "alignmentText": "Welfare schemes target rural poverty and digital inclusion, yet urban safety nets lag behind European standards.", "alignmentValue": 5},
-    {"key": "Trust in Government", "alignmentText": "Public trust varies: flagship infrastructure projects earn praise, but corruption scandals and service delays breed skepticism.", "alignmentValue": 5},
-    {"key": "Perceived Corruption", "alignmentText": "India ranks mid-table on TI indexes, and expats report routine petty bribery when handling permits.", "alignmentValue": 4},
-    {"key": "Type of Corruption", "alignmentText": "Petty bureaucratic graft and favoritism in contracting are more common than outright institutional collapse.", "alignmentValue": 4},
-    {"key": "Housing Situation", "alignmentText": "Modern apartments with gated security exist in metros, yet infrastructure like water pressure and power backup need vetting before leasing.", "alignmentValue": 5},
-    {"key": "Safety & Crime", "alignmentText": "Violent crime rates are moderate, but petty theft and traffic accidents are concerns; women report harassment in crowded transit.", "alignmentValue": 4},
-    {"key": "Healthcare (Citizens)", "alignmentText": "Public hospitals provide basic care but are overstretched; middle-class families rely on private hospitals for quality service.", "alignmentValue": 4},
-    {"key": "Healthcare (Visa Holders)", "alignmentText": "Expat insurance grants access to private hospitals with English-speaking doctors, though billing transparency and air quality-related ailments need monitoring.", "alignmentValue": 5},
-    {"key": "Child Care Support", "alignmentText": "Reliable childcare hinges on hiring nannies or enrolling in private centers, requiring due diligence and backups.", "alignmentValue": 4},
-    {"key": "Family Policy (Common Family)", "alignmentText": "Middle-class families craft support through domestic help and private schooling rather than state benefits, creating extra administrative load.", "alignmentValue": 4},
-    {"key": "Education", "alignmentText": "Top schools deliver rigorous academics, yet inequality and rote learning norms mean the family must vet programs for student well-being.", "alignmentValue": 5},
-    {"key": "Public Transportation", "alignmentText": "Metro systems in Delhi and Bengaluru are expanding, but last-mile connectivity and reliability still push many families toward rideshare or private cars.", "alignmentValue": 5},
-    {"key": "Economic System", "alignmentText": "A mixed economy leans capitalist with state influence in key sectors, delivering growth yet uneven regulation.", "alignmentValue": 6},
-    {"key": "How Taxes Are Handled", "alignmentText": "Goods and Services Tax centralized filings, yet paperwork for expats remains complex and professional help is advised.", "alignmentValue": 4},
-    {"key": "Expected Tax Rate (Our Family)", "alignmentText": "Resident personal tax rates hit 30% plus surcharges once income surpasses ₹1.5M, though foreign-earned income exclusions can reduce liability if structured carefully.", "alignmentValue": 5},
-    {"key": "Banking & Payments", "alignmentText": "UPI digital payments dominate everyday life and banks offer English support, but opening accounts demands local address proofs and patience.", "alignmentValue": 6},
-    {"key": "Cost of Living (Optional)", "alignmentText": "Housing, domestic help, and food are affordable relative to US costs, but imported goods, air purifiers, and international schooling add a premium.", "alignmentValue": 6},
-    {"key": "Retirement (Citizens)", "alignmentText": "Employees’ Provident Fund and National Pension Scheme provide modest safety nets supplemented by family support.", "alignmentValue": 5},
-    {"key": "Retirement (Visa Holders)", "alignmentText": "Foreigners usually maintain overseas retirement accounts; local options are limited without long-term residency.", "alignmentValue": 3},
-    {"key": "Visa Paths", "alignmentText": "Employment, business, and startup visas exist but require significant documentation; there is no straightforward residency-by-investment route for families.", "alignmentValue": 3},
-    {"key": "Welcoming of US Migrants", "alignmentText": "Indians are generally hospitable, yet few Americans relocate long-term, so local systems are not tailored to US expats.", "alignmentValue": 5},
-    {"key": "Residency Types & Durations", "alignmentText": "Employment and business visas grant stays of one to five years, contingent on employer sponsorship and compliance.", "alignmentValue": 4},
-    {"key": "Path to Citizenship", "alignmentText": "Naturalization typically requires 12 years of residence, renouncing prior citizenship, and knowledge tests, making it impractical for the family.", "alignmentValue": 2},
-    {"key": "Family Members", "alignmentText": "Dependents can join on co-terminus visas, but spouses cannot automatically work without additional permits.", "alignmentValue": 3},
-    {"key": "Timelines & Costs", "alignmentText": "Visa processing may take several weeks to months, with multiple in-person visits and moderate fees, plus compliance checks.", "alignmentValue": 4},
-    {"key": "Compliance & Risks", "alignmentText": "Registration with FRRO, periodic reporting, and sudden rule changes create friction that the family’s low-bureaucracy preference may dislike.", "alignmentValue": 3},
-    {"key": "Dual Citizenship Allowed", "alignmentText": "India disallows dual citizenship, offering only Overseas Citizen of India status for those of Indian origin, which the family lacks.", "alignmentValue": 1},
-    {"key": "General Considerations for Visa Holders", "alignmentText": "Maintaining police registrations, GST compliance for businesses, and managing domestic staff documentation requires organized record-keeping.", "alignmentValue": 4},
-    {"key": "Game Dev Work Prospects", "alignmentText": "Studios like Ubisoft Pune and Zynga India employ sizable teams, but most work on mobile or service projects rather than premium indie titles.", "alignmentValue": 5},
-    {"key": "Notable Game Studios", "alignmentText": "Zynga, Ubisoft, SuperGaming, and Nodding Heads run teams in Pune and Mumbai, offering collaboration options for Trey.", "alignmentValue": 6},
-    {"key": "Notable Game Development Communities", "alignmentText": "Events like India Game Developer Conference and local IGDA chapters nurture a growing scene, albeit smaller than Europe’s.", "alignmentValue": 6},
-    {"key": "Opportunities for Video Game Startup", "alignmentText": "Funding focuses on mobile free-to-play; grants are scarce, so Trey would rely on global publishing deals and remote collaborators.", "alignmentValue": 4},
-    {"key": "Modernity & Infrastructure", "alignmentText": "Tier-one cities boast fiber internet, metro lines, and new airports, yet power outages and traffic snarls still interrupt daily flow.", "alignmentValue": 5}
+    {
+      "key": "Environment",
+      "alignmentText": "National parks like Jim Corbett and the Western Ghats protect biodiversity, yet rapid industrialization leaves many urban rivers polluted, so the family would need to balance eco getaways with city environmental stressors.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Heatwaves topping 45°C, erratic monsoons, and sea-level rise along the Bay of Bengal signal high exposure to climate volatility, demanding resilient housing and backup cooling plans.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Cities such as Bengaluru offer relatively mild seasons, but most hubs swing from scorching pre-monsoon heat to torrential rains, challenging Sarah’s preference for gentle transitions.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Delhi, Mumbai, and even Bengaluru struggle with PM2.5 spikes well above WHO limits, meaning HEPA filtration and monitoring would be essential for the kids.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Cyclones impact eastern coasts, Himalayan quakes threaten the north, and urban flooding is frequent during monsoon, creating a complex risk profile compared with the family’s lower-risk preference.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "In tech hubs like Bengaluru spring highs hover near 30°C (86°F), but Delhi can spike toward 35°C (95°F), reflecting the country’s broad climatic spread.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "Summer highs exceed 40°C (104°F) in northern metros with oppressive humidity, while southern plateaus hold near 32°C (90°F); the heat index will feel punishing for Sarah.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Autumn after the monsoon brings 28–32°C (82–90°F) days in most cities with residual humidity, making outdoor play possible but still sticky compared with the family’s mild-weather goal.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Winters vary from near-freezing nights in Delhi to pleasant 15–27°C (59–81°F) days in Bengaluru, but pollution inversions can make northern cold snaps feel harsher.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Goa, Kerala, and Tamil Nadu offer warm beaches with vibrant scenes, yet water cleanliness and monsoon storms can limit reliable seaside routines.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Arabian Sea and Bay of Bengal waters stay 26–29°C (79–84°F) year-round, so swimming is comfortable outside monsoon-driven rough surf.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "From the Himalayas to Kerala backwaters, landscapes are stunning and accessible via domestic flights, though infrastructure gaps mean extra planning for family-friendly trips.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Minimum wages vary by state and skill tier and often trail living costs, signaling weak wage floors compared with US standards.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Senior engineers in Bengaluru or Hyderabad often earn ₹2.5–3.5M (~$30–42k) annually, stretching further locally but well below US pay, so Trey may prefer remote USD income.",
+      "alignmentValue": 5
+    },
+    {
+      "key": ".NET Work Prospects",
+      "alignmentText": "Large consultancies like Infosys and TCS run extensive .NET teams serving global clients, though competition is fierce and enterprise roles can be bureaucratic.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Ruby jobs are niche compared with JavaScript and Java, with a few startups in Bengaluru and Pune, making it harder for Sarah to find low-stress local roles.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "India is not a destination for foreign hiring; most firms focus on domestic talent and bureaucracy limits employment visas for US families.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "GDP growth above 6% and a booming tech sector show dynamism, yet inflation swings and infrastructure gaps pose volatility.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Tech companies embraced hybrid post-pandemic, with coworking spaces in Bengaluru and Pune supporting remote founders, though time-zone gaps with US clients require late evenings.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Indian tech culture often expects long hours and weekend availability, complicating Sarah’s desire for predictable schedules.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "A nominal 40–48 hour week frequently stretches beyond due to client demands and office commutes.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Labour laws grant around 12 earned leave days plus public holidays, lower than European norms and requiring accrued service time.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Tech firms commonly offer 15–18 days, but blackout periods around project releases are common, limiting truly unplugged time.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Bengaluru neighborhoods mix bustling traffic with slower residential pockets, yet congestion and bureaucracy keep daily life on the hectic side.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "School runs start near 8 a.m., tech teams often sync with US clients into late evenings, and commutes can exceed an hour, squeezing family dinners.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Weekends favor mall outings, parks, and extended family visits; many services remain open Sundays, offering flexible recreation despite crowding.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Extended families are common and community support abounds, yet expat nuclear families may need to build their own networks from scratch.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Polyamory lacks legal recognition and faces conservative social attitudes, posing discretion challenges for the couple.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Society emphasizes academic achievement and structured routines, which can provide stability but pressure children toward intense study.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Malls and gated communities offer play zones, yet sidewalks, traffic safety, and air quality often fall short of family-friendly ideals.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Indian curriculum, CBSE, and international schools coexist, but quality varies widely and admissions favor early planning and connections.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Private preschools and Montessori centers exist in metros, yet quality control is uneven and slots can be pricey for expats.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Middle-class families often rely on grandparents or hired domestic helpers; formal subsidies are limited.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "Foreigners can hire domestic help but must handle visas and vetting; there is no state subsidy for expat families.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Public schools vary drastically by state, with top-tier government institutions but many under-resourced campuses, pushing families toward private options.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "International schools accept foreigners but charge high tuition and may have waiting lists, while public schools rarely accommodate non-citizens smoothly.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "CBSE and IB schools deliver strong academics and English instruction, but tuition and admissions interviews can be intense.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "Maternity leave spans 26 weeks for formal employees and some states add childcare stipends, yet implementation is uneven.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Expat workers depend on employer policies; legal leave protections are limited and childcare subsidies are rare.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Public universities like IITs and state colleges are affordable but highly competitive, offering strong STEM pathways for locals.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "Foreign students face higher fees and limited reserved seats, making Indian universities less attractive unless targeting niche programs.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Urban professionals push toward egalitarian norms, yet patriarchal expectations persist, especially around caregiving.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Legal recognition of a third gender exists, but day-to-day acceptance varies and trans people face discrimination.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Progressive laws on workplace harassment exist, yet enforcement gaps and safety concerns keep overall rights middling.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Women balance modern careers with expectations of family caretaking, and modest dress is still encouraged outside cosmopolitan enclaves.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Breadwinner expectations remain strong, though urban men increasingly share childcare; emotional openness still lags.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "India’s blend of millennia-old culture with a surging tech scene offers rich storytelling fodder for Trey’s creative projects.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "alignmentText": "English is an official language for business and higher education, making daily transactions manageable even as regional languages dominate social life.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Progressive civic movements exist in metros, but national politics trend more conservative on social issues, requiring selective community-building.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Left-leaning states like Kerala and West Bengal keep socialist traditions alive, yet market liberalization is popular nationwide.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "Secularism is constitutional, but public life remains religious, so open atheism is accepted in cosmopolitan circles yet sensitive elsewhere.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Conversations about sexuality remain conservative in many regions, so a polyamory-positive family would keep relationships discreet.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "alignmentText": "Decriminalization in 2018 opened space for queer communities in Mumbai and Delhi, yet social acceptance and legal protections remain limited.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Neighborhoods are communal and supportive, but privacy is limited and expats may field frequent personal questions.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "National pride is strong, with emphasis on India’s rise as a global power and cultural heritage.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Relations with Pakistan and China are tense while ties with Nepal and Bangladesh are pragmatic, shaping news cycles and public discourse.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Neighbors respect India’s economy yet critique its border policies and trade dominance, influencing regional narratives.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Major metros host craft breweries, clubs, and late-night dining, though alcohol regulations and conservative norms create earlier closing times than Europe.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "Urban men mix Western casual wear with tailored kurtas for festivals, offering Trey chances to blend comfort with local style.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Women toggle between business casual, fusion wear, and saris; dress codes are more modest outside cosmopolitan centers.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Cricket, mobile gaming, yoga, and Bollywood fandom dominate leisure time, with growing interest in esports and tabletop cafés.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "alignmentText": "Board-game cafés in Bengaluru and Mumbai run regular meetups, though imports are pricey and communities smaller than in Europe.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Nightlife & Music",
+      "alignmentText": "Independent music venues, EDM clubs, and Bollywood nights thrive in metros, but licensing rules and noise curfews limit spontaneity.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Meetups & Communities",
+      "alignmentText": "Tech, startup, and maker meetups are abundant, offering Trey and Sarah professional networks despite crowding.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Weekend treks to the Western Ghats or Nilgiris are popular, yet transit time and monsoon conditions require planning.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "India’s federal parliamentary democracy holds regular elections with active opposition, even as ruling-party dominance shapes discourse.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Hindu nationalist rhetoric increasingly influences policy debates, clashing with the family’s secular preference.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Workers' Rights",
+      "alignmentText": "Labour codes guarantee protections on paper, but enforcement in tech and gig sectors is inconsistent, especially for contractors.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "A mix of economic liberalization and cultural conservatism defines the current governance model.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Concerns over press freedom, NGO restrictions, and majoritarian politics signal moderate democratic erosion.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "A dynamic private sector coexists with protectionist policies and conglomerate dominance, requiring navigation of bureaucracy.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Despite regional protests, institutions and courts continue to function, offering moderate political stability.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Government-friendly media narratives are common, though independent outlets and social media still provide alternative viewpoints.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Messaging centers on nationalism, economic development, and cultural pride, which may feel heavy-handed compared with the family’s pluralistic expectations.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Welfare schemes target rural poverty and digital inclusion, yet urban safety nets lag behind European standards.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Public trust varies: flagship infrastructure projects earn praise, but corruption scandals and service delays breed skepticism.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "India ranks mid-table on TI indexes, and expats report routine petty bribery when handling permits.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Petty bureaucratic graft and favoritism in contracting are more common than outright institutional collapse.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Modern apartments with gated security exist in metros, yet infrastructure like water pressure and power backup need vetting before leasing.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Safety & Crime",
+      "alignmentText": "Violent crime rates are moderate, but petty theft and traffic accidents are concerns; women report harassment in crowded transit.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Public hospitals provide basic care but are overstretched; middle-class families rely on private hospitals for quality service.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Expat insurance grants access to private hospitals with English-speaking doctors, though billing transparency and air quality-related ailments need monitoring.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Reliable childcare hinges on hiring nannies or enrolling in private centers, requiring due diligence and backups.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Middle-class families craft support through domestic help and private schooling rather than state benefits, creating extra administrative load.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Top schools deliver rigorous academics, yet inequality and rote learning norms mean the family must vet programs for student well-being.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Metro systems in Delhi and Bengaluru are expanding, but last-mile connectivity and reliability still push many families toward rideshare or private cars.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "A mixed economy leans capitalist with state influence in key sectors, delivering growth yet uneven regulation.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Goods and Services Tax centralized filings, yet paperwork for expats remains complex and professional help is advised.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Resident personal tax rates hit 30% plus surcharges once income surpasses ₹1.5M, though foreign-earned income exclusions can reduce liability if structured carefully.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentText": "UPI digital payments dominate everyday life and banks offer English support, but opening accounts demands local address proofs and patience.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Housing, domestic help, and food are affordable relative to US costs, but imported goods, air purifiers, and international schooling add a premium.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "Employees’ Provident Fund and National Pension Scheme provide modest safety nets supplemented by family support.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "Foreigners usually maintain overseas retirement accounts; local options are limited without long-term residency.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Employment, business, and startup visas exist but require significant documentation; there is no straightforward residency-by-investment route for families.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Indians are generally hospitable, yet few Americans relocate long-term, so local systems are not tailored to US expats.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Residency Types & Durations",
+      "alignmentText": "Employment and business visas grant stays of one to five years, contingent on employer sponsorship and compliance.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Naturalization typically requires 12 years of residence, renouncing prior citizenship, and knowledge tests, making it impractical for the family.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Dependents can join on co-terminus visas, but spouses cannot automatically work without additional permits.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Timelines & Costs",
+      "alignmentText": "Visa processing may take several weeks to months, with multiple in-person visits and moderate fees, plus compliance checks.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Compliance & Risks",
+      "alignmentText": "Registration with FRRO, periodic reporting, and sudden rule changes create friction that the family’s low-bureaucracy preference may dislike.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "India disallows dual citizenship, offering only Overseas Citizen of India status for those of Indian origin, which the family lacks.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "Maintaining police registrations, GST compliance for businesses, and managing domestic staff documentation requires organized record-keeping.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Studios like Ubisoft Pune and Zynga India employ sizable teams, but most work on mobile or service projects rather than premium indie titles.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Zynga, Ubisoft, SuperGaming, and Nodding Heads run teams in Pune and Mumbai, offering collaboration options for Trey.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Events like India Game Developer Conference and local IGDA chapters nurture a growing scene, albeit smaller than Europe’s.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Funding focuses on mobile free-to-play; grants are scarce, so Trey would rely on global publishing deals and remote collaborators.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "alignmentText": "Tier-one cities boast fiber internet, metro lines, and new airports, yet power outages and traffic snarls still interrupt daily flow.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Seasonal Extremes & Variability",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Seasonal Extremes & Variability\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Seasonal Sunlight Hours\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Pleasant Weather Windows\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Friendliness & Neighborliness Index",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Friendliness & Neighborliness Index\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Immigrant Sentiment - General",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Immigrant Sentiment - General\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Immigrant Sentiment - White Migrants",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Immigrant Sentiment - White Migrants\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Surface Interaction Norms\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Depth-Seeking Social Norms\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Personal Boundary & Bubble Norms",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Personal Boundary & Bubble Norms\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Moral, Honesty & Openness Expectations",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Moral, Honesty & Openness Expectations\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Community Living Opportunities\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Quality of Life - Lower-Income Tier",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Quality of Life - Lower-Income Tier\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Quality of Life - Middle-Income Tier",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Quality of Life - Middle-Income Tier\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Quality of Life - Higher-Income Tier",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Quality of Life - Higher-Income Tier\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Spacious Housing Benchmark (2k sq ft Rent)\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Grooming & Beauty Investment",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Grooming & Beauty Investment\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Body Image & Fitness Pressure",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Body Image & Fitness Pressure\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Fashion & Style Expectations",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Fashion & Style Expectations\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Flirting Boundaries & Consent Culture",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Flirting Boundaries & Consent Culture\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Gendered Flirting Expectations\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Monogamy vs. Non-Monogamy Acceptance\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Promiscuity Attitudes\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Group & Multi-Partner Relationship Attitudes",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Group & Multi-Partner Relationship Attitudes\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Personal Space & Touch Norms",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Personal Space & Touch Norms\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Firearm Laws & Ownership Culture",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Firearm Laws & Ownership Culture\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Controlled Substance Policies\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Drug Enforcement Climate\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Mass Violence Incidence\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Carceral Conditions & Prison Labor",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Carceral Conditions & Prison Labor\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Walkability & Pedestrian Safety",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Walkability & Pedestrian Safety\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Community Health Consciousness\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Processed Food Saturation\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Fresh & International Cuisine Access",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Fresh & International Cuisine Access\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Depression Prevalence\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Obesity Rate\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Cancer Incidence\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Research pending: we haven't compiled reliable information for this location's \"Broader Job Market Resilience\" yet. Score remains 0 until verified sources are added.",
+      "alignmentValue": 0
+    }
   ]
 }
