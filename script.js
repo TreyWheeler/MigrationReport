@@ -1,5 +1,15 @@
-const appState = { countries: [], selected: [], nodesByFile: new Map(), showCitiesOnly: false, expandedState: {}, showHiddenKeys: false };
+const appState = {
+  countries: [],
+  selected: [],
+  nodesByFile: new Map(),
+  showCitiesOnly: false,
+  expandedState: {},
+  showHiddenKeys: false,
+  keyGuidanceIndex: new Map(),
+  keyGuidanceHasRatings: false,
+};
 let hiddenKeysHotkeyAttached = false;
+const keyGuidanceDialogState = { lastTrigger: null };
 
 function getParentFileForNode(node) {
   if (!node || typeof node !== 'object') return null;
@@ -132,6 +142,234 @@ function normalizeInformationalFlags(mainData) {
   });
 }
 
+function normalizeRatingGuideList(list) {
+  const arr = Array.isArray(list) ? list.slice() : [];
+  const normalized = arr
+    .map(entry => {
+      const rating = Number(entry?.rating);
+      const guidance = typeof entry?.guidance === 'string' ? entry.guidance.trim() : '';
+      return { rating: isFinite(rating) ? rating : NaN, guidance };
+    })
+    .filter(entry => isFinite(entry.rating) && entry.guidance.length > 0);
+  normalized.sort((a, b) => {
+    if (a.rating !== b.rating) return b.rating - a.rating;
+    return a.guidance.localeCompare(b.guidance, undefined, { sensitivity: 'base' });
+  });
+  return normalized;
+}
+
+function enrichKeyGuidance(mainData, ratingGuides = []) {
+  const ratingIndex = new Map();
+  if (Array.isArray(ratingGuides)) {
+    ratingGuides.forEach(entry => {
+      if (!entry || typeof entry.key !== 'string') return;
+      const keyName = entry.key;
+      ratingIndex.set(keyName, {
+        key: keyName,
+        ratingGuide: normalizeRatingGuideList(entry.ratingGuide),
+        considerations: typeof entry.considerations === 'string' ? entry.considerations.trim() : '',
+      });
+    });
+    if (ratingGuides.length > 0) {
+      appState.keyGuidanceHasRatings = true;
+    }
+  }
+
+  const map = new Map();
+  const categories = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
+  categories.forEach(category => {
+    if (!category || !Array.isArray(category.Keys)) return;
+    category.Keys.forEach(keyObj => {
+      if (!keyObj || typeof keyObj !== 'object') return;
+      const keyName = typeof keyObj.Key === 'string' ? keyObj.Key : '';
+      if (typeof keyObj.Guidance !== 'string' && typeof keyObj.guidance === 'string') {
+        keyObj.Guidance = keyObj.guidance;
+      }
+      const ratingEntry = keyName ? ratingIndex.get(keyName) : undefined;
+      const ratingGuide = ratingEntry ? ratingEntry.ratingGuide : normalizeRatingGuideList(keyObj.RatingGuide);
+      const considerations = ratingEntry && ratingEntry.considerations
+        ? ratingEntry.considerations
+        : (typeof keyObj.RatingConsiderations === 'string' ? keyObj.RatingConsiderations : '');
+      keyObj.RatingGuide = ratingGuide;
+      if (considerations) {
+        keyObj.RatingConsiderations = considerations;
+      } else {
+        delete keyObj.RatingConsiderations;
+      }
+      const record = {
+        key: keyName,
+        guidance: typeof keyObj.Guidance === 'string' ? keyObj.Guidance.trim() : '',
+        ratingGuide,
+        considerations,
+      };
+      if (keyName) {
+        map.set(keyName, record);
+      }
+    });
+  });
+
+  ratingIndex.forEach((value, key) => {
+    if (!map.has(key)) {
+      map.set(key, {
+        key,
+        guidance: '',
+        ratingGuide: value.ratingGuide,
+        considerations: value.considerations,
+      });
+    }
+  });
+
+  appState.keyGuidanceIndex = map;
+  return map;
+}
+
+async function ensureKeyGuidanceLoaded(mainData) {
+  if (!mainData) return;
+  const hasIndex = appState.keyGuidanceIndex instanceof Map && appState.keyGuidanceIndex.size > 0;
+  if (!hasIndex) {
+    enrichKeyGuidance(mainData);
+  }
+  if (appState.keyGuidanceHasRatings) {
+    return;
+  }
+  try {
+    const response = await fetchJsonAsset('data/rating_guides.json');
+    const guides = Array.isArray(response?.ratingGuides) ? response.ratingGuides : [];
+    if (guides.length > 0) {
+      enrichKeyGuidance(mainData, guides);
+    }
+  } catch (err) {
+    console.warn('Failed to load rating guides', err);
+  }
+}
+
+function getKeyGuidanceDetails(keyObj) {
+  if (!keyObj || typeof keyObj.Key !== 'string') return null;
+  const keyName = keyObj.Key;
+  const fromMap = appState.keyGuidanceIndex instanceof Map ? appState.keyGuidanceIndex.get(keyName) : undefined;
+  let guidance = typeof keyObj.Guidance === 'string' ? keyObj.Guidance.trim() : '';
+  if (!guidance && fromMap && typeof fromMap.guidance === 'string') {
+    guidance = fromMap.guidance.trim();
+  }
+  const ratingGuide = Array.isArray(keyObj.RatingGuide) && keyObj.RatingGuide.length > 0
+    ? keyObj.RatingGuide
+    : (fromMap && Array.isArray(fromMap.ratingGuide) ? fromMap.ratingGuide : []);
+  const considerations = typeof keyObj.RatingConsiderations === 'string' && keyObj.RatingConsiderations.trim().length > 0
+    ? keyObj.RatingConsiderations.trim()
+    : (fromMap && typeof fromMap.considerations === 'string' ? fromMap.considerations.trim() : '');
+  if (!guidance && ratingGuide.length === 0 && !considerations) {
+    return null;
+  }
+  return { key: keyName, guidance, ratingGuide, considerations };
+}
+
+function ensureKeyGuidanceDialogSetup(dialog) {
+  if (!dialog) return;
+  if (dialog.dataset.kgSetup === 'true') return;
+  const closeBtn = dialog.querySelector('.kg-close');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      try { dialog.close(); } catch {}
+    });
+  }
+  dialog.addEventListener('cancel', (ev) => {
+    ev.preventDefault();
+    try { dialog.close(); } catch {}
+  });
+  dialog.addEventListener('close', () => {
+    if (keyGuidanceDialogState.lastTrigger && typeof keyGuidanceDialogState.lastTrigger.focus === 'function') {
+      try { keyGuidanceDialogState.lastTrigger.focus(); } catch {}
+    }
+    keyGuidanceDialogState.lastTrigger = null;
+  });
+  dialog.dataset.kgSetup = 'true';
+}
+
+function openKeyGuidanceDialog(categoryName, keyObj, trigger) {
+  const details = getKeyGuidanceDetails(keyObj);
+  if (!details) return;
+  const dialog = document.getElementById('keyGuidanceDialog');
+  if (!dialog) return;
+  ensureKeyGuidanceDialogSetup(dialog);
+  keyGuidanceDialogState.lastTrigger = (trigger instanceof HTMLElement) ? trigger : null;
+
+  const titleEl = dialog.querySelector('.kg-title');
+  if (titleEl) {
+    titleEl.textContent = details.key || 'Key guidance';
+  }
+  const subtitleEl = dialog.querySelector('.kg-subtitle');
+  if (subtitleEl) {
+    if (categoryName) {
+      subtitleEl.textContent = categoryName;
+      subtitleEl.hidden = false;
+    } else {
+      subtitleEl.textContent = '';
+      subtitleEl.hidden = true;
+    }
+  }
+  const guidanceEl = dialog.querySelector('#kgKeyGuidanceText');
+  if (guidanceEl) {
+    guidanceEl.textContent = details.guidance || 'No key guidance available.';
+  }
+  const considerationsEl = dialog.querySelector('#kgConsiderations');
+  if (considerationsEl) {
+    if (details.considerations) {
+      considerationsEl.textContent = details.considerations;
+      considerationsEl.hidden = false;
+    } else {
+      considerationsEl.textContent = '';
+      considerationsEl.hidden = true;
+    }
+  }
+  const tbody = dialog.querySelector('#kgTableBody');
+  if (tbody) {
+    tbody.innerHTML = '';
+    if (Array.isArray(details.ratingGuide) && details.ratingGuide.length > 0) {
+      details.ratingGuide.forEach(entry => {
+        const row = document.createElement('tr');
+        const ratingCell = document.createElement('td');
+        ratingCell.textContent = String(entry.rating);
+        ratingCell.className = 'kg-rating-cell';
+        row.appendChild(ratingCell);
+        const textCell = document.createElement('td');
+        textCell.textContent = entry.guidance;
+        row.appendChild(textCell);
+        tbody.appendChild(row);
+      });
+    } else {
+      const row = document.createElement('tr');
+      const cell = document.createElement('td');
+      cell.colSpan = 2;
+      cell.className = 'kg-empty';
+      cell.textContent = 'No rating guidance available.';
+      row.appendChild(cell);
+      tbody.appendChild(row);
+    }
+  }
+
+  try {
+    dialog.showModal();
+  } catch {
+    try { dialog.show(); } catch {}
+  }
+}
+
+function makeKeyGuidanceButton(categoryName, keyObj) {
+  const details = getKeyGuidanceDetails(keyObj);
+  if (!details) return null;
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'key-guidance-btn';
+  btn.textContent = 'Guide';
+  btn.title = 'View key and rating guidance';
+  btn.setAttribute('aria-label', `View guidance for ${keyObj.Key}`);
+  btn.addEventListener('click', (ev) => {
+    try { ev.preventDefault(); ev.stopPropagation(); } catch {}
+    openKeyGuidanceDialog(categoryName, keyObj, ev.currentTarget);
+  });
+  return btn;
+}
+
 function canonicalizeKeySegment(value) {
   try {
     let text = typeof value === 'string' ? value : '';
@@ -212,13 +450,14 @@ function isInformationalKey(keyObj, categoryName) {
 }
 
 async function loadRelationalMain() {
-  const [categoriesRaw, keysRaw, countriesRaw, citiesRaw, peopleRaw, weightsRaw] = await Promise.all([
+  const [categoriesRaw, keysRaw, countriesRaw, citiesRaw, peopleRaw, weightsRaw, ratingGuidesRaw] = await Promise.all([
     fetchJsonAsset('data/categories.json'),
     fetchJsonAsset('data/category_keys.json'),
     fetchJsonAsset('data/countries.json'),
     fetchJsonAsset('data/cities.json'),
     fetchJsonAsset('data/people.json'),
     fetchJsonAsset('data/person_weights.json'),
+    fetchJsonAsset('data/rating_guides.json').catch(() => null),
   ]);
 
   const categories = sortByOrderThenName(categoriesRaw?.categories, 'order', 'name');
@@ -281,6 +520,8 @@ async function loadRelationalMain() {
 
   const result = { Categories: categoriesResult, Countries: countriesResult, People: peopleResult };
   normalizeInformationalFlags(result);
+  const ratingGuides = Array.isArray(ratingGuidesRaw?.ratingGuides) ? ratingGuidesRaw.ratingGuides : [];
+  enrichKeyGuidance(result, ratingGuides);
   return result;
 }
 
@@ -301,6 +542,7 @@ async function loadMain() {
     }
   }
   normalizeInformationalFlags(mainData);
+  await ensureKeyGuidanceLoaded(mainData);
   const listEl = document.getElementById('countryList');
   const notice = document.getElementById('notice');
   const collapseCountriesBtn = document.getElementById('collapseCountriesBtn');
@@ -1090,13 +1332,20 @@ async function loadCountry(file, mainData) {
       const chip = informational ? makeInformationalPlaceholderChip() : makeScoreChip(match ? numeric : null);
       li.appendChild(chip);
       if (informational) li.classList.add('informational-key');
+      const textWrap = document.createElement('span');
+      textWrap.className = 'score-text';
       if (match && hasText) {
-        li.appendChild(document.createTextNode(`${key}: `));
-        appendTextWithLinks(li, match.alignmentText);
+        textWrap.appendChild(document.createTextNode(`${key}: `));
+        appendTextWithLinks(textWrap, match.alignmentText);
       } else {
         const label = (match && Number(match.alignmentValue) === -1) ? 'Unknown' : 'No data';
-        li.appendChild(document.createTextNode(`${key}: ${label}`));
+        textWrap.textContent = `${key}: ${label}`;
       }
+      li.appendChild(textWrap);
+      try {
+        const guideBtn = makeKeyGuidanceButton(category.Category, keyObj);
+        if (guideBtn) li.appendChild(guideBtn);
+      } catch {}
       ul.appendChild(li);
     });
 
@@ -1415,6 +1664,10 @@ async function renderComparison(selectedList, mainData, options = {}) {
       keyInner.appendChild(keyLabel);
       const actionsWrap = document.createElement('div');
       actionsWrap.className = 'key-actions';
+      try {
+        const guideBtn = makeKeyGuidanceButton(category.Category, keyObj);
+        if (guideBtn) actionsWrap.appendChild(guideBtn);
+      } catch {}
       try {
         const infoBtn = makeInformationalToggleButton(category.Category, keyObj, {
           mainData,
