@@ -653,7 +653,13 @@ function mergeReportWithParent(childData, parentData) {
     const key = canonicalizeKeyForInheritance(entry.key);
     if (!key || !parentMap.has(key)) return stripped;
     const parentEntry = parentMap.get(key);
-    return { ...parentEntry, ...stripped };
+    const merged = { ...parentEntry, ...stripped };
+    const parentHasScore = parentEntry && Object.prototype.hasOwnProperty.call(parentEntry, 'alignmentValue');
+    const childOverridesScore = Object.prototype.hasOwnProperty.call(stripped, 'alignmentValue');
+    if (parentHasScore && (!childOverridesScore || typeof stripped.alignmentValue === 'undefined')) {
+      merged.inheritedFromParent = true;
+    }
+    return merged;
   }) : [];
 
   const parentBase = parentData && typeof parentData === 'object' ? { ...parentData } : {};
@@ -1482,6 +1488,16 @@ async function renderComparison(selectedList, mainData, options = {}) {
           const btn = makeDigInButton(ds.name, category.Category, keyObj.Key, textForQuery);
           wrap.appendChild(btn);
         } catch {}
+        if (ds?.node?.type === 'city' && match && match.inheritedFromParent) {
+          td.classList.add('inherited-value');
+          const parentName = ds.node && ds.node.parentCountry && ds.node.parentCountry.name ? ds.node.parentCountry.name : null;
+          const tooltip = parentName ? `Score inherited from ${parentName}` : 'Score inherited from parent country';
+          if (!td.title) td.title = tooltip;
+          const srOnly = document.createElement('span');
+          srOnly.className = 'visually-hidden';
+          srOnly.textContent = tooltip;
+          wrap.appendChild(srOnly);
+        }
         td.appendChild(wrap);
         if (!informational && diffEnabled && counts.size > 1 && info.bucketKey !== majorityKey) {
           td.classList.add('diff-cell');
