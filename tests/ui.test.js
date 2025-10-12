@@ -1,6 +1,7 @@
 const path = require('path');
 
 const createDom = () => {
+  document.body.className = '';
   document.body.innerHTML = '<div id="report"></div><button id="collapseCountriesBtn"></button>';
 };
 
@@ -21,6 +22,7 @@ describe('UI helpers', () => {
     exports.appState.selected = [];
     exports.appState.nodesByFile = new Map();
     exports.appState.showCitiesOnly = false;
+    exports.appState.showHiddenKeys = false;
     exports.appState.expandedState = {};
     localStorage.clear();
     if (typeof fetch === 'function' && fetch.mockClear) {
@@ -158,6 +160,13 @@ describe('UI helpers', () => {
       <div id="notice"></div>
       <div id="countryList"></div>
     `;
+  test('hidden keys render and respond to visibility toggles', async () => {
+    document.body.innerHTML = [
+      '<div id="report"></div>',
+      '<div id="legendMount"></div>',
+      '<button id="collapseCountriesBtn"></button>',
+      '<button id="collapseCategoriesBtn"></button>',
+    ].join('');
 
     const mainData = {
       Categories: [
@@ -166,6 +175,12 @@ describe('UI helpers', () => {
           Keys: [
             { Key: 'Scored Key', Informational: false },
             { Key: 'Info Key', Informational: true },
+            },
+            {
+          Category: 'Climate',
+          Keys: [
+            { Key: 'Visible Metric' },
+            { Key: 'Hidden Metric', Hidden: true },
           ],
         },
       ],
@@ -271,5 +286,32 @@ describe('UI helpers', () => {
     expect(infoChip.textContent.trim()).toBe('9');
 
     fetch.mockReset();
+    const values = [
+      { key: 'Visible Metric', alignmentValue: 6, alignmentText: 'Visible text' },
+      { key: 'Hidden Metric', alignmentValue: 7, alignmentText: 'Hidden text' },
+    ];
+
+    global.fetch = jest.fn(async () => ({
+      ok: true,
+      json: async () => ({ iso: 'AA', values }),
+    }));
+
+    await exports.renderComparison([
+      { name: 'Country A', file: 'reports/a.json', type: 'country' },
+    ], mainData, {});
+
+    const hiddenRows = document.querySelectorAll('tr.hidden-key');
+    expect(hiddenRows.length).toBe(1);
+    expect(document.body.classList.contains('show-hidden-keys')).toBe(false);
+
+    exports.toggleHiddenKeysVisibility();
+    expect(document.body.classList.contains('show-hidden-keys')).toBe(true);
+    expect(exports.appState.showHiddenKeys).toBe(true);
+    expect(localStorage.getItem('showHiddenKeys')).toBe('true');
+
+    exports.toggleHiddenKeysVisibility();
+    expect(document.body.classList.contains('show-hidden-keys')).toBe(false);
+    expect(exports.appState.showHiddenKeys).toBe(false);
+    expect(localStorage.getItem('showHiddenKeys')).toBe('false');
   });
 });

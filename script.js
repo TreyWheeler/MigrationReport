@@ -1,4 +1,5 @@
-const appState = { countries: [], selected: [], nodesByFile: new Map(), showCitiesOnly: false, expandedState: {} };
+const appState = { countries: [], selected: [], nodesByFile: new Map(), showCitiesOnly: false, expandedState: {}, showHiddenKeys: false };
+let hiddenKeysHotkeyAttached = false;
 
 function renderEmptyReportState() {
   const reportDiv = document.getElementById('report');
@@ -214,6 +215,7 @@ async function loadRelationalMain() {
       Key: key.name,
       Guidance: key.guidance,
       Informational: coerceInformationalFlag(key.informational),
+      Hidden: !!key.hidden,
     })),
   }));
 
@@ -289,6 +291,9 @@ async function loadMain() {
   const expandedState = (storedExpandedRaw && typeof storedExpandedRaw === 'object') ? storedExpandedRaw : {};
   appState.expandedState = { ...expandedState };
   appState.showCitiesOnly = !!getStored('showCitiesOnly', false);
+  appState.showHiddenKeys = !!getStored('showHiddenKeys', false);
+  applyHiddenKeysVisibility(appState.showHiddenKeys);
+  setupHiddenKeysHotkey();
   const citiesOnlyToggle = document.getElementById('citiesOnlyToggle');
   if (citiesOnlyToggle) {
     citiesOnlyToggle.checked = appState.showCitiesOnly;
@@ -955,6 +960,7 @@ async function loadCountry(file, mainData) {
     category.Keys.forEach(keyObj => {
       const li = document.createElement('li');
       li.className = 'score-item';
+      if (keyObj.Hidden) li.classList.add('hidden-key');
       const key = keyObj.Key;
       const match = countryData.values.find(v => canonKey(v.key) === canonKey(key));
       const hasText = match && typeof match.alignmentText === 'string' && match.alignmentText.trim().length > 0;
@@ -997,10 +1003,13 @@ if (typeof module !== 'undefined' && module.exports) {
     fetchJsonAsset,
     sortByOrderThenName,
     loadMain,
+    renderComparison,
     getStored,
     setStored,
     computeCountryScoresForSorting,
     renderComparison,
+    applyHiddenKeysVisibility,
+    toggleHiddenKeysVisibility,
   };
 }
 
@@ -1273,6 +1282,10 @@ async function renderComparison(selectedList, mainData, options = {}) {
       keyTd.className = 'key-cell';
       const keyInner = document.createElement('div');
       keyInner.className = 'key-inner';
+      if (keyObj.Hidden) {
+        tr.classList.add('hidden-key');
+        keyInner.classList.add('hidden-key-inner');
+      }
       const keyLabel = document.createElement('span');
       keyLabel.textContent = keyObj.Key;
       keyInner.appendChild(keyLabel);
@@ -1486,6 +1499,37 @@ function setStored(key, value) { try { localStorage.setItem(key, JSON.stringify(
 function applyTheme(mode) { document.body.setAttribute('data-theme', mode === 'dark' ? 'dark' : 'light'); }
 function applyDensity(isCompact) { document.body.classList.toggle('density-compact', !!isCompact); }
 function applyScoresVisibility(show) { document.body.classList.toggle('scores-hidden', !show); }
+function applyHiddenKeysVisibility(show) {
+  if (typeof document === 'undefined' || !document.body) return;
+  document.body.classList.toggle('show-hidden-keys', !!show);
+}
+function setHiddenKeysVisibility(show) {
+  appState.showHiddenKeys = !!show;
+  applyHiddenKeysVisibility(appState.showHiddenKeys);
+  setStored('showHiddenKeys', appState.showHiddenKeys);
+}
+function toggleHiddenKeysVisibility() { setHiddenKeysVisibility(!appState.showHiddenKeys); }
+function setupHiddenKeysHotkey() {
+  if (hiddenKeysHotkeyAttached || typeof document === 'undefined') return;
+  const handler = (event) => {
+    if (!event) return;
+    if (event.defaultPrevented) return;
+    if (event.metaKey || event.ctrlKey || event.altKey) return;
+    const key = event.key || '';
+    if (key.toLowerCase() !== 'h') return;
+    const target = event.target;
+    if (target) {
+      if (typeof target.closest === 'function' && target.closest('input, textarea, select, [contenteditable="true"]')) return;
+      const tag = (target.tagName || '').toUpperCase();
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+      if (target.isContentEditable) return;
+    }
+    event.preventDefault();
+    toggleHiddenKeysVisibility();
+  };
+  document.addEventListener('keydown', handler);
+  hiddenKeysHotkeyAttached = true;
+}
 function initUiPreferences() { /* reserved for future */ }
 
 // Determine score bucket and class/label using rounded integer for thresholds
