@@ -231,7 +231,7 @@ async function loadRelationalMain() {
   });
   const categoriesResult = categories.map(cat => ({
     Category: cat.name,
-    Keys: (keysByCategory.get(cat.id) || []).map(key => ({
+    Keys: sortByOrderThenName(keysByCategory.get(cat.id) || [], 'order', 'name').map(key => ({
       Key: key.name,
       Guidance: key.guidance,
       Informational: coerceInformationalFlag(key.informational),

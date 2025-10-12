@@ -21,6 +21,10 @@ foreach ($record in $Records) {
         name = $psRecord.name
     }
 
+    if ($psRecord.PSObject.Properties['order']) {
+        $newItem['order'] = [int]$psRecord.order
+    }
+
     if ($psRecord.PSObject.Properties['guidance']) {
         $newItem['guidance'] = $psRecord.guidance
     }
