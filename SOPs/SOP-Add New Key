@@ -1,10 +1,10 @@
 # SOP-Add New Key
 
-This SOP walks LLM agents through introducing a brand-new evaluation `Key` across the MigrationReport dataset. Follow every step in order so the new metric lands in the relational data files under `data/`, `rating_guides.json`, and every country and city report with perfectly aligned scoring text.
+This SOP walks LLM agents through introducing a brand-new evaluation `Key` across the MigrationReport dataset. Follow every step in order so the new metric lands in the relational data files under `data/`, `data/rating_guides.json`, and every country and city report with perfectly aligned scoring text.
 
 ## 0. Establish the Rationale
 1. Open `family_profile.json` to confirm why the household needs this new dimension and how heavily it should influence recommendations.
-2. Consult `DATA_DICTIONARY.md` to understand how the relational tables interact and to confirm where the new key will live.
+2. Consult `data/DATA_DICTIONARY.md` to understand how the relational tables interact and to confirm where the new key will live.
 3. Use the PowerShell GET scripts to audit existing coverage instead of manually scanning JSON:
    - `pwsh scripts/powershell/Categories_GET.ps1 -AsJson` reveals every category and ordering.
    - `pwsh scripts/powershell/CategoryKeys_GET.ps1 -AsJson` (optionally filtered with `-CategoryIds`) lists every current key and its guidance so you can validate the gap.
@@ -20,7 +20,7 @@ This SOP walks LLM agents through introducing a brand-new evaluation `Key` acros
 3. Rerun the GET scripts with `-AsJson` to confirm the new entries persisted exactly as intended.
 
 ## 3. Expand the Rating Guide
-1. Open `rating_guides.json` and add a new top-level object for the key. Mirror the format used by existing entries: `"Key"`, optional `"Considerations"`, and a `"Ratings"` array with 1–10 descriptions.
+1. Open `data/rating_guides.json` and add a new object to the `ratingGuides` array for the key. Mirror the format used by existing entries: `"key"`, optional `"considerations"`, and a `"ratingGuide"` array with 1–10 descriptions.
 2. Craft each rating description so an agent can unambiguously map real-world evidence to a score. Highlight deal-breakers from the family profile and call out what constitutes a perfect 10 vs. a 5.
 3. Proofread for internal consistency—scores must escalate logically and avoid contradictions. Accurate guidance here is essential for keeping `alignmentValue` and `alignmentText` trustworthy.
 

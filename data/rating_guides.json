@@ -1,0 +1,4819 @@
+{
+  "ratingGuides": [
+    {
+      "key": "Environment",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Environmental stewardship is world-class: our family enjoys pristine air and water, more than 40% of land protected, biodiversity intact, urban parks within a short walk, and strict enforcement keeps noise and light pollution minimal."
+        },
+        {
+          "rating": 9,
+          "guidance": "Nature is excellent with only minor localized industrial impacts; we have easy access to clean waterways and forests, and food standards tightly monitor pesticides."
+        },
+        {
+          "rating": 8,
+          "guidance": "High environmental quality overall, though some suburbs show moderate traffic emissions or agricultural runoff; weekend nature trips remain straightforward."
+        },
+        {
+          "rating": 7,
+          "guidance": "Environment is good but we must plan around occasional pollution alerts, limited recycling reliability, or seasonal allergen spikes."
+        },
+        {
+          "rating": 6,
+          "guidance": "Mixed environmental performance; family neighborhoods stay decent but industrial or agricultural corridors nearby limit unsupervised outdoor play."
+        },
+        {
+          "rating": 5,
+          "guidance": "Environmental quality is average: clean days balanced by noticeable smog pockets or river advisories, requiring us to track conditions before outdoor plans."
+        },
+        {
+          "rating": 4,
+          "guidance": "Environmental degradation is common: we deal with frequent traffic haze, limited biodiversity, and must filter water at home."
+        },
+        {
+          "rating": 3,
+          "guidance": "Air, water, and soil pollution regularly affect health; safe parks are scarce and produce safety is questionable without costly sourcing."
+        },
+        {
+          "rating": 2,
+          "guidance": "Environment is severely compromised with persistent contamination, widespread deforestation, and real health impacts on the family."
+        },
+        {
+          "rating": 1,
+          "guidance": "Living conditions are untenable: toxic pollution events, unsafe water supply, and no practical way to safeguard the family."
+        }
+      ]
+    },
+    {
+      "key": "Global Warming Risk",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Long term climate models show minimal warming or sea level risk; infrastructure is already climate adapted; insurance stays affordable and there is no relocation concern."
+        },
+        {
+          "rating": 9,
+          "guidance": "Low climate risk with rare extreme events; adaptation plans are fully funded and family emergency planning is minimal."
+        },
+        {
+          "rating": 8,
+          "guidance": "Moderate warming impacts expected primarily in distant future; occasional heatwaves are manageable with existing infrastructure."
+        },
+        {
+          "rating": 7,
+          "guidance": "Noticeable but manageable climate stressors like more frequent heavy rain or hotter summers; community resiliency programs are reliable."
+        },
+        {
+          "rating": 6,
+          "guidance": "We must actively plan for climate impacts such as reinforcing housing or buying special insurance, but risk remains acceptable with mitigation."
+        },
+        {
+          "rating": 5,
+          "guidance": "Climate hazards pose equal parts manageable and disruptive events; serious storms or droughts hit every few years."
+        },
+        {
+          "rating": 4,
+          "guidance": "High exposure to warming driven issues; insurance costs spike and evacuation plans become routine."
+        },
+        {
+          "rating": 3,
+          "guidance": "Severe climate risks threaten property and health within the decade; relocation contingency becomes a family conversation."
+        },
+        {
+          "rating": 2,
+          "guidance": "Dangerous climate trajectory with annual disasters, infrastructure strain, and real probability of displacement."
+        },
+        {
+          "rating": 1,
+          "guidance": "Already experiencing existential climate impacts such as chronic flooding or unlivable heat, making long term residence unrealistic."
+        }
+      ]
+    },
+    {
+      "key": "Seasonal Weather",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Seasons are gentle and predictable; temperatures stay roughly between 50 and 80 F (10 to 27 C), humidity is low to moderate, and outdoor activities are comfortable year round."
+        },
+        {
+          "rating": 9,
+          "guidance": "Seasons are mostly pleasant with a short stretch of heat or cold; we rarely need special gear beyond standard clothing."
+        },
+        {
+          "rating": 8,
+          "guidance": "Weather is good but includes a few weeks of muggy heat or chilly dampness requiring adaptation, yet kids still play outside most days."
+        },
+        {
+          "rating": 7,
+          "guidance": "Seasonal swings require planning such as real winter gear or air conditioning, but conditions remain livable with manageable extremes."
+        },
+        {
+          "rating": 6,
+          "guidance": "Half the year is comfortable while the other half brings persistent heat, cold, or rain that limits outdoor family time."
+        },
+        {
+          "rating": 5,
+          "guidance": "Comfort is mixed: each season has trade offs like wet springs or hot summers, demanding flexible schedules and indoor alternatives."
+        },
+        {
+          "rating": 4,
+          "guidance": "Seasonal extremes dominate; long stretches of oppressive humidity, heavy snow, or storms make outdoor time difficult."
+        },
+        {
+          "rating": 3,
+          "guidance": "We frequently cancel plans because of weather, and transitions between seasons are harsh and unpredictable."
+        },
+        {
+          "rating": 2,
+          "guidance": "Weather is punishing most of the year with life revolving around climate control and disrupted school or work routines."
+        },
+        {
+          "rating": 1,
+          "guidance": "Seasons are dangerously extreme or chaotic, making normal family life and activities almost impossible."
+        }
+      ]
+    },
+    {
+      "key": "Air Quality",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Annual PM2.5 stays below 5 ug/m3 with no significant pollutants, monitoring is trustworthy, and we can open windows year round without concern."
+        },
+        {
+          "rating": 9,
+          "guidance": "Air is very clean with only occasional mild traffic spikes; filtration is not typically needed and sensitive family members stay symptom free."
+        },
+        {
+          "rating": 8,
+          "guidance": "Good air quality overall, though we watch a few seasonal dust, pollen, or wildfire days and might use portable filters occasionally."
+        },
+        {
+          "rating": 7,
+          "guidance": "Moderate pollution episodes occur monthly; kids may need masks on bad days, but long term exposure remains within health guidelines."
+        },
+        {
+          "rating": 6,
+          "guidance": "Air quality is mixed: frequent commuter smog or agricultural burning pushes AQI to unhealthy for sensitive groups, requiring home filtration."
+        },
+        {
+          "rating": 5,
+          "guidance": "Pollution peaks are regular and require daily AQI checks; outdoor exercise often gets rescheduled."
+        },
+        {
+          "rating": 4,
+          "guidance": "Poor air quality dominates the urban core; we invest in sealed windows and high grade purifiers to keep the family healthy."
+        },
+        {
+          "rating": 3,
+          "guidance": "Chronic pollution leads to coughs or allergies; schools may close for smog or smoke days multiple times per year."
+        },
+        {
+          "rating": 2,
+          "guidance": "Air is hazardous much of the time; we rely on respirators outdoors and medical monitoring for respiratory issues."
+        },
+        {
+          "rating": 1,
+          "guidance": "Toxic air quality with life threatening particulates or chemicals makes staying in the country unsustainable."
+        }
+      ]
+    },
+    {
+      "key": "Natural Disasters",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Geologic and weather hazards are minimal; building codes exceed global standards and there is no meaningful risk of quakes, storms, or floods."
+        },
+        {
+          "rating": 9,
+          "guidance": "Disasters are rare and low intensity; robust early warning systems and shelters make events low impact."
+        },
+        {
+          "rating": 8,
+          "guidance": "Occasional hazards such as mild earthquakes or coastal storms occur, but infrastructure and insurance mitigate family risk effectively."
+        },
+        {
+          "rating": 7,
+          "guidance": "Known risks require preparedness kits and drills, yet severe events happen less than once per decade."
+        },
+        {
+          "rating": 6,
+          "guidance": "Disasters strike every few years causing temporary disruptions, but long term damage is limited and recovery systems work."
+        },
+        {
+          "rating": 5,
+          "guidance": "Multiple hazard types with moderate frequency require evacuation planning and budget for repairs, though rebuilding is feasible."
+        },
+        {
+          "rating": 4,
+          "guidance": "High exposure: floods, typhoons, or quakes damage neighborhoods regularly; insurance is costly and recovery drains finances."
+        },
+        {
+          "rating": 3,
+          "guidance": "Disasters are frequent or severe enough to threaten safety and employment stability, and rebuilding cycles strain mental health."
+        },
+        {
+          "rating": 2,
+          "guidance": "Annual catastrophic events force prolonged displacement or property loss; local infrastructure fails to protect residents."
+        },
+        {
+          "rating": 1,
+          "guidance": "Living here is unsustainable because disasters cause repeated humanitarian crises and constant danger for our family."
+        }
+      ]
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Spring settles into a steady 15-24 C (60-75 F) range with light breezes, dry sidewalks, and we can picnic or bike daily without jackets."
+        },
+        {
+          "rating": 9,
+          "guidance": "Weeks mostly hover in the 12-23 C (54-73 F) zone with only brief chilly rain bursts; normal layers cover every outing."
+        },
+        {
+          "rating": 8,
+          "guidance": "Comfortable spans dominate, though we plan around a few cold snaps or windy days when kids still need medium jackets."
+        },
+        {
+          "rating": 7,
+          "guidance": "Spring starts mild but swings between warm afternoons and near-freezing mornings, prompting frequent wardrobe adjustments."
+        },
+        {
+          "rating": 6,
+          "guidance": "Half of spring is pleasant while lingering cold rain or dust keeps us indoors weekly."
+        },
+        {
+          "rating": 5,
+          "guidance": "Warm spells alternate with raw damp stretches; gardening or sports require flexible scheduling."
+        },
+        {
+          "rating": 4,
+          "guidance": "Persistent cold fronts or heavy rain dominate, delaying outdoor activities until late season."
+        },
+        {
+          "rating": 3,
+          "guidance": "Spring feels erratic with hail, fog, or temperature swings of 20 C (35 F) in a day, stressing logistics for school and work."
+        },
+        {
+          "rating": 2,
+          "guidance": "Severe storms, flooding, or heat spikes make it hard to rely on spring for recreation or commuting."
+        },
+        {
+          "rating": 1,
+          "guidance": "Spring is hostile: repeated blizzards, dust storms, or extreme heat undermine safety and seasonal planning."
+        }
+      ]
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Summer highs stay between 23-28 C (73-82 F) with cool evenings and low humidity, so we can enjoy parks and sleep without air conditioning."
+        },
+        {
+          "rating": 9,
+          "guidance": "Short warm bursts reach 30 C (86 F) but nights drop below 20 C (68 F); fans are enough for comfort."
+        },
+        {
+          "rating": 8,
+          "guidance": "Typical highs hover around 30 C (86 F) with manageable humidity; a few heatwaves call for strategic indoor breaks."
+        },
+        {
+          "rating": 7,
+          "guidance": "Humid stretches or 33-35 C (91-95 F) peaks are common, yet pools and reliable AC keep family routines intact."
+        },
+        {
+          "rating": 6,
+          "guidance": "Roughly half the summer hits 35 C (95 F) with sticky humidity so we rely on cooling centers or adjusted work hours."
+        },
+        {
+          "rating": 5,
+          "guidance": "Frequent heat warnings require midday curfews outdoors and high utility bills to maintain comfort."
+        },
+        {
+          "rating": 4,
+          "guidance": "Extended 38 C (100 F)+ heat or oppressive humidity forces the family to live in climate-controlled spaces."
+        },
+        {
+          "rating": 3,
+          "guidance": "Dangerous heatwaves or overnight lows above 27 C (81 F) threaten health without significant cooling investments."
+        },
+        {
+          "rating": 2,
+          "guidance": "Summer entails chronic heat stress, power grid instability, and limited safe outdoor time."
+        },
+        {
+          "rating": 1,
+          "guidance": "Exposure risks are extreme: wet-bulb temperatures or wildfire smoke make summer life unsustainable."
+        }
+      ]
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Autumn holds steady between 10-22 C (50-72 F) with crisp mornings, clear skies, and perfect hiking conditions."
+        },
+        {
+          "rating": 9,
+          "guidance": "Most days are mild with light sweater weather; occasional rain showers clear quickly."
+        },
+        {
+          "rating": 8,
+          "guidance": "Comfortable for the family overall, though we schedule around a few early cold snaps or windy storms."
+        },
+        {
+          "rating": 7,
+          "guidance": "Temperatures fluctuate between warm afternoons and frosty nights, so schools and commutes need layered clothing plans."
+        },
+        {
+          "rating": 6,
+          "guidance": "Half the season is inviting while the rest brings soaking rains or unexpected heat returning."
+        },
+        {
+          "rating": 5,
+          "guidance": "Rapid shifts between summer-like heat and winter cold make outdoor events unpredictable."
+        },
+        {
+          "rating": 4,
+          "guidance": "Persistent storms, high winds, or cold snaps limit leaf-peeping and family outings."
+        },
+        {
+          "rating": 3,
+          "guidance": "Damage from gale-force winds or early snow requires constant contingency planning."
+        },
+        {
+          "rating": 2,
+          "guidance": "Fall feels compressed into a couple weeks before severe cold or storms dominate."
+        },
+        {
+          "rating": 1,
+          "guidance": "Season is effectively absent or dangerously volatile, undermining home maintenance and schooling routines."
+        }
+      ]
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Winters are gentle, rarely dropping below 0 C (32 F); light coats suffice and snow is a novelty outing."
+        },
+        {
+          "rating": 9,
+          "guidance": "Sub-freezing nights occur but days rebound to 5-10 C (41-50 F); roads stay clear without special prep."
+        },
+        {
+          "rating": 8,
+          "guidance": "Moderate cold with predictable snowfall; good public services keep commuting and school uninterrupted."
+        },
+        {
+          "rating": 7,
+          "guidance": "Regular freezes require proper winter gear and some shoveling, yet heating costs stay manageable."
+        },
+        {
+          "rating": 6,
+          "guidance": "Deep cold snaps or icy rain appear monthly, so we budget for robust heating and snow tires."
+        },
+        {
+          "rating": 5,
+          "guidance": "Long stretches below -5 C (23 F) or heavy snowstorms limit outdoor play and demand backup childcare plans."
+        },
+        {
+          "rating": 4,
+          "guidance": "Extreme cold or blizzards strain infrastructure; we rely on generators, extra insulation, and emergency supplies."
+        },
+        {
+          "rating": 3,
+          "guidance": "Winter is punishing with -15 C (5 F) spells or freezing rain that cancel school repeatedly."
+        },
+        {
+          "rating": 2,
+          "guidance": "Prolonged deep freezes or polar nights make daily life hazardous despite heavy preparation."
+        },
+        {
+          "rating": 1,
+          "guidance": "Winter renders the location unlivable: severe cold, infrastructure failures, or isolation risk family safety."
+        }
+      ]
+    },
+    {
+      "key": "Beach Life",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "World-class beaches within 30 minutes feature clean sand, gentle surf, lifeguards, family facilities, and inclusive culture year round."
+        },
+        {
+          "rating": 9,
+          "guidance": "Excellent beaches nearby with only seasonal crowding; water quality monitoring is transparent and amenities are strong."
+        },
+        {
+          "rating": 8,
+          "guidance": "Great beaches in an hour's reach; some stretches lack shade or lifeguards so we plan trips thoughtfully."
+        },
+        {
+          "rating": 7,
+          "guidance": "Usable beaches exist but require travel or contend with moderate litter, rip currents, or limited family services."
+        },
+        {
+          "rating": 6,
+          "guidance": "Beach outings are workable yet water quality advisories or accessibility hurdles appear monthly."
+        },
+        {
+          "rating": 5,
+          "guidance": "Beaches are average: we enjoy them with caution, monitoring jellyfish, erosion, or theft risk."
+        },
+        {
+          "rating": 4,
+          "guidance": "Frequent pollution, crowding, or unsafe surf forces us to travel far for reliable beach time."
+        },
+        {
+          "rating": 3,
+          "guidance": "Local beaches are degraded or culturally unwelcoming, so visits feel stressful and rare."
+        },
+        {
+          "rating": 2,
+          "guidance": "Beach access is effectively off-limits due to contamination, crime, or government restrictions."
+        },
+        {
+          "rating": 1,
+          "guidance": "No safe or legal coastal recreation options exist, eliminating beach life from family plans."
+        }
+      ]
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Water stays 24-28 C (75-82 F) through the swim season, letting all family members enjoy long swims without wetsuits."
+        },
+        {
+          "rating": 9,
+          "guidance": "Most months are a comfortable 22-26 C (72-79 F); shoulder seasons need only light rash guards."
+        },
+        {
+          "rating": 8,
+          "guidance": "Water is swimmable for half the year, dipping to refreshing 20 C (68 F) during shoulder months."
+        },
+        {
+          "rating": 7,
+          "guidance": "Warm months are pleasant but early summer or late fall require short wetsuits for kids."
+        },
+        {
+          "rating": 6,
+          "guidance": "Only peak months reach 22 C (72 F); outside that window we rely on brief swims or heated pools."
+        },
+        {
+          "rating": 5,
+          "guidance": "Water is cool most of the year (18-20 C / 64-68 F) so extended swims need gear and planning."
+        },
+        {
+          "rating": 4,
+          "guidance": "Water is cold except for a couple months; full wetsuits are standard and younger kids opt out."
+        },
+        {
+          "rating": 3,
+          "guidance": "Even summer rarely exceeds 17 C (63 F), meaning only quick dips or hardy swimmers participate."
+        },
+        {
+          "rating": 2,
+          "guidance": "Water remains frigid year round or dangerous due to currents, biotoxins, or sea ice."
+        },
+        {
+          "rating": 1,
+          "guidance": "Swimming is infeasible: permanent cold, contamination, or wildlife threats eliminate safe access."
+        }
+      ]
+    },
+    {
+      "key": "Natural Beauty",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "We are surrounded by iconic landscapes within 60 minutes, with strong conservation ensuring pristine experiences."
+        },
+        {
+          "rating": 9,
+          "guidance": "Stunning scenery is abundant and accessible via well-maintained trails or tours; seasonal transitions are remarkable."
+        },
+        {
+          "rating": 8,
+          "guidance": "Natural sights are impressive though some areas require fees or longer drives; still easy to keep the family outdoors weekly."
+        },
+        {
+          "rating": 7,
+          "guidance": "Attractive landscapes exist but are dispersed or occasionally crowded, so we plan ahead for peak times."
+        },
+        {
+          "rating": 6,
+          "guidance": "We have access to decent parks or coastlines yet must overlook nearby industrial zones or limited trail upkeep."
+        },
+        {
+          "rating": 5,
+          "guidance": "Natural views are average; pleasant but not memorable, and weekend recreation repeats the same few spots."
+        },
+        {
+          "rating": 4,
+          "guidance": "Landscapes show visible degradation or limited biodiversity, reducing the restorative effect for the family."
+        },
+        {
+          "rating": 3,
+          "guidance": "Scenic areas are far away or heavily impacted by pollution, poaching, or poor access roads."
+        },
+        {
+          "rating": 2,
+          "guidance": "Natural assets are scarce or severely damaged, leaving little opportunity for awe or respite."
+        },
+        {
+          "rating": 1,
+          "guidance": "No meaningful natural beauty is accessible; environment feels barren or unsafe to explore."
+        }
+      ]
+    },
+    {
+      "key": "Minimum Wage",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Legal minimum wage exceeds local living wage by 30%+, adjusts annually with inflation, and enforcement is airtight."
+        },
+        {
+          "rating": 9,
+          "guidance": "Minimum wage comfortably covers housing, food, and childcare for entry roles, with strong worker protections."
+        },
+        {
+          "rating": 8,
+          "guidance": "Minimum wage meets core family expenses in most regions, though rural enforcement varies slightly."
+        },
+        {
+          "rating": 7,
+          "guidance": "Wage keeps pace with essentials but leaves limited savings; we monitor employer compliance by sector."
+        },
+        {
+          "rating": 6,
+          "guidance": "Minimum wage trails cost of living by 10-15%, so secondary income or subsidies are needed for dependents."
+        },
+        {
+          "rating": 5,
+          "guidance": "Legal wages are stagnant or unevenly enforced, making entry-level work only viable with shared housing or family support."
+        },
+        {
+          "rating": 4,
+          "guidance": "Minimum wage is symbolic: exemptions and informal labor dominate, undermining worker security."
+        },
+        {
+          "rating": 3,
+          "guidance": "Wages are far below subsistence; families rely on remittances or multiple jobs to survive."
+        },
+        {
+          "rating": 2,
+          "guidance": "No meaningful minimum wage; exploitation is common and legal recourse ineffective."
+        },
+        {
+          "rating": 1,
+          "guidance": "Forced or unpaid labor conditions prevail, making the job market dangerous for vulnerable workers."
+        }
+      ]
+    },
+    {
+      "key": "Typical Software Salaries",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Median senior software salaries rival top global hubs, comfortably funding private schooling, travel, and savings."
+        },
+        {
+          "rating": 9,
+          "guidance": "Tech compensation is very high relative to living costs, with bonuses and equity common even outside megacities."
+        },
+        {
+          "rating": 8,
+          "guidance": "Salaries exceed local middle-class norms by 50%+, supporting a single-income household in good neighborhoods."
+        },
+        {
+          "rating": 7,
+          "guidance": "Pay is strong but concentrated in certain firms; dual incomes or moderate frugality sustain our desired lifestyle."
+        },
+        {
+          "rating": 6,
+          "guidance": "Wages are decent yet trail global averages; we must negotiate aggressively or supplement with remote work."
+        },
+        {
+          "rating": 5,
+          "guidance": "Compensation is average for the economy; quality-of-life upgrades require promotions or side gigs."
+        },
+        {
+          "rating": 4,
+          "guidance": "Local salaries barely beat national means; many developers freelance internationally to make ends meet."
+        },
+        {
+          "rating": 3,
+          "guidance": "Pay is low given skill demands; we would rely on substantial savings or remote employment."
+        },
+        {
+          "rating": 2,
+          "guidance": "Software roles pay subsistence wages with delayed or unpaid compensation common."
+        },
+        {
+          "rating": 1,
+          "guidance": "Professional software careers are effectively absent or uncompensated."
+        }
+      ]
+    },
+    {
+      "key": ".NET Work Prospects",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Thriving .NET ecosystem: abundant senior roles, modern stacks, visa sponsorship, and industry diversity ensure continuous opportunities."
+        },
+        {
+          "rating": 9,
+          "guidance": "Strong demand across enterprise and startups with competitive salaries and remote-friendly policies."
+        },
+        {
+          "rating": 8,
+          "guidance": "Healthy market with regular openings, though big cities capture most high-pay roles."
+        },
+        {
+          "rating": 7,
+          "guidance": "Steady but niche demand; we maintain a network and periodic upskilling to stay marketable."
+        },
+        {
+          "rating": 6,
+          "guidance": "Work exists mainly in outsourcing or government contracts; projects can be legacy heavy."
+        },
+        {
+          "rating": 5,
+          "guidance": "Opportunities appear sporadically, so we budget for job searches or bridging contracts."
+        },
+        {
+          "rating": 4,
+          "guidance": "Few .NET employers hire locally; competition is tight and wages lag comparable stacks."
+        },
+        {
+          "rating": 3,
+          "guidance": "Market is shrinking or pivoting away from .NET, risking prolonged unemployment."
+        },
+        {
+          "rating": 2,
+          "guidance": "Only short-term or low-paying .NET gigs exist, often tied to unstable vendors."
+        },
+        {
+          "rating": 1,
+          "guidance": "No viable .NET industry; relocation or full career change is required."
+        }
+      ]
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Ruby talent is in extreme demand across industries; high-paying senior roles, modern tooling, and flexible contracts abound in multiple cities."
+        },
+        {
+          "rating": 9,
+          "guidance": "Strong market with steady openings in product companies and consultancies; sponsorship and remote options are common."
+        },
+        {
+          "rating": 8,
+          "guidance": "Healthy hiring pipeline with regular mid and senior postings, though competition is tighter outside tech hubs."
+        },
+        {
+          "rating": 7,
+          "guidance": "Ruby jobs exist but cluster in a few firms; we would network consistently to keep opportunities flowing."
+        },
+        {
+          "rating": 6,
+          "guidance": "Demand is moderate and skews toward maintenance projects; salary growth lags other stacks."
+        },
+        {
+          "rating": 5,
+          "guidance": "Openings appear sporadically and often require hybrid skills (DevOps, JS) to stay competitive."
+        },
+        {
+          "rating": 4,
+          "guidance": "Market is shrinking with companies migrating off Ruby; contracting or relocation becomes necessary."
+        },
+        {
+          "rating": 3,
+          "guidance": "Few serious Ruby roles remain; we would rely on remote work abroad or transition stacks."
+        },
+        {
+          "rating": 2,
+          "guidance": "Ruby is relegated to legacy maintenance with low pay and insecure contracts."
+        },
+        {
+          "rating": 1,
+          "guidance": "No viable Ruby ecosystem exists; career prospects collapse unless we leave the country."
+        }
+      ]
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Employers enthusiastically sponsor visas with streamlined government processes, legal support, and family-friendly policies covering dependents."
+        },
+        {
+          "rating": 9,
+          "guidance": "Sponsorship is common for skilled workers, approvals are fast, and relocation packages cover most costs."
+        },
+        {
+          "rating": 8,
+          "guidance": "Many employers offer sponsorship but may prioritize high-demand cities or sectors; dependents are included without drama."
+        },
+        {
+          "rating": 7,
+          "guidance": "Sponsorship exists yet requires strong resumes or shortages lists; legal help is often partial."
+        },
+        {
+          "rating": 6,
+          "guidance": "Some companies sponsor but caps or quotas cause uncertainty; family visas add paperwork."
+        },
+        {
+          "rating": 5,
+          "guidance": "Visa sponsorship is uncommon outside multinationals; negotiations and personal expense become typical."
+        },
+        {
+          "rating": 4,
+          "guidance": "Employers rarely sponsor and expect workers to arrive with existing status or self-funded lawyers."
+        },
+        {
+          "rating": 3,
+          "guidance": "Sponsorship is technically possible but bureaucratic chaos and employer hesitation makes offers fragile."
+        },
+        {
+          "rating": 2,
+          "guidance": "Few employers are authorized to sponsor; rejections and long waits are the norm even for shortages."
+        },
+        {
+          "rating": 1,
+          "guidance": "Employers cannot or will not sponsor visas, forcing us to seek other entry routes entirely."
+        }
+      ]
+    },
+    {
+      "key": "Economic Health",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Economy grows steadily with low unemployment, mild inflation, and resilient sectors shielding family finances from shocks."
+        },
+        {
+          "rating": 9,
+          "guidance": "Strong GDP growth and diversified industries provide reliable job security and wage gains."
+        },
+        {
+          "rating": 8,
+          "guidance": "Solid fundamentals with occasional sector slumps; social safety nets cushion downturns."
+        },
+        {
+          "rating": 7,
+          "guidance": "Economy is stable overall but sensitive to global cycles; we maintain emergency savings for short dips."
+        },
+        {
+          "rating": 6,
+          "guidance": "Mixed indicators—moderate unemployment or inflation—require strategic budgeting though daily life remains manageable."
+        },
+        {
+          "rating": 5,
+          "guidance": "Stagnant growth and uneven recovery impact wages and small businesses; layoffs are common."
+        },
+        {
+          "rating": 4,
+          "guidance": "Economy faces structural issues such as high youth unemployment or debt crises affecting public services."
+        },
+        {
+          "rating": 3,
+          "guidance": "Persistent recession or currency volatility disrupts savings, job continuity, and housing stability."
+        },
+        {
+          "rating": 2,
+          "guidance": "Severe economic distress brings capital controls, shortages, or double-digit inflation."
+        },
+        {
+          "rating": 1,
+          "guidance": "Economic collapse with failing banks, mass unemployment, and unreliable access to essentials."
+        }
+      ]
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Remote work is fully normalized: employers trust distributed teams, infrastructure supports video-first life, and social services align with home-based families."
+        },
+        {
+          "rating": 9,
+          "guidance": "Hybrid and remote norms predominate; coworking spaces and community networks keep isolation low."
+        },
+        {
+          "rating": 8,
+          "guidance": "Remote roles are plentiful though some sectors still prefer office presence; time zones align with major markets."
+        },
+        {
+          "rating": 7,
+          "guidance": "Remote work is accepted but requires negotiating policies or proving productivity."
+        },
+        {
+          "rating": 6,
+          "guidance": "Employers allow remote on paper yet expect frequent office visits or on-call availability across hours."
+        },
+        {
+          "rating": 5,
+          "guidance": "Remote options exist but career growth stalls without in-person engagement."
+        },
+        {
+          "rating": 4,
+          "guidance": "Cultural bias favors office-first presence; remote employees miss key decisions and network access."
+        },
+        {
+          "rating": 3,
+          "guidance": "Remote roles are rare and often pay less; legal or tax codes complicate home-based employment."
+        },
+        {
+          "rating": 2,
+          "guidance": "Remote work faces regulatory hurdles or company bans, forcing daily commutes."
+        },
+        {
+          "rating": 1,
+          "guidance": "Remote employment is effectively impossible due to legal, cultural, or infrastructure barriers."
+        }
+      ]
+    },
+    {
+      "key": "Work-Life Balance",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Cultural norms protect evenings and weekends, flexible schedules are standard, and parents can prioritize family milestones without career penalty."
+        },
+        {
+          "rating": 9,
+          "guidance": "Companies value downtime; overtime is rare and compensated, and managers champion boundaries."
+        },
+        {
+          "rating": 8,
+          "guidance": "Work-life practices are good though peak seasons demand extra hours; employers offer recovery time."
+        },
+        {
+          "rating": 7,
+          "guidance": "Balance varies by industry; we negotiate for flexibility and occasionally accept crunch periods."
+        },
+        {
+          "rating": 6,
+          "guidance": "Long hours appear regularly, yet we can carve out family time with careful planning."
+        },
+        {
+          "rating": 5,
+          "guidance": "Work dominates weekdays and sometimes weekends, requiring constant advocacy to protect rest."
+        },
+        {
+          "rating": 4,
+          "guidance": "Overtime is expected; family events risk being missed and employers offer limited support."
+        },
+        {
+          "rating": 3,
+          "guidance": "Burnout culture prevails; refusing extra work harms career progression."
+        },
+        {
+          "rating": 2,
+          "guidance": "Extreme hours and on-call demands leave little room for parenting or self-care."
+        },
+        {
+          "rating": 1,
+          "guidance": "Work completely overrides personal life, with legal and social structures reinforcing constant availability."
+        }
+      ]
+    },
+    {
+      "key": "Work Week Hours",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Standard workweek is 30-34 hours with full pay, and adherence is enforced nation-wide."
+        },
+        {
+          "rating": 9,
+          "guidance": "35-hour weeks are typical; overtime caps are strict and rarely exceeded."
+        },
+        {
+          "rating": 8,
+          "guidance": "37-38 hour norms with occasional crunch seasons balanced by compensatory leave."
+        },
+        {
+          "rating": 7,
+          "guidance": "40-hour weeks hold, but salaried roles sometimes stretch to 42-45 hours."
+        },
+        {
+          "rating": 6,
+          "guidance": "Workweeks often reach 45-48 hours, prompting negotiation or flextime to protect family evenings."
+        },
+        {
+          "rating": 5,
+          "guidance": "Regular 50-hour expectations require systemic boundary setting to avoid burnout."
+        },
+        {
+          "rating": 4,
+          "guidance": "55-hour norms or mandatory Saturday shifts strain childcare logistics."
+        },
+        {
+          "rating": 3,
+          "guidance": "Workweeks exceed 60 hours or involve unpredictable shifts that destabilize routines."
+        },
+        {
+          "rating": 2,
+          "guidance": "Extreme hours with limited legal protection make sustainable parenting unrealistic."
+        },
+        {
+          "rating": 1,
+          "guidance": "Exploitative workweeks surpass 70 hours, eroding health and family cohesion."
+        }
+      ]
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Statutory leave guarantees 35+ paid days plus holidays, transferable to caregivers and protected by law."
+        },
+        {
+          "rating": 9,
+          "guidance": "Legal minimum is 30 days with strong enforcement and payout of unused days."
+        },
+        {
+          "rating": 8,
+          "guidance": "Employees receive at least 25 days off, and labor laws ensure scheduling flexibility for families."
+        },
+        {
+          "rating": 7,
+          "guidance": "Minimum leave is 20-24 days; approvals are reliable but require early planning."
+        },
+        {
+          "rating": 6,
+          "guidance": "Legal floor is 15-19 days with patchy enforcement, so we track accruals closely."
+        },
+        {
+          "rating": 5,
+          "guidance": "Only 10-14 mandated days; taking the full allotment can still raise eyebrows."
+        },
+        {
+          "rating": 4,
+          "guidance": "Bare-minimum laws (under 10 days) limit extended family travel or care breaks."
+        },
+        {
+          "rating": 3,
+          "guidance": "No statutory leave beyond public holidays; time off depends entirely on employer goodwill."
+        },
+        {
+          "rating": 2,
+          "guidance": "Legal framework permits employers to deny most leave requests without cause."
+        },
+        {
+          "rating": 1,
+          "guidance": "There is no guarantee of paid leave, risking income if we take family time."
+        }
+      ]
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Professionals routinely enjoy 40+ paid days including company-wide shutdowns, enabling extended family travel."
+        },
+        {
+          "rating": 9,
+          "guidance": "Most firms offer 30-35 days plus personal days; unused time rolls over or cashes out."
+        },
+        {
+          "rating": 8,
+          "guidance": "Typical leave is 25-29 days with encouraged downtime and coverage planning."
+        },
+        {
+          "rating": 7,
+          "guidance": "Employees take around 20-24 days, though peak seasons may trim availability."
+        },
+        {
+          "rating": 6,
+          "guidance": "15-19 days are common; we mix vacation with remote work to stretch breaks."
+        },
+        {
+          "rating": 5,
+          "guidance": "10-14 days plus public holidays is the norm; long trips require unpaid leave."
+        },
+        {
+          "rating": 4,
+          "guidance": "Time off culture is weak: employees hesitate to use even allotted days."
+        },
+        {
+          "rating": 3,
+          "guidance": "Most workers take under 10 days due to workload or social pressure."
+        },
+        {
+          "rating": 2,
+          "guidance": "Vacations are rare; personal days often get cancelled when deadlines loom."
+        },
+        {
+          "rating": 1,
+          "guidance": "Taking time off risks job loss or demotion, making vacations unrealistic."
+        }
+      ]
+    },
+    {
+      "key": "Pace of Life",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Daily life flows calmly: short commutes, generous buffers between appointments, and cultural appreciation for lingering meals."
+        },
+        {
+          "rating": 9,
+          "guidance": "Cities are lively yet manageable; errands, services, and school runs rarely feel rushed."
+        },
+        {
+          "rating": 8,
+          "guidance": "Overall relaxed with standard busy hours; we can balance work and leisure without crunch."
+        },
+        {
+          "rating": 7,
+          "guidance": "Pace varies by neighborhood; traffic or bureaucracy occasionally push stress levels up."
+        },
+        {
+          "rating": 6,
+          "guidance": "Fast-paced urban core requires disciplined scheduling to maintain family downtime."
+        },
+        {
+          "rating": 5,
+          "guidance": "Life oscillates between high energy and downtime; constant planning keeps us on track."
+        },
+        {
+          "rating": 4,
+          "guidance": "Hustle culture dominates with long queues, congested routes, and minimal breathing room."
+        },
+        {
+          "rating": 3,
+          "guidance": "Chaotic pace leads to chronic stress; schools and workplaces expect perpetual urgency."
+        },
+        {
+          "rating": 2,
+          "guidance": "Life is relentlessly rushed, leaving little chance for reflection or quality family time."
+        },
+        {
+          "rating": 1,
+          "guidance": "Daily existence feels frantic and survival-focused, eroding well-being."
+        }
+      ]
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Schools, employers, and services align perfectly: drop-offs after 8:30, workdays ending by 15:30-16:00, and after-school programs bridge any gaps."
+        },
+        {
+          "rating": 9,
+          "guidance": "Schedules mostly sync; occasional late meetings are offset by reliable wraparound care."
+        },
+        {
+          "rating": 8,
+          "guidance": "Routine works with mild juggling—perhaps one early start or late pickup per week."
+        },
+        {
+          "rating": 7,
+          "guidance": "Parents coordinate staggered hours; support exists but requires bookings or neighbor help."
+        },
+        {
+          "rating": 6,
+          "guidance": "Mismatch between school and workday means we rely on paid caregivers or flexible remote days."
+        },
+        {
+          "rating": 5,
+          "guidance": "Daily logistics are complex with limited after-school coverage, demanding constant calendar management."
+        },
+        {
+          "rating": 4,
+          "guidance": "Frequent overtime or late classes force compromises like older kids supervising younger ones."
+        },
+        {
+          "rating": 3,
+          "guidance": "Schedules clash severely; we juggle split shifts or risk penalties for late pickups."
+        },
+        {
+          "rating": 2,
+          "guidance": "Systemic misalignment makes stable routines nearly impossible without live-in help."
+        },
+        {
+          "rating": 1,
+          "guidance": "Daily schedule is unworkable: services shut down early, employers demand long hours, and we cannot cover childcare."
+        }
+      ]
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Weekends offer abundant family programming, open shops, and safe transit, enabling effortless outings without pre-booking."
+        },
+        {
+          "rating": 9,
+          "guidance": "Weekends are vibrant with community events and accessible recreation; occasional reservations suffice."
+        },
+        {
+          "rating": 8,
+          "guidance": "Plenty of family options though popular venues fill quickly; we mix planned and spontaneous activities."
+        },
+        {
+          "rating": 7,
+          "guidance": "Good variety but logistics like traffic or limited hours require early starts."
+        },
+        {
+          "rating": 6,
+          "guidance": "Weekend fun is available yet depends on advance booking and budget earmarking."
+        },
+        {
+          "rating": 5,
+          "guidance": "Choices exist but feel repetitive or crowded; downtime often happens at home."
+        },
+        {
+          "rating": 4,
+          "guidance": "Limited family-friendly venues or restricted openings reduce weekend excitement."
+        },
+        {
+          "rating": 3,
+          "guidance": "Activities are scarce or expensive, pushing us to long drives or stay-ins."
+        },
+        {
+          "rating": 2,
+          "guidance": "Weekends are dominated by chores or obligations due to poor service hours and few safe spaces."
+        },
+        {
+          "rating": 1,
+          "guidance": "There are virtually no weekend amenities or events, making family engagement stagnant."
+        }
+      ]
+    },
+    {
+      "key": "Family Life",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Society celebrates families with inclusive policies, supportive neighborhoods, and abundant intergenerational spaces."
+        },
+        {
+          "rating": 9,
+          "guidance": "Family-centric communities provide networks, clubs, and safe public areas fostering belonging."
+        },
+        {
+          "rating": 8,
+          "guidance": "Families thrive overall though some urban pockets feel more adult-oriented."
+        },
+        {
+          "rating": 7,
+          "guidance": "Family resources exist but require seeking out and joining waitlists."
+        },
+        {
+          "rating": 6,
+          "guidance": "Family life is workable with effort; institutions support but expect parents to self-organize."
+        },
+        {
+          "rating": 5,
+          "guidance": "Families manage but face gaps in services or social acceptance depending on neighborhood."
+        },
+        {
+          "rating": 4,
+          "guidance": "Family households are tolerated, not prioritized; amenities skew toward singles or retirees."
+        },
+        {
+          "rating": 3,
+          "guidance": "Raising kids feels isolating; infrastructure and culture overlook family needs."
+        },
+        {
+          "rating": 2,
+          "guidance": "Families encounter stigma or systemic obstacles such as landlord bias or few kid-safe areas."
+        },
+        {
+          "rating": 1,
+          "guidance": "Family life is actively discouraged or unsafe, forcing consideration of alternative locations."
+        }
+      ]
+    },
+    {
+      "key": "Polyamory",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Polyamorous families enjoy full legal recognition, social acceptance, and accessible counseling or community spaces."
+        },
+        {
+          "rating": 9,
+          "guidance": "Poly relationships are visible and protected; public institutions treat multi-partner households respectfully."
+        },
+        {
+          "rating": 8,
+          "guidance": "Social tolerance is high with minor bureaucratic hurdles; support networks exist in major cities."
+        },
+        {
+          "rating": 7,
+          "guidance": "Polyamory is largely accepted in private circles but still misunderstood by mainstream services."
+        },
+        {
+          "rating": 6,
+          "guidance": "Discretion is advisable at work or school though metropolitan subcultures are welcoming."
+        },
+        {
+          "rating": 5,
+          "guidance": "Poly families face mixed reactions; legal frameworks default to monogamy and complicate parental rights."
+        },
+        {
+          "rating": 4,
+          "guidance": "Stigma is common; custody or housing disputes may penalize multi-partner arrangements."
+        },
+        {
+          "rating": 3,
+          "guidance": "Polyamorous visibility invites discrimination, job risk, or school bullying for kids."
+        },
+        {
+          "rating": 2,
+          "guidance": "State or religious doctrine actively opposes polyamory, criminalizing or marginalizing families."
+        },
+        {
+          "rating": 1,
+          "guidance": "Poly households face legal persecution or violence, making open relationships untenable."
+        }
+      ]
+    },
+    {
+      "key": "Parenting Expectations",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Society values diverse parenting styles, shares caregiving loads, and offers nonjudgmental support services."
+        },
+        {
+          "rating": 9,
+          "guidance": "Parents receive empathetic guidance, paternal leave is normal, and schools partner constructively."
+        },
+        {
+          "rating": 8,
+          "guidance": "Expectations lean progressive; occasional traditional pressure is manageable."
+        },
+        {
+          "rating": 7,
+          "guidance": "Norms favor dual involvement but still enforce certain gender roles or academic pressure."
+        },
+        {
+          "rating": 6,
+          "guidance": "Parents face strong opinions from relatives or teachers about 'correct' methods."
+        },
+        {
+          "rating": 5,
+          "guidance": "Conformity is expected—work-intensive parenting styles dominate and judgement is common."
+        },
+        {
+          "rating": 4,
+          "guidance": "Rigid expectations limit autonomy; deviation risks social isolation or official scrutiny."
+        },
+        {
+          "rating": 3,
+          "guidance": "Authorities or communities police parenting heavily, leaving little room for neurodiverse or gentle approaches."
+        },
+        {
+          "rating": 2,
+          "guidance": "Parents are coerced into authoritarian norms, with threats of intervention for alternative choices."
+        },
+        {
+          "rating": 1,
+          "guidance": "State and society dictate parenting; noncompliance can lead to legal penalties or child removal."
+        }
+      ]
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Cities are designed for kids: safe crossings, abundant playgrounds, stroller access, and welcoming attitudes everywhere."
+        },
+        {
+          "rating": 9,
+          "guidance": "Urban areas feel safe and accommodating; family bathrooms, priority seating, and kid events are standard."
+        },
+        {
+          "rating": 8,
+          "guidance": "Most neighborhoods are kid-friendly with a few dense districts requiring extra vigilance."
+        },
+        {
+          "rating": 7,
+          "guidance": "City centers are bustling but manageable; we seek out specific family zones to relax."
+        },
+        {
+          "rating": 6,
+          "guidance": "Family amenities exist yet unevenly; some transit lines or cafes discourage children."
+        },
+        {
+          "rating": 5,
+          "guidance": "Kids are tolerated but not prioritized; we plan outings carefully to avoid hassles."
+        },
+        {
+          "rating": 4,
+          "guidance": "Urban life is challenging for families due to traffic, scarce play areas, or hostile attitudes."
+        },
+        {
+          "rating": 3,
+          "guidance": "Cities lack safe infrastructure for kids and we frequently encounter complaints or restrictions."
+        },
+        {
+          "rating": 2,
+          "guidance": "Families feel unwelcome; limited green space and crime keep children indoors."
+        },
+        {
+          "rating": 1,
+          "guidance": "Urban environments are unsafe or hostile to children, making city living untenable."
+        }
+      ]
+    },
+    {
+      "key": "Schooling Options",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Wide array of public, private, language, and alternative schools with transparent data and easy transfers."
+        },
+        {
+          "rating": 9,
+          "guidance": "Multiple high-quality pathways exist, and admissions processes are fair with manageable waitlists."
+        },
+        {
+          "rating": 8,
+          "guidance": "Strong options overall though specialty programs require applications or travel."
+        },
+        {
+          "rating": 7,
+          "guidance": "Several good schools available yet demand strategic planning and networking."
+        },
+        {
+          "rating": 6,
+          "guidance": "Choices exist but quality varies between districts; relocation within the city may be needed."
+        },
+        {
+          "rating": 5,
+          "guidance": "Limited variety; we likely compromise on pedagogy or commute."
+        },
+        {
+          "rating": 4,
+          "guidance": "Quality schools are scarce with long waitlists and opaque admissions."
+        },
+        {
+          "rating": 3,
+          "guidance": "Few acceptable options; homeschooling or remote learning becomes appealing."
+        },
+        {
+          "rating": 2,
+          "guidance": "Education choices are severely restricted or politicized, harming kids' prospects."
+        },
+        {
+          "rating": 1,
+          "guidance": "No safe or adequate schooling pathways exist for our children."
+        }
+      ]
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Universal, affordable early education with small class sizes, bilingual options, and wraparound services."
+        },
+        {
+          "rating": 9,
+          "guidance": "High-quality preschools are plentiful with capped fees and government subsidies."
+        },
+        {
+          "rating": 8,
+          "guidance": "Strong early childcare network though prime providers require early registration."
+        },
+        {
+          "rating": 7,
+          "guidance": "Good availability but affordability varies; we mix public slots with private programs."
+        },
+        {
+          "rating": 6,
+          "guidance": "Options exist yet waitlists are lengthy or hours inflexible for dual-working parents."
+        },
+        {
+          "rating": 5,
+          "guidance": "Coverage is patchy; quality providers are expensive and subsidies limited."
+        },
+        {
+          "rating": 4,
+          "guidance": "Few reliable centers; staffing shortages require backup caregivers."
+        },
+        {
+          "rating": 3,
+          "guidance": "Early education slots are scarce and often low quality, pushing us to in-home care."
+        },
+        {
+          "rating": 2,
+          "guidance": "Childcare deserts dominate; legal or cultural barriers hinder institutional care."
+        },
+        {
+          "rating": 1,
+          "guidance": "No practical early childcare exists, preventing parents from working or studying."
+        }
+      ]
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Citizens receive generous subsidies or free care, extended parental leave, and guaranteed slots near home."
+        },
+        {
+          "rating": 9,
+          "guidance": "Financial support covers most costs and policies encourage both parents to remain in the workforce."
+        },
+        {
+          "rating": 8,
+          "guidance": "Subsidies reduce fees significantly though families still budget for extras."
+        },
+        {
+          "rating": 7,
+          "guidance": "Support exists via tax credits or partial coverage; paperwork is manageable."
+        },
+        {
+          "rating": 6,
+          "guidance": "Benefits cover limited hours or income brackets, requiring top-ups."
+        },
+        {
+          "rating": 5,
+          "guidance": "Aid is modest; citizens shoulder much of the cost despite public rhetoric."
+        },
+        {
+          "rating": 4,
+          "guidance": "Support is minimal and localized; national policy offers little relief."
+        },
+        {
+          "rating": 3,
+          "guidance": "Citizens face high out-of-pocket expenses and little systemic help."
+        },
+        {
+          "rating": 2,
+          "guidance": "Aid is purely symbolic, leaving many families unable to afford care."
+        },
+        {
+          "rating": 1,
+          "guidance": "No public support exists; childcare is entirely private or informal."
+        }
+      ]
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Visa families receive equal subsidies, priority access, and multilingual assistance navigating systems."
+        },
+        {
+          "rating": 9,
+          "guidance": "Non-citizens qualify for most benefits and can secure childcare quickly upon arrival."
+        },
+        {
+          "rating": 8,
+          "guidance": "Strong support with minor residency requirements; documentation is clear."
+        },
+        {
+          "rating": 7,
+          "guidance": "Benefits exist but require waiting periods or employer sponsorship."
+        },
+        {
+          "rating": 6,
+          "guidance": "Partial subsidies only; costs remain notable until permanent status."
+        },
+        {
+          "rating": 5,
+          "guidance": "Visa holders rely on private care with occasional municipal assistance."
+        },
+        {
+          "rating": 4,
+          "guidance": "Support is rare and subject to quotas or local discretion."
+        },
+        {
+          "rating": 3,
+          "guidance": "Visa families are largely excluded from subsidies and must self-fund solutions."
+        },
+        {
+          "rating": 2,
+          "guidance": "Legal restrictions bar non-citizens from public childcare programs."
+        },
+        {
+          "rating": 1,
+          "guidance": "Visa holders risk violating terms if they use standard childcare services, leaving no safe options."
+        }
+      ]
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Citizens enjoy universal high-quality schooling with free materials, specialized support, and effortless transfers."
+        },
+        {
+          "rating": 9,
+          "guidance": "Enrollment is guaranteed in strong schools; special education and language services are robust."
+        },
+        {
+          "rating": 8,
+          "guidance": "Access is broad though top-performing schools have lotteries or zoning."
+        },
+        {
+          "rating": 7,
+          "guidance": "Quality varies by district; informed parents navigate boundaries to secure good placements."
+        },
+        {
+          "rating": 6,
+          "guidance": "Schools are available but resources depend heavily on local taxes or activism."
+        },
+        {
+          "rating": 5,
+          "guidance": "Citizens can enroll but face crowded classrooms or outdated facilities."
+        },
+        {
+          "rating": 4,
+          "guidance": "Many public schools underperform; supplemental tutoring becomes essential."
+        },
+        {
+          "rating": 3,
+          "guidance": "Education quality is unreliable; parents pursue private alternatives despite citizenship."
+        },
+        {
+          "rating": 2,
+          "guidance": "Public system is broken with teacher shortages and safety issues."
+        },
+        {
+          "rating": 1,
+          "guidance": "Citizens lack access to functional K-12 schooling, jeopardizing children's development."
+        }
+      ]
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Visa families enroll in public schools seamlessly with full rights, support services, and language integration."
+        },
+        {
+          "rating": 9,
+          "guidance": "Non-citizen children are welcomed and receive comparable resources to citizens."
+        },
+        {
+          "rating": 8,
+          "guidance": "Access is strong though certain specialized programs prioritize citizens."
+        },
+        {
+          "rating": 7,
+          "guidance": "Enrollment is allowed but requires extra paperwork or proof of residence."
+        },
+        {
+          "rating": 6,
+          "guidance": "Visa families access schools yet pay supplemental fees or face limited language help."
+        },
+        {
+          "rating": 5,
+          "guidance": "Placement is possible but bureaucratic friction and quotas cause delays."
+        },
+        {
+          "rating": 4,
+          "guidance": "Only certain visas qualify; others must use private or international schools."
+        },
+        {
+          "rating": 3,
+          "guidance": "Access is highly restricted and often contingent on employer sponsorship."
+        },
+        {
+          "rating": 2,
+          "guidance": "Public schools charge high tuition to non-citizens or cap enrollment severely."
+        },
+        {
+          "rating": 1,
+          "guidance": "Visa holders cannot legally enroll children in public K-12 education."
+        }
+      ]
+    },
+    {
+      "key": "Private Education",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Private schools offer elite academics, international curricula, and scholarships making them accessible if desired."
+        },
+        {
+          "rating": 9,
+          "guidance": "High-quality private options abound with reasonable tuition or employer subsidies."
+        },
+        {
+          "rating": 8,
+          "guidance": "Strong private network exists though top schools require competitive entry."
+        },
+        {
+          "rating": 7,
+          "guidance": "Private schools provide good alternatives but cost premium prices."
+        },
+        {
+          "rating": 6,
+          "guidance": "Options exist yet quality varies; we scrutinize accreditation and values."
+        },
+        {
+          "rating": 5,
+          "guidance": "Private education is available but often stratified or religiously narrow."
+        },
+        {
+          "rating": 4,
+          "guidance": "Few reputable private schools; tuition rivals college costs."
+        },
+        {
+          "rating": 3,
+          "guidance": "Private schools are limited or low quality, offering little improvement over public alternatives."
+        },
+        {
+          "rating": 2,
+          "guidance": "Private sector is largely unregulated or predatory, providing dubious outcomes."
+        },
+        {
+          "rating": 1,
+          "guidance": "No trustworthy private education exists or it is legally inaccessible to foreigners."
+        }
+      ]
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Citizens benefit from comprehensive parental leave, child allowances, housing aid, and flexible work laws."
+        },
+        {
+          "rating": 9,
+          "guidance": "Robust policies provide long paid leave and scalable benefits tied to cost of living."
+        },
+        {
+          "rating": 8,
+          "guidance": "Supportive policy mix covers childcare, healthcare, and education, though bureaucracy can slow payments."
+        },
+        {
+          "rating": 7,
+          "guidance": "Policies are decent but certain benefits cap out quickly or favor specific income brackets."
+        },
+        {
+          "rating": 6,
+          "guidance": "Family programs exist yet require persistent paperwork and advocacy to access."
+        },
+        {
+          "rating": 5,
+          "guidance": "Limited support; citizens rely on community networks to fill gaps."
+        },
+        {
+          "rating": 4,
+          "guidance": "Benefits are outdated, with minimal cash aid and short parental leave."
+        },
+        {
+          "rating": 3,
+          "guidance": "Policies are symbolic and underfunded, leaving families to fend for themselves."
+        },
+        {
+          "rating": 2,
+          "guidance": "Government provides almost no family support despite official promises."
+        },
+        {
+          "rating": 1,
+          "guidance": "Policies actively disadvantage families via penalties or loss of income."
+        }
+      ]
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Visa families access the same allowances, leave, and services as citizens from day one."
+        },
+        {
+          "rating": 9,
+          "guidance": "Most benefits extend to visa holders with minimal residency hurdles."
+        },
+        {
+          "rating": 8,
+          "guidance": "Support is strong but certain cash benefits require longer stays or employer sponsorship."
+        },
+        {
+          "rating": 7,
+          "guidance": "Visa families receive partial benefits; some leave must be unpaid or shorter."
+        },
+        {
+          "rating": 6,
+          "guidance": "Access exists but is opaque, prompting reliance on immigration lawyers or HR teams."
+        },
+        {
+          "rating": 5,
+          "guidance": "Aid is limited to emergency programs; regular benefits exclude non-citizens."
+        },
+        {
+          "rating": 4,
+          "guidance": "Visa status disqualifies families from most support, increasing financial pressure."
+        },
+        {
+          "rating": 3,
+          "guidance": "Policies penalize non-citizens with waiting periods and lower payments."
+        },
+        {
+          "rating": 2,
+          "guidance": "Family benefits are legally restricted to citizens, leaving visa holders uncovered."
+        },
+        {
+          "rating": 1,
+          "guidance": "Reliance on state aid jeopardizes visa status, deterring families from seeking help."
+        }
+      ]
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Citizens enjoy tuition-free or heavily subsidized universities with numerous degree paths and plentiful scholarships."
+        },
+        {
+          "rating": 9,
+          "guidance": "Higher ed is affordable with transparent aid and strong vocational alternatives."
+        },
+        {
+          "rating": 8,
+          "guidance": "Access is broad though selective programs remain competitive or require entrance exams."
+        },
+        {
+          "rating": 7,
+          "guidance": "Public universities are accessible but living costs merit careful planning."
+        },
+        {
+          "rating": 6,
+          "guidance": "Tuition support exists yet debt loads can accumulate without scholarships."
+        },
+        {
+          "rating": 5,
+          "guidance": "Higher education is attainable but depends on loans or family savings."
+        },
+        {
+          "rating": 4,
+          "guidance": "Limited seats and high fees push students toward private or overseas study."
+        },
+        {
+          "rating": 3,
+          "guidance": "Citizens face major barriers such as exam quotas or underfunded institutions."
+        },
+        {
+          "rating": 2,
+          "guidance": "Higher ed access is highly unequal, restricting social mobility."
+        },
+        {
+          "rating": 1,
+          "guidance": "Citizens cannot reliably pursue tertiary education due to cost or policy."
+        }
+      ]
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Visa holders pay citizen-level tuition, receive aid, and enjoy clear paths from study to work."
+        },
+        {
+          "rating": 9,
+          "guidance": "International families access universities with moderate fees and dedicated support offices."
+        },
+        {
+          "rating": 8,
+          "guidance": "Opportunities are strong though some scholarships exclude non-citizens."
+        },
+        {
+          "rating": 7,
+          "guidance": "Visa students enroll freely but encounter higher tuition or limited work-study slots."
+        },
+        {
+          "rating": 6,
+          "guidance": "Access exists yet bureaucratic hurdles around residency or guarantors add friction."
+        },
+        {
+          "rating": 5,
+          "guidance": "Non-citizens rely on private institutions or pay significant premiums."
+        },
+        {
+          "rating": 4,
+          "guidance": "Public universities cap foreign enrollment or restrict fields of study."
+        },
+        {
+          "rating": 3,
+          "guidance": "Visa status limits access to financial aid, internships, or research roles."
+        },
+        {
+          "rating": 2,
+          "guidance": "International students face prohibitive costs and short visa terms that discourage enrollment."
+        },
+        {
+          "rating": 1,
+          "guidance": "Visa holders cannot realistically pursue higher education due to legal or financial barriers."
+        }
+      ]
+    },
+    {
+      "key": "Gender Roles",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Gender roles are fluid and equitable; caregiving, leadership, and household labor are shared without stigma."
+        },
+        {
+          "rating": 9,
+          "guidance": "Society embraces egalitarian roles with strong policy backing but occasional legacy expectations linger."
+        },
+        {
+          "rating": 8,
+          "guidance": "Progressive norms dominate urban centers though rural areas retain tradition."
+        },
+        {
+          "rating": 7,
+          "guidance": "Gender equality is improving yet workplace or family duties still skew by default."
+        },
+        {
+          "rating": 6,
+          "guidance": "Mixed signals: formal equality exists but social pressure reinforces classic roles."
+        },
+        {
+          "rating": 5,
+          "guidance": "Conventional roles prevail; deviating requires strong support networks."
+        },
+        {
+          "rating": 4,
+          "guidance": "Traditional expectations dominate policies and daily life."
+        },
+        {
+          "rating": 3,
+          "guidance": "Rigid gender assignments impact career choices, parenting norms, and safety."
+        },
+        {
+          "rating": 2,
+          "guidance": "Legal or cultural frameworks enforce strict gender hierarchies."
+        },
+        {
+          "rating": 1,
+          "guidance": "Severe gender oppression curtails autonomy and rights, endangering family members."
+        }
+      ]
+    },
+    {
+      "key": "Gender Fluidity",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Gender-diverse identities are celebrated with legal recognition, inclusive healthcare, and mainstream representation."
+        },
+        {
+          "rating": 9,
+          "guidance": "Nonbinary and gender-fluid people enjoy strong protections, though rural areas adapt gradually."
+        },
+        {
+          "rating": 8,
+          "guidance": "Social acceptance is good with accessible support groups, yet official documents lag behind."
+        },
+        {
+          "rating": 7,
+          "guidance": "Communities are mostly welcoming but certain institutions remain binary-focused."
+        },
+        {
+          "rating": 6,
+          "guidance": "Gender diversity is tolerated in private circles though misgendering or legal hurdles persist."
+        },
+        {
+          "rating": 5,
+          "guidance": "Visibility invites mixed reactions; healthcare and schooling require advocacy."
+        },
+        {
+          "rating": 4,
+          "guidance": "Gender-fluid individuals face frequent discrimination and limited recognition."
+        },
+        {
+          "rating": 3,
+          "guidance": "Open expression risks harassment, job loss, or denial of services."
+        },
+        {
+          "rating": 2,
+          "guidance": "State policies invalidate nonbinary identities, denying documentation or care."
+        },
+        {
+          "rating": 1,
+          "guidance": "Gender-diverse people face criminalization or violence, endangering family inclusion."
+        }
+      ]
+    },
+    {
+      "key": "Gender Rights",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Equal rights are constitutionally protected, enforced, and culturally internalized across legal, economic, and health domains."
+        },
+        {
+          "rating": 9,
+          "guidance": "Strong legal frameworks with active enforcement; gaps are rare and quickly addressed."
+        },
+        {
+          "rating": 8,
+          "guidance": "Most rights secured though representation in leadership still catching up."
+        },
+        {
+          "rating": 7,
+          "guidance": "Legal parity exists but enforcement or pay gaps remain issues."
+        },
+        {
+          "rating": 6,
+          "guidance": "Rights progress is uneven; certain sectors or regions lag significantly."
+        },
+        {
+          "rating": 5,
+          "guidance": "Formal rights exist yet cultural resistance and weak institutions limit impact."
+        },
+        {
+          "rating": 4,
+          "guidance": "Key rights lack enforcement, exposing family members to discrimination."
+        },
+        {
+          "rating": 3,
+          "guidance": "Legal rights are curtailed or under attack; victims struggle for justice."
+        },
+        {
+          "rating": 2,
+          "guidance": "Significant legal barriers restrict gender equality, such as guardianship laws."
+        },
+        {
+          "rating": 1,
+          "guidance": "Gender rights are virtually nonexistent; systemic oppression is codified."
+        }
+      ]
+    },
+    {
+      "key": "Femininity Norms",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Women and feminine-presenting people freely express identity across styles, careers, and behaviors without judgment."
+        },
+        {
+          "rating": 9,
+          "guidance": "Society embraces diverse femininity expressions with minor conservative pockets."
+        },
+        {
+          "rating": 8,
+          "guidance": "Flexibility is common though media still amplifies certain beauty standards."
+        },
+        {
+          "rating": 7,
+          "guidance": "Women enjoy autonomy yet face subtle pressure around appearance or parenting choices."
+        },
+        {
+          "rating": 6,
+          "guidance": "Traditional expectations persist in workplaces or extended family circles."
+        },
+        {
+          "rating": 5,
+          "guidance": "Femininity is narrowly defined; deviation attracts gossip or bias."
+        },
+        {
+          "rating": 4,
+          "guidance": "Societal norms demand conventional dress and demeanor with little tolerance."
+        },
+        {
+          "rating": 3,
+          "guidance": "Nonconforming women face harassment or professional penalties."
+        },
+        {
+          "rating": 2,
+          "guidance": "Legal or religious rules dictate feminine behavior and attire."
+        },
+        {
+          "rating": 1,
+          "guidance": "Oppressive norms severely limit women's freedom, risking punishment for deviation."
+        }
+      ]
+    },
+    {
+      "key": "Masculinity Norms",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Men can be nurturing, expressive, and vulnerable without stigma; caregiving is admired."
+        },
+        {
+          "rating": 9,
+          "guidance": "Masculinity is broad and inclusive, though older generations may hold traditional views."
+        },
+        {
+          "rating": 8,
+          "guidance": "Expectations are evolving; emotional openness is growing but not universal."
+        },
+        {
+          "rating": 7,
+          "guidance": "Men can pursue nontraditional roles yet still encounter jokes or mild pushback."
+        },
+        {
+          "rating": 6,
+          "guidance": "Caregiving dads attract skepticism; machismo persists in some circles."
+        },
+        {
+          "rating": 5,
+          "guidance": "Rigid masculine ideals dominate media and workplaces; deviation requires resilience."
+        },
+        {
+          "rating": 4,
+          "guidance": "Men face strong pressure to conform to stoic, provider archetypes."
+        },
+        {
+          "rating": 3,
+          "guidance": "Nontraditional men risk bullying, career ceiling, or family conflict."
+        },
+        {
+          "rating": 2,
+          "guidance": "Legal and institutional norms enforce strict masculine behavior."
+        },
+        {
+          "rating": 1,
+          "guidance": "Deviating from prescribed masculinity invites violence or state punishment."
+        }
+      ]
+    },
+    {
+      "key": "What Is Intriguing",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "The country's quirks and innovations constantly inspire curiosity, offering endless learning and storytelling moments."
+        },
+        {
+          "rating": 9,
+          "guidance": "Rich history and modern creativity provide frequent surprises that keep family engaged."
+        },
+        {
+          "rating": 8,
+          "guidance": "Plenty of intriguing facets exist though some regions feel familiar."
+        },
+        {
+          "rating": 7,
+          "guidance": "Interesting culture is present but we need intentional exploration to uncover it."
+        },
+        {
+          "rating": 6,
+          "guidance": "Curiosities appear occasionally; day-to-day life feels predictable."
+        },
+        {
+          "rating": 5,
+          "guidance": "Moderate intrigue; we cycle through highlights quickly."
+        },
+        {
+          "rating": 4,
+          "guidance": "Few novel experiences; cultural landscape feels homogeneous."
+        },
+        {
+          "rating": 3,
+          "guidance": "Inspiration is scarce and we struggle to find fresh perspectives."
+        },
+        {
+          "rating": 2,
+          "guidance": "Very little sparks curiosity; even travel within the country feels repetitive."
+        },
+        {
+          "rating": 1,
+          "guidance": "Nothing intrigues us; environment feels dull or suppresses creative exploration."
+        }
+      ]
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "English is widely spoken, official documents are bilingual, and language learning resources make integration effortless."
+        },
+        {
+          "rating": 9,
+          "guidance": "English proficiency is high in cities; only rural visits prompt translation apps."
+        },
+        {
+          "rating": 8,
+          "guidance": "Most services accommodate English though schooling or government offices prefer the local language."
+        },
+        {
+          "rating": 7,
+          "guidance": "Day-to-day life manageable but we commit to language study for full participation."
+        },
+        {
+          "rating": 6,
+          "guidance": "English works in expat bubbles; outside them we rely on interpreters."
+        },
+        {
+          "rating": 5,
+          "guidance": "Limited English availability; essential services require fluent local language."
+        },
+        {
+          "rating": 4,
+          "guidance": "Ubiquity is low, slowing integration and complicating schooling or healthcare."
+        },
+        {
+          "rating": 3,
+          "guidance": "Few English speakers; bureaucratic processes become daunting."
+        },
+        {
+          "rating": 2,
+          "guidance": "English is rarely used and translation support is minimal."
+        },
+        {
+          "rating": 1,
+          "guidance": "English communication is practically impossible; integration stalls without full fluency."
+        }
+      ]
+    },
+    {
+      "key": "Progressivism",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Progressive values shape policy and culture, emphasizing equity, climate action, and human rights."
+        },
+        {
+          "rating": 9,
+          "guidance": "Political and social spheres lean progressive with strong civic engagement."
+        },
+        {
+          "rating": 8,
+          "guidance": "Progressive ideas thrive in major cities though conservative regions influence national debates."
+        },
+        {
+          "rating": 7,
+          "guidance": "Mixed ideology; reforms advance but face consistent pushback."
+        },
+        {
+          "rating": 6,
+          "guidance": "Overall moderate; progressive wins occur but slowly."
+        },
+        {
+          "rating": 5,
+          "guidance": "Country is ideologically split; policies swing with elections."
+        },
+        {
+          "rating": 4,
+          "guidance": "Conservative ideology predominates though pockets of progressivism persist."
+        },
+        {
+          "rating": 3,
+          "guidance": "Progressive voices are marginalized or face legal barriers."
+        },
+        {
+          "rating": 2,
+          "guidance": "Reforms are actively rolled back; progressive activism risks reprisal."
+        },
+        {
+          "rating": 1,
+          "guidance": "State ideology is anti-progressive, suppressing inclusive policies and movements."
+        }
+      ]
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Marxist thought is mainstream and informs policy without authoritarian overtones; open debate thrives."
+        },
+        {
+          "rating": 9,
+          "guidance": "Society respects Marxist perspectives alongside other ideologies, fostering nuanced conversations."
+        },
+        {
+          "rating": 8,
+          "guidance": "Leftist ideas are influential though counterpoints from centrists are common."
+        },
+        {
+          "rating": 7,
+          "guidance": "Marxism has niche appeal; public opinion is curious but not fully persuaded."
+        },
+        {
+          "rating": 6,
+          "guidance": "Society is ambivalent; Marxist ideals appear in academia more than policy."
+        },
+        {
+          "rating": 5,
+          "guidance": "Attitudes are mixed or apathetic; Marxism is tolerated but fringe."
+        },
+        {
+          "rating": 4,
+          "guidance": "Public opinion skews skeptical or negative, viewing Marxism as outdated."
+        },
+        {
+          "rating": 3,
+          "guidance": "Marxist groups face stigma or surveillance."
+        },
+        {
+          "rating": 2,
+          "guidance": "Marxist discourse is censored or criminalized."
+        },
+        {
+          "rating": 1,
+          "guidance": "State propaganda vilifies Marxism and punishes adherents harshly."
+        }
+      ]
+    },
+    {
+      "key": "Atheism",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Atheists experience full acceptance, hold public office openly, and access secular institutions effortlessly."
+        },
+        {
+          "rating": 9,
+          "guidance": "Secular culture is strong; atheism draws little attention outside conservative enclaves."
+        },
+        {
+          "rating": 8,
+          "guidance": "Atheists live comfortably though certain rituals or ceremonies default to religious norms."
+        },
+        {
+          "rating": 7,
+          "guidance": "Atheism is accepted privately but some workplaces or schools assume faith participation."
+        },
+        {
+          "rating": 6,
+          "guidance": "Social pressure encourages nominal religious affiliation despite legal freedom."
+        },
+        {
+          "rating": 5,
+          "guidance": "Atheists face subtle discrimination or misunderstandings."
+        },
+        {
+          "rating": 4,
+          "guidance": "Open atheism invites social exclusion or career limitations."
+        },
+        {
+          "rating": 3,
+          "guidance": "Atheists endure harassment or limited civil rights."
+        },
+        {
+          "rating": 2,
+          "guidance": "State policies favor official religions, penalizing nonbelievers."
+        },
+        {
+          "rating": 1,
+          "guidance": "Atheism is criminalized or equated with treason, threatening safety."
+        }
+      ]
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Sexual health and consent education are comprehensive, destigmatized, and inclusive of diverse identities."
+        },
+        {
+          "rating": 9,
+          "guidance": "Society approaches sex with openness and respect; resources are accessible."
+        },
+        {
+          "rating": 8,
+          "guidance": "Attitudes are liberal in urban areas though conservative norms persist elsewhere."
+        },
+        {
+          "rating": 7,
+          "guidance": "Balanced discussions exist but some topics remain taboo in schools or media."
+        },
+        {
+          "rating": 6,
+          "guidance": "Public discourse is cautious; comprehensive education requires parental advocacy."
+        },
+        {
+          "rating": 5,
+          "guidance": "Mixed attitudes: sexual topics spark controversy and limited support services."
+        },
+        {
+          "rating": 4,
+          "guidance": "Sex is heavily moralized; education is abstinence-leaning."
+        },
+        {
+          "rating": 3,
+          "guidance": "Discussing sex openly invites censure; resources are scarce."
+        },
+        {
+          "rating": 2,
+          "guidance": "Sexuality is tightly controlled by law or religion, harming autonomy."
+        },
+        {
+          "rating": 1,
+          "guidance": "Sexual expression outside strict norms leads to severe punishment or violence."
+        }
+      ]
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "LGBTQ+ families are fully protected, celebrated in public life, and enjoy comprehensive rights."
+        },
+        {
+          "rating": 9,
+          "guidance": "Acceptance is widespread with anti-discrimination enforcement and inclusive services."
+        },
+        {
+          "rating": 8,
+          "guidance": "Support is strong in major areas though rural locales may require caution."
+        },
+        {
+          "rating": 7,
+          "guidance": "Legal rights exist but social acceptance is mixed."
+        },
+        {
+          "rating": 6,
+          "guidance": "Community pockets are welcoming; broader society is still learning."
+        },
+        {
+          "rating": 5,
+          "guidance": "LGBTQ+ people face regular microaggressions and must choose neighborhoods carefully."
+        },
+        {
+          "rating": 4,
+          "guidance": "Discrimination is common; safety planning is necessary for public displays of identity."
+        },
+        {
+          "rating": 3,
+          "guidance": "Legal protections are weak; hate incidents often go unpunished."
+        },
+        {
+          "rating": 2,
+          "guidance": "State hostility or vigilante violence threatens LGBTQ+ families."
+        },
+        {
+          "rating": 1,
+          "guidance": "LGBTQ+ identities are criminalized, forcing concealment or emigration."
+        }
+      ]
+    },
+    {
+      "key": "Community Vibes",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Neighbors are welcoming, mutual aid networks thrive, and newcomers quickly feel woven into community life."
+        },
+        {
+          "rating": 9,
+          "guidance": "Strong sense of belonging with frequent block events and inclusive volunteer culture."
+        },
+        {
+          "rating": 8,
+          "guidance": "Communities are kind though relationships take a little initiative to build."
+        },
+        {
+          "rating": 7,
+          "guidance": "Friendly but reserved; social ties form through schools or clubs over time."
+        },
+        {
+          "rating": 6,
+          "guidance": "Mixed warmth; expats build their own circles while locals remain cordial but distant."
+        },
+        {
+          "rating": 5,
+          "guidance": "Community engagement is limited; people keep to themselves unless prompted."
+        },
+        {
+          "rating": 4,
+          "guidance": "Social trust is low; neighbors avoid interaction and community spaces feel empty."
+        },
+        {
+          "rating": 3,
+          "guidance": "Vibes are cold or suspicious toward outsiders, complicating support networks."
+        },
+        {
+          "rating": 2,
+          "guidance": "Communities are divided or hostile, making belonging difficult."
+        },
+        {
+          "rating": 1,
+          "guidance": "Social fabric is fractured with open antagonism or exclusion toward newcomers."
+        }
+      ]
+    },
+    {
+      "key": "View of self",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Nation holds a confident yet humble self-image, fostering civic pride without nationalism."
+        },
+        {
+          "rating": 9,
+          "guidance": "Citizens appreciate their culture while acknowledging flaws, promoting healthy patriotism."
+        },
+        {
+          "rating": 8,
+          "guidance": "Balanced self-view with occasional boastfulness or insecurity."
+        },
+        {
+          "rating": 7,
+          "guidance": "Narrative leans positive but glosses over some issues; still largely constructive."
+        },
+        {
+          "rating": 6,
+          "guidance": "Self-perception swings between pride and doubt, influencing policy volatility."
+        },
+        {
+          "rating": 5,
+          "guidance": "Conflicted identity; public discourse is divided on national direction."
+        },
+        {
+          "rating": 4,
+          "guidance": "Overly self-critical or self-aggrandizing narratives dominate media."
+        },
+        {
+          "rating": 3,
+          "guidance": "Identity crisis or propaganda shapes self-view, complicating integration."
+        },
+        {
+          "rating": 2,
+          "guidance": "Self-perception is distorted and hostile, fueling internal tension."
+        },
+        {
+          "rating": 1,
+          "guidance": "State enforces extreme self-adoration or self-loathing, undermining healthy civic life."
+        }
+      ]
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Relations are friendly and cooperative; cross-border travel and cultural exchange are celebrated."
+        },
+        {
+          "rating": 9,
+          "guidance": "Public sentiment toward neighbors is positive with collaborative initiatives."
+        },
+        {
+          "rating": 8,
+          "guidance": "Generally amicable though historical rivalries surface in media."
+        },
+        {
+          "rating": 7,
+          "guidance": "Mixed views; some neighbors seen as partners, others approached cautiously."
+        },
+        {
+          "rating": 6,
+          "guidance": "Cordial on paper but citizens hold skeptical opinions shaped by news cycles."
+        },
+        {
+          "rating": 5,
+          "guidance": "Neutral; neighbors rarely factor into daily consciousness."
+        },
+        {
+          "rating": 4,
+          "guidance": "Suspicion or mild hostility colors how neighbors are discussed."
+        },
+        {
+          "rating": 3,
+          "guidance": "Negative stereotypes dominate, hindering regional cooperation."
+        },
+        {
+          "rating": 2,
+          "guidance": "Public opinion is adversarial with frequent diplomatic conflicts."
+        },
+        {
+          "rating": 1,
+          "guidance": "Neighbors are viewed as enemies, prompting isolation or militarization."
+        }
+      ]
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Neighbors admire and trust the country, facilitating easy travel, trade, and cultural affinity."
+        },
+        {
+          "rating": 9,
+          "guidance": "Regional partners view the nation positively with strong diplomatic ties."
+        },
+        {
+          "rating": 8,
+          "guidance": "Reputation is good but occasional policy disagreements arise."
+        },
+        {
+          "rating": 7,
+          "guidance": "Perception is mixed; neighbors respect economic clout but question certain policies."
+        },
+        {
+          "rating": 6,
+          "guidance": "Neighbors see the country as pragmatic but not particularly friendly."
+        },
+        {
+          "rating": 5,
+          "guidance": "Standing is lukewarm; limited mutual understanding exists."
+        },
+        {
+          "rating": 4,
+          "guidance": "Neighboring publics hold skepticism or resentment."
+        },
+        {
+          "rating": 3,
+          "guidance": "Reputation is poor; cross-border friction impacts families and business."
+        },
+        {
+          "rating": 2,
+          "guidance": "Neighbors fear or distrust the country, leading to restrictive policies."
+        },
+        {
+          "rating": 1,
+          "guidance": "The nation is widely disliked or sanctioned, complicating regional integration."
+        }
+      ]
+    },
+    {
+      "key": "Nightlife Culture",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Nightlife is vibrant, safe, and diverse with options for families, live music, and late-night dining."
+        },
+        {
+          "rating": 9,
+          "guidance": "Plentiful nightlife with good safety and transport; only niche scenes require research."
+        },
+        {
+          "rating": 8,
+          "guidance": "Strong nightlife though family-friendly late options are limited."
+        },
+        {
+          "rating": 7,
+          "guidance": "Nightlife exists in specific districts; we arrange sitters and transport carefully."
+        },
+        {
+          "rating": 6,
+          "guidance": "Moderate scene with early closing times or restricted alcohol sales."
+        },
+        {
+          "rating": 5,
+          "guidance": "Nightlife is sparse; we rely on home gatherings or occasional trips to bigger cities."
+        },
+        {
+          "rating": 4,
+          "guidance": "Limited venues and safety concerns reduce nighttime appeal."
+        },
+        {
+          "rating": 3,
+          "guidance": "Nightlife is discouraged or heavily policed, making evenings dull."
+        },
+        {
+          "rating": 2,
+          "guidance": "Curfews or cultural norms effectively eliminate nightlife."
+        },
+        {
+          "rating": 1,
+          "guidance": "Nighttime activity is unsafe or illegal, preventing leisure after dark."
+        }
+      ]
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Men's fashion is diverse and expressive, embracing experimentation and inclusive sizing."
+        },
+        {
+          "rating": 9,
+          "guidance": "Trend-forward yet approachable; men can dress creatively without stigma."
+        },
+        {
+          "rating": 8,
+          "guidance": "Styles are modern in urban areas though suburbs lean classic."
+        },
+        {
+          "rating": 7,
+          "guidance": "Fashion variety exists but workplaces expect conservative attire."
+        },
+        {
+          "rating": 6,
+          "guidance": "Casual norms dominate; experimenting draws occasional side-eye."
+        },
+        {
+          "rating": 5,
+          "guidance": "Men's fashion is practical and plain, offering limited creativity."
+        },
+        {
+          "rating": 4,
+          "guidance": "Traditional dress codes restrict expression and color choices."
+        },
+        {
+          "rating": 3,
+          "guidance": "Nonconformist male fashion faces ridicule or professional risk."
+        },
+        {
+          "rating": 2,
+          "guidance": "Strict cultural expectations dictate male attire."
+        },
+        {
+          "rating": 1,
+          "guidance": "Deviating from prescribed male dress is punishable or dangerous."
+        }
+      ]
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Women's fashion scene is dynamic, inclusive, and body-positive with broad style freedom."
+        },
+        {
+          "rating": 9,
+          "guidance": "Trends are lively and expressive; women wear what suits them without judgement."
+        },
+        {
+          "rating": 8,
+          "guidance": "Urban areas embrace diversity while smaller towns lean conservative."
+        },
+        {
+          "rating": 7,
+          "guidance": "Fashion is modern yet certain workplaces expect modesty or formality."
+        },
+        {
+          "rating": 6,
+          "guidance": "Choice exists but social commentary persists around hemlines or body types."
+        },
+        {
+          "rating": 5,
+          "guidance": "Women navigate narrow fashion norms set by media or tradition."
+        },
+        {
+          "rating": 4,
+          "guidance": "Dress codes limit expression and may be legally enforced in schools or offices."
+        },
+        {
+          "rating": 3,
+          "guidance": "Nonconformist fashion risks harassment or moral policing."
+        },
+        {
+          "rating": 2,
+          "guidance": "Strict modesty rules restrict women's attire in public spaces."
+        },
+        {
+          "rating": 1,
+          "guidance": "Deviation from mandated dress invites fines, arrest, or violence."
+        }
+      ]
+    },
+    {
+      "key": "Common Hobbies",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "A wide spectrum of hobbies is mainstream with clubs and classes for every interest, aiding quick social integration."
+        },
+        {
+          "rating": 9,
+          "guidance": "Most hobbies we enjoy are popular locally, with accessible facilities and supply shops."
+        },
+        {
+          "rating": 8,
+          "guidance": "Many shared hobbies but niche interests require city trips or online groups."
+        },
+        {
+          "rating": 7,
+          "guidance": "A handful of common pastimes flourish; others need personal initiative to sustain."
+        },
+        {
+          "rating": 6,
+          "guidance": "Hobby scene is modest; we rotate between limited options."
+        },
+        {
+          "rating": 5,
+          "guidance": "Only popular sports or crafts thrive; alternatives lack support."
+        },
+        {
+          "rating": 4,
+          "guidance": "Few organized hobbies exist; social life centers on work or family obligations."
+        },
+        {
+          "rating": 3,
+          "guidance": "Hobbyists struggle to find peers or venues."
+        },
+        {
+          "rating": 2,
+          "guidance": "Limited leisure culture; hobbies are viewed as frivolous or indulgent."
+        },
+        {
+          "rating": 1,
+          "guidance": "Hobby participation is discouraged or restricted, hindering personal fulfillment."
+        }
+      ]
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Thriving tabletop community with dedicated cafes, conventions, and multilingual game libraries."
+        },
+        {
+          "rating": 9,
+          "guidance": "Regular board game nights, friendly shops, and strong family participation."
+        },
+        {
+          "rating": 8,
+          "guidance": "Active scene in cities with occasional rural events."
+        },
+        {
+          "rating": 7,
+          "guidance": "Communities exist but require coordination to find consistent groups."
+        },
+        {
+          "rating": 6,
+          "guidance": "Boardgaming is niche; supplies available mostly online."
+        },
+        {
+          "rating": 5,
+          "guidance": "Few organized events; play happens at home with imported games."
+        },
+        {
+          "rating": 4,
+          "guidance": "Limited acceptance; hobby is seen as juvenile or obscure."
+        },
+        {
+          "rating": 3,
+          "guidance": "Finding fellow players is challenging; venues uninterested."
+        },
+        {
+          "rating": 2,
+          "guidance": "Boardgaming faces cultural or legal barriers (e.g., gambling fears)."
+        },
+        {
+          "rating": 1,
+          "guidance": "No accessible tabletop scene; hobby must be imported entirely through private circles."
+        }
+      ]
+    },
+    {
+      "key": "Nightlife & Music",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Live music, venues, and festivals flourish across genres with safe transport and family-friendly options."
+        },
+        {
+          "rating": 9,
+          "guidance": "Music scene is vibrant with regular concerts and community events."
+        },
+        {
+          "rating": 8,
+          "guidance": "Strong offerings though niche genres appear seasonally."
+        },
+        {
+          "rating": 7,
+          "guidance": "Music venues exist but require planning and occasional travel."
+        },
+        {
+          "rating": 6,
+          "guidance": "Scene is modest; major acts visit infrequently."
+        },
+        {
+          "rating": 5,
+          "guidance": "Limited live music; we rely on streaming and occasional big-city trips."
+        },
+        {
+          "rating": 4,
+          "guidance": "Venues struggle due to regulation or noise complaints."
+        },
+        {
+          "rating": 3,
+          "guidance": "Live music culture is weak; few opportunities for discovery."
+        },
+        {
+          "rating": 2,
+          "guidance": "Performances are rare or heavily restricted."
+        },
+        {
+          "rating": 1,
+          "guidance": "Music events are banned or unsafe, eliminating nightlife entertainment."
+        }
+      ]
+    },
+    {
+      "key": "Meetups & Communities",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Vibrant meetup ecosystem covering tech, parenting, culture, and hobbies with accessible venues and inclusive norms."
+        },
+        {
+          "rating": 9,
+          "guidance": "Frequent events make it easy to build networks quickly."
+        },
+        {
+          "rating": 8,
+          "guidance": "Plenty of meetups though some niches use online waitlists or membership fees."
+        },
+        {
+          "rating": 7,
+          "guidance": "Communities exist but require proactive outreach."
+        },
+        {
+          "rating": 6,
+          "guidance": "Events are irregular; we lean on digital communities to supplement."
+        },
+        {
+          "rating": 5,
+          "guidance": "Limited meetup culture; friendships grow slowly."
+        },
+        {
+          "rating": 4,
+          "guidance": "Few organized communities; social life revolves around work or family only."
+        },
+        {
+          "rating": 3,
+          "guidance": "Meetups struggle with attendance or face government scrutiny."
+        },
+        {
+          "rating": 2,
+          "guidance": "Community organizing is discouraged or requires permits, reducing spontaneity."
+        },
+        {
+          "rating": 1,
+          "guidance": "Independent meetups are banned or unsafe, isolating newcomers."
+        }
+      ]
+    },
+    {
+      "key": "Nature Access",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "World-class trails, parks, and wilderness are minutes away with excellent public transport links and safety."
+        },
+        {
+          "rating": 9,
+          "guidance": "Abundant nature within an hour; infrastructure like campsites and guides is top-tier."
+        },
+        {
+          "rating": 8,
+          "guidance": "Great access though some destinations require advance permits or gear."
+        },
+        {
+          "rating": 7,
+          "guidance": "Nature spots are available but need car travel or seasonal planning."
+        },
+        {
+          "rating": 6,
+          "guidance": "Limited local options; weekend trips provide relief."
+        },
+        {
+          "rating": 5,
+          "guidance": "Green spaces exist yet feel crowded or under-maintained."
+        },
+        {
+          "rating": 4,
+          "guidance": "Access is scarce; nature outings demand long drives and rentals."
+        },
+        {
+          "rating": 3,
+          "guidance": "Natural areas suffer from pollution or safety concerns."
+        },
+        {
+          "rating": 2,
+          "guidance": "Nature is distant or degraded, limiting outdoor recreation."
+        },
+        {
+          "rating": 1,
+          "guidance": "No practical access to nature; environment is heavily urbanized or restricted."
+        }
+      ]
+    },
+    {
+      "key": "Political System",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Democratic institutions are transparent, participatory, and resilient with strong rule of law."
+        },
+        {
+          "rating": 9,
+          "guidance": "System is stable and responsive; reforms occur through open civic channels."
+        },
+        {
+          "rating": 8,
+          "guidance": "Democracy functions well though partisanship occasionally gridlocks policy."
+        },
+        {
+          "rating": 7,
+          "guidance": "Institutions work but rely on active civil society to counterbalance power."
+        },
+        {
+          "rating": 6,
+          "guidance": "Procedurally democratic yet hampered by entrenched elites or weak checks."
+        },
+        {
+          "rating": 5,
+          "guidance": "Hybrid system with democratic features alongside oligarchic tendencies."
+        },
+        {
+          "rating": 4,
+          "guidance": "Formal democracy exists but is largely symbolic; power concentrates in ruling parties."
+        },
+        {
+          "rating": 3,
+          "guidance": "Authoritarian practices dominate despite elections."
+        },
+        {
+          "rating": 2,
+          "guidance": "Single-party or military rule restricts political participation."
+        },
+        {
+          "rating": 1,
+          "guidance": "Autocratic regime with no meaningful political freedom."
+        }
+      ]
+    },
+    {
+      "key": "Religion in Politics",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "State is secular; religion and politics remain separate while respecting personal beliefs."
+        },
+        {
+          "rating": 9,
+          "guidance": "Religion influences culture but policy making remains evidence-based and pluralistic."
+        },
+        {
+          "rating": 8,
+          "guidance": "Some religious references appear in law yet minority rights stay protected."
+        },
+        {
+          "rating": 7,
+          "guidance": "Faith groups lobby actively; we monitor policies for bias."
+        },
+        {
+          "rating": 6,
+          "guidance": "Political discourse often centers faith; secular voices need advocacy."
+        },
+        {
+          "rating": 5,
+          "guidance": "Religion significantly shapes policy debates, impacting education or health."
+        },
+        {
+          "rating": 4,
+          "guidance": "Religious doctrine informs legislation, limiting pluralism."
+        },
+        {
+          "rating": 3,
+          "guidance": "Religious authorities wield direct political power."
+        },
+        {
+          "rating": 2,
+          "guidance": "State religion dictates laws and public life, restricting freedom."
+        },
+        {
+          "rating": 1,
+          "guidance": "Theocracy or religious authoritarianism dominates governance."
+        }
+      ]
+    },
+    {
+      "key": "Workers' Rights",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Comprehensive labor protections, strong unions, and swift enforcement secure worker dignity."
+        },
+        {
+          "rating": 9,
+          "guidance": "Rights are robust with active collective bargaining and legal recourse."
+        },
+        {
+          "rating": 8,
+          "guidance": "Most protections exist but some gig sectors lag."
+        },
+        {
+          "rating": 7,
+          "guidance": "Labor laws protect core rights yet enforcement resources are stretched."
+        },
+        {
+          "rating": 6,
+          "guidance": "Workers' rights exist legally but employers exploit loopholes."
+        },
+        {
+          "rating": 5,
+          "guidance": "Limited union power; employees often rely on personal negotiation."
+        },
+        {
+          "rating": 4,
+          "guidance": "Precarious work and weak protections dominate."
+        },
+        {
+          "rating": 3,
+          "guidance": "Labor activism is discouraged or punished."
+        },
+        {
+          "rating": 2,
+          "guidance": "Workers lack basic rights such as safety standards or minimum wage enforcement."
+        },
+        {
+          "rating": 1,
+          "guidance": "Forced labor or severe exploitation occurs with state complicity."
+        }
+      ]
+    },
+    {
+      "key": "State Ideology",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "State ideology champions pluralism, human rights, and evidence-based policy."
+        },
+        {
+          "rating": 9,
+          "guidance": "Ideology is inclusive with room for dissent and dynamic debate."
+        },
+        {
+          "rating": 8,
+          "guidance": "Civic ideology leans one direction but respects opposition."
+        },
+        {
+          "rating": 7,
+          "guidance": "State narrative promotes unity yet sometimes sidelines minority viewpoints."
+        },
+        {
+          "rating": 6,
+          "guidance": "Ideology is pragmatic but opportunistic, shifting with leadership."
+        },
+        {
+          "rating": 5,
+          "guidance": "State ideology is ambiguous or contradictory, creating uncertainty."
+        },
+        {
+          "rating": 4,
+          "guidance": "Ideology is rigid and excludes alternative perspectives."
+        },
+        {
+          "rating": 3,
+          "guidance": "State enforces narrow ideology via media and education."
+        },
+        {
+          "rating": 2,
+          "guidance": "Ideology is authoritarian, suppressing dissent."
+        },
+        {
+          "rating": 1,
+          "guidance": "Totalizing ideology governs all aspects of life and punishes deviation."
+        }
+      ]
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Safeguards are strong; democratic indices show no erosion and civil liberties expand."
+        },
+        {
+          "rating": 9,
+          "guidance": "Institutions remain vigilant with independent judiciary and media."
+        },
+        {
+          "rating": 8,
+          "guidance": "Democracy is healthy though certain reforms need monitoring."
+        },
+        {
+          "rating": 7,
+          "guidance": "Minor signs of centralization appear; civil society stays proactive."
+        },
+        {
+          "rating": 6,
+          "guidance": "Backsliding risk is moderate due to populist rhetoric or weakened checks."
+        },
+        {
+          "rating": 5,
+          "guidance": "Institutions erode slowly; opposition voices face growing pressure."
+        },
+        {
+          "rating": 4,
+          "guidance": "Clear democratic decline with captured courts or media."
+        },
+        {
+          "rating": 3,
+          "guidance": "Backsliding is advanced; emergency powers and censorship rise."
+        },
+        {
+          "rating": 2,
+          "guidance": "Country is near-authoritarian with token elections."
+        },
+        {
+          "rating": 1,
+          "guidance": "Authoritarian consolidation complete; liberties dismantled."
+        }
+      ]
+    },
+    {
+      "key": "State of Capitalism",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Balanced social market economy delivering innovation with strong safety nets and fair competition."
+        },
+        {
+          "rating": 9,
+          "guidance": "Capitalism is dynamic yet regulated to prevent inequality spikes."
+        },
+        {
+          "rating": 8,
+          "guidance": "Market is healthy though wealth gaps require policy attention."
+        },
+        {
+          "rating": 7,
+          "guidance": "Capitalism leans pro-business; consumers need vigilance."
+        },
+        {
+          "rating": 6,
+          "guidance": "Market reforms are uneven with oligopolies influencing prices."
+        },
+        {
+          "rating": 5,
+          "guidance": "System oscillates between deregulation and state control, creating uncertainty."
+        },
+        {
+          "rating": 4,
+          "guidance": "Crony capitalism dominates; market access favors insiders."
+        },
+        {
+          "rating": 3,
+          "guidance": "Economy is captured by elites or state-run conglomerates."
+        },
+        {
+          "rating": 2,
+          "guidance": "Capitalism is dysfunctional with pervasive monopolies or corruption."
+        },
+        {
+          "rating": 1,
+          "guidance": "Market collapses or is entirely repressive, stifling entrepreneurship."
+        }
+      ]
+    },
+    {
+      "key": "Stability",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Long-term political, economic, and social stability with low volatility and strong crisis response."
+        },
+        {
+          "rating": 9,
+          "guidance": "Country remains steady with predictable policies and peaceful transitions."
+        },
+        {
+          "rating": 8,
+          "guidance": "Stable overall though periodic protests or market swings occur."
+        },
+        {
+          "rating": 7,
+          "guidance": "Stability is good but regional disparities create occasional tension."
+        },
+        {
+          "rating": 6,
+          "guidance": "Moderate instability; we maintain contingency plans for political shifts."
+        },
+        {
+          "rating": 5,
+          "guidance": "Frequent policy changes or protests disrupt planning."
+        },
+        {
+          "rating": 4,
+          "guidance": "Instability is regular, impacting business and daily life."
+        },
+        {
+          "rating": 3,
+          "guidance": "Country faces recurring crises or unrest."
+        },
+        {
+          "rating": 2,
+          "guidance": "Chronic instability with risk of conflict or economic collapse."
+        },
+        {
+          "rating": 1,
+          "guidance": "State failure or war threatens safety and livelihoods."
+        }
+      ]
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Pluralistic, independent outlets thrive; propaganda is rare and quickly challenged, supporting empathetic civic dialogue."
+        },
+        {
+          "rating": 9,
+          "guidance": "Media is broadly free with occasional spin that watchdogs or public broadcasters debunk before it shapes opinion."
+        },
+        {
+          "rating": 8,
+          "guidance": "Some state or corporate narratives emerge, but diverse outlets and history education keep facts centered."
+        },
+        {
+          "rating": 7,
+          "guidance": "Election cycles or crises trigger noticeable propaganda, yet media literacy and alternative voices offer relief."
+        },
+        {
+          "rating": 6,
+          "guidance": "Persistent state or concentrated private narratives require regular fact-checking to avoid bias."
+        },
+        {
+          "rating": 5,
+          "guidance": "Propaganda is common; independent media struggles for reach while partisan or nationalist framing dominates headlines."
+        },
+        {
+          "rating": 4,
+          "guidance": "State or oligarch-owned outlets control prime channels, pushing patriotic reframing and sidelining dissent."
+        },
+        {
+          "rating": 3,
+          "guidance": "Propaganda saturates daily life, censoring empathy-focused narratives and intimidating alternative media."
+        },
+        {
+          "rating": 2,
+          "guidance": "All major media repeat orchestrated narratives; history is rewritten to serve regime or elite interests."
+        },
+        {
+          "rating": 1,
+          "guidance": "Total propaganda environment; independent journalism is banned, and messaging crowds every public and private space."
+        }
+      ]
+    },
+    {
+      "key": "Propaganda Messaging",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Public messaging centers shared wellbeing and accurate information without nationalist spin."
+        },
+        {
+          "rating": 9,
+          "guidance": "Announcements are largely factual, spotlighting community care and inclusive civic participation."
+        },
+        {
+          "rating": 8,
+          "guidance": "Narratives sometimes gloss over flaws but retain empathy and acknowledge multiple perspectives."
+        },
+        {
+          "rating": 7,
+          "guidance": "Messaging leans on patriotic pride, yet counterpoints and honest data remain accessible."
+        },
+        {
+          "rating": 6,
+          "guidance": "Propaganda frames rivals negatively, limiting nuance and encouraging conformity."
+        },
+        {
+          "rating": 5,
+          "guidance": "Narratives turn aggressive; dissent is labeled unpatriotic and empathy is sidelined."
+        },
+        {
+          "rating": 4,
+          "guidance": "Messaging rewrites history, targets marginalized groups, and rewards performative loyalty."
+        },
+        {
+          "rating": 3,
+          "guidance": "Propaganda dominates schools, workplaces, and leisure spaces, shaming alternative viewpoints."
+        },
+        {
+          "rating": 2,
+          "guidance": "Narratives weaponize disinformation to control public perception and suppress compassion."
+        },
+        {
+          "rating": 1,
+          "guidance": "Relentless personality cult or warlike propaganda overwhelms every channel, demanding constant praise."
+        }
+      ]
+    },
+    {
+      "key": "Social Policies",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Comprehensive social welfare reduces inequality, supports vulnerable groups, and is well-funded."
+        },
+        {
+          "rating": 9,
+          "guidance": "Social policies are inclusive and adaptive, covering healthcare, housing, and income support."
+        },
+        {
+          "rating": 8,
+          "guidance": "Strong safety nets but certain demographics need better outreach."
+        },
+        {
+          "rating": 7,
+          "guidance": "Policies protect core needs yet paperwork and eligibility limits exist."
+        },
+        {
+          "rating": 6,
+          "guidance": "Support varies regionally; some programs underfunded."
+        },
+        {
+          "rating": 5,
+          "guidance": "Social policies are piecemeal and often politicized."
+        },
+        {
+          "rating": 4,
+          "guidance": "Limited welfare; families rely on private charity."
+        },
+        {
+          "rating": 3,
+          "guidance": "Social safety nets are collapsing; many citizens unsupported."
+        },
+        {
+          "rating": 2,
+          "guidance": "Policies favor elites or exclude marginalized groups entirely."
+        },
+        {
+          "rating": 1,
+          "guidance": "State neglects social welfare, leading to humanitarian crises."
+        }
+      ]
+    },
+    {
+      "key": "Trust in Government",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Public trust is high due to transparency, accountability, and responsive services."
+        },
+        {
+          "rating": 9,
+          "guidance": "Citizens generally trust institutions, with occasional scandals addressed promptly."
+        },
+        {
+          "rating": 8,
+          "guidance": "Trust is solid though certain agencies must rebuild reputation."
+        },
+        {
+          "rating": 7,
+          "guidance": "Public confidence is mixed; trust depends on region or demographic."
+        },
+        {
+          "rating": 6,
+          "guidance": "Skepticism is common; government needs transparency initiatives."
+        },
+        {
+          "rating": 5,
+          "guidance": "Trust is low; citizens expect bureaucratic hurdles or corruption."
+        },
+        {
+          "rating": 4,
+          "guidance": "Distrust dominates; protests or apathy shape civic behavior."
+        },
+        {
+          "rating": 3,
+          "guidance": "Government credibility is damaged; misinformation fills the gap."
+        },
+        {
+          "rating": 2,
+          "guidance": "Citizens assume bad faith from officials, undermining compliance."
+        },
+        {
+          "rating": 1,
+          "guidance": "Complete distrust leads to parallel systems or unrest."
+        }
+      ]
+    },
+    {
+      "key": "Perceived Corruption",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Corruption is rare; strong watchdogs and civic norms maintain integrity."
+        },
+        {
+          "rating": 9,
+          "guidance": "Low corruption perception with effective investigations when issues arise."
+        },
+        {
+          "rating": 8,
+          "guidance": "Some sectors raise questions but overall trust remains."
+        },
+        {
+          "rating": 7,
+          "guidance": "Corruption occurs occasionally; anti-graft agencies work yet need resources."
+        },
+        {
+          "rating": 6,
+          "guidance": "Perception is moderate; citizens expect to navigate red tape carefully."
+        },
+        {
+          "rating": 5,
+          "guidance": "Corruption is significant; bribes may be seen as normal."
+        },
+        {
+          "rating": 4,
+          "guidance": "High-profile scandals and impunity undermine confidence."
+        },
+        {
+          "rating": 3,
+          "guidance": "Corruption is systemic across government levels."
+        },
+        {
+          "rating": 2,
+          "guidance": "Kleptocracy or pervasive bribery affects daily life."
+        },
+        {
+          "rating": 1,
+          "guidance": "State functions primarily as a corrupt enterprise."
+        }
+      ]
+    },
+    {
+      "key": "Type of Corruption",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "If corruption exists, it is swiftly addressed and limited to isolated cases."
+        },
+        {
+          "rating": 9,
+          "guidance": "Corruption tends to be petty or localized with strong corrective mechanisms."
+        },
+        {
+          "rating": 8,
+          "guidance": "Occasional procurement or zoning scandals, manageable through oversight."
+        },
+        {
+          "rating": 7,
+          "guidance": "Corruption surfaces in mid-level bureaucracy but rarely touches essential services."
+        },
+        {
+          "rating": 6,
+          "guidance": "Grand corruption appears in certain sectors (e.g., construction) affecting budgets."
+        },
+        {
+          "rating": 5,
+          "guidance": "Combination of petty and grand corruption burdens ordinary tasks."
+        },
+        {
+          "rating": 4,
+          "guidance": "State capture by oligarchs shapes policy and economic outcomes."
+        },
+        {
+          "rating": 3,
+          "guidance": "Corruption intertwines with organized crime or security forces."
+        },
+        {
+          "rating": 2,
+          "guidance": "Corruption is systemic across all levels, including judiciary and education."
+        },
+        {
+          "rating": 1,
+          "guidance": "Corruption is predatory and violent, making honest living dangerous."
+        }
+      ]
+    },
+    {
+      "key": "Housing Situation",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Housing is affordable, energy-efficient, spacious, and available in family-friendly neighborhoods with strong tenant protections."
+        },
+        {
+          "rating": 9,
+          "guidance": "Quality housing is plentiful with manageable prices and fair landlord regulations."
+        },
+        {
+          "rating": 8,
+          "guidance": "Market is stable; we can secure good housing with reasonable search time."
+        },
+        {
+          "rating": 7,
+          "guidance": "Adequate housing exists but competition or paperwork extends the hunt."
+        },
+        {
+          "rating": 6,
+          "guidance": "Prices are high or stock limited; compromises on space or commute needed."
+        },
+        {
+          "rating": 5,
+          "guidance": "Housing is costly or aging, requiring renovation or long leases."
+        },
+        {
+          "rating": 4,
+          "guidance": "Market favors landlords; deposits and bidding wars strain finances."
+        },
+        {
+          "rating": 3,
+          "guidance": "Safe housing is scarce; we risk substandard units or exploitative terms."
+        },
+        {
+          "rating": 2,
+          "guidance": "Housing crisis with overcrowding, poor quality, or discriminatory barriers."
+        },
+        {
+          "rating": 1,
+          "guidance": "Securing family housing is nearly impossible due to cost, legality, or availability."
+        }
+      ]
+    },
+    {
+      "key": "Safety & Crime",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Extremely safe with low crime, community policing, and kids can roam locally with confidence."
+        },
+        {
+          "rating": 9,
+          "guidance": "Crime rates are low; occasional incidents are well-managed."
+        },
+        {
+          "rating": 8,
+          "guidance": "Safe overall though certain areas warrant caution after dark."
+        },
+        {
+          "rating": 7,
+          "guidance": "Moderate petty crime; we practice standard precautions."
+        },
+        {
+          "rating": 6,
+          "guidance": "Some violent or property crime occurs; we monitor local reports."
+        },
+        {
+          "rating": 5,
+          "guidance": "Safety varies widely; security systems and vigilant routines are advisable."
+        },
+        {
+          "rating": 4,
+          "guidance": "High crime neighborhoods dominate; travel requires planning and escorts."
+        },
+        {
+          "rating": 3,
+          "guidance": "Violence or theft is common; family mobility is restricted."
+        },
+        {
+          "rating": 2,
+          "guidance": "Safety services are unreliable; police corruption or gang control prevalent."
+        },
+        {
+          "rating": 1,
+          "guidance": "Environment is dangerous with constant threat to life and property."
+        }
+      ]
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Universal healthcare delivers high-quality, timely care with minimal out-of-pocket costs and excellent pediatric support."
+        },
+        {
+          "rating": 9,
+          "guidance": "Healthcare is comprehensive and affordable; wait times are short."
+        },
+        {
+          "rating": 8,
+          "guidance": "Strong system with occasional delays for specialists."
+        },
+        {
+          "rating": 7,
+          "guidance": "Care is good but requires navigating bureaucracy or supplemental insurance."
+        },
+        {
+          "rating": 6,
+          "guidance": "Quality varies; urban centers excel while rural areas lag."
+        },
+        {
+          "rating": 5,
+          "guidance": "Healthcare is accessible but involves notable copays or waitlists."
+        },
+        {
+          "rating": 4,
+          "guidance": "System is underfunded; citizens rely on private clinics for timely care."
+        },
+        {
+          "rating": 3,
+          "guidance": "Healthcare quality is inconsistent, with shortages of doctors or medicine."
+        },
+        {
+          "rating": 2,
+          "guidance": "Public healthcare is unreliable; major treatments require overseas travel."
+        },
+        {
+          "rating": 1,
+          "guidance": "Citizens lack access to adequate medical services, threatening health outcomes."
+        }
+      ]
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Visa families access the same healthcare benefits as citizens with easy enrollment."
+        },
+        {
+          "rating": 9,
+          "guidance": "Coverage is strong; private insurance requirements are minimal and affordable."
+        },
+        {
+          "rating": 8,
+          "guidance": "Healthcare is accessible though supplemental insurance is recommended."
+        },
+        {
+          "rating": 7,
+          "guidance": "Visa holders receive care but must navigate extra paperwork or costs."
+        },
+        {
+          "rating": 6,
+          "guidance": "Public coverage is limited; employer insurance becomes essential."
+        },
+        {
+          "rating": 5,
+          "guidance": "Healthcare is accessible but expensive for non-citizens."
+        },
+        {
+          "rating": 4,
+          "guidance": "Visa holders face restrictions on public hospitals or reimbursements."
+        },
+        {
+          "rating": 3,
+          "guidance": "Access depends on employer sponsorship; gaps expose families to risk."
+        },
+        {
+          "rating": 2,
+          "guidance": "Non-citizens cannot access public healthcare and private insurance is prohibitive."
+        },
+        {
+          "rating": 1,
+          "guidance": "Healthcare is effectively unavailable for visa families, endangering residency plans."
+        }
+      ]
+    },
+    {
+      "key": "Child Care Support",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Across society, extended family, employers, and government collaborate to provide abundant childcare resources."
+        },
+        {
+          "rating": 9,
+          "guidance": "Community networks and subsidies ensure reliable childcare backups."
+        },
+        {
+          "rating": 8,
+          "guidance": "Support systems are strong though coordination requires planning."
+        },
+        {
+          "rating": 7,
+          "guidance": "Childcare help exists but parents must proactively build networks."
+        },
+        {
+          "rating": 6,
+          "guidance": "Support is patchy; we combine paid care with neighbor favors."
+        },
+        {
+          "rating": 5,
+          "guidance": "Limited systemic support; childcare falls mainly on parents."
+        },
+        {
+          "rating": 4,
+          "guidance": "Few formal or informal supports exist, making coverage stressful."
+        },
+        {
+          "rating": 3,
+          "guidance": "Families struggle alone; emergency care options are scarce."
+        },
+        {
+          "rating": 2,
+          "guidance": "Childcare support is nearly absent and culturally discouraged."
+        },
+        {
+          "rating": 1,
+          "guidance": "No support networks; parents risk employment to manage childcare needs."
+        }
+      ]
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Average families receive comprehensive benefits covering income support, housing, and education with minimal bureaucracy."
+        },
+        {
+          "rating": 9,
+          "guidance": "Policies offer generous allowances and services that adapt as children grow."
+        },
+        {
+          "rating": 8,
+          "guidance": "Benefits are strong, though some programs cap benefits based on income."
+        },
+        {
+          "rating": 7,
+          "guidance": "Support helps with key costs but requires paperwork or co-pays."
+        },
+        {
+          "rating": 6,
+          "guidance": "Policies provide partial relief; families still shoulder sizable expenses."
+        },
+        {
+          "rating": 5,
+          "guidance": "Aid exists but is modest or region-specific."
+        },
+        {
+          "rating": 4,
+          "guidance": "Family policies are limited; most costs remain private."
+        },
+        {
+          "rating": 3,
+          "guidance": "Support is minimal and often delayed or underfunded."
+        },
+        {
+          "rating": 2,
+          "guidance": "Policies disadvantage average families through means testing or cuts."
+        },
+        {
+          "rating": 1,
+          "guidance": "No functional family policy; families receive negligible assistance."
+        }
+      ]
+    },
+    {
+      "key": "Education",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Education system delivers top-tier academics, inclusive curricula, and strong extracurriculars nationwide."
+        },
+        {
+          "rating": 9,
+          "guidance": "High educational outcomes with supportive teachers and modern facilities."
+        },
+        {
+          "rating": 8,
+          "guidance": "Education is excellent overall; some districts exceed others."
+        },
+        {
+          "rating": 7,
+          "guidance": "Good education but standardized exams or funding gaps require vigilance."
+        },
+        {
+          "rating": 6,
+          "guidance": "System is average; families supplement with tutoring."
+        },
+        {
+          "rating": 5,
+          "guidance": "Quality fluctuates; we may seek alternative programs."
+        },
+        {
+          "rating": 4,
+          "guidance": "Schools struggle with overcrowding or outdated materials."
+        },
+        {
+          "rating": 3,
+          "guidance": "Education quality is poor, hindering children's development."
+        },
+        {
+          "rating": 2,
+          "guidance": "System suffers from chronic underfunding and political interference."
+        },
+        {
+          "rating": 1,
+          "guidance": "Education is failing or inaccessible, forcing families to leave."
+        }
+      ]
+    },
+    {
+      "key": "Public Transportation",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Comprehensive, punctual transit network covering cities and suburbs with family-friendly amenities."
+        },
+        {
+          "rating": 9,
+          "guidance": "Transit is efficient and affordable; minor gaps exist in rural areas."
+        },
+        {
+          "rating": 8,
+          "guidance": "Strong urban transit though weekend frequency drops."
+        },
+        {
+          "rating": 7,
+          "guidance": "Public transport works but requires planning around delays or coverage gaps."
+        },
+        {
+          "rating": 6,
+          "guidance": "Transit is usable yet inconsistent; backup car or rideshare needed."
+        },
+        {
+          "rating": 5,
+          "guidance": "Limited network; commutes may combine multiple modes."
+        },
+        {
+          "rating": 4,
+          "guidance": "Public transport is unreliable, crowded, or unsafe."
+        },
+        {
+          "rating": 3,
+          "guidance": "Service is sparse, forcing reliance on cars."
+        },
+        {
+          "rating": 2,
+          "guidance": "Transit infrastructure is minimal or dilapidated."
+        },
+        {
+          "rating": 1,
+          "guidance": "No functional public transportation available."
+        }
+      ]
+    },
+    {
+      "key": "Economic System",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Balanced mixed economy ensures innovation, social mobility, and fair regulation."
+        },
+        {
+          "rating": 9,
+          "guidance": "Economic structure supports entrepreneurship with reliable governance."
+        },
+        {
+          "rating": 8,
+          "guidance": "System functions well though reform is needed in select industries."
+        },
+        {
+          "rating": 7,
+          "guidance": "Economy works but exhibits inequalities or bureaucracy."
+        },
+        {
+          "rating": 6,
+          "guidance": "System is workable but volatile or overly regulated."
+        },
+        {
+          "rating": 5,
+          "guidance": "Economic order is inconsistent, causing uncertainty for families."
+        },
+        {
+          "rating": 4,
+          "guidance": "Economic structure favors elites and limits competition."
+        },
+        {
+          "rating": 3,
+          "guidance": "System is dysfunctional or cronyistic."
+        },
+        {
+          "rating": 2,
+          "guidance": "Economy struggles with systemic failure or heavy-handed control."
+        },
+        {
+          "rating": 1,
+          "guidance": "Economic system collapses or is oppressive, blocking prosperity."
+        }
+      ]
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Tax system is transparent, digital-first, with pre-filled returns and family-friendly deductions."
+        },
+        {
+          "rating": 9,
+          "guidance": "Taxes are straightforward; clear guidance and responsive agencies reduce stress."
+        },
+        {
+          "rating": 8,
+          "guidance": "System works well though complex scenarios require accountants."
+        },
+        {
+          "rating": 7,
+          "guidance": "Tax compliance is manageable but paperwork is nontrivial."
+        },
+        {
+          "rating": 6,
+          "guidance": "Frequent rule changes or ambiguous guidance demand vigilance."
+        },
+        {
+          "rating": 5,
+          "guidance": "Taxes are cumbersome with limited digital tools."
+        },
+        {
+          "rating": 4,
+          "guidance": "System is opaque; errors lead to penalties or bribes."
+        },
+        {
+          "rating": 3,
+          "guidance": "Tax administration is chaotic; compliance is risky."
+        },
+        {
+          "rating": 2,
+          "guidance": "Tax code is punitive or unpredictable, discouraging investment."
+        },
+        {
+          "rating": 1,
+          "guidance": "Taxation is arbitrary or corrupt, threatening financial stability."
+        }
+      ]
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Effective tax rate stays below 15% while funding top-tier public services we use daily."
+        },
+        {
+          "rating": 9,
+          "guidance": "Tax burden sits around 20% with tangible benefits justifying every dollar."
+        },
+        {
+          "rating": 8,
+          "guidance": "Taxes hover near 25% and align with service quality."
+        },
+        {
+          "rating": 7,
+          "guidance": "Rates reach 30% but benefits (health, education, transit) offset costs."
+        },
+        {
+          "rating": 6,
+          "guidance": "Tax rate around 35% feels acceptable given mixed service quality."
+        },
+        {
+          "rating": 5,
+          "guidance": "40% effective rate strains budget unless we optimize deductions."
+        },
+        {
+          "rating": 4,
+          "guidance": "Taxes exceed 45% with limited return value for our family."
+        },
+        {
+          "rating": 3,
+          "guidance": "Rates surpass 50%; we must dramatically adjust finances."
+        },
+        {
+          "rating": 2,
+          "guidance": "Extremely high taxes erode savings and plans despite limited services."
+        },
+        {
+          "rating": 1,
+          "guidance": "Tax burden is unsustainable or unpredictable, jeopardizing relocation viability."
+        }
+      ]
+    },
+    {
+      "key": "Banking & Payments",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Banking is digital, low-fee, and globally connected with instant payments and robust consumer protections."
+        },
+        {
+          "rating": 9,
+          "guidance": "Financial services are modern; opening accounts and managing cross-border needs is easy."
+        },
+        {
+          "rating": 8,
+          "guidance": "Good infrastructure though some fintech options lag."
+        },
+        {
+          "rating": 7,
+          "guidance": "Banking works but paperwork for foreigners is lengthy."
+        },
+        {
+          "rating": 6,
+          "guidance": "System is functional but cash-heavy or slow with transfers."
+        },
+        {
+          "rating": 5,
+          "guidance": "Banking involves fees, in-person visits, and limited digital tools."
+        },
+        {
+          "rating": 4,
+          "guidance": "Financial services are outdated or unreliable."
+        },
+        {
+          "rating": 3,
+          "guidance": "Foreigners struggle to access banking; payment systems lack interoperability."
+        },
+        {
+          "rating": 2,
+          "guidance": "Banking is unstable with capital controls or high fraud risk."
+        },
+        {
+          "rating": 1,
+          "guidance": "Financial system is unsafe or inaccessible, preventing daily transactions."
+        }
+      ]
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Cost of living is low relative to income, enabling generous savings and lifestyle upgrades."
+        },
+        {
+          "rating": 9,
+          "guidance": "Expenses are comfortably manageable with room for travel and hobbies."
+        },
+        {
+          "rating": 8,
+          "guidance": "Costs align well with salaries; budgeting is straightforward."
+        },
+        {
+          "rating": 7,
+          "guidance": "Living costs are moderate; careful planning keeps finances balanced."
+        },
+        {
+          "rating": 6,
+          "guidance": "Higher costs require trade-offs or leveraging local discounts."
+        },
+        {
+          "rating": 5,
+          "guidance": "Cost of living consumes most income; savings grow slowly."
+        },
+        {
+          "rating": 4,
+          "guidance": "Expenses strain budget; we downsize housing or reduce travel."
+        },
+        {
+          "rating": 3,
+          "guidance": "Cost of living is high enough to jeopardize goals without significant raises."
+        },
+        {
+          "rating": 2,
+          "guidance": "Expenses exceed income potential, necessitating sacrifices or relocation."
+        },
+        {
+          "rating": 1,
+          "guidance": "Cost of living is prohibitive, making residency unsustainable."
+        }
+      ]
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Citizens enjoy generous pensions, healthcare, and elder services ensuring dignified retirement."
+        },
+        {
+          "rating": 9,
+          "guidance": "Public pension is strong with supplemental savings incentives."
+        },
+        {
+          "rating": 8,
+          "guidance": "Retirement system is solid though depends on continuous contributions."
+        },
+        {
+          "rating": 7,
+          "guidance": "Benefits cover basics; retirees plan supplemental income."
+        },
+        {
+          "rating": 6,
+          "guidance": "Pension adequacy varies; healthcare remains supportive."
+        },
+        {
+          "rating": 5,
+          "guidance": "Retirement security is average; citizens rely on family or savings."
+        },
+        {
+          "rating": 4,
+          "guidance": "Public pension is modest; elderly face economic stress."
+        },
+        {
+          "rating": 3,
+          "guidance": "Retirement system is underfunded or unstable."
+        },
+        {
+          "rating": 2,
+          "guidance": "Citizens risk poverty in old age due to weak pensions."
+        },
+        {
+          "rating": 1,
+          "guidance": "No reliable retirement support for citizens."
+        }
+      ]
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Visa holders can participate fully in pension schemes and access retiree services if they settle long-term."
+        },
+        {
+          "rating": 9,
+          "guidance": "Non-citizens can access pensions with minor residency requirements."
+        },
+        {
+          "rating": 8,
+          "guidance": "Retirement benefits available but require contribution years and possibly higher fees."
+        },
+        {
+          "rating": 7,
+          "guidance": "Visa holders can save through public schemes yet face residency thresholds."
+        },
+        {
+          "rating": 6,
+          "guidance": "Limited access; private retirement savings become central."
+        },
+        {
+          "rating": 5,
+          "guidance": "Pension participation is possible but returns are modest for foreigners."
+        },
+        {
+          "rating": 4,
+          "guidance": "Visa holders are largely excluded from state pensions."
+        },
+        {
+          "rating": 3,
+          "guidance": "Retirement planning depends entirely on home-country savings."
+        },
+        {
+          "rating": 2,
+          "guidance": "Legal barriers prevent long-term retirement security for visa families."
+        },
+        {
+          "rating": 1,
+          "guidance": "No pension options; retirement plans collapse without relocation."
+        }
+      ]
+    },
+    {
+      "key": "Visa Paths",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Multiple visa categories suit our profile, with clear criteria, online applications, and predictable approvals."
+        },
+        {
+          "rating": 9,
+          "guidance": "Several viable visa routes exist; processing is efficient though documentation is thorough."
+        },
+        {
+          "rating": 8,
+          "guidance": "Good visa options but some require employer sponsorship or degree equivalencies."
+        },
+        {
+          "rating": 7,
+          "guidance": "Viable path exists though limited to specific quotas or timelines."
+        },
+        {
+          "rating": 6,
+          "guidance": "Visa pathways are available but competitive or expensive."
+        },
+        {
+          "rating": 5,
+          "guidance": "Few suitable visas; success depends on exceptional credentials."
+        },
+        {
+          "rating": 4,
+          "guidance": "Visa options are narrow and unpredictable."
+        },
+        {
+          "rating": 3,
+          "guidance": "Paths are opaque or frequently changing, making planning difficult."
+        },
+        {
+          "rating": 2,
+          "guidance": "Only high-risk or temporary visas available; long-term stay doubtful."
+        },
+        {
+          "rating": 1,
+          "guidance": "No feasible visa pathways exist for our family."
+        }
+      ]
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Society and authorities actively welcome US migrants with tailored resources and positive attitudes."
+        },
+        {
+          "rating": 9,
+          "guidance": "US migrants are well-received; integration programs acknowledge our background."
+        },
+        {
+          "rating": 8,
+          "guidance": "Generally friendly with occasional curiosity or misconceptions."
+        },
+        {
+          "rating": 7,
+          "guidance": "Acceptance varies; metropolitan areas embrace us more than rural communities."
+        },
+        {
+          "rating": 6,
+          "guidance": "Neutral reception; we earn trust over time through community engagement."
+        },
+        {
+          "rating": 5,
+          "guidance": "Mixed feelings toward US migrants; we navigate stereotypes."
+        },
+        {
+          "rating": 4,
+          "guidance": "Noticeable resentment or political friction toward US citizens."
+        },
+        {
+          "rating": 3,
+          "guidance": "US migrants face bias or bureaucratic hurdles."
+        },
+        {
+          "rating": 2,
+          "guidance": "Hostility or distrust is common, complicating integration."
+        },
+        {
+          "rating": 1,
+          "guidance": "US migrants are unwelcome; negative sentiment impacts safety or legality."
+        }
+      ]
+    },
+    {
+      "key": "Residency Types & Durations",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Residency permits come in multiple flexible forms with long durations and straightforward renewals."
+        },
+        {
+          "rating": 9,
+          "guidance": "Residency is easy to maintain with pathways from temporary to permanent status."
+        },
+        {
+          "rating": 8,
+          "guidance": "Good residency options though some visas require periodic proof of income or employment."
+        },
+        {
+          "rating": 7,
+          "guidance": "Residency is attainable but renewals demand extensive paperwork."
+        },
+        {
+          "rating": 6,
+          "guidance": "Permits are shorter or tied to employer status, requiring careful planning."
+        },
+        {
+          "rating": 5,
+          "guidance": "Residency exists but transitions between types are complex."
+        },
+        {
+          "rating": 4,
+          "guidance": "Limited residency categories with strict quotas or conditions."
+        },
+        {
+          "rating": 3,
+          "guidance": "Residency durations are short and renewals uncertain."
+        },
+        {
+          "rating": 2,
+          "guidance": "Maintaining residency long-term is extremely difficult."
+        },
+        {
+          "rating": 1,
+          "guidance": "Residency permits are nearly impossible to secure or retain."
+        }
+      ]
+    },
+    {
+      "key": "Path to Citizenship",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Clear, inclusive citizenship path with reasonable residency period (≤5 years), dual citizenship allowed, and family-friendly processes."
+        },
+        {
+          "rating": 9,
+          "guidance": "Accessible naturalization with moderate residency and language requirements."
+        },
+        {
+          "rating": 8,
+          "guidance": "Citizenship is achievable but entails longer timelines (6-8 years)."
+        },
+        {
+          "rating": 7,
+          "guidance": "Process is possible yet requires rigorous exams or economic contributions."
+        },
+        {
+          "rating": 6,
+          "guidance": "Citizenship path exists but includes strict quotas or interviews."
+        },
+        {
+          "rating": 5,
+          "guidance": "Naturalization is lengthy (>10 years) with uncertain approval."
+        },
+        {
+          "rating": 4,
+          "guidance": "Citizenship exists theoretically but is rarely granted."
+        },
+        {
+          "rating": 3,
+          "guidance": "Process is opaque with political or financial barriers."
+        },
+        {
+          "rating": 2,
+          "guidance": "Citizenship is restricted to ancestry or exceptional cases."
+        },
+        {
+          "rating": 1,
+          "guidance": "Path to citizenship is nonexistent for our family."
+        }
+      ]
+    },
+    {
+      "key": "Family Members",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "All immediate and dependent family members qualify easily for visas, work rights, and services."
+        },
+        {
+          "rating": 9,
+          "guidance": "Core family sponsored readily; extended family has viable options too."
+        },
+        {
+          "rating": 8,
+          "guidance": "Immediate family included with minor steps; older dependents require extra paperwork."
+        },
+        {
+          "rating": 7,
+          "guidance": "Spouse and kids covered but adult dependents face hurdles."
+        },
+        {
+          "rating": 6,
+          "guidance": "Family unification is permitted but slow or costly."
+        },
+        {
+          "rating": 5,
+          "guidance": "Only spouse and minor children eligible; others need separate visas."
+        },
+        {
+          "rating": 4,
+          "guidance": "Dependents face strict quotas or proof of dependence."
+        },
+        {
+          "rating": 3,
+          "guidance": "Family sponsorship is limited and uncertain."
+        },
+        {
+          "rating": 2,
+          "guidance": "Reuniting family members is extremely difficult or takes many years."
+        },
+        {
+          "rating": 1,
+          "guidance": "Family members cannot join under available visa categories."
+        }
+      ]
+    },
+    {
+      "key": "Timelines & Costs",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Processing takes under two months with transparent fees under $2k and minimal hidden costs."
+        },
+        {
+          "rating": 9,
+          "guidance": "Processes complete within six months; costs are predictable and budget-friendly."
+        },
+        {
+          "rating": 8,
+          "guidance": "Timelines about nine months with manageable fees; premium options available."
+        },
+        {
+          "rating": 7,
+          "guidance": "Applications take up to a year; legal or translation fees add up."
+        },
+        {
+          "rating": 6,
+          "guidance": "Processes exceed a year or require significant financial proof."
+        },
+        {
+          "rating": 5,
+          "guidance": "Timelines are unpredictable, and expenses surpass $10k."
+        },
+        {
+          "rating": 4,
+          "guidance": "Multi-year waits and high fees strain finances."
+        },
+        {
+          "rating": 3,
+          "guidance": "Processing drags beyond three years with recurring costs."
+        },
+        {
+          "rating": 2,
+          "guidance": "Costs and timelines are prohibitive, risking project viability."
+        },
+        {
+          "rating": 1,
+          "guidance": "Application timelines are indefinite or require exorbitant investment."
+        }
+      ]
+    },
+    {
+      "key": "Compliance & Risks",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Compliance steps are straightforward with low risk of denial when following published guidelines."
+        },
+        {
+          "rating": 9,
+          "guidance": "Requirements are clear; audits or inspections are rare and fair."
+        },
+        {
+          "rating": 8,
+          "guidance": "Compliance manageable though some reporting is annual."
+        },
+        {
+          "rating": 7,
+          "guidance": "Rules are navigable but involve periodic check-ins or site visits."
+        },
+        {
+          "rating": 6,
+          "guidance": "Risk of minor penalties exists if paperwork slips."
+        },
+        {
+          "rating": 5,
+          "guidance": "Regulations are complex; legal counsel recommended."
+        },
+        {
+          "rating": 4,
+          "guidance": "High compliance burden with shifting policies."
+        },
+        {
+          "rating": 3,
+          "guidance": "Risk of denial or fines even when compliant due to arbitrary decisions."
+        },
+        {
+          "rating": 2,
+          "guidance": "System is unpredictable; minor errors jeopardize status."
+        },
+        {
+          "rating": 1,
+          "guidance": "Compliance landscape is punitive and opaque, risking deportation."
+        }
+      ]
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Country fully permits dual citizenship with the US without restrictions."
+        },
+        {
+          "rating": 9,
+          "guidance": "Dual citizenship is allowed with minimal reporting requirements."
+        },
+        {
+          "rating": 8,
+          "guidance": "Permitted but requires notifying authorities or meeting residency criteria."
+        },
+        {
+          "rating": 7,
+          "guidance": "Dual citizenship allowed selectively based on origin or family ties."
+        },
+        {
+          "rating": 6,
+          "guidance": "Permitted but with restrictions on public office or military service."
+        },
+        {
+          "rating": 5,
+          "guidance": "Dual nationality policy is ambiguous; case-by-case approvals."
+        },
+        {
+          "rating": 4,
+          "guidance": "Dual citizenship rarely granted and may require special exemptions."
+        },
+        {
+          "rating": 3,
+          "guidance": "Generally disallowed; renunciation expected except in narrow cases."
+        },
+        {
+          "rating": 2,
+          "guidance": "Dual citizenship prohibited with penalties for holding multiple passports."
+        },
+        {
+          "rating": 1,
+          "guidance": "Dual citizenship outlawed; loss of status or property possible."
+        }
+      ]
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Visa holders enjoy near-equal rights, easy mobility, and strong protections across employment, housing, and education."
+        },
+        {
+          "rating": 9,
+          "guidance": "Living conditions are excellent; only limited civic rights differ from citizens."
+        },
+        {
+          "rating": 8,
+          "guidance": "Overall positive though certain benefits (voting, subsidies) remain restricted."
+        },
+        {
+          "rating": 7,
+          "guidance": "Visa life is stable but depends on employment status or periodic renewals."
+        },
+        {
+          "rating": 6,
+          "guidance": "Some restrictions affect property ownership or job changes."
+        },
+        {
+          "rating": 5,
+          "guidance": "Visa holders must navigate frequent paperwork and limited rights."
+        },
+        {
+          "rating": 4,
+          "guidance": "Visa conditions are strict; missteps risk fines or status loss."
+        },
+        {
+          "rating": 3,
+          "guidance": "Life is precarious with limited protections from exploitation."
+        },
+        {
+          "rating": 2,
+          "guidance": "Visa holders face significant discrimination or legal uncertainty."
+        },
+        {
+          "rating": 1,
+          "guidance": "Conditions for visa holders are untenable, making relocation unworkable."
+        }
+      ]
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Game development sector is booming with abundant studios, international publishers, and strong salaries for all roles."
+        },
+        {
+          "rating": 9,
+          "guidance": "Healthy industry featuring numerous mid-to-large studios, stable hiring, and diverse projects."
+        },
+        {
+          "rating": 8,
+          "guidance": "Good prospects with regular openings, though certain specialties are in higher demand."
+        },
+        {
+          "rating": 7,
+          "guidance": "Opportunities exist but concentrated in specific cities or require networking."
+        },
+        {
+          "rating": 6,
+          "guidance": "Industry is mid-sized; contract work or remote gigs supplement stability."
+        },
+        {
+          "rating": 5,
+          "guidance": "Limited studios; job hunt may involve long lead times."
+        },
+        {
+          "rating": 4,
+          "guidance": "Few game dev employers; relocation or remote work essential."
+        },
+        {
+          "rating": 3,
+          "guidance": "Industry is nascent; only small indie teams operate."
+        },
+        {
+          "rating": 2,
+          "guidance": "Game dev employment is rare and low-paying."
+        },
+        {
+          "rating": 1,
+          "guidance": "No game development prospects exist locally."
+        }
+      ]
+    },
+    {
+      "key": "Notable Game Studios",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Home to globally renowned AAA and indie studios with public tours, events, and vibrant hiring."
+        },
+        {
+          "rating": 9,
+          "guidance": "Several internationally respected studios operate here, boosting reputation and networking."
+        },
+        {
+          "rating": 8,
+          "guidance": "Multiple well-known studios with solid output though not global leaders."
+        },
+        {
+          "rating": 7,
+          "guidance": "A handful of notable studios exist; industry presence is recognizable."
+        },
+        {
+          "rating": 6,
+          "guidance": "Few mid-tier studios with intermittent releases."
+        },
+        {
+          "rating": 5,
+          "guidance": "Small but passionate indie scene produces occasional hits."
+        },
+        {
+          "rating": 4,
+          "guidance": "Minimal studio presence; notable projects are rare."
+        },
+        {
+          "rating": 3,
+          "guidance": "Only fledgling studios with limited visibility."
+        },
+        {
+          "rating": 2,
+          "guidance": "No notable studios; industry recognition absent."
+        },
+        {
+          "rating": 1,
+          "guidance": "Game studios are nonexistent, leaving no local industry footprint."
+        }
+      ]
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Active communities host conferences, jams, and mentorship programs accessible to families and newcomers."
+        },
+        {
+          "rating": 9,
+          "guidance": "Regular meetups and online hubs foster collaboration and learning."
+        },
+        {
+          "rating": 8,
+          "guidance": "Strong community presence in cities with supportive forums and events."
+        },
+        {
+          "rating": 7,
+          "guidance": "Communities exist but meet less frequently; involvement requires initiative."
+        },
+        {
+          "rating": 6,
+          "guidance": "Limited gatherings; most networking happens online."
+        },
+        {
+          "rating": 5,
+          "guidance": "Small groups operate informally without major events."
+        },
+        {
+          "rating": 4,
+          "guidance": "Game dev community is fragmented or hard to locate."
+        },
+        {
+          "rating": 3,
+          "guidance": "Few organized communities; collaboration opportunities scarce."
+        },
+        {
+          "rating": 2,
+          "guidance": "Communities are largely absent or face regulatory obstacles."
+        },
+        {
+          "rating": 1,
+          "guidance": "No visible game development community; creators work in isolation."
+        }
+      ]
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Exceptional ecosystem with grants, accelerators, tax credits, and experienced talent for launching studios."
+        },
+        {
+          "rating": 9,
+          "guidance": "Strong support via incubators and investor interest; startup costs manageable."
+        },
+        {
+          "rating": 8,
+          "guidance": "Good environment with access to talent and moderate funding channels."
+        },
+        {
+          "rating": 7,
+          "guidance": "Startups feasible but require hustling for capital or co-founders."
+        },
+        {
+          "rating": 6,
+          "guidance": "Limited incentives; personal savings or remote teams bridge gaps."
+        },
+        {
+          "rating": 5,
+          "guidance": "Challenges around regulation or funding slow studio launches."
+        },
+        {
+          "rating": 4,
+          "guidance": "Startups face significant barriers such as high taxes or scarce investment."
+        },
+        {
+          "rating": 3,
+          "guidance": "Game startups rarely succeed due to ecosystem shortcomings."
+        },
+        {
+          "rating": 2,
+          "guidance": "Minimal support; entrepreneurs relocate to start companies."
+        },
+        {
+          "rating": 1,
+          "guidance": "Environment is hostile to game startups due to legal or financial roadblocks."
+        }
+      ]
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "ratingGuide": [
+        {
+          "rating": 10,
+          "guidance": "Cutting-edge infrastructure with reliable power, gigabit internet, smart-city services, and future-proof urban planning."
+        },
+        {
+          "rating": 9,
+          "guidance": "Modern utilities and transport networks work seamlessly with minimal outages."
+        },
+        {
+          "rating": 8,
+          "guidance": "Infrastructure is strong though certain regions lag behind."
+        },
+        {
+          "rating": 7,
+          "guidance": "Modern amenities available but aging systems need periodic maintenance."
+        },
+        {
+          "rating": 6,
+          "guidance": "Infrastructure is adequate yet occasional outages or congestion occur."
+        },
+        {
+          "rating": 5,
+          "guidance": "Systems are mixed; we plan around service gaps."
+        },
+        {
+          "rating": 4,
+          "guidance": "Infrastructure shows significant wear, impacting daily convenience."
+        },
+        {
+          "rating": 3,
+          "guidance": "Frequent outages or outdated systems hinder productivity."
+        },
+        {
+          "rating": 2,
+          "guidance": "Infrastructure is unreliable, affecting work, schooling, and healthcare."
+        },
+        {
+          "rating": 1,
+          "guidance": "Infrastructure is failing, making modern life extremely difficult."
+        }
+      ]
+    }
+  ]
+}
