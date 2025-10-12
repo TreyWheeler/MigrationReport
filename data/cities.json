@@ -1,0 +1,514 @@
+{
+  "cities": [
+    {
+      "id": "ireland_dublin",
+      "countryId": "ireland",
+      "name": "Dublin",
+      "report": "reports/ireland_dublin_report.json"
+    },
+    {
+      "id": "ireland_cork",
+      "countryId": "ireland",
+      "name": "Cork",
+      "report": "reports/ireland_cork_report.json"
+    },
+    {
+      "id": "ireland_galway",
+      "countryId": "ireland",
+      "name": "Galway",
+      "report": "reports/ireland_galway_report.json"
+    },
+    {
+      "id": "china_shanghai",
+      "countryId": "china",
+      "name": "Shanghai",
+      "report": "reports/china_shanghai_report.json"
+    },
+    {
+      "id": "new_zealand_auckland",
+      "countryId": "new_zealand",
+      "name": "Auckland",
+      "report": "reports/new_zealand_auckland_report.json"
+    },
+    {
+      "id": "new_zealand_christchurch",
+      "countryId": "new_zealand",
+      "name": "Christchurch",
+      "report": "reports/new_zealand_christchurch_report.json"
+    },
+    {
+      "id": "new_zealand_wellington",
+      "countryId": "new_zealand",
+      "name": "Wellington",
+      "report": "reports/new_zealand_wellington_report.json"
+    },
+    {
+      "id": "united_states_olathe",
+      "countryId": "united_states",
+      "name": "Olathe",
+      "report": "reports/united_states_olathe_report.json"
+    },
+    {
+      "id": "united_states_burbank",
+      "countryId": "united_states",
+      "name": "Burbank",
+      "report": "reports/united_states_burbank_report.json"
+    },
+    {
+      "id": "united_states_austin",
+      "countryId": "united_states",
+      "name": "Austin",
+      "report": "reports/united_states_austin_report.json"
+    },
+    {
+      "id": "united_states_new_york",
+      "countryId": "united_states",
+      "name": "New York",
+      "report": "reports/united_states_new_york_report.json"
+    },
+    {
+      "id": "united_states_chicago",
+      "countryId": "united_states",
+      "name": "Chicago",
+      "report": "reports/united_states_chicago_report.json"
+    },
+    {
+      "id": "united_states_salt_lake_city",
+      "countryId": "united_states",
+      "name": "Salt Lake City",
+      "report": "reports/united_states_salt_lake_city_report.json"
+    },
+    {
+      "id": "united_states_las_vegas",
+      "countryId": "united_states",
+      "name": "Las Vegas",
+      "report": "reports/united_states_las_vegas_report.json"
+    },
+    {
+      "id": "united_states_san_francisco",
+      "countryId": "united_states",
+      "name": "San Francisco",
+      "report": "reports/united_states_san_francisco_report.json"
+    },
+    {
+      "id": "united_states_san_diego",
+      "countryId": "united_states",
+      "name": "San Diego",
+      "report": "reports/united_states_san_diego_report.json"
+    },
+    {
+      "id": "united_states_portland",
+      "countryId": "united_states",
+      "name": "Portland",
+      "report": "reports/united_states_portland_report.json"
+    },
+    {
+      "id": "united_states_seattle",
+      "countryId": "united_states",
+      "name": "Seattle",
+      "report": "reports/united_states_seattle_report.json"
+    },
+    {
+      "id": "france_nantes",
+      "countryId": "france",
+      "name": "Nantes",
+      "report": "reports/france_nantes_report.json"
+    },
+    {
+      "id": "france_lyon",
+      "countryId": "france",
+      "name": "Lyon",
+      "report": "reports/france_lyon_report.json"
+    },
+    {
+      "id": "france_bordeaux",
+      "countryId": "france",
+      "name": "Bordeaux",
+      "report": "reports/france_bordeaux_report.json"
+    },
+    {
+      "id": "france_paris",
+      "countryId": "france",
+      "name": "Paris",
+      "report": "reports/france_paris_report.json"
+    },
+    {
+      "id": "germany_berlin",
+      "countryId": "germany",
+      "name": "Berlin",
+      "report": "reports/germany_berlin_report.json"
+    },
+    {
+      "id": "germany_bremen",
+      "countryId": "germany",
+      "name": "Bremen",
+      "report": "reports/germany_bremen_report.json"
+    },
+    {
+      "id": "germany_dresden",
+      "countryId": "germany",
+      "name": "Dresden",
+      "report": "reports/germany_dresden_report.json"
+    },
+    {
+      "id": "germany_d_sseldorf",
+      "countryId": "germany",
+      "name": "Düsseldorf",
+      "report": "reports/germany_duesseldorf_report.json"
+    },
+    {
+      "id": "germany_erfurt",
+      "countryId": "germany",
+      "name": "Erfurt",
+      "report": "reports/germany_erfurt_report.json"
+    },
+    {
+      "id": "germany_frankfurt",
+      "countryId": "germany",
+      "name": "Frankfurt",
+      "report": "reports/germany_frankfurt_report.json"
+    },
+    {
+      "id": "germany_halle",
+      "countryId": "germany",
+      "name": "Halle",
+      "report": "reports/germany_halle_report.json"
+    },
+    {
+      "id": "germany_hamburg",
+      "countryId": "germany",
+      "name": "Hamburg",
+      "report": "reports/germany_hamburg_report.json"
+    },
+    {
+      "id": "germany_hannover",
+      "countryId": "germany",
+      "name": "Hannover",
+      "report": "reports/germany_hannover_report.json"
+    },
+    {
+      "id": "germany_jena",
+      "countryId": "germany",
+      "name": "Jena",
+      "report": "reports/germany_jena_report.json"
+    },
+    {
+      "id": "germany_karlsruhe",
+      "countryId": "germany",
+      "name": "Karlsruhe",
+      "report": "reports/germany_karlsruhe_report.json"
+    },
+    {
+      "id": "germany_kiel",
+      "countryId": "germany",
+      "name": "Kiel",
+      "report": "reports/germany_kiel_report.json"
+    },
+    {
+      "id": "germany_k_ln",
+      "countryId": "germany",
+      "name": "Köln",
+      "report": "reports/germany_koeln_report.json"
+    },
+    {
+      "id": "germany_leipzig",
+      "countryId": "germany",
+      "name": "Leipzig",
+      "report": "reports/germany_leipzig_report.json"
+    },
+    {
+      "id": "germany_l_beck",
+      "countryId": "germany",
+      "name": "Lübeck",
+      "report": "reports/germany_lubeck_report.json"
+    },
+    {
+      "id": "germany_magdeburg",
+      "countryId": "germany",
+      "name": "Magdeburg",
+      "report": "reports/germany_magdeburg_report.json"
+    },
+    {
+      "id": "germany_mainz",
+      "countryId": "germany",
+      "name": "Mainz",
+      "report": "reports/germany_mainz_report.json"
+    },
+    {
+      "id": "germany_m_nchen",
+      "countryId": "germany",
+      "name": "München",
+      "report": "reports/germany_muenchen_report.json"
+    },
+    {
+      "id": "germany_n_rnberg",
+      "countryId": "germany",
+      "name": "Nürnberg",
+      "report": "reports/germany_nuernberg_report.json"
+    },
+    {
+      "id": "germany_stuttgart",
+      "countryId": "germany",
+      "name": "Stuttgart",
+      "report": "reports/germany_stuttgart_report.json"
+    },
+    {
+      "id": "germany_trier",
+      "countryId": "germany",
+      "name": "Trier",
+      "report": "reports/germany_trier_report.json"
+    },
+    {
+      "id": "germany_wiesbaden",
+      "countryId": "germany",
+      "name": "Wiesbaden",
+      "report": "reports/germany_wiesbaden_report.json"
+    },
+    {
+      "id": "germany_wolfsburg",
+      "countryId": "germany",
+      "name": "Wolfsburg",
+      "report": "reports/germany_wolfsburg_report.json"
+    },
+    {
+      "id": "canada_vancouver",
+      "countryId": "canada",
+      "name": "Vancouver",
+      "report": "reports/canada_vancouver_report.json"
+    },
+    {
+      "id": "canada_victoria",
+      "countryId": "canada",
+      "name": "Victoria",
+      "report": "reports/canada_victoria_report.json"
+    },
+    {
+      "id": "canada_montreal",
+      "countryId": "canada",
+      "name": "Montreal",
+      "report": "reports/canada_montreal_report.json"
+    },
+    {
+      "id": "canada_ottawa",
+      "countryId": "canada",
+      "name": "Ottawa",
+      "report": "reports/canada_ottawa_report.json"
+    },
+    {
+      "id": "canada_toronto",
+      "countryId": "canada",
+      "name": "Toronto",
+      "report": "reports/canada_toronto_report.json"
+    },
+    {
+      "id": "spain_barcelona",
+      "countryId": "spain",
+      "name": "Barcelona",
+      "report": "reports/spain_barcelona_report.json"
+    },
+    {
+      "id": "spain_san_sebasti_n",
+      "countryId": "spain",
+      "name": "San Sebastián",
+      "report": "reports/spain_san_sebastian_report.json"
+    },
+    {
+      "id": "spain_valencia",
+      "countryId": "spain",
+      "name": "Valencia",
+      "report": "reports/spain_valencia_report.json"
+    },
+    {
+      "id": "united_kingdom_brighton_and_hove",
+      "countryId": "united_kingdom",
+      "name": "Brighton & Hove",
+      "report": "reports/united_kingdom_brighton_and_hove_report.json"
+    },
+    {
+      "id": "united_kingdom_bristol",
+      "countryId": "united_kingdom",
+      "name": "Bristol",
+      "report": "reports/united_kingdom_bristol_report.json"
+    },
+    {
+      "id": "united_kingdom_edinburgh",
+      "countryId": "united_kingdom",
+      "name": "Edinburgh",
+      "report": "reports/united_kingdom_edinburgh_report.json"
+    },
+    {
+      "id": "united_kingdom_manchester",
+      "countryId": "united_kingdom",
+      "name": "Manchester",
+      "report": "reports/united_kingdom_manchester_report.json"
+    },
+    {
+      "id": "united_kingdom_richmond",
+      "countryId": "united_kingdom",
+      "name": "Richmond",
+      "report": "reports/united_kingdom_richmond_report.json"
+    },
+    {
+      "id": "united_kingdom_walthamstow",
+      "countryId": "united_kingdom",
+      "name": "Walthamstow",
+      "report": "reports/united_kingdom_walthamstow_report.json"
+    },
+    {
+      "id": "united_kingdom_london",
+      "countryId": "united_kingdom",
+      "name": "London",
+      "report": "reports/united_kingdom_london_report.json"
+    },
+    {
+      "id": "belgium_brussels",
+      "countryId": "belgium",
+      "name": "Brussels",
+      "report": "reports/belgium_brussels_report.json"
+    },
+    {
+      "id": "belgium_ghent",
+      "countryId": "belgium",
+      "name": "Ghent",
+      "report": "reports/belgium_ghent_report.json"
+    },
+    {
+      "id": "belgium_leuven",
+      "countryId": "belgium",
+      "name": "Leuven",
+      "report": "reports/belgium_leuven_report.json"
+    },
+    {
+      "id": "belgium_antwerp",
+      "countryId": "belgium",
+      "name": "Antwerp",
+      "report": "reports/belgium_antwerp_report.json"
+    },
+    {
+      "id": "finland_helsinki",
+      "countryId": "finland",
+      "name": "Helsinki",
+      "report": "reports/finland_helsinki_report.json"
+    },
+    {
+      "id": "finland_espoo",
+      "countryId": "finland",
+      "name": "Espoo",
+      "report": "reports/finland_espoo_report.json"
+    },
+    {
+      "id": "finland_tampere",
+      "countryId": "finland",
+      "name": "Tampere",
+      "report": "reports/finland_tampere_report.json"
+    },
+    {
+      "id": "australia_melbourne",
+      "countryId": "australia",
+      "name": "Melbourne",
+      "report": "reports/australia_melbourne_report.json"
+    },
+    {
+      "id": "australia_sydney",
+      "countryId": "australia",
+      "name": "Sydney",
+      "report": "reports/australia_sydney_report.json"
+    },
+    {
+      "id": "australia_adelaide",
+      "countryId": "australia",
+      "name": "Adelaide",
+      "report": "reports/australia_adelaide_report.json"
+    },
+    {
+      "id": "australia_hobart",
+      "countryId": "australia",
+      "name": "Hobart",
+      "report": "reports/australia_hobart_report.json"
+    },
+    {
+      "id": "norway_bergen",
+      "countryId": "norway",
+      "name": "Bergen",
+      "report": "reports/norway_bergen_report.json"
+    },
+    {
+      "id": "norway_oslo",
+      "countryId": "norway",
+      "name": "Oslo",
+      "report": "reports/norway_oslo_report.json"
+    },
+    {
+      "id": "norway_trondheim",
+      "countryId": "norway",
+      "name": "Trondheim",
+      "report": "reports/norway_trondheim_report.json"
+    },
+    {
+      "id": "japan_tokyo",
+      "countryId": "japan",
+      "name": "Tokyo",
+      "report": "reports/japan_tokyo_report.json"
+    },
+    {
+      "id": "south_korea_seoul",
+      "countryId": "south_korea",
+      "name": "Seoul",
+      "report": "reports/south_korea_seoul_report.json"
+    },
+    {
+      "id": "netherlands_amsterdam",
+      "countryId": "netherlands",
+      "name": "Amsterdam",
+      "report": "reports/netherlands_amsterdam_report.json"
+    },
+    {
+      "id": "netherlands_utrecht",
+      "countryId": "netherlands",
+      "name": "Utrecht",
+      "report": "reports/netherlands_utrecht_report.json"
+    },
+    {
+      "id": "netherlands_eindhoven",
+      "countryId": "netherlands",
+      "name": "Eindhoven",
+      "report": "reports/netherlands_eindhoven_report.json"
+    },
+    {
+      "id": "sweden_stockholm",
+      "countryId": "sweden",
+      "name": "Stockholm",
+      "report": "reports/sweden_stockholm_report.json"
+    },
+    {
+      "id": "sweden_malm",
+      "countryId": "sweden",
+      "name": "Malmö",
+      "report": "reports/sweden_malmo_report.json"
+    },
+    {
+      "id": "sweden_gothenburg",
+      "countryId": "sweden",
+      "name": "Gothenburg",
+      "report": "reports/sweden_gothenburg_report.json"
+    },
+    {
+      "id": "denmark_copenhagen",
+      "countryId": "denmark",
+      "name": "Copenhagen",
+      "report": "reports/denmark_copenhagen_report.json"
+    },
+    {
+      "id": "denmark_aarhus",
+      "countryId": "denmark",
+      "name": "Aarhus",
+      "report": "reports/denmark_aarhus_report.json"
+    },
+    {
+      "id": "denmark_odense",
+      "countryId": "denmark",
+      "name": "Odense",
+      "report": "reports/denmark_odense_report.json"
+    }
+  ]
+}
