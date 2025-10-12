@@ -1,540 +1,6 @@
 {
   "categoryKeys": [
     {
-      "id": "environment_and_climate_environment",
-      "categoryId": "environment_and_climate",
-      "name": "Environment",
-      "guidance": "Overall environmental quality; protected areas; biodiversity."
-    },
-    {
-      "id": "environment_and_climate_global_warming_risk",
-      "categoryId": "environment_and_climate",
-      "name": "Global Warming Risk",
-      "guidance": "Sea-level, heatwaves, drought, wildfire, flood risk."
-    },
-    {
-      "id": "environment_and_climate_seasonal_weather",
-      "categoryId": "environment_and_climate",
-      "name": "Seasonal Weather",
-      "guidance": "Temp/precip by season; humidity; daylight; storms."
-    },
-    {
-      "id": "environment_and_climate_air_quality",
-      "categoryId": "environment_and_climate",
-      "name": "Air Quality",
-      "guidance": "PM2.5 annual average; seasonal spikes."
-    },
-    {
-      "id": "environment_and_climate_natural_disasters",
-      "categoryId": "environment_and_climate",
-      "name": "Natural Disasters",
-      "guidance": "Earthquake/volcano/hurricane exposure; building codes."
-    },
-    {
-      "id": "environment_and_climate_spring_temperature_range_c_f",
-      "categoryId": "environment_and_climate",
-      "name": "Spring Temperature Range (C/F)",
-      "guidance": "Typical min–max daytime temps; note humidity and rain."
-    },
-    {
-      "id": "environment_and_climate_summer_temperature_range_c_f",
-      "categoryId": "environment_and_climate",
-      "name": "Summer Temperature Range (C/F)",
-      "guidance": "Typical min–max; comment on humidity/heat index and nights."
-    },
-    {
-      "id": "environment_and_climate_fall_temperature_range_c_f",
-      "categoryId": "environment_and_climate",
-      "name": "Fall Temperature Range (C/F)",
-      "guidance": "Typical min–max; onset of rains/winds; daylight changes."
-    },
-    {
-      "id": "environment_and_climate_winter_temperature_range_c_f",
-      "categoryId": "environment_and_climate",
-      "name": "Winter Temperature Range (C/F)",
-      "guidance": "Typical min–max; snow/ice frequency; damp cold vs dry cold."
-    },
-    {
-      "id": "nature_and_outdoors_beach_life",
-      "categoryId": "nature_and_outdoors",
-      "name": "Beach Life",
-      "guidance": "Access, cleanliness, crowding, amenities, safety."
-    },
-    {
-      "id": "nature_and_outdoors_seasonal_beach_water_temp",
-      "categoryId": "nature_and_outdoors",
-      "name": "Seasonal Beach Water Temp",
-      "guidance": "Monthly SST; comfortable swim months."
-    },
-    {
-      "id": "nature_and_outdoors_natural_beauty",
-      "categoryId": "nature_and_outdoors",
-      "name": "Natural Beauty",
-      "guidance": "Landscapes, parks, hiking, diving; ease of access."
-    },
-    {
-      "id": "work_opportunities_minimum_wage",
-      "categoryId": "work_opportunities",
-      "name": "Minimum Wage",
-      "guidance": "National/sectoral; enforcement; living wage comparison."
-    },
-    {
-      "id": "work_opportunities_typical_software_salaries",
-      "categoryId": "work_opportunities",
-      "name": "Typical Software Salaries",
-      "guidance": ".NET / Ruby / Game dev ranges; senior vs. mid."
-    },
-    {
-      "id": "work_opportunities_net_work_prospects",
-      "categoryId": "work_opportunities",
-      "name": ".NET Work Prospects",
-      "guidance": "Market demand; top employers; remote vs. onsite."
-    },
-    {
-      "id": "work_opportunities_ruby_work_prospects",
-      "categoryId": "work_opportunities",
-      "name": "Ruby Work Prospects",
-      "guidance": "Market demand; key sectors; frameworks in use."
-    },
-    {
-      "id": "work_opportunities_employer_visa_sponsorship",
-      "categoryId": "work_opportunities",
-      "name": "Employer Visa Sponsorship",
-      "guidance": "Common/rare; processing reliability."
-    },
-    {
-      "id": "work_opportunities_economic_health",
-      "categoryId": "work_opportunities",
-      "name": "Economic Health",
-      "guidance": "GDP growth, unemployment, inflation snapshot."
-    },
-    {
-      "id": "work_opportunities_remote_friendly_culture",
-      "categoryId": "work_opportunities",
-      "name": "Remote-Friendly Culture",
-      "guidance": "Hybrid norms; coworking; time-zone alignment."
-    },
-    {
-      "id": "work_life_balance_work_life_balance",
-      "categoryId": "work_life_balance",
-      "name": "Work-Life Balance",
-      "guidance": "Cultural norms; after-hours boundaries."
-    },
-    {
-      "id": "work_life_balance_work_week_hours",
-      "categoryId": "work_life_balance",
-      "name": "Work Week Hours",
-      "guidance": "Statutory vs. typical; overtime norms."
-    },
-    {
-      "id": "work_life_balance_vacation_days_minimum",
-      "categoryId": "work_life_balance",
-      "name": "Vacation Days (Minimum)",
-      "guidance": "Legal floor incl. public holidays."
-    },
-    {
-      "id": "work_life_balance_vacation_days_typical",
-      "categoryId": "work_life_balance",
-      "name": "Vacation Days (Typical)",
-      "guidance": "Common practice for tech roles."
-    },
-    {
-      "id": "work_life_balance_pace_of_life",
-      "categoryId": "work_life_balance",
-      "name": "Pace of Life",
-      "guidance": "City vs. regional differences; commute times."
-    },
-    {
-      "id": "work_life_balance_typical_workday_schedule_family_of_four",
-      "categoryId": "work_life_balance",
-      "name": "Typical Workday Schedule (Family of Four)",
-      "guidance": "Common school/work hours; lunch length; after-school care patterns."
-    },
-    {
-      "id": "work_life_balance_typical_weekend_schedule_family_of_four",
-      "categoryId": "work_life_balance",
-      "name": "Typical Weekend Schedule (Family of Four)",
-      "guidance": "Typical weekend rhythms; opening hours; family activities."
-    },
-    {
-      "id": "family_friendliness_family_life",
-      "categoryId": "family_friendliness",
-      "name": "Family Life",
-      "guidance": "Family-friendly amenities; school schedules; work-family balance."
-    },
-    {
-      "id": "family_friendliness_polyamory",
-      "categoryId": "family_friendliness",
-      "name": "Polyamory",
-      "guidance": "Social acceptance; legal risks; custody implications."
-    },
-    {
-      "id": "family_friendliness_parenting_expectations",
-      "categoryId": "family_friendliness",
-      "name": "Parenting Expectations",
-      "guidance": "Discipline norms; extracurricular load; autonomy."
-    },
-    {
-      "id": "family_friendliness_child_friendliness_of_cities",
-      "categoryId": "family_friendliness",
-      "name": "Child-Friendliness of Cities",
-      "guidance": "Playgrounds, parks, cafes; breastfeeding norms."
-    },
-    {
-      "id": "family_friendliness_schooling_options",
-      "categoryId": "family_friendliness",
-      "name": "Schooling Options",
-      "guidance": "Public vs. private; language tracks; international schools."
-    },
-    {
-      "id": "family_friendliness_pre_k_early_childcare_landscape",
-      "categoryId": "family_friendliness",
-      "name": "Pre-K / Early Childcare Landscape",
-      "guidance": "What care looks like before public school: availability, hours, costs."
-    },
-    {
-      "id": "family_friendliness_childcare_support_citizens",
-      "categoryId": "family_friendliness",
-      "name": "Childcare Support (Citizens)",
-      "guidance": "Subsidies/vouchers/leave for citizens; eligibility and amounts."
-    },
-    {
-      "id": "family_friendliness_childcare_support_visa_holders",
-      "categoryId": "family_friendliness",
-      "name": "Childcare Support (Visa Holders)",
-      "guidance": "Access for non-citizens; waiting periods; documentation hurdles."
-    },
-    {
-      "id": "family_friendliness_k_12_education_access_citizens",
-      "categoryId": "family_friendliness",
-      "name": "K-12 Education Access (Citizens)",
-      "guidance": "Enrollment ease; zoning; costs; secular options."
-    },
-    {
-      "id": "family_friendliness_k_12_education_access_visa_holders",
-      "categoryId": "family_friendliness",
-      "name": "K-12 Education Access (Visa Holders)",
-      "guidance": "Eligibility by status; fees; language support; secular options."
-    },
-    {
-      "id": "family_friendliness_private_education",
-      "categoryId": "family_friendliness",
-      "name": "Private Education",
-      "guidance": "Availability; typical costs; secular vs denominational; admissions."
-    },
-    {
-      "id": "family_friendliness_family_policy_citizens",
-      "categoryId": "family_friendliness",
-      "name": "Family Policy (Citizens)",
-      "guidance": "Parental leave, child benefits, tax credits for citizens."
-    },
-    {
-      "id": "family_friendliness_family_policy_visa_holders",
-      "categoryId": "family_friendliness",
-      "name": "Family Policy (Visa Holders)",
-      "guidance": "Which benefits extend to temporary residents; waiting periods."
-    },
-    {
-      "id": "family_friendliness_higher_education_access_citizens",
-      "categoryId": "family_friendliness",
-      "name": "Higher Education Access (Citizens)",
-      "guidance": "Tuition, financial aid, admission competitiveness for citizens."
-    },
-    {
-      "id": "family_friendliness_higher_education_access_visa_holders",
-      "categoryId": "family_friendliness",
-      "name": "Higher Education Access (Visa Holders)",
-      "guidance": "Eligibility, international tuition, scholarships for non-citizens."
-    },
-    {
-      "id": "gender_equality_and_norms_gender_roles",
-      "categoryId": "gender_equality_and_norms",
-      "name": "Gender Roles",
-      "guidance": "Traditional vs. egalitarian norms."
-    },
-    {
-      "id": "gender_equality_and_norms_gender_fluidity",
-      "categoryId": "gender_equality_and_norms",
-      "name": "Gender Fluidity",
-      "guidance": "Social visibility; non-binary recognition."
-    },
-    {
-      "id": "gender_equality_and_norms_gender_rights",
-      "categoryId": "gender_equality_and_norms",
-      "name": "Gender Rights",
-      "guidance": "Legal protections; workplace equality; parental leave."
-    },
-    {
-      "id": "gender_equality_and_norms_femininity_norms",
-      "categoryId": "gender_equality_and_norms",
-      "name": "Femininity Norms",
-      "guidance": "Appearance, behavior expectations; safety."
-    },
-    {
-      "id": "gender_equality_and_norms_masculinity_norms",
-      "categoryId": "gender_equality_and_norms",
-      "name": "Masculinity Norms",
-      "guidance": "Work, emotion, caregiving expectations."
-    },
-    {
-      "id": "culture_and_values_fit_what_is_intriguing",
-      "categoryId": "culture_and_values_fit",
-      "name": "What Is Intriguing",
-      "guidance": "Unique cultural draws; lifestyle perks."
-    },
-    {
-      "id": "culture_and_values_fit_language_and_english_ubiquity",
-      "categoryId": "culture_and_values_fit",
-      "name": "Language & English Ubiquity",
-      "guidance": "English proficiency; necessity of local language."
-    },
-    {
-      "id": "culture_and_values_fit_progressivism",
-      "categoryId": "culture_and_values_fit",
-      "name": "Progressivism",
-      "guidance": "Social liberalism; civil liberties; inclusion."
-    },
-    {
-      "id": "culture_and_values_fit_marxism_societal_attitudes",
-      "categoryId": "culture_and_values_fit",
-      "name": "Marxism (Societal Attitudes)",
-      "guidance": "Public discourse; historical context."
-    },
-    {
-      "id": "culture_and_values_fit_atheism",
-      "categoryId": "culture_and_values_fit",
-      "name": "Atheism",
-      "guidance": "Prevalence; social acceptance; religious diversity."
-    },
-    {
-      "id": "culture_and_values_fit_sex_attitudes",
-      "categoryId": "culture_and_values_fit",
-      "name": "Sex (Attitudes)",
-      "guidance": "Public norms; sex education; media openness."
-    },
-    {
-      "id": "culture_and_values_fit_lgbtq_attitudes",
-      "categoryId": "culture_and_values_fit",
-      "name": "LGBTQ+ Attitudes",
-      "guidance": "Social acceptance; legal protections (see Rights below)."
-    },
-    {
-      "id": "culture_and_values_fit_community_vibes",
-      "categoryId": "culture_and_values_fit",
-      "name": "Community Vibes",
-      "guidance": "Friendliness to newcomers; social clubs; expat density."
-    },
-    {
-      "id": "culture_and_values_fit_view_of_self",
-      "categoryId": "culture_and_values_fit",
-      "name": "View of self",
-      "guidance": "How do they generally view themselves."
-    },
-    {
-      "id": "culture_and_values_fit_view_of_neighboring_countries",
-      "categoryId": "culture_and_values_fit",
-      "name": "View of Neighboring Countries",
-      "guidance": "How do they generally view their neighboring countries."
-    },
-    {
-      "id": "culture_and_values_fit_view_of_them_by_neighboring_countries",
-      "categoryId": "culture_and_values_fit",
-      "name": "View of Them by Neighboring Countries",
-      "guidance": "How do neighboring countries generally view them."
-    },
-    {
-      "id": "culture_and_values_fit_nightlife_culture",
-      "categoryId": "culture_and_values_fit",
-      "name": "Nightlife Culture",
-      "guidance": "Evening norms; venues; safety; opening hours; family-friendliness."
-    },
-    {
-      "id": "culture_and_values_fit_fashion_trends_male",
-      "categoryId": "culture_and_values_fit",
-      "name": "Fashion Trends (Male)",
-      "guidance": "Prevailing attractive styles; modesty norms; body positivity; swimwear."
-    },
-    {
-      "id": "culture_and_values_fit_fashion_trends_female",
-      "categoryId": "culture_and_values_fit",
-      "name": "Fashion Trends (Female)",
-      "guidance": "Prevailing attractive styles; modesty norms; body positivity; swimwear."
-    },
-    {
-      "id": "entertainment_and_community_common_hobbies",
-      "categoryId": "entertainment_and_community",
-      "name": "Common Hobbies",
-      "guidance": "Popular pastimes; outdoor/indoor balance."
-    },
-    {
-      "id": "entertainment_and_community_boardgaming_and_tabletop",
-      "categoryId": "entertainment_and_community",
-      "name": "Boardgaming & Tabletop",
-      "guidance": "FLGS density; clubs; conventions; cafes."
-    },
-    {
-      "id": "entertainment_and_community_nightlife_and_music",
-      "categoryId": "entertainment_and_community",
-      "name": "Nightlife & Music",
-      "guidance": "Venues; noise norms; live scenes."
-    },
-    {
-      "id": "entertainment_and_community_meetups_and_communities",
-      "categoryId": "entertainment_and_community",
-      "name": "Meetups & Communities",
-      "guidance": "Tech, game dev, parenting, LGBTQ+, poly groups."
-    },
-    {
-      "id": "entertainment_and_community_nature_access",
-      "categoryId": "entertainment_and_community",
-      "name": "Nature Access",
-      "guidance": "Day-trip options; weekend getaways."
-    },
-    {
-      "id": "governance_and_stability_political_system",
-      "categoryId": "governance_and_stability",
-      "name": "Political System",
-      "guidance": "Structure; party dynamics; electoral fairness."
-    },
-    {
-      "id": "governance_and_stability_religion_in_politics",
-      "categoryId": "governance_and_stability",
-      "name": "Religion in Politics",
-      "guidance": "Secularism; clerical influence."
-    },
-    {
-      "id": "governance_and_stability_workers_rights",
-      "categoryId": "governance_and_stability",
-      "name": "Workers' Rights",
-      "guidance": "Unions, protections, termination norms, non-competes."
-    },
-    {
-      "id": "governance_and_stability_state_ideology",
-      "categoryId": "governance_and_stability",
-      "name": "State Ideology",
-      "guidance": "Marxism/Socialism/Capitalism in practice and rhetoric."
-    },
-    {
-      "id": "governance_and_stability_authoritarian_backsliding_risk",
-      "categoryId": "governance_and_stability",
-      "name": "Authoritarian Backsliding Risk",
-      "guidance": "Media freedom; judiciary independence."
-    },
-    {
-      "id": "governance_and_stability_state_of_capitalism",
-      "categoryId": "governance_and_stability",
-      "name": "State of Capitalism",
-      "guidance": "Market competition; monopolies; SME friendliness."
-    },
-    {
-      "id": "governance_and_stability_stability",
-      "categoryId": "governance_and_stability",
-      "name": "Stability",
-      "guidance": "Political and economic stability; protest risk."
-    },
-    {
-      "id": "governance_and_stability_propaganda_prevalence",
-      "categoryId": "governance_and_stability",
-      "name": "Propaganda Prevalence",
-      "guidance": "State/private media narratives; disinfo exposure."
-    },
-    {
-      "id": "governance_and_stability_propaganda_messaging",
-      "categoryId": "governance_and_stability",
-      "name": "Propaganda Messaging",
-      "guidance": "Common themes; impact on daily life."
-    },
-    {
-      "id": "governance_and_stability_social_policies",
-      "categoryId": "governance_and_stability",
-      "name": "Social Policies",
-      "guidance": "Reproductive rights; LGBTQ+ rights; antidiscrimination."
-    },
-    {
-      "id": "governance_and_stability_trust_in_government",
-      "categoryId": "governance_and_stability",
-      "name": "Trust in Government",
-      "guidance": "Surveys; participation; service reliability."
-    },
-    {
-      "id": "governance_and_stability_perceived_corruption",
-      "categoryId": "governance_and_stability",
-      "name": "Perceived Corruption",
-      "guidance": "CPI rank; enforcement; transparency."
-    },
-    {
-      "id": "governance_and_stability_type_of_corruption",
-      "categoryId": "governance_and_stability",
-      "name": "Type of Corruption",
-      "guidance": "Petty vs. grand; sectors affected."
-    },
-    {
-      "id": "governance_and_stability_housing_situation",
-      "categoryId": "governance_and_stability",
-      "name": "Housing Situation",
-      "guidance": "Availability; renting norms; tenant protections; prices."
-    },
-    {
-      "id": "governance_and_stability_safety_and_crime",
-      "categoryId": "governance_and_stability",
-      "name": "Safety & Crime",
-      "guidance": "Violent/property crime; hate crime risk; policing."
-    },
-    {
-      "id": "public_services_health_edu_transit_healthcare_citizens",
-      "categoryId": "public_services_health_edu_transit",
-      "name": "Healthcare (Citizens)",
-      "guidance": "Coverage model; quality; access times; costs."
-    },
-    {
-      "id": "public_services_health_edu_transit_healthcare_visa_holders",
-      "categoryId": "public_services_health_edu_transit",
-      "name": "Healthcare (Visa Holders)",
-      "guidance": "Eligibility; insurance requirements; wait times."
-    },
-    {
-      "id": "public_services_health_edu_transit_child_care_support",
-      "categoryId": "public_services_health_edu_transit",
-      "name": "Child Care Support",
-      "guidance": "Subsidies; availability; quality; costs."
-    },
-    {
-      "id": "public_services_health_edu_transit_family_policy_common_family",
-      "categoryId": "public_services_health_edu_transit",
-      "name": "Family Policy (Common Family)",
-      "guidance": "Typical household structures; benefits."
-    },
-    {
-      "id": "public_services_health_edu_transit_education",
-      "categoryId": "public_services_health_edu_transit",
-      "name": "Education",
-      "guidance": "K-12 quality; higher ed; language of instruction; costs."
-    },
-    {
-      "id": "public_services_health_edu_transit_public_transportation",
-      "categoryId": "public_services_health_edu_transit",
-      "name": "Public Transportation",
-      "guidance": "Coverage, frequency, reliability; car dependency."
-    },
-    {
-      "id": "financial_and_tax_economic_system",
-      "categoryId": "financial_and_tax",
-      "name": "Economic System",
-      "guidance": "Market characteristics; social safety nets."
-    },
-    {
-      "id": "financial_and_tax_how_taxes_are_handled",
-      "categoryId": "financial_and_tax",
-      "name": "How Taxes Are Handled",
-      "guidance": "Filing process; PAYE; joint vs. individual."
-    },
-    {
-      "id": "financial_and_tax_expected_tax_rate_our_family",
-      "categoryId": "financial_and_tax",
-      "name": "Expected Tax Rate (Our Family)",
-      "guidance": "Income bands; social contributions; credits."
-    },
-    {
       "id": "financial_and_tax_banking_and_payments",
       "categoryId": "financial_and_tax",
       "name": "Banking & Payments",
@@ -545,6 +11,24 @@
       "categoryId": "financial_and_tax",
       "name": "Cost of Living (Optional)",
       "guidance": "Housing, groceries, transit vs. benchmark city."
+    },
+    {
+      "id": "financial_and_tax_economic_system",
+      "categoryId": "financial_and_tax",
+      "name": "Economic System",
+      "guidance": "Market characteristics; social safety nets."
+    },
+    {
+      "id": "financial_and_tax_expected_tax_rate_our_family",
+      "categoryId": "financial_and_tax",
+      "name": "Expected Tax Rate (Our Family)",
+      "guidance": "Income bands; social contributions; credits."
+    },
+    {
+      "id": "financial_and_tax_how_taxes_are_handled",
+      "categoryId": "financial_and_tax",
+      "name": "How Taxes Are Handled",
+      "guidance": "Filing process; PAYE; joint vs. individual."
     },
     {
       "id": "financial_and_tax_retirement_citizens",
@@ -559,40 +43,622 @@
       "guidance": "Eligibility for temporary/permanent residents; portability."
     },
     {
-      "id": "migration_and_residency_visa_paths",
-      "categoryId": "migration_and_residency",
-      "name": "Visa Paths",
-      "guidance": "Work, startup, family, student; eligibility and quotas."
+      "id": "gender_equality_and_norms_femininity_norms",
+      "categoryId": "gender_equality_and_norms",
+      "name": "Femininity Norms",
+      "guidance": "Appearance, behavior expectations; safety."
     },
     {
-      "id": "migration_and_residency_welcoming_of_us_migrants",
-      "categoryId": "migration_and_residency",
-      "name": "Welcoming of US Migrants",
-      "guidance": "Social attitudes; official stance."
+      "id": "gender_equality_and_norms_gender_fluidity",
+      "categoryId": "gender_equality_and_norms",
+      "name": "Gender Fluidity",
+      "guidance": "Social visibility; non-binary recognition."
     },
     {
-      "id": "migration_and_residency_residency_types_and_durations",
-      "categoryId": "migration_and_residency",
-      "name": "Residency Types & Durations",
-      "guidance": "TRP/PR; renewals; physical presence rules."
+      "id": "gender_equality_and_norms_gender_rights",
+      "categoryId": "gender_equality_and_norms",
+      "name": "Gender Rights",
+      "guidance": "Legal protections; workplace equality; parental leave."
     },
     {
-      "id": "migration_and_residency_path_to_citizenship",
-      "categoryId": "migration_and_residency",
-      "name": "Path to Citizenship",
-      "guidance": "Timelines; residency years; language/civics tests."
+      "id": "gender_equality_and_norms_gender_roles",
+      "categoryId": "gender_equality_and_norms",
+      "name": "Gender Roles",
+      "guidance": "Traditional vs. egalitarian norms."
     },
     {
-      "id": "migration_and_residency_family_members",
-      "categoryId": "migration_and_residency",
-      "name": "Family Members",
-      "guidance": "Work authorization for partner; dependents' schooling."
+      "id": "gender_equality_and_norms_masculinity_norms",
+      "categoryId": "gender_equality_and_norms",
+      "name": "Masculinity Norms",
+      "guidance": "Work, emotion, caregiving expectations."
     },
     {
-      "id": "migration_and_residency_timelines_and_costs",
-      "categoryId": "migration_and_residency",
-      "name": "Timelines & Costs",
-      "guidance": "Processing times; fees; legal assistance norms."
+      "id": "governance_and_stability_authoritarian_backsliding_risk",
+      "categoryId": "governance_and_stability",
+      "name": "Authoritarian Backsliding Risk",
+      "guidance": "Media freedom; judiciary independence."
+    },
+    {
+      "id": "governance_and_stability_perceived_corruption",
+      "categoryId": "governance_and_stability",
+      "name": "Perceived Corruption",
+      "guidance": "CPI rank; enforcement; transparency."
+    },
+    {
+      "id": "governance_and_stability_political_system",
+      "categoryId": "governance_and_stability",
+      "name": "Political System",
+      "guidance": "Structure; party dynamics; electoral fairness."
+    },
+    {
+      "id": "governance_and_stability_propaganda_messaging",
+      "categoryId": "governance_and_stability",
+      "name": "Propaganda Messaging",
+      "guidance": "Common themes; impact on daily life."
+    },
+    {
+      "id": "governance_and_stability_propaganda_prevalence",
+      "categoryId": "governance_and_stability",
+      "name": "Propaganda Prevalence",
+      "guidance": "State/private media narratives; disinfo exposure."
+    },
+    {
+      "id": "governance_and_stability_religion_in_politics",
+      "categoryId": "governance_and_stability",
+      "name": "Religion in Politics",
+      "guidance": "Secularism; clerical influence."
+    },
+    {
+      "id": "governance_and_stability_social_policies",
+      "categoryId": "governance_and_stability",
+      "name": "Social Policies",
+      "guidance": "Reproductive rights; LGBTQ+ rights; antidiscrimination."
+    },
+    {
+      "id": "governance_and_stability_stability",
+      "categoryId": "governance_and_stability",
+      "name": "Stability",
+      "guidance": "Political and economic stability; protest risk."
+    },
+    {
+      "id": "governance_and_stability_state_ideology",
+      "categoryId": "governance_and_stability",
+      "name": "State Ideology",
+      "guidance": "Marxism/Socialism/Capitalism in practice and rhetoric."
+    },
+    {
+      "id": "governance_and_stability_state_of_capitalism",
+      "categoryId": "governance_and_stability",
+      "name": "State of Capitalism",
+      "guidance": "Market competition; monopolies; SME friendliness."
+    },
+    {
+      "id": "governance_and_stability_trust_in_government",
+      "categoryId": "governance_and_stability",
+      "name": "Trust in Government",
+      "guidance": "Surveys; participation; service reliability."
+    },
+    {
+      "id": "governance_and_stability_type_of_corruption",
+      "categoryId": "governance_and_stability",
+      "name": "Type of Corruption",
+      "guidance": "Petty vs. grand; sectors affected."
+    },
+    {
+      "id": "governance_and_stability_workers_rights",
+      "categoryId": "governance_and_stability",
+      "name": "Workers' Rights",
+      "guidance": "Unions, protections, termination norms, non-competes."
+    },
+    {
+      "id": "environment_and_climate_air_quality",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Air Quality",
+      "guidance": "PM2.5 annual average; seasonal spikes."
+    },
+    {
+      "id": "culture_and_values_fit_atheism",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Atheism",
+      "guidance": "Prevalence; social acceptance; religious diversity."
+    },
+    {
+      "id": "nature_and_outdoors_beach_life",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Beach Life",
+      "guidance": "Access, cleanliness, crowding, amenities, safety."
+    },
+    {
+      "id": "entertainment_and_community_boardgaming_and_tabletop",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Boardgaming & Tabletop",
+      "guidance": "FLGS density; clubs; conventions; cafes."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_body_image_fitness_pressure",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Body Image & Fitness Pressure",
+      "guidance": "Reviews cultural expectations around physique, diet, and exercise, and how judgmental the environment feels."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_broader_job_market_resilience",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Broader Job Market Resilience",
+      "guidance": "Evaluates how diversified and stable the regional economy is, and how well it weathers recessions or industry shocks."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_cancer_incidence",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Cancer Incidence",
+      "guidance": "Tracks cancer incidence trends, screening access, and environmental contributors that affect long-term family planning."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_carceral_conditions_prison_labor",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Carceral Conditions & Prison Labor",
+      "guidance": "Examines prison conditions, treatment of incarcerated people, and reliance on prison labor in the justice system."
+    },
+    {
+      "id": "family_friendliness_child_friendliness_of_cities",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Child-Friendliness of Cities",
+      "guidance": "Playgrounds, parks, cafes; breastfeeding norms."
+    },
+    {
+      "id": "family_friendliness_childcare_support_citizens",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Childcare Support (Citizens)",
+      "guidance": "Subsidies/vouchers/leave for citizens; eligibility and amounts."
+    },
+    {
+      "id": "family_friendliness_childcare_support_visa_holders",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Childcare Support (Visa Holders)",
+      "guidance": "Access for non-citizens; waiting periods; documentation hurdles."
+    },
+    {
+      "id": "entertainment_and_community_common_hobbies",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Common Hobbies",
+      "guidance": "Popular pastimes; outdoor/indoor balance."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_community_health_consciousness",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Community Health Consciousness",
+      "guidance": "Assesses how strongly locals emphasize preventive health, fitness, and wellness resources accessible to families."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_community_living_opportunities",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Community Living Opportunities",
+      "guidance": "Reviews access to co-housing, eco-villages, intentional communities, and supportive shared living models for families."
+    },
+    {
+      "id": "culture_and_values_fit_community_vibes",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Community Vibes",
+      "guidance": "Friendliness to newcomers; social clubs; expat density."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_controlled_substance_policies",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Controlled Substance Policies",
+      "guidance": "Looks at how the jurisdiction regulates recreational substances, harm reduction, and proportional penalties."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_depression_prevalence",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Depression Prevalence",
+      "guidance": "Considers mental health statistics, stigma, and support systems addressing depression across the community."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_depth_seeking_social_norms",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Depth-Seeking Social Norms",
+      "guidance": "Reflects how quickly relationships move beyond small talk into meaningful friendship and mutual support."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_drug_enforcement_climate",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Drug Enforcement Climate",
+      "guidance": "Captures how policing, courts, and community norms handle drug-related activity in practice."
+    },
+    {
+      "id": "environment_and_climate_environment",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Environment",
+      "guidance": "Overall environmental quality; protected areas; biodiversity."
+    },
+    {
+      "id": "environment_and_climate_fall_temperature_range_c_f",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Fall Temperature Range (C/F)",
+      "guidance": "Typical min–max; onset of rains/winds; daylight changes."
+    },
+    {
+      "id": "family_friendliness_family_life",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Family Life",
+      "guidance": "Family-friendly amenities; school schedules; work-family balance."
+    },
+    {
+      "id": "family_friendliness_family_policy_citizens",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Family Policy (Citizens)",
+      "guidance": "Parental leave, child benefits, tax credits for citizens."
+    },
+    {
+      "id": "family_friendliness_family_policy_visa_holders",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Family Policy (Visa Holders)",
+      "guidance": "Which benefits extend to temporary residents; waiting periods."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_fashion_style_expectations",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Fashion & Style Expectations",
+      "guidance": "Considers how much locals value trendiness, designer labels, and sartorial polish across daily life."
+    },
+    {
+      "id": "culture_and_values_fit_fashion_trends_female",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Fashion Trends (Female)",
+      "guidance": "Prevailing attractive styles; modesty norms; body positivity; swimwear."
+    },
+    {
+      "id": "culture_and_values_fit_fashion_trends_male",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Fashion Trends (Male)",
+      "guidance": "Prevailing attractive styles; modesty norms; body positivity; swimwear."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_firearm_laws_ownership_culture",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Firearm Laws & Ownership Culture",
+      "guidance": "Evaluates gun prevalence, regulation, and community attitudes toward firearms impacting perceived safety."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_flirting_boundaries_consent_culture",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Flirting Boundaries & Consent Culture",
+      "guidance": "Analyzes norms around flirting, consent education, and respect for boundaries in social and nightlife settings."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_fresh_international_cuisine_access",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Fresh & International Cuisine Access",
+      "guidance": "Evaluates availability of fresh produce, farmers markets, and diverse international dining that aligns with the family's palate."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_friendliness_neighborliness_index",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Friendliness & Neighborliness Index",
+      "guidance": "Summarizes day-to-day warmth, neighborly help, and whether newcomers can easily build casual support networks."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_gendered_flirting_expectations",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Gendered Flirting Expectations",
+      "guidance": "Looks at how rigid gender roles shape dating and social interactions, and whether nontraditional dynamics are accepted."
+    },
+    {
+      "id": "environment_and_climate_global_warming_risk",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Global Warming Risk",
+      "guidance": "Sea-level, heatwaves, drought, wildfire, flood risk."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_grooming_beauty_investment",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Grooming & Beauty Investment",
+      "guidance": "Examines how much time and money locals spend on appearance, and the pressure for the family to match those standards."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_group_multi_partner_relationship_attitudes",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Group & Multi-Partner Relationship Attitudes",
+      "guidance": "Measures openness toward triads, quads, and intentional multi-partner households beyond traditional couples."
+    },
+    {
+      "id": "family_friendliness_higher_education_access_citizens",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Higher Education Access (Citizens)",
+      "guidance": "Tuition, financial aid, admission competitiveness for citizens."
+    },
+    {
+      "id": "family_friendliness_higher_education_access_visa_holders",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Higher Education Access (Visa Holders)",
+      "guidance": "Eligibility, international tuition, scholarships for non-citizens."
+    },
+    {
+      "id": "governance_and_stability_housing_situation",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Housing Situation",
+      "guidance": "Availability; renting norms; tenant protections; prices."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_immigrant_sentiment_general",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Immigrant Sentiment – General",
+      "guidance": "Captures public attitudes toward immigrants overall, including policy tone, media narratives, and day-to-day acceptance."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_immigrant_sentiment_white_migrants",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Immigrant Sentiment – White Migrants",
+      "guidance": "Examines how white immigrants specifically are received, including assumptions of privilege or outsider status."
+    },
+    {
+      "id": "family_friendliness_k_12_education_access_citizens",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "K-12 Education Access (Citizens)",
+      "guidance": "Enrollment ease; zoning; costs; secular options."
+    },
+    {
+      "id": "family_friendliness_k_12_education_access_visa_holders",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "K-12 Education Access (Visa Holders)",
+      "guidance": "Eligibility by status; fees; language support; secular options."
+    },
+    {
+      "id": "culture_and_values_fit_lgbtq_attitudes",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "LGBTQ+ Attitudes",
+      "guidance": "Social acceptance; legal protections (see Rights below)."
+    },
+    {
+      "id": "culture_and_values_fit_language_and_english_ubiquity",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Language & English Ubiquity",
+      "guidance": "English proficiency; necessity of local language."
+    },
+    {
+      "id": "culture_and_values_fit_marxism_societal_attitudes",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Marxism (Societal Attitudes)",
+      "guidance": "Public discourse; historical context."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_mass_violence_incidence",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Mass Violence Incidence",
+      "guidance": "Rates the frequency of mass shootings, terror attacks, and large-scale violent incidents impacting sense of safety."
+    },
+    {
+      "id": "entertainment_and_community_meetups_and_communities",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Meetups & Communities",
+      "guidance": "Tech, game dev, parenting, LGBTQ+, poly groups."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_monogamy_vs_non_monogamy_acceptance",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Monogamy vs. Non-Monogamy Acceptance",
+      "guidance": "Evaluates cultural comfort with polyamory, open relationships, and families choosing non-monogamous structures."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_moral_honesty_openness_expectations",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Moral, Honesty & Openness Expectations",
+      "guidance": "Explores cultural norms around candor, sharing personal truths, and how communities respond to vulnerability or mistakes."
+    },
+    {
+      "id": "nature_and_outdoors_natural_beauty",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Natural Beauty",
+      "guidance": "Landscapes, parks, hiking, diving; ease of access."
+    },
+    {
+      "id": "environment_and_climate_natural_disasters",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Natural Disasters",
+      "guidance": "Earthquake/volcano/hurricane exposure; building codes."
+    },
+    {
+      "id": "entertainment_and_community_nature_access",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Nature Access",
+      "guidance": "Day-trip options; weekend getaways."
+    },
+    {
+      "id": "entertainment_and_community_nightlife_and_music",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Nightlife & Music",
+      "guidance": "Venues; noise norms; live scenes."
+    },
+    {
+      "id": "culture_and_values_fit_nightlife_culture",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Nightlife Culture",
+      "guidance": "Evening norms; venues; safety; opening hours; family-friendliness."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_obesity_rate",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Obesity Rate",
+      "guidance": "Reviews obesity prevalence and whether health systems, culture, and infrastructure mitigate the risks."
+    },
+    {
+      "id": "family_friendliness_parenting_expectations",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Parenting Expectations",
+      "guidance": "Discipline norms; extracurricular load; autonomy."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_personal_boundary_bubble_norms",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Personal Boundary & Bubble Norms",
+      "guidance": "Assesses expectations for physical space, touch, and how people signal comfort zones in social settings."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_personal_space_touch_norms",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Personal Space & Touch Norms",
+      "guidance": "Focuses on how cultures handle greetings, casual touch, and crowding—critical for neurodiversity comfort."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_pleasant_weather_windows",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Pleasant Weather Windows",
+      "guidance": "Measures how many months deliver comfortable temperatures, humidity, and precipitation so the family can enjoy outdoor life."
+    },
+    {
+      "id": "family_friendliness_polyamory",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Polyamory",
+      "guidance": "Social acceptance; legal risks; custody implications."
+    },
+    {
+      "id": "family_friendliness_pre_k_early_childcare_landscape",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Pre-K / Early Childcare Landscape",
+      "guidance": "What care looks like before public school: availability, hours, costs."
+    },
+    {
+      "id": "family_friendliness_private_education",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Private Education",
+      "guidance": "Availability; typical costs; secular vs denominational; admissions."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_processed_food_saturation",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Processed Food Saturation",
+      "guidance": "Measures prevalence of ultra-processed foods in stores, schools, and advertising versus whole food availability."
+    },
+    {
+      "id": "culture_and_values_fit_progressivism",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Progressivism",
+      "guidance": "Social liberalism; civil liberties; inclusion."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_promiscuity_attitudes",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Promiscuity Attitudes",
+      "guidance": "Considers moral views on casual sex and whether people feel judged for having or discussing multiple partners."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_quality_of_life_higher_income_tier",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Quality of Life – Higher-Income Tier",
+      "guidance": "Evaluates whether affluent families enjoy frictionless services, luxury experiences, and wealth stewardship without social backlash."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_quality_of_life_lower_income_tier",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Quality of Life – Lower-Income Tier",
+      "guidance": "Assesses how supportive the city is for lower-income households: housing stability, public benefits, neighborhood safety, and mobility to improve circumstances."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_quality_of_life_middle_income_tier",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Quality of Life – Middle-Income Tier",
+      "guidance": "Looks at how comfortably a typical professional household can thrive: housing choice, disposable income, services, and work-life harmony."
+    },
+    {
+      "id": "governance_and_stability_safety_and_crime",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Safety & Crime",
+      "guidance": "Violent/property crime; hate crime risk; policing."
+    },
+    {
+      "id": "family_friendliness_schooling_options",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Schooling Options",
+      "guidance": "Public vs. private; language tracks; international schools."
+    },
+    {
+      "id": "nature_and_outdoors_seasonal_beach_water_temp",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Seasonal Beach Water Temp",
+      "guidance": "Monthly SST; comfortable swim months."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_seasonal_extremes_variability",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Seasonal Extremes & Variability",
+      "guidance": "Captures how volatile and hazardous seasonal swings are, from temperature spikes to sudden storms, and how much they disrupt daily routines."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_seasonal_sunlight_hours",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Seasonal Sunlight Hours",
+      "guidance": "Evaluates daylight balance across the year and how much seasonal darkness or midnight sun affects mood, sleep, and routine."
+    },
+    {
+      "id": "environment_and_climate_seasonal_weather",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Seasonal Weather",
+      "guidance": "Temp/precip by season; humidity; daylight; storms."
+    },
+    {
+      "id": "culture_and_values_fit_sex_attitudes",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Sex (Attitudes)",
+      "guidance": "Public norms; sex education; media openness."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_spacious_housing_benchmark_2k_sq_ft_rent",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "guidance": "Tracks availability and cost of renting a roughly 2,000 sq ft family home in safe, convenient neighborhoods."
+    },
+    {
+      "id": "environment_and_climate_spring_temperature_range_c_f",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Spring Temperature Range (C/F)",
+      "guidance": "Typical min–max daytime temps; note humidity and rain."
+    },
+    {
+      "id": "environment_and_climate_summer_temperature_range_c_f",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Summer Temperature Range (C/F)",
+      "guidance": "Typical min–max; comment on humidity/heat index and nights."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_surface_interaction_norms",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Surface Interaction Norms",
+      "guidance": "Describes expectations for casual social exchanges—small talk, customer service warmth, and day-to-day civility."
+    },
+    {
+      "id": "culture_and_values_fit_view_of_neighboring_countries",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "View of Neighboring Countries",
+      "guidance": "How do they generally view their neighboring countries."
+    },
+    {
+      "id": "culture_and_values_fit_view_of_them_by_neighboring_countries",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "View of Them by Neighboring Countries",
+      "guidance": "How do neighboring countries generally view them."
+    },
+    {
+      "id": "culture_and_values_fit_view_of_self",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "View of self",
+      "guidance": "How do they generally view themselves."
+    },
+    {
+      "id": "holistic_lifestyle_and_integration_walkability_pedestrian_safety",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Walkability & Pedestrian Safety",
+      "guidance": "Evaluates sidewalk coverage, safe crossings, traffic calming, and how easily the family can rely on walking daily."
+    },
+    {
+      "id": "culture_and_values_fit_what_is_intriguing",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "What Is Intriguing",
+      "guidance": "Unique cultural draws; lifestyle perks."
+    },
+    {
+      "id": "environment_and_climate_winter_temperature_range_c_f",
+      "categoryId": "holistic_lifestyle_and_integration",
+      "name": "Winter Temperature Range (C/F)",
+      "guidance": "Typical min–max; snow/ice frequency; damp cold vs dry cold."
     },
     {
       "id": "migration_and_residency_compliance_and_risks",
@@ -607,10 +673,88 @@
       "guidance": "Whether dual nationality is recognized; restrictions and exceptions."
     },
     {
+      "id": "migration_and_residency_family_members",
+      "categoryId": "migration_and_residency",
+      "name": "Family Members",
+      "guidance": "Work authorization for partner; dependents' schooling."
+    },
+    {
       "id": "migration_and_residency_general_considerations_for_visa_holders",
       "categoryId": "migration_and_residency",
       "name": "General Considerations for Visa Holders",
       "guidance": "Restrictions affecting schooling, benefits, banking, housing, travel."
+    },
+    {
+      "id": "migration_and_residency_path_to_citizenship",
+      "categoryId": "migration_and_residency",
+      "name": "Path to Citizenship",
+      "guidance": "Timelines; residency years; language/civics tests."
+    },
+    {
+      "id": "migration_and_residency_residency_types_and_durations",
+      "categoryId": "migration_and_residency",
+      "name": "Residency Types & Durations",
+      "guidance": "TRP/PR; renewals; physical presence rules."
+    },
+    {
+      "id": "migration_and_residency_timelines_and_costs",
+      "categoryId": "migration_and_residency",
+      "name": "Timelines & Costs",
+      "guidance": "Processing times; fees; legal assistance norms."
+    },
+    {
+      "id": "migration_and_residency_visa_paths",
+      "categoryId": "migration_and_residency",
+      "name": "Visa Paths",
+      "guidance": "Work, startup, family, student; eligibility and quotas."
+    },
+    {
+      "id": "migration_and_residency_welcoming_of_us_migrants",
+      "categoryId": "migration_and_residency",
+      "name": "Welcoming of US Migrants",
+      "guidance": "Social attitudes; official stance."
+    },
+    {
+      "id": "modernity_and_infrastructure_modernity_and_infrastructure",
+      "categoryId": "modernity_and_infrastructure",
+      "name": "Modernity & Infrastructure",
+      "guidance": "Internet speed; payments; e-gov; grid."
+    },
+    {
+      "id": "public_services_health_edu_transit_child_care_support",
+      "categoryId": "public_services_health_edu_transit",
+      "name": "Child Care Support",
+      "guidance": "Subsidies; availability; quality; costs."
+    },
+    {
+      "id": "public_services_health_edu_transit_education",
+      "categoryId": "public_services_health_edu_transit",
+      "name": "Education",
+      "guidance": "K-12 quality; higher ed; language of instruction; costs."
+    },
+    {
+      "id": "public_services_health_edu_transit_family_policy_common_family",
+      "categoryId": "public_services_health_edu_transit",
+      "name": "Family Policy (Common Family)",
+      "guidance": "Typical household structures; benefits."
+    },
+    {
+      "id": "public_services_health_edu_transit_healthcare_citizens",
+      "categoryId": "public_services_health_edu_transit",
+      "name": "Healthcare (Citizens)",
+      "guidance": "Coverage model; quality; access times; costs."
+    },
+    {
+      "id": "public_services_health_edu_transit_healthcare_visa_holders",
+      "categoryId": "public_services_health_edu_transit",
+      "name": "Healthcare (Visa Holders)",
+      "guidance": "Eligibility; insurance requirements; wait times."
+    },
+    {
+      "id": "public_services_health_edu_transit_public_transportation",
+      "categoryId": "public_services_health_edu_transit",
+      "name": "Public Transportation",
+      "guidance": "Coverage, frequency, reliability; car dependency."
     },
     {
       "id": "startup_and_game_dev_ecosystem_game_dev_work_prospects",
@@ -619,16 +763,16 @@
       "guidance": "Openings; indie vs. AAA; publishing ecosystem."
     },
     {
-      "id": "startup_and_game_dev_ecosystem_notable_game_studios",
-      "categoryId": "startup_and_game_dev_ecosystem",
-      "name": "Notable Game Studios",
-      "guidance": "Names, locations, size; hiring climate."
-    },
-    {
       "id": "startup_and_game_dev_ecosystem_notable_game_development_communities",
       "categoryId": "startup_and_game_dev_ecosystem",
       "name": "Notable Game Development Communities",
       "guidance": "Names, locations, size; value proposition."
+    },
+    {
+      "id": "startup_and_game_dev_ecosystem_notable_game_studios",
+      "categoryId": "startup_and_game_dev_ecosystem",
+      "name": "Notable Game Studios",
+      "guidance": "Names, locations, size; hiring climate."
     },
     {
       "id": "startup_and_game_dev_ecosystem_opportunities_for_video_game_startup",
@@ -637,10 +781,88 @@
       "guidance": "Visas, grants, incubators, publishers."
     },
     {
-      "id": "modernity_and_infrastructure_modernity_and_infrastructure",
-      "categoryId": "modernity_and_infrastructure",
-      "name": "Modernity & Infrastructure",
-      "guidance": "Internet speed; payments; e-gov; grid."
+      "id": "work_life_balance_pace_of_life",
+      "categoryId": "work_life_balance",
+      "name": "Pace of Life",
+      "guidance": "City vs. regional differences; commute times."
+    },
+    {
+      "id": "work_life_balance_typical_weekend_schedule_family_of_four",
+      "categoryId": "work_life_balance",
+      "name": "Typical Weekend Schedule (Family of Four)",
+      "guidance": "Typical weekend rhythms; opening hours; family activities."
+    },
+    {
+      "id": "work_life_balance_typical_workday_schedule_family_of_four",
+      "categoryId": "work_life_balance",
+      "name": "Typical Workday Schedule (Family of Four)",
+      "guidance": "Common school/work hours; lunch length; after-school care patterns."
+    },
+    {
+      "id": "work_life_balance_vacation_days_minimum",
+      "categoryId": "work_life_balance",
+      "name": "Vacation Days (Minimum)",
+      "guidance": "Legal floor incl. public holidays."
+    },
+    {
+      "id": "work_life_balance_vacation_days_typical",
+      "categoryId": "work_life_balance",
+      "name": "Vacation Days (Typical)",
+      "guidance": "Common practice for tech roles."
+    },
+    {
+      "id": "work_life_balance_work_week_hours",
+      "categoryId": "work_life_balance",
+      "name": "Work Week Hours",
+      "guidance": "Statutory vs. typical; overtime norms."
+    },
+    {
+      "id": "work_life_balance_work_life_balance",
+      "categoryId": "work_life_balance",
+      "name": "Work-Life Balance",
+      "guidance": "Cultural norms; after-hours boundaries."
+    },
+    {
+      "id": "work_opportunities_net_work_prospects",
+      "categoryId": "work_opportunities",
+      "name": ".NET Work Prospects",
+      "guidance": "Market demand; top employers; remote vs. onsite."
+    },
+    {
+      "id": "work_opportunities_economic_health",
+      "categoryId": "work_opportunities",
+      "name": "Economic Health",
+      "guidance": "GDP growth, unemployment, inflation snapshot."
+    },
+    {
+      "id": "work_opportunities_employer_visa_sponsorship",
+      "categoryId": "work_opportunities",
+      "name": "Employer Visa Sponsorship",
+      "guidance": "Common/rare; processing reliability."
+    },
+    {
+      "id": "work_opportunities_minimum_wage",
+      "categoryId": "work_opportunities",
+      "name": "Minimum Wage",
+      "guidance": "National/sectoral; enforcement; living wage comparison."
+    },
+    {
+      "id": "work_opportunities_remote_friendly_culture",
+      "categoryId": "work_opportunities",
+      "name": "Remote-Friendly Culture",
+      "guidance": "Hybrid norms; coworking; time-zone alignment."
+    },
+    {
+      "id": "work_opportunities_ruby_work_prospects",
+      "categoryId": "work_opportunities",
+      "name": "Ruby Work Prospects",
+      "guidance": "Market demand; key sectors; frameworks in use."
+    },
+    {
+      "id": "work_opportunities_typical_software_salaries",
+      "categoryId": "work_opportunities",
+      "name": "Typical Software Salaries",
+      "guidance": ".NET / Ruby / Game dev ranges; senior vs. mid."
     }
   ]
 }

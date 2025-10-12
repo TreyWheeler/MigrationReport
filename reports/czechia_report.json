@@ -2,112 +2,725 @@
   "version": 2,
   "iso": "CZ",
   "values": [
-    {"key": "Environment", "alignmentText": "Extensive forests, well-maintained parks, and EU environmental enforcement keep air and water quality generally high, giving the family easy access to green space near Prague and Brno.", "alignmentValue": 7},
-    {"key": "Global Warming Risk", "alignmentText": "Being inland avoids sea-level threats, yet Central Europe now sees multi-year droughts, bark beetle die-offs, and heatwaves every few summers, so the family should plan for recurring water and forest-stress disruptions.", "alignmentValue": 5},
-    {"key": "Seasonal Weather", "alignmentText": "The country swings from pleasantly warm summers to grey, chilly winters; shoulder seasons can be damp, so overall comfort is mixed for a family seeking mild weather.", "alignmentValue": 5},
-    {"key": "Air Quality", "alignmentText": "Cities usually meet EU PM2.5 limits with gas heating and tram-focused commuting, yet winter inversions around Ostrava and Prague trigger several smog days each month that call for monitoring and occasional indoor days for sensitive family members.", "alignmentValue": 7},
-    {"key": "Natural Disasters", "alignmentText": "Major earthquakes and hurricanes are absent; the main risks are Vltava basin floods and localized windstorms, which authorities monitor closely with modern defenses.", "alignmentValue": 7},
-    {"key": "Spring Temperature Range (C/F)", "alignmentText": "March–May daytime highs typically run 10–18 °C (50–64 °F) with cool nights and intermittent rain as the country transitions out of winter.", "alignmentValue": 5},
-    {"key": "Summer Temperature Range (C/F)", "alignmentText": "June–August averages hover around 15–26 °C (59–79 °F); humidity is moderate, though sporadic heatwaves now spike into the 30s °C (mid-80s °F).", "alignmentValue": 6},
-    {"key": "Fall Temperature Range (C/F)", "alignmentText": "September brings 10–20 °C (50–68 °F) days before October–November settle into 5–12 °C (41–54 °F) with frequent drizzle and early sunsets.", "alignmentValue": 6},
-    {"key": "Winter Temperature Range (C/F)", "alignmentText": "December–February highs sit near 0–5 °C (32–41 °F), with freezing nights, damp chill, and occasional snow that can linger in urban streets.", "alignmentValue": 4},
-    {"key": "Beach Life", "alignmentText": "Czechia is landlocked; summer recreation centers on lakes and reservoirs rather than true beaches, so seaside culture is limited.", "alignmentValue": 2},
-    {"key": "Seasonal Beach Water Temp", "alignmentText": "Reservoirs like Lipno warm to roughly 20–23 °C (68–73 °F) in midsummer but remain too cool for extended swimming in spring or fall.", "alignmentValue": 2},
-    {"key": "Natural Beauty", "alignmentText": "Bohemian Switzerland sandstone cliffs, Moravian karst caves, and mountain national parks offer varied landscapes with dense trail networks for weekend excursions.", "alignmentValue": 7},
-    {"key": "Minimum Wage", "alignmentText": "The 2024 gross minimum wage is about 18,900 CZK (≈$810) per month, which trails local living wage benchmarks in Prague and would not cover expat family costs.", "alignmentValue": 4},
-    {"key": "Typical Software Salaries", "alignmentText": "Senior developers in Prague earn roughly 80,000–120,000 CZK monthly (≈$3.6–5.4k gross), enough for local comfort but lower than Western Europe for the same roles.", "alignmentValue": 5},
-    {"key": ".NET Work Prospects", "alignmentText": "Banks, telecoms, and consultancies in Prague and Brno maintain solid .NET teams, and remote-friendly multinationals recruit regionally, giving Trey steady options.", "alignmentValue": 6},
-    {"key": "Ruby Work Prospects", "alignmentText": "Ruby shops exist—especially agencies serving German clients—but the ecosystem is small compared to Java/.NET, so Sarah would rely on remote roles or niche firms.", "alignmentValue": 4},
-    {"key": "Employer Visa Sponsorship", "alignmentText": "EU Blue Card and employee card routes exist yet require employers to prove local shortages; tech firms sponsor selectively and paperwork can drag for months.", "alignmentValue": 5},
-    {"key": "Economic Health", "alignmentText": "The economy is diversified with low unemployment, but inflation after 2022 and export exposure to Germany make near-term growth moderate rather than booming.", "alignmentValue": 6},
-    {"key": "Remote-Friendly Culture", "alignmentText": "Pandemic-era shifts made hybrid work common in tech; coworking hubs like Impact Hub Prague and CETIN fiber enable reliable remote collaboration within CET hours.", "alignmentValue": 7},
-    {"key": "Work-Life Balance", "alignmentText": "Managers typically respect after-hours boundaries, and statutory leave plus widespread spa culture reinforce a healthier balance than many US workplaces.", "alignmentValue": 7},
-    {"key": "Work Week Hours", "alignmentText": "A 40-hour week is standard, with overtime requiring consent and compensation; tech teams often run 9–5 or 10–6 schedules.", "alignmentValue": 6},
-    {"key": "Vacation Days (Minimum)", "alignmentText": "Employees receive at least four weeks of paid leave plus 13 public holidays, aligning with the family's desire for predictable downtime.", "alignmentValue": 8},
-    {"key": "Vacation Days (Typical)", "alignmentText": "White-collar staff frequently accrue 5 weeks through tenure perks, though smaller startups may stick to the legal minimum.", "alignmentValue": 7},
-    {"key": "Pace of Life", "alignmentText": "Prague blends lively urban energy with manageable commutes under 40 minutes; outside the capital the rhythm slows considerably, suiting Sarah's preference for calmer days.", "alignmentValue": 6},
-    {"key": "Typical Workday Schedule (Family of Four)", "alignmentText": "Schools start around 8 a.m. and end 1–3 p.m.; offices begin 8:30–9 a.m., so families often use after-school clubs or grandparents to bridge the afternoon gap.", "alignmentValue": 6},
-    {"key": "Typical Weekend Schedule (Family of Four)", "alignmentText": "Weekends center on day trips to castles, forests, and aquaparks; most shops stay open, and community events crowd spring-to-fall calendars.", "alignmentValue": 7},
-    {"key": "Family Life", "alignmentText": "Strong grandparent involvement and plentiful playgrounds help families thrive, yet public discourse can be conservative toward non-traditional relationship structures.", "alignmentValue": 6},
-    {"key": "Polyamory", "alignmentText": "Polyamory lacks legal recognition and remains largely private; urban circles are tolerant but broader society skews conservative, limiting openness.", "alignmentValue": 3},
-    {"key": "Parenting Expectations", "alignmentText": "Parents emphasize education, organized activities, and respectful behavior; expectations are structured but not as high-pressure as East Asian contexts.", "alignmentValue": 6},
-    {"key": "Child-Friendliness of Cities", "alignmentText": "Prague's trams accommodate strollers, parks are plentiful, and museums cater to kids, though cobblestones and older buildings can pose accessibility hurdles.", "alignmentValue": 7},
-    {"key": "Schooling Options", "alignmentText": "Public basic schools are solid, and Prague hosts bilingual and international academies, yet English-heavy options fill quickly and charge high tuition.", "alignmentValue": 6},
-    {"key": "Pre-K / Early Childcare Landscape", "alignmentText": "State kindergartens become guaranteed from age 3, but spots for toddlers under 3 remain limited, pushing families toward private nurseries or nanny shares.", "alignmentValue": 5},
-    {"key": "Childcare Support (Citizens)", "alignmentText": "Citizens receive child allowances and subsidized preschool, though benefits are modest compared with Nordic benchmarks.", "alignmentValue": 6},
-    {"key": "Childcare Support (Visa Holders)", "alignmentText": "Non-EU residents can enroll children but seldom qualify for cash allowances, and private creches cost 10–15k CZK monthly.", "alignmentValue": 4},
-    {"key": "K-12 Education Access (Citizens)", "alignmentText": "Compulsory education is free through age 15 with robust STEM tracks and language electives expanding in urban schools.", "alignmentValue": 7},
-    {"key": "K-12 Education Access (Visa Holders)", "alignmentText": "Foreign children may attend public schools, yet Czech-language instruction dominates and integration support varies by district.", "alignmentValue": 6},
-    {"key": "Private Education", "alignmentText": "International schools (ISP, Riverside) offer IB curricula but charge €15k+ annually, limiting accessibility without employer subsidies.", "alignmentValue": 5},
-    {"key": "Family Policy (Citizens)", "alignmentText": "Parents can take up to three years of parental leave with flexible benefit pacing, alongside birth grants and housing supplements for low-income families.", "alignmentValue": 7},
-    {"key": "Family Policy (Visa Holders)", "alignmentText": "Long-term residents can access parental allowances after meeting insurance requirements, but temporary visa holders often receive only unpaid leave.", "alignmentValue": 5},
-    {"key": "Higher Education Access (Citizens)", "alignmentText": "Public universities are tuition-free in Czech, and students enjoy subsidized dorms and transport discounts across the country.", "alignmentValue": 8},
-    {"key": "Higher Education Access (Visa Holders)", "alignmentText": "English-language programs exist at Charles University and ČVUT with fees €3–7k per year, and visa students must prove finances up front.", "alignmentValue": 6},
-    {"key": "Gender Roles", "alignmentText": "Dual-income households are common, yet surveys show women still handle most childcare, reflecting lingering traditional expectations.", "alignmentValue": 5},
-    {"key": "Gender Fluidity", "alignmentText": "Legal recognition for nonbinary identities is absent and public understanding remains limited outside activist circles.", "alignmentValue": 3},
-    {"key": "Gender Rights", "alignmentText": "Anti-discrimination laws cover gender and orientation, and reproductive healthcare is accessible, but pay gaps and leadership representation lag EU averages.", "alignmentValue": 6},
-    {"key": "Femininity Norms", "alignmentText": "Urban professionals embrace modern European fashion, yet beauty standards still expect polished presentation and slim silhouettes.", "alignmentValue": 5},
-    {"key": "Masculinity Norms", "alignmentText": "Masculinity often leans toward stoic pragmatism, with emotional openness still emerging, though younger cohorts are more flexible.", "alignmentValue": 4},
-    {"key": "What Is Intriguing", "alignmentText": "The mix of gothic history, modern design, and vibrant cafe culture offers constant discovery, from Prague's art scene to Moravian wine country.", "alignmentValue": 7},
-    {"key": "Language & English Ubiquity", "alignmentText": "English is widely spoken in Prague tech and tourism sectors, but proficiency drops sharply in bureaucracy and smaller towns, requiring Czech for daily affairs.", "alignmentValue": 5},
-    {"key": "Progressivism", "alignmentText": "Urban voters favor liberal parties and civic protests, yet national politics remain centrist with conservative currents on social policy.", "alignmentValue": 5},
-    {"key": "Marxism (Societal Attitudes)", "alignmentText": "Decades under communist rule leave skepticism toward Marxist rhetoric, though academic debates persist and far-left parties hold minimal sway.", "alignmentValue": 4},
-    {"key": "Atheism", "alignmentText": "One of Europe's most secular countries, Czechia sees low church attendance and broad acceptance of non-religious worldviews.", "alignmentValue": 8},
-    {"key": "Sex (Attitudes)", "alignmentText": "Sex education is pragmatic and public nudity at saunas or spas is normalized, yet public discourse on non-monogamy remains discreet.", "alignmentValue": 6},
-    {"key": "LGBTQ+ Attitudes", "alignmentText": "Civil partnerships have existed since 2006 and Pride draws large crowds, but marriage equality and joint adoption are still pending, reflecting moderate acceptance.", "alignmentValue": 5},
-    {"key": "Community Vibes", "alignmentText": "Czechs can seem reserved initially, yet neighborhood associations, expat groups, and hobby clubs foster strong bonds once trust is built.", "alignmentValue": 6},
-    {"key": "View of self", "alignmentText": "Many residents pride themselves on practicality, humor, and cultural heritage rooted in Central European identity rather than nationalism.", "alignmentValue": 6},
-    {"key": "View of Neighboring Countries", "alignmentText": "Relations with Slovakia, Germany, and Poland are cooperative within the EU, though historical rivalries surface mainly in sports banter.", "alignmentValue": 6},
-    {"key": "View of Them by Neighboring Countries", "alignmentText": "Neighbors generally see Czechia as a reliable EU partner with a thriving capital city and pragmatic politics, aiding regional integration.", "alignmentValue": 7},
-    {"key": "Nightlife Culture", "alignmentText": "Prague's late-night clubs, beer gardens, and live jazz scene keep social calendars full while smaller cities offer cozy pubs and festivals.", "alignmentValue": 8},
-    {"key": "Fashion Trends (Male)", "alignmentText": "Men mix smart-casual European styles—tailored coats, sneakers, and streetwear—with functional outdoor gear for weekend trips.", "alignmentValue": 6},
-    {"key": "Fashion Trends (Female)", "alignmentText": "Women lean toward minimalist chic and sustainable labels, echoing broader EU trends with seasonal accents from local designers.", "alignmentValue": 6},
-    {"key": "Common Hobbies", "alignmentText": "Hiking, cycling, home brewing, and castle tourism dominate leisure time, aligning with the family's outdoor and gaming interests.", "alignmentValue": 6},
-    {"key": "Boardgaming & Tabletop", "alignmentText": "Czechia boasts publishers like Czech Games Edition and multiple board-game cafes, making tabletop culture unusually vibrant.", "alignmentValue": 7},
-    {"key": "Nightlife & Music", "alignmentText": "From techno clubs at MeetFactory to classical halls like Rudolfinum, music options span genres late into the night.", "alignmentValue": 8},
-    {"key": "Meetups & Communities", "alignmentText": "Meetup groups cover tech, language exchange, queer socials, and parenting, especially concentrated in Prague's expat districts.", "alignmentValue": 7},
-    {"key": "Nature Access", "alignmentText": "Trailheads are reachable by train within an hour, so spontaneous hikes in the Bohemian highlands or cycling the Vltava are realistic weekend plans.", "alignmentValue": 7},
-    {"key": "Political System", "alignmentText": "A parliamentary republic with proportional representation and coalition governments, Czechia upholds checks and balances and competitive elections.", "alignmentValue": 8},
-    {"key": "Religion in Politics", "alignmentText": "Secularism dominates policy debates; religious parties hold minimal seats and rarely influence legislation.", "alignmentValue": 8},
-    {"key": "Workers' Rights", "alignmentText": "Labor codes guarantee paid leave, sick days, and collective bargaining, though enforcement can lag in smaller firms.", "alignmentValue": 7},
-    {"key": "State Ideology", "alignmentText": "Mainstream parties advocate EU integration and social market economics, supporting democratic norms that resonate with the family's values.", "alignmentValue": 7},
-    {"key": "Authoritarian Backsliding Risk", "alignmentText": "Populist rhetoric appears in campaigns, yet courts, media, and civil society have pushed back, keeping Freedom House scores high but not flawless.", "alignmentValue": 6},
-    {"key": "State of Capitalism", "alignmentText": "A mixed economy blends private enterprise with social insurance; regulation is lighter than in Scandinavia but stronger than in the US.", "alignmentValue": 7},
-    {"key": "Stability", "alignmentText": "Membership in the EU, NATO, and Schengen underpins political and economic stability with predictable policy trajectories.", "alignmentValue": 8},
-    {"key": "Propaganda Prevalence", "alignmentText": "Public broadcasters remain independent, though Russian disinformation networks operate online, prompting new government monitoring units.", "alignmentValue": 6},
-    {"key": "Propaganda Messaging", "alignmentText": "State messaging stresses EU solidarity and support for Ukraine, while fringe parties amplify anti-migrant narratives, creating a mixed media diet.", "alignmentValue": 6},
-    {"key": "Social Policies", "alignmentText": "Policies prioritize universal healthcare, child allowances, and housing subsidies, but coverage levels are modest compared with Nordic welfare states.", "alignmentValue": 6},
-    {"key": "Trust in Government", "alignmentText": "Public trust wavers around 35–40%, reflecting frustration with corruption scandals and slow bureaucracy.", "alignmentValue": 4},
-    {"key": "Perceived Corruption", "alignmentText": "Transparency International ranks Czechia mid-pack in the EU; procurement and regional politics still draw scrutiny despite reforms.", "alignmentValue": 4},
-    {"key": "Type of Corruption", "alignmentText": "Most concerns involve influence over public tenders and opaque party financing rather than everyday bribery, requiring vigilance for entrepreneurs.", "alignmentValue": 4},
-    {"key": "Housing Situation", "alignmentText": "Housing supply in Prague lags demand, driving rents upward and pushing families toward outlying districts or long commutes.", "alignmentValue": 4},
-    {"key": "Safety & Crime", "alignmentText": "Violent crime rates are low, and public spaces feel safe even at night, though petty theft around tourist zones persists.", "alignmentValue": 7},
-    {"key": "Healthcare (Citizens)", "alignmentText": "Universal insurance covers doctor visits, maternity care, and prescriptions with low copays, supported by dense clinic networks.", "alignmentValue": 7},
-    {"key": "Healthcare (Visa Holders)", "alignmentText": "Long-term visa holders must buy local comprehensive insurance and can access the same providers, but English-speaking doctors are concentrated in major cities.", "alignmentValue": 6},
-    {"key": "Child Care Support", "alignmentText": "Monthly parental allowances and tax bonuses help, yet the state has struggled to expand nursery capacity for children under 3.", "alignmentValue": 5},
-    {"key": "Family Policy (Common Family)", "alignmentText": "Typical families combine three-year parental leave with flexible return-to-work schemes, though benefits taper as children age.", "alignmentValue": 6},
-    {"key": "Education", "alignmentText": "Primary education delivers strong math and science scores, but instruction remains Czech-centric with limited project-based learning.", "alignmentValue": 6},
-    {"key": "Public Transportation", "alignmentText": "Integrated trams, metros, and regional trains run frequently and cheaply, making car-free living in urban areas practical.", "alignmentValue": 8},
-    {"key": "Economic System", "alignmentText": "A social market framework pairs private enterprise with mandatory insurance and active labor-market programs.", "alignmentValue": 6},
-    {"key": "How Taxes Are Handled", "alignmentText": "Income tax applies a 15% flat rate up to a cap with mandatory social contributions; filings are annual but forms and translations can frustrate newcomers.", "alignmentValue": 5},
-    {"key": "Expected Tax Rate (Our Family)", "alignmentText": "A self-employed developer would face 15% income tax plus ~45% social/health contributions on half of profits, landing near 25–30% effective.", "alignmentValue": 5},
-    {"key": "Banking & Payments", "alignmentText": "Contactless payments, instant bank transfers, and multicurrency fintech (Revolut, Wise) are mainstream, easing day-to-day finances.", "alignmentValue": 8},
-    {"key": "Cost of Living (Optional)", "alignmentText": "Prague rents are rising yet still 20–30% below Berlin, while groceries, transit passes, and childcare remain affordable by US standards.", "alignmentValue": 7},
-    {"key": "Retirement (Citizens)", "alignmentText": "State pensions replace a modest share of income, supplemented by employer third-pillar plans but facing demographic strain.", "alignmentValue": 5},
-    {"key": "Retirement (Visa Holders)", "alignmentText": "Foreigners accrue pension rights after several years of contributions, though portable benefits require bilateral agreements and paperwork.", "alignmentValue": 4},
-    {"key": "Visa Paths", "alignmentText": "Options include employee cards, EU Blue Cards, and trade license visas, yet each demands business plans, Czech contracts, or proof of economic benefit.", "alignmentValue": 4},
-    {"key": "Welcoming of US Migrants", "alignmentText": "Urban institutions and expat services accommodate Americans, but immigration offices enforce rules strictly with little hand-holding.", "alignmentValue": 5},
-    {"key": "Residency Types & Durations", "alignmentText": "Long-term residence permits renew in 1–2 year increments; permanent residence opens after five years of continuous stay.", "alignmentValue": 5},
-    {"key": "Path to Citizenship", "alignmentText": "Naturalization requires 5 years of permanent residence, a Czech B1 language exam, and civics test, making the journey achievable but time-intensive.", "alignmentValue": 4},
-    {"key": "Family Members", "alignmentText": "Spouses and children can join via family reunification, yet their status depends on the principal applicant's permit validity and income proofs.", "alignmentValue": 5},
-    {"key": "Timelines & Costs", "alignmentText": "Processing often stretches 3–6 months with translation, apostille, and biometric fees totaling several hundred dollars.", "alignmentValue": 4},
-    {"key": "Compliance & Risks", "alignmentText": "Missing insurance coverage or delayed trade license renewals can trigger fines or visa cancellation, so diligent paperwork is essential.", "alignmentValue": 4},
-    {"key": "Dual Citizenship Allowed", "alignmentText": "Czechia permits dual citizenship for naturalized residents, allowing the family to retain US passports if they complete the process.", "alignmentValue": 8},
-    {"key": "General Considerations for Visa Holders", "alignmentText": "Expect Czech-language correspondence, mandatory health insurance, and in-person reporting; hiring a local immigration lawyer is common for expats.", "alignmentValue": 4},
-    {"key": "Game Dev Work Prospects", "alignmentText": "Studios like Bohemia Interactive, Warhorse, and 2K Czech recruit engineers, and contract work for EU partners is common in Prague.", "alignmentValue": 7},
-    {"key": "Notable Game Studios", "alignmentText": "Bohemia Interactive (Arma), Warhorse Studios (Kingdom Come), Amanita Design, and Beat Games anchor a respected Czech game scene.", "alignmentValue": 8},
-    {"key": "Notable Game Development Communities", "alignmentText": "Events such as Game Developers Session, Czech Game Developers Association meetups, and VR hackathons foster tight-knit collaboration.", "alignmentValue": 7},
-    {"key": "Opportunities for Video Game Startup", "alignmentText": "Lower operating costs, EU grant access, and a pipeline of ČVUT graduates help startups, though venture funding remains smaller than Berlin or London.", "alignmentValue": 6},
-    {"key": "Modernity & Infrastructure", "alignmentText": "Fiber-to-home coverage, high-speed rail expansion, and modern hospitals signal solid infrastructure, even if highways and digital bureaucracy lag top-tier EU peers.", "alignmentValue": 7}
+    {
+      "key": "Environment",
+      "alignmentText": "Extensive forests, well-maintained parks, and EU environmental enforcement keep air and water quality generally high, giving the family easy access to green space near Prague and Brno.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Being inland avoids sea-level threats, yet Central Europe now sees multi-year droughts, bark beetle die-offs, and heatwaves every few summers, so the family should plan for recurring water and forest-stress disruptions.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "The country swings from pleasantly warm summers to grey, chilly winters; shoulder seasons can be damp, so overall comfort is mixed for a family seeking mild weather.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Cities usually meet EU PM2.5 limits with gas heating and tram-focused commuting, yet winter inversions around Ostrava and Prague trigger several smog days each month that call for monitoring and occasional indoor days for sensitive family members.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Major earthquakes and hurricanes are absent; the main risks are Vltava basin floods and localized windstorms, which authorities monitor closely with modern defenses.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "March–May daytime highs typically run 10–18 °C (50–64 °F) with cool nights and intermittent rain as the country transitions out of winter.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "June–August averages hover around 15–26 °C (59–79 °F); humidity is moderate, though sporadic heatwaves now spike into the 30s °C (mid-80s °F).",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "September brings 10–20 °C (50–68 °F) days before October–November settle into 5–12 °C (41–54 °F) with frequent drizzle and early sunsets.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "December–February highs sit near 0–5 °C (32–41 °F), with freezing nights, damp chill, and occasional snow that can linger in urban streets.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Czechia is landlocked; summer recreation centers on lakes and reservoirs rather than true beaches, so seaside culture is limited.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Reservoirs like Lipno warm to roughly 20–23 °C (68–73 °F) in midsummer but remain too cool for extended swimming in spring or fall.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Bohemian Switzerland sandstone cliffs, Moravian karst caves, and mountain national parks offer varied landscapes with dense trail networks for weekend excursions.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "The 2024 gross minimum wage is about 18,900 CZK (≈$810) per month, which trails local living wage benchmarks in Prague and would not cover expat family costs.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Senior developers in Prague earn roughly 80,000–120,000 CZK monthly (≈$3.6–5.4k gross), enough for local comfort but lower than Western Europe for the same roles.",
+      "alignmentValue": 5
+    },
+    {
+      "key": ".NET Work Prospects",
+      "alignmentText": "Banks, telecoms, and consultancies in Prague and Brno maintain solid .NET teams, and remote-friendly multinationals recruit regionally, giving Trey steady options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Ruby shops exist—especially agencies serving German clients—but the ecosystem is small compared to Java/.NET, so Sarah would rely on remote roles or niche firms.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "EU Blue Card and employee card routes exist yet require employers to prove local shortages; tech firms sponsor selectively and paperwork can drag for months.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "The economy is diversified with low unemployment, but inflation after 2022 and export exposure to Germany make near-term growth moderate rather than booming.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Pandemic-era shifts made hybrid work common in tech; coworking hubs like Impact Hub Prague and CETIN fiber enable reliable remote collaboration within CET hours.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Managers typically respect after-hours boundaries, and statutory leave plus widespread spa culture reinforce a healthier balance than many US workplaces.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "A 40-hour week is standard, with overtime requiring consent and compensation; tech teams often run 9–5 or 10–6 schedules.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Employees receive at least four weeks of paid leave plus 13 public holidays, aligning with the family's desire for predictable downtime.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "White-collar staff frequently accrue 5 weeks through tenure perks, though smaller startups may stick to the legal minimum.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Prague blends lively urban energy with manageable commutes under 40 minutes; outside the capital the rhythm slows considerably, suiting Sarah's preference for calmer days.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Schools start around 8 a.m. and end 1–3 p.m.; offices begin 8:30–9 a.m., so families often use after-school clubs or grandparents to bridge the afternoon gap.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Weekends center on day trips to castles, forests, and aquaparks; most shops stay open, and community events crowd spring-to-fall calendars.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Strong grandparent involvement and plentiful playgrounds help families thrive, yet public discourse can be conservative toward non-traditional relationship structures.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Polyamory lacks legal recognition and remains largely private; urban circles are tolerant but broader society skews conservative, limiting openness.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Parents emphasize education, organized activities, and respectful behavior; expectations are structured but not as high-pressure as East Asian contexts.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Prague's trams accommodate strollers, parks are plentiful, and museums cater to kids, though cobblestones and older buildings can pose accessibility hurdles.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Public basic schools are solid, and Prague hosts bilingual and international academies, yet English-heavy options fill quickly and charge high tuition.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "State kindergartens become guaranteed from age 3, but spots for toddlers under 3 remain limited, pushing families toward private nurseries or nanny shares.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Citizens receive child allowances and subsidized preschool, though benefits are modest compared with Nordic benchmarks.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "Non-EU residents can enroll children but seldom qualify for cash allowances, and private creches cost 10–15k CZK monthly.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Compulsory education is free through age 15 with robust STEM tracks and language electives expanding in urban schools.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "Foreign children may attend public schools, yet Czech-language instruction dominates and integration support varies by district.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "International schools (ISP, Riverside) offer IB curricula but charge €15k+ annually, limiting accessibility without employer subsidies.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "Parents can take up to three years of parental leave with flexible benefit pacing, alongside birth grants and housing supplements for low-income families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Long-term residents can access parental allowances after meeting insurance requirements, but temporary visa holders often receive only unpaid leave.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Public universities are tuition-free in Czech, and students enjoy subsidized dorms and transport discounts across the country.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "English-language programs exist at Charles University and ČVUT with fees €3–7k per year, and visa students must prove finances up front.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Dual-income households are common, yet surveys show women still handle most childcare, reflecting lingering traditional expectations.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Legal recognition for nonbinary identities is absent and public understanding remains limited outside activist circles.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Anti-discrimination laws cover gender and orientation, and reproductive healthcare is accessible, but pay gaps and leadership representation lag EU averages.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Urban professionals embrace modern European fashion, yet beauty standards still expect polished presentation and slim silhouettes.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Masculinity often leans toward stoic pragmatism, with emotional openness still emerging, though younger cohorts are more flexible.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "The mix of gothic history, modern design, and vibrant cafe culture offers constant discovery, from Prague's art scene to Moravian wine country.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "alignmentText": "English is widely spoken in Prague tech and tourism sectors, but proficiency drops sharply in bureaucracy and smaller towns, requiring Czech for daily affairs.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Urban voters favor liberal parties and civic protests, yet national politics remain centrist with conservative currents on social policy.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Decades under communist rule leave skepticism toward Marxist rhetoric, though academic debates persist and far-left parties hold minimal sway.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "One of Europe's most secular countries, Czechia sees low church attendance and broad acceptance of non-religious worldviews.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Sex education is pragmatic and public nudity at saunas or spas is normalized, yet public discourse on non-monogamy remains discreet.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "alignmentText": "Civil partnerships have existed since 2006 and Pride draws large crowds, but marriage equality and joint adoption are still pending, reflecting moderate acceptance.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Czechs can seem reserved initially, yet neighborhood associations, expat groups, and hobby clubs foster strong bonds once trust is built.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "Many residents pride themselves on practicality, humor, and cultural heritage rooted in Central European identity rather than nationalism.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Relations with Slovakia, Germany, and Poland are cooperative within the EU, though historical rivalries surface mainly in sports banter.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Neighbors generally see Czechia as a reliable EU partner with a thriving capital city and pragmatic politics, aiding regional integration.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Prague's late-night clubs, beer gardens, and live jazz scene keep social calendars full while smaller cities offer cozy pubs and festivals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "Men mix smart-casual European styles—tailored coats, sneakers, and streetwear—with functional outdoor gear for weekend trips.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Women lean toward minimalist chic and sustainable labels, echoing broader EU trends with seasonal accents from local designers.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Hiking, cycling, home brewing, and castle tourism dominate leisure time, aligning with the family's outdoor and gaming interests.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "alignmentText": "Czechia boasts publishers like Czech Games Edition and multiple board-game cafes, making tabletop culture unusually vibrant.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Nightlife & Music",
+      "alignmentText": "From techno clubs at MeetFactory to classical halls like Rudolfinum, music options span genres late into the night.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Meetups & Communities",
+      "alignmentText": "Meetup groups cover tech, language exchange, queer socials, and parenting, especially concentrated in Prague's expat districts.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Trailheads are reachable by train within an hour, so spontaneous hikes in the Bohemian highlands or cycling the Vltava are realistic weekend plans.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "A parliamentary republic with proportional representation and coalition governments, Czechia upholds checks and balances and competitive elections.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Secularism dominates policy debates; religious parties hold minimal seats and rarely influence legislation.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Workers' Rights",
+      "alignmentText": "Labor codes guarantee paid leave, sick days, and collective bargaining, though enforcement can lag in smaller firms.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Mainstream parties advocate EU integration and social market economics, supporting democratic norms that resonate with the family's values.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Populist rhetoric appears in campaigns, yet courts, media, and civil society have pushed back, keeping Freedom House scores high but not flawless.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "A mixed economy blends private enterprise with social insurance; regulation is lighter than in Scandinavia but stronger than in the US.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Membership in the EU, NATO, and Schengen underpins political and economic stability with predictable policy trajectories.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Public broadcasters remain independent, though Russian disinformation networks operate online, prompting new government monitoring units.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "State messaging stresses EU solidarity and support for Ukraine, while fringe parties amplify anti-migrant narratives, creating a mixed media diet.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Policies prioritize universal healthcare, child allowances, and housing subsidies, but coverage levels are modest compared with Nordic welfare states.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Public trust wavers around 35–40%, reflecting frustration with corruption scandals and slow bureaucracy.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Transparency International ranks Czechia mid-pack in the EU; procurement and regional politics still draw scrutiny despite reforms.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Most concerns involve influence over public tenders and opaque party financing rather than everyday bribery, requiring vigilance for entrepreneurs.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Housing supply in Prague lags demand, driving rents upward and pushing families toward outlying districts or long commutes.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Safety & Crime",
+      "alignmentText": "Violent crime rates are low, and public spaces feel safe even at night, though petty theft around tourist zones persists.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Universal insurance covers doctor visits, maternity care, and prescriptions with low copays, supported by dense clinic networks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Long-term visa holders must buy local comprehensive insurance and can access the same providers, but English-speaking doctors are concentrated in major cities.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Monthly parental allowances and tax bonuses help, yet the state has struggled to expand nursery capacity for children under 3.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Typical families combine three-year parental leave with flexible return-to-work schemes, though benefits taper as children age.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Primary education delivers strong math and science scores, but instruction remains Czech-centric with limited project-based learning.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Integrated trams, metros, and regional trains run frequently and cheaply, making car-free living in urban areas practical.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "A social market framework pairs private enterprise with mandatory insurance and active labor-market programs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Income tax applies a 15% flat rate up to a cap with mandatory social contributions; filings are annual but forms and translations can frustrate newcomers.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "A self-employed developer would face 15% income tax plus ~45% social/health contributions on half of profits, landing near 25–30% effective.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentText": "Contactless payments, instant bank transfers, and multicurrency fintech (Revolut, Wise) are mainstream, easing day-to-day finances.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Prague rents are rising yet still 20–30% below Berlin, while groceries, transit passes, and childcare remain affordable by US standards.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "State pensions replace a modest share of income, supplemented by employer third-pillar plans but facing demographic strain.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "Foreigners accrue pension rights after several years of contributions, though portable benefits require bilateral agreements and paperwork.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Options include employee cards, EU Blue Cards, and trade license visas, yet each demands business plans, Czech contracts, or proof of economic benefit.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Urban institutions and expat services accommodate Americans, but immigration offices enforce rules strictly with little hand-holding.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Residency Types & Durations",
+      "alignmentText": "Long-term residence permits renew in 1–2 year increments; permanent residence opens after five years of continuous stay.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Naturalization requires 5 years of permanent residence, a Czech B1 language exam, and civics test, making the journey achievable but time-intensive.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Spouses and children can join via family reunification, yet their status depends on the principal applicant's permit validity and income proofs.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Timelines & Costs",
+      "alignmentText": "Processing often stretches 3–6 months with translation, apostille, and biometric fees totaling several hundred dollars.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Compliance & Risks",
+      "alignmentText": "Missing insurance coverage or delayed trade license renewals can trigger fines or visa cancellation, so diligent paperwork is essential.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Czechia permits dual citizenship for naturalized residents, allowing the family to retain US passports if they complete the process.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "Expect Czech-language correspondence, mandatory health insurance, and in-person reporting; hiring a local immigration lawyer is common for expats.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Studios like Bohemia Interactive, Warhorse, and 2K Czech recruit engineers, and contract work for EU partners is common in Prague.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Bohemia Interactive (Arma), Warhorse Studios (Kingdom Come), Amanita Design, and Beat Games anchor a respected Czech game scene.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Events such as Game Developers Session, Czech Game Developers Association meetups, and VR hackathons foster tight-knit collaboration.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Lower operating costs, EU grant access, and a pipeline of ČVUT graduates help startups, though venture funding remains smaller than Berlin or London.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "alignmentText": "Fiber-to-home coverage, high-speed rail expansion, and modern hospitals signal solid infrastructure, even if highways and digital bureaucracy lag top-tier EU peers.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Seasonal Extremes & Variability",
+      "alignmentText": "Frequent abrupt changes make certain months feel unstable with several days of hazardous conditions that push us indoors. Seasonal Weather at 5/10 and Natural Disasters at 7/10 steer the family toward a mixed outlook for seasonal extremes & variability.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Extended daylight deficits and short, cloudy summers introduce ongoing mood strain the family must actively counter. Seasonal Weather at 5/10 and Environment at 7/10 steer the family toward a mixed outlook for seasonal sunlight hours.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "Comfortable windows exist but are short; we stack activities in one or two prime seasons. Seasonal Weather at 5/10 and Environment at 7/10 steer the family toward a mixed outlook for pleasant weather windows.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Quality of Life – Lower-Income Tier",
+      "alignmentText": "High living costs erode quality of life; reliable childcare or healthcare coverage often falls through the cracks. Minimum Wage at 4/10, Housing Situation at 4/10, and Childcare Support (Citizens) at 6/10 steer the family toward a mixed outlook for quality of life – lower-income tier.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Quality of Life – Middle-Income Tier",
+      "alignmentText": "We feel squeezed: decent neighborhoods or schools require long commutes or high costs that crowd out enrichment. Typical Software Salaries at 5/10, Housing Situation at 4/10, and Work-Life Balance at 7/10 steer the family toward a mixed outlook for quality of life – middle-income tier.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Quality of Life – Higher-Income Tier",
+      "alignmentText": "Premium experiences exist but feel overpriced, shallow, or socially frowned upon. Housing Situation at 4/10, Private Education at 5/10, and Family Life at 6/10 steer the family toward a mixed outlook for quality of life – higher-income tier.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "Most 2k sq ft options feel overpriced or stuck in fringe neighborhoods with weaker schools. Housing Situation at 4/10 and Cost of Living (Optional) at 7/10 steer the family toward a mixed outlook for spacious housing benchmark (2k sq ft rent).",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Opportunities are sporadic; we rely on informal networks or satellite towns to join community living models. Community Vibes at 6/10, Meetups & Communities at 7/10, and Family Life at 6/10 steer the family toward a mixed outlook for community living opportunities.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Friendliness & Neighborliness Index",
+      "alignmentText": "Surface politeness exists yet deeper support systems take sustained effort to unlock. Community Vibes at 6/10, Meetups & Communities at 7/10, and Common Hobbies at 6/10 steer the family toward a mixed outlook for friendliness & neighborliness index.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Immigrant Sentiment – General",
+      "alignmentText": "Acceptance varies widely; caution is needed when discussing background in public spaces. Welcoming of US Migrants at 5/10, Progressivism at 5/10, and Language & English Ubiquity at 5/10 steer the family toward a mixed outlook for immigrant sentiment – general.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Immigrant Sentiment – White Migrants",
+      "alignmentText": "Noticeable grumbles about expats driving up costs or staying in enclaves; we mitigate by community engagement. Welcoming of US Migrants at 5/10, Language & English Ubiquity at 5/10, and View of Them by Neighboring Countries at 7/10 steer the family toward a mixed outlook for immigrant sentiment – white migrants.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "Politeness is situational; some contexts feel brisk but respectful. Community Vibes at 6/10, Nightlife Culture at 8/10, and Common Hobbies at 6/10 steer the family toward a strong outlook for surface interaction norms.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "Many acquaintances stay casual, but dedicated outreach unlocks close friendships over time. Community Vibes at 6/10, Meetups & Communities at 7/10, and What Is Intriguing at 7/10 steer the family toward a strong outlook for depth-seeking social norms.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Personal Boundary & Bubble Norms",
+      "alignmentText": "Personal space is often compressed, so we must advocate gently for comfort. Community Vibes at 6/10, Sex (Attitudes) at 6/10, and View of self at 6/10 steer the family toward a mixed outlook for personal boundary & bubble norms.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Moral, Honesty & Openness Expectations",
+      "alignmentText": "Honesty is situational; locals may avoid uncomfortable topics entirely. Progressivism at 5/10, What Is Intriguing at 7/10, and Trust in Government at 4/10 steer the family toward a mixed outlook for moral, honesty & openness expectations.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Grooming & Beauty Investment",
+      "alignmentText": "Noticeable emphasis on grooming means we budget extra time and money to fit in. Fashion Trends (Male) at 6/10 and Fashion Trends (Female) at 6/10 steer the family toward a mixed outlook for grooming & beauty investment.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Body Image & Fitness Pressure",
+      "alignmentText": "Diet talk and body critiques surface regularly in social circles. Fashion Trends (Male) at 6/10, Fashion Trends (Female) at 6/10, and Sex (Attitudes) at 6/10 steer the family toward a mixed outlook for body image & fitness pressure.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fashion & Style Expectations",
+      "alignmentText": "Fashionable appearance is expected in many settings, adding planning time and costs. Fashion Trends (Male) at 6/10 and Fashion Trends (Female) at 6/10 steer the family toward a mixed outlook for fashion & style expectations.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Flirting Boundaries & Consent Culture",
+      "alignmentText": "Mixed norms—some groups embrace consent while others rely on outdated assumptions. Sex (Attitudes) at 6/10, LGBTQ+ Attitudes at 5/10, and Nightlife Culture at 8/10 steer the family toward a mixed outlook for flirting boundaries & consent culture.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "Nontraditional approaches face regular pushback or misinterpretation. Gender Roles at 5/10, Gender Fluidity at 3/10, and Sex (Attitudes) at 6/10 steer the family toward a mixed outlook for gendered flirting expectations.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "Families risk stigma or legal complications when open about their structure. Polyamory at 3/10, Sex (Attitudes) at 6/10, and Community Vibes at 6/10 steer the family toward a challenging outlook for monogamy vs. non-monogamy acceptance.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "Attitudes split; open discussion is fine in urban enclaves yet frowned upon elsewhere. Sex (Attitudes) at 6/10, Nightlife & Music at 8/10, and Community Vibes at 6/10 steer the family toward a strong outlook for promiscuity attitudes.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Group & Multi-Partner Relationship Attitudes",
+      "alignmentText": "Stigma is strong; custody and tenancy agreements become complicated. Polyamory at 3/10, Community Vibes at 6/10, and LGBTQ+ Attitudes at 5/10 steer the family toward a challenging outlook for group & multi-partner relationship attitudes.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Personal Space & Touch Norms",
+      "alignmentText": "We occasionally experience closer contact than preferred but can steer interactions politely. Community Vibes at 6/10, Sex (Attitudes) at 6/10, and Nightlife Culture at 8/10 steer the family toward a strong outlook for personal space & touch norms.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Firearm Laws & Ownership Culture",
+      "alignmentText": "Laws are moderate; we occasionally encounter firearms but rarely feel threatened. Safety & Crime at 7/10, State Ideology at 7/10, and Political System at 8/10 steer the family toward a strong outlook for firearm laws & ownership culture.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Enforcement leans punitive; we monitor rules closely to avoid harsh consequences. Progressivism at 5/10, Political System at 8/10, and Safety & Crime at 7/10 steer the family toward a mixed outlook for controlled substance policies.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "Street-level policing is visible; marginalized communities report frequent stops. Safety & Crime at 7/10, Progressivism at 5/10, and Authoritarian Backsliding Risk at 6/10 steer the family toward a mixed outlook for drug enforcement climate.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Recent history shows sporadic mass violence, so we stay vigilant at large gatherings. Safety & Crime at 7/10 and Stability at 8/10 steer the family toward a strong outlook for mass violence incidence.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Carceral Conditions & Prison Labor",
+      "alignmentText": "Overcrowding or low wages appear in investigative reports, raising ethical concerns. Authoritarian Backsliding Risk at 6/10, Safety & Crime at 7/10, and Perceived Corruption at 4/10 steer the family toward a mixed outlook for carceral conditions & prison labor.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Walkability & Pedestrian Safety",
+      "alignmentText": "Infrastructure is inconsistent; safe walking requires choosing specific neighborhoods. Public Transportation at 8/10, Housing Situation at 4/10, and Nature Access at 7/10 steer the family toward a mixed outlook for walkability & pedestrian safety.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "We can find wellness support but must seek out likeminded circles to stay motivated. Healthcare (Citizens) at 7/10, Work-Life Balance at 7/10, and Community Vibes at 6/10 steer the family toward a strong outlook for community health consciousness.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "Processed foods are common but balanced by strong fresh markets. Cost of Living (Optional) at 7/10, Community Health Consciousness at 7/10, and Fresh & International Cuisine Access at 7/10 steer the family toward a strong outlook for processed food saturation.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fresh & International Cuisine Access",
+      "alignmentText": "We can meet most cravings but specialty ingredients or restaurants appear sporadically. Nightlife & Music at 8/10, Common Hobbies at 6/10, and Meetups & Communities at 7/10 steer the family toward a strong outlook for fresh & international cuisine access.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "Higher-than-average depression rates prompt us to plan carefully for therapy access. Seasonal Weather at 5/10, Work-Life Balance at 7/10, and Community Vibes at 6/10 steer the family toward a mixed outlook for depression prevalence.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "We monitor diet and activity because obesity is moderately common. Community Health Consciousness at 7/10, Work-Life Balance at 7/10, and Cost of Living (Optional) at 7/10 steer the family toward a strong outlook for obesity rate.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "Slightly elevated incidence prompts routine checkups and monitoring. Environment at 7/10, Healthcare (Citizens) at 7/10, and Community Health Consciousness at 7/10 steer the family toward a strong outlook for cancer incidence.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Recessions hit noticeable segments, requiring flexibility or retraining. Economic Health at 6/10, Remote-Friendly Culture at 7/10, and Typical Software Salaries at 5/10 steer the family toward a mixed outlook for broader job market resilience.",
+      "alignmentValue": 6
+    }
   ]
 }
