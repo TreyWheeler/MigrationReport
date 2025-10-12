@@ -31,6 +31,7 @@ The MigrationReport dataset now mirrors a relational model so the static site ca
 - `categoryId`: References `categories.id`.
 - `name`: Display label surfaced to users.
 - `guidance`: Author guidance for maintaining consistent scoring narratives.
+- `informational`: Optional boolean. When `true`, the key appears without a score chip and is excluded from scoring averages.
 
 ### `data/countries.json`
 - `id`: Stable slug that other data (like cities) reference.

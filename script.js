@@ -91,6 +91,105 @@ function sortByOrderThenName(items, orderKey, nameKey) {
   return arr;
 }
 
+function coerceInformationalFlag(value) {
+  if (typeof value === 'string') {
+    const norm = value.trim().toLowerCase();
+    return norm === 'true' || norm === 'yes' || norm === '1';
+  }
+  return value === true;
+}
+
+function normalizeInformationalFlags(mainData) {
+  if (!mainData || !Array.isArray(mainData.Categories)) return;
+  mainData.Categories.forEach(category => {
+    if (!category || !Array.isArray(category.Keys)) return;
+    category.Keys.forEach(keyObj => {
+      if (!keyObj || typeof keyObj !== 'object') return;
+      const raw = (typeof keyObj.Informational !== 'undefined') ? keyObj.Informational : keyObj.informational;
+      keyObj.Informational = coerceInformationalFlag(raw);
+    });
+  });
+}
+
+function canonicalizeKeySegment(value) {
+  try {
+    let text = typeof value === 'string' ? value : '';
+    if (text.normalize) text = text.normalize('NFKC');
+    text = text.replace(/[°�?]/g, '');
+    text = text.toLowerCase();
+    text = text.replace(/\s+/g, ' ').trim();
+    return text;
+  } catch {
+    return String(value || '');
+  }
+}
+
+function getInformationalStorageKey(categoryName, keyName) {
+  const cat = canonicalizeKeySegment(categoryName);
+  const key = canonicalizeKeySegment(keyName);
+  return `${cat}|||${key}`;
+}
+
+function getInformationalOverrides() {
+  const overrides = getStored('informationalOverrides', {});
+  return (overrides && typeof overrides === 'object') ? overrides : {};
+}
+
+function setInformationalOverrides(overrides) {
+  const safe = (overrides && typeof overrides === 'object') ? overrides : {};
+  setStored('informationalOverrides', safe);
+}
+
+function getInformationalOverride(categoryName, keyName) {
+  if (!categoryName || !keyName) return undefined;
+  const overrides = getInformationalOverrides();
+  const storageKey = getInformationalStorageKey(categoryName, keyName);
+  if (Object.prototype.hasOwnProperty.call(overrides, storageKey)) {
+    return !!overrides[storageKey];
+  }
+  return undefined;
+}
+
+function setInformationalOverride(categoryName, keyName, value) {
+  if (!categoryName || !keyName) return;
+  const overrides = { ...getInformationalOverrides() };
+  const storageKey = getInformationalStorageKey(categoryName, keyName);
+  if (typeof value === 'boolean') {
+    overrides[storageKey] = value;
+  } else {
+    delete overrides[storageKey];
+  }
+  setInformationalOverrides(overrides);
+}
+
+function toggleInformationalOverride(categoryName, keyObj) {
+  if (!categoryName || !keyObj) return;
+  const keyName = keyObj.Key;
+  const base = !!keyObj.Informational;
+  const current = getInformationalOverride(categoryName, keyName);
+  const effective = (typeof current === 'boolean') ? current : base;
+  const next = !effective;
+  if (next === base) {
+    setInformationalOverride(categoryName, keyName);
+  } else {
+    setInformationalOverride(categoryName, keyName, next);
+  }
+}
+
+function getInformationalState(categoryName, keyObj) {
+  const base = !!(keyObj && keyObj.Informational);
+  const override = keyObj ? getInformationalOverride(categoryName, keyObj.Key) : undefined;
+  const effective = (typeof override === 'boolean') ? override : base;
+  return { base, override, effective };
+}
+
+function isInformationalKey(keyObj, categoryName) {
+  if (!keyObj) return false;
+  const override = getInformationalOverride(categoryName, keyObj.Key);
+  if (typeof override === 'boolean') return override;
+  return !!keyObj.Informational;
+}
+
 async function loadRelationalMain() {
   const [categoriesRaw, keysRaw, countriesRaw, citiesRaw, peopleRaw, weightsRaw] = await Promise.all([
     fetchJsonAsset('data/categories.json'),
@@ -114,6 +213,7 @@ async function loadRelationalMain() {
     Keys: (keysByCategory.get(cat.id) || []).map(key => ({
       Key: key.name,
       Guidance: key.guidance,
+      Informational: coerceInformationalFlag(key.informational),
     })),
   }));
 
@@ -157,7 +257,9 @@ async function loadRelationalMain() {
     return { name: person.name, weights: weightsObj };
   });
 
-  return { Categories: categoriesResult, Countries: countriesResult, People: peopleResult };
+  const result = { Categories: categoriesResult, Countries: countriesResult, People: peopleResult };
+  normalizeInformationalFlags(result);
+  return result;
 }
 
 async function loadMain() {
@@ -176,6 +278,7 @@ async function loadMain() {
       throw err;
     }
   }
+  normalizeInformationalFlags(mainData);
   const listEl = document.getElementById('countryList');
   const notice = document.getElementById('notice');
   const collapseCountriesBtn = document.getElementById('collapseCountriesBtn');
@@ -366,6 +469,7 @@ function computeCountryScoresForSorting(countryData, mainData, peopleList) {
   mainData.Categories.forEach(cat => {
     const vals = [];
     cat.Keys.forEach(k => {
+      if (isInformationalKey(k, cat.Category)) return;
       const m = countryData.values.find(v => canonKey(v.key) === canonKey(k.Key));
       const n = m ? Number(m.alignmentValue) : NaN;
       if (isFinite(n) && n > 0) vals.push(n);
@@ -388,6 +492,7 @@ function computeCountryScoresForSorting(countryData, mainData, peopleList) {
         if (!isFinite(w)) return;
         const vals = [];
         cat.Keys.forEach(k => {
+          if (isInformationalKey(k, cat.Category)) return;
           const m = countryData.values.find(v => canonKey(v.key) === canonKey(k.Key));
           const n = m ? Number(m.alignmentValue) : NaN;
           if (isFinite(n) && n > 0) vals.push(n);
@@ -811,9 +916,10 @@ async function loadCountry(file, mainData) {
 
   mainData.Categories.forEach(category => {
     const catHeader = document.createElement('h2');
-    // Compute average score for this category (ignore <=0 and non-numeric)
+    // Compute average score for this category (ignore <=0, non-numeric, and informational keys)
     const nums = [];
     category.Keys.forEach(keyObj => {
+      if (isInformationalKey(keyObj, category.Category)) return;
       const match = countryData.values.find(v => canonKey(v.key) === canonKey(keyObj.Key));
       const n = match ? Number(match.alignmentValue) : NaN;
       if (isFinite(n) && n > 0) nums.push(n);
@@ -853,8 +959,10 @@ async function loadCountry(file, mainData) {
       const match = countryData.values.find(v => canonKey(v.key) === canonKey(key));
       const hasText = match && typeof match.alignmentText === 'string' && match.alignmentText.trim().length > 0;
       const numeric = match ? Number(match.alignmentValue) : NaN;
-      const chip = makeScoreChip(match ? numeric : null);
+      const informational = isInformationalKey(keyObj, category.Category);
+      const chip = informational ? makeInformationalPlaceholderChip() : makeScoreChip(match ? numeric : null);
       li.appendChild(chip);
+      if (informational) li.classList.add('informational-key');
       if (match && hasText) {
         li.appendChild(document.createTextNode(`${key}: `));
         appendTextWithLinks(li, match.alignmentText);
@@ -891,6 +999,8 @@ if (typeof module !== 'undefined' && module.exports) {
     loadMain,
     getStored,
     setStored,
+    computeCountryScoresForSorting,
+    renderComparison,
   };
 }
 
@@ -904,6 +1014,8 @@ async function renderComparison(selectedList, mainData, options = {}) {
     collapseCategoriesBtn.onclick = null;
     collapseCategoriesBtn.setAttribute('aria-disabled', 'true');
   }
+
+  const diffEnabled = !!(options && options.diffEnabled);
 
   // Fetch all selected countries (with caching)
   const datasets = await Promise.all(selectedList.map(async s => ({
@@ -1045,6 +1157,7 @@ async function renderComparison(selectedList, mainData, options = {}) {
       mainData.Categories.forEach(cat => {
         const vals = [];
         cat.Keys.forEach(k => {
+          if (isInformationalKey(k, cat.Category)) return;
           const m = ds.data.values.find(v => canonKey(v.key) === canonKey(k.Key));
           const n = m ? Number(m.alignmentValue) : NaN;
           if (isFinite(n) && n > 0) vals.push(n);
@@ -1071,6 +1184,7 @@ async function renderComparison(selectedList, mainData, options = {}) {
                 if (!isFinite(w)) return;
                 const vals = [];
                 cat.Keys.forEach(k => {
+                  if (isInformationalKey(k, cat.Category)) return;
                   const m = ds.data.values.find(v => canonKey(v.key) === canonKey(k.Key));
                   const n = m ? Number(m.alignmentValue) : NaN;
                   if (isFinite(n) && n > 0) vals.push(n);
@@ -1122,6 +1236,7 @@ async function renderComparison(selectedList, mainData, options = {}) {
     datasets.forEach(ds => {
       const values = [];
       category.Keys.forEach(k => {
+        if (isInformationalKey(k, category.Category)) return;
         const m = ds.data.values.find(v => canonKey(v.key) === canonKey(k.Key));
         const n = m ? Number(m.alignmentValue) : NaN;
         if (isFinite(n) && n > 0) values.push(n);
@@ -1150,8 +1265,10 @@ async function renderComparison(selectedList, mainData, options = {}) {
     // Key rows (track refs for collapse)
     const keyRowRefs = [];
     category.Keys.forEach(keyObj => {
+      const informational = isInformationalKey(keyObj, category.Category);
       const tr = document.createElement('tr');
       tr.dataset.category = catName;
+      if (informational) tr.classList.add('informational-key');
       const keyTd = document.createElement('td');
       keyTd.className = 'key-cell';
       const keyInner = document.createElement('div');
@@ -1159,13 +1276,24 @@ async function renderComparison(selectedList, mainData, options = {}) {
       const keyLabel = document.createElement('span');
       keyLabel.textContent = keyObj.Key;
       keyInner.appendChild(keyLabel);
+      const actionsWrap = document.createElement('div');
+      actionsWrap.className = 'key-actions';
+      try {
+        const infoBtn = makeInformationalToggleButton(category.Category, keyObj, {
+          mainData,
+          selectedList,
+          diffEnabled,
+        });
+        actionsWrap.appendChild(infoBtn);
+      } catch {}
       try {
         if (Array.isArray(selectedList) && selectedList.length > 1) {
           const names = datasets.map(d => d.name).slice(0, 4);
           const btn = makeCompareButton(names, category.Category, keyObj.Key);
-          keyInner.appendChild(btn);
+          actionsWrap.appendChild(btn);
         }
       } catch {}
+      keyInner.appendChild(actionsWrap);
       keyTd.appendChild(keyInner);
       tr.appendChild(keyTd);
 
@@ -1174,19 +1302,26 @@ async function renderComparison(selectedList, mainData, options = {}) {
         const match = ds.data.values.find(v => canonKey(v.key) === canonKey(keyObj.Key));
         const hasText = match && typeof match.alignmentText === 'string' && match.alignmentText.trim().length > 0;
         const numeric = match ? Number(match.alignmentValue) : NaN;
-        const bucket = getScoreBucket(numeric);
+        const bucket = informational ? { key: 'informational' } : getScoreBucket(numeric);
         return { match, hasText, numeric, bucketKey: bucket.key };
       });
 
       // Majority bucket for difference highlighting
       const counts = new Map();
-      perCountry.forEach(pc => counts.set(pc.bucketKey, (counts.get(pc.bucketKey) || 0) + 1));
+      if (!informational) {
+        perCountry.forEach(pc => counts.set(pc.bucketKey, (counts.get(pc.bucketKey) || 0) + 1));
+      }
       let majorityKey = null, majorityCount = -1;
-      for (const [k, c] of counts.entries()) { if (c > majorityCount) { majorityKey = k; majorityCount = c; } }
+      if (!informational) {
+        for (const [k, c] of counts.entries()) {
+          if (c > majorityCount) { majorityKey = k; majorityCount = c; }
+        }
+      }
 
       datasets.forEach((ds, idx) => {
         const td = document.createElement('td');
         td.className = 'value-cell';
+        if (informational) td.classList.add('informational-key');
         const info = perCountry[idx];
         const match = info.match;
         const hasText = info.hasText;
@@ -1194,7 +1329,7 @@ async function renderComparison(selectedList, mainData, options = {}) {
         wrap.className = 'cell-inner';
         let contentText = 'No data';
 
-        const chip = makeScoreChip(match ? info.numeric : null);
+        const chip = informational ? makeInformationalPlaceholderChip() : makeScoreChip(match ? info.numeric : null);
         wrap.appendChild(chip);
         let textForQuery = '';
         if (hasText) {
@@ -1211,7 +1346,7 @@ async function renderComparison(selectedList, mainData, options = {}) {
           wrap.appendChild(btn);
         } catch {}
         td.appendChild(wrap);
-        if (options.diffEnabled && counts.size > 1 && info.bucketKey !== majorityKey) {
+        if (!informational && diffEnabled && counts.size > 1 && info.bucketKey !== majorityKey) {
           td.classList.add('diff-cell');
         }
         tr.appendChild(td);
@@ -1421,6 +1556,15 @@ function makeScoreChip(score) {
   return span;
 }
 
+function makeInformationalPlaceholderChip() {
+  const span = document.createElement('span');
+  span.className = 'score-chip placeholder';
+  span.textContent = '–';
+  span.setAttribute('aria-hidden', 'true');
+  span.title = 'Informational key';
+  return span;
+}
+
 // Chip showing person-adjusted category score with label "Name: score"
 function makePersonScoreChip(name, score) {
   const span = document.createElement('span');
@@ -1614,8 +1758,44 @@ function makeDigInButton(country, category, categoryKey, cellText) {
     const catLabel = `${category} - ${categoryKey}`;
     const q = `I am considering migrating from the United State to ${country}. I am looking at some data describing ${catLabel} in ${country}. Please elaborate on the following text to help me understand what it means: "${text}"`;
     const url = `https://www.perplexity.ai/search?q=${encodeURIComponent(q)}`;
-    try { window.open(url, '_blank', 'noopener'); } catch { window.location.href = url; }
+  try { window.open(url, '_blank', 'noopener'); } catch { window.location.href = url; }
   });
+  return btn;
+}
+
+function makeInformationalToggleButton(categoryName, keyObj, context = {}) {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'info-toggle-btn';
+
+  const applyState = () => {
+    const state = getInformationalState(categoryName, keyObj);
+    if (state.effective) {
+      btn.textContent = 'Include in scoring';
+      btn.title = 'Include this key in scoring totals';
+    } else {
+      btn.textContent = 'Mark informational';
+      btn.title = 'Exclude this key from scoring totals';
+    }
+    btn.classList.toggle('override-active', typeof state.override === 'boolean');
+    btn.dataset.state = state.effective ? 'informational' : 'scored';
+  };
+
+  applyState();
+
+  btn.addEventListener('click', (e) => {
+    try { e.preventDefault(); e.stopPropagation(); } catch {}
+    toggleInformationalOverride(categoryName, keyObj);
+    applyState();
+    try {
+      const wrap = document.querySelector('.table-wrap');
+      const restoreScroll = wrap ? { x: wrap.scrollLeft, y: wrap.scrollTop } : undefined;
+      const opts = { diffEnabled: !!context.diffEnabled };
+      if (restoreScroll) opts.restoreScroll = restoreScroll;
+      renderComparison(Array.isArray(context.selectedList) ? context.selectedList : [], context.mainData, opts);
+    } catch {}
+  });
+
   return btn;
 }
 
