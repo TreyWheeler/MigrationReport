@@ -54,8 +54,7 @@
     },
     {
       "key": "Seasonal Beach Water Temp",
-      "alignmentText": "Atlantic and Pacific beaches range from chilly (12–18 °C) much of the year to bath-warm Gulf waters, so only southern coasts feel swimmable for long.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Natural Beauty",
@@ -84,13 +83,11 @@
     },
     {
       "key": "Employer Visa Sponsorship",
-      "alignmentText": "H-1B and similar visas exist but quotas, lotteries, and strict compliance make sponsorship unreliable for newcomers.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "Economic Health",
-      "alignmentText": "Despite inflation cycles, GDP growth, deep capital markets, and low unemployment keep the economy resilient for entrepreneurs.",
-      "alignmentValue": 8
+      "sameAsParent": true
     },
     {
       "key": "Remote-Friendly Culture",
@@ -99,23 +96,19 @@
     },
     {
       "key": "Work-Life Balance",
-      "alignmentText": "Long hours, limited leave, and hustle culture clash with Sarah’s need for predictable downtime.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "Work Week Hours",
-      "alignmentText": "Nominal 40-hour weeks hide frequent unpaid overtime, especially in tech and startups.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Vacation Days (Minimum)",
-      "alignmentText": "There is no statutory paid vacation, leaving time off entirely to employer policy.",
-      "alignmentValue": 1
+      "sameAsParent": true
     },
     {
       "key": "Vacation Days (Typical)",
-      "alignmentText": "Two to three weeks is common after tenure, which remains modest compared with the family’s expectations.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Pace of Life",
@@ -129,38 +122,31 @@
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Weekends revolve around kids’ sports, errands, and driving to activities, though vibrant city programming offers options.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Family Life",
-      "alignmentText": "Family culture varies widely—supportive services exist in some states but childcare and healthcare costs strain budgets.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Polyamory",
-      "alignmentText": "Polyamory is legal but stigmatized; only progressive urban communities openly support non-monogamous families.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "Parenting Expectations",
-      "alignmentText": "Expectations skew toward intensive, school-centric parenting with limited state support, though progressive enclaves offer flexibility.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Child-Friendliness of Cities",
-      "alignmentText": "Parks and museums are strong in big cities, yet car dependency and safety disparities complicate daily outings.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Schooling Options",
-      "alignmentText": "Public, charter, and private schools offer variety, but quality depends heavily on neighborhood wealth and district funding.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Quality programs exist but slots are scarce and costs rival college tuition, demanding long waitlists.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "Childcare Support (Citizens)",
@@ -174,143 +160,115 @@
     },
     {
       "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "Citizens access free public schooling, yet district quality and funding inequality create big differences.",
-      "alignmentValue": 7
+      "sameAsParent": true
     },
     {
       "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "Most visas allow public school attendance, though undocumented families fear enforcement and some districts have residency hurdles.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Private Education",
-      "alignmentText": "Private and parochial schools are abundant but expensive, with elite institutions heavily waitlisted in major metros.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Family Policy (Citizens)",
-      "alignmentText": "No national paid leave and limited child allowances; benefits depend on employer or state-level programs.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "Family Policy (Visa Holders)",
-      "alignmentText": "Temporary residents seldom qualify for state benefits and risk losing status if work is paused for caregiving.",
-      "alignmentValue": 2
+      "sameAsParent": true
     },
     {
       "key": "Higher Education Access (Citizens)",
-      "alignmentText": "Citizens enjoy broad access to community colleges and top universities, albeit with high tuition costs.",
-      "alignmentValue": 7
+      "sameAsParent": true
     },
     {
       "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "International students can enroll but face higher tuition and visa work limits, making persistence costly.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Gender Roles",
-      "alignmentText": "Gender norms are gradually balancing, yet cultural expectations around motherhood and career still surface, especially outside progressive metros.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Gender Fluidity",
-      "alignmentText": "Legal protections exist in many states, but anti-trans legislation and social pushback in others create an uneven landscape.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Gender Rights",
-      "alignmentText": "Federal civil rights and Title IX offer protections, though state abortion bans and trans healthcare restrictions erode consistency.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Femininity Norms",
-      "alignmentText": "Women face pressures to juggle careers and caregiving, with norms varying sharply between progressive and conservative regions.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Masculinity Norms",
-      "alignmentText": "Expectations for men still lean toward stoicism and breadwinning, though urban areas embrace more flexible roles.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "What Is Intriguing",
-      "alignmentText": "Startup energy, deep maker communities, and access to cutting-edge tech ecosystems continue to excite Trey.",
-      "alignmentValue": 8
+      "sameAsParent": true
     },
     {
       "key": "Language & English Ubiquity",
-      "alignmentText": "English dominates in daily life and services, eliminating language barriers for the family.",
-      "alignmentValue": 10
+      "sameAsParent": true
     },
     {
       "key": "Progressivism",
-      "alignmentText": "Progressive policies thrive in coastal states, yet national politics remain polarized with conservative pushback.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "Leftist politics exist in academic and activist circles but mainstream discourse remains skeptical of socialism.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Atheism",
-      "alignmentText": "Secular life is easy in cities, yet Bible Belt regions still expect church affiliation.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Sex (Attitudes)",
-      "alignmentText": "Attitudes toward sexuality are liberal in metros but conservative laws persist in other states.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "LGBTQ+ Attitudes",
-      "alignmentText": "Legal protections exist federally, yet state-level anti-LGBTQ legislation and social backlash make support uneven.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Community Vibes",
-      "alignmentText": "Friendliness varies; many neighborhoods are welcoming but mobility and individualism can hinder deep ties.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "View of self",
-      "alignmentText": "Strong national identity and belief in exceptionalism remain common.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "View of Neighboring Countries",
-      "alignmentText": "Public opinion sees Canada as close and Mexico as a complex partner with migration tensions.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Neighbors respect US influence yet critique cultural dominance and policy swings.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Nightlife Culture",
-      "alignmentText": "Major cities run vibrant nightlife scenes with music, bars, and late dining, though smaller metros close early.",
-      "alignmentValue": 7
+      "sameAsParent": true
     },
     {
       "key": "Fashion Trends (Male)",
-      "alignmentText": "Casual dress norms dominate outside coastal fashion hubs, offering moderate style variety.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Fashion Trends (Female)",
-      "alignmentText": "Urban centers follow global trends, while much of the country leans toward practical casualwear.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Common Hobbies",
-      "alignmentText": "Gaming, outdoor sports, and maker hobbies are widespread, offering Trey and Sarah ample communities.",
-      "alignmentValue": 7
+      "sameAsParent": true
     },
     {
       "key": "Boardgaming & Tabletop",
-      "alignmentText": "Robust convention circuit, specialty shops, and active clubs make tabletop communities easy to find.",
-      "alignmentValue": 9
+      "sameAsParent": true
     },
     {
       "key": "Nightlife & Music",
@@ -319,8 +277,7 @@
     },
     {
       "key": "Meetups & Communities",
-      "alignmentText": "Platforms like Meetup and vibrant coworking hubs create steady social pipelines for remote workers.",
-      "alignmentValue": 8
+      "sameAsParent": true
     },
     {
       "key": "Nature Access",
@@ -329,68 +286,55 @@
     },
     {
       "key": "Political System",
-      "alignmentText": "Federal democracy with checks and balances remains, yet gerrymandering and minority rule structures frustrate progressives.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Religion in Politics",
-      "alignmentText": "Religious rhetoric heavily influences policy debates, especially on reproductive and LGBTQ+ rights.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "Workers' Rights",
-      "alignmentText": "At-will employment, limited unions, and minimal paid leave fall short of the family’s expectations.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "State Ideology",
-      "alignmentText": "Market-oriented capitalism and individual responsibility dominate policy making.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Election denialism, voter suppression attempts, and institutional strain signal meaningful democratic risk.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "State of Capitalism",
-      "alignmentText": "Free-market norms prioritize business flexibility over social safety nets.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Stability",
-      "alignmentText": "Institutions endure but polarization and sporadic unrest introduce uncertainty.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Propaganda Prevalence",
-      "alignmentText": "Partisan media ecosystems and algorithmic echo chambers skew information quality compared with the family’s desire for pluralism.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Propaganda Messaging",
-      "alignmentText": "Narratives emphasize national exceptionalism and culture wars, making it hard to find calm, balanced reporting.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Social Policies",
-      "alignmentText": "Progressive policies advance in blue states while conservative states curtail rights, leaving a mixed national picture.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Trust in Government",
-      "alignmentText": "Public trust remains low, matching Gallup surveys that show skepticism toward federal institutions.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "Perceived Corruption",
-      "alignmentText": "Citizens rate corruption as moderate—campaign finance and lobbying raise concerns without daily bribery.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Type of Corruption",
-      "alignmentText": "Legalized influence via lobbying and dark money overshadows petty corruption.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Housing Situation",
@@ -404,28 +348,23 @@
     },
     {
       "key": "Healthcare (Citizens)",
-      "alignmentText": "Quality care is available but insurance complexity and high costs burden families even with employer plans.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Non-citizens face steep premiums, limited public coverage, and visa-linked insurance requirements.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "Child Care Support",
-      "alignmentText": "Subsidies are limited and dependent on state programs, leaving most costs on families.",
-      "alignmentValue": 2
+      "sameAsParent": true
     },
     {
       "key": "Family Policy (Common Family)",
-      "alignmentText": "Default benefits include child tax credits and unpaid FMLA, which fall short of the supportive policies the family wants.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "Education",
-      "alignmentText": "World-class universities contrast with uneven K-12 outcomes, so the family must select districts carefully.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Public Transportation",
@@ -434,23 +373,19 @@
     },
     {
       "key": "Economic System",
-      "alignmentText": "A lightly regulated capitalist system prioritizes markets over social protections.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "How Taxes Are Handled",
-      "alignmentText": "Federal, state, and local layers add complexity, but withholding automation means payroll taxes are manageable.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "A dual tech-income household faces combined federal and state rates around 25–30% depending on location.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Banking & Payments",
-      "alignmentText": "Digital banking, credit access, and payment apps are robust, supporting entrepreneurial needs.",
-      "alignmentValue": 8
+      "sameAsParent": true
     },
     {
       "key": "Cost of Living (Optional)",
@@ -459,58 +394,47 @@
     },
     {
       "key": "Retirement (Citizens)",
-      "alignmentText": "Social Security and 401(k)s offer support but require sustained savings; healthcare costs in retirement remain high.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Retirement (Visa Holders)",
-      "alignmentText": "Non-citizens have limited access to public benefits and must rely on private savings and employer plans.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "Visa Paths",
-      "alignmentText": "Diverse visa categories exist, but quotas, interviews, and sponsorship hurdles make immigration arduous for non-citizens.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "Welcoming of US Migrants",
-      "alignmentText": "As citizens, the family faces no entry barriers and can relocate freely within the country.",
-      "alignmentValue": 10
+      "sameAsParent": true
     },
     {
       "key": "Residency Types & Durations",
-      "alignmentText": "Citizenship grants permanent residency rights nationwide, though state benefits depend on domicile.",
-      "alignmentValue": 9
+      "sameAsParent": true
     },
     {
       "key": "Path to Citizenship",
-      "alignmentText": "Citizenship is automatic for the family and their children, eliminating naturalization concerns.",
-      "alignmentValue": 10
+      "sameAsParent": true
     },
     {
       "key": "Family Members",
-      "alignmentText": "Immediate relatives of citizens have streamlined sponsorship options, though backlogs affect extended family.",
-      "alignmentValue": 9
+      "sameAsParent": true
     },
     {
       "key": "Timelines & Costs",
-      "alignmentText": "For citizens moves are immediate; sponsoring relatives involves fees and multi-year waits but predictable processes.",
-      "alignmentValue": 7
+      "sameAsParent": true
     },
     {
       "key": "Compliance & Risks",
-      "alignmentText": "Legal compliance is straightforward for citizens, though regulated industries require diligent paperwork.",
-      "alignmentValue": 8
+      "sameAsParent": true
     },
     {
       "key": "Dual Citizenship Allowed",
-      "alignmentText": "The U.S. tolerates dual citizenship, though obligations like taxes remain.",
-      "alignmentValue": 9
+      "sameAsParent": true
     },
     {
       "key": "General Considerations for Visa Holders",
-      "alignmentText": "Visa holders must maintain employment, face travel restrictions, and manage complex paperwork to avoid status loss.",
-      "alignmentValue": 3
+      "sameAsParent": true
     },
     {
       "key": "Game Dev Work Prospects",
@@ -524,8 +448,7 @@
     },
     {
       "key": "Notable Game Development Communities",
-      "alignmentText": "Meetups like IGDA chapters, GDC, and PAX West keep developer communities highly active.",
-      "alignmentValue": 9
+      "sameAsParent": true
     },
     {
       "key": "Opportunities for Video Game Startup",
@@ -574,113 +497,91 @@
     },
     {
       "key": "Community Living Opportunities",
-      "alignmentText": "Opportunities are sporadic; we rely on informal networks or satellite towns to join community living models. Community Vibes at 5/10, Meetups & Communities at 8/10, and Family Life at 5/10 steer the family toward a mixed outlook for community living opportunities.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Friendliness & Neighborliness Index",
-      "alignmentText": "Surface politeness exists yet deeper support systems take sustained effort to unlock. Community Vibes at 5/10, Meetups & Communities at 8/10, and Common Hobbies at 7/10 steer the family toward a mixed outlook for friendliness & neighborliness index.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Immigrant Sentiment – General",
-      "alignmentText": "Generally welcoming yet periodic political rhetoric creates mild concern. Welcoming of US Migrants at 10/10, Progressivism at 5/10, and Language & English Ubiquity at 10/10 steer the family toward a strong outlook for immigrant sentiment – general.",
-      "alignmentValue": 8
+      "sameAsParent": true
     },
     {
       "key": "Immigrant Sentiment – White Migrants",
-      "alignmentText": "Mostly comfortable integration though some circles question motives or commitment to the country. Welcoming of US Migrants at 10/10, Language & English Ubiquity at 10/10, and View of Them by Neighboring Countries at 5/10 steer the family toward a strong outlook for immigrant sentiment – white migrants.",
-      "alignmentValue": 8
+      "sameAsParent": true
     },
     {
       "key": "Surface Interaction Norms",
-      "alignmentText": "Interactions can be efficient yet emotionally flat; kindness takes effort to elicit. Community Vibes at 5/10, Nightlife Culture at 7/10, and Common Hobbies at 7/10 steer the family toward a mixed outlook for surface interaction norms.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Depth-Seeking Social Norms",
-      "alignmentText": "Many acquaintances stay casual, but dedicated outreach unlocks close friendships over time. Community Vibes at 5/10, Meetups & Communities at 8/10, and What Is Intriguing at 8/10 steer the family toward a strong outlook for depth-seeking social norms.",
-      "alignmentValue": 7
+      "sameAsParent": true
     },
     {
       "key": "Personal Boundary & Bubble Norms",
-      "alignmentText": "Touchy or crowded norms are common and require constant boundary setting. Community Vibes at 5/10, Sex (Attitudes) at 5/10, and View of self at 6/10 steer the family toward a mixed outlook for personal boundary & bubble norms.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Moral, Honesty & Openness Expectations",
-      "alignmentText": "Honesty is situational; locals may avoid uncomfortable topics entirely. Progressivism at 5/10, What Is Intriguing at 8/10, and Trust in Government at 3/10 steer the family toward a mixed outlook for moral, honesty & openness expectations.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Grooming & Beauty Investment",
-      "alignmentText": "Noticeable emphasis on grooming means we budget extra time and money to fit in. Fashion Trends (Male) at 5/10 and Fashion Trends (Female) at 6/10 steer the family toward a mixed outlook for grooming & beauty investment.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Body Image & Fitness Pressure",
-      "alignmentText": "Visible pressure to stay slim or athletic influences work and school culture. Fashion Trends (Male) at 5/10, Fashion Trends (Female) at 6/10, and Sex (Attitudes) at 5/10 steer the family toward a mixed outlook for body image & fitness pressure.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Fashion & Style Expectations",
-      "alignmentText": "Fashionable appearance is expected in many settings, adding planning time and costs. Fashion Trends (Male) at 5/10 and Fashion Trends (Female) at 6/10 steer the family toward a mixed outlook for fashion & style expectations.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Flirting Boundaries & Consent Culture",
-      "alignmentText": "Mixed norms—some groups embrace consent while others rely on outdated assumptions. Sex (Attitudes) at 5/10, LGBTQ+ Attitudes at 6/10, and Nightlife Culture at 7/10 steer the family toward a mixed outlook for flirting boundaries & consent culture.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Gendered Flirting Expectations",
-      "alignmentText": "Nontraditional approaches face regular pushback or misinterpretation. Gender Roles at 6/10, Gender Fluidity at 4/10, and Sex (Attitudes) at 5/10 steer the family toward a mixed outlook for gendered flirting expectations.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "Families risk stigma or legal complications when open about their structure. Polyamory at 3/10, Sex (Attitudes) at 5/10, and Community Vibes at 5/10 steer the family toward a challenging outlook for monogamy vs. non-monogamy acceptance.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Promiscuity Attitudes",
-      "alignmentText": "Moralizing comments surface regularly, pushing us to stay private about experiences. Sex (Attitudes) at 5/10, Nightlife & Music at 8/10, and Community Vibes at 5/10 steer the family toward a mixed outlook for promiscuity attitudes.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Group & Multi-Partner Relationship Attitudes",
-      "alignmentText": "Stigma is strong; custody and tenancy agreements become complicated. Polyamory at 3/10, Community Vibes at 5/10, and LGBTQ+ Attitudes at 6/10 steer the family toward a challenging outlook for group & multi-partner relationship attitudes.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Personal Space & Touch Norms",
-      "alignmentText": "Tight quarters and spontaneous touch are common; advocating for space is a regular task. Community Vibes at 5/10, Sex (Attitudes) at 5/10, and Nightlife Culture at 7/10 steer the family toward a mixed outlook for personal space & touch norms.",
-      "alignmentValue": 6
+      "sameAsParent": true
     },
     {
       "key": "Firearm Laws & Ownership Culture",
-      "alignmentText": "Permissive laws and visible ownership prompt caution in public spaces. Safety & Crime at 5/10, State Ideology at 4/10, and Political System at 6/10 steer the family toward a mixed outlook for firearm laws & ownership culture.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Controlled Substance Policies",
-      "alignmentText": "Strict policies create criminal records for minor infractions, especially for immigrants. Progressivism at 5/10, Political System at 6/10, and Safety & Crime at 5/10 steer the family toward a mixed outlook for controlled substance policies.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Drug Enforcement Climate",
-      "alignmentText": "Enforcement feels unpredictable with regular raids or public shaming campaigns. Safety & Crime at 5/10, Progressivism at 5/10, and Authoritarian Backsliding Risk at 4/10 steer the family toward a mixed outlook for drug enforcement climate.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Mass Violence Incidence",
-      "alignmentText": "Mass violence risk is an ongoing topic; we regularly rehearse safety plans. Safety & Crime at 5/10 and Stability at 5/10 steer the family toward a mixed outlook for mass violence incidence.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Carceral Conditions & Prison Labor",
-      "alignmentText": "Systemic issues persist—forced labor, poor healthcare, or punitive isolation. Authoritarian Backsliding Risk at 4/10, Safety & Crime at 5/10, and Perceived Corruption at 5/10 steer the family toward a mixed outlook for carceral conditions & prison labor.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Walkability & Pedestrian Safety",
@@ -689,18 +590,15 @@
     },
     {
       "key": "Community Health Consciousness",
-      "alignmentText": "Community norms lean unhealthy, making it hard to model good habits for kids. Healthcare (Citizens) at 4/10, Work-Life Balance at 3/10, and Community Vibes at 5/10 steer the family toward a challenging outlook for community health consciousness.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Processed Food Saturation",
-      "alignmentText": "Maintaining clean eating requires vigilance and possibly specialty stores. Cost of Living (Optional) at 4/10, Community Health Consciousness at 4/10, and Fresh & International Cuisine Access at 8/10 steer the family toward a mixed outlook for processed food saturation.",
-      "alignmentValue": 5
+      "sameAsParent": true
     },
     {
       "key": "Fresh & International Cuisine Access",
-      "alignmentText": "Strong selection overall though certain cuisines require a bit of travel. Nightlife & Music at 8/10, Common Hobbies at 7/10, and Meetups & Communities at 8/10 steer the family toward a strong outlook for fresh & international cuisine access.",
-      "alignmentValue": 8
+      "sameAsParent": true
     },
     {
       "key": "Depression Prevalence",
@@ -709,8 +607,7 @@
     },
     {
       "key": "Obesity Rate",
-      "alignmentText": "Rates continue climbing; youth obesity impacts schools and recreation. Community Health Consciousness at 4/10, Work-Life Balance at 3/10, and Cost of Living (Optional) at 4/10 steer the family toward a challenging outlook for obesity rate.",
-      "alignmentValue": 4
+      "sameAsParent": true
     },
     {
       "key": "Cancer Incidence",
