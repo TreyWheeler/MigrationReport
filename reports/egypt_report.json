@@ -2,112 +2,725 @@
   "version": 2,
   "iso": "EG",
   "values": [
-    {"key": "Environment", "alignmentText": "Egypt offers desert landscapes, the Nile, and Red Sea reefs, but rapid urbanization around Cairo contributes to pollution and habitat loss.", "alignmentValue": 4},
-    {"key": "Global Warming Risk", "alignmentText": "Water scarcity, Nile Delta erosion, and extreme heat waves make climate change a major concern for long-term livability.", "alignmentValue": 3},
-    {"key": "Seasonal Weather", "alignmentText": "Egypt features hot, dry summers and mild winters with minimal rain; sandstorms occasionally disrupt spring.", "alignmentValue": 5},
-    {"key": "Air Quality", "alignmentText": "Cairo regularly records PM2.5 levels above 50 µg/m³ due to traffic and agricultural burning, necessitating air purifiers for the kids.", "alignmentValue": 2},
-    {"key": "Natural Disasters", "alignmentText": "The country faces low seismic activity but is exposed to flash floods in Sinai and coastal storm surges in Alexandria.", "alignmentValue": 5},
-    {"key": "Spring Temperature Range (C/F)", "alignmentText": "March–May in Cairo brings 15–30°C (59–86°F) with occasional khamsin winds raising dust and temperatures.", "alignmentValue": 6},
-    {"key": "Summer Temperature Range (C/F)", "alignmentText": "June–August temperatures soar to 35–40°C (95–104°F) with intense sun, challenging Sarah’s mild-weather preference.", "alignmentValue": 3},
-    {"key": "Fall Temperature Range (C/F)", "alignmentText": "Autumn cools to 20–30°C (68–86°F) with less dust, offering more comfortable outdoor time.", "alignmentValue": 6},
-    {"key": "Winter Temperature Range (C/F)", "alignmentText": "December–February days stay 12–20°C (54–68°F) with chilly evenings, aligning better with the family’s desired climate.", "alignmentValue": 7},
-    {"key": "Beach Life", "alignmentText": "Resorts along the Red Sea (Hurghada, Sharm El Sheikh) deliver warm water, snorkeling, and family resorts, though travel from Cairo takes planning.", "alignmentValue": 7},
-    {"key": "Seasonal Beach Water Temp", "alignmentText": "Red Sea temperatures range 22–28°C (72–82°F) year-round, while Mediterranean beaches cool to 18°C (64°F) in winter.", "alignmentValue": 7},
-    {"key": "Natural Beauty", "alignmentText": "Desert oases, ancient sites, and coral reefs offer dramatic scenery, but environmental degradation threatens parts of the Nile and reefs.", "alignmentValue": 6},
-    {"key": "Minimum Wage", "alignmentText": "Public sector minimum wage recently rose to EGP 3,500/month (~$113), far below costs for middle-class lifestyles.", "alignmentValue": 2},
-    {"key": "Typical Software Salaries", "alignmentText": "Senior developers in Cairo earn EGP 300k–450k/year (~$9.7–14.5k), making remote or freelance USD income far more attractive for Trey and Sarah.", "alignmentValue": 3},
-    {"key": ".NET Work Prospects", "alignmentText": "Large banks, telecoms, and outsourcing firms use .NET stacks, but projects often focus on legacy enterprise work with conservative cultures.", "alignmentValue": 5},
-    {"key": "Ruby Work Prospects", "alignmentText": "Ruby jobs are rare; most startups favor PHP, JavaScript, or Java, so Sarah would rely on remote contracts.", "alignmentValue": 2},
-    {"key": "Employer Visa Sponsorship", "alignmentText": "Companies rarely sponsor Western employees; work permits require local labor market tests and heavy documentation.", "alignmentValue": 2},
-    {"key": "Economic Health", "alignmentText": "The economy is growing but faces high inflation, currency devaluations, and heavy debt, creating financial volatility.", "alignmentValue": 4},
-    {"key": "Remote-Friendly Culture", "alignmentText": "Tech firms adopted hybrid work during the pandemic, yet power outages and inconsistent internet outside premium neighborhoods hinder seamless remote work.", "alignmentValue": 4},
-    {"key": "Work-Life Balance", "alignmentText": "Corporate culture often expects long hours and rigid hierarchies, limiting Sarah’s desired work-life separation.", "alignmentValue": 3},
-    {"key": "Work Week Hours", "alignmentText": "The legal workweek is 48 hours; many companies expect six-day weeks or overtime during peak projects.", "alignmentValue": 3},
-    {"key": "Vacation Days (Minimum)", "alignmentText": "Employees earn 21 days after a year, increasing with tenure, alongside numerous religious and national holidays.", "alignmentValue": 6},
-    {"key": "Vacation Days (Typical)", "alignmentText": "Private firms often provide the legal minimum; approvals can be subject to managerial discretion.", "alignmentValue": 5},
-    {"key": "Pace of Life", "alignmentText": "Cairo’s bustle, traffic, and bureaucracy create a fast-paced daily rhythm, though neighborhoods like Maadi feel slower.", "alignmentValue": 4},
-    {"key": "Typical Workday Schedule (Family of Four)", "alignmentText": "Schools start around 8 a.m., offices 9 a.m., with long commutes and late dinners influenced by evening social visits.", "alignmentValue": 4},
-    {"key": "Typical Weekend Schedule (Family of Four)", "alignmentText": "Weekends (Friday-Saturday) revolve around family lunches, mosque visits, and Nile or desert day trips, offering cultural immersion.", "alignmentValue": 6},
-    {"key": "Family Life", "alignmentText": "Family bonds are strong and neighbors often help each other, but privacy expectations differ from the US.", "alignmentValue": 7},
-    {"key": "Polyamory", "alignmentText": "Polyamory conflicts with legal and social norms; Egypt criminalizes adultery and promotes conservative family structures.", "alignmentValue": 1},
-    {"key": "Parenting Expectations", "alignmentText": "Parents emphasize respect, academic achievement, and religious values, with schools expecting disciplined behavior.", "alignmentValue": 5},
-    {"key": "Child-Friendliness of Cities", "alignmentText": "Gated communities and international schools offer safe spaces, but public parks and pedestrian infrastructure are limited.", "alignmentValue": 4},
-    {"key": "Schooling Options", "alignmentText": "International schools (American, British, IB) in Cairo and Alexandria provide high-quality options at premium fees; public schools suffer overcrowding.", "alignmentValue": 5},
-    {"key": "Pre-K / Early Childcare Landscape", "alignmentText": "Private nurseries and nannies are common in affluent areas, while public early childhood programs are scarce.", "alignmentValue": 5},
-    {"key": "Childcare Support (Citizens)", "alignmentText": "Extended families and informal caregivers provide most support; state subsidies are minimal.", "alignmentValue": 3},
-    {"key": "Childcare Support (Visa Holders)", "alignmentText": "Expat families rely on nannies or daycare within international schools, requiring vetting and language coordination.", "alignmentValue": 4},
-    {"key": "K-12 Education Access (Citizens)", "alignmentText": "Public education is free but quality varies widely, leading middle-class families to seek private or language schools.", "alignmentValue": 4},
-    {"key": "K-12 Education Access (Visa Holders)", "alignmentText": "International schools accept foreigners but have waiting lists and high tuition, requiring early planning.", "alignmentValue": 4},
-    {"key": "Private Education", "alignmentText": "International and national private schools offer rigorous academics and bilingual programs but demand significant tuition and entrance exams.", "alignmentValue": 6},
-    {"key": "Family Policy (Citizens)", "alignmentText": "Maternity leave provides 90 days at partial pay and public childcare support is limited, pushing families toward private solutions.", "alignmentValue": 3},
-    {"key": "Family Policy (Visa Holders)", "alignmentText": "Foreign workers depend on employer policies for leave; legal entitlements are not guaranteed for expats.", "alignmentValue": 2},
-    {"key": "Higher Education Access (Citizens)", "alignmentText": "Public universities like Cairo University offer affordable degrees, while private universities cater to affluent students.", "alignmentValue": 5},
-    {"key": "Higher Education Access (Visa Holders)", "alignmentText": "Foreign students can enroll with tuition rates higher than locals; programs are mostly Arabic or English depending on institution.", "alignmentValue": 5},
-    {"key": "Gender Roles", "alignmentText": "Traditional gender roles persist, though urban women increasingly work and pursue higher education; societal expectations remain conservative.", "alignmentValue": 3},
-    {"key": "Gender Fluidity", "alignmentText": "Legal recognition for transgender people is limited and social acceptance is very low, posing significant challenges for gender-diverse individuals.", "alignmentValue": 1},
-    {"key": "Gender Rights", "alignmentText": "Women face legal inequalities in family law and limited protections against harassment despite recent reforms.", "alignmentValue": 3},
-    {"key": "Femininity Norms", "alignmentText": "Modest dress and traditional femininity are expected in many contexts, though cosmopolitan enclaves allow more flexibility.", "alignmentValue": 3},
-    {"key": "Masculinity Norms", "alignmentText": "Men are expected to be providers and authority figures; emotional openness is less common but changing among younger professionals.", "alignmentValue": 4},
-    {"key": "What Is Intriguing", "alignmentText": "Pharaonic history, Islamic architecture, and desert exploration offer unique creative inspiration for Trey’s projects.", "alignmentValue": 8},
-    {"key": "Language & English Ubiquity", "alignmentText": "Arabic is essential for daily life; English is spoken in tourism, international schools, and some tech firms but not in bureaucracy.", "alignmentValue": 4},
-    {"key": "Progressivism", "alignmentText": "Progressive communities exist online and in art scenes, yet national politics remain conservative with tight limits on dissent.", "alignmentValue": 3},
-    {"key": "Marxism (Societal Attitudes)", "alignmentText": "Socialist ideals influenced past policy, but current attitudes favor state-led capitalism with limited space for leftist organizing.", "alignmentValue": 4},
-    {"key": "Atheism", "alignmentText": "Atheism is legal but socially frowned upon; open secularism is safest within expat or intellectual circles.", "alignmentValue": 3},
-    {"key": "Sex (Attitudes)", "alignmentText": "Sexual topics remain private and conservative; non-traditional relationships face social and legal risks.", "alignmentValue": 2},
-    {"key": "LGBTQ+ Attitudes", "alignmentText": "LGBTQ+ individuals face harassment and periodic crackdowns, with no legal protections in place.", "alignmentValue": 1},
-    {"key": "Community Vibes", "alignmentText": "Egyptians are hospitable and community-oriented, often inviting newcomers for meals and celebrations.", "alignmentValue": 8},
-    {"key": "View of self", "alignmentText": "National identity draws pride from ancient heritage and regional leadership, despite economic challenges.", "alignmentValue": 7},
-    {"key": "View of Neighboring Countries", "alignmentText": "Relations range from cooperative with Gulf allies to tense with Ethiopia over the Nile dam, shaping public discourse.", "alignmentValue": 5},
-    {"key": "View of Them by Neighboring Countries", "alignmentText": "Neighbors see Egypt as a cultural powerhouse with outsized political influence, yet sometimes criticize domestic repression.", "alignmentValue": 5},
-    {"key": "Nightlife Culture", "alignmentText": "Cairo offers cafes, Nile cruises, and lounges, but alcohol regulations and conservative norms create more subdued nightlife than in Europe.", "alignmentValue": 4},
-    {"key": "Fashion Trends (Male)", "alignmentText": "Men blend Western business attire with traditional galabeyas; lightweight fabrics help manage desert heat.", "alignmentValue": 5},
-    {"key": "Fashion Trends (Female)", "alignmentText": "Women mix modest fashion, hijabs, and Western styles depending on social context, offering Sarah expressive yet respectful choices.", "alignmentValue": 5},
-    {"key": "Common Hobbies", "alignmentText": "Families enjoy café culture, football, desert camping, and Red Sea diving, providing varied weekend options.", "alignmentValue": 6},
-    {"key": "Boardgaming & Tabletop", "alignmentText": "Board-game cafes like Qahwa Mazaj in Cairo host events, though import costs limit selection compared with Europe.", "alignmentValue": 5},
-    {"key": "Nightlife & Music", "alignmentText": "Live music blends Arabic pop, jazz, and electronic nights; events often start late and cater to cosmopolitan crowds.", "alignmentValue": 5},
-    {"key": "Meetups & Communities", "alignmentText": "Tech meetups, maker spaces, and cultural clubs exist in Cairo, offering Trey and Sarah networking despite bureaucratic hurdles.", "alignmentValue": 6},
-    {"key": "Nature Access", "alignmentText": "Weekend trips to Fayoum, Sinai hikes, or Red Sea diving are reachable but require planning and sometimes security permissions.", "alignmentValue": 6},
-    {"key": "Political System", "alignmentText": "Egypt is a presidential republic with limited opposition and strong military influence over governance.", "alignmentValue": 3},
-    {"key": "Religion in Politics", "alignmentText": "Islam heavily informs law and policy; the state manages religious institutions while promoting conservative social norms.", "alignmentValue": 2},
-    {"key": "Workers' Rights", "alignmentText": "Labor unions have limited independence, and worker protections are weak, especially for informal sectors.", "alignmentValue": 3},
-    {"key": "State Ideology", "alignmentText": "The government espouses national development, security, and stability with a top-down approach to modernization.", "alignmentValue": 3},
-    {"key": "Authoritarian Backsliding Risk", "alignmentText": "Civil liberties have tightened significantly since 2013, with restrictions on protests, media, and NGOs.", "alignmentValue": 2},
-    {"key": "State of Capitalism", "alignmentText": "A state-led economy with military-owned enterprises coexists with private investment, creating uneven competition.", "alignmentValue": 4},
-    {"key": "Stability", "alignmentText": "Security apparatus maintains order and large protests are rare, but economic shocks and currency devaluations create uncertainty.", "alignmentValue": 5},
-    {"key": "Propaganda Prevalence", "alignmentText": "State-aligned media dominates television and emphasizes government achievements, limiting dissenting narratives.", "alignmentValue": 3},
-    {"key": "Propaganda Messaging", "alignmentText": "Messaging highlights national security, mega-projects, and patriotism, which may feel heavy-handed for the family’s pluralistic tastes.", "alignmentValue": 3},
-    {"key": "Social Policies", "alignmentText": "Programs like Takaful and Karama provide cash transfers, yet broader social safety nets are limited and bureaucracy is heavy.", "alignmentValue": 4},
-    {"key": "Trust in Government", "alignmentText": "Many citizens support the government for stability, but inflation and civil liberty concerns erode trust among urban professionals.", "alignmentValue": 4},
-    {"key": "Perceived Corruption", "alignmentText": "Petty corruption and opaque procurement persist, particularly in licensing and customs processes.", "alignmentValue": 3},
-    {"key": "Type of Corruption", "alignmentText": "Facilitation payments and patronage networks are common, especially when dealing with permits or customs.", "alignmentValue": 3},
-    {"key": "Housing Situation", "alignmentText": "Gated communities in New Cairo and 6th of October City offer modern housing with amenities, while older districts face infrastructure strain.", "alignmentValue": 5},
-    {"key": "Safety & Crime", "alignmentText": "Violent crime is relatively low, but sexual harassment, petty theft, and traffic accidents require vigilance, especially for Sarah.", "alignmentValue": 4},
-    {"key": "Healthcare (Citizens)", "alignmentText": "Public hospitals struggle with overcrowding and limited equipment; wealthier Egyptians rely on private clinics.", "alignmentValue": 3},
-    {"key": "Healthcare (Visa Holders)", "alignmentText": "Private hospitals like Cleopatra and As-Salam provide quality care with English-speaking staff, though specialized treatment may require travel.", "alignmentValue": 6},
-    {"key": "Child Care Support", "alignmentText": "Nannies and domestic helpers are affordable, but training and employment contracts require attentive management.", "alignmentValue": 5},
-    {"key": "Family Policy (Common Family)", "alignmentText": "Families build support networks through relatives and private services, balancing hospitality with bureaucratic hurdles.", "alignmentValue": 4},
-    {"key": "Education", "alignmentText": "International schools deliver strong academics, but public education quality gaps and rote learning require active parental involvement.", "alignmentValue": 4},
-    {"key": "Public Transportation", "alignmentText": "Cairo’s metro and new monorail projects improve mobility, yet overcrowding and limited coverage make cars or ride-hailing necessary for families.", "alignmentValue": 5},
-    {"key": "Economic System", "alignmentText": "Egypt pursues state-led development with mega-projects and incentives for foreign investment, offering opportunities alongside red tape.", "alignmentValue": 5},
-    {"key": "How Taxes Are Handled", "alignmentText": "Tax filing is centralized but documentation-heavy; VAT and income tax compliance usually requires a local accountant.", "alignmentValue": 4},
-    {"key": "Expected Tax Rate (Our Family)", "alignmentText": "Top marginal income tax reaches 25% plus social contributions; foreigners become tax residents after 183 days unless structured otherwise.", "alignmentValue": 5},
-    {"key": "Banking & Payments", "alignmentText": "Opening bank accounts requires residency visas and letters; cash remains common, though mobile wallets like InstaPay are growing.", "alignmentValue": 4},
-    {"key": "Cost of Living (Optional)", "alignmentText": "Everyday costs are lower than the US, but inflation and imported goods raise budgets; international schooling and travel add premiums.", "alignmentValue": 6},
-    {"key": "Retirement (Citizens)", "alignmentText": "Public pensions offer limited income, encouraging supplemental savings or reliance on family support.", "alignmentValue": 3},
-    {"key": "Retirement (Visa Holders)", "alignmentText": "Foreigners typically maintain overseas retirement accounts; there is no dedicated retiree visa offering tax incentives.", "alignmentValue": 2},
-    {"key": "Visa Paths", "alignmentText": "Employment, investor, and property-owner visas exist but involve extensive paperwork; long-term residency is difficult without employer sponsorship.", "alignmentValue": 3},
-    {"key": "Welcoming of US Migrants", "alignmentText": "Egyptians welcome American tourists and educators, yet immigration systems are geared toward regional workers, not US families.", "alignmentValue": 5},
-    {"key": "Residency Types & Durations", "alignmentText": "Work visas renew annually; investor residency requires significant capital, and long-term permits remain discretionary.", "alignmentValue": 3},
-    {"key": "Path to Citizenship", "alignmentText": "Citizenship through residency is rare; investors can apply after a large deposit, but dual citizenship may require approvals.", "alignmentValue": 2},
-    {"key": "Family Members", "alignmentText": "Dependents can join on residence permits, but spousal work rights require separate approvals and employers.", "alignmentValue": 3},
-    {"key": "Timelines & Costs", "alignmentText": "Permits involve multiple ministry visits, security checks, and translation fees, often taking several months.", "alignmentValue": 3},
-    {"key": "Compliance & Risks", "alignmentText": "Visa overstays incur fines; security checks and sudden policy shifts demand close tracking of paperwork and exit requirements.", "alignmentValue": 3},
-    {"key": "Dual Citizenship Allowed", "alignmentText": "Egypt allows dual citizenship with permission, but applicants must notify authorities and may face military service considerations.", "alignmentValue": 4},
-    {"key": "General Considerations for Visa Holders", "alignmentText": "Residency requires police clearances, notarized leases, and occasional security interviews; legal counsel smooths the process.", "alignmentValue": 4},
-    {"key": "Game Dev Work Prospects", "alignmentText": "A small yet growing game dev scene clusters around Cairo startups focused on mobile and educational products.", "alignmentValue": 4},
-    {"key": "Notable Game Studios", "alignmentText": "Studios like Instinct Games, Rumbling Games, and Semaphore Lab operate locally, often collaborating with international partners.", "alignmentValue": 5},
-    {"key": "Notable Game Development Communities", "alignmentText": "Cairo Game Jam, Gamers Lounge, and university clubs host events, providing Trey with networking channels despite a modest scene.", "alignmentValue": 5},
-    {"key": "Opportunities for Video Game Startup", "alignmentText": "Government innovation funds exist but focus on fintech; game startups rely on self-funding and regional publishers, increasing risk.", "alignmentValue": 3},
-    {"key": "Modernity & Infrastructure", "alignmentText": "New Cairo districts feature modern malls, fiber internet, and expanding transit, yet power cuts and traffic persist in older neighborhoods.", "alignmentValue": 5}
+    {
+      "key": "Environment",
+      "alignmentText": "Egypt offers desert landscapes, the Nile, and Red Sea reefs, but rapid urbanization around Cairo contributes to pollution and habitat loss.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Water scarcity, Nile Delta erosion, and extreme heat waves make climate change a major concern for long-term livability.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Egypt features hot, dry summers and mild winters with minimal rain; sandstorms occasionally disrupt spring.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Cairo regularly records PM2.5 levels above 50 µg/m³ due to traffic and agricultural burning, necessitating air purifiers for the kids.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "The country faces low seismic activity but is exposed to flash floods in Sinai and coastal storm surges in Alexandria.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "March–May in Cairo brings 15–30°C (59–86°F) with occasional khamsin winds raising dust and temperatures.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "June–August temperatures soar to 35–40°C (95–104°F) with intense sun, challenging Sarah’s mild-weather preference.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Autumn cools to 20–30°C (68–86°F) with less dust, offering more comfortable outdoor time.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "December–February days stay 12–20°C (54–68°F) with chilly evenings, aligning better with the family’s desired climate.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Resorts along the Red Sea (Hurghada, Sharm El Sheikh) deliver warm water, snorkeling, and family resorts, though travel from Cairo takes planning.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Red Sea temperatures range 22–28°C (72–82°F) year-round, while Mediterranean beaches cool to 18°C (64°F) in winter.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Desert oases, ancient sites, and coral reefs offer dramatic scenery, but environmental degradation threatens parts of the Nile and reefs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Public sector minimum wage recently rose to EGP 3,500/month (~$113), far below costs for middle-class lifestyles.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Senior developers in Cairo earn EGP 300k–450k/year (~$9.7–14.5k), making remote or freelance USD income far more attractive for Trey and Sarah.",
+      "alignmentValue": 3
+    },
+    {
+      "key": ".NET Work Prospects",
+      "alignmentText": "Large banks, telecoms, and outsourcing firms use .NET stacks, but projects often focus on legacy enterprise work with conservative cultures.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Ruby jobs are rare; most startups favor PHP, JavaScript, or Java, so Sarah would rely on remote contracts.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Companies rarely sponsor Western employees; work permits require local labor market tests and heavy documentation.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "The economy is growing but faces high inflation, currency devaluations, and heavy debt, creating financial volatility.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Tech firms adopted hybrid work during the pandemic, yet power outages and inconsistent internet outside premium neighborhoods hinder seamless remote work.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Corporate culture often expects long hours and rigid hierarchies, limiting Sarah’s desired work-life separation.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "The legal workweek is 48 hours; many companies expect six-day weeks or overtime during peak projects.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Employees earn 21 days after a year, increasing with tenure, alongside numerous religious and national holidays.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Private firms often provide the legal minimum; approvals can be subject to managerial discretion.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Cairo’s bustle, traffic, and bureaucracy create a fast-paced daily rhythm, though neighborhoods like Maadi feel slower.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Schools start around 8 a.m., offices 9 a.m., with long commutes and late dinners influenced by evening social visits.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Weekends (Friday-Saturday) revolve around family lunches, mosque visits, and Nile or desert day trips, offering cultural immersion.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Family bonds are strong and neighbors often help each other, but privacy expectations differ from the US.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Polyamory conflicts with legal and social norms; Egypt criminalizes adultery and promotes conservative family structures.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Parents emphasize respect, academic achievement, and religious values, with schools expecting disciplined behavior.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Gated communities and international schools offer safe spaces, but public parks and pedestrian infrastructure are limited.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "International schools (American, British, IB) in Cairo and Alexandria provide high-quality options at premium fees; public schools suffer overcrowding.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Private nurseries and nannies are common in affluent areas, while public early childhood programs are scarce.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Extended families and informal caregivers provide most support; state subsidies are minimal.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "Expat families rely on nannies or daycare within international schools, requiring vetting and language coordination.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Public education is free but quality varies widely, leading middle-class families to seek private or language schools.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "International schools accept foreigners but have waiting lists and high tuition, requiring early planning.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "International and national private schools offer rigorous academics and bilingual programs but demand significant tuition and entrance exams.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "Maternity leave provides 90 days at partial pay and public childcare support is limited, pushing families toward private solutions.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Foreign workers depend on employer policies for leave; legal entitlements are not guaranteed for expats.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Public universities like Cairo University offer affordable degrees, while private universities cater to affluent students.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "Foreign students can enroll with tuition rates higher than locals; programs are mostly Arabic or English depending on institution.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Traditional gender roles persist, though urban women increasingly work and pursue higher education; societal expectations remain conservative.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Legal recognition for transgender people is limited and social acceptance is very low, posing significant challenges for gender-diverse individuals.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Women face legal inequalities in family law and limited protections against harassment despite recent reforms.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Modest dress and traditional femininity are expected in many contexts, though cosmopolitan enclaves allow more flexibility.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Men are expected to be providers and authority figures; emotional openness is less common but changing among younger professionals.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Pharaonic history, Islamic architecture, and desert exploration offer unique creative inspiration for Trey’s projects.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "alignmentText": "Arabic is essential for daily life; English is spoken in tourism, international schools, and some tech firms but not in bureaucracy.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Progressive communities exist online and in art scenes, yet national politics remain conservative with tight limits on dissent.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Socialist ideals influenced past policy, but current attitudes favor state-led capitalism with limited space for leftist organizing.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "Atheism is legal but socially frowned upon; open secularism is safest within expat or intellectual circles.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Sexual topics remain private and conservative; non-traditional relationships face social and legal risks.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "alignmentText": "LGBTQ+ individuals face harassment and periodic crackdowns, with no legal protections in place.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Egyptians are hospitable and community-oriented, often inviting newcomers for meals and celebrations.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "National identity draws pride from ancient heritage and regional leadership, despite economic challenges.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Relations range from cooperative with Gulf allies to tense with Ethiopia over the Nile dam, shaping public discourse.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Neighbors see Egypt as a cultural powerhouse with outsized political influence, yet sometimes criticize domestic repression.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Cairo offers cafes, Nile cruises, and lounges, but alcohol regulations and conservative norms create more subdued nightlife than in Europe.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "Men blend Western business attire with traditional galabeyas; lightweight fabrics help manage desert heat.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Women mix modest fashion, hijabs, and Western styles depending on social context, offering Sarah expressive yet respectful choices.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Families enjoy café culture, football, desert camping, and Red Sea diving, providing varied weekend options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "alignmentText": "Board-game cafes like Qahwa Mazaj in Cairo host events, though import costs limit selection compared with Europe.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Nightlife & Music",
+      "alignmentText": "Live music blends Arabic pop, jazz, and electronic nights; events often start late and cater to cosmopolitan crowds.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Meetups & Communities",
+      "alignmentText": "Tech meetups, maker spaces, and cultural clubs exist in Cairo, offering Trey and Sarah networking despite bureaucratic hurdles.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Weekend trips to Fayoum, Sinai hikes, or Red Sea diving are reachable but require planning and sometimes security permissions.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "Egypt is a presidential republic with limited opposition and strong military influence over governance.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Islam heavily informs law and policy; the state manages religious institutions while promoting conservative social norms.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Workers' Rights",
+      "alignmentText": "Labor unions have limited independence, and worker protections are weak, especially for informal sectors.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "The government espouses national development, security, and stability with a top-down approach to modernization.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Civil liberties have tightened significantly since 2013, with restrictions on protests, media, and NGOs.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "A state-led economy with military-owned enterprises coexists with private investment, creating uneven competition.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Security apparatus maintains order and large protests are rare, but economic shocks and currency devaluations create uncertainty.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "State-aligned media dominates television and emphasizes government achievements, limiting dissenting narratives.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Messaging highlights national security, mega-projects, and patriotism, which may feel heavy-handed for the family’s pluralistic tastes.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Programs like Takaful and Karama provide cash transfers, yet broader social safety nets are limited and bureaucracy is heavy.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Many citizens support the government for stability, but inflation and civil liberty concerns erode trust among urban professionals.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Petty corruption and opaque procurement persist, particularly in licensing and customs processes.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Facilitation payments and patronage networks are common, especially when dealing with permits or customs.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Gated communities in New Cairo and 6th of October City offer modern housing with amenities, while older districts face infrastructure strain.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Safety & Crime",
+      "alignmentText": "Violent crime is relatively low, but sexual harassment, petty theft, and traffic accidents require vigilance, especially for Sarah.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Public hospitals struggle with overcrowding and limited equipment; wealthier Egyptians rely on private clinics.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Private hospitals like Cleopatra and As-Salam provide quality care with English-speaking staff, though specialized treatment may require travel.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Nannies and domestic helpers are affordable, but training and employment contracts require attentive management.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Families build support networks through relatives and private services, balancing hospitality with bureaucratic hurdles.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Education",
+      "alignmentText": "International schools deliver strong academics, but public education quality gaps and rote learning require active parental involvement.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Cairo’s metro and new monorail projects improve mobility, yet overcrowding and limited coverage make cars or ride-hailing necessary for families.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Egypt pursues state-led development with mega-projects and incentives for foreign investment, offering opportunities alongside red tape.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Tax filing is centralized but documentation-heavy; VAT and income tax compliance usually requires a local accountant.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Top marginal income tax reaches 25% plus social contributions; foreigners become tax residents after 183 days unless structured otherwise.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentText": "Opening bank accounts requires residency visas and letters; cash remains common, though mobile wallets like InstaPay are growing.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Everyday costs are lower than the US, but inflation and imported goods raise budgets; international schooling and travel add premiums.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "Public pensions offer limited income, encouraging supplemental savings or reliance on family support.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "Foreigners typically maintain overseas retirement accounts; there is no dedicated retiree visa offering tax incentives.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Employment, investor, and property-owner visas exist but involve extensive paperwork; long-term residency is difficult without employer sponsorship.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Egyptians welcome American tourists and educators, yet immigration systems are geared toward regional workers, not US families.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Residency Types & Durations",
+      "alignmentText": "Work visas renew annually; investor residency requires significant capital, and long-term permits remain discretionary.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Citizenship through residency is rare; investors can apply after a large deposit, but dual citizenship may require approvals.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Dependents can join on residence permits, but spousal work rights require separate approvals and employers.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Timelines & Costs",
+      "alignmentText": "Permits involve multiple ministry visits, security checks, and translation fees, often taking several months.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Compliance & Risks",
+      "alignmentText": "Visa overstays incur fines; security checks and sudden policy shifts demand close tracking of paperwork and exit requirements.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Egypt allows dual citizenship with permission, but applicants must notify authorities and may face military service considerations.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "Residency requires police clearances, notarized leases, and occasional security interviews; legal counsel smooths the process.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "A small yet growing game dev scene clusters around Cairo startups focused on mobile and educational products.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Studios like Instinct Games, Rumbling Games, and Semaphore Lab operate locally, often collaborating with international partners.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Cairo Game Jam, Gamers Lounge, and university clubs host events, providing Trey with networking channels despite a modest scene.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Government innovation funds exist but focus on fintech; game startups rely on self-funding and regional publishers, increasing risk.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "alignmentText": "New Cairo districts feature modern malls, fiber internet, and expanding transit, yet power cuts and traffic persist in older neighborhoods.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Seasonal Extremes & Variability",
+      "alignmentText": "Every season brings common extremes, so we rely on specialized clothing, cooling, or heating solutions to stay comfortable. Seasonal Weather at 5/10 and Natural Disasters at 5/10 steer the family toward a mixed outlook for seasonal extremes & variability.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Major daylight imbalances demand heavy interventions—SAD lamps, vitamin regimens, and frequent travel for sun exposure. Seasonal Weather at 5/10 and Environment at 4/10 steer the family toward a mixed outlook for seasonal sunlight hours.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "Pleasant stretches appear sporadically, so spontaneous outdoor plans are rare and weather dominates scheduling. Seasonal Weather at 5/10 and Environment at 4/10 steer the family toward a mixed outlook for pleasant weather windows.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Quality of Life – Lower-Income Tier",
+      "alignmentText": "Survival dominates—frequent trade-offs between rent, food, and healthcare with minimal institutional help. Minimum Wage at 2/10, Housing Situation at 5/10, and Childcare Support (Citizens) at 3/10 steer the family toward a challenging outlook for quality of life – lower-income tier.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Quality of Life – Middle-Income Tier",
+      "alignmentText": "Lifestyle feels brittle; one unexpected expense forces significant cutbacks or debt. Typical Software Salaries at 3/10, Housing Situation at 5/10, and Work-Life Balance at 3/10 steer the family toward a challenging outlook for quality of life – middle-income tier.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Quality of Life – Higher-Income Tier",
+      "alignmentText": "Affluent households encounter noticeable friction—specialists, tutors, or clubs are scarce or highly gated. Housing Situation at 5/10, Private Education at 6/10, and Family Life at 7/10 steer the family toward a mixed outlook for quality of life – higher-income tier.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "Most 2k sq ft options feel overpriced or stuck in fringe neighborhoods with weaker schools. Housing Situation at 5/10 and Cost of Living (Optional) at 6/10 steer the family toward a mixed outlook for spacious housing benchmark (2k sq ft rent).",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Intentional communities exist but are limited in size or geared toward niche demographics. Community Vibes at 8/10, Meetups & Communities at 6/10, and Family Life at 7/10 steer the family toward a strong outlook for community living opportunities.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Friendliness & Neighborliness Index",
+      "alignmentText": "Friendliness varies by neighborhood; we can cultivate ties but must invest time and select communities carefully. Community Vibes at 8/10, Meetups & Communities at 6/10, and Common Hobbies at 6/10 steer the family toward a strong outlook for friendliness & neighborliness index.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Immigrant Sentiment – General",
+      "alignmentText": "Negative media framing and policy tightenings create a defensive posture for newcomers. Welcoming of US Migrants at 5/10, Progressivism at 3/10, and Language & English Ubiquity at 4/10 steer the family toward a challenging outlook for immigrant sentiment – general.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Immigrant Sentiment – White Migrants",
+      "alignmentText": "Suspicion around privilege is common, demanding constant humility and proof of local investment. Welcoming of US Migrants at 5/10, Language & English Ubiquity at 4/10, and View of Them by Neighboring Countries at 5/10 steer the family toward a mixed outlook for immigrant sentiment – white migrants.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "Interactions can be efficient yet emotionally flat; kindness takes effort to elicit. Community Vibes at 8/10, Nightlife Culture at 4/10, and Common Hobbies at 6/10 steer the family toward a mixed outlook for surface interaction norms.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "Many acquaintances stay casual, but dedicated outreach unlocks close friendships over time. Community Vibes at 8/10, Meetups & Communities at 6/10, and What Is Intriguing at 8/10 steer the family toward a strong outlook for depth-seeking social norms.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Personal Boundary & Bubble Norms",
+      "alignmentText": "Personal space is often compressed, so we must advocate gently for comfort. Community Vibes at 8/10, Sex (Attitudes) at 2/10, and View of self at 7/10 steer the family toward a mixed outlook for personal boundary & bubble norms.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Moral, Honesty & Openness Expectations",
+      "alignmentText": "Honesty is situational; locals may avoid uncomfortable topics entirely. Progressivism at 3/10, What Is Intriguing at 8/10, and Trust in Government at 4/10 steer the family toward a mixed outlook for moral, honesty & openness expectations.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Grooming & Beauty Investment",
+      "alignmentText": "Beauty investments run high; opting out draws comments or limits opportunities. Fashion Trends (Male) at 5/10 and Fashion Trends (Female) at 5/10 steer the family toward a mixed outlook for grooming & beauty investment.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Body Image & Fitness Pressure",
+      "alignmentText": "Body shaming is common and influences opportunities or friendships. Fashion Trends (Male) at 5/10, Fashion Trends (Female) at 5/10, and Sex (Attitudes) at 2/10 steer the family toward a challenging outlook for body image & fitness pressure.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Fashion & Style Expectations",
+      "alignmentText": "Trend cycles move fast; failing to keep up draws comments or limits networking. Fashion Trends (Male) at 5/10 and Fashion Trends (Female) at 5/10 steer the family toward a mixed outlook for fashion & style expectations.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Flirting Boundaries & Consent Culture",
+      "alignmentText": "Victim-blaming attitudes persist, eroding trust in institutions. Sex (Attitudes) at 2/10, LGBTQ+ Attitudes at 1/10, and Nightlife Culture at 4/10 steer the family toward an unsustainable outlook for flirting boundaries & consent culture.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "Communities enforce strict gendered behavior with little tolerance for experimentation. Gender Roles at 3/10, Gender Fluidity at 1/10, and Sex (Attitudes) at 2/10 steer the family toward an unsustainable outlook for gendered flirting expectations.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "Negative narratives dominate; openness threatens custody, employment, or housing. Polyamory at 1/10, Sex (Attitudes) at 2/10, and Community Vibes at 8/10 steer the family toward a challenging outlook for monogamy vs. non-monogamy acceptance.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "Conservative norms dominate; promiscuity is equated with poor character. Sex (Attitudes) at 2/10, Nightlife & Music at 5/10, and Community Vibes at 8/10 steer the family toward a challenging outlook for promiscuity attitudes.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Group & Multi-Partner Relationship Attitudes",
+      "alignmentText": "Multi-partner households face outright hostility or legal barriers. Polyamory at 1/10, Community Vibes at 8/10, and LGBTQ+ Attitudes at 1/10 steer the family toward an unsustainable outlook for group & multi-partner relationship attitudes.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Personal Space & Touch Norms",
+      "alignmentText": "Culture favors close contact; sensory-sensitive family members often feel overwhelmed. Community Vibes at 8/10, Sex (Attitudes) at 2/10, and Nightlife Culture at 4/10 steer the family toward a mixed outlook for personal space & touch norms.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Firearm Laws & Ownership Culture",
+      "alignmentText": "High prevalence of firearms and lax rules elevate daily risk perception. Safety & Crime at 4/10, State Ideology at 3/10, and Political System at 3/10 steer the family toward a challenging outlook for firearm laws & ownership culture.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Harsh sentencing and moral panic dominate political rhetoric. Progressivism at 3/10, Political System at 3/10, and Safety & Crime at 4/10 steer the family toward a challenging outlook for controlled substance policies.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "Families risk collateral trauma from militarized raids or wrongful accusations. Safety & Crime at 4/10, Progressivism at 3/10, and Authoritarian Backsliding Risk at 2/10 steer the family toward a challenging outlook for drug enforcement climate.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Incidents happen with disturbing frequency, shaping daily routines and mental load. Safety & Crime at 4/10 and Stability at 5/10 steer the family toward a challenging outlook for mass violence incidence.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Carceral Conditions & Prison Labor",
+      "alignmentText": "Conditions are degrading with widespread labor exploitation and violence. Authoritarian Backsliding Risk at 2/10, Safety & Crime at 4/10, and Perceived Corruption at 3/10 steer the family toward a challenging outlook for carceral conditions & prison labor.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Walkability & Pedestrian Safety",
+      "alignmentText": "Walking is possible yet stressful due to gaps in sidewalks or aggressive driving. Public Transportation at 5/10, Housing Situation at 5/10, and Nature Access at 6/10 steer the family toward a mixed outlook for walkability & pedestrian safety.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "Community norms lean unhealthy, making it hard to model good habits for kids. Healthcare (Citizens) at 3/10, Work-Life Balance at 3/10, and Community Vibes at 8/10 steer the family toward a challenging outlook for community health consciousness.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "Maintaining clean eating requires vigilance and possibly specialty stores. Cost of Living (Optional) at 6/10, Community Health Consciousness at 4/10, and Fresh & International Cuisine Access at 6/10 steer the family toward a mixed outlook for processed food saturation.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Fresh & International Cuisine Access",
+      "alignmentText": "Fresh options exist yet international diversity is limited to a few neighborhoods. Nightlife & Music at 5/10, Common Hobbies at 6/10, and Meetups & Communities at 6/10 steer the family toward a mixed outlook for fresh & international cuisine access.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "Stigma or limited providers make it harder to secure consistent care. Seasonal Weather at 5/10, Work-Life Balance at 3/10, and Community Vibes at 8/10 steer the family toward a mixed outlook for depression prevalence.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Rates continue climbing; youth obesity impacts schools and recreation. Community Health Consciousness at 4/10, Work-Life Balance at 3/10, and Cost of Living (Optional) at 6/10 steer the family toward a challenging outlook for obesity rate.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "Incidence trends upward; access to specialized care may be strained. Environment at 4/10, Healthcare (Citizens) at 3/10, and Community Health Consciousness at 4/10 steer the family toward a challenging outlook for cancer incidence.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Job market is volatile with frequent booms and busts across major employers. Economic Health at 4/10, Remote-Friendly Culture at 4/10, and Typical Software Salaries at 3/10 steer the family toward a challenging outlook for broader job market resilience.",
+      "alignmentValue": 4
+    }
   ]
 }

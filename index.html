@@ -147,6 +147,12 @@
       cursor: not-allowed;
       box-shadow: none;
     }
+    body:not(.show-hidden-keys) .hidden-key { display: none !important; }
+    body.show-hidden-keys .score-list .hidden-key { background: color-mix(in srgb, var(--md-color-primary) 10%, transparent); border-radius: 10px; }
+    body.show-hidden-keys .comparison-table tr.hidden-key td { background: color-mix(in srgb, var(--md-color-primary) 8%, transparent); }
+    body.show-hidden-keys .comparison-table tr.hidden-key .cell-inner { background: transparent; }
+    body.show-hidden-keys .hidden-key-inner { font-style: italic; opacity: 0.85; }
+    body.show-hidden-keys .hidden-key .score-chip { opacity: 0.9; }
     body[data-theme="dark"] .toggle {
       background: #111827; border-color: #334155; color: var(--md-color-on-surface);
       box-shadow: 0 1px 1px rgba(0,0,0,0.4);
@@ -173,6 +179,8 @@
     body[data-theme="dark"] .pill-button:disabled {
       box-shadow: none;
     }
+    body[data-theme="dark"].show-hidden-keys .score-list .hidden-key { background: color-mix(in srgb, var(--md-color-primary) 22%, transparent); }
+    body[data-theme="dark"].show-hidden-keys .comparison-table tr.hidden-key td { background: color-mix(in srgb, var(--md-color-primary) 18%, transparent); }
     .toggle input { accent-color: var(--md-color-primary); }
     .controls .pill-button { align-self: flex-start; }
     .flag-icon { width: 18px; height: 12px; border-radius: 2px; object-fit: cover; box-shadow: 0 0 0 1px rgba(0,0,0,0.06); }
@@ -384,8 +392,25 @@
       z-index: 2;
     }
     .key-cell .key-inner { display: flex; align-items: center; gap: 8px; }
+    .key-cell .key-actions { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; }
+    .key-cell .info-toggle-btn {
+      font-size: 12px;
+      padding: 4px 8px;
+      border: 1px solid var(--md-color-outline);
+      border-radius: 9999px;
+      background: var(--md-color-surface);
+      color: var(--md-color-on-surface);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 160ms ease, box-shadow 160ms ease, border-color 160ms ease, color 160ms ease;
+    }
+    .key-cell .info-toggle-btn.override-active {
+      border-color: var(--md-color-primary);
+      color: var(--md-color-primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent);
+    }
+    .key-cell:hover .info-toggle-btn { opacity: 1; pointer-events: auto; }
     .key-cell .compare-btn {
-      margin-left: auto;
       font-size: 12px;
       padding: 4px 8px;
       border: 1px solid var(--md-color-outline);
@@ -489,6 +514,10 @@
       letter-spacing: 0.02em;
       box-shadow: inset 0 -1px 0 rgba(0,0,0,0.08);
       transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+    }
+    .score-chip.placeholder {
+      visibility: hidden;
+      pointer-events: none;
     }
     .score-chip:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.15), inset 0 -1px 0 rgba(0,0,0,0.08); }
     .bucket-red { background: var(--score-red); color: #fff; }

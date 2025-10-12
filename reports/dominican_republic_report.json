@@ -2,112 +2,725 @@
   "version": 2,
   "iso": "DO",
   "values": [
-    {"key": "Environment", "alignmentText": "Protected areas like Los Haitises and Jaragua showcase biodiversity, yet deforestation and waste management issues near Santo Domingo challenge environmental quality.", "alignmentValue": 5},
-    {"key": "Global Warming Risk", "alignmentText": "As a Caribbean nation the DR faces rising hurricane intensity, sea-level rise, and coral bleaching, elevating climate risk for coastal families.", "alignmentValue": 3},
-    {"key": "Seasonal Weather", "alignmentText": "The island experiences a tropical climate with wet and dry seasons; humidity stays high year-round with occasional trade-wind relief.", "alignmentValue": 5},
-    {"key": "Air Quality", "alignmentText": "Vehicle emissions and open burning can raise PM levels in Santo Domingo, though sea breezes generally keep pollution lower than South Asian megacities.", "alignmentValue": 6},
-    {"key": "Natural Disasters", "alignmentText": "Hurricanes, tropical storms, and occasional earthquakes require robust preparedness and insurance.", "alignmentValue": 3},
-    {"key": "Spring Temperature Range (C/F)", "alignmentText": "March–May temperatures hover between 23–31°C (73–88°F), delivering warm but tolerable days with afternoon showers.", "alignmentValue": 6},
-    {"key": "Summer Temperature Range (C/F)", "alignmentText": "June–August highs reach 32–34°C (90–93°F) with high humidity and hurricane season ramping up, challenging Sarah’s heat tolerance.", "alignmentValue": 4},
-    {"key": "Fall Temperature Range (C/F)", "alignmentText": "September–November remains warm at 23–32°C (73–90°F) with peak storm activity and heavy rainfall.", "alignmentValue": 4},
-    {"key": "Winter Temperature Range (C/F)", "alignmentText": "December–February offers 20–29°C (68–84°F) weather, the most comfortable period for outdoor family activities.", "alignmentValue": 7},
-    {"key": "Beach Life", "alignmentText": "Resort towns like Punta Cana and Las Terrenas deliver idyllic beaches with clear water, family amenities, and snorkel options.", "alignmentValue": 9},
-    {"key": "Seasonal Beach Water Temp", "alignmentText": "Sea temperatures stay 26–29°C (79–84°F) year-round, enabling consistent swimming and water sports.", "alignmentValue": 9},
-    {"key": "Natural Beauty", "alignmentText": "Mountain ranges, waterfalls, and cenotes allow quick weekend adventures, though road infrastructure can slow access.", "alignmentValue": 7},
-    {"key": "Minimum Wage", "alignmentText": "Minimum wages vary by sector from RD$11k–21k/month (~$190–$360), insufficient for comfortable urban living without supplemental income.", "alignmentValue": 3},
-    {"key": "Typical Software Salaries", "alignmentText": "Senior developers often earn RD$1.2M–1.6M/year (~$20–27k), making remote US contracts or entrepreneurship more attractive for Trey.", "alignmentValue": 4},
-    {"key": ".NET Work Prospects", "alignmentText": "Banks, telecoms, and outsourcing firms in Santo Domingo hire .NET talent, but the market is small and Spanish fluency helps.", "alignmentValue": 5},
-    {"key": "Ruby Work Prospects", "alignmentText": "Ruby roles are rare; most local startups rely on PHP or JavaScript stacks, so Sarah would depend on remote clients.", "alignmentValue": 3},
-    {"key": "Employer Visa Sponsorship", "alignmentText": "Companies seldom sponsor US workers; work permits favor investors or regional professionals with Spanish proficiency.", "alignmentValue": 3},
-    {"key": "Economic Health", "alignmentText": "Tourism rebounds strongly, remittances remain steady, and GDP growth hovers near 4%, yet inequality and reliance on tourism create fragility.", "alignmentValue": 5},
-    {"key": "Remote-Friendly Culture", "alignmentText": "Coworking hubs exist in Santo Domingo and Punta Cana, and fiber internet is available in upscale areas, though power outages necessitate backup plans.", "alignmentValue": 5},
-    {"key": "Work-Life Balance", "alignmentText": "Dominican culture emphasizes family and social life, but service sectors demand long shifts during peak tourist seasons.", "alignmentValue": 6},
-    {"key": "Work Week Hours", "alignmentText": "Labour laws cap the workweek at 44 hours, yet informal overtime is common in hospitality and call centers.", "alignmentValue": 5},
-    {"key": "Vacation Days (Minimum)", "alignmentText": "Employees accrue 14 paid vacation days after a year plus numerous public holidays, which grows with tenure.", "alignmentValue": 6},
-    {"key": "Vacation Days (Typical)", "alignmentText": "Companies often stick to the legal minimum, so negotiated contracts are key for longer breaks.", "alignmentValue": 5},
-    {"key": "Pace of Life", "alignmentText": "Island life feels relaxed outside Santo Domingo traffic, aligning with the family’s desire for a slower daily rhythm.", "alignmentValue": 7},
-    {"key": "Typical Workday Schedule (Family of Four)", "alignmentText": "Schools commonly run 8 a.m.–2 p.m., offices 9 a.m.–6 p.m., with extended lunch breaks and evening socializing.", "alignmentValue": 6},
-    {"key": "Typical Weekend Schedule (Family of Four)", "alignmentText": "Weekends center on beach trips, baseball games, and family gatherings, creating strong community ties.", "alignmentValue": 8},
-    {"key": "Family Life", "alignmentText": "Extended families and neighbors offer support networks, though expats must navigate language barriers and socioeconomic divides.", "alignmentValue": 7},
-    {"key": "Polyamory", "alignmentText": "Polyamory is socially stigmatized and lacks legal protection; discretion is necessary to avoid gossip and institutional pushback.", "alignmentValue": 2},
-    {"key": "Parenting Expectations", "alignmentText": "Parents prioritize respect, Catholic traditions, and academic progress, which can feel formal compared with US parenting norms.", "alignmentValue": 5},
-    {"key": "Child-Friendliness of Cities", "alignmentText": "Malls and gated communities provide safe play zones, but sidewalks, traffic, and public spaces lag in accessibility.", "alignmentValue": 4},
-    {"key": "Schooling Options", "alignmentText": "Bilingual private schools, US-curriculum academies, and public options exist; quality correlates strongly with tuition levels.", "alignmentValue": 5},
-    {"key": "Pre-K / Early Childcare Landscape", "alignmentText": "Private preschools and nannies are common; public early education capacity is limited in urban zones.", "alignmentValue": 5},
-    {"key": "Childcare Support (Citizens)", "alignmentText": "Government daycare programs are sparse, so most families rely on relatives or paid caregivers.", "alignmentValue": 3},
-    {"key": "Childcare Support (Visa Holders)", "alignmentText": "Expat families can hire caregivers affordably, but formal contracts and Spanish fluency help ensure compliance.", "alignmentValue": 4},
-    {"key": "K-12 Education Access (Citizens)", "alignmentText": "Public schools face resource gaps and half-day schedules; higher-income families favor private institutions.", "alignmentValue": 4},
-    {"key": "K-12 Education Access (Visa Holders)", "alignmentText": "International schools in Santo Domingo and Santiago welcome foreigners but charge high fees and may require placement testing.", "alignmentValue": 4},
-    {"key": "Private Education", "alignmentText": "Top-tier schools offer US or IB curricula with strong English instruction and extracurriculars, albeit at premium cost.", "alignmentValue": 6},
-    {"key": "Family Policy (Citizens)", "alignmentText": "Maternity leave lasts 14 weeks with partial salary coverage; broader family benefits are limited outside social security.", "alignmentValue": 4},
-    {"key": "Family Policy (Visa Holders)", "alignmentText": "Foreign employees under formal contracts receive the same statutory leave, but enforcement depends on employer compliance.", "alignmentValue": 4},
-    {"key": "Higher Education Access (Citizens)", "alignmentText": "Universidad Autónoma de Santo Domingo and private universities provide accessible degrees, though research funding is modest.", "alignmentValue": 5},
-    {"key": "Higher Education Access (Visa Holders)", "alignmentText": "Foreign students can enroll with validated documents; instruction is mostly in Spanish, limiting options for English-only speakers.", "alignmentValue": 4},
-    {"key": "Gender Roles", "alignmentText": "Traditional gender expectations persist, but urban professionals champion more egalitarian partnerships.", "alignmentValue": 4},
-    {"key": "Gender Fluidity", "alignmentText": "Trans and nonbinary individuals face significant discrimination and limited legal recognition.", "alignmentValue": 2},
-    {"key": "Gender Rights", "alignmentText": "Legal protections exist against workplace discrimination, yet enforcement is weak and domestic violence rates remain high.", "alignmentValue": 3},
-    {"key": "Femininity Norms", "alignmentText": "Feminine presentation emphasizes grooming and style, with societal pressure for women to balance work and homemaking.", "alignmentValue": 4},
-    {"key": "Masculinity Norms", "alignmentText": "Machismo culture values assertiveness and provider roles, though younger generations embrace softer masculinity models.", "alignmentValue": 4},
-    {"key": "What Is Intriguing", "alignmentText": "Afro-Caribbean music, merengue festivals, and syncretic history provide rich storytelling inspiration for Trey.", "alignmentValue": 7},
-    {"key": "Language & English Ubiquity", "alignmentText": "Spanish dominates; tourism workers speak English but daily bureaucracy and community life require Spanish proficiency.", "alignmentValue": 4},
-    {"key": "Progressivism", "alignmentText": "Urban activists push for anti-corruption and LGBTQ+ rights, yet national policy remains socially conservative with strong church influence.", "alignmentValue": 3},
-    {"key": "Marxism (Societal Attitudes)", "alignmentText": "Leftist parties exist but neoliberal policies dominate; socialism is more academic than mainstream.", "alignmentValue": 4},
-    {"key": "Atheism", "alignmentText": "Secular viewpoints are tolerated but public life remains religious; being openly atheist is easier in expat circles.", "alignmentValue": 4},
-    {"key": "Sex (Attitudes)", "alignmentText": "Public discourse is modest despite resort marketing; poly relationships would be considered taboo in most communities.", "alignmentValue": 3},
-    {"key": "LGBTQ+ Attitudes", "alignmentText": "Pride events occur in Santo Domingo, yet anti-discrimination laws are limited and social acceptance lags outside tourist zones.", "alignmentValue": 3},
-    {"key": "Community Vibes", "alignmentText": "Dominicans are famously friendly and quick to include newcomers in gatherings, though socioeconomic disparities can create bubbles.", "alignmentValue": 7},
-    {"key": "View of self", "alignmentText": "Citizens take pride in resilience, baseball success, and cultural vibrancy despite economic challenges.", "alignmentValue": 7},
-    {"key": "View of Neighboring Countries", "alignmentText": "Relations with Haiti are strained over migration and border policy, while ties with Puerto Rico and the US are pragmatic.", "alignmentValue": 4},
-    {"key": "View of Them by Neighboring Countries", "alignmentText": "Regional neighbors value Dominican tourism leadership but criticize treatment of Haitian migrants.", "alignmentValue": 4},
-    {"key": "Nightlife Culture", "alignmentText": "Merengue clubs, beach bars, and resort lounges keep nightlife lively, with safer experiences in tourist areas than in some urban zones.", "alignmentValue": 7},
-    {"key": "Fashion Trends (Male)", "alignmentText": "Men favor polished casual looks—pressed shirts, jeans, and guayaberas—suited to the tropical climate.", "alignmentValue": 6},
-    {"key": "Fashion Trends (Female)", "alignmentText": "Women embrace colorful dresses and tailored outfits, balancing comfort with elegance suitable for warm evenings.", "alignmentValue": 7},
-    {"key": "Common Hobbies", "alignmentText": "Baseball, dance, dominoes, and beach outings dominate leisure time, offering easy entry points for socializing.", "alignmentValue": 7},
-    {"key": "Boardgaming & Tabletop", "alignmentText": "Board-game cafés are limited but expat groups host tabletop nights in Santo Domingo; imports can be expensive.", "alignmentValue": 4},
-    {"key": "Nightlife & Music", "alignmentText": "Live bachata and merengue performances are ubiquitous, and cultural festivals keep music central to community life.", "alignmentValue": 8},
-    {"key": "Meetups & Communities", "alignmentText": "Entrepreneur groups, digital nomad meetups, and volunteer organizations offer ways to build networks despite the small tech scene.", "alignmentValue": 6},
-    {"key": "Nature Access", "alignmentText": "Within a few hours you can reach surf beaches, mountain hikes in Jarabacoa, or whale watching in Samaná.", "alignmentValue": 8},
-    {"key": "Political System", "alignmentText": "The DR is a presidential republic with competitive elections, though clientelism and patronage remain influential.", "alignmentValue": 5},
-    {"key": "Religion in Politics", "alignmentText": "Catholic and evangelical leaders influence social policy, slowing reforms on reproductive and LGBTQ+ rights.", "alignmentValue": 3},
-    {"key": "Workers' Rights", "alignmentText": "Labour codes guarantee severance and bonuses, but enforcement in tourism and manufacturing is inconsistent.", "alignmentValue": 4},
-    {"key": "State Ideology", "alignmentText": "Policy blends pro-business tourism incentives with modest social programs aimed at poverty reduction.", "alignmentValue": 4},
-    {"key": "Authoritarian Backsliding Risk", "alignmentText": "Democratic institutions are stable yet susceptible to corruption and executive overreach without vigilant civil society.", "alignmentValue": 5},
-    {"key": "State of Capitalism", "alignmentText": "A market economy with free zones encourages foreign investment, though monopolies and oligarchic influence persist.", "alignmentValue": 5},
-    {"key": "Stability", "alignmentText": "Political transitions are peaceful, but corruption scandals and protests occasionally disrupt normalcy.", "alignmentValue": 6},
-    {"key": "Propaganda Prevalence", "alignmentText": "Media is privately owned yet politicized; government messaging focuses on tourism success and infrastructure projects.", "alignmentValue": 5},
-    {"key": "Propaganda Messaging", "alignmentText": "Campaigns highlight economic growth and public security, but narratives around migration can be nationalistic.", "alignmentValue": 4},
-    {"key": "Social Policies", "alignmentText": "Conditional cash transfer programs and subsidized electricity aim to support low-income families, though coverage gaps remain.", "alignmentValue": 5},
-    {"key": "Trust in Government", "alignmentText": "Public trust is moderate; anti-corruption pledges resonate but skepticism persists due to past scandals.", "alignmentValue": 5},
-    {"key": "Perceived Corruption", "alignmentText": "Transparency International ranks the DR mid-pack, with persistent concerns over procurement and police bribery.", "alignmentValue": 4},
-    {"key": "Type of Corruption", "alignmentText": "Clientelism, kickbacks, and bureaucratic bribes are the most common issues expats encounter.", "alignmentValue": 4},
-    {"key": "Housing Situation", "alignmentText": "Modern condos in Santo Domingo and resort towns offer amenities and security, but infrastructure reliability (power, water) varies by neighborhood.", "alignmentValue": 5},
-    {"key": "Safety & Crime", "alignmentText": "Petty crime, theft, and occasional armed robberies occur, so secure housing, guarded parking, and situational awareness are essential.", "alignmentValue": 3},
-    {"key": "Healthcare (Citizens)", "alignmentText": "Public healthcare provides basic services but lacks resources; private insurers fill gaps for middle-class families.", "alignmentValue": 4},
-    {"key": "Healthcare (Visa Holders)", "alignmentText": "Private hospitals in Santo Domingo and Santiago deliver quality care with English-speaking staff; expats should maintain international insurance for evacuations.", "alignmentValue": 6},
-    {"key": "Child Care Support", "alignmentText": "Affordable domestic help is available, but families must manage training and reliability; formal daycare centers are limited outside major cities.", "alignmentValue": 4},
-    {"key": "Family Policy (Common Family)", "alignmentText": "Middle-class families self-organize support through relatives, nannies, and private schools, balancing community warmth with service gaps.", "alignmentValue": 4},
-    {"key": "Education", "alignmentText": "Educational quality is improving but lags OECD norms; private bilingual schools can deliver strong outcomes with active parental involvement.", "alignmentValue": 5},
-    {"key": "Public Transportation", "alignmentText": "Santo Domingo’s metro and bus systems are expanding, but coverage is limited and many residents rely on cars or ride-hailing.", "alignmentValue": 4},
-    {"key": "Economic System", "alignmentText": "The DR runs an open, service-oriented economy with incentives for tourism and free zones, providing opportunities for entrepreneurs who navigate local regulations.", "alignmentValue": 6},
-    {"key": "How Taxes Are Handled", "alignmentText": "The tax system includes VAT (ITBIS) and income taxes with frequent reforms; local accountants simplify compliance for expats.", "alignmentValue": 4},
-    {"key": "Expected Tax Rate (Our Family)", "alignmentText": "Top marginal income tax reaches 25% with social security contributions; foreign-earned income becomes taxable after tax residency is established.", "alignmentValue": 5},
-    {"key": "Banking & Payments", "alignmentText": "Banks require residency documents and references; card usage is common in cities, while cash remains important in smaller towns.", "alignmentValue": 5},
-    {"key": "Cost of Living (Optional)", "alignmentText": "Housing and groceries are affordable, but imported goods, private healthcare, and international schooling elevate monthly budgets.", "alignmentValue": 6},
-    {"key": "Retirement (Citizens)", "alignmentText": "Social security pensions are modest; retirees often rely on family support or private savings.", "alignmentValue": 4},
-    {"key": "Retirement (Visa Holders)", "alignmentText": "The DR offers a retiree residency with tax incentives on foreign income, appealing to expats with stable pensions.", "alignmentValue": 6},
-    {"key": "Visa Paths", "alignmentText": "Residency by investment, retiree visas, and standard temporary residency paths exist, with streamlined processes for those proving income.", "alignmentValue": 6},
-    {"key": "Welcoming of US Migrants", "alignmentText": "Tourist zones and expat communities welcome Americans, though integrating beyond expat enclaves requires Spanish and cultural sensitivity.", "alignmentValue": 7},
-    {"key": "Residency Types & Durations", "alignmentText": "Temporary residency renews annually for up to five years before permanent status; investors and retirees can fast-track approvals.", "alignmentValue": 6},
-    {"key": "Path to Citizenship", "alignmentText": "Citizenship is available after seven years of residency and Spanish proficiency, and dual nationality is permitted.", "alignmentValue": 6},
-    {"key": "Family Members", "alignmentText": "Dependents obtain derivative residency permits and can work once they secure their own cédula IDs.", "alignmentValue": 6},
-    {"key": "Timelines & Costs", "alignmentText": "Consular applications, in-country medical exams, and translation fees add up, but total costs remain moderate compared with other nations.", "alignmentValue": 6},
-    {"key": "Compliance & Risks", "alignmentText": "Maintaining residency requires annual renewals, local health insurance, and timely tax filings; corruption at migration offices can cause delays.", "alignmentValue": 4},
-    {"key": "Dual Citizenship Allowed", "alignmentText": "The DR allows dual citizenship, so the family could keep US passports if naturalizing.", "alignmentValue": 9},
-    {"key": "General Considerations for Visa Holders", "alignmentText": "Applicants must secure police certificates, apostilled documents, and in-country guarantors; legal assistance streamlines the process.", "alignmentValue": 5},
-    {"key": "Game Dev Work Prospects", "alignmentText": "The local game industry is nascent, with a handful of studios focused on outsourcing and serious games; opportunities are limited.", "alignmentValue": 3},
-    {"key": "Notable Game Studios", "alignmentText": "Small teams like Mundos Digitales and indie collectives operate in Santo Domingo, but scale is modest.", "alignmentValue": 3},
-    {"key": "Notable Game Development Communities", "alignmentText": "Game jams at universities and the annual Santo Domingo Game Fest provide networking, though the scene is still emerging.", "alignmentValue": 4},
-    {"key": "Opportunities for Video Game Startup", "alignmentText": "Access to grants or venture capital is scarce, so Trey would rely on remote clients and export incentives like free-zone status.", "alignmentValue": 3},
-    {"key": "Modernity & Infrastructure", "alignmentText": "Santo Domingo offers fiber internet and a metro, yet power reliability hinges on generators and infrastructure quality drops outside tourist areas.", "alignmentValue": 4}
+    {
+      "key": "Environment",
+      "alignmentText": "Protected areas like Los Haitises and Jaragua showcase biodiversity, yet deforestation and waste management issues near Santo Domingo challenge environmental quality.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "As a Caribbean nation the DR faces rising hurricane intensity, sea-level rise, and coral bleaching, elevating climate risk for coastal families.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "The island experiences a tropical climate with wet and dry seasons; humidity stays high year-round with occasional trade-wind relief.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Vehicle emissions and open burning can raise PM levels in Santo Domingo, though sea breezes generally keep pollution lower than South Asian megacities.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Hurricanes, tropical storms, and occasional earthquakes require robust preparedness and insurance.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "March–May temperatures hover between 23–31°C (73–88°F), delivering warm but tolerable days with afternoon showers.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "June–August highs reach 32–34°C (90–93°F) with high humidity and hurricane season ramping up, challenging Sarah’s heat tolerance.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "September–November remains warm at 23–32°C (73–90°F) with peak storm activity and heavy rainfall.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "December–February offers 20–29°C (68–84°F) weather, the most comfortable period for outdoor family activities.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Resort towns like Punta Cana and Las Terrenas deliver idyllic beaches with clear water, family amenities, and snorkel options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Sea temperatures stay 26–29°C (79–84°F) year-round, enabling consistent swimming and water sports.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Mountain ranges, waterfalls, and cenotes allow quick weekend adventures, though road infrastructure can slow access.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Minimum wages vary by sector from RD$11k–21k/month (~$190–$360), insufficient for comfortable urban living without supplemental income.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Senior developers often earn RD$1.2M–1.6M/year (~$20–27k), making remote US contracts or entrepreneurship more attractive for Trey.",
+      "alignmentValue": 4
+    },
+    {
+      "key": ".NET Work Prospects",
+      "alignmentText": "Banks, telecoms, and outsourcing firms in Santo Domingo hire .NET talent, but the market is small and Spanish fluency helps.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Ruby roles are rare; most local startups rely on PHP or JavaScript stacks, so Sarah would depend on remote clients.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Companies seldom sponsor US workers; work permits favor investors or regional professionals with Spanish proficiency.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Tourism rebounds strongly, remittances remain steady, and GDP growth hovers near 4%, yet inequality and reliance on tourism create fragility.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Coworking hubs exist in Santo Domingo and Punta Cana, and fiber internet is available in upscale areas, though power outages necessitate backup plans.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Dominican culture emphasizes family and social life, but service sectors demand long shifts during peak tourist seasons.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "Labour laws cap the workweek at 44 hours, yet informal overtime is common in hospitality and call centers.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Employees accrue 14 paid vacation days after a year plus numerous public holidays, which grows with tenure.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Companies often stick to the legal minimum, so negotiated contracts are key for longer breaks.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Island life feels relaxed outside Santo Domingo traffic, aligning with the family’s desire for a slower daily rhythm.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Schools commonly run 8 a.m.–2 p.m., offices 9 a.m.–6 p.m., with extended lunch breaks and evening socializing.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Weekends center on beach trips, baseball games, and family gatherings, creating strong community ties.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Extended families and neighbors offer support networks, though expats must navigate language barriers and socioeconomic divides.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Polyamory is socially stigmatized and lacks legal protection; discretion is necessary to avoid gossip and institutional pushback.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Parents prioritize respect, Catholic traditions, and academic progress, which can feel formal compared with US parenting norms.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Malls and gated communities provide safe play zones, but sidewalks, traffic, and public spaces lag in accessibility.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Bilingual private schools, US-curriculum academies, and public options exist; quality correlates strongly with tuition levels.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Private preschools and nannies are common; public early education capacity is limited in urban zones.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Government daycare programs are sparse, so most families rely on relatives or paid caregivers.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "Expat families can hire caregivers affordably, but formal contracts and Spanish fluency help ensure compliance.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Public schools face resource gaps and half-day schedules; higher-income families favor private institutions.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "International schools in Santo Domingo and Santiago welcome foreigners but charge high fees and may require placement testing.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "Top-tier schools offer US or IB curricula with strong English instruction and extracurriculars, albeit at premium cost.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "Maternity leave lasts 14 weeks with partial salary coverage; broader family benefits are limited outside social security.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Foreign employees under formal contracts receive the same statutory leave, but enforcement depends on employer compliance.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Universidad Autónoma de Santo Domingo and private universities provide accessible degrees, though research funding is modest.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "Foreign students can enroll with validated documents; instruction is mostly in Spanish, limiting options for English-only speakers.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Traditional gender expectations persist, but urban professionals champion more egalitarian partnerships.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Trans and nonbinary individuals face significant discrimination and limited legal recognition.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Legal protections exist against workplace discrimination, yet enforcement is weak and domestic violence rates remain high.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Feminine presentation emphasizes grooming and style, with societal pressure for women to balance work and homemaking.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Machismo culture values assertiveness and provider roles, though younger generations embrace softer masculinity models.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Afro-Caribbean music, merengue festivals, and syncretic history provide rich storytelling inspiration for Trey.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Language & English Ubiquity",
+      "alignmentText": "Spanish dominates; tourism workers speak English but daily bureaucracy and community life require Spanish proficiency.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Urban activists push for anti-corruption and LGBTQ+ rights, yet national policy remains socially conservative with strong church influence.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Leftist parties exist but neoliberal policies dominate; socialism is more academic than mainstream.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "Secular viewpoints are tolerated but public life remains religious; being openly atheist is easier in expat circles.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Public discourse is modest despite resort marketing; poly relationships would be considered taboo in most communities.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "LGBTQ+ Attitudes",
+      "alignmentText": "Pride events occur in Santo Domingo, yet anti-discrimination laws are limited and social acceptance lags outside tourist zones.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Dominicans are famously friendly and quick to include newcomers in gatherings, though socioeconomic disparities can create bubbles.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "Citizens take pride in resilience, baseball success, and cultural vibrancy despite economic challenges.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Relations with Haiti are strained over migration and border policy, while ties with Puerto Rico and the US are pragmatic.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Regional neighbors value Dominican tourism leadership but criticize treatment of Haitian migrants.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Merengue clubs, beach bars, and resort lounges keep nightlife lively, with safer experiences in tourist areas than in some urban zones.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "Men favor polished casual looks—pressed shirts, jeans, and guayaberas—suited to the tropical climate.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Women embrace colorful dresses and tailored outfits, balancing comfort with elegance suitable for warm evenings.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Baseball, dance, dominoes, and beach outings dominate leisure time, offering easy entry points for socializing.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Boardgaming & Tabletop",
+      "alignmentText": "Board-game cafés are limited but expat groups host tabletop nights in Santo Domingo; imports can be expensive.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Nightlife & Music",
+      "alignmentText": "Live bachata and merengue performances are ubiquitous, and cultural festivals keep music central to community life.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Meetups & Communities",
+      "alignmentText": "Entrepreneur groups, digital nomad meetups, and volunteer organizations offer ways to build networks despite the small tech scene.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Within a few hours you can reach surf beaches, mountain hikes in Jarabacoa, or whale watching in Samaná.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "The DR is a presidential republic with competitive elections, though clientelism and patronage remain influential.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Catholic and evangelical leaders influence social policy, slowing reforms on reproductive and LGBTQ+ rights.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Workers' Rights",
+      "alignmentText": "Labour codes guarantee severance and bonuses, but enforcement in tourism and manufacturing is inconsistent.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Policy blends pro-business tourism incentives with modest social programs aimed at poverty reduction.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Democratic institutions are stable yet susceptible to corruption and executive overreach without vigilant civil society.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "A market economy with free zones encourages foreign investment, though monopolies and oligarchic influence persist.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Political transitions are peaceful, but corruption scandals and protests occasionally disrupt normalcy.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Media is privately owned yet politicized; government messaging focuses on tourism success and infrastructure projects.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Campaigns highlight economic growth and public security, but narratives around migration can be nationalistic.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Conditional cash transfer programs and subsidized electricity aim to support low-income families, though coverage gaps remain.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Public trust is moderate; anti-corruption pledges resonate but skepticism persists due to past scandals.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Transparency International ranks the DR mid-pack, with persistent concerns over procurement and police bribery.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Clientelism, kickbacks, and bureaucratic bribes are the most common issues expats encounter.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Modern condos in Santo Domingo and resort towns offer amenities and security, but infrastructure reliability (power, water) varies by neighborhood.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Safety & Crime",
+      "alignmentText": "Petty crime, theft, and occasional armed robberies occur, so secure housing, guarded parking, and situational awareness are essential.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Public healthcare provides basic services but lacks resources; private insurers fill gaps for middle-class families.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Private hospitals in Santo Domingo and Santiago deliver quality care with English-speaking staff; expats should maintain international insurance for evacuations.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Affordable domestic help is available, but families must manage training and reliability; formal daycare centers are limited outside major cities.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Middle-class families self-organize support through relatives, nannies, and private schools, balancing community warmth with service gaps.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Educational quality is improving but lags OECD norms; private bilingual schools can deliver strong outcomes with active parental involvement.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Santo Domingo’s metro and bus systems are expanding, but coverage is limited and many residents rely on cars or ride-hailing.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "The DR runs an open, service-oriented economy with incentives for tourism and free zones, providing opportunities for entrepreneurs who navigate local regulations.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "The tax system includes VAT (ITBIS) and income taxes with frequent reforms; local accountants simplify compliance for expats.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Top marginal income tax reaches 25% with social security contributions; foreign-earned income becomes taxable after tax residency is established.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Banking & Payments",
+      "alignmentText": "Banks require residency documents and references; card usage is common in cities, while cash remains important in smaller towns.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Housing and groceries are affordable, but imported goods, private healthcare, and international schooling elevate monthly budgets.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "Social security pensions are modest; retirees often rely on family support or private savings.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "The DR offers a retiree residency with tax incentives on foreign income, appealing to expats with stable pensions.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Residency by investment, retiree visas, and standard temporary residency paths exist, with streamlined processes for those proving income.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Tourist zones and expat communities welcome Americans, though integrating beyond expat enclaves requires Spanish and cultural sensitivity.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Residency Types & Durations",
+      "alignmentText": "Temporary residency renews annually for up to five years before permanent status; investors and retirees can fast-track approvals.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Citizenship is available after seven years of residency and Spanish proficiency, and dual nationality is permitted.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Dependents obtain derivative residency permits and can work once they secure their own cédula IDs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Timelines & Costs",
+      "alignmentText": "Consular applications, in-country medical exams, and translation fees add up, but total costs remain moderate compared with other nations.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Compliance & Risks",
+      "alignmentText": "Maintaining residency requires annual renewals, local health insurance, and timely tax filings; corruption at migration offices can cause delays.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "The DR allows dual citizenship, so the family could keep US passports if naturalizing.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "Applicants must secure police certificates, apostilled documents, and in-country guarantors; legal assistance streamlines the process.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "The local game industry is nascent, with a handful of studios focused on outsourcing and serious games; opportunities are limited.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Small teams like Mundos Digitales and indie collectives operate in Santo Domingo, but scale is modest.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Game jams at universities and the annual Santo Domingo Game Fest provide networking, though the scene is still emerging.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Access to grants or venture capital is scarce, so Trey would rely on remote clients and export incentives like free-zone status.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Modernity & Infrastructure",
+      "alignmentText": "Santo Domingo offers fiber internet and a metro, yet power reliability hinges on generators and infrastructure quality drops outside tourist areas.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Seasonal Extremes & Variability",
+      "alignmentText": "Seasons are defined by severe volatility with repeated power outages, transportation pauses, or property damage concerns. Seasonal Weather at 5/10 and Natural Disasters at 3/10 steer the family toward a challenging outlook for seasonal extremes & variability.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Major daylight imbalances demand heavy interventions—SAD lamps, vitamin regimens, and frequent travel for sun exposure. Seasonal Weather at 5/10 and Environment at 5/10 steer the family toward a mixed outlook for seasonal sunlight hours.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "Pleasant stretches appear sporadically, so spontaneous outdoor plans are rare and weather dominates scheduling. Seasonal Weather at 5/10 and Environment at 5/10 steer the family toward a mixed outlook for pleasant weather windows.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Quality of Life – Lower-Income Tier",
+      "alignmentText": "Families regularly compromise on safety or overcrowd to stay housed; civic support is patchy. Minimum Wage at 3/10, Housing Situation at 5/10, and Childcare Support (Citizens) at 3/10 steer the family toward a challenging outlook for quality of life – lower-income tier.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Quality of Life – Middle-Income Tier",
+      "alignmentText": "We feel squeezed: decent neighborhoods or schools require long commutes or high costs that crowd out enrichment. Typical Software Salaries at 4/10, Housing Situation at 5/10, and Work-Life Balance at 6/10 steer the family toward a mixed outlook for quality of life – middle-income tier.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Quality of Life – Higher-Income Tier",
+      "alignmentText": "Affluent households encounter noticeable friction—specialists, tutors, or clubs are scarce or highly gated. Housing Situation at 5/10, Private Education at 6/10, and Family Life at 7/10 steer the family toward a mixed outlook for quality of life – higher-income tier.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "Most 2k sq ft options feel overpriced or stuck in fringe neighborhoods with weaker schools. Housing Situation at 5/10 and Cost of Living (Optional) at 6/10 steer the family toward a mixed outlook for spacious housing benchmark (2k sq ft rent).",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Intentional communities exist but are limited in size or geared toward niche demographics. Community Vibes at 7/10, Meetups & Communities at 6/10, and Family Life at 7/10 steer the family toward a strong outlook for community living opportunities.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Friendliness & Neighborliness Index",
+      "alignmentText": "Friendliness varies by neighborhood; we can cultivate ties but must invest time and select communities carefully. Community Vibes at 7/10, Meetups & Communities at 6/10, and Common Hobbies at 7/10 steer the family toward a strong outlook for friendliness & neighborliness index.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Immigrant Sentiment – General",
+      "alignmentText": "Acceptance varies widely; caution is needed when discussing background in public spaces. Welcoming of US Migrants at 7/10, Progressivism at 3/10, and Language & English Ubiquity at 4/10 steer the family toward a mixed outlook for immigrant sentiment – general.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Immigrant Sentiment – White Migrants",
+      "alignmentText": "Suspicion around privilege is common, demanding constant humility and proof of local investment. Welcoming of US Migrants at 7/10, Language & English Ubiquity at 4/10, and View of Them by Neighboring Countries at 4/10 steer the family toward a mixed outlook for immigrant sentiment – white migrants.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "Politeness is situational; some contexts feel brisk but respectful. Community Vibes at 7/10, Nightlife Culture at 7/10, and Common Hobbies at 7/10 steer the family toward a strong outlook for surface interaction norms.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "Many acquaintances stay casual, but dedicated outreach unlocks close friendships over time. Community Vibes at 7/10, Meetups & Communities at 6/10, and What Is Intriguing at 7/10 steer the family toward a strong outlook for depth-seeking social norms.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Personal Boundary & Bubble Norms",
+      "alignmentText": "Personal space is often compressed, so we must advocate gently for comfort. Community Vibes at 7/10, Sex (Attitudes) at 3/10, and View of self at 7/10 steer the family toward a mixed outlook for personal boundary & bubble norms.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Moral, Honesty & Openness Expectations",
+      "alignmentText": "Honesty is situational; locals may avoid uncomfortable topics entirely. Progressivism at 3/10, What Is Intriguing at 7/10, and Trust in Government at 5/10 steer the family toward a mixed outlook for moral, honesty & openness expectations.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Grooming & Beauty Investment",
+      "alignmentText": "Noticeable emphasis on grooming means we budget extra time and money to fit in. Fashion Trends (Male) at 6/10 and Fashion Trends (Female) at 7/10 steer the family toward a mixed outlook for grooming & beauty investment.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Body Image & Fitness Pressure",
+      "alignmentText": "Visible pressure to stay slim or athletic influences work and school culture. Fashion Trends (Male) at 6/10, Fashion Trends (Female) at 7/10, and Sex (Attitudes) at 3/10 steer the family toward a mixed outlook for body image & fitness pressure.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Fashion & Style Expectations",
+      "alignmentText": "Fashionable appearance is expected in many settings, adding planning time and costs. Fashion Trends (Male) at 6/10 and Fashion Trends (Female) at 7/10 steer the family toward a mixed outlook for fashion & style expectations.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Flirting Boundaries & Consent Culture",
+      "alignmentText": "Consent education is weak; unwanted advances occur regularly. Sex (Attitudes) at 3/10, LGBTQ+ Attitudes at 3/10, and Nightlife Culture at 7/10 steer the family toward a challenging outlook for flirting boundaries & consent culture.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "Deviating from scripts sparks gossip or exclusion. Gender Roles at 4/10, Gender Fluidity at 2/10, and Sex (Attitudes) at 3/10 steer the family toward a challenging outlook for gendered flirting expectations.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "Negative narratives dominate; openness threatens custody, employment, or housing. Polyamory at 2/10, Sex (Attitudes) at 3/10, and Community Vibes at 7/10 steer the family toward a challenging outlook for monogamy vs. non-monogamy acceptance.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "Reputational risks exist, especially for women or queer folks discussing partners. Sex (Attitudes) at 3/10, Nightlife & Music at 8/10, and Community Vibes at 7/10 steer the family toward a mixed outlook for promiscuity attitudes.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Group & Multi-Partner Relationship Attitudes",
+      "alignmentText": "Disclosure triggers backlash or official scrutiny. Polyamory at 2/10, Community Vibes at 7/10, and LGBTQ+ Attitudes at 3/10 steer the family toward a challenging outlook for group & multi-partner relationship attitudes.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Personal Space & Touch Norms",
+      "alignmentText": "Tight quarters and spontaneous touch are common; advocating for space is a regular task. Community Vibes at 7/10, Sex (Attitudes) at 3/10, and Nightlife Culture at 7/10 steer the family toward a mixed outlook for personal space & touch norms.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Firearm Laws & Ownership Culture",
+      "alignmentText": "High prevalence of firearms and lax rules elevate daily risk perception. Safety & Crime at 3/10, State Ideology at 4/10, and Political System at 5/10 steer the family toward a challenging outlook for firearm laws & ownership culture.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Zero-tolerance stances lead to aggressive policing and limited treatment options. Progressivism at 3/10, Political System at 5/10, and Safety & Crime at 3/10 steer the family toward a challenging outlook for controlled substance policies.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "Families risk collateral trauma from militarized raids or wrongful accusations. Safety & Crime at 3/10, Progressivism at 3/10, and Authoritarian Backsliding Risk at 5/10 steer the family toward a challenging outlook for drug enforcement climate.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Incidents happen with disturbing frequency, shaping daily routines and mental load. Safety & Crime at 3/10 and Stability at 6/10 steer the family toward a challenging outlook for mass violence incidence.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Carceral Conditions & Prison Labor",
+      "alignmentText": "Abuses are common and reforms stall; immigrants risk severe treatment if detained. Authoritarian Backsliding Risk at 5/10, Safety & Crime at 3/10, and Perceived Corruption at 4/10 steer the family toward a challenging outlook for carceral conditions & prison labor.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Walkability & Pedestrian Safety",
+      "alignmentText": "Infrastructure is inconsistent; safe walking requires choosing specific neighborhoods. Public Transportation at 4/10, Housing Situation at 5/10, and Nature Access at 8/10 steer the family toward a mixed outlook for walkability & pedestrian safety.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "Healthy living requires self-direction; fast food and sedentary habits dominate social life. Healthcare (Citizens) at 4/10, Work-Life Balance at 6/10, and Community Vibes at 7/10 steer the family toward a mixed outlook for community health consciousness.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "Ultra-processed options crowd shelves; schools and events lean heavily on packaged snacks. Cost of Living (Optional) at 6/10, Community Health Consciousness at 6/10, and Fresh & International Cuisine Access at 7/10 steer the family toward a mixed outlook for processed food saturation.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fresh & International Cuisine Access",
+      "alignmentText": "We can meet most cravings but specialty ingredients or restaurants appear sporadically. Nightlife & Music at 8/10, Common Hobbies at 7/10, and Meetups & Communities at 6/10 steer the family toward a strong outlook for fresh & international cuisine access.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "Higher-than-average depression rates prompt us to plan carefully for therapy access. Seasonal Weather at 5/10, Work-Life Balance at 6/10, and Community Vibes at 7/10 steer the family toward a mixed outlook for depression prevalence.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Higher obesity prevalence indicates limited access to healthy routines in some areas. Community Health Consciousness at 6/10, Work-Life Balance at 6/10, and Cost of Living (Optional) at 6/10 steer the family toward a mixed outlook for obesity rate.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "Higher cancer rates tie to environmental or lifestyle factors we must actively mitigate. Environment at 5/10, Healthcare (Citizens) at 4/10, and Community Health Consciousness at 6/10 steer the family toward a mixed outlook for cancer incidence.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Economic cycles bring recurring layoffs; we keep emergency funds and remote options ready. Economic Health at 5/10, Remote-Friendly Culture at 5/10, and Typical Software Salaries at 4/10 steer the family toward a mixed outlook for broader job market resilience.",
+      "alignmentValue": 5
+    }
   ]
 }

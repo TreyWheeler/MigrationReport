@@ -9,7 +9,10 @@ const createDom = () => {
     <button id="collapseCountriesBtn"></button>
     <button id="collapseCategoriesBtn"></button>
   `;
+  document.body.className = '';
 };
+
+const flushPromises = () => new Promise(resolve => setTimeout(resolve, 0));
 
 describe('UI helpers', () => {
   let exports;
@@ -26,6 +29,7 @@ describe('UI helpers', () => {
     exports.appState.selected = [];
     exports.appState.nodesByFile = new Map();
     exports.appState.showCitiesOnly = false;
+    exports.appState.showHiddenKeys = false;
     exports.appState.expandedState = {};
     if (typeof exports.clearCountryCache === 'function') {
       exports.clearCountryCache();
@@ -104,141 +108,220 @@ describe('UI helpers', () => {
     expect(localStorage.getItem('selectedCountries')).toBe(JSON.stringify(['reports/a.json', 'reports/b.json']));
   });
 
-  test('fetchCountry merges parent entries when sameAsParent is true', async () => {
-    const parentFile = 'reports/country.json';
-    const cityFile = 'reports/city.json';
-    const parentNode = { file: parentFile };
-    const cityNode = { file: cityFile, parentCountry: parentNode };
-    exports.appState.nodesByFile.set(parentFile, parentNode);
-    exports.appState.nodesByFile.set(cityFile, cityNode);
-
-    const parentResponse = {
-      version: 2,
-      iso: 'PC',
+  test('computeCountryScoresForSorting ignores informational keys', () => {
+    const country = {
       values: [
-        { key: 'Housing', alignmentText: 'Parent text', alignmentValue: 8 },
+        { key: 'Scored Key', alignmentValue: 8 },
+        { key: 'Info Key', alignmentValue: 10 },
       ],
     };
-    const cityResponse = {
-      version: 2,
-      iso: 'CT',
-      values: [
-        { key: 'Housing', sameAsParent: true, note: 'Matches parent context' },
-      ],
-    };
-
-    fetch.mockImplementation(async (path) => {
-      if (path === cityFile) {
-        return { ok: true, json: async () => cityResponse };
-      }
-      if (path === parentFile) {
-        return { ok: true, json: async () => parentResponse };
-      }
-      return { ok: false, status: 404, statusText: 'Not Found' };
-    });
-
-    const first = await exports.fetchCountry(cityFile);
-    expect(first.iso).toBe('CT');
-    expect(first.values).toHaveLength(1);
-    expect(first.values[0].alignmentText).toBe('Parent text');
-    expect(first.values[0].alignmentValue).toBe(8);
-    expect(first.values[0].note).toBe('Matches parent context');
-
-    fetch.mockClear();
-    const second = await exports.fetchCountry(cityFile);
-    expect(second.values[0].alignmentValue).toBe(8);
-    expect(fetch).not.toHaveBeenCalled();
-  });
-
-  test('computeRoundedMetrics includes inherited parent scores for cities', async () => {
-    const parentFile = 'reports/country.json';
-    const cityFile = 'reports/city.json';
-    const parentNode = { file: parentFile };
-    const cityNode = { file: cityFile, parentCountry: parentNode };
-    exports.appState.nodesByFile.set(parentFile, parentNode);
-    exports.appState.nodesByFile.set(cityFile, cityNode);
-
-    const parentResponse = {
-      version: 2,
-      iso: 'PC',
-      values: [
-        { key: 'Housing', alignmentText: 'Parent text', alignmentValue: 8 },
-      ],
-    };
-    const cityResponse = {
-      version: 2,
-      iso: 'CT',
-      values: [
-        { key: 'Housing', sameAsParent: true, note: 'Matches parent context' },
-      ],
-    };
-
-    fetch.mockImplementation(async (path) => {
-      if (path === cityFile) {
-        return { ok: true, json: async () => cityResponse };
-      }
-      if (path === parentFile) {
-        return { ok: true, json: async () => parentResponse };
-      }
-      return { ok: false, status: 404, statusText: 'Not Found' };
-    });
-
-    const cityData = await exports.fetchCountry(cityFile);
     const mainData = {
       Categories: [
-        { Category: 'Housing', Keys: [{ Key: 'Housing' }] },
+        {
+          Category: 'Test Category',
+          Keys: [
+            { Key: 'Scored Key', Informational: false },
+            { Key: 'Info Key', Informational: true },
+          ],
+        },
+      ],
+    };
+    const people = [
+      { name: 'Persona', weights: { 'Test Category': 2 } },
+    ];
+
+    const result = exports.computeCountryScoresForSorting(country, mainData, people);
+
+    expect(result.overall).toBeCloseTo(8);
+    expect(result.personTotals.Persona).toBeCloseTo(16);
+  });
+
+  test('computeCountryScoresForSorting honors informational override', () => {
+    const country = {
+      values: [
+        { key: 'Scored Key', alignmentValue: 8 },
+        { key: 'Info Key', alignmentValue: 10 },
+      ],
+    };
+    const mainData = {
+      Categories: [
+        {
+          Category: 'Test Category',
+          Keys: [
+            { Key: 'Scored Key', Informational: false },
+            { Key: 'Info Key', Informational: true },
+          ],
+        },
+      ],
+    };
+
+    localStorage.setItem('informationalOverrides', JSON.stringify({ 'test category|||info key': false }));
+
+    const result = exports.computeCountryScoresForSorting(country, mainData, []);
+
+    expect(result.overall).toBeCloseTo(9);
+  });
+
+  test('renderComparison hides score chip for informational keys', async () => {
+    document.body.innerHTML = `
+      <div id="report"></div>
+      <div id="legendMount"></div>
+      <button id="collapseCategoriesBtn"></button>
+      <div id="notice"></div>
+      <div id="countryList"></div>
+    `;
+  test('hidden keys render and respond to visibility toggles', async () => {
+    document.body.innerHTML = [
+      '<div id="report"></div>',
+      '<div id="legendMount"></div>',
+      '<button id="collapseCountriesBtn"></button>',
+      '<button id="collapseCategoriesBtn"></button>',
+    ].join('');
+
+    const mainData = {
+      Categories: [
+        {
+          Category: 'Test Category',
+          Keys: [
+            { Key: 'Scored Key', Informational: false },
+            { Key: 'Info Key', Informational: true },
+            },
+            {
+          Category: 'Climate',
+          Keys: [
+            { Key: 'Visible Metric' },
+            { Key: 'Hidden Metric', Hidden: true },
+          ],
+        },
       ],
       People: [],
     };
 
-    const metrics = exports.computeRoundedMetrics(cityData, mainData);
-    expect(metrics.overall).toBe(8);
+    const reportData = {
+      iso: 'tc',
+      values: [
+        { key: 'Scored Key', alignmentValue: 7, alignmentText: 'Regular value.' },
+        { key: 'Info Key', alignmentValue: 9, alignmentText: 'Narrative only.' },
+      ],
+    };
+
+    fetch.mockImplementation(async () => ({
+      ok: true,
+      json: async () => reportData,
+    }));
+
+    await exports.renderComparison([
+      { name: 'Testland', file: 'test.json' },
+    ], mainData, {});
+
+    const scoredRow = Array.from(document.querySelectorAll('.comparison-table tbody tr'))
+      .find(row => row.querySelector('.key-cell')?.textContent?.includes('Scored Key'));
+    expect(scoredRow).toBeDefined();
+    const scoredChip = scoredRow.querySelector('td.value-cell .score-chip');
+    expect(scoredChip).not.toBeNull();
+    expect(scoredChip.classList.contains('placeholder')).toBe(false);
+
+    const infoRow = Array.from(document.querySelectorAll('.comparison-table tbody tr'))
+      .find(row => row.querySelector('.key-cell')?.textContent?.includes('Info Key'));
+    expect(infoRow).toBeDefined();
+    const infoChip = infoRow.querySelector('td.value-cell .score-chip');
+    expect(infoChip).not.toBeNull();
+    expect(infoChip.classList.contains('placeholder')).toBe(true);
+    const infoToggle = infoRow.querySelector('.info-toggle-btn');
+    expect(infoToggle).not.toBeNull();
+    expect(infoToggle.textContent).toContain('Include in scoring');
+
+    fetch.mockReset();
   });
 
-  test('renderComparison surfaces parent content for inherited city entries', async () => {
-    const parentFile = 'reports/country.json';
-    const cityFile = 'reports/city.json';
-    const parentNode = { name: 'Parentland', file: parentFile, type: 'country' };
-    const cityNode = { name: 'Cityville', file: cityFile, type: 'city', parentCountry: parentNode };
-    parentNode.cities = [cityNode];
-    exports.appState.nodesByFile.set(parentFile, parentNode);
-    exports.appState.nodesByFile.set(cityFile, cityNode);
-
-    const parentResponse = {
-      version: 2,
-      iso: 'PC',
-      values: [
-        { key: 'Housing', alignmentText: 'Parent housing summary', alignmentValue: 7 },
-      ],
-    };
-    const cityResponse = {
-      version: 2,
-      iso: 'CT',
-      values: [
-        { key: 'Housing', sameAsParent: true },
-      ],
-    };
-
-    fetch.mockImplementation(async (path) => {
-      if (path === cityFile) {
-        return { ok: true, json: async () => cityResponse };
-      }
-      if (path === parentFile) {
-        return { ok: true, json: async () => parentResponse };
-      }
-      return { ok: false, status: 404, statusText: 'Not Found' };
-    });
+  test('informational toggle button applies override and rerenders scoring state', async () => {
+    document.body.innerHTML = `
+      <div id="report"></div>
+      <div id="legendMount"></div>
+      <button id="collapseCategoriesBtn"></button>
+      <div id="notice"></div>
+      <div id="countryList"></div>
+    `;
 
     const mainData = {
       Categories: [
-        { Category: 'Housing', Keys: [{ Key: 'Housing' }] },
+        {
+          Category: 'Test Category',
+          Keys: [
+            { Key: 'Scored Key', Informational: false },
+            { Key: 'Info Key', Informational: true },
+          ],
+        },
       ],
       People: [],
     };
 
-    await exports.renderComparison([parentNode, cityNode], mainData, { diffEnabled: false });
+    const reportData = {
+      iso: 'tc',
+      values: [
+        { key: 'Scored Key', alignmentValue: 7, alignmentText: 'Regular value.' },
+        { key: 'Info Key', alignmentValue: 9, alignmentText: 'Narrative only.' },
+      ],
+    };
 
-    const report = document.getElementById('report');
-    expect(report.textContent).toContain('Parent housing summary');
+    fetch.mockImplementation(async () => ({
+      ok: true,
+      json: async () => reportData,
+    }));
+
+    await exports.renderComparison([
+      { name: 'Testland', file: 'test.json' },
+    ], mainData, {});
+
+    let infoRow = Array.from(document.querySelectorAll('.comparison-table tbody tr'))
+      .find(row => row.querySelector('.key-cell')?.textContent?.includes('Info Key'));
+    expect(infoRow).toBeDefined();
+    const toggle = infoRow.querySelector('.info-toggle-btn');
+    expect(toggle).not.toBeNull();
+    expect(toggle.textContent).toContain('Include in scoring');
+
+    toggle.click();
+    await flushPromises();
+    await flushPromises();
+
+    const overrides = JSON.parse(localStorage.getItem('informationalOverrides'));
+    expect(overrides).toMatchObject({ 'test category|||info key': false });
+
+    infoRow = Array.from(document.querySelectorAll('.comparison-table tbody tr'))
+      .find(row => row.querySelector('.key-cell')?.textContent?.includes('Info Key'));
+    expect(infoRow).toBeDefined();
+    const infoChip = infoRow.querySelector('td.value-cell .score-chip');
+    expect(infoChip).not.toBeNull();
+    expect(infoChip.classList.contains('placeholder')).toBe(false);
+    expect(infoChip.textContent.trim()).toBe('9');
+
+    fetch.mockReset();
+    const values = [
+      { key: 'Visible Metric', alignmentValue: 6, alignmentText: 'Visible text' },
+      { key: 'Hidden Metric', alignmentValue: 7, alignmentText: 'Hidden text' },
+    ];
+
+    global.fetch = jest.fn(async () => ({
+      ok: true,
+      json: async () => ({ iso: 'AA', values }),
+    }));
+
+    await exports.renderComparison([
+      { name: 'Country A', file: 'reports/a.json', type: 'country' },
+    ], mainData, {});
+
+    const hiddenRows = document.querySelectorAll('tr.hidden-key');
+    expect(hiddenRows.length).toBe(1);
+    expect(document.body.classList.contains('show-hidden-keys')).toBe(false);
+
+    exports.toggleHiddenKeysVisibility();
+    expect(document.body.classList.contains('show-hidden-keys')).toBe(true);
+    expect(exports.appState.showHiddenKeys).toBe(true);
+    expect(localStorage.getItem('showHiddenKeys')).toBe('true');
+
+    exports.toggleHiddenKeysVisibility();
+    expect(document.body.classList.contains('show-hidden-keys')).toBe(false);
+    expect(exports.appState.showHiddenKeys).toBe(false);
+    expect(localStorage.getItem('showHiddenKeys')).toBe('false');
   });
 });
