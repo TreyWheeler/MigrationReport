@@ -5,6 +5,8 @@ const createDom = () => {
   document.body.innerHTML = '<div id="report"></div><button id="collapseCountriesBtn"></button>';
 };
 
+const flushPromises = () => new Promise(resolve => setTimeout(resolve, 0));
+
 describe('UI helpers', () => {
   let exports;
 
@@ -96,6 +98,68 @@ describe('UI helpers', () => {
     expect(localStorage.getItem('selectedCountries')).toBe(JSON.stringify(['reports/a.json', 'reports/b.json']));
   });
 
+  test('computeCountryScoresForSorting ignores informational keys', () => {
+    const country = {
+      values: [
+        { key: 'Scored Key', alignmentValue: 8 },
+        { key: 'Info Key', alignmentValue: 10 },
+      ],
+    };
+    const mainData = {
+      Categories: [
+        {
+          Category: 'Test Category',
+          Keys: [
+            { Key: 'Scored Key', Informational: false },
+            { Key: 'Info Key', Informational: true },
+          ],
+        },
+      ],
+    };
+    const people = [
+      { name: 'Persona', weights: { 'Test Category': 2 } },
+    ];
+
+    const result = exports.computeCountryScoresForSorting(country, mainData, people);
+
+    expect(result.overall).toBeCloseTo(8);
+    expect(result.personTotals.Persona).toBeCloseTo(16);
+  });
+
+  test('computeCountryScoresForSorting honors informational override', () => {
+    const country = {
+      values: [
+        { key: 'Scored Key', alignmentValue: 8 },
+        { key: 'Info Key', alignmentValue: 10 },
+      ],
+    };
+    const mainData = {
+      Categories: [
+        {
+          Category: 'Test Category',
+          Keys: [
+            { Key: 'Scored Key', Informational: false },
+            { Key: 'Info Key', Informational: true },
+          ],
+        },
+      ],
+    };
+
+    localStorage.setItem('informationalOverrides', JSON.stringify({ 'test category|||info key': false }));
+
+    const result = exports.computeCountryScoresForSorting(country, mainData, []);
+
+    expect(result.overall).toBeCloseTo(9);
+  });
+
+  test('renderComparison hides score chip for informational keys', async () => {
+    document.body.innerHTML = `
+      <div id="report"></div>
+      <div id="legendMount"></div>
+      <button id="collapseCategoriesBtn"></button>
+      <div id="notice"></div>
+      <div id="countryList"></div>
+    `;
   test('hidden keys render and respond to visibility toggles', async () => {
     document.body.innerHTML = [
       '<div id="report"></div>',
@@ -107,6 +171,12 @@ describe('UI helpers', () => {
     const mainData = {
       Categories: [
         {
+          Category: 'Test Category',
+          Keys: [
+            { Key: 'Scored Key', Informational: false },
+            { Key: 'Info Key', Informational: true },
+            },
+            {
           Category: 'Climate',
           Keys: [
             { Key: 'Visible Metric' },
@@ -117,6 +187,105 @@ describe('UI helpers', () => {
       People: [],
     };
 
+    const reportData = {
+      iso: 'tc',
+      values: [
+        { key: 'Scored Key', alignmentValue: 7, alignmentText: 'Regular value.' },
+        { key: 'Info Key', alignmentValue: 9, alignmentText: 'Narrative only.' },
+      ],
+    };
+
+    fetch.mockImplementation(async () => ({
+      ok: true,
+      json: async () => reportData,
+    }));
+
+    await exports.renderComparison([
+      { name: 'Testland', file: 'test.json' },
+    ], mainData, {});
+
+    const scoredRow = Array.from(document.querySelectorAll('.comparison-table tbody tr'))
+      .find(row => row.querySelector('.key-cell')?.textContent?.includes('Scored Key'));
+    expect(scoredRow).toBeDefined();
+    const scoredChip = scoredRow.querySelector('td.value-cell .score-chip');
+    expect(scoredChip).not.toBeNull();
+    expect(scoredChip.classList.contains('placeholder')).toBe(false);
+
+    const infoRow = Array.from(document.querySelectorAll('.comparison-table tbody tr'))
+      .find(row => row.querySelector('.key-cell')?.textContent?.includes('Info Key'));
+    expect(infoRow).toBeDefined();
+    const infoChip = infoRow.querySelector('td.value-cell .score-chip');
+    expect(infoChip).not.toBeNull();
+    expect(infoChip.classList.contains('placeholder')).toBe(true);
+    const infoToggle = infoRow.querySelector('.info-toggle-btn');
+    expect(infoToggle).not.toBeNull();
+    expect(infoToggle.textContent).toContain('Include in scoring');
+
+    fetch.mockReset();
+  });
+
+  test('informational toggle button applies override and rerenders scoring state', async () => {
+    document.body.innerHTML = `
+      <div id="report"></div>
+      <div id="legendMount"></div>
+      <button id="collapseCategoriesBtn"></button>
+      <div id="notice"></div>
+      <div id="countryList"></div>
+    `;
+
+    const mainData = {
+      Categories: [
+        {
+          Category: 'Test Category',
+          Keys: [
+            { Key: 'Scored Key', Informational: false },
+            { Key: 'Info Key', Informational: true },
+          ],
+        },
+      ],
+      People: [],
+    };
+
+    const reportData = {
+      iso: 'tc',
+      values: [
+        { key: 'Scored Key', alignmentValue: 7, alignmentText: 'Regular value.' },
+        { key: 'Info Key', alignmentValue: 9, alignmentText: 'Narrative only.' },
+      ],
+    };
+
+    fetch.mockImplementation(async () => ({
+      ok: true,
+      json: async () => reportData,
+    }));
+
+    await exports.renderComparison([
+      { name: 'Testland', file: 'test.json' },
+    ], mainData, {});
+
+    let infoRow = Array.from(document.querySelectorAll('.comparison-table tbody tr'))
+      .find(row => row.querySelector('.key-cell')?.textContent?.includes('Info Key'));
+    expect(infoRow).toBeDefined();
+    const toggle = infoRow.querySelector('.info-toggle-btn');
+    expect(toggle).not.toBeNull();
+    expect(toggle.textContent).toContain('Include in scoring');
+
+    toggle.click();
+    await flushPromises();
+    await flushPromises();
+
+    const overrides = JSON.parse(localStorage.getItem('informationalOverrides'));
+    expect(overrides).toMatchObject({ 'test category|||info key': false });
+
+    infoRow = Array.from(document.querySelectorAll('.comparison-table tbody tr'))
+      .find(row => row.querySelector('.key-cell')?.textContent?.includes('Info Key'));
+    expect(infoRow).toBeDefined();
+    const infoChip = infoRow.querySelector('td.value-cell .score-chip');
+    expect(infoChip).not.toBeNull();
+    expect(infoChip.classList.contains('placeholder')).toBe(false);
+    expect(infoChip.textContent.trim()).toBe('9');
+
+    fetch.mockReset();
     const values = [
       { key: 'Visible Metric', alignmentValue: 6, alignmentText: 'Visible text' },
       { key: 'Hidden Metric', alignmentValue: 7, alignmentText: 'Hidden text' },
