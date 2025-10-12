@@ -1,10 +1,16 @@
 # Holistic Lifestyle & Integration Category Proposal
 
-## Step 1 – Baseline Category Organization (Existing Keys Only)
-To better reflect how a relocating family evaluates day-to-day fit, reorganize existing keys under a new umbrella category called **Holistic Lifestyle & Integration**. This category gathers current signals from multiple legacy categories without inventing new keys.
+## Compliance Snapshot
+- **Data structures**: Re-uses the existing `categories` and `category_keys` tables; proposes a single new category plus new keys only. No novel tables or nested schemas are introduced.
+- **Existing keys**: Every key that moves is explicitly listed below with its current category. Keys not mentioned remain where they are today—none are removed or deprecated.
+- **Implementation aids**: Execution is expected to follow the repository data dictionary (`data/DATA_DICTIONARY.md`) and `SOP-Add New Key` for every net-new key.
 
-### 1. Environmental Comfort
+## Step 1 – Baseline Inventory (Current State Only)
+Documenting the status quo ensures the migration plan accounts for every key. The following lists reflect the exact keys presently stored in `data/category_keys.json` within the relevant categories.
+
+### Environment & Climate (`environment_and_climate`)
 - Environment
+- Global Warming Risk
 - Seasonal Weather
 - Air Quality
 - Natural Disasters
@@ -12,34 +18,37 @@ To better reflect how a relocating family evaluates day-to-day fit, reorganize e
 - Summer Temperature Range (C/F)
 - Fall Temperature Range (C/F)
 - Winter Temperature Range (C/F)
-- Natural Beauty
+
+### Nature & Outdoors (`nature_and_outdoors`)
 - Beach Life
 - Seasonal Beach Water Temp
+- Natural Beauty
 
-### 2. Community Belonging & Activities
-- Community Vibes
-- Meetups & Communities
+### Entertainment & Community (`entertainment_and_community`)
 - Common Hobbies
 - Boardgaming & Tabletop
 - Nightlife & Music
-- Nightlife Culture
+- Meetups & Communities
 - Nature Access
 
-### 3. Inclusivity & Family Support
-- Welcoming of US Migrants
+### Family Friendliness (`family_friendliness`)
 - Family Life
+- Polyamory
 - Parenting Expectations
 - Child-Friendliness of Cities
 - Schooling Options
 - Pre-K / Early Childcare Landscape
 - Childcare Support (Citizens)
 - Childcare Support (Visa Holders)
+- K-12 Education Access (Citizens)
+- K-12 Education Access (Visa Holders)
+- Private Education
 - Family Policy (Citizens)
 - Family Policy (Visa Holders)
-- Child Care Support
-- Family Policy (Common Family)
+- Higher Education Access (Citizens)
+- Higher Education Access (Visa Holders)
 
-### 4. Cultural Expression & Values
+### Culture & Values Fit (`culture_and_values_fit`)
 - What Is Intriguing
 - Language & English Ubiquity
 - Progressivism
@@ -47,172 +56,158 @@ To better reflect how a relocating family evaluates day-to-day fit, reorganize e
 - Atheism
 - Sex (Attitudes)
 - LGBTQ+ Attitudes
+- Community Vibes
 - View of self
 - View of Neighboring Countries
 - View of Them by Neighboring Countries
+- Nightlife Culture
 - Fashion Trends (Male)
 - Fashion Trends (Female)
 
-## Step 2 – Expanded Interest Set & Proposed Keys
-The TODO list emphasizes deeper insight into climate nuance, community warmth, socio-legal safety, health consciousness, culinary diversity, and dating norms. These valued themes expand the interest set beyond the current keys. The following proposals translate those needs into new keys (allowed in this step) and indicate how they align with the Step 1 structure.
+### Governance & Stability (`governance_and_stability`)
+- Housing Situation
+- Safety & Crime
+- Political System
+- Religion in Politics
+- Workers' Rights
+- State Ideology
+- Authoritarian Backsliding Risk
+- State of Capitalism
+- Stability
+- Propaganda Prevalence
+- Propaganda Messaging
+- Social Policies
+- Trust in Government
+- Perceived Corruption
+- Type of Corruption
 
-### Environmental Comfort Enhancements
-- **Seasonal Extremes & Variability** *(New Key)* – captures lowest/highest historical norms and intra-season volatility to complement existing average ranges.
-- **Seasonal Sunlight Hours** *(New Key)* – reports daylight length and sunniness across the year.
-- **Pleasant Weather Windows** *(New Key)* – summarizes months with comfortable outdoor conditions considering humidity and storms.
-
-### Livability Economics & Housing
-- **Quality of Life – Lower-Income Tier** *(New Key)* – outlines livability, services, and safety available to budget-constrained households (excluding cost-of-living duplication).
-- **Quality of Life – Middle-Income Tier** *(New Key)* – captures the lifestyle, amenities, and neighborhood access typical for median earners.
-- **Quality of Life – Higher-Income Tier** *(New Key)* – details premium experiences, schooling, and neighborhood options for affluent households.
-- **Spacious Housing Benchmark (2k sq ft Rent)** *(New Key)* – tracks availability and pricing of large-family rentals in USD.
-- **Community Living Opportunities** *(New Key)* – maps co-ops, intentional communities, and multigenerational housing options.
-
-### Community Belonging & Activities Deep-Dive
-- **Friendliness & Neighborliness Index** *(New Key)* – reflects day-to-day warmth, helpfulness, and reciprocity.
-- **Immigrant Sentiment – General** *(New Key)* – details prevailing attitudes toward immigrants overall, including policy and social acceptance.
-- **Immigrant Sentiment – White Migrants** *(New Key)* – captures specific perceptions and reception of white immigrants within communities.
-- **Surface Interaction Norms** *(New Key)* – explains expectations around small talk, pleasantries, and politeness rituals.
-- **Depth-Seeking Social Norms** *(New Key)* – highlights how quickly relationships move toward authenticity and personal sharing.
-- **Personal Boundary & Bubble Norms** *(New Key)* – clarifies comfort levels with invitations into personal life and physical proximity.
-- **Moral, Honesty & Openness Expectations** *(New Key)* – gauges perceived morality, honesty, and openness in daily interactions.
-
-### Cultural Expression, Relationships & Vanity
-- **Grooming & Beauty Investment** *(New Key)* – explores grooming routines, salon frequency, and financial investment in appearance.
-- **Body Image & Fitness Pressure** *(New Key)* – documents expectations around physique, dieting culture, and fitness visibility.
-- **Fashion & Style Expectations** *(New Key)* – covers the emphasis on trend adoption, brand consciousness, and dress codes.
-- **Flirting Boundaries & Consent Culture** *(New Key)* – outlines respect for boundaries, typical flirting etiquette, and catcalling prevalence.
-- **Gendered Flirting Expectations** *(New Key)* – clarifies what behavior from men vs. women draws positive attention.
-- **Monogamy vs. Non-Monogamy Acceptance** *(New Key)* – measures respect for different relationship structures.
-- **Promiscuity Attitudes** *(New Key)* – highlights cultural comfort with casual sex and expectations around exclusivity.
-- **Group & Multi-Partner Relationship Attitudes** *(New Key)* – notes perceptions of polyamory, swinging, and other group arrangements.
-- **Personal Space & Touch Norms** *(New Key)* – conveys expected distance, physical contact, and personal bubble respect.
-
-### Safety, Governance & Legal Climate
-- **Firearm Laws & Ownership Culture** *(New Key)* – summarizes gun regulations and prevalence.
-- **Controlled Substance Policies** *(New Key)* – covers marijuana and broader drug laws.
-- **Drug Enforcement Climate** *(New Key)* – notes enforcement intensity and criminalization trends.
-- **Mass Violence Incidence** *(New Key)* – tracks mass shooting or mass violence statistics.
-- **Carceral Conditions & Prison Labor** *(New Key)* – examines prison conditions, rehabilitation, and forced labor concerns.
-
-### Mobility & Built Environment
-- **Walkability & Pedestrian Safety** *(New Key)* – assesses pedestrian infrastructure, traffic calming, and perceived safety on foot.
-
-### Health, Food Access & Wellness
-- **Community Health Consciousness** *(New Key)* – observes nutrition awareness, fitness culture, and preventative care norms.
-- **Processed Food Saturation** *(New Key)* – measures ubiquity of processed foods versus fresh options.
-- **Fresh & International Cuisine Access** *(New Key)* – documents availability of Italian, Mexican, and other cuisines alongside fresh markets.
-- **Depression Prevalence** *(New Key)* – reports mental health indicators and support resources.
-- **Obesity Rate** *(New Key)* – tracks population-level obesity data.
-- **Cancer Incidence** *(New Key)* – highlights cancer rates and screening accessibility.
-
-### Employment & Opportunity Context
-- **Broader Job Market Resilience** *(New Key)* – complements tech-specific metrics with overall job demand and sector diversity.
-
-## Step 3 – Consolidated Holistic Lifestyle & Integration Map
-Integrate Step 1's existing keys with the newly identified keys. Existing keys remain untouched; newly proposed keys are flagged as **[New]**.
+## Step 2 – Proposed Holistic Lifestyle & Integration Category
+Create a new category (`holistic_lifestyle_and_integration`) that gathers lifestyle-centric keys. Existing keys move according to the mapping below; all moves are between existing tables and require only `categoryId` updates. Every listed key remains intact.
 
 ### 1. Environmental Comfort
-- Environment
-- Seasonal Weather
-- Air Quality
-- Natural Disasters
-- Spring Temperature Range (C/F)
-- Summer Temperature Range (C/F)
-- Fall Temperature Range (C/F)
-- Winter Temperature Range (C/F)
-- Natural Beauty
-- Beach Life
-- Seasonal Beach Water Temp
-- **Seasonal Extremes & Variability** **[New]**
-- **Seasonal Sunlight Hours** **[New]**
-- **Pleasant Weather Windows** **[New]**
+- Environment *(from Environment & Climate)*
+- Global Warming Risk *(from Environment & Climate)*
+- Seasonal Weather *(from Environment & Climate)*
+- Air Quality *(from Environment & Climate)*
+- Natural Disasters *(from Environment & Climate)*
+- Spring Temperature Range (C/F) *(from Environment & Climate)*
+- Summer Temperature Range (C/F) *(from Environment & Climate)*
+- Fall Temperature Range (C/F) *(from Environment & Climate)*
+- Winter Temperature Range (C/F) *(from Environment & Climate)*
+- Natural Beauty *(from Nature & Outdoors)*
+- Beach Life *(from Nature & Outdoors)*
+- Seasonal Beach Water Temp *(from Nature & Outdoors)*
 
 ### 2. Community Belonging & Activities
-- Community Vibes
-- Meetups & Communities
-- Common Hobbies
-- Boardgaming & Tabletop
-- Nightlife & Music
-- Nightlife Culture
-- Nature Access
-- **Friendliness & Neighborliness Index** **[New]**
-- **Immigrant Sentiment – General** **[New]**
-- **Immigrant Sentiment – White Migrants** **[New]**
-- **Surface Interaction Norms** **[New]**
-- **Depth-Seeking Social Norms** **[New]**
-- **Personal Boundary & Bubble Norms** **[New]**
-- **Moral, Honesty & Openness Expectations** **[New]**
+- Community Vibes *(from Culture & Values Fit)*
+- Meetups & Communities *(from Entertainment & Community)*
+- Common Hobbies *(from Entertainment & Community)*
+- Boardgaming & Tabletop *(from Entertainment & Community)*
+- Nightlife & Music *(from Entertainment & Community)*
+- Nightlife Culture *(from Culture & Values Fit)*
+- Nature Access *(from Entertainment & Community)*
 
 ### 3. Inclusivity, Family Support & Livability Economics
-- Welcoming of US Migrants
-- Family Life
-- Parenting Expectations
-- Child-Friendliness of Cities
-- Schooling Options
-- Pre-K / Early Childcare Landscape
-- Childcare Support (Citizens)
-- Childcare Support (Visa Holders)
-- Family Policy (Citizens)
-- Family Policy (Visa Holders)
-- Child Care Support
-- Family Policy (Common Family)
-- **Quality of Life – Lower-Income Tier** **[New]**
-- **Quality of Life – Middle-Income Tier** **[New]**
-- **Quality of Life – Higher-Income Tier** **[New]**
-- **Spacious Housing Benchmark (2k sq ft Rent)** **[New]**
-- **Community Living Opportunities** **[New]**
+- Family Life *(from Family Friendliness)*
+- Polyamory *(from Family Friendliness)*
+- Parenting Expectations *(from Family Friendliness)*
+- Child-Friendliness of Cities *(from Family Friendliness)*
+- Schooling Options *(from Family Friendliness)*
+- Pre-K / Early Childcare Landscape *(from Family Friendliness)*
+- Childcare Support (Citizens) *(from Family Friendliness)*
+- Childcare Support (Visa Holders) *(from Family Friendliness)*
+- K-12 Education Access (Citizens) *(from Family Friendliness)*
+- K-12 Education Access (Visa Holders) *(from Family Friendliness)*
+- Private Education *(from Family Friendliness)*
+- Family Policy (Citizens) *(from Family Friendliness)*
+- Family Policy (Visa Holders) *(from Family Friendliness)*
+- Higher Education Access (Citizens) *(from Family Friendliness)*
+- Higher Education Access (Visa Holders) *(from Family Friendliness)*
 
 ### 4. Cultural Expression, Relationships & Values
-- What Is Intriguing
-- Language & English Ubiquity
-- Progressivism
-- Marxism (Societal Attitudes)
-- Atheism
-- Sex (Attitudes)
-- LGBTQ+ Attitudes
-- View of self
-- View of Neighboring Countries
-- View of Them by Neighboring Countries
-- Fashion Trends (Male)
-- Fashion Trends (Female)
-- **Grooming & Beauty Investment** **[New]**
-- **Body Image & Fitness Pressure** **[New]**
-- **Fashion & Style Expectations** **[New]**
-- **Flirting Boundaries & Consent Culture** **[New]**
-- **Gendered Flirting Expectations** **[New]**
-- **Monogamy vs. Non-Monogamy Acceptance** **[New]**
-- **Promiscuity Attitudes** **[New]**
-- **Group & Multi-Partner Relationship Attitudes** **[New]**
-- **Personal Space & Touch Norms** **[New]**
+- What Is Intriguing *(from Culture & Values Fit)*
+- Language & English Ubiquity *(from Culture & Values Fit)*
+- Progressivism *(from Culture & Values Fit)*
+- Marxism (Societal Attitudes) *(from Culture & Values Fit)*
+- Atheism *(from Culture & Values Fit)*
+- Sex (Attitudes) *(from Culture & Values Fit)*
+- LGBTQ+ Attitudes *(from Culture & Values Fit)*
+- View of self *(from Culture & Values Fit)*
+- View of Neighboring Countries *(from Culture & Values Fit)*
+- View of Them by Neighboring Countries *(from Culture & Values Fit)*
+- Fashion Trends (Male) *(from Culture & Values Fit)*
+- Fashion Trends (Female) *(from Culture & Values Fit)*
 
 ### 5. Safety, Governance & Legal Climate
-- Safety & Crime
-- **Firearm Laws & Ownership Culture** **[New]**
-- **Controlled Substance Policies** **[New]**
-- **Drug Enforcement Climate** **[New]**
-- **Mass Violence Incidence** **[New]**
-- **Carceral Conditions & Prison Labor** **[New]**
+- Safety & Crime *(from Governance & Stability)*
+- Housing Situation *(from Governance & Stability)*
 
-### 6. Mobility & Built Environment
-- **Walkability & Pedestrian Safety** **[New]**
+> **Unaffected keys:** Any Governance & Stability keys not named above (e.g., Political System, Trust in Government) remain in their current category.
 
-### 7. Health, Food Access & Wellness
-- Healthcare (Citizens)
-- Healthcare (Visa Holders)
-- **Community Health Consciousness** **[New]**
-- **Processed Food Saturation** **[New]**
-- **Fresh & International Cuisine Access** **[New]**
-- **Depression Prevalence** **[New]**
-- **Obesity Rate** **[New]**
-- **Cancer Incidence** **[New]**
+## Step 3 – Proposed Additions (Keys Only)
+These additions expand qualitative coverage without altering underlying structures. Each bullet represents a new key to be created via `SOP-Add New Key` with supporting rating guides.
 
-### 8. Employment & Opportunity Context
-- Economic Health
-- Minimum Wage
-- Typical Software Salaries
-- .NET Work Prospects
-- Ruby Work Prospects
-- Employer Visa Sponsorship
-- Remote-Friendly Culture
-- **Broader Job Market Resilience** **[New]**
+### Environmental Comfort Enhancements
+- Seasonal Extremes & Variability *(New Key)*
+- Seasonal Sunlight Hours *(New Key)*
+- Pleasant Weather Windows *(New Key)*
+
+### Livability Economics & Housing
+- Quality of Life – Lower-Income Tier *(New Key)*
+- Quality of Life – Middle-Income Tier *(New Key)*
+- Quality of Life – Higher-Income Tier *(New Key)*
+- Spacious Housing Benchmark (2k sq ft Rent) *(New Key)*
+- Community Living Opportunities *(New Key)*
+
+### Community Belonging & Activities Deep-Dive
+- Friendliness & Neighborliness Index *(New Key)*
+- Immigrant Sentiment – General *(New Key)*
+- Immigrant Sentiment – White Migrants *(New Key)*
+- Surface Interaction Norms *(New Key)*
+- Depth-Seeking Social Norms *(New Key)*
+- Personal Boundary & Bubble Norms *(New Key)*
+- Moral, Honesty & Openness Expectations *(New Key)*
+
+### Cultural Expression, Relationships & Vanity
+- Grooming & Beauty Investment *(New Key)*
+- Body Image & Fitness Pressure *(New Key)*
+- Fashion & Style Expectations *(New Key)*
+- Flirting Boundaries & Consent Culture *(New Key)*
+- Gendered Flirting Expectations *(New Key)*
+- Monogamy vs. Non-Monogamy Acceptance *(New Key)*
+- Promiscuity Attitudes *(New Key)*
+- Group & Multi-Partner Relationship Attitudes *(New Key)*
+- Personal Space & Touch Norms *(New Key)*
+
+### Safety, Governance & Legal Climate
+- Firearm Laws & Ownership Culture *(New Key)*
+- Controlled Substance Policies *(New Key)*
+- Drug Enforcement Climate *(New Key)*
+- Mass Violence Incidence *(New Key)*
+- Carceral Conditions & Prison Labor *(New Key)*
+
+### Mobility & Built Environment
+- Walkability & Pedestrian Safety *(New Key)*
+
+### Health, Food Access & Wellness
+- Community Health Consciousness *(New Key)*
+- Processed Food Saturation *(New Key)*
+- Fresh & International Cuisine Access *(New Key)*
+- Depression Prevalence *(New Key)*
+- Obesity Rate *(New Key)*
+- Cancer Incidence *(New Key)*
+
+### Employment & Opportunity Context
+- Broader Job Market Resilience *(New Key)*
+
+## Step 4 – Implementation Roadmap for Future Agent
+1. **Confirm current data** using the PowerShell GET scripts referenced in `data/DATA_DICTIONARY.md` to export existing category and key records. This guards against drift before editing.
+2. **Create the new category** `holistic_lifestyle_and_integration` through `scripts/powershell/Categories_INSERT.ps1` (or update ordering as needed) while retaining all other categories.
+3. **Move existing keys** listed in Step 2 by updating their `categoryId` with `CategoryKeys_UPDATE.ps1`. Track progress in a worksheet to ensure each key is migrated exactly once.
+4. **Add each new key** via the `SOP-Add New Key`, producing aligned entries in:
+   - `data/category_keys.json` (with guidance text),
+   - `data/rating_guides.json`, and
+   - every `reports/*.json` file (country and city) with coherent scoring and narrative.
+5. **Quality assurance**: run JSON validation on modified files and re-export category/key listings to confirm the final structure matches the proposal and that no legacy keys were dropped.
+
+This roadmap keeps the intent clear for a future implementation pass while respecting all repository standards.
