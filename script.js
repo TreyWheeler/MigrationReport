@@ -869,7 +869,30 @@ async function loadCountry(file, mainData) {
   });
 }
 
-loadMain();
+if (typeof window !== 'undefined' && typeof document !== 'undefined' && !window.__MIGRATION_REPORT_DISABLE_AUTOLOAD__) {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      loadMain();
+    });
+  } else {
+    loadMain();
+  }
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    appState,
+    renderEmptyReportState,
+    saveSelectedToStorage,
+    loadSelectedFromStorage,
+    updateCollapseCountriesButton,
+    fetchJsonAsset,
+    sortByOrderThenName,
+    loadMain,
+    getStored,
+    setStored,
+  };
+}
 
 // Render a comparison table for up to 3 selected countries
 async function renderComparison(selectedList, mainData, options = {}) {
