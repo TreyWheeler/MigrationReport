@@ -28,13 +28,20 @@ describe('Report alignment data', () => {
       report.values.forEach(entry => {
         expect(typeof entry.key).toBe('string');
         expect(entry.key.trim().length).toBeGreaterThan(0);
-        expect(typeof entry.alignmentText).toBe('string');
-        expect(entry.alignmentText.trim().length).toBeGreaterThan(0);
-        expect(typeof entry.alignmentValue).toBe('number');
-        expect(Number.isNaN(entry.alignmentValue)).toBe(false);
-        expect(entry.alignmentValue).toBeGreaterThanOrEqual(-1);
-        expect(entry.alignmentValue).toBeLessThanOrEqual(10);
-        expect(entry.alignmentValue).not.toBe(0);
+        const inheritsFromParent = entry.sameAsParent === true;
+
+        if (inheritsFromParent) {
+          expect(entry.alignmentText).toBeUndefined();
+          expect(entry.alignmentValue).toBeUndefined();
+        } else {
+          expect(typeof entry.alignmentText).toBe('string');
+          expect(entry.alignmentText.trim().length).toBeGreaterThan(0);
+          expect(typeof entry.alignmentValue).toBe('number');
+          expect(Number.isNaN(entry.alignmentValue)).toBe(false);
+          expect(entry.alignmentValue).toBeGreaterThanOrEqual(-1);
+          expect(entry.alignmentValue).toBeLessThanOrEqual(10);
+          expect(entry.alignmentValue).not.toBe(0);
+        }
         seenKeys.add(entry.key);
         const keyIsKnown = categoryKeyNames.has(entry.key) || allowedExtraKeys.has(entry.key);
         expect(keyIsKnown).toBe(true);
