@@ -265,7 +265,18 @@
     }
 
     /* Align dot and text nicely */
-    li.score-item { display: flex; align-items: center; margin: 6px 0; color: var(--md-color-on-surface); }
+    li.score-item { display: flex; align-items: center; margin: 6px 0; color: var(--md-color-on-surface); gap: 8px; }
+    .score-item .score-text { flex: 1 1 auto; min-width: 0; }
+    .score-item .key-guidance-btn {
+      opacity: 0;
+      pointer-events: none;
+      margin-left: 4px;
+    }
+    .score-item:hover .key-guidance-btn,
+    .score-item:focus-within .key-guidance-btn {
+      opacity: 1;
+      pointer-events: auto;
+    }
 
     /* The colored score dot */
     .score-dot {
@@ -393,6 +404,34 @@
     }
     .key-cell .key-inner { display: flex; align-items: center; gap: 8px; }
     .key-cell .key-actions { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; }
+    .key-guidance-btn {
+      font-size: 12px;
+      padding: 4px 8px;
+      border: 1px solid var(--md-color-outline);
+      border-radius: 9999px;
+      background: var(--md-color-surface);
+      color: var(--md-color-on-surface);
+      cursor: pointer;
+      transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease, opacity 160ms ease;
+    }
+    .key-guidance-btn:hover {
+      border-color: var(--md-color-primary);
+      color: var(--md-color-primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent);
+    }
+    .key-guidance-btn:focus-visible {
+      outline: 2px solid var(--md-color-primary);
+      outline-offset: 2px;
+    }
+    .key-cell .key-guidance-btn {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .key-cell:hover .key-guidance-btn,
+    .key-cell .key-guidance-btn:focus-visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
     .key-cell .info-toggle-btn {
       font-size: 12px;
       padding: 4px 8px;
@@ -486,6 +525,78 @@
     }
     /* Weights dialog */
     dialog#weightsDialog { border: none; border-radius: 12px; padding: 0; width: min(900px, 96vw); }
+    dialog#keyGuidanceDialog {
+      border: none;
+      border-radius: 16px;
+      padding: 0;
+      width: min(640px, 92vw);
+      max-width: 640px;
+      background: var(--md-color-surface);
+      color: var(--md-color-on-surface);
+      box-shadow: 0 24px 48px rgba(15,23,42,0.28);
+    }
+    dialog#keyGuidanceDialog::backdrop { background: rgba(0,0,0,0.35); }
+    .kg-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 16px;
+      border-bottom: 1px solid var(--md-color-outline);
+      background: var(--md-color-surface-variant);
+    }
+    .kg-title-wrap { display: flex; flex-direction: column; gap: 4px; }
+    .kg-title { margin: 0; font-size: 18px; }
+    .kg-subtitle { margin: 0; font-size: 13px; color: color-mix(in srgb, var(--md-color-on-surface) 70%, transparent); }
+    .kg-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-height: min(70vh, 640px);
+      overflow: auto;
+    }
+    .kg-section { display: flex; flex-direction: column; gap: 8px; }
+    .kg-section h4 { margin: 0; font-size: 15px; }
+    .kg-text { margin: 0; font-size: 14px; line-height: 1.5; }
+    .kg-considerations { margin: 0; font-size: 13px; color: color-mix(in srgb, var(--md-color-on-surface) 70%, transparent); }
+    .kg-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .kg-table th, .kg-table td { border: 1px solid var(--md-color-outline); padding: 6px 8px; text-align: left; vertical-align: top; }
+    .kg-table th { background: var(--md-color-surface-variant); }
+    .kg-rating-cell { font-weight: 700; width: 72px; text-align: center; }
+    .kg-empty { text-align: center; font-style: italic; color: color-mix(in srgb, var(--md-color-on-surface) 70%, transparent); }
+    .kg-close {
+      border: 1px solid var(--md-color-outline);
+      background: var(--md-color-surface);
+      color: var(--md-color-on-surface);
+      border-radius: 9999px;
+      padding: 4px 10px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease;
+    }
+    .kg-close:hover {
+      border-color: var(--md-color-primary);
+      color: var(--md-color-primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent);
+    }
+    .kg-close:focus-visible { outline: 2px solid var(--md-color-primary); outline-offset: 2px; }
+    body[data-theme="dark"] dialog#keyGuidanceDialog {
+      background: #0f172a;
+      color: var(--md-color-on-surface);
+      box-shadow: 0 24px 48px rgba(0,0,0,0.6);
+    }
+    body[data-theme="dark"] .kg-header {
+      background: #111c2f;
+      border-color: #1f2937;
+    }
+    body[data-theme="dark"] .kg-table th,
+    body[data-theme="dark"] .kg-table td { border-color: #1f2937; }
+    body[data-theme="dark"] .kg-table th { background: #111c2f; }
+    body[data-theme="dark"] .kg-close {
+      background: #111827;
+      border-color: #334155;
+    }
     dialog#weightsDialog::backdrop { background: rgba(0,0,0,0.35); }
     #weightsForm { background: var(--md-color-surface); color: var(--md-color-on-surface); border: 1px solid var(--md-color-outline); border-radius: 12px; overflow: hidden; }
     .wd-header { padding: 12px 16px; border-bottom: 1px solid var(--md-color-outline); background: var(--md-color-surface-variant); }
@@ -614,6 +725,36 @@
   </div>
   <script src="script.js"></script>
   
+  <!-- Key Guidance Dialog -->
+  <dialog id="keyGuidanceDialog" aria-labelledby="kgDialogTitle" aria-describedby="kgDialogBody">
+    <div class="kg-header">
+      <div class="kg-title-wrap">
+        <h3 id="kgDialogTitle" class="kg-title">Key guidance</h3>
+        <p class="kg-subtitle"></p>
+      </div>
+      <button type="button" class="kg-close" aria-label="Close guidance dialog">Close</button>
+    </div>
+    <div id="kgDialogBody" class="kg-body">
+      <section class="kg-section">
+        <h4>Key guidance</h4>
+        <p id="kgKeyGuidanceText" class="kg-text">No key guidance available.</p>
+      </section>
+      <section class="kg-section">
+        <h4>Rating guidance</h4>
+        <p id="kgConsiderations" class="kg-considerations" hidden></p>
+        <table class="kg-table">
+          <thead>
+            <tr>
+              <th scope="col">Rating</th>
+              <th scope="col">What it means</th>
+            </tr>
+          </thead>
+          <tbody id="kgTableBody"></tbody>
+        </table>
+      </section>
+    </div>
+  </dialog>
+
   <!-- Weights Adjustment Dialog -->
   <dialog id="weightsDialog">
     <form id="weightsForm" method="dialog">
