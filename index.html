@@ -40,6 +40,19 @@
       --score-green: #66bb6a;
     }
 
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      clip-path: inset(50%);
+      border: 0;
+      white-space: nowrap;
+    }
+
     html, body {
       margin: 0;
       padding: 0;
@@ -467,6 +480,29 @@
     }
     td.value-cell {
       width: auto;
+      position: relative;
+    }
+    .value-cell.inherited-value::after {
+      content: '';
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--md-color-primary) 70%, var(--md-color-surface) 30%);
+      box-shadow: 0 0 0 1px color-mix(in srgb, var(--md-color-on-surface) 18%, transparent);
+      opacity: 0.82;
+      transform: scale(1);
+      transition: opacity 160ms ease, transform 160ms ease;
+    }
+    body[data-theme="dark"] .value-cell.inherited-value::after {
+      background: color-mix(in srgb, var(--md-color-primary) 65%, var(--md-color-background) 35%);
+      box-shadow: 0 0 0 1px color-mix(in srgb, var(--md-color-on-surface) 24%, transparent);
+    }
+    .value-cell.inherited-value:hover::after {
+      opacity: 1;
+      transform: scale(1.15);
     }
     /* Dig In button visibility on hover */
     .value-cell .dig-in-btn {
