@@ -163,17 +163,11 @@ describe('UI helpers', () => {
   });
 
   test('renderComparison hides score chip for informational keys', async () => {
-    document.body.innerHTML = `
-      <div id="report"></div>
-      <div id="legendMount"></div>
-      <button id="collapseCategoriesBtn"></button>
-      <div id="notice"></div>
-      <div id="countryList"></div>
-    `;
-  test('hidden keys render and respond to visibility toggles', async () => {
     document.body.innerHTML = [
       '<div id="report"></div>',
       '<div id="legendMount"></div>',
+      '<div id="notice"></div>',
+      '<div id="countryList"></div>',
       '<button id="collapseCountriesBtn"></button>',
       '<button id="collapseCategoriesBtn"></button>',
     ].join('');
@@ -185,12 +179,6 @@ describe('UI helpers', () => {
           Keys: [
             { Key: 'Scored Key', Informational: false },
             { Key: 'Info Key', Informational: true },
-            },
-            {
-          Category: 'Climate',
-          Keys: [
-            { Key: 'Visible Metric' },
-            { Key: 'Hidden Metric', Hidden: true },
           ],
         },
       ],
@@ -235,13 +223,14 @@ describe('UI helpers', () => {
   });
 
   test('informational toggle button applies override and rerenders scoring state', async () => {
-    document.body.innerHTML = `
-      <div id="report"></div>
-      <div id="legendMount"></div>
-      <button id="collapseCategoriesBtn"></button>
-      <div id="notice"></div>
-      <div id="countryList"></div>
-    `;
+    document.body.innerHTML = [
+      '<div id="report"></div>',
+      '<div id="legendMount"></div>',
+      '<div id="notice"></div>',
+      '<div id="countryList"></div>',
+      '<button id="collapseCountriesBtn"></button>',
+      '<button id="collapseCategoriesBtn"></button>',
+    ].join('');
 
     const mainData = {
       Categories: [
@@ -296,14 +285,42 @@ describe('UI helpers', () => {
     expect(infoChip.textContent.trim()).toBe('9');
 
     fetch.mockReset();
-    const values = [
-      { key: 'Visible Metric', alignmentValue: 6, alignmentText: 'Visible text' },
-      { key: 'Hidden Metric', alignmentValue: 7, alignmentText: 'Hidden text' },
-    ];
+  });
 
-    global.fetch = jest.fn(async () => ({
+  test('hidden keys render and respond to visibility toggles', async () => {
+    document.body.innerHTML = [
+      '<div id="report"></div>',
+      '<div id="legendMount"></div>',
+      '<div id="notice"></div>',
+      '<div id="countryList"></div>',
+      '<button id="collapseCountriesBtn"></button>',
+      '<button id="collapseCategoriesBtn"></button>',
+    ].join('');
+
+    const mainData = {
+      Categories: [
+        {
+          Category: 'Climate',
+          Keys: [
+            { Key: 'Visible Metric', Informational: false },
+            { Key: 'Hidden Metric', Informational: false, Hidden: true },
+          ],
+        },
+      ],
+      People: [],
+    };
+
+    const reportData = {
+      iso: 'aa',
+      values: [
+        { key: 'Visible Metric', alignmentValue: 6, alignmentText: 'Visible text' },
+        { key: 'Hidden Metric', alignmentValue: 7, alignmentText: 'Hidden text' },
+      ],
+    };
+
+    fetch.mockImplementation(async () => ({
       ok: true,
-      json: async () => ({ iso: 'AA', values }),
+      json: async () => reportData,
     }));
 
     await exports.renderComparison([
@@ -323,5 +340,7 @@ describe('UI helpers', () => {
     expect(document.body.classList.contains('show-hidden-keys')).toBe(false);
     expect(exports.appState.showHiddenKeys).toBe(false);
     expect(localStorage.getItem('showHiddenKeys')).toBe('false');
+
+    fetch.mockReset();
   });
 });
