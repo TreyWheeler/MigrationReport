@@ -4,7 +4,10 @@ This SOP walks LLM agents through introducing a brand-new evaluation `Key` acros
 
 ## 0. Establish the Rationale
 1. Open `family_profile.json` to confirm why the household needs this new dimension and how heavily it should influence recommendations.
-2. Review existing `Keys` by reading `data/categories.json` alongside `data/category_keys.json` to ensure you are not duplicating coverage. Only proceed when the gap is real and material to the family.
+2. Consult `DATA_DICTIONARY.md` to understand how the relational tables interact and to confirm where the new key will live.
+3. Use the PowerShell GET scripts to audit existing coverage instead of manually scanning JSON:
+   - `pwsh scripts/powershell/Categories_GET.ps1 -AsJson` reveals every category and ordering.
+   - `pwsh scripts/powershell/CategoryKeys_GET.ps1 -AsJson` (optionally filtered with `-CategoryIds`) lists every current key and its guidance so you can validate the gap.
 
 ## 1. Define the Key Blueprint
 1. Draft the exact `Key` string you will add. Keep it concise and consistent with existing naming conventions (Title Case, no trailing punctuation unless required).
@@ -12,9 +15,9 @@ This SOP walks LLM agents through introducing a brand-new evaluation `Key` acros
 3. Decide which Category in `data/categories.json` should host the new key. If no category fits, design a new Category entry using the same structure (`id`, `name`, optional `order`).
 
 ## 2. Update the Relational Data Files
-1. If adding a new Category, append an object to `data/categories.json` with a stable `id`, human-readable `name`, and an `order` value that determines display order.
-2. Add a new entry to `data/category_keys.json` with a unique `id`, the parent `categoryId`, the `name` of the key, and its `guidance` text. Match formatting, indentation, and comma usage in both files.
-3. Save the files and double-check that the key label and guidance read exactly as intended.
+1. If adding a new Category, call `pwsh scripts/powershell/Categories_INSERT.ps1 -Records @(@{ id = '<categoryId>'; name = '<Category Name>'; order = <int> })` (omit `order` if not needed). Use the `*_UPDATE.ps1` variant when altering an existing category.
+2. Add the key via `pwsh scripts/powershell/CategoryKeys_INSERT.ps1 -Records @(@{ id = '<keyId>'; categoryId = '<categoryId>'; name = '<Key Name>'; guidance = '<Author guidance>' })`. The update script is available for revisions.
+3. Rerun the GET scripts with `-AsJson` to confirm the new entries persisted exactly as intended.
 
 ## 3. Expand the Rating Guide
 1. Open `rating_guides.json` and add a new top-level object for the key. Mirror the format used by existing entries: `"Key"`, optional `"Considerations"`, and a `"Ratings"` array with 1–10 descriptions.
@@ -22,7 +25,7 @@ This SOP walks LLM agents through introducing a brand-new evaluation `Key` acros
 3. Proofread for internal consistency—scores must escalate logically and avoid contradictions. Accurate guidance here is essential for keeping `alignmentValue` and `alignmentText` trustworthy.
 
 ## 4. Seed a Master Alignment Reference
-1. Create a temporary worksheet (outside the repo) that lists every country and city report file path from `data/countries.json` and `data/cities.json`.
+1. Create a temporary worksheet (outside the repo) that lists every country and city report file path. Use `pwsh scripts/powershell/Countries_GET.ps1 -AsJson` and `pwsh scripts/powershell/Cities_GET.ps1 -AsJson` to export the authoritative IDs and report locations.
 2. For each location, note any preliminary research or sources required to evaluate the new key accurately. If data is scarce, plan how you will justify a `0` (insufficient data) vs. a cautious numeric score.
 
 ## 5. Iterate Through Every Report
