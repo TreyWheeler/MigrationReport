@@ -1,8 +1,15 @@
 const path = require('path');
 
 const createDom = () => {
+  document.body.innerHTML = `
+    <div id="report"></div>
+    <div id="legendMount"></div>
+    <div id="notice"></div>
+    <div id="countryList"></div>
+    <button id="collapseCountriesBtn"></button>
+    <button id="collapseCategoriesBtn"></button>
+  `;
   document.body.className = '';
-  document.body.innerHTML = '<div id="report"></div><button id="collapseCountriesBtn"></button>';
 };
 
 const flushPromises = () => new Promise(resolve => setTimeout(resolve, 0));
@@ -24,6 +31,9 @@ describe('UI helpers', () => {
     exports.appState.showCitiesOnly = false;
     exports.appState.showHiddenKeys = false;
     exports.appState.expandedState = {};
+    if (typeof exports.clearCountryCache === 'function') {
+      exports.clearCountryCache();
+    }
     localStorage.clear();
     if (typeof fetch === 'function' && fetch.mockClear) {
       fetch.mockClear();

@@ -1,6 +1,26 @@
 const appState = { countries: [], selected: [], nodesByFile: new Map(), showCitiesOnly: false, expandedState: {}, showHiddenKeys: false };
 let hiddenKeysHotkeyAttached = false;
 
+function getParentFileForNode(node) {
+  if (!node || typeof node !== 'object') return null;
+  const parent = node.parentCountry;
+  const file = parent && typeof parent.file === 'string' ? parent.file : null;
+  return file || null;
+}
+
+function findNodeByFile(file) {
+  if (!file) return null;
+  const map = appState.nodesByFile;
+  if (map && typeof map.get === 'function') {
+    if (map.has(file)) return map.get(file);
+    if (typeof file === 'string' && !file.includes('/')) {
+      const candidate = `reports/${file}`;
+      if (map.has(candidate)) return map.get(candidate);
+    }
+  }
+  return null;
+}
+
 function renderEmptyReportState() {
   const reportDiv = document.getElementById('report');
   if (!reportDiv) return;
@@ -362,7 +382,7 @@ async function loadMain() {
     });
     await Promise.all(allNodes.map(async node => {
       try {
-        const data = await fetchCountry(node.file);
+        const data = await fetchCountry(node.file, { parentFile: getParentFileForNode(node) });
         if (data && data.iso && !node.iso) node.iso = String(data.iso);
         if (!node.metrics) {
           node.metrics = computeRoundedMetrics(data, mainData);
@@ -528,7 +548,7 @@ function computeRoundedMetrics(countryData, mainData) {
 
 async function ensureReportMetrics(item, mainData) {
   if (item.metrics) return item.metrics;
-  const data = await fetchCountry(item.file);
+  const data = await fetchCountry(item.file, { parentFile: getParentFileForNode(item) });
   if (data && data.iso && !item.iso) item.iso = String(data.iso);
   const metrics = computeRoundedMetrics(data, mainData);
   item.metrics = metrics;
@@ -574,10 +594,76 @@ function colorForScore(value) {
 }
 
 // Cache loaded country JSONs to avoid refetch
-const countryCache = new Map();
+const countryRawCache = new Map();
+const countryResolvedCache = new Map();
 
-async function fetchCountry(file) {
-  if (countryCache.has(file)) return countryCache.get(file);
+function resolveParentReportFile(file, explicitParentFile) {
+  if (explicitParentFile) return explicitParentFile;
+  const node = findNodeByFile(file);
+  return getParentFileForNode(node);
+}
+
+function canonicalizeKeyForInheritance(s) {
+  try {
+    let t = typeof s === 'string' ? s : '';
+    if (t.normalize) t = t.normalize('NFKC');
+    t = t.replace(/[°�?]/g, '');
+    t = t.toLowerCase();
+    t = t.replace(/\s+/g, ' ').trim();
+    return t;
+  } catch {
+    return String(s || '');
+  }
+}
+
+function cloneReportData(data) {
+  if (!data || typeof data !== 'object') return { values: [] };
+  const clone = { ...data };
+  if (Array.isArray(data.values)) {
+    clone.values = data.values.map(entry => (entry && typeof entry === 'object') ? { ...entry } : entry);
+  } else {
+    clone.values = [];
+  }
+  return clone;
+}
+
+function stripSameAsParentFlag(entry) {
+  if (!entry || typeof entry !== 'object') return entry;
+  if (!Object.prototype.hasOwnProperty.call(entry, 'sameAsParent')) {
+    return { ...entry };
+  }
+  const { sameAsParent, ...rest } = entry;
+  return { ...rest };
+}
+
+function mergeReportWithParent(childData, parentData) {
+  const parentValues = Array.isArray(parentData && parentData.values) ? parentData.values : [];
+  const parentMap = new Map();
+  parentValues.forEach(entry => {
+    if (!entry || typeof entry !== 'object') return;
+    const key = canonicalizeKeyForInheritance(entry.key);
+    parentMap.set(key, entry);
+  });
+
+  const mergedValues = Array.isArray(childData.values) ? childData.values.map(entry => {
+    if (!entry || typeof entry !== 'object') return entry;
+    const wantsParent = !!entry.sameAsParent;
+    const stripped = stripSameAsParentFlag(entry);
+    if (!wantsParent) return stripped;
+    const key = canonicalizeKeyForInheritance(entry.key);
+    if (!key || !parentMap.has(key)) return stripped;
+    const parentEntry = parentMap.get(key);
+    return { ...parentEntry, ...stripped };
+  }) : [];
+
+  const parentBase = parentData && typeof parentData === 'object' ? { ...parentData } : {};
+  const result = { ...parentBase, ...childData };
+  result.values = mergedValues;
+  return result;
+}
+
+async function loadRawCountry(file) {
+  if (countryRawCache.has(file)) return countryRawCache.get(file);
   const candidates = [];
   if (typeof file === 'string') {
     candidates.push(file);
@@ -589,11 +675,46 @@ async function fetchCountry(file) {
       const response = await fetch(path);
       if (!response.ok) continue;
       const data = await response.json();
-      countryCache.set(file, data);
+      countryRawCache.set(file, data);
       return data;
     } catch (e) { lastErr = e; }
   }
   throw lastErr || new Error(`Failed to fetch country report: ${file}`);
+}
+
+async function applyParentInheritance(rawData, file, parentFile) {
+  const cloned = cloneReportData(rawData);
+  const values = Array.isArray(cloned.values) ? cloned.values : [];
+  const needsParent = values.some(entry => entry && entry.sameAsParent);
+  if (!needsParent) {
+    cloned.values = values.map(entry => (entry && typeof entry === 'object') ? stripSameAsParentFlag(entry) : entry);
+    return cloned;
+  }
+  let parentData = null;
+  if (parentFile && parentFile !== file) {
+    try {
+      parentData = await fetchCountry(parentFile);
+    } catch {}
+  }
+  return mergeReportWithParent(cloned, parentData);
+}
+
+async function fetchCountry(file, options = {}) {
+  const normalizedFile = typeof file === 'string' ? file : String(file || '');
+  const parentFile = resolveParentReportFile(normalizedFile, options.parentFile);
+  const cacheKey = parentFile ? `${normalizedFile}||${parentFile}` : normalizedFile;
+  if (countryResolvedCache.has(cacheKey)) {
+    return countryResolvedCache.get(cacheKey);
+  }
+  const raw = await loadRawCountry(normalizedFile);
+  const resolved = await applyParentInheritance(raw, normalizedFile, parentFile);
+  countryResolvedCache.set(cacheKey, resolved);
+  return resolved;
+}
+
+function clearCountryCache() {
+  countryRawCache.clear();
+  countryResolvedCache.clear();
 }
 
 function onSelectionChanged(mainData, notice) {
@@ -901,8 +1022,8 @@ function toggleSelectNode(item, notice) {
 }
 
 async function loadCountry(file, mainData) {
-  const response = await fetch(file);
-  const countryData = await response.json();
+  const node = findNodeByFile(file);
+  const countryData = await fetchCountry(file, { parentFile: getParentFileForNode(node) });
   const reportDiv = document.getElementById('report');
   reportDiv.innerHTML = '';
 
@@ -1006,6 +1127,9 @@ if (typeof module !== 'undefined' && module.exports) {
     renderComparison,
     getStored,
     setStored,
+    fetchCountry,
+    clearCountryCache,
+    computeRoundedMetrics,
     computeCountryScoresForSorting,
     renderComparison,
     applyHiddenKeysVisibility,
@@ -1031,7 +1155,7 @@ async function renderComparison(selectedList, mainData, options = {}) {
     name: s.name,
     file: s.file,
     node: s,
-    data: await fetchCountry(s.file)
+    data: await fetchCountry(s.file, { parentFile: getParentFileForNode(s) })
   })));
 
   // Legend in header bar

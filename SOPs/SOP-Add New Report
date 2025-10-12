@@ -37,7 +37,8 @@ Perform the following loop for every `Key` (use the worksheet order to avoid ski
 2. For every `Key` in your worksheet, update the corresponding object’s `alignmentValue` and `alignmentText`.
 3. Add a top-level `"version": 2` field directly under the opening `{`. This marks the country as refreshed; if a `version` already exists, overwrite it with `2`.
 4. Ensure every `Key` from `data/category_keys.json` still appears exactly once. Do **not** add or remove keys.
-5. Keep valid JSON formatting (commas, quotes, etc.).
+5. When a city's situation mirrors the parent country for a key, set `"sameAsParent": true` on that city entry (keep the `key` plus any clarifying notes). The tooling will automatically inherit the parent's `alignmentValue` and `alignmentText`, so only add fresh prose when the city genuinely diverges.
+6. Keep valid JSON formatting (commas, quotes, etc.).
 
 Example structure after updates:
 ```json
