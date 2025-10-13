@@ -10,6 +10,101 @@ const appState = {
 };
 let hiddenKeysHotkeyAttached = false;
 const keyGuidanceDialogState = { lastTrigger: null };
+const keyActionsMenuState = { current: null, listenersAttached: false };
+
+function closeKeyActionsMenu(instance) {
+  const target = instance || keyActionsMenuState.current;
+  if (!target) return;
+  if (target.menu) target.menu.hidden = true;
+  if (target.toggle) target.toggle.setAttribute('aria-expanded', 'false');
+  if (keyActionsMenuState.current === target) {
+    keyActionsMenuState.current = null;
+  }
+}
+
+function openKeyActionsMenu(instance) {
+  if (!instance) return;
+  if (keyActionsMenuState.current && keyActionsMenuState.current !== instance) {
+    closeKeyActionsMenu(keyActionsMenuState.current);
+  }
+  if (instance.menu) instance.menu.hidden = false;
+  if (instance.toggle) instance.toggle.setAttribute('aria-expanded', 'true');
+  keyActionsMenuState.current = instance;
+}
+
+function ensureKeyActionsMenuListeners() {
+  if (keyActionsMenuState.listenersAttached || typeof document === 'undefined') return;
+  document.addEventListener('click', (event) => {
+    const current = keyActionsMenuState.current;
+    if (!current) return;
+    try {
+      if (current.wrap && current.wrap.contains(event.target)) return;
+    } catch {}
+    closeKeyActionsMenu(current);
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      closeKeyActionsMenu();
+    }
+  });
+  keyActionsMenuState.listenersAttached = true;
+}
+
+function resetKeyActionsMenuState() {
+  closeKeyActionsMenu();
+}
+
+function makeKeyActionsMenu(buttons) {
+  const instance = {};
+  const wrap = document.createElement('div');
+  wrap.className = 'key-actions';
+  instance.wrap = wrap;
+
+  const toggle = document.createElement('button');
+  toggle.type = 'button';
+  toggle.className = 'key-actions-toggle';
+  toggle.setAttribute('aria-haspopup', 'true');
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.setAttribute('aria-label', 'Key actions');
+  toggle.title = 'Key actions';
+  toggle.innerHTML = '<span aria-hidden="true">⋮</span><span class="visually-hidden">Key actions</span>';
+  instance.toggle = toggle;
+
+  const menu = document.createElement('div');
+  menu.className = 'key-actions-menu';
+  menu.hidden = true;
+  instance.menu = menu;
+
+  const safeButtons = Array.isArray(buttons) ? buttons : [];
+  safeButtons.forEach(btn => {
+    if (!(btn instanceof HTMLElement)) return;
+    btn.classList.add('key-actions-menu-item');
+    btn.addEventListener('click', () => {
+      closeKeyActionsMenu(instance);
+    });
+    menu.appendChild(btn);
+  });
+
+  wrap.appendChild(toggle);
+  wrap.appendChild(menu);
+
+  ensureKeyActionsMenuListeners();
+
+  toggle.addEventListener('click', (event) => {
+    try { event.preventDefault(); event.stopPropagation(); } catch {}
+    if (keyActionsMenuState.current === instance) {
+      closeKeyActionsMenu(instance);
+    } else {
+      openKeyActionsMenu(instance);
+    }
+  });
+
+  menu.addEventListener('click', (event) => {
+    try { event.stopPropagation(); } catch {}
+  });
+
+  return wrap;
+}
 
 function getParentFileForNode(node) {
   if (!node || typeof node !== 'object') return null;
@@ -1396,6 +1491,7 @@ if (typeof module !== 'undefined' && module.exports) {
 async function renderComparison(selectedList, mainData, options = {}) {
   const reportDiv = document.getElementById('report');
   reportDiv.innerHTML = '';
+  resetKeyActionsMenuState();
   const collapseCategoriesBtn = document.getElementById('collapseCategoriesBtn');
   if (collapseCategoriesBtn) {
     collapseCategoriesBtn.disabled = true;
@@ -1668,11 +1764,10 @@ async function renderComparison(selectedList, mainData, options = {}) {
       const keyLabel = document.createElement('span');
       keyLabel.textContent = keyObj.Key;
       keyInner.appendChild(keyLabel);
-      const actionsWrap = document.createElement('div');
-      actionsWrap.className = 'key-actions';
+      const actionButtons = [];
       try {
         const guideBtn = makeKeyGuidanceButton(category.Category, keyObj);
-        if (guideBtn) actionsWrap.appendChild(guideBtn);
+        if (guideBtn) actionButtons.push(guideBtn);
       } catch {}
       try {
         const infoBtn = makeInformationalToggleButton(category.Category, keyObj, {
@@ -1680,16 +1775,18 @@ async function renderComparison(selectedList, mainData, options = {}) {
           selectedList,
           diffEnabled,
         });
-        actionsWrap.appendChild(infoBtn);
+        actionButtons.push(infoBtn);
       } catch {}
       try {
         if (Array.isArray(selectedList) && selectedList.length > 1) {
           const names = datasets.map(d => d.name).slice(0, 4);
           const btn = makeCompareButton(names, category.Category, keyObj.Key);
-          actionsWrap.appendChild(btn);
+          actionButtons.push(btn);
         }
       } catch {}
-      keyInner.appendChild(actionsWrap);
+      if (actionButtons.length > 0) {
+        keyInner.appendChild(makeKeyActionsMenu(actionButtons));
+      }
       keyTd.appendChild(keyInner);
       tr.appendChild(keyTd);
 
