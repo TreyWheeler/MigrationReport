@@ -3,6 +3,7 @@ const path = require('path');
 
 const dataDir = path.resolve(__dirname, '..');
 const reportsDir = path.resolve(__dirname, '..', '..', 'reports');
+const familyProfilePath = path.resolve(__dirname, '..', '..', 'family_profile.json');
 
 const readJson = relativePath => JSON.parse(fs.readFileSync(path.resolve(dataDir, relativePath), 'utf8'));
 
@@ -12,6 +13,43 @@ const countriesData = readJson('countries.json');
 const citiesData = readJson('cities.json');
 const peopleData = readJson('people.json');
 const personWeightsData = readJson('person_weights.json');
+const familyProfile = JSON.parse(fs.readFileSync(familyProfilePath, 'utf8'));
+
+const familyValuesSummary = [
+  familyProfile?.values?.political_alignment,
+  familyProfile?.values?.community,
+  familyProfile?.values?.work_life_balance,
+]
+  .filter(Boolean)
+  .join('; ');
+
+const categoryGuidanceByName = new Map(
+  categoryKeysData.categoryKeys.map(key => [key.name, typeof key.guidance === 'string' ? key.guidance.trim() : ''])
+);
+
+function buildAlignmentFailureMessage(reportFile, entry, issue) {
+  const location = typeof reportFile === 'string'
+    ? reportFile.replace(/_report\.json$/i, '')
+    : 'Unknown report';
+  const keyLabel = entry?.key ? `Key "${entry.key}"` : 'Unknown key';
+  const guidance = entry?.key ? categoryGuidanceByName.get(entry.key) : undefined;
+  const guidanceLine = guidance
+    ? `Category guidance reminder: ${guidance}`
+    : 'Add or revisit the guidance for this key in data/category_keys.json so writers know how to tailor the narrative.';
+  const ratingLine = typeof entry?.alignmentValue === 'number'
+    ? `Current alignment rating noted: ${entry.alignmentValue}.`
+    : 'No alignment rating captured—ensure alignmentValue reflects the guidance rating scale.';
+  const profileLine = familyValuesSummary
+    ? `Keep the family profile priorities in mind (${familyValuesSummary}).`
+    : 'Review family_profile.json so alignment text speaks to the household priorities.';
+
+  return [
+    `${location}: ${issue} ${keyLabel}.`,
+    guidanceLine,
+    ratingLine,
+    profileLine,
+  ].join(' ');
+}
 
 const allowedExtraKeys = new Set(['Retirement (Immigrants)']);
 
@@ -22,32 +60,56 @@ describe('Report alignment data', () => {
   reports.forEach(reportFile => {
     test(`${reportFile} contains alignment text and values`, () => {
       const report = JSON.parse(fs.readFileSync(path.join(reportsDir, reportFile), 'utf8'));
-      expect(report.values.length).toBeGreaterThan(0);
+      if (!Array.isArray(report.values)) {
+        throw new Error(buildAlignmentFailureMessage(reportFile, null, 'Report values must be an array so each guidance-aligned metric can be validated.'));
+      }
+      if (report.values.length === 0) {
+        throw new Error(buildAlignmentFailureMessage(reportFile, null, 'Report does not contain any alignment entries. Add at least one value that speaks to the family profile priorities using the guidance ratings.'));
+      }
 
       const seenKeys = new Set();
       report.values.forEach(entry => {
-        expect(typeof entry.key).toBe('string');
-        expect(entry.key.trim().length).toBeGreaterThan(0);
+        if (typeof entry.key !== 'string') {
+          throw new Error(buildAlignmentFailureMessage(reportFile, entry, 'Alignment entry is missing a string key. Make sure the key matches category_keys.json so the guidance applies to the right narrative.'));
+        }
+        if (entry.key.trim().length === 0) {
+          throw new Error(buildAlignmentFailureMessage(reportFile, entry, 'Alignment entry key is blank. Reinforce the key name so guidance and ratings can map to the family profile needs.'));
+        }
+        if (seenKeys.has(entry.key)) {
+          throw new Error(buildAlignmentFailureMessage(reportFile, entry, 'Duplicate key detected. Each key should appear once so the guidance rating stays clear.'));
+        }
+
         const inheritsFromParent = entry.sameAsParent === true;
 
         if (inheritsFromParent) {
-          expect(entry.alignmentText).toBeUndefined();
-          expect(entry.alignmentValue).toBeUndefined();
+          if (typeof entry.alignmentText !== 'undefined') {
+            throw new Error(buildAlignmentFailureMessage(reportFile, entry, 'Entries inheriting from a parent should not override alignmentText. Remove the extra text so the parent narrative and guidance stay authoritative.'));
+          }
+          if (typeof entry.alignmentValue !== 'undefined') {
+            throw new Error(buildAlignmentFailureMessage(reportFile, entry, 'Entries inheriting from a parent should not override alignmentValue. Remove the value so the guidance rating remains consistent.'));
+          }
         } else {
-          expect(typeof entry.alignmentText).toBe('string');
-          expect(entry.alignmentText.trim().length).toBeGreaterThan(0);
-          expect(typeof entry.alignmentValue).toBe('number');
-          expect(Number.isNaN(entry.alignmentValue)).toBe(false);
-          expect(entry.alignmentValue).toBeGreaterThanOrEqual(-1);
-          expect(entry.alignmentValue).toBeLessThanOrEqual(10);
-          expect(entry.alignmentValue).not.toBe(0);
+          if (typeof entry.alignmentText !== 'string' || entry.alignmentText.trim().length === 0) {
+            throw new Error(buildAlignmentFailureMessage(reportFile, entry, 'Alignment text is missing. Describe how this location serves the family profile using the guidance prompts and rating cues.'));
+          }
+          if (typeof entry.alignmentValue !== 'number' || Number.isNaN(entry.alignmentValue)) {
+            throw new Error(buildAlignmentFailureMessage(reportFile, entry, 'Alignment value must be a number. Use the guidance rating scale to score how well the narrative supports the family priorities.'));
+          }
+          if (entry.alignmentValue < -1 || entry.alignmentValue > 10) {
+            throw new Error(buildAlignmentFailureMessage(reportFile, entry, 'Alignment value is outside the accepted range (-1 to 10). Reassess the rating using the guidance scale and the family profile context.'));
+          }
+          if (entry.alignmentValue === 0) {
+            throw new Error(buildAlignmentFailureMessage(reportFile, entry, 'Alignment value must avoid zero. Choose a positive or negative rating to signal how the guidance applies to the family.'));
+          }
         }
-        seenKeys.add(entry.key);
-        const keyIsKnown = categoryKeyNames.has(entry.key) || allowedExtraKeys.has(entry.key);
-        expect(keyIsKnown).toBe(true);
-      });
 
-      expect(seenKeys.size).toBe(report.values.length);
+        const keyIsKnown = categoryKeyNames.has(entry.key) || allowedExtraKeys.has(entry.key);
+        if (!keyIsKnown) {
+          throw new Error(buildAlignmentFailureMessage(reportFile, entry, 'Unknown key. Add it to data/category_keys.json with guidance so future writers know how to speak to the family profile priorities.'));
+        }
+
+        seenKeys.add(entry.key);
+      });
     });
   });
 });
