@@ -192,6 +192,16 @@
     body[data-theme="dark"] .pill-button:disabled {
       box-shadow: none;
     }
+    body[data-theme="dark"] .key-actions-toggle {
+      background: #111827;
+      border-color: #334155;
+      color: var(--md-color-on-surface);
+    }
+    body[data-theme="dark"] .key-actions-menu {
+      background: #0f172a;
+      border-color: #334155;
+      box-shadow: 0 18px 32px rgba(15,23,42,0.55);
+    }
     body[data-theme="dark"].show-hidden-keys .score-list .hidden-key { background: color-mix(in srgb, var(--md-color-primary) 22%, transparent); }
     body[data-theme="dark"].show-hidden-keys .comparison-table tr.hidden-key td { background: color-mix(in srgb, var(--md-color-primary) 18%, transparent); }
     .toggle input { accent-color: var(--md-color-primary); }
@@ -416,66 +426,85 @@
       z-index: 2;
     }
     .key-cell .key-inner { display: flex; align-items: center; gap: 8px; }
-    .key-cell .key-actions { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; }
-    .key-guidance-btn {
-      font-size: 12px;
+    .key-cell .key-actions { margin-left: auto; position: relative; display: inline-flex; align-items: center; }
+    .key-actions-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      line-height: 1;
       padding: 4px 8px;
+      border-radius: 9999px;
+      border: 1px solid var(--md-color-outline);
+      background: var(--md-color-surface);
+      color: var(--md-color-on-surface);
+      cursor: pointer;
+      transition: border-color 160ms ease, box-shadow 160ms ease, color 160ms ease, background-color 160ms ease;
+      min-width: 32px;
+    }
+    .key-actions-toggle:hover {
+      border-color: var(--md-color-primary);
+      color: var(--md-color-primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent);
+    }
+    .key-actions-toggle:focus-visible {
+      outline: 2px solid var(--md-color-primary);
+      outline-offset: 2px;
+    }
+    .key-actions-toggle span[aria-hidden="true"] { font-size: 18px; line-height: 1; }
+    .key-actions-menu {
+      position: absolute;
+      top: calc(100% + 6px);
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      min-width: 180px;
+      padding: 8px;
+      background: var(--md-color-surface);
+      border: 1px solid var(--md-color-outline);
+      border-radius: 12px;
+      box-shadow: 0 12px 24px rgba(15, 23, 42, 0.18);
+      z-index: 5;
+    }
+    .key-actions-menu[hidden] { display: none; }
+    .key-actions-menu .key-guidance-btn,
+    .key-actions-menu .info-toggle-btn,
+    .key-actions-menu .compare-btn {
+      display: flex;
+      width: 100%;
+      justify-content: flex-start;
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .key-guidance-btn,
+    .key-actions-menu .info-toggle-btn,
+    .key-actions-menu .compare-btn {
+      font-size: 12px;
+      padding: 6px 10px;
       border: 1px solid var(--md-color-outline);
       border-radius: 9999px;
       background: var(--md-color-surface);
       color: var(--md-color-on-surface);
       cursor: pointer;
-      transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease, opacity 160ms ease;
+      transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease;
     }
-    .key-guidance-btn:hover {
+    .key-guidance-btn:hover,
+    .key-actions-menu .info-toggle-btn:hover,
+    .key-actions-menu .compare-btn:hover {
       border-color: var(--md-color-primary);
       color: var(--md-color-primary);
       box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent);
     }
-    .key-guidance-btn:focus-visible {
+    .key-guidance-btn:focus-visible,
+    .key-actions-menu .info-toggle-btn:focus-visible,
+    .key-actions-menu .compare-btn:focus-visible {
       outline: 2px solid var(--md-color-primary);
       outline-offset: 2px;
     }
-    .key-cell .key-guidance-btn {
-      opacity: 0;
-      pointer-events: none;
-    }
-    .key-cell:hover .key-guidance-btn,
-    .key-cell .key-guidance-btn:focus-visible {
-      opacity: 1;
-      pointer-events: auto;
-    }
-    .key-cell .info-toggle-btn {
-      font-size: 12px;
-      padding: 4px 8px;
-      border: 1px solid var(--md-color-outline);
-      border-radius: 9999px;
-      background: var(--md-color-surface);
-      color: var(--md-color-on-surface);
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 160ms ease, box-shadow 160ms ease, border-color 160ms ease, color 160ms ease;
-    }
-    .key-cell .info-toggle-btn.override-active {
+    .key-actions-menu .info-toggle-btn.override-active {
       border-color: var(--md-color-primary);
       color: var(--md-color-primary);
-      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent);
-    }
-    .key-cell:hover .info-toggle-btn { opacity: 1; pointer-events: auto; }
-    .key-cell .compare-btn {
-      font-size: 12px;
-      padding: 4px 8px;
-      border: 1px solid var(--md-color-outline);
-      border-radius: 9999px;
-      background: var(--md-color-surface);
-      color: var(--md-color-on-surface);
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
-    }
-    .key-cell:hover .compare-btn { opacity: 1; pointer-events: auto; }
-    .key-cell .compare-btn:hover {
-      border-color: var(--md-color-primary);
       box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent);
     }
     td.value-cell {
