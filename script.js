@@ -12,11 +12,26 @@ let hiddenKeysHotkeyAttached = false;
 const keyGuidanceDialogState = { lastTrigger: null };
 const keyActionsMenuState = { current: null, listenersAttached: false };
 
+function getKeyActionsCell(instance) {
+  if (!instance) return null;
+  if (instance.cell && instance.cell.isConnected) return instance.cell;
+  if (instance.wrap && typeof instance.wrap.closest === 'function') {
+    const cell = instance.wrap.closest('td');
+    if (cell instanceof HTMLElement) {
+      instance.cell = cell;
+      return cell;
+    }
+  }
+  return null;
+}
+
 function closeKeyActionsMenu(instance) {
   const target = instance || keyActionsMenuState.current;
   if (!target) return;
   if (target.menu) target.menu.hidden = true;
   if (target.toggle) target.toggle.setAttribute('aria-expanded', 'false');
+  const cell = getKeyActionsCell(target);
+  if (cell) cell.classList.remove('key-actions-open');
   if (keyActionsMenuState.current === target) {
     keyActionsMenuState.current = null;
   }
@@ -29,6 +44,8 @@ function openKeyActionsMenu(instance) {
   }
   if (instance.menu) instance.menu.hidden = false;
   if (instance.toggle) instance.toggle.setAttribute('aria-expanded', 'true');
+  const cell = getKeyActionsCell(instance);
+  if (cell) cell.classList.add('key-actions-open');
   keyActionsMenuState.current = instance;
 }
 

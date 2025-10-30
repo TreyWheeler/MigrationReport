@@ -425,6 +425,10 @@
       background: var(--md-color-surface);
       z-index: 2;
     }
+    td.key-cell:focus-within,
+    td.key-cell.key-actions-open {
+      z-index: 8;
+    }
     .key-cell .key-inner { display: flex; align-items: center; gap: 8px; }
     .key-cell .key-actions { margin-left: auto; position: relative; display: inline-flex; align-items: center; }
     .key-actions-toggle {
