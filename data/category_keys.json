@@ -1010,6 +1010,524 @@
       "name": "Typical Software Salaries",
       "order": 3,
       "guidance": ".NET / Ruby / Game dev ranges; senior vs. mid."
+    },
+    {
+      "id": "video_game_industry_ecosystem_studio_density",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Studio Density",
+      "order": 1,
+      "guidance": "Count active game, VFX, and animation studios in the metro, weighting both headcount and project throughput to gauge cluster depth."
+    },
+    {
+      "id": "video_game_industry_ecosystem_anchor_employers",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Anchor Employers",
+      "order": 2,
+      "guidance": "Assess presence of flagship or renowned studios that attract talent, ship globally recognized titles, and provide training pipelines."
+    },
+    {
+      "id": "video_game_industry_ecosystem_vendor_outsource_ecosystem",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Vendor/Outsource Ecosystem",
+      "order": 3,
+      "guidance": "Evaluate availability of specialized vendors, co-dev shops, and collectives that absorb overflow or niche production needs."
+    },
+    {
+      "id": "video_game_industry_ecosystem_education_pipeline_strength",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Education Pipeline Strength",
+      "order": 4,
+      "guidance": "Review quality and volume of local degree programs in game development, animation, and interactive media feeding junior talent."
+    },
+    {
+      "id": "video_game_industry_ecosystem_continuing_education_availability",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Continuing Education Availability",
+      "order": 5,
+      "guidance": "Check for bootcamps, workshops, and short courses that upskill professionals on current engines and tools."
+    },
+    {
+      "id": "video_game_industry_ecosystem_community_activity",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Community Activity",
+      "order": 6,
+      "guidance": "Measure cadence of meetups, jams, conferences, and creator gatherings that sustain professional networks."
+    },
+    {
+      "id": "video_game_industry_ecosystem_hiring_velocity",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Hiring Velocity",
+      "order": 7,
+      "guidance": "Estimate typical time-to-fill for core game roles in the metro and flag structural hiring bottlenecks."
+    },
+    {
+      "id": "video_game_industry_ecosystem_compensation_benchmark",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Compensation Benchmark",
+      "order": 8,
+      "guidance": "Track local median total compensation across design, art, engineering, and production roles compared with global peers."
+    },
+    {
+      "id": "video_game_industry_ecosystem_language",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Language",
+      "order": 9,
+      "guidance": "Note whether English is the working norm and how language proficiency affects hiring and collaboration."
+    },
+    {
+      "id": "video_game_industry_ecosystem_remote_expectations",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Remote Expectations",
+      "order": 10,
+      "guidance": "Capture prevalence of hybrid/remote arrangements among studios and how they influence relocation needs."
+    },
+    {
+      "id": "video_game_industry_ecosystem_engine_community_bias",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Engine Community Bias",
+      "order": 11,
+      "guidance": "Identify whether the local ecosystem leans toward Unreal, Unity, proprietary tech, or other engines and how that shapes tooling expertise."
+    },
+    {
+      "id": "video_game_industry_ecosystem_real_time_vs_pre_rendered_focus",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Real-Time vs Pre-Rendered Focus",
+      "order": 12,
+      "guidance": "Clarify whether production favors real-time/interactive pipelines or pre-rendered/cinematic work and the implications for talent."
+    },
+    {
+      "id": "video_game_industry_ecosystem_demand_supply_balance",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Demand\u2013Supply Balance",
+      "order": 13,
+      "guidance": "Compare open requisitions to available qualified candidates to understand market tightness or slack."
+    },
+    {
+      "id": "video_game_industry_ecosystem_retention_churn_risk",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Retention & Churn Risk",
+      "order": 14,
+      "guidance": "Assess historical studio stability, layoffs, and attrition trends affecting long-term employment."
+    },
+    {
+      "id": "video_game_industry_ecosystem_diversity_inclusion_index",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Diversity & Inclusion Index",
+      "order": 15,
+      "guidance": "Evaluate representation, accessibility, and inclusion initiatives across the regional industry."
+    },
+    {
+      "id": "video_game_industry_ecosystem_tax_incentives",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Tax Incentives for Games/Creative",
+      "order": 16,
+      "guidance": "Document availability, size, and reliability of tax credits, grants, or rebates for game and interactive media production."
+    },
+    {
+      "id": "video_game_industry_ecosystem_economic_policy_stability",
+      "categoryId": "video_game_industry_ecosystem",
+      "name": "Economic/Policy Stability",
+      "order": 17,
+      "guidance": "Summarize predictability of regulations, funding programs, and political support impacting the industry."
+    },
+    {
+      "id": "video_game_startup_founder_operator_community",
+      "categoryId": "video_game_startup",
+      "name": "Founder/Operator Community",
+      "order": 1,
+      "guidance": "Gauge density of experienced game founders and operators who provide mentorship and peer support."
+    },
+    {
+      "id": "video_game_startup_early_stage_capital_access",
+      "categoryId": "video_game_startup",
+      "name": "Early-Stage Capital Access",
+      "order": 2,
+      "guidance": "Assess availability of angels, seed investors, and grant programs willing to back game startups."
+    },
+    {
+      "id": "video_game_startup_accelerator_incubator_access",
+      "categoryId": "video_game_startup",
+      "name": "Accelerator/Incubator Access",
+      "order": 3,
+      "guidance": "Note dedicated or game-friendly accelerator, incubator, or lab programs that provide capital and services."
+    },
+    {
+      "id": "video_game_startup_senior_talent_availability",
+      "categoryId": "video_game_startup",
+      "name": "Senior Talent Availability",
+      "order": 4,
+      "guidance": "Evaluate depth of experienced leads across art, engineering, design, and production willing to join startups."
+    },
+    {
+      "id": "video_game_startup_contractor_freelancer_bench",
+      "categoryId": "video_game_startup",
+      "name": "Contractor/Freelancer Bench",
+      "order": 5,
+      "guidance": "Track availability of on-demand specialists and contractors to help teams scale quickly."
+    },
+    {
+      "id": "video_game_startup_hiring_velocity",
+      "categoryId": "video_game_startup",
+      "name": "Hiring Velocity",
+      "order": 6,
+      "guidance": "Estimate time-to-fill for generalist and specialist roles within early-stage studios."
+    },
+    {
+      "id": "video_game_startup_compensation_benchmark",
+      "categoryId": "video_game_startup",
+      "name": "Compensation Benchmark",
+      "order": 7,
+      "guidance": "Benchmark cash and equity norms for startup-stage roles relative to cost of living."
+    },
+    {
+      "id": "video_game_startup_language",
+      "categoryId": "video_game_startup",
+      "name": "Language",
+      "order": 8,
+      "guidance": "Document English and local language expectations for go-to-market, community, and operations work."
+    },
+    {
+      "id": "video_game_startup_remote_expectations",
+      "categoryId": "video_game_startup",
+      "name": "Remote Expectations",
+      "order": 9,
+      "guidance": "Describe norms around distributed teams, async workflows, and cross-border collaboration."
+    },
+    {
+      "id": "video_game_startup_coworking_startup_infrastructure",
+      "categoryId": "video_game_startup",
+      "name": "Coworking & Startup Infrastructure",
+      "order": 10,
+      "guidance": "Review quality and accessibility of coworking, production labs, mocap stages, and maker spaces supporting prototypes."
+    },
+    {
+      "id": "video_game_startup_legal_ip_support",
+      "categoryId": "video_game_startup",
+      "name": "Legal & IP Support",
+      "order": 11,
+      "guidance": "Identify availability of legal counsel versed in game IP, licensing, publishing, and platform agreements."
+    },
+    {
+      "id": "video_game_startup_publisher_platform_relationships",
+      "categoryId": "video_game_startup",
+      "name": "Publisher/Platform Relationships",
+      "order": 12,
+      "guidance": "Assess proximity to publishers, platform BD teams, and support programs for launches."
+    },
+    {
+      "id": "video_game_startup_market_research_playtesting",
+      "categoryId": "video_game_startup",
+      "name": "Market Research & Playtesting",
+      "order": 13,
+      "guidance": "Note availability of panels, research vendors, and playtest communities for iterative design."
+    },
+    {
+      "id": "video_game_startup_government_startup_visas",
+      "categoryId": "video_game_startup",
+      "name": "Government/Startup Visas",
+      "order": 14,
+      "guidance": "Summarize ease of securing founder and employee visas or relocation pathways tied to entrepreneurship."
+    },
+    {
+      "id": "video_game_startup_cost_of_doing_business",
+      "categoryId": "video_game_startup",
+      "name": "Cost of Doing Business",
+      "order": 15,
+      "guidance": "Estimate typical payroll, space, and service costs for an early-stage studio in the metro."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_character_artist_talent_pool",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Character Artist: Talent Pool",
+      "order": 1,
+      "guidance": "Estimate number of professionals in the metro who match 3D character artist role requirements with recent, relevant credits."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_character_artist_education_pipeline_strength",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Character Artist: Education Pipeline Strength",
+      "order": 2,
+      "guidance": "Review local programs producing entry-level 3D character artist talent and their alignment to industry tools."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_character_artist_continuing_education_availability",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Character Artist: Continuing Education Availability",
+      "order": 3,
+      "guidance": "Track workshops, bootcamps, and communities that keep 3D character artist skills current."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_character_artist_hiring_velocity",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Character Artist: Hiring Velocity",
+      "order": 4,
+      "guidance": "Estimate typical time-to-fill for 3D character artist roles in the metro."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_character_artist_compensation_benchmark",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Character Artist: Compensation Benchmark",
+      "order": 5,
+      "guidance": "Benchmark median total compensation for 3D character artist talent locally."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_character_artist_language",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Character Artist: Language",
+      "order": 6,
+      "guidance": "Note common language proficiency and any bilingual requirements among 3D character artist candidates."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_character_artist_remote_expectations",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Character Artist: Remote Expectations",
+      "order": 7,
+      "guidance": "Capture willingness and norms for hybrid or remote 3D character artist roles."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_animator_talent_pool",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Animator: Talent Pool",
+      "order": 8,
+      "guidance": "Estimate number of professionals in the metro who match 3D animator role requirements with recent, relevant credits."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_animator_education_pipeline_strength",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Animator: Education Pipeline Strength",
+      "order": 9,
+      "guidance": "Review local programs producing entry-level 3D animator talent and their alignment to industry tools."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_animator_continuing_education_availability",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Animator: Continuing Education Availability",
+      "order": 10,
+      "guidance": "Track workshops, bootcamps, and communities that keep 3D animator skills current."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_animator_hiring_velocity",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Animator: Hiring Velocity",
+      "order": 11,
+      "guidance": "Estimate typical time-to-fill for 3D animator roles in the metro."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_animator_compensation_benchmark",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Animator: Compensation Benchmark",
+      "order": 12,
+      "guidance": "Benchmark median total compensation for 3D animator talent locally."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_animator_language",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Animator: Language",
+      "order": 13,
+      "guidance": "Note common language proficiency and any bilingual requirements among 3D animator candidates."
+    },
+    {
+      "id": "daemon_games_talent_access_3d_animator_remote_expectations",
+      "categoryId": "daemon_games_talent_access",
+      "name": "3D Animator: Remote Expectations",
+      "order": 14,
+      "guidance": "Capture willingness and norms for hybrid or remote 3D animator roles."
+    },
+    {
+      "id": "daemon_games_talent_access_2d_environmental_artist_talent_pool",
+      "categoryId": "daemon_games_talent_access",
+      "name": "2D Environmental Artist: Talent Pool",
+      "order": 15,
+      "guidance": "Estimate number of professionals in the metro who match 2D environmental artist role requirements with recent, relevant credits."
+    },
+    {
+      "id": "daemon_games_talent_access_2d_environmental_artist_education_pipeline_strength",
+      "categoryId": "daemon_games_talent_access",
+      "name": "2D Environmental Artist: Education Pipeline Strength",
+      "order": 16,
+      "guidance": "Review local programs producing entry-level 2D environmental artist talent and their alignment to industry tools."
+    },
+    {
+      "id": "daemon_games_talent_access_2d_environmental_artist_continuing_education_availability",
+      "categoryId": "daemon_games_talent_access",
+      "name": "2D Environmental Artist: Continuing Education Availability",
+      "order": 17,
+      "guidance": "Track workshops, bootcamps, and communities that keep 2D environmental artist skills current."
+    },
+    {
+      "id": "daemon_games_talent_access_2d_environmental_artist_hiring_velocity",
+      "categoryId": "daemon_games_talent_access",
+      "name": "2D Environmental Artist: Hiring Velocity",
+      "order": 18,
+      "guidance": "Estimate typical time-to-fill for 2D environmental artist roles in the metro."
+    },
+    {
+      "id": "daemon_games_talent_access_2d_environmental_artist_compensation_benchmark",
+      "categoryId": "daemon_games_talent_access",
+      "name": "2D Environmental Artist: Compensation Benchmark",
+      "order": 19,
+      "guidance": "Benchmark median total compensation for 2D environmental artist talent locally."
+    },
+    {
+      "id": "daemon_games_talent_access_2d_environmental_artist_language",
+      "categoryId": "daemon_games_talent_access",
+      "name": "2D Environmental Artist: Language",
+      "order": 20,
+      "guidance": "Note common language proficiency and any bilingual requirements among 2D environmental artist candidates."
+    },
+    {
+      "id": "daemon_games_talent_access_2d_environmental_artist_remote_expectations",
+      "categoryId": "daemon_games_talent_access",
+      "name": "2D Environmental Artist: Remote Expectations",
+      "order": 21,
+      "guidance": "Capture willingness and norms for hybrid or remote 2D environmental artist roles."
+    },
+    {
+      "id": "daemon_games_talent_access_vfx_artist_real_time_talent_pool",
+      "categoryId": "daemon_games_talent_access",
+      "name": "VFX Artist (Real-Time): Talent Pool",
+      "order": 22,
+      "guidance": "Estimate number of professionals in the metro who match VFX artist (real-time) role requirements with recent, relevant credits."
+    },
+    {
+      "id": "daemon_games_talent_access_vfx_artist_real_time_education_pipeline_strength",
+      "categoryId": "daemon_games_talent_access",
+      "name": "VFX Artist (Real-Time): Education Pipeline Strength",
+      "order": 23,
+      "guidance": "Review local programs producing entry-level VFX artist (real-time) talent and their alignment to industry tools."
+    },
+    {
+      "id": "daemon_games_talent_access_vfx_artist_real_time_continuing_education_availability",
+      "categoryId": "daemon_games_talent_access",
+      "name": "VFX Artist (Real-Time): Continuing Education Availability",
+      "order": 24,
+      "guidance": "Track workshops, bootcamps, and communities that keep VFX artist (real-time) skills current."
+    },
+    {
+      "id": "daemon_games_talent_access_vfx_artist_real_time_hiring_velocity",
+      "categoryId": "daemon_games_talent_access",
+      "name": "VFX Artist (Real-Time): Hiring Velocity",
+      "order": 25,
+      "guidance": "Estimate typical time-to-fill for VFX artist (real-time) roles in the metro."
+    },
+    {
+      "id": "daemon_games_talent_access_vfx_artist_real_time_compensation_benchmark",
+      "categoryId": "daemon_games_talent_access",
+      "name": "VFX Artist (Real-Time): Compensation Benchmark",
+      "order": 26,
+      "guidance": "Benchmark median total compensation for VFX artist (real-time) talent locally."
+    },
+    {
+      "id": "daemon_games_talent_access_vfx_artist_real_time_language",
+      "categoryId": "daemon_games_talent_access",
+      "name": "VFX Artist (Real-Time): Language",
+      "order": 27,
+      "guidance": "Note common language proficiency and any bilingual requirements among VFX artist (real-time) candidates."
+    },
+    {
+      "id": "daemon_games_talent_access_vfx_artist_real_time_remote_expectations",
+      "categoryId": "daemon_games_talent_access",
+      "name": "VFX Artist (Real-Time): Remote Expectations",
+      "order": 28,
+      "guidance": "Capture willingness and norms for hybrid or remote VFX artist (real-time) roles."
+    },
+    {
+      "id": "daemon_games_talent_access_community_manager_talent_pool",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Community Manager: Talent Pool",
+      "order": 29,
+      "guidance": "Estimate number of professionals in the metro who match community manager role requirements with recent, relevant credits."
+    },
+    {
+      "id": "daemon_games_talent_access_community_manager_education_pipeline_strength",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Community Manager: Education Pipeline Strength",
+      "order": 30,
+      "guidance": "Review local programs producing entry-level community manager talent and their alignment to industry tools."
+    },
+    {
+      "id": "daemon_games_talent_access_community_manager_continuing_education_availability",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Community Manager: Continuing Education Availability",
+      "order": 31,
+      "guidance": "Track workshops, bootcamps, and communities that keep community manager skills current."
+    },
+    {
+      "id": "daemon_games_talent_access_community_manager_hiring_velocity",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Community Manager: Hiring Velocity",
+      "order": 32,
+      "guidance": "Estimate typical time-to-fill for community manager roles in the metro."
+    },
+    {
+      "id": "daemon_games_talent_access_community_manager_compensation_benchmark",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Community Manager: Compensation Benchmark",
+      "order": 33,
+      "guidance": "Benchmark median total compensation for community manager talent locally."
+    },
+    {
+      "id": "daemon_games_talent_access_community_manager_language",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Community Manager: Language",
+      "order": 34,
+      "guidance": "Note common language proficiency and any bilingual requirements among community manager candidates."
+    },
+    {
+      "id": "daemon_games_talent_access_community_manager_remote_expectations",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Community Manager: Remote Expectations",
+      "order": 35,
+      "guidance": "Capture willingness and norms for hybrid or remote community manager roles."
+    },
+    {
+      "id": "daemon_games_talent_access_product_marketing_manager_games_talent_pool",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Product Marketing Manager (Games): Talent Pool",
+      "order": 36,
+      "guidance": "Estimate number of professionals in the metro who match product marketing manager (games) role requirements with recent, relevant credits."
+    },
+    {
+      "id": "daemon_games_talent_access_product_marketing_manager_games_education_pipeline_strength",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Product Marketing Manager (Games): Education Pipeline Strength",
+      "order": 37,
+      "guidance": "Review local programs producing entry-level product marketing manager (games) talent and their alignment to industry tools."
+    },
+    {
+      "id": "daemon_games_talent_access_product_marketing_manager_games_continuing_education_availability",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Product Marketing Manager (Games): Continuing Education Availability",
+      "order": 38,
+      "guidance": "Track workshops, bootcamps, and communities that keep product marketing manager (games) skills current."
+    },
+    {
+      "id": "daemon_games_talent_access_product_marketing_manager_games_hiring_velocity",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Product Marketing Manager (Games): Hiring Velocity",
+      "order": 39,
+      "guidance": "Estimate typical time-to-fill for product marketing manager (games) roles in the metro."
+    },
+    {
+      "id": "daemon_games_talent_access_product_marketing_manager_games_compensation_benchmark",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Product Marketing Manager (Games): Compensation Benchmark",
+      "order": 40,
+      "guidance": "Benchmark median total compensation for product marketing manager (games) talent locally."
+    },
+    {
+      "id": "daemon_games_talent_access_product_marketing_manager_games_language",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Product Marketing Manager (Games): Language",
+      "order": 41,
+      "guidance": "Note common language proficiency and any bilingual requirements among product marketing manager (games) candidates."
+    },
+    {
+      "id": "daemon_games_talent_access_product_marketing_manager_games_remote_expectations",
+      "categoryId": "daemon_games_talent_access",
+      "name": "Product Marketing Manager (Games): Remote Expectations",
+      "order": 42,
+      "guidance": "Capture willingness and norms for hybrid or remote product marketing manager (games) roles."
     }
   ]
 }
