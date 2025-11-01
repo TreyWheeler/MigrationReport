@@ -12,6 +12,15 @@ import {
   setupHiddenKeysHotkey,
   initUiPreferences,
 } from './src/storage/preferences.js';
+import { fetchJsonAsset, loadMain as loadMainData, sortByOrderThenName } from './src/data/api.js';
+import { ensureKeyGuidanceLoaded, makeKeyGuidanceIndex } from './src/data/guidance.js';
+import {
+  toggleInformationalOverride,
+  getInformationalState,
+  isInformationalKey,
+} from './src/data/informationalOverrides.js';
+import { fetchCountry, clearCountryCache } from './src/data/reports.js';
+import { computeCountryScoresForSorting, computeRoundedMetrics, buildNodeComparator } from './src/data/scoring.js';
 
 function getParentFileForNode(node) {
   if (!node || typeof node !== 'object') return null;
@@ -81,148 +90,6 @@ function updateCollapseCountriesButton(hasExpandable) {
   const hideCollapse = !!appState.showCitiesOnly;
   collapseBtn.hidden = hideCollapse;
   collapseBtn.disabled = hideCollapse || !canExpand;
-}
-
-async function fetchJsonAsset(path) {
-  const response = await fetch(path);
-  if (!response.ok) {
-    throw new Error(`Failed to load ${path}: ${response.status} ${response.statusText}`);
-  }
-  return response.json();
-}
-
-function sortByOrderThenName(items, orderKey, nameKey) {
-  const arr = Array.isArray(items) ? items.slice() : [];
-  arr.sort((a, b) => {
-    const aOrder = typeof a?.[orderKey] === 'number' ? a[orderKey] : Number.MAX_SAFE_INTEGER;
-    const bOrder = typeof b?.[orderKey] === 'number' ? b[orderKey] : Number.MAX_SAFE_INTEGER;
-    if (aOrder !== bOrder) return aOrder - bOrder;
-    const aName = typeof a?.[nameKey] === 'string' ? a[nameKey] : '';
-    const bName = typeof b?.[nameKey] === 'string' ? b[nameKey] : '';
-    return aName.localeCompare(bName, undefined, { sensitivity: 'base' });
-  });
-  return arr;
-}
-
-function coerceInformationalFlag(value) {
-  if (typeof value === 'string') {
-    const norm = value.trim().toLowerCase();
-    return norm === 'true' || norm === 'yes' || norm === '1';
-  }
-  return value === true;
-}
-
-function normalizeInformationalFlags(mainData) {
-  if (!mainData || !Array.isArray(mainData.Categories)) return;
-  mainData.Categories.forEach(category => {
-    if (!category || !Array.isArray(category.Keys)) return;
-    category.Keys.forEach(keyObj => {
-      if (!keyObj || typeof keyObj !== 'object') return;
-      const raw = (typeof keyObj.Informational !== 'undefined') ? keyObj.Informational : keyObj.informational;
-      keyObj.Informational = coerceInformationalFlag(raw);
-    });
-  });
-}
-
-function normalizeRatingGuideList(list) {
-  const arr = Array.isArray(list) ? list.slice() : [];
-  const normalized = arr
-    .map(entry => {
-      const rating = Number(entry?.rating);
-      const guidance = typeof entry?.guidance === 'string' ? entry.guidance.trim() : '';
-      return { rating: isFinite(rating) ? rating : NaN, guidance };
-    })
-    .filter(entry => isFinite(entry.rating) && entry.guidance.length > 0);
-  normalized.sort((a, b) => {
-    if (a.rating !== b.rating) return b.rating - a.rating;
-    return a.guidance.localeCompare(b.guidance, undefined, { sensitivity: 'base' });
-  });
-  return normalized;
-}
-
-function enrichKeyGuidance(mainData, ratingGuides = []) {
-  const ratingIndex = new Map();
-  if (Array.isArray(ratingGuides)) {
-    ratingGuides.forEach(entry => {
-      if (!entry || typeof entry.key !== 'string') return;
-      const keyName = entry.key;
-      ratingIndex.set(keyName, {
-        key: keyName,
-        ratingGuide: normalizeRatingGuideList(entry.ratingGuide),
-        considerations: typeof entry.considerations === 'string' ? entry.considerations.trim() : '',
-      });
-    });
-    if (ratingGuides.length > 0) {
-      appState.keyGuidanceHasRatings = true;
-    }
-  }
-
-  const map = new Map();
-  const categories = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
-  categories.forEach(category => {
-    if (!category || !Array.isArray(category.Keys)) return;
-    category.Keys.forEach(keyObj => {
-      if (!keyObj || typeof keyObj !== 'object') return;
-      const keyName = typeof keyObj.Key === 'string' ? keyObj.Key : '';
-      if (typeof keyObj.Guidance !== 'string' && typeof keyObj.guidance === 'string') {
-        keyObj.Guidance = keyObj.guidance;
-      }
-      const ratingEntry = keyName ? ratingIndex.get(keyName) : undefined;
-      const ratingGuide = ratingEntry ? ratingEntry.ratingGuide : normalizeRatingGuideList(keyObj.RatingGuide);
-      const considerations = ratingEntry && ratingEntry.considerations
-        ? ratingEntry.considerations
-        : (typeof keyObj.RatingConsiderations === 'string' ? keyObj.RatingConsiderations : '');
-      keyObj.RatingGuide = ratingGuide;
-      if (considerations) {
-        keyObj.RatingConsiderations = considerations;
-      } else {
-        delete keyObj.RatingConsiderations;
-      }
-      const record = {
-        key: keyName,
-        guidance: typeof keyObj.Guidance === 'string' ? keyObj.Guidance.trim() : '',
-        ratingGuide,
-        considerations,
-      };
-      if (keyName) {
-        map.set(keyName, record);
-      }
-    });
-  });
-
-  ratingIndex.forEach((value, key) => {
-    if (!map.has(key)) {
-      map.set(key, {
-        key,
-        guidance: '',
-        ratingGuide: value.ratingGuide,
-        considerations: value.considerations,
-      });
-    }
-  });
-
-  appState.keyGuidanceIndex = map;
-  return map;
-}
-
-async function ensureKeyGuidanceLoaded(mainData) {
-  if (!mainData) return;
-  const hasIndex = appState.keyGuidanceIndex instanceof Map && appState.keyGuidanceIndex.size > 0;
-  if (!hasIndex) {
-    enrichKeyGuidance(mainData);
-  }
-  if (appState.keyGuidanceHasRatings) {
-    return;
-  }
-  try {
-    const response = await fetchJsonAsset('data/rating_guides.json');
-    const guides = Array.isArray(response?.ratingGuides) ? response.ratingGuides : [];
-    if (guides.length > 0) {
-      enrichKeyGuidance(mainData, guides);
-    }
-  } catch (err) {
-    console.warn('Failed to load rating guides', err);
-  }
 }
 
 function getKeyGuidanceDetails(keyObj) {
@@ -352,179 +219,18 @@ function makeKeyGuidanceButton(categoryName, keyObj) {
   return btn;
 }
 
-function canonicalizeKeySegment(value) {
-  try {
-    let text = typeof value === 'string' ? value : '';
-    if (text.normalize) text = text.normalize('NFKC');
-    text = text.replace(/[°�?]/g, '');
-    text = text.toLowerCase();
-    text = text.replace(/\s+/g, ' ').trim();
-    return text;
-  } catch {
-    return String(value || '');
-  }
-}
-
-function getInformationalStorageKey(categoryName, keyName) {
-  const cat = canonicalizeKeySegment(categoryName);
-  const key = canonicalizeKeySegment(keyName);
-  return `${cat}|||${key}`;
-}
-
-function getInformationalOverrides() {
-  const overrides = getStored('informationalOverrides', {});
-  return (overrides && typeof overrides === 'object') ? overrides : {};
-}
-
-function setInformationalOverrides(overrides) {
-  const safe = (overrides && typeof overrides === 'object') ? overrides : {};
-  setStored('informationalOverrides', safe);
-}
-
-function getInformationalOverride(categoryName, keyName) {
-  if (!categoryName || !keyName) return undefined;
-  const overrides = getInformationalOverrides();
-  const storageKey = getInformationalStorageKey(categoryName, keyName);
-  if (Object.prototype.hasOwnProperty.call(overrides, storageKey)) {
-    return !!overrides[storageKey];
-  }
-  return undefined;
-}
-
-function setInformationalOverride(categoryName, keyName, value) {
-  if (!categoryName || !keyName) return;
-  const overrides = { ...getInformationalOverrides() };
-  const storageKey = getInformationalStorageKey(categoryName, keyName);
-  if (typeof value === 'boolean') {
-    overrides[storageKey] = value;
-  } else {
-    delete overrides[storageKey];
-  }
-  setInformationalOverrides(overrides);
-}
-
-function toggleInformationalOverride(categoryName, keyObj) {
-  if (!categoryName || !keyObj) return;
-  const keyName = keyObj.Key;
-  const base = !!keyObj.Informational;
-  const current = getInformationalOverride(categoryName, keyName);
-  const effective = (typeof current === 'boolean') ? current : base;
-  const next = !effective;
-  if (next === base) {
-    setInformationalOverride(categoryName, keyName);
-  } else {
-    setInformationalOverride(categoryName, keyName, next);
-  }
-}
-
-function getInformationalState(categoryName, keyObj) {
-  const base = !!(keyObj && keyObj.Informational);
-  const override = keyObj ? getInformationalOverride(categoryName, keyObj.Key) : undefined;
-  const effective = (typeof override === 'boolean') ? override : base;
-  return { base, override, effective };
-}
-
-function isInformationalKey(keyObj, categoryName) {
-  if (!keyObj) return false;
-  const override = getInformationalOverride(categoryName, keyObj.Key);
-  if (typeof override === 'boolean') return override;
-  return !!keyObj.Informational;
-}
-
-async function loadRelationalMain() {
-  const [categoriesRaw, keysRaw, countriesRaw, citiesRaw, peopleRaw, weightsRaw, ratingGuidesRaw] = await Promise.all([
-    fetchJsonAsset('data/categories.json'),
-    fetchJsonAsset('data/category_keys.json'),
-    fetchJsonAsset('data/countries.json'),
-    fetchJsonAsset('data/cities.json'),
-    fetchJsonAsset('data/people.json'),
-    fetchJsonAsset('data/person_weights.json'),
-    fetchJsonAsset('data/rating_guides.json').catch(() => null),
-  ]);
-
-  const categories = sortByOrderThenName(categoriesRaw?.categories, 'order', 'name');
-  const keys = Array.isArray(keysRaw?.categoryKeys) ? keysRaw.categoryKeys.slice() : [];
-  const keysByCategory = new Map();
-  keys.forEach(key => {
-    if (!key || !key.categoryId) return;
-    if (!keysByCategory.has(key.categoryId)) keysByCategory.set(key.categoryId, []);
-    keysByCategory.get(key.categoryId).push(key);
-  });
-  const categoriesResult = categories.map(cat => ({
-    Category: cat.name,
-    Keys: sortByOrderThenName(keysByCategory.get(cat.id) || [], 'order', 'name').map(key => ({
-      Key: key.name,
-      Guidance: key.guidance,
-      Informational: coerceInformationalFlag(key.informational),
-      Hidden: !!key.hidden,
-    })),
-  }));
-
-  const cities = Array.isArray(citiesRaw?.cities) ? citiesRaw.cities.slice() : [];
-  const citiesByCountry = new Map();
-  cities.forEach(city => {
-    if (!city || !city.countryId) return;
-    if (!citiesByCountry.has(city.countryId)) citiesByCountry.set(city.countryId, []);
-    citiesByCountry.get(city.countryId).push(city);
-  });
-
-  const countries = Array.isArray(countriesRaw?.countries) ? countriesRaw.countries.slice() : [];
-  const countriesResult = countries.map(country => ({
-    name: country.name,
-    file: country.report,
-    cities: (citiesByCountry.get(country.id) || []).map(city => ({
-      name: city.name,
-      file: city.report,
-    })).sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' })),
-  }));
-
-  const categoryNameById = new Map();
-  categories.forEach(cat => { categoryNameById.set(cat.id, cat.name); });
-  const weights = Array.isArray(weightsRaw?.personWeights) ? weightsRaw.personWeights.slice() : [];
-  const weightsByPerson = new Map();
-  weights.forEach(entry => {
-    if (!entry || !entry.personId) return;
-    if (!weightsByPerson.has(entry.personId)) weightsByPerson.set(entry.personId, []);
-    weightsByPerson.get(entry.personId).push(entry);
-  });
-
-  const people = Array.isArray(peopleRaw?.people) ? peopleRaw.people.slice() : [];
-  const peopleResult = people.map(person => {
-    const weightEntries = weightsByPerson.get(person.id) || [];
-    const weightsObj = {};
-    weightEntries.forEach(entry => {
-      const catName = categoryNameById.get(entry.categoryId);
-      if (!catName) return;
-      weightsObj[catName] = entry.weight;
-    });
-    return { name: person.name, weights: weightsObj };
-  });
-
-  const result = { Categories: categoriesResult, Countries: countriesResult, People: peopleResult };
-  normalizeInformationalFlags(result);
-  const ratingGuides = Array.isArray(ratingGuidesRaw?.ratingGuides) ? ratingGuidesRaw.ratingGuides : [];
-  enrichKeyGuidance(result, ratingGuides);
-  return result;
-}
-
 async function loadMain() {
-  let mainData = null;
-  try {
-    mainData = await loadRelationalMain();
-  } catch (err) {
-    try {
-      const response = await fetch('main.json');
-      if (!response.ok) {
-        throw new Error(`Legacy main.json unavailable: ${response.status} ${response.statusText}`);
-      }
-      mainData = await response.json();
-    } catch (fallbackErr) {
-      console.error('Failed to load data files', err, fallbackErr);
-      throw err;
-    }
-  }
-  normalizeInformationalFlags(mainData);
-  await ensureKeyGuidanceLoaded(mainData);
+  const { mainData, ratingGuides } = await loadMainData();
+  const initialGuidance = makeKeyGuidanceIndex(mainData, ratingGuides);
+  appState.keyGuidanceIndex = initialGuidance.index;
+  appState.keyGuidanceHasRatings = initialGuidance.hasRatings;
+  const ensuredGuidance = await ensureKeyGuidanceLoaded(mainData, {
+    currentIndex: appState.keyGuidanceIndex,
+    hasRatings: appState.keyGuidanceHasRatings,
+    fetchGuides: () => fetchJsonAsset('data/rating_guides.json'),
+  });
+  appState.keyGuidanceIndex = ensuredGuidance.index;
+  appState.keyGuidanceHasRatings = ensuredGuidance.hasRatings;
   const listEl = document.getElementById('countryList');
   const notice = document.getElementById('notice');
   const collapseCountriesBtn = document.getElementById('collapseCountriesBtn');
@@ -606,10 +312,13 @@ async function loadMain() {
     });
     await Promise.all(allNodes.map(async node => {
       try {
-        const data = await fetchCountry(node.file, { parentFile: getParentFileForNode(node) });
+        const data = await fetchCountry(node.file, {
+          parentFile: getParentFileForNode(node),
+          resolveParentFile: resolveParentReportFile,
+        });
         if (data && data.iso && !node.iso) node.iso = String(data.iso);
         if (!node.metrics) {
-          node.metrics = computeRoundedMetrics(data, mainData);
+          node.metrics = computeRoundedMetrics(data, mainData, getEffectivePeople(mainData));
         }
       } catch {}
     }));
@@ -701,80 +410,14 @@ function setupCitiesOnlyToggle(mainData, listEl, notice) {
   });
 }
 
-// Compute scores used for sorting for a given country's data
-function computeCountryScoresForSorting(countryData, mainData, peopleList) {
-  const canonKey = (s) => {
-    try {
-      let t = typeof s === 'string' ? s : '';
-      if (t.normalize) t = t.normalize('NFKC');
-      t = t.replace(/[�??]/g, '');
-      t = t.toLowerCase();
-      t = t.replace(/\s+/g, ' ').trim();
-      return t;
-    } catch { return String(s || ''); }
-  };
-  // Per-category averages
-  const catAverages = [];
-  mainData.Categories.forEach(cat => {
-    const vals = [];
-    cat.Keys.forEach(k => {
-      if (isInformationalKey(k, cat.Category)) return;
-      const m = countryData.values.find(v => canonKey(v.key) === canonKey(k.Key));
-      const n = m ? Number(m.alignmentValue) : NaN;
-      if (isFinite(n) && n > 0) vals.push(n);
-    });
-    if (vals.length > 0) {
-      const avg = vals.reduce((a,b)=>a+b,0) / vals.length;
-      if (isFinite(avg)) catAverages.push(avg);
-    }
-  });
-  const overall = catAverages.length > 0 ? (catAverages.reduce((a,b)=>a+b,0) / catAverages.length) : NaN;
-
-  const personTotals = {};
-  const totalsArr = [];
-  if (Array.isArray(peopleList)) {
-    peopleList.forEach(person => {
-      if (!person || !person.weights) return;
-      let sum = 0; let any = false;
-      mainData.Categories.forEach(cat => {
-        const w = Number(person.weights[cat.Category]);
-        if (!isFinite(w)) return;
-        const vals = [];
-        cat.Keys.forEach(k => {
-          if (isInformationalKey(k, cat.Category)) return;
-          const m = countryData.values.find(v => canonKey(v.key) === canonKey(k.Key));
-          const n = m ? Number(m.alignmentValue) : NaN;
-          if (isFinite(n) && n > 0) vals.push(n);
-        });
-        if (vals.length > 0) {
-          const avg = vals.reduce((a,b)=>a+b,0) / vals.length;
-          if (isFinite(avg)) { sum += (avg * w); any = true; }
-        }
-      });
-      if (any) { personTotals[person.name] = sum; totalsArr.push(sum); }
-    });
-  }
-  const allAvg = totalsArr.length > 0 ? (totalsArr.reduce((a,b)=>a+b,0) / totalsArr.length) : NaN;
-  return { overall, personTotals, allAvg };
-}
-
-function computeRoundedMetrics(countryData, mainData) {
-  const m = computeCountryScoresForSorting(countryData, mainData, getEffectivePeople(mainData));
-  const round1 = (x) => isFinite(x) ? Number(x.toFixed(1)) : NaN;
-  const metrics = {
-    overall: round1(m.overall),
-    allAvg: round1(m.allAvg),
-    personTotals: {},
-  };
-  Object.keys(m.personTotals || {}).forEach(name => { metrics.personTotals[name] = round1(m.personTotals[name]); });
-  return metrics;
-}
-
 async function ensureReportMetrics(item, mainData) {
   if (item.metrics) return item.metrics;
-  const data = await fetchCountry(item.file, { parentFile: getParentFileForNode(item) });
+  const data = await fetchCountry(item.file, {
+    parentFile: getParentFileForNode(item),
+    resolveParentFile: resolveParentReportFile,
+  });
   if (data && data.iso && !item.iso) item.iso = String(data.iso);
-  const metrics = computeRoundedMetrics(data, mainData);
+  const metrics = computeRoundedMetrics(data, mainData, getEffectivePeople(mainData));
   item.metrics = metrics;
   return metrics;
 }
@@ -817,134 +460,10 @@ function colorForScore(value) {
   return 'forestgreen';
 }
 
-// Cache loaded country JSONs to avoid refetch
-const countryRawCache = new Map();
-const countryResolvedCache = new Map();
-
 function resolveParentReportFile(file, explicitParentFile) {
   if (explicitParentFile) return explicitParentFile;
   const node = findNodeByFile(file);
   return getParentFileForNode(node);
-}
-
-function canonicalizeKeyForInheritance(s) {
-  try {
-    let t = typeof s === 'string' ? s : '';
-    if (t.normalize) t = t.normalize('NFKC');
-    t = t.replace(/[°�?]/g, '');
-    t = t.toLowerCase();
-    t = t.replace(/\s+/g, ' ').trim();
-    return t;
-  } catch {
-    return String(s || '');
-  }
-}
-
-function cloneReportData(data) {
-  if (!data || typeof data !== 'object') return { values: [] };
-  const clone = { ...data };
-  if (Array.isArray(data.values)) {
-    clone.values = data.values.map(entry => (entry && typeof entry === 'object') ? { ...entry } : entry);
-  } else {
-    clone.values = [];
-  }
-  return clone;
-}
-
-function stripSameAsParentFlag(entry) {
-  if (!entry || typeof entry !== 'object') return entry;
-  if (!Object.prototype.hasOwnProperty.call(entry, 'sameAsParent')) {
-    return { ...entry };
-  }
-  const { sameAsParent, ...rest } = entry;
-  return { ...rest };
-}
-
-function mergeReportWithParent(childData, parentData) {
-  const parentValues = Array.isArray(parentData && parentData.values) ? parentData.values : [];
-  const parentMap = new Map();
-  parentValues.forEach(entry => {
-    if (!entry || typeof entry !== 'object') return;
-    const key = canonicalizeKeyForInheritance(entry.key);
-    parentMap.set(key, entry);
-  });
-
-  const mergedValues = Array.isArray(childData.values) ? childData.values.map(entry => {
-    if (!entry || typeof entry !== 'object') return entry;
-    const wantsParent = !!entry.sameAsParent;
-    const stripped = stripSameAsParentFlag(entry);
-    if (!wantsParent) return stripped;
-    const key = canonicalizeKeyForInheritance(entry.key);
-    if (!key || !parentMap.has(key)) return stripped;
-    const parentEntry = parentMap.get(key);
-    const merged = { ...parentEntry, ...stripped };
-    const parentHasScore = parentEntry && Object.prototype.hasOwnProperty.call(parentEntry, 'alignmentValue');
-    const childOverridesScore = Object.prototype.hasOwnProperty.call(stripped, 'alignmentValue');
-    if (parentHasScore && (!childOverridesScore || typeof stripped.alignmentValue === 'undefined')) {
-      merged.inheritedFromParent = true;
-    }
-    return merged;
-  }) : [];
-
-  const parentBase = parentData && typeof parentData === 'object' ? { ...parentData } : {};
-  const result = { ...parentBase, ...childData };
-  result.values = mergedValues;
-  return result;
-}
-
-async function loadRawCountry(file) {
-  if (countryRawCache.has(file)) return countryRawCache.get(file);
-  const candidates = [];
-  if (typeof file === 'string') {
-    candidates.push(file);
-    if (!file.includes('/')) candidates.push(`reports/${file}`);
-  }
-  let lastErr = null;
-  for (const path of candidates) {
-    try {
-      const response = await fetch(path);
-      if (!response.ok) continue;
-      const data = await response.json();
-      countryRawCache.set(file, data);
-      return data;
-    } catch (e) { lastErr = e; }
-  }
-  throw lastErr || new Error(`Failed to fetch country report: ${file}`);
-}
-
-async function applyParentInheritance(rawData, file, parentFile) {
-  const cloned = cloneReportData(rawData);
-  const values = Array.isArray(cloned.values) ? cloned.values : [];
-  const needsParent = values.some(entry => entry && entry.sameAsParent);
-  if (!needsParent) {
-    cloned.values = values.map(entry => (entry && typeof entry === 'object') ? stripSameAsParentFlag(entry) : entry);
-    return cloned;
-  }
-  let parentData = null;
-  if (parentFile && parentFile !== file) {
-    try {
-      parentData = await fetchCountry(parentFile);
-    } catch {}
-  }
-  return mergeReportWithParent(cloned, parentData);
-}
-
-async function fetchCountry(file, options = {}) {
-  const normalizedFile = typeof file === 'string' ? file : String(file || '');
-  const parentFile = resolveParentReportFile(normalizedFile, options.parentFile);
-  const cacheKey = parentFile ? `${normalizedFile}||${parentFile}` : normalizedFile;
-  if (countryResolvedCache.has(cacheKey)) {
-    return countryResolvedCache.get(cacheKey);
-  }
-  const raw = await loadRawCountry(normalizedFile);
-  const resolved = await applyParentInheritance(raw, normalizedFile, parentFile);
-  countryResolvedCache.set(cacheKey, resolved);
-  return resolved;
-}
-
-function clearCountryCache() {
-  countryRawCache.clear();
-  countryResolvedCache.clear();
 }
 
 function onSelectionChanged(mainData, notice) {
@@ -967,45 +486,6 @@ function getCurrentSortMode() {
   if (!sel) return 'alpha';
   const value = sel.value;
   return typeof value === 'string' && value ? value : 'alpha';
-}
-
-function compareByNameThenParent(a, b) {
-  const normalize = (val) => (typeof val === 'string') ? val : (val == null ? '' : String(val));
-  const nameA = normalize(a && a.name);
-  const nameB = normalize(b && b.name);
-  const primary = nameA.localeCompare(nameB, undefined, { sensitivity: 'base' });
-  if (primary !== 0) return primary;
-  const parentA = normalize(a && a.parentCountry && a.parentCountry.name);
-  const parentB = normalize(b && b.parentCountry && b.parentCountry.name);
-  return parentA.localeCompare(parentB, undefined, { sensitivity: 'base' });
-}
-
-function getNodeSortValue(item, mode, personName) {
-  if (!item || mode === 'alpha') return Number.NEGATIVE_INFINITY;
-  const metrics = item.metrics || {};
-  let raw = null;
-  if (mode === 'alignment') {
-    raw = metrics.overall;
-  } else if (mode === 'total') {
-    raw = metrics.allAvg;
-  } else if (personName) {
-    raw = metrics.personTotals ? metrics.personTotals[personName] : undefined;
-  }
-  const num = Number(raw);
-  return Number.isFinite(num) ? num : Number.NEGATIVE_INFINITY;
-}
-
-function buildNodeComparator(mode) {
-  const personName = (typeof mode === 'string' && mode.startsWith('person:')) ? mode.slice('person:'.length) : null;
-  if (mode === 'alpha') {
-    return (a, b) => compareByNameThenParent(a, b);
-  }
-  return (a, b) => {
-    const valA = getNodeSortValue(a, mode, personName);
-    const valB = getNodeSortValue(b, mode, personName);
-    if (valA === valB) return compareByNameThenParent(a, b);
-    return valB - valA;
-  };
 }
 
 function sortNodesForMode(nodes, mode) {
@@ -1253,7 +733,10 @@ function toggleSelectNode(item, notice) {
 
 async function loadCountry(file, mainData) {
   const node = findNodeByFile(file);
-  const countryData = await fetchCountry(file, { parentFile: getParentFileForNode(node) });
+  const countryData = await fetchCountry(file, {
+    parentFile: getParentFileForNode(node),
+    resolveParentFile: resolveParentReportFile,
+  });
   const reportDiv = document.getElementById('report');
   reportDiv.innerHTML = '';
 
@@ -1361,7 +844,10 @@ async function renderComparison(selectedList, mainData, options = {}) {
     name: s.name,
     file: s.file,
     node: s,
-    data: await fetchCountry(s.file, { parentFile: getParentFileForNode(s) })
+    data: await fetchCountry(s.file, {
+      parentFile: getParentFileForNode(s),
+      resolveParentFile: resolveParentReportFile,
+    })
   })));
 
   // Legend in header bar
