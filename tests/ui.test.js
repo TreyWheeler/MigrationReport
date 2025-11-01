@@ -1,5 +1,3 @@
-const path = require('path');
-
 const createDom = () => {
   document.body.innerHTML = `
     <div id="report"></div>
@@ -15,24 +13,24 @@ const createDom = () => {
 const flushPromises = () => new Promise(resolve => setTimeout(resolve, 0));
 
 describe('UI helpers', () => {
-  let exports;
+  let moduleExports;
 
-  beforeAll(() => {
+  beforeAll(async () => {
     createDom();
     window.__MIGRATION_REPORT_DISABLE_AUTOLOAD__ = true;
-    exports = require(path.resolve(__dirname, '..', 'script.js'));
+    moduleExports = await import('../src/main.js');
   });
 
   beforeEach(() => {
     createDom();
-    exports.appState.countries = [];
-    exports.appState.selected = [];
-    exports.appState.nodesByFile = new Map();
-    exports.appState.showCitiesOnly = false;
-    exports.appState.showHiddenKeys = false;
-    exports.appState.expandedState = {};
-    if (typeof exports.clearCountryCache === 'function') {
-      exports.clearCountryCache();
+    moduleExports.appState.countries = [];
+    moduleExports.appState.selected = [];
+    moduleExports.appState.nodesByFile = new Map();
+    moduleExports.appState.showCitiesOnly = false;
+    moduleExports.appState.showHiddenKeys = false;
+    moduleExports.appState.expandedState = {};
+    if (typeof moduleExports.clearCountryCache === 'function') {
+      moduleExports.clearCountryCache();
     }
     localStorage.clear();
     if (typeof fetch === 'function' && fetch.mockClear) {
@@ -44,7 +42,7 @@ describe('UI helpers', () => {
     const report = document.getElementById('report');
     expect(report.children.length).toBe(0);
 
-    exports.renderEmptyReportState();
+    moduleExports.renderEmptyReportState();
 
     expect(report.querySelector('.empty-state')).not.toBeNull();
     expect(report.textContent).toContain('Nothing selected yet');
@@ -53,9 +51,9 @@ describe('UI helpers', () => {
 
   test('updateCollapseCountriesButton hides button when only cities are shown', () => {
     const button = document.getElementById('collapseCountriesBtn');
-    exports.appState.showCitiesOnly = true;
+    moduleExports.appState.showCitiesOnly = true;
 
-    exports.updateCollapseCountriesButton(true);
+    moduleExports.updateCollapseCountriesButton(true);
 
     expect(button.hidden).toBe(true);
     expect(button.disabled).toBe(true);
@@ -63,9 +61,9 @@ describe('UI helpers', () => {
 
   test('updateCollapseCountriesButton enables button when expandable nodes exist', () => {
     const button = document.getElementById('collapseCountriesBtn');
-    exports.appState.showCitiesOnly = false;
+    moduleExports.appState.showCitiesOnly = false;
 
-    exports.updateCollapseCountriesButton(true);
+    moduleExports.updateCollapseCountriesButton(true);
 
     expect(button.hidden).toBe(false);
     expect(button.disabled).toBe(false);
@@ -78,7 +76,7 @@ describe('UI helpers', () => {
       { order: 1, name: 'Zulu' },
     ];
 
-    const sorted = exports.sortByOrderThenName(input, 'order', 'name');
+    const sorted = moduleExports.sortByOrderThenName(input, 'order', 'name');
 
     expect(sorted.map(item => item.name)).toEqual(['Zulu', 'Alpha', 'Bravo']);
     expect(input[0].name).toBe('Bravo');
@@ -91,19 +89,19 @@ describe('UI helpers', () => {
 
     localStorage.setItem('selectedCountries', JSON.stringify(['reports/a.json', 'reports/c.json']));
 
-    const restored = exports.loadSelectedFromStorage(nodes);
+    const restored = moduleExports.loadSelectedFromStorage(nodes);
 
     expect(restored).toHaveLength(1);
     expect(restored[0].name).toBe('A');
   });
 
   test('saveSelectedToStorage persists selection to localStorage', () => {
-    exports.appState.selected = [
+    moduleExports.appState.selected = [
       { file: 'reports/a.json' },
       { file: 'reports/b.json' },
     ];
 
-    exports.saveSelectedToStorage();
+    moduleExports.saveSelectedToStorage();
 
     expect(localStorage.getItem('selectedCountries')).toBe(JSON.stringify(['reports/a.json', 'reports/b.json']));
   });
@@ -130,7 +128,7 @@ describe('UI helpers', () => {
       { name: 'Persona', weights: { 'Test Category': 2 } },
     ];
 
-    const result = exports.computeCountryScoresForSorting(country, mainData, people);
+    const result = moduleExports.computeCountryScoresForSorting(country, mainData, people);
 
     expect(result.overall).toBeCloseTo(8);
     expect(result.personTotals.Persona).toBeCloseTo(16);
@@ -157,7 +155,7 @@ describe('UI helpers', () => {
 
     localStorage.setItem('informationalOverrides', JSON.stringify({ 'test category|||info key': false }));
 
-    const result = exports.computeCountryScoresForSorting(country, mainData, []);
+    const result = moduleExports.computeCountryScoresForSorting(country, mainData, []);
 
     expect(result.overall).toBeCloseTo(9);
   });
@@ -198,7 +196,7 @@ describe('UI helpers', () => {
       json: async () => reportData,
     }));
 
-    await exports.renderComparison([
+    await moduleExports.renderComparison([
       { name: 'Testland', file: 'test.json' },
     ], mainData, {});
 
@@ -258,7 +256,7 @@ describe('UI helpers', () => {
       json: async () => reportData,
     }));
 
-    await exports.renderComparison([
+    await moduleExports.renderComparison([
       { name: 'Testland', file: 'test.json' },
     ], mainData, {});
 
@@ -323,7 +321,7 @@ describe('UI helpers', () => {
       json: async () => reportData,
     }));
 
-    await exports.renderComparison([
+    await moduleExports.renderComparison([
       { name: 'Country A', file: 'reports/a.json', type: 'country' },
     ], mainData, {});
 
@@ -331,14 +329,14 @@ describe('UI helpers', () => {
     expect(hiddenRows.length).toBe(1);
     expect(document.body.classList.contains('show-hidden-keys')).toBe(false);
 
-    exports.toggleHiddenKeysVisibility();
+    moduleExports.toggleHiddenKeysVisibility();
     expect(document.body.classList.contains('show-hidden-keys')).toBe(true);
-    expect(exports.appState.showHiddenKeys).toBe(true);
+    expect(moduleExports.appState.showHiddenKeys).toBe(true);
     expect(localStorage.getItem('showHiddenKeys')).toBe('true');
 
-    exports.toggleHiddenKeysVisibility();
+    moduleExports.toggleHiddenKeysVisibility();
     expect(document.body.classList.contains('show-hidden-keys')).toBe(false);
-    expect(exports.appState.showHiddenKeys).toBe(false);
+    expect(moduleExports.appState.showHiddenKeys).toBe(false);
     expect(localStorage.getItem('showHiddenKeys')).toBe('false');
 
     fetch.mockReset();

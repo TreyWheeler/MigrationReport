@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   testEnvironment: 'jsdom',
   testMatch: ['**/?(*.)+(spec|test).[jt]s?(x)'],
   roots: ['<rootDir>/tests', '<rootDir>/data/tests'],
