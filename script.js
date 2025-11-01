@@ -30,40 +30,7 @@ import { openKeyGuidanceDialog, makeKeyGuidanceButton, openWeightsDialog, afterW
 import { getEffectivePeople } from './src/data/weights.js';
 import { makeScoreChip, makePersonScoreChip, makeInformationalPlaceholderChip } from './src/ui/components/chips.js';
 import { appendTextWithLinks } from './src/utils/dom.js';
-
-
-const loadingIndicatorEl = typeof document !== 'undefined'
-  ? document.getElementById('appLoadingIndicator')
-  : null;
-const loadingIndicatorLabelEl = loadingIndicatorEl
-  ? loadingIndicatorEl.querySelector('.app-loading__label')
-  : null;
-
-function showLoadingIndicator(message = 'Loading report data…') {
-  if (!loadingIndicatorEl) return;
-  loadingIndicatorEl.classList.remove('app-loading--hidden', 'app-loading--error');
-  loadingIndicatorEl.removeAttribute('aria-hidden');
-  if (loadingIndicatorLabelEl && message) {
-    loadingIndicatorLabelEl.textContent = message;
-  }
-}
-
-function showLoadingError(message = 'We were unable to load the Migration Report.') {
-  if (!loadingIndicatorEl) return;
-  loadingIndicatorEl.classList.remove('app-loading--hidden');
-  loadingIndicatorEl.classList.add('app-loading--error');
-  loadingIndicatorEl.removeAttribute('aria-hidden');
-  if (loadingIndicatorLabelEl && message) {
-    loadingIndicatorLabelEl.textContent = message;
-  }
-}
-
-function hideLoadingIndicator() {
-  if (!loadingIndicatorEl) return;
-  loadingIndicatorEl.classList.add('app-loading--hidden');
-  loadingIndicatorEl.setAttribute('aria-hidden', 'true');
-}
-
+import { showLoadingIndicator, hideLoadingIndicator, showLoadingError } from './src/ui/loadingIndicator.js';
 
 async function loadMain() {
   showLoadingIndicator();
