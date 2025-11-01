@@ -1,70 +1,49 @@
 # SOP-Add New Report
 
-This SOP is optimized for LLM agents that need to refresh an existing country report so it better reflects the family’s priorities. Follow the sequence exactly—each step is designed to minimize back-and-forth commands while maximizing scoring accuracy.
+Use this SOP when you need to create a brand-new country or city report under `reports/`. If you are refreshing an existing report, follow the [SOP-Update Report](SOP-Update%20Report) instead.
 
-## 0. Load Context Once
-1. Open `family_profile.json` to anchor every judgement in the household’s priorities, deal-breakers, and weighting (`evaluation_weights_0_to_5`).
-2. Review `data/DATA_DICTIONARY.md` so you understand how categories, keys, countries, and cities relate. It documents every table in `data/` and keeps field names consistent.
-3. Use the PowerShell helper scripts to pull the authoritative checklists instead of hand-parsing JSON:
-   - `pwsh scripts/powershell/Categories_GET.ps1 -AsJson` lists every category with its order.
-   - `pwsh scripts/powershell/CategoryKeys_GET.ps1 -AsJson` (optionally scoped with `-CategoryIds`) enumerates every `Key` grouped under its Category.
-   - For city work, run `pwsh scripts/powershell/Countries_GET.ps1 -AsJson` and `pwsh scripts/powershell/Cities_GET.ps1 -CountryIds '<countryId>' -AsJson` to confirm the parent linkage.
-4. Open `data/rating_guides.json` and locate the section for each `Key`. This file defines what every score from 1–10 should mean; use it to calibrate your revisions.
-5. Open the target country file inside `reports/` (e.g., `reports/portugal_report.json`). For city work, open the specific city file (e.g., `reports/germany_munich_report.json`) alongside the parent so you can mirror structure and tone.
+## 0. Align on Purpose and Scope
+1. Read `family_profile.json` to understand the household’s priorities, deal-breakers, and weighting (`evaluation_weights_0_to_5`).
+2. Review `data/DATA_DICTIONARY.md` to confirm how countries, cities, categories, and keys connect.
+3. Load reference data with the PowerShell helpers:
+   - `pwsh scripts/powershell/Categories_GET.ps1 -AsJson`
+   - `pwsh scripts/powershell/CategoryKeys_GET.ps1 -AsJson`
+   - `pwsh scripts/powershell/Countries_GET.ps1 -AsJson`
+   - `pwsh scripts/powershell/Cities_GET.ps1 -AsJson`
+4. Identify whether you are creating a country report or a city report (with a parent `countryId`). Note the canonical `id` from the GET outputs.
 
-> **Do not** move forward until you have all four files loaded. They are the only sources you need for the update.
+## 1. Prepare Metadata Records
+1. Confirm the country or city already exists in the relational tables. If not, insert it:
+   - Countries: `pwsh scripts/powershell/Countries_INSERT.ps1 -Records @(@{ id = '<countryId>'; name = '<Display Name>'; report = 'reports/<file>.json' })`
+   - Cities: `pwsh scripts/powershell/Cities_INSERT.ps1 -Records @(@{ id = '<cityId>'; countryId = '<countryId>'; name = '<Display Name>'; report = 'reports/<country>_<city>_report.json' })`
+2. When linking a new city, double-check that the parent country already references the correct report path. Use `*_UPDATE.ps1` variants if you need to adjust existing records instead of editing JSON manually.
 
-## 1. Build an Update Worksheet
-1. Create a working table (mentally or in notes) that lists every `Key` from `data/category_keys.json` (grouped by Category from `data/categories.json`).
-2. For each `Key`, note the existing `alignmentValue` and `alignmentText` from the country report. This creates a baseline you can audit against.
-3. Flag keys whose guidance in `data/rating_guides.json` does not currently align with the existing score or explanation.
+## 2. Create the Report Shell
+1. Choose a filename that follows the established convention: `reports/<country>_report.json` for countries or `reports/<country>_<city>_report.json` for cities.
+2. Seed the file with the minimal structure:
+   ```json
+   {
+     "version": 2,
+     "iso": "<two-letter code for countries or parent ISO for cities>",
+     "values": []
+   }
+   ```
+3. Mirror any additional top-level fields used in comparable reports (currently just `version`, `iso`, and `values`).
 
-## 2. Re-Evaluate Each Key
-Perform the following loop for every `Key` (use the worksheet order to avoid skipping anything):
+## 3. Populate Evaluation Entries
+1. Build a worksheet listing every key from `data/category_keys.json`, grouped by category.
+2. For each key, gather relevant evidence for the new location (policy data, cost-of-living indices, etc.).
+3. Follow Sections 2–4 of the [SOP-Update Report](SOP-Update%20Report) to assign `alignmentValue` scores and craft `alignmentText` justifications for the new report. Because this is an initial creation, you will add new objects to the `values` array for every key.
+4. For city reports where a key mirrors the parent country exactly, set `"sameAsParent": true` instead of duplicating text. Otherwise, include a city-specific narrative.
 
-1. **Interpret the rating guide.** Read the 1–10 descriptions for the `Key`. Identify the two closest ratings that bracket the country’s real situation; interpolate if necessary.
-2. **Cross-check with the family profile.** Confirm the new score honors the family’s needs (e.g., progressive politics, childcare, entrepreneurship). If the profile elevates a topic, lean conservative unless evidence is very strong.
-3. **Adjust the score.** Set `alignmentValue` to the rating that best fits both the guide and the family’s priorities. Make the call on the number before you touch the write-up—if the prior value still fits, note that in your worksheet; if it does not, update the number even if the text will need heavier editing to match. Use integers 1–10; use `0` only when you truly have insufficient data (leave the text empty in that case). Avoid `-1` unless you are intentionally marking “Unknown”.
-4. **Rewrite the justification.** Craft 1–2 concise sentences for `alignmentText` that:
-   - Reference the family’s needs (“polyamory-positive communities”, “quality public schools”, etc.).
-   - Cite concrete factors or trade-offs. Mention sourcing context in plain language; add short Markdown links only when necessary.
-   - Make it clear why the chosen score fits the guide (e.g., “Transit is efficient but rural gaps keep it at a 7 per the guide’s caution tier”).
-   - Keep the justification in plain language—describe the evidence and impact without name-checking the rating guide explicitly.
-5. **Document gaps.** If reliable data is missing, set `alignmentValue` to `0` and `alignmentText` to `""`. Call this out in your worksheet so a future pass can research it.
+## 4. Validate the Result
+1. Confirm the `values` array contains every key exactly once (except entries that intentionally use `sameAsParent`).
+2. Run `node -e "JSON.parse(fs.readFileSync('reports/<file>.json','utf8'))"` to verify JSON validity.
+3. Reread the entire report to ensure the tone is evidence-driven and aligned with the family profile and rating guides.
 
-## 3. Apply Updates to the JSON
-1. Work inside the existing country JSON file. Preserve the `iso` value and the array order (order is flexible but staying close to the original minimizes diff noise).
-2. For every `Key` in your worksheet, update the corresponding object’s `alignmentValue` and `alignmentText`.
-3. Add a top-level `"version": 2` field directly under the opening `{`. This marks the country as refreshed; if a `version` already exists, overwrite it with `2`.
-4. Ensure every `Key` from `data/category_keys.json` still appears exactly once. Do **not** add or remove keys.
-5. When a city's situation mirrors the parent country for a key, set `"sameAsParent": true` on that city entry (keep the `key` plus any clarifying notes). The tooling will automatically inherit the parent's `alignmentValue` and `alignmentText`, so only add fresh prose when the city genuinely diverges.
-6. Keep valid JSON formatting (commas, quotes, etc.).
+## 5. Finalize and Document
+1. Re-run the relevant `*_GET.ps1` scripts to confirm the new report path is registered in the relational tables.
+2. Review your diff to ensure only the new report file and related metadata records were added or changed.
+3. Summarize the location, key evidence sources, and any data gaps in your commit message or PR description.
 
-Example structure after updates:
-```json
-{
-  "version": 2,
-  "iso": "XX",
-  "values": [
-    { "key": "Air Quality", "alignmentText": "…", "alignmentValue": 6 },
-    { "key": "Public Transportation", "alignmentText": "…", "alignmentValue": 7 }
-  ]
-}
-```
-
-## 4. Spot-Check Before Saving
-1. Re-read the entire file to confirm tone is evidence-driven and tailored to the family profile.
-2. Verify that every `alignmentValue` is compatible with its rating guide narrative.
-3. Confirm no `alignmentText` contradicts the family’s stated deal-breakers or weights.
-4. Validate JSON syntax (e.g., by using a formatter or running `node -e "JSON.parse(fs.readFileSync('reports/<file>.json','utf8'))"`).
-
-## 5. Update Metadata (if needed)
-- `data/countries.json` already lists the country. Only adjust it if the report path changed (it shouldn’t in an update). Use `pwsh scripts/powershell/Countries_UPDATE.ps1 -Records @(@{ id = '<countryId>'; report = '<reports/filename>' })` instead of editing the JSON manually.
-- When you add a city, insert or amend the record via `pwsh scripts/powershell/Cities_INSERT.ps1` or `Cities_UPDATE.ps1` with the correct `countryId` and `report` path. Keep the city’s report file in `reports/` with a clear `{country}_{city}_report.json` naming convention. Cities inherit the same evaluation keys as countries, so the JSON structure should mirror the national reports.
-
-## 6. Final Review for Commit Readiness
-1. Ensure your diff shows only the intended score/text changes plus the `version` field.
-2. Summarize the major rating shifts in your commit message so reviewers understand what improved.
-3. Run any available linting or formatting tools if the repository provides them (none are required by default).
-
-When you finish these steps, the country report will be aligned to the new rating guides, grounded in the family profile, and clearly marked as a version 2 update.
+> After completing this SOP, maintain the report using the [SOP-Update Report](SOP-Update%20Report) whenever new data arrives or rating guides change.
