@@ -285,6 +285,57 @@ describe('UI helpers', () => {
     fetch.mockReset();
   });
 
+  test('clicking remove button deselects report', async () => {
+    document.body.innerHTML = [
+      '<div id="report"></div>',
+      '<div id="legendMount"></div>',
+      '<div id="notice"></div>',
+      '<div id="countryList"></div>',
+      '<button id="collapseCountriesBtn"></button>',
+      '<button id="collapseCategoriesBtn"></button>',
+    ].join('');
+
+    const mainData = {
+      Categories: [
+        {
+          Category: 'Test Category',
+          Keys: [
+            { Key: 'Example Key', Informational: false },
+          ],
+        },
+      ],
+      People: [],
+    };
+
+    const reportData = {
+      iso: 'tc',
+      values: [
+        { key: 'Example Key', alignmentValue: 7, alignmentText: 'Sample text.' },
+      ],
+    };
+
+    fetch.mockImplementation(async () => ({
+      ok: true,
+      json: async () => reportData,
+    }));
+
+    const selectedNode = { name: 'Testland', file: 'test.json' };
+    moduleExports.appState.selected = [selectedNode];
+    moduleExports.appState.nodesByFile = new Map([[selectedNode.file, selectedNode]]);
+
+    await moduleExports.renderComparison(moduleExports.appState.selected, mainData);
+    await flushPromises();
+
+    const removeBtn = document.querySelector('.country-header-remove');
+    expect(removeBtn).not.toBeNull();
+
+    removeBtn.click();
+    await flushPromises();
+
+    expect(moduleExports.appState.selected).toHaveLength(0);
+    fetch.mockReset();
+  });
+
   test('hidden keys render and respond to visibility toggles', async () => {
     document.body.innerHTML = [
       '<div id="report"></div>',

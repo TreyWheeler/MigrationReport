@@ -271,11 +271,6 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       removeBtn.setAttribute('aria-label', `Deselect ${ds.name}`);
       removeBtn.dataset.file = ds.file || '';
       removeBtn.textContent = '×';
-      removeBtn.addEventListener('click', ev => {
-        ev.preventDefault();
-        ev.stopPropagation();
-        handleDeselect(ds.node || ds.file || '');
-      });
       inner.appendChild(removeBtn);
 
       th.appendChild(inner);
@@ -683,6 +678,8 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       const buttons = root.querySelectorAll('.country-header-remove');
       buttons.forEach(btn => {
         if (!(btn instanceof HTMLButtonElement)) return;
+        if (btn.dataset.removeHandlerAttached === 'true') return;
+        btn.dataset.removeHandlerAttached = 'true';
         btn.addEventListener('click', ev => {
           ev.preventDefault();
           ev.stopPropagation();
