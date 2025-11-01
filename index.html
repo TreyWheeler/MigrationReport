@@ -35,6 +35,16 @@
       background: color-mix(in srgb, var(--md-color-background) 65%, rgba(0,0,0,0.55));
       color: var(--md-color-on-surface);
       z-index: 9999;
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+      transition: opacity 160ms ease, visibility 0s linear 160ms;
+    }
+
+    .app-loading--visible {
+      opacity: 1;
+      pointer-events: auto;
+      visibility: visible;
       transition: opacity 160ms ease;
     }
 
@@ -71,6 +81,10 @@
     }
 
     @media (prefers-reduced-motion: reduce) {
+      .app-loading,
+      .app-loading--visible {
+        transition: none;
+      }
       .app-loading__spinner { animation-duration: 2s; }
     }
 
@@ -806,7 +820,7 @@
   </style>
 </head>
 <body>
-  <div id="appLoadingIndicator" class="app-loading" role="status" aria-live="polite">
+  <div id="appLoadingIndicator" class="app-loading app-loading--visible" role="status" aria-live="polite">
     <div class="app-loading__spinner" aria-hidden="true"></div>
     <div class="app-loading__label">Loading report data…</div>
   </div>
