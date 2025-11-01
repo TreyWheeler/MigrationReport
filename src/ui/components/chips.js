@@ -10,17 +10,23 @@ export function getScoreBucket(score) {
   return { key: 'green', label: '8-10' };
 }
 
-export function makeScoreChip(score) {
+export function makeScoreChip(score, options = {}) {
   const span = document.createElement('span');
-  const bucket = getScoreBucket(score);
-  span.className = `score-chip bucket-${bucket.key}`;
+  const opts = options && typeof options === 'object' ? options : {};
+  const bucket = opts.bucketOverride || getScoreBucket(score);
+  const bucketKey = bucket && bucket.key ? bucket.key : 'muted';
+  span.className = `score-chip bucket-${bucketKey}`;
   const n = Number(score);
   if (!isFinite(n) || n <= 0) {
     span.textContent = '-';
     span.title = (n === -1) ? 'Unknown' : 'No data';
   } else {
     span.textContent = String(n);
-    span.title = `Score: ${n} - ${bucket.label}`;
+    const labelPrefix = typeof opts.labelPrefix === 'string' && opts.labelPrefix.trim()
+      ? opts.labelPrefix.trim()
+      : 'Score';
+    const bucketLabel = bucket && bucket.label ? bucket.label : '';
+    span.title = bucketLabel ? `${labelPrefix}: ${n} - ${bucketLabel}` : `${labelPrefix}: ${n}`;
   }
   return span;
 }
