@@ -1,4 +1,5 @@
 import { isInformationalKey } from './informationalOverrides.js';
+import { appState } from '../state/appState.js';
 
 function canonicalizeKey(value) {
   try {
@@ -13,10 +14,21 @@ function canonicalizeKey(value) {
   }
 }
 
-function computeCountryScoresForSorting(countryData, mainData, peopleList = []) {
+function normalizeCategoryName(value) {
+  return typeof value === 'string' ? value.trim().toLowerCase() : '';
+}
+
+function computeCountryScoresForSorting(countryData, mainData, peopleList = [], options = {}) {
   const values = Array.isArray(countryData?.values) ? countryData.values : [];
   const canon = (s) => canonicalizeKey(s);
-  const categories = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
+  const categoriesRaw = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
+  const focusName = typeof options?.focusCategory === 'string' && options.focusCategory
+    ? options.focusCategory
+    : appState.focusedCategory;
+  const normalizedFocus = normalizeCategoryName(focusName);
+  const categories = normalizedFocus
+    ? categoriesRaw.filter(cat => normalizeCategoryName(cat?.Category) === normalizedFocus)
+    : categoriesRaw;
 
   const catAverages = [];
   categories.forEach(cat => {

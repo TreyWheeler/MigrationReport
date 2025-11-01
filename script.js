@@ -60,6 +60,10 @@ async function loadMain() {
     appState.showHiddenKeys = !!getStored('showHiddenKeys', false);
     applyHiddenKeysVisibility(appState.showHiddenKeys);
     setupHiddenKeysHotkey();
+    const storedFocusRaw = getStored('focusedCategory', null);
+    appState.focusedCategory = (typeof storedFocusRaw === 'string' && storedFocusRaw.trim())
+      ? storedFocusRaw.trim()
+      : null;
     const citiesOnlyToggle = document.getElementById('citiesOnlyToggle');
     if (citiesOnlyToggle) {
       citiesOnlyToggle.checked = appState.showCitiesOnly;
