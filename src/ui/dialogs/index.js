@@ -1,7 +1,12 @@
 import { appState, keyGuidanceDialogState, resetKeyActionsMenuState } from '../../state/appState.js';
 import { applyCountrySort } from '../sidebar.js';
 import { onSelectionChanged } from '../reportTable.js';
-import { showLoadingIndicator, hideLoadingIndicator, showLoadingError } from '../loadingIndicator.js';
+import {
+  showLoadingIndicator,
+  hideLoadingIndicator,
+  showLoadingError,
+  waitForLoadingIndicatorFrame,
+} from '../loadingIndicator.js';
 import {
   getWeightsOverrides,
   setWeightsOverrides,
@@ -211,28 +216,17 @@ export function openWeightsDialog(mainData) {
   try { dlg.showModal(); } catch { try { dlg.show(); } catch {} }
 }
 
-function allowLoadingIndicatorPaint() {
-  return new Promise(resolve => {
-    if (typeof window !== 'undefined' && typeof window.requestAnimationFrame === 'function') {
-      window.requestAnimationFrame(() => {
-        // Use a timeout to ensure the frame is committed before heavy work.
-        setTimeout(resolve, 0);
-      });
-    } else {
-      setTimeout(resolve, 0);
-    }
-  });
-}
-
 export async function afterWeightsChanged(mainData) {
   const listEl = document.getElementById('countryList');
   const notice = document.getElementById('notice');
   let refreshed = false;
   showLoadingIndicator('Updating report with new weights…');
   try {
-    await allowLoadingIndicatorPaint();
+    await waitForLoadingIndicatorFrame();
     await applyCountrySort(mainData, listEl, notice);
-    onSelectionChanged(mainData, notice);
+    await onSelectionChanged(mainData, notice, {
+      loadingMessage: 'Updating report with new weights…',
+    });
     refreshed = true;
   } catch (error) {
     console.warn('Failed to refresh report after weights update', error);

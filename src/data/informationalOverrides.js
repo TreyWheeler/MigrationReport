@@ -1,4 +1,5 @@
 import { getStored, setStored } from '../storage/preferences.js';
+import { invalidateCountryMetricsCache } from './weights.js';
 
 function canonicalizeKeySegment(value) {
   try {
@@ -49,6 +50,7 @@ function setInformationalOverride(categoryName, keyName, value) {
     delete overrides[storageKey];
   }
   setInformationalOverrides(overrides);
+  invalidateCountryMetricsCache();
 }
 
 function toggleInformationalOverride(categoryName, keyObj) {

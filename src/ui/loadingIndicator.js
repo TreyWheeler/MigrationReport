@@ -6,6 +6,30 @@ const indicatorLabelEl = indicatorEl
   ? indicatorEl.querySelector('.app-loading__label')
   : null;
 
+export function waitForLoadingIndicatorFrame() {
+  return new Promise(resolve => {
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      resolve();
+    };
+    try {
+      if (
+        typeof window !== 'undefined'
+        && typeof window.requestAnimationFrame === 'function'
+      ) {
+        window.requestAnimationFrame(() => {
+          setTimeout(finish, 0);
+        });
+        setTimeout(finish, 0);
+        return;
+      }
+    } catch {}
+    setTimeout(finish, 0);
+  });
+}
+
 export function showLoadingIndicator(message = 'Loading report data…') {
   if (!indicatorEl) return;
   indicatorEl.classList.remove('app-loading--hidden', 'app-loading--error');
