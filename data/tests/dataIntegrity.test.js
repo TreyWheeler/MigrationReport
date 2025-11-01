@@ -19,6 +19,9 @@ const peopleData = readJson('people.json');
 const personWeightsData = readJson('person_weights.json');
 const familyProfile = JSON.parse(fs.readFileSync(familyProfilePath, 'utf8'));
 
+const categoryByKeyName = new Map(categoryKeysData.categoryKeys.map(key => [key.name, key.categoryId]));
+const requiredKeyNames = new Set(categoryKeysData.categoryKeys.map(key => key.name));
+
 const familyValuesSummary = [
   familyProfile?.values?.political_alignment,
   familyProfile?.values?.community,
@@ -54,8 +57,6 @@ function buildAlignmentFailureMessage(reportFile, entry, issue) {
     profileLine,
   ].join(' ');
 }
-
-const allowedExtraKeys = new Set(['Retirement (Immigrants)']);
 
 describe('Report alignment data', () => {
   const reports = fs.readdirSync(reportsDir).filter(name => name.endsWith('_report.json'));
@@ -107,13 +108,27 @@ describe('Report alignment data', () => {
           }
         }
 
-        const keyIsKnown = categoryKeyNames.has(entry.key) || allowedExtraKeys.has(entry.key);
+        const keyIsKnown = categoryKeyNames.has(entry.key);
         if (!keyIsKnown) {
           throw new Error(buildAlignmentFailureMessage(reportFile, entry, 'Unknown key. Add it to data/category_keys.json with guidance so future writers know how to speak to the family profile priorities.'));
         }
 
         seenKeys.add(entry.key);
       });
+
+      const missingRequiredKeys = [...requiredKeyNames].filter(key => !seenKeys.has(key));
+      if (missingRequiredKeys.length > 0) {
+        const missingList = missingRequiredKeys
+          .map(name => {
+            const categoryId = categoryByKeyName.get(name);
+            return categoryId ? `${name} (category: ${categoryId})` : name;
+          })
+          .join(', ');
+        throw new Error([
+          `${reportFile} is missing required evaluation keys: ${missingList}.`,
+          'Every report must include each canonical key from data/category_keys.json so comparisons remain consistent.',
+        ].join(' '));
+      }
     });
   });
 });
