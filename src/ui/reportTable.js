@@ -1,4 +1,4 @@
-import { appState, resetKeyActionsMenuState } from '../state/appState.js';
+import { appState, resetKeyActionsMenuState, clearCachedMetrics } from '../state/appState.js';
 import { closeKeyActionsMenu, makeKeyActionsMenu } from '../state/keyActionsMenu.js';
 import { getStored, setStored } from '../storage/preferences.js';
 import { fetchCountry } from '../data/reports.js';
@@ -15,7 +15,7 @@ import {
   getScoreBucket,
 } from './components/chips.js';
 import { appendTextWithLinks, createFlagImg } from '../utils/dom.js';
-import { toggleSelectNode, updateCountryListSelection } from './sidebar.js';
+import { toggleSelectNode, updateCountryListSelection, applyCountrySort } from './sidebar.js';
 import { getParentFileForNode, resolveParentReportFile } from '../utils/nodes.js';
 import { getEffectivePeople } from '../data/weights.js';
 import { isInformationalKey } from '../data/informationalOverrides.js';
@@ -39,10 +39,17 @@ function canonKey(str) {
   }
 }
 
+function normalizeCategoryName(name) {
+  return typeof name === 'string' ? name.trim().toLowerCase() : '';
+}
+
 export function renderEmptyReportState() {
   const reportDiv = document.getElementById('report');
   if (!reportDiv) return;
   reportDiv.innerHTML = '';
+  if (typeof document !== 'undefined' && document.body) {
+    document.body.classList.remove('has-category-focus');
+  }
   const wrap = document.createElement('div');
   wrap.className = 'empty-state';
 
@@ -154,7 +161,23 @@ export async function renderComparison(selectedList, mainData, options = {}) {
 
     const diffEnabled = !!diffEnabledOption;
 
-    const rerender = async () => {
+    const focusList = Array.isArray(appState.focusedCategories)
+      ? appState.focusedCategories.map(name => (typeof name === 'string' ? name.trim() : '')).filter(Boolean)
+      : [];
+    const focusNormalized = focusList.map(name => normalizeCategoryName(name)).filter(Boolean);
+    const normalizedFocusSet = new Set(focusNormalized);
+    const matchesFocus = (name) => normalizedFocusSet.has(normalizeCategoryName(name));
+    const focusActive = normalizedFocusSet.size > 0
+      && Array.isArray(mainData?.Categories)
+      && mainData.Categories.some(cat => matchesFocus(cat && cat.Category));
+    const shouldIncludeForSummary = (name) => !focusActive || matchesFocus(name);
+
+    if (typeof document !== 'undefined' && document.body) {
+      document.body.classList.toggle('has-category-focus', focusActive);
+    }
+
+    const rerender = async (overrideOptions) => {
+      const overrides = (overrideOptions && typeof overrideOptions === 'object') ? overrideOptions : {};
       const wrap = reportDiv.querySelector('.table-wrap');
       const restore = wrap ? { x: wrap.scrollLeft, y: wrap.scrollTop } : undefined;
       const nextSelected = Array.isArray(appState.selected) && appState.selected.length > 0
@@ -164,6 +187,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         diffEnabled,
         loadingMessage,
         skipLoadingIndicator,
+        ...overrides,
       };
       if (restore) opts.restoreScroll = restore;
       await renderComparison(nextSelected, mainData, opts);
@@ -171,6 +195,17 @@ export async function renderComparison(selectedList, mainData, options = {}) {
 
     const table = document.createElement('table');
     table.className = 'comparison-table';
+    table.classList.toggle('focus-active', focusActive);
+    if (focusActive) {
+      const activeNames = focusList.filter(name => matchesFocus(name));
+      if (activeNames.length > 0) {
+        table.dataset.focusCategory = activeNames.join(', ');
+      } else {
+        delete table.dataset.focusCategory;
+      }
+    } else {
+      delete table.dataset.focusCategory;
+    }
 
     const handleDeselect = (file) => {
       if (!file) return;
@@ -264,6 +299,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         if (!container) return;
         const catAverages = [];
         mainData.Categories.forEach(cat => {
+          if (!shouldIncludeForSummary(cat && cat.Category)) return;
           const vals = [];
           cat.Keys.forEach(k => {
             if (isInformationalKey(k, cat.Category)) return;
@@ -288,6 +324,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
               let total = 0;
               let count = 0;
               mainData.Categories.forEach(cat => {
+                if (!shouldIncludeForSummary(cat && cat.Category)) return;
                 const weight = person.weights ? Number(person.weights[cat.Category]) : NaN;
                 if (!isFinite(weight)) return;
                 const match = ds.data.categories && ds.data.categories[cat.Category];
@@ -314,6 +351,8 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       catRow.className = 'category-header-row';
       const catNameTh = document.createElement('th');
       const catName = category.Category;
+      const normalizedCatName = normalizeCategoryName(catName);
+      const catIsFocused = matchesFocus(catName);
       catNameTh.innerHTML = '';
       const toggle = document.createElement('button');
       toggle.className = 'cat-toggle';
@@ -322,10 +361,87 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       toggle.setAttribute('aria-expanded', initiallyCollapsed ? 'false' : 'true');
       toggle.title = initiallyCollapsed ? 'Expand category' : 'Collapse category';
       const catLabelSpan = document.createElement('span');
+      catLabelSpan.className = 'cat-label';
       catLabelSpan.textContent = catName;
+      const focusBtn = document.createElement('button');
+      focusBtn.type = 'button';
+      focusBtn.className = 'cat-focus-btn';
+      const alreadyFocused = matchesFocus(catName);
+      const svgNS = 'http://www.w3.org/2000/svg';
+      const icon = document.createElementNS(svgNS, 'svg');
+      icon.setAttribute('viewBox', '0 0 24 24');
+      icon.setAttribute('aria-hidden', 'true');
+      icon.setAttribute('focusable', 'false');
+      icon.classList.add('cat-focus-icon');
+      const outlinePath = document.createElementNS(svgNS, 'path');
+      outlinePath.setAttribute('d', 'M12 5c-5.5 0-10 4.5-10 7s4.5 7 10 7 10-4.5 10-7-4.5-7-10-7Z');
+      outlinePath.setAttribute('fill', 'none');
+      outlinePath.setAttribute('stroke', 'currentColor');
+      outlinePath.setAttribute('stroke-width', '1.6');
+      outlinePath.setAttribute('stroke-linecap', 'round');
+      outlinePath.setAttribute('stroke-linejoin', 'round');
+      const pupil = document.createElementNS(svgNS, 'circle');
+      pupil.setAttribute('cx', '12');
+      pupil.setAttribute('cy', '12');
+      pupil.setAttribute('r', '3');
+      pupil.setAttribute('fill', 'currentColor');
+      icon.appendChild(outlinePath);
+      icon.appendChild(pupil);
+      focusBtn.appendChild(icon);
+      focusBtn.setAttribute('aria-pressed', alreadyFocused ? 'true' : 'false');
+      const focusLabel = alreadyFocused
+        ? `Remove ${catName} from focus`
+        : (focusActive ? `Add ${catName} to focus` : `Focus on ${catName}`);
+      focusBtn.title = focusLabel;
+      focusBtn.setAttribute('aria-label', focusLabel);
+      if (alreadyFocused) {
+        focusBtn.classList.add('is-active');
+      }
+      focusBtn.addEventListener('click', async event => {
+        event.preventDefault();
+        event.stopPropagation();
+        const currentList = Array.isArray(appState.focusedCategories)
+          ? appState.focusedCategories.slice()
+          : [];
+        const nextList = currentList.filter(name => normalizeCategoryName(name) !== normalizedCatName);
+        const wasActive = nextList.length !== currentList.length;
+        if (!wasActive) {
+          nextList.push(catName);
+        }
+        const sanitized = nextList
+          .map(name => (typeof name === 'string' ? name.trim() : ''))
+          .filter(Boolean);
+        appState.focusedCategories = sanitized;
+        setStored('focusedCategory', sanitized);
+        clearCachedMetrics();
+        try {
+          const listEl = document.getElementById('countryList');
+          const noticeEl = document.getElementById('notice');
+          const sortResult = applyCountrySort(mainData, listEl, noticeEl);
+          if (sortResult && typeof sortResult.then === 'function') {
+            sortResult.catch(() => {});
+          }
+        } catch {}
+        focusBtn.blur();
+        const message = wasActive
+          ? (sanitized.length === 0 ? 'Clearing focused categories…' : `Removing ${catName} from focus…`)
+          : (sanitized.length === 1 ? `Focusing on ${catName}…` : `Adding ${catName} to focus…`);
+        await rerender({
+          skipLoadingIndicator: false,
+          loadingMessage: message,
+        });
+      });
       catNameTh.appendChild(toggle);
       catNameTh.appendChild(catLabelSpan);
+      catNameTh.appendChild(focusBtn);
       catRow.appendChild(catNameTh);
+      if (focusActive) {
+        if (catIsFocused) {
+          catRow.classList.add('focus-target');
+        } else {
+          catRow.classList.add('focus-dimmed');
+        }
+      }
       datasets.forEach(ds => {
         const values = [];
         category.Keys.forEach(k => {
@@ -457,6 +573,13 @@ export async function renderComparison(selectedList, mainData, options = {}) {
 
         tbody.appendChild(tr);
         keyRowRefs.push(tr);
+        if (focusActive) {
+          if (catIsFocused) {
+            tr.classList.add('focus-target');
+          } else {
+            tr.classList.add('focus-dimmed');
+          }
+        }
       });
 
       if (initiallyCollapsed) {
