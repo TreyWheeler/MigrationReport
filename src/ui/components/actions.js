@@ -72,13 +72,14 @@ export function makeInformationalToggleButton(categoryName, keyObj, context = {}
 
   applyState();
 
-  btn.addEventListener('click', (event) => {
+  btn.addEventListener('click', async (event) => {
     try { event.preventDefault(); event.stopPropagation(); } catch {}
     toggleInformationalOverride(categoryName, keyObj);
     applyState();
     if (typeof context.onToggle === 'function') {
       try {
-        context.onToggle();
+        await Promise.resolve();
+        await context.onToggle();
       } catch {}
     }
   });

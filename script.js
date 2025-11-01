@@ -105,10 +105,10 @@ async function loadMain() {
       if (s && s.value && s.value !== 'alpha') {
         await applyCountrySort(mainData, listEl, notice);
       } else {
-        renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
+        renderCountryList(listEl, appState.countries, notice, () => { void onSelectionChanged(mainData, notice); });
       }
     } catch {
-      renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
+      renderCountryList(listEl, appState.countries, notice, () => { void onSelectionChanged(mainData, notice); });
     }
 
     // Restore previously selected countries or default to first
@@ -119,7 +119,7 @@ async function loadMain() {
       appState.selected = [appState.countries[0]];
     }
     updateCountryListSelection(listEl);
-    onSelectionChanged(mainData, notice);
+    await onSelectionChanged(mainData, notice);
 
     // The data fetch & initial render above dominate startup time, so hide the overlay once complete.
     hideLoadingIndicator();
@@ -135,7 +135,10 @@ async function loadMain() {
     const weightsBtn = document.getElementById('weightsBtn');
     if (diffToggle) {
       diffToggle.checked = getStored('diffEnabled', false);
-      diffToggle.addEventListener('change', () => { setStored('diffEnabled', diffToggle.checked); onSelectionChanged(mainData, notice); });
+      diffToggle.addEventListener('change', () => {
+        setStored('diffEnabled', diffToggle.checked);
+        void onSelectionChanged(mainData, notice);
+      });
     }
     if (densityToggle) {
       densityToggle.checked = getStored('densityCompact', false);
@@ -202,7 +205,7 @@ async function enrichCountryNodes(mainData, listEl, notice) {
         console.warn('Failed to enrich node data', node?.file, err);
       }
     }));
-    renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
+    renderCountryList(listEl, appState.countries, notice, () => { void onSelectionChanged(mainData, notice); });
     updateCountryListSelection(listEl);
   } catch (error) {
     console.warn('Failed to refresh enriched country data', error);
@@ -241,7 +244,7 @@ function setupCitiesOnlyToggle(mainData, listEl, notice) {
     appState.showCitiesOnly = toggle.checked;
     setStored('showCitiesOnly', appState.showCitiesOnly);
     updateCollapseCountriesButton();
-    renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
+    renderCountryList(listEl, appState.countries, notice, () => { void onSelectionChanged(mainData, notice); });
     updateCountryListSelection(listEl);
   });
 }

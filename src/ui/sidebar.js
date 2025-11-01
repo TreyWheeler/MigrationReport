@@ -141,7 +141,14 @@ export function buildTreeRow(item, ctx) {
   row.addEventListener('click', () => {
     toggleSelectNode(item, notice);
     updateCountryListSelection(listEl);
-    if (typeof onChange === 'function') onChange();
+    if (typeof onChange === 'function') {
+      try {
+        const result = onChange();
+        if (result && typeof result.then === 'function') {
+          result.catch(() => {});
+        }
+      } catch {}
+    }
   });
 
   return row;
