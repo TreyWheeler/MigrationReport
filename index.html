@@ -525,11 +525,17 @@
       min-height: 28px;
       margin-left: auto;
       cursor: pointer;
-      opacity: 0.86;
+      opacity: 0;
+      pointer-events: none;
       transition: opacity 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
       display: inline-flex;
       align-items: center;
       justify-content: center;
+    }
+    tr.category-header-row:hover .cat-focus-btn,
+    tr.category-header-row:focus-within .cat-focus-btn {
+      opacity: 0.86;
+      pointer-events: auto;
     }
     .cat-focus-btn:hover,
     .cat-focus-btn:focus-visible {
@@ -542,6 +548,7 @@
       background: rgba(255,255,255,0.28);
       color: #ffffff;
       opacity: 1;
+      pointer-events: auto;
       transform: scale(1.02);
     }
     .cat-focus-btn svg {
