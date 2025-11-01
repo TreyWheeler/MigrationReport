@@ -30,94 +30,158 @@ import { openKeyGuidanceDialog, makeKeyGuidanceButton, openWeightsDialog, afterW
 import { getEffectivePeople } from './src/data/weights.js';
 import { makeScoreChip, makePersonScoreChip, makeInformationalPlaceholderChip } from './src/ui/components/chips.js';
 import { appendTextWithLinks } from './src/utils/dom.js';
-
- 
+import { showLoadingIndicator, hideLoadingIndicator, showLoadingError } from './src/ui/loadingIndicator.js';
 
 async function loadMain() {
-  const { mainData, ratingGuides } = await loadMainData();
-  const initialGuidance = makeKeyGuidanceIndex(mainData, ratingGuides);
-  appState.keyGuidanceIndex = initialGuidance.index;
-  appState.keyGuidanceHasRatings = initialGuidance.hasRatings;
-  const ensuredGuidance = await ensureKeyGuidanceLoaded(mainData, {
-    currentIndex: appState.keyGuidanceIndex,
-    hasRatings: appState.keyGuidanceHasRatings,
-    fetchGuides: () => fetchJsonAsset('data/rating_guides.json'),
-  });
-  appState.keyGuidanceIndex = ensuredGuidance.index;
-  appState.keyGuidanceHasRatings = ensuredGuidance.hasRatings;
-  const listEl = document.getElementById('countryList');
-  const notice = document.getElementById('notice');
-  const collapseCountriesBtn = document.getElementById('collapseCountriesBtn');
-  // Initialize UI preferences and toggles
-  initUiPreferences();
-
-  const storedExpandedRaw = getStored('countryExpandedState', {});
-  const expandedState = (storedExpandedRaw && typeof storedExpandedRaw === 'object') ? storedExpandedRaw : {};
-  appState.expandedState = { ...expandedState };
-  appState.showCitiesOnly = !!getStored('showCitiesOnly', false);
-  appState.showHiddenKeys = !!getStored('showHiddenKeys', false);
-  applyHiddenKeysVisibility(appState.showHiddenKeys);
-  setupHiddenKeysHotkey();
-  const citiesOnlyToggle = document.getElementById('citiesOnlyToggle');
-  if (citiesOnlyToggle) {
-    citiesOnlyToggle.checked = appState.showCitiesOnly;
-  }
-  if (collapseCountriesBtn) {
-    collapseCountriesBtn.addEventListener('click', () => collapseAllCountries());
-  }
-  updateCollapseCountriesButton();
-
-  const countries = Array.isArray(mainData.Countries) ? mainData.Countries.map(c => {
-    const country = { name: c.name, file: c.file, iso: '', type: 'country', expanded: false, cities: [] };
-    const cityList = Array.isArray(c.cities) ? c.cities : [];
-    country.cities = cityList.map(city => ({
-      name: city.name,
-      file: city.file,
-      iso: '',
-      type: 'city',
-      parentCountry: country,
-    })).sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
-    if (country.file && Object.prototype.hasOwnProperty.call(appState.expandedState, country.file)) {
-      country.expanded = !!appState.expandedState[country.file];
-    }
-    return country;
-  }) : [];
-
-  countries.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
-  appState.countries = countries;
-  appState.nodesByFile = new Map();
-  countries.forEach(country => {
-    appState.nodesByFile.set(country.file, country);
-    (country.cities || []).forEach(city => {
-      appState.nodesByFile.set(city.file, city);
-    });
-  });
-
-  // Setup sort dropdown (adds person options and reads stored preference)
-  try { setupCountrySortControls(mainData, listEl, notice); } catch {}
-  try { setupCitiesOnlyToggle(mainData, listEl, notice); } catch {}
-
-  // Initial render: apply stored sort if not alphabetical; otherwise render alphabetically
+  showLoadingIndicator();
   try {
-    const s = document.getElementById('countrySort');
-    if (s && s.value && s.value !== 'alpha') {
-      await applyCountrySort(mainData, listEl, notice);
-    } else {
+    const { mainData, ratingGuides } = await loadMainData();
+    const initialGuidance = makeKeyGuidanceIndex(mainData, ratingGuides);
+    appState.keyGuidanceIndex = initialGuidance.index;
+    appState.keyGuidanceHasRatings = initialGuidance.hasRatings;
+    const ensuredGuidance = await ensureKeyGuidanceLoaded(mainData, {
+      currentIndex: appState.keyGuidanceIndex,
+      hasRatings: appState.keyGuidanceHasRatings,
+      fetchGuides: () => fetchJsonAsset('data/rating_guides.json'),
+    });
+    appState.keyGuidanceIndex = ensuredGuidance.index;
+    appState.keyGuidanceHasRatings = ensuredGuidance.hasRatings;
+    const listEl = document.getElementById('countryList');
+    const notice = document.getElementById('notice');
+    const collapseCountriesBtn = document.getElementById('collapseCountriesBtn');
+
+    // Initialize UI preferences and toggles
+    initUiPreferences();
+
+    const storedExpandedRaw = getStored('countryExpandedState', {});
+    const expandedState = (storedExpandedRaw && typeof storedExpandedRaw === 'object') ? storedExpandedRaw : {};
+    appState.expandedState = { ...expandedState };
+    appState.showCitiesOnly = !!getStored('showCitiesOnly', false);
+    appState.showHiddenKeys = !!getStored('showHiddenKeys', false);
+    applyHiddenKeysVisibility(appState.showHiddenKeys);
+    setupHiddenKeysHotkey();
+    const citiesOnlyToggle = document.getElementById('citiesOnlyToggle');
+    if (citiesOnlyToggle) {
+      citiesOnlyToggle.checked = appState.showCitiesOnly;
+    }
+    if (collapseCountriesBtn) {
+      collapseCountriesBtn.addEventListener('click', () => collapseAllCountries());
+    }
+    updateCollapseCountriesButton();
+
+    const countries = Array.isArray(mainData.Countries) ? mainData.Countries.map(c => {
+      const country = { name: c.name, file: c.file, iso: '', type: 'country', expanded: false, cities: [] };
+      const cityList = Array.isArray(c.cities) ? c.cities : [];
+      country.cities = cityList.map(city => ({
+        name: city.name,
+        file: city.file,
+        iso: '',
+        type: 'city',
+        parentCountry: country,
+      })).sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
+      if (country.file && Object.prototype.hasOwnProperty.call(appState.expandedState, country.file)) {
+        country.expanded = !!appState.expandedState[country.file];
+      }
+      return country;
+    }) : [];
+
+    countries.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
+    appState.countries = countries;
+    appState.nodesByFile = new Map();
+    countries.forEach(country => {
+      appState.nodesByFile.set(country.file, country);
+      (country.cities || []).forEach(city => {
+        appState.nodesByFile.set(city.file, city);
+      });
+    });
+
+    // Setup sort dropdown (adds person options and reads stored preference)
+    try { setupCountrySortControls(mainData, listEl, notice); } catch {}
+    try { setupCitiesOnlyToggle(mainData, listEl, notice); } catch {}
+
+    // Initial render: apply stored sort if not alphabetical; otherwise render alphabetically
+    try {
+      const s = document.getElementById('countrySort');
+      if (s && s.value && s.value !== 'alpha') {
+        await applyCountrySort(mainData, listEl, notice);
+      } else {
+        renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
+      }
+    } catch {
       renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
     }
-  } catch {
-    renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
+
+    // Restore previously selected countries or default to first
+    const restored = loadSelectedFromStorage(appState.nodesByFile);
+    if (restored.length > 0) {
+      appState.selected = restored;
+    } else if (appState.countries.length > 0) {
+      appState.selected = [appState.countries[0]];
+    }
+    updateCountryListSelection(listEl);
+    onSelectionChanged(mainData, notice);
+
+    // The data fetch & initial render above dominate startup time, so hide the overlay once complete.
+    hideLoadingIndicator();
+
+    // Enrich with ISO in the background and refresh flags without blocking first paint.
+    enrichCountryNodes(mainData, listEl, notice);
+
+    // Toolbar toggles
+    const diffToggle = document.getElementById('diffToggle');
+    const densityToggle = document.getElementById('densityToggle');
+    const themeToggle = document.getElementById('themeToggle');
+    const scoresToggle = document.getElementById('scoresToggle');
+    const weightsBtn = document.getElementById('weightsBtn');
+    if (diffToggle) {
+      diffToggle.checked = getStored('diffEnabled', false);
+      diffToggle.addEventListener('change', () => { setStored('diffEnabled', diffToggle.checked); onSelectionChanged(mainData, notice); });
+    }
+    if (densityToggle) {
+      densityToggle.checked = getStored('densityCompact', false);
+      applyDensity(densityToggle.checked);
+      densityToggle.addEventListener('change', () => {
+        setStored('densityCompact', densityToggle.checked);
+        applyDensity(densityToggle.checked);
+      });
+    }
+    if (themeToggle) {
+      const preferredDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const storedTheme = getStored('theme', null);
+      const darkInitial = storedTheme ? storedTheme === 'dark' : preferredDark;
+      themeToggle.checked = darkInitial;
+      applyTheme(darkInitial ? 'dark' : 'light');
+      themeToggle.addEventListener('change', () => {
+        const mode = themeToggle.checked ? 'dark' : 'light';
+        setStored('theme', mode);
+        applyTheme(mode);
+      });
+    }
+
+    if (scoresToggle) {
+      const show = getStored('showScores', true);
+      scoresToggle.checked = !!show;
+      applyScoresVisibility(!!show);
+      scoresToggle.addEventListener('change', () => {
+        setStored('showScores', scoresToggle.checked);
+        applyScoresVisibility(scoresToggle.checked);
+      });
+    }
+
+    // Weights dialog
+    if (weightsBtn) {
+      weightsBtn.addEventListener('click', () => openWeightsDialog(mainData));
+    }
+  } catch (error) {
+    showLoadingError();
+    throw error;
   }
-  // Restore previously selected countries or default to first
-  const restored = loadSelectedFromStorage(appState.nodesByFile);
-  if (restored.length > 0) {
-    appState.selected = restored;
-  } else if (appState.countries.length > 0) {
-    appState.selected = [appState.countries[0]];
+}
+
+async function enrichCountryNodes(mainData, listEl, notice) {
+  if (!Array.isArray(appState.countries) || appState.countries.length === 0) {
+    return;
   }
-  updateCountryListSelection(listEl);
-  onSelectionChanged(mainData, notice);
-  // Enrich with ISO in the background and refresh flags
   try {
     const allNodes = [];
     appState.countries.forEach(country => {
@@ -134,56 +198,14 @@ async function loadMain() {
         if (!node.metrics) {
           node.metrics = computeRoundedMetrics(data, mainData, getEffectivePeople(mainData));
         }
-      } catch {}
+      } catch (err) {
+        console.warn('Failed to enrich node data', node?.file, err);
+      }
     }));
     renderCountryList(listEl, appState.countries, notice, () => onSelectionChanged(mainData, notice));
     updateCountryListSelection(listEl);
-  } catch {}
-
-  // Toolbar toggles
-  const diffToggle = document.getElementById('diffToggle');
-  const densityToggle = document.getElementById('densityToggle');
-  const themeToggle = document.getElementById('themeToggle');
-  const scoresToggle = document.getElementById('scoresToggle');
-  const weightsBtn = document.getElementById('weightsBtn');
-  if (diffToggle) {
-    diffToggle.checked = getStored('diffEnabled', false);
-    diffToggle.addEventListener('change', () => { setStored('diffEnabled', diffToggle.checked); onSelectionChanged(mainData, notice); });
-  }
-  if (densityToggle) {
-    densityToggle.checked = getStored('densityCompact', false);
-    applyDensity(densityToggle.checked);
-    densityToggle.addEventListener('change', () => {
-      setStored('densityCompact', densityToggle.checked);
-      applyDensity(densityToggle.checked);
-    });
-  }
-  if (themeToggle) {
-    const preferredDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const storedTheme = getStored('theme', null);
-    const darkInitial = storedTheme ? storedTheme === 'dark' : preferredDark;
-    themeToggle.checked = darkInitial;
-    applyTheme(darkInitial ? 'dark' : 'light');
-    themeToggle.addEventListener('change', () => {
-      const mode = themeToggle.checked ? 'dark' : 'light';
-      setStored('theme', mode);
-      applyTheme(mode);
-    });
-  }
-
-  if (scoresToggle) {
-    const show = getStored('showScores', true);
-    scoresToggle.checked = !!show;
-    applyScoresVisibility(!!show);
-    scoresToggle.addEventListener('change', () => {
-      setStored('showScores', scoresToggle.checked);
-      applyScoresVisibility(scoresToggle.checked);
-    });
-  }
-
-  // Weights dialog
-  if (weightsBtn) {
-    weightsBtn.addEventListener('click', () => openWeightsDialog(mainData));
+  } catch (error) {
+    console.warn('Failed to refresh enriched country data', error);
   }
 }
 

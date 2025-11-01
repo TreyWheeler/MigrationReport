@@ -25,6 +25,59 @@
       --score-muted-text: #0b3954; /* Dark teal for contrast */
     }
 
+    .app-loading {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      background: color-mix(in srgb, var(--md-color-background) 65%, rgba(0,0,0,0.55));
+      color: var(--md-color-on-surface);
+      z-index: 9999;
+      transition: opacity 160ms ease;
+    }
+
+    .app-loading__spinner {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: 4px solid color-mix(in srgb, var(--md-color-on-surface) 20%, transparent);
+      border-top-color: var(--md-color-primary);
+      animation: app-loading-spin 1s linear infinite;
+    }
+
+    .app-loading__label {
+      font-size: 16px;
+      font-weight: 600;
+      max-width: min(420px, 80vw);
+      text-align: center;
+    }
+
+    .app-loading--error .app-loading__spinner {
+      border-color: color-mix(in srgb, var(--score-red) 30%, transparent);
+      border-top-color: var(--score-red);
+    }
+
+    .app-loading--hidden {
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+    }
+
+    body[data-theme="dark"] .app-loading {
+      background: color-mix(in srgb, rgba(15,23,42,0.92) 80%, transparent);
+      color: var(--md-color-on-surface);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .app-loading__spinner { animation-duration: 2s; }
+    }
+
+    @keyframes app-loading-spin {
+      to { transform: rotate(360deg); }
+    }
+
     body[data-theme="dark"] {
       --md-color-surface: #0f172a;
       --md-color-surface-variant: #111827;
@@ -133,6 +186,7 @@
       border: 1px solid var(--md-color-outline); border-radius: 9999px; background: var(--md-color-surface);
       box-shadow: 0 1px 2px rgba(0,0,0,0.06);
       font-size: 12px; user-select: none; color: var(--md-color-on-surface);
+      cursor: pointer;
       transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease;
     }
     .toggle:hover { border-color: var(--md-color-primary); box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent); }
@@ -680,7 +734,7 @@
     .wd-row input[type="range"] { width: 280px; }
     .wd-row output { min-width: 42px; text-align: right; font-variant-numeric: tabular-nums; }
     .wd-footer .primary { background: var(--md-color-primary); color: white; border: none; padding: 6px 12px; border-radius: 8px; }
-    .wd-footer button { border: 1px solid var(--md-color-outline); background: var(--md-color-surface); color: var(--md-color-on-surface); padding: 6px 12px; border-radius: 8px; }
+    .wd-footer button { border: 1px solid var(--md-color-outline); background: var(--md-color-surface); color: var(--md-color-on-surface); padding: 6px 12px; border-radius: 8px; cursor: pointer; }
     /* Score chips */
     .score-chip {
       display: inline-flex;
@@ -752,6 +806,10 @@
   </style>
 </head>
 <body>
+  <div id="appLoadingIndicator" class="app-loading" role="status" aria-live="polite">
+    <div class="app-loading__spinner" aria-hidden="true"></div>
+    <div class="app-loading__label">Loading report data…</div>
+  </div>
   <div class="hero hero-full">
     <div class="hero-inner container header-flex">
       <h1>Migration Report</h1>
