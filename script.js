@@ -1,127 +1,17 @@
-const appState = {
-  countries: [],
-  selected: [],
-  nodesByFile: new Map(),
-  showCitiesOnly: false,
-  expandedState: {},
-  showHiddenKeys: false,
-  keyGuidanceIndex: new Map(),
-  keyGuidanceHasRatings: false,
-};
-let hiddenKeysHotkeyAttached = false;
-const keyGuidanceDialogState = { lastTrigger: null };
-const keyActionsMenuState = { current: null, listenersAttached: false };
-
-function getKeyActionsCell(instance) {
-  if (!instance) return null;
-  if (instance.cell && instance.cell.isConnected) return instance.cell;
-  if (instance.wrap && typeof instance.wrap.closest === 'function') {
-    const cell = instance.wrap.closest('td');
-    if (cell instanceof HTMLElement) {
-      instance.cell = cell;
-      return cell;
-    }
-  }
-  return null;
-}
-
-function closeKeyActionsMenu(instance) {
-  const target = instance || keyActionsMenuState.current;
-  if (!target) return;
-  if (target.menu) target.menu.hidden = true;
-  if (target.toggle) target.toggle.setAttribute('aria-expanded', 'false');
-  const cell = getKeyActionsCell(target);
-  if (cell) cell.classList.remove('key-actions-open');
-  if (keyActionsMenuState.current === target) {
-    keyActionsMenuState.current = null;
-  }
-}
-
-function openKeyActionsMenu(instance) {
-  if (!instance) return;
-  if (keyActionsMenuState.current && keyActionsMenuState.current !== instance) {
-    closeKeyActionsMenu(keyActionsMenuState.current);
-  }
-  if (instance.menu) instance.menu.hidden = false;
-  if (instance.toggle) instance.toggle.setAttribute('aria-expanded', 'true');
-  const cell = getKeyActionsCell(instance);
-  if (cell) cell.classList.add('key-actions-open');
-  keyActionsMenuState.current = instance;
-}
-
-function ensureKeyActionsMenuListeners() {
-  if (keyActionsMenuState.listenersAttached || typeof document === 'undefined') return;
-  document.addEventListener('click', (event) => {
-    const current = keyActionsMenuState.current;
-    if (!current) return;
-    try {
-      if (current.wrap && current.wrap.contains(event.target)) return;
-    } catch {}
-    closeKeyActionsMenu(current);
-  });
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') {
-      closeKeyActionsMenu();
-    }
-  });
-  keyActionsMenuState.listenersAttached = true;
-}
-
-function resetKeyActionsMenuState() {
-  closeKeyActionsMenu();
-}
-
-function makeKeyActionsMenu(buttons) {
-  const instance = {};
-  const wrap = document.createElement('div');
-  wrap.className = 'key-actions';
-  instance.wrap = wrap;
-
-  const toggle = document.createElement('button');
-  toggle.type = 'button';
-  toggle.className = 'key-actions-toggle';
-  toggle.setAttribute('aria-haspopup', 'true');
-  toggle.setAttribute('aria-expanded', 'false');
-  toggle.setAttribute('aria-label', 'Key actions');
-  toggle.title = 'Key actions';
-  toggle.innerHTML = '<span aria-hidden="true">⋮</span><span class="visually-hidden">Key actions</span>';
-  instance.toggle = toggle;
-
-  const menu = document.createElement('div');
-  menu.className = 'key-actions-menu';
-  menu.hidden = true;
-  instance.menu = menu;
-
-  const safeButtons = Array.isArray(buttons) ? buttons : [];
-  safeButtons.forEach(btn => {
-    if (!(btn instanceof HTMLElement)) return;
-    btn.classList.add('key-actions-menu-item');
-    btn.addEventListener('click', () => {
-      closeKeyActionsMenu(instance);
-    });
-    menu.appendChild(btn);
-  });
-
-  wrap.appendChild(toggle);
-  wrap.appendChild(menu);
-
-  ensureKeyActionsMenuListeners();
-
-  toggle.addEventListener('click', (event) => {
-    try { event.preventDefault(); event.stopPropagation(); } catch {}
-    if (keyActionsMenuState.current === instance) {
-      closeKeyActionsMenu(instance);
-    } else {
-      openKeyActionsMenu(instance);
-    }
-  });
-
-  menu.addEventListener('click', (event) => {
-    try { event.stopPropagation(); } catch {}
-  });
-
-  return wrap;
-}
+import { appState, keyGuidanceDialogState, resetKeyActionsMenuState } from './src/state/appState.js';
+import { closeKeyActionsMenu, makeKeyActionsMenu } from './src/state/keyActionsMenu.js';
+import { saveSelectedToStorage, loadSelectedFromStorage } from './src/storage/selection.js';
+import {
+  getStored,
+  setStored,
+  applyTheme,
+  applyDensity,
+  applyScoresVisibility,
+  applyHiddenKeysVisibility,
+  toggleHiddenKeysVisibility,
+  setupHiddenKeysHotkey,
+  initUiPreferences,
+} from './src/storage/preferences.js';
 
 function getParentFileForNode(node) {
   if (!node || typeof node !== 'object') return null;
@@ -179,26 +69,6 @@ function renderEmptyReportState() {
   wrap.appendChild(hint);
 
   reportDiv.appendChild(wrap);
-}
-
-function saveSelectedToStorage() {
-  try {
-    const files = appState.selected.map(s => s.file);
-    setStored('selectedCountries', files);
-  } catch {}
-}
-
-function loadSelectedFromStorage(nodesMap) {
-  const saved = getStored('selectedCountries', null);
-  if (!Array.isArray(saved) || saved.length === 0) return [];
-  const result = [];
-  saved.forEach(f => {
-    if (!nodesMap || typeof nodesMap.get !== 'function') return;
-    if (nodesMap.has(f) && result.length < 3) {
-      result.push(nodesMap.get(f));
-    }
-  });
-  return result;
 }
 
 function updateCollapseCountriesButton(hasExpandable) {
@@ -1475,6 +1345,7 @@ async function loadCountry(file, mainData) {
 async function renderComparison(selectedList, mainData, options = {}) {
   const reportDiv = document.getElementById('report');
   reportDiv.innerHTML = '';
+  closeKeyActionsMenu();
   resetKeyActionsMenuState();
   const collapseCategoriesBtn = document.getElementById('collapseCategoriesBtn');
   if (collapseCategoriesBtn) {
@@ -1966,45 +1837,6 @@ async function renderComparison(selectedList, mainData, options = {}) {
   window.addEventListener('scroll', updateFloatingVisibility, { passive: true });
   window.addEventListener('resize', buildFloatingFromThead);
 }
-
-// Preferences helpers
-function getStored(key, fallback) { try { const v = localStorage.getItem(key); return v === null ? fallback : JSON.parse(v); } catch { return fallback; } }
-function setStored(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch {} }
-function applyTheme(mode) { document.body.setAttribute('data-theme', mode === 'dark' ? 'dark' : 'light'); }
-function applyDensity(isCompact) { document.body.classList.toggle('density-compact', !!isCompact); }
-function applyScoresVisibility(show) { document.body.classList.toggle('scores-hidden', !show); }
-function applyHiddenKeysVisibility(show) {
-  if (typeof document === 'undefined' || !document.body) return;
-  document.body.classList.toggle('show-hidden-keys', !!show);
-}
-function setHiddenKeysVisibility(show) {
-  appState.showHiddenKeys = !!show;
-  applyHiddenKeysVisibility(appState.showHiddenKeys);
-  setStored('showHiddenKeys', appState.showHiddenKeys);
-}
-function toggleHiddenKeysVisibility() { setHiddenKeysVisibility(!appState.showHiddenKeys); }
-function setupHiddenKeysHotkey() {
-  if (hiddenKeysHotkeyAttached || typeof document === 'undefined') return;
-  const handler = (event) => {
-    if (!event) return;
-    if (event.defaultPrevented) return;
-    if (event.metaKey || event.ctrlKey || event.altKey) return;
-    const key = event.key || '';
-    if (key.toLowerCase() !== 'h') return;
-    const target = event.target;
-    if (target) {
-      if (typeof target.closest === 'function' && target.closest('input, textarea, select, [contenteditable="true"]')) return;
-      const tag = (target.tagName || '').toUpperCase();
-      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
-      if (target.isContentEditable) return;
-    }
-    event.preventDefault();
-    toggleHiddenKeysVisibility();
-  };
-  document.addEventListener('keydown', handler);
-  hiddenKeysHotkeyAttached = true;
-}
-function initUiPreferences() { /* reserved for future */ }
 
 // Determine score bucket and class/label using rounded integer for thresholds
 function getScoreBucket(score) {
