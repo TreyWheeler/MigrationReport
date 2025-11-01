@@ -388,10 +388,17 @@
     }
     .country-header-inner { display: flex; align-items: center; gap: 8px; }
     .country-header-label { display: inline-flex; align-items: center; gap: 6px; }
-    .country-header-scores { display: flex; align-items: center; gap: 6px; margin-left: auto; flex-wrap: wrap; }
-    .country-header-remove {
-      display: none;
+    .country-header-scores {
+      display: flex;
+      align-items: center;
+      gap: 6px;
       margin-left: auto;
+      flex-wrap: wrap;
+      transition: opacity 160ms ease;
+    }
+    .country-header-remove {
+      display: inline-flex;
+      margin-left: 6px;
       width: 24px;
       height: 24px;
       border-radius: 9999px;
@@ -404,7 +411,9 @@
       cursor: pointer;
       align-items: center;
       justify-content: center;
-      transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease, transform 160ms ease;
+      opacity: 0;
+      pointer-events: none;
+      transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease, transform 160ms ease, opacity 160ms ease;
     }
     .country-header-remove:hover {
       background: #dc2626;
@@ -415,6 +424,8 @@
     .country-header-remove:focus-visible {
       outline: 2px solid #dc2626;
       outline-offset: 2px;
+      opacity: 1;
+      pointer-events: auto;
     }
     body[data-theme="dark"] .country-header-remove {
       border-color: #f87171;
@@ -427,9 +438,15 @@
       color: #0b1220;
     }
     .country-header:hover .country-header-scores,
-    .country-header-inner:hover .country-header-scores { display: none; }
+    .country-header-inner:hover .country-header-scores {
+      opacity: 0;
+      pointer-events: none;
+    }
     .country-header:hover .country-header-remove,
-    .country-header-inner:hover .country-header-remove { display: inline-flex; }
+    .country-header-inner:hover .country-header-remove {
+      opacity: 1;
+      pointer-events: auto;
+    }
     /* Header row appearance (not sticky; we handle stickiness via floating header) */
     table.comparison-table thead th {
       position: static;
