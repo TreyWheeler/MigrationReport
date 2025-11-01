@@ -176,7 +176,8 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       document.body.classList.toggle('has-category-focus', focusActive);
     }
 
-    const rerender = async () => {
+    const rerender = async (overrideOptions) => {
+      const overrides = (overrideOptions && typeof overrideOptions === 'object') ? overrideOptions : {};
       const wrap = reportDiv.querySelector('.table-wrap');
       const restore = wrap ? { x: wrap.scrollLeft, y: wrap.scrollTop } : undefined;
       const nextSelected = Array.isArray(appState.selected) && appState.selected.length > 0
@@ -186,6 +187,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         diffEnabled,
         loadingMessage,
         skipLoadingIndicator,
+        ...overrides,
       };
       if (restore) opts.restoreScroll = restore;
       await renderComparison(nextSelected, mainData, opts);
@@ -360,14 +362,34 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       focusBtn.type = 'button';
       focusBtn.className = 'cat-focus-btn';
       const alreadyFocused = focusActive && matchesFocus(catName);
-      focusBtn.textContent = alreadyFocused ? 'Focused' : 'Focus';
+      const svgNS = 'http://www.w3.org/2000/svg';
+      const icon = document.createElementNS(svgNS, 'svg');
+      icon.setAttribute('viewBox', '0 0 24 24');
+      icon.setAttribute('aria-hidden', 'true');
+      icon.setAttribute('focusable', 'false');
+      icon.classList.add('cat-focus-icon');
+      const outlinePath = document.createElementNS(svgNS, 'path');
+      outlinePath.setAttribute('d', 'M12 5c-5.5 0-10 4.5-10 7s4.5 7 10 7 10-4.5 10-7-4.5-7-10-7Z');
+      outlinePath.setAttribute('fill', 'none');
+      outlinePath.setAttribute('stroke', 'currentColor');
+      outlinePath.setAttribute('stroke-width', '1.6');
+      outlinePath.setAttribute('stroke-linecap', 'round');
+      outlinePath.setAttribute('stroke-linejoin', 'round');
+      const pupil = document.createElementNS(svgNS, 'circle');
+      pupil.setAttribute('cx', '12');
+      pupil.setAttribute('cy', '12');
+      pupil.setAttribute('r', '3');
+      pupil.setAttribute('fill', 'currentColor');
+      icon.appendChild(outlinePath);
+      icon.appendChild(pupil);
+      focusBtn.appendChild(icon);
       focusBtn.setAttribute('aria-pressed', alreadyFocused ? 'true' : 'false');
       focusBtn.title = alreadyFocused ? `Clear focus on ${catName}` : `Focus on ${catName}`;
       focusBtn.setAttribute('aria-label', alreadyFocused ? `Clear focus on ${catName}` : `Focus on ${catName}`);
       if (alreadyFocused) {
         focusBtn.classList.add('is-active');
       }
-      focusBtn.addEventListener('click', event => {
+      focusBtn.addEventListener('click', async event => {
         event.preventDefault();
         event.stopPropagation();
         const currentNormalized = normalizeCategoryName(appState.focusedCategory);
@@ -384,7 +406,13 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           }
         } catch {}
         focusBtn.blur();
-        void rerender();
+        const message = nextFocus
+          ? `Focusing on ${catName}…`
+          : 'Clearing focused category…';
+        await rerender({
+          skipLoadingIndicator: false,
+          loadingMessage: message,
+        });
       });
       catNameTh.appendChild(toggle);
       catNameTh.appendChild(catLabelSpan);
