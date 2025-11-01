@@ -247,7 +247,8 @@ export function renderCountryList(listEl, countries, notice, onChange) {
     group.appendChild(countryRow);
 
     if (cityNodes.length > 0) {
-      const sortedCities = sortNodesForMode(cityNodes, mode);
+      const citySortMode = appState.showCitiesOnly ? mode : 'alpha';
+      const sortedCities = sortNodesForMode(cityNodes, citySortMode);
       cityList = document.createElement('div');
       cityList.className = 'city-list';
       cityList.hidden = !country.expanded;
