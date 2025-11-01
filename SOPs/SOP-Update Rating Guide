@@ -1,0 +1,34 @@
+# SOP-Update Rating Guide
+
+Use this SOP when you must revise the descriptive guidance for an existing evaluation key inside `data/rating_guides.json`. Follow it start to finish whenever stakeholders clarify expectations for a key or the family profile shifts. Because rating-guide changes can invalidate published scores, this SOP explicitly loops in the [SOP-Update Report](SOP-Update%20Report) to refresh downstream reports.
+
+## 0. Confirm Scope and Dependencies
+1. Identify the exact `key` that requires updated guidance. Cross-check `data/category_keys.json` to confirm the canonical name and category.
+2. Open `family_profile.json` to understand why the change is needed and how heavily the key is weighted.
+3. Locate every report that currently uses the key. Run `rg '"key": "<keyId>"' reports/` (replace `<keyId>` with the actual key) to generate the file list you will need to refresh.
+4. Review existing alignment scores in those reports to gauge how big a delta the new guidance may create.
+
+## 1. Draft the Revised Guidance
+1. Open `data/rating_guides.json` and find the `ratingGuides` entry whose `key` matches your target.
+2. Update the `considerations` text (if present) so it reflects the new expectations and mentions any required evidence.
+3. Rewrite the `ratingGuide` array so each score bucket (typically 1–10) clearly differentiates outcomes. Keep the progression monotonic—higher numbers should always represent better alignment.
+4. Highlight deal-breakers or minimum thresholds that stem from the family profile. Explicitly call out what justifies a 10, a mid-tier score, and a failing score.
+5. Proofread for clarity and internal consistency. Ensure there are no contradictory statements across score levels.
+
+## 2. Validate JSON Integrity
+1. After editing, run `node -e "JSON.parse(fs.readFileSync('data/rating_guides.json','utf8'))"` to confirm the file remains valid JSON.
+2. Re-open the file in your editor to ensure indentation and ordering match the surrounding style.
+
+## 3. Communicate Downstream Impact
+1. Log the key name and a summary of the changes in your working notes. This will feed the report-update pass.
+2. If any tooling, dashboards, or documentation reference the old guidance, queue them for follow-up updates.
+
+## 4. Update Affected Reports
+1. For every report that contains the key, follow the [SOP-Update Report](SOP-Update%20Report).
+2. While executing that SOP, pay special attention to how the new guidance shifts scores or narratives. Adjust `alignmentValue` and `alignmentText` so they perfectly align with the updated rating tiers.
+3. Note any evidence gaps that prevent a confident score and surface them in your commit notes.
+
+## 5. Final Checks
+1. Re-run `rg '"key": "<keyId>"' reports/` (substitute the actual key) to ensure every instance now reflects the new guidance and no `alignmentValue` conflicts remain.
+2. Review your diff: it should include the rating-guide edits plus the report updates triggered in Step 4.
+3. Summarize the guidance change and high-impact score shifts in the commit message or PR description.
