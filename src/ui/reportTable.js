@@ -116,6 +116,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
     restoreScroll,
     skipLoadingIndicator = false,
     loadingMessage,
+    loadingDelayMs = 0,
   } = options || {};
 
   const collapseCategoriesBtn = document.getElementById('collapseCategoriesBtn');
@@ -130,6 +131,9 @@ export async function renderComparison(selectedList, mainData, options = {}) {
   if (shouldShowLoading) {
     showLoadingIndicator(loadingMessage || 'Refreshing report data…');
     await waitForLoadingIndicatorFrame();
+    if (loadingDelayMs > 0) {
+      await new Promise(resolve => setTimeout(resolve, loadingDelayMs));
+    }
   }
 
   let renderSucceeded = false;
@@ -187,6 +191,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         diffEnabled,
         loadingMessage,
         skipLoadingIndicator,
+        loadingDelayMs,
         ...overrides,
       };
       if (restore) opts.restoreScroll = restore;
@@ -439,6 +444,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         await rerender({
           skipLoadingIndicator: false,
           loadingMessage: message,
+          loadingDelayMs: 120,
         });
       });
       catNameTh.appendChild(toggle);
