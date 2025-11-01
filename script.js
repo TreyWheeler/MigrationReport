@@ -1471,39 +1471,6 @@ async function loadCountry(file, mainData) {
   });
 }
 
-if (typeof window !== 'undefined' && typeof document !== 'undefined' && !window.__MIGRATION_REPORT_DISABLE_AUTOLOAD__) {
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      loadMain();
-    });
-  } else {
-    loadMain();
-  }
-}
-
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = {
-    appState,
-    renderEmptyReportState,
-    saveSelectedToStorage,
-    loadSelectedFromStorage,
-    updateCollapseCountriesButton,
-    fetchJsonAsset,
-    sortByOrderThenName,
-    loadMain,
-    renderComparison,
-    getStored,
-    setStored,
-    fetchCountry,
-    clearCountryCache,
-    computeRoundedMetrics,
-    computeCountryScoresForSorting,
-    renderComparison,
-    applyHiddenKeysVisibility,
-    toggleHiddenKeysVisibility,
-  };
-}
-
 // Render a comparison table for up to 3 selected countries
 async function renderComparison(selectedList, mainData, options = {}) {
   const reportDiv = document.getElementById('report');
@@ -2408,4 +2375,34 @@ function updateSelectionPreview(selectEl) {
 }
 
 // selection preview removed
+
+const MigrationReportAPI = {
+  appState,
+  renderEmptyReportState,
+  saveSelectedToStorage,
+  loadSelectedFromStorage,
+  updateCollapseCountriesButton,
+  fetchJsonAsset,
+  sortByOrderThenName,
+  loadMain,
+  renderComparison,
+  getStored,
+  setStored,
+  fetchCountry,
+  clearCountryCache,
+  computeRoundedMetrics,
+  computeCountryScoresForSorting,
+  applyHiddenKeysVisibility,
+  toggleHiddenKeysVisibility,
+};
+
+if (typeof window !== 'undefined') {
+  window.MigrationReport = MigrationReportAPI;
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = MigrationReportAPI;
+}
+
+export default MigrationReportAPI;
 
