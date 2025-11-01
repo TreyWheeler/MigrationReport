@@ -278,7 +278,7 @@ async function ensureReportMetrics(item, mainData) {
   return metrics;
 }
 
-export async function applyCountrySort(mainData, listEl, notice) {
+export async function applyCountrySort(mainData, listEl, notice, onChange) {
   const sel = document.getElementById('countrySort');
   if (!sel) return;
   const mode = sel.value || 'alpha';
@@ -301,7 +301,8 @@ export async function applyCountrySort(mainData, listEl, notice) {
   const comparator = buildNodeComparator(mode);
   items.sort(comparator);
   appState.countries = items;
-  renderCountryList(listEl, appState.countries, notice, () => {});
+  const changeHandler = typeof onChange === 'function' ? onChange : () => {};
+  renderCountryList(listEl, appState.countries, notice, changeHandler);
   updateCountryListSelection(listEl);
 }
 

@@ -417,7 +417,12 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         try {
           const listEl = document.getElementById('countryList');
           const noticeEl = document.getElementById('notice');
-          const sortResult = applyCountrySort(mainData, listEl, noticeEl);
+          const sortResult = applyCountrySort(
+            mainData,
+            listEl,
+            noticeEl,
+            () => onSelectionChanged(mainData, noticeEl)
+          );
           if (sortResult && typeof sortResult.then === 'function') {
             sortResult.catch(() => {});
           }

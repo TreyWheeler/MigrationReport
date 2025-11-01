@@ -110,7 +110,7 @@ async function loadMain() {
     try {
       const s = document.getElementById('countrySort');
       if (s && s.value && s.value !== 'alpha') {
-        await applyCountrySort(mainData, listEl, notice);
+        await applyCountrySort(mainData, listEl, notice, () => onSelectionChanged(mainData, notice));
       } else {
         renderCountryList(listEl, appState.countries, notice, () => { void onSelectionChanged(mainData, notice); });
       }
@@ -238,7 +238,7 @@ function setupCountrySortControls(mainData, listEl, notice) {
   if (typeof stored === 'string') sel.value = stored;
   sel.addEventListener('change', () => {
     setStored('countrySort', sel.value);
-    applyCountrySort(mainData, listEl, notice);
+    applyCountrySort(mainData, listEl, notice, () => onSelectionChanged(mainData, notice));
   });
 }
 
