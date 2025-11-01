@@ -207,12 +207,22 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       delete table.dataset.focusCategory;
     }
 
-    const handleDeselect = (file) => {
-      if (!file) return;
+    const handleDeselect = (fileOrNode) => {
+      if (!fileOrNode) return;
       try {
-        const map = appState.nodesByFile;
-        if (!map || typeof map.get !== 'function') return;
-        const node = map.get(file);
+        let node = null;
+        if (typeof fileOrNode === 'string') {
+          if (!fileOrNode) return;
+          const map = appState.nodesByFile;
+          if (map && typeof map.get === 'function') {
+            node = map.get(fileOrNode) || null;
+          }
+          if (!node && Array.isArray(appState.selected)) {
+            node = appState.selected.find(n => n && n.file === fileOrNode) || null;
+          }
+        } else if (fileOrNode && typeof fileOrNode === 'object') {
+          node = fileOrNode;
+        }
         if (!node) return;
         const noticeEl = document.getElementById('notice');
         toggleSelectNode(node, noticeEl);
@@ -264,7 +274,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       removeBtn.addEventListener('click', ev => {
         ev.preventDefault();
         ev.stopPropagation();
-        handleDeselect(ds.file || '');
+        handleDeselect(ds.node || ds.file || '');
       });
       inner.appendChild(removeBtn);
 
