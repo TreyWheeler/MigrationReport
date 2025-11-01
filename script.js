@@ -61,9 +61,12 @@ async function loadMain() {
     applyHiddenKeysVisibility(appState.showHiddenKeys);
     setupHiddenKeysHotkey();
     const storedFocusRaw = getStored('focusedCategory', null);
-    appState.focusedCategory = (typeof storedFocusRaw === 'string' && storedFocusRaw.trim())
-      ? storedFocusRaw.trim()
-      : null;
+    const focusList = Array.isArray(storedFocusRaw)
+      ? storedFocusRaw
+      : ((typeof storedFocusRaw === 'string' && storedFocusRaw.trim()) ? [storedFocusRaw] : []);
+    appState.focusedCategories = focusList
+      .map(name => (typeof name === 'string' ? name.trim() : ''))
+      .filter(Boolean);
     const citiesOnlyToggle = document.getElementById('citiesOnlyToggle');
     if (citiesOnlyToggle) {
       citiesOnlyToggle.checked = appState.showCitiesOnly;

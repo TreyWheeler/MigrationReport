@@ -22,12 +22,22 @@ function computeCountryScoresForSorting(countryData, mainData, peopleList = [], 
   const values = Array.isArray(countryData?.values) ? countryData.values : [];
   const canon = (s) => canonicalizeKey(s);
   const categoriesRaw = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
-  const focusName = typeof options?.focusCategory === 'string' && options.focusCategory
-    ? options.focusCategory
-    : appState.focusedCategory;
-  const normalizedFocus = normalizeCategoryName(focusName);
-  const categories = normalizedFocus
-    ? categoriesRaw.filter(cat => normalizeCategoryName(cat?.Category) === normalizedFocus)
+  let focusCandidates = [];
+  if (Array.isArray(options?.focusCategory)) {
+    focusCandidates = options.focusCategory;
+  } else if (typeof options?.focusCategory === 'string' && options.focusCategory) {
+    focusCandidates = [options.focusCategory];
+  } else {
+    focusCandidates = appState.focusedCategories;
+  }
+  const focusNormalized = Array.isArray(focusCandidates)
+    ? focusCandidates
+        .map(name => normalizeCategoryName(name))
+        .filter(name => name && name.length > 0)
+    : [];
+  const focusSet = new Set(focusNormalized);
+  const categories = focusSet.size > 0
+    ? categoriesRaw.filter(cat => focusSet.has(normalizeCategoryName(cat?.Category)))
     : categoriesRaw;
 
   const catAverages = [];

@@ -7,7 +7,7 @@ const appState = {
   showHiddenKeys: false,
   keyGuidanceIndex: new Map(),
   keyGuidanceHasRatings: false,
-  focusedCategory: null,
+  focusedCategories: [],
 };
 
 const keyGuidanceDialogState = { lastTrigger: null };

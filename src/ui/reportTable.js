@@ -161,13 +161,13 @@ export async function renderComparison(selectedList, mainData, options = {}) {
 
     const diffEnabled = !!diffEnabledOption;
 
-    const focusedCategoryName = (typeof appState.focusedCategory === 'string' && appState.focusedCategory.trim())
-      ? appState.focusedCategory.trim()
-      : null;
-    const normalizedFocus = normalizeCategoryName(focusedCategoryName);
-    const focusRequested = normalizedFocus.length > 0;
-    const matchesFocus = (name) => normalizeCategoryName(name) === normalizedFocus;
-    const focusActive = focusRequested
+    const focusList = Array.isArray(appState.focusedCategories)
+      ? appState.focusedCategories.map(name => (typeof name === 'string' ? name.trim() : '')).filter(Boolean)
+      : [];
+    const focusNormalized = focusList.map(name => normalizeCategoryName(name)).filter(Boolean);
+    const normalizedFocusSet = new Set(focusNormalized);
+    const matchesFocus = (name) => normalizedFocusSet.has(normalizeCategoryName(name));
+    const focusActive = normalizedFocusSet.size > 0
       && Array.isArray(mainData?.Categories)
       && mainData.Categories.some(cat => matchesFocus(cat && cat.Category));
     const shouldIncludeForSummary = (name) => !focusActive || matchesFocus(name);
@@ -196,8 +196,13 @@ export async function renderComparison(selectedList, mainData, options = {}) {
     const table = document.createElement('table');
     table.className = 'comparison-table';
     table.classList.toggle('focus-active', focusActive);
-    if (focusActive && focusedCategoryName) {
-      table.dataset.focusCategory = focusedCategoryName;
+    if (focusActive) {
+      const activeNames = focusList.filter(name => matchesFocus(name));
+      if (activeNames.length > 0) {
+        table.dataset.focusCategory = activeNames.join(', ');
+      } else {
+        delete table.dataset.focusCategory;
+      }
     } else {
       delete table.dataset.focusCategory;
     }
@@ -347,7 +352,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       const catNameTh = document.createElement('th');
       const catName = category.Category;
       const normalizedCatName = normalizeCategoryName(catName);
-      const catIsFocused = focusActive && matchesFocus(catName);
+      const catIsFocused = matchesFocus(catName);
       catNameTh.innerHTML = '';
       const toggle = document.createElement('button');
       toggle.className = 'cat-toggle';
@@ -361,7 +366,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       const focusBtn = document.createElement('button');
       focusBtn.type = 'button';
       focusBtn.className = 'cat-focus-btn';
-      const alreadyFocused = focusActive && matchesFocus(catName);
+      const alreadyFocused = matchesFocus(catName);
       const svgNS = 'http://www.w3.org/2000/svg';
       const icon = document.createElementNS(svgNS, 'svg');
       icon.setAttribute('viewBox', '0 0 24 24');
@@ -384,18 +389,30 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       icon.appendChild(pupil);
       focusBtn.appendChild(icon);
       focusBtn.setAttribute('aria-pressed', alreadyFocused ? 'true' : 'false');
-      focusBtn.title = alreadyFocused ? `Clear focus on ${catName}` : `Focus on ${catName}`;
-      focusBtn.setAttribute('aria-label', alreadyFocused ? `Clear focus on ${catName}` : `Focus on ${catName}`);
+      const focusLabel = alreadyFocused
+        ? `Remove ${catName} from focus`
+        : (focusActive ? `Add ${catName} to focus` : `Focus on ${catName}`);
+      focusBtn.title = focusLabel;
+      focusBtn.setAttribute('aria-label', focusLabel);
       if (alreadyFocused) {
         focusBtn.classList.add('is-active');
       }
       focusBtn.addEventListener('click', async event => {
         event.preventDefault();
         event.stopPropagation();
-        const currentNormalized = normalizeCategoryName(appState.focusedCategory);
-        const nextFocus = currentNormalized === normalizedCatName ? null : catName;
-        appState.focusedCategory = nextFocus;
-        setStored('focusedCategory', nextFocus);
+        const currentList = Array.isArray(appState.focusedCategories)
+          ? appState.focusedCategories.slice()
+          : [];
+        const nextList = currentList.filter(name => normalizeCategoryName(name) !== normalizedCatName);
+        const wasActive = nextList.length !== currentList.length;
+        if (!wasActive) {
+          nextList.push(catName);
+        }
+        const sanitized = nextList
+          .map(name => (typeof name === 'string' ? name.trim() : ''))
+          .filter(Boolean);
+        appState.focusedCategories = sanitized;
+        setStored('focusedCategory', sanitized);
         clearCachedMetrics();
         try {
           const listEl = document.getElementById('countryList');
@@ -406,9 +423,9 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           }
         } catch {}
         focusBtn.blur();
-        const message = nextFocus
-          ? `Focusing on ${catName}…`
-          : 'Clearing focused category…';
+        const message = wasActive
+          ? (sanitized.length === 0 ? 'Clearing focused categories…' : `Removing ${catName} from focus…`)
+          : (sanitized.length === 1 ? `Focusing on ${catName}…` : `Adding ${catName} to focus…`);
         await rerender({
           skipLoadingIndicator: false,
           loadingMessage: message,
