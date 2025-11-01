@@ -223,7 +223,7 @@ export async function afterWeightsChanged(mainData) {
   showLoadingIndicator('Updating report with new weights…');
   try {
     await waitForLoadingIndicatorFrame();
-    await applyCountrySort(mainData, listEl, notice);
+    await applyCountrySort(mainData, listEl, notice, () => onSelectionChanged(mainData, notice));
     await onSelectionChanged(mainData, notice, {
       loadingMessage: 'Updating report with new weights…',
     });
