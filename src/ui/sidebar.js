@@ -99,10 +99,17 @@ function buildTreeNodeChip(item) {
   let chip = null;
   if (mode === 'alignment') {
     const v = item.metrics && isFinite(item.metrics.overall) ? item.metrics.overall : null;
-    chip = makeScoreChip(isFinite(v) ? v : null);
+    chip = makeScoreChip(isFinite(v) ? v : null, { labelPrefix: 'Alignment score' });
   } else if (mode === 'total') {
     const v = item.metrics && isFinite(item.metrics.allAvg) ? item.metrics.allAvg : null;
-    chip = makeScoreChip(isFinite(v) ? v : null);
+    const bucketOverride = { key: 'neutral', label: 'Weighted average' };
+    chip = makeScoreChip(isFinite(v) ? v : null, { bucketOverride, labelPrefix: 'Total score' });
+  } else if (typeof mode === 'string' && mode.startsWith('person:')) {
+    const personName = mode.slice('person:'.length);
+    const totals = item.metrics && item.metrics.personTotals ? item.metrics.personTotals : null;
+    const score = totals && typeof totals[personName] !== 'undefined' ? Number(totals[personName]) : NaN;
+    const labelPrefix = personName ? `${personName} total` : 'Person total';
+    chip = makeScoreChip(Number.isFinite(score) ? score : null, { labelPrefix });
   }
   return chip;
 }
@@ -123,6 +130,12 @@ export function buildTreeRow(item, ctx) {
   row.dataset.iso = isoCode || '';
   row.dataset.type = item.type || '';
 
+  let chipWrap = null;
+  try {
+    chipWrap = buildTreeNodeChip(item);
+  } catch {}
+  if (chipWrap) row.appendChild(chipWrap);
+
   if (isoCode) {
     const img = createFlagImg(isoCode, 18);
     if (img) row.appendChild(img);
@@ -132,11 +145,6 @@ export function buildTreeRow(item, ctx) {
   nameSpan.className = 'name';
   nameSpan.textContent = item.name;
   row.appendChild(nameSpan);
-
-  try {
-    const chipWrap = buildTreeNodeChip(item);
-    if (chipWrap) row.appendChild(chipWrap);
-  } catch {}
 
   row.addEventListener('click', () => {
     toggleSelectNode(item, notice);
