@@ -211,12 +211,26 @@ export function openWeightsDialog(mainData) {
   try { dlg.showModal(); } catch { try { dlg.show(); } catch {} }
 }
 
+function allowLoadingIndicatorPaint() {
+  return new Promise(resolve => {
+    if (typeof window !== 'undefined' && typeof window.requestAnimationFrame === 'function') {
+      window.requestAnimationFrame(() => {
+        // Use a timeout to ensure the frame is committed before heavy work.
+        setTimeout(resolve, 0);
+      });
+    } else {
+      setTimeout(resolve, 0);
+    }
+  });
+}
+
 export async function afterWeightsChanged(mainData) {
   const listEl = document.getElementById('countryList');
   const notice = document.getElementById('notice');
   let refreshed = false;
   showLoadingIndicator('Updating report with new weights…');
   try {
+    await allowLoadingIndicatorPaint();
     await applyCountrySort(mainData, listEl, notice);
     onSelectionChanged(mainData, notice);
     refreshed = true;
