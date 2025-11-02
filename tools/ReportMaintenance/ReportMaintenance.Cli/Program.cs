@@ -4,6 +4,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using OpenTelemetry.Logs;
+using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
 using ReportMaintenance.Configuration;
 using ReportMaintenance.OpenAI;
 using ReportMaintenance.Services;
@@ -25,7 +28,28 @@ builder.Services.AddLogging(logging =>
         options.SingleLine = true;
         options.TimestampFormat = "HH:mm:ss ";
     });
+
+    logging.AddOpenTelemetry(options =>
+    {
+        options.IncludeFormattedMessage = true;
+        options.ParseStateValues = true;
+        options.IncludeScopes = true;
+        options.AddConsoleExporter();
+    });
 });
+
+builder.Services.AddOpenTelemetry()
+    .ConfigureResource(resource => resource.AddService("ReportMaintenance.Cli"))
+    .WithTracing(tracerProviderBuilder =>
+    {
+        tracerProviderBuilder
+            .AddSource(OpenAITelemetry.ActivitySourceName)
+            .AddHttpClientInstrumentation(options =>
+            {
+                options.RecordException = true;
+            })
+            .AddConsoleExporter();
+    });
 
 builder.Services.AddSingleton<IReportRepository, FileReportRepository>();
 builder.Services.AddSingleton<IRatingGuideProvider, RatingGuideProvider>();
