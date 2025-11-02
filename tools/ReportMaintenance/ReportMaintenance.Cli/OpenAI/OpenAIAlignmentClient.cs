@@ -1,5 +1,5 @@
+using System.Diagnostics;
 using System.Linq;
-using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
 using Microsoft.Extensions.Logging;
@@ -9,6 +9,13 @@ using ReportMaintenance.Data;
 using ReportMaintenance.Services;
 
 namespace ReportMaintenance.OpenAI;
+
+public static class OpenAITelemetry
+{
+    public const string ActivitySourceName = "ReportMaintenance.OpenAI.OpenAIAlignmentClient";
+
+    public static readonly ActivitySource ActivitySource = new(ActivitySourceName);
+}
 
 public sealed record AlignmentSuggestion(int AlignmentValue, string AlignmentText, bool? SameAsParent, string RawResponse);
 
@@ -55,14 +62,46 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
 
         for (var attempt = 1; attempt <= Math.Max(1, _options.MaxRetryCount); attempt++)
         {
-            using var requestMessage = CreateRequestMessage(prompt);
+            using var activity = OpenAITelemetry.ActivitySource.StartActivity("GenerateSuggestion", ActivityKind.Client);
+            activity?.SetTag("http.method", HttpMethod.Post.Method);
+            activity?.SetTag("ai.system", "openai");
+            activity?.SetTag("ai.model", _options.Model);
+            activity?.SetTag("report.entry_key", entry.Key);
+
+            using var requestMessage = CreateRequestMessage(prompt, out var requestBody);
+            var requestUri = requestMessage.RequestUri?.IsAbsoluteUri == true
+                ? requestMessage.RequestUri
+                : (_httpClient.BaseAddress is not null && requestMessage.RequestUri is not null
+                    ? new Uri(_httpClient.BaseAddress, requestMessage.RequestUri)
+                    : requestMessage.RequestUri);
+
+            if (requestUri is not null)
+            {
+                activity?.SetTag("http.url", requestUri.ToString());
+            }
+
+            activity?.AddEvent(new ActivityEvent("http.request", tags: new ActivityTagsCollection
+            {
+                { "http.request.body", requestBody }
+            }));
+
+            _logger.LogInformation("OpenAI request for {Key}: {Body}", entry.Key, requestBody);
+
             using var response = await _httpClient.SendAsync(requestMessage, cancellationToken);
             var body = await response.Content.ReadAsStringAsync(cancellationToken);
+            activity?.SetTag("http.status_code", (int)response.StatusCode);
+            activity?.AddEvent(new ActivityEvent("http.response", tags: new ActivityTagsCollection
+            {
+                { "http.response.body", body }
+            }));
+
+            _logger.LogInformation("OpenAI response for {Key}: {Body}", entry.Key, body);
 
             if (response.IsSuccessStatusCode)
             {
                 var suggestion = ParseResponse(body, entry.Key);
                 await TrySetCachedSuggestionAsync(cacheKey, suggestion, entry.Key, cancellationToken).ConfigureAwait(false);
+                activity?.SetStatus(ActivityStatusCode.Ok);
                 return suggestion;
             }
 
@@ -70,17 +109,19 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
             {
                 var delay = TimeSpan.FromSeconds(Math.Pow(2, attempt));
                 _logger.LogWarning("OpenAI request for {Key} failed with status {StatusCode}. Retrying in {Delay}.", entry.Key, (int)response.StatusCode, delay);
+                activity?.SetStatus(ActivityStatusCode.Error, $"Retrying due to status {(int)response.StatusCode}");
                 await Task.Delay(delay, cancellationToken);
                 continue;
             }
 
+            activity?.SetStatus(ActivityStatusCode.Error, $"Request failed: {(int)response.StatusCode}");
             throw new HttpRequestException($"OpenAI request failed: {response.StatusCode} {body}");
         }
 
         throw new HttpRequestException("OpenAI request failed after retries.");
     }
 
-    private HttpRequestMessage CreateRequestMessage(string prompt)
+    private HttpRequestMessage CreateRequestMessage(string prompt, out string requestBody)
     {
         var message = new HttpRequestMessage(HttpMethod.Post, "chat/completions");
         message.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _options.ApiKey);
@@ -97,7 +138,8 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
             }
         };
 
-        message.Content = JsonContent.Create(payload);
+        requestBody = JsonSerializer.Serialize(payload);
+        message.Content = new StringContent(requestBody, Encoding.UTF8, "application/json");
         return message;
     }
 
