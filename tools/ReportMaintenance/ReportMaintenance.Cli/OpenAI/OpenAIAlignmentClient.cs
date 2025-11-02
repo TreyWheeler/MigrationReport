@@ -135,6 +135,7 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
         sb.AppendLine("Instructions:");
         sb.AppendLine("- Choose an alignmentValue from 0-10 that best aligns with the family profile and rating guide.");
         sb.AppendLine("- Provide a concise alignmentText tailored to the family, referencing local details for the report city/country.");
+        sb.AppendLine("- Keep alignmentText under 160 characters (roughly two short sentences).");
         sb.AppendLine("- Include sameAsParent only when the child location inherits content without change.");
         sb.AppendLine("Respond with JSON: {\"alignmentValue\": number, \"alignmentText\": string, \"sameAsParent\": boolean?}.");
 

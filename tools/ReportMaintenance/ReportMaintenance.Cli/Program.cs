@@ -55,13 +55,19 @@ categoryOption.AddAlias("--Category");
 categoryOption.AddAlias("-Category");
 categoryOption.AddAlias("-c");
 
+var startPrefixOption = new Option<string?>(name: "--start-prefix", description: "Resume when report file names reach this prefix (case-insensitive).");
+startPrefixOption.AddAlias("--StartPrefix");
+startPrefixOption.AddAlias("-StartPrefix");
+startPrefixOption.AddAlias("-s");
+
 updateReportsCommand.AddOption(categoryOption);
-updateReportsCommand.SetHandler(async (string? category) =>
+updateReportsCommand.AddOption(startPrefixOption);
+updateReportsCommand.SetHandler(async (string? category, string? startPrefix) =>
 {
     using var scope = host.Services.CreateScope();
     var service = scope.ServiceProvider.GetRequiredService<ReportUpdateService>();
-    await service.UpdateAllReportsAsync(category);
-}, categoryOption);
+    await service.UpdateAllReportsAsync(category, startPrefix);
+}, categoryOption, startPrefixOption);
 
 var reportOption = new Option<string>(name: "--report", description: "Report file name without extension (e.g., canada_report).");
 reportOption.AddAlias("--Report");
