@@ -9,4 +9,12 @@ public sealed class ReportMaintenanceOptions
     public string FamilyProfilePath { get; set; } = "family_profile.json";
 
     public string? ContextCachePath { get; set; }
+
+    public int MaxConcurrentReports { get; set; } = 2;
+
+    public int MaxConcurrentEntries { get; set; } = 4;
+
+    public string CategoryKeysPath { get; set; } = "data/category_keys.json";
+
+    public string CategoriesPath { get; set; } = "data/categories.json";
 }

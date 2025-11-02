@@ -1,7 +1,9 @@
 using System.CommandLine;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using ReportMaintenance.Configuration;
 using ReportMaintenance.OpenAI;
 using ReportMaintenance.Services;
@@ -30,6 +32,17 @@ builder.Services.AddSingleton<IRatingGuideProvider, RatingGuideProvider>();
 builder.Services.AddSingleton<IFamilyProfileProvider, FamilyProfileProvider>();
 builder.Services.AddSingleton<ReportContextFactory>();
 builder.Services.AddSingleton<ReportUpdateService>();
+builder.Services.AddSingleton<ICategoryKeyProvider, CategoryKeyProvider>();
+builder.Services.AddSingleton<IAlignmentSuggestionCache>(sp =>
+{
+    var options = sp.GetRequiredService<IOptions<ReportMaintenanceOptions>>().Value;
+    if (string.IsNullOrWhiteSpace(options.ContextCachePath))
+    {
+        return NoopAlignmentSuggestionCache.Instance;
+    }
+
+    return ActivatorUtilities.CreateInstance<FileAlignmentSuggestionCache>(sp);
+});
 builder.Services.AddHttpClient<IOpenAIAlignmentClient, OpenAIAlignmentClient>();
 
 using var host = builder.Build();
@@ -37,12 +50,18 @@ using var host = builder.Build();
 var rootCommand = new RootCommand("CLI utilities for updating migration reports with SOP-aligned automation.");
 
 var updateReportsCommand = new Command("UpdateReports", "Update every report JSON file using OpenAI suggestions.");
-updateReportsCommand.SetHandler(async () =>
+var categoryOption = new Option<string?>(name: "--category", description: "Restrict updates to a category (ID or name) or single entry key.");
+categoryOption.AddAlias("--Category");
+categoryOption.AddAlias("-Category");
+categoryOption.AddAlias("-c");
+
+updateReportsCommand.AddOption(categoryOption);
+updateReportsCommand.SetHandler(async (string? category) =>
 {
     using var scope = host.Services.CreateScope();
     var service = scope.ServiceProvider.GetRequiredService<ReportUpdateService>();
-    await service.UpdateAllReportsAsync();
-});
+    await service.UpdateAllReportsAsync(category);
+}, categoryOption);
 
 var reportOption = new Option<string>(name: "--report", description: "Report file name without extension (e.g., canada_report).");
 reportOption.AddAlias("--Report");
@@ -51,12 +70,13 @@ reportOption.IsRequired = true;
 
 var updateReportCommand = new Command("UpdateReport", "Update a single report JSON file using OpenAI suggestions.");
 updateReportCommand.AddOption(reportOption);
-updateReportCommand.SetHandler(async (string reportName) =>
+updateReportCommand.AddOption(categoryOption);
+updateReportCommand.SetHandler(async (string reportName, string? category) =>
 {
     using var scope = host.Services.CreateScope();
     var service = scope.ServiceProvider.GetRequiredService<ReportUpdateService>();
-    await service.UpdateReportAsync(reportName);
-}, reportOption);
+    await service.UpdateReportAsync(reportName, category);
+}, reportOption, categoryOption);
 
 rootCommand.AddCommand(updateReportsCommand);
 rootCommand.AddCommand(updateReportCommand);

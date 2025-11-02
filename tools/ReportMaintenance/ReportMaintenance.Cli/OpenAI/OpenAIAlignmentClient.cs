@@ -22,16 +22,19 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
     private readonly HttpClient _httpClient;
     private readonly OpenAIOptions _options;
     private readonly ILogger<OpenAIAlignmentClient> _logger;
+    private readonly IAlignmentSuggestionCache _cache;
 
-    public OpenAIAlignmentClient(HttpClient httpClient, IOptions<OpenAIOptions> options, ILogger<OpenAIAlignmentClient> logger)
+    public OpenAIAlignmentClient(HttpClient httpClient, IOptions<OpenAIOptions> options, ILogger<OpenAIAlignmentClient> logger, IAlignmentSuggestionCache cache)
     {
         _httpClient = httpClient;
         _options = options.Value;
         _logger = logger;
+        _cache = cache ?? NoopAlignmentSuggestionCache.Instance;
 
         if (!string.IsNullOrWhiteSpace(_options.BaseUrl))
         {
-            _httpClient.BaseAddress = new Uri(_options.BaseUrl.TrimEnd('/'));
+            var normalizedBase = _options.BaseUrl!.TrimEnd('/') + "/";
+            _httpClient.BaseAddress = new Uri(normalizedBase);
         }
     }
 
@@ -43,6 +46,12 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
         }
 
         var prompt = BuildPrompt(context, entry);
+        var cacheKey = AlignmentSuggestionCacheKey.Create(prompt);
+
+        if (await TryGetCachedSuggestionAsync(cacheKey, entry.Key, cancellationToken).ConfigureAwait(false) is { } cachedSuggestion)
+        {
+            return cachedSuggestion;
+        }
 
         for (var attempt = 1; attempt <= Math.Max(1, _options.MaxRetryCount); attempt++)
         {
@@ -52,7 +61,9 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
 
             if (response.IsSuccessStatusCode)
             {
-                return ParseResponse(body, entry.Key);
+                var suggestion = ParseResponse(body, entry.Key);
+                await TrySetCachedSuggestionAsync(cacheKey, suggestion, entry.Key, cancellationToken).ConfigureAwait(false);
+                return suggestion;
             }
 
             if (IsRetryable(response.StatusCode) && attempt < _options.MaxRetryCount)
@@ -204,4 +215,45 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
 
     private static bool IsRetryable(System.Net.HttpStatusCode statusCode) =>
         statusCode == System.Net.HttpStatusCode.TooManyRequests || (int)statusCode >= 500;
+
+    private async Task<AlignmentSuggestion?> TryGetCachedSuggestionAsync(string cacheKey, string entryKey, CancellationToken cancellationToken)
+    {
+        if (_cache is NoopAlignmentSuggestionCache)
+        {
+            return null;
+        }
+
+        try
+        {
+            var suggestion = await _cache.GetAsync(cacheKey, cancellationToken).ConfigureAwait(false);
+            if (suggestion is not null)
+            {
+                _logger.LogInformation("Using cached suggestion for {Key}.", entryKey);
+            }
+
+            return suggestion;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogWarning(ex, "Failed to read cached suggestion for {Key}. Falling back to OpenAI.", entryKey);
+            return null;
+        }
+    }
+
+    private async Task TrySetCachedSuggestionAsync(string cacheKey, AlignmentSuggestion suggestion, string entryKey, CancellationToken cancellationToken)
+    {
+        if (_cache is NoopAlignmentSuggestionCache)
+        {
+            return;
+        }
+
+        try
+        {
+            await _cache.SetAsync(cacheKey, suggestion, cancellationToken).ConfigureAwait(false);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogWarning(ex, "Failed to persist cached suggestion for {Key}.", entryKey);
+        }
+    }
 }
