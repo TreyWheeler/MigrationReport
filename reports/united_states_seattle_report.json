@@ -4,990 +4,1222 @@
   "values": [
     {
       "key": "Environment",
-      "alignmentText": "Seattle's evergreens, Puget Sound views, and strict stormwater rules keep neighborhoods lush, though industrial SoDo corridors still need air monitoring.",
+      "alignmentText": "Seattle\u0027s green spaces and Puget Sound views support outdoor life; SoDo industry brings occasional air alerts, so monitor air quality.",
       "alignmentValue": 7
     },
     {
       "key": "Global Warming Risk",
-      "alignmentText": "Climate models warn of more wildfire smoke and king tide flooding, yet Seattle remains safer than many U.S. metros if we plan for air-quality disruptions.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s climate remains mild, but smoke from summer wildfires and king-tide flooding require planning; with adaptation, risk stays manageable.",
+      "alignmentValue": 6
     },
     {
       "key": "Seasonal Weather",
-      "alignmentText": "Cool summers and drizzly winters give long stretches of mild temps, though the grey season can feel endless without sunlight lamps.",
-      "alignmentValue": 7
+      "alignmentText": "Seattle\u0027s seasons are mild and damp: cool, rainy winters and temperate summers. Plan for rain gear and light exposure during grey months.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Air Quality",
-      "alignmentText": "Most of the year PM2.5 stays near 8 µg/m³, but August wildfire smoke from Eastern Washington can send AQI above 150, so we'd keep filters ready.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle air is generally good; PM2.5 near 8 \u00B5g/m\u00B3, but Aug wildfire smoke can push AQI above 150\u2014keep portable filters handy.",
+      "alignmentValue": 8
     },
     {
       "key": "Natural Disasters",
-      "alignmentText": "Seattle avoids hurricanes but lives with Cascadia earthquake risk, lahar evacuation routes, and occasional ice storms that can knock out power.",
-      "alignmentValue": 4
+      "alignmentText": "Seattle faces Cascadia quake risk; Mt. Rainier lahar routes and ice outages can hit power; preparedness kits needed, but major events are rare.",
+      "alignmentValue": 7
     },
     {
       "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "March–May highs climb from 12 °C (54 °F) to 18 °C (65 °F) with light rain and cherry blossoms, ideal for park outings in layers.",
+      "alignmentText": "Seattle spring: highs around 12\u201318\u00B0C (54\u201365\u00B0F) with showers; mild afternoons, so expect wardrobe changes and layers.",
       "alignmentValue": 7
     },
     {
       "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Typical highs stay near 24 °C (75 °F) with low humidity; occasional heat waves hit 32 °C (90 °F) but cool off overnight by the water.",
-      "alignmentValue": 7
+      "alignmentText": "Seattle summers in the US are mild: typical highs around 24-28 C with cool nights; rare heat spikes to 32 C, water cooling helps.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "September offers crisp 20 °C (68 °F) days before rain returns and highs dip toward 12 °C (54 °F) by November.",
-      "alignmentValue": 7
+      "alignmentText": "Seattle fall is mild (12-20\u00B0C / 54-68\u00B0F) with sweater-weather days; expect occasional rain showers and clouds.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "Winters hover around 2–8 °C (36–46 °F); snow is rare but wet cold and short daylight require cozy indoor plans.",
-      "alignmentValue": 6
+      "alignmentText": "Seattle winters are mild (roughly 2\u20138\u00B0C); snow is rare and roads stay clear, with short days encouraging cozy indoor plans.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Beach Life",
-      "alignmentText": "Alki and Golden Gardens offer pebbly beaches with cold Puget Sound water—great for bonfires and tidepools rather than warm swims.",
-      "alignmentValue": 5
+      "alignmentText": "Alki and Golden Gardens are close for family outings, but Puget Sound water stays chilly and shade is limited\u2014plan with supervision.",
+      "alignmentValue": 6
     },
     {
       "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Seattle waters are cool most of the year (18-20 C / 64-68 F); extended swims need gear like wetsuits or heated pools.",
+      "alignmentValue": 5,
       "sameAsParent": true
     },
     {
       "key": "Natural Beauty",
-      "alignmentText": "Ferries to the San Juans, day trips to Olympic National Park, and Mount Rainier hikes keep world-class scenery within two hours.",
-      "alignmentValue": 10
+      "alignmentText": "World-class scenery around Seattle: Mount Rainier, Olympic NP, and Puget Sound islands are within reach; varied trails suit families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Minimum Wage",
-      "alignmentText": "Seattle's 2024 minimum wage sits around $19/hour, supporting service workers better than most U.S. cities though housing still strains budgets.",
+      "alignmentText": "Seattle minimum wage around $19/hr; helps cover basics for a two-adult family, but housing costs still strain budgets.",
       "alignmentValue": 7
     },
     {
       "key": "Typical Software Salaries",
-      "alignmentText": "Amazon, Microsoft, and Google routinely offer $170k–$220k total comp for senior engineers, keeping Trey and Sarah well above local medians.",
-      "alignmentValue": 9
+      "alignmentText": "Seattle senior software pay around $170k-$220k total comp, keeping Trey and Sarah above medians in Seattle, WA.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": ".NET Work Prospects",
-      "alignmentText": "Microsoft's Redmond campus anchors .NET demand, with AWS, Expedia, and healthcare systems hiring C# teams nonstop.",
-      "alignmentValue": 9
+      "alignmentText": "Seattle/Redmond area shows strong .NET demand (Microsoft, enterprise startups); visa sponsorship common; robust remote options support Trey/Sarah.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "Ruby Work Prospects",
-      "alignmentText": "Seattle's startup scene and consultancies like Substantial still use Ruby, though opportunities are fewer than for JavaScript or cloud roles.",
+      "alignmentText": "Seattle\u0027s Ruby market is moderate; many roles are maintenance-focused, with stronger growth in JS/cloud and remote options for the family.",
       "alignmentValue": 6
     },
     {
       "key": "Employer Visa Sponsorship",
+      "alignmentText": "Seattle, WA (US) offers strong tech jobs; as US citizens, sponsorship isn\u0027t needed, focus on local roles and remote options.",
+      "alignmentValue": 1,
       "sameAsParent": true
     },
     {
       "key": "Economic Health",
+      "alignmentText": "Seattle\u0027s resilient tech economy offers strong job prospects for Trey and Sarah; growth is solid, but housing costs and living expenses are high.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Remote-Friendly Culture",
-      "alignmentText": "West Coast tech embraces hybrid-first policies; it's easy to secure remote roles with occasional Seattle office visits.",
+      "alignmentText": "Seattle\u0027s hybrid/remote tech culture fits Trey and Sarah; distributed teams and coworking keep isolation low.",
       "alignmentValue": 9
     },
     {
       "key": "Work-Life Balance",
+      "alignmentText": "8: Seattle tech culture favors flexible hours and recovery time, with strong remote options; startups may bring crunch, but family balance is valued.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Work Week Hours",
+      "alignmentText": "Seattle, WA typically 40-hour weeks; remote/hybrid options support family balance, with occasional crunches offset by leave.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Vacation Days (Minimum)",
+      "alignmentText": "Seattle, WA: No statutory vacation days; PTO varies by employer. WA PFML offers paid family leave, not vacation.",
+      "alignmentValue": 3,
       "sameAsParent": true
     },
     {
       "key": "Vacation Days (Typical)",
+      "alignmentText": "In Seattle, typical leave is 25-29 days with downtime encouraged, matching your family\u0027s work-life balance and travel plans.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Pace of Life",
-      "alignmentText": "Seattle balances a tech hustle with outdoorsy weekends; traffic can spike but neighborhoods like Ballard or West Seattle keep a calmer rhythm.",
-      "alignmentValue": 6
+      "alignmentText": "Seattle blends tech hustle with outdoorsy weekends. Ballard and West Seattle offer a calmer rhythm, but rush-hour traffic can spike.",
+      "alignmentValue": 7
     },
     {
       "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Schools run 08:55–15:25; big tech often expects 10:00–18:00 overlap with other time zones, so we'd rely on after-school STEM clubs or flexible hours.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle schools typically end around 15:15\u201315:40; hybrid tech roles and after-school programs cover gaps with mild juggling.",
+      "alignmentValue": 8
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Seattle weekends offer many family-friendly options, parks, and walkable neighborhoods. Mix spontaneous outings with a few reservations for popular venues.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Family Life",
+      "alignmentText": "Seattle, USA offers strong family networks, parks, and schools. However, childcare waitlists and high housing costs require proactive planning.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Polyamory",
+      "alignmentText": "Seattle, WA shows high social tolerance for polyamory. Legal recognition remains limited in the US.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Parenting Expectations",
+      "alignmentText": "Seattle, WA parenting norms favor shared caregiving and flexibility. Schools provide empathetic guidance and supportive, nonjudgmental communities.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Child-Friendliness of Cities",
+      "alignmentText": "Seattle (US) is generally kid-friendly with parks and good schools; expect higher housing costs but strong transit and family-focused neighborhoods.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Schooling Options",
+      "alignmentText": "Seattle, WA offers public, private, and language-immersion options, with bilingual programs. Early education is accessible and transfers are workable.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Seattle offers strong, subsidized pre-K/early care options. Top centers fill quickly, so plan early and seek bilingual slots if needed.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Childcare Support (Citizens)",
-      "alignmentText": "Washington's Working Connections Child Care subsidy helps lower-income families, but middle-income parents still face $1,500+ monthly daycare bills.",
-      "alignmentValue": 3
+      "alignmentText": "Seattle, WA: subsidies help low-income families, but middle-income households still pay high childcare costs with limited coverage.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "Visa holders qualify for subsidies only after residency proofs and income tests; expect to pay market rates while paperwork processes.",
-      "alignmentValue": 2
+      "alignmentText": "In Seattle, WA, U.S. citizens can access childcare subsidies if income qualifies; expect paperwork and residency checks but options exist.",
+      "alignmentValue": 8
     },
     {
       "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Seattle, WA offers broad public K-12 access; top schools may use lotteries or zoning; bilingual/ELL support exists.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "Seattle, WA, US: Public K-12 enrollment for citizens is seamless; visa-holder hurdles do not apply.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Private Education",
+      "alignmentText": "Seattle has strong private schools but with premium tuition; given the emphasis on quality public schools, private options are optional but available.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Family Policy (Citizens)",
+      "alignmentText": "Seattle, WA, USA: Washington state offers paid family leave and childcare subsidies, but benefits cap and non-universal healthcare limit reach.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Seattle, WA offers broad family supports; for this US-citizen family, benefits mirror those of citizens from day one.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Seattle, WA offers accessible public universities with scholarships. However, living costs require careful planning for your kids\u0027 education.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "Seattle-area universities offer solid international student support; some aid exists, but non-citizens still pay higher tuition.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Gender Roles",
+      "alignmentText": "In Seattle, US, gender roles are highly egalitarian. Both parents participate in caregiving and work, reflecting urban progressive norms.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Gender Fluidity",
+      "alignmentText": "Seattle, WA enjoys strong protections and robust LGBTQ\u002B support; some state docs still lag behind local acceptance.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Gender Rights",
+      "alignmentText": "Seattle, WA: strong gender rights protections with active enforcement; LGBTQ\u002B inclusion is widely supported in law and culture.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Femininity Norms",
+      "alignmentText": "Seattle, US broadly accepts diverse femininity across styles and careers. Its progressive, inclusive culture supports nonconforming identities and family choices.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Masculinity Norms",
+      "alignmentText": "Seattle, WA, USA shows broad, inclusive masculinity norms; Trey and Sarah share parenting, reflecting the city\u0027s progressive, family-friendly culture.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "What Is Intriguing",
+      "alignmentText": "Seattle\u0027s tech legacy and vibrant, family-friendly culture offer frequent surprises. It\u0027s a great fit for Azure access, game dev, and strong schools.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Language & English Ubiquity",
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "Seattle, WA has high English fluency for daily life. Translation apps are rarely needed except on rural trips.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Progressivism",
+      "alignmentText": "Seattle\u0027s progressive, tech-driven culture aligns with the family\u0027s values and equity. Seattle offers work-life balance and strong community ties.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Seattle, USA\u0027s progressive climate welcomes Marxist voices in activism and academia, while policy remains moderate; pluralistic debate suits the family.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Atheism",
+      "alignmentText": "Seattle, WA, USA has a strong secular culture. Atheists enjoy broad acceptance and easy access to secular institutions.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Sex (Attitudes)",
+      "alignmentText": "Seattle, USA: sex education is comprehensive and inclusive in schools; LGBTQ\u002B-friendly resources are accessible.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
-      "key": "LGBTQ+ Attitudes",
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "In Seattle, WA, USA, LGBTQ\u002B protections are strong and services inclusive. Acceptance is widespread in public life.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Community Vibes",
-      "sameAsParent": true
+      "alignmentText": "Seattle\u0027s welcoming, family-friendly neighborhoods and strong mutual-aid networks would help this Kansas City family quickly feel at home.",
+      "alignmentValue": 9
     },
     {
       "key": "View of self",
+      "alignmentText": "US self-view: 9. Seattle\u0027s liberal, pluralistic culture values democracy while acknowledging flaws and pursuing reform.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "View of Neighboring Countries",
+      "alignmentText": "Seattle\u0027s proximity to Canada means friendly neighbor relations and easy cross-border travel; cultural exchange is celebrated.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "View of Them by Neighboring Countries",
+      "alignmentText": "In Seattle, the U.S. is viewed positively by neighbors; strong Canada/Mexico ties support travel and trade, with some policy disagreements.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Nightlife Culture",
-      "sameAsParent": true
+      "alignmentText": "Seattle nightlife exists in districts like Capitol Hill. With young kids, plan sitters and transport; late options can be limited.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Fashion Trends (Male)",
+      "alignmentText": "Seattle\u0027s urban tech scene favors casual, expressive male fashion. Creative styling fits without stigma; comfort and practicality rule.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Fashion Trends (Female)",
+      "alignmentText": "Seattle, US has a diverse, body-positive fashion scene. Women here enjoy broad style freedom and individual expression.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Common Hobbies",
+      "alignmentText": "Seattle offers a vibrant hobby scene: board game caf\u00E9s, climbing gyms, and game-dev groups. It matches the family\u0027s interests and eases social ties.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Boardgaming & Tabletop",
-      "sameAsParent": true
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "Seattle, USA has regular board game nights and friendly shops; family-friendly venues like Mox Boarding House support gaming with kids.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
-      "key": "Nightlife & Music",
-      "alignmentText": "Capitol Hill clubs, Belltown jazz bars, and the Seattle Symphony offer varied nightlife with a creative lean.",
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Seattle nightlife is strong and family-friendly, with Capitol Hill clubs, Belltown venues, and the Seattle Symphony; seasonal niche acts appear.",
       "alignmentValue": 8
     },
     {
-      "key": "Meetups & Communities",
-      "sameAsParent": true
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "Seattle\u0027s vibrant, inclusive meetup scene covers tech, parenting, and culture with easy access. Welcoming venues help this family network fast.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "Nature Access",
-      "alignmentText": "Kayaking on Lake Union, skiing at Snoqualmie, and backpacking in the Cascades keep world-class nature minutes away.",
-      "alignmentValue": 10
+      "alignmentText": "Nature access is abundant within an hour in Seattle; quick drives or transit to Discovery Park, Mount Si, and the Cascades suit families.",
+      "alignmentValue": 9
     },
     {
       "key": "Political System",
+      "alignmentText": "Seattle sits in a stable US democracy with open civic channels. Reforms occur through elections and public participation.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Religion in Politics",
+      "alignmentText": "Religion in politics in Seattle: largely secular; policy stays evidence-based and pluralistic, while religion influences culture but not law.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Workers' Rights",
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "Seattle, WA offers strong worker protections and a high minimum wage, aiding family work life. Gig rules still lag in some areas.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "State Ideology",
-      "sameAsParent": true
+      "alignmentText": "Seattle, WA, United States leans progressive with strong civil rights. It emphasizes evidence-based policy and inclusive communities that fit your family.",
+      "alignmentValue": 9
     },
     {
       "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Seattle, USA remains a healthy democracy with independent courts and media. Vigilant civic culture among progressives guards civil liberties.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "State of Capitalism",
-      "sameAsParent": true
+      "alignmentText": "Seattle\u0027s dynamic, regulated market fosters startups with grants and visas, balancing innovation with safeguards against inequality.",
+      "alignmentValue": 9
     },
     {
       "key": "Stability",
+      "alignmentText": "US stability is high and predictable. Seattle benefits from strong institutions and civil rights protections, despite occasional protests.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Propaganda Prevalence",
-      "sameAsParent": true
+      "alignmentText": "Seattle, WA offers pluralistic media; watchdogs debunk spins quickly, supporting balanced civic discourse.",
+      "alignmentValue": 9
     },
     {
       "key": "Propaganda Messaging",
+      "alignmentText": "Seattle, WA, US messaging should center shared wellbeing with factual information. Favor pluralistic, independent media and minimal propaganda.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Social Policies",
+      "alignmentText": "Seattle, WA offers strong safety nets (Medicaid, childcare subsidies, paid leave). Access varies and housing costs remain a challenge for families.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Trust in Government",
+      "alignmentText": "Seattle-area trust in local government is solid for services. Transparency helps families, though some agencies vary by region.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Perceived Corruption",
+      "alignmentText": "Perceived corruption in Seattle, US is low. Strong watchdogs and investigations help keep government trustworthy.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Type of Corruption",
-      "sameAsParent": true
+      "alignmentText": "In Seattle, US, corruption is low and well-policed; robust oversight keeps issues to isolated cases.",
+      "alignmentValue": 10
     },
     {
       "key": "Housing Situation",
-      "alignmentText": "Median three-bedroom rents top $3,200 and bidding wars remain common in walkable neighborhoods like Capitol Hill or Queen Anne.",
-      "alignmentValue": 3
+      "alignmentText": "Seattle 3BR rents top $3.2k with bid wars in walkable areas; family-friendly options exist, but the hunt is competitive.",
+      "alignmentValue": 7
     },
     {
-      "key": "Safety & Crime",
-      "alignmentText": "Violent crime is moderate but property crime and car break-ins are frequent; we'd invest in secure parking and home security.",
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "In Seattle, violent crime is not extreme but property crime and car break-ins occur in some neighborhoods; invest in secure parking and home security.",
       "alignmentValue": 5
     },
     {
       "key": "Healthcare (Citizens)",
-      "sameAsParent": true
+      "alignmentText": "Seattle, US: healthcare is strong in urban WA but not universal; rely on private or employer plans with some costs and insurance navigation.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Healthcare (Visa Holders)",
+      "alignmentText": "In Seattle, visa families can get care but with extra paperwork and costs; private insurance or employer plans are common in WA.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Child Care Support",
+      "alignmentText": "Seattle has WA childcare subsidies and strong networks. Costs are high, so proactive planning helps secure reliable care.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Family Policy (Common Family)",
+      "alignmentText": "Seattle, WA (US): solid education and state paid leave aid families, but no universal healthcare and costly housing limit overall relief.",
+      "alignmentValue": 6,
       "sameAsParent": true
     },
     {
       "key": "Education",
+      "alignmentText": "Seattle, WA-area public schools are strong with good early-child programs; language immersion options exist, though district variation.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "Link light rail expansion, RapidRide buses, and water taxis support car-light living, though late-night coverage and Eastside links remain limited.",
-      "alignmentValue": 7
+      "alignmentText": "Seattle\u0027s multi-modal transit (Link rail, ferries, buses) supports car-light living; weekends can be lighter, but family-friendly and walkable.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Economic System",
+      "alignmentText": "Seattle, USA has a dynamic mixed economy that fuels startups and grants, but bureaucracy and costs challenge families.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "How Taxes Are Handled",
-      "sameAsParent": true
+      "alignmentText": "Seattle, WA has no state income tax; federal filing is manageable with software, but complex rules and changes often require an accountant.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Seattle, WA has no state income tax; overall tax burden ~20% with strong public services for families.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Banking & Payments",
-      "sameAsParent": true
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "Seattle, US: Banking is modern and digital; easy account openings and cross-border tooling via fintech; strong consumer protections.",
+      "alignmentValue": 9
     },
     {
       "key": "Cost of Living (Optional)",
-      "alignmentText": "No state income tax helps, but high housing, childcare, and B&O taxes push Seattle budgets well above Midwestern levels.",
-      "alignmentValue": 4
+      "alignmentText": "Seattle\u0027s no state income tax helps, but housing and childcare remain costly; with two tech salaries, budgeting is doable but tight.",
+      "alignmentValue": 6
     },
     {
       "key": "Retirement (Citizens)",
+      "alignmentText": "Seattle, WA residents get basic retirement benefits; plan supplemental income via savings, with solid healthcare access through Medicare. Alignment: 7.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Retirement (Visa Holders)",
+      "alignmentText": "Seattle, WA: visa holders have limited state pension access. Private savings and employer plans are essential for long-term retirement.",
+      "alignmentValue": 6,
       "sameAsParent": true
     },
     {
       "key": "Visa Paths",
-      "sameAsParent": true
+      "alignmentText": "Seattle, US offers several visa routes (family-based and work) with clear criteria, though some require sponsorship or degrees.",
+      "alignmentValue": 8
     },
     {
       "key": "Welcoming of US Migrants",
+      "alignmentText": "Seattle, WA is welcoming to US migrants; diverse neighborhoods and inclusive services ease our family\u0027s integration.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Residency Types & Durations",
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "US citizenship makes Seattle residency almost automatic; no visa needed for living/working in WA.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Path to Citizenship",
+      "alignmentText": "US citizenship already held; no naturalization needed in Seattle, WA.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Family Members",
+      "alignmentText": "Seattle relocation is straightforward for US citizens. The entire family can live and work with no visa hurdles.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
-      "key": "Timelines & Costs",
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "Seattle relocation: US citizens can move quickly; expect 1-2 months to settle housing/childcare with transparent, modest upfront costs.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
-      "key": "Compliance & Risks",
-      "sameAsParent": true
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "Seattle, WA: compliance is manageable with standard guidelines; WA has no personal income tax, but stay on top of federal taxes and local permits.",
+      "alignmentValue": 8
     },
     {
       "key": "Dual Citizenship Allowed",
+      "alignmentText": "US policy: dual citizenship fully allowed; Seattle families can hold US and another passport without renunciation.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "General Considerations for Visa Holders",
+      "alignmentText": "Seattle, USA: as US citizens, visa rules apply minimally; near-equal rights, strong tech jobs, and solid protections for housing and work.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Game Dev Work Prospects",
-      "alignmentText": "Microsoft, Bungie, Valve, and numerous VR startups hire year-round, making Seattle one of the strongest U.S. hubs for Trey's skills.",
-      "alignmentValue": 9
+      "alignmentText": "Seattle, WA offers a deep game-dev ecosystem with Microsoft, Bungie, Valve and VR studios fueling steady opportunities for Trey.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Hiring Velocity (Established Studios)",
-      "alignmentValue": 9,
-      "alignmentText": "As noted in Game Dev Work Prospects, Microsoft, Bungie, Valve, and numerous VR startups hire year-round, making Seattle one of the strongest U.S. hubs for Trey's skills. Hiring velocity at established studios in Seattle moves quickly, often closing offers within a few weeks."
+      "alignmentText": "Seattle\u0027s established studios hire quickly; most roles close in 6-8 weeks. This aligns with Trey\u0027s game-dev focus and family-friendly Seattle.",
+      "alignmentValue": 9
     },
     {
       "key": "Compensation Benchmark (Established Studios)",
-      "alignmentValue": 9,
-      "alignmentText": "Compensation lands at the top of global ranges with premium base pay, bonuses, and stock. When opportunities surface in Seattle, established studios benchmark offers against peers across the ecosystem."
+      "alignmentText": "Seattle\u0027s established studios offer highly competitive compensation (base, bonuses, equity). A strong draw for international candidates in a tech-savvy, family-friendly city.",
+      "alignmentValue": 9
     },
     {
       "key": "Language (Established Studios)",
-      "alignmentValue": 9,
-      "alignmentText": "Established studios in Seattle rely on English for cross-border collaboration, while local-language fluency remains important for community, compliance, and platform partnerships."
+      "alignmentText": "Seattle studios operate primarily in English; bilingual support aids community, compliance, and local partnerships in the US.",
+      "alignmentValue": 9
     },
     {
       "key": "Remote Expectations (Established Studios)",
-      "alignmentValue": 9,
-      "alignmentText": "Remote expectations at established studios in Seattle are highly flexible, with distributed teams normalized and relocation optional."
+      "alignmentText": "Seattle studios typically offer hybrid/remote roles with formal policies, matching your family\u0027s need for flexibility and reliable broadband.",
+      "alignmentValue": 9
     },
     {
       "key": "Notable Game Studios",
-      "alignmentText": "Home to 343 Industries, Bungie, Valve, and indie darlings like Campo Santo's partners, Seattle concentrates AAA and indie talent.",
+      "alignmentText": "Seattle, WA hosts renowned AAA and indie studios (343, Bungie, Valve) with frequent events and strong hiring, aligning with your game/tech focus.",
       "alignmentValue": 10
     },
     {
       "key": "Notable Game Development Communities",
-      "sameAsParent": true
+      "alignmentText": "Seattle, WA offers a strong game dev scene: guilds, jams, mentor programs; many family-friendly meetups and events.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Seattle Indies Expo, Global Game Jam, and access to Xbox and Amazon grant programs support founders despite high burn rates.",
-      "alignmentValue": 8
+      "alignmentText": "Seattle has a strong game-dev ecosystem with DigiPen grads, Techstars Seattle, and Xbox/Amazon grants. This supports a family-run startup despite burn rates.",
+      "alignmentValue": 9
     },
     {
       "key": "Hiring Velocity (Startups)",
-      "alignmentValue": 8,
-      "alignmentText": "Startup founders report that Seattle Indies Expo, Global Game Jam, and access to Xbox and Amazon grant programs support founders despite high burn rates. Hiring velocity at early-stage studios in Seattle wraps searches within a month or two as pipelines stay active."
+      "alignmentText": "Seattle\u0027s startup scene stays active with events like Indies Expo and Game Jam, plus Xbox/Amazon grants. Hiring closes in 6\u20138 weeks for early-stage roles.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Compensation Benchmark (Startups)",
-      "alignmentValue": 8,
-      "alignmentText": "Compensation remains competitive with other major hubs, mixing solid base pay and performance bonuses. Early teams in Seattle balance cash and equity to stay competitive while managing runway."
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentValue": 8,
-      "alignmentText": "Founding teams in Seattle lean on English for investor and platform communication, while local-language fluency helps with hiring, compliance, and community outreach."
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentValue": 8,
-      "alignmentText": "Remote expectations among startups in Seattle are flexible for senior roles, with hybrid schedules common."
-    },
-    {
-      "key": "Modernity & Infrastructure",
-      "alignmentText": "Gigabit fiber, electrified buses, and SEA's international flights keep infrastructure modern, though road maintenance lags in some neighborhoods.",
+      "alignmentText": "Seattle-based startups offer pay near global medians after cost of living; expect balanced cash and equity for a family-friendly runway.",
       "alignmentValue": 8
     },
     {
-      "key": "Seasonal Extremes & Variability",
-      "alignmentText": "Frequent abrupt changes make certain months feel unstable with several days of hazardous conditions that push us indoors.",
-      "alignmentValue": 6
+      "key": "Language (Startups)",
+      "alignmentText": "Seattle startups run mainly in English. Local-language hiring helps engage WA communities and support compliance.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "Seattle startups favor hybrid work; most roles offer remote options with periodic onsite, matching this family\u0027s need for flexibility.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "Seattle has gigabit fiber, reliable power, and robust transit; outages are infrequent, making gaming and remote work smooth.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Seattle\u0027s mild, wet winters and cool summers bring a few stormy spells each season. Expect occasional rain and cold snaps; most months stay comfortable.",
+      "alignmentValue": 7
     },
     {
       "key": "Seasonal Sunlight Hours",
-      "alignmentText": "Deep winter gloom lasts several weeks, so we plan strict routines, supplements, and possible getaways to maintain morale.",
+      "alignmentText": "Seattle winters bring several weeks of gray gloom; we\u0027ll rely on routines, supplements, and occasional getaways to keep morale high.",
       "alignmentValue": 7
     },
     {
       "key": "Pleasant Weather Windows",
-      "alignmentText": "Roughly half the year is wonderful, half demands planning around heat, cold, or rain to enjoy time outside.",
-      "alignmentValue": 7
+      "alignmentText": "Seattle\u0027s summers are mild, but the rest of the year brings rain. Outdoor time often requires planning around showers.",
+      "alignmentValue": 6
     },
     {
-      "key": "Quality of Life – Lower-Income Tier",
-      "alignmentText": "High living costs erode quality of life; reliable childcare or healthcare coverage often falls through the cracks.",
-      "alignmentValue": 5
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "Seattle\u0027s high housing and childcare costs strain a two-adult, two-child household; savings and activities require extra support.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
-      "key": "Quality of Life – Middle-Income Tier",
-      "alignmentText": "We feel squeezed: decent neighborhoods or schools require long commutes or high costs that crowd out enrichment.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Quality of Life – Higher-Income Tier",
-      "alignmentText": "Luxury services are thin; wealth management and elite schooling often require another city.",
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "Seattle housing and childcare costs squeeze a middle-income family. Strong schools and services help, but budgets stay tight.",
       "alignmentValue": 4
     },
     {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "Seattle offers abundant premium amenities and strong schools; some elite services may require early booking or occasional travel.",
+      "alignmentValue": 8
+    },
+    {
       "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "Spacious rentals are rare; we likely settle for smaller homes or relocate to a different metro.",
-      "alignmentValue": 3
+      "alignmentText": "Seattle-area 2k sq ft rentals exist but are competitive; expect premium rents and broker help; prioritize family-friendly, walkable neighborhoods with strong schools.",
+      "alignmentValue": 6
     },
     {
       "key": "Community Living Opportunities",
+      "alignmentText": "Seattle area has a few reputable cohousing options with family-friendly programs; demand is high, so entry paths may require patience.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Friendliness & Neighborliness Index",
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "Seattle, WA: locals are polite and welcoming, but connections take time. Focus on family-friendly neighborhoods, parks, and parent groups to build ties.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Immigrant Sentiment – General",
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "Seattle, WA, USA is broadly welcoming to families like ours; strong immigrant support and inclusive policies, with occasional nationwide debates.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Immigrant Sentiment – White Migrants",
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "Seattle generally welcomes white migrants, but housing costs and gentrification prompt caution; engage with local communities to avoid aloof perceptions.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Surface Interaction Norms",
+      "alignmentText": "In Seattle, US, surface interactions are generally friendly and efficient. Strangers respond well when engaged, making errands feel smoother.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Depth-Seeking Social Norms",
+      "alignmentText": "Seattle, WA\u0027s inclusive scene and frequent meetups help newcomers form deep bonds through clubs, dinners, and hobby groups.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Personal Boundary & Bubble Norms",
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "Seattle\u0027s polite culture generally respects personal space; in crowded transit or events, brief closer contact occurs\u2014use clear, gentle boundary cues.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Moral, Honesty & Openness Expectations",
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "Seattle, USA values candid, empathetic dialogue. Inclusive communities address family concerns openly without shame.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
-      "key": "Grooming & Beauty Investment",
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "Seattle, USA\u0027s casual, tech-centric scene favors a gentle polish\u2014comfortable at home, presentable for meetings and social events.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
-      "key": "Body Image & Fitness Pressure",
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "Seattle, US: body image pressure is mild; inclusive fitness and body positivity are common, with respectful conversations.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Fashion & Style Expectations",
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "Seattle\u0027s casual, tech-forward culture favors practical, weather-ready outfits; smart-casual fits work and daily life for your family.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Flirting Boundaries & Consent Culture",
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "Seattle, US has strong consent culture; people check in and staff reinforce boundaries.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Gendered Flirting Expectations",
+      "alignmentText": "Seattle, US: gendered flirting is fluid and inclusive. Your progressive family fits well with the local open-minded culture.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "In Seattle, WA, poly-friendly urban spaces are common; open non-monogamy is generally accepted, but privacy in some circles remains wise.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Promiscuity Attitudes",
+      "alignmentText": "Seattle, USA: In this progressive urban family, promiscuity is a personal matter with strong consent and minimal public judgment.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
-      "key": "Group & Multi-Partner Relationship Attitudes",
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "Seattle, USA offers progressive openness to multi-partner families. Civic life is generally frictionless, though some legal nuances remain.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Personal Space & Touch Norms",
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "Seattle, US families value polite spacing and consent. Hugs or handshakes are usually voluntary and cues are respected.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Firearm Laws & Ownership Culture",
-      "sameAsParent": true
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "Seattle, WA has stringent state/local gun laws and safety norms; expect strong background checks and safe-storage practices in daily life.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Controlled Substance Policies",
-      "sameAsParent": true
+      "alignmentText": "Seattle, WA emphasizes harm reduction and accessible health services; supports treatment-first with relatively light enforcement.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Drug Enforcement Climate",
+      "alignmentText": "In Seattle, USA, drug enforcement has close oversight and a focus on treatment. Families usually see proportionate policing with strong community support.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Mass Violence Incidence",
+      "alignmentText": "Seattle has seen several mass-violence incidents in the past decade. Safety planning remains prudent but not daily fear.",
+      "alignmentValue": 6,
       "sameAsParent": true
     },
     {
-      "key": "Carceral Conditions & Prison Labor",
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "Seattle, WA, USA: carceral system generally decent with oversight; a few facilities lag in services and transparency.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Walkability & Pedestrian Safety",
-      "alignmentText": "Sidewalks cover key areas but drivers often rush, so we stay alert with children.",
-      "alignmentValue": 7
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Seattle has walkable pockets near parks and schools; plan routes to avoid busy arterials as drivers rush in parts of the city.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Community Health Consciousness",
+      "alignmentText": "Seattle\u0027s wellness culture and abundant parks support active living; preventive care and healthcare access are widely available for your family.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Processed Food Saturation",
+      "alignmentText": "Seattle offers plenty of fresh options (farmers markets, produce) to eat well; convenience foods are always nearby, so plan meals.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Fresh & International Cuisine Access",
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "Seattle, WA offers abundant farmers markets and diverse international cuisines, giving your family frequent fresh options and adventurous meals.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Depression Prevalence",
-      "alignmentText": "Stigma or limited providers make it harder to secure consistent care.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, US offers strong mental health services and community supports for families, but stigma and some access gaps can hinder consistent care.",
+      "alignmentValue": 8
     },
     {
       "key": "Obesity Rate",
+      "alignmentText": "In Seattle, U.S., obesity rates are below the national average thanks to active transport and wellness programs. Your family\u0027s healthy habits support this trend.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Cancer Incidence",
-      "alignmentText": "Higher cancer rates tie to environmental or lifestyle factors we must actively mitigate.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "Resilience is good with occasional layoffs offset by quick reemployment.",
+      "alignmentText": "Seattle, USA benefits from strong screening programs and healthcare access. Cancer incidence is near global norms; keep up routine checks.",
       "alignmentValue": 8
     },
     {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Seattle\u0027s diverse tech and healthcare economy supports quick reemployment; downturns bring brief hiring pauses, not long layoffs.",
+      "alignmentValue": 9
+    },
+    {
       "key": "Studio Density",
-      "alignmentText": "[Placeholder] Provide Studio Density insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle metro hosts dozens of studios across AAA to indie, plus strong VFX; a robust, diverse game dev scene anchored by Bellevue/Seattle.",
+      "alignmentValue": 8
     },
     {
       "key": "Anchor Employers",
-      "alignmentText": "[Placeholder] Provide Anchor Employers insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle features Microsoft (Halo/343), Amazon, Nintendo America, Bungie, and Valve. It has a strong anchor presence with Azure access and local game-dev training.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "[Placeholder] Provide Vendor/Outsource Ecosystem insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s robust game-dev scene offers diverse local and remote vendors (art, QA, live-ops). This supports Trey\u0027s startup and Sarah\u0027s web work in the Seattle area.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Education Pipeline Strength insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle-area DigiPen and UW game programs have strong studio partnerships. Internships and capstone projects feed the local talent pipeline.",
+      "alignmentValue": 9
     },
     {
       "key": "Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Continuing Education Availability insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle offers regular bootcamps and monthly meetups. UW Continuing Education and local programs like Code Fellows keep skills current.",
+      "alignmentValue": 9
     },
     {
       "key": "Community Activity",
-      "alignmentText": "[Placeholder] Provide Community Activity insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s game/tech scene offers frequent meetups and annual conferences (e.g., PAX West), sustaining a vibrant local developer network.",
+      "alignmentValue": 9,
+      "sameAsParent": true
     },
     {
       "key": "Engine Community Bias",
-      "alignmentText": "[Placeholder] Provide Engine Community Bias insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s game scene showcases strong Unity and Unreal presence with active cross-training and meetups; no single engine dominates.",
+      "alignmentValue": 9
     },
     {
       "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "[Placeholder] Provide Real-Time vs Pre-Rendered Focus insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s game-dev and cloud ecosystem excels in real-time pipelines with strong cinematic chops; broadband and local talent.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
-      "key": "Demand–Supply Balance",
-      "alignmentText": "[Placeholder] Provide Demand–Supply Balance insights for United States Seattle.",
-      "alignmentValue": 5
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Seattle\u0027s strong game/software market offers good demand, but competition for Unity/.NET specialists can slow hiring; local pipelines help.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
-      "key": "Retention & Churn Risk",
-      "alignmentText": "[Placeholder] Provide Retention & Churn Risk insights for United States Seattle.",
-      "alignmentValue": 5
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Seattle, WA\u0027s robust tech/game-dev scene supports steady retention; startups may see occasional project-driven churn.",
+      "alignmentValue": 8
     },
     {
-      "key": "Diversity & Inclusion Index",
-      "alignmentText": "[Placeholder] Provide Diversity & Inclusion Index insights for United States Seattle.",
-      "alignmentValue": 5
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Seattle, United States shows strong D\u0026I momentum in tech with ongoing initiatives. Inclusive culture supports families and LGBTQ\u002B acceptance, though gaps remain.",
+      "alignmentValue": 8
     },
     {
       "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "[Placeholder] Provide Tax Incentives for Games/Creative insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, WA offers selective grants and state incentives for digital media and games; funding is modest and windows may be limited.",
+      "alignmentValue": 7
     },
     {
       "key": "Economic/Policy Stability",
-      "alignmentText": "[Placeholder] Provide Economic/Policy Stability insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle/WA offers stable pro-tech policy and steady game/film grants; expect few regulatory surprises.",
+      "alignmentValue": 9
     },
     {
       "key": "Founder/Operator Community",
-      "alignmentText": "[Placeholder] Provide Founder/Operator Community insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle has a growing founder base with regular meetups and mentors; strong tech VC presence and game/dev circles complement the ecosystem.",
+      "alignmentValue": 8
     },
     {
       "key": "Early-Stage Capital Access",
-      "alignmentText": "[Placeholder] Provide Early-Stage Capital Access insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s game/dev scene offers strong generalist funding and public grants; access to capital for games exists but remains competitive.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Accelerator/Incubator Access",
-      "alignmentText": "[Placeholder] Provide Accelerator/Incubator Access insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Moderate access: Seattle has general accelerators (Techstars Seattle) with occasional game cohorts; no large, ongoing game-dedicated tracks.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Senior Talent Availability",
-      "alignmentText": "[Placeholder] Provide Senior Talent Availability insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle boasts a deep pool of senior tech leaders in cloud, web, and game dev; startups can attract seasoned talent with competitive offers.",
+      "alignmentValue": 9
     },
     {
       "key": "Contractor/Freelancer Bench",
-      "alignmentText": "[Placeholder] Provide Contractor/Freelancer Bench insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, USA has a healthy contractor bench across software, cloud, and game dev; rapid onboarding and flexible talent are feasible.",
+      "alignmentValue": 8
     },
     {
-      "key": "Coworking & Startup Infrastructure",
-      "alignmentText": "[Placeholder] Provide Coworking & Startup Infrastructure insights for United States Seattle.",
-      "alignmentValue": 5
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Seattle offers quality coworking and a growing game-dev network with some shared labs and grants; strong broadband and tech culture support indie teams.",
+      "alignmentValue": 8
     },
     {
-      "key": "Legal & IP Support",
-      "alignmentText": "[Placeholder] Provide Legal & IP Support insights for United States Seattle.",
-      "alignmentValue": 5
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Seattle has multiple law firms with game IP, licensing, and publishing experience. WA-based clinics and startups-friendly firms offer accessible IP support.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Publisher/Platform Relationships",
-      "alignmentText": "[Placeholder] Provide Publisher/Platform Relationships insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s strong game-dev scene hosts local publisher reps and scouting events; proximity to Microsoft/Valve enables accessible platform programs.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
-      "key": "Market Research & Playtesting",
-      "alignmentText": "[Placeholder] Provide Market Research & Playtesting insights for United States Seattle.",
-      "alignmentValue": 5
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Seattle, USA has reliable playtest groups and local UX labs; accessible feedback from local players in the Pacific Northwest.",
+      "alignmentValue": 8
     },
     {
       "key": "Government/Startup Visas",
-      "alignmentText": "[Placeholder] Provide Government/Startup Visas insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, US has no dedicated startup visa; founders typically need employer sponsorship or standard work visas.",
+      "alignmentValue": 4
     },
     {
       "key": "Cost of Doing Business",
-      "alignmentText": "[Placeholder] Provide Cost of Doing Business insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s high rents and living costs press budgets for a family startup. Childcare costs add strain, but a robust tech ecosystem and grants help mitigate.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Talent Pool insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s game/art scene has a strong 3D character artist pool. Expect a healthy mix of mid-to-senior talent with recent shipped projects.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Education Pipeline Strength insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, WA hosts DigiPen, UW, and Cornish feeding strong 3D character art grads into local studios.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Continuing Education Availability insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle offers UW Continuum and DigiPen programs. A growing studio scene backs regular workshops and non-credit courses for 3D character artists.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Hiring Velocity insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s strong game-dev scene leads to 2\u20133 month timelines for 3D character artists. Expect competition but solid local talent pipelines.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Compensation Benchmark insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle 3D character artist pay is competitive, about 10-15% below top hubs, with solid benefits for a family-friendly US market.",
+      "alignmentValue": 7
     },
     {
       "key": "3D Character Artist: Language",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Language insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s 3D character artist scene is English-dominant with broad fluency. Multilingual capability exists, but English-first studios are common here.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Character Artist: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Remote Expectations insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle game studios broadly support remote/hybrid 3D character roles; equipment stipends and flexible schedules are common.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "3D Animator: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Talent Pool insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s strong game scene (Valve, Bungie, ArenaNet) provides a healthy pool of mid- to senior 3D animators; steady hiring and outsourcing options.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Education Pipeline Strength insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle area has DigiPen, UW, and Cornish producing 3D animators; strong studios nearby provide internships and jobs.",
+      "alignmentValue": 9
     },
     {
       "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Continuing Education Availability insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle has regular 3D/animation short courses and active meetups; UW and local colleges offer strong continuing ed with skilled instructors.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Hiring Velocity insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "In Seattle, 3D animator roles typically fill in 1\u20132 months due to a robust game-dev ecosystem and local studios.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Compensation Benchmark insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, WA offers competitive 3D animator pay with strong benefits; high cost of living offset by robust studios and remote options.",
+      "alignmentValue": 9
     },
     {
       "key": "3D Animator: Language",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Language insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s 3D animation scene is English-dominant; bilingual skills help some studios, but English fluency covers most roles.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Animator: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Remote Expectations insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle studios broadly support flexible remote/hybrid 3D animation with equipment stipends; async workflows are common.",
+      "alignmentValue": 9
     },
     {
       "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Talent Pool insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s robust game-art scene supports mid-to-senior 2D environmental artists, with top studios and outsourcing hubs in the region.",
+      "alignmentValue": 8
     },
     {
       "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Education Pipeline Strength insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle hosts UW, DigiPen, and Cornish with strong game-art programs; multiple pipelines feed local 2D environment art graduates.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Continuing Education Availability insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, WA has regular 2D environmental art meetups and courses (DigiPen, UW); solid instruction with some advanced topics via studios.",
+      "alignmentValue": 8
     },
     {
       "key": "2D Environmental Artist: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Hiring Velocity insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle has a strong game scene; 2D environmental artist roles typically close in 1-2 months, with local studios supporting family-friendly relocation.",
+      "alignmentValue": 8
     },
     {
       "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Compensation Benchmark insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle 2D environmental artist pay is solid but trails top hubs by ~10-15%; bonuses/equity help attract experienced talent.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Language",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Language insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, WA USA: 2D environmental art scene is English-dominant; English fluency is common, with some studios seeking bilingual candidates.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Remote Expectations insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle studios commonly support flexible remote/hybrid 2D environmental art with async workflows; equipment stipends are often provided.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Talent Pool insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle metro (US) has a strong real-time VFX pool with mid-to-senior pros from Bungie, Valve, and Amazon Game Studios.",
+      "alignmentValue": 8
     },
     {
       "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Education Pipeline Strength insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle-area VFX (real-time) education benefits from DigiPen (Redmond) and UW, with grads entering regional studios.",
+      "alignmentValue": 8
     },
     {
       "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Continuing Education Availability insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, WA has regular VFX real-time short courses and active meetups (Unreal/Unity) with solid instructors; UW and local colleges support ongoing learning.",
+      "alignmentValue": 8
     },
     {
       "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Hiring Velocity insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s VFX Real-Time roles typically fill in 1-2 months due to a robust game/tech scene and healthy local pipelines.",
+      "alignmentValue": 8
     },
     {
       "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Compensation Benchmark insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, USA offers competitive VFX real-time pay with bonuses; top studios and tech firms drive strong packages in a high-cost city. Family perks help offset costs.",
+      "alignmentValue": 9
     },
     {
       "key": "VFX Artist (Real-Time): Language",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Language insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "In Seattle, USA, English is widely used in VFX real-time roles. Some studios value familiarity with local languages.",
+      "alignmentValue": 8
     },
     {
       "key": "VFX Artist (Real-Time): Remote Expectations",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Remote Expectations insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, WA: real-time VFX roles support flexible remote/hybrid; gear stipends and robust async workflows are common.",
+      "alignmentValue": 9
     },
     {
       "key": "Community Manager: Talent Pool",
-      "alignmentText": "[Placeholder] Provide Community Manager: Talent Pool insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s strong game/tech scene offers many seasoned community managers across studios and agencies; solid local pool from top employers.",
+      "alignmentValue": 9
     },
     {
       "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Community Manager: Education Pipeline Strength insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle-area programs (UW, DigiPen) regularly place CM grads into regional studios; strong game/tech ecosystem.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Community Manager: Continuing Education Availability insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, US has regular community-manager meetups and short courses via local tech groups and UW extension. Strong instructors help keep skills current.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Manager: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide Community Manager: Hiring Velocity insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u2019s community manager market is competitive; 2\u20133 month hires are typical. Remote/hybrid options help families balance schedules.",
+      "alignmentValue": 7
     },
     {
       "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide Community Manager: Compensation Benchmark insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle CM pay is solid but ~10-15% below NYC/SF; strong benefits and flexible work help families cope with high cost of living.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Community Manager: Language",
-      "alignmentText": "[Placeholder] Provide Community Manager: Language insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, US: English fluency is universal among community managers. Bilingual support is commonly available to serve local communities.",
+      "alignmentValue": 10
     },
     {
       "key": "Community Manager: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide Community Manager: Remote Expectations insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle gaming/tech studios widely support remote/hybrid community manager roles. Expect flexible schedules and occasional onsite events.",
+      "alignmentValue": 9
     },
     {
       "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Talent Pool insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle has a strong games PMM pool with mid-to-senior talent and recent shipped titles. Startups can hire locally but may rely on relocation or remote options.",
+      "alignmentValue": 8
     },
     {
       "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Education Pipeline Strength insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle has DigiPen Redmond and UW programs feeding game-marketing grads. A steady PMM pipeline supports regional studios.",
+      "alignmentValue": 8
     },
     {
       "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Continuing Education Availability insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s game scene offers monthly workshops and active communities. UW/DigiPen programs and local studios support PM in games.",
+      "alignmentValue": 9
     },
     {
       "key": "Product Marketing Manager (Games): Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Hiring Velocity insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle, WA: PMM (Games) roles typically fill in 1-2 months; strong local gaming scene and remote/hybrid options suit family plans.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Compensation Benchmark insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle PMM (Games) pay is highly competitive, with bonuses and equity common. Local packages align with top NA hubs, helping family priorities in the US West.",
+      "alignmentValue": 9
     },
     {
       "key": "Product Marketing Manager (Games): Language",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Language insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s game marketing is English-first; teams are multilingual, but strong English fluency is the baseline for roles.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Remote Expectations",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Remote Expectations insights for United States Seattle.",
-      "alignmentValue": 5
+      "alignmentText": "Seattle\u0027s game studios widely support remote/hybrid PM (Games) roles with strong async workflows. Many offer equipment stipends, matching a family-friendly schedule.",
+      "alignmentValue": 9
     }
   ]
 }

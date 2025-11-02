@@ -4,788 +4,842 @@
   "values": [
     {
       "key": "Environment",
-      "alignmentText": "Lush mountains, river deltas, and long coastlines offer varied ecosystems, though rapid urbanization and deforestation strain habitats. That helps the family plan around their mild-weather preference and safe outdoor time for the boys.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s coastal and highland areas offer scenic, milder climates, but city pollution and storms require planning for safe outdoor time.",
+      "alignmentValue": 6
     },
     {
       "key": "Global Warming Risk",
-      "alignmentText": "The Mekong and Red River deltas face severe sea-level rise and saltwater intrusion risks despite national adaptation plans. That helps the family plan around their mild-weather preference and safe outdoor time for the boys.",
+      "alignmentText": "Vietnam\u0027s Mekong/Red River deltas face rising sea levels and saltwater intrusion within a decade. Plan for mild-year-round comfort and relocation contingency.",
       "alignmentValue": 3
     },
     {
       "key": "Seasonal Weather",
-      "alignmentText": "Tropical monsoon patterns bring hot, humid summers and a drier, cooler season in the north, far more humid than our mild ideal. That helps the family plan around their mild-weather preference and safe outdoor time for the boys.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "Hanoi and Ho Chi Minh City frequently exceed WHO PM2.5 limits due to traffic and burning, with only seasonal relief. That helps the family plan around their mild-weather preference and safe outdoor time for the boys.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "Typhoons, flooding, and occasional landslides are recurring hazards, especially along the central coast. That helps the family plan around their mild-weather preference and safe outdoor time for the boys.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Northern cities run ~20–28°C (68–82°F) with rising humidity; southern hubs stay near 26–34°C (79–93°F). That helps the family plan around their mild-weather preference and safe outdoor time for the boys.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Expect 27–35°C (81–95°F) plus high humidity and heavy monsoon rains, challenging for heat-sensitive family members. That helps the family plan around their mild-weather preference and safe outdoor time for the boys.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Autumn in the north sits ~22–30°C (72–86°F) but central regions see typhoon rains; the south remains steamy. That helps the family plan around their mild-weather preference and safe outdoor time for the boys.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "North Vietnam cools to 15–22°C (59–72°F) with damp chill; southern cities hover near 23–31°C (73–88°F). That helps the family plan around their mild-weather preference and safe outdoor time for the boys.",
+      "alignmentText": "Vietnam\u0027s tropical monsoon brings hot, humid summers and a rainy season; humidity affects outdoor plans. Some months are milder, but overall climate stays humid.",
       "alignmentValue": 5
     },
     {
+      "key": "Air Quality",
+      "alignmentText": "Vietnam\u0027s Hanoi/HCMC frequently exceed WHO PM2.5 limits; plan outdoor time on cleaner days and use indoor breaks; mild year-round climate helps.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Typhoons and floods affect central and northern Vietnam seasonally; plan for travel disruptions, but recovery systems mitigate impact for families.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Vietnam\u0027s spring varies: Hanoi/Hai Phong may be 15\u201325\u00B0C with humidity; southern cities like Ho Chi Minh stay warm around 25\u201334\u00B0C with showers.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "Vietnam summers run 31-34\u00B0C with high humidity and frequent rain. Heat and humidity limit outdoor time for the boys, despite AC.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Fall in Vietnam is regional: north 18-25 C, central typhoon rains, south still warm and humid; plan around showers but outdoor time remains feasible.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Winter in northern Vietnam averages 15\u201322\u00B0C (59\u201372\u00B0F); southern areas 23\u201331\u00B0C (73\u201388\u00B0F). This matches the family\u0027s mild-weather preference and supports safe outdoor time for the boys.",
+      "alignmentValue": 10
+    },
+    {
       "key": "Beach Life",
-      "alignmentText": "Da Nang, Nha Trang, and Phu Quoc provide warm beaches, though water cleanliness varies with season and development. It shapes the family's weekend escapes when they need green space and fresh air.",
+      "alignmentText": "Da Nang, Nha Trang, and Phu Quoc offer warm beaches near urban areas. Water quality varies seasonally, shaping our family beach days.",
       "alignmentValue": 6
     },
     {
       "key": "Seasonal Beach Water Temp",
-      "alignmentText": "Coastal waters stay about 25–29°C (77–84°F) year-round, comfortable for swimming. It shapes the family's weekend escapes when they need green space and fresh air.",
-      "alignmentValue": 7
+      "alignmentText": "Vietnam\u2019s coastal waters stay around 25\u201330\u00B0C year-round, ideal for family swims without wetsuits. This supports easy weekend beach trips along Vietnam\u2019s coast.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "Natural Beauty",
-      "alignmentText": "Karst bays, terraced highlands, and national parks like Phong Nha offer dramatic scenery and outdoor excursions. It shapes the family's weekend escapes when they need green space and fresh air.",
-      "alignmentValue": 7
+      "alignmentText": "Vietnam\u0027s dramatic karst landscapes (Phong Nha, Ha Long Bay) offer frequent family-friendly outdoor outings; plan ahead for crowds and seasonal weather.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Minimum Wage",
-      "alignmentText": "Regional monthly minimum wages range 3.25–4.68M VND (~$130–190 USD), low for international families. Trey and Sarah factor this into balancing remote work with any local tech roles.",
-      "alignmentValue": 3
+      "alignmentText": "Vietnam regional min wage 3.25\u20134.68M VND (~$130\u2013$190); far below subsistence for a four-person family, requires remote/overseas income.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "Typical Software Salaries",
-      "alignmentText": "Mid-level developers in Ho Chi Minh City earn roughly $18k–35k USD yearly, boosted by low living costs but modest globally. Trey and Sarah factor this into balancing remote work with any local tech roles.",
+      "alignmentText": "Ho Chi Minh City software salaries are modest (about $18k-$35k/yr). Remote work and dual incomes help sustain this family.",
       "alignmentValue": 5
     },
     {
       "key": ".NET Work Prospects",
-      "alignmentText": "Firms such as FPT Software and NashTech run sizable .NET teams, yet competition for higher-paying roles is stiff. Trey and Sarah factor this into balancing remote work with any local tech roles.",
-      "alignmentValue": 6
+      "alignmentText": "Vietnam offers steady .NET work in HCMC/Hanoi, driven by outsourcing. Remote roles with international clients exist, but top pay is competitive.",
+      "alignmentValue": 7
     },
     {
       "key": "Ruby Work Prospects",
-      "alignmentText": "Ruby roles are niche, concentrated in a few startups and outsourcing houses, limiting opportunities for Sarah. Trey and Sarah factor this into balancing remote work with any local tech roles.",
-      "alignmentValue": 3
+      "alignmentText": "Ruby roles in Vietnam remain niche, concentrated in a few outsourcing firms (HCMC, Hanoi). Remote work can help Sarah; local opportunities are limited.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "Employer Visa Sponsorship",
-      "alignmentText": "Work permits require employer sponsorship, degree proof, and criminal checks; reputable firms manage the paperwork but expect lead time. Trey and Sarah factor this into balancing remote work with any local tech roles.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam work permits require employer sponsorship. Sponsorship exists for skilled tech roles but can be slow, with dependents usually allowed.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Economic Health",
-      "alignmentText": "Vietnam posts ~5–6% GDP growth with expanding manufacturing and services, though inflation spikes occasionally. Trey and Sarah factor this into balancing remote work with any local tech roles.",
+      "alignmentText": "Vietnam\u0027s ~5-6% growth with inflation spikes; tech grants and a growing ecosystem support remote work and local roles for Trey and Sarah in Vietnam.",
       "alignmentValue": 6
     },
     {
       "key": "Remote-Friendly Culture",
-      "alignmentText": "Ho Chi Minh City and Da Nang host coworking hubs and reliable fiber, but time zones complicate US collaboration. Trey and Sarah factor this into balancing remote work with any local tech roles.",
-      "alignmentValue": 6
+      "alignmentText": "Remote work in Vietnam\u0027s urban hubs supports Trey\u0027s startup and Sarah\u0027s web role, but US-time-zone coordination still requires flexible hours.",
+      "alignmentValue": 7
     },
     {
       "key": "Work-Life Balance",
-      "alignmentText": "Export-oriented companies often expect overtime, though some tech firms embrace flexible schedules. This directly affects Sarah's need for a calmer rhythm and shared family evenings.",
-      "alignmentValue": 4
+      "alignmentText": "In Vietnam\u0027s urban tech hubs, flex hours and remote options are increasingly common, supporting Sarah\u0027s family-friendly needs, with occasional crunch.",
+      "alignmentValue": 7
     },
     {
       "key": "Work Week Hours",
-      "alignmentText": "Labor law caps at 48 hours; many offices run 44–48, with overtime during peak projects. This directly affects Sarah's need for a calmer rhythm and shared family evenings.",
-      "alignmentValue": 4
+      "alignmentText": "Vietnam\u0027s standard workweek is ~40 hours; overtime exists but many firms offer predictable hours to protect family evenings.",
+      "alignmentValue": 7
     },
     {
       "key": "Vacation Days (Minimum)",
-      "alignmentText": "Employees receive 12 paid days plus public holidays, modest compared with Europe. This directly affects Sarah's need for a calmer rhythm and shared family evenings.",
+      "alignmentText": "Vietnam grants 12 paid vacation days plus holidays; supports family time but is modest vs Europe. Works for a calmer rhythm for Sarah.",
       "alignmentValue": 5
     },
     {
       "key": "Vacation Days (Typical)",
-      "alignmentText": "International employers may offer 15–18 days, but local firms rarely exceed the statutory minimum. This directly affects Sarah's need for a calmer rhythm and shared family evenings.",
+      "alignmentText": "Vietnam typically grants around 12 paid leave days; multinational firms may add more, aiding a calmer rhythm and family evenings.",
       "alignmentValue": 5
     },
     {
       "key": "Pace of Life",
-      "alignmentText": "Ho Chi Minh City is fast-paced, while Da Nang and Hue offer a calmer lifestyle that could suit Sarah’s slower preference. This directly affects Sarah's need for a calmer rhythm and shared family evenings.",
-      "alignmentValue": 6
+      "alignmentText": "Da Nang or Hue in Vietnam offer a calmer pace than Ho Chi Minh City. This aligns with Sarah\u0027s slower rhythm and more family evenings.",
+      "alignmentValue": 8
     },
     {
       "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Offices commonly run 8:00–17:30 with a long lunch; schools start near 7:30 and finish mid-afternoon, requiring after-school plans. This directly affects Sarah's need for a calmer rhythm and shared family evenings.",
-      "alignmentValue": 4
+      "alignmentText": "VN school days often end around 16:00; work hours 8:00-17:30 fit with some after-school care and remote/hybrid options.",
+      "alignmentValue": 7
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Weekends revolve around morning markets, café meetups, and family outings before hot afternoons drive people indoors. This directly affects Sarah's need for a calmer rhythm and shared family evenings.",
-      "alignmentValue": 6
+      "alignmentText": "Vietnam weekends offer morning markets and cafe meetups plus family outings. Traffic and heat often spike; plan early and keep evenings calm.",
+      "alignmentValue": 7
     },
     {
       "key": "Family Life",
-      "alignmentText": "Family-centric culture values children, yet public spaces can be crowded and sidewalks uneven for strollers. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
-      "alignmentValue": 5
+      "alignmentText": "Family life in Vietnam works but crowded streets and scooter-filled sidewalks require adaptation; parks and communities aid families, with uneven service access.",
+      "alignmentValue": 6
     },
     {
       "key": "Polyamory",
-      "alignmentText": "Non-monogamous relationships lack legal recognition and remain socially taboo; discretion would be essential. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
-      "alignmentValue": 1
+      "alignmentText": "Vietnam: polyamory has no legal recognition. Private acceptance exists mainly in urban circles, but stigma and misunderstandings in services are common.",
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "Parenting Expectations",
-      "alignmentText": "Schools and relatives emphasize academic achievement and respect for elders, creating pressure for kids to conform. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
-      "alignmentValue": 4
+      "alignmentText": "Vietnamese schools and elders prize exams and elder respect; Anduin and Alasdair face strong expectations shaping daily life.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Child-Friendliness of Cities",
-      "alignmentText": "Urban parks and indoor play spaces exist but are limited; traffic and air quality require vigilance with young children. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
-      "alignmentValue": 4
+      "alignmentText": "Vietnamese cities offer parks and family venues. However, heavy traffic and crowded sidewalks require careful planning for Trey and Anduin.",
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "Schooling Options",
-      "alignmentText": "Public schools are Vietnamese-language and test-heavy; international schools in major cities offer English curricula at high tuition. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s public schools are Vietnamese-language and exam-focused. In Hanoi/Ho Chi Minh City, international schools offer English curricula but tuition is high.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Private preschools and bilingual Montessori options operate in cities, yet quality varies and waitlists can be long. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s urban centers offer private preschools with bilingual options, but quality and access vary. Waitlists and costs can challenge dual-working families.",
+      "alignmentValue": 6
     },
     {
       "key": "Childcare Support (Citizens)",
-      "alignmentText": "State subsidies are modest; extended family often fills gaps, leaving formal childcare uneven. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
-      "alignmentValue": 4
+      "alignmentText": "Vietnam\u0027s public childcare subsidies are modest; extended family often fills gaps, with limited formal relief for expat families.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "Foreign families rely on pricey international preschools or nannies, with little government assistance. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
+      "alignmentText": "In Vietnam, visa families face scarce public childcare subsidies; most care is private and costly, with limited municipal options.",
       "alignmentValue": 3
     },
     {
       "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "Citizens access free-to-low-cost public schools, though rural quality gaps remain. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
-      "alignmentValue": 6
+      "alignmentText": "Vietnam\u0027s public schooling is available to citizens, but quality varies by district; expats typically use international or bilingual options.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "Foreign children may enroll in public schools but face language and bureaucratic barriers; most choose private options. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
+      "alignmentText": "Vietnam public schooling for visa holders is limited. Most foreign kids, including Anduin, enroll in private or international schools.",
       "alignmentValue": 4
     },
     {
       "key": "Private Education",
-      "alignmentText": "International Baccalaureate and British schools deliver high-quality programs at $15k–30k USD per child annually. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam offers international private schools (IB/Cambridge); tuition is premium and varies by city, influencing Anduin/Alasdair access.",
+      "alignmentValue": 7
     },
     {
       "key": "Family Policy (Citizens)",
-      "alignmentText": "Maternity leave lasts 6 months at partial pay and child allowances are small, offering moderate support. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam provides maternity leave and child benefits; childcare and healthcare exist, but access can be bureaucratic and vary by region.",
+      "alignmentValue": 8
     },
     {
       "key": "Family Policy (Visa Holders)",
-      "alignmentText": "Foreign workers generally follow employer policies with limited statutory benefits beyond basic leave. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
+      "alignmentText": "In Vietnam, visa families typically receive limited public benefits. Core supports hinge on residency status or employer sponsorship.",
       "alignmentValue": 4
     },
     {
       "key": "Higher Education Access (Citizens)",
-      "alignmentText": "Public universities are affordable and expanding, especially in engineering and IT. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
-      "alignmentValue": 6
+      "alignmentText": "Vietnamese citizens have broad public university access with affordable tuition; top programs are competitive and exams matter, but scholarships help.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "International programs accept foreign students, though language readiness and paperwork add friction. Those conditions determine how easily Anduin and Alasdair can thrive day to day.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Gender Roles",
-      "alignmentText": "Traditional gender expectations persist, yet urban professionals increasingly support dual-career households. Their progressive, polyamory-positive values make this climate especially important.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "Legal recognition for trans and nonbinary identities is minimal, though youth culture is slowly more accepting. Their progressive, polyamory-positive values make this climate especially important.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "Gender equality laws exist, but wage gaps and limited political representation remain challenges. Their progressive, polyamory-positive values make this climate especially important.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "Women face pressure toward modest dress and family caregiving, especially outside major metros. Their progressive, polyamory-positive values make this climate especially important.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "Men are expected to be primary earners and defer to elders, with growing acceptance of softer roles in cities. Their progressive, polyamory-positive values make this climate especially important.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "What Is Intriguing",
-      "alignmentText": "Dynamic street food scenes, French-colonial architecture, and UNESCO sites create constant exploration opportunities. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
+      "alignmentText": "Vietnam has English-taught programs for international students. Visa holders often face higher tuition and fewer work-study options, though international offices help.",
       "alignmentValue": 7
     },
     {
-      "key": "Language & English Ubiquity",
-      "alignmentText": "Vietnamese is dominant; English proficiency is improving in tech hubs but drops sharply outside cities. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
-      "alignmentValue": 4
+      "key": "Gender Roles",
+      "alignmentText": "In Vietnam\u0027s cities (HCMC/Hanoi), dual-career households are rising, but traditional gender roles persist in many areas; polyamory acceptance remains limited.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "In Vietnam\u0027s urban expat hubs, gender diversity is welcomed, but official documents lag; expect some administrative friction.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Vietnam has formal gender equality laws, but enforcement and social acceptance vary; urban centers show gains, rural areas lag.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Vietnam blends urban autonomy with caregiving norms; expect modest dress pressure and family roles affecting a progressive, polyamory-friendly family.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "In Vietnam, traditional male breadwinner norms remain strong. Urban centers show cautious openness to caregiving and nontraditional roles.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Vietnam\u0027s vibrant street food and a budding game-dev scene invite family-friendly exploration. Historic sites and modern cafes invite curious outings.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "Day-to-day life is manageable in Vietnam\u0027s urban hubs (Hanoi/Ho Chi Minh City); we plan to study Vietnamese for full participation.",
+      "alignmentValue": 7
     },
     {
       "key": "Progressivism",
-      "alignmentText": "Social policy is cautious and the one-party state limits activism, offering limited progressive reforms. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
-      "alignmentValue": 3
+      "alignmentText": "Vietnam\u0027s one-party system limits progressive activism; in Hanoi/Ho Chi Minh City, gaming culture thrives while policy remains cautious.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "Official ideology remains socialist, though daily life blends market pragmatism with party messaging. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
-      "alignmentValue": 5
+      "alignmentText": "In Vietnam, Marxism is central to policy and daily life. Progressive, family-focused values meet a one-party system with limited public debate.",
+      "alignmentValue": 9
     },
     {
       "key": "Atheism",
-      "alignmentText": "State is officially atheist, yet folk Buddhism and ancestor worship are widely practiced. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam is officially atheist, yet Buddhism and ancestor worship are common; your progressive, gamer-friendly family should fit well in urban Vietnam.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Sex (Attitudes)",
-      "alignmentText": "Public discussion of sexuality is conservative; sex education is limited and discretion is expected. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "LGBTQ+ Attitudes",
-      "alignmentText": "Same-sex marriage is neither recognized nor outlawed; urban Pride events exist but stigma persists. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
+      "alignmentText": "Sexual discourse in Vietnam is often conservative; sex education is limited, though urban centers show gradual openness.",
       "alignmentValue": 4
     },
     {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "Same-sex marriage is not recognized in Vietnam; Pride exists in Hanoi and HCMC, but acceptance is mixed. Urban areas open; rural areas remain conservative.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
       "key": "Community Vibes",
-      "alignmentText": "Tight-knit neighborhoods, night markets, and expat groups foster connection if you engage locally. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
-      "alignmentValue": 6
+      "alignmentText": "Vietnam\u0027s urban hubs blend cordial locals with expat circles; social ties grow through schools, clubs, and gaming/tech communities.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "View of self",
-      "alignmentText": "Vietnamese pride centers on resilience, entrepreneurial hustle, and hospitality toward guests. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
-      "alignmentValue": 6
+      "alignmentText": "Vietnam\u0027s resilient, entrepreneurial pride and hospitality align with your progressive, gaming-friendly family in Ho Chi Minh City\u0027s expat hubs.",
+      "alignmentValue": 8
     },
     {
       "key": "View of Neighboring Countries",
-      "alignmentText": "Relations with ASEAN neighbors are pragmatic, while maritime disputes with China create wariness. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s ASEAN neighbors are pragmatic; China disputes create wariness, but a gaming-friendly, progressive family should blend well.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Vietnam is seen as a fast-growing manufacturing hub and reliable regional partner, though rivalry with China lingers. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
-      "alignmentValue": 6
+      "alignmentText": "Vietnam\u0027s Hanoi/Ho Chi Minh City tech and gaming scene draws regional attention; neighbors see growth but have policy questions.",
+      "alignmentValue": 8
     },
     {
       "key": "Nightlife Culture",
-      "alignmentText": "Major cities offer lively rooftop bars, craft beer spots, and late-night street food. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
+      "alignmentText": "Vietnam\u0027s major cities (HCMC, Hanoi) have nightlife mainly in District 1 with rooftop bars and markets; plan babysitters and transport for late nights.",
       "alignmentValue": 7
     },
     {
       "key": "Fashion Trends (Male)",
-      "alignmentText": "Young men mix casual streetwear with office formalwear; tailored shirts and sneakers dominate. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
-      "alignmentValue": 6
+      "alignmentText": "Vietnam\u0027s urban centers mix casual streetwear with smart-office looks; your gaming vibe fits, though some workplaces stay conservative.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Fashion Trends (Female)",
-      "alignmentText": "Women blend ao dai heritage with modern Korean-influenced styles, balancing modesty and flair. It signals how comfortably their progressive, gaming-friendly lifestyle would mesh locally.",
-      "alignmentValue": 6
+      "alignmentText": "In Vietnam\u0027s cities, fashion blends ao dai heritage with modern streetwear; women can express themselves, but many workplaces still favor modest styling.",
+      "alignmentValue": 8
     },
     {
       "key": "Common Hobbies",
-      "alignmentText": "Soccer, badminton, karaoke, and motorbike road trips are popular pastimes. Shared hobbies and inclusive scenes help Trey keep gaming and Sarah build community.",
-      "alignmentValue": 6
+      "alignmentText": "Soccer, badminton, karaoke, and motorbikes are common in Vietnam. Board gaming and game-dev meetups help Trey and Sarah connect locally.",
+      "alignmentValue": 8
     },
     {
-      "key": "Boardgaming & Tabletop",
-      "alignmentText": "Board game cafés in Hanoi and Ho Chi Minh City host small but growing communities. Shared hobbies and inclusive scenes help Trey keep gaming and Sarah build community.",
-      "alignmentValue": 5
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "In Hanoi and Ho Chi Minh City, board game cafes support a growing, family-friendly scene; regular meetups exist but can require proactive joining.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
-      "key": "Nightlife & Music",
-      "alignmentText": "Live music venues range from jazz clubs to indie gigs, though noise curfews can end nights early. Shared hobbies and inclusive scenes help Trey keep gaming and Sarah build community.",
-      "alignmentValue": 6
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Vietnam\u0027s Hanoi and Ho Chi Minh City offer diverse live music\u2014from bars to indie clubs; family-friendly shows exist with planning and solid transit.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
-      "key": "Meetups & Communities",
-      "alignmentText": "Tech meetups, language exchanges, and parenting groups meet regularly in expat districts. Shared hobbies and inclusive scenes help Trey keep gaming and Sarah build community.",
-      "alignmentValue": 6
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "Expat hubs in HCMC/Hanoi host regular tech, language, and parenting meetups. Family-friendly venues and bilingual groups help Trey and Sarah build community.",
+      "alignmentValue": 8
     },
     {
       "key": "Nature Access",
-      "alignmentText": "Weekend trips reach national parks, highland retreats like Da Lat, and scenic coastal drives. Shared hobbies and inclusive scenes help Trey keep gaming and Sarah build community.",
-      "alignmentValue": 6
+      "alignmentText": "From Vietnam hubs, weekend trips reach Da Lat and Ha Long Bay. These nature spots fit the family\u0027s pace and support Trey\u0027s gaming and Sarah\u0027s community.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Political System",
-      "alignmentText": "One-party socialist republic led by the Communist Party with centralized decision-making. They prioritize resilient democracies with transparent institutions for their kids' future.",
+      "alignmentText": "Vietnam\u0027s one-party rule concentrates power in the Communist Party; civic participation is limited. This clashes with the family\u0027s goal of democratic resilience for their kids.",
       "alignmentValue": 2
     },
     {
       "key": "Religion in Politics",
-      "alignmentText": "The state is officially secular and restricts religious influence on governance. They prioritize resilient democracies with transparent institutions for their kids' future.",
+      "alignmentText": "Vietnam\u0027s government is secular and restricts religious influence on governance; faith groups operate under state oversight, with limited political impact.",
       "alignmentValue": 6
     },
     {
-      "key": "Workers' Rights",
-      "alignmentText": "Unions are state-run and strikes require approval, limiting independent labor advocacy. They prioritize resilient democracies with transparent institutions for their kids' future.",
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "Vietnam\u0027s unions are state-led (VGCL) and strikes require approval; independent labor activism is limited, yielding a stable but controlled labor environment.",
       "alignmentValue": 3
     },
     {
       "key": "State Ideology",
-      "alignmentText": "The party promotes a socialist-oriented market economy and collective prosperity narrative. They prioritize resilient democracies with transparent institutions for their kids' future.",
-      "alignmentValue": 4
+      "alignmentText": "Vietnam\u0027s one-party system enforces a narrow ideology via state media and schooling. This limits pluralism and independent discourse for families moving there.",
+      "alignmentValue": 3
     },
     {
       "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Media censorship, anti-dissent laws, and recent arrests of activists indicate high authoritarian risk. They prioritize resilient democracies with transparent institutions for their kids' future.",
-      "alignmentValue": 2
+      "alignmentText": "In Vietnam, media censorship and activist arrests signal backsliding; civil liberties remain limited for the family\u0027s future.",
+      "alignmentValue": 3
     },
     {
       "key": "State of Capitalism",
-      "alignmentText": "A hybrid economy welcomes foreign investment while strategic sectors stay under state guidance. They prioritize resilient democracies with transparent institutions for their kids' future.",
-      "alignmentValue": 6
+      "alignmentText": "Vietnam\u0027s dynamic, regulated market supports startups. Transparent institutions help our kids\u0027 future in VN.",
+      "alignmentValue": 9
     },
     {
       "key": "Stability",
-      "alignmentText": "Political stability is strong with predictable leadership transitions and low civil unrest. They prioritize resilient democracies with transparent institutions for their kids' future.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "State media and billboards deliver unified messaging on development and patriotism. They prioritize resilient democracies with transparent institutions for their kids' future.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "Narratives emphasize economic growth, party loyalty, and national sovereignty. They prioritize resilient democracies with transparent institutions for their kids' future.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "Programs target poverty reduction and rural development but civil liberties remain constrained. They prioritize resilient democracies with transparent institutions for their kids' future.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "Surveys show moderate trust in central authorities, though locals often question lower-level corruption. They prioritize resilient democracies with transparent institutions for their kids' future.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "Transparency International scores Vietnam mid-low due to petty bribery and opaque procurement. They prioritize resilient democracies with transparent institutions for their kids' future.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "Facilitation payments for permits and state-linked business favoritism are the most cited issues. They prioritize resilient democracies with transparent institutions for their kids' future.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "Rapid condo development offers modern units, yet expat rents in top districts are rising quickly. The family must weigh proximity to schools and air quality against budget flexibility.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Safety & Crime",
-      "alignmentText": "Violent crime is rare, but petty theft and motorbike accidents are common urban risks. Trey and Sarah would plan extra street-safety routines for the boys.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "Universal health insurance covers basic care, yet overcrowded public hospitals limit quality. Reliable public services are critical for the children's schooling, healthcare, and mobility.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Private hospitals deliver high-quality care with English-speaking staff at moderate costs compared with the US. Reliable public services are critical for the children's schooling, healthcare, and mobility.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "Working parents rely on grandparents or private caregivers; formal state programs remain limited. Reliable public services are critical for the children's schooling, healthcare, and mobility.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "Families receive modest cash allowances and tuition reductions, but benefits rarely cover actual costs. Reliable public services are critical for the children's schooling, healthcare, and mobility.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Education",
-      "alignmentText": "STEM achievement is strong, yet rote learning and class sizes may clash with progressive pedagogy preferences. Reliable public services are critical for the children's schooling, healthcare, and mobility.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "Urban buses are widespread; Ho Chi Minh City’s first metro line opens soon but mass transit remains limited. Reliable public services are critical for the children's schooling, healthcare, and mobility.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "Socialist-oriented market economy balancing state-owned giants with vibrant private SMEs. It guides household budgeting and Trey's entrepreneurship planning.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "Personal income tax is progressive (5–35%) with monthly payroll withholding and annual reconciliation. It guides household budgeting and Trey's entrepreneurship planning.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "At moderate expat salaries, effective income tax would likely land near 10–15% plus social insurance contributions. It guides household budgeting and Trey's entrepreneurship planning.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Banking & Payments",
-      "alignmentText": "Digital wallets like MoMo and widespread QR payments coexist with a still-cash-heavy culture. It guides household budgeting and Trey's entrepreneurship planning.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "Housing, food, and services remain far below US costs, enabling significant savings if schooling is managed. It guides household budgeting and Trey's entrepreneurship planning.",
+      "alignmentText": "Vietnam offers stable governance with low civil unrest and predictable policy; however, one-party rule limits political pluralism and civil liberties.",
       "alignmentValue": 8
     },
     {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Vietnam\u0027s state media dominates; censorship limits independent outlets, making propaganda pervasive and pluralistic media hard to access.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "In Vietnam, state-led messaging dominates public discourse. Independent, pluralistic media are limited, limiting your family\u0027s access to diverse viewpoints.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "In Vietnam, social programs exist but welfare is uneven; healthcare access improves yet universal coverage is not yet guaranteed.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Vietnam sees mixed trust: expat services are reliable but bureaucracy can be opaque; prioritize transparent agencies and stable rules for your family.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Vietnam\u0027s perceived corruption is moderate; petty bribery in procurement exists, but ongoing reforms and watchdogs are improving transparency for families.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Vietnam mixes petty and some grand corruption; permit processes and state-linked favors can slow tasks, but reforms push transparency.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Vietnam\u0027s major cities offer family-friendly condos, but top-district rents are rising. Balance school access, air quality, and budget when choosing.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "In Vietnam, violent crime is rare; petty theft and motorbike traffic are common in cities like Hanoi or Ho Chi Minh City. Plan safety routines after dark.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Vietnam offers universal health coverage, but crowded urban hospitals can slow care; expect wait times and consider private clinics for pediatric needs.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Vietnam has private hospitals with English-speaking staff cheaper than the US; public care is limited for visa holders, so international insurance is advised.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "In Vietnam, childcare support is mixed; affordable centers exist but quality varies; extended family and paid care fill gaps.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Vietnam offers subsidized schooling and basic healthcare, but family aid is modest and varies by region.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Education",
+      "alignmentText": "VN urban districts provide excellent international/bilingual schools; public schools vary, so families often choose private/intl programs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Buses cover many routes in Ho Chi Minh City, but traffic delays and limited metro require planning; rideshares or a car help with kids.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Vietnam\u0027s socialist-market economy blends state giants with private SMEs; supports Trey\u0027s ventures, but bureaucracy and rule changes add friction.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Vietnam PIT is progressive 5\u201335% with monthly withholding and annual reconciliation; online filing and deductions matter for Trey\u0027s startup earnings.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Vietnam PIT is progressive up to 35%. After 11m VND/mo deduction and two dependents, moderate expat salaries tax around 15-20%.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "VN has MoMo/QR payments widely used; cash remains common. Foreigners may encounter account-opening paperwork.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Vietnam\u0027s cost of living is far lower than the US, enabling savings; two international-school costs can offset gains in major cities.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
       "key": "Retirement (Citizens)",
-      "alignmentText": "State pensions are modest and depend on long contribution histories, prompting reliance on family support. It guides household budgeting and Trey's entrepreneurship planning.",
-      "alignmentValue": 4
+      "alignmentText": "In Vietnam (VN), public pensions are modest and tied to contributions; many seniors rely on family support and personal savings.",
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "Retirement (Visa Holders)",
-      "alignmentText": "No dedicated retirement visa; long-stay options require investment or marriage, limiting ease for foreigners. It guides household budgeting and Trey's entrepreneurship planning.",
-      "alignmentValue": 3
+      "alignmentText": "In Vietnam, no dedicated retirement visa; long-term stay hinges on work/investment/marriage; expat pensions are largely unavailable.",
+      "alignmentValue": 4
     },
     {
       "key": "Visa Paths",
-      "alignmentText": "Options include work permits with temporary residence cards, investor visas, and marriage visas, each with layered paperwork. Visa stability is essential so the household can settle without disruption.",
-      "alignmentValue": 4
+      "alignmentText": "Vietnam offers US citizens e-visas online (up to 90 days) plus work/business visas; multiple viable routes exist, though some require employer sponsorship.",
+      "alignmentValue": 9
     },
     {
       "key": "Welcoming of US Migrants",
-      "alignmentText": "Locals are generally friendly to Americans, but immigration bureaucracy and language barriers temper the welcome. Visa stability is essential so the household can settle without disruption.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s Hanoi/HCMC areas welcome US families; strong schools for kids, language barriers exist but visa processes and expat support help.",
+      "alignmentValue": 7
     },
     {
-      "key": "Residency Types & Durations",
-      "alignmentText": "Temporary residence cards typically last 1–3 years and require ongoing employer or investment sponsorship. Visa stability is essential so the household can settle without disruption.",
-      "alignmentValue": 4
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "In Vietnam, residency is tied to work/investment; TRCs last 1-3 years, renewals can be paperwork-heavy, requiring careful planning for a family startup.",
+      "alignmentValue": 6
     },
     {
       "key": "Path to Citizenship",
-      "alignmentText": "Naturalization demands 5+ years’ residence, language fluency, and usually renouncing prior citizenship. Visa stability is essential so the household can settle without disruption.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Family Members",
-      "alignmentText": "Spouses and children can obtain dependent residence tied to the principal visa holder. Visa stability is essential so the household can settle without disruption.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Timelines & Costs",
-      "alignmentText": "Work permit and TRC processing often take 2–3 months with fees in the hundreds of USD plus translation costs. Visa stability is essential so the household can settle without disruption.",
+      "alignmentText": "Vietnam naturalization is possible but rarely granted. Foreigners face long residency (5\u002B years), language fluency, and renunciation of prior citizenship.",
       "alignmentValue": 4
     },
     {
-      "key": "Compliance & Risks",
-      "alignmentText": "Quarterly reporting, local police registrations, and sudden rule changes require ongoing diligence. Visa stability is essential so the household can settle without disruption.",
-      "alignmentValue": 3
+      "key": "Family Members",
+      "alignmentText": "In Vietnam, spouse and minor children can obtain dependent residence tied to the principal visa holder; generally straightforward with standard paperwork.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "In Vietnam, US first-time applicants often finish work permit/TRC within six months; fees are a few hundred USD plus translation.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "Vietnam requires visa/work-permit management; police registration is essential; policy changes can affect stability; first-time applicants may need counsel.",
+      "alignmentValue": 5
     },
     {
       "key": "Dual Citizenship Allowed",
-      "alignmentText": "Vietnam allows limited dual citizenship, but naturalizing foreigners are commonly asked to renounce prior passports. Visa stability is essential so the household can settle without disruption.",
+      "alignmentText": "Vietnam generally disallows dual citizenship. Renunciation is often required, with limited exceptions, affecting visa stability for the US family.",
       "alignmentValue": 3
     },
     {
       "key": "General Considerations for Visa Holders",
-      "alignmentText": "Keeping notarized translations, health checks, and employer paperwork current is essential to avoid fines. Visa stability is essential so the household can settle without disruption.",
-      "alignmentValue": 4
+      "alignmentText": "In Vietnam, US visa holders typically need work permits or visas. Keep employer papers, health checks, and translations current to avoid status gaps.",
+      "alignmentValue": 7
     },
     {
       "key": "Game Dev Work Prospects",
-      "alignmentText": "Studios like VNG, Sparx*, and Glass Egg (Virtuos) employ large art and engineering teams serving global clients. Trey's hope to launch a game studio depends on ecosystems like this.",
-      "alignmentValue": 6
+      "alignmentText": "Vietnam\u0027s game dev scene is growing, with studios in Hanoi and Ho Chi Minh City. Opportunities exist but require networking; remote work is common.",
+      "alignmentValue": 7
     },
     {
       "key": "Hiring Velocity (Established Studios)",
-      "alignmentValue": 6,
-      "alignmentText": "As noted in Game Dev Work Prospects, Studios like VNG, Sparx*, and Glass Egg (Virtuos) employ large art and engineering teams serving global clients. Trey's hope to launch a game studio depends on ecosystems like this. Hiring velocity at established studios in Vietnam is moderate, with teams needing a few months to land the right hire."
+      "alignmentText": "Vietnam\u0027s established studios (VNG, Sparx, Glass Egg) typically fill roles in 3-4 months; remote/hybrid options align with Trey\u0027s startup plans.",
+      "alignmentValue": 6
     },
     {
       "key": "Compensation Benchmark (Established Studios)",
-      "alignmentValue": 6,
-      "alignmentText": "Compensation clusters around global medians, requiring negotiation to balance cost of living. When opportunities surface in Vietnam, established studios benchmark offers against peers across the ecosystem."
+      "alignmentText": "Vietnam\u0027s established studios generally pay slightly below top hubs. Seek family-friendly perks and visa support; consider remote options and grants.",
+      "alignmentValue": 7
     },
     {
       "key": "Language (Established Studios)",
-      "alignmentValue": 6,
-      "alignmentText": "Established studios in Vietnam rely on English for cross-border collaboration, while local-language fluency remains important for community, compliance, and platform partnerships."
+      "alignmentText": "Vietnam studios mix English for cross-border work with Vietnamese for local docs; onboarding is bilingual-friendly.",
+      "alignmentValue": 7
     },
     {
       "key": "Remote Expectations (Established Studios)",
-      "alignmentValue": 6,
-      "alignmentText": "Remote expectations at established studios in Vietnam are mixed—teams juggle on-site collaboration with hybrid arrangements when possible."
+      "alignmentText": "Vietnam established studios favor on-site work with hybrid options; matches your remote/hybrid needs for Ho Chi Minh City.",
+      "alignmentValue": 6
     },
     {
       "key": "Notable Game Studios",
-      "alignmentText": "Key players include VNG Games, Sparx* (Virtuos), Gameloft Vietnam, and indie shop Emobi. Trey's hope to launch a game studio depends on ecosystems like this.",
-      "alignmentValue": 6
+      "alignmentText": "Vietnam hosts studios like VNG Games, Gameloft Vietnam, Sparx/Virtuos, and Emobi. Ho Chi Minh City anchors a growing game scene Trey can tap into.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Notable Game Development Communities",
-      "alignmentText": "GameDev Vietnam, Global Game Jam chapters, and Saigon’s Indie Game Developers group host regular meetups. Trey's hope to launch a game studio depends on ecosystems like this.",
-      "alignmentValue": 6
+      "alignmentText": "Ho Chi Minh City hosts GameDev Vietnam, Global Game Jam VN, and Saigon Indie; regular meetups welcome families.",
+      "alignmentValue": 9
     },
     {
       "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Low burn rates and abundant art talent help early-stage studios, though funding networks remain nascent. Trey's hope to launch a game studio depends on ecosystems like this.",
-      "alignmentValue": 6
+      "alignmentText": "Vietnam\u0027s growing game-dev scene (HCMC/Hanoi) offers strong IT talent and low costs; grants exist, but funding channels remain developing.",
+      "alignmentValue": 8
     },
     {
       "key": "Hiring Velocity (Startups)",
-      "alignmentValue": 6,
-      "alignmentText": "Startup founders report that Low burn rates and abundant art talent help early-stage studios, though funding networks remain nascent. Trey's hope to launch a game studio depends on ecosystems like this. Hiring velocity at early-stage studios in Vietnam is moderate, with teams needing a few months to land the right hire."
+      "alignmentText": "In Vietnam, early-stage hiring is moderate; expect about 3 months to fill key startup roles, fitting Trey\u0027s game-studio plan and visa needs.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Compensation Benchmark (Startups)",
-      "alignmentValue": 6,
-      "alignmentText": "Compensation clusters around global medians, requiring negotiation to balance cost of living. Early teams in Vietnam balance cash and equity to stay competitive while managing runway."
+      "alignmentText": "Vietnam startups pay cash modestly vs top hubs, but equity can be meaningful; local grants and remote options support a lean family plan.",
+      "alignmentValue": 7
     },
     {
       "key": "Language (Startups)",
-      "alignmentValue": 6,
-      "alignmentText": "Founding teams in Vietnam lean on English for investor and platform communication, while local-language fluency helps with hiring, compliance, and community outreach."
+      "alignmentText": "In Vietnam, English is common in startups. Regulatory tasks and hiring still require local language fluency.",
+      "alignmentValue": 8
     },
     {
       "key": "Remote Expectations (Startups)",
-      "alignmentValue": 6,
-      "alignmentText": "Remote expectations among startups in Vietnam are mixed—teams juggle on-site collaboration with hybrid arrangements when possible."
+      "alignmentText": "In Vietnam\u0027s startup scene, remote work is embraced for most roles. Expect periodic on-site days in Hanoi or Ho Chi Minh City.",
+      "alignmentValue": 8
     },
     {
-      "key": "Modernity & Infrastructure",
-      "alignmentText": "Fiber internet and new metro projects signal modern growth, yet power outages and uneven sidewalks persist. Solid infrastructure supports their remote work, gaming, and everyday logistics.",
-      "alignmentValue": 5
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "Vietnam (VN) urban centers offer strong fiber internet and reliable power; rural areas lag, so plan around gaps for remote work and gaming.",
+      "alignmentValue": 8
     },
     {
-      "key": "Seasonal Extremes & Variability",
-      "alignmentText": "Dangerous extremes are routine, forcing us to track emergency alerts and modify plans multiple times a quarter.",
-      "alignmentValue": 3
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Vietnam\u0027s monsoon/typhoon seasons bring real swings: heavy rain and humidity in parts of the year; plan contingencies and stay alert.",
+      "alignmentValue": 7
     },
     {
       "key": "Seasonal Sunlight Hours",
-      "alignmentText": "Months of oppressive darkness or bright nights disrupt sleep cycles and make remote work or study harder to sustain.",
-      "alignmentValue": 4
+      "alignmentText": "In Vietnam, daylight is near-balanced year-round (about 11\u201312h in Hanoi/Ho Chi Minh City); no long winters to disrupt remote work.",
+      "alignmentValue": 10
     },
     {
       "key": "Pleasant Weather Windows",
-      "alignmentText": "Only brief shoulder weeks feel good; most months push us indoors due to muggy, icy, or stormy conditions.",
+      "alignmentText": "In Vietnam, muggy heat and rainy seasons limit outdoor days. Mild spells are brief and rare between monsoons.",
       "alignmentValue": 4
     },
     {
-      "key": "Quality of Life – Lower-Income Tier",
-      "alignmentText": "Families regularly compromise on safety or overcrowd to stay housed; civic support is patchy.",
-      "alignmentValue": 4
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "Vietnam\u0027s lower-income urban families meet basic needs, but housing can be crowded; civic support exists, yet gaps persist in childcare and healthcare.",
+      "alignmentValue": 6
     },
     {
-      "key": "Quality of Life – Middle-Income Tier",
-      "alignmentText": "We feel squeezed: decent neighborhoods or schools require long commutes or high costs that crowd out enrichment.",
-      "alignmentValue": 5
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "Vietnam offers affordable housing and good internet for middle-income expats. However, private international schools and visa costs can strain budgets.",
+      "alignmentValue": 6
     },
     {
-      "key": "Quality of Life – Higher-Income Tier",
-      "alignmentText": "Premium experiences exist but feel overpriced, shallow, or socially frowned upon.",
-      "alignmentValue": 5
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "Vietnam\u0027s major cities offer abundant premium services, top international schools, and expat healthcare; some elite options demand early booking or waitlists.",
+      "alignmentValue": 8
     },
     {
       "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "Large rentals appear occasionally and move fast, demanding premium rent or broker connections.",
+      "alignmentText": "In Vietnam, 2k sq ft family rentals are rare and costly. Listings move quickly; brokers can help secure space.",
       "alignmentValue": 6
     },
     {
       "key": "Community Living Opportunities",
-      "alignmentText": "Opportunities are sporadic; we rely on informal networks or satellite towns to join community living models.",
+      "alignmentText": "Vietnam\u0027s major cities have few formal co-living options. Families rely on informal networks and satellite towns near urban centers.",
       "alignmentValue": 6
     },
     {
-      "key": "Friendliness & Neighborliness Index",
-      "alignmentText": "Surface politeness exists yet deeper support systems take sustained effort to unlock.",
-      "alignmentValue": 6
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "Vietnam\u0027s major expat hubs are welcoming; warmth varies by neighborhood and grows with time and language effort.",
+      "alignmentValue": 7
     },
     {
-      "key": "Immigrant Sentiment – General",
-      "alignmentText": "Negative media framing and policy tightenings create a defensive posture for newcomers.",
-      "alignmentValue": 4
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "In Vietnam, expat communities in Hanoi/Ho Chi Minh City are welcoming, but visa hurdles and shifting policies can create cautious moments.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
-      "key": "Immigrant Sentiment – White Migrants",
-      "alignmentText": "Suspicion around privilege is common, demanding constant humility and proof of local investment.",
-      "alignmentValue": 5
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "In Ho Chi Minh City, Vietnam, expats are welcomed when you engage locally and contribute. Learn Vietnamese to avoid aloofness and maintain trust.",
+      "alignmentValue": 7
     },
     {
       "key": "Surface Interaction Norms",
-      "alignmentText": "Interactions can be efficient yet emotionally flat; kindness takes effort to elicit.",
-      "alignmentValue": 6
+      "alignmentText": "In Vietnam, service is polite and efficient. Warmth varies by context; in Hanoi and Ho Chi Minh City, staff can be brisk but respectful.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Depth-Seeking Social Norms",
-      "alignmentText": "Social circles are slow to open; we need persistence and shared projects to connect deeply.",
+      "alignmentText": "In Vietnam, expat families build ties through clubs and language exchanges; trust grows slowly, but shared projects deepen bonds.",
       "alignmentValue": 6
     },
     {
-      "key": "Personal Boundary & Bubble Norms",
-      "alignmentText": "Touchy or crowded norms are common and require constant boundary setting.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Moral, Honesty & Openness Expectations",
-      "alignmentText": "Honesty is situational; locals may avoid uncomfortable topics entirely.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Grooming & Beauty Investment",
-      "alignmentText": "Noticeable emphasis on grooming means we budget extra time and money to fit in.",
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "Vietnam\u0027s urban spaces are crowded; people stand closer in markets and transit. Set gentle verbal boundaries to keep the kids comfortable.",
       "alignmentValue": 6
     },
     {
-      "key": "Body Image & Fitness Pressure",
-      "alignmentText": "Visible pressure to stay slim or athletic influences work and school culture.",
-      "alignmentValue": 5
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "Vietnamese culture prioritizes harmony; be honest but tactful when raising concerns. This helps avoid offense and protects family comfort.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
-      "key": "Fashion & Style Expectations",
-      "alignmentText": "Fashionable appearance is expected in many settings, adding planning time and costs.",
-      "alignmentValue": 6
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "In Vietnam, urban life rewards polished grooming; budget time and money for presentable dress in work, school, and social contexts.",
+      "alignmentValue": 7
     },
     {
-      "key": "Flirting Boundaries & Consent Culture",
-      "alignmentText": "Consent education is weak; unwanted advances occur regularly.",
-      "alignmentValue": 4
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "In Vietnam, schools and workplaces show subtle body-image norms; promote boundaries and inclusive, healthy fitness without shaming.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "In Vietnam\u0027s urban centers, casual-smart attire fits. Aim for presentable outfits for schools and meetings with breathable fabrics.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "Vietnam\u0027s urban centers show mixed consent norms; growing awareness, but clear communication and safety planning remain essential.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Gendered Flirting Expectations",
-      "alignmentText": "Rigid gender expectations create discomfort for progressive or queer expressions.",
-      "alignmentValue": 4
+      "alignmentText": "Vietnam\u0027s urban dating is mostly modern, but some circles still expect traditional first approaches. Expats in Hanoi/Ho Chi Minh City report openness.",
+      "alignmentValue": 8
     },
     {
       "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "Negative narratives dominate; openness threatens custody, employment, or housing. non-monogamy acceptance.",
-      "alignmentValue": 3
+      "alignmentText": "In Vietnam, conservative norms prevail; openness about non-monogamy risks social backlash, discrimination, or legal consequences.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "Promiscuity Attitudes",
-      "alignmentText": "Conservative norms dominate; promiscuity is equated with poor character.",
-      "alignmentValue": 4
+      "alignmentText": "Vietnam\u0027s urban hubs (Hanoi/Ho Chi Minh City) are more open about relationships; rural areas remain conservative.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
-      "key": "Group & Multi-Partner Relationship Attitudes",
-      "alignmentText": "Disclosure triggers backlash or official scrutiny.",
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "Vietnam does not recognize polyamorous relationships; disclosure risks official scrutiny and social bias.",
       "alignmentValue": 3
     },
     {
-      "key": "Personal Space & Touch Norms",
-      "alignmentText": "Culture favors close contact; sensory-sensitive family members often feel overwhelmed.",
-      "alignmentValue": 5
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "In Vietnam\u0027s busy cities (Hanoi/Ho Chi Minh City), close contact is common in transit and markets. Politely cue for space when needed.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
-      "key": "Firearm Laws & Ownership Culture",
-      "alignmentText": "Permissive laws and visible ownership prompt caution in public spaces.",
-      "alignmentValue": 5
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "Vietnam has strict gun controls. Private ownership is rare, creating a calm environment with minimal public gun presence.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "Controlled Substance Policies",
-      "alignmentText": "Zero-tolerance stances lead to aggressive policing and limited treatment options.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "Aggressive tactics and profiling are common, eroding trust in authorities.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "Multiple incidents within the past decade impact how we choose schools and venues.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Carceral Conditions & Prison Labor",
-      "alignmentText": "Conditions are degrading with widespread labor exploitation and violence.",
+      "alignmentText": "Vietnam enforces strict drug laws with harsh penalties and limited treatment options; enforcement can be punitive for foreigners.",
       "alignmentValue": 3
     },
     {
-      "key": "Walkability & Pedestrian Safety",
-      "alignmentText": "Walking is possible yet stressful due to gaps in sidewalks or aggressive driving.",
-      "alignmentValue": 5
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "In Vietnam, drug enforcement can be strict. Families may face sudden investigations or charges, eroding trust in authorities.",
+      "alignmentValue": 3
     },
     {
-      "key": "Community Health Consciousness",
-      "alignmentText": "Public health messaging is uneven; we invest extra time to maintain routines.",
-      "alignmentValue": 5
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Mass violence in Vietnam (VN) is rare; authorities maintain safety measures at events. We stay prepared and rely on strong community safety.",
+      "alignmentValue": 9
     },
     {
-      "key": "Processed Food Saturation",
-      "alignmentText": "Ultra-processed options crowd shelves; schools and events lean heavily on packaged snacks.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Fresh & International Cuisine Access",
-      "alignmentText": "Fresh options exist yet international diversity is limited to a few neighborhoods.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "Prevalence is high with long waits and patchy insurance coverage.",
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "Vietnam\u0027s prisons show overcrowding and limited oversight. Reports of forced labor persist, with reforms proceeding slowly.",
       "alignmentValue": 4
     },
     {
-      "key": "Obesity Rate",
-      "alignmentText": "Obesity is widespread, signaling systemic lifestyle challenges we must counter individually.",
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "In Vietnam, sidewalks are often irregular and traffic is dense; walkable pockets exist in select districts near parks, plan routes to avoid busy streets.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "Vietnam\u0027s health messaging varies by region. Wellness resources exist, but you must seek like-minded circles to stay on routines.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "Vietnam\u0027s urban markets offer abundant fresh produce; with planning, processed snacks remain common but balanced by strong fresh options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "Vietnam\u0027s big cities have robust fresh markets and local cuisine. International options cluster in central districts, with some gaps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "Vietnam shows moderate depression prevalence with limited mental health providers. Stigma and uneven access mean plan for care and costs.",
       "alignmentValue": 5
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Vietnam\u0027s obesity remains below Western levels; urban families in Vietnam often walk/bike, with proactive public health campaigns helping keep rates low.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Cancer Incidence",
-      "alignmentText": "Higher cancer rates tie to environmental or lifestyle factors we must actively mitigate.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "Recessions hit noticeable segments, requiring flexibility or retraining.",
+      "alignmentText": "Vietnam has higher liver and stomach cancer risk tied to HBV and lifestyle. Routine checkups and local screenings help mitigate these regional factors.",
       "alignmentValue": 6
     },
     {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Vietnam\u0027s diversified IT/services and manufacturing supports reemployment, but some sectors lag; keep retraining and remote-work options ready.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
       "key": "Studio Density",
-      "alignmentText": "[Placeholder] Provide Studio Density insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam has a growing game scene centered in Ho Chi Minh City and Hanoi; a moderate, hub-based ecosystem with indie to mid-size studios.",
+      "alignmentValue": 7
     },
     {
       "key": "Anchor Employers",
-      "alignmentText": "[Placeholder] Provide Anchor Employers insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam has a budding game-dev ecosystem with several service studios and regional offices. No major AAA anchors yet.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "[Placeholder] Provide Vendor/Outsource Ecosystem insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s outsourcing scene (Ho Chi Minh City and Hanoi) offers engineering/QA vendors, but capacity is variable and game-focused partners are relatively niche.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Education Pipeline Strength insights for Vietnam.",
+      "alignmentText": "Vietnam\u0027s game-education pipeline is developing; Ho Chi Minh City offers private and international programs, public paths remain limited.",
       "alignmentValue": 5
     },
     {
       "key": "Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Continuing Education Availability insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam offers occasional bootcamps and quarterly meetups in Hanoi and Ho Chi Minh City; strong online resources but local options are limited.",
+      "alignmentValue": 7
     },
     {
       "key": "Community Activity",
@@ -794,303 +848,326 @@
     },
     {
       "key": "Engine Community Bias",
-      "alignmentText": "[Placeholder] Provide Engine Community Bias insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s game scene is Unity-dominant (mobile/indie) with Unreal presence in Hanoi and Ho Chi Minh City; local meetups spur cross-training.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "[Placeholder] Provide Real-Time vs Pre-Rendered Focus insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s growing real-time game scene; Ho Chi Minh City and Hanoi offer ecosystems, cloud access, and latency-friendly options for Trey\u0027s team.",
+      "alignmentValue": 8
     },
     {
-      "key": "Demand–Supply Balance",
-      "alignmentText": "[Placeholder] Provide Demand–Supply Balance insights for Vietnam.",
-      "alignmentValue": 5
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Vietnam\u0027s growing tech scene supports game dev/Unity needs, but top roles face competition; steady local hiring with some friction.",
+      "alignmentValue": 8
     },
     {
-      "key": "Retention & Churn Risk",
-      "alignmentText": "[Placeholder] Provide Retention & Churn Risk insights for Vietnam.",
-      "alignmentValue": 5
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Vietnam\u0027s hubs like Ho Chi Minh City offer strong growth and good schooling for your family, but visa hurdles and bureaucracy create moderate retention risk.",
+      "alignmentValue": 6
     },
     {
-      "key": "Diversity & Inclusion Index",
-      "alignmentText": "[Placeholder] Provide Diversity & Inclusion Index insights for Vietnam.",
-      "alignmentValue": 5
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Vietnam\u0027s major cities (Hanoi/HCMC) show rising D\u0026I dialogue; expat families find inclusive pockets, but national protections and norms remain uneven.",
+      "alignmentValue": 6
     },
     {
       "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "[Placeholder] Provide Tax Incentives for Games/Creative insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam offers IT/software incentives in tech zones; game studios usually access modest, competitive grants with variable funding.",
+      "alignmentValue": 6
     },
     {
       "key": "Economic/Policy Stability",
-      "alignmentText": "[Placeholder] Provide Economic/Policy Stability insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam offers startup grants and visas with generally stable policy; occasional regulatory tweaks in Hanoi and Ho Chi Minh City require ongoing planning.",
+      "alignmentValue": 8
     },
     {
       "key": "Founder/Operator Community",
-      "alignmentText": "[Placeholder] Provide Founder/Operator Community insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s startup scene is growing with regular founder meetups in Ho Chi Minh City and Hanoi; mentorship is accessible but still maturing.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Early-Stage Capital Access",
-      "alignmentText": "[Placeholder] Provide Early-Stage Capital Access insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam has growing VC and grants, with general funds open to games; expect competition and some government support.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Accelerator/Incubator Access",
-      "alignmentText": "[Placeholder] Provide Accelerator/Incubator Access insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam has several general tech accelerators in Hanoi and Ho Chi Minh City. Game-specific support is limited; most programs are general.",
+      "alignmentValue": 6
     },
     {
       "key": "Senior Talent Availability",
-      "alignmentText": "[Placeholder] Provide Senior Talent Availability insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam has a growing pool of senior tech leaders in Hanoi and Ho Chi Minh City; expect competitive offers and some leaders tied to anchor studios.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Contractor/Freelancer Bench",
-      "alignmentText": "[Placeholder] Provide Contractor/Freelancer Bench insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam has a healthy freelancer/outsourcing scene; broad IT talent for cloud/web. Top Unity/game specialists may book weeks ahead, but reliable contractors exist.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
-      "key": "Coworking & Startup Infrastructure",
-      "alignmentText": "[Placeholder] Provide Coworking & Startup Infrastructure insights for Vietnam.",
-      "alignmentValue": 5
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Vietnam\u0027s hubs (Ho Chi Minh City, Hanoi) offer solid coworking for indie teams; game-specific labs are limited, so expect basic shared resources rather than mocap suites.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
-      "key": "Legal & IP Support",
-      "alignmentText": "[Placeholder] Provide Legal & IP Support insights for Vietnam.",
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Vietnam has few game-specific IP lawyers; startups rely on referrals to general IP firms; pricing is modest and licensing timelines may be slower.",
       "alignmentValue": 5
     },
     {
       "key": "Publisher/Platform Relationships",
-      "alignmentText": "[Placeholder] Provide Publisher/Platform Relationships insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam has growing publisher interest; partnerships exist but require proactive outreach. Local game/tech events help connections.",
+      "alignmentValue": 7
     },
     {
-      "key": "Market Research & Playtesting",
-      "alignmentText": "[Placeholder] Provide Market Research & Playtesting insights for Vietnam.",
-      "alignmentValue": 5
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Vietnam\u0027s growing game-dev scene (HCMC/Hanoi) offers local testers and expat groups. Plan ahead for playtests, as slots can fill quickly.",
+      "alignmentValue": 7
     },
     {
       "key": "Government/Startup Visas",
-      "alignmentText": "[Placeholder] Provide Government/Startup Visas insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s startup visas exist but are limited and quota-driven; documentation can slow approvals. Work permits and business visas are the more reliable routes.",
+      "alignmentValue": 7
     },
     {
       "key": "Cost of Doing Business",
-      "alignmentText": "[Placeholder] Provide Cost of Doing Business insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam costs are slightly elevated but manageable with local incentives; Ho Chi Minh City offers affordable talent and startup grants.",
+      "alignmentValue": 7
     },
     {
       "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Talent Pool insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s 3D character artist pool is moderate (HCM City, Hanoi) with outsourcing ties; senior hires may need longer searches or remote options.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Education Pipeline Strength insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam has serviceable 3D art programs with some studio ties in Hanoi/Ho Chi Minh City. Graduates still need mentoring to reach industry-ready levels.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Continuing Education Availability insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam has sporadic 3D character art training. Occasional local bootcamps and studios exist in major cities, but most upskilling is online.",
+      "alignmentValue": 6
     },
     {
       "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Hiring Velocity insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u2019s game-dev hubs (HCMC, Hanoi) have a growing pool of 3D artists. Hiring typically runs 3-4 months with proactive sourcing and relocation help.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Compensation Benchmark insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s 3D character artist pay is modest. Total compensation trails top markets by ~40%, often needing supplements or remote opportunities.",
+      "alignmentValue": 4
     },
     {
       "key": "3D Character Artist: Language",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Language insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "English is common in Vietnam studios, especially in Hanoi and Ho Chi Minh City. Basic Vietnamese helps collaboration with local teams.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Remote Expectations insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam studios favor onsite or hybrid 3D artist roles. Remote roles exist mainly for senior contractors; broadband is solid in Hanoi and Ho Chi Minh City.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "3D Animator: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Talent Pool insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s 3D animation talent pool is growing but remains mid-level, centered in Hanoi and HCMC. Senior roles often require remote staff.",
+      "alignmentValue": 6
     },
     {
       "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Education Pipeline Strength insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "VN has several 3D/CG programs in Hanoi and HCMC, but class sizes are small; grads commonly need on-the-job upskilling.",
+      "alignmentValue": 7
     },
     {
       "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Continuing Education Availability insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "VN (Ho Chi Minh City and Hanoi) hosts occasional 3D/animation events; most upskilling is online/self-paced with few local bootcamps.",
+      "alignmentValue": 6
     },
     {
       "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Hiring Velocity insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s 3D animator openings in Hanoi/Ho Chi Minh City typically run 2-3 months; local pools are growing but competitive.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Compensation Benchmark insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam 3D animator pay in hubs like Hanoi/Ho Chi Minh City trails top markets; relocation or signing bonuses often needed for expatriates.",
+      "alignmentValue": 4
     },
     {
       "key": "3D Animator: Language",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Language insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s animation scene (HCMC/Hanoi) often uses English in studios, but Vietnamese is common; bilingual English/Vietnamese talent is favored.",
+      "alignmentValue": 7
     },
     {
       "key": "3D Animator: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Remote Expectations insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnamese studios favor hybrid setups; remote is possible case-by-case, with frequent on-site work in Hanoi or Ho Chi Minh City.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Talent Pool insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam has a solid 2D environmental art pool; many mid-level artists in Hanoi/Ho Chi Minh City, with remote talent, though senior roles can be competitive.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Education Pipeline Strength insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "In Vietnam (Hanoi/Ho Chi Minh City), 2D art/game design programs exist but cohorts are small. Studios partner with schools to bridge gaps; grads may need mentoring.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Continuing Education Availability insights for Vietnam.",
+      "alignmentText": "Vietnam: only a few providers cover 2D environmental art basics; most advanced topics require remote study; online communities in Hanoi and Ho Chi Minh City are emerging.",
       "alignmentValue": 5
     },
     {
       "key": "2D Environmental Artist: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Hiring Velocity insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "VN\u0027s tech hubs (HCMC, Hanoi) have rising game studios and remote pipelines; 2D Environmental Artist roles often close in 2-3 months.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Compensation Benchmark insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam-based 2D Environmental Artist pay runs ~20% below global medians. Remote work and affordable living in HCMC help offset the gap for families.",
+      "alignmentValue": 6
     },
     {
       "key": "2D Environmental Artist: Language",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Language insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "In Vietnam, English is common in multinational game studios; many indie artists use Vietnamese, so bilingual ability helps new hires.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Remote Expectations insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam offers 2D environmental art remote roles case-by-case; expect some on-site collaboration in Hanoi or Ho Chi Minh City.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Talent Pool insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u2019s real-time VFX talent pool is moderate; Hanoi/Ho Chi Minh City studios offer mid-level artists, with seniors often remote or imported.",
+      "alignmentValue": 6
     },
     {
       "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Education Pipeline Strength insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s VFX education is growing (Hanoi/Ho Chi Minh City) with studio links; graduates often need mentoring for real-time roles.",
+      "alignmentValue": 6
     },
     {
       "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Continuing Education Availability insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam offers infrequent VFX real-time continuing education; most learning is online, with few local courses and ad hoc mentorship in Hanoi/Ho Chi Minh City.",
+      "alignmentValue": 4
     },
     {
       "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Hiring Velocity insights for Vietnam.",
+      "alignmentText": "VN real-time VFX hiring relies on global pools; local pipelines are modest. Expect 4-5 months with multiple search cycles; consider global sourcing.",
       "alignmentValue": 5
     },
     {
       "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Compensation Benchmark insights for Vietnam.",
+      "alignmentText": "In Vietnam, VFX (real-time) pay trails top markets by about 25-30%; lower costs and lifestyle offsets help families.",
       "alignmentValue": 5
     },
     {
       "key": "VFX Artist (Real-Time): Language",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Language insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam real-time VFX uses English widely, esp. in multinational studios; local language skills help in smaller shops.",
+      "alignmentValue": 8
     },
     {
       "key": "VFX Artist (Real-Time): Remote Expectations",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Remote Expectations insights for Vietnam.",
+      "alignmentText": "In Vietnam: remote real-time VFX roles exist case-by-case with limited process maturity; expect some overlap scheduling with US teams.",
       "alignmentValue": 5
     },
     {
       "key": "Community Manager: Talent Pool",
-      "alignmentText": "[Placeholder] Provide Community Manager: Talent Pool insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s growing tech hubs (HCMC/Hanoi) offer a moderate CM pool; expect longer searches or relocation for senior roles.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Community Manager: Education Pipeline Strength insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s Hanoi/Ho Chi Minh City schools offer IT/marketing degrees; dedicated community manager curricula are limited; studios bridge gaps.",
+      "alignmentValue": 6
     },
     {
       "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Community Manager: Continuing Education Availability insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam has sporadic CM meetups and online courses in Hanoi and Ho Chi Minh City. Few regular conferences exist, so self-directed learning remains common.",
+      "alignmentValue": 6
     },
     {
       "key": "Community Manager: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide Community Manager: Hiring Velocity insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u2019s Hanoi/Ho Chi Minh markets offer solid CM talent; expect 2\u20133 months to hire, with visa/relocation adding time.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide Community Manager: Compensation Benchmark insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam CM pay is modest vs Western hubs; relocation usually needs supplements or enhanced benefits.",
+      "alignmentValue": 4
     },
     {
       "key": "Community Manager: Language",
-      "alignmentText": "[Placeholder] Provide Community Manager: Language insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "In Vietnam, community managers mostly use Vietnamese; English is common in multinational teams, rarer in indie studios.",
+      "alignmentValue": 7
     },
     {
       "key": "Community Manager: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide Community Manager: Remote Expectations insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam-based studios favor hybrid CM roles. Remote options exist case-by-case, but expect periodic onsite events and local coordination.",
+      "alignmentValue": 6
     },
     {
       "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Talent Pool insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam (VN) Games PMM talent pool: moderate; vibrant Hanoi/Ho Chi Minh City market, but niche PMMs are scarce; relocation may be needed.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Education Pipeline Strength insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "In Vietnam, key hubs like Hanoi/Ho Chi Minh City offer game design/marketing programs, but class sizes are small; upskilling via studios is common.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Continuing Education Availability insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam offers sporadic bootcamps and occasional conferences for games product marketing; most upskilling is online or self-directed in Ho Chi Minh City.",
+      "alignmentValue": 6
     },
     {
       "key": "Product Marketing Manager (Games): Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Hiring Velocity insights for Vietnam.",
+      "alignmentText": "In Vietnam\u0027s hubs (HCMC/Hanoi), PMM (Games) roles typically take 4-5 months. Local pools are modest; remote or global sourcing can speed hires.",
       "alignmentValue": 5
     },
     {
       "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Compensation Benchmark insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam PMM (Games) pay generally aligns with global medians after cost-of-living adjustments. Expat packages often include housing and benefits, offsetting local rates.",
+      "alignmentValue": 8
     },
     {
       "key": "Product Marketing Manager (Games): Language",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Language insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam\u0027s gaming/tech scene uses English widely; local Vietnamese aids market work - fits your emphasis on English ubiquity.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Remote Expectations",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Remote Expectations insights for Vietnam.",
-      "alignmentValue": 5
+      "alignmentText": "Vietnam game studios accept remote PMM (games) for senior roles; expect limited remote use with on-site collab in Hanoi/Ho Chi Minh City.",
+      "alignmentValue": 7
     }
   ]
 }
