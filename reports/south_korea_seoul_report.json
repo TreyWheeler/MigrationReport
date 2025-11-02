@@ -4,979 +4,1235 @@
   "values": [
     {
       "key": "Environment",
-      "alignmentText": "Seoul's Han River parks and nearby Bukhansan hikes offer greenery, but dense towers and traffic mean we chase cleaner air on weekend mountain escapes.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea offers Han River parks and Bukhansan hikes, but urban traffic and air quality require planning around pollution alerts.",
+      "alignmentValue": 7
     },
     {
       "key": "Global Warming Risk",
-      "sameAsParent": true
+      "alignmentText": "Seoul, South Korea faces moderate warming with hotter summers and heavier rainfall. Mitigation and planning keep risk acceptable.",
+      "alignmentValue": 6
     },
     {
       "key": "Seasonal Weather",
+      "alignmentText": "Seoul has hot, humid summers and cold winters; springs/falls are milder. Outdoor time is doable, but be ready for muggy spells.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Air Quality",
-      "alignmentText": "Spring yellow dust and winter coal imports push PM2.5 into the 25–35 µg/m³ range several times a year, so we'd rely on air purifiers at home.",
-      "alignmentValue": 3
+      "alignmentText": "Seoul, KR often sees PM2.5 spikes on seasonal dust days; we rely on purifiers and limit outdoor time when air quality is poor.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Natural Disasters",
+      "alignmentText": "Seoul, KR faces occasional typhoons and floods, but strong building codes and insurance keep your family risk manageable.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Spring Temperature Range (C/F)",
-      "sameAsParent": true
+      "alignmentText": "Spring in Seoul (KR) is typically mild: 12-23 C (54-73 F) on most days, with occasional chilly mornings\u2014carry light layers and enjoy dry, breezy outings.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "Seoul summers run around 30\u00B0C with humidity. Plan for occasional heatwaves and reliable AC for comfort.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Seoul, South Korea fall usually sits around 10-22 C with crisp mornings. Mild days are great for outdoor family activities.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Seoul winters are cold with frequent subfreezing nights; heating is reliable and public transit generally runs, with occasional light snowfall.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Beach Life",
-      "sameAsParent": true
+      "alignmentText": "Beaches near Seoul are workable with travel; Incheon spots like Eulwangni are 1-2 hours away with family facilities and seasonal crowds.",
+      "alignmentValue": 7
     },
     {
       "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Seoul beaches typically run 22-25 C in summer and roughly 20 C in shoulder months. This aligns with an 8 for half-year swimming with 20 C shoulders.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Natural Beauty",
+      "alignmentText": "Seoul offers strong nature near the city (Bukhansan, Hangang) within easy reach. Some spots charge fees, but weekly family outdoor time is very doable.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Minimum Wage",
-      "alignmentText": "The 2024 minimum wage of ₩9,860/hour (~$7.40) helps service workers, yet Seoul housing makes survival tough without dual professional incomes.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "Senior engineers in Pangyo Techno Valley earn ₩80–110M plus bonuses, covering city life but not matching US remote packages after taxes.",
+      "alignmentText": "Seoul\u0027s KRW minimum wage trails living costs by 10-15%; two working parents or subsidies needed for a family of four.",
       "alignmentValue": 6
     },
     {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Seoul/Pangyo senior software pay is \u20A980\u2013110M plus bonuses; after tax, it trails US remote packages. Remote/hybrid roles and grants can bridge the gap for the family.",
+      "alignmentValue": 7
+    },
+    {
       "key": ".NET Work Prospects",
-      "alignmentText": "Finance, telcos, and Chaebol IT subsidiaries keep .NET teams, though Korean fluency and on-site expectations narrow Trey's options.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has .NET roles in multinationals and outsourcing, but language and on-site needs limit Trey\u0027s options; expect steady, city-focused opportunities.",
+      "alignmentValue": 7
     },
     {
       "key": "Ruby Work Prospects",
-      "alignmentText": "Rails shops are niche beyond Coupang or Woowa Brothers, so Sarah would mainly find roles at English-friendly startups or remote employers.",
-      "alignmentValue": 4
+      "alignmentText": "Seoul Ruby openings are sporadic; target English-friendly startups or remote roles; expect hybrid skills (DevOps, JS).",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "Employer Visa Sponsorship",
+      "alignmentText": "Seoul tech firms often sponsor skilled foreigners; with strong resumes, expect quick approvals and dependents included in the visa process.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Economic Health",
+      "alignmentText": "Seoul, South Korea\u0027s economy is resilient and tech-driven, offering steady jobs and solid safety nets. Expect moderate growth with occasional sector swings.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Remote-Friendly Culture",
-      "alignmentText": "Hybrid arrangements exist post-pandemic, yet many Seoul teams still expect late-night syncs and regular office presence.",
-      "alignmentValue": 4
+      "alignmentText": "Seoul offers remote options on paper, but many firms still favor office presence; expect occasional late-night syncs with US teams.",
+      "alignmentValue": 6
     },
     {
       "key": "Work-Life Balance",
+      "alignmentText": "8: In Seoul, South Korea, work-life practices are generally good; peak seasons may demand extra hours, but recovery time is typically offered.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Work Week Hours",
+      "alignmentText": "In Seoul, Korea, a 35-hour week is typical with strict overtime caps. Remote/hybrid options support the family-friendly pace.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Vacation Days (Minimum)",
-      "sameAsParent": true
+      "alignmentText": "Seoul, South Korea guarantees 15 paid vacation days after 1 year; plan for family care and holidays.",
+      "alignmentValue": 6
     },
     {
       "key": "Vacation Days (Typical)",
+      "alignmentText": "Korea typically offers 15\u201319 paid vacation days. Firms may allow remote work to extend breaks, suiting a family in Seoul.",
+      "alignmentValue": 6,
       "sameAsParent": true
     },
     {
       "key": "Pace of Life",
-      "alignmentText": "Seoul's 24/7 convenience stores and packed subways make daily life fast-paced, so we'd target quieter districts like Seongbuk or Bundang.",
-      "alignmentValue": 4
+      "alignmentText": "Seoul\u0027s busy core contrasts with quieter districts like Seongbuk; target calmer neighborhoods for slower, balanced days.",
+      "alignmentValue": 8
     },
     {
       "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Seoul schools run 08:30-15:00 with aftercare; infant daycare helps cover the younger child. Remote/hybrid work makes 08:30-16:00 feasible most days.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Seoul, KR weekends offer abundant family programming, parks, and safe transit; most outings don\u0027t require pre-booking, with easy spontaneous options.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Family Life",
+      "alignmentText": "Seoul provides safety, parks, and strong schooling, but childcare waitlists and English-language options mean families must engage and plan.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Polyamory",
+      "alignmentText": "Seoul, South Korea: polyamory has mixed acceptance; legally monogamy is the default, with limited public support.",
+      "alignmentValue": 5,
       "sameAsParent": true
     },
     {
       "key": "Parenting Expectations",
-      "sameAsParent": true
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "sameAsParent": true
-    },
-    {
-      "key": "Schooling Options",
-      "sameAsParent": true
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "sameAsParent": true
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "National subsidies, free preschool from age 3, and city-run care centers help citizens, but competition for Seoul daycare spots remains fierce.",
+      "alignmentText": "Seoul, South Korea: parenting involves dual involvement from both parents. Yet strong academic pressure and traditional norms persist in parts of society.",
       "alignmentValue": 7
     },
     {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Seoul is broadly kid-friendly with safe neighborhoods and parks; dense districts demand vigilance, but bilingual options and expat networks help families.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Seoul offers strong bilingual and international options plus good public schools; admissions can be selective, with language support needed for a 5-year-old.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Seoul, South Korea has a strong public/private early care mix with bilingual options; affordability varies and top centers may have waitlists.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Seoul offers free preschool from age 3 and city-run childcare, easing costs, but 0-2 slots are competitive with some co-pays.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
       "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "Long-term foreign residents can access subsidies after registering with the local ward office, yet Korean-only paperwork and waitlists demand persistence.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul offers some childcare subsidies for residents, but first-time KR visa holders typically receive partial subsidies with paperwork and wait times.",
+      "alignmentValue": 6
     },
     {
       "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Seoul, Korea offers strong public K-12. Access varies by district, but informed parents can secure good schools and bilingual/ESL options.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "In Seoul, visa families can enroll children in public K-12 with some extra paperwork and proof of residence; language support varies.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Private Education",
+      "alignmentText": "Seoul, South Korea offers strong international/private schools (KIS/SFS) with competitive entry; tuition is high, though employer subsidies may help.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Family Policy (Citizens)",
+      "alignmentText": "Seoul offers solid childcare, healthcare, and education supports for families; parental leave is available, but bureaucratic delays can slow benefit access.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Seoul, Korea, offers healthcare and schooling for visa families; most cash benefits require longer residency or employer sponsorship.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Seoul offers broad public-university access for Korean citizens: affordable tuition and scholarships, though competitive entrance exams remain.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "In Seoul, visa holders face higher tuition and modest work options, but many Seoul universities offer English programs and international student support.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Gender Roles",
+      "alignmentText": "8: Seoul\u0027s urban culture leans egalitarian with shared caregiving, but some traditional expectations persist.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Gender Fluidity",
+      "alignmentText": "Seoul has good social acceptance and support groups for gender-diverse people, but official documents and nationwide recognition still lag.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Gender Rights",
+      "alignmentText": "Seoul, South Korea has strong gender-rights laws and universal healthcare, but leadership diversity and pay gaps persist.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Femininity Norms",
+      "alignmentText": "In Seoul, South Korea, women enjoy autonomy. However, subtle pressure around appearance and parenting persists.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Masculinity Norms",
+      "alignmentText": "Seoul, South Korea shows evolving masculinity norms; men can be nurturing, but traditional views persist in pockets.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "What Is Intriguing",
+      "alignmentText": "Seoul, South Korea blends high-tech innovation with rich history\u2014AI startups, gaming hubs, and traditional markets spark ongoing family curiosity.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Language & English Ubiquity",
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "Seoul, KR: English is common in daily services and expat hubs; official docs still favor Korean, but your plan to learn aids full participation.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Progressivism",
+      "alignmentText": "Seoul, South Korea blends urban progressive culture with strong civic life; education and safety support families, though reforms move gradually.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Seoul, South Korea: Marxism is mostly academic or activist, not policy; a market democracy keeps capitalism central, with security laws limiting fringe activism.",
+      "alignmentValue": 6,
       "sameAsParent": true
     },
     {
       "key": "Atheism",
+      "alignmentText": "In Seoul, South Korea, atheism is broadly tolerated in daily life and work; Korea\u0027s secular culture is strong with little religious pressure.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Sex (Attitudes)",
-      "sameAsParent": true
+      "alignmentText": "Seoul\u0027s urban openness and improving sex education align with the family\u0027s sex-positive values; conservative norms linger outside the capital, but resources grow.",
+      "alignmentValue": 8
     },
     {
-      "key": "LGBTQ+ Attitudes",
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "Seoul, South Korea: legal rights exist but social acceptance is mixed; urban tolerance is higher, yet public displays may draw scrutiny.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Community Vibes",
+      "alignmentText": "Seoul offers friendly expat and club networks; locals are reserved, so integration grows gradually via schools and community groups.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "View of self",
-      "sameAsParent": true
+      "alignmentText": "Seoul/KR views itself as capable, tech-forward, and culturally vibrant. It also acknowledges social gaps and political tensions, keeping pride tempered.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "View of Neighboring Countries",
+      "alignmentText": "Seoul sees neighbors cautiously: North Korea tensions persist; China/Japan pragmatic ties; overall a neutral regional climate.",
+      "alignmentValue": 5,
       "sameAsParent": true
     },
     {
       "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Seoul-area neighbors view South Korea positively for tech leadership and markets; Japan and China show occasional policy tensions.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Nightlife Culture",
-      "sameAsParent": true
+      "alignmentText": "Seoul\u0027s nightlife is vibrant in Hongdae and Gangnam, with live music and late dining. For a family with young kids, plan with sitters and use reliable transit.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Fashion Trends (Male)",
+      "alignmentText": "In Seoul, South Korea, men\u0027s fashion is trend-forward in urban areas and expressive, matching your progressive profile. Traditional workplaces may lean conservative.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Fashion Trends (Female)",
-      "sameAsParent": true
+      "alignmentText": "Seoul, Korea offers a dynamic, diverse fashion scene; urban women express freely, but many workplaces expect modest, polished attire.",
+      "alignmentValue": 8
     },
     {
       "key": "Common Hobbies",
+      "alignmentText": "9 - In Seoul, board-game cafes, gaming hubs, and climbing gyms create a broad hobby scene; expat groups and English-friendly meetups ease participation.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Boardgaming & Tabletop",
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "Seoul, South Korea has many board game cafes and expat groups. Expect regular family-friendly game nights in English-friendly venues.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Nightlife & Music",
-      "alignmentText": "Hongdae clubs, Gangnam lounges, and nonstop K-pop concerts give endless nightlife options for date nights.",
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Seoul\u0027s vibrant music scene (Hongdae, Gangnam) hosts frequent concerts and community events with safe transit and family-friendly options.",
       "alignmentValue": 9
     },
     {
-      "key": "Meetups & Communities",
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "Seoul hosts abundant tech, parenting and expat meetups; many events are in English and easy to join, helping fast network building for your family.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Nature Access",
+      "alignmentText": "Excellent nature access in Seoul; easy transit to Bukhansan National Park and Han River parks for family-friendly outings.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Political System",
-      "sameAsParent": true
+      "alignmentText": "Seoul, South Korea has transparent, participatory democracy with strong rule of law and open civic channels; stable institutions support daily life.",
+      "alignmentValue": 10
     },
     {
       "key": "Religion in Politics",
-      "sameAsParent": true
+      "alignmentText": "Seoul, South Korea: religion influences culture, but politics stay secular; policy remains evidence-based and pluralistic, aligning with your family\u0027s values.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
-      "key": "Workers' Rights",
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "Seoul, Korea offers solid labor protections and active unions; gig workers face gaps and enforcement varies.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "State Ideology",
+      "alignmentText": "Seoul\u0027s pluralistic democracy upholds rights and debate; a progressive stance fits Korea\u0027s openness and policy discourse.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Seoul, South Korea shows a robust democracy; independent courts and media guard civil liberties with vigilant checks against power.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "State of Capitalism",
-      "sameAsParent": true
+      "alignmentText": "Seoul\u0027s dynamic market balances innovation with strong public healthcare and education; watch wealth gaps and chaebol influence with policy vigilance.",
+      "alignmentValue": 8
     },
     {
       "key": "Stability",
+      "alignmentText": "Seoul, South Korea offers high stability with predictable governance and robust services. Expect low risk and reliable daily life for the family.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Propaganda Prevalence",
+      "alignmentText": "South Korea\u0027s media is fairly pluralistic, with watchdog voices in Seoul; expect some state/chaebol narratives, so verify with independent outlets.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Propaganda Messaging",
-      "sameAsParent": true
+      "alignmentText": "Seoul, South Korea: messaging favors community wellbeing and practical policy info. Independent media offer multiple viewpoints with minimal propaganda.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Social Policies",
+      "alignmentText": "Seoul, South Korea offers universal healthcare and strong family supports that fit their needs. Some immigrant outreach and language navigation could improve.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Trust in Government",
+      "alignmentText": "Seoul, KR: trust in government is solid with responsive services; a few agencies need improvement, but processes work for families.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Perceived Corruption",
+      "alignmentText": "Seoul has low perceived corruption with strong institutions. Investigations are generally effective.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Type of Corruption",
+      "alignmentText": "Seoul has moderate corruption risk; with strong institutions, petty issues are addressed quickly and public services remain reliable.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Housing Situation",
-      "alignmentText": "High jeonse deposits and rising monthly rents in Gangnam and Yongsan push many families toward newer suburbs like Songdo for space.",
-      "alignmentValue": 3
+      "alignmentText": "Seoul, South Korea: high jeonse deposits and rising rents push families toward Songdo for space; family-friendly options exist but competition remains.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
-      "key": "Safety & Crime",
-      "alignmentText": "Violent crime stays rare and late-night subways feel safe, though we remain mindful of digital scams and protest gatherings downtown.",
-      "alignmentValue": 8
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "Seoul is very safe overall with rare violent crime; watch for pickpockets in crowded subways and markets; protests can occur downtown.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Healthcare (Citizens)",
-      "sameAsParent": true
+      "alignmentText": "Seoul, South Korea\u0027s National Health Insurance provides broad pediatric care with low co-pays; access is strong, though top hospitals can have longer waits.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Seoul offers National Health Insurance for residents; visa holders can access care but may face enrollment steps and co-pays.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Child Care Support",
+      "alignmentText": "Seoul has strong, subsidized childcare options. Expats may face waitlists and language barriers - plan early.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Family Policy (Common Family)",
-      "sameAsParent": true
+      "alignmentText": "Seoul offers strong universal healthcare and childcare subsidies for families. However, work culture and bureaucracy can limit relief.",
+      "alignmentValue": 7
     },
     {
       "key": "Education",
+      "alignmentText": "Seoul KR has strong public schools and early childhood programs. Bilingual options exist, but private tutoring is common.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "Seoul's 23-line metro, integrated buses, and KTX bullet trains keep commutes smooth with T-money tap payments.",
-      "alignmentValue": 9
+      "alignmentText": "Seoul\u0027s extensive metro with buses and T-money supports fast, affordable city trips; excellent coverage, stroller-friendly stations, and reliable service.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "Economic System",
+      "alignmentText": "Seoul\u0027s mixed economy supports startups with reliable governance; strong grants, VC, and tech ecosystem bolster family-friendly entrepreneurship.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "How Taxes Are Handled",
-      "sameAsParent": true
+      "alignmentText": "In Seoul, Korea\u0027s tax system is transparent and digital with clear guidance; founders may still benefit from a local accountant.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "In Seoul, South Korea, a dual-income family faces about 25% effective tax with social contributions. Strong public services help justify the cost.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Banking & Payments",
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "Seoul has modern, fast banking with strong digital tools. Foreigners may face some account-opening verification steps.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Cost of Living (Optional)",
-      "alignmentText": "Transit and dining out are affordable, but private education, jeonse deposits, and imported goods raise the family budget above Kansas City norms.",
-      "alignmentValue": 4
+      "alignmentText": "Seoul has affordable transit and healthcare. Housing (jeonse) and private schools lift costs above Kansas City; plan for upfront deposits.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Retirement (Citizens)",
+      "alignmentText": "In Seoul, South Korea, public pension is modest and retirement relies on savings; universal healthcare reduces long-term costs.",
+      "alignmentValue": 6,
       "sameAsParent": true
     },
     {
       "key": "Retirement (Visa Holders)",
+      "alignmentText": "Seoul, Korea allows visa-holding residents to access pensions with minor residency rules. Long-term stays boost eligibility.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Visa Paths",
-      "sameAsParent": true
+      "alignmentText": "Seoul offers startup and work-visa routes for founders and families, but quotas and sponsorships can slow timelines.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Welcoming of US Migrants",
+      "alignmentText": "Seoul is generally friendly to US migrants: strong expat networks, English-friendly services; minor curiosity or misconceptions may occur.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Residency Types & Durations",
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "Seoul offers solid long-term routes (F-5) but most permits are tied to employment; for first-time applicants, expect periodic income proof and paperwork.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Path to Citizenship",
+      "alignmentText": "Path to citizenship in Korea exists but typically 6-8 years of residence. Dual citizenship rules are strict for US families in Seoul.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Family Members",
-      "sameAsParent": true
+      "alignmentText": "Seoul, South Korea allows spouse/minor dependents on family visas; the adult founder will need a separate startup visa, adding steps.",
+      "alignmentValue": 8
     },
     {
-      "key": "Timelines & Costs",
-      "sameAsParent": true
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "Seoul work visa route typically 4\u20136 months; costs are predictable, usually under $2k plus translation/consular fees.",
+      "alignmentValue": 9
     },
     {
-      "key": "Compliance & Risks",
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "Seoul/KR: startup visa path is navigable but requires periodic status checks and renewals; follow guidelines to avoid delays.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Dual Citizenship Allowed",
+      "alignmentText": "Seoul, KR rarely grants dual citizenship; expect exemptions or renunciation paths; assess risks before relocating.",
+      "alignmentValue": 4,
       "sameAsParent": true
     },
     {
       "key": "General Considerations for Visa Holders",
+      "alignmentText": "Seoul, South Korea, offers stable expat life with good healthcare and schools; visa renewals apply, language barriers exist, but city services are strong.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Game Dev Work Prospects",
-      "alignmentText": "Seoul hosts Nexon, NCSoft, Netmarble, and Krafton, all hiring engineers for MMOs and mobile titles, keeping Trey's prospects strong.",
-      "alignmentValue": 8
+      "alignmentText": "Seoul hosts many mid-to-large studios (Nexon, NCSoft, Netmarble, Krafton) and diverse MMO/mobile work. Trey\u0027s game-dev prospects remain strong.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Hiring Velocity (Established Studios)",
-      "alignmentValue": 8,
-      "alignmentText": "As noted in Game Dev Work Prospects, Seoul hosts Nexon, NCSoft, Netmarble, and Krafton, all hiring engineers for MMOs and mobile titles, keeping Trey's prospects strong. Hiring velocity at established studios in Seoul wraps searches within a month or two as pipelines stay active."
+      "alignmentText": "Seoul\u2019s established studios run active hiring; expect 2\u20133 months to close roles, with visa steps potentially extending timelines.",
+      "alignmentValue": 7
     },
     {
       "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "Seoul studios offer competitive pay with solid benefits and family-friendly perks; compensation aligns with global medians after Korea\u0027s cost of living.",
       "alignmentValue": 8,
-      "alignmentText": "Compensation remains competitive with other major hubs, mixing solid base pay and performance bonuses. When opportunities surface in Seoul, established studios benchmark offers against peers across the ecosystem."
+      "sameAsParent": false
     },
     {
       "key": "Language (Established Studios)",
-      "alignmentValue": 8,
-      "alignmentText": "Established studios in Seoul rely on English for cross-border collaboration, while local-language fluency remains important for community, compliance, and platform partnerships."
+      "alignmentText": "Seoul studios rely on English for cross-border work; Korean remains important for docs and compliance.",
+      "alignmentValue": 8
     },
     {
       "key": "Remote Expectations (Established Studios)",
-      "alignmentValue": 8,
-      "alignmentText": "Remote expectations at established studios in Seoul are flexible for senior roles, with hybrid schedules common."
+      "alignmentText": "Seoul studios typically have formal hybrid/remote policies; remote options exist for senior roles, aiding a family move to South Korea.",
+      "alignmentValue": 9
     },
     {
       "key": "Notable Game Studios",
-      "alignmentText": "From Nexon's Pangyo campus to Smilegate and Pearl Abyss HQ, Seoul concentrates Asia's major studios.",
-      "alignmentValue": 9
+      "alignmentText": "Seoul hosts major studios like Nexon, Smilegate, Pearl Abyss, and NCSoft, boosting networking and job opportunities for devs and expats.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Notable Game Development Communities",
-      "alignmentText": "Seoul Indies meetups, G-Star tie-ins, and campus e-sports clubs keep the dev community active year-round.",
-      "alignmentValue": 7
+      "alignmentText": "Seoul, Korea\u0027s indie meetups, G-Star ties, and campus clubs keep game dev lively year-round; welcoming newcomers and families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Government programs like Gyeonggi Content Agency grants and Seoul Startup Hub incubators support new studios, though visa rules require local partners.",
-      "alignmentValue": 7
+      "alignmentText": "Seoul/KR offers strong game-dev talent and grants via Seoul Startup Hub and Gyeonggi. Visa rules often require local partners, so having co-founders helps.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Hiring Velocity (Startups)",
-      "alignmentValue": 7,
-      "alignmentText": "Startup founders report that Government programs like Gyeonggi Content Agency grants and Seoul Startup Hub incubators support new studios, though visa rules require local partners. Hiring velocity at early-stage studios in Seoul wraps searches within a month or two as pipelines stay active."
+      "alignmentText": "Seoul\u0027s startup hubs offer grants; hiring often takes 6\u20138 weeks, though visas with local partners may push to about 2 months for a family team.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Compensation Benchmark (Startups)",
-      "alignmentValue": 7,
-      "alignmentText": "Compensation remains competitive with other major hubs, mixing solid base pay and performance bonuses. Early teams in Seoul balance cash and equity to stay competitive while managing runway."
+      "alignmentText": "Seoul startups offer solid cash \u002B meaningful equity, but Seoul\u0027s cost of living is high; seek clear equity norms and remote options to suit family life.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Language (Startups)",
-      "alignmentValue": 7,
-      "alignmentText": "Founding teams in Seoul lean on English for investor and platform communication, while local-language fluency helps with hiring, compliance, and community outreach."
+      "alignmentText": "Seoul\u0027s startup scene uses English for many functions, but regulatory tasks require Korean fluency. Plan bilingual teams and translation budgets.",
+      "alignmentValue": 8
     },
     {
       "key": "Remote Expectations (Startups)",
+      "alignmentText": "Seoul, South Korea startups commonly offer remote or hybrid roles with periodic on-site days, aligning with family-friendly needs.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "Seoul, South Korea: cutting-edge gigabit internet, reliable power, and pervasive 5G/smart-city services - great for game-dev and remote work.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Seoul shows meaningful seasonal swings: hot, humid summers and cold winters with storms; budget contingencies for quick weather shifts.",
       "alignmentValue": 7,
-      "alignmentText": "Remote expectations among startups in Seoul are flexible for senior roles, with hybrid schedules common."
-    },
-    {
-      "key": "Modernity & Infrastructure",
-      "alignmentText": "Gigabit broadband, widespread 5G, and smart-city services like cashless kiosks make Seoul feel hyper-modern for a tech household.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Seasonal Extremes & Variability",
       "sameAsParent": true
     },
     {
       "key": "Seasonal Sunlight Hours",
-      "alignmentText": "Months of oppressive darkness or bright nights disrupt sleep cycles and make remote work or study harder to sustain.",
-      "alignmentValue": 4
+      "alignmentText": "Seoul, South Korea has distinct seasons; winters bring shorter days, but regular outdoor breaks and light therapy help maintain mood.",
+      "alignmentValue": 8
     },
     {
       "key": "Pleasant Weather Windows",
-      "alignmentText": "Only brief shoulder weeks feel good; most months push us indoors due to muggy, icy, or stormy conditions.",
-      "alignmentValue": 4
+      "alignmentText": "Seoul has two prime outdoor seasons, spring and autumn, with mild days; summers are hot and humid, winters chilly; plan for spring and autumn.",
+      "alignmentValue": 8
     },
     {
-      "key": "Quality of Life – Lower-Income Tier",
-      "alignmentText": "High living costs erode quality of life; reliable childcare or healthcare coverage often falls through the cracks.",
-      "alignmentValue": 5
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "In Seoul, universal healthcare and childcare support ease costs, but high housing and private childcare make saving hard for a four-person family.",
+      "alignmentValue": 6
     },
     {
-      "key": "Quality of Life – Middle-Income Tier",
-      "alignmentText": "Lifestyle feels brittle; one unexpected expense forces significant cutbacks or debt.",
-      "alignmentValue": 4
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "Seoul offers strong healthcare and transit; with careful budgeting, a comfortable middle-income life is possible, though housing and childcare require planning.",
+      "alignmentValue": 7
     },
     {
-      "key": "Quality of Life – Higher-Income Tier",
-      "alignmentText": "Luxury services are thin; wealth management and elite schooling often require another city.",
-      "alignmentValue": 4
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "In Seoul, Korea, premium amenities and international schools are plentiful. Some niche services may require advance planning.",
+      "alignmentValue": 9
     },
     {
       "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "Spacious rentals are rare; we likely settle for smaller homes or relocate to a different metro.",
+      "alignmentText": "Seoul\u0027s 2k sq ft rentals are rare and pricey; the family will likely settle for smaller homes or consider a different metro.",
       "alignmentValue": 3
     },
     {
       "key": "Community Living Opportunities",
+      "alignmentText": "Seoul, Korea has some intentional community options, but they are limited. Expats and local groups offer informal family networks, not large co-housing.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
-      "key": "Friendliness & Neighborliness Index",
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "Seoul locals are courteous and receptive to proactive outreach; friendliness varies by district, with expat hubs easing quick connections.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Immigrant Sentiment – General",
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "Seoul is cosmopolitan, but foreigners face occasional microaggressions and visa hurdles; supportive expat communities help newcomers.",
+      "alignmentValue": 6,
       "sameAsParent": true
     },
     {
-      "key": "Immigrant Sentiment – White Migrants",
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "Seoul, South Korea, welcomes many Western expats; most U.S. white migrants fit in with communities, though occasional skepticism about motives appears.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Surface Interaction Norms",
+      "alignmentText": "Seoul\u0027s service is courteous and efficient. Expats often get positive responses when we initiate, with good English help and polite interactions.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Depth-Seeking Social Norms",
+      "alignmentText": "In Seoul, deep bonds grow with steady effort; join expat clubs or language exchanges to build close friendships over time.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "Seoul\u2019s crowded transit can compress personal space; gently set boundaries and expect closer contact than in the US.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "Seoul values candid dialogue, but with local nuance in Korea. Share needs directly while respecting etiquette and hierarchy.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "In Seoul, Korea, grooming culture favors neat, presentable looks; moderate effort fits a family-friendly, tech-expat pace without pressure.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "In Seoul, South Korea, fitness culture meets beauty norms; promote inclusive, non-judgmental body talk and family-friendly wellness for kids.",
+      "alignmentValue": 6,
       "sameAsParent": true
     },
     {
-      "key": "Personal Boundary & Bubble Norms",
-      "sameAsParent": true
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "Seoul favors tidy smart-casual; layer outfits for family outings; chic without being flashy; practical style fits city life.",
+      "alignmentValue": 8
     },
     {
-      "key": "Moral, Honesty & Openness Expectations",
-      "sameAsParent": true
-    },
-    {
-      "key": "Grooming & Beauty Investment",
-      "sameAsParent": true
-    },
-    {
-      "key": "Body Image & Fitness Pressure",
-      "sameAsParent": true
-    },
-    {
-      "key": "Fashion & Style Expectations",
-      "sameAsParent": true
-    },
-    {
-      "key": "Flirting Boundaries & Consent Culture",
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "Seoul\u0027s scene is generally respectful; most flirting aligns with cues, but occasional missteps require direct communication and safety planning.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Gendered Flirting Expectations",
+      "alignmentText": "Seoul, South Korea blends modern and traditional flirting norms; urban scenes are open, but some contexts favor traditional scripts. Favor inclusive flirting.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "In Seoul, non-monogamy has niche communities; mainstream acceptance is cautious. Stay discreet but you can find supportive urban networks.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Promiscuity Attitudes",
+      "alignmentText": "Seoul\u0027s urban, sex-positive climate tolerates non-monogamy among consenting adults; acceptance is higher in cosmopolitan circles.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Group & Multi-Partner Relationship Attitudes",
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "Seoul, KR: non-monogamy faces stigma and legal/tenancy hurdles. Some progressive pockets exist, but overall openness is limited.",
+      "alignmentValue": 4,
       "sameAsParent": true
     },
     {
-      "key": "Personal Space & Touch Norms",
-      "sameAsParent": true
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "In Seoul, personal space is respected; handshakes are common, hugs mainly for family, with clear cues in crowded transit.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
-      "key": "Firearm Laws & Ownership Culture",
-      "sameAsParent": true
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "Seoul, South Korea has strict gun laws and very low civilian ownership; firearms exposure is minimal, supporting a calm everyday life.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "Controlled Substance Policies",
+      "alignmentText": "South Korea enforces strict drug laws. Even small possession can lead to arrest or deportation for immigrants in Seoul.",
+      "alignmentValue": 2,
       "sameAsParent": true
     },
     {
       "key": "Drug Enforcement Climate",
+      "alignmentText": "Seoul, South Korea: drug enforcement is targeted but strict; occasional crackdowns create unease, though oversight protects families.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Mass Violence Incidence",
+      "alignmentText": "Seoul, South Korea: mass violence is uncommon; authorities communicate clearly and communities feel prepared.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Carceral Conditions & Prison Labor",
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "Seoul, South Korea: carceral conditions are generally well-regulated with oversight; a few facilities lag in services and transparency, families should monitor.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Walkability & Pedestrian Safety",
-      "alignmentText": "Sidewalks cover key areas but drivers often rush, so we stay alert with children.",
-      "alignmentValue": 7
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Seoul has strong pedestrian infrastructure in many neighborhoods with solid transit links. Plan routes to avoid busy arterials when with kids.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Community Health Consciousness",
+      "alignmentText": "Seoul, KR offers universal healthcare and strong wellness programs; parks and active living support your health-conscious family.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Processed Food Saturation",
-      "alignmentText": "Ultra-processed options crowd shelves; schools and events lean heavily on packaged snacks.",
-      "alignmentValue": 6
+      "alignmentText": "Seoul has vibrant fresh markets and diverse produce. Plan meals to balance abundant convenience snacks and keep processed foods in check for the kids.",
+      "alignmentValue": 7
     },
     {
-      "key": "Fresh & International Cuisine Access",
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "Seoul offers abundant fresh markets and a wide mix of international cuisines; weekly variety and kid-friendly options are easy to find.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Depression Prevalence",
+      "alignmentText": "Seoul, Korea: Depression prevalence is moderate; strong public health and counseling exist, though therapy may involve wait times for families.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Obesity Rate",
-      "alignmentText": "Obesity is widespread, signaling systemic lifestyle challenges we must counter individually.",
-      "alignmentValue": 5
+      "alignmentText": "In Seoul, obesity rates are relatively low; walkable neighborhoods and universal healthcare support your family\u0027s wellness in South Korea.",
+      "alignmentValue": 10
     },
     {
       "key": "Cancer Incidence",
-      "alignmentText": "Noticeable clusters or industrial risks require diligence and perhaps neighborhood vetting.",
-      "alignmentValue": 6
+      "alignmentText": "Seoul benefits from Korea\u0027s universal healthcare and robust cancer screening. Incidence aligns with global norms due to strong early detection; monitor urban air quality and aging trends.",
+      "alignmentValue": 8
     },
     {
       "key": "Broader Job Market Resilience",
-      "alignmentText": "Recessions hit noticeable segments, requiring flexibility or retraining.",
-      "alignmentValue": 6
+      "alignmentText": "Seoul\u0027s robust tech scene and government startup funding support Trey; web dev remains strong. Resilience is solid, with layoffs but quick reemployment.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Studio Density",
-      "alignmentText": "[Placeholder] Provide Studio Density insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea hosts a robust game/animation ecosystem with dozens of studios across AAA, indie, and VFX; strong funding and startup support.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Anchor Employers",
-      "alignmentText": "[Placeholder] Provide Anchor Employers insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul hosts flagship studios (Nexon, Netmarble, NCsoft, Pearl Abyss) with strong training programs and steady hiring; a solid game-dev ecosystem and visa pathways.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "[Placeholder] Provide Vendor/Outsource Ecosystem insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul offers a strong game-dev outsourcing ecosystem: many Korean studios and vendors cover art, QA, live ops, and engineering; robust local/nearshore options.",
+      "alignmentValue": 9
     },
     {
       "key": "Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Education Pipeline Strength insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul\u0027s universities offer game-focused programs with strong studio partnerships, enabling internships and capstone projects.",
+      "alignmentValue": 9
     },
     {
       "key": "Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Continuing Education Availability insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea offers regular game/tech education through bootcamps and meetups; universities provide strong continuing ed.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Community Activity",
-      "alignmentText": "[Placeholder] Provide Community Activity insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea, hosts regular monthly dev meetups and game jams; strong local networks for tech founders.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Engine Community Bias",
-      "alignmentText": "[Placeholder] Provide Engine Community Bias insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul features Unity-dominant game dev with a strong Unreal presence. There are robust meetups and training that support cross-engine work for Trey and Sarah.",
+      "alignmentValue": 8
     },
     {
       "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "[Placeholder] Provide Real-Time vs Pre-Rendered Focus insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul\u0027s mature real-time game scene with strong broadband supports real-time production; studios also offer cinematic/pre-rendered work.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
-      "key": "Demand–Supply Balance",
-      "alignmentText": "[Placeholder] Provide Demand–Supply Balance insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Seoul\u0027s tech scene is strong with startup support; expat visa and language hurdles may cause moderate hiring friction for game/web roles.",
+      "alignmentValue": 7
     },
     {
-      "key": "Retention & Churn Risk",
-      "alignmentText": "[Placeholder] Provide Retention & Churn Risk insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "In Seoul, strong game/dev ecosystem and grants help founders; churn spikes with funding cycles; plan stable contracts and visa options.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
-      "key": "Diversity & Inclusion Index",
-      "alignmentText": "[Placeholder] Provide Diversity & Inclusion Index insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Seoul\u0027s game/tech scene shows growing D\u0026I talk, but inclusion programs are nascent and adoption is limited to a few firms; representation varies widely.",
+      "alignmentValue": 6
     },
     {
       "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "[Placeholder] Provide Tax Incentives for Games/Creative insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea offers solid tax credits and grants for games/creative sectors, with clear rules but competitive applications and caps.",
+      "alignmentValue": 8
     },
     {
       "key": "Economic/Policy Stability",
-      "alignmentText": "[Placeholder] Provide Economic/Policy Stability insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul\u0027s policy environment is stable with clear startup grants and visa options; regulatory changes are predictable, aiding family game/tech ventures.",
+      "alignmentValue": 8
     },
     {
       "key": "Founder/Operator Community",
-      "alignmentText": "[Placeholder] Provide Founder/Operator Community insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea has a large mentor-rich founder network with accelerators and frequent meetups; strong game/tech startup support.",
+      "alignmentValue": 9
     },
     {
       "key": "Early-Stage Capital Access",
-      "alignmentText": "[Placeholder] Provide Early-Stage Capital Access insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has strong generalist VC and public grants for startups, including game-dev support; access is reliable but competitive.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Accelerator/Incubator Access",
-      "alignmentText": "[Placeholder] Provide Accelerator/Incubator Access insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul hosts game-friendly accelerators/labs with annual cohorts and grants; strong indie/game dev ecosystem in Korea\u0027s tech hub.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Senior Talent Availability",
-      "alignmentText": "[Placeholder] Provide Senior Talent Availability insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has a solid senior dev pool and startup ecosystem. Top talent often stays with anchor firms, so competitive offers unlock strong local leaders.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Contractor/Freelancer Bench",
-      "alignmentText": "[Placeholder] Provide Contractor/Freelancer Bench insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has a healthy contractor bench with skilled game/web/cloud developers; top talent books out weeks, but local agencies can scale to needs.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
-      "key": "Coworking & Startup Infrastructure",
-      "alignmentText": "[Placeholder] Provide Coworking & Startup Infrastructure insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Seoul has robust coworking and startup hubs; game-dev resources exist, but mocap/audio gear is limited to select labs, not broadly accessible.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
-      "key": "Legal & IP Support",
-      "alignmentText": "[Placeholder] Provide Legal & IP Support insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Seoul has several IP/game law firms; reliable local counsel for IP, licensing, and cross-border publishing; English-friendly options available.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Publisher/Platform Relationships",
-      "alignmentText": "[Placeholder] Provide Publisher/Platform Relationships insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has active game publishers and local reps (Kakao, Netmarble, Naver); local scouting events exist, easing platform access with proactive outreach.",
+      "alignmentValue": 8
     },
     {
-      "key": "Market Research & Playtesting",
-      "alignmentText": "[Placeholder] Provide Market Research & Playtesting insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Seoul has a robust game-dev ecosystem with QA labs and local player panels; reliable playtesting exists, with some sessions in Korean.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Government/Startup Visas",
-      "alignmentText": "[Placeholder] Provide Government/Startup Visas insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul offers a founder-friendly Startup Visa (accelerator-linked) with clear routes. Processing times and quotas can slow intake, but family support exists.",
+      "alignmentValue": 8
     },
     {
       "key": "Cost of Doing Business",
-      "alignmentText": "[Placeholder] Provide Cost of Doing Business insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul provides startup grants and visa support; costs are higher (rent/childcare), but incentives help manage runway.",
+      "alignmentValue": 7
     },
     {
       "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Talent Pool insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has a game/CG scene with multiple studios and outsourcing partners; solid mid-to-senior 3D character talent, though senior hiring remains competitive.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Education Pipeline Strength insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul hosts multiple strong game/animation programs feeding well-prepared 3D character artist grads into local studios each year.",
+      "alignmentValue": 9
     },
     {
       "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Continuing Education Availability insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has regular 3D character short courses and active online communities via universities and studios. Local workshops are common with solid instruction.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Hiring Velocity insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul\u2019s robust game-dev scene offers a deep pool of local 3D character artists; expect 1\u20132 months for hires, though visa steps may extend timelines.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Compensation Benchmark insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul 3D character artist pay trails top hubs by ~10\u201315% but remains attractive for experienced talent in Korea\u0027s growing game sector.",
+      "alignmentValue": 7
     },
     {
       "key": "3D Character Artist: Language",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Language insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea: English is common in larger studios; indie shops often use Korean, so bilingual 3D artists fit best.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Remote Expectations insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "In Seoul, 3D character artist roles are usually hybrid; remote work is possible case-by-case, but frequent on-site collaboration is common.",
+      "alignmentValue": 6
     },
     {
       "key": "3D Animator: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Talent Pool insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has a strong 3D animation scene with major studios and outsourcing partners; a healthy mix of mid-level and senior talent.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Education Pipeline Strength insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul hosts multiple strong 3D animation programs (KNUA and other universities) with active studios, delivering solid graduate pipelines.",
+      "alignmentValue": 9
     },
     {
       "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Continuing Education Availability insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has a solid 3D animation scene with studios and universities offering short courses. Regular workshops keep skills current, though advanced tracks vary.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Hiring Velocity insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul\u0027s strong game/3D animation scene typically fills in 1-2 months with qualified candidates; English-friendly but Korean basics help, plan onboarding.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Compensation Benchmark insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, Korea: 3D animator pay trails top hubs by ~25\u201330%; strong benefits and a vibrant studio scene help offset the gap for families.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "3D Animator: Language",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Language insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul game studios largely use English for global teams; many local shops still favor Korean - bilingual candidates help.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Animator: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Remote Expectations insights for South Korea Seoul.",
+      "alignmentText": "Seoul offers strong broadband and many studios. Remote 3D animation is possible case-by-case, with hybrid onsite collaboration common.",
       "alignmentValue": 5
     },
     {
       "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Talent Pool insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has a solid pool of 2D environmental artists anchored by major game studios and outsourcing partners; competition for senior roles is noticeable.",
+      "alignmentValue": 7
     },
     {
       "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Education Pipeline Strength insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul hosts robust art and game design programs (Hongik Univ., Seoul Nat\u0027l Univ., others). Local studios regularly hire 2D environment artists.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Continuing Education Availability insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has a growing 2D environment art scene with regular workshops and active online communities; universities and studios offer solid hands-on training locally.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Hiring Velocity insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul\u0027s strong game industry offers a steady 2D environmental artist pool; expect 2\u20133 months to fill with local and international candidates.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Compensation Benchmark insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea offers solid local pay for 2D environmental artists; comp trails top Western hubs by 10-15%, but strong benefits and stability help.",
+      "alignmentValue": 7
     },
     {
       "key": "2D Environmental Artist: Language",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Language insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul game studios widely use English within international teams; some indie shops rely mostly on Korean.",
+      "alignmentValue": 8
     },
     {
       "key": "2D Environmental Artist: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Remote Expectations insights for South Korea Seoul.",
+      "alignmentText": "Seoul studios offer remote/hybrid 2D environmental art on a case-by-case basis; expect periodic onsite collaboration in Korea\u0027s strong game scene.",
       "alignmentValue": 5
     },
     {
       "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Talent Pool insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea\u0027s vibrant game/film VFX scene offers a large pool of real-time specialists across studios and outsourcing partners.",
+      "alignmentValue": 9
     },
     {
       "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Education Pipeline Strength insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul\u0027s top universities (SNU, Yonsei, Korea Univ) and local studios feed strong real-time VFX grads with solid portfolios.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Continuing Education Availability insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has a solid VFX (real-time) scene with universities and private schools offering workshops; active online communities support ongoing upskilling.",
+      "alignmentValue": 8
     },
     {
       "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Hiring Velocity insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "In Seoul, real-time VFX roles typically take 2\u20133 months; strong local studios but specialist talent remains competitive.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Compensation Benchmark insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea\u0027s VFX Real-Time pay trails top markets by ~25-30%. Cost of living and quality of life offset lower salaries.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "VFX Artist (Real-Time): Language",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Language insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea: English is widely used in major VFX studios, but Korean remains common; bilingual candidates are favored for client work.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "VFX Artist (Real-Time): Remote Expectations",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Remote Expectations insights for South Korea Seoul.",
+      "alignmentText": "In Seoul, VFX real-time roles are typically onsite; remote options exist case-by-case with limited process maturity.",
       "alignmentValue": 5
     },
     {
       "key": "Community Manager: Talent Pool",
-      "alignmentText": "[Placeholder] Provide Community Manager: Talent Pool insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has a robust CM talent pool across studios and agencies. English-friendly roles exist, but senior hires may require Korean fluency.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Community Manager: Education Pipeline Strength insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul has game/communication programs, but dedicated Community Manager tracks are limited; expect on-the-job upskilling in studios.",
+      "alignmentValue": 7
     },
     {
       "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Community Manager: Continuing Education Availability insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul hosts regular community manager trainings and active online communities; English-friendly options exist, aligning with your education-first family.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Manager: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide Community Manager: Hiring Velocity insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul\u0027s startup scene offers bilingual talent; for a family relocation, expect 2-3 months to hire a community manager with relocation support.",
+      "alignmentValue": 7
     },
     {
       "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide Community Manager: Compensation Benchmark insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea offers stable expat-friendly CM packages with good benefits, but pay trails top US hubs by ~20\u201330%; lifestyle helps a family.",
+      "alignmentValue": 6
     },
     {
       "key": "Community Manager: Language",
-      "alignmentText": "[Placeholder] Provide Community Manager: Language insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul CM market is primarily Korean-speaking; English is used in tech, but client-facing roles should be bilingual (Korean/English) for this family.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Community Manager: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide Community Manager: Remote Expectations insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul studios commonly offer hybrid CM roles; fully remote is negotiable, but frequent onsite collaboration is typical, align with family-friendly schedules.",
+      "alignmentValue": 8
     },
     {
       "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Talent Pool insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea, has a strong PMM (games) pool with a healthy mix of mid- and senior-level talent and recent shipped projects.",
+      "alignmentValue": 8
     },
     {
       "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Education Pipeline Strength insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul hosts several universities with game/media and marketing tracks; strong studio links support PMG roles, though on-the-job upskilling may be needed.",
+      "alignmentValue": 7
     },
     {
       "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Continuing Education Availability insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, Korea, hosts a vibrant game marketing scene with universities and studios; monthly workshops and online communities keep PM (games) skills sharp.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Hiring Velocity insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul\u0027s vibrant games market means PMM (Games) hires typically 2\u20133 months; bilingual fit and relocation may affect timelines.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Compensation Benchmark insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "Seoul, South Korea PMM (Games) pay is about 20% below top markets. Cost of living helps, but secure robust family-friendly benefits and visa options.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Language",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Language insights for South Korea Seoul.",
-      "alignmentValue": 5
+      "alignmentText": "In Seoul, English is widely used in game PM roles, but Korean fluency helps for local market work; bilingual candidates are common and valued.",
+      "alignmentValue": 8
     },
     {
       "key": "Product Marketing Manager (Games): Remote Expectations",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Remote Expectations insights for South Korea Seoul.",
+      "alignmentText": "Seoul, South Korea: Product Marketing Manager (Games) remote options exist case-by-case; limited process maturity; onsite or hybrid possible.",
       "alignmentValue": 5
     }
   ]

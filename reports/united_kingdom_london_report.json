@@ -4,1010 +4,1210 @@
   "values": [
     {
       "key": "Environment",
-      "alignmentText": "London's Royal Parks and Thames Path keep greenery close, yet dense traffic and noise in Zones 1–3 mean we rely on weekend escapes to Surrey Hills for fresher air.",
-      "alignmentValue": 6
+      "alignmentText": "London has parks and the Thames Path within easy reach, but central zones suffer traffic; weekend escapes to Surrey Hills offer fresher air.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Global Warming Risk",
+      "alignmentText": "Global warming risk for London, UK is noticeable but manageable; frequent heavy rain and hotter summers are mitigated by strong resiliency programs.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Seasonal Weather",
-      "sameAsParent": true
+      "alignmentText": "London\u0027s seasons are mild and predictable: gentle winters and cool summers. Expect occasional warm spells or chilly days; keep lightweight gear handy.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Air Quality",
-      "alignmentText": "ULEZ and electrified buses cut particulate levels to around 10 µg/m³, but NO2 hotspots along the North Circular mean we watch alerts before biking with the boys.",
-      "alignmentValue": 6
+      "alignmentText": "London, UK air is generally good due to ULEZ; around 10 \u00B5g/m\u00B3 particulates, but NO2 hotspots on busy roads mean we watch alerts before outdoor activities with kids.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Natural Disasters",
+      "alignmentText": "London, UK: disasters are rare and low-impact thanks to robust warnings and defenses; family risk remains minimal.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Spring in London usually hovers 12-23 C (54-73 F) with brief showers. Mostly comfortable, layer up as needed.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "London summers usually stay around 23-28 C with cool evenings and low humidity. This fits your mild-weather preference.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "London fall is mild with light sweater weather and occasional showers; great for outdoor family plans most days.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Winter in London, UK is generally mild; sub-freezing nights occur but daytime temps are 5-10 C, snow is rare and commutes stay manageable.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Beach Life",
-      "alignmentText": "Central London lacks beaches, so seaside days mean rail trips to Brighton or Whitstable with chilly water and crowd planning.",
-      "alignmentValue": 4
+      "alignmentText": "Beaches are within an hour from London (Brighton/Whitstable); water is chilly, so plan for crowds and family-friendly spots.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Seasonal Beach Water Temp",
-      "alignmentText": "Channel waters near London warm to only 17–19 °C (63–66 °F) in August, so swims are brisk unless we detour to heated lidos.",
-      "alignmentValue": 3
+      "alignmentText": "London waters stay around 17\u201319\u00B0C (63\u201366\u00B0F) in August; swims are brisk for kids. Heated pools or lidos help extend family swims.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "Natural Beauty",
-      "alignmentText": "Hyde Park, Hampstead Heath, and quick trains to the Chilterns keep hikes and woodlands within an hour despite the urban core.",
-      "alignmentValue": 7
+      "alignmentText": "Hyde Park and Hampstead Heath offer impressive green spaces near central London. Quick trains to the Chilterns keep family hikes within an hour.",
+      "alignmentValue": 8
     },
     {
       "key": "Minimum Wage",
-      "alignmentText": "London's higher real living wage tops £11/hour, yet housing and childcare costs erode take-home pay unless both parents land skilled roles.",
-      "alignmentValue": 6
+      "alignmentText": "London\u0027s real living wage is ~\u00A311/hr, but high housing/childcare costs erode take-home pay even with both parents in skilled roles.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Typical Software Salaries",
-      "alignmentText": "Senior engineers command £80k–£110k plus bonuses in London, which covers metro living but leaves less runway than West Coast contracts.",
-      "alignmentValue": 7
+      "alignmentText": "London senior software pay is about \u00A380k\u2013\u00A3110k plus bonuses. Dual incomes or frugal living keep the family comfortable in London.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": ".NET Work Prospects",
-      "alignmentText": "London's City fintechs, government contractors in Westminster, and Canary Wharf consultancies hire .NET teams year-round, giving Trey a near-constant pipeline of senior roles.",
+      "alignmentText": "London\u0027s robust .NET market (fintech/Westminster/Canary Wharf) offers visa sponsorship. Steady senior roles for developers in a diverse tech scene.",
       "alignmentValue": 9
     },
     {
       "key": "Ruby Work Prospects",
-      "alignmentText": "Shoreditch startups and gov.uk's platform teams keep Ruby roles active, giving Sarah good options if she's open to hybrid days.",
-      "alignmentValue": 8
+      "alignmentText": "London\u0027s Ruby scene remains healthy with startups and gov.uk teams in Shoreditch; sponsorship and remote options are common.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Employer Visa Sponsorship",
+      "alignmentText": "UK tech employers commonly sponsor Skilled Worker visas; London firms often include dependents with straightforward visa support.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Economic Health",
-      "sameAsParent": true
+      "alignmentText": "UK/London economy is stable with low unemployment and resilient services. Visas and grants support family entrepreneurship and relocation.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Remote-Friendly Culture",
-      "alignmentText": "Post-pandemic London tech embraces hybrid 2–3 day office weeks, and coworking hubs like Second Home give Sarah calm spaces when she needs change of scene.",
-      "alignmentValue": 8
+      "alignmentText": "London\u0027s hybrid work norms predominate; remote roles exist with 2\u20133 day in-office weeks and coworking spaces like Second Home support Sarah.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Work-Life Balance",
+      "alignmentText": "London offers flexible hours and family-friendly policies; recovery time is common after busy periods, though occasional crunch may occur.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Work Week Hours",
+      "alignmentText": "London, UK typically has 37-38 hour workweeks with occasional startup crunches. This aligns with your family-friendly, remote/hybrid setup and balance needs.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Vacation Days (Minimum)",
+      "alignmentText": "London, UK provides 28 days of annual leave including holidays. This fits an 8 for family-friendly leave and scheduling flexibility.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Vacation Days (Typical)",
+      "alignmentText": "London, UK: typical paid leave ~28 days incl. bank holidays; aligns with family QoL and UK travel flexibility.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Pace of Life",
-      "alignmentText": "Central London runs intense with packed Tube commutes, so we'd pick calmer outer boroughs to give Sarah the slower cadence she prefers.",
-      "alignmentValue": 5
+      "alignmentText": "London\u0027s outer boroughs (UK) offer a calmer pace than central areas, with parks and gentler commutes to fit Sarah\u0027s slower cadence.",
+      "alignmentValue": 8
     },
     {
       "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Primary schools run 08:45–15:15 while many offices expect 09:30–18:00 in the City, so we'd lean on breakfast clubs, wraparound care, or staggered shifts.",
-      "alignmentValue": 6
+      "alignmentText": "In London, UK, primary days run 9:00-15:15 and many offices 9:00-17:00; breakfast clubs and wraparound care help cover gaps.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Weekends juggle museum slots, park picnics, and kids' clubs; timed tickets and rail strikes mean we book ahead for popular outings.",
-      "alignmentValue": 7
+      "alignmentText": "London weekends offer parks and family-friendly museums, but rail strikes and timed tickets mean we plan ahead and budget for outings.",
+      "alignmentValue": 6
     },
     {
       "key": "Family Life",
+      "alignmentText": "London offers universal healthcare, strong schools, and diverse, inclusive neighborhoods; family life is supported, though housing costs can be high.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Polyamory",
+      "alignmentText": "In London, polyamorous families enjoy strong social tolerance and urban support; legal recognition remains monogamy-centric with some hurdles.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Parenting Expectations",
-      "sameAsParent": true
+      "alignmentText": "UK/London offers shared parental leave and supportive schools; aligns with your progressive, family-friendly goals.",
+      "alignmentValue": 9
     },
     {
       "key": "Child-Friendliness of Cities",
-      "alignmentText": "London's playground density, free museums, and step-free Elizabeth Line stops help with strollers, though narrow Victorian terraces can cramp indoor play.",
-      "alignmentValue": 7
+      "alignmentText": "London offers parks, free museums, and stroller-friendly transit; most neighborhoods are kid-friendly, with a few dense zones to navigate.",
+      "alignmentValue": 8
     },
     {
       "key": "Schooling Options",
-      "alignmentText": "London offers strong state primaries, selective grammars nearby, and multiple international schools, but catchments are tight so we must rent with admissions in mind.",
-      "alignmentValue": 7
+      "alignmentText": "London has strong state primaries and many international options, with bilingual programs; catchments are tight, so plan housing and admissions in advance.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Ofsted-rated nurseries fill fast in Zones 2–4; we need to register during pregnancy or use workplace crèches to secure a spot before age three.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK: pre-K care is expensive with long waits; register early or use workplace nurseries; funded places exist mainly for 3-4 year-olds.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Childcare Support (Citizens)",
-      "alignmentText": "London citizens tap 30 funded hours from age three and tax-free childcare, yet high hourly top-ups mean budgets stay tight unless employers subsidise care.",
+      "alignmentText": "London offers 30 funded hours for 3-4s and Tax-Free Childcare. However, high private fees still require top-ups for a 5-year-old and a 1-year-old.",
       "alignmentValue": 6
     },
     {
       "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "Dependent visas access funded hours once both parents work, but NRPF rules block child benefit and require savings to cover deposits and retainer fees.",
-      "alignmentValue": 4
+      "alignmentText": "London NRPF limits: visa families have little public childcare support; expect self-funding or private options unless rare local discretionary help.",
+      "alignmentValue": 3
     },
     {
       "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "London, UK public education varies by borough; informed parents navigate admissions to secure good public school placements and supports.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "London public schools welcome visa-holding children with resources comparable to citizens; expect some enrollment paperwork.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Private Education",
+      "alignmentText": "London private schools offer strong international curricula; top options are competitive and costly, though scholarships may exist.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Family Policy (Citizens)",
+      "alignmentText": "UK offers universal healthcare, strong education, and childcare support; London housing costs and some payment delays temper the benefit.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Family Policy (Visa Holders)",
-      "sameAsParent": true
+      "alignmentText": "UK visa holders face limited access to regular benefits; in London, high living costs mean reliance on emergencies and private funds.",
+      "alignmentValue": 4
     },
     {
       "key": "Higher Education Access (Citizens)",
+      "alignmentText": "London offers broad public university access with student loans, but high living costs require careful budgeting for a family.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "London, UK: international students pay higher fees and face limited work-study; visa routes exist but require funds and compliance.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Gender Roles",
+      "alignmentText": "In London, UK, gender roles are largely egalitarian with strong policy backing. This matches the family\u0027s progressive, work-life balance focus.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Gender Fluidity",
+      "alignmentText": "London, UK: social acceptance is good with support groups and NHS care; official documents lag in recognizing nonbinary identities.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Gender Rights",
+      "alignmentText": "UK gender rights are strongly protected by law and actively enforced. London offers an inclusive environment with strong anti-discrimination protections.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Femininity Norms",
+      "alignmentText": "London, UK broadly supports diverse femininity; your family can express identities freely with only minor pockets of conservatism.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Masculinity Norms",
+      "alignmentText": "In London, masculinity norms are broad and inclusive. Older generations may still hold traditional views.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "What Is Intriguing",
-      "sameAsParent": true
+      "alignmentText": "London\u0027s history and modern creativity offer frequent surprises\u2014top schools, universal healthcare, parks, and a thriving game/tech scene.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
-      "key": "Language & English Ubiquity",
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "English is widely used in London; most services, schools, and official docs operate in English. Translation apps cover rare needs.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Progressivism",
+      "alignmentText": "London, UK reflects strong progressive values in policy and culture. Climate action, inclusivity, and education access shape daily life here.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "In London, Marxism appears in academia and activism but not in mainstream policy. The city broadly supports open debate and plural political views.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Atheism",
+      "alignmentText": "London, UK: secular culture is strong; atheism is widely accepted and nonbelievers can access public life and institutions openly.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Sex (Attitudes)",
+      "alignmentText": "London, UK: sex education is broadly comprehensive and destigmatized; NHS services support diverse identities and non-monogamy.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "LGBTQ+ Attitudes",
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "London, UK offers strong protections for LGBTQ\u002B families. Social acceptance is broad with inclusive services.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Community Vibes",
+      "alignmentText": "London\u0027s diverse, welcoming neighborhoods offer quick chances to connect via clubs and volunteer groups. Newcomers often feel at home quickly in the city.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "View of self",
+      "alignmentText": "UK (London): a confident, pluralistic self-view; London\u0027s diverse culture and public services support your progressive, family-oriented goals.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "View of Neighboring Countries",
+      "alignmentText": "In London, UK, neighbors are generally amicable. Cross-border ties with Ireland are strong and positive.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Neighbors view the UK positively with strong trade and travel ties. In London you\u2019ll find English ubiquity and welcoming communities.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Nightlife Culture",
-      "alignmentText": "London balances world-class theatre, queer clubs, and quiet wine bars, giving the couple flexible date night vibes.",
-      "alignmentValue": 9
+      "alignmentText": "London nightlife exists in districts like Soho and Shoreditch; plenty of family-friendly options and early events. Late venues may require babysitters.",
+      "alignmentValue": 7
     },
     {
       "key": "Fashion Trends (Male)",
-      "alignmentText": "London men mix streetwear with tailored coats, so Trey can rotate smart trainers and techwear without standing out.",
-      "alignmentValue": 7
+      "alignmentText": "London\u0027s urban fashion is modern and diverse. Trey can wear techwear with smart trainers in the city; suburbs stay classic.",
+      "alignmentValue": 8
     },
     {
       "key": "Fashion Trends (Female)",
-      "alignmentText": "From Liberty prints to sustainable brands in Hackney, London style embraces eclectic layers that suit Sarah's comfort-first approach.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Common Hobbies",
-      "alignmentText": "City families balance park runs, climbing walls, gaming cafés, and West End matinees—plenty of overlap with Trey and Sarah's interests.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Boardgaming & Tabletop",
-      "sameAsParent": true
-    },
-    {
-      "key": "Nightlife & Music",
-      "alignmentText": "West End theatres, Brixton Academy, and Shoreditch venues keep live music and geek nights thriving for Trey.",
+      "alignmentText": "London\u0027s fashion scene is dynamic, inclusive, and body-positive, with Hackney\u0027s eclectic style matching Sarah\u0027s comfort-first approach.",
       "alignmentValue": 10
     },
     {
-      "key": "Meetups & Communities",
-      "alignmentText": "Meetup.com overflows with tech, poly, and parenting groups in London, helping us rebuild community fast.",
+      "key": "Common Hobbies",
+      "alignmentText": "London\u0027s broad hobby scene: parks, climbing gyms, board game cafes, and West End shows fit Trey and Sarah\u0027s interests.",
       "alignmentValue": 9
     },
     {
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "London, UK has a thriving, family-friendly boardgaming scene with cafes (Draughts, local meetups) and regular events that suit gamers and kids.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "London offers abundant live music and family-friendly venues\u2014from West End theatres to Shoreditch\u2014plus safe transit for evenings out with kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "London, UK offers vibrant tech, parenting and polyamory meetups with inclusive venues across boroughs, helping our family plug in quickly.",
+      "alignmentValue": 10
+    },
+    {
       "key": "Nature Access",
-      "alignmentText": "Regular trains reach Epping Forest, Box Hill, and Kent Downs within an hour, so weekend hikes stay practical without a car.",
-      "alignmentValue": 7
+      "alignmentText": "Excellent rail access to London\u0027s parks and forests; Epping Forest, Box Hill, and Kent Downs are within an hour for family-friendly weekend hikes.",
+      "alignmentValue": 8
     },
     {
       "key": "Political System",
+      "alignmentText": "London, UK: a transparent, resilient democracy with strong rule of law and open civic channels that fit your progressive, pluralistic values.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Religion in Politics",
+      "alignmentText": "London, UK: religion influences culture but policy remains evidence-based and pluralistic; personal beliefs are respected for this family.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Workers' Rights",
-      "sameAsParent": true
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "London, UK: strong protections (minimum wage, paid leave, enforcement); some gig-economy gaps remain.",
+      "alignmentValue": 8
     },
     {
       "key": "State Ideology",
-      "sameAsParent": true
+      "alignmentText": "London, UK supports pluralism and human rights with evidence-based policy; aligns with your progressive, family-friendly values.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "London, UK: strong safeguards; independent judiciary and media keep civil liberties robust and democratic norms resilient.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "State of Capitalism",
+      "alignmentText": "London\u0027s UK system blends innovation with strong safety nets and startup visa support, keeping competition fair while backing families.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Stability",
+      "alignmentText": "London, UK remains steady with predictable policies and strong institutions; occasional shifts, but overall stability and peaceful governance.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Propaganda Prevalence",
+      "alignmentText": "London, UK: pluralistic media (BBC, major outlets); propaganda exists, but watchdogs and diverse voices keep reporting broadly balanced.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Propaganda Messaging",
+      "alignmentText": "London, UK public messaging is largely factual and inclusive. Seek diverse, independent outlets for balanced coverage with minimal propaganda.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Social Policies",
+      "alignmentText": "In London, the UK\u2019s universal NHS and funded childcare support families, with strong safety nets; migrant outreach and housing access could improve.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Trust in Government",
+      "alignmentText": "Trust in UK government (London) is solid overall, with transparent services; robust democracy, though some agencies require ongoing accountability.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Perceived Corruption",
+      "alignmentText": "UK (London) shows very low perceived corruption with strong watchdogs. Investigations are generally effective, supporting stable daily life for families.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Type of Corruption",
+      "alignmentText": "In the UK, corruption is typically low and swiftly addressed; London\u0027s institutions offer strong oversight that aligns with your family\u0027s values.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Housing Situation",
-      "alignmentText": "Family-sized rentals inside Zones 1–3 exceed £2,500/month, so we'd target outer boroughs like Richmond or move to commuter towns for space.",
-      "alignmentValue": 4
+      "alignmentText": "London 3\u002B bed rents in Zones 1-3 often exceed \u00A32,500/mo; target outer boroughs or commuter towns for space.",
+      "alignmentValue": 7
     },
     {
-      "key": "Safety & Crime",
-      "alignmentText": "London's violent crime rate is moderate for a global city, yet we avoid late-night transport on certain lines and secure bikes against theft.",
-      "alignmentValue": 6
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "London, UK: crime is moderate for a global city; overall safe, but avoid poorly lit areas after dark and secure bikes.",
+      "alignmentValue": 8
     },
     {
       "key": "Healthcare (Citizens)",
-      "sameAsParent": true
+      "alignmentText": "UK NHS provides universal, affordable care; expect occasional delays for specialists in London, but pediatric care remains solid.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Healthcare (Visa Holders)",
-      "sameAsParent": true
+      "alignmentText": "In London, UK, visa holders can access NHS services after paying the Immigration Health Surcharge; private insurance is optional.",
+      "alignmentValue": 9
     },
     {
       "key": "Child Care Support",
+      "alignmentText": "London, UK offers strong childcare subsidies and free hours for eligible children, but access and waitlists require proactive planning.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Family Policy (Common Family)",
+      "alignmentText": "London, GB offers universal healthcare and strong family benefits; robust schooling and childcare support, though housing costs remain a concern.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Education",
+      "alignmentText": "London, UK has solid public schools and strong early years options; bilingual exposure is feasible, but outcomes vary by borough.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "The Tube, Elizabeth Line, and 24-hour buses let us live car-free, though strikes and weekend engineering works demand backup plans.",
+      "alignmentText": "London\u0027s Tube, Elizabeth Line, and 24-hour buses enable car-free living; strikes and weekend maintenance may require backup plans.",
       "alignmentValue": 9
     },
     {
       "key": "Economic System",
+      "alignmentText": "London\u0027s UK economy blends market innovation with start-up support and governance. Some regulatory complexity remains.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "How Taxes Are Handled",
+      "alignmentText": "UK tax in London is digital and transparent, with online filing and reliefs. Complex startup finances may require an accountant.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "London tax for a dual-income family is ~25% after allowances and NI. This aligns with the UK\u0027s strong public services and universal healthcare.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Banking & Payments",
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "London offers fast, digital banking with instant payments, easy cross-border access, and strong protections for residents.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Cost of Living (Optional)",
-      "alignmentText": "Council tax, energy bills, and groceries are manageable, but mortgage rates and childcare make London budgets stretch beyond Kansas City norms.",
+      "alignmentText": "London costs are high; council tax and childcare strain budgets even with dual incomes. Focus on affordable housing and family-friendly neighborhoods.",
       "alignmentValue": 4
     },
     {
       "key": "Retirement (Citizens)",
+      "alignmentText": "In the UK (London), the state pension covers basics; many supplement with private savings. NHS provides universal healthcare, but elder care costs can vary.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Retirement (Visa Holders)",
+      "alignmentText": "UK state pensions hinge on NI contributions and long-term residency. In London, visa holders gain access once residency and contribution years are met.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Visa Paths",
+      "alignmentText": "In London, UK, several visa routes fit our profile (Skilled Worker, Start-up/Innovator, Global Talent); online apps and clear criteria.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Welcoming of US Migrants",
+      "alignmentText": "London generally welcomes US migrants; strong tech/startup scene and English ubiquity ease integration, with startup/Global Talent visas available.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Residency Types & Durations",
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "In London, UK, residency offers routes (Skilled Worker, Start-up/Innovator) with a path to ILR after years; renewals depend on sponsorship or funds.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Path to Citizenship",
+      "alignmentText": "UK naturalisation usually ~6\u20137 years (5 years residence \u002B ILR) in London; dual citizenship allowed with English and Life in the UK tests.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Family Members",
-      "sameAsParent": true
+      "alignmentText": "London, UK: Immediate family qualifies for a partner visa with dependents; needs sponsor income/savings and paperwork.",
+      "alignmentValue": 8
     },
     {
-      "key": "Timelines & Costs",
-      "sameAsParent": true
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "London, UK: family visa processing can take up to a year. Expect legal/translation fees; budget around \u00A36k-\u00A312k.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
-      "key": "Compliance & Risks",
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "London, UK: visa routes for founders exist; expect periodic sponsor checks and ongoing paperwork - plan compliant accounts and grant timelines.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
       "key": "Dual Citizenship Allowed",
-      "sameAsParent": true
+      "alignmentText": "The UK fully permits dual citizenship with the US (London). No renunciation required and no onerous reporting.",
+      "alignmentValue": 10
     },
     {
       "key": "General Considerations for Visa Holders",
-      "sameAsParent": true
+      "alignmentText": "UK visa status offers strong protections and NHS access; London supports education and family life, though voting rights remain restricted.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Game Dev Work Prospects",
-      "alignmentText": "Rocksteady, Creative Assembly's Horsham HQ, and dozens of VR studios in London keep AAA and indie demand strong for Trey's skills.",
+      "alignmentText": "London, UK has a strong game dev scene (AAA/indie and VR). Trey\u0027s game dev, cloud, and Azure skills remain in demand.",
       "alignmentValue": 9
     },
     {
       "key": "Hiring Velocity (Established Studios)",
-      "alignmentValue": 9,
-      "alignmentText": "As noted in Game Dev Work Prospects, Rocksteady, Creative Assembly's Horsham HQ, and dozens of VR studios in London keep AAA and indie demand strong for Trey's skills. Hiring velocity at established studios in London moves quickly, often closing offers within a few weeks."
+      "alignmentText": "London studios often fill roles in about 3 months for international founders. Visa processing may extend timelines.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Compensation Benchmark (Established Studios)",
-      "alignmentValue": 9,
-      "alignmentText": "Compensation lands at the top of global ranges with premium base pay, bonuses, and stock. When opportunities surface in London, established studios benchmark offers against peers across the ecosystem."
+      "alignmentText": "London studios offer top-tier pay with bonuses and equity; high living costs mean prioritize benefits and visa support.",
+      "alignmentValue": 9
     },
     {
       "key": "Language (Established Studios)",
-      "alignmentValue": 9,
-      "alignmentText": "Established studios in London rely on English for cross-border collaboration, while local-language fluency remains important for community, compliance, and platform partnerships."
+      "alignmentText": "London studios operate in English with strong bilingual support; aligns with the family\u0027s emphasis on English ubiquity and willingness to learn local language.",
+      "alignmentValue": 9
     },
     {
       "key": "Remote Expectations (Established Studios)",
-      "alignmentValue": 9,
-      "alignmentText": "Remote expectations at established studios in London are highly flexible, with distributed teams normalized and relocation optional."
+      "alignmentText": "London studios offer hybrid/remote options with formal policies; distributed teams are common, easing relocation and cross-border work for this family.",
+      "alignmentValue": 9
     },
     {
       "key": "Notable Game Studios",
-      "alignmentText": "London hosts Rocksteady, Sports Interactive, Splash Damage, and PlayStation London Studio, clustering talent near Trey's network.",
+      "alignmentText": "London hosts Rocksteady, Sports Interactive, Splash Damage, and PlayStation London Studio, reinforcing a strong UK game ecosystem near Trey\u0027s network.",
       "alignmentValue": 9
     },
     {
       "key": "Notable Game Development Communities",
-      "alignmentText": "London Game Dev Lunch, Games London, and BAFTA events provide regular mixers for devs and founders.",
-      "alignmentValue": 8
+      "alignmentText": "London, UK: London Game Dev Lunch, Games London, and BAFTA events offer regular meetups and mentorship for newcomers and families.",
+      "alignmentValue": 9
     },
     {
       "key": "Opportunities for Video Game Startup",
-      "alignmentText": "The Games London accelerator, UK Games Fund showcases, and access to venture capital make London a strong launchpad for Trey's studio.",
-      "alignmentValue": 9
+      "alignmentText": "London\u0027s Games London accelerator, UK Games Fund, and VC access offer a strong launchpad for Trey\u0027s video game startup. The UK ecosystem pairs grants with talent and visas in London.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Hiring Velocity (Startups)",
+      "alignmentText": "London\u0027s vibrant games/startup scene (The Games London, UK Games Fund, VCs) supports 6\u20138 week hiring for Trey\u2019s founder-led studio.",
       "alignmentValue": 9,
-      "alignmentText": "Startup founders report that The Games London accelerator, UK Games Fund showcases, and access to venture capital make London a strong launchpad for Trey's studio. Hiring velocity at early-stage studios in London moves quickly, often closing offers within a few weeks."
+      "sameAsParent": false
     },
     {
       "key": "Compensation Benchmark (Startups)",
-      "alignmentValue": 9,
-      "alignmentText": "Compensation lands at the top of global ranges with premium base pay, bonuses, and stock. Early teams in London balance cash and equity to stay competitive while managing runway."
+      "alignmentText": "London startup comp tracks global medians when cost of living is considered. Equity remains meaningful to support a two-adult, two-child UK family.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Language (Startups)",
-      "alignmentValue": 9,
-      "alignmentText": "Founding teams in London lean on English for investor and platform communication, while local-language fluency helps with hiring, compliance, and community outreach."
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentValue": 9,
-      "alignmentText": "Remote expectations among startups in London are highly flexible, with distributed teams normalized and relocation optional."
-    },
-    {
-      "key": "Modernity & Infrastructure",
-      "alignmentText": "Crossrail, contactless payments everywhere, and dense EV charging keep London infrastructure modern enough for a tech-focused family.",
+      "alignmentText": "London startups use English for investor talks; local-language skills support hiring and compliance. For a US family relocating, English suffices.",
       "alignmentValue": 9
     },
     {
-      "key": "Seasonal Extremes & Variability",
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "London, UK startups are broadly hybrid/remote-friendly with mature collaboration tools. Relocation is optional, matching the family\u0027s remote/hybrid needs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "London\u0027s Crossrail (Elizabeth Line), widespread contactless payments, and dense EV charging keep infrastructure reliable for a tech-savvy family in the UK.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "London\u0027s seasons are mild overall; expect rare cold snaps and some rainy weeks. Plan flexible schedules and indoor activities as needed.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Seasonal Sunlight Hours",
-      "alignmentText": "Deep winter gloom lasts several weeks, so we plan strict routines, supplements, and possible getaways to maintain morale.",
-      "alignmentValue": 7
+      "alignmentText": "London, UK: winter daylight is limited; stay energized with regular outdoor breaks and occasional light therapy.",
+      "alignmentValue": 8
     },
     {
       "key": "Pleasant Weather Windows",
-      "alignmentText": "Roughly half the year is wonderful, half demands planning around heat, cold, or rain to enjoy time outside.",
+      "alignmentText": "London offers two to three strong seasons with pleasant springs and mild summers; frequent rain means plan for showers even in mild months.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "London\u0027s NHS and public schools ease healthcare and education costs. Housing and childcare remain pricey, but government subsidies help stability.",
       "alignmentValue": 7
     },
     {
-      "key": "Quality of Life – Lower-Income Tier",
-      "alignmentText": "High living costs erode quality of life; reliable childcare or healthcare coverage often falls through the cracks.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Quality of Life – Middle-Income Tier",
-      "alignmentText": "Housing and childcare strain the budget, limiting savings and discretionary spending most months.",
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "London housing and childcare stretch budgets, limiting savings most months. The UK\u0027s NHS and strong public schools support a solid middle-income life here.",
       "alignmentValue": 6
     },
     {
-      "key": "Quality of Life – Higher-Income Tier",
-      "alignmentText": "Affluent households encounter noticeable friction—specialists, tutors, or clubs are scarce or highly gated.",
-      "alignmentValue": 6
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "London offers abundant premium services, strong NHS care, and diverse schools, with waitlists and high costs, but plentiful alternatives.",
+      "alignmentValue": 9
     },
     {
       "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "Only a handful of listings surface each year; expect bidding wars and significant trade-offs.",
-      "alignmentValue": 4
+      "alignmentText": "2k sq ft rentals in London, UK appear occasionally and move fast. Broker connections and premium rent are often needed for a family-friendly home.",
+      "alignmentValue": 6
     },
     {
       "key": "Community Living Opportunities",
-      "alignmentText": "We can find a few reputable co-living or cooperative projects though demand may require patience.",
+      "alignmentText": "In London, UK, a few reputable co-housing projects exist; for a family of four, entry may require patience, but options are growing.",
       "alignmentValue": 8
     },
     {
-      "key": "Friendliness & Neighborliness Index",
-      "alignmentText": "Locals are polite and willing to connect when we show initiative, though relationships build gradually.",
-      "alignmentValue": 8
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "London locals are generally warm and helpful to newcomers. Strong expat and family networks can speed integration.",
+      "alignmentValue": 9
     },
     {
-      "key": "Immigrant Sentiment – General",
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "London is broadly welcoming to immigrants; in the UK, newcomers can feel safe speaking English and building lives in diverse communities.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Immigrant Sentiment – White Migrants",
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "London, UK generally welcomes educated US migrants; minor stereotypes are easy to navigate with community engagement and English fluency.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Surface Interaction Norms",
-      "alignmentText": "Friendly exchanges happen when we initiate; staff and strangers respond positively.",
-      "alignmentValue": 8
+      "alignmentText": "In London, UK, most service interactions are warm and upbeat; initiating dialogue gets friendly responses, though busy spots can feel brisk at times.",
+      "alignmentValue": 9
     },
     {
       "key": "Depth-Seeking Social Norms",
-      "alignmentText": "Relationships deepen steadily with consistent effort; vulnerability is appreciated though not automatic.",
-      "alignmentValue": 8
+      "alignmentText": "London\u0027s diverse clubs and parent groups foster deep bonds; show up to local meetups and playdates, and trust grows steadily.",
+      "alignmentValue": 9
     },
     {
-      "key": "Personal Boundary & Bubble Norms",
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "London crowds often compress personal space; transit can feel closer\u2014politely set boundaries and ask before touch.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
-      "key": "Moral, Honesty & Openness Expectations",
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "In London, UK, direct but empathetic sharing of concerns and needs is valued; expect constructive responses with local diplomacy.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Grooming & Beauty Investment",
-      "alignmentText": "We feel a gentle push to stay polished in professional or social spaces.",
-      "alignmentValue": 7
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "London\u0027s look is balanced: neat grooming is valued, but there\u0027s no pressure to overinvest.",
+      "alignmentValue": 9
     },
     {
-      "key": "Body Image & Fitness Pressure",
-      "alignmentText": "We notice subtle comparisons; maintaining confidence requires occasional boundary setting.",
-      "alignmentValue": 7
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "In London, UK, body positivity is common; encourage healthy living without shaming and set gentle boundaries to protect kids\u0027 confidence.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
-      "key": "Fashion & Style Expectations",
-      "alignmentText": "Certain districts expect polished outfits, though flexibility exists in family spaces.",
-      "alignmentValue": 7
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "In London, tidy smart-casual helps you blend in; high fashion is optional, with family spaces more relaxed.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
-      "key": "Flirting Boundaries & Consent Culture",
-      "alignmentText": "Most encounters are considerate though occasional missteps require direct communication.",
-      "alignmentValue": 8
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "London\u0027s consent norms are clear and respectful; most interactions are considerate. Nightlife venues and staff reinforce boundaries.",
+      "alignmentValue": 9
     },
     {
       "key": "Gendered Flirting Expectations",
+      "alignmentText": "In London, UK, flirting norms are broadly modern and inclusive; most spaces welcome fluid initiation, with occasional lingering traditional scripts.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "sameAsParent": true
+      "alignmentText": "In London, UK, non-monogamy is relatively understood in urban settings; supportive communities exist and mainstream spaces are tolerant if discreet.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Promiscuity Attitudes",
-      "alignmentText": "Most peers are nonjudgmental but traditional families may gossip.",
-      "alignmentValue": 8
+      "alignmentText": "London, UK offers a largely open, sex-positive scene; casual dating is common, though some traditional circles still gossip.",
+      "alignmentValue": 9
     },
     {
-      "key": "Group & Multi-Partner Relationship Attitudes",
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "London, UK: polyamorous families are increasingly accepted in progressive circles; public institutions show tolerant curiosity.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Personal Space & Touch Norms",
-      "alignmentText": "Crowded transit aside, locals check before touching and notice discomfort.",
-      "alignmentValue": 8
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "London, UK generally respects personal space; crowded Tube rides push closer. Handshakes are common in greetings; hugs mainly with family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
-      "key": "Firearm Laws & Ownership Culture",
-      "alignmentText": "Mixed regulations mean some communities normalize casual carry; we stay aware of local norms.",
-      "alignmentValue": 6
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "In the United Kingdom (London), gun laws are strict and ownership is very low; the environment is calm with minimal gun exposure.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "Controlled Substance Policies",
-      "alignmentText": "Possession laws are moderate though some substances still carry steep fines.",
+      "alignmentText": "London, UK: possession laws are strict; penalties exist, with warnings and treatment options, though some substances incur steep fines.",
       "alignmentValue": 7
     },
     {
       "key": "Drug Enforcement Climate",
-      "alignmentText": "Approach varies by district; we track neighborhood trends to avoid heavy-handed areas.",
+      "alignmentText": "In London, enforcement varies by borough; we\u0027ll monitor neighborhoods to avoid heavy-handed policing while seeking safe, inclusive areas.",
       "alignmentValue": 7
     },
     {
       "key": "Mass Violence Incidence",
-      "alignmentText": "Multiple incidents within the past decade impact how we choose schools and venues.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Carceral Conditions & Prison Labor",
-      "alignmentText": "We track reports to avoid complacency; advocacy groups monitor periodic abuses.",
+      "alignmentText": "Recent history shows sporadic mass violence in London, UK; we stay vigilant at schools and large gatherings.",
       "alignmentValue": 7
     },
     {
-      "key": "Walkability & Pedestrian Safety",
-      "alignmentText": "Sidewalks cover key areas but drivers often rush, so we stay alert with children.",
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "London, UK prisons are overseen by independent inspectors, but overcrowding and welfare gaps persist; reforms are underway.",
       "alignmentValue": 7
+    },
+    {
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "London, UK is walkable with many sidewalks and parks nearby. Some corridors are car-heavy during peak hours, so plan routes carefully with kids.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Health Consciousness",
+      "alignmentText": "London offers universal healthcare and proactive public health messaging. Parks and markets support family wellness with active living.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Processed Food Saturation",
-      "alignmentText": "Ultra-processed options crowd shelves; schools and events lean heavily on packaged snacks.",
-      "alignmentValue": 6
+      "alignmentText": "London offers strong fresh markets and diverse produce to balance meals, but processed snacks remain common in stores and events.",
+      "alignmentValue": 7
     },
     {
-      "key": "Fresh & International Cuisine Access",
-      "alignmentText": "We have plentiful access to quality produce and diverse restaurants with only rare gaps.",
-      "alignmentValue": 9
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "London\u0027s fresh markets and global cuisines flourish, letting us enjoy familiar and adventurous meals weekly.",
+      "alignmentValue": 10
     },
     {
       "key": "Depression Prevalence",
+      "alignmentText": "London, UK depression prevalence is moderate; NHS mental health services are accessible, with some therapy wait times.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Obesity Rate",
-      "alignmentText": "Higher obesity prevalence indicates limited access to healthy routines in some areas.",
-      "alignmentValue": 6
+      "alignmentText": "London, UK: obesity rates are typically below UK averages thanks to active transport and public health campaigns; monitor child nutrition in schools.",
+      "alignmentValue": 9
     },
     {
       "key": "Cancer Incidence",
-      "alignmentText": "Noticeable clusters or industrial risks require diligence and perhaps neighborhood vetting.",
-      "alignmentValue": 6
+      "alignmentText": "In London, cancer screening is robust with NHS access; routine checks advised due to local pollution hotspots and industrial legacies.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Broader Job Market Resilience",
-      "alignmentText": "Market depends on a few key industries, so we maintain contingency plans.",
-      "alignmentValue": 7
+      "alignmentText": "UK job market is resilient and diversified (London tech/finance); occasional layoffs occur but swift reemployment and visa-friendly grants support founders.",
+      "alignmentValue": 8
     },
     {
       "key": "Studio Density",
-      "alignmentText": "[Placeholder] Provide Studio Density insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London is a dense studio hub for VFX, animation, and games, with ongoing openings. Dozens of studios enable strong collaboration and local talent access.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Anchor Employers",
-      "alignmentText": "[Placeholder] Provide Anchor Employers insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London has recognized mid-size anchors and a few flagship studios; steady game dev roles exist, though hiring can vary.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "[Placeholder] Provide Vendor/Outsource Ecosystem insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK has a dense vendor network: studios for art, audio, QA, and live-ops; strong access to grants and international outsourcing partners.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Education Pipeline Strength insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London\u0027s game-education scene includes several accredited programs with studio internships and capstone projects, supporting local talent.",
+      "alignmentValue": 9
     },
     {
       "key": "Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Continuing Education Availability insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London has frequent tech workshops, bootcamps, and courses. Grants and visa options support ongoing upskilling for founders and developers.",
+      "alignmentValue": 9
     },
     {
       "key": "Community Activity",
-      "alignmentText": "[Placeholder] Provide Community Activity insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London hosts frequent game dev meetups and talks; vibrant, inclusive tech scenes with many guilds and annual conferences.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Engine Community Bias",
-      "alignmentText": "[Placeholder] Provide Engine Community Bias insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London\u0027s game scene shows vibrant Unity and Unreal communities with frequent meetups. Proprietary engines exist, but Unity/Unreal dominate with cross-training.",
+      "alignmentValue": 9
     },
     {
       "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "[Placeholder] Provide Real-Time vs Pre-Rendered Focus insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London hosts a strong real-time game dev scene with ample broadband and funding; cinematic post work is also well-supported.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
-      "key": "Demand–Supply Balance",
-      "alignmentText": "[Placeholder] Provide Demand–Supply Balance insights for United Kingdom London.",
-      "alignmentValue": 5
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "London\u0027s tech market for game dev and web roles is competitive; niche skills may require local pipelines or visa-enabled remote hiring.",
+      "alignmentValue": 7
     },
     {
-      "key": "Retention & Churn Risk",
-      "alignmentText": "[Placeholder] Provide Retention & Churn Risk insights for United Kingdom London.",
-      "alignmentValue": 5
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "London, UK provides solid healthcare, schools, and grants; long-term stay is likely. Yet funding cycles and high housing costs may spike churn.",
+      "alignmentValue": 7
     },
     {
-      "key": "Diversity & Inclusion Index",
-      "alignmentText": "[Placeholder] Provide Diversity & Inclusion Index insights for United Kingdom London.",
-      "alignmentValue": 5
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "London, UK shows strong D\u0026I with active inclusion programs and visible LGBTQ\u002B representation. Many London firms publish diversity metrics.",
+      "alignmentValue": 9
     },
     {
       "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "[Placeholder] Provide Tax Incentives for Games/Creative insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London-based game ventures can use VGTR and R\u0026D credits for relief, with cash options; however eligibility is strict and processing windows matter.",
+      "alignmentValue": 8
     },
     {
       "key": "Economic/Policy Stability",
-      "alignmentText": "[Placeholder] Provide Economic/Policy Stability insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "Policy in UK London is generally stable for tech/creative sectors. Grants remain available, but visa rules may shift with elections.",
+      "alignmentValue": 8
     },
     {
       "key": "Founder/Operator Community",
-      "alignmentText": "[Placeholder] Provide Founder/Operator Community insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London hosts a large, experienced founder network with mentors, accelerators, and frequent meetups. It also offers visa-friendly startup support for newcomers.",
+      "alignmentValue": 9
     },
     {
       "key": "Early-Stage Capital Access",
-      "alignmentText": "[Placeholder] Provide Early-Stage Capital Access insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK has broad game-friendly funding: generalist funds plus public grants; capital is accessible yet competitive for early-stage studios.",
+      "alignmentValue": 8
     },
     {
       "key": "Accelerator/Incubator Access",
-      "alignmentText": "[Placeholder] Provide Accelerator/Incubator Access insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London has general accelerators that back game teams occasionally. Dedicated game tracks are limited, but grants and visa routes exist.",
+      "alignmentValue": 7
     },
     {
       "key": "Senior Talent Availability",
-      "alignmentText": "[Placeholder] Provide Senior Talent Availability insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London has a strong pool of senior tech and game leaders; expect strong access to startup-savvy executives, though competition and cost are high.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Contractor/Freelancer Bench",
-      "alignmentText": "[Placeholder] Provide Contractor/Freelancer Bench insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK has a strong contractor bench across tech and game dev. Onboarding is generally quick, but IR35/tax rules warrant planning.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
-      "key": "Coworking & Startup Infrastructure",
-      "alignmentText": "[Placeholder] Provide Coworking & Startup Infrastructure insights for United Kingdom London.",
-      "alignmentValue": 5
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "London offers quality coworking and a thriving game-dev scene; several shared labs exist, but mocap and advanced gear for indies remain limited.",
+      "alignmentValue": 8
     },
     {
-      "key": "Legal & IP Support",
-      "alignmentText": "[Placeholder] Provide Legal & IP Support insights for United Kingdom London.",
-      "alignmentValue": 5
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "London\u0027s game/IP law scene is strong, with many firms handling global publishing deals and startup-friendly pricing for newcomers.",
+      "alignmentValue": 9
     },
     {
       "key": "Publisher/Platform Relationships",
-      "alignmentText": "[Placeholder] Provide Publisher/Platform Relationships insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London has a robust UK game-dev scene with local publisher reps and scouting events, offering solid BD access for UK-based founders.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
-      "key": "Market Research & Playtesting",
-      "alignmentText": "[Placeholder] Provide Market Research & Playtesting insights for United Kingdom London.",
-      "alignmentValue": 5
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "London, UK has multiple playtesting labs and local user panels; diverse gamer communities enable frequent feedback with reasonable lead times.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Government/Startup Visas",
-      "alignmentText": "[Placeholder] Provide Government/Startup Visas insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London Start-up/Innovator visas offer endorsed paths for founders; strong tech/game ecosystem and family-friendly policy support.",
+      "alignmentValue": 8
     },
     {
       "key": "Cost of Doing Business",
-      "alignmentText": "[Placeholder] Provide Cost of Doing Business insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London\u0027s cost of doing business is above peers; high rents and payroll pressures. Use UK incentives and target family-friendly boroughs with good schools.",
+      "alignmentValue": 6
     },
     {
       "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Talent Pool insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "8: London has a strong 3D character artist pool with mid-to-senior talent across studios and many freelancers; steady inflow from EU/UK projects.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Education Pipeline Strength insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London has several strong 3D animation programs (UAL, Ravensbourne, Escape Studios) producing well-prepared grads for UK game/VFX studios.",
+      "alignmentValue": 9
     },
     {
       "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Continuing Education Availability insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, United Kingdom has a strong 3D character art education scene with many courses. Frequent workshops and studios support ongoing upskilling.",
+      "alignmentValue": 9
     },
     {
       "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Hiring Velocity insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London\u0027s game studios show quick 3D character artist hires; strong pipelines and visa-friendly roles assist rapid recruitment.",
+      "alignmentValue": 9
     },
     {
       "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Compensation Benchmark insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London 3D character artist pay is competitive but 10-15% below NA hubs; strong benefits and visa options ease relocation.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Language",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Language insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London\u0027s 3D character studios predominantly use English; fluency is common, with teams offering multilingual collaboration where needed.",
+      "alignmentValue": 9
     },
     {
       "key": "3D Character Artist: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Remote Expectations insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London studios commonly offer hybrid remote 3D character artist roles with async workflows; expect occasional onsite collaboration.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Animator: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Talent Pool insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London features a large, well-established 3D animation pool with studios like MPC, Framestore, and The Mill plus freelancers; strong hiring options.",
+      "alignmentValue": 9
     },
     {
       "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Education Pipeline Strength insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK has several strong 3D animation programs (Ravensbourne, Central Saint Martins, NFTS nearby) fueling a robust graduate-to-studio pipeline.",
+      "alignmentValue": 9
     },
     {
       "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Continuing Education Availability insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK offers a thriving 3D animation scene with frequent short courses, studios, and mentors for game dev work.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Hiring Velocity insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London\u0027s strong game/VFX scene offers a solid pool of 3D animators. Expect a 2\u20133 month hiring window with sponsorship and remote/hybrid options.",
+      "alignmentValue": 7
     },
     {
       "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Compensation Benchmark insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK: 3D animator comp trails top hubs ~25\u201330%. High living costs offset by universal healthcare and UK grants.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "3D Animator: Language",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Language insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK 3D studios predominantly use English. Multilingual skills help with international projects.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "3D Animator: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Remote Expectations insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK studios typically offer hybrid 3D animator roles with flexible hours; fully remote setups usually require negotiation.",
+      "alignmentValue": 8
     },
     {
       "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Talent Pool insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK has a strong pool of 2D environmental artists with mid-to-senior talent and recent shipped projects. Hiring remains competitive but feasible in this market.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Education Pipeline Strength insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London\u0027s universities (UAL, Ravensbourne, Westminster) consistently graduate strong 2D environmental artists each year with solid industry links.",
+      "alignmentValue": 9
     },
     {
       "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Continuing Education Availability insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London offers many short courses in 2D environmental art through UAL, CSM, and studios; most techniques are covered locally, with some advanced topics online.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Hiring Velocity insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London game studios show steady demand for 2D environmental artists; typical searches take 1\u20132 months, with remote/hybrid options.",
+      "alignmentValue": 8
     },
     {
       "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Compensation Benchmark insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London 2D Environmental Artist pay aligns with global medians after cost of living; strong benefits and flexible work offset high London costs.",
+      "alignmentValue": 8
     },
     {
       "key": "2D Environmental Artist: Language",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Language insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "In London, 2D environmental art roles use English broadly. Studios favor strong English with multilingual teams.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Remote Expectations insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London studios widely support remote/hybrid 2D Environmental Artist roles; strong async workflows suit a family-friendly schedule.",
+      "alignmentValue": 9
     },
     {
       "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Talent Pool insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London has a solid real-time VFX talent pool with major studios; senior roles cluster at a few employers, so competition is noticeable.",
+      "alignmentValue": 7
     },
     {
       "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Education Pipeline Strength insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London has multiple strong VFX/real-time programs (NFTS, Ravensbourne, LCC/UAL) producing well-prepared grads annually.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Continuing Education Availability insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK has a thriving VFX real-time education scene with studios and short courses. Escape Studios and local universities enable ongoing upskilling.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Hiring Velocity insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "In London, UK, real-time VFX roles typically take 2\u20133 months due to specialist competition; relocation/visa support can help speed hires.",
+      "alignmentValue": 7
     },
     {
       "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Compensation Benchmark insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London real-time VFX pay aligns with global medians after cost of living; robust UK studio network and family-friendly benefits.",
+      "alignmentValue": 8
     },
     {
       "key": "VFX Artist (Real-Time): Language",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Language insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK: English is universal in VFX (real-time) teams; studios are English-first with strong multilingual support as needed.",
+      "alignmentValue": 9
     },
     {
       "key": "VFX Artist (Real-Time): Remote Expectations",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Remote Expectations insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London studios largely support remote/hybrid real-time VFX roles; gear stipends and flexible schedules align with this family\u0027s work-life needs.",
+      "alignmentValue": 9
     },
     {
       "key": "Community Manager: Talent Pool",
-      "alignmentText": "[Placeholder] Provide Community Manager: Talent Pool insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London\u0027s gaming/tech scene offers a strong CM talent pool with mid- to senior pros across studios and agencies, easing hires.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Community Manager: Education Pipeline Strength insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London offers several media, games, and marketing programs; CM-specific training exists, but class sizes are small and on-the-job upskilling common.",
+      "alignmentValue": 7
     },
     {
       "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Community Manager: Continuing Education Availability insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London offers regular community manager workshops and active online groups; strong university short courses aid ongoing learning.",
+      "alignmentValue": 9
     },
     {
       "key": "Community Manager: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide Community Manager: Hiring Velocity insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "UK London: robust tech/startup talent pool; expect 1\u20132 months to hire community managers, with active pipelines.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide Community Manager: Compensation Benchmark insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "In London, CM pay roughly matches global medians after cost of living; strong benefits help offset high living costs.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Manager: Language",
-      "alignmentText": "[Placeholder] Provide Community Manager: Language insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "In London, English is universal among CM professionals; bilingual help is often available but not typically required.",
+      "alignmentValue": 10
     },
     {
       "key": "Community Manager: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide Community Manager: Remote Expectations insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London studios widely support remote/hybrid community roles with async work. Many offer flexible schedules and equipment stipends, suiting family needs.",
+      "alignmentValue": 9
     },
     {
       "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Talent Pool insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK PMM (Games) talent pool is strong, with mid- to senior-level marketers across major studios; robust options but competitive.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Education Pipeline Strength insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, UK has strong marketing/media degrees and proximity to game studios. However, dedicated PMG (Games) paths are niche; grads often upskill on the job.",
+      "alignmentValue": 7
     },
     {
       "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Continuing Education Availability insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London\u0027s games marketing scene is active with monthly workshops and thriving online communities. Universities and studios offer PM (Games) courses and certifications locally.",
+      "alignmentValue": 9
     },
     {
       "key": "Product Marketing Manager (Games): Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Hiring Velocity insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London\u0027s PMM (Games) roles typically take 3-4 months; expect visa sponsorship and relocation steps to extend timelines.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Compensation Benchmark insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London PMM (Games) compensation aligns with global medians after cost of living; strong benefits help offset housing and childcare for families.",
+      "alignmentValue": 8
     },
     {
       "key": "Product Marketing Manager (Games): Language",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Language insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "London, United Kingdom: English is the default in most game marketing teams. English ubiquity is expected, with multilingual capability valued in some studios.",
+      "alignmentValue": 8
     },
     {
       "key": "Product Marketing Manager (Games): Remote Expectations",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Remote Expectations insights for United Kingdom London.",
-      "alignmentValue": 5
+      "alignmentText": "In London, UK, product marketing roles for games prefer hybrid setups; remote options exist, with occasional in-office collaboration.",
+      "alignmentValue": 6
     }
   ]
 }

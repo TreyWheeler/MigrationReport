@@ -4,1068 +4,1168 @@
   "values": [
     {
       "key": "Environment",
-      "alignmentText": "In Utrecht, Dutch spatial planning lets this park-seeking family bike to clean canals, urban forests, and well-managed green belts even in dense metros. Nitrogen-intensive farming belts still strain biodiversity, so weekend outings sometimes shift toward protected dunes and wetlands.",
+      "alignmentText": "In Utrecht, bike-friendly planning keeps canals and parks within reach; nitrogen pressure from farming strains biodiversity, guiding weekend trips to dunes.",
       "alignmentValue": 8
     },
     {
       "key": "Global Warming Risk",
-      "alignmentText": "In Utrecht, Sea-level rise remains the headline risk for a below-sea-level home, yet the fully funded Delta Programme and constant dike upgrades keep near-term danger manageable for the family. We would still budget for flood insurance and monitor adaptation policies before buying property in reclaimed polders.",
-      "alignmentValue": 6
+      "alignmentText": "Utrecht\u2019s river flood risk is mitigated by the Delta Programme and dikes, keeping near-term danger low. Budget flood insurance and track adaptation plans for housing decisions.",
+      "alignmentValue": 7
     },
     {
       "key": "Seasonal Weather",
-      "alignmentText": "In Utrecht, the marine climate hits the family's mild-temperature preference, but long stretches of drizzle and grey skies each shoulder season limit spontaneous outdoor plans. Reliable rain gear and indoor kid activities are essential half the year.",
+      "alignmentText": "In Utrecht, mild but damp; frequent drizzle and grey skies curb outdoor time most of the year; rain gear and indoor activities are essential.",
       "alignmentValue": 6
     },
     {
       "key": "Air Quality",
-      "alignmentText": "In Utrecht, EU emission rules keep daily PM2.5 low enough for the kids' outdoor play and parents' cycling commutes. We only watch for occasional nitrogen spikes near ports or dairy clusters before planning long rides.",
-      "alignmentValue": 8
+      "alignmentText": "Utrecht, NL air is generally clean; PM2.5 stays low for outdoor play and cycling. Occasional pollen/dust days; portable filters rarely needed.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Natural Disasters",
-      "alignmentText": "In Utrecht, there is virtually no quake or wildfire threat, and world-class flood controls align with the family's low-risk tolerance. Storm surges are rare but we would follow municipal alerts when renting near rivers or the North Sea.",
+      "alignmentText": "In Utrecht, NL, earthquakes and wildfires are rare; world-class flood defenses and insurance keep flood risk low for this family.",
       "alignmentValue": 8
     },
     {
       "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "In Utrecht, March and April swing between jacket weather and cold rain, so the family alternates playground days with museum trips. By May the 6-16°C range turns pleasant, matching their bike-friendly goals.",
-      "alignmentValue": 6
+      "alignmentText": "In Utrecht, spring starts mild but swings from cool, rainy days to warmer afternoons; by May 6-16\u00B0C, bike-friendly outings feel pleasant.",
+      "alignmentValue": 7
     },
     {
       "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "In Utrecht, typical highs sit around 21-24°C, letting the family enjoy parks and festivals without AC. Brief humid heatwaves over 30°C pop up, so we plan cooling breaks during rare continental air masses.",
-      "alignmentValue": 8
+      "alignmentText": "Utrecht, NL: highs 21-24\u00B0C; parks/festivals fine without AC. Nights often \u003C20\u00B0C; rare 30\u00B0C heatwaves need cooling breaks.",
+      "alignmentValue": 9
     },
     {
       "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "In Utrecht, September starts crisp, but by October steady rain and 8-16°C temps mean we juggle layered clothing for school runs. The family's preference for predictable outdoor time requires flexible weekend plans.",
+      "alignmentText": "Utrecht\u0027s fall hovers 8\u201316\u00B0C; September crisp, October rains. The family needs predictable outdoor time, so weekends require flexibility.",
       "alignmentValue": 6
     },
     {
       "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "In Utrecht, winters hover 0-6°C with damp winds, so the family needs solid rain gear more than snow shovels. Occasional freezing rain can snarl transit, but long deep freezes are rare compared with the US Midwest.",
-      "alignmentValue": 6
+      "alignmentText": "Winter in Utrecht is about 0-6\u00B0C with damp winds. Subfreezing nights occur, but days stay 5-10\u00B0C and heavy snow is rare.",
+      "alignmentValue": 9
     },
     {
       "key": "Beach Life",
-      "alignmentText": "Beaches like Zandvoort or Scheveningen are 40 minutes by train, so seaside days take planning. Closer to home, Haarrijnse Plas and Maarsseveense Plassen give the kids swimming spots during warm weeks.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "North Sea water still peaks around 18 °C in August, making quick dips more realistic than long swims. Lakes near Utrecht warm up faster, offering better options for small children.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "From Oudegracht canals to Utrechtse Heuvelrug forests and the Vecht river estates, nature is a quick bike or train ride away. Weekend camping in Soestduinen or sailing on the Loosdrechtse Plassen keeps the family outdoors year-round.",
+      "alignmentText": "Beaches like Zandvoort and Scheveningen are reachable in about 40 minutes by train from Utrecht, Netherlands, with good family facilities and water quality.",
       "alignmentValue": 8
     },
     {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Utrecht inland lakes reach about 20-21 C in summer; the North Sea stays around 18 C in August, favoring short swims or shallow options for kids.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Utrecht, NL offers Oudegracht canal views and Heuvelrug forests within easy reach for weekly outdoor time. Soestduinen and Loosdrechtse Plassen offer weekend options.",
+      "alignmentValue": 9
+    },
+    {
       "key": "Minimum Wage",
-      "alignmentText": "In Utrecht, a €2,070 monthly minimum (2024) indexed twice a year gives the family confidence in service-sector stability, though Amsterdam rents still demand dual professional incomes. It supports Sarah seeking lower-stress roles without fearing exploitative pay scales.",
+      "alignmentText": "In Utrecht, NL, min wage near \u20AC2k/mo; essentials met, but housing costs limit savings; supports Sarah seeking lower-stress roles.",
       "alignmentValue": 7
     },
     {
       "key": "Typical Software Salaries",
-      "alignmentText": "Experienced developers in Utrecht earn roughly €65k–€85k, with 30% ruling offers near the top end. Settling in Leidsche Rijn or Nieuwegein helps the family stretch those salaries toward childcare and savings goals.",
-      "alignmentValue": 7
+      "alignmentText": "Typical Utrecht software pay is \u20AC65k\u2013\u20AC85k; 30% ruling helps top end. Living in Leidsche Rijn or Nieuwegein aids childcare and savings.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": ".NET Work Prospects",
-      "alignmentText": "Rabobank, bol.com, and Nederlandse Spoorwegen run major tech hubs around Utrecht Centraal, keeping senior .NET engineers in demand. English-friendly product teams give Trey a steady pipeline without leaving the city.",
-      "alignmentValue": 8
+      "alignmentText": "Utrecht\u0027s .NET market is healthy with English-friendly teams in banks and startups; visa routes and remote work ease the move.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Ruby Work Prospects",
-      "alignmentText": "Ruby hiring is thinner, centered on boutique agencies and a few SaaS scale-ups near the canals. Sarah can land roles, but she'll likely pair local contracts with remote clients to keep her workload stable.",
-      "alignmentValue": 5
+      "alignmentText": "Ruby roles in Utrecht are limited and clustered; network actively and blend local contracts with remote EU work.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Employer Visa Sponsorship",
-      "alignmentText": "In Utrecht, hundreds of IND-recognized sponsors hire internationals under the Highly Skilled Migrant scheme, matching the family's desire for predictable processing. Recruiters are familiar with US applicants and handle much of the paperwork.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "In Utrecht, the diversified Dutch economy—logistics, agri-tech, and creative sectors—keeps unemployment low and inflation trending down. That resilience reassures the family as they weigh launching a studio during global uncertainty.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "Hybrid weeks are the norm, and coworking spots like Seats2meet and Mindspace make remote collaboration easy. CET overlap lets Trey and Sarah manage U.S. calls without sacrificing the kids' after-school routine.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "In Utrecht, Dutch managers expect people to leave on time and respect part-time parenting schedules, which aligns with Sarah's search for calm teams. Wednesday afternoon school breaks dovetail with family-focused routines.",
+      "alignmentText": "In Utrecht, many employers hire under the Highly Skilled Migrant scheme; sponsorship is common and often includes family-friendly relocation support.",
       "alignmentValue": 9
     },
     {
+      "key": "Economic Health",
+      "alignmentText": "Utrecht, Netherlands: a diversified, resilient economy with low unemployment and strong startup support cushions a new studio against shocks.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Utrecht offers a strong remote-ready culture. Abundant coworking spaces like Seats2meet and hybrid options help Trey and Sarah stay connected, with CET overlap aiding U.S. calls.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "In Utrecht, Dutch norms protect evenings/weekends; flexible hours and family-friendly policies fit Sarah\u0027s calm-team needs.",
+      "alignmentValue": 10
+    },
+    {
       "key": "Work Week Hours",
-      "alignmentText": "In Utrecht, a standard full-time contract is 36-40 hours and four-day weeks are common, letting the parents alternate caregiving without risking careers. Mandatory overtime is rare and usually compensated.",
+      "alignmentText": "In Utrecht, standard full-time is 36-40h; four-day weeks support caregiving and family balance; overtime is rare and usually compensated.",
       "alignmentValue": 9
     },
     {
       "key": "Vacation Days (Minimum)",
-      "alignmentText": "In Utrecht, labor law guarantees four weeks plus 8% holiday allowance and public holidays, giving the family reliable downtime. Planning around staggered school breaks is still necessary to avoid peak travel prices.",
-      "alignmentValue": 8
+      "alignmentText": "NL offers 20-24 days off per year with 8% holiday pay; in Utrecht, factor in school holidays for family travel.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Vacation Days (Typical)",
-      "alignmentText": "In Utrecht, tech employers often top up to 25-30 days plus flexible bridge days, so Trey can travel for conferences while the kids enjoy extended holidays. Teams plan collectively, minimizing burnout.",
-      "alignmentValue": 9
+      "alignmentText": "In Utrecht, NL, firms typically offer 25-29 days with planned coverage; this supports Trey\u0027s conferences while the kids enjoy breaks.",
+      "alignmentValue": 8
     },
     {
       "key": "Pace of Life",
-      "alignmentText": "The medieval core buzzes with students and cyclists, yet within 15 minutes the family can retreat to quieter neighborhoods or riverside paths. That balance lets Sarah enjoy a slower rhythm while Trey taps into city energy.",
-      "alignmentValue": 8
+      "alignmentText": "In Utrecht, Netherlands, bike-friendly streets and canals keep life relaxed. Sarah enjoys a slower rhythm while Trey taps into city energy.",
+      "alignmentValue": 9
     },
     {
       "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Primary schools open around 8:30 and close near 15:00 with Wednesday half-days, aligning well with 9-to-5 tech schedules. BSO aftercare and neighborhood oppas pools cover late meetings so both parents stay flexible.",
-      "alignmentValue": 8
+      "alignmentText": "Utrecht primary schools commonly run 8:30-15:00 with BSO; aligns well with 9-5 tech/remote work, with aftercare covering late meetings.",
+      "alignmentValue": 9
     },
     {
       "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Weekends start with market runs at Vredenburg or Twijnstraat before biking to Utrechtse Heuvelrug for forest hikes. Evenings often feature family-friendly shows at TivoliVredenburg or board-game nights at local cafés.",
-      "alignmentValue": 8
+      "alignmentText": "Weekends in Utrecht feature Vredenburg markets and kid-friendly caf\u00E9s; biking to Heuvelrug is easy, with TivoliVredenburg family shows and board-game caf\u00E9s nearby.",
+      "alignmentValue": 9
     },
     {
       "key": "Family Life",
-      "alignmentText": "Car-lite streets, plentiful playgrounds, and community centers like Bibliotheek Neude make Utrecht feel purpose-built for young families. Inclusive festivals and parent collectives welcome progressive, poly-friendly households.",
+      "alignmentText": "Utrecht\u0027s car-free streets, plentiful playgrounds, and inclusive family spaces fit a two-adult, two-child household.",
       "alignmentValue": 9
     },
     {
       "key": "Polyamory",
-      "alignmentText": "In Utrecht, Dutch society is broadly tolerant of non-traditional relationships, yet legal recognition remains limited to one registered partner. The family can live openly in progressive cities but should expect paperwork to center a primary dyad.",
-      "alignmentValue": 6
+      "alignmentText": "In Utrecht, polyamorous families enjoy broad social tolerance; legal recognition remains two-person only, with urban support networks handy.",
+      "alignmentValue": 8
     },
     {
       "key": "Parenting Expectations",
-      "alignmentText": "In Utrecht, parents are encouraged to balance work and caregiving, matching Sarah's desire for supportive communities. Schools expect active involvement but not intensive helicoptering, easing pressure on busy tech parents.",
-      "alignmentValue": 8
+      "alignmentText": "Utrecht, NL supports balanced parenting and constructive school partnerships; Sarah\u0027s family benefits from empathetic guidance and flexible work norms.",
+      "alignmentValue": 9
     },
     {
       "key": "Child-Friendliness of Cities",
-      "alignmentText": "Traffic-calmed woonerven, school streets, and safe canal-side paths let the kids bike independently sooner than in the U.S. City hosts and Buurtteams help newcomers plug into playgroups quickly.",
-      "alignmentValue": 9
+      "alignmentText": "Utrecht is very kid-friendly: safe crossings, abundant playgrounds, and stroller-friendly streets. Buurtteams help families plug into playgroups quickly.",
+      "alignmentValue": 10
     },
     {
       "key": "Schooling Options",
-      "alignmentText": "Dalton, Montessori, and bilingual public schools sit alongside the International School Utrecht, but popular tracks still use lotteries. Early registration and matching the family's pedagogy keep stress low.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Kinderopvang providers such as Partou and Kind & Co have good reputations, yet infant places need booking six months out. Municipal playgroups and gastouders offer flexible backups while subsidies reimburse a large share.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "In Utrecht, native families receive income-tested childcare allowances covering up to 96% for lower earners, and municipal playgroups add socialization. The generosity fits the family's desire for institutional support.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "In Utrecht, highly skilled migrants qualify for childcare subsidies once they secure a BSN and tax number, but reimbursements arrive after paying invoices. Cash-flow planning is necessary during the first year.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "In Utrecht, citizen children enjoy tuition-free primary and secondary schooling with strong inclusion services and after-school BSO. National inspections keep quality consistent across municipalities.",
+      "alignmentText": "In Utrecht, NL, strong mix: bilingual public schools, private options, and International School Utrecht; admissions vary, but waitlists are manageable.",
       "alignmentValue": 9
     },
     {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "In Utrecht, NL, infant slots are tight and waitlists long; subsidies cover much of the cost, with municipal playgroups and gastouders as backups.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "In Utrecht, NL, kinderopvangtoeslag is income-tested and can cover most daycare costs for a two-parent family; municipal playgroups help the 1-year-old\u0027s socialization.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "In Utrecht, visa families can access childcare subsidies after a BSN and tax number. Reimbursements arrive after invoices, so plan cash flow in year one.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Utrecht, NL offers tuition-free primary/secondary schooling with strong inclusion and BSO. National inspections keep quality consistent.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
       "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "In Utrecht, residence permit holders access the same public schools, though oversubscribed bilingual programs may prioritize long-term residents. The family can still find English support via newcomer classes.",
+      "alignmentText": "In Utrecht, visa families can access public schools with newcomer support, though some bilingual programs may prioritize long-term residents.",
       "alignmentValue": 8
     },
     {
       "key": "Private Education",
-      "alignmentText": "In Utrecht, international schools and denominational options are available but expensive (~€15k-25k) and wait-listed. They serve as a backup if Dutch-language immersion proves too abrupt.",
+      "alignmentText": "Utrecht private schools exist but are pricey (\u20AC15k-\u20AC25k) with waitlists; strong public options offer bilingual exposure if Dutch immersion is challenging.",
       "alignmentValue": 7
     },
     {
       "key": "Family Policy (Citizens)",
-      "alignmentText": "In Utrecht, parents receive child benefits, parental leave top-ups, and tax credits that make raising two kids manageable. The ecosystem aligns with the family's priority on supportive community infrastructure.",
+      "alignmentText": "In Utrecht, NL, two-kid families receive childcare subsidies, child allowances, and universal healthcare.",
       "alignmentValue": 8
     },
     {
       "key": "Family Policy (Visa Holders)",
-      "alignmentText": "In Utrecht, most benefits extend once registered, though some allowances require permanent residency or Dutch taxable income. The family should expect a short administrative ramp-up after arrival.",
+      "alignmentText": "In Utrecht, visa families get partial benefits. Full access requires residency and Dutch taxable income; expect a brief onboarding.",
       "alignmentValue": 7
     },
     {
       "key": "Higher Education Access (Citizens)",
-      "alignmentText": "In Utrecht, citizens pay low statutory tuition and can tap DUO loans and grants, giving the kids affordable university pathways. Strong English-taught bachelor's programs broaden future options.",
+      "alignmentText": "Utrecht offers affordable higher education with DUO loans/grants for residents; many English-taught programs, though non-EU access varies.",
       "alignmentValue": 9
     },
     {
       "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "In Utrecht, non-EU families pay higher tuition but still gain entry to research universities and HBO programs if they meet integration requirements. Scholarships exist, yet the family must budget more than citizens.",
-      "alignmentValue": 7
+      "alignmentText": "In Utrecht, as US visa applicants (non-EU), you can enroll in Dutch universities/HBO but pay higher tuition; scholarships exist, yet costs exceed those for citizens.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Gender Roles",
-      "alignmentText": "In Utrecht, gender equality is mainstream, with men taking parental leave and part-time arrangements normalized. The family's progressive values will fit, though women still shoulder more part-time work statistically.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "In Utrecht, legal recognition of gender diversity is strong and schools include inclusive curricula, yet rural pockets can lag. The family will find affirming communities in major cities.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "In Utrecht, anti-discrimination laws, reproductive rights, and LGBTQ+ protections are robust, matching the family's non-negotiables. Advocacy groups remain vigilant against occasional conservative backlash.",
+      "alignmentText": "Utrecht, NL: gender roles are highly egalitarian with strong parental leave; both partners share caregiving, though some women still do part-time work.",
       "alignmentValue": 9
     },
     {
+      "key": "Gender Fluidity",
+      "alignmentText": "In Utrecht, the Netherlands, gender-diverse identities have strong protections and broad legal recognition with inclusive healthcare. City life supports inclusive communities.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "In Utrecht, NL, gender rights are strongly protected and enforced; LGBTQ\u002B and reproductive rights are secure, with active monitoring of rare backlash.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
       "key": "Femininity Norms",
-      "alignmentText": "In Utrecht, women lead in politics and tech, and casual fashion emphasizes practicality over rigid gender coding. Social pressure to scale back careers after kids persists but continues to soften.",
-      "alignmentValue": 8
+      "alignmentText": "Utrecht, NL shows flexible femininity norms. Women lead in politics/tech and casual dress is common, with only soft pressure around parenting.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Masculinity Norms",
-      "alignmentText": "In Utrecht, involved fatherhood and emotional openness are encouraged, letting Trey model caregiving without stigma. Some traditional expectations linger in older generations, especially outside the Randstad.",
-      "alignmentValue": 8
+      "alignmentText": "In Utrecht, fatherhood is broadly inclusive and emotionally open. Older generations may still cling to traditional norms.",
+      "alignmentValue": 9
     },
     {
       "key": "What Is Intriguing",
-      "alignmentText": "A historic university city with experimental culture, Utrecht offers hidden courtyards, festivals, and game jams in one compact package. That curiosity-friendly mix keeps the family engaged without overwhelming them.",
-      "alignmentValue": 8
+      "alignmentText": "Utrecht\u0027s historic university vibe, bike-friendly streets, canals, and game jams fuel family curiosity. English-friendly NL; strong schools and family policies.",
+      "alignmentValue": 9
     },
     {
-      "key": "Language & English Ubiquity",
-      "alignmentText": "In Utrecht, over 90% of residents speak fluent English and government services provide English portals, easing the family's transition. Dutch remains necessary for deeper bureaucracy and long-term integration.",
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "In Utrecht, English is widely used in daily life and many services offer English portals; Dutch remains necessary for long-term bureaucracy.",
       "alignmentValue": 9
     },
     {
       "key": "Progressivism",
-      "alignmentText": "In Utrecht, coalition politics lean liberal on social policy and climate action, aligning with the family's progressive priorities. Fiscal debates can still introduce centrist compromises that temper reforms.",
-      "alignmentValue": 8
+      "alignmentText": "In Utrecht, NL, progressive policies, inclusive society, and strong civic life match the family\u0027s priorities on education, healthcare, and LGBTQ\u002B rights.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "In Utrecht, left-wing parties and unions remain active, yet the mainstream prefers pragmatic social democracy over radical rhetoric. The family will find Marxist discourse in academic and activist circles more than daily life.",
-      "alignmentValue": 6
+      "alignmentText": "Marxist ideas persist mainly in Utrecht\u0027s academia and activist circles; daily policy stays pragmatically left, not radical.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Atheism",
-      "alignmentText": "In Utrecht, secularism dominates public life; schools and offices rarely center religion, supporting the family's preference for pluralistic spaces. Faith communities exist but do not drive policy.",
-      "alignmentValue": 9
+      "alignmentText": "In Utrecht, the Netherlands, atheism enjoys broad acceptance; secular life and institutions function openly with little religious expectation.",
+      "alignmentValue": 10
     },
     {
       "key": "Sex (Attitudes)",
-      "alignmentText": "In Utrecht, comprehensive sex education, normalized discussions, and legal protections make open dialogue easy for this sex-positive household. Respect for consent is woven into public campaigns and health services.",
-      "alignmentValue": 9
+      "alignmentText": "In Utrecht, NL, sex education is comprehensive and open; consent is normalized and services are accessible for a sex-positive, poly-friendly family.",
+      "alignmentValue": 10
     },
     {
-      "key": "LGBTQ+ Attitudes",
-      "alignmentText": "In Utrecht, marriage equality, anti-discrimination enforcement, and visible Pride events create a welcoming environment for the family's polyamory-positive network. Rural municipalities may be quieter but still legally supportive.",
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "Utrecht offers strong LGBTQ\u002B protections and visible Pride events for this polyamory-positive family. Rural NL areas are quieter but legally safe.",
       "alignmentValue": 9
     },
     {
       "key": "Community Vibes",
-      "alignmentText": "In Utrecht, neighborhood associations, expat meetups, and parent-led school councils make it easy to plug in. Direct Dutch communication can feel blunt at first but fosters dependable relationships.",
-      "alignmentValue": 8
+      "alignmentText": "In Utrecht, expat meetups and parent councils help your family plug in. Dutch directness builds reliable local ties.",
+      "alignmentValue": 9
     },
     {
       "key": "View of self",
-      "alignmentText": "In Utrecht, Dutch identity blends pragmatism and pride in consensus-building, which meshes with the family's collaborative ethos. Modesty norms can make overt ambition seem out of place until relationships deepen.",
-      "alignmentValue": 7
+      "alignmentText": "In Utrecht, Dutch pragmatism and consensus match our family\u0027s collaborative, modest approach; we value openness, education, and civil liberties.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "View of Neighboring Countries",
-      "alignmentText": "In Utrecht, most residents hold friendly, practical views of Belgium and Germany while critiquing UK or US politics with candor. The family should expect honest conversations rather than diplomatic small talk.",
+      "alignmentText": "In Utrecht, NL, Belgians and Germans are friendly neighbors; UK/US politics are discussed openly, without diplomatic small talk.",
       "alignmentValue": 7
     },
     {
       "key": "View of Them by Neighboring Countries",
-      "alignmentText": "In Utrecht, neighbors respect Dutch competence and infrastructure but sometimes tease the Netherlands for moralizing on climate and finance. This reputation rarely affects day-to-day life for migrants.",
-      "alignmentValue": 7
+      "alignmentText": "In Utrecht, neighbors view the Netherlands positively, valuing its open economy and liberal culture, facilitating travel, work, and settling for our family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Nightlife Culture",
-      "alignmentText": "Student bars, TivoliVredenburg, and late-night cafés keep evenings lively without Amsterdam's crowds. Night buses taper after 2 a.m., so date nights wrap by the last train or rely on bikeshare rides home.",
-      "alignmentValue": 7
+      "alignmentText": "Nightlife exists in Utrecht districts like Oudegracht/Neude; evenings end earlier\u2014plan babysitters and transit for occasional family-friendly date nights.",
+      "alignmentValue": 6
     },
     {
       "key": "Fashion Trends (Male)",
-      "alignmentText": "Style skews toward smart-casual layers and rainproof bike gear, so Trey can keep things practical without standing out. Boutiques in the Nine Little Streets offshoots provide upgrades when needed.",
+      "alignmentText": "In Utrecht, practical, bike-ready style is common. Trey\u0027s smart-casual look with rain gear fits Dutch urban life without standing out.",
       "alignmentValue": 6
     },
     {
       "key": "Fashion Trends (Female)",
-      "alignmentText": "Women mix Scandinavian minimalism with colorful Dutch accessories, making it easy for Sarah to express herself while staying commuter-friendly. Local designers at Steenweg pop-ups support sustainable wardrobes.",
-      "alignmentValue": 7
+      "alignmentText": "Utrecht\u0027s fashion blends Scandinavian minimalism with colorful Dutch accents, letting Sarah express herself on the commute. Steenweg pop-ups in NL support sustainable wardrobes.",
+      "alignmentValue": 9
     },
     {
       "key": "Common Hobbies",
-      "alignmentText": "Canal paddling, climbing at Energiehaven, and maker workshops at Hooghiemstra support both parents' creative streaks. Kids join music schools or coding clubs clustered around the railway museum district.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Boardgaming & Tabletop",
-      "alignmentText": "Subcultures, NeverNeverLand, and Utrecht Board Game Meetup host weekly English-friendly sessions, perfect for Trey's prototyping nights. Family cafes keep Sunday afternoons relaxed with new releases on tap.",
+      "alignmentText": "Utrecht offers canal paddling, Energiehaven climbing, and Hooghiemstra maker workshops; music and coding clubs cluster around the railway museum district.",
       "alignmentValue": 9
     },
     {
-      "key": "Nightlife & Music",
-      "alignmentText": "TivoliVredenburg's five halls, De Helling, and indie venues along the Oudegracht cover everything from orchestral scores to game-music concerts. Babysitters are easier to book here than in Amsterdam's pricier market.",
-      "alignmentValue": 8
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "Utrecht offers a vibrant English-friendly boardgame scene with weekly sessions at NeverNeverLand and Utrecht Board Game Meetup. Family-friendly cafes abound for casual Sundays.",
+      "alignmentValue": 9
     },
     {
-      "key": "Meetups & Communities",
-      "alignmentText": "Dutch Game Garden's incubator, UtrechtJS, and Women in Games NL ensure there is always a meetup near Centraal. Parent co-ops in Leidsche Rijn and Lombok make social onboarding straightforward for Sarah.",
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Utrecht offers diverse live music (TivoliVredenburg, De Helling) with safe transit and family-friendly options; babysitting is easier than Amsterdam.",
       "alignmentValue": 9
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "Utrecht, Netherlands features a vibrant gaming/tech meetup scene (Dutch Game Garden, UtrechtJS, Women in Games NL) plus family-friendly parent co-ops in Leidsche Rijn.",
+      "alignmentValue": 10
     },
     {
       "key": "Nature Access",
-      "alignmentText": "Bike paths shoot straight to Amelisweerd woods, the Vecht river, and Utrechtse Heuvelrug trails, so fresh air is always close. The family only needs a car when chasing alpine adventures abroad.",
-      "alignmentValue": 8
+      "alignmentText": "Bike-friendly nature around Utrecht (NL) is within easy reach; Amelisweerd, Vecht, and Utrechtse Heuvelrug trails are close. Cars mainly for longer trips.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Political System",
-      "alignmentText": "In Utrecht, a multi-party parliamentary system with proportional representation rewards coalition building, matching the family's preference for pluralistic governance. Fragmentation can slow legislation but keeps extremes in check.",
-      "alignmentValue": 8
+      "alignmentText": "Utrecht, NL hosts a stable, transparent multi-party democracy with proportional representation and pluralism. Reforms occur through open civic channels.",
+      "alignmentValue": 9
     },
     {
       "key": "Religion in Politics",
-      "alignmentText": "In Utrecht, religious parties hold seats yet rarely impose doctrine on policy, so secular families like this one rarely encounter faith-based legislation. Debates around education funding are the main area where faith still matters.",
+      "alignmentText": "In Utrecht, Netherlands, religion lightly influences policy; minority rights stay protected, with education funding debates the main faith issue.",
       "alignmentValue": 8
     },
     {
-      "key": "Workers' Rights",
-      "alignmentText": "In Utrecht, collective bargaining, works councils, and strict dismissal protections empower employees while still allowing flexible schedules. This safeguards Sarah if she opts for part-time or remote roles.",
-      "alignmentValue": 9
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "In Utrecht, NL, worker protections are robust with strong unions and works councils. Flexible hours and recourse suit Sarah\u0027s part-time/remote plans.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "State Ideology",
-      "alignmentText": "In Utrecht, the national ethos blends social liberalism with pro-business pragmatism, which fits the family's progressive-but-entrepreneurial stance. Populist voices occasionally push harder on migration or cultural issues.",
-      "alignmentValue": 7
+      "alignmentText": "In Utrecht, NL\u0027s pluralistic, rights-focused politics align with the family\u0027s progressive-entrepreneurial stance; migration debates remain dynamic.",
+      "alignmentValue": 9
     },
     {
       "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "In Utrecht, institutions are resilient and courts independent, yet recent far-right gains demand vigilance—exactly the concern highlighted in the family profile. Civil society remains active in defending democratic norms.",
-      "alignmentValue": 8
+      "alignmentText": "In Utrecht, the Netherlands, democracy remains strong with independent courts and civil society; vigilance over far-right trends protects family freedoms.",
+      "alignmentValue": 9
     },
     {
       "key": "State of Capitalism",
-      "alignmentText": "In Utrecht, a regulated market economy balances startup support with social safety nets, ideal for launching an indie studio without sacrificing healthcare. High taxes and compliance requirements still add overhead.",
-      "alignmentValue": 8
+      "alignmentText": "In Utrecht, the Dutch model blends innovation with strong safety nets and healthcare; startups thrive, but taxes and compliance add overhead.",
+      "alignmentValue": 10
     },
     {
       "key": "Stability",
-      "alignmentText": "In Utrecht, long-term NATO membership, low crime, and steady institutions give the family confidence in long-horizon planning. Coalition reshuffles rarely disrupt daily life.",
-      "alignmentValue": 9
+      "alignmentText": "In Utrecht, the Netherlands, stable governance, low crime, and reliable public services support steady family planning.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Propaganda Prevalence",
-      "alignmentText": "In Utrecht, independent media and public broadcasters provide diverse viewpoints, satisfying the family's desire for pluralistic information. Government messaging exists but faces strong journalistic scrutiny.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "In Utrecht, public campaigns focus on health, climate, and civic cohesion rather than nationalist narratives, aligning with the family's expectations. Spin becomes noticeable mainly during sensitive tax or benefits scandals.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "In Utrecht, housing, education, and welfare supports are generous compared to the US, supporting the family's work-life balance goals. Policy trade-offs occasionally prioritize budget discipline over rapid expansion.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "In Utrecht, confidence dipped after the childcare benefits scandal, so newcomers should expect candid skepticism in local conversations. Transparency measures are improving but trust has not fully rebounded.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "In Utrecht, transparency International ranks the Netherlands among the least corrupt, reinforcing the family's need for predictable bureaucracy. Isolated procurement controversies rarely touch daily life.",
+      "alignmentText": "In Utrecht, the Dutch media landscape remains pluralistic with watchdogs; government messaging exists but is routinely scrutinized, keeping propaganda low.",
       "alignmentValue": 9
     },
     {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Utrecht messaging centers health, climate, and civic cohesion with minimal nationalist spin. Overall, it\u0027s factual and inclusive, matching the family\u0027s media preferences.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Netherlands (Utrecht): universal healthcare, housing subsidies, and childcare support bolster family balance; some paperwork/eligibility rules persist.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Trust in Utrecht\u0027s government is tempered after childcare scandal; transparency is improving, but skepticism remains. Expect clear services and good welfare.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "In Utrecht, NL, corruption is exceptionally rare; strong watchdogs protect daily life and ensure predictable bureaucracy for families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
       "key": "Type of Corruption",
-      "alignmentText": "In Utrecht, when issues arise they usually involve lobbying or housing development favoritism rather than petty bribery. Staying informed through local news helps the family navigate zoning or permit decisions.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "Family apartments near the historic core trigger bidding wars, yet newer districts like Leidsche Rijn and Kanaleneiland offer modern townhomes if the family moves quickly. Expect to document income carefully for corporate landlords.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Safety & Crime",
-      "alignmentText": "Utrecht feels safe even after dark, with police focusing on bike theft and occasional nightlife scuffles near Neude. Choosing residential streets keeps the kids' cycling routes low-stress.",
+      "alignmentText": "In Utrecht, corruption shows up as occasional zoning or procurement issues; oversight helps keep permit timelines manageable for the family.",
       "alignmentValue": 8
     },
     {
+      "key": "Housing Situation",
+      "alignmentText": "Utrecht offers family-friendly Leidsche Rijn and Kanaleneiland; competition and landlord paperwork may slow securing a home - move fast and prep income docs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "Utrecht remains low-crime overall; bike theft is watched and nightlife incidents are infrequent - stick to residential streets for safe family cycling.",
+      "alignmentValue": 9
+    },
+    {
       "key": "Healthcare (Citizens)",
-      "alignmentText": "In Utrecht, universal coverage, strong primary care, and maternity support meet the family's standards for accessible healthcare. Waiting lists for specialists exist but are usually manageable with referrals.",
+      "alignmentText": "Utrecht, NL has universal coverage and strong primary care with maternity support. Specialist wait times exist but are usually manageable with referrals.",
       "alignmentValue": 8
     },
     {
       "key": "Healthcare (Visa Holders)",
-      "alignmentText": "In Utrecht, once insured through a Dutch policy, migrants receive the same GP-led care, though English-speaking specialists can book out quickly. The family should register with a huisarts immediately after arrival.",
+      "alignmentText": "In Utrecht, visa families enroll in Dutch basic health insurance; register with a huisarts on arrival; English-speaking GPs available, coverage strong.",
       "alignmentValue": 8
     },
     {
       "key": "Child Care Support",
-      "alignmentText": "In Utrecht, generous parental leave, child benefits, and school-based aftercare give the household multiple supports. Administrative delays can occur but usually resolve with municipal help.",
+      "alignmentText": "In Utrecht, parental leave, child benefits, and afterschool care are strong, though occasional municipal delays require planning.",
       "alignmentValue": 8
     },
     {
       "key": "Family Policy (Common Family)",
-      "alignmentText": "In Utrecht, mainstream policies assume dual working parents with government-backed care, aligning with this family's structure. Navigating Dutch-language portals is the main adjustment.",
-      "alignmentValue": 8
+      "alignmentText": "Utrecht offers strong, universal family support (childcare subsidies, healthcare) aligning with this family; some Dutch portal navigation may be needed.",
+      "alignmentValue": 9
     },
     {
       "key": "Education",
-      "alignmentText": "In Utrecht, Dutch schools rank well internationally and emphasize project-based learning that suits curious kids. We would monitor capacity issues in fast-growing suburbs to secure preferred tracks.",
-      "alignmentValue": 8
+      "alignmentText": "Utrecht, NL public schools perform well with strong teachers and modern facilities. Bilingual primary options are available for early years.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Public Transportation",
-      "alignmentText": "U-OV buses, the Uithoflijn tram, and the country's busiest rail hub keep Utrecht exceptionally connected. Late-night service tapers in outer districts, so the family keeps OV-fietsen or Greenwheels memberships as backup.",
+      "alignmentText": "Utrecht\u0027s U-OV buses, Uithoflijn tram, and rail form a strong network. Weekend gaps in outer districts make OV-fietsen/Greenwheels useful backups.",
       "alignmentValue": 8
     },
     {
       "key": "Economic System",
-      "alignmentText": "In Utrecht, a coordinated market economy with strong social partners supports entrepreneurship while cushioning shocks. Regulations are thorough, so Trey will need a bookkeeper for any studio venture.",
-      "alignmentValue": 8
+      "alignmentText": "Netherlands (Utrecht) has a coordinated market economy with strong welfare and startup support; reliable governance, but taxes and admin require planning.",
+      "alignmentValue": 9
     },
     {
       "key": "How Taxes Are Handled",
-      "alignmentText": "In Utrecht, payroll withholding covers most obligations and MijnBelastingdienst offers digital filings, yet forms remain Dutch-first. Hiring a tax advisor early will help the family leverage deductions and avoid surprises.",
-      "alignmentValue": 7
+      "alignmentText": "In Utrecht, NL, payroll withholding and MijnBelastingdienst digital filings streamline returns, but forms are Dutch-first; a tax advisor helps maximize deductions.",
+      "alignmentValue": 8
     },
     {
       "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "In Utrecht, dual tech incomes land in the 36.97% and 49.5% brackets, but the 30% ruling can shield a chunk of Trey's salary for five years. Planning around pension contributions and childcare deductions keeps net pay comfortable.",
-      "alignmentValue": 6
+      "alignmentText": "In Utrecht, two tech incomes fall into ~37% and ~50% brackets. The 30% ruling cushions Trey\u0027s pay for up to five years, keeping net pay comfortable.",
+      "alignmentValue": 7
     },
     {
-      "key": "Banking & Payments",
-      "alignmentText": "In Utrecht, opening accounts with a BSN is straightforward, and instant SEPA transfers, iDEAL, and contactless payments simplify daily life. Some niche US cards may still require backup options.",
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "Utrecht banking with a BSN is straightforward: SEPA transfers, iDEAL, and contactless payments are standard; US cards may need backup options.",
       "alignmentValue": 9
     },
     {
       "key": "Cost of Living (Optional)",
-      "alignmentText": "Housing and childcare remain expensive, but costs run 10–15% below Amsterdam while groceries and transit stay similar. Careful budgeting leaves room for travel and the kids' activities.",
-      "alignmentValue": 4
+      "alignmentText": "Cost of living in Utrecht is moderate; housing and childcare are main costs, but NL subsidies and good transit help budgeting.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Retirement (Citizens)",
-      "alignmentText": "In Utrecht, the AOW public pension plus mandatory employer schemes provide solid old-age income for lifelong residents. Voluntary savings still matter as demographics age.",
-      "alignmentValue": 8
+      "alignmentText": "In Utrecht, NL, AOW plus occupational pensions provide solid retirement income; universal healthcare and elder care support most seniors, with savings incentives.",
+      "alignmentValue": 9
     },
     {
       "key": "Retirement (Visa Holders)",
-      "alignmentText": "In Utrecht, expats accrue AOW only for years lived in the Netherlands and rely heavily on employer pensions or third-pillar savings. The family would need disciplined private investing if they relocate mid-career.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Visa Paths",
-      "alignmentText": "In Utrecht, highly Skilled Migrant, EU Blue Card, startup, and self-employed visas give the family multiple entry routes. Each path has clear salary thresholds or business plans, so preparation is key but outcomes are predictable.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "In Utrecht, IND officers regularly process US applications, and the Dutch-American Friendship Treaty offers an entrepreneurial fallback. Bureaucracy can feel impersonal, so patient follow-up is essential.",
+      "alignmentText": "In Utrecht, NL, visa holders accrue AOW after years of residence; rely on employer pensions and private savings, making disciplined investing essential mid-career.",
       "alignmentValue": 7
     },
     {
-      "key": "Residency Types & Durations",
-      "alignmentText": "In Utrecht, permits typically run two to five years and convert to permanent residency after five years of legal stay. The family must track renewal deadlines but the pathway is well-trodden.",
+      "key": "Visa Paths",
+      "alignmentText": "Utrecht, NL offers multiple routes: Highly Skilled Migrant, EU Blue Card, Startup, and self-employed. Clear criteria, but sponsorship or solid plans required.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "In Utrecht, US applications are processed; DAFT aids entrepreneurship; generally friendly, but bureaucracy can feel impersonal, so patient follow-up helps the family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "In Utrecht, NL, permits commonly span 2\u20135 years and may lead to permanent residency after 5 years. Renewals require ongoing eligibility; the path is well-trodden.",
       "alignmentValue": 8
     },
     {
       "key": "Path to Citizenship",
-      "alignmentText": "In Utrecht, naturalization after five years is feasible with integration exams, yet dual nationality is restricted. The family would weigh renouncing US citizenship against the benefits of Dutch passports.",
-      "alignmentValue": 6
+      "alignmentText": "In Utrecht, naturalization after five years is feasible with integration exams; dual citizenship is restricted, so renunciation may be required.",
+      "alignmentValue": 7
     },
     {
       "key": "Family Members",
-      "alignmentText": "In Utrecht, spouses and minor children join easily, but polyamorous partners beyond one registered relationship lack recognition. Planning documents should focus on the legally acknowledged couple.",
-      "alignmentValue": 6
+      "alignmentText": "In Utrecht, spouses/partners and minor children can reunify with minimal hurdles; polyamorous relationships still require separate visa routes.",
+      "alignmentValue": 8
     },
     {
-      "key": "Timelines & Costs",
-      "alignmentText": "In Utrecht, once an employer submits, highly skilled migrant approvals arrive in two to four weeks; fees hover around €350-400 per person. Delays mostly stem from housing registration or biometrics appointments.",
-      "alignmentValue": 7
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "In Utrecht, Netherlands, highly skilled migrant approvals usually arrive in 2-4 weeks; fees around \u20AC350-\u20AC400 per person; housing/bio steps may cause delays.",
+      "alignmentValue": 10
     },
     {
-      "key": "Compliance & Risks",
-      "alignmentText": "In Utrecht, maintaining salary thresholds, municipal registration, and Dutch health insurance keeps the family in good standing. Audits are structured but missing paperwork can trigger costly reviews.",
-      "alignmentValue": 7
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "In Utrecht, follow BRP registration, health insurance, and income checks; audits exist but are manageable with timely filings.",
+      "alignmentValue": 8
     },
     {
       "key": "Dual Citizenship Allowed",
-      "alignmentText": "In Utrecht, the Netherlands generally requires renouncing previous citizenships, so the family would need a treaty-based exemption or Dutch spouse to keep US passports. Planning for this constraint is critical.",
-      "alignmentValue": 3
+      "alignmentText": "In Utrecht, dual citizenship is rarely granted; you may need treaty exemptions or a Dutch spouse to keep US passports.",
+      "alignmentValue": 4
     },
     {
       "key": "General Considerations for Visa Holders",
-      "alignmentText": "In Utrecht, all adults need a BSN, DigiD, and Dutch-language correspondence to access benefits, making early administrative coaching invaluable. Health insurance enrollment within four months is mandatory.",
-      "alignmentValue": 6
+      "alignmentText": "Utrecht requires BSN, DigiD, and Dutch correspondence; health insurance in 4 months. Visa status hinges on renewals, but is stable for tech families.",
+      "alignmentValue": 7
     },
     {
       "key": "Game Dev Work Prospects",
-      "alignmentText": "Dutch Game Garden alumni like Ronimo, Abbey Games, and Nixxes keep Utrecht on recruiters' radar. Trey finds steady contract work through the incubator network even if AAA seats are fewer than in Amsterdam.",
-      "alignmentValue": 7
+      "alignmentText": "Utrecht\u0027s game scene (Ronimo, Abbey Games, Nixxes alumni) offers steady indie/contract gigs via incubators; AAA roles rarer, but networks keep work flowing.",
+      "alignmentValue": 8
     },
     {
       "key": "Hiring Velocity (Established Studios)",
-      "alignmentValue": 7,
-      "alignmentText": "As noted in Game Dev Work Prospects, Dutch Game Garden alumni like Ronimo, Abbey Games, and Nixxes keep Utrecht on recruiters' radar. Trey finds steady contract work through the incubator network even if AAA seats are fewer than in Amsterdam. Hiring velocity at established studios in Utrecht wraps searches within a month or two as pipelines stay active."
+      "alignmentText": "Utrecht\u0027s established studios fill roles in 6-8 weeks (1-2 months) via incubator networks, aligning with Trey\u0027s game/tech focus.",
+      "alignmentValue": 9
     },
     {
       "key": "Compensation Benchmark (Established Studios)",
-      "alignmentValue": 7,
-      "alignmentText": "Compensation remains competitive with other major hubs, mixing solid base pay and performance bonuses. When opportunities surface in Utrecht, established studios benchmark offers against peers across the ecosystem."
+      "alignmentText": "In Utrecht, established game studios pay around EU medians after cost-of-living; solid base \u002B bonuses, good for family balance.",
+      "alignmentValue": 8
     },
     {
       "key": "Language (Established Studios)",
-      "alignmentValue": 7,
-      "alignmentText": "Established studios in Utrecht rely on English for cross-border collaboration, while local-language fluency remains important for community, compliance, and platform partnerships."
+      "alignmentText": "Utrecht studios widely use English; Dutch helps with local docs and community work; your bilingual, English-friendly profile fits.",
+      "alignmentValue": 8
     },
     {
       "key": "Remote Expectations (Established Studios)",
-      "alignmentValue": 7,
-      "alignmentText": "Remote expectations at established studios in Utrecht are flexible for senior roles, with hybrid schedules common."
+      "alignmentText": "Utrecht, NL studios are hybrid-friendly; remote roles exist for experienced staff, aligning with Trey\u0027s founder/remote setup and Sarah\u0027s remote preference.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Notable Game Studios",
-      "alignmentText": "Studios such as Ronimo Games, Abbey Games, and Nixxes maintain strong teams in and around Utrecht. Their presence proves the city can sustain ambitious projects despite its smaller size.",
-      "alignmentValue": 7
+      "alignmentText": "Utrecht, NL has several notable studios (Ronimo, Abbey Games, Nixxes). This signals a healthy, accessible Dutch game-dev ecosystem.",
+      "alignmentValue": 8
     },
     {
       "key": "Notable Game Development Communities",
-      "alignmentText": "Dutch Game Garden's monthly network lunches, Indigo showcase events, and local game jams keep the community tight-knit. English sessions welcome newcomers, so Trey and Sarah can plug in quickly.",
+      "alignmentText": "Utrecht, NL hosts regular Dutch Game Garden events, Indigo showcases, and local game jams; English-friendly sessions welcome families and newcomers.",
       "alignmentValue": 9
     },
     {
       "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Access to Dutch Game Garden mentorship, ROM Utrecht Region funding, and Creative Industries grants makes launching a studio realistic. The family still needs a polished business plan, but support structures are nearby.",
-      "alignmentValue": 8
+      "alignmentText": "Utrecht, NL offers solid game-startup support: Dutch Game Garden mentorship, ROM funds, Creative Industries grants; startup visas and WBSO help this family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Hiring Velocity (Startups)",
-      "alignmentValue": 8,
-      "alignmentText": "Startup founders report that Access to Dutch Game Garden mentorship, ROM Utrecht Region funding, and Creative Industries grants makes launching a studio realistic. The family still needs a polished business plan, but support structures are nearby. Hiring velocity at early-stage studios in Utrecht wraps searches within a month or two as pipelines stay active."
+      "alignmentText": "Utrecht\u0027s startup scene fills early roles in 1-2 months due to Dutch Game Garden mentorship and local grants, aligning with this founder family.",
+      "alignmentValue": 8
     },
     {
       "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "Aligned with global medians after NL cost of living; Utrecht startups offer solid cash plus equity and strong family-friendly policies.",
       "alignmentValue": 8,
-      "alignmentText": "Compensation remains competitive with other major hubs, mixing solid base pay and performance bonuses. Early teams in Utrecht balance cash and equity to stay competitive while managing runway."
+      "sameAsParent": false
     },
     {
       "key": "Language (Startups)",
+      "alignmentText": "In Utrecht, NL, English is common for startup operations and investor talks. Dutch fluency is needed for hiring, compliance, and local administration.",
       "alignmentValue": 8,
-      "alignmentText": "Founding teams in Utrecht lean on English for investor and platform communication, while local-language fluency helps with hiring, compliance, and community outreach."
+      "sameAsParent": false
     },
     {
       "key": "Remote Expectations (Startups)",
-      "alignmentValue": 8,
-      "alignmentText": "Remote expectations among startups in Utrecht are flexible for senior roles, with hybrid schedules common."
-    },
-    {
-      "key": "Modernity & Infrastructure",
-      "alignmentText": "In Utrecht, nationwide fiber, smart logistics, and digital government services keep daily friction low for a remote-working family. Occasional rail maintenance or housing energy retrofits are the main disruptions.",
+      "alignmentText": "In Utrecht (NL), startups lean hybrid; remote-friendly for senior roles with mature async tooling and family-friendly scheduling.",
       "alignmentValue": 9
     },
     {
-      "key": "Seasonal Extremes & Variability",
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "In Utrecht, NL, fiber broadband and reliable rail/roads support a remote-working family with minimal outages. Utilities and transport work smoothly.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Utrecht, NL: mild, maritime climate; expect a couple notable seasonal storms and wind spells; stay prepared.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Netherlands (Utrecht) enjoys long summer days and shorter winters. Mood stays strong with light coping habits.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Pleasant Weather Windows",
+      "alignmentText": "Utrecht, NL has a mild, maritime climate with regular rain. Roughly half the year is pleasant, so plan for showers.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
-      "key": "Quality of Life – Lower-Income Tier",
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "Netherlands (Utrecht) offers universal healthcare and childcare subsidies; costs are manageable with budgeting, though housing may require trade-offs.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Quality of Life – Middle-Income Tier",
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "In Utrecht, NL, a middle-income family can live comfortably with good services, but housing and childcare costs require careful budgeting.",
+      "alignmentValue": 7,
       "sameAsParent": true
     },
     {
-      "key": "Quality of Life – Higher-Income Tier",
-      "alignmentText": "Affluent households encounter noticeable friction—specialists, tutors, or clubs are scarce or highly gated.",
-      "alignmentValue": 6
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "In Utrecht, higher-income families enjoy strong healthcare, good schools, and English-friendly services; a few niche options may need advance booking or travel to Amsterdam.",
+      "alignmentValue": 8
     },
     {
       "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "Only a handful of listings surface each year; expect bidding wars and significant trade-offs.",
-      "alignmentValue": 4
+      "alignmentText": "In Utrecht, 2k sq ft rentals are scarce; plan for longer searches, higher rents, and possible older stock in outer suburbs.",
+      "alignmentValue": 7
     },
     {
       "key": "Community Living Opportunities",
-      "alignmentText": "Multiple community living options operate nearby, and they regularly welcome new families into strong support networks.",
-      "alignmentValue": 9
+      "alignmentText": "Utrecht, NL has several co-housing and community housing options. Families can join via housing co-ops, but waitlists may apply.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
-      "key": "Friendliness & Neighborliness Index",
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "Utrecht, NL locals are warm and English-friendly. Expat and neighbor groups help newcomers integrate quickly.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Immigrant Sentiment – General",
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "Netherlands (Utrecht) is broadly welcoming to immigrants; you\u0027ll find English-friendly services, good schools, and safe communities for your family.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Immigrant Sentiment – White Migrants",
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "In Utrecht, NL, White migrants are mostly comfortable integrating; expect some questions about motives; engage openly to smooth ties.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Surface Interaction Norms",
-      "alignmentText": "Friendly exchanges happen when we initiate; staff and strangers respond positively.",
-      "alignmentValue": 8
+      "alignmentText": "In Utrecht, NL, surface interactions are courteous and efficient; we initiate friendly exchanges and staff respond positively; English helps.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Depth-Seeking Social Norms",
+      "alignmentText": "Utrecht, NL is expat-friendly; join clubs or dinners to build deep bonds quickly, aided by high English use and social openness.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Personal Boundary & Bubble Norms",
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "Utrecht, NL: most locals read body language well; in crowded transit or markets, closer space occurs; gently assert boundaries for the kids.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
-      "key": "Moral, Honesty & Openness Expectations",
-      "sameAsParent": true
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "Netherlands (Utrecht) values direct, empathetic honesty. Issues are addressed transparently without shame.",
+      "alignmentValue": 10
     },
     {
-      "key": "Grooming & Beauty Investment",
-      "alignmentText": "Noticeable emphasis on grooming means we budget extra time and money to fit in.",
-      "alignmentValue": 6
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "In Utrecht, practical, bike-friendly attire fits our pace. Grooming is valued but not overdone.",
+      "alignmentValue": 7
     },
     {
-      "key": "Body Image & Fitness Pressure",
-      "alignmentText": "Some emphasis on fitness exists, yet conversations remain respectful and supportive.",
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "In Utrecht, healthy living is encouraged and inclusive. Fitness talk remains constructive with no body-shaming.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "In Utrecht, NL, tidy smart-casual fits most settings. Fashion is appreciated but not mandatory, easing daily life for a busy family.",
       "alignmentValue": 8
     },
     {
-      "key": "Fashion & Style Expectations",
-      "alignmentText": "Fashionable appearance is expected in many settings, adding planning time and costs.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Flirting Boundaries & Consent Culture",
-      "alignmentText": "Most encounters are considerate though occasional missteps require direct communication.",
-      "alignmentValue": 8
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "Within Utrecht, NL, consent culture is strong and inclusive; expect respectful flirting and clear boundary check-ins in daily life, matching your family values.",
+      "alignmentValue": 9
     },
     {
       "key": "Gendered Flirting Expectations",
+      "alignmentText": "Utrecht, NL: Dutch society supports inclusive flirting; all genders can initiate or decline interest without stigma.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "sameAsParent": true
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "sameAsParent": true
-    },
-    {
-      "key": "Group & Multi-Partner Relationship Attitudes",
-      "sameAsParent": true
-    },
-    {
-      "key": "Personal Space & Touch Norms",
-      "alignmentText": "Crowded transit aside, locals check before touching and notice discomfort.",
+      "alignmentText": "Utrecht, Netherlands: strong social acceptance for diverse relationships. Polyamory is common in urban spaces, but discretion in some settings is wise.",
       "alignmentValue": 8
     },
     {
-      "key": "Firearm Laws & Ownership Culture",
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "In Utrecht, NL, attitudes are liberal; consenting adults face little moral policing, matching a sex-positive, privacy-respecting culture.",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "Netherlands (Utrecht) has broad social acceptance for multi-partner families in progressive scenes. Legal recognition remains limited.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "Utrecht, NL: personal space is generally respected; handshakes are common, hugs reserved for trusted people, even on crowded transit.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "Netherlands/Utrecht has strict gun laws and low civilian ownership; firearms are rarely seen in daily life, contributing to a calm environment.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
       "key": "Controlled Substance Policies",
+      "alignmentText": "Netherlands\u0027 harm-reduction approach and universal healthcare suit your Utrecht family. Cannabis tolerance exists, with strong treatment and support services.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Drug Enforcement Climate",
-      "sameAsParent": true
+      "alignmentText": "Netherlands (Utrecht) drug enforcement is proportionate with strong oversight; families rarely witness aggressive sweeps.",
+      "alignmentValue": 9
     },
     {
       "key": "Mass Violence Incidence",
+      "alignmentText": "Mass violence in the Netherlands (Utrecht) is uncommon. Authorities communicate transparently and communities feel prepared.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Carceral Conditions & Prison Labor",
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "Netherlands (Utrecht) detention facilities meet international standards with oversight and restorative programs; generally humane for families.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
-      "key": "Walkability & Pedestrian Safety",
-      "alignmentText": "Sidewalks cover key areas but drivers often rush, so we stay alert with children.",
-      "alignmentValue": 7
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "In Utrecht, Netherlands, most neighborhoods are walkable with calm streets; walking is comfortable, with only a few busy corridors to navigate.",
+      "alignmentValue": 9
     },
     {
       "key": "Community Health Consciousness",
+      "alignmentText": "In Utrecht, NL, wellness culture thrives with universal healthcare and bike-friendly, family-friendly spaces; strong public health messaging supports kids.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Processed Food Saturation",
-      "alignmentText": "Ultra-processed options crowd shelves; schools and events lean heavily on packaged snacks.",
-      "alignmentValue": 6
+      "alignmentText": "Utrecht, Netherlands has strong fresh markets and abundant produce. Processed snacks are common, but balanced by plentiful fresh options for families.",
+      "alignmentValue": 7
     },
     {
-      "key": "Fresh & International Cuisine Access",
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "In Utrecht, NL, fresh markets and diverse eateries are solid; most cuisines are available, though a few specialties may require a short trip.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Depression Prevalence",
+      "alignmentText": "Depression prevalence in Utrecht, NL is relatively low due to universal healthcare and strong mental-health access. Families benefit from open dialogue.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Obesity Rate",
-      "alignmentText": "We monitor diet and activity because obesity is moderately common.",
-      "alignmentValue": 7
+      "alignmentText": "In Utrecht (NL), obesity is low thanks to biking culture and strong preventive care. Active transport and healthy food norms support the family\u0027s health.",
+      "alignmentValue": 10
     },
     {
       "key": "Cancer Incidence",
+      "alignmentText": "Netherlands (Utrecht) cancer incidence aligns with global norms; strong screening and universal healthcare aid early detection.",
+      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "Broader Job Market Resilience",
+      "alignmentText": "Utrecht, NL enjoys a diverse economy with strong safety nets. Downturns pause hiring but quick reemployment is common.",
+      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "Studio Density",
-      "alignmentText": "[Placeholder] Provide Studio Density insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht hosts a modest, emerging studio scene with indie and mid-sized game/animation outfits; proximity to Amsterdam boosts collaboration.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "Anchor Employers",
-      "alignmentText": "[Placeholder] Provide Anchor Employers insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Ubisoft Utrecht is the region\u2019s single anchor; a major AAA studio with training paths, though hiring can fluctuate in Utrecht.",
+      "alignmentValue": 6
     },
     {
       "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "[Placeholder] Provide Vendor/Outsource Ecosystem insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Netherlands (Utrecht region) offers a solid game-dev/vendor scene with Amsterdam links; strong English and broadband, but capacity can be limited in peaks.",
+      "alignmentValue": 7
     },
     {
       "key": "Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Education Pipeline Strength insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht\u0027s HKU game design programs partner with studios for internships and capstones. This creates a strong local talent pipeline in the Netherlands.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Continuing Education Availability insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, regular evening courses, bootcamps, and local meetups support game/web dev upskilling. This benefits Trey and Sarah as they pursue ongoing education.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Activity",
-      "alignmentText": "[Placeholder] Provide Community Activity insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, Netherlands hosts regular monthly game-dev meetups and tech events; a solid community scene that fits your family\u0027s needs.",
+      "alignmentValue": 8
     },
     {
       "key": "Engine Community Bias",
-      "alignmentText": "[Placeholder] Provide Engine Community Bias insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, Netherlands has active Unity and Unreal scenes with meetups and cross-pollination; engines are balanced for our family game-dev plans.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "[Placeholder] Provide Real-Time vs Pre-Rendered Focus insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, NL offers a solid real-time game-dev scene (Unity/Unreal) with good broadband and accessible grants/visas for family-friendly studios.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
-      "key": "Demand–Supply Balance",
-      "alignmentText": "[Placeholder] Provide Demand–Supply Balance insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Utrecht, NL has solid demand for software/web roles; local pipelines help. However, Unity/.NET competition and visa steps may slow hires.",
+      "alignmentValue": 7
     },
     {
-      "key": "Retention & Churn Risk",
-      "alignmentText": "[Placeholder] Provide Retention & Churn Risk insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Netherlands/UT offers stable tech roles, strong startup funding, and family-friendly policies; high English use lowers retention churn for this family.",
+      "alignmentValue": 8
     },
     {
-      "key": "Diversity & Inclusion Index",
-      "alignmentText": "[Placeholder] Provide Diversity & Inclusion Index insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Netherlands (Utrecht) shows strong D\u0026I with LGBTQ\u002B rights, English-friendly workplaces, and family-friendly policies that fit your values.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "[Placeholder] Provide Tax Incentives for Games/Creative insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Netherlands provides solid WBSO R\u0026D tax relief that covers game/creative work. In Utrecht, apply through national schemes and local funds with clear eligibility.",
+      "alignmentValue": 8
     },
     {
       "key": "Economic/Policy Stability",
-      "alignmentText": "[Placeholder] Provide Economic/Policy Stability insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Netherlands/Utrecht offers stable, predictable policy with social protections. Strong startup support and family-friendly planning align with this profile.",
+      "alignmentValue": 9
     },
     {
       "key": "Founder/Operator Community",
-      "alignmentText": "[Placeholder] Provide Founder/Operator Community insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Netherlands/Utrecht shows a growing founder base with regular meetups and accelerators. Solid local mentorship and access to funding.",
+      "alignmentValue": 8
     },
     {
       "key": "Early-Stage Capital Access",
-      "alignmentText": "[Placeholder] Provide Early-Stage Capital Access insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, NL offers broad public grants and generalist investors for startups; game projects can tap EU/NL funds, though capital is competitive.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Accelerator/Incubator Access",
-      "alignmentText": "[Placeholder] Provide Accelerator/Incubator Access insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Netherlands/Utrecht offers occasional game cohorts; UtrechtInc and local labs provide startup support aligned with this family\u0027s needs.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "Senior Talent Availability",
-      "alignmentText": "[Placeholder] Provide Senior Talent Availability insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Adequate senior talent in Utrecht, Netherlands; startups must offer competitive packages to attract candidates from established firms nearby.",
+      "alignmentValue": 8
     },
     {
       "key": "Contractor/Freelancer Bench",
-      "alignmentText": "[Placeholder] Provide Contractor/Freelancer Bench insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Healthy contractor bench in the Netherlands (Utrecht): robust tech freelancing and remote support; top game dev talent can book out weeks in advance.",
+      "alignmentValue": 8
     },
     {
-      "key": "Coworking & Startup Infrastructure",
-      "alignmentText": "[Placeholder] Provide Coworking & Startup Infrastructure insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Good coworking in Utrecht, Netherlands, with solid broadband and university ties. Limited game-dev labs like mocap, but accessible shared resources exist.",
+      "alignmentValue": 7
     },
     {
-      "key": "Legal & IP Support",
-      "alignmentText": "[Placeholder] Provide Legal & IP Support insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Netherlands (Utrecht) offers reliable game IP counsel; Amsterdam firms handle licensing; startup-friendly IP support is available.",
+      "alignmentValue": 8
     },
     {
       "key": "Publisher/Platform Relationships",
-      "alignmentText": "[Placeholder] Provide Publisher/Platform Relationships insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, there is a growing indie dev scene and EU funding options. Direct publisher access is limited; partnerships exist but require proactive outreach.",
+      "alignmentValue": 7
     },
     {
-      "key": "Market Research & Playtesting",
-      "alignmentText": "[Placeholder] Provide Market Research & Playtesting insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Utrecht has university labs and local game meetups for playtesting. Expect reliable groups with some lead time; English-friendly access.",
+      "alignmentValue": 7
     },
     {
       "key": "Government/Startup Visas",
-      "alignmentText": "[Placeholder] Provide Government/Startup Visas insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Netherlands startup visa is accessible with a recognized facilitator in Utrecht. Processing times are moderate.",
+      "alignmentValue": 8
     },
     {
       "key": "Cost of Doing Business",
-      "alignmentText": "[Placeholder] Provide Cost of Doing Business insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht has high housing and payroll costs, but grants, stable taxes, and a strong startup ecosystem help sustain a family-led studio.",
+      "alignmentValue": 7
     },
     {
       "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Talent Pool insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, NL has a solid 3D character artist pool; it\u0027s concentrated with senior hiring competition, but mid-level talent is accessible.",
+      "alignmentValue": 7
     },
     {
       "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Education Pipeline Strength insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht\u0027s 3D character art pipeline centers on HKU; a single local program with mixed graduate readiness and portfolio outcomes.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Continuing Education Availability insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, 3D character CE is sporadic; some short local courses exist (often Dutch). Most upskilling is online or via visiting experts.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Hiring Velocity insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, NL: 3D character artist roles usually take 3\u20134 months; relocation/visa steps add time, but NL studios and EU talent pools help.",
+      "alignmentValue": 6
     },
     {
       "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Compensation Benchmark insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, 3D Character Artist pay aligns with EU medians after cost of living; still below top NA/WE hubs.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Language",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Language insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht studios lean English; Dutch basics help local teamwork. This fits the family\u0027s preference for English ubiquity and willingness to learn Dutch.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 3D Character Artist: Remote Expectations insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, NL studios favor hybrid 3D roles; remote is possible but with on-site days; strong broadband supports async workflows for families.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "3D Animator: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Talent Pool insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht offers a solid 3D animation pool (HKU grads, local studios); senior roles can be competitive, often needing relocation or remote options.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Education Pipeline Strength insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "HKU Utrecht hosts a top 3D animation program; one reputable school feeds regional studios with steady 3D animator grads.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Continuing Education Availability insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht offers HKU-based short courses and occasional 3D animation workshops. Local game studios host meetups and online courses help you stay current.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Hiring Velocity insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, 3D animator roles typically fill in 2\u20133 months thanks to a solid EU talent pool and local studios; remote options help.",
+      "alignmentValue": 7
     },
     {
       "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Compensation Benchmark insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, 3D animator pay sits ~10-15% below top hubs, but with strong benefits, work-life balance, and English-friendly environment.",
+      "alignmentValue": 7
     },
     {
       "key": "3D Animator: Language",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Language insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, NL: English is widely used in local studios, but learning Dutch aids collaboration and daily life.",
+      "alignmentValue": 8
     },
     {
       "key": "3D Animator: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 3D Animator: Remote Expectations insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, 3D animator roles commonly support hybrid/remote setups; most studios offer flexible models and equipment stipends.",
+      "alignmentValue": 9
     },
     {
       "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Talent Pool insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht hosts a growing 2D env art scene with a solid pool of mid-level artists; senior talent often comes from Amsterdam/Rotterdam so relocation may help.",
+      "alignmentValue": 6
     },
     {
       "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Education Pipeline Strength insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht hosts HKU with English-taught game/art tracks and NL partners; graduates enter regional studios (Amsterdam/Rotterdam), strong pipeline but competitive.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Continuing Education Availability insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, NL offers occasional 2D environment art courses and workshops (HKU); most learning is remote or through visiting experts.",
+      "alignmentValue": 7
     },
     {
       "key": "2D Environmental Artist: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Hiring Velocity insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, 2D environmental artist hiring is likely 3\u20134 months. Proactive sourcing or relocation support is often required.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Compensation Benchmark insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, 2D Environmental Artist pay trails top hubs by ~10-15%, but excellent Dutch benefits and work-life balance align with your family priorities.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "2D Environmental Artist: Language",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Language insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, English is widely used in studios; learning basic Dutch aids local collaboration in 2D environmental art projects.",
+      "alignmentValue": 8
     },
     {
       "key": "2D Environmental Artist: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide 2D Environmental Artist: Remote Expectations insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, Netherlands studios mix on-site with hybrid work; fully remote arrangements require negotiation for 2D Environmental Artists.",
+      "alignmentValue": 8
     },
     {
       "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Talent Pool insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Netherlands (Utrecht) has a solid real-time VFX pool; local studios like Ubisoft Utrecht and HKU grads feed talent, but senior hires remain competitive.",
+      "alignmentValue": 7
     },
     {
       "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Education Pipeline Strength insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht\u0027s HKU provides a reputable VFX (real-time) program; graduates feed NL studios, creating a solid regional pipeline.",
+      "alignmentValue": 8
     },
     {
       "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Continuing Education Availability insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Netherlands (Utrecht) offers occasional VFX real-time continuing education via HKU and local meetups; remote options help fill gaps.",
+      "alignmentValue": 7
     },
     {
       "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Hiring Velocity insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, NL: VFX Real-Time roles typically 3-4 months; requires proactive sourcing and possible relocation for non-EU candidates.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Compensation Benchmark insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, VFX Artist (Real-Time) pay trails top hubs by ~10\u201315%. NL benefits and work-life balance help attract talent.",
+      "alignmentValue": 7
     },
     {
       "key": "VFX Artist (Real-Time): Language",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Language insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, English is widely used in VFX studios; local teams often work in English, with some Dutch knowledge preferred.",
+      "alignmentValue": 8
     },
     {
       "key": "VFX Artist (Real-Time): Remote Expectations",
-      "alignmentText": "[Placeholder] Provide VFX Artist (Real-Time): Remote Expectations insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, VFX real-time roles often blend remote/onsite work. NL studios support flexible models but may require onsite for critical tasks.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Manager: Talent Pool",
-      "alignmentText": "[Placeholder] Provide Community Manager: Talent Pool insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Moderate community manager pool in Utrecht, NL. Startups may need remote work or relocation for senior roles.",
+      "alignmentValue": 6
     },
     {
       "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Community Manager: Education Pipeline Strength insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht (NL) hosts HKU/UU game/media programs; grads feed regional studios, with a strong ecosystem but small class sizes.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Community Manager: Continuing Education Availability insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, regular community manager meetups and short courses exist with solid instructors; practical upskilling is accessible locally.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Manager: Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide Community Manager: Hiring Velocity insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, NL has a solid tech/startup pool and English-speaking talent. Typical Community Manager hires take 1-2 months, with remote/hybrid options.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide Community Manager: Compensation Benchmark insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "8: Utrecht NL community manager pay is near global medians after cost of living. Strong benefits help offset taxes and support families.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Manager: Language",
-      "alignmentText": "[Placeholder] Provide Community Manager: Language insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Netherlands/Utrecht: English is widely used in studios; Dutch basics help with local ops; CM roles welcome bilingual support.",
+      "alignmentValue": 8
     },
     {
       "key": "Community Manager: Remote Expectations",
-      "alignmentText": "[Placeholder] Provide Community Manager: Remote Expectations insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht studios favor hybrid work; remote is common but periodic onsite collaboration is typical, with solid broadband and English-friendly teams.",
+      "alignmentValue": 8
     },
     {
       "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Talent Pool insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht has a moderate PMM (games) pool; solid English, close to Amsterdam studios, but niche skills may require proactive sourcing or relocation.",
+      "alignmentValue": 6
     },
     {
       "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Education Pipeline Strength insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht hosts HKU\u0027s game programs and nearby campuses with marketing tracks. A solid PMM pipeline feeds NL studios.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Continuing Education Availability insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht, Netherlands offers occasional PMM game marketing trainings via Dutch Game Garden and local universities; remote delivery is common.",
+      "alignmentValue": 7
     },
     {
       "key": "Product Marketing Manager (Games): Hiring Velocity",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Hiring Velocity insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, PMM (Games) hiring has a solid pool; expect 1-2 month searches with English-friendly environment and startup support.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Compensation Benchmark insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, PMM (Games) compensation is ~10\u201315% below top hubs; still attractive when benefits and English-friendly work culture are included.",
+      "alignmentValue": 7
     },
     {
       "key": "Product Marketing Manager (Games): Language",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Language insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "Utrecht game studios predominantly use English; Dutch basics help local teams. English ubiquity aligns with the family\u0027s preference; Dutch learning is helpful.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Remote Expectations",
-      "alignmentText": "[Placeholder] Provide Product Marketing Manager (Games): Remote Expectations insights for Netherlands Utrecht.",
-      "alignmentValue": 5
+      "alignmentText": "In Utrecht, NL, most game studios support flexible remote PMM roles with async workflows. Occasional onsite meetings occur; equipment stipends are common.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }
