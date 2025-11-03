@@ -13,6 +13,8 @@ public interface ICategoryKeyProvider
 {
     Task<CategoryMatch?> GetCategoryMatchAsync(string input, CancellationToken cancellationToken = default);
 
+    void Invalidate();
+
     public sealed record CategoryMatch(string CategoryId, string DisplayName, IReadOnlyList<string> Keys);
 }
 
@@ -68,6 +70,8 @@ public sealed class CategoryKeyProvider : ICategoryKeyProvider
 
         return null;
     }
+
+    public void Invalidate() => _lookup = null;
 
     private async Task<CategoryLookup> EnsureLookupAsync(CancellationToken cancellationToken)
     {
