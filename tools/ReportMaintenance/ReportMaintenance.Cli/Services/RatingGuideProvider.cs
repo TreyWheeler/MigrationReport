@@ -9,6 +9,8 @@ namespace ReportMaintenance.Services;
 public interface IRatingGuideProvider
 {
     Task<IReadOnlyDictionary<string, RatingGuide>> GetGuidesAsync(CancellationToken cancellationToken = default);
+
+    void Invalidate();
 }
 
 public sealed class RatingGuideProvider : IRatingGuideProvider
@@ -69,5 +71,10 @@ public sealed class RatingGuideProvider : IRatingGuideProvider
         {
             _gate.Release();
         }
+    }
+
+    public void Invalidate()
+    {
+        _cache = null;
     }
 }

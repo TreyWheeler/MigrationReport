@@ -58,6 +58,7 @@ builder.Services.AddSingleton<ReportContextFactory>();
 builder.Services.AddSingleton<ReportUpdateService>();
 builder.Services.AddSingleton<ICategoryKeyProvider, CategoryKeyProvider>();
 builder.Services.AddSingleton<ReportCreationService>();
+builder.Services.AddSingleton<CategoryKeyCreationService>();
 builder.Services.AddSingleton<IAlignmentSuggestionCache>(sp =>
 {
     var options = sp.GetRequiredService<IOptions<ReportMaintenanceOptions>>().Value;
@@ -69,6 +70,7 @@ builder.Services.AddSingleton<IAlignmentSuggestionCache>(sp =>
     return ActivatorUtilities.CreateInstance<FileAlignmentSuggestionCache>(sp);
 });
 builder.Services.AddHttpClient<IOpenAIAlignmentClient, OpenAIAlignmentClient>();
+builder.Services.AddHttpClient<IOpenAIRatingGuideClient, OpenAIRatingGuideClient>();
 
 using var host = builder.Build();
 
@@ -165,9 +167,40 @@ addCityCommand.SetHandler(async (string country, string city, string? iso) =>
     await service.CreateCityReportAsync(country, city, iso);
 }, cityCountryOption, cityNameOption, cityIsoOption);
 
+var addCategoryKeyCommand = new Command("AddCategoryKey", "Add a new category key, generate its rating guide, and refresh reports.");
+var addKeyCategoryOption = new Option<string>(name: "--category", description: "Category ID or name that will own the key.")
+{
+    IsRequired = true
+};
+addKeyCategoryOption.AddAlias("--Category");
+addKeyCategoryOption.AddAlias("-Category");
+addKeyCategoryOption.AddAlias("-c");
+
+var keyNameOption = new Option<string>(name: "--key-name", description: "Display name for the new key.")
+{
+    IsRequired = true
+};
+keyNameOption.AddAlias("--KeyName");
+keyNameOption.AddAlias("-k");
+
+var keyGuidanceOption = new Option<string?>(name: "--guidance", description: "Optional guidance describing the key's intent.");
+keyGuidanceOption.AddAlias("--Guidance");
+keyGuidanceOption.AddAlias("-g");
+
+addCategoryKeyCommand.AddOption(addKeyCategoryOption);
+addCategoryKeyCommand.AddOption(keyNameOption);
+addCategoryKeyCommand.AddOption(keyGuidanceOption);
+addCategoryKeyCommand.SetHandler(async (string category, string keyName, string? guidance) =>
+{
+    using var scope = host.Services.CreateScope();
+    var service = scope.ServiceProvider.GetRequiredService<CategoryKeyCreationService>();
+    await service.AddCategoryKeyAsync(category, keyName, guidance);
+}, addKeyCategoryOption, keyNameOption, keyGuidanceOption);
+
 rootCommand.AddCommand(updateReportsCommand);
 rootCommand.AddCommand(updateReportCommand);
 rootCommand.AddCommand(addCountryCommand);
 rootCommand.AddCommand(addCityCommand);
+rootCommand.AddCommand(addCategoryKeyCommand);
 
 return await rootCommand.InvokeAsync(args);
