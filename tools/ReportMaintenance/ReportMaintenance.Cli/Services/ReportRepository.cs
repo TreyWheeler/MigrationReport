@@ -14,6 +14,8 @@ public interface IReportRepository
     Task<ReportDocument> LoadAsync(string reportName, CancellationToken cancellationToken = default);
 
     Task SaveAsync(string reportName, ReportDocument document, CancellationToken cancellationToken = default);
+
+    Task<bool> ExistsAsync(string reportName, CancellationToken cancellationToken = default);
 }
 
 public sealed class FileReportRepository : IReportRepository
@@ -54,7 +56,7 @@ public sealed class FileReportRepository : IReportRepository
 
     public async Task<ReportDocument> LoadAsync(string reportName, CancellationToken cancellationToken = default)
     {
-        var path = ResolveReportPath(reportName);
+        var path = ResolveReportPath(reportName, ensureExists: true);
         await using var stream = File.OpenRead(path);
         var document = await JsonSerializer.DeserializeAsync<ReportDocument>(stream, SerializerOptions, cancellationToken);
         if (document is null)
@@ -67,11 +69,22 @@ public sealed class FileReportRepository : IReportRepository
 
     public async Task SaveAsync(string reportName, ReportDocument document, CancellationToken cancellationToken = default)
     {
-        var path = ResolveReportPath(reportName);
+        var path = ResolveReportPath(reportName, ensureExists: false);
         Directory.CreateDirectory(Path.GetDirectoryName(path)!);
         await using var stream = File.Create(path);
         await JsonSerializer.SerializeAsync(stream, document, SerializerOptions, cancellationToken);
         _logger.LogInformation("Persisted updates to {Report}", Path.GetFileName(path));
+    }
+
+    public Task<bool> ExistsAsync(string reportName, CancellationToken cancellationToken = default)
+    {
+        if (string.IsNullOrWhiteSpace(reportName))
+        {
+            return Task.FromResult(false);
+        }
+
+        var path = ResolveReportPath(reportName, ensureExists: false);
+        return Task.FromResult(File.Exists(path));
     }
 
     private string ResolveReportsDirectory()
@@ -79,19 +92,27 @@ public sealed class FileReportRepository : IReportRepository
         return Path.GetFullPath(_options.ReportsDirectory, Directory.GetCurrentDirectory());
     }
 
-    private string ResolveReportPath(string reportName)
+    private string ResolveReportPath(string reportName, bool ensureExists)
     {
         var directory = ResolveReportsDirectory();
-        var fileName = reportName.EndsWith(".json", StringComparison.OrdinalIgnoreCase)
-            ? reportName
-            : $"{reportName}.json";
-
+        var fileName = NormalizeFileName(reportName);
         var fullPath = Path.GetFullPath(Path.Combine(directory, fileName));
-        if (!File.Exists(fullPath))
+
+        if (ensureExists && !File.Exists(fullPath))
         {
             throw new FileNotFoundException($"Could not find report '{reportName}'.", fullPath);
         }
 
         return fullPath;
+    }
+
+    private static string NormalizeFileName(string reportName)
+    {
+        if (reportName.EndsWith(".json", StringComparison.OrdinalIgnoreCase))
+        {
+            return reportName;
+        }
+
+        return $"{reportName}.json";
     }
 }

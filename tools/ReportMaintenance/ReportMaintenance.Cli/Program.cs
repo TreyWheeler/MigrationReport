@@ -57,6 +57,7 @@ builder.Services.AddSingleton<IFamilyProfileProvider, FamilyProfileProvider>();
 builder.Services.AddSingleton<ReportContextFactory>();
 builder.Services.AddSingleton<ReportUpdateService>();
 builder.Services.AddSingleton<ICategoryKeyProvider, CategoryKeyProvider>();
+builder.Services.AddSingleton<ReportCreationService>();
 builder.Services.AddSingleton<IAlignmentSuggestionCache>(sp =>
 {
     var options = sp.GetRequiredService<IOptions<ReportMaintenanceOptions>>().Value;
@@ -108,7 +109,65 @@ updateReportCommand.SetHandler(async (string reportName, string? category) =>
     await service.UpdateReportAsync(reportName, category);
 }, reportOption, categoryOption);
 
+var addCountryCommand = new Command("AddCountry", "Create a new country report JSON file with empty entries.");
+var countryNameOption = new Option<string>(name: "--country", description: "Country name used for the report slug and title.")
+{
+    IsRequired = true
+};
+countryNameOption.AddAlias("--Country");
+countryNameOption.AddAlias("-Country");
+countryNameOption.AddAlias("--name");
+countryNameOption.AddAlias("-n");
+
+var isoOption = new Option<string>(name: "--iso", description: "ISO country code stored in the report header.")
+{
+    IsRequired = true
+};
+isoOption.AddAlias("--Iso");
+isoOption.AddAlias("-Iso");
+isoOption.AddAlias("-i");
+
+addCountryCommand.AddOption(countryNameOption);
+addCountryCommand.AddOption(isoOption);
+addCountryCommand.SetHandler(async (string country, string iso) =>
+{
+    using var scope = host.Services.CreateScope();
+    var service = scope.ServiceProvider.GetRequiredService<ReportCreationService>();
+    await service.CreateCountryReportAsync(country, iso);
+}, countryNameOption, isoOption);
+
+var addCityCommand = new Command("AddCity", "Create a new city report JSON file, ensuring the parent country exists.");
+var cityCountryOption = new Option<string>(name: "--country", description: "Country associated with the new city report.")
+{
+    IsRequired = true
+};
+cityCountryOption.AddAlias("--Country");
+cityCountryOption.AddAlias("-Country");
+
+var cityNameOption = new Option<string>(name: "--city", description: "City name used for the report slug and title.")
+{
+    IsRequired = true
+};
+cityNameOption.AddAlias("--City");
+cityNameOption.AddAlias("-City");
+
+var cityIsoOption = new Option<string?>(name: "--iso", description: "Optional ISO code. Required if the country report does not exist.");
+cityIsoOption.AddAlias("--Iso");
+cityIsoOption.AddAlias("-Iso");
+
+addCityCommand.AddOption(cityCountryOption);
+addCityCommand.AddOption(cityNameOption);
+addCityCommand.AddOption(cityIsoOption);
+addCityCommand.SetHandler(async (string country, string city, string? iso) =>
+{
+    using var scope = host.Services.CreateScope();
+    var service = scope.ServiceProvider.GetRequiredService<ReportCreationService>();
+    await service.CreateCityReportAsync(country, city, iso);
+}, cityCountryOption, cityNameOption, cityIsoOption);
+
 rootCommand.AddCommand(updateReportsCommand);
 rootCommand.AddCommand(updateReportCommand);
+rootCommand.AddCommand(addCountryCommand);
+rootCommand.AddCommand(addCityCommand);
 
 return await rootCommand.InvokeAsync(args);
