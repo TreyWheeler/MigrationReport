@@ -3,980 +3,53 @@
   "iso": "US",
   "values": [
     {
-      "key": "Environment",
-      "alignmentText": "San Francisco Bay breezes and urban parks (Golden Gate Park, Presidio) offer frequent nature; dense city living limits daily greenery.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Global Warming Risk",
-      "alignmentText": "Sea-level rise threatens San Francisco\u0027s Embarcadero waterfronts. Seasonal wildfire smoke and drought spur ongoing conservation and resilience planning.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "Mostly pleasant year-round in San Francisco; cool, foggy summers and mild winters. Microclimates bring sun and fog, but outdoor time stays feasible.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "San Francisco air is generally good. Late-summer wildfire smoke can spike AQI, so portable filters and indoor days help.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "San Francisco faces earthquakes and wildfires; ongoing retrofits help, but hazards remain tangible and evacuation planning is essential.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Spring in San Francisco stays mild with sea breezes; expect about 12\u201321 \u00B0C (54\u201370 \u00B0F). Pack layers for occasional windy/cool days.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "San Francisco summers stay cool and foggy; June\u2013August averages around 12\u201320 \u00B0C (54\u201368 \u00B0F), matching the family\u0027s mild-weather preference.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Fall in San Francisco, USA stays mild, with most days in the 10-22 \u00B0C range. Occasional showers or fog can appear but typically clear quickly.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "San Francisco winters are mild, about 8\u201315 \u00B0C with light rain. Frost is rare, enabling year-round outdoor play for the family.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Beach Life",
-      "alignmentText": "San Francisco beaches (Ocean/Baker, Crissy Field) are scenic for picnics and walks; cold water and currents limit swimming, so plan carefully.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "San Francisco Bay waters stay 11\u201315 \u00B0C (52\u201359 \u00B0F) year-round; wetsuits are needed for extended swimming.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "Iconic Bay Area landscapes are within 60 minutes. Golden Gate Park, Marin Headlands, and nearby Muir Woods offer pristine, family-friendly nature.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Minimum Wage",
-      "alignmentText": "In San Francisco, min wage trails living costs for a family with two kids; a second income or subsidies is often needed.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "In San Francisco, software pay is among the world\u0027s top; base plus equity supports private schooling, travel, and family savings.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
       "key": ".NET Work Prospects",
       "alignmentText": "San Francisco Bay Area .NET demand remains strong across enterprise and startups; competitive pay and remote options.",
       "alignmentValue": 9
     },
     {
-      "key": "Ruby Work Prospects",
-      "alignmentText": "SF Bay Area Rails roles remain active in startups and larger firms; many jobs offer remote or hybrid options.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Employer Visa Sponsorship",
-      "alignmentText": "In SF, tech firms commonly sponsor skilled workers; as US citizens sponsorship isn\u0027t needed, but non-citizen paths are well-supported.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "San Francisco\u0027s tech-led economy remains solid, but housing costs press family budgets; keep emergency savings for cyclical dips.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "San Francisco\u0027s hybrid-remote culture supports distributed families with abundant coworking, strong broadband, and a startup-friendly ecosystem.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "In SF, many employers offer flexible/hybrid schedules and family-friendly policies; launches may require extra hours, but recovery time is provided.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Work Week Hours",
-      "alignmentText": "In San Francisco, tech roles often run 45\u201348 hours with crunch periods. Negotiate flextime to protect family evenings.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "San Francisco, CA: no statutory vacation; PTO is employer-driven; look for family-friendly policies and predictable time off.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Vacation Days (Typical)",
-      "alignmentText": "In San Francisco tech, PTO typically 15-19 days plus holidays. Some startups offer unlimited; workload varies.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Pace of Life",
-      "alignmentText": "San Francisco\u0027s core pace can feel brisk; schedule buffers and choose slower neighborhoods to protect family time.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "San Francisco schools run ~8:00\u20132:30; remote work lets afternoon park trips before dinner, with childcare for the younger child as needed.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Bay Area weekends offer markets, museums, and kid-friendly hikes around SF/Marin/East Bay; traffic and hours require some planning.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Family Life",
-      "alignmentText": "San Francisco families face high housing and childcare costs; programs exist, but many services require waitlists and proactive planning.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Polyamory",
-      "alignmentText": "San Francisco offers strong polyamory community support and visible networks; social tolerance is high, though legal recognition remains limited.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Parenting Expectations",
-      "alignmentText": "San Francisco, USA: diverse parenting supported by co-ops and community schools; fits bilingual exposure, high education focus, and slower pace.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "alignmentText": "San Francisco offers abundant parks and walkable districts; most neighborhoods are kid-friendly, though some dense centers demand caution.",
+      "key": "2D Environmental Artist: Compensation Benchmark",
+      "alignmentText": "In San Francisco, 2D Environmental Artist pay aligns with global medians after cost-of-living adjustments. SF\u0027s high living costs demand strong total comp.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "Schooling Options",
-      "alignmentText": "In San Francisco, SFUSD offers language immersion and magnets, but lotteries and waitlists require planning; private schools are competitive.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "San Francisco: infant/toddler care is expensive and tight; subsidies exist but waitlists are long; dual-working parents need flexible options.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "In San Francisco, subsidies primarily aid lower-income families; middle-income households still face high childcare costs.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "In San Francisco, as US citizens you can access California childcare subsidies; visa-specific barriers do not apply.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "San Francisco public K-12 access is broad, but top schools use lotteries/zone rules; proactive families can secure solid placements and bilingual options.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "San Francisco public schools enroll US citizens with full rights. Language supports and services are standard, with no visa-related barriers.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Private Education",
-      "alignmentText": "San Francisco private schools exist but costly; expect about $35k\u2013$60k/yr per child, with selective admissions and some bilingual options.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Family Policy (Citizens)",
-      "alignmentText": "San Francisco, CA: California Paid Family Leave provides up to 8 weeks partial pay; access relies on state programs and paperwork.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Visa Holders)",
-      "alignmentText": "In San Francisco, visa families have access to employer benefits, but leave levels vary; expect HR or immigration-counsel guidance.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Higher Education Access (Citizens)",
-      "alignmentText": "California higher-ed is broadly accessible for residents, with in-state UC/CSU tuition and many options in the SF area; selective programs remain competitive.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "In San Francisco, U.S. citizens typically pay citizen-level tuition with strong aid options at local public and private universities.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Gender Roles",
-      "alignmentText": "SF tech culture is broadly egalitarian with shared caregiving; venture leadership remains male-dominated but gains in equality are evident.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "In San Francisco, CA, gender-diverse identities are strongly protected and visible. Nonbinary recognition is improving, but some official documents lag.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "San Francisco, CA supports LGBTQ\u002B rights and gender-affirming care. Strong protections align with your family\u0027s values.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "In San Francisco, femininity norms are broadly flexible; your progressive, sex-positive family fits an inclusive culture with only minor conservative pockets.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "In San Francisco, tech/arts scenes foster inclusive masculinity; progressive culture and family-friendly policies support expressive, caregiving dads.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "What Is Intriguing",
-      "alignmentText": "San Francisco\u0027s tech startup scene, diverse arts, and progressive activism align with your goals; expect rich learning and storytelling.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Language \u0026 English Ubiquity",
-      "alignmentText": "English is widely used in San Francisco; children can access bilingual exposure in Cantonese, Mandarin, and Spanish communities.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Progressivism",
-      "alignmentText": "San Francisco\u0027s progressive climate, equity, and LGBTQ\u002B protections shape policy and daily life; housing and safety debates persist.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "US (Kansas City, MO): Marxist ideas linger in academia/activism, but mainstream policy stays pragmatic-progressive.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Atheism",
-      "alignmentText": "San Francisco, US has strong secular culture; atheism is widely accepted and access to secular institutions is seamless for families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Sex (Attitudes)",
-      "alignmentText": "In San Francisco, sex-positive norms are mainstream; comprehensive consent education and inclusive healthcare are widely accessible.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "LGBTQ\u002B Attitudes",
-      "alignmentText": "San Francisco, CA offers robust LGBTQ\u002B protections and inclusive services. This creates a welcoming environment for poly and LGBTQ\u002B families in the US.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Vibes",
-      "alignmentText": "In San Francisco, USA, co-ops, neighborhood groups, and activism welcome newcomers, but high rents and turnover can slow deep community ties.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "View of self",
-      "alignmentText": "San Francisco\u2013USA residents take pride in tech innovation, diversity, and social justice, while grappling with affordability and housing pressures.",
+      "key": "2D Environmental Artist: Continuing Education Availability",
+      "alignmentText": "San Francisco, US has regular 2D environment art courses and meetups with solid instructors. Great for Trey\u0027s game-art focus and flexible local learning.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "View of Neighboring Countries",
-      "alignmentText": "In the US (San Francisco), Canada/Mexico relations are generally amicable; immigration and tech ties support cross-border curiosity and travel.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Canada and Mexico view the US as a dynamic tech hub with strong ties, but immigration and housing debates temper the view in the SF Bay Area.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Nightlife Culture",
-      "alignmentText": "Nightlife thrives in SF in pockets like SoMa and North Beach; families should plan babysitting and transit. Most venues close earlier than NYC.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Fashion Trends (Male)",
-      "alignmentText": "In San Francisco, trend-forward yet approachable fashion is the norm. Men can dress creatively without stigma.",
+      "key": "2D Environmental Artist: Education Pipeline Strength",
+      "alignmentText": "SF Bay Area has several reputable programs (AAU, SFSU, CC SF) that regularly graduate ready 2D environmental artists.",
       "alignmentValue": 9
     },
     {
-      "key": "Fashion Trends (Female)",
-      "alignmentText": "San Francisco\u0027s fashion scene is highly inclusive and body-positive, mirroring the city\u0027s progressive, diverse culture. Women dress freely from casual to chic.",
-      "alignmentValue": 10
+      "key": "2D Environmental Artist: Hiring Velocity",
+      "alignmentText": "San Francisco\u0027s game scene has a robust pool of 2D environmental artists. Most openings can close in 1-2 months with healthy candidate pipelines.",
+      "alignmentValue": 8
     },
     {
-      "key": "Common Hobbies",
-      "alignmentText": "In San Francisco, rock climbing gyms and board game cafes thrive. Indie game dev meetups and maker spaces support your family\u0027s coding hobbies.",
+      "key": "2D Environmental Artist: Language",
+      "alignmentText": "SF studios largely use English; teams are multilingual, so English fluency is common and bilingual skills are advantageous for collaboration.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "2D Environmental Artist: Remote Expectations",
+      "alignmentText": "SF studios commonly offer remote/hybrid 2D environmental art with flexible hours. Many provide stipends and async workflows for family-friendly schedules.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "2D Environmental Artist: Talent Pool",
+      "alignmentText": "San Francisco Bay Area hosts a strong 2D environmental art pool (games/film), with mid-to-senior talent and broad hiring options.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "Boardgaming \u0026 Tabletop",
-      "alignmentText": "San Francisco offers regular board game nights, kid-friendly venues, and active meetups. Bay Area shops and libraries support families.",
+      "key": "3D Animator: Compensation Benchmark",
+      "alignmentText": "San Francisco 3D animator compensation is highly competitive, with bonuses and equity common. Strong benefits offset the high cost of living.",
       "alignmentValue": 9,
       "sameAsParent": false
-    },
-    {
-      "key": "Nightlife \u0026 Music",
-      "alignmentText": "SF\u0027s live music scene is vibrant with frequent concerts and community events. Many venues offer family-friendly options, with Outside Lands accessible.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Meetups \u0026 Communities",
-      "alignmentText": "San Francisco has a vibrant meetup scene\u2014tech, parenting, and culture groups. Inclusive venues help founders and families build networks fast.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Nature Access",
-      "alignmentText": "Muir Woods, Point Reyes, and coastal trails are within an hour; some destinations require advance permits or gear.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Political System",
-      "alignmentText": "US democracy functions well overall; San Francisco\u0027s vibrant civic scene shows participatory governance, with occasional gridlock at higher levels.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Religion in Politics",
-      "alignmentText": "In San Francisco, religion shapes culture but policy remains evidence-based and pluralistic. Personal beliefs are respected, and church-state separation holds.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Workers\u0027 Rights",
-      "alignmentText": "California\u0027s strong worker protections and salary transparency support employees in SF; gig-roles still face enforcement gaps.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "State Ideology",
-      "alignmentText": "California\u0027s progressive policies support civil rights and climate action in San Francisco, with dynamic debate and some budget trade-offs.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "In San Francisco, USA, strong local institutions protect civil liberties. National polarization could test resilience, but backsliding remains unlikely locally.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "State of Capitalism",
-      "alignmentText": "San Francisco\u0027s VC-driven market fuels innovation, but housing costs and inequality press families; policy attention needed.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Stability",
-      "alignmentText": "Stable overall with a resilient US economy; San Francisco\u0027s housing costs and regional disparities warrant ongoing monitoring.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "In San Francisco, the US media landscape is pluralistic with watchdogs. Fact-check and stay media literate amid occasional spin.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "San Francisco messaging centers shared wellbeing and inclusive civic participation, with pluralist media and minimal propaganda; no nationalist spin.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "In San Francisco, healthcare, housing, and income supports align with our progressive family needs, though high costs and wait times limit access.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "San Francisco residents value transit and libraries but worry about delays and homelessness response, signaling skepticism toward government.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "San Francisco, USA: Corruption perception is low overall; permitting and nonprofit oversight raise minor questions, but watchdogs keep trust.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "San Francisco, US generally shows limited corruption; occasional mid-level procurement/zoning issues arise but essential services stay protected.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "San Francisco housing is expensive and tight for families; limited inventory and bidding drive costs, but strong protections and walkable neighborhoods help.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Safety \u0026 Crime",
-      "alignmentText": "San Francisco, CA, USA has property crime and car break-ins; violent crime is moderate with visible policing. Practice home security and stay aware after dark.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "SF offers strong care at UCSF and major hospitals; private plans cover well, but universal access and shortest waits aren\u0027t guaranteed.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "In San Francisco, U.S. citizens access healthcare through employer or private plans. Visa-specific hurdles do not apply.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "In San Francisco, daycare can exceed $2,500/mo. Families rely on nanny shares and networks, but planning and coordination are needed.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "California offers paid family leave and preschool programs, but San Francisco childcare costs keep relief partial.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Education",
-      "alignmentText": "San Francisco education offers strong magnet/bilingual options; neighborhood disparities and funding gaps require proactive planning.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "SF\u0027s Muni, BART, and ferries enable car-light living with strong urban coverage, but weekend gaps and delays require planning.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "San Francisco\u0027s market-led tech economy supports startups with reliable governance, though high housing costs and inequality remain concerns.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "California taxes are progressive and complex; e-filing helps, but San Francisco startup taxes add paperwork for Trey\u0027s ventures; manageable with planning.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "In San Francisco, CA, combined taxes hover around 32-35% after deductions. Deductions for childcare and mortgage interest help the family budget.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Banking \u0026 Payments",
-      "alignmentText": "San Francisco\u0027s banking and fintech ecosystem is mature, enabling easy digital accounts. Cross-border tasks are straightforward with strong protections.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "San Francisco Bay Area housing/childcare costs are among the highest; even with dual incomes, budgeting is tight and may require downsizing or expense cuts.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "Retirement (Citizens)",
-      "alignmentText": "San Francisco offers strong healthcare and transit for seniors through Medicare. But high housing costs mean assets or relocation are needed for retirement.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "In SF, visa holders often can\u0027t access Social Security; retirement relies on private savings and employer plans, not a public pension.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Visa Paths",
-      "alignmentText": "All family members hold US passports; visa paths do not apply for San Francisco relocation.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "San Francisco generally welcomes US migrants; diverse, inclusive communities and strong family services support tech professionals relocating here.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Residency Types \u0026 Durations",
-      "alignmentText": "US citizenship makes residency effectively permanent nationwide; in San Francisco, domicile-based benefits are straightforward.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Path to Citizenship",
-      "alignmentText": "In San Francisco, US citizens, the family already holds citizenship; naturalization is not needed.",
-      "alignmentValue": 1,
-      "sameAsParent": true
-    },
-    {
-      "key": "Family Members",
-      "alignmentText": "San Francisco, USA: immediate children qualify for sponsorship; this family\u0027s two minors are eligible as immediate relatives; backlogs affect extended kin.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Timelines \u0026 Costs",
-      "alignmentText": "As US citizens, moving to San Francisco is essentially immediate; no visa delays, standard moving costs apply.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Compliance \u0026 Risks",
-      "alignmentText": "San Francisco, US: federal rules are straightforward for citizens. State/local filings (CA taxes, permits) are manageable with standard diligence.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Dual Citizenship Allowed",
-      "alignmentText": "In San Francisco, the US allows dual citizenship with minimal reporting; taxes remain a consideration.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "General Considerations for Visa Holders",
-      "alignmentText": "San Francisco, USA: as a US citizen, visa risk is minimal. Work and housing rights are broadly protected here.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Game Dev Work Prospects",
-      "alignmentText": "San Francisco Bay Area offers a robust game dev scene, with studios, remote roles, and strong funding networks\u2014good prospects for founders.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Hiring Velocity (Established Studios)",
-      "alignmentText": "San Francisco studios typically fill established roles in 6\u20138 weeks. This aligns with US norms for this family.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Compensation Benchmark (Established Studios)",
-      "alignmentText": "In San Francisco, established studios offer base pay plus bonuses close to global medians after cost of living; strong benefits help family needs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Established Studios)",
-      "alignmentText": "In San Francisco, English is widely used in studios; the family prioritizes English ubiquity and is open to learning a local language for community and docs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote Expectations (Established Studios)",
-      "alignmentText": "Hybrid work is common in SF studios; remote options exist for experienced staff. This fits Trey\u0027s founder/remote setup and family\u0027s childcare needs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Notable Game Studios",
-      "alignmentText": "San Francisco Bay Area hosts notable studios like Double Fine, Niantic, and Sanzaru; a strong game-dev ecosystem with ample local hiring.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "San Francisco Bay Area hosts GDC and Bay Area Dev Collective; strong meetups, online hubs, and mentorship for newcomers.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "San Francisco offers a strong game-dev ecosystem with investors, accelerators, and local talent. Costs are high, so budgeting and remote/hybrid teams help.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Hiring Velocity (Startups)",
-      "alignmentText": "SF startup scene often fills core roles in 6-8 weeks; aligns with Trey\u0027s founder goals and Sarah\u0027s web dev role in the US.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Compensation Benchmark (Startups)",
-      "alignmentText": "SF startup comp roughly tracks global medians after cost-of-living adjustments; competitive for a family with equity and steady cash, amid high living costs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentText": "In San Francisco, English dominates investor and platform talks. Local-language skills help with hiring, compliance, and community outreach.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentText": "San Francisco startups support hybrid/remote work with mature tooling; fits a family-friendly, remote-friendly setup with periodic Bay Area onsite.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Modernity \u0026 Infrastructure",
-      "alignmentText": "San Francisco, USA: broadband and transit work smoothly with few outages; ongoing smart-city pilots boost future-ready services.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Seasonal Extremes \u0026 Variability",
-      "alignmentText": "San Francisco offers a generally mild, foggy climate. Expect occasional winter rain and summer cool spells, so layer up.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Seasonal Sunlight Hours",
-      "alignmentText": "San Francisco enjoys long summer days and mild winters; ample light supports mood, with regular outdoor breaks on gray days.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Pleasant Weather Windows",
-      "alignmentText": "SF offers two to three strong outdoor seasons; spring and fall are ideal, while summer fog can limit outdoor activities.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Quality of Life \u2013 Lower-Income Tier",
-      "alignmentText": "San Francisco, US: high living costs strain a two-child family; affordable childcare and healthcare access are fragile for lower-income households.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Quality of Life \u2013 Middle-Income Tier",
-      "alignmentText": "In San Francisco, housing and childcare squeeze the budget; saving and discretionary spending are tight most months.",
-      "alignmentValue": 6,
-      "sameAsParent": true
-    },
-    {
-      "key": "Quality of Life \u2013 Higher-Income Tier",
-      "alignmentText": "San Francisco offers abundant premium dining, culture, and top schools. Costs are high, and some services have waitlists but plentiful alternatives exist.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "In San Francisco, 2k sq ft rentals are scarce and costly; you may need to search East Bay or outer suburbs for space and decent schools.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Community Living Opportunities",
-      "alignmentText": "In the SF Bay Area, a few family-friendly cohousing or co-op options exist; demand can be high and planning may require patience.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Friendliness \u0026 Neighborliness Index",
-      "alignmentText": "In San Francisco, friendliness varies by neighborhood. With initiative, locals respond and newcomers feel welcomed.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 General",
-      "alignmentText": "San Francisco, US: broadly positive immigrant sentiment with strong local support and multilingual services. Debates are mostly nationwide.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 White Migrants",
-      "alignmentText": "San Francisco, US offers a warm, progressive welcome for White migrants from tech hubs; minor stereotypes about wealth and gentrification may arise.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Surface Interaction Norms",
-      "alignmentText": "San Francisco has mostly warm, upbeat interactions; engaging gets positive responses. Occasional brisk moments exist, but the city stays family-friendly.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Depth-Seeking Social Norms",
-      "alignmentText": "In San Francisco, open, progressive networks invite deep conversations; clubs and community dinners can help your family form strong ties quickly.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Personal Boundary \u0026 Bubble Norms",
-      "alignmentText": "In SF, norms vary; crowded transit and events may feel closer, but most people respect boundaries and cues in parks and offices.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Moral, Honesty \u0026 Openness Expectations",
-      "alignmentText": "In San Francisco\u0027s open, progressive context, direct sharing of needs is welcomed; empathetic honesty fits local norms.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Grooming \u0026 Beauty Investment",
-      "alignmentText": "San Francisco\u0027s casual tech culture means grooming is useful for meetings; budget a bit for polished outfits beyond daily wear.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Body Image \u0026 Fitness Pressure",
-      "alignmentText": "In San Francisco, USA, the city\u0027s diverse, fitness-minded culture, subtle body-image comparisons may surface; set boundaries to protect family confidence.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fashion \u0026 Style Expectations",
-      "alignmentText": "San Francisco leans casual in daily life. Save polished outfits for meetings or formal events.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Flirting Boundaries \u0026 Consent Culture",
-      "alignmentText": "SF, USA has strong consent culture; people check in and bystanders intervene when boundaries blur; direct communication helps.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Gendered Flirting Expectations",
-      "alignmentText": "San Francisco nightlife is highly inclusive. All genders can initiate or decline interest without stigma.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "In San Francisco, USA, non-monogamy is widely understood; urban, progressive culture offers strong community support and resources.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "alignmentText": "San Francisco\u0027s open, sex-positive culture supports high comfort with nonmonogamy; urban enclaves embrace open discussion.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
-      "alignmentText": "In San Francisco, polyamory is relatively accepted in progressive circles; social openness is high, though formal institutions may remain cautious.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Personal Space \u0026 Touch Norms",
-      "alignmentText": "In San Francisco, occasional close contact in crowds is common; we steer interactions politely and rely on clear cues before touch.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Firearm Laws \u0026 Ownership Culture",
-      "alignmentText": "In San Francisco, CA, strict gun laws limit ownership and exposure. We\u0027ll stay aware of local norms for safety.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Controlled Substance Policies",
-      "alignmentText": "San Francisco treats cannabis as regulated and legal for adults; hard drugs remain illegal. SF emphasizes harm reduction and treatment access with tempered penalties.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "San Francisco\u0027s drug policing varies by district, with public-health approaches in many areas. Occasional targeted crackdowns still create unease for families.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "Bay Area incidents in the past decade; in San Francisco we stay vigilant at events and schools and rehearse safety plans.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Carceral Conditions \u0026 Prison Labor",
-      "alignmentText": "7: In San Francisco, United States, overcrowding and inmate labor concerns persist; advocacy groups monitor abuses for accountability.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Walkability \u0026 Pedestrian Safety",
-      "alignmentText": "Walkable pockets exist in San Francisco with decent transit; plan routes to avoid busy arterials and hills for family-friendly outings.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Health Consciousness",
-      "alignmentText": "In San Francisco, CA, US, wellness programs, parks, and healthcare access are strong; connect with like-minded local groups to stay motivated.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Processed Food Saturation",
-      "alignmentText": "San Francisco offers abundant farmers markets and urban grocers; healthy options abound, with occasional processed snacks nearby.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fresh \u0026 International Cuisine Access",
-      "alignmentText": "San Francisco offers abundant fresh markets and a vibrant international food scene. This supports weekly access to familiar and adventurous meals.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "In San Francisco, USA, therapy access is solid, but insurance gaps and wait times merit proactive planning.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Obesity Rate",
-      "alignmentText": "In San Francisco, obesity rates stay below national averages. Walkable neighborhoods and strong preventive care support healthier lifestyles.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Cancer Incidence",
-      "alignmentText": "San Francisco has strong screening programs; cancer rates align with US norms, so routine checkups and vigilance are advised.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "San Francisco\u0027s diverse tech and services economy supports quick reemployment after occasional layoffs; the startup ecosystem aids recovery.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Studio Density",
-      "alignmentText": "San Francisco Bay Area hosts a strong studio scene (AAA, indie, VFX, animation). It offers broad game/tech opportunities for your family.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Anchor Employers",
-      "alignmentText": "In San Francisco, USA, multiple game anchors (EA Redwood City, Ubisoft SF, Zynga) offer steady work and training opportunities.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "San Francisco offers a dense game-dev vendor network (QA, art, audio, live-ops) with grants and startup programs; ideal for founder teams.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Education Pipeline Strength",
-      "alignmentText": "SF Bay Area has a couple strong game/CS programs (Berkeley, Academy of Art) feeding grads; internships help readiness.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Continuing Education Availability",
-      "alignmentText": "San Francisco offers strong continuing education with bootcamps and university extensions. Monthly industry courses help web and game dev skills stay current.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Activity",
-      "alignmentText": "SF Bay Area offers frequent game/tech meetups and annual conferences. GDC and Unity groups help strengthen professional/community ties.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Engine Community Bias",
-      "alignmentText": "San Francisco Bay Area shows Unity dominance in indie/game dev with a strong Unreal presence; active cross-pollination via meetups and studios.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "San Francisco\u0027s game scene emphasizes real-time pipelines; excellent broadband and studios blend real-time with cinematic work, aligning with your dev goals.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Demand\u2013Supply Balance",
-      "alignmentText": "San Francisco tech market is high-demand with tighter talent pipelines; roles exist but competition is noticeable; remote options help.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Retention \u0026 Churn Risk",
-      "alignmentText": "SF\u0027s tech market offers solid retention, but funding cycles cause occasional churn. Remote-friendly roles and family-friendly policies cushion risk.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Diversity \u0026 Inclusion Index",
-      "alignmentText": "San Francisco, US, has strong D\u0026I support for LGBTQ\u002B and diverse communities; many local studios track equity, though gaps remain.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "San Francisco/US offers federal R\u0026D credits and CA Competes; helpful for game startups, but programs are selective with caps.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Economic/Policy Stability",
-      "alignmentText": "SF tech policy is generally pro-innovation with grants; elections may tweak incentives, but planning remains manageable.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Founder/Operator Community",
-      "alignmentText": "San Francisco has a dense founder network with mentorship circles, accelerators, and VC access - great fit for Trey\u0027s game/software startup goals.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Early-Stage Capital Access",
-      "alignmentText": "San Francisco has strong VC and grants for game startups; expect repeat investors and public programs to assist early-stage funding.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Accelerator/Incubator Access",
-      "alignmentText": "San Francisco has game-friendly accelerators and broad startup support; dedicated game tracks exist but vary by program.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Senior Talent Availability",
-      "alignmentText": "San Francisco, US has a deep bench of senior leaders with startup backgrounds; for game/startups, expect competitive offers in a high-cost market.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Contractor/Freelancer Bench",
-      "alignmentText": "San Francisco\u0027s strong tech contractor market offers rapid onboarding for web/game development; expect premium rates but fast delivery.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Coworking \u0026 Startup Infrastructure",
-      "alignmentText": "In San Francisco, abundant coworking and game-dev labs (mocap, scanners) for indies. Strong startup scene, but high costs.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Legal \u0026 IP Support",
-      "alignmentText": "San Francisco, US offers robust game IP support: multiple Bay Area firms/clinics for licensing, publishing deals, and startup-friendly pricing.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Publisher/Platform Relationships",
-      "alignmentText": "SF provides regular platform BD presence and local publisher events; Unity/Meta offices enable direct publisher relations for Trey\u0027s ventures.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Market Research \u0026 Playtesting",
-      "alignmentText": "San Francisco offers dense playtesting networks, studios, and labs. Local communities and universities provide quick feedback loops for Trey\u0027s game ventures.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Government/Startup Visas",
-      "alignmentText": "As US citizens in San Francisco, startup visas aren\u0027t needed; focus on local funding, company setup, and SF\u0027s strong tech ecosystem.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Cost of Doing Business",
-      "alignmentText": "San Francisco faces high rents and wages, pressuring runway, but a strong game dev/tech ecosystem and grants can help balance costs.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "San Francisco Bay Area hosts a strong 3D character artist pool with mid- and senior-level talent, many with recent shipped projects.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "San Francisco Bay Area hosts several respected animation programs (AAU, SF State, CSF). These programs feed well-prepared 3D character grads into local studios.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "San Francisco has a strong 3D/character education scene with university extensions and studios. Frequent workshops and certifications help keep skills sharp.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "In San Francisco, 3D character artist searches usually take 1\u20132 months with a strong local game/tech ecosystem and healthy candidate pipelines.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "San Francisco 3D Character Artist pay is highly competitive with bonuses and strong benefits; high cost of living requires robust total comp.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Character Artist: Language",
-      "alignmentText": "San Francisco\u0027s 3D art scene uses English broadly; many studios value bilingual candidates for local client work.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Remote Expectations",
-      "alignmentText": "In San Francisco, remote/hybrid 3D character artist roles are common; studios support flexible models and offer equipment stipends.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Animator: Talent Pool",
-      "alignmentText": "San Francisco has a strong 3D animator pool, bolstered by studios and freelancers; global inflow sustains senior/mid-level talent.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "SF Bay Area has multiple 3D animation programs (AAU, CCA, SJSU) delivering grads to local studios like ILM and Pixar.",
-      "alignmentValue": 9
     },
     {
       "key": "3D Animator: Continuing Education Availability",
@@ -984,15 +57,14 @@
       "alignmentValue": 8
     },
     {
+      "key": "3D Animator: Education Pipeline Strength",
+      "alignmentText": "SF Bay Area has multiple 3D animation programs (AAU, CCA, SJSU) delivering grads to local studios like ILM and Pixar.",
+      "alignmentValue": 9
+    },
+    {
       "key": "3D Animator: Hiring Velocity",
       "alignmentText": "In SF, 3D animator roles often close in 1-2 months; remote/hybrid options support family-friendly timelines in the US.",
       "alignmentValue": 8
-    },
-    {
-      "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "San Francisco 3D animator compensation is highly competitive, with bonuses and equity common. Strong benefits offset the high cost of living.",
-      "alignmentValue": 9,
-      "sameAsParent": false
     },
     {
       "key": "3D Animator: Language",
@@ -1006,82 +78,164 @@
       "sameAsParent": false
     },
     {
-      "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "San Francisco Bay Area hosts a strong 2D environmental art pool (games/film), with mid-to-senior talent and broad hiring options.",
+      "key": "3D Animator: Talent Pool",
+      "alignmentText": "San Francisco has a strong 3D animator pool, bolstered by studios and freelancers; global inflow sustains senior/mid-level talent.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "3D Character Artist: Compensation Benchmark",
+      "alignmentText": "San Francisco 3D Character Artist pay is highly competitive with bonuses and strong benefits; high cost of living requires robust total comp.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "3D Character Artist: Continuing Education Availability",
+      "alignmentText": "San Francisco has a strong 3D/character education scene with university extensions and studios. Frequent workshops and certifications help keep skills sharp.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "3D Character Artist: Education Pipeline Strength",
+      "alignmentText": "San Francisco Bay Area hosts several respected animation programs (AAU, SF State, CSF). These programs feed well-prepared 3D character grads into local studios.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "3D Character Artist: Hiring Velocity",
+      "alignmentText": "In San Francisco, 3D character artist searches usually take 1\u20132 months with a strong local game/tech ecosystem and healthy candidate pipelines.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "SF Bay Area has several reputable programs (AAU, SFSU, CC SF) that regularly graduate ready 2D environmental artists.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "San Francisco, US has regular 2D environment art courses and meetups with solid instructors. Great for Trey\u0027s game-art focus and flexible local learning.",
+      "key": "3D Character Artist: Language",
+      "alignmentText": "San Francisco\u0027s 3D art scene uses English broadly; many studios value bilingual candidates for local client work.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "2D Environmental Artist: Hiring Velocity",
-      "alignmentText": "San Francisco\u0027s game scene has a robust pool of 2D environmental artists. Most openings can close in 1-2 months with healthy candidate pipelines.",
-      "alignmentValue": 8
+      "key": "3D Character Artist: Remote Expectations",
+      "alignmentText": "In San Francisco, remote/hybrid 3D character artist roles are common; studios support flexible models and offer equipment stipends.",
+      "alignmentValue": 9
     },
     {
-      "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "In San Francisco, 2D Environmental Artist pay aligns with global medians after cost-of-living adjustments. SF\u0027s high living costs demand strong total comp.",
+      "key": "3D Character Artist: Talent Pool",
+      "alignmentText": "San Francisco Bay Area hosts a strong 3D character artist pool with mid- and senior-level talent, many with recent shipped projects.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "2D Environmental Artist: Language",
-      "alignmentText": "SF studios largely use English; teams are multilingual, so English fluency is common and bilingual skills are advantageous for collaboration.",
-      "alignmentValue": 9
+      "key": "Accelerator/Incubator Access",
+      "alignmentText": "San Francisco has game-friendly accelerators and broad startup support; dedicated game tracks exist but vary by program.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
-      "key": "2D Environmental Artist: Remote Expectations",
-      "alignmentText": "SF studios commonly offer remote/hybrid 2D environmental art with flexible hours. Many provide stipends and async workflows for family-friendly schedules.",
-      "alignmentValue": 9
+      "key": "Air Quality",
+      "alignmentText": "San Francisco air is generally good. Late-summer wildfire smoke can spike AQI, so portable filters and indoor days help.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "San Francisco has a large pool of real-time VFX pros (ILM, Ubisoft SF, studios); strong for game/film work, but competitive.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "San Francisco area has reputable VFX/real-time programs (AAU, SFSU). Graduates enter regional studios with strong portfolios.",
+      "key": "Anchor Employers",
+      "alignmentText": "In San Francisco, USA, multiple game anchors (EA Redwood City, Ubisoft SF, Zynga) offer steady work and training opportunities.",
       "alignmentValue": 8
     },
     {
-      "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "San Francisco offers solid VFX real-time continuing ed through UC Extension and local studios, plus active meetups/workshops.",
+      "key": "Atheism",
+      "alignmentText": "San Francisco, US has strong secular culture; atheism is widely accepted and access to secular institutions is seamless for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "In San Francisco, USA, strong local institutions protect civil liberties. National polarization could test resilience, but backsliding remains unlikely locally.",
       "alignmentValue": 8
     },
     {
-      "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "In San Francisco, VFX (Real-Time) roles attract strong demand; expect 2\u20133 months to hire a specialist, due to competition and tight local pipelines.",
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "San Francisco\u0027s banking and fintech ecosystem is mature, enabling easy digital accounts. Cross-border tasks are straightforward with strong protections.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "San Francisco beaches (Ocean/Baker, Crissy Field) are scenic for picnics and walks; cold water and currents limit swimming, so plan carefully.",
       "alignmentValue": 7
     },
     {
-      "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "San Francisco real-time VFX pay roughly matches global medians after cost-of-living; competitive packages exist in tech and game studios.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "VFX Artist (Real-Time): Language",
-      "alignmentText": "San Francisco VFX real-time work is English universal; bilingual support helps access additional markets.",
-      "alignmentValue": 10,
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "San Francisco offers regular board game nights, kid-friendly venues, and active meetups. Bay Area shops and libraries support families.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Remote Expectations",
-      "alignmentText": "In San Francisco, real-time VFX roles often support flexible remote/hybrid models; studios frequently offer equipment stipends.",
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "In San Francisco, USA, the city\u0027s diverse, fitness-minded culture, subtle body-image comparisons may surface; set boundaries to protect family confidence.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "San Francisco\u0027s diverse tech and services economy supports quick reemployment after occasional layoffs; the startup ecosystem aids recovery.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "San Francisco has strong screening programs; cancer rates align with US norms, so routine checkups and vigilance are advised.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "7: In San Francisco, United States, overcrowding and inmate labor concerns persist; advocacy groups monitor abuses for accountability.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "In San Francisco, daycare can exceed $2,500/mo. Families rely on nanny shares and networks, but planning and coordination are needed.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "San Francisco offers abundant parks and walkable districts; most neighborhoods are kid-friendly, though some dense centers demand caution.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "In San Francisco, subsidies primarily aid lower-income families; middle-income households still face high childcare costs.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "In San Francisco, as US citizens you can access California childcare subsidies; visa-specific barriers do not apply.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "In San Francisco, rock climbing gyms and board game cafes thrive. Indie game dev meetups and maker spaces support your family\u0027s coding hobbies.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Activity",
+      "alignmentText": "SF Bay Area offers frequent game/tech meetups and annual conferences. GDC and Unity groups help strengthen professional/community ties.",
       "alignmentValue": 9
     },
     {
-      "key": "Community Manager: Talent Pool",
-      "alignmentText": "San Francisco has a strong CM pool with many senior pros across gaming/tech; competitive, but plentiful local and remote options.",
+      "key": "Community Health Consciousness",
+      "alignmentText": "In San Francisco, CA, US, wellness programs, parks, and healthcare access are strong; connect with like-minded local groups to stay motivated.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "In the SF Bay Area, a few family-friendly cohousing or co-op options exist; demand can be high and planning may require patience.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Compensation Benchmark",
+      "alignmentText": "In San Francisco, community manager pay is highly competitive with bonuses or equity. Strong benefits help families offset the high cost of living.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Manager: Continuing Education Availability",
+      "alignmentText": "San Francisco, USA offers regular community manager workshops and active online communities. This supports ongoing upskilling for a family-friendly lifestyle.",
       "alignmentValue": 9
     },
     {
@@ -1090,20 +244,9 @@
       "alignmentValue": 8
     },
     {
-      "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "San Francisco, USA offers regular community manager workshops and active online communities. This supports ongoing upskilling for a family-friendly lifestyle.",
-      "alignmentValue": 9
-    },
-    {
       "key": "Community Manager: Hiring Velocity",
       "alignmentText": "San Francisco CM hiring: strong local pools; expect 1-2 month searches with remote/hybrid options to accelerate timelines.",
       "alignmentValue": 8
-    },
-    {
-      "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "In San Francisco, community manager pay is highly competitive with bonuses or equity. Strong benefits help families offset the high cost of living.",
-      "alignmentValue": 9,
-      "sameAsParent": false
     },
     {
       "key": "Community Manager: Language",
@@ -1118,10 +261,541 @@
       "sameAsParent": false
     },
     {
-      "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "San Francisco has a solid game PMM pool with indie studios nearby. Senior roles are competitive, but mid-level talent and remote options exist.",
+      "key": "Community Manager: Talent Pool",
+      "alignmentText": "San Francisco has a strong CM pool with many senior pros across gaming/tech; competitive, but plentiful local and remote options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "In San Francisco, USA, co-ops, neighborhood groups, and activism welcome newcomers, but high rents and turnover can slow deep community ties.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "In San Francisco, established studios offer base pay plus bonuses close to global medians after cost of living; strong benefits help family needs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "SF startup comp roughly tracks global medians after cost-of-living adjustments; competitive for a family with equity and steady cash, amid high living costs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "San Francisco, US: federal rules are straightforward for citizens. State/local filings (CA taxes, permits) are manageable with standard diligence.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Continuing Education Availability",
+      "alignmentText": "San Francisco offers strong continuing education with bootcamps and university extensions. Monthly industry courses help web and game dev skills stay current.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Contractor/Freelancer Bench",
+      "alignmentText": "San Francisco\u0027s strong tech contractor market offers rapid onboarding for web/game development; expect premium rates but fast delivery.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "San Francisco treats cannabis as regulated and legal for adults; hard drugs remain illegal. SF emphasizes harm reduction and treatment access with tempered penalties.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Cost of Doing Business",
+      "alignmentText": "San Francisco faces high rents and wages, pressuring runway, but a strong game dev/tech ecosystem and grants can help balance costs.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "San Francisco Bay Area housing/childcare costs are among the highest; even with dual incomes, budgeting is tight and may require downsizing or expense cuts.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "In San Francisco, abundant coworking and game-dev labs (mocap, scanners) for indies. Strong startup scene, but high costs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "San Francisco tech market is high-demand with tighter talent pipelines; roles exist but competition is noticeable; remote options help.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "In San Francisco, USA, therapy access is solid, but insurance gaps and wait times merit proactive planning.",
       "alignmentValue": 7,
       "sameAsParent": false
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "In San Francisco, open, progressive networks invite deep conversations; clubs and community dinners can help your family form strong ties quickly.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "San Francisco, US, has strong D\u0026I support for LGBTQ\u002B and diverse communities; many local studios track equity, though gaps remain.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "San Francisco\u0027s drug policing varies by district, with public-health approaches in many areas. Occasional targeted crackdowns still create unease for families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "In San Francisco, the US allows dual citizenship with minimal reporting; taxes remain a consideration.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Early Stage Grants Available",
+      "alignmentText": "San Francisco grants ecosystem supports Trey\u0027s game-dev startup; expect roughly $700k-$1M in early-stage non-dilutive funding, though competition is stiff.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Early-Stage Capital Access",
+      "alignmentText": "San Francisco has strong VC and grants for game startups; expect repeat investors and public programs to assist early-stage funding.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "San Francisco\u0027s tech-led economy remains solid, but housing costs press family budgets; keep emergency savings for cyclical dips.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "San Francisco\u0027s market-led tech economy supports startups with reliable governance, though high housing costs and inequality remain concerns.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Economic/Policy Stability",
+      "alignmentText": "SF tech policy is generally pro-innovation with grants; elections may tweak incentives, but planning remains manageable.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Education",
+      "alignmentText": "San Francisco education offers strong magnet/bilingual options; neighborhood disparities and funding gaps require proactive planning.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Education Pipeline Strength",
+      "alignmentText": "SF Bay Area has a couple strong game/CS programs (Berkeley, Academy of Art) feeding grads; internships help readiness.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "In SF, tech firms commonly sponsor skilled workers; as US citizens sponsorship isn\u0027t needed, but non-citizen paths are well-supported.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Engine Community Bias",
+      "alignmentText": "San Francisco Bay Area shows Unity dominance in indie/game dev with a strong Unreal presence; active cross-pollination via meetups and studios.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "San Francisco Bay breezes and urban parks (Golden Gate Park, Presidio) offer frequent nature; dense city living limits daily greenery.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "In San Francisco, CA, combined taxes hover around 32-35% after deductions. Deductions for childcare and mortgage interest help the family budget.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Fall in San Francisco, USA stays mild, with most days in the 10-22 \u00B0C range. Occasional showers or fog can appear but typically clear quickly.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "San Francisco families face high housing and childcare costs; programs exist, but many services require waitlists and proactive planning.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "San Francisco, USA: immediate children qualify for sponsorship; this family\u0027s two minors are eligible as immediate relatives; backlogs affect extended kin.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "San Francisco, CA: California Paid Family Leave provides up to 8 weeks partial pay; access relies on state programs and paperwork.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "California offers paid family leave and preschool programs, but San Francisco childcare costs keep relief partial.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "In San Francisco, visa families have access to employer benefits, but leave levels vary; expect HR or immigration-counsel guidance.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "San Francisco leans casual in daily life. Save polished outfits for meetings or formal events.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "San Francisco\u0027s fashion scene is highly inclusive and body-positive, mirroring the city\u0027s progressive, diverse culture. Women dress freely from casual to chic.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "In San Francisco, trend-forward yet approachable fashion is the norm. Men can dress creatively without stigma.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "In San Francisco, femininity norms are broadly flexible; your progressive, sex-positive family fits an inclusive culture with only minor conservative pockets.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "In San Francisco, CA, strict gun laws limit ownership and exposure. We\u0027ll stay aware of local norms for safety.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "SF, USA has strong consent culture; people check in and bystanders intervene when boundaries blur; direct communication helps.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Founder/Operator Community",
+      "alignmentText": "San Francisco has a dense founder network with mentorship circles, accelerators, and VC access - great fit for Trey\u0027s game/software startup goals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "San Francisco offers abundant fresh markets and a vibrant international food scene. This supports weekly access to familiar and adventurous meals.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "In San Francisco, friendliness varies by neighborhood. With initiative, locals respond and newcomers feel welcomed.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "San Francisco Bay Area offers a robust game dev scene, with studios, remote roles, and strong funding networks\u2014good prospects for founders.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "In San Francisco, CA, gender-diverse identities are strongly protected and visible. Nonbinary recognition is improving, but some official documents lag.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "San Francisco, CA supports LGBTQ\u002B rights and gender-affirming care. Strong protections align with your family\u0027s values.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "SF tech culture is broadly egalitarian with shared caregiving; venture leadership remains male-dominated but gains in equality are evident.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "San Francisco nightlife is highly inclusive. All genders can initiate or decline interest without stigma.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "San Francisco, USA: as a US citizen, visa risk is minimal. Work and housing rights are broadly protected here.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Sea-level rise threatens San Francisco\u0027s Embarcadero waterfronts. Seasonal wildfire smoke and drought spur ongoing conservation and resilience planning.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Government/Startup Visas",
+      "alignmentText": "As US citizens in San Francisco, startup visas aren\u0027t needed; focus on local funding, company setup, and SF\u0027s strong tech ecosystem.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "San Francisco\u0027s casual tech culture means grooming is useful for meetings; budget a bit for polished outfits beyond daily wear.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "In San Francisco, polyamory is relatively accepted in progressive circles; social openness is high, though formal institutions may remain cautious.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "SF offers strong care at UCSF and major hospitals; private plans cover well, but universal access and shortest waits aren\u0027t guaranteed.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "In San Francisco, U.S. citizens access healthcare through employer or private plans. Visa-specific hurdles do not apply.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "California higher-ed is broadly accessible for residents, with in-state UC/CSU tuition and many options in the SF area; selective programs remain competitive.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "In San Francisco, U.S. citizens typically pay citizen-level tuition with strong aid options at local public and private universities.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Hiring Velocity (Established Studios)",
+      "alignmentText": "San Francisco studios typically fill established roles in 6\u20138 weeks. This aligns with US norms for this family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Hiring Velocity (Startups)",
+      "alignmentText": "SF startup scene often fills core roles in 6-8 weeks; aligns with Trey\u0027s founder goals and Sarah\u0027s web dev role in the US.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "San Francisco housing is expensive and tight for families; limited inventory and bidding drive costs, but strong protections and walkable neighborhoods help.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "California taxes are progressive and complex; e-filing helps, but San Francisco startup taxes add paperwork for Trey\u0027s ventures; manageable with planning.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "San Francisco, US: broadly positive immigrant sentiment with strong local support and multilingual services. Debates are mostly nationwide.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "San Francisco, US offers a warm, progressive welcome for White migrants from tech hubs; minor stereotypes about wealth and gentrification may arise.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "San Francisco public K-12 access is broad, but top schools use lotteries/zone rules; proactive families can secure solid placements and bilingual options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "San Francisco public schools enroll US citizens with full rights. Language supports and services are standard, with no visa-related barriers.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "English is widely used in San Francisco; children can access bilingual exposure in Cantonese, Mandarin, and Spanish communities.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Language (Established Studios)",
+      "alignmentText": "In San Francisco, English is widely used in studios; the family prioritizes English ubiquity and is open to learning a local language for community and docs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language (Startups)",
+      "alignmentText": "In San Francisco, English dominates investor and platform talks. Local-language skills help with hiring, compliance, and community outreach.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "San Francisco, US offers robust game IP support: multiple Bay Area firms/clinics for licensing, publishing deals, and startup-friendly pricing.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "San Francisco, CA offers robust LGBTQ\u002B protections and inclusive services. This creates a welcoming environment for poly and LGBTQ\u002B families in the US.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "San Francisco offers dense playtesting networks, studios, and labs. Local communities and universities provide quick feedback loops for Trey\u0027s game ventures.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "US (Kansas City, MO): Marxist ideas linger in academia/activism, but mainstream policy stays pragmatic-progressive.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "In San Francisco, tech/arts scenes foster inclusive masculinity; progressive culture and family-friendly policies support expressive, caregiving dads.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Bay Area incidents in the past decade; in San Francisco we stay vigilant at events and schools and rehearse safety plans.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "San Francisco has a vibrant meetup scene\u2014tech, parenting, and culture groups. Inclusive venues help founders and families build networks fast.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "In San Francisco, min wage trails living costs for a family with two kids; a second income or subsidies is often needed.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "San Francisco, USA: broadband and transit work smoothly with few outages; ongoing smart-city pilots boost future-ready services.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "In San Francisco, USA, non-monogamy is widely understood; urban, progressive culture offers strong community support and resources.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "In San Francisco\u0027s open, progressive context, direct sharing of needs is welcomed; empathetic honesty fits local norms.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Iconic Bay Area landscapes are within 60 minutes. Golden Gate Park, Marin Headlands, and nearby Muir Woods offer pristine, family-friendly nature.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "San Francisco faces earthquakes and wildfires; ongoing retrofits help, but hazards remain tangible and evacuation planning is essential.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Muir Woods, Point Reyes, and coastal trails are within an hour; some destinations require advance permits or gear.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "SF\u0027s live music scene is vibrant with frequent concerts and community events. Many venues offer family-friendly options, with Outside Lands accessible.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Nightlife thrives in SF in pockets like SoMa and North Beach; families should plan babysitting and transit. Most venues close earlier than NYC.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "San Francisco Bay Area hosts GDC and Bay Area Dev Collective; strong meetups, online hubs, and mentorship for newcomers.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "San Francisco Bay Area hosts notable studios like Double Fine, Niantic, and Sanzaru; a strong game-dev ecosystem with ample local hiring.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "In San Francisco, obesity rates stay below national averages. Walkable neighborhoods and strong preventive care support healthier lifestyles.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "San Francisco offers a strong game-dev ecosystem with investors, accelerators, and local talent. Costs are high, so budgeting and remote/hybrid teams help.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "San Francisco\u0027s core pace can feel brisk; schedule buffers and choose slower neighborhoods to protect family time.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "San Francisco, USA: diverse parenting supported by co-ops and community schools; fits bilingual exposure, high education focus, and slower pace.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "In San Francisco, US citizens, the family already holds citizenship; naturalization is not needed.",
+      "alignmentValue": 1,
+      "sameAsParent": true
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "San Francisco, USA: Corruption perception is low overall; permitting and nonprofit oversight raise minor questions, but watchdogs keep trust.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "In SF, norms vary; crowded transit and events may feel closer, but most people respect boundaries and cues in parks and offices.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "In San Francisco, occasional close contact in crowds is common; we steer interactions politely and rely on clear cues before touch.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "SF offers two to three strong outdoor seasons; spring and fall are ideal, while summer fog can limit outdoor activities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "US democracy functions well overall; San Francisco\u0027s vibrant civic scene shows participatory governance, with occasional gridlock at higher levels.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "San Francisco offers strong polyamory community support and visible networks; social tolerance is high, though legal recognition remains limited.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "San Francisco: infant/toddler care is expensive and tight; subsidies exist but waitlists are long; dual-working parents need flexible options.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "San Francisco private schools exist but costly; expect about $35k\u2013$60k/yr per child, with selective admissions and some bilingual options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "San Francisco offers abundant farmers markets and urban grocers; healthy options abound, with occasional processed snacks nearby.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Product Marketing Manager (Games): Compensation Benchmark",
+      "alignmentText": "San Francisco PMM (Games) pay is highly competitive with equity and bonuses. High living costs can offset net value for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Product Marketing Manager (Games): Continuing Education Availability",
+      "alignmentText": "San Francisco\u0027s game scene offers frequent PMM workshops, active guilds, and strong online communities for continuing education.",
+      "alignmentValue": 9
     },
     {
       "key": "Product Marketing Manager (Games): Education Pipeline Strength",
@@ -1130,20 +804,10 @@
       "sameAsParent": false
     },
     {
-      "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "San Francisco\u0027s game scene offers frequent PMM workshops, active guilds, and strong online communities for continuing education.",
-      "alignmentValue": 9
-    },
-    {
       "key": "Product Marketing Manager (Games): Hiring Velocity",
       "alignmentText": "San Francisco\u0027s game PMM market is competitive; expect 2\u20133 months to hire with proactive sourcing. Remote options can widen the talent pool.",
       "alignmentValue": 7,
       "sameAsParent": false
-    },
-    {
-      "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "San Francisco PMM (Games) pay is highly competitive with equity and bonuses. High living costs can offset net value for families.",
-      "alignmentValue": 9
     },
     {
       "key": "Product Marketing Manager (Games): Language",
@@ -1155,6 +819,347 @@
       "key": "Product Marketing Manager (Games): Remote Expectations",
       "alignmentText": "In San Francisco, most game product marketing roles are flexible remote/hybrid with async workflows and equipment stipends.",
       "alignmentValue": 9
+    },
+    {
+      "key": "Product Marketing Manager (Games): Talent Pool",
+      "alignmentText": "San Francisco has a solid game PMM pool with indie studios nearby. Senior roles are competitive, but mid-level talent and remote options exist.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "San Francisco\u0027s progressive climate, equity, and LGBTQ\u002B protections shape policy and daily life; housing and safety debates persist.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "San Francisco\u0027s open, sex-positive culture supports high comfort with nonmonogamy; urban enclaves embrace open discussion.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "San Francisco messaging centers shared wellbeing and inclusive civic participation, with pluralist media and minimal propaganda; no nationalist spin.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "In San Francisco, the US media landscape is pluralistic with watchdogs. Fact-check and stay media literate amid occasional spin.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "SF\u0027s Muni, BART, and ferries enable car-light living with strong urban coverage, but weekend gaps and delays require planning.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Publisher/Platform Relationships",
+      "alignmentText": "SF provides regular platform BD presence and local publisher events; Unity/Meta offices enable direct publisher relations for Trey\u0027s ventures.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "San Francisco offers abundant premium dining, culture, and top schools. Costs are high, and some services have waitlists but plentiful alternatives exist.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "San Francisco, US: high living costs strain a two-child family; affordable childcare and healthcare access are fragile for lower-income households.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "In San Francisco, housing and childcare squeeze the budget; saving and discretionary spending are tight most months.",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "Real-Time vs Pre-Rendered Focus",
+      "alignmentText": "San Francisco\u0027s game scene emphasizes real-time pipelines; excellent broadband and studios blend real-time with cinematic work, aligning with your dev goals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "In San Francisco, religion shapes culture but policy remains evidence-based and pluralistic. Personal beliefs are respected, and church-state separation holds.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Remote Expectations (Established Studios)",
+      "alignmentText": "Hybrid work is common in SF studios; remote options exist for experienced staff. This fits Trey\u0027s founder/remote setup and family\u0027s childcare needs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "San Francisco startups support hybrid/remote work with mature tooling; fits a family-friendly, remote-friendly setup with periodic Bay Area onsite.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "San Francisco\u0027s hybrid-remote culture supports distributed families with abundant coworking, strong broadband, and a startup-friendly ecosystem.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "US citizenship makes residency effectively permanent nationwide; in San Francisco, domicile-based benefits are straightforward.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "SF\u0027s tech market offers solid retention, but funding cycles cause occasional churn. Remote-friendly roles and family-friendly policies cushion risk.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "San Francisco offers strong healthcare and transit for seniors through Medicare. But high housing costs mean assets or relocation are needed for retirement.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "In SF, visa holders often can\u0027t access Social Security; retirement relies on private savings and employer plans, not a public pension.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "SF Bay Area Rails roles remain active in startups and larger firms; many jobs offer remote or hybrid options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "San Francisco, CA, USA has property crime and car break-ins; violent crime is moderate with visible policing. Practice home security and stay aware after dark.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "In San Francisco, SFUSD offers language immersion and magnets, but lotteries and waitlists require planning; private schools are competitive.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "San Francisco Bay waters stay 11\u201315 \u00B0C (52\u201359 \u00B0F) year-round; wetsuits are needed for extended swimming.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "San Francisco offers a generally mild, foggy climate. Expect occasional winter rain and summer cool spells, so layer up.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "San Francisco enjoys long summer days and mild winters; ample light supports mood, with regular outdoor breaks on gray days.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Mostly pleasant year-round in San Francisco; cool, foggy summers and mild winters. Microclimates bring sun and fog, but outdoor time stays feasible.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Senior Talent Availability",
+      "alignmentText": "San Francisco, US has a deep bench of senior leaders with startup backgrounds; for game/startups, expect competitive offers in a high-cost market.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "In San Francisco, sex-positive norms are mainstream; comprehensive consent education and inclusive healthcare are widely accessible.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "In San Francisco, healthcare, housing, and income supports align with our progressive family needs, though high costs and wait times limit access.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "In San Francisco, 2k sq ft rentals are scarce and costly; you may need to search East Bay or outer suburbs for space and decent schools.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Spring in San Francisco stays mild with sea breezes; expect about 12\u201321 \u00B0C (54\u201370 \u00B0F). Pack layers for occasional windy/cool days.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Stable overall with a resilient US economy; San Francisco\u0027s housing costs and regional disparities warrant ongoing monitoring.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "California\u0027s progressive policies support civil rights and climate action in San Francisco, with dynamic debate and some budget trade-offs.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "San Francisco\u0027s VC-driven market fuels innovation, but housing costs and inequality press families; policy attention needed.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Studio Density",
+      "alignmentText": "San Francisco Bay Area hosts a strong studio scene (AAA, indie, VFX, animation). It offers broad game/tech opportunities for your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "San Francisco summers stay cool and foggy; June\u2013August averages around 12\u201320 \u00B0C (54\u201368 \u00B0F), matching the family\u0027s mild-weather preference.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "San Francisco has mostly warm, upbeat interactions; engaging gets positive responses. Occasional brisk moments exist, but the city stays family-friendly.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Tax Incentives for Games/Creative",
+      "alignmentText": "San Francisco/US offers federal R\u0026D credits and CA Competes; helpful for game startups, but programs are selective with caps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "As US citizens, moving to San Francisco is essentially immediate; no visa delays, standard moving costs apply.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "San Francisco residents value transit and libraries but worry about delays and homelessness response, signaling skepticism toward government.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "San Francisco, US generally shows limited corruption; occasional mid-level procurement/zoning issues arise but essential services stay protected.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "In San Francisco, software pay is among the world\u0027s top; base plus equity supports private schooling, travel, and family savings.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Bay Area weekends offer markets, museums, and kid-friendly hikes around SF/Marin/East Bay; traffic and hours require some planning.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "San Francisco schools run ~8:00\u20132:30; remote work lets afternoon park trips before dinner, with childcare for the younger child as needed.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "San Francisco, CA: no statutory vacation; PTO is employer-driven; look for family-friendly policies and predictable time off.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "In San Francisco tech, PTO typically 15-19 days plus holidays. Some startups offer unlimited; workload varies.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Vendor/Outsource Ecosystem",
+      "alignmentText": "San Francisco offers a dense game-dev vendor network (QA, art, audio, live-ops) with grants and startup programs; ideal for founder teams.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "VFX Artist (Real-Time): Compensation Benchmark",
+      "alignmentText": "San Francisco real-time VFX pay roughly matches global medians after cost-of-living; competitive packages exist in tech and game studios.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "VFX Artist (Real-Time): Continuing Education Availability",
+      "alignmentText": "San Francisco offers solid VFX real-time continuing ed through UC Extension and local studios, plus active meetups/workshops.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
+      "alignmentText": "San Francisco area has reputable VFX/real-time programs (AAU, SFSU). Graduates enter regional studios with strong portfolios.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "VFX Artist (Real-Time): Hiring Velocity",
+      "alignmentText": "In San Francisco, VFX (Real-Time) roles attract strong demand; expect 2\u20133 months to hire a specialist, due to competition and tight local pipelines.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Language",
+      "alignmentText": "San Francisco VFX real-time work is English universal; bilingual support helps access additional markets.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Remote Expectations",
+      "alignmentText": "In San Francisco, real-time VFX roles often support flexible remote/hybrid models; studios frequently offer equipment stipends.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "VFX Artist (Real-Time): Talent Pool",
+      "alignmentText": "San Francisco has a large pool of real-time VFX pros (ILM, Ubisoft SF, studios); strong for game/film work, but competitive.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "In the US (San Francisco), Canada/Mexico relations are generally amicable; immigration and tech ties support cross-border curiosity and travel.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "San Francisco\u2013USA residents take pride in tech innovation, diversity, and social justice, while grappling with affordability and housing pressures.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Canada and Mexico view the US as a dynamic tech hub with strong ties, but immigration and housing debates temper the view in the SF Bay Area.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "All family members hold US passports; visa paths do not apply for San Francisco relocation.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Walkable pockets exist in San Francisco with decent transit; plan routes to avoid busy arterials and hills for family-friendly outings.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "San Francisco generally welcomes US migrants; diverse, inclusive communities and strong family services support tech professionals relocating here.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "San Francisco\u0027s tech startup scene, diverse arts, and progressive activism align with your goals; expect rich learning and storytelling.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "San Francisco winters are mild, about 8\u201315 \u00B0C with light rain. Frost is rare, enabling year-round outdoor play for the family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "In San Francisco, tech roles often run 45\u201348 hours with crunch periods. Negotiate flextime to protect family evenings.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "In SF, many employers offer flexible/hybrid schedules and family-friendly policies; launches may require extra hours, but recovery time is provided.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "California\u0027s strong worker protections and salary transparency support employees in SF; gig-roles still face enforcement gaps.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     }
   ]
 }

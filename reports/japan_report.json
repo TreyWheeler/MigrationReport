@@ -3,1006 +3,19 @@
   "iso": "JP",
   "values": [
     {
-      "key": "Environment",
-      "alignmentText": "Tokyo, Japan offers good environmental quality with parks and quick trips to wooded mountains nearby. Cedar pollen season means plan outdoor time.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Global Warming Risk",
-      "alignmentText": "Japan\u2019s coasts face stronger typhoons, rising seas, and heatwaves. Actively plan housing reinforcement and disaster insurance for the family.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "In Japan, seasons are mild in spring and autumn. Summers are hot and humid, winters cool and damp; plan for AC and rain gear.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "Japan\u0027s air quality is generally good. Expect seasonal kosa dust and pollen days near cities, with portable filters sometimes helpful.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "Japan\u0027s frequent quakes and typhoons are well managed with strict building codes and early warnings; risk remains moderate but recoveries are quick.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Japan spring drifts 8\u201320\u00B0C (46\u201368\u00B0F) with sakura blooms and showers; mostly comfortable, but occasional cold/windy days need layers.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "In Japan, July\u2013August highs hover around 30\u00B0C with humidity; plan early outdoor time and strong A/C to keep kids comfortable.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Japan autumn is mild on most days (15-22\u00B0C); brief typhoon showers may occur but tend to pass quickly.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "Tokyo winters are mild, typically 5-12\u00B0C. Light coats suffice and snow is rare.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Beach Life",
-      "alignmentText": "Japan offers usable beaches within train reach of major cities, but summer crowds are typical. Plan trips to family-friendly spots like Shonan or Okinawa ahead.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "Japan\u0027s coast: about half the year swimmable, with water around 20 C in spring/fall and 24-28 C in summer.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "Japan provides easy rail-access nature: Mt. Takao or Hakone hikes, onsens, and coastlines for frequent family outdoor weekends.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Minimum Wage",
-      "alignmentText": "Japan\u0027s minimum wage varies by prefecture; even Tokyo at about \u00A51,013/h often struggles to cover housing and childcare, so dual incomes are prudent.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "In Japan, mid-level software salaries run ~\u00A56\u20139M/year; decent but not top-tier, so dual incomes or remote work help sustain savings.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
       "key": ".NET Work Prospects",
       "alignmentText": "Japan has steady .NET roles in Tokyo with multinationals. English-friendly teams exist, but Japanese fluency and sponsorship vary.",
       "alignmentValue": 7
     },
     {
-      "key": "Ruby Work Prospects",
-      "alignmentText": "Tokyo and Osaka host Ruby/Rails teams with English-friendly startups in Japan; steady openings and remote options suit Sarah\u0027s stack.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Employer Visa Sponsorship",
-      "alignmentText": "Japan\u0027s large tech firms sponsor engineer visas, but for a US family the process adds paperwork and quotas. Dependents require extra documents.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "Japan has low unemployment and mild inflation, but aging demographics slow startup growth. For Trey, access to grants and startup visas matters.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "In Japan, remote work is growing but many firms still expect in-person presence. Remote work requires policy negotiation and productivity proof for Sarah.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "In Japan, after-hours and nomikai culture are pervasive. They often clash with the family\u0027s need for predictable evenings.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Work Week Hours",
-      "alignmentText": "Japan tech workweeks hover around 40 hours, with occasional 42-45h crunches; family-friendly policies exist but overtime remains a concern.",
+      "key": "2D Environmental Artist: Compensation Benchmark",
+      "alignmentText": "Japan market for 2D environmental artists trails top NA hubs by ~10\u201315%; competitive packages with studio benefits in Tokyo-area, but overall pay may be modest.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "In Japan, paid leave starts at 10 days after 6 months and grows with tenure. This supports family trips, including US visits, though early buffers are modest.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Vacation Days (Typical)",
-      "alignmentText": "Japan typically offers about 10\u201314 vacation days annually plus holidays. For a family in Japan (JP), plan around limited leave and a strong work\u2013life balance emphasis.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Pace of Life",
-      "alignmentText": "In Japan, many suburbs offer calmer, family-friendly rhythms\u2014slower than a typical US metro. With planning, we can balance work and downtime in JP.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Japan: school ends around 15:00-15:30; tech jobs run late. We can stagger shifts with remote/hybrid work and reliable childcare.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Japan weekends offer kid-friendly options: museums, parks, and arcades. Popular spots fill fast; expect crowded trains and plan ahead.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Life",
-      "alignmentText": "Japan offers safe streets, strong public schools, and parks; language barriers and long work hours may require active local networks.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Polyamory",
-      "alignmentText": "In Japan polyamory lacks legal recognition; social acceptance varies, with urban areas more tolerant but discretion advised.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "Parenting Expectations",
-      "alignmentText": "In Japan, schools expect strong PTA involvement and uniforms. Newcomers may face conformity pressures that clash with bilingual goals.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "alignmentText": "Japan\u0027s cities are kid-friendly: safe streets and welcoming neighborhoods. Transit is excellent, but some dense districts need extra vigilance.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Schooling Options",
-      "alignmentText": "Japan public schools are solid and safe; bilingual options exist mainly via international schools. Expect planning and district-level choices.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "In Japan\u0027s urban centers (Tokyo/Osaka), municipal daycares exist but waitlists are lengthy. Bilingual options are limited; many rely on private hoikuen.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "Japan offers city subsidies and capped childcare fees, but slots are limited and enrollment paperwork can be heavy; backups advised.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "In Japan, visa families can access childcare subsidies, but expect waitlists and residency proofs; some private care may be needed.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "Japan provides universal compulsory education with safe campuses. School quality varies by municipality, with bilingual options mainly in urban areas.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "Japan public schools accept visa families, but instruction is Japanese-first with limited language support. Expect residency proofs and enrollment paperwork.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Private Education",
-      "alignmentText": "Private schools exist in Japan but vary in quality; public schools are generally strong, so private options should be thoroughly vetted.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Family Policy (Citizens)",
-      "alignmentText": "In Japan, parental leave and child allowances exist, but uptake is slow and benefits require persistent paperwork.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Family Policy (Visa Holders)",
-      "alignmentText": "Japan visa families have limited benefits; healthcare and schooling require residency, and HR/immigration guidance is often needed to access services.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Higher Education Access (Citizens)",
-      "alignmentText": "Japan offers broad access for citizens with national scholarships; expats may face language/entrance hurdles, plan for language support.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "In Japan, international students can access universities with support offices, but visa residency and guarantor requirements add friction.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Gender Roles",
-      "alignmentText": "Japan\u2019s urban centers show progress toward equality, but traditional roles and long hours persist; Sarah may still face bias despite policy efforts.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "In Japan, social acceptance is decent with active LGBTQ groups, but official documents still lag in recognizing gender-diverse identities.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "In Japan, formal gender protections exist, but leadership parity lags and pay gaps persist; social norms still limit equality.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "Japan emphasizes modest dress and kawaii style; Sarah may face subtle appearance pressure but retains growing autonomy in fashion.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "Japan\u0027s salaryman culture prioritizes long hours and stoicism; Trey may face caregiving stereotypes, though the family seeks balance and hybrid work.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "What Is Intriguing",
-      "alignmentText": "Japan\u0027s cutting-edge tech, safety, and rich pop culture align with the family\u0027s gaming hobbies. Tokyo and Osaka offer strong schools and startup opportunities.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Language \u0026 English Ubiquity",
-      "alignmentText": "In Japan, English signage exists in many urban services, but daily affairs are in Japanese; we\u0027ll study Japanese to participate fully.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Progressivism",
-      "alignmentText": "Japan\u0027s major cities push progressive values, but national policy remains mixed; expect incremental gains in rights and climate action.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "In Japan, Marxism is a minority stance; socialist ideas have modest impact, with centrist discourse and tolerant media pluralism.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Atheism",
-      "alignmentText": "In Japan, atheism is generally accepted; religion is private, though cultural rituals persist in festivals.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Sex (Attitudes)",
-      "alignmentText": "Japan\u0027s public sex discourse is cautious; sex ed varies by region. Urban Japan shows more openness and private resources, though norms remain area-dependent.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "LGBTQ\u002B Attitudes",
-      "alignmentText": "Japan\u0027s major cities host Pride and some protections; nationwide marriage equality isn\u0027t law. Rural areas are more conservative; cities are generally safer for visibility.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Community Vibes",
-      "alignmentText": "In Japan, neighborhoods are safe and polite. Deeper ties form through schools or clubs, with language effort helping integration.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of self",
-      "alignmentText": "Japan\u0027s collectivism values harmony and indirect feedback; expect modest self-presentation, which may contrast with the family\u0027s direct style.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "View of Neighboring Countries",
-      "alignmentText": "In Japan, neighbor issues are generally neutral; tensions with China/Korea appear in media, but daily life centers on family.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Japan is seen as stable and economically strong. Neighbors have mixed views, with policy disagreements that can affect travel and business.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Nightlife Culture",
-      "alignmentText": "Nightlife in Japan is concentrated in select districts; with childcare and transit planned, adults can enjoy izakaya, karaoke, and arcades.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Fashion Trends (Male)",
-      "alignmentText": "In Tokyo\u0027s urban centers, men\u0027s style is modern and expressive. Suburban areas stay more classic, so Trey can balance startup chic with conservative settings.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fashion Trends (Female)",
-      "alignmentText": "Japan\u0027s urban fashion is vibrant and diverse: Tokyo\u0027s scene covers minimalist to bold. Expect modest norms in schools/work outside big cities.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Common Hobbies",
-      "alignmentText": "Gaming, anime, board games, and crafts are well-supported in Japan. There are game cafes, clubs, and makerspaces nearby for families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Boardgaming \u0026 Tabletop",
-      "alignmentText": "Japan\u0027s major cities have active boardgame scenes with cafes and events. Many sessions run in Japanese, so translation or bilingual groups help families.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Nightlife \u0026 Music",
-      "alignmentText": "Tokyo/Osaka in Japan offer vibrant live music and game bars; solid events and fast transit support Trey\u0027s network while staying family-friendly.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Meetups \u0026 Communities",
-      "alignmentText": "In Japan\u0027s major cities, expat/tech meetups exist, but many are Japanese-first; proactive outreach helps this family with kids build local networks.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Nature Access",
-      "alignmentText": "Nature is within easy reach from Japan\u0027s cities (Mt. Takao, Nikko) by rail in a day. Trails are well-kept and kid-friendly.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Political System",
-      "alignmentText": "Japan\u0027s constitutional monarchy with a parliamentary system and regular elections offers stable democracy and strong rule of law for families in JP.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Religion in Politics",
-      "alignmentText": "Japan\u0027s policy is secular; religion rarely shapes law, and personal beliefs are respected, aligning with your progressive, pluralistic values in JP.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Workers\u0027 Rights",
-      "alignmentText": "Japan provides core worker rights and overtime pay, but enforcement is uneven. Non-regular workers and gig roles still face gaps.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "State Ideology",
-      "alignmentText": "Japan\u0027s pragmatic democracy favors stability and gradual reform. Long-dominant parties anchor policy with careful consensus, limiting rapid shifts.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Japan\u0027s independent courts and media keep checks robust; democracy remains resilient despite ruling-party dominance.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "State of Capitalism",
-      "alignmentText": "Japan\u0027s mature market is dynamic yet regulated to curb inequality. Startup grants exist, but bureaucracy can slow progress.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Stability",
-      "alignmentText": "Japan offers long-term stability with low crime and predictable governance for families. Disasters like earthquakes exist, but Japan\u0027s crisis response is strong.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "Japan\u2019s media features diverse outlets and watchdog voices. Official messaging exists, but pluralistic coverage keeps propaganda in check.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "Japan\u0027s official messaging leans toward resilience and national unity. Independent media remains essential for plural, factual viewpoints.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "Japan offers universal health care and pensions. Child benefits exist but vary by municipality and may involve eligibility hurdles.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "Public trust in Japan (Tokyo area) is solid; services are reliable. Some agencies could boost transparency to ease visas and schooling.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "Japan has very low perceived corruption with robust enforcement and watchdogs. This supports a stable rule of law for families relocating to JP.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "Japan (JP): corruption is generally very low and quickly addressed; transparent rules and strong enforcement support stable governance for families.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "Japan: family-friendly housing exists near parks and schools, but the market is competitive; upfront costs (deposits, guarantor) can lengthen searches.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Safety \u0026 Crime",
-      "alignmentText": "Japan is very safe with low violent crime; keep a close eye on the 5-year-old in transit, though most areas are secure.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "In Japan, universal coverage makes care affordable with short waits; pediatric services are strong.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Visa holders in Japan enroll in national health insurance after city registration; care is accessible; English options are limited; private insurance advised.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "Japan provides daycare subsidies and child allowances, but spaces are limited and waitlists common. Families rely on local networks and employer flexibility.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "Japan has basic family benefits and universal healthcare, but long work hours and small apartments limit real relief for families.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Education",
-      "alignmentText": "Japan offers strong early education and safe campuses; however, academic pressure and long hours require balancing activities and bilingual exposure.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "Japan has a comprehensive, punctual transit system with Shinkansen and IC cards. It is stroller-friendly and safe for family trips.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "Japan\u0027s stable, high-skill market supports growth, but startup reform and reduced bureaucracy are still evolving to help indie ventures.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "Japan\u0027s e-Tax is primarily in Japanese; employees have taxes withheld by employers. Freelancers filing self-employment income often need an accountant.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "In Japan (JP), combined national/local taxes plus social insurance for a dual-tech family run around 22\u201328%, roughly mid-20s.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Banking \u0026 Payments",
-      "alignmentText": "Japan relies on cash in many transactions; IC cards and online banking are common after account setup, though foreigners face lengthy paperwork.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "Tokyo rents and childcare are pricey for a family of four. Expect tight budgets despite universal healthcare and subsidies.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Retirement (Citizens)",
-      "alignmentText": "Japan\u0027s public pension is modest; expect private savings and possible employer plans for retirement. Healthcare is universal, long-term care managed separately.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "Japan\u0027s public pension is available to visa workers after required contribution years. Leaving Japan can yield a lump-sum refund; long-term stay improves retirement benefits.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Visa Paths",
-      "alignmentText": "Japan offers Engineer/Highly Skilled and startup visas (prefectural programs); criteria are clear, but paperwork and funding can be substantial.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "In Japan\u0027s cities, US migrants face cautious openness; tech hubs welcome talent, but social integration and language effort are needed.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Residency Types \u0026 Durations",
-      "alignmentText": "Japan offers multiple visa routes (work, highly skilled, startup) with 1\u20135 year renewals. PR generally after 5\u201310 years of stable income.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Path to Citizenship",
-      "alignmentText": "Naturalization in Japan is possible after about 5 years of residence with language requirements; dual citizenship is not allowed, requiring renunciation.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Family Members",
-      "alignmentText": "Japan grants dependent visas for spouses and minors; adult dependents require separate routes. A two-adult, two-child family can qualify with sponsorship.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Timelines \u0026 Costs",
-      "alignmentText": "Japan visa process for US families; first-time apps will require translations and guarantors; timelines up to a year with moderate fees.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Compliance \u0026 Risks",
-      "alignmentText": "In Japan, address changes and visa reporting are strict. Timely, accurate filings are essential for first-time US applicants.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Dual Citizenship Allowed",
-      "alignmentText": "Japan generally disallows dual citizenship. Children would need to choose one nationality by adulthood, limiting US\u2013Japan options for the family.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "General Considerations for Visa Holders",
-      "alignmentText": "Japan housing often needs a guarantor and a local address; phones require JP plans. As first-time visa holders, expect paperwork and employer help.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Game Dev Work Prospects",
-      "alignmentText": "Japan\u0027s mature game scene (Tokyo) offers regular openings. Networking and some Japanese language help Trey\u0027s Unity/C#/Azure fit, with grants and remote work.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Hiring Velocity (Established Studios)",
-      "alignmentText": "Japan-based studios often take ~3 months to fill roles due to visa processing; expect relocation/visa timelines for Trey and Sarah.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Compensation Benchmark (Established Studios)",
-      "alignmentText": "Pay at established Japanese studios is near global median after cost of living; strong family benefits support work-life in Tokyo.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Established Studios)",
-      "alignmentText": "In Japan, established studios rely on English for cross-border work. Daily life and many docs still occur in Japanese.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote Expectations (Established Studios)",
-      "alignmentText": "In Japan, established studios typically offer hybrid or case-by-case remote work, balancing the family\u0027s childcare needs.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Notable Game Studios",
-      "alignmentText": "Notable studios include Nintendo, Capcom, FromSoftware, Bandai Namco, and Atlus with strong activity in Tokyo and Osaka. Tokyo Game Show and related events boost networking.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "Tokyo and Osaka host indie game meetups and online hubs. Some groups are English-friendly, but events are often Japanese-led.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Japan has startup visas and grants, but high costs and uneven English support raise barriers; viable with bilingual teams and local funding in Tokyo.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Hiring Velocity (Startups)",
-      "alignmentText": "In Fukuoka, Japan, startup hiring often takes 4-6 months; budget for longer searches and use remote options for founder-led roles.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Compensation Benchmark (Startups)",
-      "alignmentText": "In Japan, startups blend cash \u002B equity; Tokyo-area packages balance runway with equity, helpful for families amid higher living costs.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentText": "In Japan, English is widely used for investor and platform communications. Strong local-language marketing and compliance support aids hiring and operations.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentText": "Japan\u0027s startups remain on-site focused; hybrid roles exist but require negotiation. This aligns with the family\u0027s need for remote or hybrid options in Japan.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Modernity \u0026 Infrastructure",
-      "alignmentText": "Bullet trains, resilient grids, and widespread fiber backbones keep Japan\u0027s modern infrastructure fast and reliable for work and gaming.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Seasonal Extremes \u0026 Variability",
-      "alignmentText": "Japan\u0027s seasons are generally predictable, but summers are hot and humid with occasional typhoons. Plan for storms, humidity gear, and contingency time.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Sunlight Hours",
-      "alignmentText": "Japan offers noticeable winter dimness but strong summer daylight; stay energized with regular outdoor breaks and occasional light exposure.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pleasant Weather Windows",
-      "alignmentText": "In Japan, spring and autumn are pleasant; summers are humid and winters chilly, so outdoor plans shine in late spring and fall.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Quality of Life \u2013 Lower-Income Tier",
-      "alignmentText": "In Japan, universal healthcare and safety nets help; urban housing costs and daycare waitlists can strain lower-income families.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Quality of Life \u2013 Middle-Income Tier",
-      "alignmentText": "Japan offers universal healthcare and solid public services. A two-child middle-income family can live in suburbs with careful budgeting.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Quality of Life \u2013 Higher-Income Tier",
-      "alignmentText": "In Japan, premium services exist; most luxury options are available, though some niche experiences may require planning or early booking.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "Japan markets rarely offer 2k sq ft rentals outside major metros; expect fierce competition and high rents. Consider outer suburbs near Tokyo or Osaka.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Community Living Opportunities",
-      "alignmentText": "Japan has niche intentional communities; family-friendly co-housing exists mainly in Tokyo/Osaka, but options are limited and patience helps.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Friendliness \u0026 Neighborliness Index",
-      "alignmentText": "In Japan, locals are polite and open when we take the initiative; expect gradual bonding as we engage expat and community networks.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 General",
-      "alignmentText": "In Japan, immigrants are tolerated but face bureaucratic hurdles. Tokyo/Osaka expat circles exist, yet national discourse can be wary.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 White Migrants",
-      "alignmentText": "In Japan, white migrants are generally welcomed if you learn Japanese and engage locally; a few circles may question long-term commitment.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Surface Interaction Norms",
-      "alignmentText": "Japan\u0027s service is courteous and efficient; small talk is uncommon, so warmth isn\u0027t routine and must be initiated through polite, precise interactions.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Depth-Seeking Social Norms",
-      "alignmentText": "Japan tends to reserve depth; trust builds slowly. Regular clubs and language exchanges help Trey, Sarah, and kids form close friendships.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Personal Boundary \u0026 Bubble Norms",
-      "alignmentText": "Japan (Tokyo) crowds can compress personal space. We will advocate gently for comfort while respecting local etiquette.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Moral, Honesty \u0026 Openness Expectations",
-      "alignmentText": "In Japan, honesty is tempered by cultural nuance; discuss needs with tact to protect family harmony.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Grooming \u0026 Beauty Investment",
-      "alignmentText": "Japan\u0027s work and school culture values neat, modest grooming. Budget extra time and money to stay polished in professional and social spaces.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Body Image \u0026 Fitness Pressure",
-      "alignmentText": "In Japan, body expectations surface in social circles and schools. Attitudes vary by city; practice supportive, non-shaming dialogue.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Fashion \u0026 Style Expectations",
-      "alignmentText": "In Japan\u0027s cities, neat, respectful attire is common; casual family wear is fine in parks, but polished looks matter in offices and shops.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Flirting Boundaries \u0026 Consent Culture",
-      "alignmentText": "Japan has mixed consent norms; some settings are respectful, others outdated. Be proactive about safety in transit and social settings with your family.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gendered Flirting Expectations",
-      "alignmentText": "In Japan (Tokyo), gender scripts are modernizing; most spaces are inclusive, but nightlife still shows traditional cues. Navigate with openness.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "In Japan, non-monogamy faces stigma and limited legal protections. Openness could affect housing or custody, so discretion matters.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "alignmentText": "In Japan, attitudes split; urban enclaves like Tokyo are more open to relationships, while rural areas may stigmatize casual sex.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
-      "alignmentText": "In Japan, non-monogamy faces limited legal recognition. Disclosure can invite scrutiny and housing/custody challenges.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Personal Space \u0026 Touch Norms",
-      "alignmentText": "JP: In Japan, personal space is respected; trains are crowded, plan for quieter times and explicit consent before touch.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Firearm Laws \u0026 Ownership Culture",
-      "alignmentText": "In Japan (JP), strict gun laws and near-zero civilian ownership create a calm, low-exposure environment for the family.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Controlled Substance Policies",
-      "alignmentText": "Japan enforces strict drug laws; even small offenses can bring heavy penalties and immigration consequences for foreigners.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "Enforcement in Japan is targeted with occasional crackdowns; most areas feel controlled, but residents remain wary in big cities.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "In Japan, mass violence is uncommon; authorities communicate clearly, and safety culture plus strict gun laws support calm communities.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Carceral Conditions \u0026 Prison Labor",
-      "alignmentText": "In Japan, carceral conditions are generally decent with oversight. A few facilities lag in services and transparency.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Walkability \u0026 Pedestrian Safety",
-      "alignmentText": "Japan\u0027s cities are highly walkable with safe crossings and dense sidewalks; ideal for a family, though a few busy corridors require caution.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Health Consciousness",
-      "alignmentText": "Japan offers universal healthcare and strong public health messaging; in urban Japan, find like-minded wellness groups to stay motivated.",
-      "alignmentValue": 7,
-      "sameAsParent": true
-    },
-    {
-      "key": "Processed Food Saturation",
-      "alignmentText": "Japan offers strong fresh markets and seafood as staples; convenience stores provide ready meals, so with planning healthy options are accessible.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fresh \u0026 International Cuisine Access",
-      "alignmentText": "In Japan\u0027s major cities, fresh markets and diverse dining are plentiful; multicultural options are common with only rare gaps.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "In Japan, depression prevalence is moderate; urban clinics offer care, but some wait times and language barriers may slow expat access.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Obesity Rate",
-      "alignmentText": "Japan has very low obesity rates thanks to walkable cities and universal healthcare. Youth obesity remains rare, supporting active school life and recreation.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Cancer Incidence",
-      "alignmentText": "Japan\u0027s cancer incidence aligns with global norms. Strong screening and universal healthcare support early detection.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "Japan (JP) has a diverse economy with solid resilience; foreigners may face longer hiring cycles\u2014plan upskilling and explore startup grants/visa routes.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Studio Density",
-      "alignmentText": "Japan hosts a dense game/animation ecosystem, centered in Tokyo/Osaka; hundreds of studios across AAA to indie, with strong grants and co-dev options.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Anchor Employers",
-      "alignmentText": "Japan features flagship anchors like Nintendo (Kyoto) and Sony/Capcom in Tokyo, offering robust studios and formal training paths for game/tech careers.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "Japan has a growing game-dev vendor scene (art/QA/audio); capacity varies, and language barriers may slow outsourcing in Tokyo/Osaka.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Education Pipeline Strength",
-      "alignmentText": "Japan has several game-focused programs with studio ties. Curricula often requires supplemental industry training.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Continuing Education Availability",
-      "alignmentText": "Japan\u0027s major cities have occasional bootcamps and meetups. Some English options exist in Tokyo, but waitlists and Japanese language needs persist.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Community Activity",
-      "alignmentText": "In Japan, Tokyo/Osaka host regular indie game dev meetups and game jams, plus monthly tech events, sustaining a connected developer and expat community.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Engine Community Bias",
-      "alignmentText": "In Japan, Unity dominates game dev (mobile/indie); Unreal exists in larger studios; active local meetups enable cross-training.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "Japan\u0027s Tokyo game scene blends strong real-time pipelines with cinematic work; excellent latency and cloud access support Trey\u0027s needs.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Demand\u2013Supply Balance",
-      "alignmentText": "Japan\u0027s tech market has persistent talent gaps for bilingual developers; firms may need relocation incentives or remote hiring to fill roles.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Retention \u0026 Churn Risk",
-      "alignmentText": "Japan\u0027s startup scene has funding-cycle churn. For a US-founded family team in JP, visa and language hurdles raise retention risk to a moderate-high level.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Diversity \u0026 Inclusion Index",
-      "alignmentText": "Japan\u0027s D\u0026I exists but representation lags Western peers; Tokyo-area firms show progress, yet gender/LGBTQ\u002B gaps persist.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "In Japan, R\u0026D tax credits and content subsidies exist; game incentives are present but vary and funding can be unpredictable.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Economic/Policy Stability",
-      "alignmentText": "Japan has startup visa options and grants; policy shifts are occasional and manageable, though bureaucracy can slow approvals for founders.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Founder/Operator Community",
-      "alignmentText": "Japan\u0027s Tokyo startup scene shows a growing founder network with regular meetups and mentors. Families can access supportive ecosystems, with grants and accelerators in Tokyo.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Early-Stage Capital Access",
-      "alignmentText": "Japan has mixed-capital support and public grants for games. Funding remains competitive; consider remote or international investors.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Accelerator/Incubator Access",
-      "alignmentText": "Japan (JP) has sporadic game-focused cohorts. No large, dedicated game accelerators exist; mostly general startup programs.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Senior Talent Availability",
-      "alignmentText": "Japan offers a moderate senior startup talent pool; Tokyo/Osaka have options, but language gaps and competition may require remote or abroad hires.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Contractor/Freelancer Bench",
-      "alignmentText": "Japan offers a serviceable IT/game-dev contractor pool, with pockets of scarcity in niche skills. English-speaking freelancers may have longer lead times.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Coworking \u0026 Startup Infrastructure",
-      "alignmentText": "Japan has solid coworking in Tokyo and major cities. Game-dev gear like mocap is limited, but the ecosystem and startup programs are strong.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Legal \u0026 IP Support",
-      "alignmentText": "Japan offers reliable game IP support with Tokyo/Osaka firms and clinics. English-friendly counsel aids cross-border licensing, though pricing varies.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Publisher/Platform Relationships",
-      "alignmentText": "In Japan, publisher access is limited; rely on occasional local engagement and remote outreach for partnerships.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Market Research \u0026 Playtesting",
-      "alignmentText": "Japan has reliable playtesting groups and survey providers in Tokyo and Osaka; the gaming culture supports timely, local feedback for Trey\u0027s dev efforts.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Government/Startup Visas",
-      "alignmentText": "Japan offers startup/business manager routes in Tokyo and Fukuoka, with local support; timelines vary and documentation can add friction.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Cost of Doing Business",
-      "alignmentText": "Japan costs are slightly elevated (Tokyo rents high), but incentives/grants help; plan for payroll, space, and childcare in your budget.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "Japan (JP): Moderate 3D character artist pool; Tokyo/Osaka studios hire steadily, but language and visa hurdles slow senior fills.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "Japan has several reputable 3D character programs in Tokyo/Osaka that consistently feed grads into game/film studios. Strong industry links help placement.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "Japan offers occasional 3D/CG workshops and bootcamps (Tokyo/Osaka). Most upskilling is via remote courses.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "Japan\u0027s market for 3D character artists is competitive. Expect 2\u20133 months to hire with bilingual candidates in Tokyo or Osaka.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "Japan: 3D character artist pay ~25\u201330% below top markets; lifestyle advantages and family-friendly policies help offset, aiding relocation decisions.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "3D Character Artist: Language",
-      "alignmentText": "In Japan, 3D character artists largely use Japanese; English speakers cluster in multinational studios in Tokyo. For indie teams, Japanese dominates.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "3D Character Artist: Remote Expectations",
-      "alignmentText": "Remote work for 3D character artists exists in Japan but is limited to senior roles. Hybrid models with on-site collaboration near Tokyo are common.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Talent Pool",
-      "alignmentText": "Japan\u0027s 3D animation scene is strong, centering in Tokyo; solid mix of mid-to-senior talent and active outsourcing networks.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "Japan has several strong 3D animation programs (universities and private schools) feeding studios with solid grads. Tokyo and Osaka hubs support game and film pipelines.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "Japan\u0027s urban centers offer regular 3D animation short courses and studio workshops with strong instructors, aligning with the family\u0027s education priorities.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "Japan (JP): 3D animator hiring typically 3-4 months; Tokyo/Osaka pools are active but competitive; bilingual or remote talent with relocation help.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "Japan: 3D animator pay trails top markets by ~25\u201330%. Salaries run around 4\u20136M JPY with standard benefits.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "3D Animator: Language",
-      "alignmentText": "In Japan (Tokyo area), 3D animation is mostly Japanese-speaking; English-speaking talent exists mainly in multinationals, so bilingual candidates help.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "3D Animator: Remote Expectations",
-      "alignmentText": "In Japan (Tokyo), studios often require onsite collaboration, but hybrid/partial remote 3D animator roles are increasingly available.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "Japan offers a strong 2D environmental artist pool in Tokyo/Osaka; mid-level talent is common, seniors competitive; relocation and remote options help.",
+      "key": "2D Environmental Artist: Continuing Education Availability",
+      "alignmentText": "Tokyo/Osaka offer regular 2D environmental art courses and workshops with solid instructors; most programs are in Japanese, with some English options.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -1012,21 +25,9 @@
       "alignmentValue": 9
     },
     {
-      "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "Tokyo/Osaka offer regular 2D environmental art courses and workshops with solid instructors; most programs are in Japanese, with some English options.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
       "key": "2D Environmental Artist: Hiring Velocity",
       "alignmentText": "In Japan, 2D environmental artist roles typically run 3-4 months. Relocation/visa steps can extend timelines.",
       "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "Japan market for 2D environmental artists trails top NA hubs by ~10\u201315%; competitive packages with studio benefits in Tokyo-area, but overall pay may be modest.",
-      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
@@ -1040,44 +41,204 @@
       "alignmentValue": 9
     },
     {
-      "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "Japan\u0027s Tokyo-area real-time VFX talent is solid, with active game/film studios. Senior roles are competitive; startups may need relocation or remote hiring.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "Japan offers multiple CG/VFX programs in Tokyo/Osaka; real-time VFX pipelines are growing but graduates may need upskilling.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "Japan offers occasional VFX real-time workshops and remote courses. Tokyo and Osaka host some events, with strong online options for skill upkeep.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "Japan\u0027s real-time VFX hiring typically takes 3\u20134 months. Proactive sourcing or relocation to Tokyo-area studios improves outcomes.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "VFX Real-Time pay in Japan roughly tracks global medians after cost of living; Tokyo studios offer solid benefits, but top hubs pay more.",
+      "key": "2D Environmental Artist: Talent Pool",
+      "alignmentText": "Japan offers a strong 2D environmental artist pool in Tokyo/Osaka; mid-level talent is common, seniors competitive; relocation and remote options help.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Language",
-      "alignmentText": "In Japan, real-time VFX studios mix Japanese and English; Tokyo firms are bilingual-friendly, but some roles need Japanese-language support.",
+      "key": "3D Animator: Compensation Benchmark",
+      "alignmentText": "Japan: 3D animator pay trails top markets by ~25\u201330%. Salaries run around 4\u20136M JPY with standard benefits.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "3D Animator: Continuing Education Availability",
+      "alignmentText": "Japan\u0027s urban centers offer regular 3D animation short courses and studio workshops with strong instructors, aligning with the family\u0027s education priorities.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Education Pipeline Strength",
+      "alignmentText": "Japan has several strong 3D animation programs (universities and private schools) feeding studios with solid grads. Tokyo and Osaka hubs support game and film pipelines.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Hiring Velocity",
+      "alignmentText": "Japan (JP): 3D animator hiring typically 3-4 months; Tokyo/Osaka pools are active but competitive; bilingual or remote talent with relocation help.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Language",
+      "alignmentText": "In Japan (Tokyo area), 3D animation is mostly Japanese-speaking; English-speaking talent exists mainly in multinationals, so bilingual candidates help.",
       "alignmentValue": 6
     },
     {
-      "key": "VFX Artist (Real-Time): Remote Expectations",
-      "alignmentText": "In Japan (Tokyo area): remote work for real-time VFX exists but is limited to senior/contract roles; expect frequent onsite collaboration.",
+      "key": "3D Animator: Remote Expectations",
+      "alignmentText": "In Japan (Tokyo), studios often require onsite collaboration, but hybrid/partial remote 3D animator roles are increasingly available.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "3D Animator: Talent Pool",
+      "alignmentText": "Japan\u0027s 3D animation scene is strong, centering in Tokyo; solid mix of mid-to-senior talent and active outsourcing networks.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Compensation Benchmark",
+      "alignmentText": "Japan: 3D character artist pay ~25\u201330% below top markets; lifestyle advantages and family-friendly policies help offset, aiding relocation decisions.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "3D Character Artist: Continuing Education Availability",
+      "alignmentText": "Japan offers occasional 3D/CG workshops and bootcamps (Tokyo/Osaka). Most upskilling is via remote courses.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Education Pipeline Strength",
+      "alignmentText": "Japan has several reputable 3D character programs in Tokyo/Osaka that consistently feed grads into game/film studios. Strong industry links help placement.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "3D Character Artist: Hiring Velocity",
+      "alignmentText": "Japan\u0027s market for 3D character artists is competitive. Expect 2\u20133 months to hire with bilingual candidates in Tokyo or Osaka.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Language",
+      "alignmentText": "In Japan, 3D character artists largely use Japanese; English speakers cluster in multinational studios in Tokyo. For indie teams, Japanese dominates.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "3D Character Artist: Remote Expectations",
+      "alignmentText": "Remote work for 3D character artists exists in Japan but is limited to senior roles. Hybrid models with on-site collaboration near Tokyo are common.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Talent Pool",
+      "alignmentText": "Japan (JP): Moderate 3D character artist pool; Tokyo/Osaka studios hire steadily, but language and visa hurdles slow senior fills.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Accelerator/Incubator Access",
+      "alignmentText": "Japan (JP) has sporadic game-focused cohorts. No large, dedicated game accelerators exist; mostly general startup programs.",
       "alignmentValue": 7
     },
     {
-      "key": "Community Manager: Talent Pool",
-      "alignmentText": "Japan (Tokyo/Osaka): solid community manager talent pool with mid-level pros; senior roles cluster at major studios, but outsourcing broadens sourcing.",
+      "key": "Air Quality",
+      "alignmentText": "Japan\u0027s air quality is generally good. Expect seasonal kosa dust and pollen days near cities, with portable filters sometimes helpful.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Anchor Employers",
+      "alignmentText": "Japan features flagship anchors like Nintendo (Kyoto) and Sony/Capcom in Tokyo, offering robust studios and formal training paths for game/tech careers.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "In Japan, atheism is generally accepted; religion is private, though cultural rituals persist in festivals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Japan\u0027s independent courts and media keep checks robust; democracy remains resilient despite ruling-party dominance.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "Japan relies on cash in many transactions; IC cards and online banking are common after account setup, though foreigners face lengthy paperwork.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Japan offers usable beaches within train reach of major cities, but summer crowds are typical. Plan trips to family-friendly spots like Shonan or Okinawa ahead.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "Japan\u0027s major cities have active boardgame scenes with cafes and events. Many sessions run in Japanese, so translation or bilingual groups help families.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "In Japan, body expectations surface in social circles and schools. Attitudes vary by city; practice supportive, non-shaming dialogue.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Japan (JP) has a diverse economy with solid resilience; foreigners may face longer hiring cycles\u2014plan upskilling and explore startup grants/visa routes.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "Japan\u0027s cancer incidence aligns with global norms. Strong screening and universal healthcare support early detection.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "In Japan, carceral conditions are generally decent with oversight. A few facilities lag in services and transparency.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Japan provides daycare subsidies and child allowances, but spaces are limited and waitlists common. Families rely on local networks and employer flexibility.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Japan\u0027s cities are kid-friendly: safe streets and welcoming neighborhoods. Transit is excellent, but some dense districts need extra vigilance.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Japan offers city subsidies and capped childcare fees, but slots are limited and enrollment paperwork can be heavy; backups advised.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "In Japan, visa families can access childcare subsidies, but expect waitlists and residency proofs; some private care may be needed.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Gaming, anime, board games, and crafts are well-supported in Japan. There are game cafes, clubs, and makerspaces nearby for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Activity",
+      "alignmentText": "In Japan, Tokyo/Osaka host regular indie game dev meetups and game jams, plus monthly tech events, sustaining a connected developer and expat community.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "Japan offers universal healthcare and strong public health messaging; in urban Japan, find like-minded wellness groups to stay motivated.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Japan has niche intentional communities; family-friendly co-housing exists mainly in Tokyo/Osaka, but options are limited and patience helps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Community Manager: Compensation Benchmark",
+      "alignmentText": "Japan (Tokyo): community-manager comp generally trails top markets by ~20%, but strong benefits and expat-friendly packages attract talent.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Manager: Continuing Education Availability",
+      "alignmentText": "Japan (Tokyo): occasional community manager trainings and online groups exist; local options are limited, so most learning is remote.",
       "alignmentValue": 7
     },
     {
@@ -1087,20 +248,9 @@
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "Japan (Tokyo): occasional community manager trainings and online groups exist; local options are limited, so most learning is remote.",
-      "alignmentValue": 7
-    },
-    {
       "key": "Community Manager: Hiring Velocity",
       "alignmentText": "Japan has bilingual CM talent in Tokyo/Osaka, but hires take 3-4 months; plan proactive sourcing and possible relocation; remote/hybrid feasible.",
       "alignmentValue": 6
-    },
-    {
-      "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "Japan (Tokyo): community-manager comp generally trails top markets by ~20%, but strong benefits and expat-friendly packages attract talent.",
-      "alignmentValue": 6,
-      "sameAsParent": false
     },
     {
       "key": "Community Manager: Language",
@@ -1113,9 +263,534 @@
       "alignmentValue": 8
     },
     {
-      "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "Japan\u0027s game marketing PMM pool is solid with senior pros; many roles favor Japanese. Expect strong local talent with language needs.",
+      "key": "Community Manager: Talent Pool",
+      "alignmentText": "Japan (Tokyo/Osaka): solid community manager talent pool with mid-level pros; senior roles cluster at major studios, but outsourcing broadens sourcing.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "In Japan, neighborhoods are safe and polite. Deeper ties form through schools or clubs, with language effort helping integration.",
       "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "Pay at established Japanese studios is near global median after cost of living; strong family benefits support work-life in Tokyo.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "In Japan, startups blend cash \u002B equity; Tokyo-area packages balance runway with equity, helpful for families amid higher living costs.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "In Japan, address changes and visa reporting are strict. Timely, accurate filings are essential for first-time US applicants.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Continuing Education Availability",
+      "alignmentText": "Japan\u0027s major cities have occasional bootcamps and meetups. Some English options exist in Tokyo, but waitlists and Japanese language needs persist.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Contractor/Freelancer Bench",
+      "alignmentText": "Japan offers a serviceable IT/game-dev contractor pool, with pockets of scarcity in niche skills. English-speaking freelancers may have longer lead times.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Japan enforces strict drug laws; even small offenses can bring heavy penalties and immigration consequences for foreigners.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Cost of Doing Business",
+      "alignmentText": "Japan costs are slightly elevated (Tokyo rents high), but incentives/grants help; plan for payroll, space, and childcare in your budget.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Tokyo rents and childcare are pricey for a family of four. Expect tight budgets despite universal healthcare and subsidies.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Japan has solid coworking in Tokyo and major cities. Game-dev gear like mocap is limited, but the ecosystem and startup programs are strong.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Japan\u0027s tech market has persistent talent gaps for bilingual developers; firms may need relocation incentives or remote hiring to fill roles.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "In Japan, depression prevalence is moderate; urban clinics offer care, but some wait times and language barriers may slow expat access.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "Japan tends to reserve depth; trust builds slowly. Regular clubs and language exchanges help Trey, Sarah, and kids form close friendships.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Japan\u0027s D\u0026I exists but representation lags Western peers; Tokyo-area firms show progress, yet gender/LGBTQ\u002B gaps persist.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "Enforcement in Japan is targeted with occasional crackdowns; most areas feel controlled, but residents remain wary in big cities.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Japan generally disallows dual citizenship. Children would need to choose one nationality by adulthood, limiting US\u2013Japan options for the family.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Early Stage Grants Available",
+      "alignmentText": "Japan offers modest early-stage grants via local govs and accelerators; expect about $75k\u2013$150k for a game-dev startup.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Early-Stage Capital Access",
+      "alignmentText": "Japan has mixed-capital support and public grants for games. Funding remains competitive; consider remote or international investors.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Japan has low unemployment and mild inflation, but aging demographics slow startup growth. For Trey, access to grants and startup visas matters.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Japan\u0027s stable, high-skill market supports growth, but startup reform and reduced bureaucracy are still evolving to help indie ventures.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Economic/Policy Stability",
+      "alignmentText": "Japan has startup visa options and grants; policy shifts are occasional and manageable, though bureaucracy can slow approvals for founders.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Japan offers strong early education and safe campuses; however, academic pressure and long hours require balancing activities and bilingual exposure.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Education Pipeline Strength",
+      "alignmentText": "Japan has several game-focused programs with studio ties. Curricula often requires supplemental industry training.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Japan\u0027s large tech firms sponsor engineer visas, but for a US family the process adds paperwork and quotas. Dependents require extra documents.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Engine Community Bias",
+      "alignmentText": "In Japan, Unity dominates game dev (mobile/indie); Unreal exists in larger studios; active local meetups enable cross-training.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "Tokyo, Japan offers good environmental quality with parks and quick trips to wooded mountains nearby. Cedar pollen season means plan outdoor time.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "In Japan (JP), combined national/local taxes plus social insurance for a dual-tech family run around 22\u201328%, roughly mid-20s.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Japan autumn is mild on most days (15-22\u00B0C); brief typhoon showers may occur but tend to pass quickly.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Japan offers safe streets, strong public schools, and parks; language barriers and long work hours may require active local networks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Japan grants dependent visas for spouses and minors; adult dependents require separate routes. A two-adult, two-child family can qualify with sponsorship.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "In Japan, parental leave and child allowances exist, but uptake is slow and benefits require persistent paperwork.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Japan has basic family benefits and universal healthcare, but long work hours and small apartments limit real relief for families.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Japan visa families have limited benefits; healthcare and schooling require residency, and HR/immigration guidance is often needed to access services.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "In Japan\u0027s cities, neat, respectful attire is common; casual family wear is fine in parks, but polished looks matter in offices and shops.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Japan\u0027s urban fashion is vibrant and diverse: Tokyo\u0027s scene covers minimalist to bold. Expect modest norms in schools/work outside big cities.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "In Tokyo\u0027s urban centers, men\u0027s style is modern and expressive. Suburban areas stay more classic, so Trey can balance startup chic with conservative settings.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Japan emphasizes modest dress and kawaii style; Sarah may face subtle appearance pressure but retains growing autonomy in fashion.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "In Japan (JP), strict gun laws and near-zero civilian ownership create a calm, low-exposure environment for the family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "Japan has mixed consent norms; some settings are respectful, others outdated. Be proactive about safety in transit and social settings with your family.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Founder/Operator Community",
+      "alignmentText": "Japan\u0027s Tokyo startup scene shows a growing founder network with regular meetups and mentors. Families can access supportive ecosystems, with grants and accelerators in Tokyo.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "In Japan\u0027s major cities, fresh markets and diverse dining are plentiful; multicultural options are common with only rare gaps.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "In Japan, locals are polite and open when we take the initiative; expect gradual bonding as we engage expat and community networks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Japan\u0027s mature game scene (Tokyo) offers regular openings. Networking and some Japanese language help Trey\u0027s Unity/C#/Azure fit, with grants and remote work.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "In Japan, social acceptance is decent with active LGBTQ groups, but official documents still lag in recognizing gender-diverse identities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "In Japan, formal gender protections exist, but leadership parity lags and pay gaps persist; social norms still limit equality.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Japan\u2019s urban centers show progress toward equality, but traditional roles and long hours persist; Sarah may still face bias despite policy efforts.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "In Japan (Tokyo), gender scripts are modernizing; most spaces are inclusive, but nightlife still shows traditional cues. Navigate with openness.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "Japan housing often needs a guarantor and a local address; phones require JP plans. As first-time visa holders, expect paperwork and employer help.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Japan\u2019s coasts face stronger typhoons, rising seas, and heatwaves. Actively plan housing reinforcement and disaster insurance for the family.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Government/Startup Visas",
+      "alignmentText": "Japan offers startup/business manager routes in Tokyo and Fukuoka, with local support; timelines vary and documentation can add friction.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "Japan\u0027s work and school culture values neat, modest grooming. Budget extra time and money to stay polished in professional and social spaces.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "In Japan, non-monogamy faces limited legal recognition. Disclosure can invite scrutiny and housing/custody challenges.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "In Japan, universal coverage makes care affordable with short waits; pediatric services are strong.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Visa holders in Japan enroll in national health insurance after city registration; care is accessible; English options are limited; private insurance advised.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Japan offers broad access for citizens with national scholarships; expats may face language/entrance hurdles, plan for language support.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "In Japan, international students can access universities with support offices, but visa residency and guarantor requirements add friction.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Hiring Velocity (Established Studios)",
+      "alignmentText": "Japan-based studios often take ~3 months to fill roles due to visa processing; expect relocation/visa timelines for Trey and Sarah.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Hiring Velocity (Startups)",
+      "alignmentText": "In Fukuoka, Japan, startup hiring often takes 4-6 months; budget for longer searches and use remote options for founder-led roles.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Japan: family-friendly housing exists near parks and schools, but the market is competitive; upfront costs (deposits, guarantor) can lengthen searches.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Japan\u0027s e-Tax is primarily in Japanese; employees have taxes withheld by employers. Freelancers filing self-employment income often need an accountant.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "In Japan, immigrants are tolerated but face bureaucratic hurdles. Tokyo/Osaka expat circles exist, yet national discourse can be wary.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "In Japan, white migrants are generally welcomed if you learn Japanese and engage locally; a few circles may question long-term commitment.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Japan provides universal compulsory education with safe campuses. School quality varies by municipality, with bilingual options mainly in urban areas.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "Japan public schools accept visa families, but instruction is Japanese-first with limited language support. Expect residency proofs and enrollment paperwork.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "In Japan, English signage exists in many urban services, but daily affairs are in Japanese; we\u0027ll study Japanese to participate fully.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Language (Established Studios)",
+      "alignmentText": "In Japan, established studios rely on English for cross-border work. Daily life and many docs still occur in Japanese.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language (Startups)",
+      "alignmentText": "In Japan, English is widely used for investor and platform communications. Strong local-language marketing and compliance support aids hiring and operations.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Japan offers reliable game IP support with Tokyo/Osaka firms and clinics. English-friendly counsel aids cross-border licensing, though pricing varies.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "Japan\u0027s major cities host Pride and some protections; nationwide marriage equality isn\u0027t law. Rural areas are more conservative; cities are generally safer for visibility.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Japan has reliable playtesting groups and survey providers in Tokyo and Osaka; the gaming culture supports timely, local feedback for Trey\u0027s dev efforts.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "In Japan, Marxism is a minority stance; socialist ideas have modest impact, with centrist discourse and tolerant media pluralism.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Japan\u0027s salaryman culture prioritizes long hours and stoicism; Trey may face caregiving stereotypes, though the family seeks balance and hybrid work.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "In Japan, mass violence is uncommon; authorities communicate clearly, and safety culture plus strict gun laws support calm communities.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "In Japan\u0027s major cities, expat/tech meetups exist, but many are Japanese-first; proactive outreach helps this family with kids build local networks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Japan\u0027s minimum wage varies by prefecture; even Tokyo at about \u00A51,013/h often struggles to cover housing and childcare, so dual incomes are prudent.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "Bullet trains, resilient grids, and widespread fiber backbones keep Japan\u0027s modern infrastructure fast and reliable for work and gaming.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "In Japan, non-monogamy faces stigma and limited legal protections. Openness could affect housing or custody, so discretion matters.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "In Japan, honesty is tempered by cultural nuance; discuss needs with tact to protect family harmony.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Japan provides easy rail-access nature: Mt. Takao or Hakone hikes, onsens, and coastlines for frequent family outdoor weekends.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Japan\u0027s frequent quakes and typhoons are well managed with strict building codes and early warnings; risk remains moderate but recoveries are quick.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Nature is within easy reach from Japan\u0027s cities (Mt. Takao, Nikko) by rail in a day. Trails are well-kept and kid-friendly.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Tokyo/Osaka in Japan offer vibrant live music and game bars; solid events and fast transit support Trey\u0027s network while staying family-friendly.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Nightlife in Japan is concentrated in select districts; with childcare and transit planned, adults can enjoy izakaya, karaoke, and arcades.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Tokyo and Osaka host indie game meetups and online hubs. Some groups are English-friendly, but events are often Japanese-led.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Notable studios include Nintendo, Capcom, FromSoftware, Bandai Namco, and Atlus with strong activity in Tokyo and Osaka. Tokyo Game Show and related events boost networking.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Japan has very low obesity rates thanks to walkable cities and universal healthcare. Youth obesity remains rare, supporting active school life and recreation.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Japan has startup visas and grants, but high costs and uneven English support raise barriers; viable with bilingual teams and local funding in Tokyo.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "In Japan, many suburbs offer calmer, family-friendly rhythms\u2014slower than a typical US metro. With planning, we can balance work and downtime in JP.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "In Japan, schools expect strong PTA involvement and uniforms. Newcomers may face conformity pressures that clash with bilingual goals.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Naturalization in Japan is possible after about 5 years of residence with language requirements; dual citizenship is not allowed, requiring renunciation.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Japan has very low perceived corruption with robust enforcement and watchdogs. This supports a stable rule of law for families relocating to JP.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "Japan (Tokyo) crowds can compress personal space. We will advocate gently for comfort while respecting local etiquette.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "JP: In Japan, personal space is respected; trains are crowded, plan for quieter times and explicit consent before touch.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "In Japan, spring and autumn are pleasant; summers are humid and winters chilly, so outdoor plans shine in late spring and fall.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "Japan\u0027s constitutional monarchy with a parliamentary system and regular elections offers stable democracy and strong rule of law for families in JP.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "In Japan polyamory lacks legal recognition; social acceptance varies, with urban areas more tolerant but discretion advised.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "In Japan\u0027s urban centers (Tokyo/Osaka), municipal daycares exist but waitlists are lengthy. Bilingual options are limited; many rely on private hoikuen.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "Private schools exist in Japan but vary in quality; public schools are generally strong, so private options should be thoroughly vetted.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "Japan offers strong fresh markets and seafood as staples; convenience stores provide ready meals, so with planning healthy options are accessible.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Compensation Benchmark",
+      "alignmentText": "Japan PMM (Games) pay trails top markets by ~20%; Tokyo offers strong benefits and family support, aiding relocation for this family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Product Marketing Manager (Games): Continuing Education Availability",
+      "alignmentText": "In Japan, game marketing upskilling exists via occasional events and online communities. In-person advanced workshops are limited; much learning is remote.",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
@@ -1125,21 +800,10 @@
       "sameAsParent": false
     },
     {
-      "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "In Japan, game marketing upskilling exists via occasional events and online communities. In-person advanced workshops are limited; much learning is remote.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
       "key": "Product Marketing Manager (Games): Hiring Velocity",
       "alignmentText": "Japan game PMM hiring tends to 3\u20134 months; bilingual candidates help; Tokyo/Osaka hubs, but local pipelines are smaller than the US.",
       "alignmentValue": 6,
       "sameAsParent": false
-    },
-    {
-      "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "Japan PMM (Games) pay trails top markets by ~20%; Tokyo offers strong benefits and family support, aiding relocation for this family.",
-      "alignmentValue": 6
     },
     {
       "key": "Product Marketing Manager (Games): Language",
@@ -1152,6 +816,348 @@
       "alignmentText": "In Japan, PMM (Games) roles are usually hybrid. Fully remote options exist but are negotiated case-by-case.",
       "alignmentValue": 8,
       "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Talent Pool",
+      "alignmentText": "Japan\u0027s game marketing PMM pool is solid with senior pros; many roles favor Japanese. Expect strong local talent with language needs.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Japan\u0027s major cities push progressive values, but national policy remains mixed; expect incremental gains in rights and climate action.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "In Japan, attitudes split; urban enclaves like Tokyo are more open to relationships, while rural areas may stigmatize casual sex.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Japan\u0027s official messaging leans toward resilience and national unity. Independent media remains essential for plural, factual viewpoints.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Japan\u2019s media features diverse outlets and watchdog voices. Official messaging exists, but pluralistic coverage keeps propaganda in check.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Japan has a comprehensive, punctual transit system with Shinkansen and IC cards. It is stroller-friendly and safe for family trips.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Publisher/Platform Relationships",
+      "alignmentText": "In Japan, publisher access is limited; rely on occasional local engagement and remote outreach for partnerships.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "In Japan, premium services exist; most luxury options are available, though some niche experiences may require planning or early booking.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "In Japan, universal healthcare and safety nets help; urban housing costs and daycare waitlists can strain lower-income families.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "Japan offers universal healthcare and solid public services. A two-child middle-income family can live in suburbs with careful budgeting.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Real-Time vs Pre-Rendered Focus",
+      "alignmentText": "Japan\u0027s Tokyo game scene blends strong real-time pipelines with cinematic work; excellent latency and cloud access support Trey\u0027s needs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Japan\u0027s policy is secular; religion rarely shapes law, and personal beliefs are respected, aligning with your progressive, pluralistic values in JP.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Remote Expectations (Established Studios)",
+      "alignmentText": "In Japan, established studios typically offer hybrid or case-by-case remote work, balancing the family\u0027s childcare needs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "Japan\u0027s startups remain on-site focused; hybrid roles exist but require negotiation. This aligns with the family\u0027s need for remote or hybrid options in Japan.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "In Japan, remote work is growing but many firms still expect in-person presence. Remote work requires policy negotiation and productivity proof for Sarah.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "Japan offers multiple visa routes (work, highly skilled, startup) with 1\u20135 year renewals. PR generally after 5\u201310 years of stable income.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Japan\u0027s startup scene has funding-cycle churn. For a US-founded family team in JP, visa and language hurdles raise retention risk to a moderate-high level.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "Japan\u0027s public pension is modest; expect private savings and possible employer plans for retirement. Healthcare is universal, long-term care managed separately.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "Japan\u0027s public pension is available to visa workers after required contribution years. Leaving Japan can yield a lump-sum refund; long-term stay improves retirement benefits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Tokyo and Osaka host Ruby/Rails teams with English-friendly startups in Japan; steady openings and remote options suit Sarah\u0027s stack.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "Japan is very safe with low violent crime; keep a close eye on the 5-year-old in transit, though most areas are secure.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Japan public schools are solid and safe; bilingual options exist mainly via international schools. Expect planning and district-level choices.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Japan\u0027s coast: about half the year swimmable, with water around 20 C in spring/fall and 24-28 C in summer.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Japan\u0027s seasons are generally predictable, but summers are hot and humid with occasional typhoons. Plan for storms, humidity gear, and contingency time.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Japan offers noticeable winter dimness but strong summer daylight; stay energized with regular outdoor breaks and occasional light exposure.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "In Japan, seasons are mild in spring and autumn. Summers are hot and humid, winters cool and damp; plan for AC and rain gear.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Senior Talent Availability",
+      "alignmentText": "Japan offers a moderate senior startup talent pool; Tokyo/Osaka have options, but language gaps and competition may require remote or abroad hires.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Japan\u0027s public sex discourse is cautious; sex ed varies by region. Urban Japan shows more openness and private resources, though norms remain area-dependent.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Japan offers universal health care and pensions. Child benefits exist but vary by municipality and may involve eligibility hurdles.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "Japan markets rarely offer 2k sq ft rentals outside major metros; expect fierce competition and high rents. Consider outer suburbs near Tokyo or Osaka.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Japan spring drifts 8\u201320\u00B0C (46\u201368\u00B0F) with sakura blooms and showers; mostly comfortable, but occasional cold/windy days need layers.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Japan offers long-term stability with low crime and predictable governance for families. Disasters like earthquakes exist, but Japan\u0027s crisis response is strong.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Japan\u0027s pragmatic democracy favors stability and gradual reform. Long-dominant parties anchor policy with careful consensus, limiting rapid shifts.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "Japan\u0027s mature market is dynamic yet regulated to curb inequality. Startup grants exist, but bureaucracy can slow progress.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Studio Density",
+      "alignmentText": "Japan hosts a dense game/animation ecosystem, centered in Tokyo/Osaka; hundreds of studios across AAA to indie, with strong grants and co-dev options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "In Japan, July\u2013August highs hover around 30\u00B0C with humidity; plan early outdoor time and strong A/C to keep kids comfortable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "Japan\u0027s service is courteous and efficient; small talk is uncommon, so warmth isn\u0027t routine and must be initiated through polite, precise interactions.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Tax Incentives for Games/Creative",
+      "alignmentText": "In Japan, R\u0026D tax credits and content subsidies exist; game incentives are present but vary and funding can be unpredictable.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "Japan visa process for US families; first-time apps will require translations and guarantors; timelines up to a year with moderate fees.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Public trust in Japan (Tokyo area) is solid; services are reliable. Some agencies could boost transparency to ease visas and schooling.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Japan (JP): corruption is generally very low and quickly addressed; transparent rules and strong enforcement support stable governance for families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "In Japan, mid-level software salaries run ~\u00A56\u20139M/year; decent but not top-tier, so dual incomes or remote work help sustain savings.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Japan weekends offer kid-friendly options: museums, parks, and arcades. Popular spots fill fast; expect crowded trains and plan ahead.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Japan: school ends around 15:00-15:30; tech jobs run late. We can stagger shifts with remote/hybrid work and reliable childcare.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "In Japan, paid leave starts at 10 days after 6 months and grows with tenure. This supports family trips, including US visits, though early buffers are modest.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Japan typically offers about 10\u201314 vacation days annually plus holidays. For a family in Japan (JP), plan around limited leave and a strong work\u2013life balance emphasis.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Vendor/Outsource Ecosystem",
+      "alignmentText": "Japan has a growing game-dev vendor scene (art/QA/audio); capacity varies, and language barriers may slow outsourcing in Tokyo/Osaka.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Compensation Benchmark",
+      "alignmentText": "VFX Real-Time pay in Japan roughly tracks global medians after cost of living; Tokyo studios offer solid benefits, but top hubs pay more.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Continuing Education Availability",
+      "alignmentText": "Japan offers occasional VFX real-time workshops and remote courses. Tokyo and Osaka host some events, with strong online options for skill upkeep.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
+      "alignmentText": "Japan offers multiple CG/VFX programs in Tokyo/Osaka; real-time VFX pipelines are growing but graduates may need upskilling.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Hiring Velocity",
+      "alignmentText": "Japan\u0027s real-time VFX hiring typically takes 3\u20134 months. Proactive sourcing or relocation to Tokyo-area studios improves outcomes.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "VFX Artist (Real-Time): Language",
+      "alignmentText": "In Japan, real-time VFX studios mix Japanese and English; Tokyo firms are bilingual-friendly, but some roles need Japanese-language support.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "VFX Artist (Real-Time): Remote Expectations",
+      "alignmentText": "In Japan (Tokyo area): remote work for real-time VFX exists but is limited to senior/contract roles; expect frequent onsite collaboration.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Talent Pool",
+      "alignmentText": "Japan\u0027s Tokyo-area real-time VFX talent is solid, with active game/film studios. Senior roles are competitive; startups may need relocation or remote hiring.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "In Japan, neighbor issues are generally neutral; tensions with China/Korea appear in media, but daily life centers on family.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "Japan\u0027s collectivism values harmony and indirect feedback; expect modest self-presentation, which may contrast with the family\u0027s direct style.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Japan is seen as stable and economically strong. Neighbors have mixed views, with policy disagreements that can affect travel and business.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Japan offers Engineer/Highly Skilled and startup visas (prefectural programs); criteria are clear, but paperwork and funding can be substantial.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Japan\u0027s cities are highly walkable with safe crossings and dense sidewalks; ideal for a family, though a few busy corridors require caution.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "In Japan\u0027s cities, US migrants face cautious openness; tech hubs welcome talent, but social integration and language effort are needed.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Japan\u0027s cutting-edge tech, safety, and rich pop culture align with the family\u0027s gaming hobbies. Tokyo and Osaka offer strong schools and startup opportunities.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Tokyo winters are mild, typically 5-12\u00B0C. Light coats suffice and snow is rare.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "Japan tech workweeks hover around 40 hours, with occasional 42-45h crunches; family-friendly policies exist but overtime remains a concern.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "In Japan, after-hours and nomikai culture are pervasive. They often clash with the family\u0027s need for predictable evenings.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "Japan provides core worker rights and overtime pay, but enforcement is uneven. Non-regular workers and gig roles still face gaps.",
+      "alignmentValue": 7
     }
   ]
 }

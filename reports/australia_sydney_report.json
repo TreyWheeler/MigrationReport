@@ -3,1032 +3,19 @@
   "iso": "AU",
   "values": [
     {
-      "key": "Environment",
-      "alignmentText": "In Sydney, harbour breezes and coastal parks suit families. Inner suburbs face traffic and airport noise that dampen air quality.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Global Warming Risk",
-      "alignmentText": "In Sydney, hotter summers and Hawkesbury floods require active planning (insurance, evacuation). With mitigation, overall risk remains acceptable.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "Sydney seasons are mostly pleasant. Summers can be hot and humid (around 28\u201330\u00B0C) with occasional damp spells requiring flexible outdoor plans.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "Sydney generally has good air quality. Seasonal bushfire smoke and tunnel exhaust can spike PM2.5 on bad days; follow NSW Health alerts.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "Sydney, Australia faces storms, floods, and bushfire corridors; natural-hazard risk is moderate, with quick recoveries and family-friendly contingency planning.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Spring in Sydney, Australia typically 12\u201323\u00B0C (54\u201373\u00B0F) with sunny spells and brief chilly rain; pack flexible layers for outings.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Sydney summers typical highs around 27-28\u00B0C with manageable humidity; occasional heatwaves require some indoor breaks.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Autumn in Sydney sits around 13\u201324\u00B0C (55\u201375\u00B0F), mild days and crisp evenings\u2014perfect for family beach trips and park hikes.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "In Sydney, winters are gentle; nights rarely dip below 8\u00B0C and days hover near 17\u00B0C, so light layers suffice.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Beach Life",
-      "alignmentText": "Beaches from Manly to Cronulla in Sydney offer lifeguards and family facilities. Saltwater weekends are easy for the family year-round.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "In Sydney, sea temps around 23\u00B0C in late summer and ~18\u00B0C in winter; summers are pleasant but kids may need short wetsuits in shoulder seasons.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "Sydney offers harbour views plus Royal National Park and Blue Mountains within easy reach, great for kid-friendly outdoor days.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Minimum Wage",
-      "alignmentText": "Sydney\u0027s minimum wage (AUD 24.10/h) supports basics, but high housing/childcare costs push families toward dual incomes.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "In Sydney, senior software pay is strong (AUD 120-180k \u002B equity). Housing costs push two-income plans for families.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
       "key": ".NET Work Prospects",
       "alignmentText": "In Sydney, Australia, .NET roles span banks and consultancies; visa sponsorship is common in large firms, with steady openings for developers.",
       "alignmentValue": 8
     },
     {
-      "key": "Ruby Work Prospects",
-      "alignmentText": "Ruby remains viable in Sydney, with roles at Atlassian, SafetyCulture, and boutiques. Competition is stiff, with full-stack versatility favored.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Employer Visa Sponsorship",
-      "alignmentText": "In Sydney, skilled roles sponsor under TSS; for a US founder and a web developer, sponsorship exists but quotas apply; plan backup visa routes.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "In Sydney, NSW, strong finance/tech/biotech sectors support jobs, but high living costs demand careful budgeting; safety nets help families.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "In Sydney, hybrid work is common (3 office days) with plentiful coworking (Fishburners/WOTSO); remote-friendly policies fit Sarah and Trey\u0027s needs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "In Sydney, Australia, flexible hours exist but startup tempo can spill into evenings; we negotiate boundaries to protect family time.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Work Week Hours",
-      "alignmentText": "In Sydney, Australia, tech roles typically run 37-38 hours. Occasional crunches to 42 occur, offset by compensatory leave.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "Sydney, Australia offers about 30 days off (4 weeks annual leave \u002B 10-13 public holidays); strong enforcement and payout of unused days.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Vacation Days (Typical)",
-      "alignmentText": "In Sydney, most tech employers offer about 4 weeks of annual leave (with occasional leave loading). Extended trips may need some advance planning.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Pace of Life",
-      "alignmentText": "In Sydney\u0027s busy CBD/inner east, remote days help Sarah and family keep a calmer rhythm; pace varies by neighborhood.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Sydney schools run ~9\u20133; we rely on wraparound care and flexible remote work, with after-school slots sometimes waitlisted.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "In Sydney, weekends feature Bondi markets, Taronga Zoo, and ferry trips. Popular spots fill fast, so we mix planning with spontaneity.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Family Life",
-      "alignmentText": "In Sydney, family-friendly spaces exist (parks, clubs, museums), yet costs and waitlists mean active planning is needed.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Polyamory",
-      "alignmentText": "In Sydney, polyamorous families have visible communities and events like Mardi Gras. Some public services still lag in recognizing non-monogamous households.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Parenting Expectations",
-      "alignmentText": "In Sydney, dual-career households like Trey and Sarah balance work with school prep and weekend sport, supported by community networks.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "alignmentText": "Sydney offers abundant parks and playgrounds with stroller-friendly paths; family-friendly neighborhoods shine, though the CBD can be busy for young kids.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Schooling Options",
-      "alignmentText": "Sydney, AU offers solid public schools and early childhood programs; top campuses require planning due to catchments and selective admissions.",
-      "alignmentValue": 7,
-      "sameAsParent": true
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Sydney has a strong childcare network, but costs and waitlists vary. We\u0027ll mix public preschool slots with community centers to support two kids.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "In Sydney, childcare subsidies help, but caps still drive co-pays for two kids (5 \u0026 1); plan for top-ups.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "In Sydney, visa families often pay private childcare with limited subsidies until residency; municipal help varies by council.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "In Sydney, local public schools are accessible. However, suburb quality varies and selective high schools use entrance exams.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "In Sydney, visa-holding children can enroll in public schools but face AUD 6-7k per child and extra paperwork (proof of residence).",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Private Education",
-      "alignmentText": "Private schools in Sydney offer strong outcomes but cost AUD 25-40k/year plus levies; they can supplement robust public options rather than replace them.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Family Policy (Citizens)",
-      "alignmentText": "In Sydney, Australia, 22 weeks PPL (expanding toward 26) and Medicare newborn care support families. Access can be bureaucratic.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Visa Holders)",
-      "alignmentText": "In Sydney, visa holders can access Parental Leave Pay only after residency tests; Family Tax Benefit is typically unavailable, so self-fund early months.",
+      "key": "2D Environmental Artist: Compensation Benchmark",
+      "alignmentText": "Sydney 2D environmental artist pay trails top markets by ~25\u201330%. Lifestyle and visa options in Sydney help offset higher costs for your family.",
       "alignmentValue": 5
     },
     {
-      "key": "Higher Education Access (Citizens)",
-      "alignmentText": "In Sydney, US visa holders face non-subsidized higher education. International fees require funding from savings or loans.",
-      "alignmentValue": 5,
-      "sameAsParent": true
-    },
-    {
-      "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "In Sydney, visa holders pay international tuition (approx AUD 35k\u002B/yr); HECS not available, so study access hinges on residency or private funding.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Gender Roles",
-      "alignmentText": "In Sydney, Australia, dual-income norms and dad-friendly leave reflect strong egalitarian parenting, though tech leadership remains male-skewed.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "Sydney, AU: strong protections and inclusive healthcare for gender-diverse people; services are accessible, though some forms still default to binary.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "In Sydney, gender rights are strongly protected by federal and state law with active enforcement; leadership representation is catching up.",
+      "key": "2D Environmental Artist: Continuing Education Availability",
+      "alignmentText": "Sydney has regular 2D game-art short courses and active art communities; accessible environmental art ed via TAFE and universities.",
       "alignmentValue": 8
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "In Sydney, women freely mix workwear, athleisure, and beach styles. Australia\u0027s progressive culture supports diverse femininity with minor media emphasis.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "In Sydney, dads are increasingly hands-on and parental leave is normalized, though blokey banter remains in some workplaces.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "What Is Intriguing",
-      "alignmentText": "Across Sydney, Gadigal heritage tours and Vivid displays spark family curiosity. Tech Central and parks support learning for all ages.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Language \u0026 English Ubiquity",
-      "alignmentText": "In Sydney, English is widely used in government, health, and schools; community programs and resources support language learning.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Progressivism",
-      "alignmentText": "In Sydney, NSW, progressive city policies on climate action and LGBTQ\u002B rights align with the family\u0027s values and strong civic engagement.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "In Sydney, Australia, Marxism is mostly studied in campuses and arts scenes; open debate exists, but policy remains more centrist than revolutionary.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Atheism",
-      "alignmentText": "In Sydney, secular culture is strong; atheism is widely accepted, easing secular parenting and non-denominational schooling.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Sex (Attitudes)",
-      "alignmentText": "Sydney\u0027s sex education is comprehensive and open; services are accessible, with pockets of conservatism persisting.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "LGBTQ\u002B Attitudes",
-      "alignmentText": "In Sydney, Australia, LGBTQ\u002B acceptance is strong with Mardi Gras and inclusive schools supporting poly/queer families.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Community Vibes",
-      "alignmentText": "In Sydney, AU, communities are kind but ties form through schools, clubs, and local events; relationships grow with a bit of time.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of self",
-      "alignmentText": "In Sydney, locals see a cosmopolitan, harbour-proud city - ambitious and outdoorsy, yet mindful of housing costs.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of Neighboring Countries",
-      "alignmentText": "In Sydney, Australia, NZ and Pacific ties are valued. China influence is watched; views remain mixed but respectful.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "View of Them by Neighboring Countries",
-      "alignmentText": "In Sydney, neighbors value Australia\u0027s universities and disaster aid, but critique offshore detention; overall, a good, albeit policy-divided, regional view.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Nightlife Culture",
-      "alignmentText": "Sydney nightlife is active in Newtown and Barangaroo. With kids, we will plan sitters and careful transport for evenings.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Fashion Trends (Male)",
-      "alignmentText": "In Sydney, men blend coastal casual (linen shirts, chinos, sneakers) with smart-casual office norms; urban centers edge toward modern, approachable style.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fashion Trends (Female)",
-      "alignmentText": "In Sydney, women\u0027s fashion is dynamic and inclusive, body-positive with broad style freedom\u2014from athleisure to resort wear\u2014sun-smart.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Common Hobbies",
-      "alignmentText": "In Sydney, rock climbing, board gaming, and dragon boating are mainstream with clubs and shops, easing social integration for this family.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Boardgaming \u0026 Tabletop",
-      "alignmentText": "Sydney, Australia hosts active boardgame venues (Good Games, Fortress Sydney) and family-friendly meetups; families can join events with some advance planning.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Nightlife \u0026 Music",
-      "alignmentText": "Sydney\u0027s live music thrives at Enmore Theatre, Carriageworks, and diverse venues; we\u0027ll plan childcare for nights out.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Meetups \u0026 Communities",
-      "alignmentText": "In Sydney, a vibrant tech, parenting, and LGBTQ\u002B meetup scene exists with family-friendly venues and frequent events that help families build networks fast.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Nature Access",
-      "alignmentText": "Abundant nature within an hour in Sydney: Shelly Beach, Coast Track, and nearby parks with strong transport and family-friendly facilities.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Political System",
-      "alignmentText": "In Sydney, Australia, democracy is transparent and resilient. Compulsory voting and independent courts support strong civil liberties and stable reforms.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Religion in Politics",
-      "alignmentText": "In Sydney, Australia, religion colors culture but policy remains evidence-based and pluralistic, aligning with your progressive, inclusive family values.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Workers\u0027 Rights",
-      "alignmentText": "In Sydney, Fair Work Australia sets strong minimums; unions are active and legal remedies accessible, though gig platforms still show gaps.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "State Ideology",
-      "alignmentText": "In Sydney, NSW blends progressive city councils with a pragmatic state government; pluralism is supported, though reforms move at a measured pace.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Sydney, Australia: independent judiciary, watchdog media, and compulsory voting keep backsliding risk low; monitor any reforms that could affect civil liberties.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "State of Capitalism",
-      "alignmentText": "In Sydney, capitalism blends startup energy with strong consumer protections and robust superannuation, supporting families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Stability",
-      "alignmentText": "In Sydney, Australia, stable democracy and strong institutions keep political/economic volatility low for our family.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "In Sydney, Australia, public broadcasters and independent media help keep spin in check; expect occasional messaging, but outlets stay diverse.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "In Sydney, Australia, official messaging is largely factual with community updates. Defence coverage carries mild patriotic framing but remains accessible.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "In Sydney, Australia, Medicare and family benefits help families, with solid safety nets; however means-testing and paperwork can slow access.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "In Sydney, trust is mixed but cautiously positive; transparency portals and ICAC hearings support accountability, though skepticism lingers.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "In Sydney, corruption is rare; watchdogs investigate and convictions follow, supporting a stable, family-friendly environment in Australia.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "In Sydney, corruption tends to be petty/localized with robust oversight; systemic graft is unlikely.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "In Sydney, Australia, housing for families is costly, with bidding wars. Seek inner-suburban areas with parks and schools; plan for a longer search.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Safety \u0026 Crime",
-      "alignmentText": "Sydney, Australia remains largely safe: violent crime is low and beaches are kid-friendly, but property crime rises near nightlife; exercise caution after dark.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "In Sydney, Medicare clinics and state-funded hospitals deliver solid care, though we plan private extras for elective specialist waitlists.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "In Sydney, visa holders must carry OVHC and may pay Medicare levies before reciprocity; private insurance remains essential.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "In Sydney, two kids can be supported by the federal Child Care Subsidy, employer flexibility, and local parent groups; coordination is still needed.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "In Sydney, Australia, means-tested Family Tax Benefits and universal preschool help with costs, but require paperwork.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Education",
-      "alignmentText": "In Sydney, NSW schools perform well nationwide; strong public schools, IB and diverse programs support bilingual exposure and early learning.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "Sydney\u0027s trains, light rail, ferries, and Metro offer solid coverage; Opal fares and congestion mean occasional driving remains sensible.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "Sydney\u0027s robust mixed economy supports startups with grants, visa options, and reliable governance, aiding family stability.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "Sydney\u0027s PAYG and myTax simplify filings, but foreign income may still require an accountant for this US-family.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "In Sydney, dual tech incomes hover around 35% effective tax after Medicare and super; services offset costs but budget is still impacted.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Banking \u0026 Payments",
-      "alignmentText": "In Sydney, opening an account with the big four is straightforward. Tap-to-pay is ubiquitous, and cross-border needs are well-supported for families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "In Sydney, AUD 900\u002B rents and high childcare costs strain a family budget. With strong tech salaries, income can stretch, but budgeting and discounts matter.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Retirement (Citizens)",
-      "alignmentText": "Australia\u0027s compulsory super plus the Age Pension and Medicare provide a solid retirement baseline in Sydney. Savings and investments boost security.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "In Sydney, visa holders have limited Age Pension access; private retirement savings remain essential until permanent residency.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Visa Paths",
-      "alignmentText": "In Sydney, skilled independent (189), state-nominated (190), and Global Talent visas are viable options. They remain competitive and may require documentation.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "In Sydney, US families are generally welcomed in a diverse, cosmopolitan city; locals are curious but supportive, with robust services and communities.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Residency Types \u0026 Durations",
-      "alignmentText": "In Sydney, visas run 2\u20134 years with renewals; permanent residency usually after 3\u20134 years of compliant stay, workable for founders with ongoing business.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Path to Citizenship",
-      "alignmentText": "In Sydney, Australia, citizenship typically requires 4 years of lawful residence (including 1 year as a permanent resident) plus the citizenship test and English.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Family Members",
-      "alignmentText": "In Sydney, partner visas grant work rights for the couple; dependents can enroll in public schools after health/character checks.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Timelines \u0026 Costs",
-      "alignmentText": "In Sydney, first-time visa processing can take up to a year due to backlog. Budget AUD 10-15k for visa fees and health checks.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Compliance \u0026 Risks",
-      "alignmentText": "In Sydney, visa compliance is manageable with timely reporting; expect annual tax returns and worldwide income taxation after 183 days.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Dual Citizenship Allowed",
-      "alignmentText": "Australia allows dual citizenship with the US; after naturalization in Sydney, we can keep US passports; residency rules apply.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "General Considerations for Visa Holders",
-      "alignmentText": "In Sydney, temporary residents may face Medicare surcharges until PR; plan healthcare costs. Rights depend on visa subclass.",
-      "alignmentValue": 7,
-      "sameAsParent": true
-    },
-    {
-      "key": "Game Dev Work Prospects",
-      "alignmentText": "Sydney has studios like Wargaming and Blowfish; openings are concentrated and networking-driven, with remote roles and grants supporting Trey\u0027s game-dev plans.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Hiring Velocity (Established Studios)",
-      "alignmentText": "In Sydney, established studios hire across engineering and art; most roles close in 1-2 months, though visa processing can add time.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Compensation Benchmark (Established Studios)",
-      "alignmentText": "Sydney salaries for established studios sit near global medians after cost-of-living adjustments, with solid base pay and good benefits for families.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Established Studios)",
-      "alignmentText": "English dominates Sydney studios; expect bilingual teams for community/compliance, with local-language support as needed.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote Expectations (Established Studios)",
-      "alignmentText": "Established studios in Sydney favor hybrid work; remote options exist for experienced staff and founders, with flexible schedules.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Notable Game Studios",
-      "alignmentText": "Notable studios in Sydney include Wargaming Sydney, Riot Games Australia, Not Doppler, and Blowfish, creating a solid dev hub with good networking.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "Sydney hosts regular meetups via Game Plus, IGDA Sydney, and Screen NSW, with mentorship accessible to newcomers and families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Sydney offers grants and incubators (Screen NSW, Startmate, Fishburners) and strong game talent, but rents are steep.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Hiring Velocity (Startups)",
-      "alignmentText": "In Sydney, startup grants and incubators speed hiring; early-stage roles often fill in ~2 months, helping Trey\u0027s founder plans and family relocation.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Compensation Benchmark (Startups)",
-      "alignmentText": "Sydney startup comp trails top hubs slightly but includes meaningful equity; COL-adjusted medians and visa/grant options support families.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentText": "In Sydney, English dominates investor and platform talk. Local-language fluency aids hiring and compliance but is not mandatory.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentText": "Sydney, Australia startups lean hybrid/remote for senior roles, with mature remote tooling; aligns with our family\u0027s need for flexible work.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Modernity \u0026 Infrastructure",
-      "alignmentText": "Sydney offers modern utilities and transit (Opal) with strong broadband; reliable for work and family life, though outer suburbs may see outages.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Seasonal Extremes \u0026 Variability",
-      "alignmentText": "Sydney, Australia generally mild; each season has a couple extremes, with summer heatwaves and heavier winter rain, requiring some planning.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Seasonal Sunlight Hours",
-      "alignmentText": "Sydney, Australia: long summers and milder winters provide ample daylight for the family. Regular outdoor breaks help maintain mood.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Pleasant Weather Windows",
-      "alignmentText": "Sydney, AU offers mild, ocean-influenced weather with two to three strong seasons; most months are comfortable, but summers can be humid.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Quality of Life \u2013 Lower-Income Tier",
-      "alignmentText": "In Sydney, basic needs are met via universal healthcare, but housing and childcare costs challenge savings and after-school activities.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Quality of Life \u2013 Middle-Income Tier",
-      "alignmentText": "In Sydney, housing and childcare costs strain the budget; universal healthcare and solid services help, but careful budgeting remains essential.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Quality of Life \u2013 Higher-Income Tier",
-      "alignmentText": "Sydney offers abundant premium amenities; high earners find top dining, schools, and services, with occasional waitlists but broad options.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "In Sydney, 2k sq ft rentals are scarce and move fast. Expect competition, premium rents, and potential compromises on location for families.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Community Living Opportunities",
-      "alignmentText": "Sydney, Australia has a few reputable co-living projects and co-ops; families may need patience to find the right fit.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Friendliness \u0026 Neighborliness Index",
-      "alignmentText": "Sydney locals are polite and open to newcomers, but connections build gradually. Community groups and schools aid the family\u0027s integration in Australia.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 General",
-      "alignmentText": "Sydney, Australia remains broadly welcoming to US-origin families; diverse communities support integration with occasional immigration-policy debates.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 White Migrants",
-      "alignmentText": "White migrants in Sydney, Australia often integrate smoothly with English and local ties. Your family focus and community engagement boost a welcoming reception.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Surface Interaction Norms",
-      "alignmentText": "Sydney, AU: politeness is mostly warm, but brisk in busy areas; service is efficient yet respectful, with friendly staff when you engage.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Depth-Seeking Social Norms",
-      "alignmentText": "In Sydney, Australia, relationships deepen steadily with effort; joining local clubs and parks helps this family build trust as they settle.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Personal Boundary \u0026 Bubble Norms",
-      "alignmentText": "Sydney is friendly, but crowded spaces can tighten personal space; guide the kids with gentle boundaries.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Moral, Honesty \u0026 Openness Expectations",
-      "alignmentText": "Openness is welcomed in Sydney, Australia. Share concerns candidly but with tact to fit local norms and family harmony.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Grooming \u0026 Beauty Investment",
-      "alignmentText": "In Sydney, moderate grooming fits the casual Australian work culture. High-fashion is optional and rarely required.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Body Image \u0026 Fitness Pressure",
-      "alignmentText": "In Sydney, fitness and healthy living are encouraged without shaming. Family conversations stay respectful and supportive.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Fashion \u0026 Style Expectations",
-      "alignmentText": "In Sydney, Australia, we aim for tidy smart-casual to blend in. Casual attire is common, but presentable for work or school.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Flirting Boundaries \u0026 Consent Culture",
-      "alignmentText": "Consent culture in Sydney is strong and bystander norms are common. With kids present, use clear communication and choose safe, family-friendly spaces.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gendered Flirting Expectations",
-      "alignmentText": "Sydney\u0027s diverse scene is broadly inclusive; all genders can initiate or decline interest without stigma. Flirting is generally fluid in Sydney.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "In Sydney, polyamory has urban support; outer suburbs may require discretion.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "alignmentText": "In Sydney, Australia, most peers are accepting of casual and polyamorous relationships; urban circles offer broad tolerance with little gossip.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
-      "alignmentText": "In Sydney, polyamory-friendly circles exist within progressive communities. Public tolerance grows, but institutions remain discreet.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Personal Space \u0026 Touch Norms",
-      "alignmentText": "In Sydney, Australia, personal space is generally respected. In crowded transit, locals check before touching and read others\u0027 comfort cues.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Firearm Laws \u0026 Ownership Culture",
-      "alignmentText": "In Sydney, Australia, gun ownership is tightly controlled with strict licensing and safe storage; expect minimal firearm exposure in daily life.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Controlled Substance Policies",
-      "alignmentText": "Balanced approach in Sydney, Australia: regulated markets exist alongside education and support.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "In Sydney, drug enforcement is targeted with solid oversight; families rarely see raids, keeping daily life stable.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "In Sydney, mass violence incidents are uncommon. Authorities communicate transparently, and families feel prepared.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Carceral Conditions \u0026 Prison Labor",
-      "alignmentText": "Australia (Sydney) generally has decent prison conditions with oversight. Offshore detention facilities have raised human-rights concerns.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Walkability \u0026 Pedestrian Safety",
-      "alignmentText": "Walkable pockets exist in Sydney\u0027s family-friendly suburbs; plan routes to avoid busy arterials near schools and parks.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Community Health Consciousness",
-      "alignmentText": "Sydney, Australia offers universal healthcare and preventive care programs; supports active, family-friendly living.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Processed Food Saturation",
-      "alignmentText": "In Sydney, fresh markets and grocers help balance meals, but schools and events still lean on packaged snacks.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Fresh \u0026 International Cuisine Access",
-      "alignmentText": "In Sydney, fresh markets abound. Global cuisines flourish, letting us enjoy familiar and adventurous meals weekly.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "In Sydney, Australia, depression prevalence is moderate among families. Medicare-backed mental health services provide access, though some wait times remain.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Obesity Rate",
-      "alignmentText": "Sydney\u0027s walkable neighborhoods and strong public health campaigns support healthier lifestyles. Obesity remains below national averages.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Cancer Incidence",
-      "alignmentText": "In Sydney, Australia, cancer incidence aligns with global norms; strong screening and universal healthcare support early detection.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "Sydney\u0027s diversified economy supports tech and services. Layoffs are infrequent and rehiring is quick, aiding Trey and Sarah\u0027s career stability.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Studio Density",
-      "alignmentText": "Sydney, Australia hosts a healthy game-dev scene with several studios and indie teams; solid access to grants and industry networks.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Anchor Employers",
-      "alignmentText": "Sydney, AU has one notable anchor and several smaller studios; major IP-owned game studios are scarce.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "Sydney offers a solid vendor ecosystem for games and web: reputable art, QA, audio studios, plus scalable cloud/infra partners.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Education Pipeline Strength",
-      "alignmentText": "Sydney hosts several accredited game programs with studio internships and capstone projects, building a strong local talent pipeline.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Continuing Education Availability",
-      "alignmentText": "Sydney has frequent bootcamps and dev meetups for game, web, and cloud upskilling. Universities and TAFEs offer short courses with grants and flexible options.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Community Activity",
-      "alignmentText": "Sydney\u0027s tech/game dev scene hosts regular monthly meetups and occasional game jams. A broad, supportive network helps founders and developers connect.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Engine Community Bias",
-      "alignmentText": "Sydney hosts active Unity and Unreal circles with cross-training options. Trey\u0027s Unity focus fits the AU game-dev scene.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "Sydney has a robust real-time game dev scene with studios and tooling. Great broadband, Azure options, and local grants support end-to-end pipelines.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Demand\u2013Supply Balance",
-      "alignmentText": "Demand in Sydney is solid but competitive for software roles; strong local pipelines and remote options help staffing for a founder and a developer.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Retention \u0026 Churn Risk",
-      "alignmentText": "Sydney\u0027s mature tech scene and migration pathways support solid retention; occasional project cycles may cause brief churn.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Diversity \u0026 Inclusion Index",
-      "alignmentText": "Sydney studios show solid D\u0026I with LGBTQ\u002B inclusion and multicultural representation. Transparency and progress vary by company.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "Solid incentives for game dev in Australia; Sydney-based founders can use the R\u0026D Tax Incentive and NSW grants, though competition exists.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Economic/Policy Stability",
-      "alignmentText": "Sydney\u0027s policy climate for creatives is stable: Producer Offset and grants persist, with gradual changes and clear visa pathways.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Founder/Operator Community",
-      "alignmentText": "Australia\u0027s Sydney has a growing founder scene with hubs like Fishburners and Stone \u0026 Chalk and frequent mentor-led meetups.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Early-Stage Capital Access",
-      "alignmentText": "Sydney offers generalist funds open to games plus public grants (Create NSW, Screen Australia). Funding exists but remains competitive.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Accelerator/Incubator Access",
-      "alignmentText": "Sydney, Australia has generalist accelerators (BlueChilli, Startmate) with occasional game cohorts; no ongoing dedicated game accelerator.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Senior Talent Availability",
-      "alignmentText": "Sydney has a solid senior tech pool, including game and cloud leads, but competition from anchor studios means competitive offers are needed.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Contractor/Freelancer Bench",
-      "alignmentText": "Sydney, Australia, has a strong IT contractor pool across software, cloud, and game dev; top talent can book weeks in advance.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Coworking \u0026 Startup Infrastructure",
-      "alignmentText": "Sydney in NSW has strong coworking and a growing game-dev scene (Surry Hills, Pyrmont) with a few shared production resources for indies.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Legal \u0026 IP Support",
-      "alignmentText": "Sydney, Australia offers several game-IP firms and clinics, providing reliable counsel on licensing and publishing deals for startups.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Publisher/Platform Relationships",
-      "alignmentText": "Sydney\u0027s growing game dev scene offers local events; expect occasional platform engagement, but most publisher relations will be remote.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Market Research \u0026 Playtesting",
-      "alignmentText": "Sydney, Australia has a thriving indie dev scene with meetups and campus labs; plan for lead times, but accessible local playtest groups exist.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Government/Startup Visas",
-      "alignmentText": "Australia offers entrepreneur routes, but with quotas and paperwork; expect friction and moderate processing in Sydney.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Cost of Doing Business",
-      "alignmentText": "Costs in Sydney are elevated (high rents and wages); NSW startup grants and visa programs can help offset runway.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "Sydney, Australia has a solid pool of 3D character artists across game/VFX studios. For a game-dev family, senior hires can be competitive but opportunities exist.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "Sydney, Australia has several strong degree programs (UNSW, UTS, private colleges) in game art and animation, feeding well-prepared 3D character artists to local studios.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "7: Sydney offers occasional 3D character art training; some local courses and visiting instructors with remote options.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "In Sydney, 3D character artist roles typically run 3-4 months; proactive sourcing or relocation can help land a specialist faster.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "Sydney, Australia: 3D character artist pay is near global median after cost of living. Local studios offer solid benefits to attract talent.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Character Artist: Language",
-      "alignmentText": "In Sydney, English is standard for 3D character artists; studios are English-first with growing multilingual collaboration.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Character Artist: Remote Expectations",
-      "alignmentText": "Sydney, AU: remote-friendly 3D character roles are common; many studios offer hybrid schedules, occasional onsite work, and equipment stipends.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Animator: Talent Pool",
-      "alignmentText": "Solid 3D animation talent in Sydney, with major studios and grads; senior competition is noticeable, but mid-level hires are accessible.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "Sydney hosts multiple strong 3D animation programs (UNSW/UTS/AIE/TAFE NSW), feeding well-prepared grads into the local market.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "Sydney, Australia offers occasional 3D animation workshops and university short courses; most advanced topics rely on remote study or visiting experts.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "In Sydney, 3D animator hires take 3\u20134 months; local talent is solid but competitive. Proactive sourcing and relocation aid the search.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "3D animator pay in Sydney is competitive but trails top NA hubs by ~10-15%; expect solid packages with benefits in a high-cost, quality-of-life city.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Animator: Language",
-      "alignmentText": "In Sydney, 3D animation studios operate mainly in English. English is dominant, with bilingual support helpful for international work.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "3D Animator: Remote Expectations",
-      "alignmentText": "In Sydney, 3D animator roles are commonly hybrid/remote with stipends; occasional on-site collaboration is typical.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "Sydney\u0027s 2D environmental artist pool is moderate; for a game-dev founder, targeted sourcing or relocation may be needed for seniors.",
-      "alignmentValue": 6
     },
     {
       "key": "2D Environmental Artist: Education Pipeline Strength",
@@ -1037,20 +24,10 @@
       "sameAsParent": false
     },
     {
-      "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "Sydney has regular 2D game-art short courses and active art communities; accessible environmental art ed via TAFE and universities.",
-      "alignmentValue": 8
-    },
-    {
       "key": "2D Environmental Artist: Hiring Velocity",
       "alignmentText": "2D Environmental Artist hiring in Sydney typically closes in 1-2 months. Healthy local studios support remote/hybrid options for Trey\u0027s family.",
       "alignmentValue": 8,
       "sameAsParent": false
-    },
-    {
-      "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "Sydney 2D environmental artist pay trails top markets by ~25\u201330%. Lifestyle and visa options in Sydney help offset higher costs for your family.",
-      "alignmentValue": 5
     },
     {
       "key": "2D Environmental Artist: Language",
@@ -1065,49 +42,201 @@
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "Strong real-time VFX pool in Sydney with mid-to-senior talent; led by Animal Logic and local studios; suitable for mid-scale projects, with some competition.",
+      "key": "2D Environmental Artist: Talent Pool",
+      "alignmentText": "Sydney\u0027s 2D environmental artist pool is moderate; for a game-dev founder, targeted sourcing or relocation may be needed for seniors.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "3D Animator: Compensation Benchmark",
+      "alignmentText": "3D animator pay in Sydney is competitive but trails top NA hubs by ~10-15%; expect solid packages with benefits in a high-cost, quality-of-life city.",
       "alignmentValue": 7
     },
     {
-      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "Sydney, Australia has several well-regarded VFX/real-time programs (AIE, SAE, UTS). Local studios recruit graduates consistently.",
-      "alignmentValue": 9
+      "key": "3D Animator: Continuing Education Availability",
+      "alignmentText": "Sydney, Australia offers occasional 3D animation workshops and university short courses; most advanced topics rely on remote study or visiting experts.",
+      "alignmentValue": 7
     },
     {
-      "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "Sydney has occasional VFX real-time workshops and short courses via universities and providers. Local meetups and online options help stay current.",
+      "key": "3D Animator: Education Pipeline Strength",
+      "alignmentText": "Sydney hosts multiple strong 3D animation programs (UNSW/UTS/AIE/TAFE NSW), feeding well-prepared grads into the local market.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "3D Animator: Hiring Velocity",
+      "alignmentText": "In Sydney, 3D animator hires take 3\u20134 months; local talent is solid but competitive. Proactive sourcing and relocation aid the search.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "3D Animator: Language",
+      "alignmentText": "In Sydney, 3D animation studios operate mainly in English. English is dominant, with bilingual support helpful for international work.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "3D Animator: Remote Expectations",
+      "alignmentText": "In Sydney, 3D animator roles are commonly hybrid/remote with stipends; occasional on-site collaboration is typical.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Talent Pool",
+      "alignmentText": "Solid 3D animation talent in Sydney, with major studios and grads; senior competition is noticeable, but mid-level hires are accessible.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "In Sydney, real-time VFX hiring is competitive; expect 2\u20133 months with proactive sourcing; solid studios but limited senior specialists.",
+      "key": "3D Character Artist: Compensation Benchmark",
+      "alignmentText": "Sydney, Australia: 3D character artist pay is near global median after cost of living. Local studios offer solid benefits to attract talent.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "3D Character Artist: Continuing Education Availability",
+      "alignmentText": "7: Sydney offers occasional 3D character art training; some local courses and visiting instructors with remote options.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Education Pipeline Strength",
+      "alignmentText": "Sydney, Australia has several strong degree programs (UNSW, UTS, private colleges) in game art and animation, feeding well-prepared 3D character artists to local studios.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "3D Character Artist: Hiring Velocity",
+      "alignmentText": "In Sydney, 3D character artist roles typically run 3-4 months; proactive sourcing or relocation can help land a specialist faster.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Language",
+      "alignmentText": "In Sydney, English is standard for 3D character artists; studios are English-first with growing multilingual collaboration.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "3D Character Artist: Remote Expectations",
+      "alignmentText": "Sydney, AU: remote-friendly 3D character roles are common; many studios offer hybrid schedules, occasional onsite work, and equipment stipends.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "3D Character Artist: Talent Pool",
+      "alignmentText": "Sydney, Australia has a solid pool of 3D character artists across game/VFX studios. For a game-dev family, senior hires can be competitive but opportunities exist.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Accelerator/Incubator Access",
+      "alignmentText": "Sydney, Australia has generalist accelerators (BlueChilli, Startmate) with occasional game cohorts; no ongoing dedicated game accelerator.",
       "alignmentValue": 7
     },
     {
-      "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "In Sydney, VFX Real-Time pay aligns with global medians after cost-of-living; vibrant local game/VFX scene helps relocation.",
+      "key": "Air Quality",
+      "alignmentText": "Sydney generally has good air quality. Seasonal bushfire smoke and tunnel exhaust can spike PM2.5 on bad days; follow NSW Health alerts.",
       "alignmentValue": 8
     },
     {
-      "key": "VFX Artist (Real-Time): Language",
-      "alignmentText": "VFX work in Sydney is predominantly English. English ubiquity is standard; local-language skills help but are not required.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "VFX Artist (Real-Time): Remote Expectations",
-      "alignmentText": "In Sydney, real-time VFX roles are hybrid; partial remote weeks are allowed but frequent on-site collaboration is expected.",
+      "key": "Anchor Employers",
+      "alignmentText": "Sydney, AU has one notable anchor and several smaller studios; major IP-owned game studios are scarce.",
       "alignmentValue": 6
     },
     {
-      "key": "Community Manager: Talent Pool",
-      "alignmentText": "Sydney hosts a solid CM talent pool across game/tech studios and agencies; mix of mid-level and senior pros, recent project work, and strong remote options.",
+      "key": "Atheism",
+      "alignmentText": "In Sydney, secular culture is strong; atheism is widely accepted, easing secular parenting and non-denominational schooling.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Sydney, Australia: independent judiciary, watchdog media, and compulsory voting keep backsliding risk low; monitor any reforms that could affect civil liberties.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "In Sydney, opening an account with the big four is straightforward. Tap-to-pay is ubiquitous, and cross-border needs are well-supported for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Beaches from Manly to Cronulla in Sydney offer lifeguards and family facilities. Saltwater weekends are easy for the family year-round.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "Sydney, Australia hosts active boardgame venues (Good Games, Fortress Sydney) and family-friendly meetups; families can join events with some advance planning.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "In Sydney, fitness and healthy living are encouraged without shaming. Family conversations stay respectful and supportive.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Sydney\u0027s diversified economy supports tech and services. Layoffs are infrequent and rehiring is quick, aiding Trey and Sarah\u0027s career stability.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "In Sydney, Australia, cancer incidence aligns with global norms; strong screening and universal healthcare support early detection.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "Australia (Sydney) generally has decent prison conditions with oversight. Offshore detention facilities have raised human-rights concerns.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "In Sydney, two kids can be supported by the federal Child Care Subsidy, employer flexibility, and local parent groups; coordination is still needed.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Sydney offers abundant parks and playgrounds with stroller-friendly paths; family-friendly neighborhoods shine, though the CBD can be busy for young kids.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "In Sydney, childcare subsidies help, but caps still drive co-pays for two kids (5 \u0026 1); plan for top-ups.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "In Sydney, visa families often pay private childcare with limited subsidies until residency; municipal help varies by council.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "In Sydney, rock climbing, board gaming, and dragon boating are mainstream with clubs and shops, easing social integration for this family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Activity",
+      "alignmentText": "Sydney\u0027s tech/game dev scene hosts regular monthly meetups and occasional game jams. A broad, supportive network helps founders and developers connect.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "Sydney, Australia offers universal healthcare and preventive care programs; supports active, family-friendly living.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Sydney, Australia has a few reputable co-living projects and co-ops; families may need patience to find the right fit.",
       "alignmentValue": 8
     },
     {
-      "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "Sydney hosts multiple reputable media/communications programs (USYD, UNSW, UTS) feeding grads into local game studios; solid for community managers.",
+      "key": "Community Manager: Compensation Benchmark",
+      "alignmentText": "Sydney\u0027s community-manager pay aligns with global medians after cost of living. It offers solid benefits and hybrid options that help families settle.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -1117,15 +246,15 @@
       "alignmentValue": 7
     },
     {
-      "key": "Community Manager: Hiring Velocity",
-      "alignmentText": "In Sydney, Community Manager hiring typically takes 4\u20135 months with multiple cycles; visa/relocation needs may extend timelines for your family.",
-      "alignmentValue": 5,
+      "key": "Community Manager: Education Pipeline Strength",
+      "alignmentText": "Sydney hosts multiple reputable media/communications programs (USYD, UNSW, UTS) feeding grads into local game studios; solid for community managers.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "Sydney\u0027s community-manager pay aligns with global medians after cost of living. It offers solid benefits and hybrid options that help families settle.",
-      "alignmentValue": 8,
+      "key": "Community Manager: Hiring Velocity",
+      "alignmentText": "In Sydney, Community Manager hiring typically takes 4\u20135 months with multiple cycles; visa/relocation needs may extend timelines for your family.",
+      "alignmentValue": 5,
       "sameAsParent": false
     },
     {
@@ -1140,14 +269,543 @@
       "alignmentValue": 8
     },
     {
-      "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "Sydney\u0027s games market offers a moderate PMM pool; solid studios exist, but senior PMMs are competitive.",
+      "key": "Community Manager: Talent Pool",
+      "alignmentText": "Sydney hosts a solid CM talent pool across game/tech studios and agencies; mix of mid-level and senior pros, recent project work, and strong remote options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "In Sydney, AU, communities are kind but ties form through schools, clubs, and local events; relationships grow with a bit of time.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "Sydney salaries for established studios sit near global medians after cost-of-living adjustments, with solid base pay and good benefits for families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "Sydney startup comp trails top hubs slightly but includes meaningful equity; COL-adjusted medians and visa/grant options support families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "In Sydney, visa compliance is manageable with timely reporting; expect annual tax returns and worldwide income taxation after 183 days.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Continuing Education Availability",
+      "alignmentText": "Sydney has frequent bootcamps and dev meetups for game, web, and cloud upskilling. Universities and TAFEs offer short courses with grants and flexible options.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Contractor/Freelancer Bench",
+      "alignmentText": "Sydney, Australia, has a strong IT contractor pool across software, cloud, and game dev; top talent can book weeks in advance.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Balanced approach in Sydney, Australia: regulated markets exist alongside education and support.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Cost of Doing Business",
+      "alignmentText": "Costs in Sydney are elevated (high rents and wages); NSW startup grants and visa programs can help offset runway.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "In Sydney, AUD 900\u002B rents and high childcare costs strain a family budget. With strong tech salaries, income can stretch, but budgeting and discounts matter.",
       "alignmentValue": 6
     },
     {
-      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "Sydney, AU offers a few game/marketing programs with industry ties; class sizes are modest and dedicated product marketing for games is still developing.",
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Sydney in NSW has strong coworking and a growing game-dev scene (Surry Hills, Pyrmont) with a few shared production resources for indies.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Demand in Sydney is solid but competitive for software roles; strong local pipelines and remote options help staffing for a founder and a developer.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "In Sydney, Australia, depression prevalence is moderate among families. Medicare-backed mental health services provide access, though some wait times remain.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "In Sydney, Australia, relationships deepen steadily with effort; joining local clubs and parks helps this family build trust as they settle.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Sydney studios show solid D\u0026I with LGBTQ\u002B inclusion and multicultural representation. Transparency and progress vary by company.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "In Sydney, drug enforcement is targeted with solid oversight; families rarely see raids, keeping daily life stable.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Australia allows dual citizenship with the US; after naturalization in Sydney, we can keep US passports; residency rules apply.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Early Stage Grants Available",
+      "alignmentText": "Sydney offers NSW/federal startup grants. Expect roughly $350k\u2013$700k USD in early-stage funding for game/software ventures.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Early-Stage Capital Access",
+      "alignmentText": "Sydney offers generalist funds open to games plus public grants (Create NSW, Screen Australia). Funding exists but remains competitive.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "In Sydney, NSW, strong finance/tech/biotech sectors support jobs, but high living costs demand careful budgeting; safety nets help families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Sydney\u0027s robust mixed economy supports startups with grants, visa options, and reliable governance, aiding family stability.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Economic/Policy Stability",
+      "alignmentText": "Sydney\u0027s policy climate for creatives is stable: Producer Offset and grants persist, with gradual changes and clear visa pathways.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Education",
+      "alignmentText": "In Sydney, NSW schools perform well nationwide; strong public schools, IB and diverse programs support bilingual exposure and early learning.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Education Pipeline Strength",
+      "alignmentText": "Sydney hosts several accredited game programs with studio internships and capstone projects, building a strong local talent pipeline.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "In Sydney, skilled roles sponsor under TSS; for a US founder and a web developer, sponsorship exists but quotas apply; plan backup visa routes.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Engine Community Bias",
+      "alignmentText": "Sydney hosts active Unity and Unreal circles with cross-training options. Trey\u0027s Unity focus fits the AU game-dev scene.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "In Sydney, harbour breezes and coastal parks suit families. Inner suburbs face traffic and airport noise that dampen air quality.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "In Sydney, dual tech incomes hover around 35% effective tax after Medicare and super; services offset costs but budget is still impacted.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Autumn in Sydney sits around 13\u201324\u00B0C (55\u201375\u00B0F), mild days and crisp evenings\u2014perfect for family beach trips and park hikes.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "In Sydney, family-friendly spaces exist (parks, clubs, museums), yet costs and waitlists mean active planning is needed.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "In Sydney, partner visas grant work rights for the couple; dependents can enroll in public schools after health/character checks.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "In Sydney, Australia, 22 weeks PPL (expanding toward 26) and Medicare newborn care support families. Access can be bureaucratic.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "In Sydney, Australia, means-tested Family Tax Benefits and universal preschool help with costs, but require paperwork.",
       "alignmentValue": 7
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "In Sydney, visa holders can access Parental Leave Pay only after residency tests; Family Tax Benefit is typically unavailable, so self-fund early months.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "In Sydney, Australia, we aim for tidy smart-casual to blend in. Casual attire is common, but presentable for work or school.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "In Sydney, women\u0027s fashion is dynamic and inclusive, body-positive with broad style freedom\u2014from athleisure to resort wear\u2014sun-smart.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "In Sydney, men blend coastal casual (linen shirts, chinos, sneakers) with smart-casual office norms; urban centers edge toward modern, approachable style.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "In Sydney, women freely mix workwear, athleisure, and beach styles. Australia\u0027s progressive culture supports diverse femininity with minor media emphasis.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "In Sydney, Australia, gun ownership is tightly controlled with strict licensing and safe storage; expect minimal firearm exposure in daily life.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "Consent culture in Sydney is strong and bystander norms are common. With kids present, use clear communication and choose safe, family-friendly spaces.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Founder/Operator Community",
+      "alignmentText": "Australia\u0027s Sydney has a growing founder scene with hubs like Fishburners and Stone \u0026 Chalk and frequent mentor-led meetups.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "In Sydney, fresh markets abound. Global cuisines flourish, letting us enjoy familiar and adventurous meals weekly.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "Sydney locals are polite and open to newcomers, but connections build gradually. Community groups and schools aid the family\u0027s integration in Australia.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Sydney has studios like Wargaming and Blowfish; openings are concentrated and networking-driven, with remote roles and grants supporting Trey\u0027s game-dev plans.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Sydney, AU: strong protections and inclusive healthcare for gender-diverse people; services are accessible, though some forms still default to binary.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "In Sydney, gender rights are strongly protected by federal and state law with active enforcement; leadership representation is catching up.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "In Sydney, Australia, dual-income norms and dad-friendly leave reflect strong egalitarian parenting, though tech leadership remains male-skewed.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "Sydney\u0027s diverse scene is broadly inclusive; all genders can initiate or decline interest without stigma. Flirting is generally fluid in Sydney.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "In Sydney, temporary residents may face Medicare surcharges until PR; plan healthcare costs. Rights depend on visa subclass.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "In Sydney, hotter summers and Hawkesbury floods require active planning (insurance, evacuation). With mitigation, overall risk remains acceptable.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Government/Startup Visas",
+      "alignmentText": "Australia offers entrepreneur routes, but with quotas and paperwork; expect friction and moderate processing in Sydney.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "In Sydney, moderate grooming fits the casual Australian work culture. High-fashion is optional and rarely required.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "In Sydney, polyamory-friendly circles exist within progressive communities. Public tolerance grows, but institutions remain discreet.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "In Sydney, Medicare clinics and state-funded hospitals deliver solid care, though we plan private extras for elective specialist waitlists.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "In Sydney, visa holders must carry OVHC and may pay Medicare levies before reciprocity; private insurance remains essential.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "In Sydney, US visa holders face non-subsidized higher education. International fees require funding from savings or loans.",
+      "alignmentValue": 5,
+      "sameAsParent": true
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "In Sydney, visa holders pay international tuition (approx AUD 35k\u002B/yr); HECS not available, so study access hinges on residency or private funding.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Hiring Velocity (Established Studios)",
+      "alignmentText": "In Sydney, established studios hire across engineering and art; most roles close in 1-2 months, though visa processing can add time.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Hiring Velocity (Startups)",
+      "alignmentText": "In Sydney, startup grants and incubators speed hiring; early-stage roles often fill in ~2 months, helping Trey\u0027s founder plans and family relocation.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "In Sydney, Australia, housing for families is costly, with bidding wars. Seek inner-suburban areas with parks and schools; plan for a longer search.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Sydney\u0027s PAYG and myTax simplify filings, but foreign income may still require an accountant for this US-family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "Sydney, Australia remains broadly welcoming to US-origin families; diverse communities support integration with occasional immigration-policy debates.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "White migrants in Sydney, Australia often integrate smoothly with English and local ties. Your family focus and community engagement boost a welcoming reception.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "In Sydney, local public schools are accessible. However, suburb quality varies and selective high schools use entrance exams.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "In Sydney, visa-holding children can enroll in public schools but face AUD 6-7k per child and extra paperwork (proof of residence).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "In Sydney, English is widely used in government, health, and schools; community programs and resources support language learning.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Language (Established Studios)",
+      "alignmentText": "English dominates Sydney studios; expect bilingual teams for community/compliance, with local-language support as needed.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language (Startups)",
+      "alignmentText": "In Sydney, English dominates investor and platform talk. Local-language fluency aids hiring and compliance but is not mandatory.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Sydney, Australia offers several game-IP firms and clinics, providing reliable counsel on licensing and publishing deals for startups.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "In Sydney, Australia, LGBTQ\u002B acceptance is strong with Mardi Gras and inclusive schools supporting poly/queer families.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Sydney, Australia has a thriving indie dev scene with meetups and campus labs; plan for lead times, but accessible local playtest groups exist.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "In Sydney, Australia, Marxism is mostly studied in campuses and arts scenes; open debate exists, but policy remains more centrist than revolutionary.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "In Sydney, dads are increasingly hands-on and parental leave is normalized, though blokey banter remains in some workplaces.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "In Sydney, mass violence incidents are uncommon. Authorities communicate transparently, and families feel prepared.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "In Sydney, a vibrant tech, parenting, and LGBTQ\u002B meetup scene exists with family-friendly venues and frequent events that help families build networks fast.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Sydney\u0027s minimum wage (AUD 24.10/h) supports basics, but high housing/childcare costs push families toward dual incomes.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "Sydney offers modern utilities and transit (Opal) with strong broadband; reliable for work and family life, though outer suburbs may see outages.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "In Sydney, polyamory has urban support; outer suburbs may require discretion.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "Openness is welcomed in Sydney, Australia. Share concerns candidly but with tact to fit local norms and family harmony.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Sydney offers harbour views plus Royal National Park and Blue Mountains within easy reach, great for kid-friendly outdoor days.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Sydney, Australia faces storms, floods, and bushfire corridors; natural-hazard risk is moderate, with quick recoveries and family-friendly contingency planning.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Abundant nature within an hour in Sydney: Shelly Beach, Coast Track, and nearby parks with strong transport and family-friendly facilities.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Sydney\u0027s live music thrives at Enmore Theatre, Carriageworks, and diverse venues; we\u0027ll plan childcare for nights out.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Sydney nightlife is active in Newtown and Barangaroo. With kids, we will plan sitters and careful transport for evenings.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Sydney hosts regular meetups via Game Plus, IGDA Sydney, and Screen NSW, with mentorship accessible to newcomers and families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Notable studios in Sydney include Wargaming Sydney, Riot Games Australia, Not Doppler, and Blowfish, creating a solid dev hub with good networking.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Sydney\u0027s walkable neighborhoods and strong public health campaigns support healthier lifestyles. Obesity remains below national averages.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Sydney offers grants and incubators (Screen NSW, Startmate, Fishburners) and strong game talent, but rents are steep.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "In Sydney\u0027s busy CBD/inner east, remote days help Sarah and family keep a calmer rhythm; pace varies by neighborhood.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "In Sydney, dual-career households like Trey and Sarah balance work with school prep and weekend sport, supported by community networks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "In Sydney, Australia, citizenship typically requires 4 years of lawful residence (including 1 year as a permanent resident) plus the citizenship test and English.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "In Sydney, corruption is rare; watchdogs investigate and convictions follow, supporting a stable, family-friendly environment in Australia.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "Sydney is friendly, but crowded spaces can tighten personal space; guide the kids with gentle boundaries.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "In Sydney, Australia, personal space is generally respected. In crowded transit, locals check before touching and read others\u0027 comfort cues.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "Sydney, AU offers mild, ocean-influenced weather with two to three strong seasons; most months are comfortable, but summers can be humid.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "In Sydney, Australia, democracy is transparent and resilient. Compulsory voting and independent courts support strong civil liberties and stable reforms.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "In Sydney, polyamorous families have visible communities and events like Mardi Gras. Some public services still lag in recognizing non-monogamous households.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Sydney has a strong childcare network, but costs and waitlists vary. We\u0027ll mix public preschool slots with community centers to support two kids.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "Private schools in Sydney offer strong outcomes but cost AUD 25-40k/year plus levies; they can supplement robust public options rather than replace them.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "In Sydney, fresh markets and grocers help balance meals, but schools and events still lean on packaged snacks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Product Marketing Manager (Games): Compensation Benchmark",
+      "alignmentText": "Sydney PMM (Games) pay is around global medians after Australia\u2019s cost of living; strong benefits offset high housing costs.",
+      "alignmentValue": 8
     },
     {
       "key": "Product Marketing Manager (Games): Continuing Education Availability",
@@ -1155,14 +813,14 @@
       "alignmentValue": 7
     },
     {
-      "key": "Product Marketing Manager (Games): Hiring Velocity",
-      "alignmentText": "Sydney, Australia PMM (Games) hiring typically takes 2-3 months due to specialist demand. Local studios show steady but competitive pipelines.",
+      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
+      "alignmentText": "Sydney, AU offers a few game/marketing programs with industry ties; class sizes are modest and dedicated product marketing for games is still developing.",
       "alignmentValue": 7
     },
     {
-      "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "Sydney PMM (Games) pay is around global medians after Australia\u2019s cost of living; strong benefits offset high housing costs.",
-      "alignmentValue": 8
+      "key": "Product Marketing Manager (Games): Hiring Velocity",
+      "alignmentText": "Sydney, Australia PMM (Games) hiring typically takes 2-3 months due to specialist demand. Local studios show steady but competitive pipelines.",
+      "alignmentValue": 7
     },
     {
       "key": "Product Marketing Manager (Games): Language",
@@ -1173,6 +831,353 @@
       "key": "Product Marketing Manager (Games): Remote Expectations",
       "alignmentText": "Remote options exist for Sydney (AU) games PMs, but hybrid/on-site collaboration is common; fits a family-friendly, English-dominant market.",
       "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Talent Pool",
+      "alignmentText": "Sydney\u0027s games market offers a moderate PMM pool; solid studios exist, but senior PMMs are competitive.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "In Sydney, NSW, progressive city policies on climate action and LGBTQ\u002B rights align with the family\u0027s values and strong civic engagement.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "In Sydney, Australia, most peers are accepting of casual and polyamorous relationships; urban circles offer broad tolerance with little gossip.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "In Sydney, Australia, official messaging is largely factual with community updates. Defence coverage carries mild patriotic framing but remains accessible.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "In Sydney, Australia, public broadcasters and independent media help keep spin in check; expect occasional messaging, but outlets stay diverse.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Sydney\u0027s trains, light rail, ferries, and Metro offer solid coverage; Opal fares and congestion mean occasional driving remains sensible.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Publisher/Platform Relationships",
+      "alignmentText": "Sydney\u0027s growing game dev scene offers local events; expect occasional platform engagement, but most publisher relations will be remote.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "Sydney offers abundant premium amenities; high earners find top dining, schools, and services, with occasional waitlists but broad options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "In Sydney, basic needs are met via universal healthcare, but housing and childcare costs challenge savings and after-school activities.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "In Sydney, housing and childcare costs strain the budget; universal healthcare and solid services help, but careful budgeting remains essential.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Real-Time vs Pre-Rendered Focus",
+      "alignmentText": "Sydney has a robust real-time game dev scene with studios and tooling. Great broadband, Azure options, and local grants support end-to-end pipelines.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "In Sydney, Australia, religion colors culture but policy remains evidence-based and pluralistic, aligning with your progressive, inclusive family values.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote Expectations (Established Studios)",
+      "alignmentText": "Established studios in Sydney favor hybrid work; remote options exist for experienced staff and founders, with flexible schedules.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "Sydney, Australia startups lean hybrid/remote for senior roles, with mature remote tooling; aligns with our family\u0027s need for flexible work.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "In Sydney, hybrid work is common (3 office days) with plentiful coworking (Fishburners/WOTSO); remote-friendly policies fit Sarah and Trey\u0027s needs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "In Sydney, visas run 2\u20134 years with renewals; permanent residency usually after 3\u20134 years of compliant stay, workable for founders with ongoing business.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Sydney\u0027s mature tech scene and migration pathways support solid retention; occasional project cycles may cause brief churn.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "Australia\u0027s compulsory super plus the Age Pension and Medicare provide a solid retirement baseline in Sydney. Savings and investments boost security.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "In Sydney, visa holders have limited Age Pension access; private retirement savings remain essential until permanent residency.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Ruby remains viable in Sydney, with roles at Atlassian, SafetyCulture, and boutiques. Competition is stiff, with full-stack versatility favored.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "Sydney, Australia remains largely safe: violent crime is low and beaches are kid-friendly, but property crime rises near nightlife; exercise caution after dark.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Sydney, AU offers solid public schools and early childhood programs; top campuses require planning due to catchments and selective admissions.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "In Sydney, sea temps around 23\u00B0C in late summer and ~18\u00B0C in winter; summers are pleasant but kids may need short wetsuits in shoulder seasons.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Sydney, Australia generally mild; each season has a couple extremes, with summer heatwaves and heavier winter rain, requiring some planning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Sydney, Australia: long summers and milder winters provide ample daylight for the family. Regular outdoor breaks help maintain mood.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Sydney seasons are mostly pleasant. Summers can be hot and humid (around 28\u201330\u00B0C) with occasional damp spells requiring flexible outdoor plans.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Senior Talent Availability",
+      "alignmentText": "Sydney has a solid senior tech pool, including game and cloud leads, but competition from anchor studios means competitive offers are needed.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Sydney\u0027s sex education is comprehensive and open; services are accessible, with pockets of conservatism persisting.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "In Sydney, Australia, Medicare and family benefits help families, with solid safety nets; however means-testing and paperwork can slow access.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "In Sydney, 2k sq ft rentals are scarce and move fast. Expect competition, premium rents, and potential compromises on location for families.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Spring in Sydney, Australia typically 12\u201323\u00B0C (54\u201373\u00B0F) with sunny spells and brief chilly rain; pack flexible layers for outings.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "In Sydney, Australia, stable democracy and strong institutions keep political/economic volatility low for our family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "In Sydney, NSW blends progressive city councils with a pragmatic state government; pluralism is supported, though reforms move at a measured pace.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "In Sydney, capitalism blends startup energy with strong consumer protections and robust superannuation, supporting families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Studio Density",
+      "alignmentText": "Sydney, Australia hosts a healthy game-dev scene with several studios and indie teams; solid access to grants and industry networks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "Sydney summers typical highs around 27-28\u00B0C with manageable humidity; occasional heatwaves require some indoor breaks.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "Sydney, AU: politeness is mostly warm, but brisk in busy areas; service is efficient yet respectful, with friendly staff when you engage.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Tax Incentives for Games/Creative",
+      "alignmentText": "Solid incentives for game dev in Australia; Sydney-based founders can use the R\u0026D Tax Incentive and NSW grants, though competition exists.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "In Sydney, first-time visa processing can take up to a year due to backlog. Budget AUD 10-15k for visa fees and health checks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "In Sydney, trust is mixed but cautiously positive; transparency portals and ICAC hearings support accountability, though skepticism lingers.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "In Sydney, corruption tends to be petty/localized with robust oversight; systemic graft is unlikely.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "In Sydney, senior software pay is strong (AUD 120-180k \u002B equity). Housing costs push two-income plans for families.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "In Sydney, weekends feature Bondi markets, Taronga Zoo, and ferry trips. Popular spots fill fast, so we mix planning with spontaneity.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Sydney schools run ~9\u20133; we rely on wraparound care and flexible remote work, with after-school slots sometimes waitlisted.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Sydney, Australia offers about 30 days off (4 weeks annual leave \u002B 10-13 public holidays); strong enforcement and payout of unused days.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "In Sydney, most tech employers offer about 4 weeks of annual leave (with occasional leave loading). Extended trips may need some advance planning.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Vendor/Outsource Ecosystem",
+      "alignmentText": "Sydney offers a solid vendor ecosystem for games and web: reputable art, QA, audio studios, plus scalable cloud/infra partners.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "VFX Artist (Real-Time): Compensation Benchmark",
+      "alignmentText": "In Sydney, VFX Real-Time pay aligns with global medians after cost-of-living; vibrant local game/VFX scene helps relocation.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "VFX Artist (Real-Time): Continuing Education Availability",
+      "alignmentText": "Sydney has occasional VFX real-time workshops and short courses via universities and providers. Local meetups and online options help stay current.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
+      "alignmentText": "Sydney, Australia has several well-regarded VFX/real-time programs (AIE, SAE, UTS). Local studios recruit graduates consistently.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "VFX Artist (Real-Time): Hiring Velocity",
+      "alignmentText": "In Sydney, real-time VFX hiring is competitive; expect 2\u20133 months with proactive sourcing; solid studios but limited senior specialists.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Language",
+      "alignmentText": "VFX work in Sydney is predominantly English. English ubiquity is standard; local-language skills help but are not required.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "VFX Artist (Real-Time): Remote Expectations",
+      "alignmentText": "In Sydney, real-time VFX roles are hybrid; partial remote weeks are allowed but frequent on-site collaboration is expected.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "VFX Artist (Real-Time): Talent Pool",
+      "alignmentText": "Strong real-time VFX pool in Sydney with mid-to-senior talent; led by Animal Logic and local studios; suitable for mid-scale projects, with some competition.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "In Sydney, Australia, NZ and Pacific ties are valued. China influence is watched; views remain mixed but respectful.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "In Sydney, locals see a cosmopolitan, harbour-proud city - ambitious and outdoorsy, yet mindful of housing costs.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "In Sydney, neighbors value Australia\u0027s universities and disaster aid, but critique offshore detention; overall, a good, albeit policy-divided, regional view.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "In Sydney, skilled independent (189), state-nominated (190), and Global Talent visas are viable options. They remain competitive and may require documentation.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Walkable pockets exist in Sydney\u0027s family-friendly suburbs; plan routes to avoid busy arterials near schools and parks.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "In Sydney, US families are generally welcomed in a diverse, cosmopolitan city; locals are curious but supportive, with robust services and communities.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Across Sydney, Gadigal heritage tours and Vivid displays spark family curiosity. Tech Central and parks support learning for all ages.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "In Sydney, winters are gentle; nights rarely dip below 8\u00B0C and days hover near 17\u00B0C, so light layers suffice.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "In Sydney, Australia, tech roles typically run 37-38 hours. Occasional crunches to 42 occur, offset by compensatory leave.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "In Sydney, Australia, flexible hours exist but startup tempo can spill into evenings; we negotiate boundaries to protect family time.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "In Sydney, Fair Work Australia sets strong minimums; unions are active and legal remedies accessible, though gig platforms still show gaps.",
+      "alignmentValue": 9,
       "sameAsParent": false
     }
   ]

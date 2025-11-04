@@ -3,948 +3,92 @@
   "iso": "CU",
   "values": [
     {
-      "key": "Environment",
-      "alignmentText": "Havana\u0027s biosphere reserves and reefs are pristine, but aging infrastructure and fuel shortages cause periodic pollution spikes.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Global Warming Risk",
-      "alignmentText": "Cuba faces stronger hurricanes and sea-level rise; coastal homes are at risk, so evacuation planning and resilient housing are essential for this family.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "Cuba has a tropical climate with hot, humid weather most of the year and a June\u2013November hurricane season. Winters are milder, but humidity stays high.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "Outside Havana, air quality is mixed due to aging diesel buses and classic cars that leave city corridors hazy. Indoor air filters help protect our sensitive family members.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "Hurricanes and coastal flooding are regular risks in Cuba; expect periodic disruptions, but recovery systems mitigate impact.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Havana spring 25\u201331 C (77\u201388 F) with rising humidity; May rains begin\u2014warm, not ideal for mild-year-round prefs; plan shade and hydration.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Havana, Cuba summers run ~31\u201333 C (88\u201391 F) with high humidity; frequent storms and hurricane season (Jun\u2013Nov) affect outdoor time.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Fall in Havana stays warm (27-31 C); Sep-Oct hurricane risk; by Nov it eases to milder days, matching a mild-year-round preference.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "Havana winters are mild; days ~25\u201327 C (77\u201381 F), nights ~18\u201320 C (64\u201368 F); no freezing risk.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Beach Life",
-      "alignmentText": "Beaches around Varadero/Havana offer clean sand and solid amenities; water quality monitoring is transparent; expect seasonal crowds near hubs.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "Sea water near Cuba stays about 24-28 C most months, enabling long swims without wetsuits. For hotter days, light rash guards help the kids stay comfortable.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "Cuba has lush coasts and valleys; family-friendly nature with easy tours (Varadero, Vi\u00F1ales, Zapata) and distinct seasonal beauty.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Minimum Wage",
-      "alignmentText": "Minimum wage in Cuba remains very low; likely insufficient for a four-person family without remittances or multi-job income, even with subsidies.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "In Cuba, software pay is modest with limited private demand; broadband is constrained, so remote work for international firms or grants is often needed.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
       "key": ".NET Work Prospects",
       "alignmentText": "Cuba\u0027s .NET market is small; few local roles exist and remote gigs are irregular, hampered by bandwidth limits and modest wages.",
       "alignmentValue": 4,
       "sameAsParent": false
     },
     {
-      "key": "Ruby Work Prospects",
-      "alignmentText": "Cuba\u0027s Ruby market is virtually non-existent; startups are scarce and remote options are limited. Relocation or remote work from abroad may be necessary.",
-      "alignmentValue": 1,
-      "sameAsParent": false
-    },
-    {
-      "key": "Employer Visa Sponsorship",
-      "alignmentText": "In Cuba, sponsorship for non-Cubans is rare; few employers sponsor and approvals are slow with uncertain timelines.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "Cuba\u0027s economy shows persistent weakness amid sanctions and shortages. Wages and services can be unstable, impacting family planning.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "In Cuba, home broadband is scarce and Wi-Fi hotspots require prepaid cards. Outages disrupt remote meetings, so remote work remains limited.",
-      "alignmentValue": 2,
-      "sameAsParent": false
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "In Cuba, family time is central and evenings balance life, but power outages and ration lines cut downtime; broadband limits remote-work flexibility.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Work Week Hours",
-      "alignmentText": "Cuban workweeks average around 40-45 hours; aligns with level 7 (40-hour norm with occasional 42-45).",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "Cuba provides about 14 paid vacation days; in the 10\u201314 day band; full use is feasible but modest vs many countries.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Vacation Days (Typical)",
-      "alignmentText": "Cuba typically offers around 20-24 paid days per year. Holidays and local schedules can trim downtime, impacting long trips for this family.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Pace of Life",
-      "alignmentText": "Pace varies by Cuban neighborhood; slower life outside Havana fits your family. Expect bureaucratic delays in urban cores like Havana.",
-      "alignmentValue": 7,
-      "sameAsParent": true
-    },
-    {
-      "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "In Cuba, schools often end early and aftercare is limited; families rely on flexible remote days or neighbor/paid care.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "In Cuba, weekends for a family of four hinge on parks, beaches, and community events. Expect more planning and modest budgets due to fewer hourly options.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Family Life",
-      "alignmentText": "Cuba offers strong family networks, universal healthcare and education, plus safe parks and kid-friendly spaces within tight-knit communities.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Polyamory",
-      "alignmentText": "Cuba offers limited polyamory acceptance; no legal recognition, and families may face social stigma.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Parenting Expectations",
-      "alignmentText": "Cuba\u0027s centralized system and school structure drive traditional parenting norms; families face stronger guidance from teachers and relatives.",
-      "alignmentValue": 6,
-      "sameAsParent": true
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "alignmentText": "Cities in Cuba welcome kids with public spaces and safety. Healthcare is strong, but aging infrastructure and English limits can complicate daily life.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Schooling Options",
-      "alignmentText": "In Cuba, international curricula outside Havana are rare; may rely on homeschooling or online programs for bilingual, flexible learning.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Universal, state-run pre-K for 5-year-olds in Cuba; under-5 childcare exists, but bilingual options and hours are limited.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "Cuba\u0027s c\u00EDrculos infantiles offer free/low-cost care with near-home slots; a strong public system supports working families, though staffing can fluctuate.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "3: In Cuba, visa families face limited public subsidies; childcare is largely private and costly, with limited official support for foreigners.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "In Cuba, K-12 is universal with high literacy, but classroom materials and tech lag due to shortages.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "In Cuba, public K-12 is Spanish-only and access for visa holders is limited; most families use private/international schools or tutors.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Private Education",
-      "alignmentText": "In Havana private education is limited and costly with long waitlists; verify accreditation and bilingual options.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Family Policy (Citizens)",
-      "alignmentText": "Cuba offers universal healthcare and education; family benefits exist but access often requires persistent paperwork and limited cash aid.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Family Policy (Visa Holders)",
-      "alignmentText": "In Cuba, family benefits mainly target citizens; visa families face opaque access and often need legal HR guidance.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Higher Education Access (Citizens)",
-      "alignmentText": "Cuba offers tuition-free public universities for citizens; as US residents, access is limited and often costly\u2014plan for fees and visa rules.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "In Cuba, public universities cap foreign enrollment; visa holders face bureaucratic hurdles and limited fields, affecting your family.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Gender Roles",
-      "alignmentText": "In Cuban cities, gender roles are largely egalitarian with strong policy backing. Rural areas still show legacy expectations.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "Cuba shows good social acceptance with support groups in urban areas; official gender documents lag.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "Cuba has formal gender rights. Civil-liberties constraints limit advocacy and leadership opportunities.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "Cuba\u0027s urban centers (Havana) blend tradition with female autonomy. Modern work life offers flexibility, though appearance norms persist.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "In Cuba, masculinity norms are evolving; fathers are more involved in caregiving, but traditional views persist in some circles.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "What Is Intriguing",
-      "alignmentText": "Vibrant Cuban music, dance, architecture, and contemporary art offer frequent surprises that keep our family engaged.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Language \u0026 English Ubiquity",
-      "alignmentText": "In Cuba, English is limited outside expat zones; essential services use Spanish; planning to learn Spanish for full participation.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Progressivism",
-      "alignmentText": "In Cuba, universal healthcare and education exist, but speech rights and independent media are tightly controlled; progressivism remains state-managed.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "In Cuba, Marxism is state ideology; public discourse is limited, limiting pluralism for a progressive family.",
-      "alignmentValue": 2,
-      "sameAsParent": false
-    },
-    {
-      "key": "Atheism",
-      "alignmentText": "Cuba\u0027s secular framework tolerates atheism; private acceptance is common, but some workplaces/schools may expect participation in cultural/religious norms.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Sex (Attitudes)",
-      "alignmentText": "Cuba provides school-based sex education and universal health care; Havana leans liberal, while rural areas remain more conservative.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "LGBTQ\u002B Attitudes",
-      "alignmentText": "Same-sex marriage is legal nationwide in Cuba; Havana hosts Pride, but rural areas remain cautious with varying social acceptance.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Vibes",
-      "alignmentText": "Friendly yet reserved; bonds form in Cuban neighborhoods via schools and clubs over time. Expats should learn Spanish and join local events to build ties.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of self",
-      "alignmentText": "In Cuba (Havana), the self-view is resilient and solidarity-driven, but state messaging and restricted liberties temper pride.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "View of Neighboring Countries",
-      "alignmentText": "Cuba-US tensions color views of neighbors. Travel limits and media shape a cautious regional sentiment.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Caribbean neighbors value Cuba\u0027s vibrant culture, but political isolation fuels skepticism; for a US-origin family, travel and language access matter.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Nightlife Culture",
-      "alignmentText": "Nightlife exists in specific Cuban districts. Plan with sitters and transport, as family-friendly late options are limited.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Fashion Trends (Male)",
-      "alignmentText": "Cuba\u0027s hot, humid climate requires breathable, practical menswear. Opt for light fabrics with subtle color accents in social settings.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fashion Trends (Female)",
-      "alignmentText": "Cuba\u0027s urban fashion (Havana) is colorful and expressive; breathable fabrics suit heat/humidity, with diverse city styles.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Common Hobbies",
-      "alignmentText": "In Cuba, mainstream hobbies lean to baseball and music; gaming/board games are niche, so expect limited local groups or need to travel for meetups.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Boardgaming \u0026 Tabletop",
-      "alignmentText": "Boardgaming is niche in Cuba; expect small informal groups and limited local supply, with occasional meetups in Havana and online play options.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Nightlife \u0026 Music",
-      "alignmentText": "Havana\u0027s music scene is vibrant with live venues and street performances; many family-friendly options and accessible transit exist in Cuba.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Meetups \u0026 Communities",
-      "alignmentText": "In Cuba, grassroots meetups exist but are limited; internet access and venues are constrained, so social life is centered on family with few tech groups.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "Nature Access",
-      "alignmentText": "Cuba offers solid nature access near Havana and Varadero; family-friendly beaches and parks are reachable, but some areas require guides or permits.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Political System",
-      "alignmentText": "Cuba\u0027s single-party system restricts political participation. Civil liberties are limited and reforms occur slowly.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Religion in Politics",
-      "alignmentText": "Secular state in Cuba; religion has limited policy influence. Some religious references exist in law, but minority rights remain protected.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Workers\u0027 Rights",
-      "alignmentText": "Cuba: worker protections exist on paper, but independent unions are restricted and activism is discouraged; enforcement is uneven.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "State Ideology",
-      "alignmentText": "Cuba\u0027s state ideology is authoritarian with a one-party system and limited dissent. Private enterprise exists but under strict state control; expect bureaucracy.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Cuba\u0027s one-party system leaves civil liberties highly constrained; elections and media lack genuine pluralism.",
-      "alignmentValue": 1
-    },
-    {
-      "key": "State of Capitalism",
-      "alignmentText": "Cuba\u0027s economy remains state-led with limited market mechanisms; private enterprise exists, but reforms proceed slowly.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Stability",
-      "alignmentText": "Moderate instability in Cuba (Havana); regime remains stable but with controls, periodic shortages and protests requiring contingency planning.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "Propaganda prevalence in Cuba is high. State media dominates and independent outlets are scarce, limiting diverse viewpoints.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "Cuba\u0027s state-driven messaging dominates public discourse; expect limited independent outlets and rely on multiple sources for balanced info.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "In Cuba, healthcare and education are universal with strong safety nets. Private options are limited and bureaucracy can hinder mobility.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "In Cuba, government credibility is damaged; state media dominates and independent outlets are limited, fueling misinformation and cautious civic trust.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "Cuba\u0027s corruption is perceived as systemic under state control and opaque procurement. Expect bureaucratic hurdles and careful navigation of rules.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "In Cuba, petty corruption exists in daily services; there are occasional larger schemes. Use formal channels and patience to navigate bureaucratic processes.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "Cuban housing stock is aging; private rentals/ownership for foreigners are tightly limited, reducing options.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Safety \u0026 Crime",
-      "alignmentText": "Safe overall; Cuba has low violent crime, but petty theft affects tourist areas like Havana/Varadero. Stay vigilant and avoid poorly lit zones after dark.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "Healthcare in Cuba is universal, but medicine/equipment shortages and urban-rural gaps can cause delays; expect some variability in access.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "In Cuba, visa families rely on private international clinics paid in hard currency; public care access and reimbursements are limited.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "Cuba provides universal state childcare and free daycares, but waitlists can occur. Families rely on centers and relatives to ensure coverage.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "Cuba provides universal healthcare and education; benefits exist but resources are tight and bureaucracy can slow access.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Education",
-      "alignmentText": "Cuba has universal literacy and solid basic schooling nationwide; resource limits mean some districts perform better than others.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "Havana\u0027s public transit is unreliable and crowded; plan backup rides or taxis for family trips in Cuba.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "Cuba\u0027s economy remains centrally planned with limited private activity and currency quirks; bureaucracy hinders entrepreneurship and everyday business.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "Cuba\u0027s tax system is opaque with limited guidance for foreigners; digital tools are limited, making expat compliance risky.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "Tax burden in Cuba (CU) ~30% for a two-income family; benefits (health, education) help offset costs.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Banking \u0026 Payments",
-      "alignmentText": "Cuba\u0027s banking is limited for foreigners; US cards are often declined. Plan for cash-based transactions and limited digital options; foreign cards may help.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "In Cuba, groceries and internet priced in MLC can strain a remote US income; budget tightly and seek affordable housing.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Retirement (Citizens)",
-      "alignmentText": "Cuba\u0027s public pensions exist but are modest and often strained; healthcare is universal, yet retirees face cost pressures.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "In Cuba (CU), visa holders typically have limited or no access to public pensions. Private retirement savings become essential.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Visa Paths",
-      "alignmentText": "Cuba\u0027s visa options for US citizens are tightly limited; long-term relocation is uncertain and paths are opaque, complicating planning.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "In Cuba, US migrants face sanctions-linked hurdles and bureaucratic limits; locals are often welcoming, but official barriers slow settlement.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Residency Types \u0026 Durations",
-      "alignmentText": "Cuba residency remains very hard for a US family; permits depend on state employment or family ties, with uncertain long-term status.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Path to Citizenship",
-      "alignmentText": "In Cuba, naturalization for foreigners exists in theory but is rarely granted; residency is lengthy and approvals are uncertain.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Family Members",
-      "alignmentText": "Cuba restricts family sponsorship: spouses often require separate visas, and child dependents have limited options; expect slow processing and quotas.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "Timelines \u0026 Costs",
-      "alignmentText": "In Cuba, immigration permits can drag on due to bureaucratic delays and currency hurdles. Timelines are unpredictable, and costs could exceed $10k.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Compliance \u0026 Risks",
-      "alignmentText": "Cuba: OFAC rules and shifting Cuban enforcement can jeopardize permits; even compliant filings risk delays or revocation.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Dual Citizenship Allowed",
-      "alignmentText": "Cuba generally does not recognize US-Cuban dual nationality; renunciation is common, and in Cuba you\u0027ll need a Cuban passport for travel.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "General Considerations for Visa Holders",
-      "alignmentText": "In Cuba, first-time US visa applicants face heavy paperwork and limited rights; English is not widely available and internet access is restricted.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Game Dev Work Prospects",
-      "alignmentText": "In Cuba, game dev is small; few studios. Remote work or relocation is essential due to limited local ecosystem and connectivity.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "Hiring Velocity (Established Studios)",
-      "alignmentText": "In Cuba, established studios rely on remote contractors as local hiring stalls; expect slower searches without global recruitment.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Compensation Benchmark (Established Studios)",
-      "alignmentText": "Cuba-based studios generally lag global pay; remote/overseas offers are common for top roles. Local comps can be modest for families.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "Language (Established Studios)",
-      "alignmentText": "Cuban studios lean Spanish; English is limited for cross-border work, with translation/interpreters common for partnerships.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Remote Expectations (Established Studios)",
-      "alignmentText": "In Cuba, established studios expect onsite work. Remote options are limited, with occasional flexibility.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Notable Game Studios",
-      "alignmentText": "Cuba\u0027s game scene is fledgling; only a few studios exist with limited visibility beyond academia, centered in Havana.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "Cuba has a sparse game dev scene; few formal groups and mostly online hubs; in-person meetups are rare due to connectivity limits.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Cuba\u0027s sanctions and strict controls create a hostile startup climate for games; limited funding and exports hinder launches.",
-      "alignmentValue": 1
-    },
-    {
-      "key": "Hiring Velocity (Startups)",
-      "alignmentText": "In Cuba, early-stage hiring is slow due to sanctions and regulation; many roles rely on remote talent, with local searches lagging.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Compensation Benchmark (Startups)",
-      "alignmentText": "In Cuba, startup pay norms are sparse; cash is modest, equity illiquid; remote roles exist but connectivity and currency controls limit packages.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentText": "In Cuba (CU), English support is limited to international-facing teams; local fluency in Spanish is essential for hiring and compliance.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentText": "In Cuba (CU), remote work for startups faces regulatory and connectivity friction. Expect on-site collaboration with limited remote options.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Modernity \u0026 Infrastructure",
-      "alignmentText": "In Cuba, power and internet can be intermittent; most payments are cash-based, and broadband is unreliable for steady remote work.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Seasonal Extremes \u0026 Variability",
-      "alignmentText": "Seasonal extremes in Cuba (CU) follow hurricane season (Jun\u2013Nov): heavy rain, outages, and storm risk. Stay alert and maintain family contingency plans.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Seasonal Sunlight Hours",
-      "alignmentText": "Cuba lies near the equator, with steady 11-13 hour days year-round. Minimal seasonal light swings support steady remote work and family routines.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Pleasant Weather Windows",
-      "alignmentText": "In Cuba, heat and humidity limit outdoor days. Only short shoulder periods feel comfortable.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Quality of Life \u2013 Lower-Income Tier",
-      "alignmentText": "In Cuba, universal healthcare and subsidized essentials help cover basics. Housing options can be limited with long waits.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Quality of Life \u2013 Middle-Income Tier",
-      "alignmentText": "Quality of life in Cuba for a middle-income family depends on steady remote work; housing is affordable but services can be uneven.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Quality of Life \u2013 Higher-Income Tier",
-      "alignmentText": "Cuba offers limited luxury services; wealth management and elite schooling typically require travel to another country.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "In Cuba, spacious 2k sq ft rentals are very rare; we\u0027ll likely settle for smaller homes or explore alternative Cuban metros.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Community Living Opportunities",
-      "alignmentText": "Community living options in Cuba are sporadic. Families rely on neighborhood networks in Havana and other cities, plus informal groups.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Friendliness \u0026 Neighborliness Index",
-      "alignmentText": "In Cuba, friendliness varies by neighborhood; cultivate ties via local networks and expat circles, with Spanish learning helping integration.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 General",
-      "alignmentText": "In Cuba, immigrants face tight government controls, slower bureaucracy, and limited English; newcomers should expect a defensive climate.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 White Migrants",
-      "alignmentText": "In Cuba, white migrants face bureaucratic limits and uneven civil liberties. Belonging grows with patient local engagement.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Surface Interaction Norms",
-      "alignmentText": "In Cuba, initiating conversations usually yields warm, positive responses; service is patient and personable, matching our family pace.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Depth-Seeking Social Norms",
-      "alignmentText": "In Cuba, social circles open slowly; patient outreach, family-friendly clubs, and learning Spanish help move from acquaintances to closer friends.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Personal Boundary \u0026 Bubble Norms",
-      "alignmentText": "In Cuba\u0027s busy urban areas like Havana, personal space is often compressed; advocate gently for comfort, especially with the kids.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Moral, Honesty \u0026 Openness Expectations",
-      "alignmentText": "In Cuba, open talk can invite penalties; we favor careful, respectful sharing and private discussion over public candor.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Grooming \u0026 Beauty Investment",
-      "alignmentText": "In Cuba, grooming resources are limited. Beauty investments stay modest and practical for daily life.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Body Image \u0026 Fitness Pressure",
-      "alignmentText": "In Cuba, fitness pressure is subtle; keep conversations body-positive and set clear boundaries to protect Trey and Anduin.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Fashion \u0026 Style Expectations",
-      "alignmentText": "In Cuba (Havana), casual, breathable clothing fits daily life; neat-casual is common in most venues. For family outings, keep looks simple but presentable.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Flirting Boundaries \u0026 Consent Culture",
-      "alignmentText": "In Cuba, boundaries are generally understood, but nightlife and alcohol can blur lines. Practice clear consent checks in social scenes.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gendered Flirting Expectations",
-      "alignmentText": "Gendered flirting scripts still appear in Cuban nightlife; deviating may invite puzzled looks. Havana shows pockets of more openness.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "In Cuba (CU), families may face stigma or legal ambiguity if open about non-monogamy; privacy and discretion advised.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "alignmentText": "In urban Cuba, casual relationships are more accepted. However, in more traditional areas, discretion and stigma remain.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
-      "alignmentText": "In Cuba, group relationships face stigma and limited legal recognition. Custody and housing rights are often complicated.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Personal Space \u0026 Touch Norms",
-      "alignmentText": "In Cuba, warm greetings and closer contact are common; you can steer interactions politely, especially with kids.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Firearm Laws \u0026 Ownership Culture",
-      "alignmentText": "In Cuba (CU), firearm laws are strict and private ownership is rare, creating a calm environment with minimal exposure to guns.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Controlled Substance Policies",
-      "alignmentText": "Cuba enforces strict drug laws. Penalties can be severe and treatment options are limited.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "In Cuba, drug enforcement can feel militarized and opaque; families risk raids and legal uncertainty.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "Mass violence is infrequent in Cuba. Protests can occur; stay vigilant at large events and venues.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Carceral Conditions \u0026 Prison Labor",
-      "alignmentText": "Cuba\u0027s prisons are tightly controlled with limited oversight; political detention and restricted labor rights raise safety concerns for a family.",
-      "alignmentValue": 2,
-      "sameAsParent": false
-    },
-    {
-      "key": "Walkability \u0026 Pedestrian Safety",
-      "alignmentText": "Walkability varies in Havana; some neighborhoods are pedestrian-friendly, but sidewalks are uneven and traffic is fast. Plan kid-friendly routes away from busy streets.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Community Health Consciousness",
-      "alignmentText": "Universal healthcare and strong preventive care in Cuba support family routines. Public health messaging is cohesive, aiding wellness planning.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Processed Food Saturation",
-      "alignmentText": "In Cuba (CU), clean eating requires vigilance due to rationing. Specialty stores may be needed for certain items.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Fresh \u0026 International Cuisine Access",
-      "alignmentText": "Cuba has good fresh markets, but international cuisine is mostly in Havana and tourist zones; expect limited variety outside major cities.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "In Cuba, universal healthcare supports mental health. Depression burdens are manageable with accessible services and open dialogue.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Obesity Rate",
-      "alignmentText": "Cuba\u0027s obesity rates are relatively low thanks to walkable cities, active transport, and strong preventive care; youth obesity is actively monitored.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Cancer Incidence",
-      "alignmentText": "In Cuba, universal healthcare supports screening; cancer incidence is near global norms, with preventive care helping keep rates steady.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "Cuba\u0027s state-led economy offers limited private jobs; downturns bite. Remote work and savings help the family weather shifts.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Studio Density",
-      "alignmentText": "Cuba\u0027s studio ecosystem is sparse; Havana hosts a handful of freelancers rather than full studios; many projects rely on remote partners.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Anchor Employers",
-      "alignmentText": "Cuba\u0027s anchor presence is scarce; Havana has few large studios. Most talent operates indie teams or seeks opportunities abroad.",
-      "alignmentValue": 2
-    },
-    {
-      "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "Cuba\u0027s outsourcing options are limited due to sanctions and connectivity constraints. Most core vendor work requires international partners.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Education Pipeline Strength",
-      "alignmentText": "In Cuba, game-focused education is scarce; most options are general CS/media degrees. Study abroad or online paths are common for game dev.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Continuing Education Availability",
-      "alignmentText": "Self-study dominates for tech upskilling in Cuba. Few structured programs operate locally.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Community Activity",
-      "alignmentText": "Limited formal tech community in Cuba; expect sparse, ad hoc meetups in Havana and modest online activity, with strong informal cultural clubs.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Engine Community Bias",
-      "alignmentText": "CU\u0027s game/dev scene is Unity-dominant. Unreal/other engines are scarce due to access limits, hindering cross-training.",
+      "key": "2D Environmental Artist: Compensation Benchmark",
+      "alignmentText": "In Cuba, 2D Environmental Artist compensation typically trails top markets by 25-30%; expect remote/global roles to offset modest local pay.",
       "alignmentValue": 5,
       "sameAsParent": false
     },
     {
-      "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "In Cuba, broadband and dev scene are limited; real-time game pipelines are sparse, with most work leaning toward pre-rendered content.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Demand\u2013Supply Balance",
-      "alignmentText": "Demand for Cuba\u0027s dev talent is tight; few local roles and internet variability. Remote/hybrid hiring remains viable for this family.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Retention \u0026 Churn Risk",
-      "alignmentText": "Cuba\u0027s tight economy, limited broadband, and visa barriers heighten churn; long-term roles are scarce beyond external opportunities.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Diversity \u0026 Inclusion Index",
-      "alignmentText": "Cuba shows D\u0026I progress (gender parity, LGBTQ\u002B rights); private-sector inclusion remains uneven.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "In Cuba, formal tax credits or grants for games/creative work are effectively non-existent; cultural support exists but not game-specific incentives.",
-      "alignmentValue": 1
-    },
-    {
-      "key": "Economic/Policy Stability",
-      "alignmentText": "In Cuba, regulatory policy is evolving; private ventures face licensing changes\u2014plan for mid-cycle shifts and contingencies.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "Founder/Operator Community",
-      "alignmentText": "Cuba\u0027s founder community is nascent with limited cross-pollination. There are rare meetups in Havana and online, with constrained funding access.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Early-Stage Capital Access",
-      "alignmentText": "Very limited local capital for game startups in Cuba; founders will likely rely on international investors or relocation for funding.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Accelerator/Incubator Access",
-      "alignmentText": "Cuba has limited accelerator infrastructure; expect small university labs or ad-hoc programs rather than full game-focused tracks.",
+      "key": "2D Environmental Artist: Continuing Education Availability",
+      "alignmentText": "In Cuba, local 2D environmental art education is limited. Most upskilling relies on remote online courses.",
       "alignmentValue": 5,
       "sameAsParent": false
     },
     {
-      "key": "Senior Talent Availability",
-      "alignmentText": "Senior tech talent is limited in Cuba; startups should hire from abroad or rely on remote leaders due to bandwidth and local ecosystem limits.",
-      "alignmentValue": 6
+      "key": "2D Environmental Artist: Education Pipeline Strength",
+      "alignmentText": "Cuba\u0027s main arts universities offer design programs, but dedicated 2D environmental art paths are scarce; grads often need mentoring.",
+      "alignmentValue": 5
     },
     {
-      "key": "Contractor/Freelancer Bench",
-      "alignmentText": "In Cuba, contractor benches are very small; local generalists scarce and remote talent hampered by bandwidth and access limits.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Coworking \u0026 Startup Infrastructure",
-      "alignmentText": "Havana, Cuba has few coworking options and no game-specific labs. Reliable broadband is scarce, hindering indie dev work.",
+      "key": "2D Environmental Artist: Hiring Velocity",
+      "alignmentText": "In Cuba, local 2D environmental artist talent is shallow; remote/global hiring will be needed. Expect vacancies to stay open 6\u002B months.",
       "alignmentValue": 4
     },
     {
-      "key": "Legal \u0026 IP Support",
-      "alignmentText": "Cuba offers limited game IP/legal counsel. Startups rely on scarce external IP lawyers or referrals, with uncertain enforcement.",
-      "alignmentValue": 2
+      "key": "2D Environmental Artist: Language",
+      "alignmentText": "English usage among Cuba\u0027s 2D environmental artists is limited. Studios are Spanish-dominant, so bilingual skills or translation support are common.",
+      "alignmentValue": 4
     },
     {
-      "key": "Publisher/Platform Relationships",
-      "alignmentText": "Cuba has few local publisher ties; most business development occurs via international networks or events abroad.",
+      "key": "2D Environmental Artist: Remote Expectations",
+      "alignmentText": "Remote 2D environmental art in Cuba exists but uneven; expect on-site meetings or remote trials due to spotty connectivity and local studio practices.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "2D Environmental Artist: Talent Pool",
+      "alignmentText": "Cuba\u0027s 2D environmental art pool is very thin; only a few specialists locally, so relocation is often required.",
       "alignmentValue": 3
     },
     {
-      "key": "Market Research \u0026 Playtesting",
-      "alignmentText": "Cuba has limited local playtesting; data quality varies and vendors are few. Expect informal feedback and some testers abroad.",
+      "key": "3D Animator: Compensation Benchmark",
+      "alignmentText": "3D animator salaries in Cuba are well below global top markets; remote work helps, but limited broadband and English access dampen attraction.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Continuing Education Availability",
+      "alignmentText": "3D animation continuing education in Cuba is limited. Most training is online or remote, with few local providers.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "3D Animator: Education Pipeline Strength",
+      "alignmentText": "Cuba\u0027s local 3D animation curricula are scarce; most talent relies on self-study/online courses or study abroad; local pipelines are limited.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "3D Animator: Hiring Velocity",
+      "alignmentText": "In Cuba, 3D animator hiring is slow; local pipelines are shallow, so vacancies stay open half a year or more, with remote talent common.",
       "alignmentValue": 4
     },
     {
-      "key": "Government/Startup Visas",
-      "alignmentText": "Cuba (Havana) has limited startup visa options. Most paths rely on standard work permits or local sponsorship, with bureaucratic delays.",
+      "key": "3D Animator: Language",
+      "alignmentText": "Cuba\u0027s 3D animators are mainly Spanish-speaking; English use exists primarily in multinational studios, so expect bilingual hiring and translation support.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Remote Expectations",
+      "alignmentText": "In Cuba, remote 3D animator roles exist case-by-case with limited process maturity; broadband reliability and studio flexibility drive availability.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "3D Animator: Talent Pool",
+      "alignmentText": "Cuba\u0027s 3D animation pool is small; professionals are sporadic; expect aggressive sourcing or remote/contract hires.",
       "alignmentValue": 4,
       "sameAsParent": false
     },
     {
-      "key": "Cost of Doing Business",
-      "alignmentText": "Cuba has higher operating costs from import limits, currency controls, and patchy internet. Bureaucracy can compress runway for startups.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "Cuba\u0027s 3D character artist pool is very thin; only a few specialists locally; hiring typically needs remote work or relocation.",
+      "key": "3D Character Artist: Compensation Benchmark",
+      "alignmentText": "In Cuba, 3D character artist pay trails global norms; local rates are modest, and remote U.S. work may not fully bridge the gap.",
       "alignmentValue": 3,
       "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "Limited local 3D character art programs in Cuba; most aspiring artists study online or abroad, with few Havana studios to hire graduates.",
-      "alignmentValue": 2
     },
     {
       "key": "3D Character Artist: Continuing Education Availability",
@@ -953,15 +97,14 @@
       "sameAsParent": false
     },
     {
+      "key": "3D Character Artist: Education Pipeline Strength",
+      "alignmentText": "Limited local 3D character art programs in Cuba; most aspiring artists study online or abroad, with few Havana studios to hire graduates.",
+      "alignmentValue": 2
+    },
+    {
       "key": "3D Character Artist: Hiring Velocity",
       "alignmentText": "Cuba\u0027s 3D character artist hiring has shallow local pipelines; expect around 6 months to land a specialist. Many studios rely on remote or imported talent to fill the role.",
       "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "In Cuba, 3D character artist pay trails global norms; local rates are modest, and remote U.S. work may not fully bridge the gap.",
-      "alignmentValue": 3,
       "sameAsParent": false
     },
     {
@@ -977,122 +120,126 @@
       "sameAsParent": false
     },
     {
-      "key": "3D Animator: Talent Pool",
-      "alignmentText": "Cuba\u0027s 3D animation pool is small; professionals are sporadic; expect aggressive sourcing or remote/contract hires.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "Cuba\u0027s local 3D animation curricula are scarce; most talent relies on self-study/online courses or study abroad; local pipelines are limited.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "3D animation continuing education in Cuba is limited. Most training is online or remote, with few local providers.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "In Cuba, 3D animator hiring is slow; local pipelines are shallow, so vacancies stay open half a year or more, with remote talent common.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "3D animator salaries in Cuba are well below global top markets; remote work helps, but limited broadband and English access dampen attraction.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Language",
-      "alignmentText": "Cuba\u0027s 3D animators are mainly Spanish-speaking; English use exists primarily in multinational studios, so expect bilingual hiring and translation support.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Remote Expectations",
-      "alignmentText": "In Cuba, remote 3D animator roles exist case-by-case with limited process maturity; broadband reliability and studio flexibility drive availability.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "Cuba\u0027s 2D environmental art pool is very thin; only a few specialists locally, so relocation is often required.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "Cuba\u0027s main arts universities offer design programs, but dedicated 2D environmental art paths are scarce; grads often need mentoring.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "In Cuba, local 2D environmental art education is limited. Most upskilling relies on remote online courses.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "2D Environmental Artist: Hiring Velocity",
-      "alignmentText": "In Cuba, local 2D environmental artist talent is shallow; remote/global hiring will be needed. Expect vacancies to stay open 6\u002B months.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "In Cuba, 2D Environmental Artist compensation typically trails top markets by 25-30%; expect remote/global roles to offset modest local pay.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "2D Environmental Artist: Language",
-      "alignmentText": "English usage among Cuba\u0027s 2D environmental artists is limited. Studios are Spanish-dominant, so bilingual skills or translation support are common.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "2D Environmental Artist: Remote Expectations",
-      "alignmentText": "Remote 2D environmental art in Cuba exists but uneven; expect on-site meetings or remote trials due to spotty connectivity and local studio practices.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "Cuba\u0027s real-time VFX pool is very thin. Only a handful of in-country specialists exist; remote hiring or relocation is typically required.",
+      "key": "3D Character Artist: Talent Pool",
+      "alignmentText": "Cuba\u0027s 3D character artist pool is very thin; only a few specialists locally; hiring typically needs remote work or relocation.",
       "alignmentValue": 3,
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "Limited local VFX (real-time) programs in Cuba. Most learners rely on online study or studying abroad.",
-      "alignmentValue": 3,
+      "key": "Accelerator/Incubator Access",
+      "alignmentText": "Cuba has limited accelerator infrastructure; expect small university labs or ad-hoc programs rather than full game-focused tracks.",
+      "alignmentValue": 5,
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "In Cuba, local VFX (Real-Time) education is limited. Most upskilling comes from online or remote courses due to sparse studios.",
-      "alignmentValue": 3
+      "key": "Air Quality",
+      "alignmentText": "Outside Havana, air quality is mixed due to aging diesel buses and classic cars that leave city corridors hazy. Indoor air filters help protect our sensitive family members.",
+      "alignmentValue": 6
     },
     {
-      "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "In Cuba, VFX Real-Time roles are rarely filled locally; expect remote/imported talent with longer, multi-month searches.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "VFX real-time pay in Cuba trails global norms with limited benefits; relocation incentives may be needed, though cost of living is lower.",
+      "key": "Anchor Employers",
+      "alignmentText": "Cuba\u0027s anchor presence is scarce; Havana has few large studios. Most talent operates indie teams or seeks opportunities abroad.",
       "alignmentValue": 2
     },
     {
-      "key": "VFX Artist (Real-Time): Language",
-      "alignmentText": "In Cuba, English usage among VFX Real-Time pros is limited; ensure Spanish workflows with translation and onboarding support.",
+      "key": "Atheism",
+      "alignmentText": "Cuba\u0027s secular framework tolerates atheism; private acceptance is common, but some workplaces/schools may expect participation in cultural/religious norms.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Cuba\u0027s one-party system leaves civil liberties highly constrained; elections and media lack genuine pluralism.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "Cuba\u0027s banking is limited for foreigners; US cards are often declined. Plan for cash-based transactions and limited digital options; foreign cards may help.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Beaches around Varadero/Havana offer clean sand and solid amenities; water quality monitoring is transparent; expect seasonal crowds near hubs.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "Boardgaming is niche in Cuba; expect small informal groups and limited local supply, with occasional meetups in Havana and online play options.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "In Cuba, fitness pressure is subtle; keep conversations body-positive and set clear boundaries to protect Trey and Anduin.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Cuba\u0027s state-led economy offers limited private jobs; downturns bite. Remote work and savings help the family weather shifts.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "In Cuba, universal healthcare supports screening; cancer incidence is near global norms, with preventive care helping keep rates steady.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "Cuba\u0027s prisons are tightly controlled with limited oversight; political detention and restricted labor rights raise safety concerns for a family.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Cuba provides universal state childcare and free daycares, but waitlists can occur. Families rely on centers and relatives to ensure coverage.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Cities in Cuba welcome kids with public spaces and safety. Healthcare is strong, but aging infrastructure and English limits can complicate daily life.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Cuba\u0027s c\u00EDrculos infantiles offer free/low-cost care with near-home slots; a strong public system supports working families, though staffing can fluctuate.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "3: In Cuba, visa families face limited public subsidies; childcare is largely private and costly, with limited official support for foreigners.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "In Cuba, mainstream hobbies lean to baseball and music; gaming/board games are niche, so expect limited local groups or need to travel for meetups.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Community Activity",
+      "alignmentText": "Limited formal tech community in Cuba; expect sparse, ad hoc meetups in Havana and modest online activity, with strong informal cultural clubs.",
       "alignmentValue": 4
     },
     {
-      "key": "VFX Artist (Real-Time): Remote Expectations",
-      "alignmentText": "In Cuba, remote real-time VFX is case-by-case with limited maturity; bandwidth and latency constraints may require onsite or hybrid work.",
-      "alignmentValue": 5
+      "key": "Community Health Consciousness",
+      "alignmentText": "Universal healthcare and strong preventive care in Cuba support family routines. Public health messaging is cohesive, aiding wellness planning.",
+      "alignmentValue": 9
     },
     {
-      "key": "Community Manager: Talent Pool",
-      "alignmentText": "Cuba has a modest community manager pool; hiring is feasible for mid-level talent, but senior roles may need relocation or remote/diaspora sourcing.",
+      "key": "Community Living Opportunities",
+      "alignmentText": "Community living options in Cuba are sporadic. Families rely on neighborhood networks in Havana and other cities, plus informal groups.",
       "alignmentValue": 6
+    },
+    {
+      "key": "Community Manager: Compensation Benchmark",
+      "alignmentText": "CM pay in Cuba trails global norms; remote roles may offset with favorable packages. Limited broadband and latency in Cuba impact total comp and benefits.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Community Manager: Continuing Education Availability",
+      "alignmentText": "Cuba has scarce local CM training; rely on online/remote courses and sparse in-person events.",
+      "alignmentValue": 3
     },
     {
       "key": "Community Manager: Education Pipeline Strength",
@@ -1101,18 +248,8 @@
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "Cuba has scarce local CM training; rely on online/remote courses and sparse in-person events.",
-      "alignmentValue": 3
-    },
-    {
       "key": "Community Manager: Hiring Velocity",
       "alignmentText": "CM hiring in Cuba is limited; teams rely on remote/imported talent. Expect longer cycles and plan for visas or remote arrangements.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "CM pay in Cuba trails global norms; remote roles may offset with favorable packages. Limited broadband and latency in Cuba impact total comp and benefits.",
       "alignmentValue": 3
     },
     {
@@ -1127,9 +264,547 @@
       "sameAsParent": false
     },
     {
-      "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "Very small pool of game PMMs in Cuba, likely centered in Havana. Expect aggressive sourcing or remote/relocation needs.",
+      "key": "Community Manager: Talent Pool",
+      "alignmentText": "Cuba has a modest community manager pool; hiring is feasible for mid-level talent, but senior roles may need relocation or remote/diaspora sourcing.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Friendly yet reserved; bonds form in Cuban neighborhoods via schools and clubs over time. Expats should learn Spanish and join local events to build ties.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "Cuba-based studios generally lag global pay; remote/overseas offers are common for top roles. Local comps can be modest for families.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "In Cuba, startup pay norms are sparse; cash is modest, equity illiquid; remote roles exist but connectivity and currency controls limit packages.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "Cuba: OFAC rules and shifting Cuban enforcement can jeopardize permits; even compliant filings risk delays or revocation.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Continuing Education Availability",
+      "alignmentText": "Self-study dominates for tech upskilling in Cuba. Few structured programs operate locally.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Contractor/Freelancer Bench",
+      "alignmentText": "In Cuba, contractor benches are very small; local generalists scarce and remote talent hampered by bandwidth and access limits.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Cuba enforces strict drug laws. Penalties can be severe and treatment options are limited.",
       "alignmentValue": 4
+    },
+    {
+      "key": "Cost of Doing Business",
+      "alignmentText": "Cuba has higher operating costs from import limits, currency controls, and patchy internet. Bureaucracy can compress runway for startups.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "In Cuba, groceries and internet priced in MLC can strain a remote US income; budget tightly and seek affordable housing.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Havana, Cuba has few coworking options and no game-specific labs. Reliable broadband is scarce, hindering indie dev work.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Demand for Cuba\u0027s dev talent is tight; few local roles and internet variability. Remote/hybrid hiring remains viable for this family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "In Cuba, universal healthcare supports mental health. Depression burdens are manageable with accessible services and open dialogue.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "In Cuba, social circles open slowly; patient outreach, family-friendly clubs, and learning Spanish help move from acquaintances to closer friends.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Cuba shows D\u0026I progress (gender parity, LGBTQ\u002B rights); private-sector inclusion remains uneven.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "In Cuba, drug enforcement can feel militarized and opaque; families risk raids and legal uncertainty.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Cuba generally does not recognize US-Cuban dual nationality; renunciation is common, and in Cuba you\u0027ll need a Cuban passport for travel.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Early Stage Grants Available",
+      "alignmentText": "Cuba offers minimal early-stage grant capital; expect little to no grants\u2014bootstrapping or private funding will be essential.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Early-Stage Capital Access",
+      "alignmentText": "Very limited local capital for game startups in Cuba; founders will likely rely on international investors or relocation for funding.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Cuba\u0027s economy shows persistent weakness amid sanctions and shortages. Wages and services can be unstable, impacting family planning.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Cuba\u0027s economy remains centrally planned with limited private activity and currency quirks; bureaucracy hinders entrepreneurship and everyday business.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Economic/Policy Stability",
+      "alignmentText": "In Cuba, regulatory policy is evolving; private ventures face licensing changes\u2014plan for mid-cycle shifts and contingencies.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Cuba has universal literacy and solid basic schooling nationwide; resource limits mean some districts perform better than others.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Education Pipeline Strength",
+      "alignmentText": "In Cuba, game-focused education is scarce; most options are general CS/media degrees. Study abroad or online paths are common for game dev.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "In Cuba, sponsorship for non-Cubans is rare; few employers sponsor and approvals are slow with uncertain timelines.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Engine Community Bias",
+      "alignmentText": "CU\u0027s game/dev scene is Unity-dominant. Unreal/other engines are scarce due to access limits, hindering cross-training.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "Havana\u0027s biosphere reserves and reefs are pristine, but aging infrastructure and fuel shortages cause periodic pollution spikes.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Tax burden in Cuba (CU) ~30% for a two-income family; benefits (health, education) help offset costs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Fall in Havana stays warm (27-31 C); Sep-Oct hurricane risk; by Nov it eases to milder days, matching a mild-year-round preference.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Cuba offers strong family networks, universal healthcare and education, plus safe parks and kid-friendly spaces within tight-knit communities.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Cuba restricts family sponsorship: spouses often require separate visas, and child dependents have limited options; expect slow processing and quotas.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "Cuba offers universal healthcare and education; family benefits exist but access often requires persistent paperwork and limited cash aid.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Cuba provides universal healthcare and education; benefits exist but resources are tight and bureaucracy can slow access.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "In Cuba, family benefits mainly target citizens; visa families face opaque access and often need legal HR guidance.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "In Cuba (Havana), casual, breathable clothing fits daily life; neat-casual is common in most venues. For family outings, keep looks simple but presentable.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Cuba\u0027s urban fashion (Havana) is colorful and expressive; breathable fabrics suit heat/humidity, with diverse city styles.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "Cuba\u0027s hot, humid climate requires breathable, practical menswear. Opt for light fabrics with subtle color accents in social settings.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Cuba\u0027s urban centers (Havana) blend tradition with female autonomy. Modern work life offers flexibility, though appearance norms persist.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "In Cuba (CU), firearm laws are strict and private ownership is rare, creating a calm environment with minimal exposure to guns.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "In Cuba, boundaries are generally understood, but nightlife and alcohol can blur lines. Practice clear consent checks in social scenes.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Founder/Operator Community",
+      "alignmentText": "Cuba\u0027s founder community is nascent with limited cross-pollination. There are rare meetups in Havana and online, with constrained funding access.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "Cuba has good fresh markets, but international cuisine is mostly in Havana and tourist zones; expect limited variety outside major cities.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "In Cuba, friendliness varies by neighborhood; cultivate ties via local networks and expat circles, with Spanish learning helping integration.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "In Cuba, game dev is small; few studios. Remote work or relocation is essential due to limited local ecosystem and connectivity.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Cuba shows good social acceptance with support groups in urban areas; official gender documents lag.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Cuba has formal gender rights. Civil-liberties constraints limit advocacy and leadership opportunities.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "In Cuban cities, gender roles are largely egalitarian with strong policy backing. Rural areas still show legacy expectations.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "Gendered flirting scripts still appear in Cuban nightlife; deviating may invite puzzled looks. Havana shows pockets of more openness.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "In Cuba, first-time US visa applicants face heavy paperwork and limited rights; English is not widely available and internet access is restricted.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Cuba faces stronger hurricanes and sea-level rise; coastal homes are at risk, so evacuation planning and resilient housing are essential for this family.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Government/Startup Visas",
+      "alignmentText": "Cuba (Havana) has limited startup visa options. Most paths rely on standard work permits or local sponsorship, with bureaucratic delays.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "In Cuba, grooming resources are limited. Beauty investments stay modest and practical for daily life.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "In Cuba, group relationships face stigma and limited legal recognition. Custody and housing rights are often complicated.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Healthcare in Cuba is universal, but medicine/equipment shortages and urban-rural gaps can cause delays; expect some variability in access.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "In Cuba, visa families rely on private international clinics paid in hard currency; public care access and reimbursements are limited.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Cuba offers tuition-free public universities for citizens; as US residents, access is limited and often costly\u2014plan for fees and visa rules.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "In Cuba, public universities cap foreign enrollment; visa holders face bureaucratic hurdles and limited fields, affecting your family.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Hiring Velocity (Established Studios)",
+      "alignmentText": "In Cuba, established studios rely on remote contractors as local hiring stalls; expect slower searches without global recruitment.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Hiring Velocity (Startups)",
+      "alignmentText": "In Cuba, early-stage hiring is slow due to sanctions and regulation; many roles rely on remote talent, with local searches lagging.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Cuban housing stock is aging; private rentals/ownership for foreigners are tightly limited, reducing options.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Cuba\u0027s tax system is opaque with limited guidance for foreigners; digital tools are limited, making expat compliance risky.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "In Cuba, immigrants face tight government controls, slower bureaucracy, and limited English; newcomers should expect a defensive climate.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "In Cuba, white migrants face bureaucratic limits and uneven civil liberties. Belonging grows with patient local engagement.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "In Cuba, K-12 is universal with high literacy, but classroom materials and tech lag due to shortages.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "In Cuba, public K-12 is Spanish-only and access for visa holders is limited; most families use private/international schools or tutors.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "In Cuba, English is limited outside expat zones; essential services use Spanish; planning to learn Spanish for full participation.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Language (Established Studios)",
+      "alignmentText": "Cuban studios lean Spanish; English is limited for cross-border work, with translation/interpreters common for partnerships.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Language (Startups)",
+      "alignmentText": "In Cuba (CU), English support is limited to international-facing teams; local fluency in Spanish is essential for hiring and compliance.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Cuba offers limited game IP/legal counsel. Startups rely on scarce external IP lawyers or referrals, with uncertain enforcement.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "Same-sex marriage is legal nationwide in Cuba; Havana hosts Pride, but rural areas remain cautious with varying social acceptance.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Cuba has limited local playtesting; data quality varies and vendors are few. Expect informal feedback and some testers abroad.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "In Cuba, Marxism is state ideology; public discourse is limited, limiting pluralism for a progressive family.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "In Cuba, masculinity norms are evolving; fathers are more involved in caregiving, but traditional views persist in some circles.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Mass violence is infrequent in Cuba. Protests can occur; stay vigilant at large events and venues.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "In Cuba, grassroots meetups exist but are limited; internet access and venues are constrained, so social life is centered on family with few tech groups.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Minimum wage in Cuba remains very low; likely insufficient for a four-person family without remittances or multi-job income, even with subsidies.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "In Cuba, power and internet can be intermittent; most payments are cash-based, and broadband is unreliable for steady remote work.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "In Cuba (CU), families may face stigma or legal ambiguity if open about non-monogamy; privacy and discretion advised.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "In Cuba, open talk can invite penalties; we favor careful, respectful sharing and private discussion over public candor.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Cuba has lush coasts and valleys; family-friendly nature with easy tours (Varadero, Vi\u00F1ales, Zapata) and distinct seasonal beauty.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Hurricanes and coastal flooding are regular risks in Cuba; expect periodic disruptions, but recovery systems mitigate impact.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Cuba offers solid nature access near Havana and Varadero; family-friendly beaches and parks are reachable, but some areas require guides or permits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Havana\u0027s music scene is vibrant with live venues and street performances; many family-friendly options and accessible transit exist in Cuba.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Nightlife exists in specific Cuban districts. Plan with sitters and transport, as family-friendly late options are limited.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Cuba has a sparse game dev scene; few formal groups and mostly online hubs; in-person meetups are rare due to connectivity limits.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Cuba\u0027s game scene is fledgling; only a few studios exist with limited visibility beyond academia, centered in Havana.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Cuba\u0027s obesity rates are relatively low thanks to walkable cities, active transport, and strong preventive care; youth obesity is actively monitored.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Cuba\u0027s sanctions and strict controls create a hostile startup climate for games; limited funding and exports hinder launches.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Pace varies by Cuban neighborhood; slower life outside Havana fits your family. Expect bureaucratic delays in urban cores like Havana.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Cuba\u0027s centralized system and school structure drive traditional parenting norms; families face stronger guidance from teachers and relatives.",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "In Cuba, naturalization for foreigners exists in theory but is rarely granted; residency is lengthy and approvals are uncertain.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Cuba\u0027s corruption is perceived as systemic under state control and opaque procurement. Expect bureaucratic hurdles and careful navigation of rules.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "In Cuba\u0027s busy urban areas like Havana, personal space is often compressed; advocate gently for comfort, especially with the kids.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "In Cuba, warm greetings and closer contact are common; you can steer interactions politely, especially with kids.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "In Cuba, heat and humidity limit outdoor days. Only short shoulder periods feel comfortable.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "Cuba\u0027s single-party system restricts political participation. Civil liberties are limited and reforms occur slowly.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Cuba offers limited polyamory acceptance; no legal recognition, and families may face social stigma.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Universal, state-run pre-K for 5-year-olds in Cuba; under-5 childcare exists, but bilingual options and hours are limited.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "In Havana private education is limited and costly with long waitlists; verify accreditation and bilingual options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "In Cuba (CU), clean eating requires vigilance due to rationing. Specialty stores may be needed for certain items.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Product Marketing Manager (Games): Compensation Benchmark",
+      "alignmentText": "In Cuba, Product Marketing Manager (Games) pay trails global norms; local compensation is modest with few benefits and limited remote options.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Product Marketing Manager (Games): Continuing Education Availability",
+      "alignmentText": "Cuba has limited local continuing education for games product marketing; mainly online resources and rare remote events; local meetups are scarce.",
+      "alignmentValue": 3
     },
     {
       "key": "Product Marketing Manager (Games): Education Pipeline Strength",
@@ -1138,20 +813,10 @@
       "sameAsParent": false
     },
     {
-      "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "Cuba has limited local continuing education for games product marketing; mainly online resources and rare remote events; local meetups are scarce.",
-      "alignmentValue": 3
-    },
-    {
       "key": "Product Marketing Manager (Games): Hiring Velocity",
       "alignmentText": "Cuba PMM (Games) hiring: local talent pools are shallow; expect 4-6 month cycles; plan for remote/global searches.",
       "alignmentValue": 4,
       "sameAsParent": false
-    },
-    {
-      "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "In Cuba, Product Marketing Manager (Games) pay trails global norms; local compensation is modest with few benefits and limited remote options.",
-      "alignmentValue": 2
     },
     {
       "key": "Product Marketing Manager (Games): Language",
@@ -1162,6 +827,346 @@
       "key": "Product Marketing Manager (Games): Remote Expectations",
       "alignmentText": "Remote PMM (Games) in Cuba is limited by broadband and infrastructure. Most roles favor onsite or short remote trials rather than long-term remote.",
       "alignmentValue": 3
+    },
+    {
+      "key": "Product Marketing Manager (Games): Talent Pool",
+      "alignmentText": "Very small pool of game PMMs in Cuba, likely centered in Havana. Expect aggressive sourcing or remote/relocation needs.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "In Cuba, universal healthcare and education exist, but speech rights and independent media are tightly controlled; progressivism remains state-managed.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "In urban Cuba, casual relationships are more accepted. However, in more traditional areas, discretion and stigma remain.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Cuba\u0027s state-driven messaging dominates public discourse; expect limited independent outlets and rely on multiple sources for balanced info.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Propaganda prevalence in Cuba is high. State media dominates and independent outlets are scarce, limiting diverse viewpoints.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Havana\u0027s public transit is unreliable and crowded; plan backup rides or taxis for family trips in Cuba.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Publisher/Platform Relationships",
+      "alignmentText": "Cuba has few local publisher ties; most business development occurs via international networks or events abroad.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "Cuba offers limited luxury services; wealth management and elite schooling typically require travel to another country.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "In Cuba, universal healthcare and subsidized essentials help cover basics. Housing options can be limited with long waits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "Quality of life in Cuba for a middle-income family depends on steady remote work; housing is affordable but services can be uneven.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Real-Time vs Pre-Rendered Focus",
+      "alignmentText": "In Cuba, broadband and dev scene are limited; real-time game pipelines are sparse, with most work leaning toward pre-rendered content.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Secular state in Cuba; religion has limited policy influence. Some religious references exist in law, but minority rights remain protected.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Remote Expectations (Established Studios)",
+      "alignmentText": "In Cuba, established studios expect onsite work. Remote options are limited, with occasional flexibility.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "In Cuba (CU), remote work for startups faces regulatory and connectivity friction. Expect on-site collaboration with limited remote options.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "In Cuba, home broadband is scarce and Wi-Fi hotspots require prepaid cards. Outages disrupt remote meetings, so remote work remains limited.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "Cuba residency remains very hard for a US family; permits depend on state employment or family ties, with uncertain long-term status.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Cuba\u0027s tight economy, limited broadband, and visa barriers heighten churn; long-term roles are scarce beyond external opportunities.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "Cuba\u0027s public pensions exist but are modest and often strained; healthcare is universal, yet retirees face cost pressures.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "In Cuba (CU), visa holders typically have limited or no access to public pensions. Private retirement savings become essential.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Cuba\u0027s Ruby market is virtually non-existent; startups are scarce and remote options are limited. Relocation or remote work from abroad may be necessary.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "Safe overall; Cuba has low violent crime, but petty theft affects tourist areas like Havana/Varadero. Stay vigilant and avoid poorly lit zones after dark.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "In Cuba, international curricula outside Havana are rare; may rely on homeschooling or online programs for bilingual, flexible learning.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Sea water near Cuba stays about 24-28 C most months, enabling long swims without wetsuits. For hotter days, light rash guards help the kids stay comfortable.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Seasonal extremes in Cuba (CU) follow hurricane season (Jun\u2013Nov): heavy rain, outages, and storm risk. Stay alert and maintain family contingency plans.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Cuba lies near the equator, with steady 11-13 hour days year-round. Minimal seasonal light swings support steady remote work and family routines.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Cuba has a tropical climate with hot, humid weather most of the year and a June\u2013November hurricane season. Winters are milder, but humidity stays high.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Senior Talent Availability",
+      "alignmentText": "Senior tech talent is limited in Cuba; startups should hire from abroad or rely on remote leaders due to bandwidth and local ecosystem limits.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Cuba provides school-based sex education and universal health care; Havana leans liberal, while rural areas remain more conservative.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "In Cuba, healthcare and education are universal with strong safety nets. Private options are limited and bureaucracy can hinder mobility.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "In Cuba, spacious 2k sq ft rentals are very rare; we\u0027ll likely settle for smaller homes or explore alternative Cuban metros.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Havana spring 25\u201331 C (77\u201388 F) with rising humidity; May rains begin\u2014warm, not ideal for mild-year-round prefs; plan shade and hydration.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Moderate instability in Cuba (Havana); regime remains stable but with controls, periodic shortages and protests requiring contingency planning.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Cuba\u0027s state ideology is authoritarian with a one-party system and limited dissent. Private enterprise exists but under strict state control; expect bureaucracy.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "Cuba\u0027s economy remains state-led with limited market mechanisms; private enterprise exists, but reforms proceed slowly.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Studio Density",
+      "alignmentText": "Cuba\u0027s studio ecosystem is sparse; Havana hosts a handful of freelancers rather than full studios; many projects rely on remote partners.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "Havana, Cuba summers run ~31\u201333 C (88\u201391 F) with high humidity; frequent storms and hurricane season (Jun\u2013Nov) affect outdoor time.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "In Cuba, initiating conversations usually yields warm, positive responses; service is patient and personable, matching our family pace.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Tax Incentives for Games/Creative",
+      "alignmentText": "In Cuba, formal tax credits or grants for games/creative work are effectively non-existent; cultural support exists but not game-specific incentives.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "In Cuba, immigration permits can drag on due to bureaucratic delays and currency hurdles. Timelines are unpredictable, and costs could exceed $10k.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "In Cuba, government credibility is damaged; state media dominates and independent outlets are limited, fueling misinformation and cautious civic trust.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "In Cuba, petty corruption exists in daily services; there are occasional larger schemes. Use formal channels and patience to navigate bureaucratic processes.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "In Cuba, software pay is modest with limited private demand; broadband is constrained, so remote work for international firms or grants is often needed.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "In Cuba, weekends for a family of four hinge on parks, beaches, and community events. Expect more planning and modest budgets due to fewer hourly options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "In Cuba, schools often end early and aftercare is limited; families rely on flexible remote days or neighbor/paid care.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Cuba provides about 14 paid vacation days; in the 10\u201314 day band; full use is feasible but modest vs many countries.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Cuba typically offers around 20-24 paid days per year. Holidays and local schedules can trim downtime, impacting long trips for this family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Vendor/Outsource Ecosystem",
+      "alignmentText": "Cuba\u0027s outsourcing options are limited due to sanctions and connectivity constraints. Most core vendor work requires international partners.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "VFX Artist (Real-Time): Compensation Benchmark",
+      "alignmentText": "VFX real-time pay in Cuba trails global norms with limited benefits; relocation incentives may be needed, though cost of living is lower.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "VFX Artist (Real-Time): Continuing Education Availability",
+      "alignmentText": "In Cuba, local VFX (Real-Time) education is limited. Most upskilling comes from online or remote courses due to sparse studios.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
+      "alignmentText": "Limited local VFX (real-time) programs in Cuba. Most learners rely on online study or studying abroad.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Hiring Velocity",
+      "alignmentText": "In Cuba, VFX Real-Time roles are rarely filled locally; expect remote/imported talent with longer, multi-month searches.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "VFX Artist (Real-Time): Language",
+      "alignmentText": "In Cuba, English usage among VFX Real-Time pros is limited; ensure Spanish workflows with translation and onboarding support.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "VFX Artist (Real-Time): Remote Expectations",
+      "alignmentText": "In Cuba, remote real-time VFX is case-by-case with limited maturity; bandwidth and latency constraints may require onsite or hybrid work.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "VFX Artist (Real-Time): Talent Pool",
+      "alignmentText": "Cuba\u0027s real-time VFX pool is very thin. Only a handful of in-country specialists exist; remote hiring or relocation is typically required.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Cuba-US tensions color views of neighbors. Travel limits and media shape a cautious regional sentiment.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "In Cuba (Havana), the self-view is resilient and solidarity-driven, but state messaging and restricted liberties temper pride.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Caribbean neighbors value Cuba\u0027s vibrant culture, but political isolation fuels skepticism; for a US-origin family, travel and language access matter.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Cuba\u0027s visa options for US citizens are tightly limited; long-term relocation is uncertain and paths are opaque, complicating planning.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Walkability varies in Havana; some neighborhoods are pedestrian-friendly, but sidewalks are uneven and traffic is fast. Plan kid-friendly routes away from busy streets.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "In Cuba, US migrants face sanctions-linked hurdles and bureaucratic limits; locals are often welcoming, but official barriers slow settlement.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Vibrant Cuban music, dance, architecture, and contemporary art offer frequent surprises that keep our family engaged.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Havana winters are mild; days ~25\u201327 C (77\u201381 F), nights ~18\u201320 C (64\u201368 F); no freezing risk.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "Cuban workweeks average around 40-45 hours; aligns with level 7 (40-hour norm with occasional 42-45).",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "In Cuba, family time is central and evenings balance life, but power outages and ration lines cut downtime; broadband limits remote-work flexibility.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "Cuba: worker protections exist on paper, but independent unions are restricted and activism is discouraged; enforcement is uneven.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     }
   ]
 }

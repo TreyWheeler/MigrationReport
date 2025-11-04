@@ -3,949 +3,84 @@
   "iso": "CH",
   "values": [
     {
-      "key": "Environment",
-      "alignmentText": "Switzerland offers pristine air and water, extensive protected areas, and plentiful urban parks with strict pollution controls.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Global Warming Risk",
-      "alignmentText": "Switzerland faces alpine warming with glacier melt and heavier rains. Robust infrastructure and disaster readiness keep climate risk manageable.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "Switzerland offers mostly mild seasons: cool winters, pleasant summers; occasional heat waves, but outdoor time stays comfortable most of the year.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "Air in Switzerland is very clean overall. Occasional urban traffic spikes occur in cities like Zurich; filtration is rarely needed.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "Occasional alpine avalanches and floods in Switzerland; strong warning systems and resilient infrastructure mitigate family risk.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Spring in Switzerland is typically 12\u201323 C with occasional chilly rain and longer days. It\u0027s great for outdoor family time with light layers.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "In Switzerland\u0027s lowlands, summer highs near 30 C with nights under 20 C; lakes provide relief and easy comfort.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Most days in Switzerland (CH) fall are mild with light sweater weather; occasional rain showers clear quickly, good for family outings.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "In Switzerland\u0027s lowlands, winter temps usually range -1 to 6 C; alpine areas run colder with regular snow. Public transport helps keep commutes reliable.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Beach Life",
-      "alignmentText": "Lake beaches in Switzerland are clean, safe, and family-friendly, especially around Lake Zurich and Lake Geneva; easy rail access.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "Switzerland lakes typically 22\u201325 C in peak summer; great for kids, but early summer/late fall may need a short wetsuit.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "Switzerland\u0027s Alps and pristine lakes offer family-friendly hikes, scenic rail trips, and safe outdoor fun within easy reach.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Minimum Wage",
-      "alignmentText": "Switzerland has no national minimum wage; cantons set high floors (Geneva ~CHF23/hr). With two tech salaries, basics are covered, savings may be tight.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "CH software pay is very high relative to living costs. Zurich/Basel markets offer strong comp and equity, supporting a 2-kid family despite high costs.",
-      "alignmentValue": 9
-    },
-    {
       "key": ".NET Work Prospects",
       "alignmentText": "Swiss .NET demand is solid in finance/enterprise (Zurich/Basel); good remote options, helpful for Trey\u0027s startup and Sarah\u0027s web dev roles.",
       "alignmentValue": 8
     },
     {
-      "key": "Ruby Work Prospects",
-      "alignmentText": "Switzerland\u0027s tech market is solid, but Ruby remains a niche; expect fewer openings outside hubs like Zurich or Geneva, with some remote options.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Employer Visa Sponsorship",
-      "alignmentText": "Swiss sponsorship exists but quotas and cantonal rules cause friction; some firms sponsor, yet caps and paperwork create uncertainty.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "Switzerland\u0027s stable, diversified economy maintains low unemployment and mild inflation. This protects family finances in CH and supports entrepreneurial opportunities.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "Switzerland\u0027s tech scene leans hybrid; remote work is common, but many firms expect periodic on-site days (Zurich/Geneva).",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "Switzerland\u0027s work-life balance is strong, with clear boundaries. Generous vacations and parental support help families reach milestones.",
+      "key": "2D Environmental Artist: Compensation Benchmark",
+      "alignmentText": "Switzerland\u0027s Zurich/Geneva market offers competitive 2D environmental artist pay with solid benefits. This fits a family prioritizing QoL, healthcare, and work-life balance.",
       "alignmentValue": 9
     },
     {
-      "key": "Work Week Hours",
-      "alignmentText": "Swiss standard is around 40 hours with regulated overtime; startups may reach 42-45 hours. Remote/hybrid options align with the family\u0027s balance goals in CH.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "Switzerland (CH) offers 20 paid days (25 for younger staff) plus canton holidays; good for family breaks, though holiday counts vary by canton.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Vacation Days (Typical)",
-      "alignmentText": "Switzerland typically offers about 25\u201330 paid days plus holidays. This supports family trips and alpine getaways for Trey and Sarah.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pace of Life",
-      "alignmentText": "Calm, orderly Switzerland; outside Zurich/Geneva, pace is relaxed, enabling a strong family-friendly routine.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "In Switzerland, schools finish around 15:00-16:00 with wraparound care. Remote/hybrid work fits a family of four\u0027s schedule.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Weekends in Switzerland offer abundant outdoor and family activities (parks, lakes, museums). Note many shops close on Sundays; plan outings accordingly.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Life",
-      "alignmentText": "Switzerland (CH) offers safe, park-rich communities with strong family services. Cantonal childcare and reliable public transport ease daily family life.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Polyamory",
-      "alignmentText": "Switzerland (Zurich/Gen\u00E8ve): polyamory is more tolerated in cities, but law still defaults to monogamy; discreet yet increasingly accepted.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Parenting Expectations",
-      "alignmentText": "Switzerland (CH) supports structured parenting with strong schools and shared caregiving. Occasional traditional expectations remain manageable for this family.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "alignmentText": "Swiss cities offer excellent playgrounds, clean parks, and safe streets; strong childcare and top-tier schools suit a family with two young kids.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Schooling Options",
-      "alignmentText": "Switzerland has strong public schools with language tracks across cantons. International schools exist but are costly.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Switzerland has a solid pre-K network with public and private slots, but fees are high and cantonal rules vary. Plan early for bilingual slots and to secure care for both kids.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "Switzerland\u2019s cantonal subsidies ease some daycare fees. However, costs stay high for two kids; families still shoulder a large share.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "Switzerland (CH): Non-EU visa families often access subsidies only after tax registration; cantonal quotas keep many paying near full price.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "K-12 in Switzerland offers universal, high-quality public schooling with strong language support for multilingual families; enrollment is generally accessible.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "Switzerland allows visa-holding children to enroll in public schools; cantonal language support and integration services are available.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Private Education",
-      "alignmentText": "In Switzerland, strong private/intl options exist (Zurich/Geneva); top schools have entry hurdles and high fees; verify accreditation.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Family Policy (Citizens)",
-      "alignmentText": "Switzerland offers child allowances and 14 weeks maternity leave. Canton variability means payments can be slow and benefits leaner than Nordic peers.",
+      "key": "2D Environmental Artist: Continuing Education Availability",
+      "alignmentText": "Switzerland offers occasional 2D environmental art training; remote options and visiting experts exist, with short courses in Zurich/Lausanne.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
-      "key": "Family Policy (Visa Holders)",
-      "alignmentText": "Switzerland (CH): B-permit families get partial benefits; social insurance applies, but cantonal discretion and shorter leave limit predictable support.",
+      "key": "2D Environmental Artist: Education Pipeline Strength",
+      "alignmentText": "Switzerland has several art schools (ZHdK/ECAL), but dedicated 2D environmental art paths are limited; studios provide on-the-job upskilling.",
       "alignmentValue": 7
     },
     {
-      "key": "Higher Education Access (Citizens)",
-      "alignmentText": "In Switzerland, citizens access affordable public universities with transparent aid. Cantonal scholarships and loans help manage costs.",
-      "alignmentValue": 9
+      "key": "2D Environmental Artist: Hiring Velocity",
+      "alignmentText": "In Switzerland, 2D environmental artist roles typically require 3-4 months with proactive sourcing. Relocation or cross-border hiring may be needed for US-based candidates.",
+      "alignmentValue": 6
     },
     {
-      "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "US visa holders can enroll in Swiss public universities, but scholarships are limited and work-study options are modest.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Gender Roles",
-      "alignmentText": "In Switzerland, gender roles are broadly egalitarian, especially in cities; rural areas retain some traditional patterns.",
+      "key": "2D Environmental Artist: Language",
+      "alignmentText": "In Switzerland, English is widely used in studios; learning German/French helps locally. Your priority on English ubiquity and willingness to learn fits well.",
       "alignmentValue": 8
     },
     {
-      "key": "Gender Fluidity",
-      "alignmentText": "Switzerland\u0027s cities (Zurich/Geneva) support gender diversity; rural areas slower; some official documents remain binary.",
-      "alignmentValue": 9,
+      "key": "2D Environmental Artist: Remote Expectations",
+      "alignmentText": "Switzerland studios favor hybrid 2D environmental art roles; remote work is supported with occasional onsite collaboration in cities like Zurich or Geneva.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "Gender Rights",
-      "alignmentText": "Switzerland has strong gender-equality laws; same-sex marriage is legal and protections are robust, with leadership growth but some pay gaps remain.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "Switzerland backs diverse femininity; strong gender equality with minor conservative pockets; supports work-life balance and family-oriented policies.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "In Switzerland (CH), masculine norms are broadly egalitarian; fathers share caregiving, with a few traditional pockets still present.",
-      "alignmentValue": 9,
+      "key": "2D Environmental Artist: Talent Pool",
+      "alignmentText": "Switzerland has a moderate 2D environmental art pool (Zurich/Geneva). Hiring often needs relocation and longer searches for niche skills.",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
-      "key": "What Is Intriguing",
-      "alignmentText": "Swiss Alps and precision culture fuse with multilingual towns; secure, high-quality daily life and family-friendly innovation in CH.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "key": "3D Animator: Compensation Benchmark",
+      "alignmentText": "Switzerland offers competitive 3D animator pay with strong benefits; Zurich/Geneva markets are solid but expensive; remote options aid family relocation.",
+      "alignmentValue": 8
     },
     {
-      "key": "Language \u0026 English Ubiquity",
-      "alignmentText": "English is widely used in Swiss cities for daily life and services; official matters lean to German/French/Italian, so learning the local language aids integration.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Progressivism",
-      "alignmentText": "Switzerland blends progressive values with strong civic engagement; direct democracy shapes policies, supporting healthcare, education, and family services.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "Switzerland (CH) has a pluralist polity where Marxism is fringe but debated; your progressive, anti-authoritarian family aligns with CH\u0027s resilient democracy.",
+      "key": "3D Animator: Continuing Education Availability",
+      "alignmentText": "Switzerland offers limited on-site 3D animation education; occasional university/workshop offerings (Zurich, Geneva) and strong online options.",
       "alignmentValue": 5,
       "sameAsParent": false
     },
     {
-      "key": "Atheism",
-      "alignmentText": "In Switzerland, atheism is broadly accepted; secular culture is strong, though some cantonal ceremonies and holidays remain religious.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Sex (Attitudes)",
-      "alignmentText": "Switzerland offers comprehensive sex education and inclusive policies. Urban Swiss communities are open with broad access to resources.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "LGBTQ\u002B Attitudes",
-      "alignmentText": "Switzerland generally supports LGBTQ\u002B families; strong legal protections exist, urban centers like Zurich are welcoming, but rural areas may be cautious.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Vibes",
-      "alignmentText": "In Switzerland, neighbors are polite and reliable. Community ties deepen through clubs/associations and school life.",
+      "key": "3D Animator: Education Pipeline Strength",
+      "alignmentText": "Switzerland has multiple reputable 3D animation programs (ZHdK, HSLU, SUPSI) with English options; grads feed Zurich/Lausanne studios.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "View of self",
-      "alignmentText": "Switzerland\u0027s stable, multilingual democracy fits a progressive, community-minded family. They value civil liberties and approach patriotism with humility.",
-      "alignmentValue": 9
+      "key": "3D Animator: Hiring Velocity",
+      "alignmentText": "In Switzerland (Zurich/Geneva hubs), 3D animator roles have a niche pool; expect 3-4 month searches with proactive sourcing or relocation.",
+      "alignmentValue": 6
     },
     {
-      "key": "View of Neighboring Countries",
-      "alignmentText": "In Switzerland (CH), EU neighbors (Germany, France, Italy, Austria) cooperate closely; cross-border travel and collaboration are common.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Neighbors view Switzerland positively with strong ties; cross-border travel to Germany and France is straightforward, aiding families and expats.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Nightlife Culture",
-      "alignmentText": "Nightlife exists in Zurich/Geneva/Lausanne districts. Plan transport and sitters for evenings, as family-friendly options are district-specific.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Fashion Trends (Male)",
-      "alignmentText": "In Swiss urban centers (Zurich/Geneva), smart-casual with technical outerwear fits; suburbs lean classic.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fashion Trends (Female)",
-      "alignmentText": "Swiss urban fashion: inclusive, body-positive, diverse styles in Zurich/Geneva; women can dress freely in city life.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Common Hobbies",
-      "alignmentText": "Hiking, skiing, cycling, lake swimming are common in Switzerland. Outdoor clubs and parks support family-friendly activities.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Boardgaming \u0026 Tabletop",
-      "alignmentText": "Active boardgame clubs and shops in major Swiss cities; multilingual groups may require coordination to find regular meetups.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Nightlife \u0026 Music",
-      "alignmentText": "Swiss cities host major events (Montreux Jazz, Zurich/Geneva gigs) with safe transit; family-friendly venues are common, though some nights require planning.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Meetups \u0026 Communities",
-      "alignmentText": "Zurich and Geneva host active English-friendly meetups across tech, parenting, and hobbies. Frequent events help expats network quickly.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Nature Access",
-      "alignmentText": "Abundant nature within an hour in Switzerland; fast trains make parks and trails easily reachable for an urban/inner-suburban family.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Political System",
-      "alignmentText": "Switzerland (CH): federal direct democracy with frequent referenda; strong rule of law and robust cantonal/local autonomy.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Religion in Politics",
-      "alignmentText": "Switzerland is largely secular; religion influences culture modestly across cantons. For families like ours, policy remains evidence-based and pluralistic with strong minority protections.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Workers\u0027 Rights",
-      "alignmentText": "Switzerland offers solid worker protections and universal health coverage with a flexible labor market. Unions exist but are not as strong as in the Nordics.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "State Ideology",
-      "alignmentText": "Switzerland\u0027s pluralist, rights-based system with direct democracy and strong civil liberties aligns with progressive family values and inclusive policies.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Safeguards strong in Switzerland; direct democracy and robust institutions keep backsliding risk minimal.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "State of Capitalism",
-      "alignmentText": "In Switzerland, a balanced social market blends innovation with strong safety nets, supporting families and SMEs.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Stability",
-      "alignmentText": "Switzerland\u0027s long-term stability and strong institutions give predictable education, healthcare, and family life in CH with minimal volatility.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "In Switzerland (CH), the pluralistic media landscape and watchdog culture keep propaganda rare and quickly corrected.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "In Switzerland (CH), public broadcasters aim for neutrality and shared wellbeing. Reporting is largely factual with inclusive civic participation.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "Switzerland (CH) offers universal health coverage and strong family safety nets; some programs have eligibility rules and paperwork.",
+      "key": "3D Animator: Language",
+      "alignmentText": "In CH, English is widely used in studios, but Zurich/Geneva teams often expect local language basics (German/French); bilingual ability helps.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "Trust in Government",
-      "alignmentText": "In Switzerland, public trust is solid due to transparency, accountable governance, and accessible services; direct democracy keeps local voices heard.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "Switzerland ranks among the least corrupt globally. Strong institutions and reliable services support your family-friendly, low-bureaucracy goals.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "In Switzerland, corruption is rare and quickly addressed; strong rule of law and transparent processes safeguard families in CH.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "Zurich/Geneva housing is expensive with tight stock; securing a spacious family unit may take time, but strong tenant protections aid stability.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Safety \u0026 Crime",
-      "alignmentText": "Extremely safe across Switzerland; violent crime is rare and police presence is supportive. Emergency services are fast and reliable, ideal for family life.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "Switzerland offers universal healthcare via mandatory private insurance; subsidies help costs. Coverage is comprehensive and wait times are short.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Switzerland requires private health insurance for visa holders; care is available but premiums and paperwork add cost.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "Switzerland offers high-quality childcare, but costs are high and urban waitlists exist; families must actively network and seek cantonal subsidies.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "Switzerland offers strong family benefits (child allowances, parental leave) and universal healthcare; but childcare costs and cantonal rules raise expenses.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Education",
-      "alignmentText": "Switzerland\u0027s public schools deliver high educational outcomes with supportive teachers and modern facilities. Bilingual exposure is feasible in many cantons.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "Switzerland has a world-class, punctual public transport network that serves cities and suburbs. It is very family-friendly, with easy access for kids.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "Switzerland\u0027s competitive market, strong social insurance, and stable governance align with your startup goals and family stability in CH.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "Quellensteuer may apply for some B permits; filings vary by canton. Overall, tax compliance is manageable with online tools, despite cantonal differences.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "Swiss cantons vary; for a two-adult, two-child family, total tax is typically in the mid-20s percent, with strong public services offsetting costs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Banking \u0026 Payments",
-      "alignmentText": "Switzerland (CH): strong, modern banking with Twint; US expats may face longer onboarding and paperwork.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "Cost of living in Switzerland is high, especially housing and childcare. Budgeting is tight; look for cantonal subsidies and ways to maximize earnings.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Retirement (Citizens)",
-      "alignmentText": "Switzerland\u0027s three-pillar system (AHV/AVS, occupational, private) provides solid basics; adequacy depends on ongoing contributions and second-pillar coverage.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "In Switzerland, employed visa holders typically participate in the second pillar; portability/refunds on departure apply; benefits grow with contributions.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Visa Paths",
-      "alignmentText": "Non-EU routes exist (self-employment/startups) but are canton/quota driven; expect lengthy, costly, and uncertain approvals.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "In Switzerland, skilled US migrants are welcomed in tech hubs, but visa quotas and cantonal rules slow entry.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Residency Types \u0026 Durations",
-      "alignmentText": "Residency in Switzerland is attainable but renewals hinge on employment; long-residence can lead to C status, though the process is slow.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Path to Citizenship",
-      "alignmentText": "In Switzerland, ordinary naturalization commonly requires around 10 years of residency with language and cantonal steps. Approval is not guaranteed.",
+      "key": "3D Animator: Remote Expectations",
+      "alignmentText": "Switzerland tends toward hybrid 3D roles. Remote options exist case-by-case, but on-site collaboration remains common for studios.",
       "alignmentValue": 5
     },
     {
-      "key": "Family Members",
-      "alignmentText": "In Switzerland (CH), family reunification for spouses and children is allowed; work rights depend on permit type. Expect a potentially slow, costly process.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Timelines \u0026 Costs",
-      "alignmentText": "In Switzerland, permits typically take 3\u20136 months; costs are predictable and usually a few thousand CHF total (visa, permits, translations).",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Compliance \u0026 Risks",
-      "alignmentText": "Switzerland compliance is manageable. Register with the local commune and secure mandatory health insurance; permits and taxes involve cantonal steps and annual filings.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Dual Citizenship Allowed",
-      "alignmentText": "Switzerland allows dual citizenship; US citizens can naturalize without losing US status, with minimal reporting.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "General Considerations for Visa Holders",
-      "alignmentText": "Switzerland visa holders rely on permits (B); housing/job changes require renewal; property ownership restricted; English common in tech; learn local language.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Game Dev Work Prospects",
-      "alignmentText": "Switzerland\u0027s game dev scene is mid-sized with studios in Zurich and Lausanne; solid remote options but local roles are fewer than bigger hubs.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Hiring Velocity (Established Studios)",
-      "alignmentText": "Swiss established studios typically take about 3 months to fill roles; visa checks and niche skills slow hiring vs larger hubs.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Compensation Benchmark (Established Studios)",
-      "alignmentText": "In Switzerland, established studios generally align pay with global medians after cost of living. Strong benefits and family-friendly policies help attract talent.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Established Studios)",
-      "alignmentText": "Switzerland studios widely use English; local-language (DE/FR/IT) skills aid docs, compliance, and community partnerships.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote Expectations (Established Studios)",
-      "alignmentText": "Switzerland\u0027s established studios commonly offer hybrid/remote options with formal policies; cross-border collaboration is common in CH.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Notable Game Studios",
-      "alignmentText": "Zurich, Switzerland hosts GIANTS Software and several indie labs; a small but active game scene that matches your game-dev focus.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "SGDA network; Swiss meetups exist in Zurich, Geneva, Lausanne, but events can be infrequent; proactive outreach helps.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Switzerland offers strong game-startup support via Innosuisse and Pro Helvetia. Talent near Zurich/Lausanne and solid funding options, but costs are high.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Hiring Velocity (Startups)",
-      "alignmentText": "Switzerland typically fills early-stage roles in about 2 months. Innosuisse and SwissGames help speed pipelines in Zurich/Geneva.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Compensation Benchmark (Startups)",
-      "alignmentText": "Switzerland startups track global medians after cost of living. Solid base pay plus equity, but high living costs favor cash for families.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentText": "Swiss startups are English-friendly, but German/French/Italian fluency is needed for regulatory tasks and hiring; your family plans bilingual adaptation.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentText": "In Switzerland, startups commonly use hybrid work and strong remote tooling; Trey and Sarah can work remote or hybrid with local Swiss hubs.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Modernity \u0026 Infrastructure",
-      "alignmentText": "Switzerland offers cutting-edge infrastructure: widespread gigabit fibre, reliable power, and top-tier trains\u2014great for remote work and family life.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Seasonal Extremes \u0026 Variability",
-      "alignmentText": "Switzerland (CH) has generally predictable seasons, with occasional snow or storms that merit monitoring and contingency planning.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Seasonal Sunlight Hours",
-      "alignmentText": "Switzerland (CH) winters bring noticeable darkness; stay energized with daily outdoor breaks and occasional light therapy.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pleasant Weather Windows",
-      "alignmentText": "Most of the year is comfortable in Switzerland; mild springs and autumns by the lakes, with only a few hot or chilly weeks.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Quality of Life \u2013 Lower-Income Tier",
-      "alignmentText": "In Switzerland, strong safety nets ease healthcare/childcare, but high city costs strain a two-child family; housing and waitlists limit QoL.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Quality of Life \u2013 Middle-Income Tier",
-      "alignmentText": "In Switzerland (CH), safety, healthcare, and good schools support families; housing and childcare costs require careful budgeting.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Quality of Life \u2013 Higher-Income Tier",
-      "alignmentText": "Switzerland provides excellent schools, safety, and universal healthcare for families; premium tutors and clubs are available, though planning helps.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "Switzerland: 2k sq ft rentals are scarce and pricey; expect premium rents and broker involvement, with quick turnover in Zurich/Geneva suburbs.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Community Living Opportunities",
-      "alignmentText": "Co-housing exists in Swiss cities like Zurich and Geneva; opportunities are limited and often network-driven, with patience.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Friendliness \u0026 Neighborliness Index",
-      "alignmentText": "In Switzerland, locals are polite and open to connection when you show initiative; strong expat and multilingual networks help integration.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 General",
-      "alignmentText": "In Switzerland, immigrants are generally welcomed in cities, but nationwide immigration debates can bring periodic skepticism.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 White Migrants",
-      "alignmentText": "Switzerland welcomes educated expats; English helps, but cantonal languages and higher costs may raise questions; prioritize community engagement in Zurich.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Surface Interaction Norms",
-      "alignmentText": "In Switzerland (CH), service is polite and efficient. Expect brief, respectful exchanges; warmth may require you to initiate.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Depth-Seeking Social Norms",
-      "alignmentText": "Switzerland tends to be reserved; deep friendships grow slowly in CH cities (Zurich, Geneva). Persistent outreach and family-friendly clubs help.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Personal Boundary \u0026 Bubble Norms",
-      "alignmentText": "In Switzerland, personal space is typically respected; on crowded trams and queues, gently guide the kids to give others room.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Moral, Honesty \u0026 Openness Expectations",
-      "alignmentText": "In Switzerland (CH), direct but respectful dialogue is common; share needs clearly and calmly, with diplomacy intact, especially at work and with schools.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Grooming \u0026 Beauty Investment",
-      "alignmentText": "Switzerland favors neat, practical grooming. Stay polished for work and social settings, but extreme fashion isn\u0027t required.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Body Image \u0026 Fitness Pressure",
-      "alignmentText": "Switzerland favors health-focused fitness and outdoor activity; conversations are generally respectful. Body talk leans supportive, not punitive.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fashion \u0026 Style Expectations",
-      "alignmentText": "Switzerland favors polished, smart-casual attire in offices, especially in Zurich/Geneva. Plan for neat outfits, but home/family time can stay relaxed.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Flirting Boundaries \u0026 Consent Culture",
-      "alignmentText": "Switzerland values consent; respectful flirting is expected and nightlife staff reinforce boundaries in Swiss cities like Z\u00FCrich.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Gendered Flirting Expectations",
-      "alignmentText": "In Swiss urban centers (Zurich/Geneva), flirting norms are broadly inclusive; our family values fluid, stigma-free approaches.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "In Switzerland, urban centers like Zurich and Geneva are increasingly tolerant of non-monogamy. Rural cantons may require discretion.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "alignmentText": "In urban Switzerland (Zurich), casual relationships are generally accepted. Some circles prefer discretion.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
-      "alignmentText": "Zurich and Geneva exemplify Swiss urban tolerance for polyamory; multi-partner families are visible in civic life, though legal recognition lags.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Personal Space \u0026 Touch Norms",
-      "alignmentText": "Switzerland generally respects personal space; in transit people keep distance and touch is usually by invitation only; hugs are rarer.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Firearm Laws \u0026 Ownership Culture",
-      "alignmentText": "Switzerland (CH): gun ownership exists but licensing, storage, and training rules are rigorous and widely respected.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Controlled Substance Policies",
-      "alignmentText": "Switzerland (CH) emphasizes harm-reduction and universal healthcare; aligns with your family values; watch cantonal variations.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "Switzerland uses harm-reduction drug policy; enforcement targets trafficking, with strong support services for users.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "In Switzerland (CH), mass violence is exceptionally rare; authorities maintain clear safety plans and transparent communication.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Carceral Conditions \u0026 Prison Labor",
-      "alignmentText": "In Switzerland, prisons meet international standards with strong oversight. Restorative programs align with humane, rights-respecting detention.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Walkability \u0026 Pedestrian Safety",
-      "alignmentText": "Switzerland prioritizes pedestrian safety; wide sidewalks and calm streets in many neighborhoods. Great transit supports kid-friendly walks to parks.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Community Health Consciousness",
-      "alignmentText": "In Switzerland (CH), strong preventive care and an active lifestyle culture support families; tap local clubs and expat networks to stay motivated.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Processed Food Saturation",
-      "alignmentText": "In Switzerland, fresh markets and bio stores are common for families. Healthier options are plentiful with planning, yet convenient foods are nearby.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Fresh \u0026 International Cuisine Access",
-      "alignmentText": "In Switzerland, strong overall access: major cities provide diverse cuisines and fresh markets; a few specialty ingredients may require travel to larger centers.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "In Switzerland, universal health care supports mental health; depression rates are likely below average; plan for therapy access.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Obesity Rate",
-      "alignmentText": "Obesity rates in Switzerland are low thanks to active transport and preventive care. This supports a healthy, family-friendly lifestyle for Trey and Sarah in CH.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Cancer Incidence",
-      "alignmentText": "Cancer incidence in Switzerland aligns with global norms; robust screening and universal healthcare support early detection.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "Switzerland\u0027s diversified, innovation-driven economy offers strong safety nets; layoffs are rare and reemployment is swift, especially in Zurich.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Studio Density",
-      "alignmentText": "Switzerland\u0027s game studio scene is moderate; Z\u00FCrich and Geneva host several studios and indie teams, with room to grow but not dense.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Anchor Employers",
-      "alignmentText": "Switzerland has few anchor studios; Zurich and Geneva host satellite offices, no major IP owners - fits a service-studio ecosystem with grants.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "Switzerland has a modest but solid vendor scene (Zurich/Geneva) for art/QA; capacity is limited, so plan to pair with remote partners for overflow.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Education Pipeline Strength",
-      "alignmentText": "Switzerland has strong CS/engineering tracks (ETHZ/EPFL) and a few game-focused applied programs; a couple feed local game talent reliably.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Continuing Education Availability",
-      "alignmentText": "Switzerland offers frequent, industry-led courses (Zurich/Geneva), many in English; strong bootcamps, workshops, and university programs.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Activity",
-      "alignmentText": "In Switzerland (CH), Zurich and Geneva host regular monthly game-dev meetups and game jams; a supportive, connected scene for families.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Engine Community Bias",
-      "alignmentText": "Switzerland hosts strong Unity and Unreal scenes (Zurich, Geneva); active cross-pollination and shared training resources.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "Switzerland offers top broadband and Azure regions in Zurich and Geneva. A growing game-dev ecosystem supports real-time pipelines for your teams.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Demand\u2013Supply Balance",
-      "alignmentText": "Switzerland has IT demand and high QoL; expect competition for software roles and visa steps for a US family. English is common in tech; plan to learn German.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Retention \u0026 Churn Risk",
-      "alignmentText": "Switzerland\u2019s stable tech market supports good retention for an experienced US team; expect occasional funding-driven churn but overall long-tenure potential.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Diversity \u0026 Inclusion Index",
-      "alignmentText": "Switzerland offers strong anti-discrimination protections, multilingual work culture, and LGBTQ\u002B inclusion; D\u0026I is steadily improving for expats.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "Switzerland offers cantonal R\u0026D tax credits and cultural grants. Game-specific incentives exist but vary by canton.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Economic/Policy Stability",
-      "alignmentText": "Switzerland offers high policy stability and predictability; strong rule of law and startup support, with clear rules but some cantonal variation.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Founder/Operator Community",
-      "alignmentText": "Switzerland has a growing founder network (Zurich/Lausanne) with regular meetups and strong university ties (EPFL/ETHZ), plus grants/visa options.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Early-Stage Capital Access",
-      "alignmentText": "Switzerland offers strong general VC and solid public grants (Innosuisse) for tech; game-specific funds are limited and competition is tight.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Accelerator/Incubator Access",
-      "alignmentText": "Switzerland has generalist accelerators (EPFL, FONGIT, Impact Hub) with few game-specific tracks; strong for tech founders, but game-tailored support is scarce.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Senior Talent Availability",
-      "alignmentText": "Switzerland has an adequate senior software talent pool (Zurich/Lausanne); startups must offer competitive packages, but English-friendly hiring aids.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Contractor/Freelancer Bench",
-      "alignmentText": "Switzerland has a strong, English-friendly contractor market in tech (Zurich/Geneva). Expect premium rates and occasional lead times for top specialists.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Coworking \u0026 Startup Infrastructure",
-      "alignmentText": "Zurich and Geneva provide strong coworking networks and maker spaces; access to game-dev gear is limited but shared labs exist in universities.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Legal \u0026 IP Support",
-      "alignmentText": "Switzerland (CH) has several Zurich/Geneva IP firms with game-IP, licensing, and cross-border deal experience; startup-friendly legal options.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Publisher/Platform Relationships",
-      "alignmentText": "Switzerland offers EU publisher access, but direct BD presence is limited; proactive outreach and local events help build CH partnerships.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Market Research \u0026 Playtesting",
-      "alignmentText": "Switzerland offers established market research vendors (Nielsen, GfK) and regional playtests in Zurich/Geneva. Expect some lead times and language needs.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Government/Startup Visas",
-      "alignmentText": "Switzerland offers a startup/entrepreneur permit, but requires a solid business plan and funding. Processing is moderate; the ecosystem is strong.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Cost of Doing Business",
-      "alignmentText": "Switzerland has high rents and wages that raise costs, but strong startup grants/visa options can help offset; budget cautiously.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "Moderate 3D character artist pool in Switzerland; Zurich and Geneva offer ongoing hiring, but seniors may require relocation or remote options.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "In Switzerland (CH), 3D character programs exist (ECAL, ZHdK, HEAD); class sizes are small and grads often require on-the-job upskilling.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "Switzerland offers occasional 3D character art upskilling: visiting experts and short courses; solid online options, but local scenes are limited.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "Switzerland: 3D character artist hiring often ranges 3-4 months; small local pools and visa rules push proactive sourcing or relocation.",
+      "key": "3D Animator: Talent Pool",
+      "alignmentText": "Moderate 3D animator pool in Switzerland (Zurich/Geneva); startups can hire but niche seniors may require relocation or remote work, helpful for families.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
@@ -953,6 +88,22 @@
       "key": "3D Character Artist: Compensation Benchmark",
       "alignmentText": "Switzerland CH offers strong 3D character artist pay after COL; competitive base with solid benefits, aligning with global medians.",
       "alignmentValue": 8
+    },
+    {
+      "key": "3D Character Artist: Continuing Education Availability",
+      "alignmentText": "Switzerland offers occasional 3D character art upskilling: visiting experts and short courses; solid online options, but local scenes are limited.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Character Artist: Education Pipeline Strength",
+      "alignmentText": "In Switzerland (CH), 3D character programs exist (ECAL, ZHdK, HEAD); class sizes are small and grads often require on-the-job upskilling.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Character Artist: Hiring Velocity",
+      "alignmentText": "Switzerland: 3D character artist hiring often ranges 3-4 months; small local pools and visa rules push proactive sourcing or relocation.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "3D Character Artist: Language",
@@ -967,129 +118,119 @@
       "sameAsParent": false
     },
     {
-      "key": "3D Animator: Talent Pool",
-      "alignmentText": "Moderate 3D animator pool in Switzerland (Zurich/Geneva); startups can hire but niche seniors may require relocation or remote work, helpful for families.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "Switzerland has multiple reputable 3D animation programs (ZHdK, HSLU, SUPSI) with English options; grads feed Zurich/Lausanne studios.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "Switzerland offers limited on-site 3D animation education; occasional university/workshop offerings (Zurich, Geneva) and strong online options.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "In Switzerland (Zurich/Geneva hubs), 3D animator roles have a niche pool; expect 3-4 month searches with proactive sourcing or relocation.",
+      "key": "3D Character Artist: Talent Pool",
+      "alignmentText": "Moderate 3D character artist pool in Switzerland; Zurich and Geneva offer ongoing hiring, but seniors may require relocation or remote options.",
       "alignmentValue": 6
     },
     {
-      "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "Switzerland offers competitive 3D animator pay with strong benefits; Zurich/Geneva markets are solid but expensive; remote options aid family relocation.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Animator: Language",
-      "alignmentText": "In CH, English is widely used in studios, but Zurich/Geneva teams often expect local language basics (German/French); bilingual ability helps.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Remote Expectations",
-      "alignmentText": "Switzerland tends toward hybrid 3D roles. Remote options exist case-by-case, but on-site collaboration remains common for studios.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "Switzerland has a moderate 2D environmental art pool (Zurich/Geneva). Hiring often needs relocation and longer searches for niche skills.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "Switzerland has several art schools (ZHdK/ECAL), but dedicated 2D environmental art paths are limited; studios provide on-the-job upskilling.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "Switzerland offers occasional 2D environmental art training; remote options and visiting experts exist, with short courses in Zurich/Lausanne.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "2D Environmental Artist: Hiring Velocity",
-      "alignmentText": "In Switzerland, 2D environmental artist roles typically require 3-4 months with proactive sourcing. Relocation or cross-border hiring may be needed for US-based candidates.",
+      "key": "Accelerator/Incubator Access",
+      "alignmentText": "Switzerland has generalist accelerators (EPFL, FONGIT, Impact Hub) with few game-specific tracks; strong for tech founders, but game-tailored support is scarce.",
       "alignmentValue": 6
     },
     {
-      "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "Switzerland\u0027s Zurich/Geneva market offers competitive 2D environmental artist pay with solid benefits. This fits a family prioritizing QoL, healthcare, and work-life balance.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "2D Environmental Artist: Language",
-      "alignmentText": "In Switzerland, English is widely used in studios; learning German/French helps locally. Your priority on English ubiquity and willingness to learn fits well.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "2D Environmental Artist: Remote Expectations",
-      "alignmentText": "Switzerland studios favor hybrid 2D environmental art roles; remote work is supported with occasional onsite collaboration in cities like Zurich or Geneva.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "Moderate VFX real-time pool in Switzerland (Zurich, Geneva). Startups can hire but may need relocation or remote options for seniors.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "Switzerland has niche VFX-real-time programs (Zurich/Lausanne); however, numbers are small and grads often need on-the-job upskilling.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "Occasional VFX real-time training exists in Switzerland. Zurich and Lausanne host short courses and visiting experts, with robust online options.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "Switzerland\u0027s VFX (real-time) hiring typically takes 4-5 months with several search cycles. Local pipelines are modest; plan for relocation or remote work.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "Switzerland offers highly competitive VFX Real-Time pay with strong benefits. High cost of living can offset earnings.",
+      "key": "Air Quality",
+      "alignmentText": "Air in Switzerland is very clean overall. Occasional urban traffic spikes occur in cities like Zurich; filtration is rarely needed.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Language",
-      "alignmentText": "In Switzerland (CH), VFX real-time teams in Zurich/Lausanne mainly use English; local language skills boost fit, and bilingual candidates are favored.",
-      "alignmentValue": 6
+      "key": "Anchor Employers",
+      "alignmentText": "Switzerland has few anchor studios; Zurich and Geneva host satellite offices, no major IP owners - fits a service-studio ecosystem with grants.",
+      "alignmentValue": 5
     },
     {
-      "key": "VFX Artist (Real-Time): Remote Expectations",
-      "alignmentText": "In Switzerland (CH), hybrid real-time VFX roles are common; fully remote setups require negotiation due to on-site pipeline needs.",
+      "key": "Atheism",
+      "alignmentText": "In Switzerland, atheism is broadly accepted; secular culture is strong, though some cantonal ceremonies and holidays remain religious.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Safeguards strong in Switzerland; direct democracy and robust institutions keep backsliding risk minimal.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "Switzerland (CH): strong, modern banking with Twint; US expats may face longer onboarding and paperwork.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Lake beaches in Switzerland are clean, safe, and family-friendly, especially around Lake Zurich and Lake Geneva; easy rail access.",
       "alignmentValue": 8
     },
     {
-      "key": "Community Manager: Talent Pool",
-      "alignmentText": "Switzerland (CH) offers a moderate CM pool; Zurich/Geneva hubs provide talent but niche CM roles often require relocation or extended sourcing.",
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "Active boardgame clubs and shops in major Swiss cities; multilingual groups may require coordination to find regular meetups.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "Switzerland favors health-focused fitness and outdoor activity; conversations are generally respectful. Body talk leans supportive, not punitive.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Switzerland\u0027s diversified, innovation-driven economy offers strong safety nets; layoffs are rare and reemployment is swift, especially in Zurich.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "Cancer incidence in Switzerland aligns with global norms; robust screening and universal healthcare support early detection.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "In Switzerland, prisons meet international standards with strong oversight. Restorative programs align with humane, rights-respecting detention.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Switzerland offers high-quality childcare, but costs are high and urban waitlists exist; families must actively network and seek cantonal subsidies.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Swiss cities offer excellent playgrounds, clean parks, and safe streets; strong childcare and top-tier schools suit a family with two young kids.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Switzerland\u2019s cantonal subsidies ease some daycare fees. However, costs stay high for two kids; families still shoulder a large share.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "[Placeholder] Provide Community Manager: Education Pipeline Strength insights for Switzerland.",
-      "alignmentValue": 5
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "Switzerland (CH): Non-EU visa families often access subsidies only after tax registration; cantonal quotas keep many paying near full price.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Hiking, skiing, cycling, lake swimming are common in Switzerland. Outdoor clubs and parks support family-friendly activities.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Activity",
+      "alignmentText": "In Switzerland (CH), Zurich and Geneva host regular monthly game-dev meetups and game jams; a supportive, connected scene for families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "In Switzerland (CH), strong preventive care and an active lifestyle culture support families; tap local clubs and expat networks to stay motivated.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Co-housing exists in Swiss cities like Zurich and Geneva; opportunities are limited and often network-driven, with patience.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Compensation Benchmark",
+      "alignmentText": "Switzerland\u0027s market pays community managers in line with global medians after cost-of-living adjustments. Strong benefits and tech hubs in CH help attract talent.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Community Manager: Continuing Education Availability",
@@ -1097,15 +238,14 @@
       "alignmentValue": 7
     },
     {
+      "key": "Community Manager: Education Pipeline Strength",
+      "alignmentText": "[Placeholder] Provide Community Manager: Education Pipeline Strength insights for Switzerland.",
+      "alignmentValue": 5
+    },
+    {
       "key": "Community Manager: Hiring Velocity",
       "alignmentText": "Switzerland (CH): CM hiring typically 2-3 months; English common, bilingual posting helps; remote/hybrid options improve speed.",
       "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "Switzerland\u0027s market pays community managers in line with global medians after cost-of-living adjustments. Strong benefits and tech hubs in CH help attract talent.",
-      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
@@ -1120,14 +260,539 @@
       "alignmentValue": 8
     },
     {
-      "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "Switzerland\u0027s games PMM talent pool is moderate (Zurich/Geneva). Expect relocation or extended searches for senior roles.",
+      "key": "Community Manager: Talent Pool",
+      "alignmentText": "Switzerland (CH) offers a moderate CM pool; Zurich/Geneva hubs provide talent but niche CM roles often require relocation or extended sourcing.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "In Switzerland, neighbors are polite and reliable. Community ties deepen through clubs/associations and school life.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "In Switzerland, established studios generally align pay with global medians after cost of living. Strong benefits and family-friendly policies help attract talent.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "Switzerland startups track global medians after cost of living. Solid base pay plus equity, but high living costs favor cash for families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "Switzerland compliance is manageable. Register with the local commune and secure mandatory health insurance; permits and taxes involve cantonal steps and annual filings.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Continuing Education Availability",
+      "alignmentText": "Switzerland offers frequent, industry-led courses (Zurich/Geneva), many in English; strong bootcamps, workshops, and university programs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Contractor/Freelancer Bench",
+      "alignmentText": "Switzerland has a strong, English-friendly contractor market in tech (Zurich/Geneva). Expect premium rates and occasional lead times for top specialists.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Switzerland (CH) emphasizes harm-reduction and universal healthcare; aligns with your family values; watch cantonal variations.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Cost of Doing Business",
+      "alignmentText": "Switzerland has high rents and wages that raise costs, but strong startup grants/visa options can help offset; budget cautiously.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Cost of living in Switzerland is high, especially housing and childcare. Budgeting is tight; look for cantonal subsidies and ways to maximize earnings.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Zurich and Geneva provide strong coworking networks and maker spaces; access to game-dev gear is limited but shared labs exist in universities.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Switzerland has IT demand and high QoL; expect competition for software roles and visa steps for a US family. English is common in tech; plan to learn German.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "In Switzerland, universal health care supports mental health; depression rates are likely below average; plan for therapy access.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "Switzerland tends to be reserved; deep friendships grow slowly in CH cities (Zurich, Geneva). Persistent outreach and family-friendly clubs help.",
       "alignmentValue": 6
     },
     {
-      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "Switzerland has solid business programs (ETH/EPFL). No dedicated games PMM track, but a pipeline exists via adjacent marketing degrees with on-the-job upskilling.",
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Switzerland offers strong anti-discrimination protections, multilingual work culture, and LGBTQ\u002B inclusion; D\u0026I is steadily improving for expats.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "Switzerland uses harm-reduction drug policy; enforcement targets trafficking, with strong support services for users.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Switzerland allows dual citizenship; US citizens can naturalize without losing US status, with minimal reporting.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Early Stage Grants Available",
+      "alignmentText": "Switzerland provides early-stage grants via Innosuisse and cantons. For a game-dev startup, ~$150k-$350k is plausible for MVP funding.",
       "alignmentValue": 7
+    },
+    {
+      "key": "Early-Stage Capital Access",
+      "alignmentText": "Switzerland offers strong general VC and solid public grants (Innosuisse) for tech; game-specific funds are limited and competition is tight.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Switzerland\u0027s stable, diversified economy maintains low unemployment and mild inflation. This protects family finances in CH and supports entrepreneurial opportunities.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Switzerland\u0027s competitive market, strong social insurance, and stable governance align with your startup goals and family stability in CH.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Economic/Policy Stability",
+      "alignmentText": "Switzerland offers high policy stability and predictability; strong rule of law and startup support, with clear rules but some cantonal variation.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Switzerland\u0027s public schools deliver high educational outcomes with supportive teachers and modern facilities. Bilingual exposure is feasible in many cantons.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Education Pipeline Strength",
+      "alignmentText": "Switzerland has strong CS/engineering tracks (ETHZ/EPFL) and a few game-focused applied programs; a couple feed local game talent reliably.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Swiss sponsorship exists but quotas and cantonal rules cause friction; some firms sponsor, yet caps and paperwork create uncertainty.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Engine Community Bias",
+      "alignmentText": "Switzerland hosts strong Unity and Unreal scenes (Zurich, Geneva); active cross-pollination and shared training resources.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "Switzerland offers pristine air and water, extensive protected areas, and plentiful urban parks with strict pollution controls.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Swiss cantons vary; for a two-adult, two-child family, total tax is typically in the mid-20s percent, with strong public services offsetting costs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Most days in Switzerland (CH) fall are mild with light sweater weather; occasional rain showers clear quickly, good for family outings.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Switzerland (CH) offers safe, park-rich communities with strong family services. Cantonal childcare and reliable public transport ease daily family life.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "In Switzerland (CH), family reunification for spouses and children is allowed; work rights depend on permit type. Expect a potentially slow, costly process.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "Switzerland offers child allowances and 14 weeks maternity leave. Canton variability means payments can be slow and benefits leaner than Nordic peers.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Switzerland offers strong family benefits (child allowances, parental leave) and universal healthcare; but childcare costs and cantonal rules raise expenses.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Switzerland (CH): B-permit families get partial benefits; social insurance applies, but cantonal discretion and shorter leave limit predictable support.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "Switzerland favors polished, smart-casual attire in offices, especially in Zurich/Geneva. Plan for neat outfits, but home/family time can stay relaxed.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Swiss urban fashion: inclusive, body-positive, diverse styles in Zurich/Geneva; women can dress freely in city life.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "In Swiss urban centers (Zurich/Geneva), smart-casual with technical outerwear fits; suburbs lean classic.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Switzerland backs diverse femininity; strong gender equality with minor conservative pockets; supports work-life balance and family-oriented policies.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "Switzerland (CH): gun ownership exists but licensing, storage, and training rules are rigorous and widely respected.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "Switzerland values consent; respectful flirting is expected and nightlife staff reinforce boundaries in Swiss cities like Z\u00FCrich.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Founder/Operator Community",
+      "alignmentText": "Switzerland has a growing founder network (Zurich/Lausanne) with regular meetups and strong university ties (EPFL/ETHZ), plus grants/visa options.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "In Switzerland, strong overall access: major cities provide diverse cuisines and fresh markets; a few specialty ingredients may require travel to larger centers.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "In Switzerland, locals are polite and open to connection when you show initiative; strong expat and multilingual networks help integration.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Switzerland\u0027s game dev scene is mid-sized with studios in Zurich and Lausanne; solid remote options but local roles are fewer than bigger hubs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Switzerland\u0027s cities (Zurich/Geneva) support gender diversity; rural areas slower; some official documents remain binary.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Switzerland has strong gender-equality laws; same-sex marriage is legal and protections are robust, with leadership growth but some pay gaps remain.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "In Switzerland, gender roles are broadly egalitarian, especially in cities; rural areas retain some traditional patterns.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "In Swiss urban centers (Zurich/Geneva), flirting norms are broadly inclusive; our family values fluid, stigma-free approaches.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "Switzerland visa holders rely on permits (B); housing/job changes require renewal; property ownership restricted; English common in tech; learn local language.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Switzerland faces alpine warming with glacier melt and heavier rains. Robust infrastructure and disaster readiness keep climate risk manageable.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Government/Startup Visas",
+      "alignmentText": "Switzerland offers a startup/entrepreneur permit, but requires a solid business plan and funding. Processing is moderate; the ecosystem is strong.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "Switzerland favors neat, practical grooming. Stay polished for work and social settings, but extreme fashion isn\u0027t required.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "Zurich and Geneva exemplify Swiss urban tolerance for polyamory; multi-partner families are visible in civic life, though legal recognition lags.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Switzerland offers universal healthcare via mandatory private insurance; subsidies help costs. Coverage is comprehensive and wait times are short.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Switzerland requires private health insurance for visa holders; care is available but premiums and paperwork add cost.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "In Switzerland, citizens access affordable public universities with transparent aid. Cantonal scholarships and loans help manage costs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "US visa holders can enroll in Swiss public universities, but scholarships are limited and work-study options are modest.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Hiring Velocity (Established Studios)",
+      "alignmentText": "Swiss established studios typically take about 3 months to fill roles; visa checks and niche skills slow hiring vs larger hubs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Hiring Velocity (Startups)",
+      "alignmentText": "Switzerland typically fills early-stage roles in about 2 months. Innosuisse and SwissGames help speed pipelines in Zurich/Geneva.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Zurich/Geneva housing is expensive with tight stock; securing a spacious family unit may take time, but strong tenant protections aid stability.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Quellensteuer may apply for some B permits; filings vary by canton. Overall, tax compliance is manageable with online tools, despite cantonal differences.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "In Switzerland, immigrants are generally welcomed in cities, but nationwide immigration debates can bring periodic skepticism.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "Switzerland welcomes educated expats; English helps, but cantonal languages and higher costs may raise questions; prioritize community engagement in Zurich.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "K-12 in Switzerland offers universal, high-quality public schooling with strong language support for multilingual families; enrollment is generally accessible.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "Switzerland allows visa-holding children to enroll in public schools; cantonal language support and integration services are available.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "English is widely used in Swiss cities for daily life and services; official matters lean to German/French/Italian, so learning the local language aids integration.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Language (Established Studios)",
+      "alignmentText": "Switzerland studios widely use English; local-language (DE/FR/IT) skills aid docs, compliance, and community partnerships.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language (Startups)",
+      "alignmentText": "Swiss startups are English-friendly, but German/French/Italian fluency is needed for regulatory tasks and hiring; your family plans bilingual adaptation.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Switzerland (CH) has several Zurich/Geneva IP firms with game-IP, licensing, and cross-border deal experience; startup-friendly legal options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "Switzerland generally supports LGBTQ\u002B families; strong legal protections exist, urban centers like Zurich are welcoming, but rural areas may be cautious.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Switzerland offers established market research vendors (Nielsen, GfK) and regional playtests in Zurich/Geneva. Expect some lead times and language needs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Switzerland (CH) has a pluralist polity where Marxism is fringe but debated; your progressive, anti-authoritarian family aligns with CH\u0027s resilient democracy.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "In Switzerland (CH), masculine norms are broadly egalitarian; fathers share caregiving, with a few traditional pockets still present.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "In Switzerland (CH), mass violence is exceptionally rare; authorities maintain clear safety plans and transparent communication.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "Zurich and Geneva host active English-friendly meetups across tech, parenting, and hobbies. Frequent events help expats network quickly.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Switzerland has no national minimum wage; cantons set high floors (Geneva ~CHF23/hr). With two tech salaries, basics are covered, savings may be tight.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "Switzerland offers cutting-edge infrastructure: widespread gigabit fibre, reliable power, and top-tier trains\u2014great for remote work and family life.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "In Switzerland, urban centers like Zurich and Geneva are increasingly tolerant of non-monogamy. Rural cantons may require discretion.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "In Switzerland (CH), direct but respectful dialogue is common; share needs clearly and calmly, with diplomacy intact, especially at work and with schools.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Switzerland\u0027s Alps and pristine lakes offer family-friendly hikes, scenic rail trips, and safe outdoor fun within easy reach.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Occasional alpine avalanches and floods in Switzerland; strong warning systems and resilient infrastructure mitigate family risk.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Abundant nature within an hour in Switzerland; fast trains make parks and trails easily reachable for an urban/inner-suburban family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Swiss cities host major events (Montreux Jazz, Zurich/Geneva gigs) with safe transit; family-friendly venues are common, though some nights require planning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Nightlife exists in Zurich/Geneva/Lausanne districts. Plan transport and sitters for evenings, as family-friendly options are district-specific.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "SGDA network; Swiss meetups exist in Zurich, Geneva, Lausanne, but events can be infrequent; proactive outreach helps.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Zurich, Switzerland hosts GIANTS Software and several indie labs; a small but active game scene that matches your game-dev focus.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Obesity rates in Switzerland are low thanks to active transport and preventive care. This supports a healthy, family-friendly lifestyle for Trey and Sarah in CH.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Switzerland offers strong game-startup support via Innosuisse and Pro Helvetia. Talent near Zurich/Lausanne and solid funding options, but costs are high.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Calm, orderly Switzerland; outside Zurich/Geneva, pace is relaxed, enabling a strong family-friendly routine.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Switzerland (CH) supports structured parenting with strong schools and shared caregiving. Occasional traditional expectations remain manageable for this family.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "In Switzerland, ordinary naturalization commonly requires around 10 years of residency with language and cantonal steps. Approval is not guaranteed.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Switzerland ranks among the least corrupt globally. Strong institutions and reliable services support your family-friendly, low-bureaucracy goals.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "In Switzerland, personal space is typically respected; on crowded trams and queues, gently guide the kids to give others room.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "Switzerland generally respects personal space; in transit people keep distance and touch is usually by invitation only; hugs are rarer.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "Most of the year is comfortable in Switzerland; mild springs and autumns by the lakes, with only a few hot or chilly weeks.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "Switzerland (CH): federal direct democracy with frequent referenda; strong rule of law and robust cantonal/local autonomy.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Switzerland (Zurich/Gen\u00E8ve): polyamory is more tolerated in cities, but law still defaults to monogamy; discreet yet increasingly accepted.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Switzerland has a solid pre-K network with public and private slots, but fees are high and cantonal rules vary. Plan early for bilingual slots and to secure care for both kids.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "In Switzerland, strong private/intl options exist (Zurich/Geneva); top schools have entry hurdles and high fees; verify accreditation.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "In Switzerland, fresh markets and bio stores are common for families. Healthier options are plentiful with planning, yet convenient foods are nearby.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Product Marketing Manager (Games): Compensation Benchmark",
+      "alignmentText": "Switzerland offers competitive PMM (Games) pay with strong benefits. High living costs are offset by robust packages and English-friendly roles in Zurich.",
+      "alignmentValue": 8
     },
     {
       "key": "Product Marketing Manager (Games): Continuing Education Availability",
@@ -1135,14 +800,14 @@
       "alignmentValue": 7
     },
     {
+      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
+      "alignmentText": "Switzerland has solid business programs (ETH/EPFL). No dedicated games PMM track, but a pipeline exists via adjacent marketing degrees with on-the-job upskilling.",
+      "alignmentValue": 7
+    },
+    {
       "key": "Product Marketing Manager (Games): Hiring Velocity",
       "alignmentText": "CH (Switzerland): Games PM hiring typically 4-5 months with multiple rounds; visa steps and niche pipelines can elongate timelines.",
       "alignmentValue": 5
-    },
-    {
-      "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "Switzerland offers competitive PMM (Games) pay with strong benefits. High living costs are offset by robust packages and English-friendly roles in Zurich.",
-      "alignmentValue": 8
     },
     {
       "key": "Product Marketing Manager (Games): Language",
@@ -1154,6 +819,346 @@
       "alignmentText": "CH: In Zurich/Geneva markets, PMM (Games) roles are commonly hybrid; remote options exist but expect on-site collaboration.",
       "alignmentValue": 8,
       "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Talent Pool",
+      "alignmentText": "Switzerland\u0027s games PMM talent pool is moderate (Zurich/Geneva). Expect relocation or extended searches for senior roles.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Switzerland blends progressive values with strong civic engagement; direct democracy shapes policies, supporting healthcare, education, and family services.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "In urban Switzerland (Zurich), casual relationships are generally accepted. Some circles prefer discretion.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "In Switzerland (CH), public broadcasters aim for neutrality and shared wellbeing. Reporting is largely factual with inclusive civic participation.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "In Switzerland (CH), the pluralistic media landscape and watchdog culture keep propaganda rare and quickly corrected.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Switzerland has a world-class, punctual public transport network that serves cities and suburbs. It is very family-friendly, with easy access for kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Publisher/Platform Relationships",
+      "alignmentText": "Switzerland offers EU publisher access, but direct BD presence is limited; proactive outreach and local events help build CH partnerships.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "Switzerland provides excellent schools, safety, and universal healthcare for families; premium tutors and clubs are available, though planning helps.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "In Switzerland, strong safety nets ease healthcare/childcare, but high city costs strain a two-child family; housing and waitlists limit QoL.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "In Switzerland (CH), safety, healthcare, and good schools support families; housing and childcare costs require careful budgeting.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Real-Time vs Pre-Rendered Focus",
+      "alignmentText": "Switzerland offers top broadband and Azure regions in Zurich and Geneva. A growing game-dev ecosystem supports real-time pipelines for your teams.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Switzerland is largely secular; religion influences culture modestly across cantons. For families like ours, policy remains evidence-based and pluralistic with strong minority protections.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote Expectations (Established Studios)",
+      "alignmentText": "Switzerland\u0027s established studios commonly offer hybrid/remote options with formal policies; cross-border collaboration is common in CH.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "In Switzerland, startups commonly use hybrid work and strong remote tooling; Trey and Sarah can work remote or hybrid with local Swiss hubs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Switzerland\u0027s tech scene leans hybrid; remote work is common, but many firms expect periodic on-site days (Zurich/Geneva).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "Residency in Switzerland is attainable but renewals hinge on employment; long-residence can lead to C status, though the process is slow.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Switzerland\u2019s stable tech market supports good retention for an experienced US team; expect occasional funding-driven churn but overall long-tenure potential.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "Switzerland\u0027s three-pillar system (AHV/AVS, occupational, private) provides solid basics; adequacy depends on ongoing contributions and second-pillar coverage.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "In Switzerland, employed visa holders typically participate in the second pillar; portability/refunds on departure apply; benefits grow with contributions.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Switzerland\u0027s tech market is solid, but Ruby remains a niche; expect fewer openings outside hubs like Zurich or Geneva, with some remote options.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "Extremely safe across Switzerland; violent crime is rare and police presence is supportive. Emergency services are fast and reliable, ideal for family life.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Switzerland has strong public schools with language tracks across cantons. International schools exist but are costly.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Switzerland lakes typically 22\u201325 C in peak summer; great for kids, but early summer/late fall may need a short wetsuit.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Switzerland (CH) has generally predictable seasons, with occasional snow or storms that merit monitoring and contingency planning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Switzerland (CH) winters bring noticeable darkness; stay energized with daily outdoor breaks and occasional light therapy.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Switzerland offers mostly mild seasons: cool winters, pleasant summers; occasional heat waves, but outdoor time stays comfortable most of the year.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Senior Talent Availability",
+      "alignmentText": "Switzerland has an adequate senior software talent pool (Zurich/Lausanne); startups must offer competitive packages, but English-friendly hiring aids.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Switzerland offers comprehensive sex education and inclusive policies. Urban Swiss communities are open with broad access to resources.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Switzerland (CH) offers universal health coverage and strong family safety nets; some programs have eligibility rules and paperwork.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "Switzerland: 2k sq ft rentals are scarce and pricey; expect premium rents and broker involvement, with quick turnover in Zurich/Geneva suburbs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Spring in Switzerland is typically 12\u201323 C with occasional chilly rain and longer days. It\u0027s great for outdoor family time with light layers.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Switzerland\u0027s long-term stability and strong institutions give predictable education, healthcare, and family life in CH with minimal volatility.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Switzerland\u0027s pluralist, rights-based system with direct democracy and strong civil liberties aligns with progressive family values and inclusive policies.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "In Switzerland, a balanced social market blends innovation with strong safety nets, supporting families and SMEs.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Studio Density",
+      "alignmentText": "Switzerland\u0027s game studio scene is moderate; Z\u00FCrich and Geneva host several studios and indie teams, with room to grow but not dense.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "In Switzerland\u0027s lowlands, summer highs near 30 C with nights under 20 C; lakes provide relief and easy comfort.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "In Switzerland (CH), service is polite and efficient. Expect brief, respectful exchanges; warmth may require you to initiate.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Tax Incentives for Games/Creative",
+      "alignmentText": "Switzerland offers cantonal R\u0026D tax credits and cultural grants. Game-specific incentives exist but vary by canton.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "In Switzerland, permits typically take 3\u20136 months; costs are predictable and usually a few thousand CHF total (visa, permits, translations).",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "In Switzerland, public trust is solid due to transparency, accountable governance, and accessible services; direct democracy keeps local voices heard.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "In Switzerland, corruption is rare and quickly addressed; strong rule of law and transparent processes safeguard families in CH.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "CH software pay is very high relative to living costs. Zurich/Basel markets offer strong comp and equity, supporting a 2-kid family despite high costs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Weekends in Switzerland offer abundant outdoor and family activities (parks, lakes, museums). Note many shops close on Sundays; plan outings accordingly.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "In Switzerland, schools finish around 15:00-16:00 with wraparound care. Remote/hybrid work fits a family of four\u0027s schedule.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Switzerland (CH) offers 20 paid days (25 for younger staff) plus canton holidays; good for family breaks, though holiday counts vary by canton.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Switzerland typically offers about 25\u201330 paid days plus holidays. This supports family trips and alpine getaways for Trey and Sarah.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Vendor/Outsource Ecosystem",
+      "alignmentText": "Switzerland has a modest but solid vendor scene (Zurich/Geneva) for art/QA; capacity is limited, so plan to pair with remote partners for overflow.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Compensation Benchmark",
+      "alignmentText": "Switzerland offers highly competitive VFX Real-Time pay with strong benefits. High cost of living can offset earnings.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Continuing Education Availability",
+      "alignmentText": "Occasional VFX real-time training exists in Switzerland. Zurich and Lausanne host short courses and visiting experts, with robust online options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
+      "alignmentText": "Switzerland has niche VFX-real-time programs (Zurich/Lausanne); however, numbers are small and grads often need on-the-job upskilling.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Hiring Velocity",
+      "alignmentText": "Switzerland\u0027s VFX (real-time) hiring typically takes 4-5 months with several search cycles. Local pipelines are modest; plan for relocation or remote work.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "VFX Artist (Real-Time): Language",
+      "alignmentText": "In Switzerland (CH), VFX real-time teams in Zurich/Lausanne mainly use English; local language skills boost fit, and bilingual candidates are favored.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "VFX Artist (Real-Time): Remote Expectations",
+      "alignmentText": "In Switzerland (CH), hybrid real-time VFX roles are common; fully remote setups require negotiation due to on-site pipeline needs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "VFX Artist (Real-Time): Talent Pool",
+      "alignmentText": "Moderate VFX real-time pool in Switzerland (Zurich, Geneva). Startups can hire but may need relocation or remote options for seniors.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "In Switzerland (CH), EU neighbors (Germany, France, Italy, Austria) cooperate closely; cross-border travel and collaboration are common.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "Switzerland\u0027s stable, multilingual democracy fits a progressive, community-minded family. They value civil liberties and approach patriotism with humility.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Neighbors view Switzerland positively with strong ties; cross-border travel to Germany and France is straightforward, aiding families and expats.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Non-EU routes exist (self-employment/startups) but are canton/quota driven; expect lengthy, costly, and uncertain approvals.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Switzerland prioritizes pedestrian safety; wide sidewalks and calm streets in many neighborhoods. Great transit supports kid-friendly walks to parks.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "In Switzerland, skilled US migrants are welcomed in tech hubs, but visa quotas and cantonal rules slow entry.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Swiss Alps and precision culture fuse with multilingual towns; secure, high-quality daily life and family-friendly innovation in CH.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "In Switzerland\u0027s lowlands, winter temps usually range -1 to 6 C; alpine areas run colder with regular snow. Public transport helps keep commutes reliable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "Swiss standard is around 40 hours with regulated overtime; startups may reach 42-45 hours. Remote/hybrid options align with the family\u0027s balance goals in CH.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Switzerland\u0027s work-life balance is strong, with clear boundaries. Generous vacations and parental support help families reach milestones.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "Switzerland offers solid worker protections and universal health coverage with a flexible labor market. Unions exist but are not as strong as in the Nordics.",
+      "alignmentValue": 7
     }
   ]
 }

@@ -3,1018 +3,20 @@
   "iso": "US",
   "values": [
     {
-      "key": "Environment",
-      "alignmentText": "In San Diego, coastal breezes and expansive parks support outdoor life; expect occasional air quality alerts from traffic and seasonal allergens.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Global Warming Risk",
-      "alignmentText": "San Diego\u0027s mild coastal climate; drought and inland wildfire risk require proactive housing resilience and insurance planning.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "San Diego\u0027s coastal climate stays mild year-round with low humidity. Outdoor activities stay comfortable most days, aligning with the family\u0027s preferences for climate.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "Air quality in San Diego is generally good; wildfire smoke and Santa Ana winds can cause monthly short-term unhealthy days for the family.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "San Diego, USA faces earthquakes and seasonal wildfires; preparedness kits and drills are prudent, though severe events are rare.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Spring in San Diego is mild: 15\u201322 \u00B0C (59\u201372 \u00B0F) with marine layer mornings and sunny afternoons; ideal for parks with light layers.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "San Diego summers hover around 23\u201329 \u00B0C (74\u201384 \u00B0F); coastal fog cools mornings, inland valleys reach low-30s \u00B0C with dry air.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Autumn in San Diego stays steady and mild, roughly 10\u201322\u00B0C (50\u201372\u00B0F) with crisp mornings, sunshine, and easy family hikes.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "San Diego winters are mild: roughly 10\u201318\u00B0C (50\u201365\u00B0F) with minimal rain; outdoor time stays comfortable.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Beach Life",
-      "alignmentText": "San Diego offers family-friendly beaches within easy reach: La Jolla Shores, Coronado, and Mission Beach with lifeguards and gentle sands for kids.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "San Diego waters roughly 15\u201322 \u00B0C, with 20\u201322 \u00B0C in late spring\u2013summer. Swimmable about half the year; shoulder months around 20 \u00B0C may need light wetsuits.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "San Diego\u0027s coast and parks offer iconic scenery within 60 minutes, ideal for weekly family hikes. Highlights: Torrey Pines, Cabrillo NM, and nearby beaches.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Minimum Wage",
-      "alignmentText": "San Diego, CA: California\u0027s $16 minimum wage keeps essentials covered for a dual-income family, but high housing costs limit savings.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "San Diego software pay around 140k-190k; strong for many households, but high cost of living means dual incomes or remote work help sustain the lifestyle.",
-      "alignmentValue": 8
-    },
-    {
       "key": ".NET Work Prospects",
       "alignmentText": "San Diego\u0027s .NET market is steady due to defense and healthcare firms (Qualcomm, General Atomics); remote-friendly roles are common.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "Ruby Work Prospects",
-      "alignmentText": "Ruby roles exist in San Diego startups/agencies, but the market leans toward JS/Python; steady, network-driven opportunities, with remote options.",
+      "key": "2D Environmental Artist: Compensation Benchmark",
+      "alignmentText": "In San Diego, 2D environmental artist pay trails top hubs by 10-15%. Local studios and family-friendly benefits help attract talent.",
       "alignmentValue": 7
     },
     {
-      "key": "Employer Visa Sponsorship",
-      "alignmentText": "Sponsorship exists in San Diego - mainly at large firms/biotech, but with caps and slow processes; dependents possible but adds paperwork.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "San Diego\u0027s biotech/defense base provides solid fundamentals. Tourism and cross-border trade add resilience, with local buffers for downturns.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "San Diego, CA supports hybrid/remote work with many coworking spaces. Ideal for a two-adult, two-child tech family seeking balance and strong local networks.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "San Diego, CA\u0027s family-friendly tech scene supports flexible hours. Expect occasional crunch, with recovery time built in.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Work Week Hours",
-      "alignmentText": "San Diego typically has 37-38 hour weeks with occasional crunch. Flexible/hybrid roles help balance family time.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "San Diego, CA has no state-mandated paid vacation. Leave is policy-driven and typically follows national norms.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Vacation Days (Typical)",
-      "alignmentText": "In San Diego, tech firms typically offer 15\u201319 PTO days plus holidays. Remote/hybrid work helps extend breaks.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Pace of Life",
-      "alignmentText": "San Diego offers a relaxed, beach-town pace with mild weather. In popular neighborhoods, traffic and busy hours can spike, so plan buffers.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "San Diego schools start around 8 a.m.; with Trey\u0027s flexible schedule and Sarah\u0027s remote work, aftercare and short afternoon outings keep days balanced.",
+      "key": "2D Environmental Artist: Continuing Education Availability",
+      "alignmentText": "San Diego has UCSD Extension and local colleges offering CE courses in 2D art/game design; workshops exist but many are remote or visiting instructors.",
       "alignmentValue": 7
-    },
-    {
-      "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Weekends in San Diego, CA feature beaches, Balboa Park museums, and hikes; vibrant with easy access and occasional reservations.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Family Life",
-      "alignmentText": "San Diego offers strong family life with safe neighborhoods, parks and beaches, and good schools; housing costs and busy urban pockets are trade-offs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Polyamory",
-      "alignmentText": "In San Diego, polyamorous families find visible communities in Hillcrest and North Park; urban tolerance is high, though broader services may misunderstand.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Parenting Expectations",
-      "alignmentText": "San Diego, CA, USA: schools partner with families and childcare is accessible; supports diverse parenting and shared caregiving.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "alignmentText": "San Diego, USA offers kid-friendly neighborhoods, abundant parks and beaches, and a mild climate; walkable districts support family life.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Schooling Options",
-      "alignmentText": "San Diego offers language-immersion and STEM magnets within SDUSD. Charters and private options widen choice, but quality varies by neighborhood.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "San Diego, CA: infant care is costly; state preschool helps older kids but waitlists are long; plan for a mix of public and private care.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "San Diego, CA subsidies mainly aid low-income families; this middle-income family relies on employer benefits or nanny shares, with modest relief.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "US citizens in San Diego can access CA childcare subsidies; expect eligibility checks and potential waitlists; employer programs and First 5 San Diego can help.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "San Diego, CA, US offers broad K-12 access with magnets/lotteries and bilingual programs; top schools vary by district.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "San Diego, CA: U.S. citizen child enrollment in public schools is straightforward; standard docs and immunization records required; no visa hurdles.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Private Education",
-      "alignmentText": "San Diego private schools exist but vary in quality and cost; public schools with bilingual options are typically stronger and more affordable.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Family Policy (Citizens)",
-      "alignmentText": "In San Diego, CA, California Paid Family Leave offers eight weeks of partial wages; access requires paperwork and employer coordination.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Visa Holders)",
-      "alignmentText": "San Diego, CA: Visa families receive partial benefits; some leave may be unpaid or shorter. Check employer policies.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Higher Education Access (Citizens)",
-      "alignmentText": "US citizens in San Diego have broad access to UC, CSU, and community colleges. However, San Diego living costs require careful budgeting.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "US citizens in San Diego have access to CA public universities; residency proofs can affect in-state rates at UCSD and nearby campuses.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Gender Roles",
-      "alignmentText": "San Diego\u0027s dual-career families blend progressive values with Navy/tech hubs; strong policies support egalitarian gender roles.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "San Diego, CA offers strong protections, visible Pride, legal gender markers, and inclusive healthcare in an urban, accepting setting.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "California protects reproductive and LGBTQ\u002B rights with strong enforcement; San Diego\u2019s inclusive, family-friendly culture supports your values.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "San Diego blends beach-casual with professional looks; femininity is expressed freely with only minor pockets of conservatism.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "In San Diego, surf culture and military presence reflect evolving masculinity; a progressive family embracing broad, open manhood.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "What Is Intriguing",
-      "alignmentText": "San Diego offers a vibrant startup scene, mild climate, beaches, and family-friendly neighborhoods - plenty to explore for a curious, bilingual family.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language \u0026 English Ubiquity",
-      "alignmentText": "In San Diego, English is widely used. Daily Spanish exposure from border-city life supports the children\u0027s bilingual development.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Progressivism",
-      "alignmentText": "San Diego\u0027s city politics tilt progressive on climate and housing; strong civic engagement supports LGBTQ\u002B rights and equitable policies for families.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "San Diego, USA: Marxism has niche appeal; campus debates exist (UCSD, local universities), while city policy stays centrist and family-friendly.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Atheism",
-      "alignmentText": "San Diego, CA, USA: secular culture is strong and openly nonreligious individuals are widely accepted; atheism draws little attention beyond conservative enclaves.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Sex (Attitudes)",
-      "alignmentText": "San Diego\u0027s urban, diverse neighborhoods support sex positivity. Inclusive sex education and LGBTQ\u002B-friendly resources are widely accessible.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "LGBTQ\u002B Attitudes",
-      "alignmentText": "San Diego, CA: LGBTQ\u002B protections are strong and city services are inclusive. Polyamorous families are supported in this urban California setting.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Vibes",
-      "alignmentText": "In San Diego, USA, family-friendly neighborhoods offer welcoming volunteers; farmers markets, beach cleanups, and maker spaces help newcomers connect through schools and clubs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "View of self",
-      "alignmentText": "San Diego, USA values coastal lifestyle, diversity, and innovation. Housing affordability and transit remain ongoing challenges.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of Neighboring Countries",
-      "alignmentText": "San Diego\u0027s cross-border ties with Tijuana are strong; binational travel and family exchange shape daily life.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Mexico and regional publics see San Diego as open and collaborative, boosted by cross-border ties; occasional policy disputes temper the view.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Nightlife Culture",
-      "alignmentText": "San Diego offers lively but family-friendly nightlife in districts like Gaslamp and Pacific Beach; plan babysitters and transit for evenings out.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Fashion Trends (Male)",
-      "alignmentText": "In San Diego, casual, beach-inspired style dominates. Tech workwear stays relaxed, with functional pieces over bold statements.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fashion Trends (Female)",
-      "alignmentText": "In San Diego, fashion is inclusive and body-positive. Athleisure, beachwear, and boho chic mix freely with professional looks.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Common Hobbies",
-      "alignmentText": "Tabletop gaming and rock climbing are common in San Diego, CA. The city offers board-game cafes, climbing gyms, and family-friendly outdoor activities.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Boardgaming \u0026 Tabletop",
-      "alignmentText": "San Diego, CA has regular board game nights and family-friendly shops. Active meetups make it easy for kids to join.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Nightlife \u0026 Music",
-      "alignmentText": "San Diego offers family-friendly venues and outdoor concerts; safe transit and beach events fit a slower pace with seasonal big-name acts.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Meetups \u0026 Communities",
-      "alignmentText": "San Diego, CA has a vibrant tech, gaming, and parenting meetup scene with family-friendly venues; newcomers can network, though some groups have fees.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Nature Access",
-      "alignmentText": "Beaches (La Jolla/Torrey Pines) and nearby parks are minutes away in San Diego; great for family hikes, though some trails need gear or permits.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Political System",
-      "alignmentText": "San Diego (US): a stable, participatory democracy with a progressive city council and strong rule of law that protects civil liberties.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Religion in Politics",
-      "alignmentText": "San Diego, California remains secular overall; some religious references appear in law, but minority rights stay protected and policy remains pluralistic.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Workers\u0027 Rights",
-      "alignmentText": "San Diego, CA offers strong worker protections, clear gig rules, and active unions in education/healthcare, though enforcement resources are stretched.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "State Ideology",
-      "alignmentText": "California\u0027s inclusive climate and equity policies shape San Diego\u0027s local initiatives. There is room for debate and diverse voices.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "In San Diego, US, independent courts and a free press uphold democracy. Civil society remains active amid polarization; some reforms warrant monitoring.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "State of Capitalism",
-      "alignmentText": "San Diego blends strong venture activity with high living costs; growth is robust but wealth gaps need policy attention to protect families.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Stability",
-      "alignmentText": "San Diego\u0027s diverse economy and defense presence provide steady stability; expect occasional policy shifts and local tensions but overall calm.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "San Diego\u0027s strong local media and public radio sustain diverse, fact-based coverage; national spin exists but is countered by local outlets.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "San Diego, CA messaging should center shared wellbeing, factual info, and diverse perspectives; minimize defense-first narratives.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "San Diego offers strong healthcare and housing supports, but eligibility rules and costs can limit access for a two-adult, two-child family.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "San Diego, CA residents value city services and parks, yet slow housing approvals and transit progress curb trust.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "San Diego, USA has low corruption with prompt investigations; public services feel trustworthy, but stay aware of local lobbying around contracts.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "In San Diego, corruption is limited; developer and defense contractor influence exists, but oversight keeps essential services largely unaffected.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "San Diego housing near top schools is pricey; ADU options exist but stock is tight; families may face long searches and tradeoffs.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Safety \u0026 Crime",
-      "alignmentText": "San Diego is generally safe with low violent crime; petty theft can occur in tourist areas - practice standard family safety precautions.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "San Diego offers strong pediatric care via UCSD Health, Scripps, and Kaiser; good overall care, but insurance navigation can be needed.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "San Diego, US: public coverage is limited; employer-based insurance is essential for families. Private plans vary in cost and network; budget for premiums.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "San Diego, CA offers childcare subsidies and quality centers. However, reliable care still requires proactive networking and local connections.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "San Diego offers remote-friendly tech jobs and some family services, but high living costs and lack of universal healthcare keep relief partial.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Education",
-      "alignmentText": "San Diego, CA offers strong STEM magnets and language-immersion programs; near UCSD, though district quality varies.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "San Diego\u0027s trolley/bus network serves core neighborhoods well. Suburban reach is limited, so families should plan around gaps and weekend schedules.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "San Diego\u0027s US economy backs startups with grants and a strong tech ecosystem, with reliable governance but some bureaucratic frictions.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "San Diego, CA taxes are manageable with digital filing; self-employed must file quarterly estimates, but guidance is clear.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "San Diego, CA: combined tax around 30% (federal\u002BCA) after deductions; strong schools and services offset the cost.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Banking \u0026 Payments",
-      "alignmentText": "San Diego banks are modern and accessible with online accounts and mobile payments. Setup is straightforward for families and entrepreneurs.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "San Diego housing and childcare are pricey; budget carefully and seek affordable family-friendly neighborhoods with good schools; mild, dry climate helps.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Retirement (Citizens)",
-      "alignmentText": "San Diego offers a mild climate and solid healthcare for retirees. High housing costs and taxes require substantial savings or Prop 13 relief.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "In San Diego, visa holders have limited Social Security access; retirement relies on private savings and employer plans.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Visa Paths",
-      "alignmentText": "As US citizens relocating to San Diego, no visa steps are needed; internal moves within the US are straightforward.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "In San Diego, US migrants are generally welcomed; the metro\u0027s diverse communities and strong outdoor/tech scenes ease family settlement.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Residency Types \u0026 Durations",
-      "alignmentText": "In San Diego, US citizens have straightforward residency with no visa renewals. California state benefits depend on domicile.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Path to Citizenship",
-      "alignmentText": "In San Diego, US citizenship is already secured for the family; no naturalization steps or residency required.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Members",
-      "alignmentText": "San Diego, US: immediate relatives of citizens sponsor easily; extended family faces backlogs.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Timelines \u0026 Costs",
-      "alignmentText": "As US citizens relocating to San Diego, moves tend to be near-immediate with predictable costs and straightforward, transparent processes.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Compliance \u0026 Risks",
-      "alignmentText": "As US citizens in San Diego, compliance is clear and manageable; startup rules are predictable with strong local family and tech support.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Dual Citizenship Allowed",
-      "alignmentText": "San Diego, USA allows dual citizenship with minimal reporting; taxes apply, but citizenship remains intact.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "General Considerations for Visa Holders",
-      "alignmentText": "In San Diego, as US passport holders, you have full rights to work, housing, and education with minimal visa constraints.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Game Dev Work Prospects",
-      "alignmentText": "San Diego has a healthy game dev scene: Sony San Diego, Psyonix, and indie shops offer regular openings. Remote roles support a founder-friendly setup.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Hiring Velocity (Established Studios)",
-      "alignmentText": "In San Diego, studios such as Sony San Diego and Psyonix, plus remote roles, offer opportunities; most hires take 3-4 months.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Compensation Benchmark (Established Studios)",
-      "alignmentText": "San Diego studios offer near-market pay; high cost of living means compensation trails top hubs. Negotiate benefits, remote options, and family perks.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Language (Established Studios)",
-      "alignmentText": "In San Diego, studios are English-first; strong bilingual support aids onboarding and local partnerships (Spanish common locally).",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Remote Expectations (Established Studios)",
-      "alignmentText": "San Diego studios mix on-site with hybrid work; remote is allowed case-by-case, with a preference for hybrid\u2014good for our family\u0027s schedule and broadband needs.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Notable Game Studios",
-      "alignmentText": "San Diego hosts notable studios (Sony San Diego, Psyonix, Rockstar San Diego, High Moon). It offers strong game-dev opportunities and networking.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "San Diego has regular game-dev meetups (IGDA SD, UCSD programs) plus online resources; welcoming to families and newcomers.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "San Diego, CA offers lower costs than SF and game-dev accelerators. Grants exist, but funding mostly comes from angels or investors, with cross-border talent.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Hiring Velocity (Startups)",
-      "alignmentText": "San Diego startup hires typically 3-4 months; incentives help attract local talent. Remote/hybrid options align with our family needs.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Compensation Benchmark (Startups)",
-      "alignmentText": "San Diego startups largely track global medians after COL; equity remains meaningful, not SV-level, aligning with family-friendly, remote-friendly teams.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentText": "San Diego startups run in English; strong Spanish marketing and hiring support boost local outreach and recruitment.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentText": "San Diego, United States startups broadly embrace hybrid work; most roles can be remote with periodic on-site days.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Modernity \u0026 Infrastructure",
-      "alignmentText": "San Diego offers strong fiber/internet and a growing game-dev scene, with reliable broadband overall. Some older neighborhoods occasionally face outages.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Seasonal Extremes \u0026 Variability",
-      "alignmentText": "San Diego, US: mild, predictable climate; rare extremes like heat waves or winter storms mean light contingency planning.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Sunlight Hours",
-      "alignmentText": "San Diego, United States enjoys well-balanced daylight year-round. Winters are mild and days stay long, supporting steady mood without lamps.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Pleasant Weather Windows",
-      "alignmentText": "San Diego offers mild, low-humidity weather most of the year; outdoor family life is the norm. A few winter weeks can feel cooler and breezier.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Quality of Life \u2013 Lower-Income Tier",
-      "alignmentText": "San Diego\u0027s high housing/childcare costs strain a two-adult, two-child family; affordable options exist, but top neighborhoods are costly.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Quality of Life \u2013 Middle-Income Tier",
-      "alignmentText": "San Diego\u0027s mild climate and family-friendly neighborhoods help, but housing and childcare costs strain a two-adult, two-child household.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Quality of Life \u2013 Higher-Income Tier",
-      "alignmentText": "In San Diego, high-end living is feasible for your family, but plan around exclusive providers and higher costs.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "In San Diego, 2k sq ft rentals appear occasionally in family-friendly suburbs and move fast; expect premium rents or broker connections to secure space.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Community Living Opportunities",
-      "alignmentText": "Cohousing options exist in San Diego, but are modest; families may need to network and be patient for entry into co-ops.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Friendliness \u0026 Neighborliness Index",
-      "alignmentText": "San Diego friendliness varies by neighborhood; we\u0027ll target family-friendly areas with parks and good schools. We\u0027ll join local parent groups to build ties.",
-      "alignmentValue": 7,
-      "sameAsParent": true
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 General",
-      "alignmentText": "San Diego\u0027s diverse, immigrant-friendly climate supports families like yours; periodic political rhetoric causes only mild concerns.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 White Migrants",
-      "alignmentText": "San Diego, CA offers mostly smooth integration for your white, tech-leaning family; expect welcoming neighbors but some concerns about costs and gentrification.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Surface Interaction Norms",
-      "alignmentText": "In San Diego, USA, most interactions are warm and upbeat. Occasional briskness happens in busy places.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Depth-Seeking Social Norms",
-      "alignmentText": "San Diego\u0027s family-focused clubs and parks foster steady bonding; consistent outreach helps newcomers build close friendships.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Personal Boundary \u0026 Bubble Norms",
-      "alignmentText": "In San Diego, crowds at beaches and transit can compress space; we\u0027ll advocate gently for personal comfort.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Moral, Honesty \u0026 Openness Expectations",
-      "alignmentText": "San Diego\u0027s diverse, progressive climate usually welcomes openness; share hard truths with tact to avoid unintentionally offending.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Grooming \u0026 Beauty Investment",
-      "alignmentText": "San Diego\u2019s casual beach vibe fits a light grooming routine. We budget a bit of polish for meetings and social events.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Body Image \u0026 Fitness Pressure",
-      "alignmentText": "In San Diego, fitness talk is common near beaches, but most circles stay respectful. The family-friendly scene supports wellness without shaming.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fashion \u0026 Style Expectations",
-      "alignmentText": "San Diego tech culture favors smart-casual; tidy outfits fit most settings, with casual wear fine in parks and family events.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Flirting Boundaries \u0026 Consent Culture",
-      "alignmentText": "In San Diego, flirting is generally respectful; venues tend to enforce boundaries. With kids present, stay direct about limits.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Gendered Flirting Expectations",
-      "alignmentText": "San Diego nightlife still has gendered scripts. Our progressive, LGBTQ\u002B-friendly approach helps us navigate with ease.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "San Diego, CA: poly-friendly urban spaces with supportive communities; privacy remains prudent in mixed settings.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "alignmentText": "In San Diego, CA, open, sex-positive culture; consenting adults face little moral policing and broad acceptance, though pockets of gossip exist.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
-      "alignmentText": "In San Diego, CA, progressive circles are supportive, but institutions still require discretion for multi-partner families.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Personal Space \u0026 Touch Norms",
-      "alignmentText": "In San Diego, most people respect personal space. Casual touches happen with consent, especially in crowded spots and transit.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Firearm Laws \u0026 Ownership Culture",
-      "alignmentText": "In San Diego, CA, gun ownership exists but strict licensing, safe-storage requirements, and enforcement keep exposure and risk low.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Controlled Substance Policies",
-      "alignmentText": "San Diego, CA leans toward harm reduction: cannabis legalized, focus on treatment and education; enforcement less punitive for minor offenses.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "San Diego, USA: approach varies by district; we track neighborhood trends to avoid heavy-handed policing in family areas.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "In San Diego, US, mass violence is rare. Authorities communicate clearly and schools/venues maintain solid safety protocols.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Carceral Conditions \u0026 Prison Labor",
-      "alignmentText": "San Diego, US: overcrowding and prison-labor concerns appear in reports. Watchdog groups monitor abuses and push reforms.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Walkability \u0026 Pedestrian Safety",
-      "alignmentText": "Walkability in San Diego varies by neighborhood; pockets like North Park are walkable, but busy corridors require care with kids.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Community Health Consciousness",
-      "alignmentText": "San Diego offers abundant wellness programs, parks, and preventive care. Health-minded circles are accessible and well-supported for families.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Processed Food Saturation",
-      "alignmentText": "San Diego has abundant fresh produce via farmers markets and diverse grocers. With planning, whole foods fit in, though convenience options are nearby.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fresh \u0026 International Cuisine Access",
-      "alignmentText": "San Diego offers plentiful fresh markets and diverse international cuisine; most cravings are covered, with rare gaps for niche ingredients.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "In San Diego, depression prevalence is moderate; services are accessible and there is open dialogue, though some wait times exist.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Obesity Rate",
-      "alignmentText": "San Diego, USA: Obesity rates stay below national averages thanks to wellness campaigns and active lifestyles.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Cancer Incidence",
-      "alignmentText": "San Diego, US: cancer incidence aligns with norms; robust local screening and early detection supports routine checks.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "San Diego\u0027s diversified economy (biotech, defense, tech, healthcare) supports solid resilience; downturns bring brief hiring pauses and quick reemployment.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Studio Density",
-      "alignmentText": "San Diego\u0027s game-dev scene is modest, with several indie and mid-size studios and a couple of hubs across the metro for local collaboration.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Anchor Employers",
-      "alignmentText": "In San Diego, US, the game scene is indie-focused with few large anchors; strong remote/local roles and a growing support ecosystem.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "San Diego has several art/QA vendors and studios, but capacity is limited; plan for remote partners to cover full scope.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Education Pipeline Strength",
-      "alignmentText": "San Diego hosts strong CS/arts programs at UCSD and SDSU that feed game talent. Local studios offer internships and capstone projects for job-ready graduates.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Continuing Education Availability",
-      "alignmentText": "San Diego has regular bootcamps and many local meetups (Unity/C#, game dev) via UCSD Extension and local tech groups.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Activity",
-      "alignmentText": "San Diego has monthly game-dev meetups, active studios, and occasional game jams; a solid, accessible local dev community.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Engine Community Bias",
-      "alignmentText": "San Diego hosts active Unity and Unreal scenes with meetups and studios; strong dual-engine community supports Trey\u2019s game dev path and Sarah\u2019s work.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "San Diego has a growing tech/indie game scene; real-time pipelines exist but are not as mature as LA, so external partners help.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Demand\u2013Supply Balance",
-      "alignmentText": "San Diego, USA has a solid but competitive tech market; steady demand for game/web dev and cloud roles, but local supply is tight\u2014remote options help.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Retention \u0026 Churn Risk",
-      "alignmentText": "San Diego\u0027s growing game/tech scene offers family-friendly work and remote options; funding cycles may cause occasional churn but overall stability.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Diversity \u0026 Inclusion Index",
-      "alignmentText": "San Diego\u0027s diverse, LGBTQ\u002B-friendly communities and inclusive culture align with your progressive family. It offers strong schools and safe neighborhoods.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "California offers statewide credits for digital media and software (CA Competes); competitive windows, with San Diego access for games/creative.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Economic/Policy Stability",
-      "alignmentText": "San Diego/CA offers stable, pro-tech policies with grants and predictable local support; elections may shift incentives, but policy remains manageable.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Founder/Operator Community",
-      "alignmentText": "San Diego has a growing founder network with EvoNexus/CONNECT and regular meetups. It supports new gaming/software teams with mentorship and events.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Early-Stage Capital Access",
-      "alignmentText": "San Diego has mixed early-stage game funding: generalist funds and local accelerators; public grants exist but competition is strong.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Accelerator/Incubator Access",
-      "alignmentText": "San Diego has general accelerators like EvoNexus; game-specific cohorts are occasional, with broad funding but limited game-tailored support.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Senior Talent Availability",
-      "alignmentText": "San Diego has a growing software/biotech scene (EvoNexus), but senior game leadership locally is limited; expect remote or abroad hires with competitive offers.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Contractor/Freelancer Bench",
-      "alignmentText": "San Diego offers a serviceable contractor bench for web/game dev and cloud; top talent can book months ahead, plan for lead times.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Coworking \u0026 Startup Infrastructure",
-      "alignmentText": "San Diego has solid coworking and indie-friendly spaces. Game-specific gear like mocap and sound suites is not widespread.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Legal \u0026 IP Support",
-      "alignmentText": "San Diego has some game/IP law options and tech-focused firms; startups may rely on referrals as demand outpaces supply.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Publisher/Platform Relationships",
-      "alignmentText": "San Diego\u0027s local publisher presence is limited; founders rely on national/international events. Expect mostly remote platform engagement.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Market Research \u0026 Playtesting",
-      "alignmentText": "San Diego offers a budding game-dev scene with indie playtest groups and local labs; expect some lead times but solid local access.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Government/Startup Visas",
-      "alignmentText": "US citizen in San Diego; no startup visa needed; use standard permits and local startup funding programs in the region.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Cost of Doing Business",
-      "alignmentText": "San Diego costs are 15\u201320% above similar metros, compressing runway for a family startup. Local grants help, but rent and salaries remain challenging.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "San Diego, CA offers a moderate 3D character artist pool; mid-level hires work locally, while senior talent may need relocation or remote sourcing.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "San Diego hosts multiple strong degree programs (UCSD, SDSU, and local colleges) feeding skilled 3D character artist grads yearly.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "San Diego offers modest 3D character education: UCSD Extension, SDSU/CC programs, and online classes; most advanced topics are remote.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "San Diego\u0027s 3D character artist supply is moderate. Local pipelines are shallow, so expect 4-5 month cycles with remote/global candidates.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "In San Diego, 3D character artist pay trails top US/NA hubs by 25-30%; high cost of living is offset by family-friendly lifestyle and mild climate.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "3D Character Artist: Language",
-      "alignmentText": "San Diego studios primarily use English; as a bilingual market, some teams value Spanish for local collaboration.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Remote Expectations",
-      "alignmentText": "San Diego studios commonly offer flexible remote/hybrid roles; many provide equipment stipends, a good fit for a two-adult, two-child household.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Talent Pool",
-      "alignmentText": "San Diego offers a moderate 3D animator pool; local studios and grads provide mid-level talent, but senior roles may require relocation or remote work.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "San Diego offers programs (SDSU/UCSD) but class sizes can be small; local studios offer internships to bridge gaps.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "San Diego offers 3D animation courses via UCSD Extension and local colleges. Regular workshops with solid instructors are available nearby.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "San Diego\u0027s 3D animator market is modest; expect 4-5 month hiring cycles, with remote talent helping fill gaps.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "San Diego: 3D Animator pay trails top hubs by ~10-15%; competitive for experienced talent. Strong family-friendly lifestyle factors offset the gap.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Animator: Language",
-      "alignmentText": "In San Diego, English is the default in 3D animation shops. Spanish can help with local projects and collaboration.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Remote Expectations",
-      "alignmentText": "San Diego studios allow partial remote weeks for 3D animators, but onsite collaboration is common. Remote options exist, varying by studio.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "San Diego\u0027s 2D environmental artist pool is moderate; solid for startups, but senior niche talent may require relocation or broader sourcing.",
-      "alignmentValue": 6
     },
     {
       "key": "2D Environmental Artist: Education Pipeline Strength",
@@ -1023,19 +25,9 @@
       "sameAsParent": false
     },
     {
-      "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "San Diego has UCSD Extension and local colleges offering CE courses in 2D art/game design; workshops exist but many are remote or visiting instructors.",
-      "alignmentValue": 7
-    },
-    {
       "key": "2D Environmental Artist: Hiring Velocity",
       "alignmentText": "San Diego has a modest local pool for 2D environmental artists. Expect 4-5 month timelines with reliance on remote or hybrid hires.",
       "alignmentValue": 5
-    },
-    {
-      "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "In San Diego, 2D environmental artist pay trails top hubs by 10-15%. Local studios and family-friendly benefits help attract talent.",
-      "alignmentValue": 7
     },
     {
       "key": "2D Environmental Artist: Language",
@@ -1050,8 +42,1042 @@
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "San Diego has a growing indie/game dev scene. Real-time VFX talent is moderate, so startups may need relocation or longer searches for senior roles.",
+      "key": "2D Environmental Artist: Talent Pool",
+      "alignmentText": "San Diego\u0027s 2D environmental artist pool is moderate; solid for startups, but senior niche talent may require relocation or broader sourcing.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "3D Animator: Compensation Benchmark",
+      "alignmentText": "San Diego: 3D Animator pay trails top hubs by ~10-15%; competitive for experienced talent. Strong family-friendly lifestyle factors offset the gap.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Animator: Continuing Education Availability",
+      "alignmentText": "San Diego offers 3D animation courses via UCSD Extension and local colleges. Regular workshops with solid instructors are available nearby.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "3D Animator: Education Pipeline Strength",
+      "alignmentText": "San Diego offers programs (SDSU/UCSD) but class sizes can be small; local studios offer internships to bridge gaps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Animator: Hiring Velocity",
+      "alignmentText": "San Diego\u0027s 3D animator market is modest; expect 4-5 month hiring cycles, with remote talent helping fill gaps.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "3D Animator: Language",
+      "alignmentText": "In San Diego, English is the default in 3D animation shops. Spanish can help with local projects and collaboration.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Remote Expectations",
+      "alignmentText": "San Diego studios allow partial remote weeks for 3D animators, but onsite collaboration is common. Remote options exist, varying by studio.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "3D Animator: Talent Pool",
+      "alignmentText": "San Diego offers a moderate 3D animator pool; local studios and grads provide mid-level talent, but senior roles may require relocation or remote work.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "3D Character Artist: Compensation Benchmark",
+      "alignmentText": "In San Diego, 3D character artist pay trails top US/NA hubs by 25-30%; high cost of living is offset by family-friendly lifestyle and mild climate.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "3D Character Artist: Continuing Education Availability",
+      "alignmentText": "San Diego offers modest 3D character education: UCSD Extension, SDSU/CC programs, and online classes; most advanced topics are remote.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "3D Character Artist: Education Pipeline Strength",
+      "alignmentText": "San Diego hosts multiple strong degree programs (UCSD, SDSU, and local colleges) feeding skilled 3D character artist grads yearly.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Hiring Velocity",
+      "alignmentText": "San Diego\u0027s 3D character artist supply is moderate. Local pipelines are shallow, so expect 4-5 month cycles with remote/global candidates.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Language",
+      "alignmentText": "San Diego studios primarily use English; as a bilingual market, some teams value Spanish for local collaboration.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Remote Expectations",
+      "alignmentText": "San Diego studios commonly offer flexible remote/hybrid roles; many provide equipment stipends, a good fit for a two-adult, two-child household.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Talent Pool",
+      "alignmentText": "San Diego, CA offers a moderate 3D character artist pool; mid-level hires work locally, while senior talent may need relocation or remote sourcing.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Accelerator/Incubator Access",
+      "alignmentText": "San Diego has general accelerators like EvoNexus; game-specific cohorts are occasional, with broad funding but limited game-tailored support.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Air quality in San Diego is generally good; wildfire smoke and Santa Ana winds can cause monthly short-term unhealthy days for the family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Anchor Employers",
+      "alignmentText": "In San Diego, US, the game scene is indie-focused with few large anchors; strong remote/local roles and a growing support ecosystem.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "San Diego, CA, USA: secular culture is strong and openly nonreligious individuals are widely accepted; atheism draws little attention beyond conservative enclaves.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "In San Diego, US, independent courts and a free press uphold democracy. Civil society remains active amid polarization; some reforms warrant monitoring.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "San Diego banks are modern and accessible with online accounts and mobile payments. Setup is straightforward for families and entrepreneurs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "San Diego offers family-friendly beaches within easy reach: La Jolla Shores, Coronado, and Mission Beach with lifeguards and gentle sands for kids.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "San Diego, CA has regular board game nights and family-friendly shops. Active meetups make it easy for kids to join.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "In San Diego, fitness talk is common near beaches, but most circles stay respectful. The family-friendly scene supports wellness without shaming.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "San Diego\u0027s diversified economy (biotech, defense, tech, healthcare) supports solid resilience; downturns bring brief hiring pauses and quick reemployment.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "San Diego, US: cancer incidence aligns with norms; robust local screening and early detection supports routine checks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "San Diego, US: overcrowding and prison-labor concerns appear in reports. Watchdog groups monitor abuses and push reforms.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "San Diego, CA offers childcare subsidies and quality centers. However, reliable care still requires proactive networking and local connections.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "San Diego, USA offers kid-friendly neighborhoods, abundant parks and beaches, and a mild climate; walkable districts support family life.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "San Diego, CA subsidies mainly aid low-income families; this middle-income family relies on employer benefits or nanny shares, with modest relief.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "US citizens in San Diego can access CA childcare subsidies; expect eligibility checks and potential waitlists; employer programs and First 5 San Diego can help.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Tabletop gaming and rock climbing are common in San Diego, CA. The city offers board-game cafes, climbing gyms, and family-friendly outdoor activities.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Activity",
+      "alignmentText": "San Diego has monthly game-dev meetups, active studios, and occasional game jams; a solid, accessible local dev community.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "San Diego offers abundant wellness programs, parks, and preventive care. Health-minded circles are accessible and well-supported for families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Cohousing options exist in San Diego, but are modest; families may need to network and be patient for entry into co-ops.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Community Manager: Compensation Benchmark",
+      "alignmentText": "In San Diego, CA, US, community manager pay trails top hubs by ~10\u201315%, but strong benefits help attract experienced managers.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Manager: Continuing Education Availability",
+      "alignmentText": "San Diego has regular community-manager meetups and short courses via local tech hubs; solid instructors and accessible venues.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Manager: Education Pipeline Strength",
+      "alignmentText": "San Diego has a serviceable CM education path with SDSU/UCSD programs. Studio partnerships help grads enter regional teams.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Community Manager: Hiring Velocity",
+      "alignmentText": "San Diego, US: CM hiring is competitive; expect 2\u20133 month searches, with proactive sourcing and potential relocation support.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Community Manager: Language",
+      "alignmentText": "San Diego CM roles are English-first with strong bilingual capability (Spanish). Your English-ubiquity preference matches local practice.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Manager: Remote Expectations",
+      "alignmentText": "San Diego studios commonly offer hybrid or remote CM roles. Fully remote arrangements may require negotiation, with async workflows and equipment support.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Talent Pool",
+      "alignmentText": "San Diego has a moderate community manager pool with local studios and meetups; top CM talent is clustered in LA/SF, so searches may take longer.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "In San Diego, USA, family-friendly neighborhoods offer welcoming volunteers; farmers markets, beach cleanups, and maker spaces help newcomers connect through schools and clubs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "San Diego studios offer near-market pay; high cost of living means compensation trails top hubs. Negotiate benefits, remote options, and family perks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "San Diego startups largely track global medians after COL; equity remains meaningful, not SV-level, aligning with family-friendly, remote-friendly teams.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "As US citizens in San Diego, compliance is clear and manageable; startup rules are predictable with strong local family and tech support.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Continuing Education Availability",
+      "alignmentText": "San Diego has regular bootcamps and many local meetups (Unity/C#, game dev) via UCSD Extension and local tech groups.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Contractor/Freelancer Bench",
+      "alignmentText": "San Diego offers a serviceable contractor bench for web/game dev and cloud; top talent can book months ahead, plan for lead times.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "San Diego, CA leans toward harm reduction: cannabis legalized, focus on treatment and education; enforcement less punitive for minor offenses.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Cost of Doing Business",
+      "alignmentText": "San Diego costs are 15\u201320% above similar metros, compressing runway for a family startup. Local grants help, but rent and salaries remain challenging.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "San Diego housing and childcare are pricey; budget carefully and seek affordable family-friendly neighborhoods with good schools; mild, dry climate helps.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "San Diego has solid coworking and indie-friendly spaces. Game-specific gear like mocap and sound suites is not widespread.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "San Diego, USA has a solid but competitive tech market; steady demand for game/web dev and cloud roles, but local supply is tight\u2014remote options help.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "In San Diego, depression prevalence is moderate; services are accessible and there is open dialogue, though some wait times exist.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "San Diego\u0027s family-focused clubs and parks foster steady bonding; consistent outreach helps newcomers build close friendships.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "San Diego\u0027s diverse, LGBTQ\u002B-friendly communities and inclusive culture align with your progressive family. It offers strong schools and safe neighborhoods.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "San Diego, USA: approach varies by district; we track neighborhood trends to avoid heavy-handed policing in family areas.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "San Diego, USA allows dual citizenship with minimal reporting; taxes apply, but citizenship remains intact.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Early Stage Grants Available",
+      "alignmentText": "San Diego, CA offers SBIR/STTR routes and California incentives. Expect roughly $350k-$700k for a game/software MVP.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Early-Stage Capital Access",
+      "alignmentText": "San Diego has mixed early-stage game funding: generalist funds and local accelerators; public grants exist but competition is strong.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "San Diego\u0027s biotech/defense base provides solid fundamentals. Tourism and cross-border trade add resilience, with local buffers for downturns.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "San Diego\u0027s US economy backs startups with grants and a strong tech ecosystem, with reliable governance but some bureaucratic frictions.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Economic/Policy Stability",
+      "alignmentText": "San Diego/CA offers stable, pro-tech policies with grants and predictable local support; elections may shift incentives, but policy remains manageable.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Education",
+      "alignmentText": "San Diego, CA offers strong STEM magnets and language-immersion programs; near UCSD, though district quality varies.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Education Pipeline Strength",
+      "alignmentText": "San Diego hosts strong CS/arts programs at UCSD and SDSU that feed game talent. Local studios offer internships and capstone projects for job-ready graduates.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Sponsorship exists in San Diego - mainly at large firms/biotech, but with caps and slow processes; dependents possible but adds paperwork.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Engine Community Bias",
+      "alignmentText": "San Diego hosts active Unity and Unreal scenes with meetups and studios; strong dual-engine community supports Trey\u2019s game dev path and Sarah\u2019s work.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "In San Diego, coastal breezes and expansive parks support outdoor life; expect occasional air quality alerts from traffic and seasonal allergens.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "San Diego, CA: combined tax around 30% (federal\u002BCA) after deductions; strong schools and services offset the cost.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Autumn in San Diego stays steady and mild, roughly 10\u201322\u00B0C (50\u201372\u00B0F) with crisp mornings, sunshine, and easy family hikes.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "San Diego offers strong family life with safe neighborhoods, parks and beaches, and good schools; housing costs and busy urban pockets are trade-offs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "San Diego, US: immediate relatives of citizens sponsor easily; extended family faces backlogs.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "In San Diego, CA, California Paid Family Leave offers eight weeks of partial wages; access requires paperwork and employer coordination.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "San Diego offers remote-friendly tech jobs and some family services, but high living costs and lack of universal healthcare keep relief partial.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "San Diego, CA: Visa families receive partial benefits; some leave may be unpaid or shorter. Check employer policies.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "San Diego tech culture favors smart-casual; tidy outfits fit most settings, with casual wear fine in parks and family events.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "In San Diego, fashion is inclusive and body-positive. Athleisure, beachwear, and boho chic mix freely with professional looks.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "In San Diego, casual, beach-inspired style dominates. Tech workwear stays relaxed, with functional pieces over bold statements.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "San Diego blends beach-casual with professional looks; femininity is expressed freely with only minor pockets of conservatism.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "In San Diego, CA, gun ownership exists but strict licensing, safe-storage requirements, and enforcement keep exposure and risk low.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "In San Diego, flirting is generally respectful; venues tend to enforce boundaries. With kids present, stay direct about limits.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Founder/Operator Community",
+      "alignmentText": "San Diego has a growing founder network with EvoNexus/CONNECT and regular meetups. It supports new gaming/software teams with mentorship and events.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "San Diego offers plentiful fresh markets and diverse international cuisine; most cravings are covered, with rare gaps for niche ingredients.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "San Diego friendliness varies by neighborhood; we\u0027ll target family-friendly areas with parks and good schools. We\u0027ll join local parent groups to build ties.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "San Diego has a healthy game dev scene: Sony San Diego, Psyonix, and indie shops offer regular openings. Remote roles support a founder-friendly setup.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "San Diego, CA offers strong protections, visible Pride, legal gender markers, and inclusive healthcare in an urban, accepting setting.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "California protects reproductive and LGBTQ\u002B rights with strong enforcement; San Diego\u2019s inclusive, family-friendly culture supports your values.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "San Diego\u0027s dual-career families blend progressive values with Navy/tech hubs; strong policies support egalitarian gender roles.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "San Diego nightlife still has gendered scripts. Our progressive, LGBTQ\u002B-friendly approach helps us navigate with ease.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "In San Diego, as US passport holders, you have full rights to work, housing, and education with minimal visa constraints.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "San Diego\u0027s mild coastal climate; drought and inland wildfire risk require proactive housing resilience and insurance planning.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Government/Startup Visas",
+      "alignmentText": "US citizen in San Diego; no startup visa needed; use standard permits and local startup funding programs in the region.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "San Diego\u2019s casual beach vibe fits a light grooming routine. We budget a bit of polish for meetings and social events.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "In San Diego, CA, progressive circles are supportive, but institutions still require discretion for multi-partner families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "San Diego offers strong pediatric care via UCSD Health, Scripps, and Kaiser; good overall care, but insurance navigation can be needed.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "San Diego, US: public coverage is limited; employer-based insurance is essential for families. Private plans vary in cost and network; budget for premiums.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "US citizens in San Diego have broad access to UC, CSU, and community colleges. However, San Diego living costs require careful budgeting.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "US citizens in San Diego have access to CA public universities; residency proofs can affect in-state rates at UCSD and nearby campuses.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Hiring Velocity (Established Studios)",
+      "alignmentText": "In San Diego, studios such as Sony San Diego and Psyonix, plus remote roles, offer opportunities; most hires take 3-4 months.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Hiring Velocity (Startups)",
+      "alignmentText": "San Diego startup hires typically 3-4 months; incentives help attract local talent. Remote/hybrid options align with our family needs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "San Diego housing near top schools is pricey; ADU options exist but stock is tight; families may face long searches and tradeoffs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "San Diego, CA taxes are manageable with digital filing; self-employed must file quarterly estimates, but guidance is clear.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "San Diego\u0027s diverse, immigrant-friendly climate supports families like yours; periodic political rhetoric causes only mild concerns.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "San Diego, CA offers mostly smooth integration for your white, tech-leaning family; expect welcoming neighbors but some concerns about costs and gentrification.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "San Diego, CA, US offers broad K-12 access with magnets/lotteries and bilingual programs; top schools vary by district.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "San Diego, CA: U.S. citizen child enrollment in public schools is straightforward; standard docs and immunization records required; no visa hurdles.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "In San Diego, English is widely used. Daily Spanish exposure from border-city life supports the children\u0027s bilingual development.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Language (Established Studios)",
+      "alignmentText": "In San Diego, studios are English-first; strong bilingual support aids onboarding and local partnerships (Spanish common locally).",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Language (Startups)",
+      "alignmentText": "San Diego startups run in English; strong Spanish marketing and hiring support boost local outreach and recruitment.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "San Diego has some game/IP law options and tech-focused firms; startups may rely on referrals as demand outpaces supply.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "San Diego, CA: LGBTQ\u002B protections are strong and city services are inclusive. Polyamorous families are supported in this urban California setting.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "San Diego offers a budding game-dev scene with indie playtest groups and local labs; expect some lead times but solid local access.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "San Diego, USA: Marxism has niche appeal; campus debates exist (UCSD, local universities), while city policy stays centrist and family-friendly.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "In San Diego, surf culture and military presence reflect evolving masculinity; a progressive family embracing broad, open manhood.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "In San Diego, US, mass violence is rare. Authorities communicate clearly and schools/venues maintain solid safety protocols.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "San Diego, CA has a vibrant tech, gaming, and parenting meetup scene with family-friendly venues; newcomers can network, though some groups have fees.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "San Diego, CA: California\u0027s $16 minimum wage keeps essentials covered for a dual-income family, but high housing costs limit savings.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "San Diego offers strong fiber/internet and a growing game-dev scene, with reliable broadband overall. Some older neighborhoods occasionally face outages.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "San Diego, CA: poly-friendly urban spaces with supportive communities; privacy remains prudent in mixed settings.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "San Diego\u0027s diverse, progressive climate usually welcomes openness; share hard truths with tact to avoid unintentionally offending.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "San Diego\u0027s coast and parks offer iconic scenery within 60 minutes, ideal for weekly family hikes. Highlights: Torrey Pines, Cabrillo NM, and nearby beaches.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "San Diego, USA faces earthquakes and seasonal wildfires; preparedness kits and drills are prudent, though severe events are rare.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Beaches (La Jolla/Torrey Pines) and nearby parks are minutes away in San Diego; great for family hikes, though some trails need gear or permits.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "San Diego offers family-friendly venues and outdoor concerts; safe transit and beach events fit a slower pace with seasonal big-name acts.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "San Diego offers lively but family-friendly nightlife in districts like Gaslamp and Pacific Beach; plan babysitters and transit for evenings out.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "San Diego has regular game-dev meetups (IGDA SD, UCSD programs) plus online resources; welcoming to families and newcomers.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "San Diego hosts notable studios (Sony San Diego, Psyonix, Rockstar San Diego, High Moon). It offers strong game-dev opportunities and networking.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "San Diego, USA: Obesity rates stay below national averages thanks to wellness campaigns and active lifestyles.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "San Diego, CA offers lower costs than SF and game-dev accelerators. Grants exist, but funding mostly comes from angels or investors, with cross-border talent.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "San Diego offers a relaxed, beach-town pace with mild weather. In popular neighborhoods, traffic and busy hours can spike, so plan buffers.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "San Diego, CA, USA: schools partner with families and childcare is accessible; supports diverse parenting and shared caregiving.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "In San Diego, US citizenship is already secured for the family; no naturalization steps or residency required.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "San Diego, USA has low corruption with prompt investigations; public services feel trustworthy, but stay aware of local lobbying around contracts.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "In San Diego, crowds at beaches and transit can compress space; we\u0027ll advocate gently for personal comfort.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "In San Diego, most people respect personal space. Casual touches happen with consent, especially in crowded spots and transit.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "San Diego offers mild, low-humidity weather most of the year; outdoor family life is the norm. A few winter weeks can feel cooler and breezier.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "San Diego (US): a stable, participatory democracy with a progressive city council and strong rule of law that protects civil liberties.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "In San Diego, polyamorous families find visible communities in Hillcrest and North Park; urban tolerance is high, though broader services may misunderstand.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "San Diego, CA: infant care is costly; state preschool helps older kids but waitlists are long; plan for a mix of public and private care.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "San Diego private schools exist but vary in quality and cost; public schools with bilingual options are typically stronger and more affordable.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "San Diego has abundant fresh produce via farmers markets and diverse grocers. With planning, whole foods fit in, though convenience options are nearby.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Product Marketing Manager (Games): Compensation Benchmark",
+      "alignmentText": "San Diego PMM (Games) comp is solid but ~10-15% below top hubs; mild climate and family-friendly life help this family relocate.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Continuing Education Availability",
+      "alignmentText": "San Diego offers occasional game-marketing continuing ed via meetups and university extensions; most advanced topics require online study or trips to LA/SF.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
+      "alignmentText": "San Diego has SDSU/UCSD game programs; solid regional pipeline, but grads may need on-the-job upskilling for PMM roles.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Product Marketing Manager (Games): Hiring Velocity",
+      "alignmentText": "San Diego PMM (Games) hiring is mid-velocity; expect 4\u20135 months. Remote/hybrid options suit Trey\u0027s startup and family pace.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Product Marketing Manager (Games): Language",
+      "alignmentText": "San Diego game PMMs work mainly in English; bilingual capacity helps regional markets, matching the family\u0027s English ubiquity and openness to learning.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Product Marketing Manager (Games): Remote Expectations",
+      "alignmentText": "San Diego\u0027s game scene supports flexible remote/hybrid PMM roles; many studios offer equipment stipends, aligning with a family-friendly, low-stress pace.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Talent Pool",
+      "alignmentText": "Moderate San Diego pool for games PMMs; solid indie scene, but senior hires may need relocation or remote options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "San Diego\u0027s city politics tilt progressive on climate and housing; strong civic engagement supports LGBTQ\u002B rights and equitable policies for families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "In San Diego, CA, open, sex-positive culture; consenting adults face little moral policing and broad acceptance, though pockets of gossip exist.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "San Diego, CA messaging should center shared wellbeing, factual info, and diverse perspectives; minimize defense-first narratives.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "San Diego\u0027s strong local media and public radio sustain diverse, fact-based coverage; national spin exists but is countered by local outlets.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "San Diego\u0027s trolley/bus network serves core neighborhoods well. Suburban reach is limited, so families should plan around gaps and weekend schedules.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Publisher/Platform Relationships",
+      "alignmentText": "San Diego\u0027s local publisher presence is limited; founders rely on national/international events. Expect mostly remote platform engagement.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "In San Diego, high-end living is feasible for your family, but plan around exclusive providers and higher costs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "San Diego\u0027s high housing/childcare costs strain a two-adult, two-child family; affordable options exist, but top neighborhoods are costly.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "San Diego\u0027s mild climate and family-friendly neighborhoods help, but housing and childcare costs strain a two-adult, two-child household.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Real-Time vs Pre-Rendered Focus",
+      "alignmentText": "San Diego has a growing tech/indie game scene; real-time pipelines exist but are not as mature as LA, so external partners help.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "San Diego, California remains secular overall; some religious references appear in law, but minority rights stay protected and policy remains pluralistic.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Remote Expectations (Established Studios)",
+      "alignmentText": "San Diego studios mix on-site with hybrid work; remote is allowed case-by-case, with a preference for hybrid\u2014good for our family\u0027s schedule and broadband needs.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "San Diego, United States startups broadly embrace hybrid work; most roles can be remote with periodic on-site days.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "San Diego, CA supports hybrid/remote work with many coworking spaces. Ideal for a two-adult, two-child tech family seeking balance and strong local networks.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "In San Diego, US citizens have straightforward residency with no visa renewals. California state benefits depend on domicile.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "San Diego\u0027s growing game/tech scene offers family-friendly work and remote options; funding cycles may cause occasional churn but overall stability.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "San Diego offers a mild climate and solid healthcare for retirees. High housing costs and taxes require substantial savings or Prop 13 relief.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "In San Diego, visa holders have limited Social Security access; retirement relies on private savings and employer plans.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Ruby roles exist in San Diego startups/agencies, but the market leans toward JS/Python; steady, network-driven opportunities, with remote options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "San Diego is generally safe with low violent crime; petty theft can occur in tourist areas - practice standard family safety precautions.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "San Diego offers language-immersion and STEM magnets within SDUSD. Charters and private options widen choice, but quality varies by neighborhood.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "San Diego waters roughly 15\u201322 \u00B0C, with 20\u201322 \u00B0C in late spring\u2013summer. Swimmable about half the year; shoulder months around 20 \u00B0C may need light wetsuits.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "San Diego, US: mild, predictable climate; rare extremes like heat waves or winter storms mean light contingency planning.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "San Diego, United States enjoys well-balanced daylight year-round. Winters are mild and days stay long, supporting steady mood without lamps.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "San Diego\u0027s coastal climate stays mild year-round with low humidity. Outdoor activities stay comfortable most days, aligning with the family\u0027s preferences for climate.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Senior Talent Availability",
+      "alignmentText": "San Diego has a growing software/biotech scene (EvoNexus), but senior game leadership locally is limited; expect remote or abroad hires with competitive offers.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "San Diego\u0027s urban, diverse neighborhoods support sex positivity. Inclusive sex education and LGBTQ\u002B-friendly resources are widely accessible.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "San Diego offers strong healthcare and housing supports, but eligibility rules and costs can limit access for a two-adult, two-child family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "In San Diego, 2k sq ft rentals appear occasionally in family-friendly suburbs and move fast; expect premium rents or broker connections to secure space.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Spring in San Diego is mild: 15\u201322 \u00B0C (59\u201372 \u00B0F) with marine layer mornings and sunny afternoons; ideal for parks with light layers.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "San Diego\u0027s diverse economy and defense presence provide steady stability; expect occasional policy shifts and local tensions but overall calm.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "California\u0027s inclusive climate and equity policies shape San Diego\u0027s local initiatives. There is room for debate and diverse voices.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "San Diego blends strong venture activity with high living costs; growth is robust but wealth gaps need policy attention to protect families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Studio Density",
+      "alignmentText": "San Diego\u0027s game-dev scene is modest, with several indie and mid-size studios and a couple of hubs across the metro for local collaboration.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "San Diego summers hover around 23\u201329 \u00B0C (74\u201384 \u00B0F); coastal fog cools mornings, inland valleys reach low-30s \u00B0C with dry air.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "In San Diego, USA, most interactions are warm and upbeat. Occasional briskness happens in busy places.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Tax Incentives for Games/Creative",
+      "alignmentText": "California offers statewide credits for digital media and software (CA Competes); competitive windows, with San Diego access for games/creative.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "As US citizens relocating to San Diego, moves tend to be near-immediate with predictable costs and straightforward, transparent processes.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "San Diego, CA residents value city services and parks, yet slow housing approvals and transit progress curb trust.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "In San Diego, corruption is limited; developer and defense contractor influence exists, but oversight keeps essential services largely unaffected.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "San Diego software pay around 140k-190k; strong for many households, but high cost of living means dual incomes or remote work help sustain the lifestyle.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Weekends in San Diego, CA feature beaches, Balboa Park museums, and hikes; vibrant with easy access and occasional reservations.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "San Diego schools start around 8 a.m.; with Trey\u0027s flexible schedule and Sarah\u0027s remote work, aftercare and short afternoon outings keep days balanced.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "San Diego, CA has no state-mandated paid vacation. Leave is policy-driven and typically follows national norms.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "In San Diego, tech firms typically offer 15\u201319 PTO days plus holidays. Remote/hybrid work helps extend breaks.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Vendor/Outsource Ecosystem",
+      "alignmentText": "San Diego has several art/QA vendors and studios, but capacity is limited; plan for remote partners to cover full scope.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Compensation Benchmark",
+      "alignmentText": "San Diego offers competitive VFX real-time pay, but trails top hubs like LA/NY by ~10-15%; strong family-friendly lifestyle offsets the gap.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Continuing Education Availability",
+      "alignmentText": "San Diego offers modest VFX real-time continuing ed via UCSD Extension and local colleges; most upskilling is self-directed or remote/LA-based.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
@@ -1061,19 +1087,8 @@
       "alignmentValue": 6
     },
     {
-      "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "San Diego offers modest VFX real-time continuing ed via UCSD Extension and local colleges; most upskilling is self-directed or remote/LA-based.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
       "key": "VFX Artist (Real-Time): Hiring Velocity",
       "alignmentText": "San Diego\u0027s real-time VFX roles are steady but niche. Expect 2-3 months to hire due to limited local specialists and competition.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "San Diego offers competitive VFX real-time pay, but trails top hubs like LA/NY by ~10-15%; strong family-friendly lifestyle offsets the gap.",
       "alignmentValue": 7
     },
     {
@@ -1088,80 +1103,70 @@
       "alignmentValue": 6
     },
     {
-      "key": "Community Manager: Talent Pool",
-      "alignmentText": "San Diego has a moderate community manager pool with local studios and meetups; top CM talent is clustered in LA/SF, so searches may take longer.",
+      "key": "VFX Artist (Real-Time): Talent Pool",
+      "alignmentText": "San Diego has a growing indie/game dev scene. Real-time VFX talent is moderate, so startups may need relocation or longer searches for senior roles.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "San Diego has a serviceable CM education path with SDSU/UCSD programs. Studio partnerships help grads enter regional teams.",
-      "alignmentValue": 6
+      "key": "View of Neighboring Countries",
+      "alignmentText": "San Diego\u0027s cross-border ties with Tijuana are strong; binational travel and family exchange shape daily life.",
+      "alignmentValue": 9
     },
     {
-      "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "San Diego has regular community-manager meetups and short courses via local tech hubs; solid instructors and accessible venues.",
+      "key": "View of self",
+      "alignmentText": "San Diego, USA values coastal lifestyle, diversity, and innovation. Housing affordability and transit remain ongoing challenges.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Mexico and regional publics see San Diego as open and collaborative, boosted by cross-border ties; occasional policy disputes temper the view.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "As US citizens relocating to San Diego, no visa steps are needed; internal moves within the US are straightforward.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Walkability in San Diego varies by neighborhood; pockets like North Park are walkable, but busy corridors require care with kids.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "In San Diego, US migrants are generally welcomed; the metro\u0027s diverse communities and strong outdoor/tech scenes ease family settlement.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Hiring Velocity",
-      "alignmentText": "San Diego, US: CM hiring is competitive; expect 2\u20133 month searches, with proactive sourcing and potential relocation support.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "In San Diego, CA, US, community manager pay trails top hubs by ~10\u201315%, but strong benefits help attract experienced managers.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Community Manager: Language",
-      "alignmentText": "San Diego CM roles are English-first with strong bilingual capability (Spanish). Your English-ubiquity preference matches local practice.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Manager: Remote Expectations",
-      "alignmentText": "San Diego studios commonly offer hybrid or remote CM roles. Fully remote arrangements may require negotiation, with async workflows and equipment support.",
+      "key": "What Is Intriguing",
+      "alignmentText": "San Diego offers a vibrant startup scene, mild climate, beaches, and family-friendly neighborhoods - plenty to explore for a curious, bilingual family.",
       "alignmentValue": 8
     },
     {
-      "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "Moderate San Diego pool for games PMMs; solid indie scene, but senior hires may need relocation or remote options.",
-      "alignmentValue": 6
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "San Diego winters are mild: roughly 10\u201318\u00B0C (50\u201365\u00B0F) with minimal rain; outdoor time stays comfortable.",
+      "alignmentValue": 10,
+      "sameAsParent": true
     },
     {
-      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "San Diego has SDSU/UCSD game programs; solid regional pipeline, but grads may need on-the-job upskilling for PMM roles.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "San Diego offers occasional game-marketing continuing ed via meetups and university extensions; most advanced topics require online study or trips to LA/SF.",
-      "alignmentValue": 6,
+      "key": "Work Week Hours",
+      "alignmentText": "San Diego typically has 37-38 hour weeks with occasional crunch. Flexible/hybrid roles help balance family time.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "Product Marketing Manager (Games): Hiring Velocity",
-      "alignmentText": "San Diego PMM (Games) hiring is mid-velocity; expect 4\u20135 months. Remote/hybrid options suit Trey\u0027s startup and family pace.",
-      "alignmentValue": 5
+      "key": "Work-Life Balance",
+      "alignmentText": "San Diego, CA\u0027s family-friendly tech scene supports flexible hours. Expect occasional crunch, with recovery time built in.",
+      "alignmentValue": 8
     },
     {
-      "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "San Diego PMM (Games) comp is solid but ~10-15% below top hubs; mild climate and family-friendly life help this family relocate.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Product Marketing Manager (Games): Language",
-      "alignmentText": "San Diego game PMMs work mainly in English; bilingual capacity helps regional markets, matching the family\u0027s English ubiquity and openness to learning.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Product Marketing Manager (Games): Remote Expectations",
-      "alignmentText": "San Diego\u0027s game scene supports flexible remote/hybrid PMM roles; many studios offer equipment stipends, aligning with a family-friendly, low-stress pace.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "San Diego, CA offers strong worker protections, clear gig rules, and active unions in education/healthcare, though enforcement resources are stretched.",
+      "alignmentValue": 8
     }
   ]
 }

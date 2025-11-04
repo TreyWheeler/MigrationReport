@@ -3,7 +3,7 @@
 Use this SOP when you need to create a brand-new country or city report under `reports/`. If you are refreshing an existing report, follow the [SOP-Update Report](SOP-Update%20Report) instead.
 
 ## 0. Align on Purpose and Scope
-1. Read `family_profile.json` to understand the household’s priorities, deal-breakers, and weighting (`evaluation_weights_0_to_5`).
+1. Read `family_profile.json` to understand the household's priorities, deal-breakers, and weighting (`evaluation_weights_0_to_5`).
 2. Review `data/DATA_DICTIONARY.md` to confirm how countries, cities, categories, and keys connect.
 3. Load reference data with the PowerShell helpers:
    - `pwsh scripts/powershell/Categories_GET.ps1 -AsJson`
@@ -18,23 +18,20 @@ Use this SOP when you need to create a brand-new country or city report under `r
    - Cities: `pwsh scripts/powershell/Cities_INSERT.ps1 -Records @(@{ id = '<cityId>'; countryId = '<countryId>'; name = '<Display Name>'; report = 'reports/<country>_<city>_report.json' })`
 2. When linking a new city, double-check that the parent country already references the correct report path. Use `*_UPDATE.ps1` variants if you need to adjust existing records instead of editing JSON manually.
 
-## 2. Create the Report Shell
-1. Choose a filename that follows the established convention: `reports/<country>_report.json` for countries or `reports/<country>_<city>_report.json` for cities.
-2. Seed the file with the minimal structure:
-   ```json
-   {
-     "version": 2,
-     "iso": "<two-letter code for countries or parent ISO for cities>",
-     "values": []
-   }
-   ```
-3. Mirror any additional top-level fields used in comparable reports (currently just `version`, `iso`, and `values`).
+## 2. Generate the Report with the Console App
+1. Confirm the CLI can reach OpenAI:
+   - Set `DOTNET_ENVIRONMENT=Development` (machine-level `setx` is already in place, but export it if your shell does not inherit the value).
+   - Export `REPORT_MAINTENANCE_OPENAI__APIKEY` when the dev appsettings file is not available in your session.
+2. From the repo root run one of the commands below. Each scaffolds the JSON file and immediately calls `UpdateReport` to populate every key via OpenAI:
+   - Country: `dotnet run --project tools/ReportMaintenance/ReportMaintenance.Cli -- AddCountry --country "<Display Name>" --iso "<ISO>"`
+   - City: `dotnet run --project tools/ReportMaintenance/ReportMaintenance.Cli -- AddCity --country "<Country Name>" --city "<City Name>" [--iso "<ISO>" if the parent country report does not yet exist]`
+3. Monitor the console output. The request batch can take several minutes; ensure the command finishes without errors before continuing.
 
-## 3. Populate Evaluation Entries
-1. Build a worksheet listing every key from `data/category_keys.json`, grouped by category.
-2. For each key, gather relevant evidence for the new location (policy data, cost-of-living indices, etc.).
-3. Follow Sections 2–4 of the [SOP-Update Report](SOP-Update%20Report) to assign `alignmentValue` scores and craft `alignmentText` justifications for the new report. Because this is an initial creation, you will add new objects to the `values` array for every key.
-4. For city reports where a key mirrors the parent country exactly, set `"sameAsParent": true` instead of duplicating text. Otherwise, include a city-specific narrative.
+## 3. Review and Refine the Generated Content
+1. Open the new report file and confirm it includes `version`, `iso`, and a `values` entry for every key in `data/category_keys.json`.
+2. Spot-check multiple keys against rating guides and your evidence sources. Edit any `alignmentValue`, `alignmentText`, or `sameAsParent` fields that need tuning.
+3. For city reports, set `"sameAsParent": true` wherever the country narrative should be inherited and trim redundant copy.
+4. If OpenAI skipped keys or produced placeholders, rerun `dotnet run --project tools/ReportMaintenance/ReportMaintenance.Cli -- UpdateReport --report <slug>` after addressing the issue.
 
 ## 4. Validate the Result
 1. Confirm the `values` array contains every key exactly once (except entries that intentionally use `sameAsParent`).

@@ -3,947 +3,81 @@
   "iso": "NL",
   "values": [
     {
-      "key": "Environment",
-      "alignmentText": "Netherlands\u0027 bike-friendly cities and green belts offer park outings, farming pressures affect biodiversity in areas, but dunes and wetlands provide refuge.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Global Warming Risk",
-      "alignmentText": "Netherlands\u0027 Delta Programme reduces sea-level risk; expect more heavy rain and heat, but flood protection and community resilience keep risk manageable.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "Netherlands\u0027 marine climate keeps mild temps year-round, fitting family preference. Frequent drizzle and grey skies curb outdoor plans in shoulder seasons.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "Netherlands air quality is generally good; EU rules keep PM2.5 low, with occasional pollen days and NOx spikes near ports. Cyclists can ride safely.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "Netherlands has minimal quake/wildfire risk; world-class flood defenses and dikes protect the family, with alerts for rivers or the North Sea.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Netherlands spring swings from cool mornings to mild afternoons (7\u201318\u00B0C). Expect rainy days and wind, so keep light jackets handy for the kids\u0027 bike outings.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Netherlands summers typically stay around 23-28\u00B0C with cool evenings. Humidity is mild, making park days comfortable in NL.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Netherlands fall averages 8-16\u00B0C with frequent rain; plan for layers and flexible outdoor time for school runs and weekend outings.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "NL winters are mild, typically 0-6\u00B0C with damp winds and rain more than snow. Sub-freezing nights occur, but days stay 5-10\u00B0C and snow is brief.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Beach Life",
-      "alignmentText": "Netherlands\u0027 North Sea beaches offer clean sand, dunes, and family-friendly facilities. Lifeguards and amenities support safe, relaxed days.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "Netherlands coast water is typically 18\u201320\u00B0C most of the year, limiting long swims. August may reach ~20\u00B0C for short kid-friendly dips; gear helps.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "Netherlands offers flat polder and coastal landscapes, canal towns, and family-friendly parks near Amsterdam/Rotterdam; some areas have fees or longer drives.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Minimum Wage",
-      "alignmentText": "NL minimum wage (~\u20AC2,070/mo) covers basics, but Amsterdam rents demand two steady incomes for Trey and Sarah.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "NL senior software pay around \u20AC65k-\u20AC90k in Amsterdam/Utrecht. Two incomes help the family live well; 30% ruling adds tax leverage.",
-      "alignmentValue": 7
-    },
-    {
       "key": ".NET Work Prospects",
       "alignmentText": "Netherlands offers a mature .NET market in Amsterdam/Rotterdam with steady openings; English-friendly teams and skilled-migrant visas aid Trey\u2019s setup.",
       "alignmentValue": 8
     },
     {
-      "key": "Ruby Work Prospects",
-      "alignmentText": "Ruby roles exist in Amsterdam and NL startups; competition moderate, with remote US clients an option for Sarah.",
+      "key": "2D Environmental Artist: Compensation Benchmark",
+      "alignmentText": "NL 2D environmental artist pay roughly matches global medians after cost of living. Amsterdam and other NL hubs offer solid benefits.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "2D Environmental Artist: Continuing Education Availability",
+      "alignmentText": "Netherlands has occasional 2D environmental art courses; remote options common in Amsterdam/Utrecht, suiting flexible schedules.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "2D Environmental Artist: Education Pipeline Strength",
+      "alignmentText": "The Netherlands has several strong game/art programs (HKU, Gerrit Rietveld Academie, Willem de Kooning) feeding NL studios like Guerrilla Games in Amsterdam.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "2D Environmental Artist: Hiring Velocity",
+      "alignmentText": "Netherlands studios typically fill 2D environmental artist roles in 2-3 months due to a healthy game dev scene. English-friendly hiring and visa options help.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "2D Environmental Artist: Language",
+      "alignmentText": "Netherlands: English is widely used in studios; Dutch basics help for local contracts; many teams operate bilingually.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "2D Environmental Artist: Remote Expectations",
+      "alignmentText": "Netherlands studios commonly offer hybrid 2D environmental artist roles. Fully remote work is negotiable; expect English-friendly, family-aware teams with reliable broadband.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "2D Environmental Artist: Talent Pool",
+      "alignmentText": "Netherlands has a strong 2D environmental art pool with mid-to-senior talent; Amsterdam/Rotterdam studios and remote options support hires.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Compensation Benchmark",
+      "alignmentText": "Netherlands 3D animator pay lags top hubs by ~10-15%, but Amsterdam/Rotterdam offers solid packages with good benefits and work-life balance for families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Animator: Continuing Education Availability",
+      "alignmentText": "Netherlands hosts occasional 3D animation workshops via art schools and studios. Most advanced topics still require remote study or visiting experts.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Animator: Education Pipeline Strength",
+      "alignmentText": "Netherlands has several strong 3D animation programs (HKU, ArtEZ) delivering well-prepared grads for NL game studios.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "3D Animator: Hiring Velocity",
+      "alignmentText": "NL 3D animator hiring: expect 4-5 month cycles; strong local talent pool but may require international candidates for niche roles.",
       "alignmentValue": 5
     },
     {
-      "key": "Employer Visa Sponsorship",
-      "alignmentText": "Netherlands has a strong Highly Skilled Migrant program; many NL employers sponsor internationals and include dependents with smooth processing.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "The Netherlands\u0027 diversified economy supports steady growth and low unemployment. This resilience helps a Dutch studio launch amid global uncertainty.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "Netherlands\u0027 Randstad favors hybrid work; remote roles are common with many coworking hubs, and CET mornings align with US teams.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "NL work culture protects evenings and weekends; flexible hours and part-time options are standard, matching Sarah\u0027s family-first priorities.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Work Week Hours",
-      "alignmentText": "Netherlands typically has 37-38 hour weeks with strong work-life balance and flexible remote/hybrid options, matching your family\u0027s needs.",
+      "key": "3D Animator: Language",
+      "alignmentText": "Netherlands: English is widely used in NL 3D studios. Dutch skills help in Amsterdam/Rotterdam projects.",
       "alignmentValue": 8
     },
     {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "Netherlands offers at least 20 days of annual leave (4 weeks) plus 8% holiday pay and public holidays. Family planning around school breaks remains prudent.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Vacation Days (Typical)",
-      "alignmentText": "Netherlands employers typically offer 25\u201329 days of paid leave plus holiday allowance, supporting family travel and work-life balance.",
+      "key": "3D Animator: Remote Expectations",
+      "alignmentText": "Netherlands studios favor hybrid 3D animator setups; remote options exist but onsite collaboration is often expected.",
       "alignmentValue": 8
     },
     {
-      "key": "Pace of Life",
-      "alignmentText": "Amsterdam and Utrecht offer a calm, bike-friendly rhythm with short commutes; consider Amersfoort for even calmer family days.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Dutch schools end around 14:00-15:00. With BSO care and flexible work, parents can wrap by 16:00-17:00 in the Netherlands.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Netherlands weekends offer markets, kid-friendly museums, and easy train trips. Shops and venues generally open Sundays until ~18:00, easing planning.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Family Life",
-      "alignmentText": "Netherlands offers strong family support: affordable childcare and parental leave. Safe, bike-friendly neighborhoods help family life, though housing in major cities remains tight.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Polyamory",
-      "alignmentText": "Netherlands: polyamorous families enjoy broad social tolerance in major cities; legal recognition remains monogamous; discretion at work or school advised.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Parenting Expectations",
-      "alignmentText": "Netherlands parenting is highly supportive: generous leave and affordable childcare ease work-life balance; schools partner with families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "alignmentText": "Netherlands\u0027 cities are highly kid-friendly with safe crossings, parks, and bike lanes; universal childcare and English-friendly services support families.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Schooling Options",
-      "alignmentText": "Netherlands has strong public basisscholen with bilingual streams. English-friendly international schools are also available; plan early due to waitlists.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Netherlands has a solid childcare network, but costs stay significant even with subsidies; families mix public daycare with private options and plan ahead.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "NL\u0027s kinderopvangtoeslag provides substantial subsidies for working parents; two-income families see major relief, with some co-pays remaining.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "NL childcare subsidies require a BSN and upfront payments; reimbursements come later, so visa families should plan cash flow in year one.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "Netherlands offers universal, high-quality K-12 with language support. Expat families usually secure placement in good schools with helpful services.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "Public schools in the Netherlands welcome visa holders; language support exists via newcomer classes; some bilingual tracks may favor long-term residents.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Private Education",
-      "alignmentText": "Private/international schools exist in the Netherlands but are pricey (\u20AC15k-\u20AC25k/yr); quality varies; public schools offer strong bilingual options.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Family Policy (Citizens)",
-      "alignmentText": "In the Netherlands, families get robust child benefits, parental leave, and childcare subsidies; universal healthcare and English widely spoken ease access.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Family Policy (Visa Holders)",
-      "alignmentText": "Netherlands offers family supports, but cash benefits require Dutch income or longer residency. Healthcare is universal; childcare subsidies depend on work.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Higher Education Access (Citizens)",
-      "alignmentText": "NL offers affordable higher education with DUO loans/grants for residents; many English-taught programs broaden your kids\u0027 futures.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "Netherlands: non-EU visa holders enroll, but pay higher tuition; scholarships exist, yet costs typically exceed those for citizens.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Gender Roles",
-      "alignmentText": "Netherlands guarantees strong gender equality with shared parental leave and flexible work, fitting your progressive, family-friendly profile.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "Netherlands protects gender diversity; major NL cities offer affirming communities and inclusive schools, while rural areas adapt.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "Netherlands: strong, enforced gender rights including LGBTQ\u002B protections. Universal healthcare and family-friendly policies support this family.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "Netherlands values diverse femininity; women lead in tech and politics there. Parental leave and flexible work support your family.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "In the Netherlands, engaged fatherhood is widely supported; Trey can model caregiving with little stigma, though some rural areas retain traditional views.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "What Is Intriguing",
-      "alignmentText": "NL\u0027s design districts, cycling culture, canals, and museums offer rich discoveries for curious families; Amsterdam, Rotterdam, Eindhoven spark curiosity.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Language \u0026 English Ubiquity",
-      "alignmentText": "Netherlands: English is widely used in cities; most government portals have English options, though some steps require Dutch.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Progressivism",
-      "alignmentText": "Netherlands leans progressive on social policy and climate action, matching the family\u0027s values with strong welfare and civic engagement.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "In the Netherlands, Marxism is influential in academia and unions, while daily life stays pragmatic with social-democratic politics.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Atheism",
-      "alignmentText": "Netherlands\u0027 secular culture is strong. Atheism is widely accepted, with minimal religious influence on daily life or policy.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Sex (Attitudes)",
-      "alignmentText": "In the Netherlands, sex education is comprehensive and consent-focused; open discussion and LGBTQ\u002B inclusion align with this sex-positive household.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "LGBTQ\u002B Attitudes",
-      "alignmentText": "Netherlands offers broad LGBTQ\u002B protections, marriage equality, and visible Pride; rural areas quieter but still supportive for a polyamory-positive family.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Community Vibes",
-      "alignmentText": "NL communities are welcoming; expat groups and parent networks support integration. Directness is common, but trust grows with steady participation.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of self",
-      "alignmentText": "Netherlands\u0027 pragmatic, consensus-driven culture fits the family\u0027s collaborative ethos; modest ambition sits well with Dutch egalitarian norms.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "View of Neighboring Countries",
-      "alignmentText": "Netherlands and its neighbors Belgium and Germany are viewed positively; cross-border travel is easy, and conversations tend to be direct and pragmatic.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Neighbors admire Dutch efficiency and welfare in the Netherlands. Climate-policy debates exist, but daily life for a US migrant family remains smooth.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Nightlife Culture",
-      "alignmentText": "Nightlife exists in select Amsterdam districts; with babysitters and reliable transit, occasional nights out are feasible for the family.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Fashion Trends (Male)",
-      "alignmentText": "Netherlands fashion leans smart-casual and cycling-friendly. Trey\u0027s look remains practical and sustainable for Dutch workplaces.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Fashion Trends (Female)",
-      "alignmentText": "Netherlands fashion is inclusive and versatile; urban NL embraces diverse, expressive styles. Sarah will find practical, comfortable workwear in NL.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Common Hobbies",
-      "alignmentText": "The Netherlands offers strong cycling, canal boating, and maker spaces. English-friendly board game cafes exist in Amsterdam, Utrecht, and beyond.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Boardgaming \u0026 Tabletop",
-      "alignmentText": "In NL, major cities host regular board game nights. Stores like Subcultures and Dutch Game Garden run family-friendly events with English-friendly meetups.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Nightlife \u0026 Music",
-      "alignmentText": "Netherlands: vibrant live music in Amsterdam with many family-friendly venues; safe transit supports nightlife, though marquee events require planning.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Meetups \u0026 Communities",
-      "alignmentText": "Vibrant Dutch meetups and networks in the Netherlands help Trey and Sarah build connections; Dutch Game Garden and Women in Tech NL align with their careers.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Nature Access",
-      "alignmentText": "Great NL nature access for a family: easy walks in dunes and parks; frequent trains enable weekend trips to Veluwe or coast.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Political System",
-      "alignmentText": "Netherlands\u0027 multi-party parliamentary system with proportional representation; transparent, participatory governance and a strong rule of law.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Religion in Politics",
-      "alignmentText": "In the Netherlands, religion has limited policy power. Secular governance protects minority rights, aligning with this family\u0027s values.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Workers\u0027 Rights",
-      "alignmentText": "the Netherlands offers comprehensive labor protections with strong unions and swift enforcement, supporting Sarah\u0027s remote/part-time work options.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "State Ideology",
-      "alignmentText": "Netherlands\u0027 pluralist democracy upholds rights and evidence-based policy. Its tolerant culture and startup support suit families.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Netherlands maintains healthy democracy; independent institutions and courts, active civil society, with minor far-right gains to monitor.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "State of Capitalism",
-      "alignmentText": "Netherlands\u0027 social market offers strong safety nets and startup support (grants, visas) for indie studios; taxes and compliance are notable.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Stability",
-      "alignmentText": "Netherlands offers steady governance, strong institutions, and low crime. NATO/EU membership supports secure, long-term family planning.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "Netherlands has plural media (NPO/public outlets) with generally balanced reporting; watchdogs curb spin.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "Netherlands (NL) messaging stays pragmatic and inclusive, with pluralistic media and minimal nationalist spin, matching your family\u0027s values.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "The Netherlands\u0027 universal healthcare, childcare subsidies, and strong public schools support this family\u0027s work-life balance; funded by taxes.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "Trust in the Netherlands is mixed; locals may show skepticism due to the childcare scandal. Transparency reforms are underway; trust hasn\u0027t fully rebounded.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "Netherlands exhibits very low corruption with strong oversight. For a family like yours, this supports predictable bureaucracy and reliable public services.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "Netherlands: corruption tends to be limited to mid-level housing/permits. Strong oversight safeguards essential services; stay informed via local news.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "Netherlands: family housing scarce in cities; social housing queues and high rents require flexible location and timing.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Safety \u0026 Crime",
-      "alignmentText": "In the Netherlands, crime is low and neighborhoods are well-lit; bike theft in cities is the main risk, mitigated by secure parking.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "Netherlands offers universal coverage with strong primary care and maternity support; pediatric care is solid, with occasional specialist wait times.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "In NL, basic health insurance covers GP care; enroll with a Dutch insurer and register with a huisarts soon after arrival.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "Netherlands offers robust childcare subsidies (Kinderopvangtoeslag) and universal early care; applications can require municipal planning and some delays.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "Netherlands provides strong family supports (Kinderopvangtoeslag, paid parental leave). Some subsidies are limited by income caps and admin requirements.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Education",
-      "alignmentText": "Netherlands public schools deliver strong outcomes with bilingual options; monitor capacity in growing suburbs to secure spots for our 5-year-old.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "Netherlands transit is strong and bike-friendly, enabling car-free family life in cities. Occasional strikes or maintenance may cause minor delays.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "In the Netherlands, a coordinated market economy with strong social partners backs startups and offers reliable governance; funding and visas support Trey.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "Dutch taxes are digital-first with pre-filled returns via MijnBelastingdienst; forms are Dutch-first. An expat-friendly tax advisor helps maximize deductions.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "The Netherlands\u0027 30% ruling lowers taxable income for expats; pension contributions and childcare deductions keep net pay comfortable.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Banking \u0026 Payments",
-      "alignmentText": "Netherlands banking is workable for newcomers; BSN and residency steps may add friction, but SEPA and iDEAL enable smooth payments.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "Netherlands cost of living: housing and childcare are pricey. Subsidies help, but groceries and utilities stay high; cycling reduces transport costs.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Retirement (Citizens)",
-      "alignmentText": "Netherlands (NL) offers a strong retirement baseline: AOW plus robust occupational pensions; voluntary saving incentives boost security.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "NL pension access for visa holders is feasible with minor residency; long-term settlement unlocks full benefits; rely on employer schemes and private savings.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Visa Paths",
-      "alignmentText": "Netherlands offers Highly Skilled Migrant, EU Blue Card, startup, and self-employed visas; clear criteria, though sponsorship or business plans are needed.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "Netherlands generally welcomes US migrants; IND handles visas, with DAFT for entrepreneurs. Expect bureaucracy; patience helps.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Residency Types \u0026 Durations",
-      "alignmentText": "Netherlands permits typically last 1\u20135 years and offer a five-year route to permanent residency; renewals follow standard procedures.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Path to Citizenship",
-      "alignmentText": "Netherlands naturalization after 5 years with civic integration; dual citizenship is restricted; renunciation of US citizenship may be needed for Dutch passport.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Family Members",
-      "alignmentText": "Netherlands favors spouses/registered partners and minors; if the couple lacks a registered partnership, the adult partner may face hurdles.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Timelines \u0026 Costs",
-      "alignmentText": "Netherlands highly skilled permits typically take 2\u20134 weeks. Fees ~\u20AC350\u2013\u20AC400 per person (family ~\u20AC1.4k\u2013\u20AC1.6k); delays from housing registration or biometrics.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Compliance \u0026 Risks",
-      "alignmentText": "Register with the Dutch gemeente (BSN) and keep universal health insurance; annual tax filings and occasional audits require timely paperwork.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Dual Citizenship Allowed",
-      "alignmentText": "Netherlands generally requires renunciation; dual citizenship may be possible only under narrow exemptions (treaty-based or Dutch spouse).",
-      "alignmentValue": 3
-    },
-    {
-      "key": "General Considerations for Visa Holders",
-      "alignmentText": "Netherlands offers strong family support and universal healthcare. However, visa stays depend on permit status and renewals; expect BSN, DigiD, and Dutch documents.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Game Dev Work Prospects",
-      "alignmentText": "Netherlands\u0027 game scene is solid, with Amsterdam and Utrecht hosting studios; grants and a strong indie network help Trey, with Dutch Game Garden as a hub.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Hiring Velocity (Established Studios)",
-      "alignmentText": "Netherlands studios (Guerrilla) offer steady demand in Amsterdam/Rotterdam; visa steps may push fills to ~3 months. Networking via Dutch Game Garden helps.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Compensation Benchmark (Established Studios)",
-      "alignmentText": "In the Netherlands, established studios generally pay around global medians after cost of living. Solid base pay plus benefits support family life in NL studios.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Established Studios)",
-      "alignmentText": "In the Netherlands, English is widely spoken in studios, while Dutch fluency remains important for community, schooling, and local compliance.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Remote Expectations (Established Studios)",
-      "alignmentText": "Netherlands studios typically offer hybrid/remote work with formal policies, aligning with Trey and Sarah\u0027s family-friendly, remote-ready setup in NL.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Notable Game Studios",
-      "alignmentText": "Netherlands hosts notable studios (Guerrilla Games, Vlambeer, Triumph) that sustain a strong game-dev scene; great peers and contract opportunities for Trey.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "Netherlands-based Dutch Game Garden, INDIGO, and IGDA Netherlands host regular English events. They\u0027re a solid fit for the family\u0027s game dev network.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Netherlands offers startup visas, WBSO tax credits, EU grants, and strong gaming incubators; Amsterdam/Eindhoven hubs help indie studios.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Hiring Velocity (Startups)",
-      "alignmentText": "Netherlands startups move quickly with English-friendly teams, visa options, and grants; 6\u20138 week hiring is typical for Trey\u0027s setup.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Compensation Benchmark (Startups)",
-      "alignmentText": "Netherlands startup pay generally tracks global medians after cost of living. Expect solid cash \u002B equity with family-friendly benefits and universal healthcare.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentText": "Netherlands startups rely on English; for your family, learning Dutch eases schooling, bureaucracy, and community integration in NL.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentText": "Netherlands startups are hybrid-friendly with solid remote tooling and periodic on-sites; fits this family\u0027s need for remote/hybrid work in NL.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Modernity \u0026 Infrastructure",
-      "alignmentText": "NL\u0027s widespread fiber and digital gov services keep daily life smooth for a remote family; occasional rail work or energy retrofits cause minor disruptions.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Seasonal Extremes \u0026 Variability",
-      "alignmentText": "Netherlands weather is generally mild and wet. Each season brings a couple notable extremes (storms and strong winds) requiring planning.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Seasonal Sunlight Hours",
-      "alignmentText": "In the Netherlands, winters bring noticeable daylight deficits. The family can stay energized with regular outdoor breaks and occasional light therapy.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pleasant Weather Windows",
-      "alignmentText": "Netherlands: mild maritime climate with regular rain; two to three seasons are pleasant, other months require rain gear.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Quality of Life \u2013 Lower-Income Tier",
-      "alignmentText": "NL provides universal healthcare, strong safety nets, and English-friendly services; childcare subsidies and grants support a family-friendly move.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Quality of Life \u2013 Middle-Income Tier",
-      "alignmentText": "The Netherlands offers strong public services and universal healthcare, supporting middle-income families; budgeting is needed for housing and insurance premiums.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Quality of Life \u2013 Higher-Income Tier",
-      "alignmentText": "Netherlands offers high QoL: universal healthcare, strong schools, childcare subsidies; premium services exist, though some top options need early booking.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "In the Netherlands, 2k sq ft rentals near good schools are scarce in cities like Amsterdam. Look to family-friendly suburbs such as Haarlem or Leiden.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Community Living Opportunities",
-      "alignmentText": "NL hosts several co-housing and cooperative projects (Amsterdam, Utrecht) with active family networks; entry can require patience.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Friendliness \u0026 Neighborliness Index",
-      "alignmentText": "Netherlands locals are warm and helpful to newcomers. Expat and English-friendly groups speed integration within weeks.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 General",
-      "alignmentText": "Netherlands is broadly welcoming; English is widely spoken. Integration debates exist, but immigrant families feel safe speaking their language and sharing traditions.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 White Migrants",
-      "alignmentText": "Netherlands generally welcomes skilled white migrants; English-speaking families adapt smoothly in Dutch cities. Any stereotypes are mild and easy to navigate.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Surface Interaction Norms",
-      "alignmentText": "In NL, service is friendly and efficient. English is widely spoken, and staff respond positively when you initiate chats.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Depth-Seeking Social Norms",
-      "alignmentText": "In the Netherlands, expat and local clubs help deepen bonds. Attending community events and shared activities builds trust fast.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Personal Boundary \u0026 Bubble Norms",
-      "alignmentText": "Netherlands locals generally respect personal space. In crowded transit and markets, proximity can feel closer than at home.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Moral, Honesty \u0026 Openness Expectations",
-      "alignmentText": "In the Netherlands, directness is valued but tempered with politeness and inclusivity. Share concerns clearly without offense.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Grooming \u0026 Beauty Investment",
-      "alignmentText": "Grooming investment in NL fits a practical, smart-casual style; city biking and family life mean high fashion isn\u0027t required.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Body Image \u0026 Fitness Pressure",
-      "alignmentText": "In the Netherlands, fitness is about wellbeing with inclusive culture; gyms/cycling are accessible, conversations stay respectful.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fashion \u0026 Style Expectations",
-      "alignmentText": "Netherlands urban life suits tidy smart-casual; practical outfits fit Amsterdam and beyond. High fashion isn\u0027t required; comfortable, neat attire works.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Flirting Boundaries \u0026 Consent Culture",
-      "alignmentText": "Netherlands consent culture is strong; people check in and respect boundaries. English is common, aiding clear consent talks in NL nightlife.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Gendered Flirting Expectations",
-      "alignmentText": "In the Netherlands, all genders can initiate or decline with minimal stigma. Amsterdam\u0027s inclusive culture supports polyamory and nontraditional dating.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "Netherlands: urban hubs like Amsterdam are welcoming. Suburbs may require discretion; polyamory isn\u0027t legally defined but socially accepted.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "alignmentText": "In the Netherlands, consenting adults face little moral policing; sexual choices are personal matters, reflecting Dutch liberal attitudes.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
-      "alignmentText": "In the Netherlands, progressive Dutch scenes warmly accept non-monogamous families; public life is open, though some institutions remain discreet.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Personal Space \u0026 Touch Norms",
-      "alignmentText": "In the Netherlands, personal space is respected. Most greetings are handshakes or nods with minimal unsolicited touch, even on crowded trams.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Firearm Laws \u0026 Ownership Culture",
-      "alignmentText": "Netherlands enforces strict gun laws with very low ownership. Licensing, safe storage, and training are strongly enforced.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Controlled Substance Policies",
-      "alignmentText": "Netherlands\u0027 harm-reduction policy emphasizes treatment with light penalties. Cannabis is tolerated within a regulated Netherlands framework with strong health services.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "Netherlands enforces a targeted drug policy focused on trafficking; casual cannabis use is tolerated in licensed venues. Strong oversight keeps raids rare.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "Occasional mass violence events occur regionally in the Netherlands, prompting awareness but not chronic fear for our family.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Carceral Conditions \u0026 Prison Labor",
-      "alignmentText": "Netherlands prisons emphasize rehabilitation and humane conditions with strong oversight. This aligns with our NL family\u0027s human-rights priorities.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Walkability \u0026 Pedestrian Safety",
-      "alignmentText": "Netherlands cities prioritize pedestrians; walking is confident in most neighborhoods. Expect only a few car-heavy corridors in busy areas.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Health Consciousness",
-      "alignmentText": "Netherlands offers strong preventive care and universal health coverage; bike-friendly towns support active family lifestyles.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Processed Food Saturation",
-      "alignmentText": "In the Netherlands, processed foods are common but balanced by strong fresh markets; wholesome options are easy to find with planning.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fresh \u0026 International Cuisine Access",
-      "alignmentText": "Netherlands: vibrant fresh markets and diverse international restaurants in Amsterdam and Rotterdam; some niche cuisines may require brief trips.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "Depression prevalence in the Netherlands is low to moderate with strong mental-health services. Your family benefits from accessible care and shorter waits.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Obesity Rate",
-      "alignmentText": "Netherlands\u0027 proactive public health and bike-friendly cities help keep obesity rates lower than the US, aligning with your wellness goals in NL.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Cancer Incidence",
-      "alignmentText": "In the Netherlands, cancer incidence stays below world averages. Universal healthcare and strong screening support early detection for families.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "Netherlands has a diverse economy with a strong startup scene and safety nets. English-friendly workplaces plus grants/visa options help quick reemployment.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Studio Density",
-      "alignmentText": "Netherlands has a strong game/animation ecosystem: Amsterdam and Utrecht hubs, AAA studios plus a thriving indie scene.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Anchor Employers",
-      "alignmentText": "Netherlands hosts Guerrilla Games (Amsterdam) and Ubisoft NL (Utrecht) as major anchors, offering strong local game-dev pathways for Trey and Sarah.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "NL has a solid vendor ecosystem with studios in Amsterdam/Eindhoven for art, QA and live-ops; capacity is decent but not as vast as the US.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Education Pipeline Strength",
-      "alignmentText": "Netherlands has several accredited game programs (HKU, TU/e, Breda) with strong studio partnerships. Internships and capstone projects feed the local talent pool.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Continuing Education Availability",
-      "alignmentText": "Netherlands provides regular bootcamps and meetups plus university programs; Amsterdam/Rotterdam hubs support Trey and Sarah\u0027s game/web dev upskilling.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Activity",
-      "alignmentText": "Netherlands hosts regular monthly tech/game meetups (Amsterdam, Eindhoven) and game jams; active expat and developer networks.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Engine Community Bias",
-      "alignmentText": "Netherlands hosts active Unity and Unreal communities (Amsterdam/Rotterdam); English-friendly, strong cross-training, well suited to Trey\u0027s game-dev goals.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "NL supports real-time game dev well. Azure North Europe and fast broadband enable low-latency work, with a strong Unity ecosystem and grants.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Demand\u2013Supply Balance",
-      "alignmentText": "Netherlands has solid demand for software/game dev; English proficiency is high and startup visas ease entry, but expect some competition for top talent.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Retention \u0026 Churn Risk",
-      "alignmentText": "Netherlands offers a stable, English-friendly startup scene with universal healthcare and strong childcare; churn is possible during funding cycles.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Diversity \u0026 Inclusion Index",
-      "alignmentText": "Netherlands shows strong D\u0026I: inclusive workplaces, LGBTQ\u002B protections, and transparent metrics; aligns with this progressive family.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "Netherlands offers strong WBSO R\u0026D tax credits and Innovation Box relief for game development; clear rules and steady payouts support a growing studio.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Economic/Policy Stability",
-      "alignmentText": "Netherlands provides stable, pro-innovation policy and startup funding (WBSO); predictable rules suit a remote-friendly, family-focused team.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Founder/Operator Community",
-      "alignmentText": "Netherlands has a growing founder base with regular Amsterdam/Brainport meetups and strong mentorship networks.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Early-Stage Capital Access",
-      "alignmentText": "Netherlands offers reliable generalist funds and public grants (RVO/EU) plus a growing game ecosystem; accessible but competitive for early-stage studios.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Accelerator/Incubator Access",
-      "alignmentText": "Netherlands offers regular game-focused accelerators/labs (e.g., Dutch Game Garden) and grant networks to back game startups.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Senior Talent Availability",
-      "alignmentText": "Netherlands offers a strong, English-friendly pool of senior tech leaders with startup experience; Amsterdam and NL visa/grant options ease hiring.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Contractor/Freelancer Bench",
-      "alignmentText": "Netherlands offers a healthy contractor bench across IT and design; top game dev talent can book weeks ahead.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Coworking \u0026 Startup Infrastructure",
-      "alignmentText": "Netherlands (NL) offers abundant coworking and a growing game-dev scene (Amsterdam, Brainport). Some shared labs/mocap options support indie studios.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Legal \u0026 IP Support",
-      "alignmentText": "Netherlands offers reliable game IP support via Amsterdam-based firms. Several firms handle publishing/licensing for game ventures with startup-friendly pricing.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Publisher/Platform Relationships",
-      "alignmentText": "Netherlands offers an EU gateway with Amsterdam\u0027s dev scene. Occasional publisher engagement; most relationships via remote channels.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Market Research \u0026 Playtesting",
-      "alignmentText": "Netherlands offers a mature playtesting scene with studios and university labs; Amsterdam/Rotterdam testers and local survey vendors are accessible.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Government/Startup Visas",
-      "alignmentText": "Netherlands startup visa is accessible via recognized facilitators; strong startup ecosystem and EU market access, with moderate processing times.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Cost of Doing Business",
-      "alignmentText": "Netherlands costs are slightly above US peers; startup incentives (grants, visas) help, with strong broadband and skilled labor offsetting some expenses.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "Netherlands has a strong mid-to-senior 3D character artist pool centered in Amsterdam (Guerrilla Games) with recent shipped titles.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "Netherlands features several strong 3D game art programs (HKU, ArtEZ, AHK); a steady stream of well-prepared graduates feeds NL studios.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "Netherlands has occasional 3D character art courses and short workshops (Amsterdam/Rotterdam); many options are online or via visiting experts.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "Netherlands has a healthy game-dev scene; 3D character artists typically require 3\u20134 months to hire, with proactive sourcing and relocation/visa help (Amsterdam region).",
+      "key": "3D Animator: Talent Pool",
+      "alignmentText": "Moderate NL 3D animation pool; Amsterdam/Rotterdam hubs may require relocation or longer searches for niche skills.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
@@ -951,6 +85,22 @@
       "key": "3D Character Artist: Compensation Benchmark",
       "alignmentText": "Netherlands offers competitive 3D character artist pay with strong English ubiquity. Compensation trails top hubs by about 10-15% but benefits and healthcare improve overall appeal in NL.",
       "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Continuing Education Availability",
+      "alignmentText": "Netherlands has occasional 3D character art courses and short workshops (Amsterdam/Rotterdam); many options are online or via visiting experts.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Character Artist: Education Pipeline Strength",
+      "alignmentText": "Netherlands features several strong 3D game art programs (HKU, ArtEZ, AHK); a steady stream of well-prepared graduates feeds NL studios.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "3D Character Artist: Hiring Velocity",
+      "alignmentText": "Netherlands has a healthy game-dev scene; 3D character artists typically require 3\u20134 months to hire, with proactive sourcing and relocation/visa help (Amsterdam region).",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
@@ -966,125 +116,120 @@
       "sameAsParent": false
     },
     {
-      "key": "3D Animator: Talent Pool",
-      "alignmentText": "Moderate NL 3D animation pool; Amsterdam/Rotterdam hubs may require relocation or longer searches for niche skills.",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "key": "3D Character Artist: Talent Pool",
+      "alignmentText": "Netherlands has a strong mid-to-senior 3D character artist pool centered in Amsterdam (Guerrilla Games) with recent shipped titles.",
+      "alignmentValue": 8
     },
     {
-      "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "Netherlands has several strong 3D animation programs (HKU, ArtEZ) delivering well-prepared grads for NL game studios.",
+      "key": "Accelerator/Incubator Access",
+      "alignmentText": "Netherlands offers regular game-focused accelerators/labs (e.g., Dutch Game Garden) and grant networks to back game startups.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Netherlands air quality is generally good; EU rules keep PM2.5 low, with occasional pollen days and NOx spikes near ports. Cyclists can ride safely.",
       "alignmentValue": 9
     },
     {
-      "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "Netherlands hosts occasional 3D animation workshops via art schools and studios. Most advanced topics still require remote study or visiting experts.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "NL 3D animator hiring: expect 4-5 month cycles; strong local talent pool but may require international candidates for niche roles.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "Netherlands 3D animator pay lags top hubs by ~10-15%, but Amsterdam/Rotterdam offers solid packages with good benefits and work-life balance for families.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Animator: Language",
-      "alignmentText": "Netherlands: English is widely used in NL 3D studios. Dutch skills help in Amsterdam/Rotterdam projects.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Animator: Remote Expectations",
-      "alignmentText": "Netherlands studios favor hybrid 3D animator setups; remote options exist but onsite collaboration is often expected.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "Netherlands has a strong 2D environmental art pool with mid-to-senior talent; Amsterdam/Rotterdam studios and remote options support hires.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "The Netherlands has several strong game/art programs (HKU, Gerrit Rietveld Academie, Willem de Kooning) feeding NL studios like Guerrilla Games in Amsterdam.",
+      "key": "Anchor Employers",
+      "alignmentText": "Netherlands hosts Guerrilla Games (Amsterdam) and Ubisoft NL (Utrecht) as major anchors, offering strong local game-dev pathways for Trey and Sarah.",
       "alignmentValue": 9
     },
     {
-      "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "Netherlands has occasional 2D environmental art courses; remote options common in Amsterdam/Utrecht, suiting flexible schedules.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "2D Environmental Artist: Hiring Velocity",
-      "alignmentText": "Netherlands studios typically fill 2D environmental artist roles in 2-3 months due to a healthy game dev scene. English-friendly hiring and visa options help.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "NL 2D environmental artist pay roughly matches global medians after cost of living. Amsterdam and other NL hubs offer solid benefits.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "2D Environmental Artist: Language",
-      "alignmentText": "Netherlands: English is widely used in studios; Dutch basics help for local contracts; many teams operate bilingually.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "2D Environmental Artist: Remote Expectations",
-      "alignmentText": "Netherlands studios commonly offer hybrid 2D environmental artist roles. Fully remote work is negotiable; expect English-friendly, family-aware teams with reliable broadband.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "Netherlands: moderate Real-Time VFX pool; Amsterdam/Rotterdam studios supply mid-level talent; niche seniors may require relocation or remote hires.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "Netherlands has several strong VFX/real-time programs (HKU Utrecht, HvA Amsterdam) feeding regional studios with ready graduates.",
+      "key": "Atheism",
+      "alignmentText": "Netherlands\u0027 secular culture is strong. Atheism is widely accepted, with minimal religious influence on daily life or policy.",
       "alignmentValue": 9
     },
     {
-      "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "Netherlands offers occasional VFX real-time training. Amsterdam/Rotterdam host experts or remote workshops, but no steady local program.",
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Netherlands maintains healthy democracy; independent institutions and courts, active civil society, with minor far-right gains to monitor.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "Netherlands banking is workable for newcomers; BSN and residency steps may add friction, but SEPA and iDEAL enable smooth payments.",
       "alignmentValue": 7
     },
     {
-      "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "In the Netherlands, real-time VFX hires typically take 4-5 months with multiple rounds; English-friendly studios in Amsterdam/Rotterdam help.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "Netherlands (Amsterdam): VFX Real-Time pay mirrors global median after NL cost of living; remote options and EU studio presence.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "VFX Artist (Real-Time): Language",
-      "alignmentText": "Netherlands VFX: English is widely used; Dutch basics help with local teams and day-to-day collaboration.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "VFX Artist (Real-Time): Remote Expectations",
-      "alignmentText": "Netherlands studios favor hybrid VFX (real-time) roles with remote options and equipment stipends; Amsterdam-area teams support async workflows.",
+      "key": "Beach Life",
+      "alignmentText": "Netherlands\u0027 North Sea beaches offer clean sand, dunes, and family-friendly facilities. Lifeguards and amenities support safe, relaxed days.",
       "alignmentValue": 9
     },
     {
-      "key": "Community Manager: Talent Pool",
-      "alignmentText": "Moderate Netherlands CM pool; startups in Amsterdam hire mid-level pros, but senior roles may require relocation or remote options.",
-      "alignmentValue": 6
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "In NL, major cities host regular board game nights. Stores like Subcultures and Dutch Game Garden run family-friendly events with English-friendly meetups.",
+      "alignmentValue": 9
     },
     {
-      "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "Netherlands (Amsterdam region) has a couple reputable marketing/communications programs. Dedicated community manager curricula are rare, so grads often require on-the-job upskilling.",
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "In the Netherlands, fitness is about wellbeing with inclusive culture; gyms/cycling are accessible, conversations stay respectful.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Netherlands has a diverse economy with a strong startup scene and safety nets. English-friendly workplaces plus grants/visa options help quick reemployment.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "In the Netherlands, cancer incidence stays below world averages. Universal healthcare and strong screening support early detection for families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "Netherlands prisons emphasize rehabilitation and humane conditions with strong oversight. This aligns with our NL family\u0027s human-rights priorities.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Netherlands offers robust childcare subsidies (Kinderopvangtoeslag) and universal early care; applications can require municipal planning and some delays.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Netherlands\u0027 cities are highly kid-friendly with safe crossings, parks, and bike lanes; universal childcare and English-friendly services support families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "NL\u0027s kinderopvangtoeslag provides substantial subsidies for working parents; two-income families see major relief, with some co-pays remaining.",
       "alignmentValue": 8
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "NL childcare subsidies require a BSN and upfront payments; reimbursements come later, so visa families should plan cash flow in year one.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "The Netherlands offers strong cycling, canal boating, and maker spaces. English-friendly board game cafes exist in Amsterdam, Utrecht, and beyond.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Activity",
+      "alignmentText": "Netherlands hosts regular monthly tech/game meetups (Amsterdam, Eindhoven) and game jams; active expat and developer networks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "Netherlands offers strong preventive care and universal health coverage; bike-friendly towns support active family lifestyles.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "NL hosts several co-housing and cooperative projects (Amsterdam, Utrecht) with active family networks; entry can require patience.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Manager: Compensation Benchmark",
+      "alignmentText": "NL CM compensation tends toward global medians after cost-of-living; strong benefits and work-life balance help families.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "Community Manager: Continuing Education Availability",
@@ -1093,15 +238,14 @@
       "sameAsParent": false
     },
     {
+      "key": "Community Manager: Education Pipeline Strength",
+      "alignmentText": "Netherlands (Amsterdam region) has a couple reputable marketing/communications programs. Dedicated community manager curricula are rare, so grads often require on-the-job upskilling.",
+      "alignmentValue": 8
+    },
+    {
       "key": "Community Manager: Hiring Velocity",
       "alignmentText": "Netherlands\u0027 English-friendly market and thriving game/tech scenes support CM hiring. Expect 2\u20133 months with competitive pipelines.",
       "alignmentValue": 7
-    },
-    {
-      "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "NL CM compensation tends toward global medians after cost-of-living; strong benefits and work-life balance help families.",
-      "alignmentValue": 8,
-      "sameAsParent": false
     },
     {
       "key": "Community Manager: Language",
@@ -1115,14 +259,535 @@
       "alignmentValue": 8
     },
     {
-      "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "Netherlands PMM (Games) talent pool is solid, centered around Amsterdam studios; senior PMMs are in demand, with noticeable competition.",
+      "key": "Community Manager: Talent Pool",
+      "alignmentText": "Moderate Netherlands CM pool; startups in Amsterdam hire mid-level pros, but senior roles may require relocation or remote options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "NL communities are welcoming; expat groups and parent networks support integration. Directness is common, but trust grows with steady participation.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "In the Netherlands, established studios generally pay around global medians after cost of living. Solid base pay plus benefits support family life in NL studios.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "Netherlands startup pay generally tracks global medians after cost of living. Expect solid cash \u002B equity with family-friendly benefits and universal healthcare.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "Register with the Dutch gemeente (BSN) and keep universal health insurance; annual tax filings and occasional audits require timely paperwork.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Continuing Education Availability",
+      "alignmentText": "Netherlands provides regular bootcamps and meetups plus university programs; Amsterdam/Rotterdam hubs support Trey and Sarah\u0027s game/web dev upskilling.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Contractor/Freelancer Bench",
+      "alignmentText": "Netherlands offers a healthy contractor bench across IT and design; top game dev talent can book weeks ahead.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Netherlands\u0027 harm-reduction policy emphasizes treatment with light penalties. Cannabis is tolerated within a regulated Netherlands framework with strong health services.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Cost of Doing Business",
+      "alignmentText": "Netherlands costs are slightly above US peers; startup incentives (grants, visas) help, with strong broadband and skilled labor offsetting some expenses.",
       "alignmentValue": 7
     },
     {
-      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "Netherlands has multiple strong game/marketing programs (HKU Utrecht, BUAS Breda, HvA Amsterdam) feeding well-prepared product marketing managers.",
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Netherlands cost of living: housing and childcare are pricey. Subsidies help, but groceries and utilities stay high; cycling reduces transport costs.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Netherlands (NL) offers abundant coworking and a growing game-dev scene (Amsterdam, Brainport). Some shared labs/mocap options support indie studios.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Netherlands has solid demand for software/game dev; English proficiency is high and startup visas ease entry, but expect some competition for top talent.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "Depression prevalence in the Netherlands is low to moderate with strong mental-health services. Your family benefits from accessible care and shorter waits.",
       "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "In the Netherlands, expat and local clubs help deepen bonds. Attending community events and shared activities builds trust fast.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Netherlands shows strong D\u0026I: inclusive workplaces, LGBTQ\u002B protections, and transparent metrics; aligns with this progressive family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "Netherlands enforces a targeted drug policy focused on trafficking; casual cannabis use is tolerated in licensed venues. Strong oversight keeps raids rare.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Netherlands generally requires renunciation; dual citizenship may be possible only under narrow exemptions (treaty-based or Dutch spouse).",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Early Stage Grants Available",
+      "alignmentText": "Netherlands offers solid early-stage grants for tech startups; include WBSO tax credit and local game-dev funds. Competitive but accessible.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Early-Stage Capital Access",
+      "alignmentText": "Netherlands offers reliable generalist funds and public grants (RVO/EU) plus a growing game ecosystem; accessible but competitive for early-stage studios.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "The Netherlands\u0027 diversified economy supports steady growth and low unemployment. This resilience helps a Dutch studio launch amid global uncertainty.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "In the Netherlands, a coordinated market economy with strong social partners backs startups and offers reliable governance; funding and visas support Trey.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Economic/Policy Stability",
+      "alignmentText": "Netherlands provides stable, pro-innovation policy and startup funding (WBSO); predictable rules suit a remote-friendly, family-focused team.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Netherlands public schools deliver strong outcomes with bilingual options; monitor capacity in growing suburbs to secure spots for our 5-year-old.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Education Pipeline Strength",
+      "alignmentText": "Netherlands has several accredited game programs (HKU, TU/e, Breda) with strong studio partnerships. Internships and capstone projects feed the local talent pool.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Netherlands has a strong Highly Skilled Migrant program; many NL employers sponsor internationals and include dependents with smooth processing.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Engine Community Bias",
+      "alignmentText": "Netherlands hosts active Unity and Unreal communities (Amsterdam/Rotterdam); English-friendly, strong cross-training, well suited to Trey\u0027s game-dev goals.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "Netherlands\u0027 bike-friendly cities and green belts offer park outings, farming pressures affect biodiversity in areas, but dunes and wetlands provide refuge.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "The Netherlands\u0027 30% ruling lowers taxable income for expats; pension contributions and childcare deductions keep net pay comfortable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Netherlands fall averages 8-16\u00B0C with frequent rain; plan for layers and flexible outdoor time for school runs and weekend outings.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Netherlands offers strong family support: affordable childcare and parental leave. Safe, bike-friendly neighborhoods help family life, though housing in major cities remains tight.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Netherlands favors spouses/registered partners and minors; if the couple lacks a registered partnership, the adult partner may face hurdles.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "In the Netherlands, families get robust child benefits, parental leave, and childcare subsidies; universal healthcare and English widely spoken ease access.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Netherlands provides strong family supports (Kinderopvangtoeslag, paid parental leave). Some subsidies are limited by income caps and admin requirements.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Netherlands offers family supports, but cash benefits require Dutch income or longer residency. Healthcare is universal; childcare subsidies depend on work.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "Netherlands urban life suits tidy smart-casual; practical outfits fit Amsterdam and beyond. High fashion isn\u0027t required; comfortable, neat attire works.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Netherlands fashion is inclusive and versatile; urban NL embraces diverse, expressive styles. Sarah will find practical, comfortable workwear in NL.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "Netherlands fashion leans smart-casual and cycling-friendly. Trey\u0027s look remains practical and sustainable for Dutch workplaces.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Netherlands values diverse femininity; women lead in tech and politics there. Parental leave and flexible work support your family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "Netherlands enforces strict gun laws with very low ownership. Licensing, safe storage, and training are strongly enforced.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "Netherlands consent culture is strong; people check in and respect boundaries. English is common, aiding clear consent talks in NL nightlife.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Founder/Operator Community",
+      "alignmentText": "Netherlands has a growing founder base with regular Amsterdam/Brainport meetups and strong mentorship networks.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "Netherlands: vibrant fresh markets and diverse international restaurants in Amsterdam and Rotterdam; some niche cuisines may require brief trips.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "Netherlands locals are warm and helpful to newcomers. Expat and English-friendly groups speed integration within weeks.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Netherlands\u0027 game scene is solid, with Amsterdam and Utrecht hosting studios; grants and a strong indie network help Trey, with Dutch Game Garden as a hub.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Netherlands protects gender diversity; major NL cities offer affirming communities and inclusive schools, while rural areas adapt.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Netherlands: strong, enforced gender rights including LGBTQ\u002B protections. Universal healthcare and family-friendly policies support this family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Netherlands guarantees strong gender equality with shared parental leave and flexible work, fitting your progressive, family-friendly profile.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "In the Netherlands, all genders can initiate or decline with minimal stigma. Amsterdam\u0027s inclusive culture supports polyamory and nontraditional dating.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "Netherlands offers strong family support and universal healthcare. However, visa stays depend on permit status and renewals; expect BSN, DigiD, and Dutch documents.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Netherlands\u0027 Delta Programme reduces sea-level risk; expect more heavy rain and heat, but flood protection and community resilience keep risk manageable.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Government/Startup Visas",
+      "alignmentText": "Netherlands startup visa is accessible via recognized facilitators; strong startup ecosystem and EU market access, with moderate processing times.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "Grooming investment in NL fits a practical, smart-casual style; city biking and family life mean high fashion isn\u0027t required.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "In the Netherlands, progressive Dutch scenes warmly accept non-monogamous families; public life is open, though some institutions remain discreet.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Netherlands offers universal coverage with strong primary care and maternity support; pediatric care is solid, with occasional specialist wait times.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "In NL, basic health insurance covers GP care; enroll with a Dutch insurer and register with a huisarts soon after arrival.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "NL offers affordable higher education with DUO loans/grants for residents; many English-taught programs broaden your kids\u0027 futures.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "Netherlands: non-EU visa holders enroll, but pay higher tuition; scholarships exist, yet costs typically exceed those for citizens.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Hiring Velocity (Established Studios)",
+      "alignmentText": "Netherlands studios (Guerrilla) offer steady demand in Amsterdam/Rotterdam; visa steps may push fills to ~3 months. Networking via Dutch Game Garden helps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Hiring Velocity (Startups)",
+      "alignmentText": "Netherlands startups move quickly with English-friendly teams, visa options, and grants; 6\u20138 week hiring is typical for Trey\u0027s setup.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Netherlands: family housing scarce in cities; social housing queues and high rents require flexible location and timing.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Dutch taxes are digital-first with pre-filled returns via MijnBelastingdienst; forms are Dutch-first. An expat-friendly tax advisor helps maximize deductions.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "Netherlands is broadly welcoming; English is widely spoken. Integration debates exist, but immigrant families feel safe speaking their language and sharing traditions.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "Netherlands generally welcomes skilled white migrants; English-speaking families adapt smoothly in Dutch cities. Any stereotypes are mild and easy to navigate.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Netherlands offers universal, high-quality K-12 with language support. Expat families usually secure placement in good schools with helpful services.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "Public schools in the Netherlands welcome visa holders; language support exists via newcomer classes; some bilingual tracks may favor long-term residents.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "Netherlands: English is widely used in cities; most government portals have English options, though some steps require Dutch.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Language (Established Studios)",
+      "alignmentText": "In the Netherlands, English is widely spoken in studios, while Dutch fluency remains important for community, schooling, and local compliance.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Language (Startups)",
+      "alignmentText": "Netherlands startups rely on English; for your family, learning Dutch eases schooling, bureaucracy, and community integration in NL.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Netherlands offers reliable game IP support via Amsterdam-based firms. Several firms handle publishing/licensing for game ventures with startup-friendly pricing.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "Netherlands offers broad LGBTQ\u002B protections, marriage equality, and visible Pride; rural areas quieter but still supportive for a polyamory-positive family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Netherlands offers a mature playtesting scene with studios and university labs; Amsterdam/Rotterdam testers and local survey vendors are accessible.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "In the Netherlands, Marxism is influential in academia and unions, while daily life stays pragmatic with social-democratic politics.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "In the Netherlands, engaged fatherhood is widely supported; Trey can model caregiving with little stigma, though some rural areas retain traditional views.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Occasional mass violence events occur regionally in the Netherlands, prompting awareness but not chronic fear for our family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "Vibrant Dutch meetups and networks in the Netherlands help Trey and Sarah build connections; Dutch Game Garden and Women in Tech NL align with their careers.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "NL minimum wage (~\u20AC2,070/mo) covers basics, but Amsterdam rents demand two steady incomes for Trey and Sarah.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "NL\u0027s widespread fiber and digital gov services keep daily life smooth for a remote family; occasional rail work or energy retrofits cause minor disruptions.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "Netherlands: urban hubs like Amsterdam are welcoming. Suburbs may require discretion; polyamory isn\u0027t legally defined but socially accepted.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "In the Netherlands, directness is valued but tempered with politeness and inclusivity. Share concerns clearly without offense.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Netherlands offers flat polder and coastal landscapes, canal towns, and family-friendly parks near Amsterdam/Rotterdam; some areas have fees or longer drives.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Netherlands has minimal quake/wildfire risk; world-class flood defenses and dikes protect the family, with alerts for rivers or the North Sea.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Great NL nature access for a family: easy walks in dunes and parks; frequent trains enable weekend trips to Veluwe or coast.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Netherlands: vibrant live music in Amsterdam with many family-friendly venues; safe transit supports nightlife, though marquee events require planning.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Nightlife exists in select Amsterdam districts; with babysitters and reliable transit, occasional nights out are feasible for the family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Netherlands-based Dutch Game Garden, INDIGO, and IGDA Netherlands host regular English events. They\u0027re a solid fit for the family\u0027s game dev network.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Netherlands hosts notable studios (Guerrilla Games, Vlambeer, Triumph) that sustain a strong game-dev scene; great peers and contract opportunities for Trey.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Netherlands\u0027 proactive public health and bike-friendly cities help keep obesity rates lower than the US, aligning with your wellness goals in NL.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Netherlands offers startup visas, WBSO tax credits, EU grants, and strong gaming incubators; Amsterdam/Eindhoven hubs help indie studios.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Amsterdam and Utrecht offer a calm, bike-friendly rhythm with short commutes; consider Amersfoort for even calmer family days.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Netherlands parenting is highly supportive: generous leave and affordable childcare ease work-life balance; schools partner with families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Netherlands naturalization after 5 years with civic integration; dual citizenship is restricted; renunciation of US citizenship may be needed for Dutch passport.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Netherlands exhibits very low corruption with strong oversight. For a family like yours, this supports predictable bureaucracy and reliable public services.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "Netherlands locals generally respect personal space. In crowded transit and markets, proximity can feel closer than at home.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "In the Netherlands, personal space is respected. Most greetings are handshakes or nods with minimal unsolicited touch, even on crowded trams.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "Netherlands: mild maritime climate with regular rain; two to three seasons are pleasant, other months require rain gear.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "Netherlands\u0027 multi-party parliamentary system with proportional representation; transparent, participatory governance and a strong rule of law.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Netherlands: polyamorous families enjoy broad social tolerance in major cities; legal recognition remains monogamous; discretion at work or school advised.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Netherlands has a solid childcare network, but costs stay significant even with subsidies; families mix public daycare with private options and plan ahead.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "Private/international schools exist in the Netherlands but are pricey (\u20AC15k-\u20AC25k/yr); quality varies; public schools offer strong bilingual options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "In the Netherlands, processed foods are common but balanced by strong fresh markets; wholesome options are easy to find with planning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Product Marketing Manager (Games): Compensation Benchmark",
+      "alignmentText": "Netherlands PMM (Games) comp is competitive but trails top hubs ~10-15%; NL roles include bonuses/equity. Work-life balance aids attraction in NL.",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
@@ -1131,15 +796,15 @@
       "alignmentValue": 8
     },
     {
+      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
+      "alignmentText": "Netherlands has multiple strong game/marketing programs (HKU Utrecht, BUAS Breda, HvA Amsterdam) feeding well-prepared product marketing managers.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
       "key": "Product Marketing Manager (Games): Hiring Velocity",
       "alignmentText": "Expect 3-4 months to hire a games Product Marketing Manager in the Netherlands; Amsterdam studios are English-friendly, but visa steps may add time.",
       "alignmentValue": 6
-    },
-    {
-      "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "Netherlands PMM (Games) comp is competitive but trails top hubs ~10-15%; NL roles include bonuses/equity. Work-life balance aids attraction in NL.",
-      "alignmentValue": 7,
-      "sameAsParent": false
     },
     {
       "key": "Product Marketing Manager (Games): Language",
@@ -1150,6 +815,346 @@
       "key": "Product Marketing Manager (Games): Remote Expectations",
       "alignmentText": "NL game studios broadly support flexible remote PMMs with robust async workflows; equipment stipends are common in the Netherlands.",
       "alignmentValue": 9
+    },
+    {
+      "key": "Product Marketing Manager (Games): Talent Pool",
+      "alignmentText": "Netherlands PMM (Games) talent pool is solid, centered around Amsterdam studios; senior PMMs are in demand, with noticeable competition.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Netherlands leans progressive on social policy and climate action, matching the family\u0027s values with strong welfare and civic engagement.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "In the Netherlands, consenting adults face little moral policing; sexual choices are personal matters, reflecting Dutch liberal attitudes.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Netherlands (NL) messaging stays pragmatic and inclusive, with pluralistic media and minimal nationalist spin, matching your family\u0027s values.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Netherlands has plural media (NPO/public outlets) with generally balanced reporting; watchdogs curb spin.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Netherlands transit is strong and bike-friendly, enabling car-free family life in cities. Occasional strikes or maintenance may cause minor delays.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Publisher/Platform Relationships",
+      "alignmentText": "Netherlands offers an EU gateway with Amsterdam\u0027s dev scene. Occasional publisher engagement; most relationships via remote channels.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "Netherlands offers high QoL: universal healthcare, strong schools, childcare subsidies; premium services exist, though some top options need early booking.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "NL provides universal healthcare, strong safety nets, and English-friendly services; childcare subsidies and grants support a family-friendly move.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "The Netherlands offers strong public services and universal healthcare, supporting middle-income families; budgeting is needed for housing and insurance premiums.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Real-Time vs Pre-Rendered Focus",
+      "alignmentText": "NL supports real-time game dev well. Azure North Europe and fast broadband enable low-latency work, with a strong Unity ecosystem and grants.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "In the Netherlands, religion has limited policy power. Secular governance protects minority rights, aligning with this family\u0027s values.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote Expectations (Established Studios)",
+      "alignmentText": "Netherlands studios typically offer hybrid/remote work with formal policies, aligning with Trey and Sarah\u0027s family-friendly, remote-ready setup in NL.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "Netherlands startups are hybrid-friendly with solid remote tooling and periodic on-sites; fits this family\u0027s need for remote/hybrid work in NL.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Netherlands\u0027 Randstad favors hybrid work; remote roles are common with many coworking hubs, and CET mornings align with US teams.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "Netherlands permits typically last 1\u20135 years and offer a five-year route to permanent residency; renewals follow standard procedures.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Netherlands offers a stable, English-friendly startup scene with universal healthcare and strong childcare; churn is possible during funding cycles.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "Netherlands (NL) offers a strong retirement baseline: AOW plus robust occupational pensions; voluntary saving incentives boost security.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "NL pension access for visa holders is feasible with minor residency; long-term settlement unlocks full benefits; rely on employer schemes and private savings.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Ruby roles exist in Amsterdam and NL startups; competition moderate, with remote US clients an option for Sarah.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "In the Netherlands, crime is low and neighborhoods are well-lit; bike theft in cities is the main risk, mitigated by secure parking.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Netherlands has strong public basisscholen with bilingual streams. English-friendly international schools are also available; plan early due to waitlists.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Netherlands coast water is typically 18\u201320\u00B0C most of the year, limiting long swims. August may reach ~20\u00B0C for short kid-friendly dips; gear helps.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Netherlands weather is generally mild and wet. Each season brings a couple notable extremes (storms and strong winds) requiring planning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "In the Netherlands, winters bring noticeable daylight deficits. The family can stay energized with regular outdoor breaks and occasional light therapy.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Netherlands\u0027 marine climate keeps mild temps year-round, fitting family preference. Frequent drizzle and grey skies curb outdoor plans in shoulder seasons.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Senior Talent Availability",
+      "alignmentText": "Netherlands offers a strong, English-friendly pool of senior tech leaders with startup experience; Amsterdam and NL visa/grant options ease hiring.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "In the Netherlands, sex education is comprehensive and consent-focused; open discussion and LGBTQ\u002B inclusion align with this sex-positive household.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "The Netherlands\u0027 universal healthcare, childcare subsidies, and strong public schools support this family\u0027s work-life balance; funded by taxes.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "In the Netherlands, 2k sq ft rentals near good schools are scarce in cities like Amsterdam. Look to family-friendly suburbs such as Haarlem or Leiden.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Netherlands spring swings from cool mornings to mild afternoons (7\u201318\u00B0C). Expect rainy days and wind, so keep light jackets handy for the kids\u0027 bike outings.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Netherlands offers steady governance, strong institutions, and low crime. NATO/EU membership supports secure, long-term family planning.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Netherlands\u0027 pluralist democracy upholds rights and evidence-based policy. Its tolerant culture and startup support suit families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "Netherlands\u0027 social market offers strong safety nets and startup support (grants, visas) for indie studios; taxes and compliance are notable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Studio Density",
+      "alignmentText": "Netherlands has a strong game/animation ecosystem: Amsterdam and Utrecht hubs, AAA studios plus a thriving indie scene.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "Netherlands summers typically stay around 23-28\u00B0C with cool evenings. Humidity is mild, making park days comfortable in NL.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "In NL, service is friendly and efficient. English is widely spoken, and staff respond positively when you initiate chats.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Tax Incentives for Games/Creative",
+      "alignmentText": "Netherlands offers strong WBSO R\u0026D tax credits and Innovation Box relief for game development; clear rules and steady payouts support a growing studio.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "Netherlands highly skilled permits typically take 2\u20134 weeks. Fees ~\u20AC350\u2013\u20AC400 per person (family ~\u20AC1.4k\u2013\u20AC1.6k); delays from housing registration or biometrics.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Trust in the Netherlands is mixed; locals may show skepticism due to the childcare scandal. Transparency reforms are underway; trust hasn\u0027t fully rebounded.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Netherlands: corruption tends to be limited to mid-level housing/permits. Strong oversight safeguards essential services; stay informed via local news.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "NL senior software pay around \u20AC65k-\u20AC90k in Amsterdam/Utrecht. Two incomes help the family live well; 30% ruling adds tax leverage.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Netherlands weekends offer markets, kid-friendly museums, and easy train trips. Shops and venues generally open Sundays until ~18:00, easing planning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Dutch schools end around 14:00-15:00. With BSO care and flexible work, parents can wrap by 16:00-17:00 in the Netherlands.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Netherlands offers at least 20 days of annual leave (4 weeks) plus 8% holiday pay and public holidays. Family planning around school breaks remains prudent.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Netherlands employers typically offer 25\u201329 days of paid leave plus holiday allowance, supporting family travel and work-life balance.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Vendor/Outsource Ecosystem",
+      "alignmentText": "NL has a solid vendor ecosystem with studios in Amsterdam/Eindhoven for art, QA and live-ops; capacity is decent but not as vast as the US.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Compensation Benchmark",
+      "alignmentText": "Netherlands (Amsterdam): VFX Real-Time pay mirrors global median after NL cost of living; remote options and EU studio presence.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Continuing Education Availability",
+      "alignmentText": "Netherlands offers occasional VFX real-time training. Amsterdam/Rotterdam host experts or remote workshops, but no steady local program.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
+      "alignmentText": "Netherlands has several strong VFX/real-time programs (HKU Utrecht, HvA Amsterdam) feeding regional studios with ready graduates.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "VFX Artist (Real-Time): Hiring Velocity",
+      "alignmentText": "In the Netherlands, real-time VFX hires typically take 4-5 months with multiple rounds; English-friendly studios in Amsterdam/Rotterdam help.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "VFX Artist (Real-Time): Language",
+      "alignmentText": "Netherlands VFX: English is widely used; Dutch basics help with local teams and day-to-day collaboration.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "VFX Artist (Real-Time): Remote Expectations",
+      "alignmentText": "Netherlands studios favor hybrid VFX (real-time) roles with remote options and equipment stipends; Amsterdam-area teams support async workflows.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "VFX Artist (Real-Time): Talent Pool",
+      "alignmentText": "Netherlands: moderate Real-Time VFX pool; Amsterdam/Rotterdam studios supply mid-level talent; niche seniors may require relocation or remote hires.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Netherlands and its neighbors Belgium and Germany are viewed positively; cross-border travel is easy, and conversations tend to be direct and pragmatic.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "Netherlands\u0027 pragmatic, consensus-driven culture fits the family\u0027s collaborative ethos; modest ambition sits well with Dutch egalitarian norms.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Neighbors admire Dutch efficiency and welfare in the Netherlands. Climate-policy debates exist, but daily life for a US migrant family remains smooth.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Netherlands offers Highly Skilled Migrant, EU Blue Card, startup, and self-employed visas; clear criteria, though sponsorship or business plans are needed.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Netherlands cities prioritize pedestrians; walking is confident in most neighborhoods. Expect only a few car-heavy corridors in busy areas.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Netherlands generally welcomes US migrants; IND handles visas, with DAFT for entrepreneurs. Expect bureaucracy; patience helps.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "NL\u0027s design districts, cycling culture, canals, and museums offer rich discoveries for curious families; Amsterdam, Rotterdam, Eindhoven spark curiosity.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "NL winters are mild, typically 0-6\u00B0C with damp winds and rain more than snow. Sub-freezing nights occur, but days stay 5-10\u00B0C and snow is brief.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "Netherlands typically has 37-38 hour weeks with strong work-life balance and flexible remote/hybrid options, matching your family\u0027s needs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "NL work culture protects evenings and weekends; flexible hours and part-time options are standard, matching Sarah\u0027s family-first priorities.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "the Netherlands offers comprehensive labor protections with strong unions and swift enforcement, supporting Sarah\u0027s remote/part-time work options.",
+      "alignmentValue": 10
     }
   ]
 }

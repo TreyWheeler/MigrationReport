@@ -3,952 +3,89 @@
   "iso": "DK",
   "values": [
     {
-      "key": "Environment",
-      "alignmentText": "Copenhagen\u0027s harbor baths, parks, and wind-buffered bike corridors support outdoor life; Nordhavn shipping adds only minor emissions.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Global Warming Risk",
-      "alignmentText": "Copenhagen faces noticeable climate stressors (rain, sea-level rise), but Denmark\u0027s flood defenses and harbor barriers keep risk manageable.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "Copenhagen seasons are mild and damp: cool, rainy winters and mild summers; outdoor time is generally feasible with light layers.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "Copenhagen\u0027s air is good overall; PM2.5 generally within EU limits, but seasonal pollen and occasional winter wood-smoke spikes can occur.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "Coastal storms and occasional flooding near \u00D8resund present low risk; Copenhagen\u0027s sea walls, drainage, and alerts keep families safe.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Spring in Copenhagen, Denmark is generally mild but windy; expect chilly mornings and variable afternoons, great for biking with layered clothing.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "In Copenhagen, Denmark, summer highs are 22-25\u00B0C (72-77\u00B0F) with breezes; mild, comfortable, and AC rarely needed.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Copenhagen fall: September ~15\u00B0C, cooling to 8-10\u00B0C with rain; layer-friendly weather and ample indoor options for the kids.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "Winter in Copenhagen brings regular freezes and damp winds; gear and light snow prep needed, but heating costs stay manageable.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Beach Life",
-      "alignmentText": "Amager Strandpark and Copenhagen beaches offer clean sand, lifeguards, and family facilities; water is cool but safe, with easy city access.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "In Copenhagen, sea temps hover around 18-20\u00B0C most of the year; extended swims often need wetsuits or warm pools.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "Easy access to Copenhagen canals, Dyrehaven, and the \u00D8resund coast for kid-friendly weekend nature. Parks and beaches are well-kept and bike-friendly.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Minimum Wage",
-      "alignmentText": "In Copenhagen there is no statutory min wage; unions secure about 115\u2013130 DKK/hr, so pay often meets essentials but varies by sector.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "In Copenhagen, senior software pay is strong (roughly 700k-1,000k DKK gross), supporting a family-friendly QoL and flexible work.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
       "key": ".NET Work Prospects",
       "alignmentText": "Copenhagen\u0027s mature .NET market features banks, tech firms, and startups with solid enterprise roles and remote options.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
-      "key": "Ruby Work Prospects",
-      "alignmentText": "Ruby roles in Copenhagen are sporadic; openings cluster in a few startups/agencies. Networking and remote work will help stay competitive in DK.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Employer Visa Sponsorship",
-      "alignmentText": "Denmark\u0027s Pay Limit/Fast Track visas are common in Copenhagen tech; sponsorship often covers relocation and family visas, though paperwork remains.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "Copenhagen\u0027s economy: low unemployment (~3%), diverse sectors, and strong startup funding\u2014steady finances and growth for a family.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "Denmark\u0027s Copenhagen tech scene favors hybrid/remote work; plentiful coworking spaces keep teams connected. Time zones support EU/US collaboration.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "Copenhagen, Denmark protects evenings and weekends. Flexible schedules are common and suit Sarah\u0027s low-stress, family-friendly priorities.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Work Week Hours",
-      "alignmentText": "In Copenhagen, Denmark, the typical workweek is ~37 hours with overtime capped. Compensatory time supports family-friendly evenings.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "In Denmark (Copenhagen), five weeks of statutory vacation (25 days) plus public holidays are guaranteed; strong enforcement and payout on end of employment.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Vacation Days (Typical)",
-      "alignmentText": "In Denmark, 5 weeks vacation (25 days) plus holidays is common; fits your Copenhagen family\u0027s pace and QoL.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pace of Life",
-      "alignmentText": "Copenhagen\u0027s bike lanes and walkable neighborhoods keep life lively yet manageable; errands flow smoothly without rush.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Denmark\u0027s Copenhagen schools typically end by 14:00\u201315:00; SFO care extends late, and remote options support stable, family-friendly hours.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Copenhagen weekends offer ample family-friendly activities: parks, kid-friendly museums, and safe transit; most venues require occasional reservations.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Family Life",
-      "alignmentText": "Copenhagen offers universal healthcare and generous family policies. Safe neighborhoods, strong childcare, and abundant parks support your family.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Polyamory",
-      "alignmentText": "Polyamory is largely accepted in private circles in Copenhagen (N\u00F8rrebro/Vesterbro), but mainstream services still misunderstand and assume dyads.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Parenting Expectations",
-      "alignmentText": "Copenhagen, Denmark values egalitarian parenting with strong parental leave, universal childcare, and supportive schools; shared caregiving is common.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "alignmentText": "Copenhagen, Denmark is highly kid-friendly: safe crossings and parks. Stroller-friendly streets and strong family support for childcare complete the picture.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Schooling Options",
-      "alignmentText": "Copenhagen has strong folkeskoler with bilingual options and international/private schools (CIS, Rygaards); admissions are fair with manageable waitlists.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Copenhagen has high-quality, subsidized early childcare (vuggestuer/b\u00F8rnehaver); popular districts fill fast, but bilingual options are increasingly available.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "Denmark\u0027s Copenhagen childcare is heavily subsidized; most fees are covered and there is strong parental leave with guaranteed local slots.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "In Copenhagen, Denmark, childcare is highly subsidized for residents. Visa families may face waitlists and CPR-number delays before first placement.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "Denmark (Copenhagen) offers universal, free K-12 with strong language support; access and transfers are generally straightforward.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "In Copenhagen, visa families enroll in public schools after municipal registration; interim Danish language support may be offered before a permanent seat.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Private Education",
-      "alignmentText": "Private options exist in Copenhagen (friskoler and international schools) with subsidies but fees apply; strong public education remains the default.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Citizens)",
-      "alignmentText": "In Denmark (Copenhagen), new parents get 52 weeks of paid leave, plus child benefits and flexible work rules.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Visa Holders)",
-      "alignmentText": "Denmark (Copenhagen) offers strong family supports; parental leave and child benefits are available, though some cash supports require longer residence.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Higher Education Access (Citizens)",
-      "alignmentText": "Denmark offers tuition-free higher education for EU/EEA/Swiss citizens. US residents in Copenhagen typically pay tuition unless scholarships or residency rights apply.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "Denmark (Copenhagen): Non-EU tuition around \u20AC10k\u2013\u20AC15k/yr; scholarships exist; clear study-to-work paths and strong international student support.",
+      "key": "2D Environmental Artist: Compensation Benchmark",
+      "alignmentText": "Copenhagen, Denmark: 2D environmental artist pay near global medians after cost of living; strong family-friendly benefits and good work-life balance.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "Gender Roles",
-      "alignmentText": "Copenhagen\u0027s strong parental leave, affordable childcare, and shared domestic norms reinforce egalitarian roles; fits the family\u0027s expectations.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "In Copenhagen, Denmark, gender-diverse identities have legal recognition and inclusive healthcare. Social acceptance is broad and protections are strong.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "In Copenhagen, Denmark, gender rights are strong: robust protections, paid parental leave, pay parity, and swift enforcement.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "Denmark\u0027s Copenhagen values gender equality, enabling diverse feminine expressions across careers and styles. Minor bias pockets remain.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "In Denmark, fathers are widely involved in childcare; Copenhagen\u0027s egalitarian culture supports emotional openness and shared parenting.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "What Is Intriguing",
-      "alignmentText": "Copenhagen\u0027s design museums, cycling culture, and Danish cuisine fuel curiosity; English-friendly life and strong family services keep learning lively.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Language \u0026 English Ubiquity",
-      "alignmentText": "English is widely used in Copenhagen for daily life. Most services provide English guidance while you learn Danish.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Progressivism",
-      "alignmentText": "Denmark\u0027s Copenhagen embodies progressive policies, universal healthcare, and strong LGBTQ rights, aligning with your family\u0027s values.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "Denmark\u0027s Copenhagen: Marxist ideas influence housing/climate debates, yet pragmatic social democracy prevails; open dialogue suits your progressive family.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Atheism",
-      "alignmentText": "In Copenhagen, Denmark, atheists are widely accepted; they can hold public office openly and access secular institutions with ease.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Sex (Attitudes)",
-      "alignmentText": "Denmark\u0027s comprehensive sex education and open consent culture fits a relaxed, inclusive stance; DK offers LGBTQ\u002B support and accessible resources.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "LGBTQ\u002B Attitudes",
-      "alignmentText": "Denmark/Copenhagen offers full LGBTQ\u002B protections. Pride events are prominent, and rainbow families are supported in schools and public services.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Community Vibes",
-      "alignmentText": "Denmark\u0027s Copenhagen feels friendly but reserved. Expat clubs help the family weave local ties.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "View of self",
-      "alignmentText": "Denmark\u0027s Janteloven modesty fuses with Copenhagen\u0027s livability and welfare pride\u2014humble about self, supportive of inclusive progress.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of Neighboring Countries",
-      "alignmentText": "Copenhagen and Denmark enjoy strong Nordic cooperation; \u00D8resund links to Sweden and Nordic councils reflect open, friendly neighboring relations.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Denmark is seen as a trusted regional partner in green tech and diplomacy. Copenhagen\u0027s high quality of life helps families despite higher costs.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Nightlife Culture",
-      "alignmentText": "Copenhagen has lively nightlife in Vesterbro and N\u00F8rrebro; family-friendly late options are limited, plan earlier outings or use sitters.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fashion Trends (Male)",
-      "alignmentText": "In Copenhagen, Denmark, minimalist tailoring with rain-ready techwear and sneakers fits urban Danish style; Trey balances practicality with modern city wear.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fashion Trends (Female)",
-      "alignmentText": "Copenhagen\u0027s fashion scene is inclusive, body-positive, and bike-friendly. Layered neutrals and quality fabrics fit Sarah\u0027s urban, flexible-work life.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Common Hobbies",
-      "alignmentText": "In Copenhagen, cycling and hygge culture flourish; cold-water dips are popular, with abundant clubs and hobby groups for quick social integration.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Boardgaming \u0026 Tabletop",
-      "alignmentText": "Copenhagen hosts regular board game nights at cafes like Bastard Caf\u00E9. Sessions are often in English, and family-friendly venues are common.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Nightlife \u0026 Music",
-      "alignmentText": "Copenhagen offers a vibrant, family-friendly music scene with Vega and DR Koncerthuset; frequent festivals and safe transport support evening outings.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Meetups \u0026 Communities",
-      "alignmentText": "Copenhagen hosts a robust tech and expat meetup scene plus family-friendly groups; English-friendly and active for quick community building.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Nature Access",
-      "alignmentText": "Dyrehaven, beaches, and island getaways are within 30 minutes of Copenhagen; family-friendly, safe nature with bike-friendly access.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Political System",
-      "alignmentText": "In Copenhagen, Denmark\u0027s parliament operates with transparency and a strong rule of law. Open participation and peaceful protests support stable family life.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Religion in Politics",
-      "alignmentText": "In Copenhagen, faith rarely drives policy; Denmark\u0027s secular culture and pluralist media keep politics evidence-based while personal beliefs are respected.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Workers\u0027 Rights",
-      "alignmentText": "Denmark\u0027s robust labor protections, broad union coverage, and swift enforcement secure worker dignity for both salaried and freelance work in Copenhagen.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "State Ideology",
-      "alignmentText": "Denmark\u0027s social-democratic pragmatism favors welfare and rights. Copenhagen blends pro-business policy with universal healthcare and robust safety nets.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Independent courts, free media, and strong civil society keep backsliding risk very low in Copenhagen. Safeguards remain robust with ongoing monitoring.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "State of Capitalism",
-      "alignmentText": "Denmark\u0027s social market model blends strong welfare with innovation. Copenhagen offers robust safety nets and a pro-business, fair-competition climate.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Stability",
-      "alignmentText": "Denmark (Copenhagen) offers stable governance and quick crisis response. Safe neighborhoods, strong welfare, and good schools support families.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "In Copenhagen, Denmark, media is pluralistic and independent; propaganda is rare, with watchdogs keeping public discourse transparent for families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "In Copenhagen, messaging centers shared wellbeing and accurate information with no nationalist spin. Favor transparency and pluralistic media.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "Denmark\u0027s universal healthcare, generous child benefits, and strong public housing in Copenhagen align with your progressive, family-focused priorities.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "Trust in the Danish government is high; Copenhagen\u0027s seamless digital services and strong welfare system support dependable, transparent governance.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "In Denmark (Copenhagen), strong transparency and watchdogs keep corruption very low; public tenders support trust in clean governance for stable family life.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "In Denmark (Copenhagen), corruption is rare and swiftly addressed; procurement issues are minor.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "Rent for family flats in Copenhagen often exceeds \u20AC2k; andelsbolig waitlists run years; competition and deposits strain finances.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Safety \u0026 Crime",
-      "alignmentText": "Extremely safe in Copenhagen, Denmark; violent crime is rare. Bike theft can occur in busy areas, so standard precautions apply.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "Denmark\u0027s universal healthcare covers primary/pediatric care in Copenhagen; specialist queues can be lengthy without private options.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Denmark (Copenhagen): Visa families access universal healthcare through CPR; enrollment is straightforward with minor admin; private plans optional.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "Denmark\u0027s Copenhagen offers subsidized municipal daycare; register early to secure spots as waitlists exist, delivering reliable childcare.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "In Copenhagen, Denmark, generous parental leave, universal child benefits, and subsidized childcare support this two-parent, two-child family.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Education",
-      "alignmentText": "Copenhagen\u0027s public schools emphasize inclusion and project-based learning; strong early childhood programs and high English proficiency fit bilingual goals.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "Copenhagen\u0027s driverless metro, S-trains, and buses with unified tickets support car-free living; reliable, frequent, family-friendly transit.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "In Copenhagen, Denmark, high taxes fund robust services; startups thrive on public grants and transparent governance.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "In Copenhagen, Denmark, taxes are digital-first with pre-filled returns via SKAT. Founders should use a local accountant for complex business income.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "With two adults and two kids in Copenhagen, taxes run ~42\u201345%; high, but universal healthcare and robust family services justify it.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "Banking \u0026 Payments",
-      "alignmentText": "In Copenhagen, Denmark, digital payments rule (MobilePay, instant transfers); new residents can open accounts and handle cross-border needs.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "In Copenhagen, housing and groceries are pricey, but universal healthcare, childcare subsidies, and strong wages ease budgeting for a family.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Retirement (Citizens)",
-      "alignmentText": "In Copenhagen, Folkepension plus ATP and occupational pensions provide strong retirement security. Private pension incentives boost savings.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "Denmark\u0027s ATP/public pension applies to long-term visa holders with work in Copenhagen. Portability rules mean you should plan retirement if you relocate.",
+      "key": "2D Environmental Artist: Continuing Education Availability",
+      "alignmentText": "Occasional 2D environmental art workshops and short courses in Copenhagen; some topics via universities, private studios, or visiting experts.",
       "alignmentValue": 7
     },
     {
-      "key": "Visa Paths",
-      "alignmentText": "Copenhagen, Denmark offers Pay Limit, Positive List, and Startup visas for tech roles; several viable routes, though documentation is thorough.",
+      "key": "2D Environmental Artist: Education Pipeline Strength",
+      "alignmentText": "Denmark/Copenhagen offers several English-taught game-design/art programs (KEA, ITU, KADK) consistently producing ready 2D env artists for local studios.",
       "alignmentValue": 9
     },
     {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "Copenhagen generally welcomes US families. English is common, and Denmark supports newcomers with integration programs.",
+      "key": "2D Environmental Artist: Hiring Velocity",
+      "alignmentText": "In Copenhagen, 2D Environmental Artist roles usually close in 1-2 months; strong EU pipelines and English-friendly studios help.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "2D Environmental Artist: Language",
+      "alignmentText": "In Copenhagen, English is widely used in studios; basic Danish helps with local collaboration, but many 2D environmental artists work in English.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "2D Environmental Artist: Remote Expectations",
+      "alignmentText": "In Copenhagen, Denmark, remote/hybrid 2D env art roles are common. Robust async workflows are standard, with English-friendly studios and strong broadband.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
-      "key": "Residency Types \u0026 Durations",
-      "alignmentText": "Denmark (Copenhagen) work permits often start around 2 years with renewals. Permanent residency typically requires 8 years, or faster with Danish language proficiency.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Path to Citizenship",
-      "alignmentText": "Denmark requires about 9 years of residence plus Danish language tests and a citizenship exam; achievable but lengthy for a US family in Copenhagen.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Family Members",
-      "alignmentText": "Spouses and dependent children can use family reunification in Denmark; with sufficient income and housing, relocation to Copenhagen proceeds with minor steps.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Timelines \u0026 Costs",
-      "alignmentText": "In Copenhagen, Denmark, first-time visa apps can take up to a year. Budget translations, biometrics, and document fees for the family.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Compliance \u0026 Risks",
-      "alignmentText": "In Copenhagen, follow Danish family reunification rules; meet housing/income thresholds and keep records to avoid permit delays.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Dual Citizenship Allowed",
-      "alignmentText": "Copenhagen, Denmark allows US-Denmark dual citizenship with minimal red tape. The family can retain US passports after Danish naturalization.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "General Considerations for Visa Holders",
-      "alignmentText": "In Copenhagen, CPR/NemID and Danish language classes are essential for visa holders. Benefits depend on permit timelines, but healthcare and safety are strong.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Game Dev Work Prospects",
-      "alignmentText": "Copenhagen has a strong game scene with IO Interactive and SYBO. AAA and mobile roles are common; Danish grants help growth.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Hiring Velocity (Established Studios)",
-      "alignmentText": "Copenhagen studios (IO Interactive, SYBO, Tactile) usually fill roles within ~2 months; pipelines stay active, aiding family relocation planning.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Compensation Benchmark (Established Studios)",
-      "alignmentText": "Compensation in Copenhagen tracks European medians after cost of living. Strong benefits and work-life balance suit a family-friendly profile.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Established Studios)",
-      "alignmentText": "English drives collaboration in Copenhagen, Denmark studios; Danish fluency helps with local docs, community, and compliance.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote Expectations (Established Studios)",
-      "alignmentText": "Denmark\u0027s Copenhagen studios favor hybrid work for established teams; remote options exist for senior staff. This fits your family-friendly, remote-friendly needs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Notable Game Studios",
-      "alignmentText": "Denmark\u0027s Copenhagen hosts IO Interactive, SYBO, Playdead, and NapNok\u2014a strong indie/AAA mix boosting local hiring and collaboration.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "Regular English-friendly game dev meetups in Copenhagen (Spilbar, Game Hub Denmark) and ITU incubators; welcoming to families and newcomers.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Copenhagen\u0027s game ecosystem offers accelerators, grants, and strong talent. Funding exists but is competitive and requires a strong network.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Hiring Velocity (Startups)",
-      "alignmentText": "In Copenhagen, EU grants and visas support startups; hiring often closes in 6-8 weeks with active pipelines.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Compensation Benchmark (Startups)",
-      "alignmentText": "Copenhagen startup pay tends toward EU medians after cost of living; balanced cash, equity, and solid family-friendly benefits.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentText": "Copenhagen startups operate primarily in English. Danish fluency is needed for regulatory tasks in Denmark.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentText": "Denmark/Copenhagen startups widely embrace hybrid/remote work; strong broadband and global collaboration tooling support senior-led and family-friendly schedules.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Modernity \u0026 Infrastructure",
-      "alignmentText": "Copenhagen offers gigabit-fiber, 5G, and cycling-friendly design; reliable power, smart-city services, and planning that supports remote work and gaming.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Extremes \u0026 Variability",
-      "alignmentText": "Denmark\u0027s Copenhagen has mild, predictable seasons with occasional cold snaps and Atlantic storms; plan for wind and rain, not extreme heat.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Seasonal Sunlight Hours",
-      "alignmentText": "Copenhagen winters bring deep gloom for weeks. Plan routines, light exposure, and occasional sun trips to keep spirits up.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Pleasant Weather Windows",
-      "alignmentText": "Copenhagen offers mild summers and cool, damp winters; outdoor life fits most of the year, with occasional adjustments in the shoulder seasons.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Quality of Life \u2013 Lower-Income Tier",
-      "alignmentText": "Copenhagen, Denmark offers universal healthcare and subsidized childcare, easing costs. Central housing is pricey, but strong public services support families.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Quality of Life \u2013 Middle-Income Tier",
-      "alignmentText": "In Copenhagen, a middle-income family enjoys universal healthcare and strong services; housing costs and taxes require mindful budgeting.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Quality of Life \u2013 Higher-Income Tier",
-      "alignmentText": "Copenhagen offers abundant premium dining, culture, and top schools; English is widespread, with occasional waitlists for elite services.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "In Copenhagen, Denmark, 2k sq ft rentals are rare; inventory moves fast and broker-based deals with premium rents are common.",
+      "key": "2D Environmental Artist: Talent Pool",
+      "alignmentText": "Copenhagen has a moderate 2D environmental artist pool. Startups may need relocation or longer searches for niche senior roles.",
       "alignmentValue": 6
     },
     {
-      "key": "Community Living Opportunities",
-      "alignmentText": "Denmark\u0027s Copenhagen has several co-housing and cooperative options. Family-friendly programs exist, but demand can be competitive for newcomers.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Friendliness \u0026 Neighborliness Index",
-      "alignmentText": "Copenhagen locals are polite and open to newcomers who reach out. Expect ties to build gradually, with strong expat networks easing integration.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 General",
-      "alignmentText": "Copenhagen, Denmark: generally welcoming to skilled immigrants; English is widespread, welfare is strong, and debates on immigration exist.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 White Migrants",
-      "alignmentText": "Copenhagen offers strong English use and a welcoming expat scene. With language learning and local engagement, reception is broadly positive.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Surface Interaction Norms",
-      "alignmentText": "In Copenhagen, service is courteous and efficient; interactions are generally respectful and predictable, supporting family routines.",
+      "key": "3D Animator: Compensation Benchmark",
+      "alignmentText": "Denmark, Copenhagen offers solid 3D animator pay with strong benefits; cost-of-living adjustments keep packages competitive.",
       "alignmentValue": 8
     },
     {
-      "key": "Depth-Seeking Social Norms",
-      "alignmentText": "In Copenhagen, Denmark, deeper ties form quickly through clubs and neighborhood groups; English-friendly Danes welcome newcomers.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Personal Boundary \u0026 Bubble Norms",
-      "alignmentText": "Denmark\u0027s Copenhagen generally respects personal space; in crowded transit expect closer proximity, but boundaries are widely respected.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Moral, Honesty \u0026 Openness Expectations",
-      "alignmentText": "In Copenhagen, honesty is valued and handled with empathy; issues are discussed openly without shame.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Grooming \u0026 Beauty Investment",
-      "alignmentText": "In Copenhagen, moderate grooming fits; casual chic is common, and high-fashion looks are optional.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Body Image \u0026 Fitness Pressure",
-      "alignmentText": "In Copenhagen, body-positive culture is strong; fitness is framed as health, inclusive for all abilities, helping kids stay active.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Fashion \u0026 Style Expectations",
-      "alignmentText": "In Copenhagen, minimalist, practical chic; tidy smart-casual fits daily life on bike-friendly streets. High fashion isn\u0027t necessary.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Flirting Boundaries \u0026 Consent Culture",
-      "alignmentText": "In Copenhagen, consent culture is strong; people check in and boundaries are respected. Family-friendly spaces and proactive staff support safe outings.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Gendered Flirting Expectations",
-      "alignmentText": "Flirting is fluid and stigma-free in Copenhagen, Denmark. Your progressive, poly-friendly family values align with Denmark\u0027s inclusive norms.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "In Copenhagen, Denmark, urban acceptance is high; polyamory is broadly understood with supportive communities, though legal recognition remains limited.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "alignmentText": "Copenhagen, Denmark is open and sex-positive; consenting adults face little moral policing. Casual relationships are widely accepted.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
-      "alignmentText": "In Copenhagen, Denmark, acceptance exists within progressive scenes and is tolerated publicly with respectful curiosity; no formal poly marriage recognition.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Personal Space \u0026 Touch Norms",
-      "alignmentText": "Denmark\u0027s Copenhagen area generally respects personal space; crowds favor minimal touch. For a family with two kids, rely on cues and limited contact.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Firearm Laws \u0026 Ownership Culture",
-      "alignmentText": "Guns exist but Denmark/Copenhagen maintains strict licenses and safety norms; ownership is limited and well-regulated.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Controlled Substance Policies",
-      "alignmentText": "Denmark favors harm-reduction and universal healthcare, supporting treatment access in Copenhagen. Personal-use penalties exist but enforcement is measured.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "Denmark, Copenhagen: drug enforcement is targeted with strong oversight; families generally feel safe thanks to universal healthcare and social supports.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "Mass violence in Copenhagen is rare. Danish authorities share clear updates and communities stay prepared without fear.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Carceral Conditions \u0026 Prison Labor",
-      "alignmentText": "In Copenhagen, Denmark, prisons are well-regulated with a rehabilitation focus and humane conditions. Oversight is strong and independent.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Walkability \u0026 Pedestrian Safety",
-      "alignmentText": "Copenhagen, Denmark prioritizes pedestrians with calm streets, wide sidewalks, and safe crossings; great for walking with kids.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Health Consciousness",
-      "alignmentText": "Copenhagen, Denmark: universal healthcare and bike-friendly living support a health-conscious family lifestyle. Local programs and markets reinforce healthy routines.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Processed Food Saturation",
-      "alignmentText": "Copenhagen has abundant fresh markets and Nordic meals; ultra-processed snacks are less dominant. Convenient options exist, but healthy choices are plentiful.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fresh \u0026 International Cuisine Access",
-      "alignmentText": "Fresh markets in Copenhagen (Torvehallerne) offer abundant produce and a broad international scene. Most cravings are met locally, with rare gaps for niche ingredients.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "Denmark\u0027s Copenhagen area benefits from universal healthcare and strong social supports; depression prevalence is very low and care access is reliable.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Obesity Rate",
-      "alignmentText": "Obesity in Copenhagen stays below averages thanks to cycling culture and walkable neighborhoods. Public health programs support healthy diets and activity.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Cancer Incidence",
-      "alignmentText": "Copenhagen, Denmark: cancer incidence aligns with global norms; universal healthcare enables robust screening and early detection.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "Copenhagen\u0027s economy is diversified with strong safety nets and active labor policies. This supports steady hiring and quick reemployment for families.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Studio Density",
-      "alignmentText": "Copenhagen in Denmark has a strong game scene with IO Interactive and Playdead; thriving indie studios, family-friendly culture.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Anchor Employers",
-      "alignmentText": "Copenhagen, Denmark has IO Interactive (AAA) and Playdead anchoring the scene; solid local game-dev employment and training.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "Denmark\u0027s Copenhagen has vendor options for art/QA, with several regional firms; capacity can be limited, so you may rely on remote partners for full scope.",
+      "key": "3D Animator: Continuing Education Availability",
+      "alignmentText": "Denmark/Copenhagen offers occasional 3D animation training from visiting experts and online courses; local in-person options are limited.",
       "alignmentValue": 7
     },
     {
-      "key": "Education Pipeline Strength",
-      "alignmentText": "Denmark/Copenhagen has several accredited game programs (ITU, KEA) with internships and capstone projects, feeding local studios.",
+      "key": "3D Animator: Education Pipeline Strength",
+      "alignmentText": "Denmark\u0027s Copenhagen hosts a growing CG/game sector with local studios. Programs exist but cohorts are small, and grads often upskill on the job.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Animator: Hiring Velocity",
+      "alignmentText": "Denmark/Copenhagen 3D animator hiring: typically 2-3 months; strong EU game/film pipelines; remote/hybrid options can speed recruitment.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Animator: Language",
+      "alignmentText": "In Copenhagen, most 3D studios operate in English with multilingual teams; Danish basics help local collaboration and client meetings.",
       "alignmentValue": 9
     },
     {
-      "key": "Continuing Education Availability",
-      "alignmentText": "Copenhagen offers regular bootcamps and frequent tech meetups; universities and training centers provide most upskilling options locally.",
+      "key": "3D Animator: Remote Expectations",
+      "alignmentText": "Hybrid is common in Copenhagen studios; remote work possible with negotiation, fitting this family\u0027s remote-friendly setup in Denmark.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "3D Animator: Talent Pool",
+      "alignmentText": "Denmark\u0027s Copenhagen has a strong mid-to-senior 3D animator pool with recent projects; IO Interactive anchors the scene.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "Community Activity",
-      "alignmentText": "Copenhagen hosts regular tech and game-dev meetups with vibrant coworking spaces. Expect monthly gatherings and occasional game jams.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Engine Community Bias",
-      "alignmentText": "Copenhagen\u0027s game scene centers on Unity; Unreal is present and cross-training resources exist, matching Trey\u0027s Unity focus.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "Copenhagen, Denmark hosts a strong game-dev scene and broad EU broadband; real-time work benefits from proximity to EU data centers and low latency.",
-      "alignmentValue": 8,
+      "key": "3D Character Artist: Compensation Benchmark",
+      "alignmentText": "Denmark\u0027s Copenhagen offers strong work-life balance and universal healthcare; 3D artist pay trails top hubs by ~10-15%, offset by lifestyle.",
+      "alignmentValue": 7,
       "sameAsParent": false
-    },
-    {
-      "key": "Demand\u2013Supply Balance",
-      "alignmentText": "In Copenhagen, Denmark, tech hiring is solid but competitive for game/web devs. Expect noticeable friction for niche roles, with remote options helping.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Retention \u0026 Churn Risk",
-      "alignmentText": "Denmark\u0027s Copenhagen market features stable studios, strong welfare, and English-friendly culture; long-term retention is likely, with modest churn.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Diversity \u0026 Inclusion Index",
-      "alignmentText": "Copenhagen offers strong gender equality, LGBTQ\u002B protections, and English-friendly services; inclusive policies support families, though integration varies.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "Denmark offers solid R\u0026D credits and active game-dev grants in Copenhagen; funding via V\u00E6kstfonden, but application windows are competitive.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Economic/Policy Stability",
-      "alignmentText": "Denmark\u0027s policy environment is stable and predictable, with broad support for creative tech. Copenhagen offers clear rules and accessible grants that ease planning.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Founder/Operator Community",
-      "alignmentText": "Copenhagen shows a growing founder base with regular meetups. Strong game/tech networks and startup visa options support founders.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Early-Stage Capital Access",
-      "alignmentText": "Copenhagen, Denmark provides public grants and V\u00E6kstfonden backing; generalist funds for games are accessible, though competition remains.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Accelerator/Incubator Access",
-      "alignmentText": "Copenhagen offers game-friendly accelerators and labs; funding programs exist for new studios. Denmark\u0027s ecosystem supports game dev with grants and communities.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Senior Talent Availability",
-      "alignmentText": "Denmark\u0027s Copenhagen offers a strong senior tech pool and startup veterans; English-friendly hiring remains competitive but viable for early-stage teams.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Contractor/Freelancer Bench",
-      "alignmentText": "Denmark/Copenhagen offers a healthy freelance tech bench; English-friendly contractors, solid onboarding, but top talent can book weeks out.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Coworking \u0026 Startup Infrastructure",
-      "alignmentText": "Copenhagen has quality coworking and startup labs. A few shared game-dev resources exist, but mocap gear is limited.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Legal \u0026 IP Support",
-      "alignmentText": "Strong game IP support in Copenhagen, Denmark; multiple firms handle IP, publishing, and licensing for startups.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Publisher/Platform Relationships",
-      "alignmentText": "In Copenhagen, Denmark, publishers have limited local reps. Expect proactive outreach to tap platform partners and events.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Market Research \u0026 Playtesting",
-      "alignmentText": "Denmark\u0027s Copenhagen hosts a growing game-dev scene with local playtesting groups and university labs. Reliable feedback and surveys are accessible.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Government/Startup Visas",
-      "alignmentText": "Denmark\u0027s Startup Visa in Copenhagen offers a founder-friendly route with clear steps; Copenhagen\u0027s game/tech ecosystem is strong, but processing can be moderate.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Cost of Doing Business",
-      "alignmentText": "Copenhagen, Denmark has slightly higher operating costs (wages, rents), but strong startup grants and family-friendly policies help sustain runway.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "Moderate 3D character artist pool in Copenhagen; viable for local hires, but senior roles may require relocation or broader search.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "Copenhagen hosts several solid game/3D programs (KEA, ITU) yielding well-prepared 3D character grads each year; a strong pipeline for studios.",
-      "alignmentValue": 9
     },
     {
       "key": "3D Character Artist: Continuing Education Availability",
@@ -956,14 +93,13 @@
       "alignmentValue": 7
     },
     {
-      "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "Denmark\u0027s Copenhagen market is competitive for 3D character artists; expect 2\u20133 months with proactive sourcing or remote/hybrid hires.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "key": "3D Character Artist: Education Pipeline Strength",
+      "alignmentText": "Copenhagen hosts several solid game/3D programs (KEA, ITU) yielding well-prepared 3D character grads each year; a strong pipeline for studios.",
+      "alignmentValue": 9
     },
     {
-      "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "Denmark\u0027s Copenhagen offers strong work-life balance and universal healthcare; 3D artist pay trails top hubs by ~10-15%, offset by lifestyle.",
+      "key": "3D Character Artist: Hiring Velocity",
+      "alignmentText": "Denmark\u0027s Copenhagen market is competitive for 3D character artists; expect 2\u20133 months with proactive sourcing or remote/hybrid hires.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -979,88 +115,964 @@
       "sameAsParent": false
     },
     {
-      "key": "3D Animator: Talent Pool",
-      "alignmentText": "Denmark\u0027s Copenhagen has a strong mid-to-senior 3D animator pool with recent projects; IO Interactive anchors the scene.",
-      "alignmentValue": 8,
+      "key": "3D Character Artist: Talent Pool",
+      "alignmentText": "Moderate 3D character artist pool in Copenhagen; viable for local hires, but senior roles may require relocation or broader search.",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
-      "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "Denmark\u0027s Copenhagen hosts a growing CG/game sector with local studios. Programs exist but cohorts are small, and grads often upskill on the job.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "Denmark/Copenhagen offers occasional 3D animation training from visiting experts and online courses; local in-person options are limited.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "Denmark/Copenhagen 3D animator hiring: typically 2-3 months; strong EU game/film pipelines; remote/hybrid options can speed recruitment.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "Denmark, Copenhagen offers solid 3D animator pay with strong benefits; cost-of-living adjustments keep packages competitive.",
+      "key": "Accelerator/Incubator Access",
+      "alignmentText": "Copenhagen offers game-friendly accelerators and labs; funding programs exist for new studios. Denmark\u0027s ecosystem supports game dev with grants and communities.",
       "alignmentValue": 8
     },
     {
-      "key": "3D Animator: Language",
-      "alignmentText": "In Copenhagen, most 3D studios operate in English with multilingual teams; Danish basics help local collaboration and client meetings.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Animator: Remote Expectations",
-      "alignmentText": "Hybrid is common in Copenhagen studios; remote work possible with negotiation, fitting this family\u0027s remote-friendly setup in Denmark.",
+      "key": "Air Quality",
+      "alignmentText": "Copenhagen\u0027s air is good overall; PM2.5 generally within EU limits, but seasonal pollen and occasional winter wood-smoke spikes can occur.",
       "alignmentValue": 8
     },
     {
-      "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "Copenhagen has a moderate 2D environmental artist pool. Startups may need relocation or longer searches for niche senior roles.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "Denmark/Copenhagen offers several English-taught game-design/art programs (KEA, ITU, KADK) consistently producing ready 2D env artists for local studios.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "Occasional 2D environmental art workshops and short courses in Copenhagen; some topics via universities, private studios, or visiting experts.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "2D Environmental Artist: Hiring Velocity",
-      "alignmentText": "In Copenhagen, 2D Environmental Artist roles usually close in 1-2 months; strong EU pipelines and English-friendly studios help.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "Copenhagen, Denmark: 2D environmental artist pay near global medians after cost of living; strong family-friendly benefits and good work-life balance.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "2D Environmental Artist: Language",
-      "alignmentText": "In Copenhagen, English is widely used in studios; basic Danish helps with local collaboration, but many 2D environmental artists work in English.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "2D Environmental Artist: Remote Expectations",
-      "alignmentText": "In Copenhagen, Denmark, remote/hybrid 2D env art roles are common. Robust async workflows are standard, with English-friendly studios and strong broadband.",
+      "key": "Anchor Employers",
+      "alignmentText": "Copenhagen, Denmark has IO Interactive (AAA) and Playdead anchoring the scene; solid local game-dev employment and training.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "Copenhagen offers a solid, concentrated real-time VFX pool anchored by a few studios; senior hires can be competitive.",
+      "key": "Atheism",
+      "alignmentText": "In Copenhagen, Denmark, atheists are widely accepted; they can hold public office openly and access secular institutions with ease.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Independent courts, free media, and strong civil society keep backsliding risk very low in Copenhagen. Safeguards remain robust with ongoing monitoring.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "In Copenhagen, Denmark, digital payments rule (MobilePay, instant transfers); new residents can open accounts and handle cross-border needs.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Amager Strandpark and Copenhagen beaches offer clean sand, lifeguards, and family facilities; water is cool but safe, with easy city access.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "Copenhagen hosts regular board game nights at cafes like Bastard Caf\u00E9. Sessions are often in English, and family-friendly venues are common.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "In Copenhagen, body-positive culture is strong; fitness is framed as health, inclusive for all abilities, helping kids stay active.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Copenhagen\u0027s economy is diversified with strong safety nets and active labor policies. This supports steady hiring and quick reemployment for families.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "Copenhagen, Denmark: cancer incidence aligns with global norms; universal healthcare enables robust screening and early detection.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "In Copenhagen, Denmark, prisons are well-regulated with a rehabilitation focus and humane conditions. Oversight is strong and independent.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Denmark\u0027s Copenhagen offers subsidized municipal daycare; register early to secure spots as waitlists exist, delivering reliable childcare.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Copenhagen, Denmark is highly kid-friendly: safe crossings and parks. Stroller-friendly streets and strong family support for childcare complete the picture.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Denmark\u0027s Copenhagen childcare is heavily subsidized; most fees are covered and there is strong parental leave with guaranteed local slots.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "In Copenhagen, Denmark, childcare is highly subsidized for residents. Visa families may face waitlists and CPR-number delays before first placement.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "In Copenhagen, cycling and hygge culture flourish; cold-water dips are popular, with abundant clubs and hobby groups for quick social integration.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Activity",
+      "alignmentText": "Copenhagen hosts regular tech and game-dev meetups with vibrant coworking spaces. Expect monthly gatherings and occasional game jams.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "Copenhagen, Denmark: universal healthcare and bike-friendly living support a health-conscious family lifestyle. Local programs and markets reinforce healthy routines.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Denmark\u0027s Copenhagen has several co-housing and cooperative options. Family-friendly programs exist, but demand can be competitive for newcomers.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Manager: Compensation Benchmark",
+      "alignmentText": "Denmark\u0027s Copenhagen offers strong family benefits and universal healthcare; CM pay tends toward global medians after cost-of-living adjustments.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Continuing Education Availability",
+      "alignmentText": "Copenhagen has regular community manager workshops and meetups via universities and local tech groups. Strong, practical continuing education options nearby.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Manager: Education Pipeline Strength",
+      "alignmentText": "Copenhagen lacks a dedicated Community Manager track; game/design programs exist, but cohorts are small and grads need on-the-job upskilling.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Community Manager: Hiring Velocity",
+      "alignmentText": "Copenhagen, Denmark offers English-friendly hiring; most community manager roles fill in 1\u20132 months, with visa timelines the main bottleneck.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Language",
+      "alignmentText": "In Copenhagen, Denmark, English is widely used in tech and community roles. Danish basics help with local interactions.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Manager: Remote Expectations",
+      "alignmentText": "Denmark\u0027s Copenhagen market supports remote/hybrid community manager roles with strong broadband and EU-friendly async workflows.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Community Manager: Talent Pool",
+      "alignmentText": "Copenhagen has a solid community manager pool centered around a few studios. Competition for senior CM roles is noticeable.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Denmark\u0027s Copenhagen feels friendly but reserved. Expat clubs help the family weave local ties.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "Compensation in Copenhagen tracks European medians after cost of living. Strong benefits and work-life balance suit a family-friendly profile.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "Copenhagen startup pay tends toward EU medians after cost of living; balanced cash, equity, and solid family-friendly benefits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "In Copenhagen, follow Danish family reunification rules; meet housing/income thresholds and keep records to avoid permit delays.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Continuing Education Availability",
+      "alignmentText": "Copenhagen offers regular bootcamps and frequent tech meetups; universities and training centers provide most upskilling options locally.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Contractor/Freelancer Bench",
+      "alignmentText": "Denmark/Copenhagen offers a healthy freelance tech bench; English-friendly contractors, solid onboarding, but top talent can book weeks out.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Denmark favors harm-reduction and universal healthcare, supporting treatment access in Copenhagen. Personal-use penalties exist but enforcement is measured.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Cost of Doing Business",
+      "alignmentText": "Copenhagen, Denmark has slightly higher operating costs (wages, rents), but strong startup grants and family-friendly policies help sustain runway.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "In Copenhagen, housing and groceries are pricey, but universal healthcare, childcare subsidies, and strong wages ease budgeting for a family.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Copenhagen has quality coworking and startup labs. A few shared game-dev resources exist, but mocap gear is limited.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "In Copenhagen, Denmark, tech hiring is solid but competitive for game/web devs. Expect noticeable friction for niche roles, with remote options helping.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "Denmark\u0027s Copenhagen area benefits from universal healthcare and strong social supports; depression prevalence is very low and care access is reliable.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "In Copenhagen, Denmark, deeper ties form quickly through clubs and neighborhood groups; English-friendly Danes welcome newcomers.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Copenhagen offers strong gender equality, LGBTQ\u002B protections, and English-friendly services; inclusive policies support families, though integration varies.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "Denmark, Copenhagen: drug enforcement is targeted with strong oversight; families generally feel safe thanks to universal healthcare and social supports.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Copenhagen, Denmark allows US-Denmark dual citizenship with minimal red tape. The family can retain US passports after Danish naturalization.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Early Stage Grants Available",
+      "alignmentText": "Denmark\u0027s Copenhagen offers strong non-dilutive funding via V\u00E6kstfonden and EU grants. Grants for game dev often reach six figures EUR.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Early-Stage Capital Access",
+      "alignmentText": "Copenhagen, Denmark provides public grants and V\u00E6kstfonden backing; generalist funds for games are accessible, though competition remains.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Copenhagen\u0027s economy: low unemployment (~3%), diverse sectors, and strong startup funding\u2014steady finances and growth for a family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "In Copenhagen, Denmark, high taxes fund robust services; startups thrive on public grants and transparent governance.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Economic/Policy Stability",
+      "alignmentText": "Denmark\u0027s policy environment is stable and predictable, with broad support for creative tech. Copenhagen offers clear rules and accessible grants that ease planning.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Copenhagen\u0027s public schools emphasize inclusion and project-based learning; strong early childhood programs and high English proficiency fit bilingual goals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Education Pipeline Strength",
+      "alignmentText": "Denmark/Copenhagen has several accredited game programs (ITU, KEA) with internships and capstone projects, feeding local studios.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Denmark\u0027s Pay Limit/Fast Track visas are common in Copenhagen tech; sponsorship often covers relocation and family visas, though paperwork remains.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Engine Community Bias",
+      "alignmentText": "Copenhagen\u0027s game scene centers on Unity; Unreal is present and cross-training resources exist, matching Trey\u0027s Unity focus.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "Copenhagen\u0027s harbor baths, parks, and wind-buffered bike corridors support outdoor life; Nordhavn shipping adds only minor emissions.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "With two adults and two kids in Copenhagen, taxes run ~42\u201345%; high, but universal healthcare and robust family services justify it.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Copenhagen fall: September ~15\u00B0C, cooling to 8-10\u00B0C with rain; layer-friendly weather and ample indoor options for the kids.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Copenhagen offers universal healthcare and generous family policies. Safe neighborhoods, strong childcare, and abundant parks support your family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Spouses and dependent children can use family reunification in Denmark; with sufficient income and housing, relocation to Copenhagen proceeds with minor steps.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "In Denmark (Copenhagen), new parents get 52 weeks of paid leave, plus child benefits and flexible work rules.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "In Copenhagen, Denmark, generous parental leave, universal child benefits, and subsidized childcare support this two-parent, two-child family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Denmark (Copenhagen) offers strong family supports; parental leave and child benefits are available, though some cash supports require longer residence.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "In Copenhagen, minimalist, practical chic; tidy smart-casual fits daily life on bike-friendly streets. High fashion isn\u0027t necessary.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Copenhagen\u0027s fashion scene is inclusive, body-positive, and bike-friendly. Layered neutrals and quality fabrics fit Sarah\u0027s urban, flexible-work life.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "In Copenhagen, Denmark, minimalist tailoring with rain-ready techwear and sneakers fits urban Danish style; Trey balances practicality with modern city wear.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Denmark\u0027s Copenhagen values gender equality, enabling diverse feminine expressions across careers and styles. Minor bias pockets remain.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "Guns exist but Denmark/Copenhagen maintains strict licenses and safety norms; ownership is limited and well-regulated.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "In Copenhagen, consent culture is strong; people check in and boundaries are respected. Family-friendly spaces and proactive staff support safe outings.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Founder/Operator Community",
+      "alignmentText": "Copenhagen shows a growing founder base with regular meetups. Strong game/tech networks and startup visa options support founders.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "Fresh markets in Copenhagen (Torvehallerne) offer abundant produce and a broad international scene. Most cravings are met locally, with rare gaps for niche ingredients.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "Copenhagen locals are polite and open to newcomers who reach out. Expect ties to build gradually, with strong expat networks easing integration.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Copenhagen has a strong game scene with IO Interactive and SYBO. AAA and mobile roles are common; Danish grants help growth.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "In Copenhagen, Denmark, gender-diverse identities have legal recognition and inclusive healthcare. Social acceptance is broad and protections are strong.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "In Copenhagen, Denmark, gender rights are strong: robust protections, paid parental leave, pay parity, and swift enforcement.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Copenhagen\u0027s strong parental leave, affordable childcare, and shared domestic norms reinforce egalitarian roles; fits the family\u0027s expectations.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "Flirting is fluid and stigma-free in Copenhagen, Denmark. Your progressive, poly-friendly family values align with Denmark\u0027s inclusive norms.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "In Copenhagen, CPR/NemID and Danish language classes are essential for visa holders. Benefits depend on permit timelines, but healthcare and safety are strong.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Copenhagen faces noticeable climate stressors (rain, sea-level rise), but Denmark\u0027s flood defenses and harbor barriers keep risk manageable.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Government/Startup Visas",
+      "alignmentText": "Denmark\u0027s Startup Visa in Copenhagen offers a founder-friendly route with clear steps; Copenhagen\u0027s game/tech ecosystem is strong, but processing can be moderate.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "In Copenhagen, moderate grooming fits; casual chic is common, and high-fashion looks are optional.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "In Copenhagen, Denmark, acceptance exists within progressive scenes and is tolerated publicly with respectful curiosity; no formal poly marriage recognition.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Denmark\u0027s universal healthcare covers primary/pediatric care in Copenhagen; specialist queues can be lengthy without private options.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Denmark (Copenhagen): Visa families access universal healthcare through CPR; enrollment is straightforward with minor admin; private plans optional.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Denmark offers tuition-free higher education for EU/EEA/Swiss citizens. US residents in Copenhagen typically pay tuition unless scholarships or residency rights apply.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "Denmark (Copenhagen): Non-EU tuition around \u20AC10k\u2013\u20AC15k/yr; scholarships exist; clear study-to-work paths and strong international student support.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Hiring Velocity (Established Studios)",
+      "alignmentText": "Copenhagen studios (IO Interactive, SYBO, Tactile) usually fill roles within ~2 months; pipelines stay active, aiding family relocation planning.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Hiring Velocity (Startups)",
+      "alignmentText": "In Copenhagen, EU grants and visas support startups; hiring often closes in 6-8 weeks with active pipelines.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Rent for family flats in Copenhagen often exceeds \u20AC2k; andelsbolig waitlists run years; competition and deposits strain finances.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "In Copenhagen, Denmark, taxes are digital-first with pre-filled returns via SKAT. Founders should use a local accountant for complex business income.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "Copenhagen, Denmark: generally welcoming to skilled immigrants; English is widespread, welfare is strong, and debates on immigration exist.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "Copenhagen offers strong English use and a welcoming expat scene. With language learning and local engagement, reception is broadly positive.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Denmark (Copenhagen) offers universal, free K-12 with strong language support; access and transfers are generally straightforward.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "In Copenhagen, visa families enroll in public schools after municipal registration; interim Danish language support may be offered before a permanent seat.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "English is widely used in Copenhagen for daily life. Most services provide English guidance while you learn Danish.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Language (Established Studios)",
+      "alignmentText": "English drives collaboration in Copenhagen, Denmark studios; Danish fluency helps with local docs, community, and compliance.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language (Startups)",
+      "alignmentText": "Copenhagen startups operate primarily in English. Danish fluency is needed for regulatory tasks in Denmark.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Strong game IP support in Copenhagen, Denmark; multiple firms handle IP, publishing, and licensing for startups.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "Denmark/Copenhagen offers full LGBTQ\u002B protections. Pride events are prominent, and rainbow families are supported in schools and public services.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Denmark\u0027s Copenhagen hosts a growing game-dev scene with local playtesting groups and university labs. Reliable feedback and surveys are accessible.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Denmark\u0027s Copenhagen: Marxist ideas influence housing/climate debates, yet pragmatic social democracy prevails; open dialogue suits your progressive family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "In Denmark, fathers are widely involved in childcare; Copenhagen\u0027s egalitarian culture supports emotional openness and shared parenting.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Mass violence in Copenhagen is rare. Danish authorities share clear updates and communities stay prepared without fear.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "Copenhagen hosts a robust tech and expat meetup scene plus family-friendly groups; English-friendly and active for quick community building.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "In Copenhagen there is no statutory min wage; unions secure about 115\u2013130 DKK/hr, so pay often meets essentials but varies by sector.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "Copenhagen offers gigabit-fiber, 5G, and cycling-friendly design; reliable power, smart-city services, and planning that supports remote work and gaming.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "In Copenhagen, Denmark, urban acceptance is high; polyamory is broadly understood with supportive communities, though legal recognition remains limited.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "In Copenhagen, honesty is valued and handled with empathy; issues are discussed openly without shame.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Easy access to Copenhagen canals, Dyrehaven, and the \u00D8resund coast for kid-friendly weekend nature. Parks and beaches are well-kept and bike-friendly.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Coastal storms and occasional flooding near \u00D8resund present low risk; Copenhagen\u0027s sea walls, drainage, and alerts keep families safe.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Dyrehaven, beaches, and island getaways are within 30 minutes of Copenhagen; family-friendly, safe nature with bike-friendly access.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Copenhagen offers a vibrant, family-friendly music scene with Vega and DR Koncerthuset; frequent festivals and safe transport support evening outings.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Copenhagen has lively nightlife in Vesterbro and N\u00F8rrebro; family-friendly late options are limited, plan earlier outings or use sitters.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Regular English-friendly game dev meetups in Copenhagen (Spilbar, Game Hub Denmark) and ITU incubators; welcoming to families and newcomers.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Denmark\u0027s Copenhagen hosts IO Interactive, SYBO, Playdead, and NapNok\u2014a strong indie/AAA mix boosting local hiring and collaboration.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Obesity in Copenhagen stays below averages thanks to cycling culture and walkable neighborhoods. Public health programs support healthy diets and activity.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Copenhagen\u0027s game ecosystem offers accelerators, grants, and strong talent. Funding exists but is competitive and requires a strong network.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Copenhagen\u0027s bike lanes and walkable neighborhoods keep life lively yet manageable; errands flow smoothly without rush.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Copenhagen, Denmark values egalitarian parenting with strong parental leave, universal childcare, and supportive schools; shared caregiving is common.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Denmark requires about 9 years of residence plus Danish language tests and a citizenship exam; achievable but lengthy for a US family in Copenhagen.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "In Denmark (Copenhagen), strong transparency and watchdogs keep corruption very low; public tenders support trust in clean governance for stable family life.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "Denmark\u0027s Copenhagen generally respects personal space; in crowded transit expect closer proximity, but boundaries are widely respected.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "Denmark\u0027s Copenhagen area generally respects personal space; crowds favor minimal touch. For a family with two kids, rely on cues and limited contact.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "Copenhagen offers mild summers and cool, damp winters; outdoor life fits most of the year, with occasional adjustments in the shoulder seasons.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "In Copenhagen, Denmark\u0027s parliament operates with transparency and a strong rule of law. Open participation and peaceful protests support stable family life.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Polyamory is largely accepted in private circles in Copenhagen (N\u00F8rrebro/Vesterbro), but mainstream services still misunderstand and assume dyads.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Copenhagen has high-quality, subsidized early childcare (vuggestuer/b\u00F8rnehaver); popular districts fill fast, but bilingual options are increasingly available.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "Private options exist in Copenhagen (friskoler and international schools) with subsidies but fees apply; strong public education remains the default.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "Denmark\u0027s Copenhagen area has multiple strong VFX/real-time programs (ITU, Danish Film School, DADIU) feeding regional studios yearly.",
+      "key": "Processed Food Saturation",
+      "alignmentText": "Copenhagen has abundant fresh markets and Nordic meals; ultra-processed snacks are less dominant. Convenient options exist, but healthy choices are plentiful.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Product Marketing Manager (Games): Compensation Benchmark",
+      "alignmentText": "Denmark (Copenhagen) PMM (Games) comp aligns with global medians after COL; strong benefits and work\u2013life balance offset high living costs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Product Marketing Manager (Games): Continuing Education Availability",
+      "alignmentText": "Copenhagen offers occasional game PMM trainings and local meetups; core courses rely on visiting experts or online options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
+      "alignmentText": "Copenhagen offers solid marketing/game programs (ITU, CBS) feeding regional studios; some upskilling may be needed for product marketing roles.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Product Marketing Manager (Games): Hiring Velocity",
+      "alignmentText": "Denmark (Copenhagen): PMM (Games) hiring likely 3-4 months; local pool modest; relocation with visa support can shorten timelines.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Product Marketing Manager (Games): Language",
+      "alignmentText": "In Copenhagen, many game studios operate in English; multilingual teams are common, and your plan to learn Danish fits well.",
       "alignmentValue": 9
+    },
+    {
+      "key": "Product Marketing Manager (Games): Remote Expectations",
+      "alignmentText": "In Copenhagen, Denmark, studios commonly offer flexible remote/hybrid roles and equipment stipends; the city\u0027s work-life balance fits this family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Talent Pool",
+      "alignmentText": "Moderate pool of game PMMs in Copenhagen; relocation may be needed for niche roles. Copenhagen\u0027s growing game scene and English-friendly talent aid hiring.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Denmark\u0027s Copenhagen embodies progressive policies, universal healthcare, and strong LGBTQ rights, aligning with your family\u0027s values.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "Copenhagen, Denmark is open and sex-positive; consenting adults face little moral policing. Casual relationships are widely accepted.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "In Copenhagen, messaging centers shared wellbeing and accurate information with no nationalist spin. Favor transparency and pluralistic media.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "In Copenhagen, Denmark, media is pluralistic and independent; propaganda is rare, with watchdogs keeping public discourse transparent for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Copenhagen\u0027s driverless metro, S-trains, and buses with unified tickets support car-free living; reliable, frequent, family-friendly transit.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Publisher/Platform Relationships",
+      "alignmentText": "In Copenhagen, Denmark, publishers have limited local reps. Expect proactive outreach to tap platform partners and events.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "Copenhagen offers abundant premium dining, culture, and top schools; English is widespread, with occasional waitlists for elite services.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "Copenhagen, Denmark offers universal healthcare and subsidized childcare, easing costs. Central housing is pricey, but strong public services support families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "In Copenhagen, a middle-income family enjoys universal healthcare and strong services; housing costs and taxes require mindful budgeting.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Real-Time vs Pre-Rendered Focus",
+      "alignmentText": "Copenhagen, Denmark hosts a strong game-dev scene and broad EU broadband; real-time work benefits from proximity to EU data centers and low latency.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "In Copenhagen, faith rarely drives policy; Denmark\u0027s secular culture and pluralist media keep politics evidence-based while personal beliefs are respected.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Remote Expectations (Established Studios)",
+      "alignmentText": "Denmark\u0027s Copenhagen studios favor hybrid work for established teams; remote options exist for senior staff. This fits your family-friendly, remote-friendly needs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "Denmark/Copenhagen startups widely embrace hybrid/remote work; strong broadband and global collaboration tooling support senior-led and family-friendly schedules.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Denmark\u0027s Copenhagen tech scene favors hybrid/remote work; plentiful coworking spaces keep teams connected. Time zones support EU/US collaboration.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "Denmark (Copenhagen) work permits often start around 2 years with renewals. Permanent residency typically requires 8 years, or faster with Danish language proficiency.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Denmark\u0027s Copenhagen market features stable studios, strong welfare, and English-friendly culture; long-term retention is likely, with modest churn.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "In Copenhagen, Folkepension plus ATP and occupational pensions provide strong retirement security. Private pension incentives boost savings.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "Denmark\u0027s ATP/public pension applies to long-term visa holders with work in Copenhagen. Portability rules mean you should plan retirement if you relocate.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Ruby roles in Copenhagen are sporadic; openings cluster in a few startups/agencies. Networking and remote work will help stay competitive in DK.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "Extremely safe in Copenhagen, Denmark; violent crime is rare. Bike theft can occur in busy areas, so standard precautions apply.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Copenhagen has strong folkeskoler with bilingual options and international/private schools (CIS, Rygaards); admissions are fair with manageable waitlists.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "In Copenhagen, sea temps hover around 18-20\u00B0C most of the year; extended swims often need wetsuits or warm pools.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Denmark\u0027s Copenhagen has mild, predictable seasons with occasional cold snaps and Atlantic storms; plan for wind and rain, not extreme heat.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Copenhagen winters bring deep gloom for weeks. Plan routines, light exposure, and occasional sun trips to keep spirits up.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Copenhagen seasons are mild and damp: cool, rainy winters and mild summers; outdoor time is generally feasible with light layers.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Senior Talent Availability",
+      "alignmentText": "Denmark\u0027s Copenhagen offers a strong senior tech pool and startup veterans; English-friendly hiring remains competitive but viable for early-stage teams.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Denmark\u0027s comprehensive sex education and open consent culture fits a relaxed, inclusive stance; DK offers LGBTQ\u002B support and accessible resources.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Denmark\u0027s universal healthcare, generous child benefits, and strong public housing in Copenhagen align with your progressive, family-focused priorities.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "In Copenhagen, Denmark, 2k sq ft rentals are rare; inventory moves fast and broker-based deals with premium rents are common.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Spring in Copenhagen, Denmark is generally mild but windy; expect chilly mornings and variable afternoons, great for biking with layered clothing.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Denmark (Copenhagen) offers stable governance and quick crisis response. Safe neighborhoods, strong welfare, and good schools support families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Denmark\u0027s social-democratic pragmatism favors welfare and rights. Copenhagen blends pro-business policy with universal healthcare and robust safety nets.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "Denmark\u0027s social market model blends strong welfare with innovation. Copenhagen offers robust safety nets and a pro-business, fair-competition climate.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Studio Density",
+      "alignmentText": "Copenhagen in Denmark has a strong game scene with IO Interactive and Playdead; thriving indie studios, family-friendly culture.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "In Copenhagen, Denmark, summer highs are 22-25\u00B0C (72-77\u00B0F) with breezes; mild, comfortable, and AC rarely needed.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "In Copenhagen, service is courteous and efficient; interactions are generally respectful and predictable, supporting family routines.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Tax Incentives for Games/Creative",
+      "alignmentText": "Denmark offers solid R\u0026D credits and active game-dev grants in Copenhagen; funding via V\u00E6kstfonden, but application windows are competitive.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "In Copenhagen, Denmark, first-time visa apps can take up to a year. Budget translations, biometrics, and document fees for the family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Trust in the Danish government is high; Copenhagen\u0027s seamless digital services and strong welfare system support dependable, transparent governance.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "In Denmark (Copenhagen), corruption is rare and swiftly addressed; procurement issues are minor.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "In Copenhagen, senior software pay is strong (roughly 700k-1,000k DKK gross), supporting a family-friendly QoL and flexible work.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Copenhagen weekends offer ample family-friendly activities: parks, kid-friendly museums, and safe transit; most venues require occasional reservations.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Denmark\u0027s Copenhagen schools typically end by 14:00\u201315:00; SFO care extends late, and remote options support stable, family-friendly hours.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "In Denmark (Copenhagen), five weeks of statutory vacation (25 days) plus public holidays are guaranteed; strong enforcement and payout on end of employment.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "In Denmark, 5 weeks vacation (25 days) plus holidays is common; fits your Copenhagen family\u0027s pace and QoL.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Vendor/Outsource Ecosystem",
+      "alignmentText": "Denmark\u0027s Copenhagen has vendor options for art/QA, with several regional firms; capacity can be limited, so you may rely on remote partners for full scope.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Compensation Benchmark",
+      "alignmentText": "Denmark, Copenhagen: VFX (Real-Time) pay trails top markets by ~25-30%; strong benefits and work-life balance offset the gap.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "VFX Artist (Real-Time): Continuing Education Availability",
@@ -1069,15 +1081,14 @@
       "sameAsParent": false
     },
     {
+      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
+      "alignmentText": "Denmark\u0027s Copenhagen area has multiple strong VFX/real-time programs (ITU, Danish Film School, DADIU) feeding regional studios yearly.",
+      "alignmentValue": 9
+    },
+    {
       "key": "VFX Artist (Real-Time): Hiring Velocity",
       "alignmentText": "Denmark (Copenhagen): VFX Real-Time roles typically 4\u20135 months to fill; proactive sourcing helps due to niche talent.",
       "alignmentValue": 5
-    },
-    {
-      "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "Denmark, Copenhagen: VFX (Real-Time) pay trails top markets by ~25-30%; strong benefits and work-life balance offset the gap.",
-      "alignmentValue": 5,
-      "sameAsParent": false
     },
     {
       "key": "VFX Artist (Real-Time): Language",
@@ -1092,76 +1103,70 @@
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Talent Pool",
-      "alignmentText": "Copenhagen has a solid community manager pool centered around a few studios. Competition for senior CM roles is noticeable.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "Copenhagen lacks a dedicated Community Manager track; game/design programs exist, but cohorts are small and grads need on-the-job upskilling.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "Copenhagen has regular community manager workshops and meetups via universities and local tech groups. Strong, practical continuing education options nearby.",
-      "alignmentValue": 8,
+      "key": "VFX Artist (Real-Time): Talent Pool",
+      "alignmentText": "Copenhagen offers a solid, concentrated real-time VFX pool anchored by a few studios; senior hires can be competitive.",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Hiring Velocity",
-      "alignmentText": "Copenhagen, Denmark offers English-friendly hiring; most community manager roles fill in 1\u20132 months, with visa timelines the main bottleneck.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "Denmark\u0027s Copenhagen offers strong family benefits and universal healthcare; CM pay tends toward global medians after cost-of-living adjustments.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Manager: Language",
-      "alignmentText": "In Copenhagen, Denmark, English is widely used in tech and community roles. Danish basics help with local interactions.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Manager: Remote Expectations",
-      "alignmentText": "Denmark\u0027s Copenhagen market supports remote/hybrid community manager roles with strong broadband and EU-friendly async workflows.",
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Copenhagen and Denmark enjoy strong Nordic cooperation; \u00D8resund links to Sweden and Nordic councils reflect open, friendly neighboring relations.",
       "alignmentValue": 10
     },
     {
-      "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "Moderate pool of game PMMs in Copenhagen; relocation may be needed for niche roles. Copenhagen\u0027s growing game scene and English-friendly talent aid hiring.",
-      "alignmentValue": 6
+      "key": "View of self",
+      "alignmentText": "Denmark\u0027s Janteloven modesty fuses with Copenhagen\u0027s livability and welfare pride\u2014humble about self, supportive of inclusive progress.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
-      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "Copenhagen offers solid marketing/game programs (ITU, CBS) feeding regional studios; some upskilling may be needed for product marketing roles.",
-      "alignmentValue": 7
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Denmark is seen as a trusted regional partner in green tech and diplomacy. Copenhagen\u0027s high quality of life helps families despite higher costs.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
-      "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "Copenhagen offers occasional game PMM trainings and local meetups; core courses rely on visiting experts or online options.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Product Marketing Manager (Games): Hiring Velocity",
-      "alignmentText": "Denmark (Copenhagen): PMM (Games) hiring likely 3-4 months; local pool modest; relocation with visa support can shorten timelines.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "Denmark (Copenhagen) PMM (Games) comp aligns with global medians after COL; strong benefits and work\u2013life balance offset high living costs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Product Marketing Manager (Games): Language",
-      "alignmentText": "In Copenhagen, many game studios operate in English; multilingual teams are common, and your plan to learn Danish fits well.",
+      "key": "Visa Paths",
+      "alignmentText": "Copenhagen, Denmark offers Pay Limit, Positive List, and Startup visas for tech roles; several viable routes, though documentation is thorough.",
       "alignmentValue": 9
     },
     {
-      "key": "Product Marketing Manager (Games): Remote Expectations",
-      "alignmentText": "In Copenhagen, Denmark, studios commonly offer flexible remote/hybrid roles and equipment stipends; the city\u0027s work-life balance fits this family.",
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Copenhagen, Denmark prioritizes pedestrians with calm streets, wide sidewalks, and safe crossings; great for walking with kids.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Copenhagen generally welcomes US families. English is common, and Denmark supports newcomers with integration programs.",
       "alignmentValue": 9,
       "sameAsParent": false
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Copenhagen\u0027s design museums, cycling culture, and Danish cuisine fuel curiosity; English-friendly life and strong family services keep learning lively.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Winter in Copenhagen brings regular freezes and damp winds; gear and light snow prep needed, but heating costs stay manageable.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "In Copenhagen, Denmark, the typical workweek is ~37 hours with overtime capped. Compensatory time supports family-friendly evenings.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Copenhagen, Denmark protects evenings and weekends. Flexible schedules are common and suit Sarah\u0027s low-stress, family-friendly priorities.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "Denmark\u0027s robust labor protections, broad union coverage, and swift enforcement secure worker dignity for both salaried and freelance work in Copenhagen.",
+      "alignmentValue": 10
     }
   ]
 }

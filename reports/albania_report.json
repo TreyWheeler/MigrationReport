@@ -3,953 +3,89 @@
   "iso": "AL",
   "values": [
     {
-      "key": "Environment",
-      "alignmentText": "Tirana, Albania offers parks and mild weather. Traffic pollution causes occasional alerts, so plan around air quality and waste management.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Global Warming Risk",
-      "alignmentText": "Albania\u0027s summers are warming and floods occur in river basins. Coastal sea-level rise adds risk, but proactive planning minimizes disruption.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "Coastal Albania (Durres) offers mild winters and dry, warm summers. That suits the family\u0027s mild-weather preference with outdoor time most of the year.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "PM2.5 in Tirana (Albania) sits in the mid-teens with winter spikes; moderate pollution monthly; kids may need masks on bad days.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "Albania faces earthquake and flood risk (Durr\u00EBs 2019); response varies by area, so prepare kits and drills and consider insurance.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Spring in Tirana, Albania, is comfortable 8\u201324 \u00B0C (46\u201375 \u00B0F) Mar\u2013May; April rains and cooler inland mountains suit family-friendly mild weather.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Tirana, Albania: highs of 30-33 C with humidity. This is tolerable but above the family\u0027s ideal without coastal breezes.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Albania fall runs about 26\u00B0C in September to 15\u00B0C by November (79\u00B0F to 59\u00B0F). Mild with occasional rain, great for outdoor time with light layers.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "Winters in Tirana, Albania are mild (3-13\u00B0C); snow is rare, so light coats and outdoor life stay comfortable.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Beach Life",
-      "alignmentText": "Beaches along the Albanian Riviera (Dhermi/Himare/Saranda) are usable and scenic. Outside major resorts, services and cleanliness vary.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "Albania\u0027s coast water is typically 22-26 C from May to Sept; July-Aug is warmest, shoulder months stay comfortable for kids with light rash guards.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "Accursed Mountains and the Albanian Riviera offer dramatic hikes and blue seas. Theth/Valbon\u00EB and Dajti Park provide easy family-friendly trails.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Minimum Wage",
-      "alignmentText": "Albania\u0027s 2024 min wage ~40,000 ALL (\u20AC340) monthly; far below subsistence for a four-person family, likely needing multiple jobs.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "Tirana software salaries around \u20AC1,200\u2013\u20AC1,800/mo; still below Western Europe, so remote work or dual income helps the family.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
       "key": ".NET Work Prospects",
       "alignmentText": "Albania\u0027s .NET scene is outsourcing-focused, centered in Tirana; expect modest openings and EU projects, with some remote roles.",
       "alignmentValue": 6
     },
     {
-      "key": "Ruby Work Prospects",
-      "alignmentText": "Ruby roles in Albania are scarce; local shops favor PHP/Java/.NET. Sarah should target remote roles or diversify stacks.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Employer Visa Sponsorship",
-      "alignmentText": "Albania (Tirana) offers some visa sponsorship in IT/intl firms, but quotas and bureaucracy mean offers may be uncertain for families.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "Albania\u0027s GDP grows ~3% with tourism/remittances; wages are modest and cyclical. Startup grants and a developing tech scene support entrepreneurship.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "Remote work exists in Tirana with coworking hubs such as Destil and Innospace, but power/broadband can be unstable outside the city; policies may need negotiation.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "8: Albania (Tirana) supports family time with remote work and a slower pace; crunch periods exist, but recovery time is offered.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Work Week Hours",
-      "alignmentText": "Albania typically has a 40-hour workweek with remote/hybrid options. Occasional 42-45 hour sprints occur in outsourcing.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "In Albania, annual leave is 20 days plus about 12 public holidays (roughly 32 total), aligning with a 30-day minimum and generally strong enforcement.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Vacation Days (Typical)",
-      "alignmentText": "Albania offers around 20-24 paid vacation days plus holidays; family-friendly culture helps travel with kids, though long trips may need planning.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Pace of Life",
-      "alignmentText": "Tirana is lively, but Albania\u2019s smaller towns like Shkod\u00EBr or Kor\u00E7\u00EB offer a caf\u00E9-paced rhythm that fits Sarah.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Albania\u2014schools typically end around 13:00. Trey\u0027s remote work helps bridge late afternoons, but wraparound care is variable, so paid helpers may be needed.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Albania weekends offer outdoor cafe culture, Adriatic coast trips (Durr\u00EBs), and family meals; most shops open Saturday, many close Sunday afternoons.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Family Life",
-      "alignmentText": "In Albania, families enjoy strong networks and community ties, but formal services may require self-advocacy and waitlists; neighborhoods support family life.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Polyamory",
-      "alignmentText": "In Albania, polyamory has limited recognition and social stigma persists; expect low protections and potential housing or custody challenges.",
+      "key": "2D Environmental Artist: Compensation Benchmark",
+      "alignmentText": "Albania offers modest 2D environmental artist pay aligned with local cost of living. Remote roles can boost total compensation for a two-adult family.",
       "alignmentValue": 4
     },
     {
-      "key": "Parenting Expectations",
-      "alignmentText": "Tirana, Albania: parenting often involves grandparents; strong family input is common, while schools push balanced development and autonomy.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "alignmentText": "Tirana shows kid-friendly upgrades like playgrounds and car-free nights on Skanderbeg Square. Sidewalks and stroller access remain uneven.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Schooling Options",
-      "alignmentText": "Several Tirana options exist (TIS, World Academy) with English instruction; private cost \u20AC8\u201312k/yr, while public schools are limited and require planning.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Tirana offers public kindergartens with waitlists; private nurseries exist, but hours and costs vary, challenging dual-working families.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "In Albania, state childcare subsidies are modest; families largely pay private centers or rely on relatives.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "In Albania (AL), visa families are largely excluded from childcare subsidies; expect private care with limited public support.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "Albania: Public schooling is free to grade 9; upper secondary quality varies by city; informed families in Tirana often use private English schools.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "In Albania, visa families can enroll in public schools. They face Albanian-language curricula and limited language support.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Private Education",
-      "alignmentText": "Tirana offers English-language private schools and Montessori options; outside the capital, choices thin and quality varies; verify accreditation.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Citizens)",
-      "alignmentText": "Albania offers modest child benefits (~1,500 ALL/mo) and about 1 year of leave with partial pay, still behind EU norms and with access hurdles.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Family Policy (Visa Holders)",
-      "alignmentText": "In Albania, visa holders have limited family benefits. Regular supports are largely unavailable to non-citizens.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Higher Education Access (Citizens)",
-      "alignmentText": "Albania offers affordable public universities; some English-taught programs exist; admissions can be competitive; scholarships help families.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "Albania: foreigners can enroll in public universities but face higher tuition and language/admin hurdles; some English-taught programs exist.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Gender Roles",
-      "alignmentText": "In Albania, urban centers trend toward egalitarian parenting; your family\u0027s shared caregiving aligns with this, while rural pockets stay traditional.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "Albania tolerates gender diversity in private life, but legal recognition lags and public acceptance remains uneven; urban areas more welcoming.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "Albania has anti-discrimination laws and rising female participation. Enforcement and pay gaps persist; leadership representation remains uneven.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "In Albania, urban centers like Tirana support women in tech, but traditional dress norms and family expectations still exert subtle pressure.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "Albania mixes tradition with growing openness; Trey\u0027s nurturing/entrepreneur role may face mild pushback in rural areas but gains acceptance in Tirana.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "What Is Intriguing",
-      "alignmentText": "Albania\u0027s Bunk\u2019Art bunkers turned art and Old Bazaar charm in Tirana invite curious family exploration; coastal towns add mild climate and hands-on culture.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Language \u0026 English Ubiquity",
-      "alignmentText": "In Albania, Albanian dominates admin. Urban tech scenes use some English, but official forms require Albanian; commit to language study.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Progressivism",
-      "alignmentText": "In Albania, EU-aligned reform pace grows with urban Tirana; rural areas retain conservative norms, but progressive families push gradual change.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "Albania treats Marxism as historical/academic; democracy governs policy, with open debate but limited mainstream influence.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Atheism",
-      "alignmentText": "Albania\u0027s secular state allows atheism with broad acceptance; secular families face modest social pressure amid Muslim and Orthodox communities.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Sex (Attitudes)",
-      "alignmentText": "In urban Albania (Tirane), sex education is evolving; a sex-positive family may find more openness in cities, while rural areas stay conservative.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "LGBTQ\u002B Attitudes",
-      "alignmentText": "Pride marches in Tirana; legal protections exist, but social acceptance is uneven for LGBTQ\u002B families; plan safety for public displays.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Community Vibes",
-      "alignmentText": "Albania\u0027s besa hospitality is welcoming, but expats must take initiative to connect. Learning Albanian helps join locals through schools and clubs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "View of self",
-      "alignmentText": "Albania\u0027s resilient, hospitable self-view aligns with a family seeking community, strong education, and straightforward, welcoming governance amid reforms.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of Neighboring Countries",
-      "alignmentText": "In Albania, relations with Kosovo are warm. Greece and Serbia are watched cautiously due to historical tensions.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Neighbors Greece, North Macedonia, and Kosovo view Albania\u0027s reform path with cautious optimism; corruption concerns temper cross-border trust.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Nightlife Culture",
-      "alignmentText": "Nightlife exists mainly in Tirana\u0027s Blloku and a few districts; outside, options are sparse; plan babysitters and safe transport.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fashion Trends (Male)",
-      "alignmentText": "In Tirana, Albania, men mix smart-casual with streetwear; workplaces prefer modest attire; urban fashion is modern, not flamboyant.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fashion Trends (Female)",
-      "alignmentText": "In Albania\u0027s urban centers (e.g., Tirana), women\u0027s fashion is modern and diverse. Smaller towns are more conservative.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Common Hobbies",
-      "alignmentText": "In Tirana, Albania, cafe culture and football anchor social life; hiking and seaside trips help newcomers fit in. Expats foster gaming and climbing groups.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Boardgaming \u0026 Tabletop",
-      "alignmentText": "Trey and Sarah will find a few board game caf\u00E9s in Tirana hosting nights; scene is nascent with limited shops.",
+      "key": "2D Environmental Artist: Continuing Education Availability",
+      "alignmentText": "Albania has few dedicated 2D environmental art programs; most upskilling is online or via remote workshops; local options mainly cover fundamentals.",
       "alignmentValue": 5,
       "sameAsParent": false
     },
     {
-      "key": "Nightlife \u0026 Music",
-      "alignmentText": "Nightlife in Tirana, Albania features pop/DJ nights and seasonal beach festivals; families should plan ahead for venues and occasional trips.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Meetups \u0026 Communities",
-      "alignmentText": "Meetups exist but are concentrated in Tirana and require proactive outreach. Seek expat and local groups to build community.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Nature Access",
-      "alignmentText": "Great nature access in Albania: beaches near Durres within 1-2 hours and family-friendly trails around Dajti; some hikes may need gear.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Political System",
-      "alignmentText": "Albania\u0027s parliament is competitive, but elites influence courts/media; robust watchdogs and EU reforms are key to resilience.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Religion in Politics",
-      "alignmentText": "Albania\u0027s secular constitution separates church and state; religion shapes culture but policy remains pluralistic and evidence-based.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Workers\u0027 Rights",
-      "alignmentText": "In Albania, labor laws protect contracts and overtime, but enforcement is patchy, especially in small firms.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "State Ideology",
-      "alignmentText": "Albania pursues pro-EU/NATO reforms with market focus; Tirana shows pluralism but polarization and media trust issues remain.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Albania: EU monitoring supports reforms, yet government influence over media and courts persists; progressive families should monitor watchdog alerts.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "State of Capitalism",
-      "alignmentText": "Albania\u0027s liberalizing market with informality; domestic demand is modest, reforms support entrepreneurship but safety nets and competition need strengthening.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Stability",
-      "alignmentText": "Albania is generally stable with peaceful transitions; protests occur but are managed, with NATO support deterring regional risk.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "In Albania (AL), some state/oligarch framing exists. Independent outlets and media literacy help balance views.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "Albania\u0027s messaging emphasizes anti-corruption and EU readiness. It glosses governance gaps, but counterpoints remain accessible.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "In Albania, healthcare is universal on paper, but funding gaps limit real access. Urban\u2013rural disparities affect families.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "Albania (AL): public trust in government remains low amid corruption concerns and slow reforms; transparency efforts exist but uneven.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "Albania\u0027s corruption is systemic; plan for bureaucratic delays and paperwork when engaging with public services.",
-      "alignmentValue": 3
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "In Albania, patronage and petty licensing bribes are common; expect bureaucratic delays\u2014plan for thorough, documented, straightforward processes.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "Tirana has plentiful new apartments in family-friendly areas; quality varies and foreign mortgage access is limited, so renting is typically the practical path.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Safety \u0026 Crime",
-      "alignmentText": "Safe overall in Albania; violent crime is uncommon, but petty theft occurs in tourist zones; practice routine precautions and secure housing.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "Albania has universal coverage, but public hospitals face equipment/wait-time issues; families often use private clinics for timely pediatric care.",
+      "key": "2D Environmental Artist: Education Pipeline Strength",
+      "alignmentText": "Albania has few dedicated 2D environmental art programs; most grads rely on short courses or general design/game art, with limited local mentorship.",
       "alignmentValue": 4
     },
     {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "In Tirana, residence requires private insurance; English-speaking clinics exist, but care costs and admin for visa families add risk.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "Albania\u0027s formal childcare is uneven; private options exist mainly in Tirana and costlier, so families lean on relatives and informal networks.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "Albania provides modest family benefits; childcare subsidies are limited, so most costs remain private.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Education",
-      "alignmentText": "Albania\u0027s education varies; public schools have gaps, so tutoring or private/international options help meet high standards.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "Public transport in Tirana, Albania is workable but fragmented. Buses and minibuses exist, but schedules are informal and coverage is uneven.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "Albania is a small, open economy with growing entrepreneurship and reforms; informality and bureaucracy still hinder steady family-focused plans.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "In Albania, e-filing exists mainly for businesses; individuals rely on accountants, with Albanian-only portals and shifting rules.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "Albania (AL) personal tax tops at 23% for salaries above 200k ALL monthly. Remote US income would face around that rate.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Banking \u0026 Payments",
-      "alignmentText": "Banking in Albania offers online banking and cards, but foreigners may face longer account setup; cash remains common with many small vendors.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "Albania offers low costs (rent, groceries, services) vs the US; USD incomes can save well, but budget for utilities, internet, and currency shifts.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Retirement (Citizens)",
-      "alignmentText": "In Albania, public pensions are modest; seniors often rely on family support or remittances.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "Foreigners in Albania can contribute to the public pension with work; payouts are modest. For visa residents, private retirement savings remain essential.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Visa Paths",
-      "alignmentText": "Albania provides residence permits for work, self-employment, and family reunification; remote-work options exist but are limited and require solid docs.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "Albania generally welcomes US migrants, especially in Tirana and coastal towns. Expats find active networks and broad English use, with some rural variation.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Residency Types \u0026 Durations",
-      "alignmentText": "Albania mainly issues short-term permits (1\u20132 years) tied to work or business; renewals needed for longer stays.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Path to Citizenship",
-      "alignmentText": "Albania naturalization typically requires 5 years of residence with language/integration checks. Dual citizenship is allowed; investment routes are narrow.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Members",
-      "alignmentText": "Albania allows family reunification for spouses and minor children; apostille/translation required; processing may be slow.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Timelines \u0026 Costs",
-      "alignmentText": "In Albania, permits typically take 2\u20133 months with fees around 70\u201390 EUR per applicant. For a family of four, costs stay budget-friendly.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Compliance \u0026 Risks",
-      "alignmentText": "Albania residency rules are complex; expect Albanian docs and translations, renewals, and local fees\u2014legal counsel advised.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Dual Citizenship Allowed",
-      "alignmentText": "Albania permits dual citizenship with residency/notification steps; you could retain US passports post-naturalization if you complete the process.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "General Considerations for Visa Holders",
-      "alignmentText": "US citizens in Albania face a stable process but with periodic renewals; expect Albanian forms, notarized leases, and some in-person office visits.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Game Dev Work Prospects",
-      "alignmentText": "Albania\u0027s game dev scene is small; few local employers, so remote work for foreign studios is common.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Hiring Velocity (Established Studios)",
-      "alignmentText": "In Albania, established studios hire slowly; local roles are scarce, with many openings filled via remote contractors.",
+      "key": "2D Environmental Artist: Hiring Velocity",
+      "alignmentText": "In Albania, 2D environmental artist roles are rarely filled locally; remote/imported talent or EU freelancers are typical.",
       "alignmentValue": 3,
       "sameAsParent": false
     },
     {
-      "key": "Compensation Benchmark (Established Studios)",
-      "alignmentText": "Albania\u0027s established studios pay a bit below top hubs; with low cost of living and remote options, it can work for this family.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Language (Established Studios)",
-      "alignmentText": "English is common in Albania\u0027s international studios for cross-border work; locals rely on Albanian for community and documentation.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Remote Expectations (Established Studios)",
-      "alignmentText": "Albania\u0027s established studios largely require onsite work; remote options exist, but are limited and often reserved for experienced roles.",
+      "key": "2D Environmental Artist: Language",
+      "alignmentText": "In Albania, English usage among 2D environmental artists is present but not universal; expect bilingual capability screening especially in Tirana studios.",
       "alignmentValue": 6
     },
     {
-      "key": "Notable Game Studios",
-      "alignmentText": "Tirana has a handful of fledgling indie studios (e.g., Albanian Game Developers) with limited visibility. No major studios are headquartered here.",
-      "alignmentValue": 3
+      "key": "2D Environmental Artist: Remote Expectations",
+      "alignmentText": "Albania offers remote 2D environmental artist roles case-by-case. Expect mixed maturity; hybrid/onsite may be needed.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "Albania\u0027s game dev scene is nascent. Tirana hosts occasional jams via ICT groups, but regular meetups and family-friendly events are rare.",
+      "key": "2D Environmental Artist: Talent Pool",
+      "alignmentText": "In Albania, 2D environmental artists are limited; mid-level talent dominates, and senior mentorship is often remote from EU studios.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "3D Animator: Compensation Benchmark",
+      "alignmentText": "In Albania (Tirana), 3D animator pay trails top markets by about 25-30%, but lower cost of living and lifestyle offsets help.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Continuing Education Availability",
+      "alignmentText": "Albania (Tirana): only a couple of local 3D animation providers; advanced topics require remote/online study.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "3D Animator: Education Pipeline Strength",
+      "alignmentText": "In Albania, 3D animation programs are limited; graduates often need mentorship and local studios for exposure (Tirana).",
       "alignmentValue": 4,
       "sameAsParent": false
     },
     {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Albania offers low costs and Tirana\u0027s incubators for experimentation. However, robust funding and senior game talent are still scarce.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Hiring Velocity (Startups)",
-      "alignmentText": "Albania startups rely on remote/relocated staff; tapping global talent could speed Trey\u0027s game-dev hires and grant access.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Compensation Benchmark (Startups)",
-      "alignmentText": "Albania startup pay is modest; remote USD salaries with equity can approach global medians after cost of living, though equity liquidity remains uncertain.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentText": "Albania\u0027s startup scene relies on English for investors and platforms. Local Albanian fluency is needed for hiring and compliance.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentText": "Albania startups still favor on-site teams with limited hybrid options beyond leadership. That limits remote flexibility for Trey and Sarah.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Modernity \u0026 Infrastructure",
-      "alignmentText": "Albania\u0027s Tirana offers 100-200 Mbps fiber with decent gaming latency; outages outside the capital require backup gear.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Seasonal Extremes \u0026 Variability",
-      "alignmentText": "Albania\u0027s climate is mild overall; hot summers inland and wet winters on the coast, with only occasional heat spikes or storms.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Seasonal Sunlight Hours",
-      "alignmentText": "In Albania, long summer days and milder winters provide ample light; maintain energy with outdoor breaks and consistent routines.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Pleasant Weather Windows",
-      "alignmentText": "Albania offers mild springs and autumns, with long pleasant windows. Summers near the coast are warm but manageable, while inland can be hotter.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Quality of Life \u2013 Lower-Income Tier",
-      "alignmentText": "Albania offers affordable basics and healthcare; with budgeting this family can manage housing and essentials, though city housing may trade space for location.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Quality of Life \u2013 Middle-Income Tier",
-      "alignmentText": "Albania (Tirana): housing is affordable and services reasonable. With budgeting, a comfortable middle-income life is possible; plan for schooling and healthcare.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Quality of Life \u2013 Higher-Income Tier",
-      "alignmentText": "In Albania (Tirana), high-end living is feasible but may require planning around limited providers and exclusive networks (private schools, clubs).",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "In Tirana, Albania, 2k sq ft rentals are tight; expect premium rents or broker help, with outer-neighborhood options near Grand Park.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Community Living Opportunities",
-      "alignmentText": "In Tirana, Albania, community living options are sporadic and rely on informal networks; stable family-focused programs are limited.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Friendliness \u0026 Neighborliness Index",
-      "alignmentText": "Albania\u0027s cities (Tirana in particular) are generally welcoming; with initiative, you will connect and build a steady, supportive neighborhood network.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 General",
-      "alignmentText": "Albania generally welcomes foreigners; urban hubs ease integration and language learning. Some public discourse remains cautiously skeptical.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 White Migrants",
-      "alignmentText": "Reception in Albania varies by class and language; immerse in local life to avoid aloofness.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Surface Interaction Norms",
-      "alignmentText": "In Tirana, Albania, proactive greetings yield friendly exchanges; English helps, and interactions tend to be positive when we initiate.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Depth-Seeking Social Norms",
-      "alignmentText": "In Albania, social circles open slowly; persistence plus shared projects help deep bonds, with expat/community groups easing the path.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Personal Boundary \u0026 Bubble Norms",
-      "alignmentText": "Albania (Tirana) tends toward warm, close-contact culture; expect closer personal space in markets and transit\u2014gently set boundaries.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Moral, Honesty \u0026 Openness Expectations",
-      "alignmentText": "Albania values directness in professional talks, but politics and social topics can be sensitive. Read the room to avoid missteps.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Grooming \u0026 Beauty Investment",
-      "alignmentText": "In Tirana, neat, professional dress fits work and social life; there is no extreme grooming pressure. A practical, polished look suits this family in Albania.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Body Image \u0026 Fitness Pressure",
-      "alignmentText": "In Albania, visible pressure to stay slim exists in schools and media; supportive communities and inclusive spaces help counter social comparisons.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fashion \u0026 Style Expectations",
-      "alignmentText": "In Albania\u0027s urban settings (Tirana/AL), tidy smart-casual helps you blend in. Casual wear is fine, but polished outfits suit work and social events.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Flirting Boundaries \u0026 Consent Culture",
-      "alignmentText": "Albania\u0027s consent norms vary; in Tirana, expect mixed awareness, prioritize explicit check-ins and clear safety plans.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gendered Flirting Expectations",
-      "alignmentText": "Albania still shows traditional gender scripts in public spaces and dating scenes. Our progressive family may face puzzled looks in first approaches.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "In Albania, non-monogamy faces stigma and limited protections; openness may risk social backlash and civil/legal consequences, especially outside Tirana.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "alignmentText": "Albania is generally conservative; reputational risks exist for women or queer folks discussing partners. Urban Tirana is more tolerant than rural areas.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
-      "alignmentText": "In Albania (Tirana), openness varies; progressive circles exist, but institutions remain cautious, so multi-partner families must navigate discreetly.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Personal Space \u0026 Touch Norms",
-      "alignmentText": "Albania often uses close greetings like hugs or cheek kisses. For this family, cue before touch and offer space for the kids when needed.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Firearm Laws \u0026 Ownership Culture",
-      "alignmentText": "Albania\u0027s strict licensing and safe-storage rules limit gun ownership; for a family, public exposure feels low but stay aware.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Controlled Substance Policies",
-      "alignmentText": "In Albania, drug laws are strict; minor infractions can affect immigration records, with limited but available treatment options.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "Albania\u0027s drug enforcement is generally targeted with occasional crackdowns. Urban areas may see street checks, but overall life remains stable.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "In Albania, mass violence is uncommon. Authorities communicate clearly and communities stay prepared.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Carceral Conditions \u0026 Prison Labor",
-      "alignmentText": "Albania\u0027s prisons, including Tirana facilities, show reform progress, but overcrowding persists. Oversight varies; risk remains moderate for families.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Walkability \u0026 Pedestrian Safety",
-      "alignmentText": "In Albania\u0027s cities (Tirana), sidewalks cover key zones but traffic can be brisk; for a family with kids, prioritize calm, park-adjacent neighborhoods.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Community Health Consciousness",
-      "alignmentText": "In Albania (Tirana), public health messaging is uneven; we\u0027ll need to maintain routines and lean on universal care amid access gaps.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "Processed Food Saturation",
-      "alignmentText": "Processed foods are common in Albania but balanced by strong fresh markets. Home cooking helps in Tirana and other urban areas.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Fresh \u0026 International Cuisine Access",
-      "alignmentText": "Fresh options exist in Tirana\u0027s markets and shops; international ingredients are available, but specialty items are rarer outside central neighborhoods.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "In Albania, mental health care access is variable. Stigma or limited providers can hinder family therapy access.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Obesity Rate",
-      "alignmentText": "Albania shows moderate obesity levels; public health efforts plus family-friendly, active lifestyles help keep trends stable.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Cancer Incidence",
-      "alignmentText": "Albania shows moderate cancer incidence; urban pollution and lifestyle factors require mitigation; encourage screening and universal healthcare access.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "Albania\u0027s economy is mixed; Tirana IT/outsourcing grows, tourism-sensitive sectors wobble\u2014stay flexible, save, and lean on remote work.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Studio Density",
-      "alignmentText": "Albania has a limited local game/animation studio scene; a few studios exist (primarily in Tirana), so remote collaboration is common.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Anchor Employers",
-      "alignmentText": "Albania (Tirana) has a handful of service studios but no major IP anchors; favorable for small teams, limited for large game studios.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "In Albania, vendor options are limited; a few Tirana-based studios handle art/QA, but core game-dev needs still rely on remote partners.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Education Pipeline Strength",
-      "alignmentText": "Albania has several CS programs in Tirana, but game-focused curricula are limited; students will need extra industry training or bootcamps.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Continuing Education Availability",
-      "alignmentText": "In Albania, local continuing education is limited; expect self-study and occasional regional workshops or travel for upskilling.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Community Activity",
-      "alignmentText": "Tirana, Albania hosts meetups a few times a year; online groups keep developers connected between gatherings.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Engine Community Bias",
-      "alignmentText": "Albania\u0027s indie game scene leans Unity (Tirana); Unreal exists but smaller; remote cross-training and online resources support mixed tooling.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "Albania\u0027s game scene leans toward real-time work. Cinematic pipelines are limited, but local partners support rapid prototyping.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Demand\u2013Supply Balance",
-      "alignmentText": "Albania\u0027s IT sector is growing, but skilled devs remain competitive; expect hiring friction. Remote work and local grads help bridge the gap.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Retention \u0026 Churn Risk",
-      "alignmentText": "Albania\u0027s growing startup scene offers grants and visas, but funding cycles cause churn; retaining senior engineers can be challenging.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Diversity \u0026 Inclusion Index",
-      "alignmentText": "Albania shows evolving D\u0026I: protections exist, but progress is uneven; rural areas lag in LGBTQ\u002B inclusion, while urban centers trend more open.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "Albania offers no dedicated game tax credits; only small, uncertain culture subsidies with limited funding.",
+      "key": "3D Animator: Hiring Velocity",
+      "alignmentText": "Albania: 3D animator roles are rarely filled locally; rely on remote or imported talent.",
       "alignmentValue": 3
     },
     {
-      "key": "Economic/Policy Stability",
-      "alignmentText": "Albania shows stable reforms with EU accession drive. Policy direction remains relatively predictable, though election cycles bring modest shifts.",
+      "key": "3D Animator: Language",
+      "alignmentText": "English is common in Albania\u0027s urban 3D studios (Tirana); client-facing roles favor bilingual Albanian/English candidates.",
       "alignmentValue": 7
     },
     {
-      "key": "Founder/Operator Community",
-      "alignmentText": "Tirana hosts a modest founder scene with occasional meetups; cross-city mentorship and robust VC activity remain limited in Albania.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Early-Stage Capital Access",
-      "alignmentText": "In Albania, local game funding is limited; founders in Tirana typically rely on remote investors and international grants.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Accelerator/Incubator Access",
-      "alignmentText": "Albania\u0027s accelerator scene is limited to small university labs and a few EU-funded programs; no dedicated game accelerators currently.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Senior Talent Availability",
-      "alignmentText": "Albania\u0027s Tirana tech scene has some senior leaders, but the pool is limited; startups typically recruit from abroad or remote to fill senior roles.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Contractor/Freelancer Bench",
-      "alignmentText": "In Albania (Tirana), contractor benches exist but are modest; strong remote talent in IT, but lead times can occur.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Coworking \u0026 Startup Infrastructure",
-      "alignmentText": "Tirana offers several coworking spaces and a budding startup scene, but game-dev labs (mocap/audio) are scarce.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Legal \u0026 IP Support",
-      "alignmentText": "Albania has only a few game-IP specialists; startups rely on referrals. Seek Tirana firms or regional IP clinics for publishing/licensing.",
+      "key": "3D Animator: Remote Expectations",
+      "alignmentText": "Albania (Tirana): remote 3D animator roles exist case-by-case; limited process maturity; hybrids common; reliable broadband helps.",
       "alignmentValue": 5,
       "sameAsParent": false
     },
     {
-      "key": "Publisher/Platform Relationships",
-      "alignmentText": "Albania\u0027s publisher presence is limited. Engagement mainly comes from European events and remote outreach, not local BD teams.",
-      "alignmentValue": 5,
-      "sameAsParent": false
+      "key": "3D Animator: Talent Pool",
+      "alignmentText": "Albania (Tirana) has a small 3D animation pool with sporadic local availability; expect aggressive sourcing or remote/contract hires.",
+      "alignmentValue": 4
     },
     {
-      "key": "Market Research \u0026 Playtesting",
-      "alignmentText": "Albania has few formal playtesting labs. Tirana indie groups lead ad hoc testing with online testers across Europe.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Government/Startup Visas",
-      "alignmentText": "Albania offers limited startup visa routes. Processing times can be unpredictable, so plan for delays and potential relocation steps for your family.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Cost of Doing Business",
-      "alignmentText": "Albania offers affordable payroll and office space for software teams; Tirana IT talent is strong, but power reliability can affect operating costs.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "Albania\u0027s 3D character artist scene is small but growing. Tirana hosts budding studios, but senior talent is limited; expect remote hires or relocation.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "Albania has few formal 3D character art programs (mostly in Tirana); graduates have mixed readiness and often require mentoring.",
+      "key": "3D Character Artist: Compensation Benchmark",
+      "alignmentText": "Albania offers modest 3D character artist pay, about 25-30% below top markets. Lower cost of living and visa-friendly policies soften relocation.",
       "alignmentValue": 5,
       "sameAsParent": false
     },
@@ -960,15 +96,15 @@
       "sameAsParent": false
     },
     {
-      "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "In Albania, 3D character artist roles have shallow local pipelines; expect 6\u002B months. Leverage remote/global candidates and incentives.",
-      "alignmentValue": 4,
+      "key": "3D Character Artist: Education Pipeline Strength",
+      "alignmentText": "Albania has few formal 3D character art programs (mostly in Tirana); graduates have mixed readiness and often require mentoring.",
+      "alignmentValue": 5,
       "sameAsParent": false
     },
     {
-      "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "Albania offers modest 3D character artist pay, about 25-30% below top markets. Lower cost of living and visa-friendly policies soften relocation.",
-      "alignmentValue": 5,
+      "key": "3D Character Artist: Hiring Velocity",
+      "alignmentText": "In Albania, 3D character artist roles have shallow local pipelines; expect 6\u002B months. Leverage remote/global candidates and incentives.",
+      "alignmentValue": 4,
       "sameAsParent": false
     },
     {
@@ -983,90 +119,967 @@
       "alignmentValue": 5
     },
     {
-      "key": "3D Animator: Talent Pool",
-      "alignmentText": "Albania (Tirana) has a small 3D animation pool with sporadic local availability; expect aggressive sourcing or remote/contract hires.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "In Albania, 3D animation programs are limited; graduates often need mentorship and local studios for exposure (Tirana).",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "Albania (Tirana): only a couple of local 3D animation providers; advanced topics require remote/online study.",
+      "key": "3D Character Artist: Talent Pool",
+      "alignmentText": "Albania\u0027s 3D character artist scene is small but growing. Tirana hosts budding studios, but senior talent is limited; expect remote hires or relocation.",
       "alignmentValue": 5
     },
     {
-      "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "Albania: 3D animator roles are rarely filled locally; rely on remote or imported talent.",
-      "alignmentValue": 3
+      "key": "Accelerator/Incubator Access",
+      "alignmentText": "Albania\u0027s accelerator scene is limited to small university labs and a few EU-funded programs; no dedicated game accelerators currently.",
+      "alignmentValue": 5
     },
     {
-      "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "In Albania (Tirana), 3D animator pay trails top markets by about 25-30%, but lower cost of living and lifestyle offsets help.",
-      "alignmentValue": 5,
+      "key": "Air Quality",
+      "alignmentText": "PM2.5 in Tirana (Albania) sits in the mid-teens with winter spikes; moderate pollution monthly; kids may need masks on bad days.",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
-      "key": "3D Animator: Language",
-      "alignmentText": "English is common in Albania\u0027s urban 3D studios (Tirana); client-facing roles favor bilingual Albanian/English candidates.",
+      "key": "Anchor Employers",
+      "alignmentText": "Albania (Tirana) has a handful of service studios but no major IP anchors; favorable for small teams, limited for large game studios.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "Albania\u0027s secular state allows atheism with broad acceptance; secular families face modest social pressure amid Muslim and Orthodox communities.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Albania: EU monitoring supports reforms, yet government influence over media and courts persists; progressive families should monitor watchdog alerts.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "Banking in Albania offers online banking and cards, but foreigners may face longer account setup; cash remains common with many small vendors.",
       "alignmentValue": 7
     },
     {
-      "key": "3D Animator: Remote Expectations",
-      "alignmentText": "Albania (Tirana): remote 3D animator roles exist case-by-case; limited process maturity; hybrids common; reliable broadband helps.",
+      "key": "Beach Life",
+      "alignmentText": "Beaches along the Albanian Riviera (Dhermi/Himare/Saranda) are usable and scenic. Outside major resorts, services and cleanliness vary.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "Trey and Sarah will find a few board game caf\u00E9s in Tirana hosting nights; scene is nascent with limited shops.",
       "alignmentValue": 5,
       "sameAsParent": false
     },
     {
-      "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "In Albania, 2D environmental artists are limited; mid-level talent dominates, and senior mentorship is often remote from EU studios.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "Albania has few dedicated 2D environmental art programs; most grads rely on short courses or general design/game art, with limited local mentorship.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "Albania has few dedicated 2D environmental art programs; most upskilling is online or via remote workshops; local options mainly cover fundamentals.",
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "In Albania, visible pressure to stay slim exists in schools and media; supportive communities and inclusive spaces help counter social comparisons.",
       "alignmentValue": 5,
       "sameAsParent": false
     },
     {
-      "key": "2D Environmental Artist: Hiring Velocity",
-      "alignmentText": "In Albania, 2D environmental artist roles are rarely filled locally; remote/imported talent or EU freelancers are typical.",
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Albania\u0027s economy is mixed; Tirana IT/outsourcing grows, tourism-sensitive sectors wobble\u2014stay flexible, save, and lean on remote work.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "Albania shows moderate cancer incidence; urban pollution and lifestyle factors require mitigation; encourage screening and universal healthcare access.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "Albania\u0027s prisons, including Tirana facilities, show reform progress, but overcrowding persists. Oversight varies; risk remains moderate for families.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Albania\u0027s formal childcare is uneven; private options exist mainly in Tirana and costlier, so families lean on relatives and informal networks.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Tirana shows kid-friendly upgrades like playgrounds and car-free nights on Skanderbeg Square. Sidewalks and stroller access remain uneven.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "In Albania, state childcare subsidies are modest; families largely pay private centers or rely on relatives.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "In Albania (AL), visa families are largely excluded from childcare subsidies; expect private care with limited public support.",
       "alignmentValue": 3,
       "sameAsParent": false
     },
     {
-      "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "Albania offers modest 2D environmental artist pay aligned with local cost of living. Remote roles can boost total compensation for a two-adult family.",
-      "alignmentValue": 4
+      "key": "Common Hobbies",
+      "alignmentText": "In Tirana, Albania, cafe culture and football anchor social life; hiking and seaside trips help newcomers fit in. Expats foster gaming and climbing groups.",
+      "alignmentValue": 7
     },
     {
-      "key": "2D Environmental Artist: Language",
-      "alignmentText": "In Albania, English usage among 2D environmental artists is present but not universal; expect bilingual capability screening especially in Tirana studios.",
+      "key": "Community Activity",
+      "alignmentText": "Tirana, Albania hosts meetups a few times a year; online groups keep developers connected between gatherings.",
       "alignmentValue": 6
     },
     {
-      "key": "2D Environmental Artist: Remote Expectations",
-      "alignmentText": "Albania offers remote 2D environmental artist roles case-by-case. Expect mixed maturity; hybrid/onsite may be needed.",
+      "key": "Community Health Consciousness",
+      "alignmentText": "In Albania (Tirana), public health messaging is uneven; we\u0027ll need to maintain routines and lean on universal care amid access gaps.",
       "alignmentValue": 5,
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "Albania\u0027s real-time VFX talent pool is small; Tirana has only a few local specialists outside main studios. Expect remote hiring or aggressive sourcing.",
+      "key": "Community Living Opportunities",
+      "alignmentText": "In Tirana, Albania, community living options are sporadic and rely on informal networks; stable family-focused programs are limited.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Community Manager: Compensation Benchmark",
+      "alignmentText": "Albania CM pay trails top markets by ~25\u201330%. Local packages lean toward lower salaries with strong lifestyle perks in Tirana.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Manager: Continuing Education Availability",
+      "alignmentText": "Albania offers sporadic community-manager trainings and local meetups; most learning remains self-directed, with remote options helping Trey\u0027s team.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Community Manager: Education Pipeline Strength",
+      "alignmentText": "Albania\u0027s CM education is limited; only short certificates exist in Tirana and a few universities, so grads typically need mentoring.",
       "alignmentValue": 4
     },
     {
-      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "In Albania, VFX (real-time) education is nascent with few programs, mainly in Tirana. Most talent relies on on-the-job upskilling.",
+      "key": "Community Manager: Hiring Velocity",
+      "alignmentText": "Albania\u0027s local market for Community Managers is shallow; expect 6\u002B months, but remote/global candidates can speed hiring.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Manager: Language",
+      "alignmentText": "In Albania, English is common among community managers, but client-facing roles favor bilingual Albanian speakers; look for dual-language candidates.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Community Manager: Remote Expectations",
+      "alignmentText": "Albania\u0027s IT scene supports hybrid work; remote CM roles exist but often require occasional Tirana onsite and steady collaboration.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Community Manager: Talent Pool",
+      "alignmentText": "Tirana, Albania has a small community manager pool; availability is sporadic\u2014plan aggressive sourcing or remote/outsourced hires.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Albania\u0027s besa hospitality is welcoming, but expats must take initiative to connect. Learning Albanian helps join locals through schools and clubs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "Albania\u0027s established studios pay a bit below top hubs; with low cost of living and remote options, it can work for this family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "Albania startup pay is modest; remote USD salaries with equity can approach global medians after cost of living, though equity liquidity remains uncertain.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "Albania residency rules are complex; expect Albanian docs and translations, renewals, and local fees\u2014legal counsel advised.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Continuing Education Availability",
+      "alignmentText": "In Albania, local continuing education is limited; expect self-study and occasional regional workshops or travel for upskilling.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Contractor/Freelancer Bench",
+      "alignmentText": "In Albania (Tirana), contractor benches exist but are modest; strong remote talent in IT, but lead times can occur.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "In Albania, drug laws are strict; minor infractions can affect immigration records, with limited but available treatment options.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Cost of Doing Business",
+      "alignmentText": "Albania offers affordable payroll and office space for software teams; Tirana IT talent is strong, but power reliability can affect operating costs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Albania offers low costs (rent, groceries, services) vs the US; USD incomes can save well, but budget for utilities, internet, and currency shifts.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Tirana offers several coworking spaces and a budding startup scene, but game-dev labs (mocap/audio) are scarce.",
       "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Albania\u0027s IT sector is growing, but skilled devs remain competitive; expect hiring friction. Remote work and local grads help bridge the gap.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "In Albania, mental health care access is variable. Stigma or limited providers can hinder family therapy access.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "In Albania, social circles open slowly; persistence plus shared projects help deep bonds, with expat/community groups easing the path.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Albania shows evolving D\u0026I: protections exist, but progress is uneven; rural areas lag in LGBTQ\u002B inclusion, while urban centers trend more open.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "Albania\u0027s drug enforcement is generally targeted with occasional crackdowns. Urban areas may see street checks, but overall life remains stable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Albania permits dual citizenship with residency/notification steps; you could retain US passports post-naturalization if you complete the process.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Early Stage Grants Available",
+      "alignmentText": "Albania\u0027s early-stage grants are modest ($5k-$25k). For Trey\u0027s game-dev startup, these seed MVPs but often need private funds or EU programs.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Early-Stage Capital Access",
+      "alignmentText": "In Albania, local game funding is limited; founders in Tirana typically rely on remote investors and international grants.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Albania\u0027s GDP grows ~3% with tourism/remittances; wages are modest and cyclical. Startup grants and a developing tech scene support entrepreneurship.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Albania is a small, open economy with growing entrepreneurship and reforms; informality and bureaucracy still hinder steady family-focused plans.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Economic/Policy Stability",
+      "alignmentText": "Albania shows stable reforms with EU accession drive. Policy direction remains relatively predictable, though election cycles bring modest shifts.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Albania\u0027s education varies; public schools have gaps, so tutoring or private/international options help meet high standards.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Education Pipeline Strength",
+      "alignmentText": "Albania has several CS programs in Tirana, but game-focused curricula are limited; students will need extra industry training or bootcamps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Albania (Tirana) offers some visa sponsorship in IT/intl firms, but quotas and bureaucracy mean offers may be uncertain for families.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Engine Community Bias",
+      "alignmentText": "Albania\u0027s indie game scene leans Unity (Tirana); Unreal exists but smaller; remote cross-training and online resources support mixed tooling.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "Tirana, Albania offers parks and mild weather. Traffic pollution causes occasional alerts, so plan around air quality and waste management.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Albania (AL) personal tax tops at 23% for salaries above 200k ALL monthly. Remote US income would face around that rate.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Albania fall runs about 26\u00B0C in September to 15\u00B0C by November (79\u00B0F to 59\u00B0F). Mild with occasional rain, great for outdoor time with light layers.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "In Albania, families enjoy strong networks and community ties, but formal services may require self-advocacy and waitlists; neighborhoods support family life.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Albania allows family reunification for spouses and minor children; apostille/translation required; processing may be slow.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "Albania offers modest child benefits (~1,500 ALL/mo) and about 1 year of leave with partial pay, still behind EU norms and with access hurdles.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Albania provides modest family benefits; childcare subsidies are limited, so most costs remain private.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "In Albania, visa holders have limited family benefits. Regular supports are largely unavailable to non-citizens.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "In Albania\u0027s urban settings (Tirana/AL), tidy smart-casual helps you blend in. Casual wear is fine, but polished outfits suit work and social events.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "In Albania\u0027s urban centers (e.g., Tirana), women\u0027s fashion is modern and diverse. Smaller towns are more conservative.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "In Tirana, Albania, men mix smart-casual with streetwear; workplaces prefer modest attire; urban fashion is modern, not flamboyant.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "In Albania, urban centers like Tirana support women in tech, but traditional dress norms and family expectations still exert subtle pressure.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "Albania\u0027s strict licensing and safe-storage rules limit gun ownership; for a family, public exposure feels low but stay aware.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "Albania\u0027s consent norms vary; in Tirana, expect mixed awareness, prioritize explicit check-ins and clear safety plans.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Founder/Operator Community",
+      "alignmentText": "Tirana hosts a modest founder scene with occasional meetups; cross-city mentorship and robust VC activity remain limited in Albania.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "Fresh options exist in Tirana\u0027s markets and shops; international ingredients are available, but specialty items are rarer outside central neighborhoods.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "Albania\u0027s cities (Tirana in particular) are generally welcoming; with initiative, you will connect and build a steady, supportive neighborhood network.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Albania\u0027s game dev scene is small; few local employers, so remote work for foreign studios is common.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Albania tolerates gender diversity in private life, but legal recognition lags and public acceptance remains uneven; urban areas more welcoming.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Albania has anti-discrimination laws and rising female participation. Enforcement and pay gaps persist; leadership representation remains uneven.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "In Albania, urban centers trend toward egalitarian parenting; your family\u0027s shared caregiving aligns with this, while rural pockets stay traditional.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "Albania still shows traditional gender scripts in public spaces and dating scenes. Our progressive family may face puzzled looks in first approaches.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "US citizens in Albania face a stable process but with periodic renewals; expect Albanian forms, notarized leases, and some in-person office visits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Albania\u0027s summers are warming and floods occur in river basins. Coastal sea-level rise adds risk, but proactive planning minimizes disruption.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Government/Startup Visas",
+      "alignmentText": "Albania offers limited startup visa routes. Processing times can be unpredictable, so plan for delays and potential relocation steps for your family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "In Tirana, neat, professional dress fits work and social life; there is no extreme grooming pressure. A practical, polished look suits this family in Albania.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "In Albania (Tirana), openness varies; progressive circles exist, but institutions remain cautious, so multi-partner families must navigate discreetly.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Albania has universal coverage, but public hospitals face equipment/wait-time issues; families often use private clinics for timely pediatric care.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "In Tirana, residence requires private insurance; English-speaking clinics exist, but care costs and admin for visa families add risk.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Albania offers affordable public universities; some English-taught programs exist; admissions can be competitive; scholarships help families.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "Albania: foreigners can enroll in public universities but face higher tuition and language/admin hurdles; some English-taught programs exist.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Hiring Velocity (Established Studios)",
+      "alignmentText": "In Albania, established studios hire slowly; local roles are scarce, with many openings filled via remote contractors.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Hiring Velocity (Startups)",
+      "alignmentText": "Albania startups rely on remote/relocated staff; tapping global talent could speed Trey\u0027s game-dev hires and grant access.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Tirana has plentiful new apartments in family-friendly areas; quality varies and foreign mortgage access is limited, so renting is typically the practical path.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "In Albania, e-filing exists mainly for businesses; individuals rely on accountants, with Albanian-only portals and shifting rules.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "Albania generally welcomes foreigners; urban hubs ease integration and language learning. Some public discourse remains cautiously skeptical.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "Reception in Albania varies by class and language; immerse in local life to avoid aloofness.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Albania: Public schooling is free to grade 9; upper secondary quality varies by city; informed families in Tirana often use private English schools.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "In Albania, visa families can enroll in public schools. They face Albanian-language curricula and limited language support.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "In Albania, Albanian dominates admin. Urban tech scenes use some English, but official forms require Albanian; commit to language study.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Language (Established Studios)",
+      "alignmentText": "English is common in Albania\u0027s international studios for cross-border work; locals rely on Albanian for community and documentation.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Language (Startups)",
+      "alignmentText": "Albania\u0027s startup scene relies on English for investors and platforms. Local Albanian fluency is needed for hiring and compliance.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Albania has only a few game-IP specialists; startups rely on referrals. Seek Tirana firms or regional IP clinics for publishing/licensing.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "Pride marches in Tirana; legal protections exist, but social acceptance is uneven for LGBTQ\u002B families; plan safety for public displays.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Albania has few formal playtesting labs. Tirana indie groups lead ad hoc testing with online testers across Europe.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Albania treats Marxism as historical/academic; democracy governs policy, with open debate but limited mainstream influence.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Albania mixes tradition with growing openness; Trey\u0027s nurturing/entrepreneur role may face mild pushback in rural areas but gains acceptance in Tirana.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "In Albania, mass violence is uncommon. Authorities communicate clearly and communities stay prepared.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "Meetups exist but are concentrated in Tirana and require proactive outreach. Seek expat and local groups to build community.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Albania\u0027s 2024 min wage ~40,000 ALL (\u20AC340) monthly; far below subsistence for a four-person family, likely needing multiple jobs.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "Albania\u0027s Tirana offers 100-200 Mbps fiber with decent gaming latency; outages outside the capital require backup gear.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "In Albania, non-monogamy faces stigma and limited protections; openness may risk social backlash and civil/legal consequences, especially outside Tirana.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "Albania values directness in professional talks, but politics and social topics can be sensitive. Read the room to avoid missteps.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Accursed Mountains and the Albanian Riviera offer dramatic hikes and blue seas. Theth/Valbon\u00EB and Dajti Park provide easy family-friendly trails.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Albania faces earthquake and flood risk (Durr\u00EBs 2019); response varies by area, so prepare kits and drills and consider insurance.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Great nature access in Albania: beaches near Durres within 1-2 hours and family-friendly trails around Dajti; some hikes may need gear.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Nightlife in Tirana, Albania features pop/DJ nights and seasonal beach festivals; families should plan ahead for venues and occasional trips.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Nightlife exists mainly in Tirana\u0027s Blloku and a few districts; outside, options are sparse; plan babysitters and safe transport.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Albania\u0027s game dev scene is nascent. Tirana hosts occasional jams via ICT groups, but regular meetups and family-friendly events are rare.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Tirana has a handful of fledgling indie studios (e.g., Albanian Game Developers) with limited visibility. No major studios are headquartered here.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Albania shows moderate obesity levels; public health efforts plus family-friendly, active lifestyles help keep trends stable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Albania offers low costs and Tirana\u0027s incubators for experimentation. However, robust funding and senior game talent are still scarce.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Tirana is lively, but Albania\u2019s smaller towns like Shkod\u00EBr or Kor\u00E7\u00EB offer a caf\u00E9-paced rhythm that fits Sarah.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Tirana, Albania: parenting often involves grandparents; strong family input is common, while schools push balanced development and autonomy.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Albania naturalization typically requires 5 years of residence with language/integration checks. Dual citizenship is allowed; investment routes are narrow.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Albania\u0027s corruption is systemic; plan for bureaucratic delays and paperwork when engaging with public services.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "Albania (Tirana) tends toward warm, close-contact culture; expect closer personal space in markets and transit\u2014gently set boundaries.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "Albania often uses close greetings like hugs or cheek kisses. For this family, cue before touch and offer space for the kids when needed.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "Albania offers mild springs and autumns, with long pleasant windows. Summers near the coast are warm but manageable, while inland can be hotter.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "Albania\u0027s parliament is competitive, but elites influence courts/media; robust watchdogs and EU reforms are key to resilience.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "In Albania, polyamory has limited recognition and social stigma persists; expect low protections and potential housing or custody challenges.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Tirana offers public kindergartens with waitlists; private nurseries exist, but hours and costs vary, challenging dual-working families.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "Tirana offers English-language private schools and Montessori options; outside the capital, choices thin and quality varies; verify accreditation.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "Processed foods are common in Albania but balanced by strong fresh markets. Home cooking helps in Tirana and other urban areas.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Product Marketing Manager (Games): Compensation Benchmark",
+      "alignmentText": "In Albania (Tirana), PMM (Games) pay trails top markets by 25-30%. Remote work and lifestyle perks help offset the gap.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Product Marketing Manager (Games): Continuing Education Availability",
+      "alignmentText": "Albania has limited local continuing education for game product marketing; most learning is remote, with few in-person workshops (Tirana).",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
+      "alignmentText": "Albania\u0027s product marketing for games is nascent; few dedicated PMM tracks exist (mostly in Tirana), with generic marketing programs and mentoring needed.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Hiring Velocity",
+      "alignmentText": "Albania PMM (Games) hiring: local pipelines are shallow; rely on remote/imported talent with global searches and flexible incentives.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Language",
+      "alignmentText": "Albania (Tirana): game marketing favors bilinguals; English is common in dev teams, Albanian helps with local campaigns.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Product Marketing Manager (Games): Remote Expectations",
+      "alignmentText": "Albania (Tirana): remote PM (Games) roles exist case-by-case; studios favor partial remote weeks with frequent onsite collaboration; broadband improving.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Product Marketing Manager (Games): Talent Pool",
+      "alignmentText": "Albania\u0027s game PMM pool is small (Tirana); senior PMMs are scarce and studios few. Hiring may require aggressive sourcing or remote/contract PMMs.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "In Albania, EU-aligned reform pace grows with urban Tirana; rural areas retain conservative norms, but progressive families push gradual change.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "Albania is generally conservative; reputational risks exist for women or queer folks discussing partners. Urban Tirana is more tolerant than rural areas.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Albania\u0027s messaging emphasizes anti-corruption and EU readiness. It glosses governance gaps, but counterpoints remain accessible.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "In Albania (AL), some state/oligarch framing exists. Independent outlets and media literacy help balance views.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Public transport in Tirana, Albania is workable but fragmented. Buses and minibuses exist, but schedules are informal and coverage is uneven.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Publisher/Platform Relationships",
+      "alignmentText": "Albania\u0027s publisher presence is limited. Engagement mainly comes from European events and remote outreach, not local BD teams.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "In Albania (Tirana), high-end living is feasible but may require planning around limited providers and exclusive networks (private schools, clubs).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "Albania offers affordable basics and healthcare; with budgeting this family can manage housing and essentials, though city housing may trade space for location.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "Albania (Tirana): housing is affordable and services reasonable. With budgeting, a comfortable middle-income life is possible; plan for schooling and healthcare.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Real-Time vs Pre-Rendered Focus",
+      "alignmentText": "Albania\u0027s game scene leans toward real-time work. Cinematic pipelines are limited, but local partners support rapid prototyping.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Albania\u0027s secular constitution separates church and state; religion shapes culture but policy remains pluralistic and evidence-based.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote Expectations (Established Studios)",
+      "alignmentText": "Albania\u0027s established studios largely require onsite work; remote options exist, but are limited and often reserved for experienced roles.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "Albania startups still favor on-site teams with limited hybrid options beyond leadership. That limits remote flexibility for Trey and Sarah.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Remote work exists in Tirana with coworking hubs such as Destil and Innospace, but power/broadband can be unstable outside the city; policies may need negotiation.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "Albania mainly issues short-term permits (1\u20132 years) tied to work or business; renewals needed for longer stays.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Albania\u0027s growing startup scene offers grants and visas, but funding cycles cause churn; retaining senior engineers can be challenging.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "In Albania, public pensions are modest; seniors often rely on family support or remittances.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "Foreigners in Albania can contribute to the public pension with work; payouts are modest. For visa residents, private retirement savings remain essential.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Ruby roles in Albania are scarce; local shops favor PHP/Java/.NET. Sarah should target remote roles or diversify stacks.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "Safe overall in Albania; violent crime is uncommon, but petty theft occurs in tourist zones; practice routine precautions and secure housing.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Several Tirana options exist (TIS, World Academy) with English instruction; private cost \u20AC8\u201312k/yr, while public schools are limited and require planning.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Albania\u0027s coast water is typically 22-26 C from May to Sept; July-Aug is warmest, shoulder months stay comfortable for kids with light rash guards.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Albania\u0027s climate is mild overall; hot summers inland and wet winters on the coast, with only occasional heat spikes or storms.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "In Albania, long summer days and milder winters provide ample light; maintain energy with outdoor breaks and consistent routines.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Coastal Albania (Durres) offers mild winters and dry, warm summers. That suits the family\u0027s mild-weather preference with outdoor time most of the year.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Senior Talent Availability",
+      "alignmentText": "Albania\u0027s Tirana tech scene has some senior leaders, but the pool is limited; startups typically recruit from abroad or remote to fill senior roles.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "In urban Albania (Tirane), sex education is evolving; a sex-positive family may find more openness in cities, while rural areas stay conservative.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "In Albania, healthcare is universal on paper, but funding gaps limit real access. Urban\u2013rural disparities affect families.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "In Tirana, Albania, 2k sq ft rentals are tight; expect premium rents or broker help, with outer-neighborhood options near Grand Park.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Spring in Tirana, Albania, is comfortable 8\u201324 \u00B0C (46\u201375 \u00B0F) Mar\u2013May; April rains and cooler inland mountains suit family-friendly mild weather.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Albania is generally stable with peaceful transitions; protests occur but are managed, with NATO support deterring regional risk.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Albania pursues pro-EU/NATO reforms with market focus; Tirana shows pluralism but polarization and media trust issues remain.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "Albania\u0027s liberalizing market with informality; domestic demand is modest, reforms support entrepreneurship but safety nets and competition need strengthening.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Studio Density",
+      "alignmentText": "Albania has a limited local game/animation studio scene; a few studios exist (primarily in Tirana), so remote collaboration is common.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "Tirana, Albania: highs of 30-33 C with humidity. This is tolerable but above the family\u0027s ideal without coastal breezes.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "In Tirana, Albania, proactive greetings yield friendly exchanges; English helps, and interactions tend to be positive when we initiate.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Tax Incentives for Games/Creative",
+      "alignmentText": "Albania offers no dedicated game tax credits; only small, uncertain culture subsidies with limited funding.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "In Albania, permits typically take 2\u20133 months with fees around 70\u201390 EUR per applicant. For a family of four, costs stay budget-friendly.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Albania (AL): public trust in government remains low amid corruption concerns and slow reforms; transparency efforts exist but uneven.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "In Albania, patronage and petty licensing bribes are common; expect bureaucratic delays\u2014plan for thorough, documented, straightforward processes.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Tirana software salaries around \u20AC1,200\u2013\u20AC1,800/mo; still below Western Europe, so remote work or dual income helps the family.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Albania weekends offer outdoor cafe culture, Adriatic coast trips (Durr\u00EBs), and family meals; most shops open Saturday, many close Sunday afternoons.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Albania\u2014schools typically end around 13:00. Trey\u0027s remote work helps bridge late afternoons, but wraparound care is variable, so paid helpers may be needed.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "In Albania, annual leave is 20 days plus about 12 public holidays (roughly 32 total), aligning with a 30-day minimum and generally strong enforcement.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Albania offers around 20-24 paid vacation days plus holidays; family-friendly culture helps travel with kids, though long trips may need planning.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Vendor/Outsource Ecosystem",
+      "alignmentText": "In Albania, vendor options are limited; a few Tirana-based studios handle art/QA, but core game-dev needs still rely on remote partners.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "VFX Artist (Real-Time): Compensation Benchmark",
+      "alignmentText": "In Albania (Tirana), VFX real-time pay trails top markets by 25\u201330%; lifestyle and lower costs help offset the gap.",
+      "alignmentValue": 5,
       "sameAsParent": false
     },
     {
@@ -1075,15 +1088,15 @@
       "alignmentValue": 5
     },
     {
-      "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "Tirana, Albania has shallow local VFX Real-Time pipelines; vacancies may stay open half a year or more; remote/global hiring can help.",
-      "alignmentValue": 4,
+      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
+      "alignmentText": "In Albania, VFX (real-time) education is nascent with few programs, mainly in Tirana. Most talent relies on on-the-job upskilling.",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "In Albania (Tirana), VFX real-time pay trails top markets by 25\u201330%; lifestyle and lower costs help offset the gap.",
-      "alignmentValue": 5,
+      "key": "VFX Artist (Real-Time): Hiring Velocity",
+      "alignmentText": "Tirana, Albania has shallow local VFX Real-Time pipelines; vacancies may stay open half a year or more; remote/global hiring can help.",
+      "alignmentValue": 4,
       "sameAsParent": false
     },
     {
@@ -1098,78 +1111,70 @@
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Talent Pool",
-      "alignmentText": "Tirana, Albania has a small community manager pool; availability is sporadic\u2014plan aggressive sourcing or remote/outsourced hires.",
+      "key": "VFX Artist (Real-Time): Talent Pool",
+      "alignmentText": "Albania\u0027s real-time VFX talent pool is small; Tirana has only a few local specialists outside main studios. Expect remote hiring or aggressive sourcing.",
       "alignmentValue": 4
     },
     {
-      "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "Albania\u0027s CM education is limited; only short certificates exist in Tirana and a few universities, so grads typically need mentoring.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "Albania offers sporadic community-manager trainings and local meetups; most learning remains self-directed, with remote options helping Trey\u0027s team.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Community Manager: Hiring Velocity",
-      "alignmentText": "Albania\u0027s local market for Community Managers is shallow; expect 6\u002B months, but remote/global candidates can speed hiring.",
-      "alignmentValue": 4,
+      "key": "View of Neighboring Countries",
+      "alignmentText": "In Albania, relations with Kosovo are warm. Greece and Serbia are watched cautiously due to historical tensions.",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "Albania CM pay trails top markets by ~25\u201330%. Local packages lean toward lower salaries with strong lifestyle perks in Tirana.",
-      "alignmentValue": 5,
+      "key": "View of self",
+      "alignmentText": "Albania\u0027s resilient, hospitable self-view aligns with a family seeking community, strong education, and straightforward, welcoming governance amid reforms.",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Language",
-      "alignmentText": "In Albania, English is common among community managers, but client-facing roles favor bilingual Albanian speakers; look for dual-language candidates.",
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Neighbors Greece, North Macedonia, and Kosovo view Albania\u0027s reform path with cautious optimism; corruption concerns temper cross-border trust.",
       "alignmentValue": 7
     },
     {
-      "key": "Community Manager: Remote Expectations",
-      "alignmentText": "Albania\u0027s IT scene supports hybrid work; remote CM roles exist but often require occasional Tirana onsite and steady collaboration.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "Albania\u0027s game PMM pool is small (Tirana); senior PMMs are scarce and studios few. Hiring may require aggressive sourcing or remote/contract PMMs.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "Albania\u0027s product marketing for games is nascent; few dedicated PMM tracks exist (mostly in Tirana), with generic marketing programs and mentoring needed.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
-      "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "Albania has limited local continuing education for game product marketing; most learning is remote, with few in-person workshops (Tirana).",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Product Marketing Manager (Games): Hiring Velocity",
-      "alignmentText": "Albania PMM (Games) hiring: local pipelines are shallow; rely on remote/imported talent with global searches and flexible incentives.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "In Albania (Tirana), PMM (Games) pay trails top markets by 25-30%. Remote work and lifestyle perks help offset the gap.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Product Marketing Manager (Games): Language",
-      "alignmentText": "Albania (Tirana): game marketing favors bilinguals; English is common in dev teams, Albanian helps with local campaigns.",
+      "key": "Visa Paths",
+      "alignmentText": "Albania provides residence permits for work, self-employment, and family reunification; remote-work options exist but are limited and require solid docs.",
       "alignmentValue": 7
     },
     {
-      "key": "Product Marketing Manager (Games): Remote Expectations",
-      "alignmentText": "Albania (Tirana): remote PM (Games) roles exist case-by-case; studios favor partial remote weeks with frequent onsite collaboration; broadband improving.",
-      "alignmentValue": 6
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "In Albania\u0027s cities (Tirana), sidewalks cover key zones but traffic can be brisk; for a family with kids, prioritize calm, park-adjacent neighborhoods.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Albania generally welcomes US migrants, especially in Tirana and coastal towns. Expats find active networks and broad English use, with some rural variation.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Albania\u0027s Bunk\u2019Art bunkers turned art and Old Bazaar charm in Tirana invite curious family exploration; coastal towns add mild climate and hands-on culture.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Winters in Tirana, Albania are mild (3-13\u00B0C); snow is rare, so light coats and outdoor life stay comfortable.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "Albania typically has a 40-hour workweek with remote/hybrid options. Occasional 42-45 hour sprints occur in outsourcing.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "8: Albania (Tirana) supports family time with remote work and a slower pace; crunch periods exist, but recovery time is offered.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "In Albania, labor laws protect contracts and overtime, but enforcement is patchy, especially in small firms.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     }
   ]
 }

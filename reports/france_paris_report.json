@@ -3,1090 +3,16 @@
   "iso": "FR",
   "values": [
     {
-      "key": "Environment",
-      "alignmentText": "Paris offers high environmental quality: abundant parks and Fontainebleau access; occasional pollution alerts, but family-friendly outdoors remain easy.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Global Warming Risk",
-      "alignmentText": "Paris, France: moderate warming risk; occasional heatwaves, but infrastructure and EU resilience programs mitigate impacts.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "Seasonal Weather (Paris, FR): Generally mild with pleasant springs and falls; occasional summer heat waves and cool winters\u2014light layers suffice.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "Paris air has PM2.5 around 12-20 \u00B5g/m\u00B3. NO2 spikes along the p\u00E9riph\u00E9rique mean we should monitor AQI daily and adjust outdoor plans for the kids.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "Paris, FR has rare hazards; floods and heat waves occur but are well managed by robust systems and planning.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Paris spring typically stays 12-23 C (54-73 F) with occasional chilly rain; layer up, but most weeks are comfortable for outdoor plans.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Paris, France summers typically stay 23-28 C with cool evenings and moderate humidity; parks and outdoor time feel comfortable without AC.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Paris, France falls in a mild 10\u201322\u00B0C autumn with occasional showers; great for family outdoor days in parks and along the Seine.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "Paris, France winters are mild. Sub-freezing nights occur but daytime temps hover around 5-10 C.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Beach Life",
-      "alignmentText": "Beaches exist within a few hours of Paris (Normandy/Brittany). They\u0027re good for occasional family trips, but not within 30 minutes.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "France\u0027s coastal waters reach 20-25\u00B0C in summer; Paris-area water is cooler, ~18-20\u00B0C in shoulder months; suitable for light swims with kids.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "Paris offers urban green spaces (Bois de Boulogne, Seine riversides) with easy weekly outdoor time; Fontainebleau trips add natural variety.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Minimum Wage",
-      "alignmentText": "Paris SMIC ~\u20AC1,766 gross; rent and childcare push family budgets tight; secondary income or subsidies often needed.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "Paris senior software salaries are solid but not US-level; dual incomes or remote work help sustain a comfortable family lifestyle.",
-      "alignmentValue": 7
-    },
-    {
       "key": ".NET Work Prospects",
       "alignmentText": "Paris hosts strong .NET demand across finance/tech; bilingual developers are valued, with remote/hybrid roles and visa options.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
-      "key": "Ruby Work Prospects",
-      "alignmentText": "Paris has a healthy Ruby market with mid/senior roles in startups; remote or hybrid work is common, though some standups may be in French.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Employer Visa Sponsorship",
-      "alignmentText": "Paris offers sponsorship for skilled tech workers via Talent Passport; dependents possible but require strong resumes and legal help.",
-      "alignmentValue": 7,
-      "sameAsParent": true
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "France/Paris shows solid fundamentals with strong safety nets; startup grants support Trey\u0027s venture, but bureaucracy and taxes temper growth.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "Paris, FR: remote and hybrid work are common; strong coworking options exist, though some roles still require occasional in-office days.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "In Paris, France, 35-hour weeks and strong parental leave support work\u2013life; most firms value downtime and allow remote/hybrid options with clear boundaries.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Work Week Hours",
-      "alignmentText": "In Paris, France, the norm is a 35-hour workweek with strict overtime caps. This supports family\u2011friendly work\u2013life balance.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "Paris, France offers ~5 weeks (25 days) of paid annual leave plus public holidays; strong protections for families.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Vacation Days (Typical)",
-      "alignmentText": "Paris, France typically offers about 25 paid vacation days, matching the family\u0027s preference for extended breaks with kids.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Pace of Life",
-      "alignmentText": "In Paris, calm pace is found in western suburbs like Issy-les-Moulineaux; central arrondissements stay busy, but balance is achievable.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Paris schools end around 16:30; after-school care bridges gaps, enabling remote/hybrid work with 8:30 drop-offs and ~17:00 pickups.",
+      "key": "2D Environmental Artist: Compensation Benchmark",
+      "alignmentText": "Paris pay for 2D environmental artists trails top hubs by ~10-15%. Solid benefits help offset high living costs.",
       "alignmentValue": 7,
       "sameAsParent": false
-    },
-    {
-      "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Paris weekends offer family-friendly events and parks with reliable transit. Reservations may be needed for popular spots.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Family Life",
-      "alignmentText": "In Paris, France, families enjoy universal healthcare, strong childcare, and parks; but high housing costs and busy city life temper ease.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Polyamory",
-      "alignmentText": "In Paris, polyamorous families face mixed reactions. French law defaults to monogamy, complicating parental rights.",
-      "alignmentValue": 5,
-      "sameAsParent": true
-    },
-    {
-      "key": "Parenting Expectations",
-      "alignmentText": "Paris, FR values diverse parenting; strong parental leave, universal childcare, and secular schools support your family\u0027s modern approach.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "alignmentText": "Paris offers abundant parks and family-friendly neighborhoods; stroller access is good in many areas, but busy central districts require extra vigilance.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Schooling Options",
-      "alignmentText": "Paris offers a broad mix of public and bilingual schools plus private options; district-level admissions vary but strong pathways exist for bilingual exposure.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Paris has strong public childcare and some bilingual options. However, waitlists are long, so families mix public slots with private care.",
-      "alignmentValue": 7,
-      "sameAsParent": true
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "Paris offers strong childcare subsidies (cr\u00E8ches, PAJE) and free maternelle from age 3; lotteries and backups with assistantes maternelles are common.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "In France (Paris), visa families can access CAF subsidies (CMG) after registration, but processing delays require upfront cash for initial months.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "France has universal public schooling with free materials. In Paris, access is broad, though newcomers may need language support.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "In Paris, visa-holding families can enroll children in public schools; expect proof of residence and some paperwork, with available French language support.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Private Education",
-      "alignmentText": "Strong private options exist in Paris with international and bilingual schools; expect premium tuition but good access for expat families.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Family Policy (Citizens)",
-      "alignmentText": "France (Paris) offers strong parental leave, child allowances, housing aid, and flexible work laws for a two-kid family.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Family Policy (Visa Holders)",
-      "alignmentText": "Access exists but is opaque for visa families in France; regular benefits are limited without long residency or employer sponsorship.",
-      "alignmentValue": 6,
-      "sameAsParent": true
-    },
-    {
-      "key": "Higher Education Access (Citizens)",
-      "alignmentText": "Paris, France offers subsidized public universities with low tuition. Scholarships and broad degree options enhance access for residents.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "Paris, France offers public universities with moderate fees for visa holders. International offices help, but residency and work-study limits can apply.",
-      "alignmentValue": 7,
-      "sameAsParent": true
-    },
-    {
-      "key": "Gender Roles",
-      "alignmentText": "Paris, FR backs egalitarian parenting and strong parental leave; the couple\u0027s shared caregiving fits local norms.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "Paris, France offers strong protections and accessible support for gender-diverse individuals; urban services and legal options are readily available.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "France\u0027s gender rights are strong and enforceable; Paris offers solid protections for families, equality in law, and anti-discrimination measures.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "Paris, FR: diverse femininity expressions widely supported; women can lead in tech and public life, with only minor pockets of conservatism.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "Paris, France: masculine norms are evolving; nurturing, expressive fathering is increasingly accepted in a bilingual, family-friendly culture.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "What Is Intriguing",
-      "alignmentText": "Paris pairs historic charm with modern innovation, feeding family curiosity. English-friendly services and universal healthcare ease settling in.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Language \u0026 English Ubiquity",
-      "alignmentText": "In Paris, English is widely used in daily life and services; official processes still favor French. Plan to learn French.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Progressivism",
-      "alignmentText": "Paris, France is broadly progressive with universal healthcare, strong civil rights, and high civic engagement; policies swing with elections.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "Paris, France: left discourse is active in academia and unions; Marxist ideas shape debate but policy remains pluralistic.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Atheism",
-      "alignmentText": "Paris, FR: secular norms are strong; atheism is broadly accepted and can engage secular institutions openly, with minimal social friction.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Sex (Attitudes)",
-      "alignmentText": "In Paris, sexual health education is comprehensive and destigmatized. Attitudes are inclusive of diverse identities with accessible resources.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "LGBTQ\u002B Attitudes",
-      "alignmentText": "Paris, FR: LGBTQ\u002B protections strong and urban acceptance high; rural areas may vary.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Vibes",
-      "alignmentText": "Paris has welcoming expat and parent networks; rich community life around parks and schools makes it easy for newcomers to settle.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "View of self",
-      "alignmentText": "France (Paris) projects confident, pluralistic civic pride with universal healthcare; acknowledges immigration and security debates.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "View of Neighboring Countries",
-      "alignmentText": "Paris, FR: neighbors are generally friendly; Schengen mobility makes cross-border trips to Belgium, Germany, and Spain easy for family life.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of Them by Neighboring Countries",
-      "alignmentText": "8 - France enjoys solid EU ties; neighbors view it positively. Paris is seen as cosmopolitan, safe, and travel-friendly for families.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Nightlife Culture",
-      "alignmentText": "Paris nightlife is vibrant and generally safe, with family-friendly districts and late dining. Efficient metro and trains make evening outings easy.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Fashion Trends (Male)",
-      "alignmentText": "Paris, FR: Men\u0027s fashion is diverse and expressive in urban Parisian venues. This fits the family\u0027s cosmopolitan, trend-forward outlook.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Fashion Trends (Female)",
-      "alignmentText": "In Paris, France, women\u0027s fashion is dynamic and inclusive with broad style freedom. Body-positivity and diverse looks are embraced in urban settings.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Common Hobbies",
-      "alignmentText": "Paris offers strong access to board games and climbing clubs, aligning with Trey and Sarah\u0027s hobbies; plenty family-friendly venues.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Boardgaming \u0026 Tabletop",
-      "alignmentText": "Paris, France offers a thriving boardgaming scene with cafes, shops, and family-friendly events; regular meetups are common.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Nightlife \u0026 Music",
-      "alignmentText": "Paris, FR offers vibrant live music and regular concerts; many venues offer early shows and family-friendly events accessible by metro.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Meetups \u0026 Communities",
-      "alignmentText": "Paris, France offers a vibrant expat/tech scene and many parent-friendly meetups; English-friendly groups abound, easing networks for Trey and Sarah.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Nature Access",
-      "alignmentText": "Paris, France offers abundant urban nature: parks and riverwalks within an hour by transit, great for family outdoor time.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Political System",
-      "alignmentText": "France (Paris) offers a stable democracy with strong rule of law and civil liberties. Reforms occur through open civic channels and an active civil society.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Religion in Politics",
-      "alignmentText": "In Paris, France, la\u00EFcit\u00E9 keeps church and state separate. Personal faith is respected within a pluralistic framework.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Workers\u0027 Rights",
-      "alignmentText": "Paris, FR provides robust workers\u2019 protections with strong unions and real legal recourse, aligning with the family\u2019s stable, fair employment goals.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "State Ideology",
-      "alignmentText": "Paris, France upholds pluralism and human rights with open debate. Strong protections fit your progressive, family-focused goals.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Paris, France maintains strong democratic safeguards with independent courts and media. Risk of backsliding remains low for families like ours.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "State of Capitalism",
-      "alignmentText": "Paris\u0027 economy is dynamic yet regulated, with strong safety nets and universal healthcare. It supports innovation and fair competition.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Stability",
-      "alignmentText": "France remains stable with strong healthcare and education; expect occasional protests in Paris, but daily life and safety stay solid.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "Paris, France: pluralistic media thrive; propaganda is rare and quickly challenged, supporting open civic dialogue.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "In Paris, FR, public and independent outlets largely provide factual, inclusive civic messaging with plural voices. Propaganda spin is limited.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "Paris, France offers universal healthcare and strong family benefits for children. Housing support helps families with young kids, but some bureaucracy remains.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "In Paris, trust in government is mixed for expats: solid public services, but bureaucracy can slow things; stay with transparent, documented processes.",
-      "alignmentValue": 6,
-      "sameAsParent": true
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "Paris, France: corruption perception is low with active watchdogs and strong institutions. Occasional sector concerns exist but overall trust remains.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "France\u0027s corruption is largely petty/local with strong oversight; in Paris you\u0027ll find transparent administration and accessible public services.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "Paris area is pricey with limited stock. 3-bed family flats in RER suburbs offer space, but deposits/landlord checks slow the hunt.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Safety \u0026 Crime",
-      "alignmentText": "Paris is generally safe with low violent crime; be vigilant in tourist spots like Ch\u00E2telet and during protests.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "France\u0027s universal health system provides high-quality, timely care with low out-of-pocket costs and strong pediatric services in Paris.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "In Paris, France, visa households can access public healthcare via Assurance Maladie with enrollment; a mutuelle supplemental plan is recommended.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "Paris, FR has strong public childcare with subsidies (creches, CAF); reliable backups exist, though waitlists require early planning.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "Paris, France offers strong universal healthcare, childcare subsidies, and good public schools; bureaucracy and taxes can be high.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Education",
-      "alignmentText": "Education in Paris, FR offers universal public schooling and strong early childhood programs; bilingual options exist, but district quality varies.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "Paris offers a comprehensive transit network. Metro, RER, and tram lines cover the city and \u00CEle-de-France, easing family commutes.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "Paris, France offers a strong mixed economy with grants and robust governance, but bureaucracy and taxes can slow daily entrepreneurship.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "France uses a digital, largely pre-filled tax system with clear guidance; Paris residents often navigate it smoothly, though language can be a hurdle.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "France (Paris): expected tax near 25% due to the parts system; solid public services and universal healthcare offset the cost.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Banking \u0026 Payments",
-      "alignmentText": "In Paris, France, banking is modern with SEPA and English support; opening an account may require docs for non-residents.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "Paris is costly; about \u20AC4k\u2013\u20AC4.5k/mo for housing, childcare, and transport; suburbs cut costs but add commute time.",
-      "alignmentValue": 4
-    },
-    {
-      "key": "Retirement (Citizens)",
-      "alignmentText": "Paris, FR offers solid public pensions and universal healthcare. Reform risks could affect future retirement benefits.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "Paris, FR: retirement is available for visa holders but requires years of French contributions; self-employed founders may face higher fees.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Visa Paths",
-      "alignmentText": "France/Paris offers several visa routes for a US founder and a tech dev: Talent Passport, Startup/Tech Visa, EU Blue Card; processes are clear but documentation-heavy.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "Paris is generally friendly to US migrants; expat networks and English-friendly services aid settling, with occasional curiosity.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Residency Types \u0026 Durations",
-      "alignmentText": "France (Paris) offers multiple entrepreneur residency routes with multi-year terms; renewals require ongoing activity and funding proof.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Path to Citizenship",
-      "alignmentText": "France allows dual citizenship; naturalization after about 4\u20135 years of residence with language requirements. In Paris, the path is feasible but bureaucratic.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Family Members",
-      "alignmentText": "Paris supports family reunification for spouses and minor children; Trey\u0027s entrepreneur visa path can enable Sarah and the kids to join.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Timelines \u0026 Costs",
-      "alignmentText": "In Paris, US family visa steps often finish within 4\u20136 months. Fees are predictable and typically under a few thousand euros.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Compliance \u0026 Risks",
-      "alignmentText": "France\u0027s visa journey for US first-timers is manageable but has a moderate paperwork burden; in Paris expect French forms and scheduling checks.",
-      "alignmentValue": 6,
-      "sameAsParent": true
-    },
-    {
-      "key": "Dual Citizenship Allowed",
-      "alignmentText": "France fully permits dual US citizenship with minimal reporting; in Paris you can hold both passports while living and working.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "General Considerations for Visa Holders",
-      "alignmentText": "France (Paris) offers long-stay visas and startup routes with solid healthcare. Voting rights and some subsidies remain limited for visa holders.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Game Dev Work Prospects",
-      "alignmentText": "Paris, France hosts major studios (Ubisoft, Dontnod, Quantic Dream); steady openings and remote EU gigs boost Trey\u0027s game dev prospects.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Hiring Velocity (Established Studios)",
-      "alignmentText": "Paris studios like Ubisoft and Dontnod hire actively. US visa processing can slow timelines, so expect around 3 months to fill roles, with remote options.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Compensation Benchmark (Established Studios)",
-      "alignmentText": "In Paris, established studios generally offer compensation near global medians after cost-of-living adjustments. Solid base plus family-friendly benefits.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Established Studios)",
-      "alignmentText": "Paris studios use English for cross-border work; learning French will help with schools, community, and bureaucratic tasks.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote Expectations (Established Studios)",
-      "alignmentText": "In Paris, France, studios commonly offer hybrid and remote options with formal policies. This fits Trey\u0027s remote/founder setup and Sarah\u0027s need for predictable hours.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Notable Game Studios",
-      "alignmentText": "Paris, France, anchors Ubisoft HQ, Quantic Dream, and indie Motion Twin; Trey would benefit from a strong local game-scene network.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "Paris offers regular game dev meetups, vibrant hubs, and mentorship via Paris Games Week and Women in Games France; welcoming newcomers and families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Paris offers CNC grants, the Cr\u00E9dit d\u0027imp\u00F4t jeux vid\u00E9o, and Station F incubator support for Trey\u0027s studio funding and mentorship.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Hiring Velocity (Startups)",
-      "alignmentText": "In Paris, CNC grants, the Jeux Vid\u00E9o tax credit, and Station F support Trey\u0027s studio; hires typically close in 6-8 weeks.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Compensation Benchmark (Startups)",
-      "alignmentText": "Paris startup pay mixes cash and equity, aligned with global medians after cost of living. France offers grants/tech visa options that help founders.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentText": "Paris startups rely on English for investors and platform work; local French fluency is essential for hiring, compliance, and community reach.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentText": "In Paris, startups lean hybrid work with mature remote tooling; senior roles often remote-ready, aiding family-friendly plans.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Modernity \u0026 Infrastructure",
-      "alignmentText": "Paris offers gigabit fiber, strong reliability, and expanding transit (Grand Paris Express); ideal for a tech-focused family.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Seasonal Extremes \u0026 Variability",
-      "alignmentText": "Paris, FR has generally mild seasons with occasional extremes. Prepare for rare heat waves and cold snaps.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Seasonal Sunlight Hours",
-      "alignmentText": "Paris winters bring noticeable darkness; with regular outdoor breaks and occasional light therapy, the family can stay energized in France.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pleasant Weather Windows",
-      "alignmentText": "Paris, FR offers mild springs and falls for most of the year. Summers can be warm and damp, winters chilly, so plan outdoor days accordingly.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Quality of Life \u2013 Lower-Income Tier",
-      "alignmentText": "In Paris, France, basic needs are covered with strong public services, but high housing costs and childcare gaps can strain a modest budget.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Quality of Life \u2013 Middle-Income Tier",
-      "alignmentText": "Paris offers comfortable living with careful budgeting; strong public services, universal healthcare, and childcare support ease costs for a family.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Quality of Life \u2013 Higher-Income Tier",
-      "alignmentText": "In Paris, high-income families enjoy culture, healthcare, and education; but elite tutors and clubs can be pricey and require planning.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "2k sq ft rentals in Paris are scarce and move fast; expect premium rents and broker help to secure a family-sized apartment.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Community Living Opportunities",
-      "alignmentText": "Paris offers several reputable co-housing/habitat participatif options. Entry paths exist but may require patience for families.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Friendliness \u0026 Neighborliness Index",
-      "alignmentText": "Paris, FR: locals are polite and open when you take initiative; expect gradual ties in family-friendly arrondissements and active expat networks.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 General",
-      "alignmentText": "Paris, France is generally welcoming to immigrants, with strong healthcare access. Occasional national rhetoric can create mild concerns for new arrivals.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 White Migrants",
-      "alignmentText": "Paris is generally welcoming to White migrants. Learning French helps smooth occasional stereotypes and build local ties.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Surface Interaction Norms",
-      "alignmentText": "In Paris, service is generally friendly when you initiate; staff respond positively and English helps, making everyday errands feel smooth.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Depth-Seeking Social Norms",
-      "alignmentText": "Paris offers steady openings via expat and tech groups; with consistent, respectful outreach, deep bonds can form.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Personal Boundary \u0026 Bubble Norms",
-      "alignmentText": "In Paris, France, personal space can be compressed in crowds; gently assert boundaries and use brief verbal cues to navigate closeness.",
-      "alignmentValue": 6,
-      "sameAsParent": true
-    },
-    {
-      "key": "Moral, Honesty \u0026 Openness Expectations",
-      "alignmentText": "In Paris, openness is welcomed but diplomacy matters; discuss healthcare, schooling, and family needs clearly while respecting French etiquette.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Grooming \u0026 Beauty Investment",
-      "alignmentText": "Paris fashion culture leans toward polished looks in social and work settings. Plan a balanced grooming routine that fits a busy family life.",
-      "alignmentValue": 7,
-      "sameAsParent": true
-    },
-    {
-      "key": "Body Image \u0026 Fitness Pressure",
-      "alignmentText": "Paris, France offers an inclusive fitness culture; body diversity is visible and well-being takes priority over appearance.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Fashion \u0026 Style Expectations",
-      "alignmentText": "Paris fashion leans chic; smart-casual fits daily, with a touch more polish in central districts; family areas allow comfortable, practical outfits.",
-      "alignmentValue": 7,
-      "sameAsParent": true
-    },
-    {
-      "key": "Flirting Boundaries \u0026 Consent Culture",
-      "alignmentText": "Paris, FR: consent norms are generally respectful; occasional missteps occur - practice direct boundary checks, especially in nightlife.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gendered Flirting Expectations",
-      "alignmentText": "Paris, FR offers inclusive flirting norms; all genders can initiate or decline without stigma. It aligns with our progressive, sex-positive family values.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "Paris, FR: urban tolerance exists for non-monogamy, but openness is discreet; civil unions matter, mainstream spaces lean monogamy.",
-      "alignmentValue": 7,
-      "sameAsParent": true
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "alignmentText": "Paris, France: casual dating is common in urban circles. Some communities still prefer discretion.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
-      "alignmentText": "Paris, France shows openness varies for group relationships. Understanding circles exist, but institutions remain discreet.",
-      "alignmentValue": 7,
-      "sameAsParent": true
-    },
-    {
-      "key": "Personal Space \u0026 Touch Norms",
-      "alignmentText": "In Paris, close contact in transit is common; greetings include cheek kisses among friends. Politely set boundaries when needed.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Firearm Laws \u0026 Ownership Culture",
-      "alignmentText": "France\u0027s strict gun laws and licensing in Paris keep ownership low; public exposure to firearms is minimal, supporting family safety.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Controlled Substance Policies",
-      "alignmentText": "Paris, France: possession is illegal with penalties; harm-reduction services exist, but rules remain moderately punitive for illicit substances.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "Paris, France: enforcement is targeted with occasional district crackdowns. Favor stable, family-friendly neighborhoods to minimize risk.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "Paris, France has seen sporadic mass violence in the past decade, shaping our venue choices. We stay vigilant at large gatherings.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Carceral Conditions \u0026 Prison Labor",
-      "alignmentText": "Paris prisons are generally compliant with EU standards and oversight; some facilities show transparency gaps; ongoing monitoring is advised.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Walkability \u0026 Pedestrian Safety",
-      "alignmentText": "Paris, France offers strong pedestrian accessibility in many areas with good crossings. For a family with young children, avoid a few busy streets.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Community Health Consciousness",
-      "alignmentText": "In Paris, FR, public health messaging and universal healthcare support family wellness. Abundant markets and parks help the family stay active.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Processed Food Saturation",
-      "alignmentText": "Paris-area access to fresh markets and whole foods is strong; convenient processed options exist, but healthy choices are easy with planning.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fresh \u0026 International Cuisine Access",
-      "alignmentText": "Paris offers abundant fresh markets and global cuisine; most cravings met locally, with only rare gaps.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "Depression prevalence in Paris, FR is manageable with universal healthcare and active mental health programs; some wait times exist.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Obesity Rate",
-      "alignmentText": "Paris\u0027s walkable streets and public health programs help keep obesity moderate for families; community efforts stabilize trends across France.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Cancer Incidence",
-      "alignmentText": "France/Paris cancer incidence aligns with global norms. France\u0027s strong screening and early-detection programs support timely care.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "9: Paris\u0027 diverse economy and strong social safety nets support quick hiring rebounds; tech roles and remote work fit this family.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Studio Density",
-      "alignmentText": "Paris, FR hosts a strong game/animation scene with dozens of studios from AAA to indie. It\u2019s a well-connected ecosystem with collaboration and funding opportunities.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Anchor Employers",
-      "alignmentText": "Paris, France hosts Ubisoft Paris along with Dontnod and Quantic Dream, creating a strong game-dev ecosystem with solid recruitment and training.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "Paris has a solid vendor scene for art, QA, and engineering; multiple studios and freelancers exist, but capacity can tighten during peak cycles.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Education Pipeline Strength",
-      "alignmentText": "Paris hosts Gobelins/ENSAD/ISART with strong game-focused tracks; studios offer internships, but some programs still need extra industry experience.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Continuing Education Availability",
-      "alignmentText": "Paris offers regular bootcamps and frequent meetups (Le Wagon) plus university continuing education programs. This supports Trey and Sarah\u0027s upskilling.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Activity",
-      "alignmentText": "Paris, France hosts frequent dev meetups, game jams, and annual conferences; strong international dev networks.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Engine Community Bias",
-      "alignmentText": "Paris, France hosts active Unreal and Unity scenes with meetups, studios, and funding options; strong cross-pollination fits Trey\u0027s game dev plans.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "Paris, France has a strong real-time game scene with capable cinematic work; both real-time and pre-rendered pipelines are well represented.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Demand\u2013Supply Balance",
-      "alignmentText": "Paris offers a robust tech scene with grants and visa options; game/web/cloud roles are competitive, but remote/hybrid hiring helps.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Retention \u0026 Churn Risk",
-      "alignmentText": "Paris tech scene offers steady roles with strong labor protections and visas; occasional project pauses exist, but long tenure is common in FR.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Diversity \u0026 Inclusion Index",
-      "alignmentText": "Paris firms show D\u0026I commitments and LGBTQ\u002B protections. Progress varies by studio, aligning with our progressive, family-friendly preferences.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "France/Paris offers strong game-dev tax credits (CIJG) and grants; supports Trey\u2019s startup with funding access and a growing EU ecosystem.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Economic/Policy Stability",
-      "alignmentText": "France (Paris) provides stable policy support for games/tech, with EU subsidies and tax credits; policy shifts are manageable.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Founder/Operator Community",
-      "alignmentText": "Paris hosts a growing founder base with Station F and La French Tech. Regular meetups and mentorship support early-stage teams.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Early-Stage Capital Access",
-      "alignmentText": "Paris offers reliable public grants and generalist funds for game startups; strong ecosystem via Bpifrance and EU programs.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Accelerator/Incubator Access",
-      "alignmentText": "Paris offers occasional game-focused cohorts; strong general accelerators (e.g., Station F) but no guaranteed annual game track.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Senior Talent Availability",
-      "alignmentText": "Paris has a solid senior tech pool; startups can recruit locally with competitive offers and EU talent mobility.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Contractor/Freelancer Bench",
-      "alignmentText": "Paris, France has a healthy contractor bench across tech and media; onboarding is quick, though top talent may book weeks ahead.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Coworking \u0026 Startup Infrastructure",
-      "alignmentText": "Paris has abundant coworking (Station F, NUMA) and strong startup support; great for indie game dev with grants, broadband, and EU access.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Legal \u0026 IP Support",
-      "alignmentText": "Paris has strong game IP support with many French/European IP firms, clinics, and INPI resources; startup-friendly counsel available, including tech lawyers.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Publisher/Platform Relationships",
-      "alignmentText": "In Paris, France, local publisher presence is limited; founders rely on international events for platform relationships.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Market Research \u0026 Playtesting",
-      "alignmentText": "Paris has a growing game scene with studios and user groups; expect some lead time to run playtests, but solid EU player feedback.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Government/Startup Visas",
-      "alignmentText": "France/Paris offers the French Tech Visa for founders with family options; a clear, founder-friendly path with reasonable processing.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Cost of Doing Business",
-      "alignmentText": "Paris offers grants and a strong dev scene, but high rents and payroll taxes raise costs; plan for a tighter runway.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "Paris, FR has a strong game/film arts scene with many mid-to-senior 3D character artists. Steady supply comes from studios and freelancers.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "Paris hosts Gobelins and ENSAD with strong 3D animation programs; steady flow of graduates ready for game/film studios.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "Paris, France offers robust CE for 3D character art: Gobelins/ENSAD short courses, studios, and active meetups with solid instructors.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "Paris has a strong game/dev scene; 3D character artist roles typically take 2\u20133 months due to competition and limited specialist pools.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "Paris, France pays 3D character artists ~10-15% below top hubs; still attracts experienced talent with strong benefits and family-friendly policies.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Character Artist: Language",
-      "alignmentText": "Paris, France\u0027s 3D character scene uses English widely, with multilingual studios. Learning French will help daily life and local collaboration.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Character Artist: Remote Expectations",
-      "alignmentText": "Paris studios commonly offer hybrid 3D artist roles; fully remote needs negotiation. Remote options suit this family given remote-friendly tech culture.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Talent Pool",
-      "alignmentText": "Paris, France has a robust 3D animation scene with studios and freelancers. Strong mid-to-senior talent and ongoing project work.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "Paris hosts top 3D animation programs (Gobelins, ENSAD); graduates regularly place in local studios with strong portfolios.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "Paris, France offers regular 3D animation short courses through Gobelins and local studios; some programs in English with strong instructors.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "In Paris, France, 3D animator roles typically close in 1-2 months due to a strong EU talent pool. English is common; some roles favor French.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "Paris 3D animator pay ~20% below global medians; lifestyle, family-friendly policies, and English-friendly work culture offset the gap.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Language",
-      "alignmentText": "Paris, France hosts many English-friendly animation studios; French is used for local teams, bilingual candidates favored.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Animator: Remote Expectations",
-      "alignmentText": "Paris studios offer some remote 3D animator roles, but it\u0027s often limited and negotiated. Many studios prioritise on-site collaboration.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "Paris hosts major studios (Ubisoft Paris, Dontnod) and outsourcing shops; strong 2D environmental artist talent with recent shipped projects.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "Paris has Gobelins and ENSAD plus others, yielding a robust pipeline of 2D environmental artists for local studios.",
-      "alignmentValue": 9
     },
     {
       "key": "2D Environmental Artist: Continuing Education Availability",
@@ -1095,14 +21,13 @@
       "sameAsParent": false
     },
     {
-      "key": "2D Environmental Artist: Hiring Velocity",
-      "alignmentText": "Paris has a strong game-dev cluster; 2D environmental artist roles are in steady demand. Expect 2-3 months to hire with relocation needs.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "key": "2D Environmental Artist: Education Pipeline Strength",
+      "alignmentText": "Paris has Gobelins and ENSAD plus others, yielding a robust pipeline of 2D environmental artists for local studios.",
+      "alignmentValue": 9
     },
     {
-      "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "Paris pay for 2D environmental artists trails top hubs by ~10-15%. Solid benefits help offset high living costs.",
+      "key": "2D Environmental Artist: Hiring Velocity",
+      "alignmentText": "Paris has a strong game-dev cluster; 2D environmental artist roles are in steady demand. Expect 2-3 months to hire with relocation needs.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -1118,48 +43,213 @@
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "Paris has a solid VFX Real-Time talent pool anchored by major studios (Ubisoft, Fortiche); competition for senior roles is noticeable.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "key": "2D Environmental Artist: Talent Pool",
+      "alignmentText": "Paris hosts major studios (Ubisoft Paris, Dontnod) and outsourcing shops; strong 2D environmental artist talent with recent shipped projects.",
+      "alignmentValue": 8
     },
     {
-      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "Paris hosts multiple strong VFX (real-time) programs (Gobelins, ENSAD, ESRA) feeding local studios. The ecosystem supports game/film studios like Ubisoft Paris.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "Paris offers ongoing VFX/real-time courses (Gobelins/CNAM) and regular meetups. Strong instructors support practical upskilling.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "VFX Artist (Real-Time): Hiring Velocity",
-      "alignmentText": "Paris real-time VFX hires typically take 3-4 months. Proactive sourcing and relocation support may be needed.",
+      "key": "3D Animator: Compensation Benchmark",
+      "alignmentText": "Paris 3D animator pay ~20% below global medians; lifestyle, family-friendly policies, and English-friendly work culture offset the gap.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "Paris VFX real-time pay trails top hubs by 25\u201330%; expect solid local packages, benefits, and good public healthcare; lifestyle helps offset gap.",
-      "alignmentValue": 5,
+      "key": "3D Animator: Continuing Education Availability",
+      "alignmentText": "Paris, France offers regular 3D animation short courses through Gobelins and local studios; some programs in English with strong instructors.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "3D Animator: Education Pipeline Strength",
+      "alignmentText": "Paris hosts top 3D animation programs (Gobelins, ENSAD); graduates regularly place in local studios with strong portfolios.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "3D Animator: Hiring Velocity",
+      "alignmentText": "In Paris, France, 3D animator roles typically close in 1-2 months due to a strong EU talent pool. English is common; some roles favor French.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Language",
-      "alignmentText": "Paris VFX (Real-Time) roles rely on English; studios are multilingual, but client work often requires French.",
+      "key": "3D Animator: Language",
+      "alignmentText": "Paris, France hosts many English-friendly animation studios; French is used for local teams, bilingual candidates favored.",
       "alignmentValue": 8
     },
     {
-      "key": "VFX Artist (Real-Time): Remote Expectations",
-      "alignmentText": "Paris, FR offers a mature real-time VFX scene with hybrid/remote options. Studios frequently provide equipment stipends for remote work.",
+      "key": "3D Animator: Remote Expectations",
+      "alignmentText": "Paris studios offer some remote 3D animator roles, but it\u0027s often limited and negotiated. Many studios prioritise on-site collaboration.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "3D Animator: Talent Pool",
+      "alignmentText": "Paris, France has a robust 3D animation scene with studios and freelancers. Strong mid-to-senior talent and ongoing project work.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Character Artist: Compensation Benchmark",
+      "alignmentText": "Paris, France pays 3D character artists ~10-15% below top hubs; still attracts experienced talent with strong benefits and family-friendly policies.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Character Artist: Continuing Education Availability",
+      "alignmentText": "Paris, France offers robust CE for 3D character art: Gobelins/ENSAD short courses, studios, and active meetups with solid instructors.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Education Pipeline Strength",
+      "alignmentText": "Paris hosts Gobelins and ENSAD with strong 3D animation programs; steady flow of graduates ready for game/film studios.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Hiring Velocity",
+      "alignmentText": "Paris has a strong game/dev scene; 3D character artist roles typically take 2\u20133 months due to competition and limited specialist pools.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Language",
+      "alignmentText": "Paris, France\u0027s 3D character scene uses English widely, with multilingual studios. Learning French will help daily life and local collaboration.",
       "alignmentValue": 8
     },
     {
-      "key": "Community Manager: Talent Pool",
-      "alignmentText": "Paris, FR offers a solid community manager pool. Mid- to senior-level pros span studios and agencies; top roles may be competitive.",
+      "key": "3D Character Artist: Remote Expectations",
+      "alignmentText": "Paris studios commonly offer hybrid 3D artist roles; fully remote needs negotiation. Remote options suit this family given remote-friendly tech culture.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Talent Pool",
+      "alignmentText": "Paris, FR has a strong game/film arts scene with many mid-to-senior 3D character artists. Steady supply comes from studios and freelancers.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Accelerator/Incubator Access",
+      "alignmentText": "Paris offers occasional game-focused cohorts; strong general accelerators (e.g., Station F) but no guaranteed annual game track.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Paris air has PM2.5 around 12-20 \u00B5g/m\u00B3. NO2 spikes along the p\u00E9riph\u00E9rique mean we should monitor AQI daily and adjust outdoor plans for the kids.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Anchor Employers",
+      "alignmentText": "Paris, France hosts Ubisoft Paris along with Dontnod and Quantic Dream, creating a strong game-dev ecosystem with solid recruitment and training.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "Paris, FR: secular norms are strong; atheism is broadly accepted and can engage secular institutions openly, with minimal social friction.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Paris, France maintains strong democratic safeguards with independent courts and media. Risk of backsliding remains low for families like ours.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "In Paris, France, banking is modern with SEPA and English support; opening an account may require docs for non-residents.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Beaches exist within a few hours of Paris (Normandy/Brittany). They\u0027re good for occasional family trips, but not within 30 minutes.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "Paris, France offers a thriving boardgaming scene with cafes, shops, and family-friendly events; regular meetups are common.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "Paris, France offers an inclusive fitness culture; body diversity is visible and well-being takes priority over appearance.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "9: Paris\u0027 diverse economy and strong social safety nets support quick hiring rebounds; tech roles and remote work fit this family.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "France/Paris cancer incidence aligns with global norms. France\u0027s strong screening and early-detection programs support timely care.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "Paris prisons are generally compliant with EU standards and oversight; some facilities show transparency gaps; ongoing monitoring is advised.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Paris, FR has strong public childcare with subsidies (creches, CAF); reliable backups exist, though waitlists require early planning.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Paris offers abundant parks and family-friendly neighborhoods; stroller access is good in many areas, but busy central districts require extra vigilance.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Paris offers strong childcare subsidies (cr\u00E8ches, PAJE) and free maternelle from age 3; lotteries and backups with assistantes maternelles are common.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "In France (Paris), visa families can access CAF subsidies (CMG) after registration, but processing delays require upfront cash for initial months.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "Paris offers strong access to board games and climbing clubs, aligning with Trey and Sarah\u0027s hobbies; plenty family-friendly venues.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Community Activity",
+      "alignmentText": "Paris, France hosts frequent dev meetups, game jams, and annual conferences; strong international dev networks.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "In Paris, FR, public health messaging and universal healthcare support family wellness. Abundant markets and parks help the family stay active.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Paris offers several reputable co-housing/habitat participatif options. Entry paths exist but may require patience for families.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Community Manager: Compensation Benchmark",
+      "alignmentText": "Paris CM pay generally aligns with global medians after cost of living; startups may offer equity, but top-tier packages aren\u0027t universal.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Continuing Education Availability",
+      "alignmentText": "Paris, France offers regular community manager workshops and online courses; English-friendly options support flexible, family-friendly learning.",
       "alignmentValue": 8
     },
     {
@@ -1169,18 +259,8 @@
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "Paris, France offers regular community manager workshops and online courses; English-friendly options support flexible, family-friendly learning.",
-      "alignmentValue": 8
-    },
-    {
       "key": "Community Manager: Hiring Velocity",
       "alignmentText": "Paris\u0027 vibrant digital market supports bilingual (English/French) Community Manager hires; typical 1-2 month searches, with minor visa/contract delays possible.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "Paris CM pay generally aligns with global medians after cost of living; startups may offer equity, but top-tier packages aren\u0027t universal.",
       "alignmentValue": 8
     },
     {
@@ -1196,15 +276,571 @@
       "sameAsParent": false
     },
     {
-      "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "Paris, France has a strong PMM (Games) pool with mid- to senior-level pros from Ubisoft Paris, Dontnod, and indie studios. Senior roles are competitive.",
+      "key": "Community Manager: Talent Pool",
+      "alignmentText": "Paris, FR offers a solid community manager pool. Mid- to senior-level pros span studios and agencies; top roles may be competitive.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Paris has welcoming expat and parent networks; rich community life around parks and schools makes it easy for newcomers to settle.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "In Paris, established studios generally offer compensation near global medians after cost-of-living adjustments. Solid base plus family-friendly benefits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "Paris startup pay mixes cash and equity, aligned with global medians after cost of living. France offers grants/tech visa options that help founders.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "France\u0027s visa journey for US first-timers is manageable but has a moderate paperwork burden; in Paris expect French forms and scheduling checks.",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "Continuing Education Availability",
+      "alignmentText": "Paris offers regular bootcamps and frequent meetups (Le Wagon) plus university continuing education programs. This supports Trey and Sarah\u0027s upskilling.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Contractor/Freelancer Bench",
+      "alignmentText": "Paris, France has a healthy contractor bench across tech and media; onboarding is quick, though top talent may book weeks ahead.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
-      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "Paris hosts a few game-marketing oriented programs and partnerships with studios; dedicated PMM (games) tracks are limited, requiring upskilling.",
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Paris, France: possession is illegal with penalties; harm-reduction services exist, but rules remain moderately punitive for illicit substances.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Cost of Doing Business",
+      "alignmentText": "Paris offers grants and a strong dev scene, but high rents and payroll taxes raise costs; plan for a tighter runway.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Paris is costly; about \u20AC4k\u2013\u20AC4.5k/mo for housing, childcare, and transport; suburbs cut costs but add commute time.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Paris has abundant coworking (Station F, NUMA) and strong startup support; great for indie game dev with grants, broadband, and EU access.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Paris offers a robust tech scene with grants and visa options; game/web/cloud roles are competitive, but remote/hybrid hiring helps.",
       "alignmentValue": 7
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "Depression prevalence in Paris, FR is manageable with universal healthcare and active mental health programs; some wait times exist.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "Paris offers steady openings via expat and tech groups; with consistent, respectful outreach, deep bonds can form.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Paris firms show D\u0026I commitments and LGBTQ\u002B protections. Progress varies by studio, aligning with our progressive, family-friendly preferences.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "Paris, France: enforcement is targeted with occasional district crackdowns. Favor stable, family-friendly neighborhoods to minimize risk.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "France fully permits dual US citizenship with minimal reporting; in Paris you can hold both passports while living and working.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Early Stage Grants Available",
+      "alignmentText": "Paris, France offers early-stage grants via Bpifrance and EU programs. MVP funding ranges around $150k-$350k, with competition.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Early-Stage Capital Access",
+      "alignmentText": "Paris offers reliable public grants and generalist funds for game startups; strong ecosystem via Bpifrance and EU programs.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "France/Paris shows solid fundamentals with strong safety nets; startup grants support Trey\u0027s venture, but bureaucracy and taxes temper growth.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Paris, France offers a strong mixed economy with grants and robust governance, but bureaucracy and taxes can slow daily entrepreneurship.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Economic/Policy Stability",
+      "alignmentText": "France (Paris) provides stable policy support for games/tech, with EU subsidies and tax credits; policy shifts are manageable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Education in Paris, FR offers universal public schooling and strong early childhood programs; bilingual options exist, but district quality varies.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Education Pipeline Strength",
+      "alignmentText": "Paris hosts Gobelins/ENSAD/ISART with strong game-focused tracks; studios offer internships, but some programs still need extra industry experience.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Paris offers sponsorship for skilled tech workers via Talent Passport; dependents possible but require strong resumes and legal help.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Engine Community Bias",
+      "alignmentText": "Paris, France hosts active Unreal and Unity scenes with meetups, studios, and funding options; strong cross-pollination fits Trey\u0027s game dev plans.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "Paris offers high environmental quality: abundant parks and Fontainebleau access; occasional pollution alerts, but family-friendly outdoors remain easy.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "France (Paris): expected tax near 25% due to the parts system; solid public services and universal healthcare offset the cost.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Paris, France falls in a mild 10\u201322\u00B0C autumn with occasional showers; great for family outdoor days in parks and along the Seine.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "In Paris, France, families enjoy universal healthcare, strong childcare, and parks; but high housing costs and busy city life temper ease.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Paris supports family reunification for spouses and minor children; Trey\u0027s entrepreneur visa path can enable Sarah and the kids to join.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "France (Paris) offers strong parental leave, child allowances, housing aid, and flexible work laws for a two-kid family.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Paris, France offers strong universal healthcare, childcare subsidies, and good public schools; bureaucracy and taxes can be high.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Access exists but is opaque for visa families in France; regular benefits are limited without long residency or employer sponsorship.",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "Paris fashion leans chic; smart-casual fits daily, with a touch more polish in central districts; family areas allow comfortable, practical outfits.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "In Paris, France, women\u0027s fashion is dynamic and inclusive with broad style freedom. Body-positivity and diverse looks are embraced in urban settings.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "Paris, FR: Men\u0027s fashion is diverse and expressive in urban Parisian venues. This fits the family\u0027s cosmopolitan, trend-forward outlook.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "Paris, FR: diverse femininity expressions widely supported; women can lead in tech and public life, with only minor pockets of conservatism.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "France\u0027s strict gun laws and licensing in Paris keep ownership low; public exposure to firearms is minimal, supporting family safety.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "Paris, FR: consent norms are generally respectful; occasional missteps occur - practice direct boundary checks, especially in nightlife.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Founder/Operator Community",
+      "alignmentText": "Paris hosts a growing founder base with Station F and La French Tech. Regular meetups and mentorship support early-stage teams.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "Paris offers abundant fresh markets and global cuisine; most cravings met locally, with only rare gaps.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "Paris, FR: locals are polite and open when you take initiative; expect gradual ties in family-friendly arrondissements and active expat networks.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Paris, France hosts major studios (Ubisoft, Dontnod, Quantic Dream); steady openings and remote EU gigs boost Trey\u0027s game dev prospects.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Paris, France offers strong protections and accessible support for gender-diverse individuals; urban services and legal options are readily available.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "France\u0027s gender rights are strong and enforceable; Paris offers solid protections for families, equality in law, and anti-discrimination measures.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "Paris, FR backs egalitarian parenting and strong parental leave; the couple\u0027s shared caregiving fits local norms.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "Paris, FR offers inclusive flirting norms; all genders can initiate or decline without stigma. It aligns with our progressive, sex-positive family values.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "France (Paris) offers long-stay visas and startup routes with solid healthcare. Voting rights and some subsidies remain limited for visa holders.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Paris, France: moderate warming risk; occasional heatwaves, but infrastructure and EU resilience programs mitigate impacts.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Government/Startup Visas",
+      "alignmentText": "France/Paris offers the French Tech Visa for founders with family options; a clear, founder-friendly path with reasonable processing.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "Paris fashion culture leans toward polished looks in social and work settings. Plan a balanced grooming routine that fits a busy family life.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "Paris, France shows openness varies for group relationships. Understanding circles exist, but institutions remain discreet.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "France\u0027s universal health system provides high-quality, timely care with low out-of-pocket costs and strong pediatric services in Paris.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "In Paris, France, visa households can access public healthcare via Assurance Maladie with enrollment; a mutuelle supplemental plan is recommended.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Paris, France offers subsidized public universities with low tuition. Scholarships and broad degree options enhance access for residents.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "Paris, France offers public universities with moderate fees for visa holders. International offices help, but residency and work-study limits can apply.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Hiring Velocity (Established Studios)",
+      "alignmentText": "Paris studios like Ubisoft and Dontnod hire actively. US visa processing can slow timelines, so expect around 3 months to fill roles, with remote options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Hiring Velocity (Startups)",
+      "alignmentText": "In Paris, CNC grants, the Jeux Vid\u00E9o tax credit, and Station F support Trey\u0027s studio; hires typically close in 6-8 weeks.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Paris area is pricey with limited stock. 3-bed family flats in RER suburbs offer space, but deposits/landlord checks slow the hunt.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "France uses a digital, largely pre-filled tax system with clear guidance; Paris residents often navigate it smoothly, though language can be a hurdle.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "Paris, France is generally welcoming to immigrants, with strong healthcare access. Occasional national rhetoric can create mild concerns for new arrivals.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "Paris is generally welcoming to White migrants. Learning French helps smooth occasional stereotypes and build local ties.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "France has universal public schooling with free materials. In Paris, access is broad, though newcomers may need language support.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "In Paris, visa-holding families can enroll children in public schools; expect proof of residence and some paperwork, with available French language support.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "In Paris, English is widely used in daily life and services; official processes still favor French. Plan to learn French.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Language (Established Studios)",
+      "alignmentText": "Paris studios use English for cross-border work; learning French will help with schools, community, and bureaucratic tasks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language (Startups)",
+      "alignmentText": "Paris startups rely on English for investors and platform work; local French fluency is essential for hiring, compliance, and community reach.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Paris has strong game IP support with many French/European IP firms, clinics, and INPI resources; startup-friendly counsel available, including tech lawyers.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "Paris, FR: LGBTQ\u002B protections strong and urban acceptance high; rural areas may vary.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Paris has a growing game scene with studios and user groups; expect some lead time to run playtests, but solid EU player feedback.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "Paris, France: left discourse is active in academia and unions; Marxist ideas shape debate but policy remains pluralistic.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Paris, France: masculine norms are evolving; nurturing, expressive fathering is increasingly accepted in a bilingual, family-friendly culture.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Paris, France has seen sporadic mass violence in the past decade, shaping our venue choices. We stay vigilant at large gatherings.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "Paris, France offers a vibrant expat/tech scene and many parent-friendly meetups; English-friendly groups abound, easing networks for Trey and Sarah.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Paris SMIC ~\u20AC1,766 gross; rent and childcare push family budgets tight; secondary income or subsidies often needed.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "Paris offers gigabit fiber, strong reliability, and expanding transit (Grand Paris Express); ideal for a tech-focused family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "Paris, FR: urban tolerance exists for non-monogamy, but openness is discreet; civil unions matter, mainstream spaces lean monogamy.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "In Paris, openness is welcomed but diplomacy matters; discuss healthcare, schooling, and family needs clearly while respecting French etiquette.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Paris offers urban green spaces (Bois de Boulogne, Seine riversides) with easy weekly outdoor time; Fontainebleau trips add natural variety.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Paris, FR has rare hazards; floods and heat waves occur but are well managed by robust systems and planning.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Paris, France offers abundant urban nature: parks and riverwalks within an hour by transit, great for family outdoor time.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Paris, FR offers vibrant live music and regular concerts; many venues offer early shows and family-friendly events accessible by metro.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Paris nightlife is vibrant and generally safe, with family-friendly districts and late dining. Efficient metro and trains make evening outings easy.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Paris offers regular game dev meetups, vibrant hubs, and mentorship via Paris Games Week and Women in Games France; welcoming newcomers and families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Paris, France, anchors Ubisoft HQ, Quantic Dream, and indie Motion Twin; Trey would benefit from a strong local game-scene network.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Paris\u0027s walkable streets and public health programs help keep obesity moderate for families; community efforts stabilize trends across France.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Paris offers CNC grants, the Cr\u00E9dit d\u0027imp\u00F4t jeux vid\u00E9o, and Station F incubator support for Trey\u0027s studio funding and mentorship.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "In Paris, calm pace is found in western suburbs like Issy-les-Moulineaux; central arrondissements stay busy, but balance is achievable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Paris, FR values diverse parenting; strong parental leave, universal childcare, and secular schools support your family\u0027s modern approach.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "France allows dual citizenship; naturalization after about 4\u20135 years of residence with language requirements. In Paris, the path is feasible but bureaucratic.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Paris, France: corruption perception is low with active watchdogs and strong institutions. Occasional sector concerns exist but overall trust remains.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "In Paris, France, personal space can be compressed in crowds; gently assert boundaries and use brief verbal cues to navigate closeness.",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "In Paris, close contact in transit is common; greetings include cheek kisses among friends. Politely set boundaries when needed.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "Paris, FR offers mild springs and falls for most of the year. Summers can be warm and damp, winters chilly, so plan outdoor days accordingly.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "France (Paris) offers a stable democracy with strong rule of law and civil liberties. Reforms occur through open civic channels and an active civil society.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "In Paris, polyamorous families face mixed reactions. French law defaults to monogamy, complicating parental rights.",
+      "alignmentValue": 5,
+      "sameAsParent": true
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Paris has strong public childcare and some bilingual options. However, waitlists are long, so families mix public slots with private care.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "Strong private options exist in Paris with international and bilingual schools; expect premium tuition but good access for expat families.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "Paris-area access to fresh markets and whole foods is strong; convenient processed options exist, but healthy choices are easy with planning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Product Marketing Manager (Games): Compensation Benchmark",
+      "alignmentText": "Paris PMM (Games) compensation trails top markets by ~25-30%, with strong benefits in France. High QoL and family-friendly policies can offset pay gaps.",
+      "alignmentValue": 5
     },
     {
       "key": "Product Marketing Manager (Games): Continuing Education Availability",
@@ -1212,15 +848,15 @@
       "alignmentValue": 7
     },
     {
+      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
+      "alignmentText": "Paris hosts a few game-marketing oriented programs and partnerships with studios; dedicated PMM (games) tracks are limited, requiring upskilling.",
+      "alignmentValue": 7
+    },
+    {
       "key": "Product Marketing Manager (Games): Hiring Velocity",
       "alignmentText": "In Paris, France, PMM (Games) hiring typically takes 2-3 months due to niche talent. English-friendly studios and remote options help the family.",
       "alignmentValue": 7,
       "sameAsParent": false
-    },
-    {
-      "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "Paris PMM (Games) compensation trails top markets by ~25-30%, with strong benefits in France. High QoL and family-friendly policies can offset pay gaps.",
-      "alignmentValue": 5
     },
     {
       "key": "Product Marketing Manager (Games): Language",
@@ -1231,6 +867,376 @@
       "key": "Product Marketing Manager (Games): Remote Expectations",
       "alignmentText": "Paris game studios commonly offer hybrid PMM roles; remote work supported with async workflows and periodic on-site collaboration.",
       "alignmentValue": 9
+    },
+    {
+      "key": "Product Marketing Manager (Games): Talent Pool",
+      "alignmentText": "Paris, France has a strong PMM (Games) pool with mid- to senior-level pros from Ubisoft Paris, Dontnod, and indie studios. Senior roles are competitive.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Paris, France is broadly progressive with universal healthcare, strong civil rights, and high civic engagement; policies swing with elections.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "Paris, France: casual dating is common in urban circles. Some communities still prefer discretion.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "In Paris, FR, public and independent outlets largely provide factual, inclusive civic messaging with plural voices. Propaganda spin is limited.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Paris, France: pluralistic media thrive; propaganda is rare and quickly challenged, supporting open civic dialogue.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Paris offers a comprehensive transit network. Metro, RER, and tram lines cover the city and \u00CEle-de-France, easing family commutes.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Publisher/Platform Relationships",
+      "alignmentText": "In Paris, France, local publisher presence is limited; founders rely on international events for platform relationships.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "In Paris, high-income families enjoy culture, healthcare, and education; but elite tutors and clubs can be pricey and require planning.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "In Paris, France, basic needs are covered with strong public services, but high housing costs and childcare gaps can strain a modest budget.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "Paris offers comfortable living with careful budgeting; strong public services, universal healthcare, and childcare support ease costs for a family.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Real-Time vs Pre-Rendered Focus",
+      "alignmentText": "Paris, France has a strong real-time game scene with capable cinematic work; both real-time and pre-rendered pipelines are well represented.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "In Paris, France, la\u00EFcit\u00E9 keeps church and state separate. Personal faith is respected within a pluralistic framework.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Remote Expectations (Established Studios)",
+      "alignmentText": "In Paris, France, studios commonly offer hybrid and remote options with formal policies. This fits Trey\u0027s remote/founder setup and Sarah\u0027s need for predictable hours.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "In Paris, startups lean hybrid work with mature remote tooling; senior roles often remote-ready, aiding family-friendly plans.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "Paris, FR: remote and hybrid work are common; strong coworking options exist, though some roles still require occasional in-office days.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "France (Paris) offers multiple entrepreneur residency routes with multi-year terms; renewals require ongoing activity and funding proof.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Paris tech scene offers steady roles with strong labor protections and visas; occasional project pauses exist, but long tenure is common in FR.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "Paris, FR offers solid public pensions and universal healthcare. Reform risks could affect future retirement benefits.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "Paris, FR: retirement is available for visa holders but requires years of French contributions; self-employed founders may face higher fees.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Paris has a healthy Ruby market with mid/senior roles in startups; remote or hybrid work is common, though some standups may be in French.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "Paris is generally safe with low violent crime; be vigilant in tourist spots like Ch\u00E2telet and during protests.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Paris offers a broad mix of public and bilingual schools plus private options; district-level admissions vary but strong pathways exist for bilingual exposure.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "France\u0027s coastal waters reach 20-25\u00B0C in summer; Paris-area water is cooler, ~18-20\u00B0C in shoulder months; suitable for light swims with kids.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Paris, FR has generally mild seasons with occasional extremes. Prepare for rare heat waves and cold snaps.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Paris winters bring noticeable darkness; with regular outdoor breaks and occasional light therapy, the family can stay energized in France.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Seasonal Weather (Paris, FR): Generally mild with pleasant springs and falls; occasional summer heat waves and cool winters\u2014light layers suffice.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Senior Talent Availability",
+      "alignmentText": "Paris has a solid senior tech pool; startups can recruit locally with competitive offers and EU talent mobility.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "In Paris, sexual health education is comprehensive and destigmatized. Attitudes are inclusive of diverse identities with accessible resources.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Paris, France offers universal healthcare and strong family benefits for children. Housing support helps families with young kids, but some bureaucracy remains.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "2k sq ft rentals in Paris are scarce and move fast; expect premium rents and broker help to secure a family-sized apartment.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Paris spring typically stays 12-23 C (54-73 F) with occasional chilly rain; layer up, but most weeks are comfortable for outdoor plans.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "France remains stable with strong healthcare and education; expect occasional protests in Paris, but daily life and safety stay solid.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Paris, France upholds pluralism and human rights with open debate. Strong protections fit your progressive, family-focused goals.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "Paris\u0027 economy is dynamic yet regulated, with strong safety nets and universal healthcare. It supports innovation and fair competition.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Studio Density",
+      "alignmentText": "Paris, FR hosts a strong game/animation scene with dozens of studios from AAA to indie. It\u2019s a well-connected ecosystem with collaboration and funding opportunities.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "Paris, France summers typically stay 23-28 C with cool evenings and moderate humidity; parks and outdoor time feel comfortable without AC.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "In Paris, service is generally friendly when you initiate; staff respond positively and English helps, making everyday errands feel smooth.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Tax Incentives for Games/Creative",
+      "alignmentText": "France/Paris offers strong game-dev tax credits (CIJG) and grants; supports Trey\u2019s startup with funding access and a growing EU ecosystem.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "In Paris, US family visa steps often finish within 4\u20136 months. Fees are predictable and typically under a few thousand euros.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "In Paris, trust in government is mixed for expats: solid public services, but bureaucracy can slow things; stay with transparent, documented processes.",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "France\u0027s corruption is largely petty/local with strong oversight; in Paris you\u0027ll find transparent administration and accessible public services.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Paris senior software salaries are solid but not US-level; dual incomes or remote work help sustain a comfortable family lifestyle.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Paris weekends offer family-friendly events and parks with reliable transit. Reservations may be needed for popular spots.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Paris schools end around 16:30; after-school care bridges gaps, enabling remote/hybrid work with 8:30 drop-offs and ~17:00 pickups.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Paris, France offers ~5 weeks (25 days) of paid annual leave plus public holidays; strong protections for families.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Paris, France typically offers about 25 paid vacation days, matching the family\u0027s preference for extended breaks with kids.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Vendor/Outsource Ecosystem",
+      "alignmentText": "Paris has a solid vendor scene for art, QA, and engineering; multiple studios and freelancers exist, but capacity can tighten during peak cycles.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Compensation Benchmark",
+      "alignmentText": "Paris VFX real-time pay trails top hubs by 25\u201330%; expect solid local packages, benefits, and good public healthcare; lifestyle helps offset gap.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Continuing Education Availability",
+      "alignmentText": "Paris offers ongoing VFX/real-time courses (Gobelins/CNAM) and regular meetups. Strong instructors support practical upskilling.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
+      "alignmentText": "Paris hosts multiple strong VFX (real-time) programs (Gobelins, ENSAD, ESRA) feeding local studios. The ecosystem supports game/film studios like Ubisoft Paris.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Hiring Velocity",
+      "alignmentText": "Paris real-time VFX hires typically take 3-4 months. Proactive sourcing and relocation support may be needed.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "VFX Artist (Real-Time): Language",
+      "alignmentText": "Paris VFX (Real-Time) roles rely on English; studios are multilingual, but client work often requires French.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "VFX Artist (Real-Time): Remote Expectations",
+      "alignmentText": "Paris, FR offers a mature real-time VFX scene with hybrid/remote options. Studios frequently provide equipment stipends for remote work.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "VFX Artist (Real-Time): Talent Pool",
+      "alignmentText": "Paris has a solid VFX Real-Time talent pool anchored by major studios (Ubisoft, Fortiche); competition for senior roles is noticeable.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Paris, FR: neighbors are generally friendly; Schengen mobility makes cross-border trips to Belgium, Germany, and Spain easy for family life.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "View of self",
+      "alignmentText": "France (Paris) projects confident, pluralistic civic pride with universal healthcare; acknowledges immigration and security debates.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "8 - France enjoys solid EU ties; neighbors view it positively. Paris is seen as cosmopolitan, safe, and travel-friendly for families.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "France/Paris offers several visa routes for a US founder and a tech dev: Talent Passport, Startup/Tech Visa, EU Blue Card; processes are clear but documentation-heavy.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Paris, France offers strong pedestrian accessibility in many areas with good crossings. For a family with young children, avoid a few busy streets.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Paris is generally friendly to US migrants; expat networks and English-friendly services aid settling, with occasional curiosity.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Paris pairs historic charm with modern innovation, feeding family curiosity. English-friendly services and universal healthcare ease settling in.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Paris, France winters are mild. Sub-freezing nights occur but daytime temps hover around 5-10 C.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "In Paris, France, the norm is a 35-hour workweek with strict overtime caps. This supports family\u2011friendly work\u2013life balance.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "In Paris, France, 35-hour weeks and strong parental leave support work\u2013life; most firms value downtime and allow remote/hybrid options with clear boundaries.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "Paris, FR provides robust workers\u2019 protections with strong unions and real legal recourse, aligning with the family\u2019s stable, fair employment goals.",
+      "alignmentValue": 9,
+      "sameAsParent": true
     }
   ]
 }

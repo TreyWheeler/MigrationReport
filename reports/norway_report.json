@@ -3,1013 +3,15 @@
   "iso": "NO",
   "values": [
     {
-      "key": "Environment",
-      "alignmentText": "Norway\u0027s world-class environmental protections keep fjords, forests, and parks pristine. Clean air supports safe outdoor play for the kids.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Global Warming Risk",
-      "alignmentText": "Norway faces moderate warming with occasional heatwaves and heavier rains. Strong adaptation planning and robust infrastructure keep daily life manageable.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "Norway\u0027s mild summers and long, dark winters create a clear seasonal rhythm; summers are outdoor-friendly, winters require warm gear and indoor time.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "Norway\u0027s air is extremely clean, with rare spikes outside urban centers. Filtration is rarely needed and sensitive family members stay symptom-free.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "Norway sees occasional avalanches and floods in mountains, but strict building codes, early warning systems, and strong social insurance limit family risk.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Norway spring swings: mild afternoons with near-freezing mornings; frequent wardrobe changes needed in Oslo.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Norway summers stay in the low 20s \u00B0C with cool nights; brief heatwaves to ~30 \u00B0C occur, but nights stay under 20 \u00B0C and fans suffice.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "Norway autumn ranges from warm afternoons to frosty nights; layer up for Oslo-area days with rain and wind.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "Norway winters (Oslo area) run about \u22125 to 3 \u00B0C with reliable snow; regular freezes demand gear, but heating and services stay manageable.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Beach Life",
-      "alignmentText": "Norway\u0027s scenic fjord beaches are tidy and family-friendly, but cold water and short summers limit casual beach days.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "Norway\u0027s peak-summer sea stays around 15\u201317 \u00B0C; expect brief dips or wetsuits for the kids on beaches.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "Norway\u0027s iconic fjords and aurora are accessible with easy, family-friendly trails for frequent weekend getaways.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Minimum Wage",
-      "alignmentText": "Norway has no universal minimum wage; pay is set by sector agreements with strong protections. High housing costs can limit savings for families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "Strong Norwegian software salaries in Oslo support a family with dual incomes, but high taxes and living costs require careful budgeting.",
-      "alignmentValue": 7
-    },
-    {
       "key": ".NET Work Prospects",
       "alignmentText": "Norway\u0027s Oslo tech scene offers strong .NET demand across enterprise and public sectors. Stay plugged into local networks and visa pathways.",
       "alignmentValue": 9
     },
     {
-      "key": "Ruby Work Prospects",
-      "alignmentText": "Norway\u0027s Ruby market is moderate, centered in Oslo startups/agencies; remote work is common, but growth lags top stacks - okay for Sarah.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Employer Visa Sponsorship",
-      "alignmentText": "Norway commonly sponsors skilled IT workers; work permits hinge on a salary offer and job offer, with dependents allowed.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "Norway\u0027s diversified economy and sovereign wealth fund keep unemployment low; oil swings cushioned, with tech and services growth supporting families.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "In Norway, remote work is widely practiced; hybrid norms predominate and broadband supports Trey and Sarah\u0027s needs.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "Norway\u0027s work culture protects evenings and weekends; flexible schedules and strong parental leave let Sarah and Trey prioritize family milestones.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Work Week Hours",
-      "alignmentText": "Norway typically has a 35-37.5 hour week with strong work-life balance and limited overtime. Family-friendly policies fit the profile.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "Workers receive at least 25 paid days plus holidays, giving ample space for family travel with notice.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Vacation Days (Typical)",
-      "alignmentText": "Norway typically grants 25 vacation days plus about 10 public holidays; great for family travel and steady downtime across the country.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Pace of Life",
-      "alignmentText": "Norway\u2019s cities are efficient yet unhurried; short commutes and strong work-life balance suit your family\u2019s slower pace across NO.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "Norway\u0027s universal childcare and SFO cover hours. Schools run ~08:00-15:00 with wraparound care to ~16:30, supporting flexible, remote-friendly schedules.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "Norway weekends offer rich family options\u2014parks, kid-friendly activities, and safe transit; some venues fill quickly, so plan ahead.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Family Life",
-      "alignmentText": "Norway offers generous parental leave, universal childcare, and safe, family-friendly neighborhoods. Public schools are strong and healthcare is universal.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Polyamory",
-      "alignmentText": "Norway\u0027s cities are highly tolerant of polyamory; Oslo-area networks support families, though some services remain cautious.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Parenting Expectations",
-      "alignmentText": "Norway\u0027s family policy supports diverse parenting; parental leave and subsidized childcare ease work-family balance. Schools and services are supportive.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "alignmentText": "Norway\u0027s cities are family-friendly: safe crossings, stroller-friendly streets, and playgrounds. Oslo and other towns offer childcare and universal healthcare.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Schooling Options",
-      "alignmentText": "Oslo, Norway offers multiple high-quality public and international schools with bilingual options. Admissions are generally fair, with some waitlists.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Norway\u0027s barnehage offers universal access with capped fees; city slots are plentiful, though fall-start waitlists exist; some centers offer English.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "Norway\u0027s childcare is heavily subsidized with capped fees and guaranteed slots; parental leave is generous, benefiting a two-child household.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "Norway subsidizes barnehage for residents; visa holders may face waiting lists and need early registration.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "Norway offers tuition-free public schooling with strong special education and language support. Transfers are straightforward.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "Visa holders can enroll in Norway\u0027s public schools with full resources. Early Norwegian language immersion is supported to assist integration.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Private Education",
-      "alignmentText": "Private/international schools exist but are limited and can be pricey; many expat families rely on Norway\u2019s strong public schools with English-friendly options.",
-      "alignmentValue": 6,
-      "sameAsParent": true
-    },
-    {
-      "key": "Family Policy (Citizens)",
-      "alignmentText": "Norway provides generous parental leave and universal child benefits; flexible work laws and subsidized childcare support families like yours.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Visa Holders)",
-      "alignmentText": "In Norway, visa families access most benefits after residence registration; some cash supports require longer residency or employer sponsorship.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Higher Education Access (Citizens)",
-      "alignmentText": "Public universities in Norway are tuition-free for citizens with strong loan/grant support. L\u00E5nekassen offers loans and grants across many programs.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "Norway\u0027s public universities are tuition-free for international students; visa holders enjoy low costs and strong paths to work after studies.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Gender Roles",
-      "alignmentText": "In Norway, gender roles are highly egalitarian: both parents share caregiving and careers, with strong parental leave and universal childcare.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "In urban Norway, gender-diverse people enjoy strong protections and acceptance. Some rural areas still lag on official documents.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "Norway offers robust gender rights: strong anti-discrimination laws, parental leave, and LGBTQ\u002B protections with strong enforcement.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "In Norway (NO), gender equality supports diverse femininity; sexism is rare, with only minor pockets in traditional sectors.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "Norway\u0027s egalitarian culture supports involved fathers. Trey\u0027s nurturing parenting style aligns with local norms.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "What Is Intriguing",
-      "alignmentText": "Norway\u0027s outdoor culture and Oslo\u0027s design-forward, collaborative tech scene offer frequent family-friendly discoveries.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Language \u0026 English Ubiquity",
-      "alignmentText": "English is widely used in urban Norway workplaces. Schools and government offices still rely on Norwegian.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Progressivism",
-      "alignmentText": "Norway\u0027s healthcare, LGBTQ\u002B rights, and climate action reflect the family\u0027s progressive values. In Norway, inclusive policies support education and community.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "In Norway, Marxist ideas linger in academia; mainstream policy remains social-democratic, with open debate but limited policy influence.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Atheism",
-      "alignmentText": "Norway\u0027s secular culture is strong; atheists are widely accepted and can access public services and education easily.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Sex (Attitudes)",
-      "alignmentText": "Norway offers comprehensive, destigmatized sex education with inclusive norms, aligning with the family\u0027s progressive values in NO.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "LGBTQ\u002B Attitudes",
-      "alignmentText": "Norway provides strong LGBTQ\u002B protections nationwide. Oslo and other cities host Pride events and inclusive services.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Community Vibes",
-      "alignmentText": "Norway\u0027s communities are welcoming but privacy-valuing. Newcomers build ties through family-friendly clubs and local activities.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "View of self",
-      "alignmentText": "Norway\u0027s modest, trust-based self-view mirrors our family\u0027s emphasis on community, education, and welfare in NO.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "View of Neighboring Countries",
-      "alignmentText": "Norway has strong Nordic ties with Sweden and Denmark; cross-border travel and cultural exchange are celebrated.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Norway is viewed as stable and cooperative by neighbors. Oslo\u0027s welfare system, solid schools, and broad English access foster trust, despite higher prices.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Nightlife Culture",
-      "alignmentText": "Nightlife exists in central Oslo/Bergen; prices are high and late hours vary, so family date nights require planning and babysitters.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fashion Trends (Male)",
-      "alignmentText": "Norway\u0027s urban fashion leans minimalist and functional; in Oslo, Trey can wear practical layers with neutral tones to blend in.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fashion Trends (Female)",
-      "alignmentText": "Norway\u0027s fashion is expressive and practical; in Oslo, Scandinavian chic meets versatile layers for Sarah\u0027s professional, family-friendly style.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Common Hobbies",
-      "alignmentText": "In Norway, hiking and skiing are mainstream family hobbies; board games and rock climbing have growing local communities.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Boardgaming \u0026 Tabletop",
-      "alignmentText": "Oslo and Trondheim host board game caf\u00E9s; Norway\u0027s cities offer an active scene with family-friendly events, though groups outside hubs require coordination.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Nightlife \u0026 Music",
-      "alignmentText": "Norway\u2019s cities (Oslo, Bergen) boast live music and festivals across genres; safe transport and family-friendly options support your plans.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Meetups \u0026 Communities",
-      "alignmentText": "Frequent English-friendly meetups in Oslo and other cities for tech, parenting, and expat networks; inclusive venues, though some events are Norwegian-first.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Nature Access",
-      "alignmentText": "Norway\u0027s Everyman\u0027s Right makes nature access easy. Oslo-area trails and nearby parks are reachable by public transit.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Political System",
-      "alignmentText": "Norway\u0027s transparent, participatory parliamentary system with strong rule of law supports stable governance and pro-family policies.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Religion in Politics",
-      "alignmentText": "Religion shapes culture in Norway, but policy remains evidence-based and pluralistic across Oslo and the country.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Workers\u0027 Rights",
-      "alignmentText": "Norway offers strong workers\u0027 rights with broad union coverage, sector agreements, and robust protections for working parents.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "State Ideology",
-      "alignmentText": "Norway\u0027s inclusive, evidence-based welfare state provides universal healthcare, strong schools, and generous parental leave, well aligned with your family.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "Norway\u0027s strong institutions, free media, and civic life keep authoritarian backsliding risk very low for your family.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "State of Capitalism",
-      "alignmentText": "Norway\u0027s balanced social market blends innovation with strong safety nets and fair competition; family-friendly policies support work-life balance.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Stability",
-      "alignmentText": "Norway\u0027s stable politics and strong welfare support your family\u0027s long-term plans. Clear rules and low risk aid steady housing and schooling in Oslo.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "In Norway\u0027s pluralistic media landscape, independent outlets and watchdogs keep state messaging in check; propaganda is rare and quickly countered.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "Norway\u0027s public messaging emphasizes wellbeing and inclusivity, with transparent health and education policies that fit this family\u0027s values.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "Norway\u0027s universal healthcare, generous parental leave, and inclusive education align with the family\u0027s priorities in NO.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "Norway\u0027s government is highly trusted due to transparency and universal services. This suits your family\u0027s need for stable, family-friendly policies.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "Norway is among the least corrupt nations; transparent governance and watchdogs support safe, predictable public services for families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "Norway (NO) has very low corruption; robust institutions quickly address procurement glitches, keeping daily life stable for families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "Norway\u0027s city housing is pricey and competitive; family-friendly areas with parks exist, but bidding wars and deposits can strain finances.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Safety \u0026 Crime",
-      "alignmentText": "Norway\u0027s very low crime and strong social safety nets make neighborhoods exceptionally safe; kids can roam locally with confidence.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "Norway offers universal healthcare with low out-of-pocket costs and strong pediatric care for your kids. Wait times for specialists can be a drawback.",
+      "key": "2D Environmental Artist: Compensation Benchmark",
+      "alignmentText": "Norway offers competitive 2D environmental artist pay with strong benefits; salaries align with global medians after adjusting for high living costs.",
       "alignmentValue": 8,
       "sameAsParent": false
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Visa holders in Norway gain public healthcare after registration; initial waits apply and some private options may be needed.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "Norway provides universal, subsidized barnehage with fee caps and guaranteed municipal spots; a robust system supports two working parents.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "Norway provides extensive family benefits: long parental leave, child stipends, universal childcare, and flexible work rights; minimal bureaucracy.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Education",
-      "alignmentText": "Norway offers universal, high-quality public schools with inclusive, play-based early learning. Strong bilingual options align with family\u0027s priorities.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "Oslo\u0027s metro, tram, and rail network is extensive for urban and inner-suburban areas. Expect reliable service for families, with occasional weekend gaps.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "Norway\u0027s strong welfare-driven, mixed economy delivers high living standards, fair regulation, and supports innovation and social mobility for families.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "Norway\u2019s digital tax system uses pre-filled returns and automatic withholding with clear guidance. Strong family deductions support this household\u0027s tax planning.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "Norway dual earners face ~30-35% taxes. Strong public services offset costs for our family.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Banking \u0026 Payments",
-      "alignmentText": "Norway\u0027s cashless system, Vipps, and fast transfers suit this family. Account setup is straightforward with residency and English-friendly support.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "Norway has high grocery/utility costs, but strong public services, childcare subsidies, and solid tech wages keep a 4-person family budget manageable.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Retirement (Citizens)",
-      "alignmentText": "Norway\u0027s universal healthcare and strong pension system (state \u002B occupational) provide solid retirement security for citizens like you.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "Norway\u0027s public pension is accessible to visa holders after several years of contributions; residency requirements apply.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Visa Paths",
-      "alignmentText": "Norway offers skilled-worker and startup visas; most options need a Norwegian job offer or startup capital, with thorough, sponsor-linked processing.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "Norway generally welcomes US migrants; strong language and integration programs aid settling, especially in Oslo, with some city-vs-rural variation.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Residency Types \u0026 Durations",
-      "alignmentText": "Norway offers startup and skilled-worker permits; initial terms are time-limited and tied to activity, with a path to permanent residency.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Path to Citizenship",
-      "alignmentText": "Norway naturalization usually requires 6\u20138 years of residence plus language/social studies. Dual citizenship is allowed, making the path moderate for this family.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Family Members",
-      "alignmentText": "Norway allows family reunification for partners and children; adult partners may face extra steps and proof of funds.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Timelines \u0026 Costs",
-      "alignmentText": "Norway family-immigration can take up to a year; fees are moderate, but translations and document prep add time and cost.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Compliance \u0026 Risks",
-      "alignmentText": "Norway: timely UDI registration and meeting salary thresholds; follow guidelines to avoid minor penalties; expect periodic checks but processes are clear.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Dual Citizenship Allowed",
-      "alignmentText": "Norway allows dual citizenship with the US; keeping both is permitted with no major restrictions, aligning with the family\u0027s US passports.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "General Considerations for Visa Holders",
-      "alignmentText": "Norway requires a D-number/ID to access banking and healthcare; the first month can be slow, but residency rights unlock with permit renewals.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Game Dev Work Prospects",
-      "alignmentText": "Oslo, Norway hosts a growing game dev scene with several studios and evolving funding. Trey can blend local gigs with remote work.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Hiring Velocity (Established Studios)",
-      "alignmentText": "In Oslo, established studios hire steadily; typical fills take around 3 months, with remote options for Trey.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Compensation Benchmark (Established Studios)",
-      "alignmentText": "8: In Norway, established studios generally match global medians after cost of living; competitive, family-friendly packages with strong benefits in Oslo.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Established Studios)",
-      "alignmentText": "In Norway, established studios rely on English for cross-border work; local Norwegian fluency remains important for docs, compliance, and community.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Remote Expectations (Established Studios)",
-      "alignmentText": "Norway\u0027s established studios favor hybrid work; remote roles exist for senior staff, aligning with Trey/Sarah\u0027s remote/hybrid expectations.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Notable Game Studios",
-      "alignmentText": "Norway has a handful of studios (Funcom in Oslo, Krillbite) giving a recognizable, modest game-scene with intermittent releases.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "Oslo, Norway hosts regular game jams and coworking meetups; families and newcomers can engage in a supportive dev scene.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Norway offers Innovation Norway grants and startup support; the domestic game market is small, so studios look abroad for funding.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Hiring Velocity (Startups)",
-      "alignmentText": "Norway startup hiring typically takes ~3 months; Innovation Norway grants help founders. For a two-adult, two-kid family, this fits relocation timelines.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Compensation Benchmark (Startups)",
-      "alignmentText": "Norway startup comp roughly tracks global medians after cost of living; strong grants and benefits, equity meaningful but high living costs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentText": "In Norway, English is widely used in startups; local Norwegian fluency aids hiring, compliance, and community outreach.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentText": "In Norway, startups commonly run hybrid work with solid remote tooling; aligns with the family\u0027s need for flexible hours and remote options.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Modernity \u0026 Infrastructure",
-      "alignmentText": "Norway\u0027s nationwide fiber, reliable power, and robust Oslo transit and digital services support remote work, gaming latency, and easy family logistics.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Seasonal Extremes \u0026 Variability",
-      "alignmentText": "Norway: seasons are generally predictable, but winters bring snow and wind; expect a few extreme days and rely on solid infrastructure.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Seasonal Sunlight Hours",
-      "alignmentText": "Norway\u0027s winter days are short; we\u0027ll maintain morale with routines, supplements, and occasional sun getaways.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Pleasant Weather Windows",
-      "alignmentText": "Norway features two mild seasons (late spring - early fall); the rest of the year needs planning for rain and chill.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Quality of Life \u2013 Lower-Income Tier",
-      "alignmentText": "Norway\u0027s universal healthcare and subsidized childcare cushion costs for a US-origin family; housing in Oslo can be pricey, but public services support stability.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Quality of Life \u2013 Middle-Income Tier",
-      "alignmentText": "In Norway, universal healthcare and family policies boost QoL, but high housing and childcare costs can squeeze a middle-income budget.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Quality of Life \u2013 Higher-Income Tier",
-      "alignmentText": "Norway offers top public services and abundant premium services; most needs are met, though some exclusive clubs or private tutors may require advance booking.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "Norway\u0027s Oslo metro has tight 2k sq ft rentals. Availability often requires broker help and longer commutes to family-friendly suburbs.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Community Living Opportunities",
-      "alignmentText": "Norway (Oslo area) has a few reputable co-living/co-op options; demand may require patience, but family-friendly setups exist.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Friendliness \u0026 Neighborliness Index",
-      "alignmentText": "Norway: locals polite and helpful to newcomers; expect gradual but steady connections, aided by English-friendly communities.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 General",
-      "alignmentText": "Norway broadly welcomes immigrants and has strong welfare and language support for families. Still, occasional debates exist.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 White Migrants",
-      "alignmentText": "Norway offers mostly comfortable reception for skilled migrants; learning Norwegian and building local ties helps integration.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Surface Interaction Norms",
-      "alignmentText": "In Norway (NO), most service interactions are warm and efficient; English is widely understood, making daily errands smooth.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Depth-Seeking Social Norms",
-      "alignmentText": "Norway\u0027s egalitarian vibe supports trust; with steady effort, join clubs or parent groups to form deep bonds within months.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Personal Boundary \u0026 Bubble Norms",
-      "alignmentText": "In Norway, personal space is respected; expect minimal touch and clear verbal cues, especially in Oslo transit and public spaces.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Moral, Honesty \u0026 Openness Expectations",
-      "alignmentText": "In Norway, direct, respectful honesty is valued; share concerns openly with a non-judgmental, egalitarian tone.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Grooming \u0026 Beauty Investment",
-      "alignmentText": "Norway\u0027s casual-but-neat work culture matches our startup vibe; appearance is balanced, with no pressure to overdo grooming.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Body Image \u0026 Fitness Pressure",
-      "alignmentText": "Norway\u0027s inclusive, health-focused culture supports body positivity; occasional body-image talk may arise; establish clear boundaries to protect the kids.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fashion \u0026 Style Expectations",
-      "alignmentText": "Norway favors tidy smart-casual in daily life; in Oslo tech workplaces, casual is common but meetings may call for a polished look.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Flirting Boundaries \u0026 Consent Culture",
-      "alignmentText": "Norway has strong, inclusive consent norms. Expect respectful dating and clear boundary cues.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "Gendered Flirting Expectations",
-      "alignmentText": "In Norway (Oslo), gendered flirting is highly fluid; all genders can initiate or decline without stigma.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "Norway\u0027s urban hubs (e.g., Oslo) broadly accept non-monogamy; smaller towns may demand discretion, yet overall social acceptance is high.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "alignmentText": "In Norway, a sex-positive, progressive climate; casual relationships are widely accepted and nonmonogamy is broadly supported.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
-      "alignmentText": "Norway\u0027s progressive climate supports polyamorous families in social life; many urban circles are open. Formal institutions may still require discretion.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Personal Space \u0026 Touch Norms",
-      "alignmentText": "Norwegian norms favor personal space; handshakes or brief hugs among familiar faces, with others respecting cues\u2014generally polite and low-contact.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Firearm Laws \u0026 Ownership Culture",
-      "alignmentText": "Norway permits firearm ownership for hunting/sport with strict licenses, secure storage, and rigorous training; a safety-first, regulated culture.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Controlled Substance Policies",
-      "alignmentText": "Oslo, Norway: health-first policy with broad treatment access and harm-reduction; penalties for possession are relatively light, aligning with civil-liberties goals.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "Norway\u0027s health-first drug policy with strong police oversight; families in Norway rarely witness aggressive drug raids.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "Norway (NO) mass violence is exceptionally rare; authorities communicate transparently and crisis response is robust, aiding family safety and peace of mind.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Carceral Conditions \u0026 Prison Labor",
-      "alignmentText": "Norway\u0027s prisons emphasize rehabilitation and humane conditions with strong oversight; aligns with the family\u0027s safety and civil-liberties values.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Walkability \u0026 Pedestrian Safety",
-      "alignmentText": "Norway\u0027s cities like Oslo are highly walkable with safe crossings. Most neighborhoods are pedestrian-friendly, with few car-heavy corridors.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Health Consciousness",
-      "alignmentText": "Norway\u0027s universal health system and family-friendly policies support healthy living; wellness programs and parks are readily accessible in Norway (NO).",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Processed Food Saturation",
-      "alignmentText": "Norway offers strong fresh markets and local produce; snacks are common but healthier options are widely available.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Fresh \u0026 International Cuisine Access",
-      "alignmentText": "In Oslo and other Norwegian urban centers, fresh markets and diverse cuisines are plentiful; only rare gaps for niche ingredients.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "Norway\u0027s universal health system provides strong mental health support. Counseling is broadly accessible with short waits, especially in NO cities.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Obesity Rate",
-      "alignmentText": "Norway generally has lower obesity rates than the US due to active transport and universal healthcare; monitor diet and activity for the family.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Cancer Incidence",
-      "alignmentText": "In Norway, cancer incidence stays near global averages. Robust screening and universal healthcare support early detection and treatment access.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "Norway\u0027s diversified economy and strong welfare nets support families. Startup funding and visa pathways help entrepreneurs; layoffs are rare and rehiring is quick.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Studio Density",
-      "alignmentText": "Norway has an emerging game-scene: a handful of studios mainly in Oslo and a growing indie cohort; collaborations often remote.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "Anchor Employers",
-      "alignmentText": "Norway\u0027s game scene centers on Funcom in Oslo as a key anchor; a few smaller studios exist, but no broad AAA hub.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "Norway\u0027s vendor scene is modest: a few Oslo studios cover art/QA; broader wraparound needs rely on remote partners.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Education Pipeline Strength",
-      "alignmentText": "Norway has several game-focused programs in Oslo and Trondheim, but curricula often require industry training for readiness.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Continuing Education Availability",
-      "alignmentText": "In Norway, universities and adult education offer regular courses; many English-taught options exist, with local meetups and online modules.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Activity",
-      "alignmentText": "Norway has a vibrant dev scene with monthly meetups and annual conferences in Oslo and other cities, supporting an active community for your family.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Engine Community Bias",
-      "alignmentText": "Norway\u0027s game scene leans toward Unity; Unreal is strong in Oslo/Bergen, with cross-training and meetups.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "Norway\u0027s growing game-dev scene supports real-time pipelines with strong broadband. Some cinematic work exists, but real-time is primary.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Demand\u2013Supply Balance",
-      "alignmentText": "Norway\u0027s IT market shows persistent demand-supply gaps; remote roles common, but visa paths and higher living costs matter for Trey\u0027s family.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Retention \u0026 Churn Risk",
-      "alignmentText": "Norway offers low churn with stable tech jobs; occasional project cycles cause minor shifts. English-speaking, schools, and family policies support retention.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Diversity \u0026 Inclusion Index",
-      "alignmentText": "Norway\u0027s inclusive culture, strong gender equality, and universal healthcare support your family\u0027s values, offering safety, education, and language options.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "Norway\u0027s SkatteFUNN provides R\u0026D tax credits (\u224819%) for game/creative projects; solid and well-administered, though competitive.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Economic/Policy Stability",
-      "alignmentText": "Norway\u0027s stable regulatory environment and welfare system support families and tech startups; policy continuity aids planning.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Founder/Operator Community",
-      "alignmentText": "Oslo hosts most founder networks with meetups and grants; nationwide activity exists but remains Oslo-centric, fitting Trey\u0027s game/tech startup.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Early-Stage Capital Access",
-      "alignmentText": "Norway offers public grants and generalist VC access for early game startups (Innovasjon Norge, SkatteFUNN). It\u0027s solid but competitive.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Accelerator/Incubator Access",
-      "alignmentText": "Norway has occasional game-focused cohorts and university labs (Oslo/Trondheim). Solid funding exists, but no steady game accelerator pipeline.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Senior Talent Availability",
-      "alignmentText": "Oslo\u0027s startup scene offers a solid pool of senior software leaders with startup experience; recruiting requires competitive offers in a high-cost market.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Contractor/Freelancer Bench",
-      "alignmentText": "Norway has a solid IT contractor bench (Oslo/major hubs); top specialists book weeks ahead, but general skills are available.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Coworking \u0026 Startup Infrastructure",
-      "alignmentText": "Norway has solid coworking in Oslo and other cities; good space for indie teams, but scarce game-specific labs or mocap facilities.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Legal \u0026 IP Support",
-      "alignmentText": "Norway offers accessible tech/IP lawyers in Oslo with game-dev exposure; strong startup ecosystem, but niche game IP specialists may be limited.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Publisher/Platform Relationships",
-      "alignmentText": "Norway\u0027s Oslo tech scene offers grants and visas, but direct publisher BD access is limited; expect engagement through Nordic events or remote channels.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Market Research \u0026 Playtesting",
-      "alignmentText": "Norway has a growing game scene with university labs and English-friendly vendors; expect occasional scheduling for local playtests but reliable groups exist.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Government/Startup Visas",
-      "alignmentText": "Norway\u0027s Startup Permit (Innovation Norway) requires incubator endorsement. Processing is moderate, but Norway offers strong family support and English-friendly services.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Cost of Doing Business",
-      "alignmentText": "Norway\u0027s higher wages and rents push costs up; Oslo offers grants and startup incentives that offset some costs, making the runway manageable.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "Moderate pool of 3D character artists in Norway (Oslo region); mid-level talent available, but senior hires may require relocation or remote options.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "Norway offers several English-taught 3D/game programs (OsloMet, NTNU). Graduates feed local studios with solid portfolios.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "Norway has occasional 3D character art trainings; Oslo/Bergen host events, but most upskilling is via visiting experts or online courses.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "Norway\u0027s market is modest; 3D character artist roles typically take 3\u20134 months, with proactive sourcing and relocation support often required.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "Norway\u0027s 3D character artist pay roughly matches global medians after cost-of-living adjustments. High living costs and strong welfare offset the premium lifestyle.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Character Artist: Language",
-      "alignmentText": "Norway studios commonly use English; learning Norwegian improves local collaboration, matching the family\u0027s bilingual-friendly approach.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Remote Expectations",
-      "alignmentText": "Norway\u0027s studios normalize remote/hybrid 3D artist work with robust async workflows; excellent broadband and strong work-life balance for your family.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "3D Animator: Talent Pool",
-      "alignmentText": "Norway\u0027s 3D animator pool is modest; Oslo hosts most studios, with mid-level talent dominant and seniors often sourced abroad or remotely.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "Norway has several solid animation/game design programs (Oslo/Trondheim). Graduates commonly enter regional studios.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "Norway (Oslo) has occasional 3D animation trainings and local meetups. Advanced topics mainly come from remote courses or visiting experts.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "Norway\u0027s modest game-dev scene (Oslo/major hubs); 3D animator roles typically take 3\u20134 months with proactive sourcing and relocation help.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "Norway (Oslo): 3D animator pay roughly meets global median after cost of living; strong benefits and universal healthcare.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Animator: Language",
-      "alignmentText": "Norway studios commonly use English; some Norwegian proficiency may be needed for local projects. The family is open to learning Norwegian.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Animator: Remote Expectations",
-      "alignmentText": "In Norway, remote 3D animator roles exist case-by-case with modest process maturity; hybrid work is common, aligning with the family\u0027s flexible setup.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "Moderate 2D environmental artist pool in Norway (Oslo area); mid-level hires are feasible, seniors may need relocation or remote work.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "2D Environmental Artist: Education Pipeline Strength",
-      "alignmentText": "Norway has serviceable 2D animation programs in Oslo/Trondheim; dedicated 2D environmental art tracks are niche, with studios offering on-the-job upskilling.",
-      "alignmentValue": 6
     },
     {
       "key": "2D Environmental Artist: Continuing Education Availability",
@@ -1017,15 +19,14 @@
       "alignmentValue": 7
     },
     {
+      "key": "2D Environmental Artist: Education Pipeline Strength",
+      "alignmentText": "Norway has serviceable 2D animation programs in Oslo/Trondheim; dedicated 2D environmental art tracks are niche, with studios offering on-the-job upskilling.",
+      "alignmentValue": 6
+    },
+    {
       "key": "2D Environmental Artist: Hiring Velocity",
       "alignmentText": "In Norway, 2D environmental artist roles typically take 4-5 months; expect multiple search cycles or remote talent to land the right fit.",
       "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "Norway offers competitive 2D environmental artist pay with strong benefits; salaries align with global medians after adjusting for high living costs.",
-      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
@@ -1040,14 +41,1030 @@
       "alignmentValue": 9
     },
     {
-      "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "Norway\u0027s real-time VFX pool is limited; mid-level talent exists in Oslo, with few seniors, so relocation or remote senior help is common.",
+      "key": "2D Environmental Artist: Talent Pool",
+      "alignmentText": "Moderate 2D environmental artist pool in Norway (Oslo area); mid-level hires are feasible, seniors may need relocation or remote work.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "3D Animator: Compensation Benchmark",
+      "alignmentText": "Norway (Oslo): 3D animator pay roughly meets global median after cost of living; strong benefits and universal healthcare.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "3D Animator: Continuing Education Availability",
+      "alignmentText": "Norway (Oslo) has occasional 3D animation trainings and local meetups. Advanced topics mainly come from remote courses or visiting experts.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Animator: Education Pipeline Strength",
+      "alignmentText": "Norway has several solid animation/game design programs (Oslo/Trondheim). Graduates commonly enter regional studios.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Hiring Velocity",
+      "alignmentText": "Norway\u0027s modest game-dev scene (Oslo/major hubs); 3D animator roles typically take 3\u20134 months with proactive sourcing and relocation help.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "3D Animator: Language",
+      "alignmentText": "Norway studios commonly use English; some Norwegian proficiency may be needed for local projects. The family is open to learning Norwegian.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "3D Animator: Remote Expectations",
+      "alignmentText": "In Norway, remote 3D animator roles exist case-by-case with modest process maturity; hybrid work is common, aligning with the family\u0027s flexible setup.",
       "alignmentValue": 5
     },
     {
-      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
-      "alignmentText": "Norway has one or two reputable VFX/real-time programs (Noroff in Oslo, NTNU in Trondheim); grads feed Oslo/Trondheim studios.",
+      "key": "3D Animator: Talent Pool",
+      "alignmentText": "Norway\u0027s 3D animator pool is modest; Oslo hosts most studios, with mid-level talent dominant and seniors often sourced abroad or remotely.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "3D Character Artist: Compensation Benchmark",
+      "alignmentText": "Norway\u0027s 3D character artist pay roughly matches global medians after cost-of-living adjustments. High living costs and strong welfare offset the premium lifestyle.",
       "alignmentValue": 8
+    },
+    {
+      "key": "3D Character Artist: Continuing Education Availability",
+      "alignmentText": "Norway has occasional 3D character art trainings; Oslo/Bergen host events, but most upskilling is via visiting experts or online courses.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Character Artist: Education Pipeline Strength",
+      "alignmentText": "Norway offers several English-taught 3D/game programs (OsloMet, NTNU). Graduates feed local studios with solid portfolios.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Hiring Velocity",
+      "alignmentText": "Norway\u0027s market is modest; 3D character artist roles typically take 3\u20134 months, with proactive sourcing and relocation support often required.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Language",
+      "alignmentText": "Norway studios commonly use English; learning Norwegian improves local collaboration, matching the family\u0027s bilingual-friendly approach.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Remote Expectations",
+      "alignmentText": "Norway\u0027s studios normalize remote/hybrid 3D artist work with robust async workflows; excellent broadband and strong work-life balance for your family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "3D Character Artist: Talent Pool",
+      "alignmentText": "Moderate pool of 3D character artists in Norway (Oslo region); mid-level talent available, but senior hires may require relocation or remote options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Accelerator/Incubator Access",
+      "alignmentText": "Norway has occasional game-focused cohorts and university labs (Oslo/Trondheim). Solid funding exists, but no steady game accelerator pipeline.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Norway\u0027s air is extremely clean, with rare spikes outside urban centers. Filtration is rarely needed and sensitive family members stay symptom-free.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Anchor Employers",
+      "alignmentText": "Norway\u0027s game scene centers on Funcom in Oslo as a key anchor; a few smaller studios exist, but no broad AAA hub.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "Norway\u0027s secular culture is strong; atheists are widely accepted and can access public services and education easily.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "Norway\u0027s strong institutions, free media, and civic life keep authoritarian backsliding risk very low for your family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "Norway\u0027s cashless system, Vipps, and fast transfers suit this family. Account setup is straightforward with residency and English-friendly support.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Norway\u0027s scenic fjord beaches are tidy and family-friendly, but cold water and short summers limit casual beach days.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "Oslo and Trondheim host board game caf\u00E9s; Norway\u0027s cities offer an active scene with family-friendly events, though groups outside hubs require coordination.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "Norway\u0027s inclusive, health-focused culture supports body positivity; occasional body-image talk may arise; establish clear boundaries to protect the kids.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Norway\u0027s diversified economy and strong welfare nets support families. Startup funding and visa pathways help entrepreneurs; layoffs are rare and rehiring is quick.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "In Norway, cancer incidence stays near global averages. Robust screening and universal healthcare support early detection and treatment access.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "Norway\u0027s prisons emphasize rehabilitation and humane conditions with strong oversight; aligns with the family\u0027s safety and civil-liberties values.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "Norway provides universal, subsidized barnehage with fee caps and guaranteed municipal spots; a robust system supports two working parents.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Norway\u0027s cities are family-friendly: safe crossings, stroller-friendly streets, and playgrounds. Oslo and other towns offer childcare and universal healthcare.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Norway\u0027s childcare is heavily subsidized with capped fees and guaranteed slots; parental leave is generous, benefiting a two-child household.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "Norway subsidizes barnehage for residents; visa holders may face waiting lists and need early registration.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "In Norway, hiking and skiing are mainstream family hobbies; board games and rock climbing have growing local communities.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Activity",
+      "alignmentText": "Norway has a vibrant dev scene with monthly meetups and annual conferences in Oslo and other cities, supporting an active community for your family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "Norway\u0027s universal health system and family-friendly policies support healthy living; wellness programs and parks are readily accessible in Norway (NO).",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Norway (Oslo area) has a few reputable co-living/co-op options; demand may require patience, but family-friendly setups exist.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Compensation Benchmark",
+      "alignmentText": "Norway\u0027s market for community managers matches global medians after cost-of-living; strong benefits and family-friendly policies support relocation.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Continuing Education Availability",
+      "alignmentText": "Norway has regular community-manager short courses and active online networks in Oslo and other cities. English-taught options are common for expats.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Education Pipeline Strength",
+      "alignmentText": "Norway has solid digital marketing and game/media programs (Oslo, NTNU, BI) feeding CM grads. Oslo studios hire regularly with bilingual pathways.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Hiring Velocity",
+      "alignmentText": "Norway\u0027s English-friendly tech scene (Oslo) typically fills community manager roles in 1\u20132 months; visas and local networks help speed hiring.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Manager: Language",
+      "alignmentText": "In Norway, English is widely used in tech; local Norwegian improves engagement; the family plans to learn Norwegian.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Remote Expectations",
+      "alignmentText": "Norway\u0027s strong work-life balance and reliable broadband support flexible remote/hybrid roles; expect async workflows and English-friendly teams.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Talent Pool",
+      "alignmentText": "Norway\u0027s Oslo and other tech hubs offer a solid pool of community managers, with mid- to senior-level talent. Remote work and strong English proficiency ease hiring.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Norway\u0027s communities are welcoming but privacy-valuing. Newcomers build ties through family-friendly clubs and local activities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "8: In Norway, established studios generally match global medians after cost of living; competitive, family-friendly packages with strong benefits in Oslo.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "Norway startup comp roughly tracks global medians after cost of living; strong grants and benefits, equity meaningful but high living costs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "Norway: timely UDI registration and meeting salary thresholds; follow guidelines to avoid minor penalties; expect periodic checks but processes are clear.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Continuing Education Availability",
+      "alignmentText": "In Norway, universities and adult education offer regular courses; many English-taught options exist, with local meetups and online modules.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Contractor/Freelancer Bench",
+      "alignmentText": "Norway has a solid IT contractor bench (Oslo/major hubs); top specialists book weeks ahead, but general skills are available.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Oslo, Norway: health-first policy with broad treatment access and harm-reduction; penalties for possession are relatively light, aligning with civil-liberties goals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Cost of Doing Business",
+      "alignmentText": "Norway\u0027s higher wages and rents push costs up; Oslo offers grants and startup incentives that offset some costs, making the runway manageable.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Norway has high grocery/utility costs, but strong public services, childcare subsidies, and solid tech wages keep a 4-person family budget manageable.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Norway has solid coworking in Oslo and other cities; good space for indie teams, but scarce game-specific labs or mocap facilities.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Norway\u0027s IT market shows persistent demand-supply gaps; remote roles common, but visa paths and higher living costs matter for Trey\u0027s family.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "Norway\u0027s universal health system provides strong mental health support. Counseling is broadly accessible with short waits, especially in NO cities.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "Norway\u0027s egalitarian vibe supports trust; with steady effort, join clubs or parent groups to form deep bonds within months.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Norway\u0027s inclusive culture, strong gender equality, and universal healthcare support your family\u0027s values, offering safety, education, and language options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "Norway\u0027s health-first drug policy with strong police oversight; families in Norway rarely witness aggressive drug raids.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Norway allows dual citizenship with the US; keeping both is permitted with no major restrictions, aligning with the family\u0027s US passports.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Early Stage Grants Available",
+      "alignmentText": "Norway offers early grants via Innovation Norway, but totals are modest. Expect around $75k-$150k USD for game/tech startups.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Early-Stage Capital Access",
+      "alignmentText": "Norway offers public grants and generalist VC access for early game startups (Innovasjon Norge, SkatteFUNN). It\u0027s solid but competitive.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Norway\u0027s diversified economy and sovereign wealth fund keep unemployment low; oil swings cushioned, with tech and services growth supporting families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Norway\u0027s strong welfare-driven, mixed economy delivers high living standards, fair regulation, and supports innovation and social mobility for families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Economic/Policy Stability",
+      "alignmentText": "Norway\u0027s stable regulatory environment and welfare system support families and tech startups; policy continuity aids planning.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Norway offers universal, high-quality public schools with inclusive, play-based early learning. Strong bilingual options align with family\u0027s priorities.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Education Pipeline Strength",
+      "alignmentText": "Norway has several game-focused programs in Oslo and Trondheim, but curricula often require industry training for readiness.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Norway commonly sponsors skilled IT workers; work permits hinge on a salary offer and job offer, with dependents allowed.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Engine Community Bias",
+      "alignmentText": "Norway\u0027s game scene leans toward Unity; Unreal is strong in Oslo/Bergen, with cross-training and meetups.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "Norway\u0027s world-class environmental protections keep fjords, forests, and parks pristine. Clean air supports safe outdoor play for the kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "Norway dual earners face ~30-35% taxes. Strong public services offset costs for our family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "Norway autumn ranges from warm afternoons to frosty nights; layer up for Oslo-area days with rain and wind.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "Norway offers generous parental leave, universal childcare, and safe, family-friendly neighborhoods. Public schools are strong and healthcare is universal.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Norway allows family reunification for partners and children; adult partners may face extra steps and proof of funds.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "Norway provides generous parental leave and universal child benefits; flexible work laws and subsidized childcare support families like yours.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Norway provides extensive family benefits: long parental leave, child stipends, universal childcare, and flexible work rights; minimal bureaucracy.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "In Norway, visa families access most benefits after residence registration; some cash supports require longer residency or employer sponsorship.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "Norway favors tidy smart-casual in daily life; in Oslo tech workplaces, casual is common but meetings may call for a polished look.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Norway\u0027s fashion is expressive and practical; in Oslo, Scandinavian chic meets versatile layers for Sarah\u0027s professional, family-friendly style.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "Norway\u0027s urban fashion leans minimalist and functional; in Oslo, Trey can wear practical layers with neutral tones to blend in.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "In Norway (NO), gender equality supports diverse femininity; sexism is rare, with only minor pockets in traditional sectors.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "Norway permits firearm ownership for hunting/sport with strict licenses, secure storage, and rigorous training; a safety-first, regulated culture.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "Norway has strong, inclusive consent norms. Expect respectful dating and clear boundary cues.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Founder/Operator Community",
+      "alignmentText": "Oslo hosts most founder networks with meetups and grants; nationwide activity exists but remains Oslo-centric, fitting Trey\u0027s game/tech startup.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "In Oslo and other Norwegian urban centers, fresh markets and diverse cuisines are plentiful; only rare gaps for niche ingredients.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "Norway: locals polite and helpful to newcomers; expect gradual but steady connections, aided by English-friendly communities.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "Oslo, Norway hosts a growing game dev scene with several studios and evolving funding. Trey can blend local gigs with remote work.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "In urban Norway, gender-diverse people enjoy strong protections and acceptance. Some rural areas still lag on official documents.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "Norway offers robust gender rights: strong anti-discrimination laws, parental leave, and LGBTQ\u002B protections with strong enforcement.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "In Norway, gender roles are highly egalitarian: both parents share caregiving and careers, with strong parental leave and universal childcare.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "In Norway (Oslo), gendered flirting is highly fluid; all genders can initiate or decline without stigma.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "Norway requires a D-number/ID to access banking and healthcare; the first month can be slow, but residency rights unlock with permit renewals.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Norway faces moderate warming with occasional heatwaves and heavier rains. Strong adaptation planning and robust infrastructure keep daily life manageable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Government/Startup Visas",
+      "alignmentText": "Norway\u0027s Startup Permit (Innovation Norway) requires incubator endorsement. Processing is moderate, but Norway offers strong family support and English-friendly services.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "Norway\u0027s casual-but-neat work culture matches our startup vibe; appearance is balanced, with no pressure to overdo grooming.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "Norway\u0027s progressive climate supports polyamorous families in social life; many urban circles are open. Formal institutions may still require discretion.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Norway offers universal healthcare with low out-of-pocket costs and strong pediatric care for your kids. Wait times for specialists can be a drawback.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Visa holders in Norway gain public healthcare after registration; initial waits apply and some private options may be needed.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Public universities in Norway are tuition-free for citizens with strong loan/grant support. L\u00E5nekassen offers loans and grants across many programs.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "Norway\u0027s public universities are tuition-free for international students; visa holders enjoy low costs and strong paths to work after studies.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Hiring Velocity (Established Studios)",
+      "alignmentText": "In Oslo, established studios hire steadily; typical fills take around 3 months, with remote options for Trey.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Hiring Velocity (Startups)",
+      "alignmentText": "Norway startup hiring typically takes ~3 months; Innovation Norway grants help founders. For a two-adult, two-kid family, this fits relocation timelines.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Norway\u0027s city housing is pricey and competitive; family-friendly areas with parks exist, but bidding wars and deposits can strain finances.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Norway\u2019s digital tax system uses pre-filled returns and automatic withholding with clear guidance. Strong family deductions support this household\u0027s tax planning.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "Norway broadly welcomes immigrants and has strong welfare and language support for families. Still, occasional debates exist.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "Norway offers mostly comfortable reception for skilled migrants; learning Norwegian and building local ties helps integration.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "Norway offers tuition-free public schooling with strong special education and language support. Transfers are straightforward.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "Visa holders can enroll in Norway\u0027s public schools with full resources. Early Norwegian language immersion is supported to assist integration.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "English is widely used in urban Norway workplaces. Schools and government offices still rely on Norwegian.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language (Established Studios)",
+      "alignmentText": "In Norway, established studios rely on English for cross-border work; local Norwegian fluency remains important for docs, compliance, and community.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Language (Startups)",
+      "alignmentText": "In Norway, English is widely used in startups; local Norwegian fluency aids hiring, compliance, and community outreach.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Norway offers accessible tech/IP lawyers in Oslo with game-dev exposure; strong startup ecosystem, but niche game IP specialists may be limited.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "Norway provides strong LGBTQ\u002B protections nationwide. Oslo and other cities host Pride events and inclusive services.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Norway has a growing game scene with university labs and English-friendly vendors; expect occasional scheduling for local playtests but reliable groups exist.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "In Norway, Marxist ideas linger in academia; mainstream policy remains social-democratic, with open debate but limited policy influence.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Norway\u0027s egalitarian culture supports involved fathers. Trey\u0027s nurturing parenting style aligns with local norms.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Norway (NO) mass violence is exceptionally rare; authorities communicate transparently and crisis response is robust, aiding family safety and peace of mind.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "Frequent English-friendly meetups in Oslo and other cities for tech, parenting, and expat networks; inclusive venues, though some events are Norwegian-first.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Norway has no universal minimum wage; pay is set by sector agreements with strong protections. High housing costs can limit savings for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "Norway\u0027s nationwide fiber, reliable power, and robust Oslo transit and digital services support remote work, gaming latency, and easy family logistics.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "Norway\u0027s urban hubs (e.g., Oslo) broadly accept non-monogamy; smaller towns may demand discretion, yet overall social acceptance is high.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "In Norway, direct, respectful honesty is valued; share concerns openly with a non-judgmental, egalitarian tone.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Norway\u0027s iconic fjords and aurora are accessible with easy, family-friendly trails for frequent weekend getaways.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "Norway sees occasional avalanches and floods in mountains, but strict building codes, early warning systems, and strong social insurance limit family risk.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Norway\u0027s Everyman\u0027s Right makes nature access easy. Oslo-area trails and nearby parks are reachable by public transit.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Norway\u2019s cities (Oslo, Bergen) boast live music and festivals across genres; safe transport and family-friendly options support your plans.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Nightlife exists in central Oslo/Bergen; prices are high and late hours vary, so family date nights require planning and babysitters.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Oslo, Norway hosts regular game jams and coworking meetups; families and newcomers can engage in a supportive dev scene.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "Norway has a handful of studios (Funcom in Oslo, Krillbite) giving a recognizable, modest game-scene with intermittent releases.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Norway generally has lower obesity rates than the US due to active transport and universal healthcare; monitor diet and activity for the family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Norway offers Innovation Norway grants and startup support; the domestic game market is small, so studios look abroad for funding.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "Norway\u2019s cities are efficient yet unhurried; short commutes and strong work-life balance suit your family\u2019s slower pace across NO.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "Norway\u0027s family policy supports diverse parenting; parental leave and subsidized childcare ease work-family balance. Schools and services are supportive.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Norway naturalization usually requires 6\u20138 years of residence plus language/social studies. Dual citizenship is allowed, making the path moderate for this family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "Norway is among the least corrupt nations; transparent governance and watchdogs support safe, predictable public services for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "In Norway, personal space is respected; expect minimal touch and clear verbal cues, especially in Oslo transit and public spaces.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "Norwegian norms favor personal space; handshakes or brief hugs among familiar faces, with others respecting cues\u2014generally polite and low-contact.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "Norway features two mild seasons (late spring - early fall); the rest of the year needs planning for rain and chill.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "Norway\u0027s transparent, participatory parliamentary system with strong rule of law supports stable governance and pro-family policies.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Norway\u0027s cities are highly tolerant of polyamory; Oslo-area networks support families, though some services remain cautious.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Norway\u0027s barnehage offers universal access with capped fees; city slots are plentiful, though fall-start waitlists exist; some centers offer English.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "Private/international schools exist but are limited and can be pricey; many expat families rely on Norway\u2019s strong public schools with English-friendly options.",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "Norway offers strong fresh markets and local produce; snacks are common but healthier options are widely available.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Product Marketing Manager (Games): Compensation Benchmark",
+      "alignmentText": "Norway PMM (Games) comp aligns with global medians after cost of living; strong benefits and family-friendly policies offset high costs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Product Marketing Manager (Games): Continuing Education Availability",
+      "alignmentText": "Norway\u0027s game marketing scene (Oslo, Trondheim) offers regular meetups and short courses; strong universities ensure solid content and instructors.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
+      "alignmentText": "Norway offers marketing/digital media programs in Oslo and Trondheim; game marketing pipelines are small, grads may need on-the-job upskilling.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Hiring Velocity",
+      "alignmentText": "Norway PMM (games) hiring typically 2\u20133 months; Oslo/online scene strong; English-friendly; strong grants/startup support.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Language",
+      "alignmentText": "Norway game studios widely use English; local-language skills matter, but many teams are English-first. Your plan to learn Norwegian fits well.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Product Marketing Manager (Games): Remote Expectations",
+      "alignmentText": "Norway studios offer hybrid/remote PMM roles; strong broadband and English-friendly culture suit this family. Some on-site days may be required.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Talent Pool",
+      "alignmentText": "Norway\u0027s games PMM pool is moderate; Oslo/Trondheim studios exist and English is common; for families, relocation or remote hiring may be needed for seniors.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Norway\u0027s healthcare, LGBTQ\u002B rights, and climate action reflect the family\u0027s progressive values. In Norway, inclusive policies support education and community.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "In Norway, a sex-positive, progressive climate; casual relationships are widely accepted and nonmonogamy is broadly supported.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "Norway\u0027s public messaging emphasizes wellbeing and inclusivity, with transparent health and education policies that fit this family\u0027s values.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "In Norway\u0027s pluralistic media landscape, independent outlets and watchdogs keep state messaging in check; propaganda is rare and quickly countered.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Oslo\u0027s metro, tram, and rail network is extensive for urban and inner-suburban areas. Expect reliable service for families, with occasional weekend gaps.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Publisher/Platform Relationships",
+      "alignmentText": "Norway\u0027s Oslo tech scene offers grants and visas, but direct publisher BD access is limited; expect engagement through Nordic events or remote channels.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "Norway offers top public services and abundant premium services; most needs are met, though some exclusive clubs or private tutors may require advance booking.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "Norway\u0027s universal healthcare and subsidized childcare cushion costs for a US-origin family; housing in Oslo can be pricey, but public services support stability.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "In Norway, universal healthcare and family policies boost QoL, but high housing and childcare costs can squeeze a middle-income budget.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Real-Time vs Pre-Rendered Focus",
+      "alignmentText": "Norway\u0027s growing game-dev scene supports real-time pipelines with strong broadband. Some cinematic work exists, but real-time is primary.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "Religion shapes culture in Norway, but policy remains evidence-based and pluralistic across Oslo and the country.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote Expectations (Established Studios)",
+      "alignmentText": "Norway\u0027s established studios favor hybrid work; remote roles exist for senior staff, aligning with Trey/Sarah\u0027s remote/hybrid expectations.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "In Norway, startups commonly run hybrid work with solid remote tooling; aligns with the family\u0027s need for flexible hours and remote options.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "In Norway, remote work is widely practiced; hybrid norms predominate and broadband supports Trey and Sarah\u0027s needs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "Norway offers startup and skilled-worker permits; initial terms are time-limited and tied to activity, with a path to permanent residency.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Norway offers low churn with stable tech jobs; occasional project cycles cause minor shifts. English-speaking, schools, and family policies support retention.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "Norway\u0027s universal healthcare and strong pension system (state \u002B occupational) provide solid retirement security for citizens like you.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "Norway\u0027s public pension is accessible to visa holders after several years of contributions; residency requirements apply.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Norway\u0027s Ruby market is moderate, centered in Oslo startups/agencies; remote work is common, but growth lags top stacks - okay for Sarah.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "Norway\u0027s very low crime and strong social safety nets make neighborhoods exceptionally safe; kids can roam locally with confidence.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Oslo, Norway offers multiple high-quality public and international schools with bilingual options. Admissions are generally fair, with some waitlists.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Norway\u0027s peak-summer sea stays around 15\u201317 \u00B0C; expect brief dips or wetsuits for the kids on beaches.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Norway: seasons are generally predictable, but winters bring snow and wind; expect a few extreme days and rely on solid infrastructure.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Norway\u0027s winter days are short; we\u0027ll maintain morale with routines, supplements, and occasional sun getaways.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "Norway\u0027s mild summers and long, dark winters create a clear seasonal rhythm; summers are outdoor-friendly, winters require warm gear and indoor time.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Senior Talent Availability",
+      "alignmentText": "Oslo\u0027s startup scene offers a solid pool of senior software leaders with startup experience; recruiting requires competitive offers in a high-cost market.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Norway offers comprehensive, destigmatized sex education with inclusive norms, aligning with the family\u0027s progressive values in NO.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "Norway\u0027s universal healthcare, generous parental leave, and inclusive education align with the family\u0027s priorities in NO.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "Norway\u0027s Oslo metro has tight 2k sq ft rentals. Availability often requires broker help and longer commutes to family-friendly suburbs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Norway spring swings: mild afternoons with near-freezing mornings; frequent wardrobe changes needed in Oslo.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Norway\u0027s stable politics and strong welfare support your family\u0027s long-term plans. Clear rules and low risk aid steady housing and schooling in Oslo.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Norway\u0027s inclusive, evidence-based welfare state provides universal healthcare, strong schools, and generous parental leave, well aligned with your family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "Norway\u0027s balanced social market blends innovation with strong safety nets and fair competition; family-friendly policies support work-life balance.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Studio Density",
+      "alignmentText": "Norway has an emerging game-scene: a handful of studios mainly in Oslo and a growing indie cohort; collaborations often remote.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "Norway summers stay in the low 20s \u00B0C with cool nights; brief heatwaves to ~30 \u00B0C occur, but nights stay under 20 \u00B0C and fans suffice.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "In Norway (NO), most service interactions are warm and efficient; English is widely understood, making daily errands smooth.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Tax Incentives for Games/Creative",
+      "alignmentText": "Norway\u0027s SkatteFUNN provides R\u0026D tax credits (\u224819%) for game/creative projects; solid and well-administered, though competitive.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "Norway family-immigration can take up to a year; fees are moderate, but translations and document prep add time and cost.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "Norway\u0027s government is highly trusted due to transparency and universal services. This suits your family\u0027s need for stable, family-friendly policies.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "Norway (NO) has very low corruption; robust institutions quickly address procurement glitches, keeping daily life stable for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "Strong Norwegian software salaries in Oslo support a family with dual incomes, but high taxes and living costs require careful budgeting.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "Norway weekends offer rich family options\u2014parks, kid-friendly activities, and safe transit; some venues fill quickly, so plan ahead.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "Norway\u0027s universal childcare and SFO cover hours. Schools run ~08:00-15:00 with wraparound care to ~16:30, supporting flexible, remote-friendly schedules.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "Workers receive at least 25 paid days plus holidays, giving ample space for family travel with notice.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Norway typically grants 25 vacation days plus about 10 public holidays; great for family travel and steady downtime across the country.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Vendor/Outsource Ecosystem",
+      "alignmentText": "Norway\u0027s vendor scene is modest: a few Oslo studios cover art/QA; broader wraparound needs rely on remote partners.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "VFX Artist (Real-Time): Compensation Benchmark",
+      "alignmentText": "In Norway (NO), VFX (Real-Time) pay trails top markets by 25-30%; strong benefits and work-life balance offset the gap.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "VFX Artist (Real-Time): Continuing Education Availability",
@@ -1055,15 +1072,14 @@
       "alignmentValue": 7
     },
     {
+      "key": "VFX Artist (Real-Time): Education Pipeline Strength",
+      "alignmentText": "Norway has one or two reputable VFX/real-time programs (Noroff in Oslo, NTNU in Trondheim); grads feed Oslo/Trondheim studios.",
+      "alignmentValue": 8
+    },
+    {
       "key": "VFX Artist (Real-Time): Hiring Velocity",
       "alignmentText": "Norway\u0027s real-time VFX talent pool is small; expect 3-4 months with proactive sourcing or relocation; Oslo offers English-friendly environment and high QoL.",
       "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "In Norway (NO), VFX (Real-Time) pay trails top markets by 25-30%; strong benefits and work-life balance offset the gap.",
-      "alignmentValue": 5,
       "sameAsParent": false
     },
     {
@@ -1077,77 +1093,66 @@
       "alignmentValue": 8
     },
     {
-      "key": "Community Manager: Talent Pool",
-      "alignmentText": "Norway\u0027s Oslo and other tech hubs offer a solid pool of community managers, with mid- to senior-level talent. Remote work and strong English proficiency ease hiring.",
-      "alignmentValue": 7
+      "key": "VFX Artist (Real-Time): Talent Pool",
+      "alignmentText": "Norway\u0027s real-time VFX pool is limited; mid-level talent exists in Oslo, with few seniors, so relocation or remote senior help is common.",
+      "alignmentValue": 5
     },
     {
-      "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "Norway has solid digital marketing and game/media programs (Oslo, NTNU, BI) feeding CM grads. Oslo studios hire regularly with bilingual pathways.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "Norway has regular community-manager short courses and active online networks in Oslo and other cities. English-taught options are common for expats.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Manager: Hiring Velocity",
-      "alignmentText": "Norway\u0027s English-friendly tech scene (Oslo) typically fills community manager roles in 1\u20132 months; visas and local networks help speed hiring.",
-      "alignmentValue": 8,
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Norway has strong Nordic ties with Sweden and Denmark; cross-border travel and cultural exchange are celebrated.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "Norway\u0027s market for community managers matches global medians after cost-of-living; strong benefits and family-friendly policies support relocation.",
+      "key": "View of self",
+      "alignmentText": "Norway\u0027s modest, trust-based self-view mirrors our family\u0027s emphasis on community, education, and welfare in NO.",
       "alignmentValue": 8
     },
     {
-      "key": "Community Manager: Language",
-      "alignmentText": "In Norway, English is widely used in tech; local Norwegian improves engagement; the family plans to learn Norwegian.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Manager: Remote Expectations",
-      "alignmentText": "Norway\u0027s strong work-life balance and reliable broadband support flexible remote/hybrid roles; expect async workflows and English-friendly teams.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "Norway\u0027s games PMM pool is moderate; Oslo/Trondheim studios exist and English is common; for families, relocation or remote hiring may be needed for seniors.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "Norway offers marketing/digital media programs in Oslo and Trondheim; game marketing pipelines are small, grads may need on-the-job upskilling.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "Norway\u0027s game marketing scene (Oslo, Trondheim) offers regular meetups and short courses; strong universities ensure solid content and instructors.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Product Marketing Manager (Games): Hiring Velocity",
-      "alignmentText": "Norway PMM (games) hiring typically 2\u20133 months; Oslo/online scene strong; English-friendly; strong grants/startup support.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "Norway PMM (Games) comp aligns with global medians after cost of living; strong benefits and family-friendly policies offset high costs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Product Marketing Manager (Games): Language",
-      "alignmentText": "Norway game studios widely use English; local-language skills matter, but many teams are English-first. Your plan to learn Norwegian fits well.",
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Norway is viewed as stable and cooperative by neighbors. Oslo\u0027s welfare system, solid schools, and broad English access foster trust, despite higher prices.",
       "alignmentValue": 9
     },
     {
-      "key": "Product Marketing Manager (Games): Remote Expectations",
-      "alignmentText": "Norway studios offer hybrid/remote PMM roles; strong broadband and English-friendly culture suit this family. Some on-site days may be required.",
-      "alignmentValue": 8,
+      "key": "Visa Paths",
+      "alignmentText": "Norway offers skilled-worker and startup visas; most options need a Norwegian job offer or startup capital, with thorough, sponsor-linked processing.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Norway\u0027s cities like Oslo are highly walkable with safe crossings. Most neighborhoods are pedestrian-friendly, with few car-heavy corridors.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Norway generally welcomes US migrants; strong language and integration programs aid settling, especially in Oslo, with some city-vs-rural variation.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Norway\u0027s outdoor culture and Oslo\u0027s design-forward, collaborative tech scene offer frequent family-friendly discoveries.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Norway winters (Oslo area) run about \u22125 to 3 \u00B0C with reliable snow; regular freezes demand gear, but heating and services stay manageable.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "Norway typically has a 35-37.5 hour week with strong work-life balance and limited overtime. Family-friendly policies fit the profile.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "Norway\u0027s work culture protects evenings and weekends; flexible schedules and strong parental leave let Sarah and Trey prioritize family milestones.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "Norway offers strong workers\u0027 rights with broad union coverage, sector agreements, and robust protections for working parents.",
+      "alignmentValue": 10,
       "sameAsParent": false
     }
   ]

@@ -3,1015 +3,19 @@
   "iso": "SE",
   "values": [
     {
-      "key": "Environment",
-      "alignmentText": "In Sweden, vast forests and clean lakes fit our outdoors focus; strict environmental rules keep pollution minimal and parks near urban areas.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Global Warming Risk",
-      "alignmentText": "Global warming risk in Sweden is moderate: mild summers help, but Baltic storms and pests require ongoing resilience planning for homes and families.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Seasonal Weather",
-      "alignmentText": "In Sweden, winters are long and dark with damp chill; summers are mild and bright, giving a generally manageable seasonal pattern for the family.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Air Quality",
-      "alignmentText": "Air in Sweden is very clean with only occasional mild traffic spikes; filtration is not typically needed and sensitive family members stay symptom-free.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Natural Disasters",
-      "alignmentText": "For families in Sweden, disasters are rare and low impact; only occasional floods or windstorms, well-managed with Sweden\u0027s strong infrastructure.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Spring Temperature Range (C/F)",
-      "alignmentText": "Spring in Sweden (SE) can swing from near-freezing mornings to mild afternoons; expect wardrobe changes as temps vary through April-May.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Summer Temperature Range (C/F)",
-      "alignmentText": "Sweden summers are typically 23-25 \u00B0C with low humidity. This makes outdoor time comfortable and sleep easy without air conditioning.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Fall Temperature Range (C/F)",
-      "alignmentText": "In Sweden, fall (Sept-Oct) runs 5-12\u00B0C with mild days and chilly breezes; pack layers for family-friendly outings.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Winter Temperature Range (C/F)",
-      "alignmentText": "Stockholm winters typically -5 to 1\u00B0C with snow. Daylight is limited, but public services keep commutes and schools running.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Beach Life",
-      "alignmentText": "Stockholm archipelago and Sk\u00E5ne beaches are scenic but have a short season and chilly water; usable for summer trips with some travel.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Seasonal Beach Water Temp",
-      "alignmentText": "Sweden\u0027s Baltic Sea stays around 18-20 C in summer; extended swims for a 5-year-old and 1-year-old may need wetsuits or a pool option.",
-      "alignmentValue": 5
-    },
-    {
-      "key": "Natural Beauty",
-      "alignmentText": "Sweden\u0027s archipelagos and forests, with allemansr\u00E4tten, offer abundant, accessible nature for the family.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Minimum Wage",
-      "alignmentText": "Sweden uses collective agreements; wages generally meet living costs and childcare is subsidized, with strong protections even for entry roles.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Typical Software Salaries",
-      "alignmentText": "In Sweden (SE), senior software pay is solid but not US-level. Stockholm-area salaries run ~550k-650k SEK/yr, supporting dual incomes.",
-      "alignmentValue": 7
-    },
-    {
       "key": ".NET Work Prospects",
       "alignmentText": "Stockholm and Gothenburg host a strong .NET scene across startups and enterprises; remote options and local grants fit Trey\u0027s Azure/game dev goals.",
       "alignmentValue": 9
     },
     {
-      "key": "Ruby Work Prospects",
-      "alignmentText": "Ruby roles in Sweden are sporadic and cluster in a few startups or consultancies. Expect hybrid roles and overlap with JS/DevOps.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "Employer Visa Sponsorship",
-      "alignmentText": "Sweden commonly sponsors skilled workers; permits take time but are usually approved. Dependents can join via family reunification.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Economic Health",
-      "alignmentText": "Sweden\u0027s diversified economy and strong welfare nets offer steady work prospects and cushions for families like yours.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Remote-Friendly Culture",
-      "alignmentText": "In Sweden (SE), remote work is highly normalized. Robust broadband, flexible hours, and strong family support enable home-based or hybrid roles.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Work-Life Balance",
-      "alignmentText": "In Sweden, strong parental leave, flexible hours, and boundary-friendly culture protect evenings/weekends for a family-first cadence.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Work Week Hours",
-      "alignmentText": "In Sweden, standard workweeks are ~37-38h with flex/remote options. This fits Trey and Sarah\u0027s need for family-friendly balance.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Vacation Days (Minimum)",
-      "alignmentText": "In Sweden (SE), statutory vacation is 25 days per year plus public holidays, with strong schedule flexibility for families.",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
-      "key": "Vacation Days (Typical)",
-      "alignmentText": "Sweden typically offers about 25 vacation days per year, with summer shutdowns common. This supports your family\u0027s work-life balance.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pace of Life",
-      "alignmentText": "In Sweden\u0027s cities, lagom pace and efficient transit yield calm days with short commutes; aligns with Sarah\u0027s slower pace.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Typical Workday Schedule (Family of Four)",
-      "alignmentText": "In Sweden, wraparound care (f\u00F6rskola/daycare and fritids) runs roughly 7:00-18:00, so 8:00-16:30 aligns well. After-school care fills gaps.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Typical Weekend Schedule (Family of Four)",
-      "alignmentText": "In Sweden, weekends offer abundant family-friendly activities, parks, and museums with reliable transit; many venues don\u0027t require pre-booking.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Family Life",
-      "alignmentText": "In Sweden, universal childcare, generous parental leave, and child benefits support families; safe neighborhoods and strong public services ease daily life.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Polyamory",
-      "alignmentText": "Sweden offers broad social tolerance for polyamory, esp. in cities, but official forms still default to two-parent models.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Parenting Expectations",
-      "alignmentText": "In Sweden (SE), parenting is highly egalitarian with broad shared duties. Generous parental leave and universal childcare align with your family\u0027s values.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Child-Friendliness of Cities",
-      "alignmentText": "Stockholm and Malm\u00F6 are very kid-friendly: safe crossings, abundant parks, stroller-friendly transit, and universal childcare.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Schooling Options",
-      "alignmentText": "Sweden has strong public schools and bilingual friskolor; expect enrollment planning and possible waitlists for English-language tracks.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pre-K / Early Childcare Landscape",
-      "alignmentText": "Sweden provides f\u00F6rskola from age 1 with capped fees and subsidies; widely available, though popular urban slots can have waiting lists.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Childcare Support (Citizens)",
-      "alignmentText": "Sweden provides strong, income-based f\u00F6rskola subsidies; fees cap near 3% of income, with many hours free and local slots typically available.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Childcare Support (Visa Holders)",
-      "alignmentText": "Visa families in Sweden access subsidized childcare with broad eligibility; multilingual enrollment support helps speed up access.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "K-12 Education Access (Citizens)",
-      "alignmentText": "In Sweden (SE), K-12 access is universal and free with strong language support. School transfers are generally straightforward.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "K-12 Education Access (Visa Holders)",
-      "alignmentText": "Visa-holding children in Sweden receive free public schooling with language support (SFI). Resources are largely comparable to those for citizens.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Private Education",
-      "alignmentText": "In Sweden, private friskolor follow the national curriculum and are largely state-funded; options exist, but quality varies.",
-      "alignmentValue": 6,
-      "sameAsParent": true
-    },
-    {
-      "key": "Family Policy (Citizens)",
-      "alignmentText": "Sweden\u0027s 480 days parental leave and universal child benefits, plus flexible work laws, offer a robust family safety net in SE.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Visa Holders)",
-      "alignmentText": "Sweden offers strong universal healthcare and child/parent benefits for visa families, but some cash supports need longer residency or employer sponsorship.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Higher Education Access (Citizens)",
-      "alignmentText": "Sweden offers tuition-free higher education for citizens; CSN loans/grants and broad programs support your kids\u0027 study plans nationwide.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "Higher Education Access (Visa Holders)",
-      "alignmentText": "Sweden charges tuition for non-EU visa holders; good English programs exist, with scholarships but overall higher costs than residents.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Gender Roles",
-      "alignmentText": "In Sweden, gender roles are highly egalitarian; caregiving and leadership are commonly shared, supported by parental leave and universal childcare.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gender Fluidity",
-      "alignmentText": "Sweden offers legal gender recognition and evolving non-binary recognition; social acceptance is strong overall, with more visibility in cities.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Gender Rights",
-      "alignmentText": "In Sweden, gender rights are strongly protected and enforced; anti-discrimination and parental leave support your inclusive family values.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Femininity Norms",
-      "alignmentText": "In Sweden, women and feminine-presenting people freely pursue diverse careers and family roles; strong gender equality and childcare support your family.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Masculinity Norms",
-      "alignmentText": "Sweden\u0027s masculinity norms support nurturing and shared parenting. Fathers\u0027 caregiving is widely admired there.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "What Is Intriguing",
-      "alignmentText": "Sweden\u0027s design culture, eco-housing, and sustainable urbanism align with the family\u0027s progressive living interests and favor family-friendly policies.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Language \u0026 English Ubiquity",
-      "alignmentText": "In Sweden\u0027s cities, English is widely used; most services are available in English, helping your family adapt while learning Swedish.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Progressivism",
-      "alignmentText": "Sweden\u0027s strong welfare-state and LGBTQ\u002B rights culture align with your progressive family; civic engagement and climate action shape daily life.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Marxism (Societal Attitudes)",
-      "alignmentText": "In Sweden, Marxism persists in academia and among some left parties, but policy stays pragmatic. Open, pluralist debate fits a progressive family.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Atheism",
-      "alignmentText": "Sweden\u0027s secular culture is strong. Atheism is widely accepted and religion rarely surfaces in public life, matching your family\u0027s preferences.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Sex (Attitudes)",
-      "alignmentText": "Sweden provides comprehensive, destigmatized sex education with inclusive, LGBTQ\u002B-friendly resources; aligns with our sex-positive family.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "LGBTQ\u002B Attitudes",
-      "alignmentText": "Sweden has strong LGBTQ\u002B protections nationwide; same-sex marriage legal and Pride events in major cities, though rural areas can be more conservative.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Vibes",
-      "alignmentText": "Neighbors may be reserved at first in Sweden, but school networks and local clubs help the family plug in; English ubiquity supports quick adaptation.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of self",
-      "alignmentText": "In Sweden\u0027s lagom culture, our family sees balanced pride in welfare and openness, while noting housing and tax challenges.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "View of Neighboring Countries",
-      "alignmentText": "Sweden and its Nordic neighbors (Norway, Finland, Denmark) enjoy positive ties and easy cross-border travel and collaboration.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "View of Them by Neighboring Countries",
-      "alignmentText": "Norway and Denmark largely view Sweden positively, aligning with your family\u0027s emphasis on education and LGBTQ\u002B-friendly policies.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Nightlife Culture",
-      "alignmentText": "Stockholm and Gothenburg offer nightlife, but Sweden\u0027s alcohol rules and prices mean evenings require planning for a family.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Fashion Trends (Male)",
-      "alignmentText": "In Sweden (Stockholm area), urban men favor minimalist, functional streetwear from Scandinavian brands; suburbs stay more classic.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Fashion Trends (Female)",
-      "alignmentText": "Sweden (SE) has diverse, body-positive fashion with broad freedom, especially in Stockholm; outfits range from casual to smart-casual.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Common Hobbies",
-      "alignmentText": "In Sweden, Fika, cycling, skiing, and sailing are common for families. Abundant clubs, parks, and kid-friendly activities support shared hobbies.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Boardgaming \u0026 Tabletop",
-      "alignmentText": "Stockholm and Malm\u00F6 offer family-friendly boardgame cafes and active groups; Sweden supports kid-friendly, multilingual play.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Nightlife \u0026 Music",
-      "alignmentText": "Stockholm\u0027s music scene is vibrant with regular concerts and festivals. Clubs can be pricey, but daytime events and family-friendly options help.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Meetups \u0026 Communities",
-      "alignmentText": "Stockholm has a broad, English-friendly meetup scene for tech and families; most groups are accessible, though a few niches may use waitlists or fees.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Nature Access",
-      "alignmentText": "Allemansr\u00E4tten allows roaming forests, lakes, and islands in Sweden. Access to nature is within an hour of major cities via good public transport.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Political System",
-      "alignmentText": "Sweden\u0027s constitutional monarchy with proportional parliament delivers transparent, resilient governance and strong rule of law, matching your family\u0027s values.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Religion in Politics",
-      "alignmentText": "In Sweden, religion is largely separate from policy; a secular state with strong protections for personal beliefs fits the family\u0027s values.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Workers\u0027 Rights",
-      "alignmentText": "Sweden\u0027s collective bargaining covers most workers; strong protections, parental leave, and predictable hours support family life.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "State Ideology",
-      "alignmentText": "Sweden\u0027s pluralistic welfare state champions rights and evidence-based policy, matching the family\u0027s progressive outlook in a tolerant, supported society.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Authoritarian Backsliding Risk",
-      "alignmentText": "In Sweden (SE), robust democracy with independent judiciary and media protecting civil liberties; only minor populist rhetoric.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "State of Capitalism",
-      "alignmentText": "Sweden\u0027s social-market model blends innovation with strong safety nets and high QoL; founders benefit from robust public services and work\u2013life balance.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Stability",
-      "alignmentText": "Sweden offers long-term stability with predictable policies and trusted institutions. Universal healthcare and strong social cohesion support your family in SE.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Propaganda Prevalence",
-      "alignmentText": "Sweden\u0027s pluralistic media and strong press freedom; public broadcasting debates aside, propaganda is minimal and quickly challenged.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Propaganda Messaging",
-      "alignmentText": "In Sweden (SE), public messaging centers on shared welfare and accurate info. Pluralistic media with minimal nationalist spin matches your family\u0027s values.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Social Policies",
-      "alignmentText": "In Sweden (SE), universal healthcare and generous parental leave underpin strong family support and accessible childcare.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Trust in Government",
-      "alignmentText": "In Sweden, public trust is high; transparent agencies and strong welfare support fit your family\u0027s need for a stable, family-friendly life.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Perceived Corruption",
-      "alignmentText": "In Sweden (SE), perceived corruption is very low; strong institutions and watchdogs back transparent, low-friction governance for your family.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Type of Corruption",
-      "alignmentText": "In Sweden (SE), corruption is rare and swiftly addressed. Public services are transparent and processes straightforward.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Housing Situation",
-      "alignmentText": "Stockholm-area housing is tight; long rental queues and pricey cooperatives mean sublets or smaller suburbs while seeking a family home.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Safety \u0026 Crime",
-      "alignmentText": "Overall safe in Sweden; some suburbs experience gang-related incidents after dark.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Healthcare (Citizens)",
-      "alignmentText": "Sweden offers universal, affordable healthcare with strong pediatric services. Non-urgent specialist waits can stretch weeks, but access remains family-friendly.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Healthcare (Visa Holders)",
-      "alignmentText": "Sweden offers universal care after residence registration; during visa enrollment, supplemental private insurance can ease gaps.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Child Care Support",
-      "alignmentText": "In Sweden, municipal preschools and generous parental leave create abundant childcare safety nets; access is affordable and reliable for your family.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Policy (Common Family)",
-      "alignmentText": "Sweden provides extensive parental leave, universal child allowance, and subsidized childcare; top-tier family support with straightforward administration.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Education",
-      "alignmentText": "Sweden offers universal, well-funded public schooling and strong early years programs; good for bilingual exposure, though outcomes vary by district.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Public Transportation",
-      "alignmentText": "Stockholm, Gothenburg, and Malmo offer extensive urban transit (rail, metro, bus). Car-free living is practical with bike-friendly options.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Economic System",
-      "alignmentText": "Sweden has a welfare-forward market blending private innovation with universal healthcare. Generous parental leave and startup support align with your family goals.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "How Taxes Are Handled",
-      "alignmentText": "Sweden\u0027s tax system is highly digital, with pre-filled returns and strong family benefits; municipal rates hover around 30% and vary by locality.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Expected Tax Rate (Our Family)",
-      "alignmentText": "In Sweden (SE), two earners may face ~35-40% tax, but universal healthcare and strong public services offset the cost.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Banking \u0026 Payments",
-      "alignmentText": "Banking in Sweden is highly digital (Swish, BankID). Newcomers often need a Swedish personnummer to open accounts, causing initial friction.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Cost of Living (Optional)",
-      "alignmentText": "Stockholm\u0027s cost of living is high; rents and services strain budgets, but strong pay and universal healthcare help with family costs.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Retirement (Citizens)",
-      "alignmentText": "In Sweden (SE), public and occupational pensions plus premium pension offer solid retirement income for long-term residents; requires ongoing contributions.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Retirement (Visa Holders)",
-      "alignmentText": "In Sweden, pensions depend on work contributions; visa holders need residency-years for full access. Start private retirement savings now.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Visa Paths",
-      "alignmentText": "Sweden has several viable routes (work permit, EU Blue Card, startup/self-employed) with clear criteria; processing is thorough but predictable.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Welcoming of US Migrants",
-      "alignmentText": "Sweden broadly welcomes US migrants; robust integration and language-support programs; English-friendly services aid families settling in Sweden.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Residency Types \u0026 Durations",
-      "alignmentText": "Sweden typically grants skilled work permits for 2 years with extensions; steady path from temporary to permanent residency for families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Path to Citizenship",
-      "alignmentText": "Sweden: citizenship typically after five years of residency; dual citizenship is allowed, so you won\u0027t need to renounce US citizenship.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Family Members",
-      "alignmentText": "Sweden allows spouses and minor children to join a main permit holder as dependents. With Trey\u0027s permit, Sarah and the kids gain residency.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Timelines \u0026 Costs",
-      "alignmentText": "US-to-Sweden family reunification typically 6\u20139 months; fees are modest and translations are usually needed; predictable for first-time applicants.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Compliance \u0026 Risks",
-      "alignmentText": "In Sweden, work permits hinge on ongoing employment or a solid startup plan. As first-time applicants, secure a firm job or backup visa to avoid gaps.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Dual Citizenship Allowed",
-      "alignmentText": "Sweden allows dual citizenship with the US with minimal reporting. You can retain US passports while living in Sweden.",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
-      "key": "General Considerations for Visa Holders",
-      "alignmentText": "Sweden offers strong protections and healthcare, but visa holders must register locally and may have limited subsidies.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Game Dev Work Prospects",
-      "alignmentText": "In Sweden, the game dev sector is healthy with major studios in Stockholm and Malm\u00F6; steady hiring suits Trey\u0027s goals.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Hiring Velocity (Established Studios)",
-      "alignmentText": "Sweden\u0027s game studios (Stockholm/Gothenburg) routinely fill roles in under a month; Trey\u0027s senior dev skills align with strong pipelines and visa options.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Compensation Benchmark (Established Studios)",
-      "alignmentText": "Sweden\u0027s established studios offer highly competitive compensation with strong benefits and parental leave; attractive to international talent.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Language (Established Studios)",
-      "alignmentText": "In Sweden, established studios commonly use English for global work; Swedish fluency remains valuable for compliance and community.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Remote Expectations (Established Studios)",
-      "alignmentText": "Sweden\u0027s established studios offer hybrid/remote roles with formal policies. This supports family-friendly schedules for Trey and Sarah.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Notable Game Studios",
-      "alignmentText": "9 - Sweden\u0027s game studios in Stockholm, Malm\u00F6, and Gothenburg offer a strong dev ecosystem with hiring, grants, and events that fit Trey\u0027s interests.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Notable Game Development Communities",
-      "alignmentText": "Stockholm/Sweden hosts active game dev communities: IGDA Sweden and Futuregames alumni run regular meetups and jams. The scene welcomes families.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Opportunities for Video Game Startup",
-      "alignmentText": "Sweden\u0027s Malm\u00F6 hub offers grants, Game Habitat, and publisher networks; payroll taxes are high, so startups must hustle.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Hiring Velocity (Startups)",
-      "alignmentText": "In Sweden, early startup hiring runs about 2 months. Malmo\u0027s Game Habitat and grants ease funding and visas, with English-friendly teams.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Compensation Benchmark (Startups)",
-      "alignmentText": "Sweden startup comp tracks medians after cost of living, with solid base pay and equity. Stockholm offers family-friendly benefits and universal healthcare.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Language (Startups)",
-      "alignmentText": "Sweden widely uses English in startups; strong Swedish marketing and regulatory needs require bilingual ops with translation support.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Remote Expectations (Startups)",
-      "alignmentText": "Sweden startups favor hybrid work with mature remote tooling; aligns with this family\u0027s founder/remote setup and Sarah\u0027s remote options.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Modernity \u0026 Infrastructure",
-      "alignmentText": "In Sweden, gigabit broadband and reliable power are standard, with widespread 5G. Efficient transit and digital services enable smooth remote work and gaming.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Seasonal Extremes \u0026 Variability",
-      "alignmentText": "Sweden generally has predictable seasons with cold, snowy winters and mild summers; plan for a couple of extremes (ice, storms), but daily life remains manageable.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Seasonal Sunlight Hours",
-      "alignmentText": "Stockholm, Sweden experiences noticeable winter darkness. Regular outdoor breaks and occasional light therapy help maintain energy.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Pleasant Weather Windows",
-      "alignmentText": "In Sweden (SE), mild summers and chilly winters yield outdoor-friendly windows about half the year; plan around shoulder seasons.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Quality of Life \u2013 Lower-Income Tier",
-      "alignmentText": "Sweden\u0027s universal healthcare and subsidized childcare ease costs for a low-income family; housing waitlists and urban costs remain constraints.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Quality of Life \u2013 Middle-Income Tier",
-      "alignmentText": "Sweden\u0027s strong public services support hobbies and education for a middle-income family, though city housing costs still require mindful budgeting.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Quality of Life \u2013 Higher-Income Tier",
-      "alignmentText": "In Sweden, high-end living is feasible with strong healthcare, schools, and culture; some niche services require booking or travel to urban hubs.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
-      "alignmentText": "2k sq ft rentals exist mainly in outer suburbs of Sweden\u0027s cities. Inventory is tight; brokers or longer searches are common.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Community Living Opportunities",
-      "alignmentText": "Sweden (SE) has a few co-housing/kollektivhus projects; options exist mainly near larger cities, though waitlists can be long.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Friendliness \u0026 Neighborliness Index",
-      "alignmentText": "Friendliness in Sweden varies by neighborhood. Expat networks in cities like Stockholm and Malm\u00F6 help newcomers, but building ties takes time.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 General",
-      "alignmentText": "Sweden (SE) remains broadly welcoming to immigrants. Occasional policy debates exist, but people feel safe speaking languages and sharing traditions.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Immigrant Sentiment \u2013 White Migrants",
-      "alignmentText": "Sweden generally welcomes skilled migrants; learning Swedish and engaging locally reduces stereotypes and eases integration.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Surface Interaction Norms",
-      "alignmentText": "In Sweden (Stockholm), service is efficient and polite; English is widely understood. Interactions are courteous and practical, with helpful staff when needed.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Depth-Seeking Social Norms",
-      "alignmentText": "In Sweden, open, egalitarian communities foster gradual, trust-based bonds; join clubs or events to deepen friendships over time.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Personal Boundary \u0026 Bubble Norms",
-      "alignmentText": "Sweden generally respects personal space; in crowded Stockholm transit, expect closer contact and use gentle, clear boundaries.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Moral, Honesty \u0026 Openness Expectations",
-      "alignmentText": "Sweden\u0027s culture values direct yet respectful honesty. Share concerns clearly while staying diplomatic in a pluralistic society that respects privacy.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Grooming \u0026 Beauty Investment",
-      "alignmentText": "Sweden\u0027s urban/suburban work culture is casual yet professional. Budget modest grooming time; polish for work but avoid daily over-critique.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Body Image \u0026 Fitness Pressure",
-      "alignmentText": "Sweden tends toward respectful, health-focused talk; inclusive gyms and wellness culture welcome all abilities, with little body-shaming in public spaces.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Fashion \u0026 Style Expectations",
-      "alignmentText": "In Sweden\u0027s urban areas, dress is neat smart-casual; at home with kids you can be casual, but work contexts still expect polished attire.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Flirting Boundaries \u0026 Consent Culture",
-      "alignmentText": "In Sweden, consent culture is strong\u2014explicit consent and clear boundaries; expect respectful flirting and proactive bystander support.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Gendered Flirting Expectations",
-      "alignmentText": "In Sweden, flirting norms are broadly egalitarian; most people value consent and openness. A few circles still expect traditional first approaches.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Monogamy vs. Non-Monogamy Acceptance",
-      "alignmentText": "In Sweden, urban centers are broadly accepting of non-monogamy. Suburbs tend to require discretion.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Promiscuity Attitudes",
-      "alignmentText": "In Sweden, consenting adults face little stigma; sexuality is personal, with broad acceptance in urban areas like Stockholm and Gothenburg.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
-      "alignmentText": "Sweden\u0027s progressive culture supports diverse families; you\u0027ll find open participation in civic life with minimal friction, though formal recognition remains limited.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Personal Space \u0026 Touch Norms",
-      "alignmentText": "Sweden values personal space; greetings are usually handshakes, hugs by consent. Expect polite distance in buses and queues, even with kids.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Firearm Laws \u0026 Ownership Culture",
-      "alignmentText": "Sweden (SE): firearms exist but licensing, storage, and training are strict; public exposure is low, with strong safety norms.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Controlled Substance Policies",
-      "alignmentText": "Sweden enforces strict drug laws with strong penalties; treatment access exists and universal healthcare supports recovery.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Drug Enforcement Climate",
-      "alignmentText": "In Sweden, enforcement is proportionate with strong oversight; families rarely witness aggressive sweeps.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Mass Violence Incidence",
-      "alignmentText": "Mass violence is rare in Sweden. Authorities in Stockholm and other major cities communicate clearly, and safety protocols help families feel prepared.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Carceral Conditions \u0026 Prison Labor",
-      "alignmentText": "In Sweden, prisons stress rehabilitation with robust oversight and humane conditions, aligning with our family\u0027s values.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Walkability \u0026 Pedestrian Safety",
-      "alignmentText": "Sweden\u0027s urban areas are highly walkable with solid pedestrian safety and transit. We\u0027ll route around a few busy arterials to keep the family comfortable.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Community Health Consciousness",
-      "alignmentText": "In Sweden, universal healthcare and public wellness programs support families; active lifestyles and community groups make motivation easier.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Processed Food Saturation",
-      "alignmentText": "Sweden\u0027s fresh markets and school meals balance snacks; ultra-processed foods aren\u0027t dominating, helping your family access healthier options locally.",
+      "key": "2D Environmental Artist: Compensation Benchmark",
+      "alignmentText": "Sweden offers strong benefits and work-life balance; 2D env art pay lags top markets ~10-15% but remains competitive with solid perks.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
-      "key": "Fresh \u0026 International Cuisine Access",
-      "alignmentText": "In Sweden\u0027s urban centers, fresh markets and diverse cuisines are plentiful; rare specialty ingredients may require a trip to a larger city.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Depression Prevalence",
-      "alignmentText": "In Sweden, universal healthcare supports therapy, but waiting lists exist; plan ahead for timely access during winter darkness.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Obesity Rate",
-      "alignmentText": "Sweden typically has low obesity rates due to active transport and universal healthcare. Your family\u0027s Swedish lifestyle supports healthy habits.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "Cancer Incidence",
-      "alignmentText": "Incidence in Sweden aligns with global norms; universal healthcare and robust screening (breast/colorectal/cervical) support early detection.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Broader Job Market Resilience",
-      "alignmentText": "Sweden\u0027s diversified economy and strong welfare nets support retraining; Stockholm\u0027s startup ecosystem plus grants/visas boost resilience.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Studio Density",
-      "alignmentText": "Stockholm, Sweden hosts a strong game-dev ecosystem from AAA to indie, with grants/EU funding and English-friendly, reliable broadband.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Anchor Employers",
-      "alignmentText": "Stockholm/Malm\u00F6 host multiple AAA studios (DICE, Mojang, King) and a solid game-dev cluster, supporting steady hiring and training.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Vendor/Outsource Ecosystem",
-      "alignmentText": "In Sweden (Stockholm/Gothenburg) there is a solid game-dev vendor scene with art, QA, and audio; capacity is limited, so plan for remote partners.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Education Pipeline Strength",
-      "alignmentText": "Sweden has several credible game programs. Stockholm/Gothenburg schools steadily feed local talent via studio partnerships.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Continuing Education Availability",
-      "alignmentText": "Regular Swedish continuing education via universities, ABF, and local meetups; strong game/web dev scene supports ongoing learning.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Activity",
-      "alignmentText": "Sweden has regular game/tech meetups and annual conferences (e.g., Nordic Game), keeping the community connected.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Engine Community Bias",
-      "alignmentText": "Sweden\u0027s Unity and Unreal scenes (Stockholm) offer strong cross-pollination and robust game-dev grants, supporting your team\u0027s tooling growth.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Real-Time vs Pre-Rendered Focus",
-      "alignmentText": "Sweden\u0027s game dev scene is strong in real-time pipelines and cinematic work. This aligns with Trey\u0027s focus and Sweden\u0027s ecosystem.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Demand\u2013Supply Balance",
-      "alignmentText": "Sweden\u0027s tech scene is solid but not abundant; some friction for specialized web/azure/game dev roles; remote options help families migrate.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Retention \u0026 Churn Risk",
-      "alignmentText": "Sweden\u0027s studios show low churn and long tenures; grants and family-friendly policies support Trey/Sarah in the game dev ecosystem.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Diversity \u0026 Inclusion Index",
-      "alignmentText": "Sweden\u0027s inclusive culture and LGBTQ\u002B protections align with our family values. Transparent diversity metrics and broad representation reinforce equality.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
-      "key": "Tax Incentives for Games/Creative",
-      "alignmentText": "Sweden offers solid game/creative incentives with public grants (Vinnova/Film Institute) and broad R\u0026D relief. Administration is reliable for developers.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Economic/Policy Stability",
-      "alignmentText": "Sweden provides a stable, EU-aligned policy environment for tech and creative industries. Funding cycles and regulatory rules are predictable with few surprises.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Founder/Operator Community",
-      "alignmentText": "Stockholm\u0027s startup scene offers a growing founder network with regular meetups and mentors; access to grants via Swedish programs (Sting, Almi, Vinnova).",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Early-Stage Capital Access",
-      "alignmentText": "Sweden has reliable public grants and generalist funds (Vinnova/Almi) plus active VC presence. Game startups can access capital, though competition is real.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Accelerator/Incubator Access",
-      "alignmentText": "Stockholm/Gothenburg offer game-friendly accelerators and labs with annual cohorts; strong Almi/Vinnova support aids game startups.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Senior Talent Availability",
-      "alignmentText": "Sweden has a strong pool of senior tech/game leaders. Stockholm\u2019s startup ecosystem offers experienced talent and funding options, though competition is high.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "Contractor/Freelancer Bench",
-      "alignmentText": "Stockholm, Sweden has a robust IT contractor bench; onboarding is efficient, though top talent can book out weeks.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Coworking \u0026 Startup Infrastructure",
-      "alignmentText": "Sweden offers strong coworking with game dev communities (Stockholm area); good grants and remote options, but limited mocap labs.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Legal \u0026 IP Support",
-      "alignmentText": "Sweden offers several game-IP focused firms; Stockholm and Gothenburg counsel handle publishing/licensing with startup-friendly pricing.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Publisher/Platform Relationships",
-      "alignmentText": "Sweden has some publisher activity in the game scene, but partnerships usually require proactive outreach; local events help build ties.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "Market Research \u0026 Playtesting",
-      "alignmentText": "Sweden\u0027s game dev scene (Stockholm/Gothenburg) enables frequent playtests. English-friendly with strong local networks for tests.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Government/Startup Visas",
-      "alignmentText": "Sweden offers an entrepreneur residence route, not a rapid startup visa; processing is steady with solid family support and grants.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Cost of Doing Business",
-      "alignmentText": "Sweden offers startup grants (Vinnova) and a strong ecosystem for founders. Yet payroll taxes and Stockholm rents push costs above global averages.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Talent Pool",
-      "alignmentText": "Sweden hosts a strong 3D character artist pool: senior talent across Stockholm studios and a growing outsourcing network.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Education Pipeline Strength",
-      "alignmentText": "Sweden has solid game-design/CG programs (Stockholm/Gothenburg) and industry ties, but dedicated 3D character art pipelines are concentrated in a few schools.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Continuing Education Availability",
-      "alignmentText": "Stockholm, Sweden has occasional 3D character art education; most learning relies on visiting experts or remote courses.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "3D Character Artist: Hiring Velocity",
-      "alignmentText": "Sweden\u0027s game hubs Stockholm and Malmo offer a solid pipeline; 3D character artist roles typically close in 1-2 months with local and remote candidates.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Character Artist: Compensation Benchmark",
-      "alignmentText": "Sweden\u0027s 3D artist pay is ~10\u201315% below top hubs; strong game-dev scene and welfare offset the gap.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Language",
-      "alignmentText": "In Sweden, English is widely used in studios; local language learning is common, aligning with the family\u0027s English-first preference.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Character Artist: Remote Expectations",
-      "alignmentText": "In Sweden, remote/hybrid 3D artist roles are common; studios often support flexible schedules and provide gear stipends; async workflows work well.",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Talent Pool",
-      "alignmentText": "Sweden has a solid 3D animation talent pool, concentrated in Stockholm. Hiring senior animators may require relocation or longer searches.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "3D Animator: Education Pipeline Strength",
-      "alignmentText": "Sweden has multiple strong 3D animation programs (Stockholm, Gothenburg, Lund). Graduates feed regional studios each year.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "3D Animator: Continuing Education Availability",
-      "alignmentText": "Sweden offers regular 3D animation short courses and university continuing education options, notably in Stockholm; solid instructor quality.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Hiring Velocity",
-      "alignmentText": "In Sweden, a strong game dev scene and high English fluency speed 3D animator hiring; expect 1-2 months in studios around Stockholm.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Compensation Benchmark",
-      "alignmentText": "Sweden (SE): 3D animator pay trails top markets by ~25-30%. Yet strong healthcare and work-life balance support a family move.",
-      "alignmentValue": 5,
-      "sameAsParent": false
-    },
-    {
-      "key": "3D Animator: Language",
-      "alignmentText": "In Sweden, 3D studios widely use English; basic Swedish helps, but multilingual teams are common.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "3D Animator: Remote Expectations",
-      "alignmentText": "Remote/hybrid 3D animation is common in Sweden, aiding work-life balance for families. Stockholm studios offer reliable broadband and English-friendly collaboration.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "2D Environmental Artist: Talent Pool",
-      "alignmentText": "Solid 2D environmental artist pool in Sweden; concentrated in a few studios; senior talent competitive; startups may need relocation or remote hiring.",
+      "key": "2D Environmental Artist: Continuing Education Availability",
+      "alignmentText": "Sweden offers occasional 2D environmental art training and remote courses. Stockholm and Gothenburg host select workshops with strong instructors.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -1022,21 +26,9 @@
       "sameAsParent": false
     },
     {
-      "key": "2D Environmental Artist: Continuing Education Availability",
-      "alignmentText": "Sweden offers occasional 2D environmental art training and remote courses. Stockholm and Gothenburg host select workshops with strong instructors.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
       "key": "2D Environmental Artist: Hiring Velocity",
       "alignmentText": "Sweden SE: 2D Environmental Artist hiring is moderate; visa steps slow timelines, expect ~3-4 months to hire with relocation support.",
       "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "2D Environmental Artist: Compensation Benchmark",
-      "alignmentText": "Sweden offers strong benefits and work-life balance; 2D env art pay lags top markets ~10-15% but remains competitive with solid perks.",
-      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
@@ -1051,8 +43,1043 @@
       "alignmentValue": 10
     },
     {
-      "key": "VFX Artist (Real-Time): Talent Pool",
-      "alignmentText": "Sweden hosts a strong real-time VFX talent pool, led by Stockholm and Gothenburg. Mid-to-senior pros are common, offering solid hiring options for studios.",
+      "key": "2D Environmental Artist: Talent Pool",
+      "alignmentText": "Solid 2D environmental artist pool in Sweden; concentrated in a few studios; senior talent competitive; startups may need relocation or remote hiring.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Compensation Benchmark",
+      "alignmentText": "Sweden (SE): 3D animator pay trails top markets by ~25-30%. Yet strong healthcare and work-life balance support a family move.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Continuing Education Availability",
+      "alignmentText": "Sweden offers regular 3D animation short courses and university continuing education options, notably in Stockholm; solid instructor quality.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Education Pipeline Strength",
+      "alignmentText": "Sweden has multiple strong 3D animation programs (Stockholm, Gothenburg, Lund). Graduates feed regional studios each year.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "3D Animator: Hiring Velocity",
+      "alignmentText": "In Sweden, a strong game dev scene and high English fluency speed 3D animator hiring; expect 1-2 months in studios around Stockholm.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Animator: Language",
+      "alignmentText": "In Sweden, 3D studios widely use English; basic Swedish helps, but multilingual teams are common.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "3D Animator: Remote Expectations",
+      "alignmentText": "Remote/hybrid 3D animation is common in Sweden, aiding work-life balance for families. Stockholm studios offer reliable broadband and English-friendly collaboration.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "3D Animator: Talent Pool",
+      "alignmentText": "Sweden has a solid 3D animation talent pool, concentrated in Stockholm. Hiring senior animators may require relocation or longer searches.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "3D Character Artist: Compensation Benchmark",
+      "alignmentText": "Sweden\u0027s 3D artist pay is ~10\u201315% below top hubs; strong game-dev scene and welfare offset the gap.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Continuing Education Availability",
+      "alignmentText": "Stockholm, Sweden has occasional 3D character art education; most learning relies on visiting experts or remote courses.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "3D Character Artist: Education Pipeline Strength",
+      "alignmentText": "Sweden has solid game-design/CG programs (Stockholm/Gothenburg) and industry ties, but dedicated 3D character art pipelines are concentrated in a few schools.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Hiring Velocity",
+      "alignmentText": "Sweden\u0027s game hubs Stockholm and Malmo offer a solid pipeline; 3D character artist roles typically close in 1-2 months with local and remote candidates.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "3D Character Artist: Language",
+      "alignmentText": "In Sweden, English is widely used in studios; local language learning is common, aligning with the family\u0027s English-first preference.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Remote Expectations",
+      "alignmentText": "In Sweden, remote/hybrid 3D artist roles are common; studios often support flexible schedules and provide gear stipends; async workflows work well.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "3D Character Artist: Talent Pool",
+      "alignmentText": "Sweden hosts a strong 3D character artist pool: senior talent across Stockholm studios and a growing outsourcing network.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Accelerator/Incubator Access",
+      "alignmentText": "Stockholm/Gothenburg offer game-friendly accelerators and labs with annual cohorts; strong Almi/Vinnova support aids game startups.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Air Quality",
+      "alignmentText": "Air in Sweden is very clean with only occasional mild traffic spikes; filtration is not typically needed and sensitive family members stay symptom-free.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Anchor Employers",
+      "alignmentText": "Stockholm/Malm\u00F6 host multiple AAA studios (DICE, Mojang, King) and a solid game-dev cluster, supporting steady hiring and training.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Atheism",
+      "alignmentText": "Sweden\u0027s secular culture is strong. Atheism is widely accepted and religion rarely surfaces in public life, matching your family\u0027s preferences.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Authoritarian Backsliding Risk",
+      "alignmentText": "In Sweden (SE), robust democracy with independent judiciary and media protecting civil liberties; only minor populist rhetoric.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Banking \u0026 Payments",
+      "alignmentText": "Banking in Sweden is highly digital (Swish, BankID). Newcomers often need a Swedish personnummer to open accounts, causing initial friction.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Beach Life",
+      "alignmentText": "Stockholm archipelago and Sk\u00E5ne beaches are scenic but have a short season and chilly water; usable for summer trips with some travel.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Boardgaming \u0026 Tabletop",
+      "alignmentText": "Stockholm and Malm\u00F6 offer family-friendly boardgame cafes and active groups; Sweden supports kid-friendly, multilingual play.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Body Image \u0026 Fitness Pressure",
+      "alignmentText": "Sweden tends toward respectful, health-focused talk; inclusive gyms and wellness culture welcome all abilities, with little body-shaming in public spaces.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Broader Job Market Resilience",
+      "alignmentText": "Sweden\u0027s diversified economy and strong welfare nets support retraining; Stockholm\u0027s startup ecosystem plus grants/visas boost resilience.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Cancer Incidence",
+      "alignmentText": "Incidence in Sweden aligns with global norms; universal healthcare and robust screening (breast/colorectal/cervical) support early detection.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Carceral Conditions \u0026 Prison Labor",
+      "alignmentText": "In Sweden, prisons stress rehabilitation with robust oversight and humane conditions, aligning with our family\u0027s values.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child Care Support",
+      "alignmentText": "In Sweden, municipal preschools and generous parental leave create abundant childcare safety nets; access is affordable and reliable for your family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Child-Friendliness of Cities",
+      "alignmentText": "Stockholm and Malm\u00F6 are very kid-friendly: safe crossings, abundant parks, stroller-friendly transit, and universal childcare.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Childcare Support (Citizens)",
+      "alignmentText": "Sweden provides strong, income-based f\u00F6rskola subsidies; fees cap near 3% of income, with many hours free and local slots typically available.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Childcare Support (Visa Holders)",
+      "alignmentText": "Visa families in Sweden access subsidized childcare with broad eligibility; multilingual enrollment support helps speed up access.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Common Hobbies",
+      "alignmentText": "In Sweden, Fika, cycling, skiing, and sailing are common for families. Abundant clubs, parks, and kid-friendly activities support shared hobbies.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Activity",
+      "alignmentText": "Sweden has regular game/tech meetups and annual conferences (e.g., Nordic Game), keeping the community connected.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Health Consciousness",
+      "alignmentText": "In Sweden, universal healthcare and public wellness programs support families; active lifestyles and community groups make motivation easier.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Living Opportunities",
+      "alignmentText": "Sweden (SE) has a few co-housing/kollektivhus projects; options exist mainly near larger cities, though waitlists can be long.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Compensation Benchmark",
+      "alignmentText": "Sweden (Stockholm) offers solid Community Manager pay with strong benefits; higher cost of living may offset salary versus top markets.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Manager: Continuing Education Availability",
+      "alignmentText": "Sweden has regular community manager meetups and active online communities. Stockholm-area universities offer related short courses in English.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Education Pipeline Strength",
+      "alignmentText": "Sweden has strong digital media/marketing programs, but few dedicated community manager degrees; studios partner with universities for practical upskilling.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "Community Manager: Hiring Velocity",
+      "alignmentText": "Sweden\u0027s strong startup scene and high English ubiquity mean Community Manager roles typically close in 1\u20132 months.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Language",
+      "alignmentText": "Sweden relies on strong English in CM; many studios are bilingual. Basic Swedish helps client-facing work, but English covers most roles.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Manager: Remote Expectations",
+      "alignmentText": "In Sweden, remote/hybrid community roles are common; strong broadband, high English fluency, and family-friendly policies fit this family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Community Manager: Talent Pool",
+      "alignmentText": "Stockholm, Sweden has a solid pool of community managers in gaming and tech; mid-to-senior hires are available, though top studios are competitive.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Community Vibes",
+      "alignmentText": "Neighbors may be reserved at first in Sweden, but school networks and local clubs help the family plug in; English ubiquity supports quick adaptation.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Compensation Benchmark (Established Studios)",
+      "alignmentText": "Sweden\u0027s established studios offer highly competitive compensation with strong benefits and parental leave; attractive to international talent.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Compensation Benchmark (Startups)",
+      "alignmentText": "Sweden startup comp tracks medians after cost of living, with solid base pay and equity. Stockholm offers family-friendly benefits and universal healthcare.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Compliance \u0026 Risks",
+      "alignmentText": "In Sweden, work permits hinge on ongoing employment or a solid startup plan. As first-time applicants, secure a firm job or backup visa to avoid gaps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Continuing Education Availability",
+      "alignmentText": "Regular Swedish continuing education via universities, ABF, and local meetups; strong game/web dev scene supports ongoing learning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Contractor/Freelancer Bench",
+      "alignmentText": "Stockholm, Sweden has a robust IT contractor bench; onboarding is efficient, though top talent can book out weeks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Controlled Substance Policies",
+      "alignmentText": "Sweden enforces strict drug laws with strong penalties; treatment access exists and universal healthcare supports recovery.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Cost of Doing Business",
+      "alignmentText": "Sweden offers startup grants (Vinnova) and a strong ecosystem for founders. Yet payroll taxes and Stockholm rents push costs above global averages.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Cost of Living (Optional)",
+      "alignmentText": "Stockholm\u0027s cost of living is high; rents and services strain budgets, but strong pay and universal healthcare help with family costs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Coworking \u0026 Startup Infrastructure",
+      "alignmentText": "Sweden offers strong coworking with game dev communities (Stockholm area); good grants and remote options, but limited mocap labs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Demand\u2013Supply Balance",
+      "alignmentText": "Sweden\u0027s tech scene is solid but not abundant; some friction for specialized web/azure/game dev roles; remote options help families migrate.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Depression Prevalence",
+      "alignmentText": "In Sweden, universal healthcare supports therapy, but waiting lists exist; plan ahead for timely access during winter darkness.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Depth-Seeking Social Norms",
+      "alignmentText": "In Sweden, open, egalitarian communities foster gradual, trust-based bonds; join clubs or events to deepen friendships over time.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Diversity \u0026 Inclusion Index",
+      "alignmentText": "Sweden\u0027s inclusive culture and LGBTQ\u002B protections align with our family values. Transparent diversity metrics and broad representation reinforce equality.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Drug Enforcement Climate",
+      "alignmentText": "In Sweden, enforcement is proportionate with strong oversight; families rarely witness aggressive sweeps.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Dual Citizenship Allowed",
+      "alignmentText": "Sweden allows dual citizenship with the US with minimal reporting. You can retain US passports while living in Sweden.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "Early Stage Grants Available",
+      "alignmentText": "In Sweden (SE), expect solid early-stage non-dilutive grants via Vinnova/EU; a game/dev startup can target roughly $350k\u2013$700k.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Early-Stage Capital Access",
+      "alignmentText": "Sweden has reliable public grants and generalist funds (Vinnova/Almi) plus active VC presence. Game startups can access capital, though competition is real.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Economic Health",
+      "alignmentText": "Sweden\u0027s diversified economy and strong welfare nets offer steady work prospects and cushions for families like yours.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Economic System",
+      "alignmentText": "Sweden has a welfare-forward market blending private innovation with universal healthcare. Generous parental leave and startup support align with your family goals.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Economic/Policy Stability",
+      "alignmentText": "Sweden provides a stable, EU-aligned policy environment for tech and creative industries. Funding cycles and regulatory rules are predictable with few surprises.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Education",
+      "alignmentText": "Sweden offers universal, well-funded public schooling and strong early years programs; good for bilingual exposure, though outcomes vary by district.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Education Pipeline Strength",
+      "alignmentText": "Sweden has several credible game programs. Stockholm/Gothenburg schools steadily feed local talent via studio partnerships.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Employer Visa Sponsorship",
+      "alignmentText": "Sweden commonly sponsors skilled workers; permits take time but are usually approved. Dependents can join via family reunification.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Engine Community Bias",
+      "alignmentText": "Sweden\u0027s Unity and Unreal scenes (Stockholm) offer strong cross-pollination and robust game-dev grants, supporting your team\u0027s tooling growth.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Environment",
+      "alignmentText": "In Sweden, vast forests and clean lakes fit our outdoors focus; strict environmental rules keep pollution minimal and parks near urban areas.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Expected Tax Rate (Our Family)",
+      "alignmentText": "In Sweden (SE), two earners may face ~35-40% tax, but universal healthcare and strong public services offset the cost.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Fall Temperature Range (C/F)",
+      "alignmentText": "In Sweden, fall (Sept-Oct) runs 5-12\u00B0C with mild days and chilly breezes; pack layers for family-friendly outings.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Life",
+      "alignmentText": "In Sweden, universal childcare, generous parental leave, and child benefits support families; safe neighborhoods and strong public services ease daily life.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Members",
+      "alignmentText": "Sweden allows spouses and minor children to join a main permit holder as dependents. With Trey\u0027s permit, Sarah and the kids gain residency.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Family Policy (Citizens)",
+      "alignmentText": "Sweden\u0027s 480 days parental leave and universal child benefits, plus flexible work laws, offer a robust family safety net in SE.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Family Policy (Common Family)",
+      "alignmentText": "Sweden provides extensive parental leave, universal child allowance, and subsidized childcare; top-tier family support with straightforward administration.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Family Policy (Visa Holders)",
+      "alignmentText": "Sweden offers strong universal healthcare and child/parent benefits for visa families, but some cash supports need longer residency or employer sponsorship.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Fashion \u0026 Style Expectations",
+      "alignmentText": "In Sweden\u0027s urban areas, dress is neat smart-casual; at home with kids you can be casual, but work contexts still expect polished attire.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Fashion Trends (Female)",
+      "alignmentText": "Sweden (SE) has diverse, body-positive fashion with broad freedom, especially in Stockholm; outfits range from casual to smart-casual.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Fashion Trends (Male)",
+      "alignmentText": "In Sweden (Stockholm area), urban men favor minimalist, functional streetwear from Scandinavian brands; suburbs stay more classic.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Femininity Norms",
+      "alignmentText": "In Sweden, women and feminine-presenting people freely pursue diverse careers and family roles; strong gender equality and childcare support your family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Firearm Laws \u0026 Ownership Culture",
+      "alignmentText": "Sweden (SE): firearms exist but licensing, storage, and training are strict; public exposure is low, with strong safety norms.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Flirting Boundaries \u0026 Consent Culture",
+      "alignmentText": "In Sweden, consent culture is strong\u2014explicit consent and clear boundaries; expect respectful flirting and proactive bystander support.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Founder/Operator Community",
+      "alignmentText": "Stockholm\u0027s startup scene offers a growing founder network with regular meetups and mentors; access to grants via Swedish programs (Sting, Almi, Vinnova).",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Fresh \u0026 International Cuisine Access",
+      "alignmentText": "In Sweden\u0027s urban centers, fresh markets and diverse cuisines are plentiful; rare specialty ingredients may require a trip to a larger city.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Friendliness \u0026 Neighborliness Index",
+      "alignmentText": "Friendliness in Sweden varies by neighborhood. Expat networks in cities like Stockholm and Malm\u00F6 help newcomers, but building ties takes time.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Game Dev Work Prospects",
+      "alignmentText": "In Sweden, the game dev sector is healthy with major studios in Stockholm and Malm\u00F6; steady hiring suits Trey\u0027s goals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Gender Fluidity",
+      "alignmentText": "Sweden offers legal gender recognition and evolving non-binary recognition; social acceptance is strong overall, with more visibility in cities.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Gender Rights",
+      "alignmentText": "In Sweden, gender rights are strongly protected and enforced; anti-discrimination and parental leave support your inclusive family values.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gender Roles",
+      "alignmentText": "In Sweden, gender roles are highly egalitarian; caregiving and leadership are commonly shared, supported by parental leave and universal childcare.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Gendered Flirting Expectations",
+      "alignmentText": "In Sweden, flirting norms are broadly egalitarian; most people value consent and openness. A few circles still expect traditional first approaches.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "General Considerations for Visa Holders",
+      "alignmentText": "Sweden offers strong protections and healthcare, but visa holders must register locally and may have limited subsidies.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Global Warming Risk",
+      "alignmentText": "Global warming risk in Sweden is moderate: mild summers help, but Baltic storms and pests require ongoing resilience planning for homes and families.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Government/Startup Visas",
+      "alignmentText": "Sweden offers an entrepreneur residence route, not a rapid startup visa; processing is steady with solid family support and grants.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Grooming \u0026 Beauty Investment",
+      "alignmentText": "Sweden\u0027s urban/suburban work culture is casual yet professional. Budget modest grooming time; polish for work but avoid daily over-critique.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Group \u0026 Multi-Partner Relationship Attitudes",
+      "alignmentText": "Sweden\u0027s progressive culture supports diverse families; you\u0027ll find open participation in civic life with minimal friction, though formal recognition remains limited.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Healthcare (Citizens)",
+      "alignmentText": "Sweden offers universal, affordable healthcare with strong pediatric services. Non-urgent specialist waits can stretch weeks, but access remains family-friendly.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Healthcare (Visa Holders)",
+      "alignmentText": "Sweden offers universal care after residence registration; during visa enrollment, supplemental private insurance can ease gaps.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Higher Education Access (Citizens)",
+      "alignmentText": "Sweden offers tuition-free higher education for citizens; CSN loans/grants and broad programs support your kids\u0027 study plans nationwide.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "Higher Education Access (Visa Holders)",
+      "alignmentText": "Sweden charges tuition for non-EU visa holders; good English programs exist, with scholarships but overall higher costs than residents.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Hiring Velocity (Established Studios)",
+      "alignmentText": "Sweden\u0027s game studios (Stockholm/Gothenburg) routinely fill roles in under a month; Trey\u0027s senior dev skills align with strong pipelines and visa options.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Hiring Velocity (Startups)",
+      "alignmentText": "In Sweden, early startup hiring runs about 2 months. Malmo\u0027s Game Habitat and grants ease funding and visas, with English-friendly teams.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Housing Situation",
+      "alignmentText": "Stockholm-area housing is tight; long rental queues and pricey cooperatives mean sublets or smaller suburbs while seeking a family home.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "How Taxes Are Handled",
+      "alignmentText": "Sweden\u0027s tax system is highly digital, with pre-filled returns and strong family benefits; municipal rates hover around 30% and vary by locality.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 General",
+      "alignmentText": "Sweden (SE) remains broadly welcoming to immigrants. Occasional policy debates exist, but people feel safe speaking languages and sharing traditions.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Immigrant Sentiment \u2013 White Migrants",
+      "alignmentText": "Sweden generally welcomes skilled migrants; learning Swedish and engaging locally reduces stereotypes and eases integration.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "K-12 Education Access (Citizens)",
+      "alignmentText": "In Sweden (SE), K-12 access is universal and free with strong language support. School transfers are generally straightforward.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "K-12 Education Access (Visa Holders)",
+      "alignmentText": "Visa-holding children in Sweden receive free public schooling with language support (SFI). Resources are largely comparable to those for citizens.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Language \u0026 English Ubiquity",
+      "alignmentText": "In Sweden\u0027s cities, English is widely used; most services are available in English, helping your family adapt while learning Swedish.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Language (Established Studios)",
+      "alignmentText": "In Sweden, established studios commonly use English for global work; Swedish fluency remains valuable for compliance and community.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Language (Startups)",
+      "alignmentText": "Sweden widely uses English in startups; strong Swedish marketing and regulatory needs require bilingual ops with translation support.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Legal \u0026 IP Support",
+      "alignmentText": "Sweden offers several game-IP focused firms; Stockholm and Gothenburg counsel handle publishing/licensing with startup-friendly pricing.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "LGBTQ\u002B Attitudes",
+      "alignmentText": "Sweden has strong LGBTQ\u002B protections nationwide; same-sex marriage legal and Pride events in major cities, though rural areas can be more conservative.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Market Research \u0026 Playtesting",
+      "alignmentText": "Sweden\u0027s game dev scene (Stockholm/Gothenburg) enables frequent playtests. English-friendly with strong local networks for tests.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Marxism (Societal Attitudes)",
+      "alignmentText": "In Sweden, Marxism persists in academia and among some left parties, but policy stays pragmatic. Open, pluralist debate fits a progressive family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Masculinity Norms",
+      "alignmentText": "Sweden\u0027s masculinity norms support nurturing and shared parenting. Fathers\u0027 caregiving is widely admired there.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Mass Violence Incidence",
+      "alignmentText": "Mass violence is rare in Sweden. Authorities in Stockholm and other major cities communicate clearly, and safety protocols help families feel prepared.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Meetups \u0026 Communities",
+      "alignmentText": "Stockholm has a broad, English-friendly meetup scene for tech and families; most groups are accessible, though a few niches may use waitlists or fees.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Minimum Wage",
+      "alignmentText": "Sweden uses collective agreements; wages generally meet living costs and childcare is subsidized, with strong protections even for entry roles.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Modernity \u0026 Infrastructure",
+      "alignmentText": "In Sweden, gigabit broadband and reliable power are standard, with widespread 5G. Efficient transit and digital services enable smooth remote work and gaming.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Monogamy vs. Non-Monogamy Acceptance",
+      "alignmentText": "In Sweden, urban centers are broadly accepting of non-monogamy. Suburbs tend to require discretion.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Moral, Honesty \u0026 Openness Expectations",
+      "alignmentText": "Sweden\u0027s culture values direct yet respectful honesty. Share concerns clearly while staying diplomatic in a pluralistic society that respects privacy.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Natural Beauty",
+      "alignmentText": "Sweden\u0027s archipelagos and forests, with allemansr\u00E4tten, offer abundant, accessible nature for the family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Natural Disasters",
+      "alignmentText": "For families in Sweden, disasters are rare and low impact; only occasional floods or windstorms, well-managed with Sweden\u0027s strong infrastructure.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Nature Access",
+      "alignmentText": "Allemansr\u00E4tten allows roaming forests, lakes, and islands in Sweden. Access to nature is within an hour of major cities via good public transport.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Nightlife \u0026 Music",
+      "alignmentText": "Stockholm\u0027s music scene is vibrant with regular concerts and festivals. Clubs can be pricey, but daytime events and family-friendly options help.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Nightlife Culture",
+      "alignmentText": "Stockholm and Gothenburg offer nightlife, but Sweden\u0027s alcohol rules and prices mean evenings require planning for a family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Notable Game Development Communities",
+      "alignmentText": "Stockholm/Sweden hosts active game dev communities: IGDA Sweden and Futuregames alumni run regular meetups and jams. The scene welcomes families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Notable Game Studios",
+      "alignmentText": "9 - Sweden\u0027s game studios in Stockholm, Malm\u00F6, and Gothenburg offer a strong dev ecosystem with hiring, grants, and events that fit Trey\u0027s interests.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Obesity Rate",
+      "alignmentText": "Sweden typically has low obesity rates due to active transport and universal healthcare. Your family\u0027s Swedish lifestyle supports healthy habits.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Opportunities for Video Game Startup",
+      "alignmentText": "Sweden\u0027s Malm\u00F6 hub offers grants, Game Habitat, and publisher networks; payroll taxes are high, so startups must hustle.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Pace of Life",
+      "alignmentText": "In Sweden\u0027s cities, lagom pace and efficient transit yield calm days with short commutes; aligns with Sarah\u0027s slower pace.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Parenting Expectations",
+      "alignmentText": "In Sweden (SE), parenting is highly egalitarian with broad shared duties. Generous parental leave and universal childcare align with your family\u0027s values.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Path to Citizenship",
+      "alignmentText": "Sweden: citizenship typically after five years of residency; dual citizenship is allowed, so you won\u0027t need to renounce US citizenship.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Perceived Corruption",
+      "alignmentText": "In Sweden (SE), perceived corruption is very low; strong institutions and watchdogs back transparent, low-friction governance for your family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Personal Boundary \u0026 Bubble Norms",
+      "alignmentText": "Sweden generally respects personal space; in crowded Stockholm transit, expect closer contact and use gentle, clear boundaries.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Personal Space \u0026 Touch Norms",
+      "alignmentText": "Sweden values personal space; greetings are usually handshakes, hugs by consent. Expect polite distance in buses and queues, even with kids.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Pleasant Weather Windows",
+      "alignmentText": "In Sweden (SE), mild summers and chilly winters yield outdoor-friendly windows about half the year; plan around shoulder seasons.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Political System",
+      "alignmentText": "Sweden\u0027s constitutional monarchy with proportional parliament delivers transparent, resilient governance and strong rule of law, matching your family\u0027s values.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Polyamory",
+      "alignmentText": "Sweden offers broad social tolerance for polyamory, esp. in cities, but official forms still default to two-parent models.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Pre-K / Early Childcare Landscape",
+      "alignmentText": "Sweden provides f\u00F6rskola from age 1 with capped fees and subsidies; widely available, though popular urban slots can have waiting lists.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Private Education",
+      "alignmentText": "In Sweden, private friskolor follow the national curriculum and are largely state-funded; options exist, but quality varies.",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "Processed Food Saturation",
+      "alignmentText": "Sweden\u0027s fresh markets and school meals balance snacks; ultra-processed foods aren\u0027t dominating, helping your family access healthier options locally.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Compensation Benchmark",
+      "alignmentText": "In Sweden (Stockholm), PMM (Games) pay trails global medians by ~20%; strong benefits and family-friendly policies help offset.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Product Marketing Manager (Games): Continuing Education Availability",
+      "alignmentText": "Sweden has regular game-marketing meetups and university courses in major cities; strong instructors, though many advanced trainings are weekend/online.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
+      "alignmentText": "Sweden has strong marketing and game-design programs that graduate PMMs, with Stockholm and Gothenburg as hubs. This indicates a solid Sweden-wide PMM pipeline.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Product Marketing Manager (Games): Hiring Velocity",
+      "alignmentText": "Sweden PMM (Games) hiring typically takes 2-3 months with solid local talent; remote options help, though visa steps may extend timelines.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Product Marketing Manager (Games): Language",
+      "alignmentText": "Sweden\u0027s game studios routinely operate in English. Many teams are bilingual (Swedish/English), matching your preference for English ubiquity.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Product Marketing Manager (Games): Remote Expectations",
+      "alignmentText": "In Sweden (SE), PMM (Games) roles are typically remote or hybrid; robust broadband and family-friendly policies support async work.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Product Marketing Manager (Games): Talent Pool",
+      "alignmentText": "Stockholm\u0027s strong games sector yields a solid PMM pool with mid-to-senior talent and recent launches. English-speaking market with grants supports your goals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Progressivism",
+      "alignmentText": "Sweden\u0027s strong welfare-state and LGBTQ\u002B rights culture align with your progressive family; civic engagement and climate action shape daily life.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Promiscuity Attitudes",
+      "alignmentText": "In Sweden, consenting adults face little stigma; sexuality is personal, with broad acceptance in urban areas like Stockholm and Gothenburg.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Propaganda Messaging",
+      "alignmentText": "In Sweden (SE), public messaging centers on shared welfare and accurate info. Pluralistic media with minimal nationalist spin matches your family\u0027s values.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Propaganda Prevalence",
+      "alignmentText": "Sweden\u0027s pluralistic media and strong press freedom; public broadcasting debates aside, propaganda is minimal and quickly challenged.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Public Transportation",
+      "alignmentText": "Stockholm, Gothenburg, and Malmo offer extensive urban transit (rail, metro, bus). Car-free living is practical with bike-friendly options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Publisher/Platform Relationships",
+      "alignmentText": "Sweden has some publisher activity in the game scene, but partnerships usually require proactive outreach; local events help build ties.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "Quality of Life \u2013 Higher-Income Tier",
+      "alignmentText": "In Sweden, high-end living is feasible with strong healthcare, schools, and culture; some niche services require booking or travel to urban hubs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Quality of Life \u2013 Lower-Income Tier",
+      "alignmentText": "Sweden\u0027s universal healthcare and subsidized childcare ease costs for a low-income family; housing waitlists and urban costs remain constraints.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Quality of Life \u2013 Middle-Income Tier",
+      "alignmentText": "Sweden\u0027s strong public services support hobbies and education for a middle-income family, though city housing costs still require mindful budgeting.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Real-Time vs Pre-Rendered Focus",
+      "alignmentText": "Sweden\u0027s game dev scene is strong in real-time pipelines and cinematic work. This aligns with Trey\u0027s focus and Sweden\u0027s ecosystem.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Religion in Politics",
+      "alignmentText": "In Sweden, religion is largely separate from policy; a secular state with strong protections for personal beliefs fits the family\u0027s values.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Remote Expectations (Established Studios)",
+      "alignmentText": "Sweden\u0027s established studios offer hybrid/remote roles with formal policies. This supports family-friendly schedules for Trey and Sarah.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote Expectations (Startups)",
+      "alignmentText": "Sweden startups favor hybrid work with mature remote tooling; aligns with this family\u0027s founder/remote setup and Sarah\u0027s remote options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Remote-Friendly Culture",
+      "alignmentText": "In Sweden (SE), remote work is highly normalized. Robust broadband, flexible hours, and strong family support enable home-based or hybrid roles.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Residency Types \u0026 Durations",
+      "alignmentText": "Sweden typically grants skilled work permits for 2 years with extensions; steady path from temporary to permanent residency for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Retention \u0026 Churn Risk",
+      "alignmentText": "Sweden\u0027s studios show low churn and long tenures; grants and family-friendly policies support Trey/Sarah in the game dev ecosystem.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Retirement (Citizens)",
+      "alignmentText": "In Sweden (SE), public and occupational pensions plus premium pension offer solid retirement income for long-term residents; requires ongoing contributions.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "Retirement (Visa Holders)",
+      "alignmentText": "In Sweden, pensions depend on work contributions; visa holders need residency-years for full access. Start private retirement savings now.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Ruby Work Prospects",
+      "alignmentText": "Ruby roles in Sweden are sporadic and cluster in a few startups or consultancies. Expect hybrid roles and overlap with JS/DevOps.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "Safety \u0026 Crime",
+      "alignmentText": "Overall safe in Sweden; some suburbs experience gang-related incidents after dark.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Schooling Options",
+      "alignmentText": "Sweden has strong public schools and bilingual friskolor; expect enrollment planning and possible waitlists for English-language tracks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Beach Water Temp",
+      "alignmentText": "Sweden\u0027s Baltic Sea stays around 18-20 C in summer; extended swims for a 5-year-old and 1-year-old may need wetsuits or a pool option.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "Seasonal Extremes \u0026 Variability",
+      "alignmentText": "Sweden generally has predictable seasons with cold, snowy winters and mild summers; plan for a couple of extremes (ice, storms), but daily life remains manageable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Sunlight Hours",
+      "alignmentText": "Stockholm, Sweden experiences noticeable winter darkness. Regular outdoor breaks and occasional light therapy help maintain energy.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Seasonal Weather",
+      "alignmentText": "In Sweden, winters are long and dark with damp chill; summers are mild and bright, giving a generally manageable seasonal pattern for the family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "Senior Talent Availability",
+      "alignmentText": "Sweden has a strong pool of senior tech/game leaders. Stockholm\u2019s startup ecosystem offers experienced talent and funding options, though competition is high.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "Sex (Attitudes)",
+      "alignmentText": "Sweden provides comprehensive, destigmatized sex education with inclusive, LGBTQ\u002B-friendly resources; aligns with our sex-positive family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Social Policies",
+      "alignmentText": "In Sweden (SE), universal healthcare and generous parental leave underpin strong family support and accessible childcare.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "Spacious Housing Benchmark (2k sq ft Rent)",
+      "alignmentText": "2k sq ft rentals exist mainly in outer suburbs of Sweden\u0027s cities. Inventory is tight; brokers or longer searches are common.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Spring Temperature Range (C/F)",
+      "alignmentText": "Spring in Sweden (SE) can swing from near-freezing mornings to mild afternoons; expect wardrobe changes as temps vary through April-May.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Stability",
+      "alignmentText": "Sweden offers long-term stability with predictable policies and trusted institutions. Universal healthcare and strong social cohesion support your family in SE.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "State Ideology",
+      "alignmentText": "Sweden\u0027s pluralistic welfare state champions rights and evidence-based policy, matching the family\u0027s progressive outlook in a tolerant, supported society.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "State of Capitalism",
+      "alignmentText": "Sweden\u0027s social-market model blends innovation with strong safety nets and high QoL; founders benefit from robust public services and work\u2013life balance.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Studio Density",
+      "alignmentText": "Stockholm, Sweden hosts a strong game-dev ecosystem from AAA to indie, with grants/EU funding and English-friendly, reliable broadband.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Summer Temperature Range (C/F)",
+      "alignmentText": "Sweden summers are typically 23-25 \u00B0C with low humidity. This makes outdoor time comfortable and sleep easy without air conditioning.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Surface Interaction Norms",
+      "alignmentText": "In Sweden (Stockholm), service is efficient and polite; English is widely understood. Interactions are courteous and practical, with helpful staff when needed.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Tax Incentives for Games/Creative",
+      "alignmentText": "Sweden offers solid game/creative incentives with public grants (Vinnova/Film Institute) and broad R\u0026D relief. Administration is reliable for developers.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Timelines \u0026 Costs",
+      "alignmentText": "US-to-Sweden family reunification typically 6\u20139 months; fees are modest and translations are usually needed; predictable for first-time applicants.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Trust in Government",
+      "alignmentText": "In Sweden, public trust is high; transparent agencies and strong welfare support fit your family\u0027s need for a stable, family-friendly life.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Type of Corruption",
+      "alignmentText": "In Sweden (SE), corruption is rare and swiftly addressed. Public services are transparent and processes straightforward.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Typical Software Salaries",
+      "alignmentText": "In Sweden (SE), senior software pay is solid but not US-level. Stockholm-area salaries run ~550k-650k SEK/yr, supporting dual incomes.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "Typical Weekend Schedule (Family of Four)",
+      "alignmentText": "In Sweden, weekends offer abundant family-friendly activities, parks, and museums with reliable transit; many venues don\u0027t require pre-booking.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Typical Workday Schedule (Family of Four)",
+      "alignmentText": "In Sweden, wraparound care (f\u00F6rskola/daycare and fritids) runs roughly 7:00-18:00, so 8:00-16:30 aligns well. After-school care fills gaps.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Vacation Days (Minimum)",
+      "alignmentText": "In Sweden (SE), statutory vacation is 25 days per year plus public holidays, with strong schedule flexibility for families.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "Vacation Days (Typical)",
+      "alignmentText": "Sweden typically offers about 25 vacation days per year, with summer shutdowns common. This supports your family\u0027s work-life balance.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Vendor/Outsource Ecosystem",
+      "alignmentText": "In Sweden (Stockholm/Gothenburg) there is a solid game-dev vendor scene with art, QA, and audio; capacity is limited, so plan for remote partners.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "VFX Artist (Real-Time): Compensation Benchmark",
+      "alignmentText": "VFX real-time pay in Sweden (Stockholm) aligns with global medians after cost of living. Strong benefits and family-friendly policies boost overall packages.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "VFX Artist (Real-Time): Continuing Education Availability",
+      "alignmentText": "Sweden offers an active real-time VFX continuing education scene with university courses and industry workshops. Stockholm and Gothenburg host regular meetups.",
       "alignmentValue": 8
     },
     {
@@ -1062,20 +1089,10 @@
       "sameAsParent": false
     },
     {
-      "key": "VFX Artist (Real-Time): Continuing Education Availability",
-      "alignmentText": "Sweden offers an active real-time VFX continuing education scene with university courses and industry workshops. Stockholm and Gothenburg host regular meetups.",
-      "alignmentValue": 8
-    },
-    {
       "key": "VFX Artist (Real-Time): Hiring Velocity",
       "alignmentText": "Sweden\u0027s real-time VFX talent pool is strong in Stockholm/Gothenburg; expect 1-2 month fills with English-friendly hiring and local visa options.",
       "alignmentValue": 8,
       "sameAsParent": false
-    },
-    {
-      "key": "VFX Artist (Real-Time): Compensation Benchmark",
-      "alignmentText": "VFX real-time pay in Sweden (Stockholm) aligns with global medians after cost of living. Strong benefits and family-friendly policies boost overall packages.",
-      "alignmentValue": 8
     },
     {
       "key": "VFX Artist (Real-Time): Language",
@@ -1090,76 +1107,64 @@
       "sameAsParent": false
     },
     {
-      "key": "Community Manager: Talent Pool",
-      "alignmentText": "Stockholm, Sweden has a solid pool of community managers in gaming and tech; mid-to-senior hires are available, though top studios are competitive.",
+      "key": "VFX Artist (Real-Time): Talent Pool",
+      "alignmentText": "Sweden hosts a strong real-time VFX talent pool, led by Stockholm and Gothenburg. Mid-to-senior pros are common, offering solid hiring options for studios.",
       "alignmentValue": 8
     },
     {
-      "key": "Community Manager: Education Pipeline Strength",
-      "alignmentText": "Sweden has strong digital media/marketing programs, but few dedicated community manager degrees; studios partner with universities for practical upskilling.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "Community Manager: Continuing Education Availability",
-      "alignmentText": "Sweden has regular community manager meetups and active online communities. Stockholm-area universities offer related short courses in English.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Manager: Hiring Velocity",
-      "alignmentText": "Sweden\u0027s strong startup scene and high English ubiquity mean Community Manager roles typically close in 1\u20132 months.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Manager: Compensation Benchmark",
-      "alignmentText": "Sweden (Stockholm) offers solid Community Manager pay with strong benefits; higher cost of living may offset salary versus top markets.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "Community Manager: Language",
-      "alignmentText": "Sweden relies on strong English in CM; many studios are bilingual. Basic Swedish helps client-facing work, but English covers most roles.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Community Manager: Remote Expectations",
-      "alignmentText": "In Sweden, remote/hybrid community roles are common; strong broadband, high English fluency, and family-friendly policies fit this family.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Product Marketing Manager (Games): Talent Pool",
-      "alignmentText": "Stockholm\u0027s strong games sector yields a solid PMM pool with mid-to-senior talent and recent launches. English-speaking market with grants supports your goals.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Product Marketing Manager (Games): Education Pipeline Strength",
-      "alignmentText": "Sweden has strong marketing and game-design programs that graduate PMMs, with Stockholm and Gothenburg as hubs. This indicates a solid Sweden-wide PMM pipeline.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "Product Marketing Manager (Games): Continuing Education Availability",
-      "alignmentText": "Sweden has regular game-marketing meetups and university courses in major cities; strong instructors, though many advanced trainings are weekend/online.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "Product Marketing Manager (Games): Hiring Velocity",
-      "alignmentText": "Sweden PMM (Games) hiring typically takes 2-3 months with solid local talent; remote options help, though visa steps may extend timelines.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "Product Marketing Manager (Games): Compensation Benchmark",
-      "alignmentText": "In Sweden (Stockholm), PMM (Games) pay trails global medians by ~20%; strong benefits and family-friendly policies help offset.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "Product Marketing Manager (Games): Language",
-      "alignmentText": "Sweden\u0027s game studios routinely operate in English. Many teams are bilingual (Swedish/English), matching your preference for English ubiquity.",
+      "key": "View of Neighboring Countries",
+      "alignmentText": "Sweden and its Nordic neighbors (Norway, Finland, Denmark) enjoy positive ties and easy cross-border travel and collaboration.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
-      "key": "Product Marketing Manager (Games): Remote Expectations",
-      "alignmentText": "In Sweden (SE), PMM (Games) roles are typically remote or hybrid; robust broadband and family-friendly policies support async work.",
+      "key": "View of self",
+      "alignmentText": "In Sweden\u0027s lagom culture, our family sees balanced pride in welfare and openness, while noting housing and tax challenges.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "View of Them by Neighboring Countries",
+      "alignmentText": "Norway and Denmark largely view Sweden positively, aligning with your family\u0027s emphasis on education and LGBTQ\u002B-friendly policies.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Visa Paths",
+      "alignmentText": "Sweden has several viable routes (work permit, EU Blue Card, startup/self-employed) with clear criteria; processing is thorough but predictable.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Walkability \u0026 Pedestrian Safety",
+      "alignmentText": "Sweden\u0027s urban areas are highly walkable with solid pedestrian safety and transit. We\u0027ll route around a few busy arterials to keep the family comfortable.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Welcoming of US Migrants",
+      "alignmentText": "Sweden broadly welcomes US migrants; robust integration and language-support programs; English-friendly services aid families settling in Sweden.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "What Is Intriguing",
+      "alignmentText": "Sweden\u0027s design culture, eco-housing, and sustainable urbanism align with the family\u0027s progressive living interests and favor family-friendly policies.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "Winter Temperature Range (C/F)",
+      "alignmentText": "Stockholm winters typically -5 to 1\u00B0C with snow. Daylight is limited, but public services keep commutes and schools running.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Work Week Hours",
+      "alignmentText": "In Sweden, standard workweeks are ~37-38h with flex/remote options. This fits Trey and Sarah\u0027s need for family-friendly balance.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "Work-Life Balance",
+      "alignmentText": "In Sweden, strong parental leave, flexible hours, and boundary-friendly culture protect evenings/weekends for a family-first cadence.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "Workers\u0027 Rights",
+      "alignmentText": "Sweden\u0027s collective bargaining covers most workers; strong protections, parental leave, and predictable hours support family life.",
       "alignmentValue": 9
     }
   ]
