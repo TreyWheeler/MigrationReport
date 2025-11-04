@@ -87,6 +87,45 @@ public sealed class ReportUpdateService
         await Task.WhenAll(tasks).ConfigureAwait(false);
     }
 
+    public async Task UpdateReportsAsync(IEnumerable<string> reportNames, string? category = null, CancellationToken cancellationToken = default)
+    {
+        if (reportNames is null)
+        {
+            throw new ArgumentNullException(nameof(reportNames));
+        }
+
+        category = NormalizeSelector(category);
+        var normalizedNames = reportNames
+            .Where(name => !string.IsNullOrWhiteSpace(name))
+            .Select(name => name.Trim())
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .OrderBy(name => name, StringComparer.OrdinalIgnoreCase)
+            .ToArray();
+
+        if (normalizedNames.Length == 0)
+        {
+            _logger.LogInformation("No report names were supplied; nothing to update.");
+            return;
+        }
+
+        var concurrency = Math.Max(1, _options.MaxConcurrentReports);
+        using var throttler = new SemaphoreSlim(concurrency, concurrency);
+        var tasks = normalizedNames.Select(async reportName =>
+        {
+            await throttler.WaitAsync(cancellationToken).ConfigureAwait(false);
+            try
+            {
+                await UpdateReportAsync(reportName, category, cancellationToken).ConfigureAwait(false);
+            }
+            finally
+            {
+                throttler.Release();
+            }
+        });
+
+        await Task.WhenAll(tasks).ConfigureAwait(false);
+    }
+
     public async Task UpdateReportAsync(string reportName, string? category = null, CancellationToken cancellationToken = default)
     {
         category = NormalizeSelector(category);

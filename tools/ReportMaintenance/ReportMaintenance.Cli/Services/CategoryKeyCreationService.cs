@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
@@ -100,10 +101,17 @@ public sealed class CategoryKeyCreationService
         _categoryKeyProvider.Invalidate();
         _ratingGuideProvider.Invalidate();
 
-        var addedCount = await EnsureKeyExistsInReportsAsync(keyName, cancellationToken).ConfigureAwait(false);
-        _logger.LogInformation("Ensured key {Key} exists in {Count} reports.", keyName, addedCount);
+        var updatedReports = await EnsureKeyExistsInReportsAsync(keyName, cancellationToken).ConfigureAwait(false);
+        _logger.LogInformation("Ensured key {Key} exists in {Count} reports.", keyName, updatedReports.Count);
 
-        await _reportUpdateService.UpdateAllReportsAsync(keyName, null, cancellationToken).ConfigureAwait(false);
+        if (updatedReports.Count > 0)
+        {
+            await _reportUpdateService.UpdateReportsAsync(updatedReports, keyName, cancellationToken).ConfigureAwait(false);
+        }
+        else
+        {
+            _logger.LogInformation("Key {Key} already existed in all reports; skipping update pass.", keyName);
+        }
     }
 
     private async Task<CategoryKeyDocument> LoadCategoryKeyDocumentAsync(CancellationToken cancellationToken)
@@ -187,10 +195,10 @@ public sealed class CategoryKeyCreationService
         _logger.LogInformation("Persisted rating guide for {KeyName} with {Count} entries.", keyName, suggestion.Entries.Count);
     }
 
-    private async Task<int> EnsureKeyExistsInReportsAsync(string keyName, CancellationToken cancellationToken)
+    private async Task<IReadOnlyList<string>> EnsureKeyExistsInReportsAsync(string keyName, CancellationToken cancellationToken)
     {
         var reportNames = await _reportRepository.GetReportNamesAsync(cancellationToken).ConfigureAwait(false);
-        var updates = 0;
+        var updatedReports = new List<string>();
 
         foreach (var reportName in reportNames)
         {
@@ -203,10 +211,10 @@ public sealed class CategoryKeyCreationService
             document.Values.Add(new ReportEntry { Key = keyName });
             document.Values.Sort((left, right) => string.Compare(left.Key, right.Key, StringComparison.OrdinalIgnoreCase));
             await _reportRepository.SaveAsync(reportName, document, cancellationToken).ConfigureAwait(false);
-            updates++;
+            updatedReports.Add(reportName);
         }
 
-        return updates;
+        return updatedReports.AsReadOnly();
     }
 
     private static void ValidateCategoryKeyUniqueness(CategoryKeyDocument document, string categoryId, string keyId, string keyName)
