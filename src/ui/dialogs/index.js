@@ -12,6 +12,11 @@ import {
   setWeightsOverrides,
   invalidateCountryMetricsCache,
 } from '../../data/weights.js';
+import {
+  getKeyAlertLevels,
+  setKeyAlertLevels,
+  getAlertLevelsFromRatingGuide,
+} from '../../data/keyAlerts.js';
 
 function getKeyGuidanceDetails(keyObj) {
   if (!keyObj || typeof keyObj.Key !== 'string') return null;
@@ -114,6 +119,66 @@ export function openKeyGuidanceDialog(categoryName, keyObj, trigger) {
       row.appendChild(cell);
       tbody.appendChild(row);
     }
+  }
+
+  const concerningSelect = dialog.querySelector('#kgAlertConcerning');
+  const incompatibleSelect = dialog.querySelector('#kgAlertIncompatible');
+  if (concerningSelect && incompatibleSelect) {
+    const levels = getKeyAlertLevels(categoryName, keyObj.Key);
+    const availableLevels = getAlertLevelsFromRatingGuide(details.ratingGuide);
+    const levelValues = availableLevels.length > 0
+      ? availableLevels
+      : Array.from({ length: 11 }, (_, i) => i);
+
+    const populateSelect = (selectEl, selectedValue) => {
+      selectEl.innerHTML = '';
+      const noneOption = document.createElement('option');
+      noneOption.value = 'none';
+      noneOption.textContent = 'None';
+      selectEl.appendChild(noneOption);
+      levelValues.forEach(value => {
+        const option = document.createElement('option');
+        option.value = String(value);
+        option.textContent = `≤ ${value}`;
+        selectEl.appendChild(option);
+      });
+      const valueString = Number.isFinite(selectedValue) ? String(selectedValue) : 'none';
+      selectEl.value = valueString;
+    };
+
+    populateSelect(concerningSelect, levels.concerning);
+    populateSelect(incompatibleSelect, levels.incompatible);
+
+    let currentLevels = { ...levels };
+    const parseValue = (value) => {
+      if (value === '' || value === null || value === 'none' || typeof value === 'undefined') return null;
+      const numeric = Number(value);
+      return Number.isFinite(numeric) ? numeric : null;
+    };
+
+    const handleChange = () => {
+      const nextLevels = {
+        concerning: parseValue(concerningSelect.value),
+        incompatible: parseValue(incompatibleSelect.value),
+      };
+      if (
+        nextLevels.concerning === currentLevels.concerning
+        && nextLevels.incompatible === currentLevels.incompatible
+      ) {
+        return;
+      }
+      setKeyAlertLevels(categoryName, keyObj.Key, nextLevels);
+      currentLevels = nextLevels;
+      const notice = document.getElementById('notice');
+      if (appState.mainData) {
+        void onSelectionChanged(appState.mainData, notice, { skipLoadingIndicator: true });
+      }
+    };
+
+    concerningSelect.onchange = handleChange;
+    concerningSelect.oninput = handleChange;
+    incompatibleSelect.onchange = handleChange;
+    incompatibleSelect.oninput = handleChange;
   }
 
   try {

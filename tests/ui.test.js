@@ -12,6 +12,24 @@ const createDom = () => {
 
 const flushPromises = () => new Promise(resolve => setTimeout(resolve, 0));
 
+if (typeof HTMLDialogElement !== 'undefined') {
+  if (!HTMLDialogElement.prototype.showModal) {
+    HTMLDialogElement.prototype.showModal = function showModal() {
+      this.open = true;
+    };
+  }
+  if (!HTMLDialogElement.prototype.show) {
+    HTMLDialogElement.prototype.show = function show() {
+      this.open = true;
+    };
+  }
+  if (!HTMLDialogElement.prototype.close) {
+    HTMLDialogElement.prototype.close = function close() {
+      this.open = false;
+    };
+  }
+}
+
 describe('UI helpers', () => {
   let moduleExports;
 
@@ -29,6 +47,8 @@ describe('UI helpers', () => {
     moduleExports.appState.showCitiesOnly = false;
     moduleExports.appState.showHiddenKeys = false;
     moduleExports.appState.expandedState = {};
+    moduleExports.appState.mainData = null;
+    moduleExports.appState.reportAlerts = new Map();
     if (typeof moduleExports.clearCountryCache === 'function') {
       moduleExports.clearCountryCache();
     }
@@ -216,6 +236,148 @@ describe('UI helpers', () => {
     const infoToggle = infoRow.querySelector('.info-toggle-btn');
     expect(infoToggle).not.toBeNull();
     expect(infoToggle.textContent).toContain('Include in scoring');
+
+    fetch.mockReset();
+  });
+
+  test('key guidance dialog reflects stored alert thresholds', async () => {
+    document.body.innerHTML = [
+      '<div id="report"></div>',
+      '<div id="legendMount"></div>',
+      '<div id="notice"></div>',
+      '<div id="countryList"></div>',
+      '<button id="collapseCountriesBtn"></button>',
+      '<button id="collapseCategoriesBtn"></button>',
+      '<dialog id="keyGuidanceDialog">',
+      '  <div class="kg-header">',
+      '    <div class="kg-title-wrap">',
+      '      <h3 id="kgDialogTitle" class="kg-title"></h3>',
+      '      <p class="kg-subtitle"></p>',
+      '    </div>',
+      '    <button type="button" class="kg-close">Close</button>',
+      '  </div>',
+      '  <div id="kgDialogBody" class="kg-body">',
+      '    <section class="kg-section"><h4>Key guidance</h4><p id="kgKeyGuidanceText"></p></section>',
+      '    <section class="kg-section">',
+      '      <h4>Rating guidance</h4>',
+      '      <p id="kgConsiderations" class="kg-considerations"></p>',
+      '      <table class="kg-table"><tbody id="kgTableBody"></tbody></table>',
+      '    </section>',
+      '    <section class="kg-section kg-alerts">',
+      '      <h4>Alert thresholds</h4>',
+      '      <div class="kg-alert-row">',
+      '        <label for="kgAlertConcerning">Concerning at…</label>',
+      '        <select id="kgAlertConcerning"><option value="none">None</option></select>',
+      '      </div>',
+      '      <div class="kg-alert-row">',
+      '        <label for="kgAlertIncompatible">Incompatible at…</label>',
+      '        <select id="kgAlertIncompatible"><option value="none">None</option></select>',
+      '      </div>',
+      '    </section>',
+      '  </div>',
+      '</dialog>',
+    ].join('');
+
+    moduleExports.appState.mainData = null;
+    moduleExports.appState.keyGuidanceIndex = new Map();
+    const storageKey = 'test category|||safety';
+    localStorage.setItem('keyAlerts', JSON.stringify({ [storageKey]: { concerning: 6, incompatible: 4 } }));
+
+    const keyObj = {
+      Key: 'Safety',
+      Guidance: 'Stay alert.',
+      RatingGuide: [
+        { rating: 4, guidance: 'Challenging' },
+        { rating: 6, guidance: 'Concerning' },
+      ],
+    };
+
+    moduleExports.openKeyGuidanceDialog('Test Category', keyObj);
+
+    const concerningSelect = document.getElementById('kgAlertConcerning');
+    const incompatibleSelect = document.getElementById('kgAlertIncompatible');
+    expect(concerningSelect.value).toBe('6');
+    expect(incompatibleSelect.value).toBe('4');
+    expect(concerningSelect.options).toHaveLength(3);
+    expect(Array.from(concerningSelect.options).map(opt => opt.value)).toEqual(['none', '4', '6']);
+
+    concerningSelect.value = 'none';
+    expect(concerningSelect.value).toBe('none');
+    concerningSelect.dispatchEvent(new Event('change'));
+
+    let stored = JSON.parse(localStorage.getItem('keyAlerts'));
+    expect(stored[storageKey]).toMatchObject({ concerning: null, incompatible: 4 });
+
+    incompatibleSelect.value = 'none';
+    incompatibleSelect.dispatchEvent(new Event('change'));
+
+    stored = JSON.parse(localStorage.getItem('keyAlerts'));
+    expect(stored).toEqual({});
+  });
+
+  test('renderComparison adds alert icons when thresholds are met', async () => {
+    document.body.innerHTML = [
+      '<div id="report"></div>',
+      '<div id="legendMount"></div>',
+      '<div id="notice"></div>',
+      '<div id="countryList"><div class="country-item selected" data-file="test.json" data-name="Testland"></div></div>',
+      '<button id="collapseCountriesBtn"></button>',
+      '<button id="collapseCategoriesBtn"></button>',
+    ].join('');
+
+    const mainData = {
+      Categories: [
+        {
+          Category: 'Test Category',
+          Keys: [
+            { Key: 'Scored Key', Informational: false },
+          ],
+        },
+      ],
+      People: [],
+    };
+
+    localStorage.setItem('keyAlerts', JSON.stringify({ 'test category|||scored key': { concerning: 7, incompatible: 5 } }));
+
+    const reportData = {
+      iso: 'tc',
+      values: [
+        { key: 'Scored Key', alignmentValue: 4, alignmentText: 'Low alignment.' },
+      ],
+    };
+
+    fetch.mockImplementation(async () => ({
+      ok: true,
+      json: async () => reportData,
+    }));
+
+    const selectedNode = { name: 'Testland', file: 'test.json', type: 'country' };
+    moduleExports.appState.selected = [selectedNode];
+    moduleExports.appState.nodesByFile = new Map([[selectedNode.file, selectedNode]]);
+    moduleExports.appState.mainData = mainData;
+
+    await moduleExports.renderComparison([selectedNode], mainData, {});
+
+    const cellIcon = document.querySelector('.comparison-table tbody tr .cell-inner .alert-icon');
+    expect(cellIcon).not.toBeNull();
+    expect(cellIcon.classList.contains('alert-icon--incompatible')).toBe(true);
+    expect(cellIcon.title).toContain('incompatible');
+
+    const headerIcon = document.querySelector('.country-header .alert-icon');
+    expect(headerIcon).not.toBeNull();
+    expect(headerIcon.classList.contains('alert-icon--incompatible')).toBe(true);
+
+    const sidebarIcon = document.querySelector('#countryList .country-item .alert-icon');
+    expect(sidebarIcon).not.toBeNull();
+    expect(sidebarIcon.classList.contains('alert-icon--incompatible')).toBe(true);
+
+    const alerts = moduleExports.appState.reportAlerts;
+    expect(alerts instanceof Map).toBe(true);
+    const entry = alerts.get('test.json');
+    expect(entry).toBeDefined();
+    expect(entry.status).toBe('incompatible');
+    expect(Array.isArray(entry.reasons)).toBe(true);
+    expect(entry.reasons[0]).toContain('Scored Key');
 
     fetch.mockReset();
   });

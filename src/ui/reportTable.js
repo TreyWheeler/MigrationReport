@@ -15,7 +15,7 @@ import {
   getScoreBucket,
 } from './components/chips.js';
 import { appendTextWithLinks, createFlagImg } from '../utils/dom.js';
-import { toggleSelectNode, updateCountryListSelection, applyCountrySort } from './sidebar.js';
+import { toggleSelectNode, updateCountryListSelection, applyCountrySort, applySidebarAlerts } from './sidebar.js';
 import { getParentFileForNode, resolveParentReportFile } from '../utils/nodes.js';
 import { getEffectivePeople } from '../data/weights.js';
 import { isInformationalKey } from '../data/informationalOverrides.js';
@@ -25,6 +25,8 @@ import {
   showLoadingError,
   waitForLoadingIndicatorFrame,
 } from './loadingIndicator.js';
+import { getKeyAlertLevels, evaluateScoreAgainstLevels } from '../data/keyAlerts.js';
+import { createAlertIcon } from './components/alerts.js';
 
 function canonKey(str) {
   try {
@@ -41,6 +43,12 @@ function canonKey(str) {
 
 function normalizeCategoryName(name) {
   return typeof name === 'string' ? name.trim().toLowerCase() : '';
+}
+
+function formatThresholdValue(value) {
+  if (!Number.isFinite(value)) return '';
+  const rounded = Math.round(value * 10) / 10;
+  return Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
 }
 
 export function renderEmptyReportState() {
@@ -149,6 +157,10 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       })
     })));
 
+    datasets.forEach((ds, idx) => {
+      ds.alertKey = ds && ds.file ? ds.file : `dataset-${idx}`;
+    });
+
     if (renderToken !== activeRenderToken) {
       return;
     }
@@ -238,6 +250,8 @@ export async function renderComparison(selectedList, mainData, options = {}) {
     };
 
     const headerScoreTargets = [];
+    const headerAlertTargets = [];
+    const datasetAlertMap = new Map();
 
     const thead = document.createElement('thead');
     const headRow = document.createElement('tr');
@@ -264,6 +278,10 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       nameNode.textContent = ds.name;
       labelWrap.appendChild(nameNode);
       inner.appendChild(labelWrap);
+      headerAlertTargets.push({ element: labelWrap, dataset: ds });
+      if (ds && ds.alertKey && !datasetAlertMap.has(ds.alertKey)) {
+        datasetAlertMap.set(ds.alertKey, { status: null, reasons: [] });
+      }
 
       const scoresWrap = document.createElement('div');
       scoresWrap.className = 'country-header-scores';
@@ -546,6 +564,8 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           }
         }
 
+        const thresholds = informational ? null : getKeyAlertLevels(category.Category, keyObj.Key);
+
         datasets.forEach((ds, idx) => {
           const td = document.createElement('td');
           td.className = 'value-cell';
@@ -566,10 +586,46 @@ export async function renderComparison(selectedList, mainData, options = {}) {
             wrap.appendChild(document.createTextNode(label));
             textForQuery = label;
           }
+          let digInButton = null;
           try {
-            const btn = makeDigInButton(ds.name, category.Category, keyObj.Key, textForQuery);
-            wrap.appendChild(btn);
+            digInButton = makeDigInButton(ds.name, category.Category, keyObj.Key, textForQuery);
           } catch {}
+          let severity = null;
+          let severityThreshold = null;
+          if (!informational && thresholds) {
+            const numericScore = info.numeric;
+            if (Number.isFinite(numericScore) && numericScore >= 0) {
+              severity = evaluateScoreAgainstLevels(numericScore, thresholds);
+              if (severity === 'incompatible') {
+                severityThreshold = thresholds.incompatible;
+              } else if (severity === 'concerning') {
+                severityThreshold = thresholds.concerning;
+              }
+            }
+          }
+          if (severity && Number.isFinite(severityThreshold)) {
+            const scoreDisplay = formatThresholdValue(info.numeric);
+            const thresholdDisplay = formatThresholdValue(severityThreshold);
+            const reason = `${category.Category} — ${keyObj.Key}: score ${scoreDisplay} ≤ ${severity} threshold (${thresholdDisplay})`;
+            const tooltip = `Flagged as ${severity} — score ${scoreDisplay} is at or below the ${severity} threshold (${thresholdDisplay}).`;
+            const srText = ds && ds.name
+              ? `${ds.name} ${keyObj.Key} ${severity} alert`
+              : `${keyObj.Key} ${severity} alert`;
+            const icon = createAlertIcon(severity, tooltip, { variant: 'cell', srText });
+            wrap.appendChild(icon);
+            const entry = datasetAlertMap.get(ds.alertKey) || { status: null, reasons: [] };
+            entry.reasons = Array.isArray(entry.reasons) ? entry.reasons.slice() : [];
+            entry.reasons.push(reason);
+            if (severity === 'incompatible') {
+              entry.status = 'incompatible';
+            } else if (entry.status !== 'incompatible') {
+              entry.status = 'concerning';
+            }
+            datasetAlertMap.set(ds.alertKey, entry);
+          }
+          if (digInButton) {
+            wrap.appendChild(digInButton);
+          }
           if (ds?.node?.type === 'city' && match && match.inheritedFromParent) {
             td.classList.add('inherited-value');
             const parentName = ds.node && ds.node.parentCountry && ds.node.parentCountry.name ? ds.node.parentCountry.name : null;
@@ -620,6 +676,27 @@ export async function renderComparison(selectedList, mainData, options = {}) {
 
       catSections.push({ name: catName, header: catRow, rows: keyRowRefs, toggle });
     });
+
+    headerAlertTargets.forEach(({ element, dataset }) => {
+      if (!element) return;
+      const existing = Array.from(element.querySelectorAll('.alert-icon[data-alert-icon="true"]'));
+      existing.forEach(icon => icon.remove());
+      if (!dataset || !dataset.alertKey) return;
+      const entry = datasetAlertMap.get(dataset.alertKey);
+      if (!entry || !entry.status) return;
+      const reasons = Array.isArray(entry.reasons) ? entry.reasons : [];
+      const tooltip = reasons.length > 0
+        ? reasons.join('\n')
+        : `Flagged as ${entry.status}`;
+      const srText = dataset && dataset.name
+        ? `${dataset.name} alert: ${entry.status}`
+        : `Alert: ${entry.status}`;
+      const icon = createAlertIcon(entry.status, tooltip, { variant: 'header', srText });
+      element.appendChild(icon);
+    });
+
+    appState.reportAlerts = datasetAlertMap;
+    applySidebarAlerts(datasetAlertMap);
 
     table.appendChild(tbody);
 

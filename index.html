@@ -729,7 +729,42 @@
     .cell-inner {
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .alert-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      flex: 0 0 auto;
+      border: 1px solid color-mix(in srgb, #f59e0b 60%, transparent);
+      background: color-mix(in srgb, #facc15 80%, #fff 20%);
+      color: #0f172a;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.25);
+    }
+    .alert-icon--incompatible {
+      background: color-mix(in srgb, #fb7185 80%, #fff 20%);
+      border-color: color-mix(in srgb, #dc2626 70%, transparent);
+    }
+    .alert-icon__glyph {
+      width: 12px;
+      height: 12px;
+    }
+    .alert-icon--cell { margin-left: 4px; }
+    .alert-icon--header { margin-left: 6px; }
+    .alert-icon--sidebar { margin-left: auto; }
+    body[data-theme="dark"] .alert-icon {
+      background: color-mix(in srgb, #facc15 70%, #111827 30%);
+      border-color: color-mix(in srgb, #f59e0b 60%, #111827 40%);
+      color: #0f172a;
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.35);
+    }
+    body[data-theme="dark"] .alert-icon--incompatible {
+      background: color-mix(in srgb, #fb7185 70%, #111827 30%);
+      border-color: color-mix(in srgb, #dc2626 60%, #111827 40%);
     }
     /* Scroll container for sticky positioning to work */
     .table-wrap {
@@ -799,6 +834,22 @@
     .kg-table th { background: var(--md-color-surface-variant); }
     .kg-rating-cell { font-weight: 700; width: 72px; text-align: center; }
     .kg-empty { text-align: center; font-style: italic; color: color-mix(in srgb, var(--md-color-on-surface) 70%, transparent); }
+    .kg-alerts { border-top: 1px solid var(--md-color-outline); padding-top: 12px; margin-top: 4px; }
+    .kg-alert-row { display: flex; flex-direction: column; gap: 4px; }
+    .kg-alert-row label { font-size: 13px; color: color-mix(in srgb, var(--md-color-on-surface) 80%, transparent); }
+    .kg-alert-row select {
+      border-radius: 8px;
+      border: 1px solid var(--md-color-outline);
+      padding: 6px 8px;
+      font-size: 13px;
+      background: var(--md-color-surface);
+      color: var(--md-color-on-surface);
+    }
+    body[data-theme="dark"] .kg-alert-row select {
+      background: #0f172a;
+      border-color: #334155;
+      color: #e2e8f0;
+    }
     .kg-close {
       border: 1px solid var(--md-color-outline);
       background: var(--md-color-surface);
@@ -996,6 +1047,21 @@
           </thead>
           <tbody id="kgTableBody"></tbody>
         </table>
+      </section>
+      <section class="kg-section kg-alerts">
+        <h4>Alert thresholds</h4>
+        <div class="kg-alert-row">
+          <label for="kgAlertConcerning">Concerning at…</label>
+          <select id="kgAlertConcerning">
+            <option value="none">None</option>
+          </select>
+        </div>
+        <div class="kg-alert-row">
+          <label for="kgAlertIncompatible">Incompatible at…</label>
+          <select id="kgAlertIncompatible">
+            <option value="none">None</option>
+          </select>
+        </div>
       </section>
     </div>
   </dialog>

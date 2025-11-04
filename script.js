@@ -36,6 +36,8 @@ async function loadMain() {
   showLoadingIndicator();
   try {
     const { mainData, ratingGuides } = await loadMainData();
+    appState.mainData = mainData;
+    appState.reportAlerts = new Map();
     const initialGuidance = makeKeyGuidanceIndex(mainData, ratingGuides);
     appState.keyGuidanceIndex = initialGuidance.index;
     appState.keyGuidanceHasRatings = initialGuidance.hasRatings;
@@ -369,6 +371,7 @@ const MigrationReportAPI = {
   computeCountryScoresForSorting,
   applyHiddenKeysVisibility,
   toggleHiddenKeysVisibility,
+  openKeyGuidanceDialog,
 };
 
 if (typeof window !== 'undefined') {

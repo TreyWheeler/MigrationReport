@@ -7,6 +7,7 @@ import { createFlagImg } from '../utils/dom.js';
 import { getParentFileForNode, resolveParentReportFile } from '../utils/nodes.js';
 import { getEffectivePeople } from '../data/weights.js';
 import { makeScoreChip } from './components/chips.js';
+import { createAlertIcon } from './components/alerts.js';
 
 function updateCollapseCountriesButton(hasExpandable) {
   const collapseBtn = document.getElementById('collapseCountriesBtn');
@@ -285,6 +286,42 @@ async function ensureReportMetrics(item, mainData) {
   const metrics = computeRoundedMetrics(data, mainData, getEffectivePeople(mainData));
   item.metrics = metrics;
   return metrics;
+}
+
+function normalizeAlertsMap(alerts) {
+  if (!alerts) return new Map();
+  if (alerts instanceof Map) return alerts;
+  if (typeof alerts !== 'object') return new Map();
+  const map = new Map();
+  Object.entries(alerts).forEach(([key, value]) => {
+    map.set(key, value);
+  });
+  return map;
+}
+
+export function applySidebarAlerts(alerts = appState.reportAlerts) {
+  const listEl = document.getElementById('countryList');
+  if (!listEl) return;
+  const alertsMap = normalizeAlertsMap(alerts);
+  const rows = Array.from(listEl.querySelectorAll('.country-item'));
+  rows.forEach(row => {
+    const existingIcons = Array.from(row.querySelectorAll('.alert-icon[data-alert-icon="true"]'));
+    existingIcons.forEach(icon => icon.remove());
+    if (!row.classList.contains('selected')) return;
+    const file = row.dataset.file || '';
+    if (!file) return;
+    const entry = alertsMap.get(file);
+    if (!entry || !entry.status) return;
+    const reasons = Array.isArray(entry.reasons) ? entry.reasons : [];
+    const tooltip = reasons.length > 0
+      ? reasons.join('\n')
+      : `Flagged as ${entry.status}`;
+    const srText = row.dataset.name
+      ? `${row.dataset.name} alert: ${entry.status}`
+      : `Alert: ${entry.status}`;
+    const icon = createAlertIcon(entry.status, tooltip, { variant: 'sidebar', srText });
+    row.appendChild(icon);
+  });
 }
 
 export async function applyCountrySort(mainData, listEl, notice, onChange) {

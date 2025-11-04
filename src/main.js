@@ -22,6 +22,7 @@ const {
   computeCountryScoresForSorting,
   applyHiddenKeysVisibility,
   toggleHiddenKeysVisibility,
+  openKeyGuidanceDialog,
 } = MigrationReportAPI;
 
 if (typeof window !== 'undefined') {
@@ -62,6 +63,7 @@ export {
   computeCountryScoresForSorting,
   applyHiddenKeysVisibility,
   toggleHiddenKeysVisibility,
+  openKeyGuidanceDialog,
 };
 
 export default MigrationReportAPI;
