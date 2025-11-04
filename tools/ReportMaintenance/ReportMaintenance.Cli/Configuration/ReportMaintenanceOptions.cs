@@ -17,4 +17,8 @@ public sealed class ReportMaintenanceOptions
     public string CategoryKeysPath { get; set; } = "data/category_keys.json";
 
     public string CategoriesPath { get; set; } = "data/categories.json";
+
+    public string PersonWeightsPath { get; set; } = "data/person_weights.json";
+
+    public string PeoplePath { get; set; } = "data/people.json";
 }

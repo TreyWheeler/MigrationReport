@@ -58,6 +58,7 @@ builder.Services.AddSingleton<ReportContextFactory>();
 builder.Services.AddSingleton<ReportUpdateService>();
 builder.Services.AddSingleton<ICategoryKeyProvider, CategoryKeyProvider>();
 builder.Services.AddSingleton<ReportCreationService>();
+builder.Services.AddSingleton<CategoryCreationService>();
 builder.Services.AddSingleton<CategoryKeyCreationService>();
 builder.Services.AddSingleton<IAlignmentSuggestionCache>(sp =>
 {
@@ -170,6 +171,30 @@ addCityCommand.SetHandler(async (string country, string city, string? iso) =>
     await updateService.UpdateReportAsync(reportName);
 }, cityCountryOption, cityNameOption, cityIsoOption);
 
+var addCategoryCommand = new Command("AddCategory", "Create a new category and seed person weight estimates.");
+var categoryNameOptionForAdd = new Option<string>(name: "--name", description: "Display name for the new category.")
+{
+    IsRequired = true
+};
+categoryNameOptionForAdd.AddAlias("--Name");
+categoryNameOptionForAdd.AddAlias("-n");
+
+var categoryIdOptionForAdd = new Option<string?>(name: "--id", description: "Optional category identifier. Defaults to a slug of the name.");
+categoryIdOptionForAdd.AddAlias("--Id");
+
+var categoryOrderOptionForAdd = new Option<int?>(name: "--order", description: "Optional ordering index. Existing categories at or after this value are shifted down.");
+categoryOrderOptionForAdd.AddAlias("--Order");
+
+addCategoryCommand.AddOption(categoryNameOptionForAdd);
+addCategoryCommand.AddOption(categoryIdOptionForAdd);
+addCategoryCommand.AddOption(categoryOrderOptionForAdd);
+addCategoryCommand.SetHandler(async (string name, string? id, int? order) =>
+{
+    using var scope = host.Services.CreateScope();
+    var service = scope.ServiceProvider.GetRequiredService<CategoryCreationService>();
+    await service.CreateCategoryAsync(name, id, order);
+}, categoryNameOptionForAdd, categoryIdOptionForAdd, categoryOrderOptionForAdd);
+
 var addCategoryKeyCommand = new Command("AddCategoryKey", "Add a new category key, generate its rating guide, and refresh reports.");
 var addKeyCategoryOption = new Option<string>(name: "--category", description: "Category ID or name that will own the key.")
 {
@@ -204,6 +229,7 @@ rootCommand.AddCommand(updateReportsCommand);
 rootCommand.AddCommand(updateReportCommand);
 rootCommand.AddCommand(addCountryCommand);
 rootCommand.AddCommand(addCityCommand);
+rootCommand.AddCommand(addCategoryCommand);
 rootCommand.AddCommand(addCategoryKeyCommand);
 
 return await rootCommand.InvokeAsync(args);
