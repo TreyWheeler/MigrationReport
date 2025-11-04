@@ -163,8 +163,11 @@ addCityCommand.AddOption(cityIsoOption);
 addCityCommand.SetHandler(async (string country, string city, string? iso) =>
 {
     using var scope = host.Services.CreateScope();
-    var service = scope.ServiceProvider.GetRequiredService<ReportCreationService>();
-    await service.CreateCityReportAsync(country, city, iso);
+    var creationService = scope.ServiceProvider.GetRequiredService<ReportCreationService>();
+    var updateService = scope.ServiceProvider.GetRequiredService<ReportUpdateService>();
+
+    var reportName = await creationService.CreateCityReportAsync(country, city, iso);
+    await updateService.UpdateReportAsync(reportName);
 }, cityCountryOption, cityNameOption, cityIsoOption);
 
 var addCategoryKeyCommand = new Command("AddCategoryKey", "Add a new category key, generate its rating guide, and refresh reports.");
