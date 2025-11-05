@@ -32,11 +32,13 @@ if (typeof HTMLDialogElement !== 'undefined') {
 
 describe('UI helpers', () => {
   let moduleExports;
+  let sidebarModule;
 
   beforeAll(async () => {
     createDom();
     window.__MIGRATION_REPORT_DISABLE_AUTOLOAD__ = true;
     moduleExports = await import('../src/main.js');
+    sidebarModule = await import('../src/ui/sidebar.js');
   });
 
   beforeEach(() => {
@@ -370,6 +372,18 @@ describe('UI helpers', () => {
     const sidebarIcon = document.querySelector('#countryList .country-item .alert-icon');
     expect(sidebarIcon).not.toBeNull();
     expect(sidebarIcon.classList.contains('alert-icon--incompatible')).toBe(true);
+
+    // Re-render the sidebar list to ensure alerts persist after DOM refreshes
+    const listEl = document.getElementById('countryList');
+    const noticeEl = document.getElementById('notice');
+    const countryNode = { ...selectedNode, cities: [], expanded: false };
+    moduleExports.appState.countries = [countryNode];
+    sidebarModule.renderCountryList(listEl, moduleExports.appState.countries, noticeEl, () => {});
+    sidebarModule.updateCountryListSelection(listEl);
+
+    const sidebarIconAfter = document.querySelector('#countryList .country-item .alert-icon');
+    expect(sidebarIconAfter).not.toBeNull();
+    expect(sidebarIconAfter.classList.contains('alert-icon--incompatible')).toBe(true);
 
     const alerts = moduleExports.appState.reportAlerts;
     expect(alerts instanceof Map).toBe(true);

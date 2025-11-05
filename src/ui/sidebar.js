@@ -274,6 +274,7 @@ export function updateCountryListSelection(listEl) {
     const selected = appState.selected.some(s => s.file === file);
     row.classList.toggle('selected', selected);
   });
+  applySidebarAlerts();
 }
 
 async function ensureReportMetrics(item, mainData) {
