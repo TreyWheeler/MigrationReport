@@ -322,7 +322,7 @@ describe('UI helpers', () => {
       '<div id="report"></div>',
       '<div id="legendMount"></div>',
       '<div id="notice"></div>',
-      '<div id="countryList"><div class="country-item selected" data-file="test.json" data-name="Testland"></div></div>',
+      '<div id="countryList"><div class="country-item" data-file="test.json" data-name="Testland"></div></div>',
       '<button id="collapseCountriesBtn"></button>',
       '<button id="collapseCategoriesBtn"></button>',
     ].join('');
@@ -372,6 +372,7 @@ describe('UI helpers', () => {
     const sidebarIcon = document.querySelector('#countryList .country-item .alert-icon');
     expect(sidebarIcon).not.toBeNull();
     expect(sidebarIcon.classList.contains('alert-icon--incompatible')).toBe(true);
+    expect(sidebarIcon.parentElement.classList.contains('selected')).toBe(false);
 
     // Re-render the sidebar list to ensure alerts persist after DOM refreshes
     const listEl = document.getElementById('countryList');

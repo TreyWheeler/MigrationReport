@@ -308,7 +308,6 @@ export function applySidebarAlerts(alerts = appState.reportAlerts) {
   rows.forEach(row => {
     const existingIcons = Array.from(row.querySelectorAll('.alert-icon[data-alert-icon="true"]'));
     existingIcons.forEach(icon => icon.remove());
-    if (!row.classList.contains('selected')) return;
     const file = row.dataset.file || '';
     if (!file) return;
     const entry = alertsMap.get(file);
