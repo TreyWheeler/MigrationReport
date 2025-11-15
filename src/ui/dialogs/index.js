@@ -1,6 +1,6 @@
 import { appState, keyGuidanceDialogState, resetKeyActionsMenuState } from '../../state/appState.js';
 import { applyCountrySort } from '../sidebar.js';
-import { onSelectionChanged } from '../reportTable.js';
+import { onSelectionChanged, refreshAllReportAlerts } from '../reportTable.js';
 import {
   showLoadingIndicator,
   hideLoadingIndicator,
@@ -171,7 +171,12 @@ export function openKeyGuidanceDialog(categoryName, keyObj, trigger) {
       currentLevels = nextLevels;
       const notice = document.getElementById('notice');
       if (appState.mainData) {
-        void onSelectionChanged(appState.mainData, notice, { skipLoadingIndicator: true });
+        void (async () => {
+          try {
+            await refreshAllReportAlerts(appState.mainData);
+          } catch {}
+          await onSelectionChanged(appState.mainData, notice, { skipLoadingIndicator: true });
+        })();
       }
     };
 

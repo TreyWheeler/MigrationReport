@@ -27,28 +27,138 @@ import {
 } from './loadingIndicator.js';
 import { getKeyAlertLevels, evaluateScoreAgainstLevels } from '../data/keyAlerts.js';
 import { createAlertIcon } from './components/alerts.js';
-
-function canonKey(str) {
-  try {
-    let text = typeof str === 'string' ? str : '';
-    if (text.normalize) text = text.normalize('NFKC');
-    text = text.replace(/[°�?]/g, '');
-    text = text.toLowerCase();
-    text = text.replace(/\s+/g, ' ').trim();
-    return text;
-  } catch {
-    return String(str || '');
-  }
-}
+import { canonKey, buildAlertReason, buildAlertTooltip } from '../data/alertUtils.js';
 
 function normalizeCategoryName(name) {
   return typeof name === 'string' ? name.trim().toLowerCase() : '';
 }
 
-function formatThresholdValue(value) {
-  if (!Number.isFinite(value)) return '';
-  const rounded = Math.round(value * 10) / 10;
-  return Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
+function buildAlertKeyConfigs(mainData) {
+  const configs = [];
+  const categories = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
+  categories.forEach(category => {
+    if (!category || !Array.isArray(category.Keys)) return;
+    const categoryName = category.Category;
+    category.Keys.forEach(keyObj => {
+      if (!keyObj || isInformationalKey(keyObj, categoryName)) return;
+      const thresholds = getKeyAlertLevels(categoryName, keyObj.Key);
+      if (!thresholds) return;
+      const { concerning, incompatible } = thresholds;
+      const hasConcerning = Number.isFinite(concerning);
+      const hasIncompatible = Number.isFinite(incompatible);
+      if (!hasConcerning && !hasIncompatible) return;
+      configs.push({
+        categoryName,
+        keyName: keyObj.Key,
+        canonicalKey: canonKey(keyObj.Key),
+        thresholds,
+      });
+    });
+  });
+  return configs;
+}
+
+async function refreshAllReportAlerts(mainDataOverride) {
+  const mainData = mainDataOverride || appState.mainData;
+  const configs = buildAlertKeyConfigs(mainData);
+  if (configs.length === 0) {
+    appState.reportAlerts = new Map();
+    applySidebarAlerts(appState.reportAlerts);
+    return appState.reportAlerts;
+  }
+
+  const nodes = [];
+  const seenFiles = new Set();
+  const appendNode = (node) => {
+    if (!node || !node.file) return;
+    if (seenFiles.has(node.file)) return;
+    seenFiles.add(node.file);
+    nodes.push(node);
+  };
+
+  if (Array.isArray(appState.countries)) {
+    appState.countries.forEach(country => {
+      appendNode(country);
+      if (country && Array.isArray(country.cities)) {
+        country.cities.forEach(city => appendNode(city));
+      }
+    });
+  }
+
+  if (appState.nodesByFile && typeof appState.nodesByFile.forEach === 'function') {
+    appState.nodesByFile.forEach(node => appendNode(node));
+  }
+
+  if (nodes.length === 0) {
+    appState.reportAlerts = new Map();
+    applySidebarAlerts(appState.reportAlerts);
+    return appState.reportAlerts;
+  }
+
+  const datasetResults = await Promise.all(nodes.map(async node => {
+    try {
+      const data = await fetchCountry(node.file, {
+        parentFile: getParentFileForNode(node),
+        resolveParentFile: resolveParentReportFile,
+      });
+      return { node, data };
+    } catch {
+      return { node, data: null };
+    }
+  }));
+
+  const alertMap = new Map();
+
+  datasetResults.forEach(({ node, data }) => {
+    if (!node || !node.file || !data || !Array.isArray(data.values)) return;
+    const valueMap = new Map();
+    data.values.forEach(entry => {
+      if (!entry || typeof entry !== 'object') return;
+      const key = canonKey(entry.key);
+      if (!key) return;
+      valueMap.set(key, entry);
+    });
+
+    let status = null;
+    const reasons = [];
+
+    configs.forEach(config => {
+      const entry = valueMap.get(config.canonicalKey);
+      if (!entry) return;
+      const numericScore = Number(entry.alignmentValue);
+      if (!Number.isFinite(numericScore) || numericScore < 0) return;
+      const severity = evaluateScoreAgainstLevels(numericScore, config.thresholds);
+      if (!severity) return;
+      const severityThreshold = severity === 'incompatible'
+        ? config.thresholds.incompatible
+        : config.thresholds.concerning;
+      if (!Number.isFinite(severityThreshold)) return;
+      const reason = buildAlertReason(
+        config.categoryName,
+        config.keyName,
+        severity,
+        numericScore,
+        severityThreshold,
+      );
+      reasons.push(reason);
+      if (severity === 'incompatible') {
+        status = 'incompatible';
+      } else if (status !== 'incompatible') {
+        status = 'concerning';
+      }
+    });
+
+    if (status) {
+      alertMap.set(node.file, {
+        status,
+        reasons,
+      });
+    }
+  });
+
+  appState.reportAlerts = alertMap;
+  applySidebarAlerts(alertMap);
+  return alertMap;
 }
 
 export function renderEmptyReportState() {
@@ -604,10 +714,8 @@ export async function renderComparison(selectedList, mainData, options = {}) {
             }
           }
           if (severity && Number.isFinite(severityThreshold)) {
-            const scoreDisplay = formatThresholdValue(info.numeric);
-            const thresholdDisplay = formatThresholdValue(severityThreshold);
-            const reason = `${category.Category} — ${keyObj.Key}: score ${scoreDisplay} ≤ ${severity} threshold (${thresholdDisplay})`;
-            const tooltip = `Flagged as ${severity} — score ${scoreDisplay} is at or below the ${severity} threshold (${thresholdDisplay}).`;
+            const reason = buildAlertReason(category.Category, keyObj.Key, severity, info.numeric, severityThreshold);
+            const tooltip = buildAlertTooltip(severity, info.numeric, severityThreshold);
             const srText = ds && ds.name
               ? `${ds.name} ${keyObj.Key} ${severity} alert`
               : `${keyObj.Key} ${severity} alert`;
@@ -868,9 +976,12 @@ export async function onSelectionChanged(mainData, notice, options = {}) {
   if (notice) notice.textContent = '';
 }
 
+export { refreshAllReportAlerts };
+
 export default {
   renderComparison,
   onSelectionChanged,
   renderEmptyReportState,
+  refreshAllReportAlerts,
 };
 

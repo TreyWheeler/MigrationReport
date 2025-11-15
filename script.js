@@ -17,7 +17,7 @@ import { isInformationalKey } from './src/data/informationalOverrides.js';
 import { fetchCountry, clearCountryCache } from './src/data/reports.js';
 import { computeCountryScoresForSorting, computeRoundedMetrics } from './src/data/scoring.js';
 import { getParentFileForNode, findNodeByFile, resolveParentReportFile } from './src/utils/nodes.js';
-import { renderEmptyReportState, renderComparison, onSelectionChanged } from './src/ui/reportTable.js';
+import { renderEmptyReportState, renderComparison, onSelectionChanged, refreshAllReportAlerts } from './src/ui/reportTable.js';
 import {
   renderCountryList,
   toggleSelectNode,
@@ -119,6 +119,10 @@ async function loadMain() {
     } catch {
       renderCountryList(listEl, appState.countries, notice, () => { void onSelectionChanged(mainData, notice); });
     }
+
+    try {
+      await refreshAllReportAlerts(mainData);
+    } catch {}
 
     // Restore previously selected countries or default to first
     const restored = loadSelectedFromStorage(appState.nodesByFile);
@@ -363,6 +367,7 @@ const MigrationReportAPI = {
   sortByOrderThenName,
   loadMain,
   renderComparison,
+  refreshAllReportAlerts,
   getStored,
   setStored,
   fetchCountry,

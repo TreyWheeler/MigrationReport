@@ -428,6 +428,87 @@ describe('UI helpers', () => {
     fetch.mockReset();
   });
 
+  test('refreshAllReportAlerts flags sidebar entries without selection', async () => {
+    document.body.innerHTML = [
+      '<div id="report"></div>',
+      '<div id="legendMount"></div>',
+      '<div id="notice"></div>',
+      '<div id="countryList"></div>',
+      '<button id="collapseCountriesBtn"></button>',
+      '<button id="collapseCategoriesBtn"></button>',
+    ].join('');
+
+    const mainData = {
+      Categories: [
+        {
+          Category: 'Safety',
+          Keys: [
+            { Key: 'Crime Rate', Informational: false },
+          ],
+        },
+      ],
+      People: [],
+    };
+
+    localStorage.setItem('keyAlerts', JSON.stringify({ 'safety|||crime rate': { concerning: 6, incompatible: 4 } }));
+
+    const flaggedReport = {
+      iso: 'fl',
+      values: [
+        { key: 'Crime Rate', alignmentValue: 3, alignmentText: 'High crime.' },
+      ],
+    };
+
+    const okReport = {
+      iso: 'ok',
+      values: [
+        { key: 'Crime Rate', alignmentValue: 9, alignmentText: 'Low crime.' },
+      ],
+    };
+
+    fetch.mockImplementation(async (input) => ({
+      ok: true,
+      json: async () => (typeof input === 'string' && input.includes('other.json')
+        ? okReport
+        : flaggedReport),
+    }));
+
+    const flaggedNode = { name: 'Flagged', file: 'flagged.json', type: 'country' };
+    const otherNode = { name: 'Other', file: 'other.json', type: 'country' };
+    moduleExports.appState.countries = [
+      { ...flaggedNode, cities: [], expanded: false },
+      { ...otherNode, cities: [], expanded: false },
+    ];
+    moduleExports.appState.nodesByFile = new Map([
+      [flaggedNode.file, flaggedNode],
+      [otherNode.file, otherNode],
+    ]);
+    moduleExports.appState.mainData = mainData;
+
+    const listEl = document.getElementById('countryList');
+    const noticeEl = document.getElementById('notice');
+    sidebarModule.renderCountryList(listEl, moduleExports.appState.countries, noticeEl, () => {});
+
+    await moduleExports.refreshAllReportAlerts(mainData);
+
+    const flaggedIcon = document.querySelector(`.country-item[data-file="${flaggedNode.file}"] .alert-icon`);
+    expect(flaggedIcon).not.toBeNull();
+    expect(flaggedIcon.classList.contains('alert-icon--incompatible')).toBe(true);
+
+    const otherIcon = document.querySelector(`.country-item[data-file="${otherNode.file}"] .alert-icon`);
+    expect(otherIcon).toBeNull();
+
+    const map = moduleExports.appState.reportAlerts;
+    expect(map instanceof Map).toBe(true);
+    const flaggedEntry = map.get(flaggedNode.file);
+    expect(flaggedEntry).toBeDefined();
+    expect(flaggedEntry.status).toBe('incompatible');
+    expect(Array.isArray(flaggedEntry.reasons)).toBe(true);
+    expect(flaggedEntry.reasons.some(reason => reason.includes('Crime Rate'))).toBe(true);
+
+    fetch.mockReset();
+  });
+
   test('informational toggle button applies override and rerenders scoring state', async () => {
     document.body.innerHTML = [
       '<div id="report"></div>',
