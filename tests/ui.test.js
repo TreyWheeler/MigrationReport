@@ -322,7 +322,10 @@ describe('UI helpers', () => {
       '<div id="report"></div>',
       '<div id="legendMount"></div>',
       '<div id="notice"></div>',
-      '<div id="countryList"><div class="country-item" data-file="test.json" data-name="Testland"></div></div>',
+      '<div id="countryList">',
+      '  <div class="country-item" data-file="test.json" data-name="Testland"></div>',
+      '  <div class="country-item" data-file="other.json" data-name="Otherland"></div>',
+      '</div>',
       '<button id="collapseCountriesBtn"></button>',
       '<button id="collapseCategoriesBtn"></button>',
     ].join('');
@@ -348,9 +351,18 @@ describe('UI helpers', () => {
       ],
     };
 
-    fetch.mockImplementation(async () => ({
+    const otherReportData = {
+      iso: 'ol',
+      values: [
+        { key: 'Scored Key', alignmentValue: 9, alignmentText: 'High alignment.' },
+      ],
+    };
+
+    fetch.mockImplementation(async (input) => ({
       ok: true,
-      json: async () => reportData,
+      json: async () => (typeof input === 'string' && input.includes('other.json')
+        ? otherReportData
+        : reportData),
     }));
 
     const selectedNode = { name: 'Testland', file: 'test.json', type: 'country' };
@@ -369,7 +381,7 @@ describe('UI helpers', () => {
     expect(headerIcon).not.toBeNull();
     expect(headerIcon.classList.contains('alert-icon--incompatible')).toBe(true);
 
-    const sidebarIcon = document.querySelector('#countryList .country-item .alert-icon');
+    const sidebarIcon = document.querySelector('#countryList .country-item[data-file="test.json"] .alert-icon');
     expect(sidebarIcon).not.toBeNull();
     expect(sidebarIcon.classList.contains('alert-icon--incompatible')).toBe(true);
     expect(sidebarIcon.parentElement.classList.contains('selected')).toBe(false);
@@ -382,7 +394,7 @@ describe('UI helpers', () => {
     sidebarModule.renderCountryList(listEl, moduleExports.appState.countries, noticeEl, () => {});
     sidebarModule.updateCountryListSelection(listEl);
 
-    const sidebarIconAfter = document.querySelector('#countryList .country-item .alert-icon');
+    const sidebarIconAfter = document.querySelector('#countryList .country-item[data-file="test.json"] .alert-icon');
     expect(sidebarIconAfter).not.toBeNull();
     expect(sidebarIconAfter.classList.contains('alert-icon--incompatible')).toBe(true);
 
@@ -393,6 +405,25 @@ describe('UI helpers', () => {
     expect(entry.status).toBe('incompatible');
     expect(Array.isArray(entry.reasons)).toBe(true);
     expect(entry.reasons[0]).toContain('Scored Key');
+
+    const otherNode = { name: 'Otherland', file: 'other.json', type: 'country' };
+    moduleExports.appState.selected = [otherNode];
+
+    await moduleExports.renderComparison([otherNode], mainData, {});
+
+    sidebarModule.updateCountryListSelection(listEl);
+
+    const sidebarIconAfterDeselect = document.querySelector('#countryList .country-item[data-file="test.json"] .alert-icon');
+    expect(sidebarIconAfterDeselect).not.toBeNull();
+    expect(sidebarIconAfterDeselect.classList.contains('alert-icon--incompatible')).toBe(true);
+    expect(sidebarIconAfterDeselect.parentElement.classList.contains('selected')).toBe(false);
+
+    const retainedEntry = moduleExports.appState.reportAlerts.get('test.json');
+    expect(retainedEntry).toBeDefined();
+    expect(retainedEntry.status).toBe('incompatible');
+
+    const otherEntry = moduleExports.appState.reportAlerts.get('other.json');
+    expect(otherEntry).toBeUndefined();
 
     fetch.mockReset();
   });

@@ -695,8 +695,31 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       element.appendChild(icon);
     });
 
-    appState.reportAlerts = datasetAlertMap;
-    applySidebarAlerts(datasetAlertMap);
+    const mergedAlerts = new Map();
+    if (appState.reportAlerts && typeof appState.reportAlerts.forEach === 'function') {
+      appState.reportAlerts.forEach((value, key) => {
+        if (value && value.status) {
+          mergedAlerts.set(key, {
+            status: value.status,
+            reasons: Array.isArray(value.reasons) ? value.reasons.slice() : [],
+          });
+        }
+      });
+    }
+
+    datasetAlertMap.forEach((value, key) => {
+      if (value && value.status) {
+        mergedAlerts.set(key, {
+          status: value.status,
+          reasons: Array.isArray(value.reasons) ? value.reasons.slice() : [],
+        });
+      } else {
+        mergedAlerts.delete(key);
+      }
+    });
+
+    appState.reportAlerts = mergedAlerts;
+    applySidebarAlerts(mergedAlerts);
 
     table.appendChild(tbody);
 
