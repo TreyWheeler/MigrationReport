@@ -9,6 +9,8 @@ import { getEffectivePeople } from '../data/weights.js';
 import { makeScoreChip } from './components/chips.js';
 import { createAlertIcon } from './components/alerts.js';
 
+const VALID_ALERT_FILTERS = new Set(['all', 'hide-none', 'hide-warnings', 'hide-incompatible']);
+
 function updateCollapseCountriesButton(hasExpandable) {
   const collapseBtn = document.getElementById('collapseCountriesBtn');
   if (!collapseBtn) return;
@@ -300,27 +302,55 @@ function normalizeAlertsMap(alerts) {
   return map;
 }
 
+function normalizeSidebarAlertFilter(value) {
+  if (typeof value !== 'string') return 'all';
+  return VALID_ALERT_FILTERS.has(value) ? value : 'all';
+}
+
+function shouldHideRowForFilter(status, filter) {
+  switch (filter) {
+    case 'hide-none':
+      return !status;
+    case 'hide-warnings':
+      return status === 'concerning';
+    case 'hide-incompatible':
+      return status === 'incompatible';
+    default:
+      return false;
+  }
+}
+
 export function applySidebarAlerts(alerts = appState.reportAlerts) {
   const listEl = document.getElementById('countryList');
   if (!listEl) return;
   const alertsMap = normalizeAlertsMap(alerts);
+  const activeFilter = normalizeSidebarAlertFilter(appState.sidebarAlertFilter);
+  appState.sidebarAlertFilter = activeFilter;
   const rows = Array.from(listEl.querySelectorAll('.country-item'));
   rows.forEach(row => {
+    row.hidden = false;
+    row.classList.remove('is-filtered-out');
     const existingIcons = Array.from(row.querySelectorAll('.alert-icon[data-alert-icon="true"]'));
     existingIcons.forEach(icon => icon.remove());
     const file = row.dataset.file || '';
     if (!file) return;
     const entry = alertsMap.get(file);
-    if (!entry || !entry.status) return;
-    const reasons = Array.isArray(entry.reasons) ? entry.reasons : [];
-    const tooltip = reasons.length > 0
-      ? reasons.join('\n')
-      : `Flagged as ${entry.status}`;
-    const srText = row.dataset.name
-      ? `${row.dataset.name} alert: ${entry.status}`
-      : `Alert: ${entry.status}`;
-    const icon = createAlertIcon(entry.status, tooltip, { variant: 'sidebar', srText });
-    row.appendChild(icon);
+    const status = entry && entry.status ? entry.status : null;
+    if (entry && entry.status) {
+      const reasons = Array.isArray(entry.reasons) ? entry.reasons : [];
+      const tooltip = reasons.length > 0
+        ? reasons.join('\n')
+        : `Flagged as ${entry.status}`;
+      const srText = row.dataset.name
+        ? `${row.dataset.name} alert: ${entry.status}`
+        : `Alert: ${entry.status}`;
+      const icon = createAlertIcon(entry.status, tooltip, { variant: 'sidebar', srText });
+      row.appendChild(icon);
+    }
+    if (shouldHideRowForFilter(status, activeFilter)) {
+      row.hidden = true;
+      row.classList.add('is-filtered-out');
+    }
   });
 }
 

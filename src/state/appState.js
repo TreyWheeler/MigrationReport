@@ -10,6 +10,7 @@ const appState = {
   focusedCategories: [],
   mainData: null,
   reportAlerts: new Map(),
+  sidebarAlertFilter: 'all',
 };
 
 const keyGuidanceDialogState = { lastTrigger: null };

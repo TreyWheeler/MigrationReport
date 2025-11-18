@@ -51,6 +51,7 @@ describe('UI helpers', () => {
     moduleExports.appState.expandedState = {};
     moduleExports.appState.mainData = null;
     moduleExports.appState.reportAlerts = new Map();
+    moduleExports.appState.sidebarAlertFilter = 'all';
     if (typeof moduleExports.clearCountryCache === 'function') {
       moduleExports.clearCountryCache();
     }
@@ -381,6 +382,10 @@ describe('UI helpers', () => {
     expect(headerIcon).not.toBeNull();
     expect(headerIcon.classList.contains('alert-icon--incompatible')).toBe(true);
 
+    const categoryHeaderIcon = document.querySelector('.comparison-table tr.category-header-row th:nth-child(2) .alert-icon');
+    expect(categoryHeaderIcon).not.toBeNull();
+    expect(categoryHeaderIcon.classList.contains('alert-icon--incompatible')).toBe(true);
+
     const sidebarIcon = document.querySelector('#countryList .country-item[data-file="test.json"] .alert-icon');
     expect(sidebarIcon).not.toBeNull();
     expect(sidebarIcon.classList.contains('alert-icon--incompatible')).toBe(true);
@@ -507,6 +512,53 @@ describe('UI helpers', () => {
     expect(flaggedEntry.reasons.some(reason => reason.includes('Crime Rate'))).toBe(true);
 
     fetch.mockReset();
+  });
+
+  test('sidebar alert filter hides requested statuses', () => {
+    document.body.innerHTML = [
+      '<div id="report"></div>',
+      '<div id="legendMount"></div>',
+      '<div id="notice"></div>',
+      '<div id="countryList">',
+      '  <div class="country-item" data-file="warn.json" data-name="Warning"></div>',
+      '  <div class="country-item" data-file="bad.json" data-name="Bad"></div>',
+      '  <div class="country-item" data-file="clean.json" data-name="Clean"></div>',
+      '</div>',
+      '<button id="collapseCountriesBtn"></button>',
+      '<button id="collapseCategoriesBtn"></button>',
+    ].join('');
+
+    const listEl = document.getElementById('countryList');
+    expect(listEl).not.toBeNull();
+
+    const alerts = new Map([
+      ['warn.json', { status: 'concerning', reasons: ['Low score'] }],
+      ['bad.json', { status: 'incompatible', reasons: ['Very low score'] }],
+    ]);
+
+    moduleExports.appState.reportAlerts = alerts;
+
+    moduleExports.appState.sidebarAlertFilter = 'hide-warnings';
+    sidebarModule.applySidebarAlerts(alerts);
+    expect(listEl.querySelector('.country-item[data-file="warn.json"]').hidden).toBe(true);
+    expect(listEl.querySelector('.country-item[data-file="bad.json"]').hidden).toBe(false);
+    expect(listEl.querySelector('.country-item[data-file="clean.json"]').hidden).toBe(false);
+
+    moduleExports.appState.sidebarAlertFilter = 'hide-none';
+    sidebarModule.applySidebarAlerts(alerts);
+    expect(listEl.querySelector('.country-item[data-file="clean.json"]').hidden).toBe(true);
+    expect(listEl.querySelector('.country-item[data-file="warn.json"]').hidden).toBe(false);
+
+    moduleExports.appState.sidebarAlertFilter = 'hide-incompatible';
+    sidebarModule.applySidebarAlerts(alerts);
+    expect(listEl.querySelector('.country-item[data-file="bad.json"]').hidden).toBe(true);
+    expect(listEl.querySelector('.country-item[data-file="warn.json"]').hidden).toBe(false);
+
+    moduleExports.appState.sidebarAlertFilter = 'all';
+    sidebarModule.applySidebarAlerts(alerts);
+    Array.from(listEl.querySelectorAll('.country-item')).forEach(row => {
+      expect(row.hidden).toBe(false);
+    });
   });
 
   test('informational toggle button applies override and rerenders scoring state', async () => {

@@ -25,6 +25,7 @@ import {
   updateCountryListSelection,
   applyCountrySort,
   updateCollapseCountriesButton,
+  applySidebarAlerts,
 } from './src/ui/sidebar.js';
 import { openKeyGuidanceDialog, makeKeyGuidanceButton, openWeightsDialog, afterWeightsChanged } from './src/ui/dialogs/index.js';
 import { getEffectivePeople } from './src/data/weights.js';
@@ -103,6 +104,24 @@ async function loadMain() {
         appState.nodesByFile.set(city.file, city);
       });
     });
+
+    // Sidebar alert filter setup
+    const allowedAlertFilters = new Set(['all', 'hide-none', 'hide-warnings', 'hide-incompatible']);
+    const storedAlertFilter = getStored('sidebarAlertFilter', 'all');
+    const initialAlertFilter = allowedAlertFilters.has(storedAlertFilter) ? storedAlertFilter : 'all';
+    appState.sidebarAlertFilter = initialAlertFilter;
+    const alertFilterSelect = document.getElementById('alertFilter');
+    if (alertFilterSelect) {
+      alertFilterSelect.value = initialAlertFilter;
+      alertFilterSelect.addEventListener('change', () => {
+        const next = allowedAlertFilters.has(alertFilterSelect.value)
+          ? alertFilterSelect.value
+          : 'all';
+        appState.sidebarAlertFilter = next;
+        setStored('sidebarAlertFilter', next);
+        applySidebarAlerts();
+      });
+    }
 
     // Setup sort dropdown (adds person options and reads stored preference)
     try { setupCountrySortControls(mainData, listEl, notice); } catch {}

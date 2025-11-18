@@ -29,6 +29,35 @@ import { getKeyAlertLevels, evaluateScoreAgainstLevels } from '../data/keyAlerts
 import { createAlertIcon } from './components/alerts.js';
 import { canonKey, buildAlertReason, buildAlertTooltip } from '../data/alertUtils.js';
 
+function ensureAlertEntry(map, key) {
+  if (!map || !key) return null;
+  let entry = map.get(key);
+  if (!entry) {
+    entry = { status: null, reasons: [] };
+    map.set(key, entry);
+  }
+  if (!Array.isArray(entry.reasons)) {
+    entry.reasons = [];
+  }
+  return entry;
+}
+
+function applySeverityToEntry(entry, severity, reason) {
+  if (!entry || !severity) return;
+  if (reason) {
+    entry.reasons.push(reason);
+  }
+  if (severity === 'incompatible') {
+    entry.status = 'incompatible';
+  } else if (entry.status !== 'incompatible') {
+    entry.status = 'concerning';
+  }
+}
+
+function getCategoryAlertKey(categoryName, datasetKey) {
+  return `${datasetKey || ''}|||${categoryName || ''}`;
+}
+
 function normalizeCategoryName(name) {
   return typeof name === 'string' ? name.trim().toLowerCase() : '';
 }
@@ -362,6 +391,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
     const headerScoreTargets = [];
     const headerAlertTargets = [];
     const datasetAlertMap = new Map();
+    const categoryAlertMap = new Map();
 
     const thead = document.createElement('thead');
     const headRow = document.createElement('tr');
@@ -489,6 +519,9 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       catRow.className = 'category-header-row';
       const catNameTh = document.createElement('th');
       const catName = category.Category;
+      const catKeyLabel = typeof catName === 'string' ? catName : '';
+      const displayCategoryName = catKeyLabel || 'Category';
+      const categoryHeaderTargetsForCategory = [];
       const normalizedCatName = normalizeCategoryName(catName);
       const catIsFocused = matchesFocus(catName);
       catNameTh.innerHTML = '';
@@ -597,7 +630,9 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         const avg = values.length > 0 ? (values.reduce((a, b) => a + b, 0) / values.length) : NaN;
         const th = document.createElement('th');
         const avgNum = isFinite(avg) ? Number(avg.toFixed(1)) : NaN;
-        th.appendChild(makeScoreChip(isFinite(avgNum) ? avgNum : null));
+        const categoryScoreInner = document.createElement('div');
+        categoryScoreInner.className = 'category-score-inner';
+        categoryScoreInner.appendChild(makeScoreChip(isFinite(avgNum) ? avgNum : null));
         try {
           const peopleEff = getEffectivePeople(mainData);
           if (Array.isArray(peopleEff) && isFinite(avgNum)) {
@@ -605,11 +640,17 @@ export async function renderComparison(selectedList, mainData, options = {}) {
               const w = person && person.weights ? Number(person.weights[category.Category]) : NaN;
               if (!isFinite(w)) return;
               const adjusted = Number((avgNum * w).toFixed(1));
-              th.appendChild(document.createTextNode(' '));
-              th.appendChild(makePersonScoreChip(person.name, adjusted));
+              categoryScoreInner.appendChild(makePersonScoreChip(person.name, adjusted));
             });
           }
         } catch {}
+        th.appendChild(categoryScoreInner);
+        categoryHeaderTargetsForCategory.push({
+          element: th,
+          dataset: ds,
+          categoryKey: catKeyLabel,
+          displayName: displayCategoryName,
+        });
         catRow.appendChild(th);
       });
       tbody.appendChild(catRow);
@@ -721,15 +762,13 @@ export async function renderComparison(selectedList, mainData, options = {}) {
               : `${keyObj.Key} ${severity} alert`;
             const icon = createAlertIcon(severity, tooltip, { variant: 'cell', srText });
             wrap.appendChild(icon);
-            const entry = datasetAlertMap.get(ds.alertKey) || { status: null, reasons: [] };
-            entry.reasons = Array.isArray(entry.reasons) ? entry.reasons.slice() : [];
-            entry.reasons.push(reason);
-            if (severity === 'incompatible') {
-              entry.status = 'incompatible';
-            } else if (entry.status !== 'incompatible') {
-              entry.status = 'concerning';
-            }
-            datasetAlertMap.set(ds.alertKey, entry);
+            const datasetEntry = ensureAlertEntry(datasetAlertMap, ds.alertKey);
+            applySeverityToEntry(datasetEntry, severity, reason);
+            const categoryEntry = ensureAlertEntry(
+              categoryAlertMap,
+              getCategoryAlertKey(catKeyLabel, ds.alertKey),
+            );
+            applySeverityToEntry(categoryEntry, severity, reason);
           }
           if (digInButton) {
             wrap.appendChild(digInButton);
@@ -760,6 +799,22 @@ export async function renderComparison(selectedList, mainData, options = {}) {
             tr.classList.add('focus-dimmed');
           }
         }
+      });
+
+      categoryHeaderTargetsForCategory.forEach(target => {
+        if (!target || !target.element) return;
+        const dataset = target.dataset;
+        if (!dataset || !dataset.alertKey) return;
+        const entry = categoryAlertMap.get(getCategoryAlertKey(target.categoryKey, dataset.alertKey));
+        if (!entry || !entry.status) return;
+        const tooltip = Array.isArray(entry.reasons) && entry.reasons.length > 0
+          ? entry.reasons.join('\n')
+          : `Flagged as ${entry.status}`;
+        const srText = dataset && dataset.name
+          ? `${dataset.name} ${target.displayName} alert: ${entry.status}`
+          : `${target.displayName} alert: ${entry.status}`;
+        const icon = createAlertIcon(entry.status, tooltip, { variant: 'category', srText });
+        target.element.appendChild(icon);
       });
 
       if (initiallyCollapsed) {
