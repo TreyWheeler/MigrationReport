@@ -525,6 +525,8 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       const normalizedCatName = normalizeCategoryName(catName);
       const catIsFocused = matchesFocus(catName);
       catNameTh.innerHTML = '';
+      const catHeaderInner = document.createElement('div');
+      catHeaderInner.className = 'category-header-inner';
       const toggle = document.createElement('button');
       toggle.className = 'cat-toggle';
       const initiallyCollapsed = collapsedSet.has(catName);
@@ -608,9 +610,10 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           loadingDelayMs: 120,
         });
       });
-      catNameTh.appendChild(toggle);
-      catNameTh.appendChild(catLabelSpan);
-      catNameTh.appendChild(focusBtn);
+      catHeaderInner.appendChild(toggle);
+      catHeaderInner.appendChild(catLabelSpan);
+      catHeaderInner.appendChild(focusBtn);
+      catNameTh.appendChild(catHeaderInner);
       catRow.appendChild(catNameTh);
       if (focusActive) {
         if (catIsFocused) {
@@ -644,7 +647,10 @@ export async function renderComparison(selectedList, mainData, options = {}) {
             });
           }
         } catch {}
-        th.appendChild(categoryScoreInner);
+        const categoryScoreWrap = document.createElement('div');
+        categoryScoreWrap.className = 'category-score-wrap';
+        categoryScoreWrap.appendChild(categoryScoreInner);
+        th.appendChild(categoryScoreWrap);
         categoryHeaderTargetsForCategory.push({
           element: th,
           container: categoryScoreInner,
