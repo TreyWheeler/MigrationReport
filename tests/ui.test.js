@@ -542,7 +542,8 @@ describe('UI helpers', () => {
     sidebarModule.applySidebarAlerts(alerts);
     expect(listEl.querySelector('.country-item[data-file="warn.json"]').hidden).toBe(true);
     expect(listEl.querySelector('.country-item[data-file="warn.json"]').style.display).toBe('none');
-    expect(listEl.querySelector('.country-item[data-file="bad.json"]').hidden).toBe(false);
+    expect(listEl.querySelector('.country-item[data-file="bad.json"]').hidden).toBe(true);
+    expect(listEl.querySelector('.country-item[data-file="bad.json"]').style.display).toBe('none');
     expect(listEl.querySelector('.country-item[data-file="clean.json"]').hidden).toBe(false);
 
     moduleExports.appState.sidebarAlertFilter = 'hide-none';

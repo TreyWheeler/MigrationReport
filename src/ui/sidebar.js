@@ -312,7 +312,7 @@ function shouldHideRowForFilter(status, filter) {
     case 'hide-none':
       return !status;
     case 'hide-warnings':
-      return status === 'concerning';
+      return status === 'concerning' || status === 'incompatible';
     case 'hide-incompatible':
       return status === 'incompatible';
     default:
