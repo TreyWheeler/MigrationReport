@@ -54,6 +54,7 @@ builder.Services.AddOpenTelemetry()
 builder.Services.AddSingleton<IReportRepository, FileReportRepository>();
 builder.Services.AddSingleton<IRatingGuideProvider, RatingGuideProvider>();
 builder.Services.AddSingleton<IFamilyProfileProvider, FamilyProfileProvider>();
+builder.Services.AddSingleton<IKeyDefinitionProvider, KeyDefinitionProvider>();
 builder.Services.AddSingleton<ReportContextFactory>();
 builder.Services.AddSingleton<ReportUpdateService>();
 builder.Services.AddSingleton<ICategoryKeyProvider, CategoryKeyProvider>();

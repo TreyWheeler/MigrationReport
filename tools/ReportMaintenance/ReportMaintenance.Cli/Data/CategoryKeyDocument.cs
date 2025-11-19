@@ -24,4 +24,13 @@ public sealed class CategoryKey
 
     [JsonPropertyName("guidance")]
     public string? Guidance { get; set; }
+
+    [JsonPropertyName("valueRequirements")]
+    public string? ValueRequirements { get; set; }
+
+    [JsonPropertyName("informational")]
+    public bool Informational { get; set; }
+
+    [JsonPropertyName("ratingGuide")]
+    public List<RatingGuideEntry>? RatingGuide { get; set; }
 }

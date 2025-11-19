@@ -7,7 +7,7 @@ The MigrationReport dataset now mirrors a relational model so the static site ca
 | File | Purpose | Primary Fields |
 | --- | --- | --- |
 | `data/categories.json` | Canonical list of evaluation categories. | `id`, `name`, `order` |
-| `data/category_keys.json` | Individual evaluation keys that belong to categories. | `id`, `categoryId`, `name`, `order`, `guidance` |
+| `data/category_keys.json` | Individual evaluation keys that belong to categories. | `id`, `categoryId`, `name`, `order`, `guidance`, `valueRequirements`, `informational`, `ratingGuide` |
 | `data/countries.json` | Top-level locations that have full migration reports. | `id`, `name`, `report` |
 | `data/cities.json` | City-level reports linked back to their country. | `id`, `countryId`, `name`, `report` |
 | `data/people.json` | Persona definitions used for weightings in comparisons. | `id`, `name` |
@@ -32,7 +32,9 @@ The MigrationReport dataset now mirrors a relational model so the static site ca
 - `name`: Display label surfaced to users.
 - `order`: Optional numeric sort index to arrange keys within a category. Lower numbers render first; ties fall back to alphabetical ordering.
 - `guidance`: Author guidance for maintaining consistent scoring narratives.
+- `valueRequirements`: Optional formatting or validation rules that the CLI will surface when generating values for the key.
 - `informational`: Optional boolean. When `true`, the key appears without a score chip and is excluded from scoring averages.
+- `ratingGuide`: Optional list of `{ rating, guidance }` entries used to build the 1–10 ladder for the CLI prompts.
 
 ### `data/countries.json`
 - `id`: Stable slug that other data (like cities) reference.
