@@ -1,0 +1,256 @@
+
+Readme
+-----------------------------
+
+This document is redesigning what keys exist entirely. It also seeks to offer optional guidance on some data.
+
+Category = The user friendly text for the category that contains the keys under this section.
+Key = The user friendly text for a keys
+Guidance = General guidance for what to consider when evaluating that value
+# (1-10)= An optional guidance for what should be used for the rating guide for this key. This would be sued when ideating rating guidance for a given key.
+Value Requirements = Optional requirements for data generated for a report for the given key.
+Dep = Optional list of previously updated keys to include as a key-value-pair when generating a value for a given key.
+Informational = Denotes if a key is purely informational and should be excluded from scoring.
+Unchanged = Keep as is, don't remove it.
+
+
+
+
+Revised
+-----------------------------
+Category: Daemon Games
+
+    Key: Ease of Entrepreneurship Visa
+
+    Key: Bureaucratic Compliance Effort
+
+    Key: Number of AA Studios
+    Guidance: Number of Indie game studios with 10-50 employees
+
+    Key: AAA Studios
+    Informational
+
+    Key: Vibrancy of local game development communities
+
+    Key: Feasible Game Grants
+    Guidance: For the given city/country and Daemon Games’ profile (small, unfunded indie studio planning a 2-year, ≈1.5M budget, narrative PC/console action-adventure using high-fantasy allegory about resistance to empire and depression, self-publishing on Steam/consoles), identify public support instruments that are realistically attainable within the next 0–3 years: game-specific tax credits, selective prototype/production/marketing grants, innovation or creative-industry funds, and incubator/accelerator programmes that include cash or in-kind financial support. Only consider programmes that accept small or early-stage studios and foreign founders who are willing to incorporate locally, and that are compatible with story-driven premium games without gambling or exploitative monetisation; ignore schemes restricted to gambling, tightly scoped serious/educational games, or projects with budgets far outside the 0.5M–5M range. For each programme, infer basic eligibility (e.g. local spend requirements, cultural tests, minimum team/company age) from up-to-date sources, but treat selection as competitive and focus on whether Daemon should reasonably plan to apply during or shortly before the 2-year development period.
+    Value Requirements: Value should be a short, ranked list of 1–5 grant or incentive programmes for that region, each on its own line in the format “ProgramName – ApproxMaxSupport localCurrency (approx USD) – 1-sentence why this is a good fit”; if no realistic programmes exist, return a single line: “None: no realistic grant or incentive programmes identified for this region.” Informational
+
+    Key: Burn Rate
+    Guidance: Define yearly base salaries (before employer on-costs) for these roles in the target city/country: Lead Game Designer, Senior Game Developer, Senior VFX Artist, Senior 2D Environment Artist, Senior 3D Character Artist, Senior Character Animator, and Video Game Marketer, plus a yearly office-space cost and a single employerOnCostRate applied to all salaries. Compute yearly burn rate (pre-tax, pre-incentives, pre-revenue) as: yearlyBurn = officeCostPerYear + (sumOfBaseSalariesPerYear × (1 + employerOnCostRate)) + (200_000 / developmentYears). Treat the 200,000 as total fixed marketing/advertising for the whole project, amortised evenly across developmentYears when adding it into the yearly burn.
+    Value Requirements: Value should be a single numerical value in local currency rounded to the second decimal. If the local currency isn't the US dollar than it should be converted and appended to the local currency value. Example: €5 ($5.70)
+    Informational
+
+    Key: ROI 400k Units - 2 Years
+    Guidance: For the given city/country, estimate yearly base salaries (before employer on-costs) for these roles — Lead Game Designer, Senior Game Developer, Senior VFX Artist, Senior 2D Environment Artist, Senior 3D Character Artist, Senior Character Animator, and Video Game Marketer — plus a yearly office-space cost and a single employerOnCostRate applied to all salaries. Compute devCostBeforeIncentives = developmentYears × (officeCostPerYear + (sumOfBaseSalariesPerYear × (1 + employerOnCostRate))) and devIncentive = devIncentiveRate × devIncentiveEligibleShare × devCostBeforeIncentives, then set adjustedDevCost = devCostBeforeIncentives − devIncentive if the incentive is non-taxable or adjustedDevCost = devCostBeforeIncentives if the incentive is taxable (and in that case you add devIncentive to income instead of subtracting it from cost). Calculate grossRevenue = unitsSold × 20 and netRevenue = grossRevenue × 0.7 (30% platform cut), then profitBeforeTax = netRevenue + (incentiveIsTaxable ? devIncentive : 0) − adjustedDevCost − 200_000 and netProfitAfterTax = profitBeforeTax − max(0, profitBeforeTax × corporateTaxRate). In this case use 2 years and 400k units sold.
+    Value Requirements: Value should be a single numerical value in local currency rounded to the second decimal. If the local currency isn't the US dollar than it should be converted and appended to the local currency value. Example: €5 ($5.70)
+    Informational
+
+    Key: ROI 1M Units - 2 Years
+    Guidance: For the given city/country, estimate yearly base salaries (before employer on-costs) for these roles — Lead Game Designer, Senior Game Developer, Senior VFX Artist, Senior 2D Environment Artist, Senior 3D Character Artist, Senior Character Animator, and Video Game Marketer — plus a yearly office-space cost and a single employerOnCostRate applied to all salaries. Compute devCostBeforeIncentives = developmentYears × (officeCostPerYear + (sumOfBaseSalariesPerYear × (1 + employerOnCostRate))) and devIncentive = devIncentiveRate × devIncentiveEligibleShare × devCostBeforeIncentives, then set adjustedDevCost = devCostBeforeIncentives − devIncentive if the incentive is non-taxable or adjustedDevCost = devCostBeforeIncentives if the incentive is taxable (and in that case you add devIncentive to income instead of subtracting it from cost). Calculate grossRevenue = unitsSold × 20 and netRevenue = grossRevenue × 0.7 (30% platform cut), then profitBeforeTax = netRevenue + (incentiveIsTaxable ? devIncentive : 0) − adjustedDevCost − 200_000 and netProfitAfterTax = profitBeforeTax − max(0, profitBeforeTax × corporateTaxRate). In this case use 2 years and 1M units sold.
+    Value Requirements: Value should be a single numerical value in local currency rounded to the second decimal. If the local currency isn't the US dollar than it should be converted and appended to the local currency value. Example: €5 ($5.70)
+    Informational
+
+    Key: ROI 5M Units - 2 Years
+    Guidance: For the given city/country, estimate yearly base salaries (before employer on-costs) for these roles — Lead Game Designer, Senior Game Developer, Senior VFX Artist, Senior 2D Environment Artist, Senior 3D Character Artist, Senior Character Animator, and Video Game Marketer — plus a yearly office-space cost and a single employerOnCostRate applied to all salaries. Compute devCostBeforeIncentives = developmentYears × (officeCostPerYear + (sumOfBaseSalariesPerYear × (1 + employerOnCostRate))) and devIncentive = devIncentiveRate × devIncentiveEligibleShare × devCostBeforeIncentives, then set adjustedDevCost = devCostBeforeIncentives − devIncentive if the incentive is non-taxable or adjustedDevCost = devCostBeforeIncentives if the incentive is taxable (and in that case you add devIncentive to income instead of subtracting it from cost). Calculate grossRevenue = unitsSold × 20 and netRevenue = grossRevenue × 0.7 (30% platform cut), then profitBeforeTax = netRevenue + (incentiveIsTaxable ? devIncentive : 0) − adjustedDevCost − 200_000 and netProfitAfterTax = profitBeforeTax − max(0, profitBeforeTax × corporateTaxRate). In this case use 2 years and 1M units sold.
+    Value Requirements: Value should be a single numerical value in local currency rounded to the second decimal. If the local currency isn't the US dollar than it should be converted and appended to the local currency value. Example: €5 ($5.70)
+    Informational
+
+    Key: Yearly Office Space Cost
+    Guidance: For a 10ish person company
+    Informational
+
+    Key: Employer On Cost Rate
+    Value Requirements: A single percentage value represented as a whole number (example: 35%)
+    Informational
+
+    Key: Corporate Tax Rate
+    Informational
+
+    Key: Dev Incentive Rate
+    Guidance: Effective % credit/rebate on eligible development costs (e.g. 30% game tax credit).
+    Informational
+
+    Key: Dev Incentive Eligible Share
+    Guidance: Fraction of total dev cost that qualifies for the incentive (e.g. 0.8 for 80%).
+    Informational
+
+Category: Integration
+
+    Key: Immigration Status & Rights    
+    Informational
+    Value Requirements: Defines the types of status' and how they are determined and what rights they add. (Permanant, Citizen). Isn't constrained to character limit.
+
+
+    Key: Immigration Effort
+    10: Visa filing is straight forward and evaluations have a quick turn around.
+    
+
+    Key: Adult Language Expectations
+    10: At no point will we feel pressure to learn another language
+    9: English is sufficient for work, services, and government
+    7: English is sufficient for work, and services
+    5: English is sufficent for work
+    1: English is unwelcome
+
+    Key: Childhood Language Expectations
+    10: Can complete primary and secondary school entirely in english fully in the public school system
+    5: Regional language proficiency expected, with some inegration assistance
+
+    Key: Welcoming of Skilled immigrants
+    10: Most people are generally happy with your presence and anti-immigration sentiment is low
+
+    Key: Housing Accessibility
+    10: Skilled migrants are able to find an acceptable home in under a month
+    7: Skill migrants are able to find an acceptable home in under three months
+    5: Skill migrants are able to find an acceptable home in under six months
+
+
+Category: Life
+
+    Key: Bureaucratic Compliance Effort
+
+    Key: Daycare Accessibility
+
+    Key: Daycare Affordability
+
+    Key: Healthcare Accessibility
+
+    Key: Healthcare Affordability
+
+    Key: Healthcare Tied to Employment
+    10: No
+    1: Yes
+
+    Key: Hours Worked Per Year
+    Guidance: Typically average hours worked per year. Takes into account vacation/sick leave, weekly hours, etc.
+    Value Requirements: Value must be a single integer
+    10: Less than 1,500
+    4: 2,200
+
+    Key: Public Transportation
+    Guidance: Quality and ubiquity of public transportation
+
+Category: Outdoors
+
+    Key: Mild Weather
+
+    Key: Winter Temperature Range
+    Value Requirements: Value must be in fahrenheit 
+
+    Key: Spring Temperature Range
+    Value Requirements: Value must be in fahrenheit 
+
+    Key: Summer Temperature Range
+    Value Requirements: Value must be in fahrenheit 
+
+    Key: Fall Temperature Range
+    Value Requirements: Value must be in fahrenheit 
+
+    Key: Natural Beauty
+
+    Key: Nature Access
+
+    Key: Beach Life
+    Informational
+
+Category: Leisure
+
+    Key: Quality Food Access
+
+    Key: Peoples Centric Cities
+
+    Key: Parent Friendly 3rd Places
+
+    Key: Common Date Night Opportunities
+    Informational
+
+    Key: Common Family Activity Opportunities
+    Informational
+    
+    Key: Common Friend Night Opportunities
+    Informational
+
+Category: Stability
+
+    Key: Economic Stability
+
+    Key: Political Stability
+
+    Key: Social and Quality of Life Stability
+
+    Key: Climate Stability
+
+    Key: Migration Stability
+
+Category: Opportunity
+
+    Key: College Accessibility
+    10: College is free or very low cost for our family regardless of residency or citizenship
+    9: College is free or very low cost for our family regardless of residency
+    8: College is free or very low cost for our family eventually
+
+    Key: College Quality
+
+    Key: Continuing Education Accessibility
+
+    Key: Demand for .NET Architect (20 years of experience)
+
+    Key: Salary for .NET Architect (20 years of experience)
+    Informational
+
+    Key: Demand for Ruby on Rails (6 years of experience) 
+
+    Key: Salary for Ruby on Rails (6 years of experience) 
+    Informational
+
+Category: Kids
+
+    Key: Education Quality
+    Guidance: In primary and in scondary schooling
+
+    Key: Food Quality
+    Guidance: In primary and in scondary schooling
+
+    Key: Language Expectations in Schools
+
+    Key: Language Integration Services
+    10: Only English is expected, no integration services needed
+    9: Integration services fully provided in the public school system
+
+    Key: Bullying and Racism
+    Guidance: In primary and in secondary schooling, for caucasian american immigrants
+    10: none
+    5: There is some concern for physical safety
+
+Category: Cost of Living (Family of Four)
+
+    Key: 150m2 (in city center)
+    Guidance: Estimated cost of living for a family of four in the city center
+
+    Key: 150m2 (on city edge)
+    Guidance: Estimated cost of living for a family of four on the city edge
+
+    Key: 150m2 (suburb)
+    Guidance: Estimated cost of living for a family of four in the most appropriate suburb
+
+    Key: Eating Out
+    Guidance: Estimated cost of taking a family of four out to dinner.
+
+    Key: Health Insurance Costs
+    Informational
+
+    Key: 52 Therapy Sessions
+    Guidance: Estimated cost for 52 therapy sessions
+
+    Key: 3 Days in ER
+    Guidance: Estiamted cost for 3 nights in the ER
+
+    Keys: Semester of College (Non Resident)
+    Guidance: Estimated cost for a single semester of college for a non resident
+
+    Keys: Semester of College (Perm Resident)
+    Guidance: Estimated cost for a single semester of college for a perm resident
+
+    Keys: Semester of College (Citizen)
+    Guidance: Estimated cost for a single semester of college for a citizen
