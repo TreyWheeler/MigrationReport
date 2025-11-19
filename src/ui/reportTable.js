@@ -647,6 +647,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         th.appendChild(categoryScoreInner);
         categoryHeaderTargetsForCategory.push({
           element: th,
+          container: categoryScoreInner,
           dataset: ds,
           categoryKey: catKeyLabel,
           displayName: displayCategoryName,
@@ -805,6 +806,9 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         if (!target || !target.element) return;
         const dataset = target.dataset;
         if (!dataset || !dataset.alertKey) return;
+        const container = target.container || target.element;
+        const existingIcons = Array.from(container.querySelectorAll('.alert-icon[data-alert-icon="true"]'));
+        existingIcons.forEach(icon => icon.remove());
         const entry = categoryAlertMap.get(getCategoryAlertKey(target.categoryKey, dataset.alertKey));
         if (!entry || !entry.status) return;
         const tooltip = Array.isArray(entry.reasons) && entry.reasons.length > 0
@@ -814,7 +818,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           ? `${dataset.name} ${target.displayName} alert: ${entry.status}`
           : `${target.displayName} alert: ${entry.status}`;
         const icon = createAlertIcon(entry.status, tooltip, { variant: 'category', srText });
-        target.element.appendChild(icon);
+        container.appendChild(icon);
       });
 
       if (initiallyCollapsed) {
