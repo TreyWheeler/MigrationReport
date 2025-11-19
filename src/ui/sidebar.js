@@ -320,15 +320,16 @@ function shouldHideRowForFilter(status, filter) {
   }
 }
 
-export function applySidebarAlerts(alerts = appState.reportAlerts) {
+export function applySidebarAlerts(alerts = appState.reportAlerts, filterOverride = null) {
   const listEl = document.getElementById('countryList');
   if (!listEl) return;
   const alertsMap = normalizeAlertsMap(alerts);
-  const activeFilter = normalizeSidebarAlertFilter(appState.sidebarAlertFilter);
+  const activeFilter = normalizeSidebarAlertFilter(filterOverride ?? appState.sidebarAlertFilter);
   appState.sidebarAlertFilter = activeFilter;
   const rows = Array.from(listEl.querySelectorAll('.country-item'));
   rows.forEach(row => {
     row.hidden = false;
+    row.style.display = '';
     row.classList.remove('is-filtered-out');
     const existingIcons = Array.from(row.querySelectorAll('.alert-icon[data-alert-icon="true"]'));
     existingIcons.forEach(icon => icon.remove());
@@ -347,8 +348,10 @@ export function applySidebarAlerts(alerts = appState.reportAlerts) {
       const icon = createAlertIcon(entry.status, tooltip, { variant: 'sidebar', srText });
       row.appendChild(icon);
     }
-    if (shouldHideRowForFilter(status, activeFilter)) {
+    const shouldHide = shouldHideRowForFilter(status, activeFilter);
+    if (shouldHide) {
       row.hidden = true;
+      row.style.display = 'none';
       row.classList.add('is-filtered-out');
     }
   });

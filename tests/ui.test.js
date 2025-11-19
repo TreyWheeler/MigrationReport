@@ -541,6 +541,7 @@ describe('UI helpers', () => {
     moduleExports.appState.sidebarAlertFilter = 'hide-warnings';
     sidebarModule.applySidebarAlerts(alerts);
     expect(listEl.querySelector('.country-item[data-file="warn.json"]').hidden).toBe(true);
+    expect(listEl.querySelector('.country-item[data-file="warn.json"]').style.display).toBe('none');
     expect(listEl.querySelector('.country-item[data-file="bad.json"]').hidden).toBe(false);
     expect(listEl.querySelector('.country-item[data-file="clean.json"]').hidden).toBe(false);
 
@@ -558,7 +559,12 @@ describe('UI helpers', () => {
     sidebarModule.applySidebarAlerts(alerts);
     Array.from(listEl.querySelectorAll('.country-item')).forEach(row => {
       expect(row.hidden).toBe(false);
+      expect(row.style.display || '').toBe('');
     });
+
+    sidebarModule.applySidebarAlerts(alerts, 'hide-incompatible');
+    expect(listEl.querySelector('.country-item[data-file="bad.json"]').hidden).toBe(true);
+    expect(listEl.querySelector('.country-item[data-file="bad.json"]').style.display).toBe('none');
   });
 
   test('informational toggle button applies override and rerenders scoring state', async () => {

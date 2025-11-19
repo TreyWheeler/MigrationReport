@@ -119,7 +119,7 @@ async function loadMain() {
           : 'all';
         appState.sidebarAlertFilter = next;
         setStored('sidebarAlertFilter', next);
-        applySidebarAlerts();
+        applySidebarAlerts(appState.reportAlerts, next);
       });
     }
 
