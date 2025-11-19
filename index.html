@@ -411,10 +411,11 @@
       background: #f7f7f7;
       text-align: left;
       white-space: nowrap;
+      overflow-wrap: normal;
       box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     }
-    .country-header-inner { display: flex; align-items: center; gap: 8px; }
-    .country-header-label { display: inline-flex; align-items: center; gap: 6px; }
+    .country-header-inner { display: flex; align-items: center; gap: 8px; min-width: 0; }
+    .country-header-label { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
     .country-header-scores {
       display: flex;
       align-items: center;
