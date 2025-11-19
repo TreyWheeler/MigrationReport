@@ -7,6 +7,9 @@ import { createFlagImg } from '../utils/dom.js';
 import { getParentFileForNode, resolveParentReportFile } from '../utils/nodes.js';
 import { getEffectivePeople } from '../data/weights.js';
 import { makeScoreChip } from './components/chips.js';
+import { createAlertIcon } from './components/alerts.js';
+
+const VALID_ALERT_FILTERS = new Set(['all', 'hide-none', 'hide-warnings', 'hide-incompatible']);
 
 function updateCollapseCountriesButton(hasExpandable) {
   const collapseBtn = document.getElementById('collapseCountriesBtn');
@@ -273,6 +276,7 @@ export function updateCountryListSelection(listEl) {
     const selected = appState.selected.some(s => s.file === file);
     row.classList.toggle('selected', selected);
   });
+  applySidebarAlerts();
 }
 
 async function ensureReportMetrics(item, mainData) {
@@ -285,6 +289,72 @@ async function ensureReportMetrics(item, mainData) {
   const metrics = computeRoundedMetrics(data, mainData, getEffectivePeople(mainData));
   item.metrics = metrics;
   return metrics;
+}
+
+function normalizeAlertsMap(alerts) {
+  if (!alerts) return new Map();
+  if (alerts instanceof Map) return alerts;
+  if (typeof alerts !== 'object') return new Map();
+  const map = new Map();
+  Object.entries(alerts).forEach(([key, value]) => {
+    map.set(key, value);
+  });
+  return map;
+}
+
+function normalizeSidebarAlertFilter(value) {
+  if (typeof value !== 'string') return 'all';
+  return VALID_ALERT_FILTERS.has(value) ? value : 'all';
+}
+
+function shouldHideRowForFilter(status, filter) {
+  switch (filter) {
+    case 'hide-none':
+      return !status;
+    case 'hide-warnings':
+      return status === 'concerning' || status === 'incompatible';
+    case 'hide-incompatible':
+      return status === 'incompatible';
+    default:
+      return false;
+  }
+}
+
+export function applySidebarAlerts(alerts = appState.reportAlerts, filterOverride = null) {
+  const listEl = document.getElementById('countryList');
+  if (!listEl) return;
+  const alertsMap = normalizeAlertsMap(alerts);
+  const activeFilter = normalizeSidebarAlertFilter(filterOverride ?? appState.sidebarAlertFilter);
+  appState.sidebarAlertFilter = activeFilter;
+  const rows = Array.from(listEl.querySelectorAll('.country-item'));
+  rows.forEach(row => {
+    row.hidden = false;
+    row.style.display = '';
+    row.classList.remove('is-filtered-out');
+    const existingIcons = Array.from(row.querySelectorAll('.alert-icon[data-alert-icon="true"]'));
+    existingIcons.forEach(icon => icon.remove());
+    const file = row.dataset.file || '';
+    if (!file) return;
+    const entry = alertsMap.get(file);
+    const status = entry && entry.status ? entry.status : null;
+    if (entry && entry.status) {
+      const reasons = Array.isArray(entry.reasons) ? entry.reasons : [];
+      const tooltip = reasons.length > 0
+        ? reasons.join('\n')
+        : `Flagged as ${entry.status}`;
+      const srText = row.dataset.name
+        ? `${row.dataset.name} alert: ${entry.status}`
+        : `Alert: ${entry.status}`;
+      const icon = createAlertIcon(entry.status, tooltip, { variant: 'sidebar', srText });
+      row.appendChild(icon);
+    }
+    const shouldHide = shouldHideRowForFilter(status, activeFilter);
+    if (shouldHide) {
+      row.hidden = true;
+      row.style.display = 'none';
+      row.classList.add('is-filtered-out');
+    }
+  });
 }
 
 export async function applyCountrySort(mainData, listEl, notice, onChange) {

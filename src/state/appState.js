@@ -8,6 +8,9 @@ const appState = {
   keyGuidanceIndex: new Map(),
   keyGuidanceHasRatings: false,
   focusedCategories: [],
+  mainData: null,
+  reportAlerts: new Map(),
+  sidebarAlertFilter: 'all',
 };
 
 const keyGuidanceDialogState = { lastTrigger: null };

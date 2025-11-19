@@ -15,7 +15,7 @@ import {
   getScoreBucket,
 } from './components/chips.js';
 import { appendTextWithLinks, createFlagImg } from '../utils/dom.js';
-import { toggleSelectNode, updateCountryListSelection, applyCountrySort } from './sidebar.js';
+import { toggleSelectNode, updateCountryListSelection, applyCountrySort, applySidebarAlerts } from './sidebar.js';
 import { getParentFileForNode, resolveParentReportFile } from '../utils/nodes.js';
 import { getEffectivePeople } from '../data/weights.js';
 import { isInformationalKey } from '../data/informationalOverrides.js';
@@ -25,22 +25,169 @@ import {
   showLoadingError,
   waitForLoadingIndicatorFrame,
 } from './loadingIndicator.js';
+import { getKeyAlertLevels, evaluateScoreAgainstLevels } from '../data/keyAlerts.js';
+import { createAlertIcon } from './components/alerts.js';
+import { canonKey, buildAlertReason, buildAlertTooltip } from '../data/alertUtils.js';
 
-function canonKey(str) {
-  try {
-    let text = typeof str === 'string' ? str : '';
-    if (text.normalize) text = text.normalize('NFKC');
-    text = text.replace(/[°�?]/g, '');
-    text = text.toLowerCase();
-    text = text.replace(/\s+/g, ' ').trim();
-    return text;
-  } catch {
-    return String(str || '');
+function ensureAlertEntry(map, key) {
+  if (!map || !key) return null;
+  let entry = map.get(key);
+  if (!entry) {
+    entry = { status: null, reasons: [] };
+    map.set(key, entry);
   }
+  if (!Array.isArray(entry.reasons)) {
+    entry.reasons = [];
+  }
+  return entry;
+}
+
+function applySeverityToEntry(entry, severity, reason) {
+  if (!entry || !severity) return;
+  if (reason) {
+    entry.reasons.push(reason);
+  }
+  if (severity === 'incompatible') {
+    entry.status = 'incompatible';
+  } else if (entry.status !== 'incompatible') {
+    entry.status = 'concerning';
+  }
+}
+
+function getCategoryAlertKey(categoryName, datasetKey) {
+  return `${datasetKey || ''}|||${categoryName || ''}`;
 }
 
 function normalizeCategoryName(name) {
   return typeof name === 'string' ? name.trim().toLowerCase() : '';
+}
+
+function buildAlertKeyConfigs(mainData) {
+  const configs = [];
+  const categories = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
+  categories.forEach(category => {
+    if (!category || !Array.isArray(category.Keys)) return;
+    const categoryName = category.Category;
+    category.Keys.forEach(keyObj => {
+      if (!keyObj || isInformationalKey(keyObj, categoryName)) return;
+      const thresholds = getKeyAlertLevels(categoryName, keyObj.Key);
+      if (!thresholds) return;
+      const { concerning, incompatible } = thresholds;
+      const hasConcerning = Number.isFinite(concerning);
+      const hasIncompatible = Number.isFinite(incompatible);
+      if (!hasConcerning && !hasIncompatible) return;
+      configs.push({
+        categoryName,
+        keyName: keyObj.Key,
+        canonicalKey: canonKey(keyObj.Key),
+        thresholds,
+      });
+    });
+  });
+  return configs;
+}
+
+async function refreshAllReportAlerts(mainDataOverride) {
+  const mainData = mainDataOverride || appState.mainData;
+  const configs = buildAlertKeyConfigs(mainData);
+  if (configs.length === 0) {
+    appState.reportAlerts = new Map();
+    applySidebarAlerts(appState.reportAlerts);
+    return appState.reportAlerts;
+  }
+
+  const nodes = [];
+  const seenFiles = new Set();
+  const appendNode = (node) => {
+    if (!node || !node.file) return;
+    if (seenFiles.has(node.file)) return;
+    seenFiles.add(node.file);
+    nodes.push(node);
+  };
+
+  if (Array.isArray(appState.countries)) {
+    appState.countries.forEach(country => {
+      appendNode(country);
+      if (country && Array.isArray(country.cities)) {
+        country.cities.forEach(city => appendNode(city));
+      }
+    });
+  }
+
+  if (appState.nodesByFile && typeof appState.nodesByFile.forEach === 'function') {
+    appState.nodesByFile.forEach(node => appendNode(node));
+  }
+
+  if (nodes.length === 0) {
+    appState.reportAlerts = new Map();
+    applySidebarAlerts(appState.reportAlerts);
+    return appState.reportAlerts;
+  }
+
+  const datasetResults = await Promise.all(nodes.map(async node => {
+    try {
+      const data = await fetchCountry(node.file, {
+        parentFile: getParentFileForNode(node),
+        resolveParentFile: resolveParentReportFile,
+      });
+      return { node, data };
+    } catch {
+      return { node, data: null };
+    }
+  }));
+
+  const alertMap = new Map();
+
+  datasetResults.forEach(({ node, data }) => {
+    if (!node || !node.file || !data || !Array.isArray(data.values)) return;
+    const valueMap = new Map();
+    data.values.forEach(entry => {
+      if (!entry || typeof entry !== 'object') return;
+      const key = canonKey(entry.key);
+      if (!key) return;
+      valueMap.set(key, entry);
+    });
+
+    let status = null;
+    const reasons = [];
+
+    configs.forEach(config => {
+      const entry = valueMap.get(config.canonicalKey);
+      if (!entry) return;
+      const numericScore = Number(entry.alignmentValue);
+      if (!Number.isFinite(numericScore) || numericScore < 0) return;
+      const severity = evaluateScoreAgainstLevels(numericScore, config.thresholds);
+      if (!severity) return;
+      const severityThreshold = severity === 'incompatible'
+        ? config.thresholds.incompatible
+        : config.thresholds.concerning;
+      if (!Number.isFinite(severityThreshold)) return;
+      const reason = buildAlertReason(
+        config.categoryName,
+        config.keyName,
+        severity,
+        numericScore,
+        severityThreshold,
+      );
+      reasons.push(reason);
+      if (severity === 'incompatible') {
+        status = 'incompatible';
+      } else if (status !== 'incompatible') {
+        status = 'concerning';
+      }
+    });
+
+    if (status) {
+      alertMap.set(node.file, {
+        status,
+        reasons,
+      });
+    }
+  });
+
+  appState.reportAlerts = alertMap;
+  applySidebarAlerts(alertMap);
+  return alertMap;
 }
 
 export function renderEmptyReportState() {
@@ -149,6 +296,10 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       })
     })));
 
+    datasets.forEach((ds, idx) => {
+      ds.alertKey = ds && ds.file ? ds.file : `dataset-${idx}`;
+    });
+
     if (renderToken !== activeRenderToken) {
       return;
     }
@@ -238,6 +389,9 @@ export async function renderComparison(selectedList, mainData, options = {}) {
     };
 
     const headerScoreTargets = [];
+    const headerAlertTargets = [];
+    const datasetAlertMap = new Map();
+    const categoryAlertMap = new Map();
 
     const thead = document.createElement('thead');
     const headRow = document.createElement('tr');
@@ -264,6 +418,10 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       nameNode.textContent = ds.name;
       labelWrap.appendChild(nameNode);
       inner.appendChild(labelWrap);
+      headerAlertTargets.push({ element: labelWrap, dataset: ds });
+      if (ds && ds.alertKey && !datasetAlertMap.has(ds.alertKey)) {
+        datasetAlertMap.set(ds.alertKey, { status: null, reasons: [] });
+      }
 
       const scoresWrap = document.createElement('div');
       scoresWrap.className = 'country-header-scores';
@@ -361,9 +519,14 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       catRow.className = 'category-header-row';
       const catNameTh = document.createElement('th');
       const catName = category.Category;
+      const catKeyLabel = typeof catName === 'string' ? catName : '';
+      const displayCategoryName = catKeyLabel || 'Category';
+      const categoryHeaderTargetsForCategory = [];
       const normalizedCatName = normalizeCategoryName(catName);
       const catIsFocused = matchesFocus(catName);
       catNameTh.innerHTML = '';
+      const catHeaderInner = document.createElement('div');
+      catHeaderInner.className = 'category-header-inner';
       const toggle = document.createElement('button');
       toggle.className = 'cat-toggle';
       const initiallyCollapsed = collapsedSet.has(catName);
@@ -447,9 +610,10 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           loadingDelayMs: 120,
         });
       });
-      catNameTh.appendChild(toggle);
-      catNameTh.appendChild(catLabelSpan);
-      catNameTh.appendChild(focusBtn);
+      catHeaderInner.appendChild(toggle);
+      catHeaderInner.appendChild(catLabelSpan);
+      catHeaderInner.appendChild(focusBtn);
+      catNameTh.appendChild(catHeaderInner);
       catRow.appendChild(catNameTh);
       if (focusActive) {
         if (catIsFocused) {
@@ -469,7 +633,9 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         const avg = values.length > 0 ? (values.reduce((a, b) => a + b, 0) / values.length) : NaN;
         const th = document.createElement('th');
         const avgNum = isFinite(avg) ? Number(avg.toFixed(1)) : NaN;
-        th.appendChild(makeScoreChip(isFinite(avgNum) ? avgNum : null));
+        const categoryScoreInner = document.createElement('div');
+        categoryScoreInner.className = 'category-score-inner';
+        categoryScoreInner.appendChild(makeScoreChip(isFinite(avgNum) ? avgNum : null));
         try {
           const peopleEff = getEffectivePeople(mainData);
           if (Array.isArray(peopleEff) && isFinite(avgNum)) {
@@ -477,11 +643,21 @@ export async function renderComparison(selectedList, mainData, options = {}) {
               const w = person && person.weights ? Number(person.weights[category.Category]) : NaN;
               if (!isFinite(w)) return;
               const adjusted = Number((avgNum * w).toFixed(1));
-              th.appendChild(document.createTextNode(' '));
-              th.appendChild(makePersonScoreChip(person.name, adjusted));
+              categoryScoreInner.appendChild(makePersonScoreChip(person.name, adjusted));
             });
           }
         } catch {}
+        const categoryScoreWrap = document.createElement('div');
+        categoryScoreWrap.className = 'category-score-wrap';
+        categoryScoreWrap.appendChild(categoryScoreInner);
+        th.appendChild(categoryScoreWrap);
+        categoryHeaderTargetsForCategory.push({
+          element: th,
+          container: categoryScoreInner,
+          dataset: ds,
+          categoryKey: catKeyLabel,
+          displayName: displayCategoryName,
+        });
         catRow.appendChild(th);
       });
       tbody.appendChild(catRow);
@@ -546,6 +722,8 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           }
         }
 
+        const thresholds = informational ? null : getKeyAlertLevels(category.Category, keyObj.Key);
+
         datasets.forEach((ds, idx) => {
           const td = document.createElement('td');
           td.className = 'value-cell';
@@ -566,10 +744,42 @@ export async function renderComparison(selectedList, mainData, options = {}) {
             wrap.appendChild(document.createTextNode(label));
             textForQuery = label;
           }
+          let digInButton = null;
           try {
-            const btn = makeDigInButton(ds.name, category.Category, keyObj.Key, textForQuery);
-            wrap.appendChild(btn);
+            digInButton = makeDigInButton(ds.name, category.Category, keyObj.Key, textForQuery);
           } catch {}
+          let severity = null;
+          let severityThreshold = null;
+          if (!informational && thresholds) {
+            const numericScore = info.numeric;
+            if (Number.isFinite(numericScore) && numericScore >= 0) {
+              severity = evaluateScoreAgainstLevels(numericScore, thresholds);
+              if (severity === 'incompatible') {
+                severityThreshold = thresholds.incompatible;
+              } else if (severity === 'concerning') {
+                severityThreshold = thresholds.concerning;
+              }
+            }
+          }
+          if (severity && Number.isFinite(severityThreshold)) {
+            const reason = buildAlertReason(category.Category, keyObj.Key, severity, info.numeric, severityThreshold);
+            const tooltip = buildAlertTooltip(severity, info.numeric, severityThreshold);
+            const srText = ds && ds.name
+              ? `${ds.name} ${keyObj.Key} ${severity} alert`
+              : `${keyObj.Key} ${severity} alert`;
+            const icon = createAlertIcon(severity, tooltip, { variant: 'cell', srText });
+            wrap.appendChild(icon);
+            const datasetEntry = ensureAlertEntry(datasetAlertMap, ds.alertKey);
+            applySeverityToEntry(datasetEntry, severity, reason);
+            const categoryEntry = ensureAlertEntry(
+              categoryAlertMap,
+              getCategoryAlertKey(catKeyLabel, ds.alertKey),
+            );
+            applySeverityToEntry(categoryEntry, severity, reason);
+          }
+          if (digInButton) {
+            wrap.appendChild(digInButton);
+          }
           if (ds?.node?.type === 'city' && match && match.inheritedFromParent) {
             td.classList.add('inherited-value');
             const parentName = ds.node && ds.node.parentCountry && ds.node.parentCountry.name ? ds.node.parentCountry.name : null;
@@ -598,6 +808,25 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         }
       });
 
+      categoryHeaderTargetsForCategory.forEach(target => {
+        if (!target || !target.element) return;
+        const dataset = target.dataset;
+        if (!dataset || !dataset.alertKey) return;
+        const container = target.container || target.element;
+        const existingIcons = Array.from(container.querySelectorAll('.alert-icon[data-alert-icon="true"]'));
+        existingIcons.forEach(icon => icon.remove());
+        const entry = categoryAlertMap.get(getCategoryAlertKey(target.categoryKey, dataset.alertKey));
+        if (!entry || !entry.status) return;
+        const tooltip = Array.isArray(entry.reasons) && entry.reasons.length > 0
+          ? entry.reasons.join('\n')
+          : `Flagged as ${entry.status}`;
+        const srText = dataset && dataset.name
+          ? `${dataset.name} ${target.displayName} alert: ${entry.status}`
+          : `${target.displayName} alert: ${entry.status}`;
+        const icon = createAlertIcon(entry.status, tooltip, { variant: 'category', srText });
+        container.appendChild(icon);
+      });
+
       if (initiallyCollapsed) {
         keyRowRefs.forEach(r => { r.style.display = 'none'; });
         catRow.classList.add('collapsed');
@@ -620,6 +849,50 @@ export async function renderComparison(selectedList, mainData, options = {}) {
 
       catSections.push({ name: catName, header: catRow, rows: keyRowRefs, toggle });
     });
+
+    headerAlertTargets.forEach(({ element, dataset }) => {
+      if (!element) return;
+      const existing = Array.from(element.querySelectorAll('.alert-icon[data-alert-icon="true"]'));
+      existing.forEach(icon => icon.remove());
+      if (!dataset || !dataset.alertKey) return;
+      const entry = datasetAlertMap.get(dataset.alertKey);
+      if (!entry || !entry.status) return;
+      const reasons = Array.isArray(entry.reasons) ? entry.reasons : [];
+      const tooltip = reasons.length > 0
+        ? reasons.join('\n')
+        : `Flagged as ${entry.status}`;
+      const srText = dataset && dataset.name
+        ? `${dataset.name} alert: ${entry.status}`
+        : `Alert: ${entry.status}`;
+      const icon = createAlertIcon(entry.status, tooltip, { variant: 'header', srText });
+      element.appendChild(icon);
+    });
+
+    const mergedAlerts = new Map();
+    if (appState.reportAlerts && typeof appState.reportAlerts.forEach === 'function') {
+      appState.reportAlerts.forEach((value, key) => {
+        if (value && value.status) {
+          mergedAlerts.set(key, {
+            status: value.status,
+            reasons: Array.isArray(value.reasons) ? value.reasons.slice() : [],
+          });
+        }
+      });
+    }
+
+    datasetAlertMap.forEach((value, key) => {
+      if (value && value.status) {
+        mergedAlerts.set(key, {
+          status: value.status,
+          reasons: Array.isArray(value.reasons) ? value.reasons.slice() : [],
+        });
+      } else {
+        mergedAlerts.delete(key);
+      }
+    });
+
+    appState.reportAlerts = mergedAlerts;
+    applySidebarAlerts(mergedAlerts);
 
     table.appendChild(tbody);
 
@@ -768,9 +1041,12 @@ export async function onSelectionChanged(mainData, notice, options = {}) {
   if (notice) notice.textContent = '';
 }
 
+export { refreshAllReportAlerts };
+
 export default {
   renderComparison,
   onSelectionChanged,
   renderEmptyReportState,
+  refreshAllReportAlerts,
 };
 

@@ -14,6 +14,7 @@ const {
   sortByOrderThenName,
   loadMain,
   renderComparison,
+  refreshAllReportAlerts,
   getStored,
   setStored,
   fetchCountry,
@@ -22,6 +23,7 @@ const {
   computeCountryScoresForSorting,
   applyHiddenKeysVisibility,
   toggleHiddenKeysVisibility,
+  openKeyGuidanceDialog,
 } = MigrationReportAPI;
 
 if (typeof window !== 'undefined') {
@@ -54,6 +56,7 @@ export {
   sortByOrderThenName,
   loadMain,
   renderComparison,
+  refreshAllReportAlerts,
   getStored,
   setStored,
   fetchCountry,
@@ -62,6 +65,7 @@ export {
   computeCountryScoresForSorting,
   applyHiddenKeysVisibility,
   toggleHiddenKeysVisibility,
+  openKeyGuidanceDialog,
 };
 
 export default MigrationReportAPI;

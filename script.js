@@ -17,7 +17,7 @@ import { isInformationalKey } from './src/data/informationalOverrides.js';
 import { fetchCountry, clearCountryCache } from './src/data/reports.js';
 import { computeCountryScoresForSorting, computeRoundedMetrics } from './src/data/scoring.js';
 import { getParentFileForNode, findNodeByFile, resolveParentReportFile } from './src/utils/nodes.js';
-import { renderEmptyReportState, renderComparison, onSelectionChanged } from './src/ui/reportTable.js';
+import { renderEmptyReportState, renderComparison, onSelectionChanged, refreshAllReportAlerts } from './src/ui/reportTable.js';
 import {
   renderCountryList,
   toggleSelectNode,
@@ -25,6 +25,7 @@ import {
   updateCountryListSelection,
   applyCountrySort,
   updateCollapseCountriesButton,
+  applySidebarAlerts,
 } from './src/ui/sidebar.js';
 import { openKeyGuidanceDialog, makeKeyGuidanceButton, openWeightsDialog, afterWeightsChanged } from './src/ui/dialogs/index.js';
 import { getEffectivePeople } from './src/data/weights.js';
@@ -36,6 +37,8 @@ async function loadMain() {
   showLoadingIndicator();
   try {
     const { mainData, ratingGuides } = await loadMainData();
+    appState.mainData = mainData;
+    appState.reportAlerts = new Map();
     const initialGuidance = makeKeyGuidanceIndex(mainData, ratingGuides);
     appState.keyGuidanceIndex = initialGuidance.index;
     appState.keyGuidanceHasRatings = initialGuidance.hasRatings;
@@ -102,6 +105,24 @@ async function loadMain() {
       });
     });
 
+    // Sidebar alert filter setup
+    const allowedAlertFilters = new Set(['all', 'hide-none', 'hide-warnings', 'hide-incompatible']);
+    const storedAlertFilter = getStored('sidebarAlertFilter', 'all');
+    const initialAlertFilter = allowedAlertFilters.has(storedAlertFilter) ? storedAlertFilter : 'all';
+    appState.sidebarAlertFilter = initialAlertFilter;
+    const alertFilterSelect = document.getElementById('alertFilter');
+    if (alertFilterSelect) {
+      alertFilterSelect.value = initialAlertFilter;
+      alertFilterSelect.addEventListener('change', () => {
+        const next = allowedAlertFilters.has(alertFilterSelect.value)
+          ? alertFilterSelect.value
+          : 'all';
+        appState.sidebarAlertFilter = next;
+        setStored('sidebarAlertFilter', next);
+        applySidebarAlerts(appState.reportAlerts, next);
+      });
+    }
+
     // Setup sort dropdown (adds person options and reads stored preference)
     try { setupCountrySortControls(mainData, listEl, notice); } catch {}
     try { setupCitiesOnlyToggle(mainData, listEl, notice); } catch {}
@@ -117,6 +138,10 @@ async function loadMain() {
     } catch {
       renderCountryList(listEl, appState.countries, notice, () => { void onSelectionChanged(mainData, notice); });
     }
+
+    try {
+      await refreshAllReportAlerts(mainData);
+    } catch {}
 
     // Restore previously selected countries or default to first
     const restored = loadSelectedFromStorage(appState.nodesByFile);
@@ -361,6 +386,7 @@ const MigrationReportAPI = {
   sortByOrderThenName,
   loadMain,
   renderComparison,
+  refreshAllReportAlerts,
   getStored,
   setStored,
   fetchCountry,
@@ -369,6 +395,7 @@ const MigrationReportAPI = {
   computeCountryScoresForSorting,
   applyHiddenKeysVisibility,
   toggleHiddenKeysVisibility,
+  openKeyGuidanceDialog,
 };
 
 if (typeof window !== 'undefined') {
