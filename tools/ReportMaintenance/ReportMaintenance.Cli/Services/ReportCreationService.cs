@@ -15,17 +15,20 @@ public sealed class ReportCreationService
 
     private readonly IReportRepository _reportRepository;
     private readonly IRatingGuideProvider _ratingGuideProvider;
+    private readonly IKeyDefinitionProvider _keyDefinitionProvider;
     private readonly ILogger<ReportCreationService> _logger;
     private readonly ReportMaintenanceOptions _options;
 
     public ReportCreationService(
         IReportRepository reportRepository,
         IRatingGuideProvider ratingGuideProvider,
+        IKeyDefinitionProvider keyDefinitionProvider,
         IOptions<ReportMaintenanceOptions> options,
         ILogger<ReportCreationService> logger)
     {
         _reportRepository = reportRepository;
         _ratingGuideProvider = ratingGuideProvider;
+        _keyDefinitionProvider = keyDefinitionProvider;
         _logger = logger;
         _options = options.Value;
     }
@@ -113,7 +116,10 @@ public sealed class ReportCreationService
     private async Task<ReportDocument> CreateDocumentAsync(string iso, CancellationToken cancellationToken)
     {
         var ratingGuides = await _ratingGuideProvider.GetGuidesAsync(cancellationToken).ConfigureAwait(false);
+        var keyDefinitions = await _keyDefinitionProvider.GetDefinitionsAsync(cancellationToken).ConfigureAwait(false);
+
         var entries = ratingGuides.Keys
+            .Concat(keyDefinitions.Keys)
             .Where(key => !string.IsNullOrWhiteSpace(key))
             .Select(key => key!.Trim())
             .Distinct(StringComparer.OrdinalIgnoreCase)

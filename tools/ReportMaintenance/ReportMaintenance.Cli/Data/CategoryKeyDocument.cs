@@ -16,12 +16,21 @@ public sealed class CategoryKey
     [JsonPropertyName("categoryId")]
     public string CategoryId { get; set; } = string.Empty;
 
-    [JsonPropertyName("name")]
-    public string Name { get; set; } = string.Empty;
+    [JsonPropertyName("label")]
+    public string Label { get; set; } = string.Empty;
 
     [JsonPropertyName("order")]
     public int Order { get; set; }
 
     [JsonPropertyName("guidance")]
     public string? Guidance { get; set; }
+
+    [JsonPropertyName("valueRequirements")]
+    public string? ValueRequirements { get; set; }
+
+    [JsonPropertyName("informational")]
+    public bool Informational { get; set; }
+
+    [JsonPropertyName("ratingGuide")]
+    public List<RatingGuideEntry>? RatingGuide { get; set; }
 }

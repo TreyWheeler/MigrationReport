@@ -141,15 +141,15 @@ public sealed class CategoryKeyProvider : ICategoryKeyProvider
 
             foreach (var grouping in categoryKeyDocument.CategoryKeys.GroupBy(k => k.CategoryId, StringComparer.OrdinalIgnoreCase))
             {
-                var keyNames = grouping
-                    .Select(k => k.Name?.Trim())
-                    .Where(name => !string.IsNullOrWhiteSpace(name))
-                    .Select(name => name!)
+                var keyIds = grouping
+                    .Select(k => k.Id?.Trim())
+                    .Where(id => !string.IsNullOrWhiteSpace(id))
+                    .Select(id => id!)
                     .Distinct(StringComparer.OrdinalIgnoreCase)
-                    .OrderBy(name => name, StringComparer.OrdinalIgnoreCase)
+                    .OrderBy(id => id, StringComparer.OrdinalIgnoreCase)
                     .ToArray();
 
-                var readOnlyKeys = Array.AsReadOnly(keyNames);
+                var readOnlyKeys = Array.AsReadOnly(keyIds);
                 var displayName = categoriesById.TryGetValue(grouping.Key, out var category) && !string.IsNullOrWhiteSpace(category.Name)
                     ? category.Name
                     : grouping.Key;

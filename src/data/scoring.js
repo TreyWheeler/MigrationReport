@@ -18,9 +18,22 @@ function normalizeCategoryName(value) {
   return typeof value === 'string' ? value.trim().toLowerCase() : '';
 }
 
+function getKeyIdentifier(keyObj) {
+  if (!keyObj || typeof keyObj !== 'object') return '';
+  if (typeof keyObj.KeyId === 'string' && keyObj.KeyId.length > 0) return keyObj.KeyId;
+  if (typeof keyObj.Id === 'string' && keyObj.Id.length > 0) return keyObj.Id;
+  if (typeof keyObj.Key === 'string' && keyObj.Key.length > 0) return keyObj.Key;
+  return '';
+}
+
 function computeCountryScoresForSorting(countryData, mainData, peopleList = [], options = {}) {
   const values = Array.isArray(countryData?.values) ? countryData.values : [];
   const canon = (s) => canonicalizeKey(s);
+  const valueMap = new Map();
+  values.forEach(entry => {
+    if (!entry || typeof entry.key !== 'string') return;
+    valueMap.set(canon(entry.key), entry);
+  });
   const categoriesRaw = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
   let focusCandidates = [];
   if (Array.isArray(options?.focusCategory)) {
@@ -46,7 +59,10 @@ function computeCountryScoresForSorting(countryData, mainData, peopleList = [], 
     const keys = Array.isArray(cat?.Keys) ? cat.Keys : [];
     keys.forEach(k => {
       if (isInformationalKey(k, cat.Category)) return;
-      const match = values.find(v => canon(v?.key) === canon(k?.Key));
+      const identifier = getKeyIdentifier(k) || k?.Key;
+      const target = canon(identifier);
+      if (!target) return;
+      const match = valueMap.get(target);
       const n = match ? Number(match.alignmentValue) : NaN;
       if (isFinite(n) && n > 0) vals.push(n);
     });
@@ -71,7 +87,10 @@ function computeCountryScoresForSorting(countryData, mainData, peopleList = [], 
       const keys = Array.isArray(cat?.Keys) ? cat.Keys : [];
       keys.forEach(k => {
         if (isInformationalKey(k, cat.Category)) return;
-        const match = values.find(v => canon(v?.key) === canon(k?.Key));
+        const identifier = getKeyIdentifier(k) || k?.Key;
+        const target = canon(identifier);
+        if (!target) return;
+        const match = valueMap.get(target);
         const n = match ? Number(match.alignmentValue) : NaN;
         if (isFinite(n) && n > 0) vals.push(n);
       });

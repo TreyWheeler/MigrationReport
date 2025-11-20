@@ -18,10 +18,21 @@ import {
   getAlertLevelsFromRatingGuide,
 } from '../../data/keyAlerts.js';
 
+function getKeyIdentifier(keyObj) {
+  if (!keyObj || typeof keyObj !== 'object') return '';
+  if (typeof keyObj.KeyId === 'string' && keyObj.KeyId.length > 0) return keyObj.KeyId;
+  if (typeof keyObj.Id === 'string' && keyObj.Id.length > 0) return keyObj.Id;
+  if (typeof keyObj.Key === 'string' && keyObj.Key.length > 0) return keyObj.Key;
+  return '';
+}
+
 function getKeyGuidanceDetails(keyObj) {
   if (!keyObj || typeof keyObj.Key !== 'string') return null;
   const keyName = keyObj.Key;
-  const fromMap = appState.keyGuidanceIndex instanceof Map ? appState.keyGuidanceIndex.get(keyName) : undefined;
+  const identifier = getKeyIdentifier(keyObj);
+  const fromMap = appState.keyGuidanceIndex instanceof Map
+    ? (appState.keyGuidanceIndex.get(identifier) || appState.keyGuidanceIndex.get(keyName))
+    : undefined;
   let guidance = typeof keyObj.Guidance === 'string' ? keyObj.Guidance.trim() : '';
   if (!guidance && fromMap && typeof fromMap.guidance === 'string') {
     guidance = fromMap.guidance.trim();
@@ -124,7 +135,7 @@ export function openKeyGuidanceDialog(categoryName, keyObj, trigger) {
   const concerningSelect = dialog.querySelector('#kgAlertConcerning');
   const incompatibleSelect = dialog.querySelector('#kgAlertIncompatible');
   if (concerningSelect && incompatibleSelect) {
-    const levels = getKeyAlertLevels(categoryName, keyObj.Key);
+    const levels = getKeyAlertLevels(categoryName, getKeyIdentifier(keyObj));
     const availableLevels = getAlertLevelsFromRatingGuide(details.ratingGuide);
     const levelValues = availableLevels.length > 0
       ? availableLevels
@@ -167,7 +178,7 @@ export function openKeyGuidanceDialog(categoryName, keyObj, trigger) {
       ) {
         return;
       }
-      setKeyAlertLevels(categoryName, keyObj.Key, nextLevels);
+      setKeyAlertLevels(categoryName, getKeyIdentifier(keyObj), nextLevels);
       currentLevels = nextLevels;
       const notice = document.getElementById('notice');
       if (appState.mainData) {

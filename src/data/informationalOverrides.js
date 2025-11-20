@@ -53,9 +53,18 @@ function setInformationalOverride(categoryName, keyName, value) {
   invalidateCountryMetricsCache();
 }
 
+function getKeyIdentifier(keyObj) {
+  if (!keyObj || typeof keyObj !== 'object') return '';
+  if (typeof keyObj.KeyId === 'string' && keyObj.KeyId.length > 0) return keyObj.KeyId;
+  if (typeof keyObj.Id === 'string' && keyObj.Id.length > 0) return keyObj.Id;
+  if (typeof keyObj.Key === 'string' && keyObj.Key.length > 0) return keyObj.Key;
+  return '';
+}
+
 function toggleInformationalOverride(categoryName, keyObj) {
   if (!categoryName || !keyObj) return;
-  const keyName = keyObj.Key;
+  const keyName = getKeyIdentifier(keyObj);
+  if (!keyName) return;
   const base = !!keyObj.Informational;
   const current = getInformationalOverride(categoryName, keyName);
   const effective = (typeof current === 'boolean') ? current : base;
@@ -69,14 +78,16 @@ function toggleInformationalOverride(categoryName, keyObj) {
 
 function getInformationalState(categoryName, keyObj) {
   const base = !!(keyObj && keyObj.Informational);
-  const override = keyObj ? getInformationalOverride(categoryName, keyObj.Key) : undefined;
+  const keyName = getKeyIdentifier(keyObj);
+  const override = keyName ? getInformationalOverride(categoryName, keyName) : undefined;
   const effective = (typeof override === 'boolean') ? override : base;
   return { base, override, effective };
 }
 
 function isInformationalKey(keyObj, categoryName) {
   if (!keyObj) return false;
-  const override = getInformationalOverride(categoryName, keyObj.Key);
+  const keyName = getKeyIdentifier(keyObj);
+  const override = keyName ? getInformationalOverride(categoryName, keyName) : undefined;
   if (typeof override === 'boolean') return override;
   return !!keyObj.Informational;
 }

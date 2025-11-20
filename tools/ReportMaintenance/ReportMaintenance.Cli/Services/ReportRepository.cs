@@ -48,6 +48,7 @@ public sealed class FileReportRepository : IReportRepository
         var files = Directory.EnumerateFiles(directory, "*_report.json", SearchOption.TopDirectoryOnly)
             .Select(Path.GetFileNameWithoutExtension)
             .Where(name => !string.IsNullOrWhiteSpace(name))
+            .Select(name => name!) // safe due to preceding null/whitespace filter
             .OrderBy(name => name, StringComparer.OrdinalIgnoreCase)
             .ToArray();
 

@@ -39,9 +39,9 @@ function makeKeyGuidanceIndex(mainData, ratingGuides = []) {
   if (Array.isArray(ratingGuides)) {
     ratingGuides.forEach(entry => {
       if (!entry || typeof entry.key !== 'string') return;
-      const keyName = entry.key;
-      ratingIndex.set(keyName, {
-        key: keyName,
+      const keyId = entry.key;
+      ratingIndex.set(keyId, {
+        key: keyId,
         ratingGuide: normalizeRatingGuideList(entry.ratingGuide),
         considerations: typeof entry.considerations === 'string' ? entry.considerations.trim() : '',
       });
@@ -55,11 +55,16 @@ function makeKeyGuidanceIndex(mainData, ratingGuides = []) {
     if (!category || !Array.isArray(category.Keys)) return;
     category.Keys.forEach(keyObj => {
       if (!keyObj || typeof keyObj !== 'object') return;
-      const keyName = typeof keyObj.Key === 'string' ? keyObj.Key : '';
+      const keyId = typeof keyObj.KeyId === 'string' && keyObj.KeyId.length > 0
+        ? keyObj.KeyId
+        : (typeof keyObj.Id === 'string' ? keyObj.Id : '');
+      const keyName = typeof keyObj.Key === 'string' && keyObj.Key.length > 0
+        ? keyObj.Key
+        : keyId;
       if (typeof keyObj.Guidance !== 'string' && typeof keyObj.guidance === 'string') {
         keyObj.Guidance = keyObj.guidance;
       }
-      const ratingEntry = keyName ? ratingIndex.get(keyName) : undefined;
+      const ratingEntry = keyId ? ratingIndex.get(keyId) : undefined;
       const ratingGuide = ratingEntry ? ratingEntry.ratingGuide : normalizeRatingGuideList(keyObj.RatingGuide);
       const considerations = ratingEntry && ratingEntry.considerations
         ? ratingEntry.considerations
@@ -75,12 +80,14 @@ function makeKeyGuidanceIndex(mainData, ratingGuides = []) {
       }
       const record = {
         key: keyName,
+        keyId,
         guidance: typeof keyObj.Guidance === 'string' ? keyObj.Guidance.trim() : '',
         ratingGuide,
         considerations,
       };
-      if (keyName) {
-        map.set(keyName, record);
+      const mapKey = keyId || keyName;
+      if (mapKey) {
+        map.set(mapKey, record);
       }
     });
   });
@@ -92,6 +99,7 @@ function makeKeyGuidanceIndex(mainData, ratingGuides = []) {
       }
       map.set(key, {
         key,
+        keyId: key,
         guidance: '',
         ratingGuide: value.ratingGuide,
         considerations: value.considerations,
