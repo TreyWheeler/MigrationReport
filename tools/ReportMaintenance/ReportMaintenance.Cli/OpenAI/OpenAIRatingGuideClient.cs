@@ -38,6 +38,8 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
             var normalizedBase = _options.BaseUrl!.TrimEnd('/') + "/";
             _httpClient.BaseAddress = new Uri(normalizedBase);
         }
+
+        _httpClient.Timeout = TimeSpan.FromSeconds(Math.Max(1, _options.RequestTimeoutSeconds));
     }
 
     public async Task<RatingGuideSuggestion> GenerateRatingGuideAsync(
@@ -107,18 +109,33 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
 
     private HttpRequestMessage CreateRequestMessage(string prompt, out string requestBody)
     {
-        var message = new HttpRequestMessage(HttpMethod.Post, "chat/completions");
+        var message = new HttpRequestMessage(HttpMethod.Post, "responses");
         message.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _options.ApiKey);
 
         var payload = new
         {
             model = _options.Model,
             temperature = _options.Temperature,
-            response_format = new { type = "json_object" },
-            messages = new object[]
+            max_output_tokens = 800,
+            text = new { format = new { type = "json_object" } },
+            input = new object[]
             {
-                new { role = "system", content = "You are an expert migration advisor who writes concise rating guides. Respond with valid JSON." },
-                new { role = "user", content = prompt }
+                new
+                {
+                    role = "system",
+                    content = new object[]
+                    {
+                        new { type = "input_text", text = "You are an expert migration advisor who writes concise rating guides. Respond with valid JSON." }
+                    }
+                },
+                new
+                {
+                    role = "user",
+                    content = new object[]
+                    {
+                        new { type = "input_text", text = prompt }
+                    }
+                }
             }
         };
 
@@ -151,72 +168,72 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
     private RatingGuideSuggestion ParseResponse(string json, string keyName)
     {
         using var document = JsonDocument.Parse(json);
-        if (!document.RootElement.TryGetProperty("choices", out var choices))
+        if (!document.RootElement.TryGetProperty("output", out var output))
         {
-            throw new InvalidOperationException("OpenAI response missing choices array.");
+            throw new InvalidOperationException("OpenAI response missing output content.");
         }
 
-        var content = choices
-            .EnumerateArray()
-            .Select(choice => choice.GetProperty("message").GetProperty("content"))
-            .FirstOrDefault();
+        var contentText = ExtractResponsesContent(output);
+        return ParseRatingGuideContent(contentText, keyName);
+    }
 
-        if (content.ValueKind != JsonValueKind.String)
+    private static RatingGuideSuggestion ParseRatingGuideContent(string text, string keyName)
+    {
+        using var ratingDocument = JsonDocument.Parse(text);
+        var root = ratingDocument.RootElement;
+        if (!root.TryGetProperty("ratingGuide", out var ratingArray))
         {
-            throw new InvalidOperationException("OpenAI response content is not a string.");
+            throw new InvalidOperationException($"Missing ratingGuide array in OpenAI response for {keyName}.");
         }
 
-        var contentText = content.GetString() ?? string.Empty;
-        RatingGuideSuggestion ParseContent(string text)
+        var entries = new List<RatingGuideEntry>();
+        foreach (var element in ratingArray.EnumerateArray())
         {
-            using var ratingDocument = JsonDocument.Parse(text);
-            var root = ratingDocument.RootElement;
-            if (!root.TryGetProperty("ratingGuide", out var ratingArray))
+            if (!element.TryGetProperty("rating", out var ratingElement) || ratingElement.ValueKind != JsonValueKind.Number)
             {
-                throw new InvalidOperationException($"Missing ratingGuide array in OpenAI response for {keyName}.");
+                throw new InvalidOperationException($"Missing rating in OpenAI rating guide response for {keyName}.");
             }
 
-            var entries = new List<RatingGuideEntry>();
-            foreach (var element in ratingArray.EnumerateArray())
+            var guidance = element.TryGetProperty("guidance", out var guidanceElement) && guidanceElement.ValueKind == JsonValueKind.String
+                ? guidanceElement.GetString() ?? string.Empty
+                : throw new InvalidOperationException($"Missing guidance text in OpenAI rating guide response for {keyName}.");
+
+            entries.Add(new RatingGuideEntry
             {
-                if (!element.TryGetProperty("rating", out var ratingElement) || ratingElement.ValueKind != JsonValueKind.Number)
+                Rating = ratingElement.GetInt32(),
+                Guidance = guidance.Trim()
+            });
+        }
+
+        var ordered = entries
+            .OrderByDescending(e => e.Rating)
+            .ThenBy(e => e.Guidance, StringComparer.Ordinal)
+            .ToList();
+
+        return new RatingGuideSuggestion(ordered, text);
+    }
+
+    private static string ExtractResponsesContent(JsonElement outputElement)
+    {
+        foreach (var message in outputElement.EnumerateArray())
+        {
+            if (message.ValueKind == JsonValueKind.Object && message.TryGetProperty("content", out var contentElement))
+            {
+                foreach (var part in contentElement.EnumerateArray())
                 {
-                    throw new InvalidOperationException($"Missing rating in OpenAI rating guide response for {keyName}.");
+                    if (part.ValueKind == JsonValueKind.Object && part.TryGetProperty("text", out var textElement) && textElement.ValueKind == JsonValueKind.String)
+                    {
+                        var text = textElement.GetString();
+                        if (!string.IsNullOrWhiteSpace(text))
+                        {
+                            return text!;
+                        }
+                    }
                 }
-
-                var guidance = element.TryGetProperty("guidance", out var guidanceElement) && guidanceElement.ValueKind == JsonValueKind.String
-                    ? guidanceElement.GetString() ?? string.Empty
-                    : throw new InvalidOperationException($"Missing guidance text in OpenAI rating guide response for {keyName}.");
-
-                entries.Add(new RatingGuideEntry
-                {
-                    Rating = ratingElement.GetInt32(),
-                    Guidance = guidance.Trim()
-                });
             }
-
-            var ordered = entries
-                .OrderByDescending(e => e.Rating)
-                .ThenBy(e => e.Guidance, StringComparer.Ordinal)
-                .ToList();
-
-            return new RatingGuideSuggestion(ordered, text);
         }
 
-        try
-        {
-            return ParseContent(contentText);
-        }
-        catch (JsonException)
-        {
-            var extractedJson = ExtractJson(contentText);
-            if (extractedJson is null)
-            {
-                throw;
-            }
-
-            return ParseContent(extractedJson);
-        }
+        throw new InvalidOperationException("Unable to extract text content from OpenAI response.");
     }
 
     private static string? ExtractJson(string text)

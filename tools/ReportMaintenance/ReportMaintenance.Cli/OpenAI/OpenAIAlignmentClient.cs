@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -43,6 +44,8 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
             var normalizedBase = _options.BaseUrl!.TrimEnd('/') + "/";
             _httpClient.BaseAddress = new Uri(normalizedBase);
         }
+
+        _httpClient.Timeout = TimeSpan.FromSeconds(Math.Max(1, _options.RequestTimeoutSeconds));
     }
 
     public async Task<AlignmentSuggestion> GenerateSuggestionAsync(ReportContext context, ReportEntry entry, CancellationToken cancellationToken = default)
@@ -53,10 +56,11 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
         }
 
         var keyDefinition = context.GetKeyDefinition(entry.Key);
+        var model = ResolveModel(keyDefinition);
         var format = ValueRequirementHelper.GetValueFormat(keyDefinition);
         var basePrompt = BuildPrompt(context, entry, keyDefinition, format, validationFeedback: null);
         var informational = keyDefinition?.Informational == true;
-        var cacheKey = AlignmentSuggestionCacheKey.Create(basePrompt);
+        var cacheKey = AlignmentSuggestionCacheKey.Create(basePrompt, model);
 
         if (await TryGetCachedSuggestionAsync(cacheKey, entry.Key, cancellationToken).ConfigureAwait(false) is { } cachedSuggestion)
         {
@@ -73,10 +77,10 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
             using var activity = OpenAITelemetry.ActivitySource.StartActivity("GenerateSuggestion", ActivityKind.Client);
             activity?.SetTag("http.method", HttpMethod.Post.Method);
             activity?.SetTag("ai.system", "openai");
-            activity?.SetTag("ai.model", _options.Model);
+            activity?.SetTag("ai.model", model);
             activity?.SetTag("report.entry_key", entry.Key);
 
-            using var requestMessage = CreateRequestMessage(prompt, out var requestBody);
+            using var requestMessage = CreateRequestMessage(prompt, model, out var requestBody);
             var requestUri = requestMessage.RequestUri?.IsAbsoluteUri == true
                 ? requestMessage.RequestUri
                 : (_httpClient.BaseAddress is not null && requestMessage.RequestUri is not null
@@ -93,7 +97,7 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
                 { "http.request.body", requestBody }
             }));
 
-            _logger.LogInformation("OpenAI request for {Key}: {Body}", entry.Key, requestBody);
+            _logger.LogInformation("OpenAI request for {Key} using {Model}: {Body}", entry.Key, model, requestBody);
 
             using var response = await _httpClient.SendAsync(requestMessage, cancellationToken);
             var body = await response.Content.ReadAsStringAsync(cancellationToken);
@@ -143,20 +147,50 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
         throw new HttpRequestException("OpenAI request failed after retries.");
     }
 
-    private HttpRequestMessage CreateRequestMessage(string prompt, out string requestBody)
+    private string ResolveModel(CategoryKey? keyDefinition)
     {
-        var message = new HttpRequestMessage(HttpMethod.Post, "chat/completions");
+        if (!string.IsNullOrWhiteSpace(keyDefinition?.Model))
+        {
+            return keyDefinition.Model!.Trim();
+        }
+
+        if (string.IsNullOrWhiteSpace(_options.Model))
+        {
+            throw new InvalidOperationException("OpenAI model is not configured. Set REPORT_MAINTENANCE_OPENAI__MODEL.");
+        }
+
+        return _options.Model.Trim();
+    }
+
+    private HttpRequestMessage CreateRequestMessage(string prompt, string model, out string requestBody)
+    {
+        var message = new HttpRequestMessage(HttpMethod.Post, "responses");
         message.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _options.ApiKey);
 
         var payload = new
         {
-            model = _options.Model,
+            model = model,
             temperature = _options.Temperature,
-            response_format = new { type = "json_object" },
-            messages = new object[]
+            max_output_tokens = 800,
+            text = new { format = new { type = "json_object" } },
+            input = new object[]
             {
-                new { role = "system", content = "You are an analyst who updates migration report alignment values. Respond with valid JSON." },
-                new { role = "user", content = prompt }
+                new
+                {
+                    role = "system",
+                    content = new object[]
+                    {
+                        new { type = "input_text", text = "You are an analyst who updates migration report alignment values. Respond with valid JSON." }
+                    }
+                },
+                new
+                {
+                    role = "user",
+                    content = new object[]
+                    {
+                        new { type = "input_text", text = prompt }
+                    }
+                }
             }
         };
 
@@ -253,78 +287,128 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
     private AlignmentSuggestion ParseResponse(string json, string key, bool informational)
     {
         using var document = JsonDocument.Parse(json);
-        if (!document.RootElement.TryGetProperty("choices", out var choices))
+        if (document.RootElement.TryGetProperty("output", out var output))
         {
-            throw new InvalidOperationException("OpenAI response missing choices array.");
-        }
-
-        var content = choices
-            .EnumerateArray()
-            .Select(choice => choice.GetProperty("message").GetProperty("content"))
-            .FirstOrDefault();
-
-        if (content.ValueKind != JsonValueKind.String)
-        {
-            throw new InvalidOperationException("OpenAI response content is not a string.");
-        }
-
-        var contentText = content.GetString() ?? string.Empty;
-        AlignmentSuggestion ParseContent(string text)
-        {
-            using var suggestionDocument = JsonDocument.Parse(text);
-            var root = suggestionDocument.RootElement;
-            int? alignmentValue = null;
-            if (root.TryGetProperty("alignmentValue", out var alignmentValueElement))
+            var responsesContent = ExtractResponsesContent(output);
+            try
             {
-                if (alignmentValueElement.ValueKind != JsonValueKind.Null)
+                return ParseSuggestionContent(responsesContent, key, informational);
+            }
+            catch (JsonException)
+            {
+                var extracted = ExtractJson(responsesContent);
+                if (extracted is null)
                 {
-                    if (alignmentValueElement.ValueKind != JsonValueKind.Number)
-                    {
-                        throw new InvalidOperationException($"Missing alignmentValue in OpenAI response for {key}.");
-                    }
+                    throw;
+                }
 
-                    alignmentValue = alignmentValueElement.GetInt32();
+                return ParseSuggestionContent(extracted, key, informational);
+            }
+        }
+
+        throw new InvalidOperationException("OpenAI response missing output content.");
+    }
+
+    private static AlignmentSuggestion ParseSuggestionContent(string text, string key, bool informational)
+    {
+        using var suggestionDocument = JsonDocument.Parse(text);
+        var root = suggestionDocument.RootElement;
+        int? alignmentValue = null;
+        if (root.TryGetProperty("alignmentValue", out var alignmentValueElement))
+        {
+            if (alignmentValueElement.ValueKind != JsonValueKind.Null)
+            {
+                if (alignmentValueElement.ValueKind != JsonValueKind.Number)
+                {
+                    throw new InvalidOperationException($"Missing alignmentValue in OpenAI response for {key}.");
+                }
+
+                alignmentValue = alignmentValueElement.GetInt32();
+            }
+        }
+        else if (!informational)
+        {
+            throw new InvalidOperationException($"Missing alignmentValue in OpenAI response for {key}.");
+        }
+
+        if (!informational && alignmentValue is null)
+        {
+            throw new InvalidOperationException($"alignmentValue must be present for {key}.");
+        }
+
+        var alignmentText = root.GetProperty("alignmentText").GetString() ?? string.Empty;
+        bool? sameAsParent = null;
+        if (root.TryGetProperty("sameAsParent", out var sameAsParentElement) && sameAsParentElement.ValueKind != JsonValueKind.Null)
+        {
+            sameAsParent = sameAsParentElement.ValueKind switch
+            {
+                JsonValueKind.True => true,
+                JsonValueKind.False => false,
+                _ => sameAsParent
+            };
+        }
+
+        return new AlignmentSuggestion(alignmentValue, alignmentText.Trim(), sameAsParent, text);
+    }
+
+    private static string ExtractResponsesContent(JsonElement outputElement)
+    {
+        string? firstText = null;
+
+        IEnumerable<JsonElement> EnumerateContent(JsonElement element)
+        {
+            if (element.ValueKind == JsonValueKind.Array)
+            {
+                foreach (var child in element.EnumerateArray())
+                {
+                    yield return child;
                 }
             }
-            else if (!informational)
+            else
             {
-                throw new InvalidOperationException($"Missing alignmentValue in OpenAI response for {key}.");
+                yield return element;
             }
+        }
 
-            if (!informational && alignmentValue is null)
+        foreach (var item in EnumerateContent(outputElement))
+        {
+            if (item.ValueKind == JsonValueKind.Object && item.TryGetProperty("content", out var contentElement))
             {
-                throw new InvalidOperationException($"alignmentValue must be present for {key}.");
-            }
-
-            var alignmentText = root.GetProperty("alignmentText").GetString() ?? string.Empty;
-            bool? sameAsParent = null;
-            if (root.TryGetProperty("sameAsParent", out var sameAsParentElement) && sameAsParentElement.ValueKind != JsonValueKind.Null)
-            {
-                sameAsParent = sameAsParentElement.ValueKind switch
+                foreach (var content in EnumerateContent(contentElement))
                 {
-                    JsonValueKind.True => true,
-                    JsonValueKind.False => false,
-                    _ => sameAsParent
-                };
+                    if (content.ValueKind == JsonValueKind.Object)
+                    {
+                        if (content.TryGetProperty("text", out var textElement) && textElement.ValueKind == JsonValueKind.String)
+                        {
+                            firstText ??= textElement.GetString();
+                        }
+                        else if (content.TryGetProperty("output_text", out var altTextElement) && altTextElement.ValueKind == JsonValueKind.String)
+                        {
+                            firstText ??= altTextElement.GetString();
+                        }
+                    }
+                    else if (content.ValueKind == JsonValueKind.String)
+                    {
+                        firstText ??= content.GetString();
+                    }
+
+                    if (!string.IsNullOrWhiteSpace(firstText))
+                    {
+                        return firstText!;
+                    }
+                }
             }
-
-            return new AlignmentSuggestion(alignmentValue, alignmentText.Trim(), sameAsParent, text);
-        }
-
-        try
-        {
-            return ParseContent(contentText);
-        }
-        catch (JsonException)
-        {
-            var extractedJson = ExtractJson(contentText);
-            if (extractedJson is null)
+            else if (item.ValueKind == JsonValueKind.String)
             {
-                throw;
+                firstText ??= item.GetString();
+                if (!string.IsNullOrWhiteSpace(firstText))
+                {
+                    return firstText!;
+                }
             }
-
-            return ParseContent(extractedJson);
         }
+
+        throw new InvalidOperationException("Unable to extract response content from OpenAI responses payload.");
     }
 
     private static string? ExtractJson(string text)

@@ -16,6 +16,7 @@
             "id": "daemon_games_number_of_aa_studios",
             "categoryId": "daemon_games",
             "label": "Number of AA Studios",
+            "model": "gpt-5-mini",
             "order": 3,
             "guidance": "Number of Indie game studios with 10-50 employees",
             "valueRequirements": "Value must be a single integer representing the count of AA studios (e.g., \"7\")."

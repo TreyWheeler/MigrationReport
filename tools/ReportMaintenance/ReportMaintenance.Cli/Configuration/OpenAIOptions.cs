@@ -11,4 +11,6 @@ public sealed class OpenAIOptions
     public double Temperature { get; set; } = 1.0;
 
     public int MaxRetryCount { get; set; } = 3;
+
+    public int RequestTimeoutSeconds { get; set; } = 180;
 }

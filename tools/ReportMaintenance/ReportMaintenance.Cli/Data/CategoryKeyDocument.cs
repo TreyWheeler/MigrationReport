@@ -19,6 +19,9 @@ public sealed class CategoryKey
     [JsonPropertyName("label")]
     public string Label { get; set; } = string.Empty;
 
+    [JsonPropertyName("model")]
+    public string? Model { get; set; }
+
     [JsonPropertyName("order")]
     public int Order { get; set; }
 
