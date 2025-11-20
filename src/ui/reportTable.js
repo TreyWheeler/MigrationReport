@@ -29,6 +29,14 @@ import { getKeyAlertLevels, evaluateScoreAgainstLevels } from '../data/keyAlerts
 import { createAlertIcon } from './components/alerts.js';
 import { canonKey, buildAlertReason, buildAlertTooltip } from '../data/alertUtils.js';
 
+function getKeyIdentifier(keyObj) {
+  if (!keyObj || typeof keyObj !== 'object') return '';
+  if (typeof keyObj.KeyId === 'string' && keyObj.KeyId.length > 0) return keyObj.KeyId;
+  if (typeof keyObj.Id === 'string' && keyObj.Id.length > 0) return keyObj.Id;
+  if (typeof keyObj.Key === 'string' && keyObj.Key.length > 0) return keyObj.Key;
+  return '';
+}
+
 function ensureAlertEntry(map, key) {
   if (!map || !key) return null;
   let entry = map.get(key);
@@ -70,7 +78,8 @@ function buildAlertKeyConfigs(mainData) {
     const categoryName = category.Category;
     category.Keys.forEach(keyObj => {
       if (!keyObj || isInformationalKey(keyObj, categoryName)) return;
-      const thresholds = getKeyAlertLevels(categoryName, keyObj.Key);
+      const keyIdentifier = getKeyIdentifier(keyObj);
+      const thresholds = getKeyAlertLevels(categoryName, keyIdentifier);
       if (!thresholds) return;
       const { concerning, incompatible } = thresholds;
       const hasConcerning = Number.isFinite(concerning);
@@ -79,7 +88,7 @@ function buildAlertKeyConfigs(mainData) {
       configs.push({
         categoryName,
         keyName: keyObj.Key,
-        canonicalKey: canonKey(keyObj.Key),
+        canonicalKey: canonKey(keyIdentifier),
         thresholds,
       });
     });
@@ -471,7 +480,8 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           const vals = [];
           cat.Keys.forEach(k => {
             if (isInformationalKey(k, cat.Category)) return;
-            const m = ds.data.values.find(v => canonKey(v.key) === canonKey(k.Key));
+            const canonicalTarget = canonKey(getKeyIdentifier(k));
+            const m = ds.data.values.find(v => canonKey(v.key) === canonicalTarget);
             const n = m ? Number(m.alignmentValue) : NaN;
             if (isFinite(n) && n > 0) vals.push(n);
           });
@@ -624,9 +634,10 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       }
       datasets.forEach(ds => {
         const values = [];
-        category.Keys.forEach(k => {
-          if (isInformationalKey(k, category.Category)) return;
-          const m = ds.data.values.find(v => canonKey(v.key) === canonKey(k.Key));
+          category.Keys.forEach(k => {
+            if (isInformationalKey(k, category.Category)) return;
+            const canonicalTarget = canonKey(getKeyIdentifier(k));
+            const m = ds.data.values.find(v => canonKey(v.key) === canonicalTarget);
           const n = m ? Number(m.alignmentValue) : NaN;
           if (isFinite(n) && n > 0) values.push(n);
         });
@@ -704,7 +715,8 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         tr.appendChild(keyTd);
 
         const perCountry = datasets.map(ds => {
-          const match = ds.data.values.find(v => canonKey(v.key) === canonKey(keyObj.Key));
+          const targetCanonical = canonKey(getKeyIdentifier(keyObj));
+          const match = ds.data.values.find(v => canonKey(v.key) === targetCanonical);
           const hasText = match && typeof match.alignmentText === 'string' && match.alignmentText.trim().length > 0;
           const numeric = match ? Number(match.alignmentValue) : NaN;
           const bucket = informational ? { key: 'informational' } : getScoreBucket(numeric);
@@ -722,7 +734,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           }
         }
 
-        const thresholds = informational ? null : getKeyAlertLevels(category.Category, keyObj.Key);
+        const thresholds = informational ? null : getKeyAlertLevels(category.Category, getKeyIdentifier(keyObj));
 
         datasets.forEach((ds, idx) => {
           const td = document.createElement('td');

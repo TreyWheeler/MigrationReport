@@ -205,10 +205,12 @@ addKeyCategoryOption.AddAlias("--Category");
 addKeyCategoryOption.AddAlias("-Category");
 addKeyCategoryOption.AddAlias("-c");
 
-var keyNameOption = new Option<string>(name: "--key-name", description: "Display name for the new key.")
+var keyNameOption = new Option<string>(name: "--label", description: "Display label for the new key.")
 {
     IsRequired = true
 };
+keyNameOption.AddAlias("--Label");
+keyNameOption.AddAlias("--key-name");
 keyNameOption.AddAlias("--KeyName");
 keyNameOption.AddAlias("-k");
 
@@ -219,11 +221,11 @@ keyGuidanceOption.AddAlias("-g");
 addCategoryKeyCommand.AddOption(addKeyCategoryOption);
 addCategoryKeyCommand.AddOption(keyNameOption);
 addCategoryKeyCommand.AddOption(keyGuidanceOption);
-addCategoryKeyCommand.SetHandler(async (string category, string keyName, string? guidance) =>
+addCategoryKeyCommand.SetHandler(async (string category, string keyLabel, string? guidance) =>
 {
     using var scope = host.Services.CreateScope();
     var service = scope.ServiceProvider.GetRequiredService<CategoryKeyCreationService>();
-    await service.AddCategoryKeyAsync(category, keyName, guidance);
+    await service.AddCategoryKeyAsync(category, keyLabel, guidance);
 }, addKeyCategoryOption, keyNameOption, keyGuidanceOption);
 
 rootCommand.AddCommand(updateReportsCommand);

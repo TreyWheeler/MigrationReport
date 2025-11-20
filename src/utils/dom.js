@@ -1,11 +1,6 @@
 // Utility helpers for DOM manipulation shared across UI modules.
 
-// Append text to parent, converting Markdown links [text](https://...) into <a> tags.
-export function appendTextWithLinks(parent, text) {
-  if (!(parent instanceof Node)) return;
-  if (typeof text !== 'string' || text.length === 0) {
-    return;
-  }
+function appendInlineTextWithLinks(parent, text) {
   const re = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
   let lastIndex = 0;
   let match;
@@ -24,6 +19,47 @@ export function appendTextWithLinks(parent, text) {
   if (lastIndex < text.length) {
     parent.appendChild(document.createTextNode(text.slice(lastIndex)));
   }
+}
+
+function tryRenderBulletedList(parent, text) {
+  const lines = text
+    .split(/\r?\n/)
+    .map(line => line.trim())
+    .filter(line => line.length > 0);
+
+  if (lines.length === 0) {
+    return false;
+  }
+
+  if (!lines.every(line => line.startsWith('-'))) {
+    return false;
+  }
+
+  const list = document.createElement('ul');
+  list.className = 'bullet-list';
+  lines.forEach(line => {
+    const li = document.createElement('li');
+    const content = line.replace(/^-+\s*/, '').trim();
+    appendInlineTextWithLinks(li, content);
+    list.appendChild(li);
+  });
+
+  parent.appendChild(list);
+  return true;
+}
+
+// Append text to parent, converting Markdown links [text](https://...) into <a> tags.
+export function appendTextWithLinks(parent, text) {
+  if (!(parent instanceof Node)) return;
+  if (typeof text !== 'string' || text.length === 0) {
+    return;
+  }
+
+  if (tryRenderBulletedList(parent, text)) {
+    return;
+  }
+
+  appendInlineTextWithLinks(parent, text);
 }
 
 // Create an <img> for a country ISO code using a public flag CDN (SVG).

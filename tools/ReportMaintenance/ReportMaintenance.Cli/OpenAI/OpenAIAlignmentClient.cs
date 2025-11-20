@@ -53,17 +53,23 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
         }
 
         var keyDefinition = context.GetKeyDefinition(entry.Key);
-        var prompt = BuildPrompt(context, entry, keyDefinition);
+        var format = ValueRequirementHelper.GetValueFormat(keyDefinition);
+        var basePrompt = BuildPrompt(context, entry, keyDefinition, format, validationFeedback: null);
         var informational = keyDefinition?.Informational == true;
-        var cacheKey = AlignmentSuggestionCacheKey.Create(prompt);
+        var cacheKey = AlignmentSuggestionCacheKey.Create(basePrompt);
 
         if (await TryGetCachedSuggestionAsync(cacheKey, entry.Key, cancellationToken).ConfigureAwait(false) is { } cachedSuggestion)
         {
             return cachedSuggestion;
         }
 
+        string? validationFeedback = null;
         for (var attempt = 1; attempt <= Math.Max(1, _options.MaxRetryCount); attempt++)
         {
+            var prompt = validationFeedback is null
+                ? basePrompt
+                : BuildPrompt(context, entry, keyDefinition, format, validationFeedback);
+
             using var activity = OpenAITelemetry.ActivitySource.StartActivity("GenerateSuggestion", ActivityKind.Client);
             activity?.SetTag("http.method", HttpMethod.Post.Method);
             activity?.SetTag("ai.system", "openai");
@@ -102,6 +108,20 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
             if (response.IsSuccessStatusCode)
             {
                 var suggestion = ParseResponse(body, entry.Key, informational);
+                var validation = ValueRequirementHelper.Validate(format, suggestion.AlignmentText, context.Iso, keyDefinition);
+                if (!validation.IsValid)
+                {
+                    if (attempt < Math.Max(1, _options.MaxRetryCount))
+                    {
+                        validationFeedback = validation.ErrorMessage;
+                        _logger.LogWarning("Suggestion for {Key} failed validation: {Error}. Retrying with stricter instructions.", entry.Key, validationFeedback);
+                        activity?.SetStatus(ActivityStatusCode.Error, validationFeedback);
+                        continue;
+                    }
+
+                    throw new InvalidOperationException($"OpenAI returned invalid alignment for {entry.Key}: {validation.ErrorMessage}");
+                }
+
                 await TrySetCachedSuggestionAsync(cacheKey, suggestion, entry.Key, cancellationToken).ConfigureAwait(false);
                 activity?.SetStatus(ActivityStatusCode.Ok);
                 return suggestion;
@@ -145,12 +165,15 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
         return message;
     }
 
-    private static string BuildPrompt(ReportContext context, ReportEntry entry, CategoryKey? keyDefinition)
+    private static string BuildPrompt(ReportContext context, ReportEntry entry, CategoryKey? keyDefinition, ValueFormat format, string? validationFeedback)
     {
         var sb = new StringBuilder();
         sb.AppendLine(context.SharedPromptContext);
         sb.AppendLine();
-        sb.AppendLine($"Update the key '{entry.Key}'.");
+        var keyDescriptor = string.IsNullOrWhiteSpace(keyDefinition?.Label)
+            ? $"'{entry.Key}'"
+            : $"'{keyDefinition.Label}' ({entry.Key})";
+        sb.AppendLine($"Update the key {keyDescriptor}.");
 
         if (!string.IsNullOrWhiteSpace(keyDefinition?.Guidance))
         {
@@ -191,8 +214,12 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
         sb.AppendLine("Instructions:");
         if (keyDefinition?.Informational == true)
         {
-            sb.AppendLine("- This key is informational and excluded from scoring; set alignmentValue to null.");
-            sb.AppendLine("- Provide alignmentText that satisfies any value requirements and stays concise for the report location.");
+            sb.AppendLine("- This key is informational; set alignmentValue to null.");
+            sb.AppendLine("- Write a concise, location-specific alignmentText that is actionable/descriptive and avoids meta phrases like 'informational' or 'not scored'.");
+            if (!string.IsNullOrWhiteSpace(keyDefinition?.ValueRequirements))
+            {
+                sb.AppendLine("- Respect the value requirements above when crafting the text.");
+            }
             sb.AppendLine("- Include sameAsParent only when the child location inherits content without change.");
             sb.AppendLine("Respond with JSON: {\\\"alignmentValue\\\": null, \\\"alignmentText\\\": string, \\\"sameAsParent\\\": boolean?}.");
         }
@@ -207,6 +234,17 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
             sb.AppendLine("- Keep alignmentText under 160 characters (roughly two short sentences).");
             sb.AppendLine("- Include sameAsParent only when the child location inherits content without change.");
             sb.AppendLine("Respond with JSON: {\\\"alignmentValue\\\": number, \\\"alignmentText\\\": string, \\\"sameAsParent\\\": boolean?}.");
+        }
+
+        var formatInstruction = ValueRequirementHelper.GetFormatInstruction(format, context.Iso);
+        if (!string.IsNullOrWhiteSpace(formatInstruction))
+        {
+            sb.AppendLine(formatInstruction);
+        }
+
+        if (!string.IsNullOrWhiteSpace(validationFeedback))
+        {
+            sb.AppendLine($"- Previous response failed validation because {validationFeedback}. Provide a corrected response that satisfies this requirement.");
         }
 
         return sb.ToString();

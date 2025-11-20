@@ -17,6 +17,7 @@ public sealed class ReportUpdateService
     private readonly ReportContextFactory _contextFactory;
     private readonly IOpenAIAlignmentClient _openAiClient;
     private readonly ICategoryKeyProvider _categoryKeyProvider;
+    private readonly IKeyDefinitionProvider _keyDefinitionProvider;
     private readonly IAlignmentSuggestionCache _cache;
     private readonly ILogger<ReportUpdateService> _logger;
     private readonly ReportMaintenanceOptions _options;
@@ -26,6 +27,7 @@ public sealed class ReportUpdateService
         ReportContextFactory contextFactory,
         IOpenAIAlignmentClient openAiClient,
         ICategoryKeyProvider categoryKeyProvider,
+        IKeyDefinitionProvider keyDefinitionProvider,
         IAlignmentSuggestionCache cache,
         IOptions<ReportMaintenanceOptions> options,
         ILogger<ReportUpdateService> logger)
@@ -34,6 +36,7 @@ public sealed class ReportUpdateService
         _contextFactory = contextFactory;
         _openAiClient = openAiClient;
         _categoryKeyProvider = categoryKeyProvider;
+        _keyDefinitionProvider = keyDefinitionProvider;
         _cache = cache;
         _logger = logger;
         _options = options.Value;
@@ -137,6 +140,8 @@ public sealed class ReportUpdateService
 
         _logger.LogInformation("Updating report {ReportName}.", reportName);
         var document = await _reportRepository.LoadAsync(reportName, cancellationToken);
+        var definitions = await _keyDefinitionProvider.GetDefinitionsAsync(cancellationToken).ConfigureAwait(false);
+        BackfillMissingEntries(document, definitions, reportName);
         var context = await _contextFactory.CreateAsync(reportName, document, cancellationToken);
 
         ICategoryKeyProvider.CategoryMatch? categoryMatch = null;
@@ -226,21 +231,54 @@ public sealed class ReportUpdateService
                 }
             });
 
-            await Task.WhenAll(tasks).ConfigureAwait(false);
+        await Task.WhenAll(tasks).ConfigureAwait(false);
 
-            if (!updatedEntries.IsEmpty)
-            {
-                await _reportRepository.SaveAsync(reportName, document, cancellationToken);
-            }
-            else
-            {
-                _logger.LogWarning("No entries were updated for {ReportName}; file was not written.", reportName);
-            }
-        }
-        finally
+        if (!updatedEntries.IsEmpty)
         {
-            await _cache.FlushAsync(cancellationToken).ConfigureAwait(false);
+            await _reportRepository.SaveAsync(reportName, document, cancellationToken);
         }
+        else
+        {
+            _logger.LogWarning("No entries were updated for {ReportName}; file was not written.", reportName);
+        }
+    }
+    finally
+    {
+        await _cache.FlushAsync(cancellationToken).ConfigureAwait(false);
+    }
+}
+
+    private void BackfillMissingEntries(ReportDocument document, IReadOnlyDictionary<string, CategoryKey> definitions, string reportName)
+    {
+        if (definitions.Count == 0)
+        {
+            return;
+        }
+
+        var existingKeys = new HashSet<string>(
+            document.Values.Select(v => v.Key).Where(k => !string.IsNullOrWhiteSpace(k)),
+            StringComparer.OrdinalIgnoreCase);
+
+        var definitionKeys = definitions.Keys
+            .Where(key => !string.IsNullOrWhiteSpace(key))
+            .Select(key => key.Trim());
+
+        var missingKeys = definitionKeys
+            .Where(key => !existingKeys.Contains(key))
+            .OrderBy(key => key, StringComparer.OrdinalIgnoreCase)
+            .ToList();
+
+        if (missingKeys.Count == 0)
+        {
+            return;
+        }
+
+        foreach (var key in missingKeys)
+        {
+            document.Values.Add(new ReportEntry { Key = key });
+        }
+
+        _logger.LogInformation("Added {Count} missing entries to report {ReportName}.", missingKeys.Count, reportName);
     }
 
     private static string? NormalizeSelector(string? value) =>

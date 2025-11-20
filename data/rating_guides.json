@@ -1,754 +1,2279 @@
 {
-  "ratingGuides": [
-    {
-      "key": "Ease of Entrepreneurship Visa",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Founder/startup visa is clearly documented, fully online, and typically approved within 2–4 weeks with low capital requirements and no local sponsor." },
-        { "rating": 9, "guidance": "Dedicated entrepreneur pathway with predictable criteria, approvals in under 2 months, and light documentation a small indie studio can handle." },
-        { "rating": 8, "guidance": "Entrepreneur route exists with moderate capital/proof-of-funds and a 2–4 month timeline; legal help recommended but not essential." },
-        { "rating": 7, "guidance": "Viable but slower pathway (4–6 months) with quotas or competitive scoring; supporting evidence and professional filings are expected." },
-        { "rating": 6, "guidance": "Possible via general business visa requiring substantial documentation, in-person steps, and 6–9 month timelines; rejection risk is moderate." },
-        { "rating": 5, "guidance": "Pathway exists but demands high capital, employer-of-record, or incubator sponsorship; timelines often exceed 9 months." },
-        { "rating": 4, "guidance": "Rules are opaque, processing is slow/unpredictable, and approvals for small foreign founders are uncommon." },
-        { "rating": 3, "guidance": "Only niche or exceptional approvals; most indie founders are advised to look elsewhere." },
-        { "rating": 2, "guidance": "Theoretical route on paper but effectively closed due to quotas, local ownership mandates, or repeated rejections." },
-        { "rating": 1, "guidance": "No viable entrepreneurship/founder visa path for a small foreign game studio." }
-      ]
-    },
-    {
-      "key": "Bureaucratic Compliance Effort",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Simple annual filing with minimal fees; bookkeeping and payroll are turnkey and under 10 hours per year." },
-        { "rating": 9, "guidance": "Mostly annual/quarterly digital filings, predictable deadlines, and low compliance hours (<20 per year)." },
-        { "rating": 8, "guidance": "Quarterly VAT/payroll plus annual return; standard software and part-time bookkeeper keep effort reasonable." },
-        { "rating": 7, "guidance": "Regular filings with occasional in-person steps; translations rarely needed but a part-time accountant is expected." },
-        { "rating": 6, "guidance": "Multiple agency touchpoints and monthly payroll/VAT; professional accountant required to stay compliant." },
-        { "rating": 5, "guidance": "High paperwork volume, frequent updates, and notable fees; indie founders spend significant time coordinating vendors." },
-        { "rating": 4, "guidance": "Complex cross-agency rules with changing interpretations; audits or spot checks are common." },
-        { "rating": 3, "guidance": "Heavy manual processes, translations, and notarizations; filings routinely delayed or bounced." },
-        { "rating": 2, "guidance": "Opaque rules, unpredictable penalties, and costly professional support needed for nearly every filing." },
-        { "rating": 1, "guidance": "Compliance is prohibitively complex or hostile for a small foreign-owned studio." }
-      ]
-    },
-    {
-      "key": "Number of AA Studios",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "20+ AA (10–50 person) studios active locally, offering a deep hiring and collaboration pool." },
-        { "rating": 9, "guidance": "15–19 AA studios with steady output and networking opportunities." },
-        { "rating": 8, "guidance": "10–14 AA studios; healthy but focused community." },
-        { "rating": 7, "guidance": "7–9 AA studios; noticeable presence with periodic launches." },
-        { "rating": 6, "guidance": "5–6 AA studios; some peers for hiring and knowledge sharing." },
-        { "rating": 5, "guidance": "3–4 AA studios; small but visible niche." },
-        { "rating": 4, "guidance": "2 AA studios; limited peer network." },
-        { "rating": 3, "guidance": "1 established AA studio; rare local peers." },
-        { "rating": 2, "guidance": "Only emerging or short-lived AA efforts; little stability." },
-        { "rating": 1, "guidance": "No identifiable AA studios in the area." }
-      ]
-    },
-    {
-      "key": "Vibrancy of local game development communities",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Thriving ecosystem with weekly meetups, strong online groups, local publishers, and regular conferences/game jams." },
-        { "rating": 9, "guidance": "Active monthly events, mentorship circles, and reliable communication channels for indie teams." },
-        { "rating": 8, "guidance": "Consistent meetups and workshops with collaborative culture and accessible venues." },
-        { "rating": 7, "guidance": "Several meetups per quarter and supportive online communities; occasional industry guests." },
-        { "rating": 6, "guidance": "Some meetups or jams a few times a year with modest attendance." },
-        { "rating": 5, "guidance": "Informal gatherings exist but are sporadic; networking requires effort." },
-        { "rating": 4, "guidance": "Infrequent events with small, fragmented groups." },
-        { "rating": 3, "guidance": "Rare, lightly attended events; little organized support for indies." },
-        { "rating": 2, "guidance": "Almost no local community activity; online groups are inactive." },
-        { "rating": 1, "guidance": "No observable game-dev community presence." }
-      ]
-    },
-    {
-      "key": "Immigration Effort",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Visa filing is straightforward and evaluations have a quick turnaround with minimal evidence required." },
-        { "rating": 9, "guidance": "Clear rules, responsive processing, and most steps can be done online within 2–3 months." },
-        { "rating": 8, "guidance": "Predictable documentation and 3–4 month processing; attorney helpful but not mandatory." },
-        { "rating": 7, "guidance": "Manageable but requires organized evidence and possibly an interview; 4–6 month timeline." },
-        { "rating": 6, "guidance": "Moderate friction, periodic in-person steps, and 6–8 month timelines." },
-        { "rating": 5, "guidance": "Lengthy or quota-driven processing with notable uncertainty; 8–12 months common." },
-        { "rating": 4, "guidance": "Complex criteria, frequent RFEs, and high rejection risk without expert counsel." },
-        { "rating": 3, "guidance": "Opaque or discretionary process that is difficult for skilled migrants to navigate." },
-        { "rating": 2, "guidance": "Approvals for similar skilled migrants are rare; timelines exceed a year." },
-        { "rating": 1, "guidance": "No practical immigration path for the family profile." }
-      ]
-    },
-    {
-      "key": "Adult Language Expectations",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "At no point will we feel pressure to learn another language; English works everywhere." },
-        { "rating": 9, "guidance": "English is sufficient for work, services, and government with full fidelity." },
-        { "rating": 8, "guidance": "English covers work and most services; occasional translation needed for government forms." },
-        { "rating": 7, "guidance": "English is sufficient for work and services; rare situations require local-language help." },
-        { "rating": 6, "guidance": "English works at work and major services but local language expected for nuanced tasks." },
-        { "rating": 5, "guidance": "English is sufficient for work; everyday life is easier with some local-language ability." },
-        { "rating": 4, "guidance": "Workplaces tolerate English, but public services and most paperwork expect local language." },
-        { "rating": 3, "guidance": "Advancement and many services require local language; English support is limited." },
-        { "rating": 2, "guidance": "English is rarely available; daily interactions require strong local-language skills." },
-        { "rating": 1, "guidance": "English is unwelcome or blocks access to essential services." }
-      ]
-    },
-    {
-      "key": "Childhood Language Expectations",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Can complete primary and secondary school entirely in English within the public system." },
-        { "rating": 9, "guidance": "Public schools offer robust English tracks with full curriculum and support." },
-        { "rating": 8, "guidance": "English-stream options exist in public schools but may be limited to certain areas." },
-        { "rating": 7, "guidance": "English-friendly classrooms exist with supplemental local-language study." },
-        { "rating": 6, "guidance": "Bilingual programs available; some core subjects taught in the local language." },
-        { "rating": 5, "guidance": "Regional language proficiency expected, with some integration assistance." },
-        { "rating": 4, "guidance": "English support is minimal; most instruction is in the local language from early grades." },
-        { "rating": 3, "guidance": "Only private/international schools offer English instruction; public schools require fluency in local language." },
-        { "rating": 2, "guidance": "English schooling is rare and costly; local language proficiency is assumed for all levels." },
-        { "rating": 1, "guidance": "English is effectively unavailable in schooling." }
-      ]
-    },
-    {
-      "key": "Welcoming of Skilled immigrants",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Most people are generally happy with your presence and anti-immigration sentiment is low." },
-        { "rating": 9, "guidance": "Positive sentiment toward skilled migrants; diversity is normalized in workplaces and neighborhoods." },
-        { "rating": 8, "guidance": "Generally welcoming with occasional pockets of resistance; policy signals are pro-immigration." },
-        { "rating": 7, "guidance": "Balanced sentiment; skilled migrants usually integrate without major friction." },
-        { "rating": 6, "guidance": "Some skepticism but respectful; integration is easier in urban areas than rural." },
-        { "rating": 5, "guidance": "Mixed attitudes; skilled migrants are accepted but not strongly welcomed." },
-        { "rating": 4, "guidance": "Notable anti-immigration discourse; newcomers often need to prove their value." },
-        { "rating": 3, "guidance": "Frequent negative sentiment or media narratives about immigrants." },
-        { "rating": 2, "guidance": "Hostile rhetoric and policy debates; visible discrimination is common." },
-        { "rating": 1, "guidance": "Skilled immigrants are broadly unwelcome or targeted." }
-      ]
-    },
-    {
-      "key": "Housing Accessibility",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Skilled migrants are able to find an acceptable home in under a month with standard documentation." },
-        { "rating": 9, "guidance": "Listings move quickly but a suitable home is typically secured within 1–2 months." },
-        { "rating": 8, "guidance": "Inventory is tight yet attainable in 2–3 months with moderate competition." },
-        { "rating": 7, "guidance": "Acceptable options exist in 3–4 months; may require compromises on location or features." },
-        { "rating": 6, "guidance": "Search takes 4–6 months due to limited stock, guarantor requests, or bidding." },
-        { "rating": 5, "guidance": "Common waits of 6+ months or significant compromises (size, commute, schools)." },
-        { "rating": 4, "guidance": "Very low inventory; newcomers struggle to secure leases even with strong finances." },
-        { "rating": 3, "guidance": "Frequent rejections for foreign tenants; long waitlists and high deposits." },
-        { "rating": 2, "guidance": "Housing market is effectively closed to new skilled migrants without extraordinary measures." },
-        { "rating": 1, "guidance": "No practical path to secure housing in a reasonable timeframe." }
-      ]
-    },
-    {
-      "key": "Daycare Accessibility",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Daycare spots are readily available within weeks in preferred neighborhoods." },
-        { "rating": 9, "guidance": "Short waitlists (1–2 months) with multiple quality options nearby." },
-        { "rating": 8, "guidance": "Reliable availability within 3 months; some flexibility needed on schedule or location." },
-        { "rating": 7, "guidance": "Waitlists of 3–6 months are common but manageable." },
-        { "rating": 6, "guidance": "Limited slots; families often need backup providers or longer commutes." },
-        { "rating": 5, "guidance": "Waitlists exceed 6 months in most areas; availability is uncertain." },
-        { "rating": 4, "guidance": "Scarce availability; families compete heavily for few openings." },
-        { "rating": 3, "guidance": "Access requires costly private options or irregular schedules." },
-        { "rating": 2, "guidance": "Very few viable options; many families cannot secure care." },
-        { "rating": 1, "guidance": "Daycare access is effectively unavailable." }
-      ]
-    },
-    {
-      "key": "Daycare Affordability",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Public or subsidized daycare is very low cost (<5% of median salary per child)." },
-        { "rating": 9, "guidance": "Affordable (5–8% of median salary per child) with predictable fees." },
-        { "rating": 8, "guidance": "Manageable (9–12% of median salary per child) with some subsidies." },
-        { "rating": 7, "guidance": "Moderate cost (13–16% of median salary per child)." },
-        { "rating": 6, "guidance": "Notable expense (17–20% of median salary per child)." },
-        { "rating": 5, "guidance": "High cost (21–25% of median salary per child)." },
-        { "rating": 4, "guidance": "Very high cost (26–30% of median salary per child)." },
-        { "rating": 3, "guidance": "Unaffordable without significant sacrifice (31–35% of median salary per child)." },
-        { "rating": 2, "guidance": "Prohibitively expensive (>35% of median salary per child)." },
-        { "rating": 1, "guidance": "Effectively inaccessible due to cost." }
-      ]
-    },
-    {
-      "key": "Healthcare Accessibility",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Easy access to primary and specialist care with short waits; English-friendly providers common." },
-        { "rating": 9, "guidance": "Good access with modest waits; English-speaking clinics are available in urban areas." },
-        { "rating": 8, "guidance": "Reliable primary care; specialists may require planned appointments but are obtainable." },
-        { "rating": 7, "guidance": "Primary care accessible; specialist wait times are moderate and may need referrals." },
-        { "rating": 6, "guidance": "Access varies by location; some services require long waits or travel." },
-        { "rating": 5, "guidance": "Significant waits for key services; English-speaking care requires effort to find." },
-        { "rating": 4, "guidance": "Limited provider availability; urgent care routes are unclear for newcomers." },
-        { "rating": 3, "guidance": "Frequent delays or shortages; many providers lack English support." },
-        { "rating": 2, "guidance": "Access to quality care is unreliable even for insured families." },
-        { "rating": 1, "guidance": "Practical access to healthcare is severely constrained." }
-      ]
-    },
-    {
-      "key": "Healthcare Affordability",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Low out-of-pocket costs for routine and specialist care; caps and subsidies protect families." },
-        { "rating": 9, "guidance": "Affordable copays and predictable costs with strong public or mandatory insurance." },
-        { "rating": 8, "guidance": "Manageable costs; routine care is inexpensive though some specialist fees apply." },
-        { "rating": 7, "guidance": "Moderate costs; insurance premiums and copays are noticeable but sustainable." },
-        { "rating": 6, "guidance": "Higher premiums or copays; budgeting is necessary for regular care." },
-        { "rating": 5, "guidance": "Expensive care unless heavily insured; significant annual healthcare spend." },
-        { "rating": 4, "guidance": "High deductibles or copays make non-urgent care a financial burden." },
-        { "rating": 3, "guidance": "Routine care strains finances; major events risk large bills even with insurance." },
-        { "rating": 2, "guidance": "Out-of-pocket exposure is very high; affordable coverage is hard to obtain." },
-        { "rating": 1, "guidance": "Healthcare costs are prohibitive for a family of four." }
-      ]
-    },
-    {
-      "key": "Healthcare Tied to Employment",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "No—universal coverage or easy individual enrollment; employment has no impact." },
-        { "rating": 9, "guidance": "Mostly independent of employment; switching jobs minimally affects coverage." },
-        { "rating": 8, "guidance": "Coverage can be maintained individually with straightforward options when changing jobs." },
-        { "rating": 7, "guidance": "Employment influences coverage choices but gaps are rare." },
-        { "rating": 6, "guidance": "Job changes can cause short coverage gaps unless proactively managed." },
-        { "rating": 5, "guidance": "Employer plans dominate; switching jobs requires careful timing to avoid gaps." },
-        { "rating": 4, "guidance": "Significant friction maintaining coverage outside employment." },
-        { "rating": 3, "guidance": "Losing or changing jobs often results in coverage lapses or major cost increases." },
-        { "rating": 2, "guidance": "Coverage is tightly bound to employer; independent options are scarce or costly." },
-        { "rating": 1, "guidance": "Yes—coverage is unavailable without employer sponsorship." }
-      ]
-    },
-    {
-      "key": "Hours Worked Per Year",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Less than 1,500" },
-        { "rating": 9, "guidance": "1,500–1,650" },
-        { "rating": 8, "guidance": "1,651–1,800" },
-        { "rating": 7, "guidance": "1,801–1,950" },
-        { "rating": 6, "guidance": "1,951–2,050" },
-        { "rating": 5, "guidance": "2,051–2,200" },
-        { "rating": 4, "guidance": "2,200–2,300" },
-        { "rating": 3, "guidance": "2,301–2,450" },
-        { "rating": 2, "guidance": "2,451–2,700" },
-        { "rating": 1, "guidance": "More than 2,700" }
-      ]
-    },
-    {
-      "key": "Public Transportation",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Extensive, reliable multimodal network with high frequency and full English signage/apps." },
-        { "rating": 9, "guidance": "Comprehensive coverage and frequent service in most neighborhoods; easy trip planning." },
-        { "rating": 8, "guidance": "Strong core network with good reliability; minor gaps in outer areas." },
-        { "rating": 7, "guidance": "Good urban coverage; off-peak frequencies or suburbs may be limited." },
-        { "rating": 6, "guidance": "Usable for daily commutes but requires planning around infrequent routes." },
-        { "rating": 5, "guidance": "Partial coverage; common trips are possible but slow or involve transfers." },
-        { "rating": 4, "guidance": "Sparse network; many trips are inconvenient without a car." },
-        { "rating": 3, "guidance": "Unreliable or inconsistent service; limited hours of operation." },
-        { "rating": 2, "guidance": "Public transit exists but is impractical for routine use." },
-        { "rating": 1, "guidance": "No meaningful public transportation options." }
-      ]
-    },
-    {
-      "key": "Mild Weather",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Year-round mild temperatures with minimal extremes and low humidity." },
-        { "rating": 9, "guidance": "Mostly mild with occasional short heat or cold spells." },
-        { "rating": 8, "guidance": "Comfortable three seasons; summers or winters have brief extremes." },
-        { "rating": 7, "guidance": "Manageable seasons with periodic heatwaves or cold snaps." },
-        { "rating": 6, "guidance": "Noticeable seasonal swings but generally tolerable." },
-        { "rating": 5, "guidance": "Regular extremes during one season; still livable with preparation." },
-        { "rating": 4, "guidance": "Multiple seasons bring extended heat, humidity, or cold." },
-        { "rating": 3, "guidance": "Frequent uncomfortable temperatures and weather volatility." },
-        { "rating": 2, "guidance": "Long periods of harsh heat or cold dominate the year." },
-        { "rating": 1, "guidance": "Weather is consistently severe or difficult to live with." }
-      ]
-    },
-    {
-      "key": "Winter Temperature Range",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Typical winter highs 45–60°F and lows 32–45°F; little snow/ice." },
-        { "rating": 9, "guidance": "Highs 40–55°F, lows 28–40°F with occasional light snow." },
-        { "rating": 8, "guidance": "Highs 35–50°F, lows 25–35°F; manageable snow events." },
-        { "rating": 7, "guidance": "Highs 30–45°F, lows 20–32°F; regular frost and some snow." },
-        { "rating": 6, "guidance": "Highs 25–40°F, lows 15–28°F; persistent cold periods." },
-        { "rating": 5, "guidance": "Highs 20–35°F, lows 10–25°F with significant snow/ice." },
-        { "rating": 4, "guidance": "Highs 15–30°F, lows 0–20°F; long snowy stretches." },
-        { "rating": 3, "guidance": "Highs 10–25°F, lows −10–10°F; heavy snow and deep freezes common." },
-        { "rating": 2, "guidance": "Highs below 20°F, lows below −10°F for extended periods." },
-        { "rating": 1, "guidance": "Severe arctic winters with extreme cold and heavy snow dominating daily life." }
-      ]
-    },
-    {
-      "key": "Spring Temperature Range",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Highs 60–75°F, lows 50–60°F; stable and pleasant." },
-        { "rating": 9, "guidance": "Highs 55–72°F, lows 45–55°F; mostly mild with light rain." },
-        { "rating": 8, "guidance": "Highs 50–70°F, lows 40–50°F; occasional swings." },
-        { "rating": 7, "guidance": "Highs 50–68°F, lows 38–48°F; mixed sunny and cool days." },
-        { "rating": 6, "guidance": "Highs 48–65°F, lows 36–46°F with frequent rain." },
-        { "rating": 5, "guidance": "Highs 45–62°F, lows 34–44°F; noticeable variability." },
-        { "rating": 4, "guidance": "Highs 42–60°F, lows 32–42°F; chilly stretches common." },
-        { "rating": 3, "guidance": "Highs 40–58°F, lows 30–40°F; unstable with cold snaps." },
-        { "rating": 2, "guidance": "Highs under 55°F, lows under 35°F for much of spring." },
-        { "rating": 1, "guidance": "Spring remains cold and wet with few comfortable days." }
-      ]
-    },
-    {
-      "key": "Summer Temperature Range",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Highs 70–82°F, lows 60–70°F; low humidity and rare heatwaves." },
-        { "rating": 9, "guidance": "Highs 72–85°F, lows 60–72°F; occasional short heat spikes." },
-        { "rating": 8, "guidance": "Highs 75–88°F, lows 62–74°F with moderate humidity." },
-        { "rating": 7, "guidance": "Highs 78–90°F, lows 65–75°F; periodic heat advisories." },
-        { "rating": 6, "guidance": "Highs 80–92°F, lows 66–76°F; regular humidity/heatwaves." },
-        { "rating": 5, "guidance": "Highs 82–95°F, lows 68–78°F; frequent muggy days." },
-        { "rating": 4, "guidance": "Highs 85–97°F, lows 70–80°F with extended humid periods." },
-        { "rating": 3, "guidance": "Highs 88–100°F, lows 72–82°F; long, oppressive heat stretches." },
-        { "rating": 2, "guidance": "Highs often above 100°F with high humidity; relief is rare." },
-        { "rating": 1, "guidance": "Extreme heat dominates summer, making outdoor life difficult." }
-      ]
-    },
-    {
-      "key": "Fall Temperature Range",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Highs 60–75°F, lows 50–60°F; crisp and stable." },
-        { "rating": 9, "guidance": "Highs 55–72°F, lows 45–55°F with gentle cool-down." },
-        { "rating": 8, "guidance": "Highs 50–70°F, lows 40–50°F; occasional warm or cool swings." },
-        { "rating": 7, "guidance": "Highs 50–68°F, lows 38–48°F; mix of mild and chilly days." },
-        { "rating": 6, "guidance": "Highs 48–65°F, lows 36–46°F; rain and wind are common." },
-        { "rating": 5, "guidance": "Highs 45–62°F, lows 34–44°F; variability requires layering." },
-        { "rating": 4, "guidance": "Highs 42–60°F, lows 32–42°F; early cold snaps appear." },
-        { "rating": 3, "guidance": "Highs 40–58°F, lows 30–40°F; frequent cold rain." },
-        { "rating": 2, "guidance": "Highs under 55°F, lows under 35°F for much of fall." },
-        { "rating": 1, "guidance": "Fall is short and quickly shifts to winter-like cold." }
-      ]
-    },
-    {
-      "key": "Natural Beauty",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Iconic natural landscapes (mountains, coast, forests) are easily accessible and protected." },
-        { "rating": 9, "guidance": "Multiple standout natural areas within an hour; strong conservation and access." },
-        { "rating": 8, "guidance": "Several high-quality parks or coastlines nearby with good infrastructure." },
-        { "rating": 7, "guidance": "Attractive natural areas within 1–2 hours; trails and viewpoints are maintained." },
-        { "rating": 6, "guidance": "Some pleasant outdoor areas within 2 hours; moderate scenery." },
-        { "rating": 5, "guidance": "A few local parks or water features; notable scenery requires travel." },
-        { "rating": 4, "guidance": "Limited natural highlights; scenery is modest and access is sparse." },
-        { "rating": 3, "guidance": "Urban/industrial setting with minimal attractive nature nearby." },
-        { "rating": 2, "guidance": "Natural areas are degraded or far away." },
-        { "rating": 1, "guidance": "Little to no appealing natural environment." }
-      ]
-    },
-    {
-      "key": "Nature Access",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Daily access to trails, parks, and water within walking distance; car-free options abound." },
-        { "rating": 9, "guidance": "Excellent access via short transit or bike rides; multiple options weekly." },
-        { "rating": 8, "guidance": "Reliable access within 30–45 minutes by transit or car." },
-        { "rating": 7, "guidance": "Good weekend access within an hour; weekday options require planning." },
-        { "rating": 6, "guidance": "Usable green spaces nearby but larger nature requires 1–1.5 hours of travel." },
-        { "rating": 5, "guidance": "Some parks close by; quality nature trips often take 1.5–2 hours." },
-        { "rating": 4, "guidance": "Limited nearby options; meaningful access typically exceeds 2 hours." },
-        { "rating": 3, "guidance": "Few accessible nature areas without significant travel." },
-        { "rating": 2, "guidance": "Access is inconvenient and costly; outings are rare." },
-        { "rating": 1, "guidance": "Practical access to nature is absent." }
-      ]
-    },
-    {
-      "key": "Quality Food Access",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Abundant high-quality groceries and restaurants, including diverse cuisines and fresh ingredients." },
-        { "rating": 9, "guidance": "Excellent variety of fresh food markets and restaurants within easy reach." },
-        { "rating": 8, "guidance": "Strong mix of local and international options; specialty items readily available." },
-        { "rating": 7, "guidance": "Good selection of groceries and eateries with occasional gaps in variety." },
-        { "rating": 6, "guidance": "Decent everyday options but limited specialty or diverse cuisine choices." },
-        { "rating": 5, "guidance": "Basic grocery coverage; quality or variety requires travel." },
-        { "rating": 4, "guidance": "Few high-quality options; fresh or diverse food is inconsistent." },
-        { "rating": 3, "guidance": "Limited and lower-quality choices; specialty items are rare." },
-        { "rating": 2, "guidance": "Fresh and diverse food is difficult to obtain regularly." },
-        { "rating": 1, "guidance": "Poor access to quality groceries and dining." }
-      ]
-    },
-    {
-      "key": "Peoples Centric Cities",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Streets prioritize pedestrians and cyclists; safe, walkable, and lively public spaces dominate." },
-        { "rating": 9, "guidance": "Extensive pedestrian areas, strong cycling network, and human-scaled design." },
-        { "rating": 8, "guidance": "Walkable core with good bike lanes and traffic calming in many neighborhoods." },
-        { "rating": 7, "guidance": "Walkability is good in key areas; cycling is supported but network has gaps." },
-        { "rating": 6, "guidance": "Mixed environments; some people-friendly zones but many car-centric corridors." },
-        { "rating": 5, "guidance": "Pedestrian experience is average; cars still dominate many routes." },
-        { "rating": 4, "guidance": "Limited walkable districts; cycling feels unsafe in most areas." },
-        { "rating": 3, "guidance": "Primarily car-centric with few safe pedestrian or cycling routes." },
-        { "rating": 2, "guidance": "Pedestrian and cycling infrastructure is minimal and unsafe." },
-        { "rating": 1, "guidance": "City design prioritizes cars almost exclusively; walking/cycling is impractical." }
-      ]
-    },
-    {
-      "key": "Parent Friendly 3rd Places",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Abundant family-friendly parks, cafes, and venues with amenities for kids in every neighborhood." },
-        { "rating": 9, "guidance": "Many welcoming third places for parents and children within short travel." },
-        { "rating": 8, "guidance": "Good mix of playgrounds, libraries, and cafes where families feel comfortable." },
-        { "rating": 7, "guidance": "Several reliable options though not evenly distributed." },
-        { "rating": 6, "guidance": "Some family-friendly venues exist but require planning or travel." },
-        { "rating": 5, "guidance": "Limited options; quality varies and may be crowded." },
-        { "rating": 4, "guidance": "Few suitable third places; families often stay home for lack of options." },
-        { "rating": 3, "guidance": "Very limited and inconvenient family venues." },
-        { "rating": 2, "guidance": "Rare kid-friendly spaces; families feel out of place." },
-        { "rating": 1, "guidance": "No meaningful family-friendly third places." }
-      ]
-    },
-    {
-      "key": "Economic Stability",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Strong, diversified economy with low inflation and steady growth." },
-        { "rating": 9, "guidance": "Resilient economy with minor fluctuations and solid job market." },
-        { "rating": 8, "guidance": "Generally stable with manageable inflation and predictable outlook." },
-        { "rating": 7, "guidance": "Stable overall but sensitive to regional sector swings." },
-        { "rating": 6, "guidance": "Some volatility in growth or currency; employment remains decent." },
-        { "rating": 5, "guidance": "Mixed signals with periodic downturns and higher inflation." },
-        { "rating": 4, "guidance": "Noticeable instability in currency, inflation, or employment." },
-        { "rating": 3, "guidance": "Frequent economic shocks; job market is fragile." },
-        { "rating": 2, "guidance": "Significant recessionary pressures or currency risk." },
-        { "rating": 1, "guidance": "Highly unstable economy with sustained contraction or severe inflation." }
-      ]
-    },
-    {
-      "key": "Political Stability",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Very stable democratic institutions with peaceful transitions and rule of law." },
-        { "rating": 9, "guidance": "Stable governance with low polarization and predictable policy." },
-        { "rating": 8, "guidance": "Generally stable with occasional political tension but strong institutions." },
-        { "rating": 7, "guidance": "Mostly stable; periodic protests or policy swings occur." },
-        { "rating": 6, "guidance": "Some instability or contentious politics affecting policy consistency." },
-        { "rating": 5, "guidance": "Regular polarization or protests; governance can be unpredictable." },
-        { "rating": 4, "guidance": "Institutional challenges or corruption concerns are visible." },
-        { "rating": 3, "guidance": "Frequent government turnover or contested legitimacy." },
-        { "rating": 2, "guidance": "High risk of unrest, emergency measures, or policy whiplash." },
-        { "rating": 1, "guidance": "Severe instability or authoritarian shifts undermine predictability." }
-      ]
-    },
-    {
-      "key": "Social and Quality of Life Stability",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Low crime, strong social safety nets, and high overall wellbeing indicators." },
-        { "rating": 9, "guidance": "Safe communities with reliable services and strong social cohesion." },
-        { "rating": 8, "guidance": "Generally safe with good public amenities; occasional local issues." },
-        { "rating": 7, "guidance": "Mostly safe; some disparities in services across neighborhoods." },
-        { "rating": 6, "guidance": "Moderate safety concerns or uneven service quality." },
-        { "rating": 5, "guidance": "Noticeable crime or social tension affecting daily life." },
-        { "rating": 4, "guidance": "Significant inequality or service gaps impacting quality of life." },
-        { "rating": 3, "guidance": "Frequent safety incidents or social unrest." },
-        { "rating": 2, "guidance": "Persistent safety issues and unreliable services undermine stability." },
-        { "rating": 1, "guidance": "Quality of life is consistently threatened by crime or social unrest." }
-      ]
-    },
-    {
-      "key": "Climate Stability",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Minimal climate-related disruptions; rare extreme weather." },
-        { "rating": 9, "guidance": "Occasional mild events; infrastructure handles them well." },
-        { "rating": 8, "guidance": "Infrequent storms or heatwaves with good resilience." },
-        { "rating": 7, "guidance": "Seasonal events occur but are manageable with preparation." },
-        { "rating": 6, "guidance": "Periodic extreme weather causes some disruptions each year." },
-        { "rating": 5, "guidance": "Regular impactful events (storms, smoke, flooding) requiring contingency plans." },
-        { "rating": 4, "guidance": "Frequent disruptive events with measurable economic or health effects." },
-        { "rating": 3, "guidance": "Major events are common and strain infrastructure." },
-        { "rating": 2, "guidance": "Severe climate risks dominate planning and daily life." },
-        { "rating": 1, "guidance": "Chronic extreme weather or climate threats make the area unsafe." }
-      ]
-    },
-    {
-      "key": "Migration Stability",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Immigration policies are consistent, pro-resident, and unlikely to tighten unexpectedly." },
-        { "rating": 9, "guidance": "Stable policies with clear paths to renewal and long-term status." },
-        { "rating": 8, "guidance": "Generally stable; occasional rule changes but advance notice is given." },
-        { "rating": 7, "guidance": "Policies stable for now though periodic political debates occur." },
-        { "rating": 6, "guidance": "Some policy shifts or quotas introduce renewal risk." },
-        { "rating": 5, "guidance": "Frequent adjustments; maintaining status requires close monitoring." },
-        { "rating": 4, "guidance": "Rules change with little notice; renewals can be unpredictable." },
-        { "rating": 3, "guidance": "High risk of policy tightening or non-renewal for skilled migrants." },
-        { "rating": 2, "guidance": "Long-term presence is uncertain; pathways can close abruptly." },
-        { "rating": 1, "guidance": "Migration policy is unstable or hostile, threatening continuity." }
-      ]
-    },
-    {
-      "key": "College Accessibility",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "College is free or very low cost for our family regardless of residency or citizenship." },
-        { "rating": 9, "guidance": "College is free or very low cost for our family regardless of residency." },
-        { "rating": 8, "guidance": "College is free or very low cost for our family eventually (after short residency)." },
-        { "rating": 7, "guidance": "Low tuition with clear subsidies available after standard residency periods." },
-        { "rating": 6, "guidance": "Moderate tuition; meaningful subsidies after residency or for specific programs." },
-        { "rating": 5, "guidance": "Average tuition with some aid options; costs are manageable but notable." },
-        { "rating": 4, "guidance": "Higher tuition for non-citizens; aid is limited and competitive." },
-        { "rating": 3, "guidance": "Expensive for non-citizens/residents; aid rarely applies." },
-        { "rating": 2, "guidance": "Very high tuition with minimal aid for our status." },
-        { "rating": 1, "guidance": "College access is financially prohibitive for our family profile." }
-      ]
-    },
-    {
-      "key": "College Quality",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "World-class universities with strong global rankings and industry ties." },
-        { "rating": 9, "guidance": "Highly regarded universities and programs with good outcomes." },
-        { "rating": 8, "guidance": "Solid universities with respected faculties across key disciplines." },
-        { "rating": 7, "guidance": "Good regional universities; strengths in several fields." },
-        { "rating": 6, "guidance": "Decent options; standout programs in limited areas." },
-        { "rating": 5, "guidance": "Average quality; outcomes vary by program." },
-        { "rating": 4, "guidance": "Mixed quality; few programs recognized internationally." },
-        { "rating": 3, "guidance": "Limited high-quality options; graduates often leave for better programs." },
-        { "rating": 2, "guidance": "Generally weak academic quality and employer perception." },
-        { "rating": 1, "guidance": "Poor-quality institutions with low completion and placement rates." }
-      ]
-    },
-    {
-      "key": "Continuing Education Accessibility",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Abundant, affordable continuing education in English with flexible schedules (online and in-person)." },
-        { "rating": 9, "guidance": "Wide range of English-friendly programs and certificates with easy enrollment." },
-        { "rating": 8, "guidance": "Several good options in English; enrollment is straightforward." },
-        { "rating": 7, "guidance": "Decent selection with some English programs; scheduling flexibility is fair." },
-        { "rating": 6, "guidance": "Limited English offerings; options exist but may require travel or fixed schedules." },
-        { "rating": 5, "guidance": "Few relevant programs; English support is inconsistent." },
-        { "rating": 4, "guidance": "Continuing education choices are narrow and mostly in the local language." },
-        { "rating": 3, "guidance": "Sparse options with significant language or scheduling barriers." },
-        { "rating": 2, "guidance": "Very limited access to applicable continuing education." },
-        { "rating": 1, "guidance": "Practical continuing education is unavailable." }
-      ]
-    },
-    {
-      "key": "Demand for .NET Architect (20 years of experience)",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Very high demand with multiple senior openings and competitive offers year-round." },
-        { "rating": 9, "guidance": "Strong demand; roles are frequently posted with attractive compensation." },
-        { "rating": 8, "guidance": "Healthy demand; steady flow of senior roles in enterprise and product companies." },
-        { "rating": 7, "guidance": "Good demand with periodic openings; networking helps." },
-        { "rating": 6, "guidance": "Moderate demand; roles appear but competition is noticeable." },
-        { "rating": 5, "guidance": "Average demand; openings exist but may require extended search." },
-        { "rating": 4, "guidance": "Limited senior roles; contracting may be more common than full-time." },
-        { "rating": 3, "guidance": "Few suitable openings; relocation within the country might be needed." },
-        { "rating": 2, "guidance": "Very few opportunities matching the profile." },
-        { "rating": 1, "guidance": "Little to no market for a .NET architect with this profile." }
-      ]
-    },
-    {
-      "key": "Demand for Ruby on Rails (6 years of experience)",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Very high demand with plentiful mid/senior Rails roles and startups hiring aggressively." },
-        { "rating": 9, "guidance": "Strong market with frequent openings and competitive salaries." },
-        { "rating": 8, "guidance": "Healthy demand; consistent flow of product-focused roles." },
-        { "rating": 7, "guidance": "Good demand with regular postings; some competition." },
-        { "rating": 6, "guidance": "Moderate demand; roles appear but may cluster in specific firms." },
-        { "rating": 5, "guidance": "Average demand; searching may take a few months." },
-        { "rating": 4, "guidance": "Limited openings; contracting/freelance is more common." },
-        { "rating": 3, "guidance": "Few dedicated Rails roles; adjacent stacks dominate." },
-        { "rating": 2, "guidance": "Rare opportunities specifically for Rails developers." },
-        { "rating": 1, "guidance": "No meaningful market for Rails experience." }
-      ]
-    },
-    {
-      "key": "Education Quality",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Excellent primary and secondary education with strong outcomes, resources, and support." },
-        { "rating": 9, "guidance": "High-quality schools with good teacher-student ratios and enrichment programs." },
-        { "rating": 8, "guidance": "Strong academics and support services; most schools perform well." },
-        { "rating": 7, "guidance": "Good schooling overall; quality varies slightly by neighborhood." },
-        { "rating": 6, "guidance": "Adequate education with some gaps in resources or consistency." },
-        { "rating": 5, "guidance": "Mixed quality; parents may seek specific schools to ensure fit." },
-        { "rating": 4, "guidance": "Notable disparities; many schools have limited resources or outcomes." },
-        { "rating": 3, "guidance": "Quality concerns are common; strong schools are rare or competitive." },
-        { "rating": 2, "guidance": "Generally weak academic outcomes and limited support." },
-        { "rating": 1, "guidance": "Poor education quality with systemic issues." }
-      ]
-    },
-    {
-      "key": "Food Quality",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "School meals are healthy, fresh, and culturally considerate with strong nutrition standards." },
-        { "rating": 9, "guidance": "Consistently nutritious meals with good variety and fresh ingredients." },
-        { "rating": 8, "guidance": "Generally healthy options; occasional processed items." },
-        { "rating": 7, "guidance": "Adequate nutrition with some fresh options and rotating menus." },
-        { "rating": 6, "guidance": "Mixed quality; balance of fresh and processed foods." },
-        { "rating": 5, "guidance": "Basic meals with limited variety; nutrition standards are average." },
-        { "rating": 4, "guidance": "Heavily processed options with few fresh ingredients." },
-        { "rating": 3, "guidance": "Low nutritional quality; parents often supplement meals." },
-        { "rating": 2, "guidance": "Poor quality meals with minimal nutrition oversight." },
-        { "rating": 1, "guidance": "Meals are unhealthy and unreliable." }
-      ]
-    },
-    {
-      "key": "Language Expectations in Schools",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "English is a fully supported medium of instruction; local language optional." },
-        { "rating": 9, "guidance": "English streams are robust; local language encouraged but not mandatory for success." },
-        { "rating": 8, "guidance": "Bilingual options with strong English support; local language study expected." },
-        { "rating": 7, "guidance": "English used in key subjects; proficiency in local language improves integration." },
-        { "rating": 6, "guidance": "Local language is primary; English support exists but students must adapt within a year." },
-        { "rating": 5, "guidance": "Local language dominates; English support is limited to transition programs." },
-        { "rating": 4, "guidance": "English instruction is rare; most coursework requires local-language fluency." },
-        { "rating": 3, "guidance": "English is confined to language classes; full fluency in local language required quickly." },
-        { "rating": 2, "guidance": "No practical English-medium options in public schools." },
-        { "rating": 1, "guidance": "English use is discouraged or disallowed in schooling." }
-      ]
-    },
-    {
-      "key": "Language Integration Services",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Only English is expected, no integration services needed." },
-        { "rating": 9, "guidance": "Integration services fully provided in the public school system." },
-        { "rating": 8, "guidance": "Strong integration programs with individualized support for newcomers." },
-        { "rating": 7, "guidance": "Good support with structured language classes and tutoring." },
-        { "rating": 6, "guidance": "Moderate support; supplemental courses available but limited intensity." },
-        { "rating": 5, "guidance": "Basic integration assistance; families may need private tutoring." },
-        { "rating": 4, "guidance": "Minimal services; progress relies on external resources." },
-        { "rating": 3, "guidance": "Integration support is scarce and inconsistent." },
-        { "rating": 2, "guidance": "Little organized support; families handle integration independently." },
-        { "rating": 1, "guidance": "No integration services available." }
-      ]
-    },
-    {
-      "key": "Bullying and Racism",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "None" },
-        { "rating": 9, "guidance": "Very rare incidents with strong prevention culture and rapid response." },
-        { "rating": 8, "guidance": "Isolated incidents; schools address them promptly and transparently." },
-        { "rating": 7, "guidance": "Low incidence; policies exist and are generally enforced." },
-        { "rating": 6, "guidance": "Occasional issues; support depends on individual schools." },
-        { "rating": 5, "guidance": "There is some concern for physical safety" },
-        { "rating": 4, "guidance": "Incidents occur regularly; families need to advocate actively." },
-        { "rating": 3, "guidance": "Bullying or bias is common and responses are inconsistent." },
-        { "rating": 2, "guidance": "Frequent issues with limited accountability." },
-        { "rating": 1, "guidance": "Widespread bullying or racism with little recourse." }
-      ]
-    },
-    {
-      "key": "150m2 (in city center)",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Very affordable for a family of four; renting/buying 150m² in the city center is easily sustainable." },
-        { "rating": 9, "guidance": "Affordable with comfortable budgeting; good options available centrally." },
-        { "rating": 8, "guidance": "Manageable costs; some trade-offs on building or finishes." },
-        { "rating": 7, "guidance": "Costs are noticeable but feasible with planning." },
-        { "rating": 6, "guidance": "High but achievable costs; may require smaller compromises or longer searches." },
-        { "rating": 5, "guidance": "Stretch budget; limited suitable options within the center." },
-        { "rating": 4, "guidance": "Very expensive; only a few options fit with significant sacrifice." },
-        { "rating": 3, "guidance": "Costs are near-luxury levels; practical options are scarce." },
-        { "rating": 2, "guidance": "Prohibitively expensive for a typical family budget." },
-        { "rating": 1, "guidance": "Effectively unattainable to house a family of four at 150m² in the city center." }
-      ]
-    },
-    {
-      "key": "150m2 (on city edge)",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Very affordable on the city edge with ample suitable inventory." },
-        { "rating": 9, "guidance": "Affordable with multiple good choices and reasonable commutes." },
-        { "rating": 8, "guidance": "Manageable costs; good-quality homes are attainable." },
-        { "rating": 7, "guidance": "Feasible with budget attention; some compromises needed." },
-        { "rating": 6, "guidance": "Noticeable expense; selection is moderate." },
-        { "rating": 5, "guidance": "Costly; acceptable homes exist but limit other spending." },
-        { "rating": 4, "guidance": "Very costly; options are few or require major trade-offs." },
-        { "rating": 3, "guidance": "Edge locations still price at premium; inventory is tight." },
-        { "rating": 2, "guidance": "Prohibitively expensive even outside the core." },
-        { "rating": 1, "guidance": "No viable 150m² options for a family budget on the city edge." }
-      ]
-    },
-    {
-      "key": "150m2 (suburb)",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Very affordable suburban options with strong amenities and commutes." },
-        { "rating": 9, "guidance": "Affordable with many choices; good schools and transit nearby." },
-        { "rating": 8, "guidance": "Manageable costs; quality suburbs available within reasonable distance." },
-        { "rating": 7, "guidance": "Feasible but requires commute or feature compromises." },
-        { "rating": 6, "guidance": "Notable expense; selection is uneven across suburbs." },
-        { "rating": 5, "guidance": "Costly; suitable homes exist but constrain budget." },
-        { "rating": 4, "guidance": "Expensive or limited inventory; trade-offs on schools or transit." },
-        { "rating": 3, "guidance": "Affordable options are scarce even in outer suburbs." },
-        { "rating": 2, "guidance": "Prohibitively expensive or impractical commutes." },
-        { "rating": 1, "guidance": "No attainable suburban options meeting the size need." }
-      ]
-    },
-    {
-      "key": "Eating Out",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Eating out as a family of four is very affordable and can be done frequently." },
-        { "rating": 9, "guidance": "Regular dining out is affordable with good quality options." },
-        { "rating": 8, "guidance": "Dining out weekly is feasible; costs are reasonable." },
-        { "rating": 7, "guidance": "Eating out is manageable a few times per month without strain." },
-        { "rating": 6, "guidance": "Noticeable expense; requires budgeting for regular outings." },
-        { "rating": 5, "guidance": "Costly; dining out is occasional due to budget impact." },
-        { "rating": 4, "guidance": "Expensive; only infrequent outings are feasible." },
-        { "rating": 3, "guidance": "Very expensive; dining out is rare." },
-        { "rating": 2, "guidance": "Prohibitively costly for a family of four." },
-        { "rating": 1, "guidance": "Eating out is essentially unaffordable." }
-      ]
-    },
-    {
-      "key": "52 Therapy Sessions",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Therapy is highly affordable or publicly covered for weekly sessions." },
-        { "rating": 9, "guidance": "Low out-of-pocket costs with good insurance coverage." },
-        { "rating": 8, "guidance": "Manageable copays; access to English-speaking therapists is reliable." },
-        { "rating": 7, "guidance": "Moderate costs; insurance covers a portion and therapists are findable." },
-        { "rating": 6, "guidance": "Notable expense; coverage exists but requires paperwork or limits." },
-        { "rating": 5, "guidance": "High but workable costs; sessions may need budgeting or partial coverage." },
-        { "rating": 4, "guidance": "Expensive; limited coverage and English-speaking providers cost more." },
-        { "rating": 3, "guidance": "Very expensive; coverage is minimal and provider options are scarce." },
-        { "rating": 2, "guidance": "Prohibitively expensive with long waits for suitable therapists." },
-        { "rating": 1, "guidance": "Weekly therapy is financially or practically inaccessible." }
-      ]
-    },
-    {
-      "key": "3 Days in ER",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Emergency care is low-cost or capped; three ER days create minimal financial impact." },
-        { "rating": 9, "guidance": "Costs are modest with strong insurance coverage and clear pricing." },
-        { "rating": 8, "guidance": "Manageable expense; insurance covers most charges with predictable copays." },
-        { "rating": 7, "guidance": "Noticeable but bearable costs; some out-of-pocket payment required." },
-        { "rating": 6, "guidance": "High deductibles or copays make ER visits significant but manageable." },
-        { "rating": 5, "guidance": "Costly event requiring budgeting or payment plans." },
-        { "rating": 4, "guidance": "Very expensive without comprehensive insurance; bills can be large." },
-        { "rating": 3, "guidance": "Emergency care leads to substantial financial strain." },
-        { "rating": 2, "guidance": "Prohibitively expensive; risk of major debt from ER stay." },
-        { "rating": 1, "guidance": "Three ER days are financially catastrophic." }
-      ]
-    },
-    {
-      "key": "Semester of College (Non Resident)",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Tuition for a non-resident semester is very low or waived; affordable for our family." },
-        { "rating": 9, "guidance": "Low tuition with broad aid available to non-residents." },
-        { "rating": 8, "guidance": "Manageable tuition; some scholarships or discounts apply." },
-        { "rating": 7, "guidance": "Moderate tuition; budgeting required but feasible." },
-        { "rating": 6, "guidance": "High tuition with limited aid for non-residents." },
-        { "rating": 5, "guidance": "Very high tuition; only targeted aid reduces costs." },
-        { "rating": 4, "guidance": "Premium pricing with minimal aid; significant financial strain." },
-        { "rating": 3, "guidance": "Extremely high tuition; financing is difficult." },
-        { "rating": 2, "guidance": "Cost is nearly prohibitive for non-residents." },
-        { "rating": 1, "guidance": "Tuition is effectively unaffordable for non-residents." }
-      ]
-    },
-    {
-      "key": "Semester of College (Perm Resident)",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Tuition for permanent residents is very low or waived with easy aid access." },
-        { "rating": 9, "guidance": "Low tuition with solid aid options for permanent residents." },
-        { "rating": 8, "guidance": "Manageable tuition; common scholarships or subsidies available." },
-        { "rating": 7, "guidance": "Moderate tuition; feasible with standard budgeting." },
-        { "rating": 6, "guidance": "Higher tuition; aid exists but may be competitive." },
-        { "rating": 5, "guidance": "Expensive unless aid is secured; financial planning needed." },
-        { "rating": 4, "guidance": "Very expensive; limited aid leads to significant strain." },
-        { "rating": 3, "guidance": "Tuition is difficult to afford without loans." },
-        { "rating": 2, "guidance": "Nearly prohibitive even for residents." },
-        { "rating": 1, "guidance": "Effectively unaffordable for permanent residents." }
-      ]
-    },
-    {
-      "key": "Semester of College (Citizen)",
-      "ratingGuide": [
-        { "rating": 10, "guidance": "Tuition is free or very low for citizens with ample aid and support." },
-        { "rating": 9, "guidance": "Low tuition with strong aid coverage for citizens." },
-        { "rating": 8, "guidance": "Manageable tuition; common grants/scholarships reduce costs." },
-        { "rating": 7, "guidance": "Moderate tuition; affordable with budgeting." },
-        { "rating": 6, "guidance": "Higher tuition; aid helps but costs remain significant." },
-        { "rating": 5, "guidance": "Expensive unless aid is secured; noticeable financial impact." },
-        { "rating": 4, "guidance": "Very expensive; aid is limited or competitive." },
-        { "rating": 3, "guidance": "Difficult to afford without loans or major savings." },
-        { "rating": 2, "guidance": "Nearly prohibitive for many families." },
-        { "rating": 1, "guidance": "Tuition is essentially unaffordable even for citizens." }
-      ]
-    }
-  ]
+    "ratingGuides": [
+        {
+            "key": "daemon_games_ease_of_entrepreneurship_visa",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Founder/startup visa is clearly documented, fully online, and typically approved within 2â€“4 weeks with low capital requirements and no local sponsor."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Dedicated entrepreneur pathway with predictable criteria, approvals in under 2 months, and light documentation a small indie studio can handle."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Entrepreneur route exists with moderate capital/proof-of-funds and a 2â€“4 month timeline; legal help recommended but not essential."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Viable but slower pathway (4â€“6 months) with quotas or competitive scoring; supporting evidence and professional filings are expected."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Possible via general business visa requiring substantial documentation, in-person steps, and 6â€“9 month timelines; rejection risk is moderate."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Pathway exists but demands high capital, employer-of-record, or incubator sponsorship; timelines often exceed 9 months."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Rules are opaque, processing is slow/unpredictable, and approvals for small foreign founders are uncommon."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Only niche or exceptional approvals; most indie founders are advised to look elsewhere."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Theoretical route on paper but effectively closed due to quotas, local ownership mandates, or repeated rejections."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No viable entrepreneurship/founder visa path for a small foreign game studio."
+                }
+            ]
+        },
+        {
+            "key": "daemon_games_bureaucratic_compliance_effort",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Simple annual filing with minimal fees; bookkeeping and payroll are turnkey and under 10 hours per year."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Mostly annual/quarterly digital filings, predictable deadlines, and low compliance hours (<20 per year)."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Quarterly VAT/payroll plus annual return; standard software and part-time bookkeeper keep effort reasonable."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Regular filings with occasional in-person steps; translations rarely needed but a part-time accountant is expected."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Multiple agency touchpoints and monthly payroll/VAT; professional accountant required to stay compliant."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "High paperwork volume, frequent updates, and notable fees; indie founders spend significant time coordinating vendors."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Complex cross-agency rules with changing interpretations; audits or spot checks are common."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Heavy manual processes, translations, and notarizations; filings routinely delayed or bounced."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Opaque rules, unpredictable penalties, and costly professional support needed for nearly every filing."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Compliance is prohibitively complex or hostile for a small foreign-owned studio."
+                }
+            ]
+        },
+        {
+            "key": "daemon_games_number_of_aa_studios",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "20+ AA (10â€“50 person) studios active locally, offering a deep hiring and collaboration pool."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "15â€“19 AA studios with steady output and networking opportunities."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "10â€“14 AA studios; healthy but focused community."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "7â€“9 AA studios; noticeable presence with periodic launches."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "5â€“6 AA studios; some peers for hiring and knowledge sharing."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "3â€“4 AA studios; small but visible niche."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "2 AA studios; limited peer network."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "1 established AA studio; rare local peers."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Only emerging or short-lived AA efforts; little stability."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No identifiable AA studios in the area."
+                }
+            ]
+        },
+        {
+            "key": "daemon_games_vibrancy_of_local_game_development_communities",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=4 recurring in-person events per month, >=2 jams or conferences per quarter, and a local online community with 1,000+ verified members."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "3 recurring in-person events/month, >=1 jam per quarter, and 700-999 active local online members plus an annual showcase."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "2 in-person events/month, >=2 jams per year, and 400-699 online members with consistent sponsor support."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Average of 1 in-person event/month, >=1 jam per year, and 250-399 online members actively organizing."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "6-11 in-person events/year, online hub of 150-249 members, and occasional jams with >40 attendees."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "4-5 organized events/year, online community of 100-149 members, limited sponsor engagement."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "2-3 events/year with 50-99 attendees and a small online group under 100 members."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "1 event/year with <50 attendees; online coordination is ad-hoc with <75 members."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "No recurring events but an online chat with <25 local members and no jams."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No organized meetups, jams, or online community for game developers."
+                }
+            ]
+        },
+        {
+            "key": "integration_immigration_effort",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Visa filing is straightforward and evaluations have a quick turnaround with minimal evidence required."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Clear rules, responsive processing, and most steps can be done online within 2â€“3 months."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Predictable documentation and 3â€“4 month processing; attorney helpful but not mandatory."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Manageable but requires organized evidence and possibly an interview; 4â€“6 month timeline."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Moderate friction, periodic in-person steps, and 6â€“8 month timelines."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Lengthy or quota-driven processing with notable uncertainty; 8â€“12 months common."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Complex criteria, frequent RFEs, and high rejection risk without expert counsel."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Opaque or discretionary process that is difficult for skilled migrants to navigate."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Approvals for similar skilled migrants are rare; timelines exceed a year."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No practical immigration path for the family profile."
+                }
+            ]
+        },
+        {
+            "key": "integration_adult_language_expectations",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "<10% of government, healthcare, and banking interactions require the local language; certified interpreters are available 24/7."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "10-20% of critical admin tasks require the local language; most tax, visa, and healthcare forms have official English versions."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "20-30% of interactions require the local language; English help desks cover the remainder."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "30-40% of interactions require the local language; English is accepted for routine services but not for legal filings."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "40-50% of interactions require the local language; English is usable mainly with multinational employers."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "50-60% of interactions require the local language; English support exists but often requires paid interpreters."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "60-70% require the local language; English assistance is limited to select agencies."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "70-80% require the local language; English use is tolerated only in tourist or expat districts."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "80-90% require the local language; English is rarely available outside large corporations."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">90% require the local language; English is effectively unsupported for official matters."
+                }
+            ]
+        },
+        {
+            "key": "integration_childhood_language_expectations",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=80% of public K-12 seats offer full English or dual-language tracks starting in kindergarten."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "70-79% of seats offer bilingual programs beginning by grade 1."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "60-69% of seats offer bilingual options beginning by grade 2."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "50-59% of seats offer bilingual options beginning by grade 3."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "40-49% of seats offer bilingual options beginning by grade 4."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "30-39% of seats offer bilingual options beginning by grade 5."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "20-29% of seats offer bilingual options beginning by grade 6."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "10-19% of seats offer bilingual options and they begin after grade 6."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "<10% of seats offer bilingual instruction and only in upper grades."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No public bilingual/English options; private schools are the only pathway."
+                }
+            ]
+        },
+        {
+            "key": "integration_welcoming_of_skilled_immigrants",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Skilled visa approval rate >=95% and national polls show >=70% of residents view skilled immigration positively."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Approval rate 90-94% with 60-69% positive polling."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Approval rate 85-89% with 55-59% positive polling."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Approval rate 80-84% with 50-54% positive polling."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Approval rate 75-79% with 45-49% positive polling."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Approval rate 70-74% with 40-44% positive polling."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Approval rate 65-69% with 35-39% positive polling."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Approval rate 60-64% with 30-34% positive polling."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Approval rate 55-59% with <30% positive polling and rising opposition."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Approval rate <55% plus persistent negative polling and policy backlash."
+                }
+            ]
+        },
+        {
+            "key": "integration_housing_accessibility",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Median lease secured in <=2 weeks with a single month deposit and digital paperwork only."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Lease in 2-3 weeks; <=1.5 months deposit; translator rarely required."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Lease in 3-4 weeks; <=2 months deposit; notarized documents minimal."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Lease in 4-6 weeks; <=2.5 months deposit; guarantor commonly requested."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Lease in 6-8 weeks; 3 months deposit; multiple in-person visits needed."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Lease in 8-10 weeks; 3 months deposit plus income certification."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Lease in 10-12 weeks; >3 months deposit and guarantor mandatory."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Lease in 12-16 weeks; >4 months deposit or multi-year commitment."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Lease in 16-20 weeks; limited inventory requires waiting lists."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">20 weeks average wait or legal barriers prevent most foreign tenants."
+                }
+            ]
+        },
+        {
+            "key": "life_daycare_accessibility",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Placement guaranteed within 1 month for infants and preschoolers."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Placement typically in 1-2 months with transparent queue tracking."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Placement in 2-3 months; waitlists move weekly."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Placement in 3-4 months; parents must confirm monthly."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Placement in 4-6 months with periodic documentation refresh."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Placement in 6-9 months; cancellations common."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Placement in 9-12 months; limited infant seats."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Placement in 12-15 months; many families rely on private stopgaps."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Placement in 15-18 months; public seats extremely scarce."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">18 months average wait and no guarantee of placement."
+                }
+            ]
+        },
+        {
+            "key": "life_daycare_affordability",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Net childcare cost <5% of median household take-home income."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "5-7% of median income."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "8-10% of median income."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "11-13% of median income."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "14-16% of median income."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "17-20% of median income."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "21-25% of median income."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "26-30% of median income."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "31-35% of median income."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">35% of median income or higher."
+                }
+            ]
+        },
+        {
+            "key": "life_healthcare_accessibility",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Median wait <1 day for primary care and <5 days for specialists."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "1-2 day wait for primary care; 5-7 days for specialists."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "3-4 day wait for primary care; 8-10 days for specialists."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "5-7 day wait for primary care; 11-14 days for specialists."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "8-10 day wait for primary care; 15-20 days for specialists."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "11-14 day wait for primary care; 21-28 days for specialists."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "15-20 day wait for primary care; 29-35 days for specialists."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "21-28 day wait for primary care; 36-45 days for specialists."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "29-45 day wait for primary care; >45 days for specialists."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">45 day wait for primary care and >60 days for specialists."
+                }
+            ]
+        },
+        {
+            "key": "life_healthcare_affordability",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Average out-of-pocket share <5% of total medical costs."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "5-8% out-of-pocket."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "9-12% out-of-pocket."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "13-15% out-of-pocket."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "16-20% out-of-pocket."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "21-25% out-of-pocket."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "26-30% out-of-pocket."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "31-40% out-of-pocket."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "41-50% out-of-pocket."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">50% out-of-pocket or unpredictable billing."
+                }
+            ]
+        },
+        {
+            "key": "life_healthcare_tied_to_employment",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "<5% of residents would lose baseline coverage when leaving an employer."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "5-10% at risk of losing coverage when job changes."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "11-20% at risk of losing coverage."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "21-30% at risk of losing coverage."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "31-40% at risk of losing coverage."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "41-50% at risk of losing coverage."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "51-60% at risk of losing coverage."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "61-70% at risk of losing coverage."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "71-80% at risk of losing coverage."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">80% tied to employer and little safety net."
+                }
+            ]
+        },
+        {
+            "key": "life_hours_worked_per_year",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Less than 1,500"
+                },
+                {
+                    "rating": 9,
+                    "guidance": "1,500â€“1,650"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "1,651â€“1,800"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "1,801â€“1,950"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "1,951â€“2,050"
+                },
+                {
+                    "rating": 5,
+                    "guidance": "2,051â€“2,200"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "2,200â€“2,300"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "2,301â€“2,450"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "2,451â€“2,700"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "More than 2,700"
+                }
+            ]
+        },
+        {
+            "key": "life_public_transportation",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=90% of residents live within 500 m of service running every <=10 minutes for 18+ hours/day."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "80-89% within 500 m of 10-minute headways for 18 hours/day."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "70-79% within 500 m of 10-minute headways for 16 hours/day."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "60-69% within 500 m of 12-minute headways for 16 hours/day."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "50-59% within 500 m of 12-minute headways for 14 hours/day."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "40-49% within 500 m of 15-minute headways for 14 hours/day."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "30-39% within 500 m of frequent service; rest drive."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "20-29% within 500 m of frequent service."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "10-19% within 500 m of frequent service."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "<10% within 500 m of reliable transit; service is sparse."
+                }
+            ]
+        },
+        {
+            "key": "outdoors_mild_weather",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=300 days per year with daytime highs 50-85°F and humidity <70%."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "270-299 comfortable days per year."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "240-269 comfortable days per year."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "210-239 comfortable days per year."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "180-209 comfortable days per year."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "150-179 comfortable days per year."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "120-149 comfortable days per year."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "90-119 comfortable days per year."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "60-89 comfortable days per year."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "<60 comfortable days per year due to heat, cold, or humidity."
+                }
+            ]
+        },
+        {
+            "key": "outdoors_winter_temperature_range",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Typical winter highs 45â€“60Â°F and lows 32â€“45Â°F; little snow/ice."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Highs 40â€“55Â°F, lows 28â€“40Â°F with occasional light snow."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Highs 35â€“50Â°F, lows 25â€“35Â°F; manageable snow events."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Highs 30â€“45Â°F, lows 20â€“32Â°F; regular frost and some snow."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Highs 25â€“40Â°F, lows 15â€“28Â°F; persistent cold periods."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Highs 20â€“35Â°F, lows 10â€“25Â°F with significant snow/ice."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Highs 15â€“30Â°F, lows 0â€“20Â°F; long snowy stretches."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Highs 10â€“25Â°F, lows âˆ’10â€“10Â°F; heavy snow and deep freezes common."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Highs below 20Â°F, lows below âˆ’10Â°F for extended periods."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Severe arctic winters with extreme cold and heavy snow dominating daily life."
+                }
+            ]
+        },
+        {
+            "key": "outdoors_spring_temperature_range",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Highs 60â€“75Â°F, lows 50â€“60Â°F; stable and pleasant."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Highs 55â€“72Â°F, lows 45â€“55Â°F; mostly mild with light rain."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Highs 50â€“70Â°F, lows 40â€“50Â°F; occasional swings."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Highs 50â€“68Â°F, lows 38â€“48Â°F; mixed sunny and cool days."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Highs 48â€“65Â°F, lows 36â€“46Â°F with frequent rain."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Highs 45â€“62Â°F, lows 34â€“44Â°F; noticeable variability."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Highs 42â€“60Â°F, lows 32â€“42Â°F; chilly stretches common."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Highs 40â€“58Â°F, lows 30â€“40Â°F; unstable with cold snaps."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Highs under 55Â°F, lows under 35Â°F for much of spring."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Spring remains cold and wet with few comfortable days."
+                }
+            ]
+        },
+        {
+            "key": "outdoors_summer_temperature_range",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Highs 70â€“82Â°F, lows 60â€“70Â°F; low humidity and rare heatwaves."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Highs 72â€“85Â°F, lows 60â€“72Â°F; occasional short heat spikes."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Highs 75â€“88Â°F, lows 62â€“74Â°F with moderate humidity."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Highs 78â€“90Â°F, lows 65â€“75Â°F; periodic heat advisories."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Highs 80â€“92Â°F, lows 66â€“76Â°F; regular humidity/heatwaves."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Highs 82â€“95Â°F, lows 68â€“78Â°F; frequent muggy days."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Highs 85â€“97Â°F, lows 70â€“80Â°F with extended humid periods."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Highs 88â€“100Â°F, lows 72â€“82Â°F; long, oppressive heat stretches."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Highs often above 100Â°F with high humidity; relief is rare."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Extreme heat dominates summer, making outdoor life difficult."
+                }
+            ]
+        },
+        {
+            "key": "outdoors_fall_temperature_range",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Highs 60â€“75Â°F, lows 50â€“60Â°F; crisp and stable."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Highs 55â€“72Â°F, lows 45â€“55Â°F with gentle cool-down."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Highs 50â€“70Â°F, lows 40â€“50Â°F; occasional warm or cool swings."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Highs 50â€“68Â°F, lows 38â€“48Â°F; mix of mild and chilly days."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Highs 48â€“65Â°F, lows 36â€“46Â°F; rain and wind are common."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Highs 45â€“62Â°F, lows 34â€“44Â°F; variability requires layering."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Highs 42â€“60Â°F, lows 32â€“42Â°F; early cold snaps appear."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Highs 40â€“58Â°F, lows 30â€“40Â°F; frequent cold rain."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Highs under 55Â°F, lows under 35Â°F for much of fall."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Fall is short and quickly shifts to winter-like cold."
+                }
+            ]
+        },
+        {
+            "key": "outdoors_natural_beauty",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=50% of land within 60 minutes is protected parkland or coastline plus >=5 nationally recognized scenic sites."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "40-49% protected land within 60 minutes plus 3-4 scenic sites."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "30-39% protected land within 60 minutes plus >=2 scenic sites."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "25-29% protected land within 60 minutes plus at least 1 scenic reserve."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "20-24% protected land within 60 minutes; scenic areas require short travel."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "15-19% protected land within 60 minutes; limited signature vistas."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "10-14% protected land; most scenery requires 2+ hours of travel."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "5-9% protected land; scenic spots are isolated."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "1-4% protected land; few natural attractions."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "<1% protected land or heavy environmental degradation."
+                }
+            ]
+        },
+        {
+            "key": "outdoors_nature_access",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=12 parks >10 acres within 5 km plus >=4 regional trails reachable by transit in under 30 minutes."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "10-11 parks >10 acres within 5 km plus 3 regional trails within 30 minutes."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "8-9 parks >10 acres within 5 km plus 2 regional trails."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "6-7 parks >10 acres within 5 km plus 1 regional trail."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "5 parks >10 acres within 5 km; regional trails require car trips under 45 minutes."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "4 parks >10 acres within 5 km; regional trails require 45-60 minutes."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "3 parks >10 acres within 5 km; regional trails >60 minutes away."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "2 parks >10 acres within 5 km; few trail options."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "1 park >10 acres within 5 km; no formal trail network."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No sizable parks within 5 km; nature outings require day trips."
+                }
+            ]
+        },
+        {
+            "key": "leisure_quality_food_access",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=10 full-service grocers, >=2 weekly farmers markets, and >=80 restaurants per 100k residents within 5 km."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "8-9 grocers, 2 weekly farmers markets, >=65 restaurants per 100k within 5 km."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "7 grocers, weekly farmers market, >=55 restaurants per 100k."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "6 grocers, seasonal farmers market, >=45 restaurants per 100k."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "5 grocers and >=35 restaurants per 100k."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "4 grocers and >=25 restaurants per 100k."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "3 grocers and >=18 restaurants per 100k."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "2 grocers and >=12 restaurants per 100k."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "1 grocer and <12 restaurants per 100k."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No full-service grocer within 5 km and minimal dining options."
+                }
+            ]
+        },
+        {
+            "key": "leisure_peoples_centric_cities",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=80% of trips are completed by walking, cycling, or transit; car lanes are traffic-calmed."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "70-79% of trips are car-free."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "60-69% of trips are car-free."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "50-59% of trips are car-free."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "40-49% of trips are car-free."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "35-39% of trips are car-free."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "30-34% of trips are car-free."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "25-29% of trips are car-free."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "20-24% of trips are car-free."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "<20% of trips are car-free; car dependency dominates."
+                }
+            ]
+        },
+        {
+            "key": "leisure_parent_friendly_3rd_places",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=30 indoor/outdoor child-friendly venues per 100k residents open after 6 p.m. with staff supervision."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "26-29 venues per 100k residents."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "22-25 venues per 100k residents."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "18-21 venues per 100k residents."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "14-17 venues per 100k residents."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "10-13 venues per 100k residents."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "7-9 venues per 100k residents."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "4-6 venues per 100k residents."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "1-3 venues per 100k residents."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No reliable parent-friendly 3rd places after school hours."
+                }
+            ]
+        },
+        {
+            "key": "stability_economic_stability",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "5-year real GDP per capita standard deviation <1%."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "1-1.4% standard deviation."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "1.5-1.9% standard deviation."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "2-2.4% standard deviation."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "2.5-3.4% standard deviation."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "3.5-4.4% standard deviation."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "4.5-5.9% standard deviation."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "6-7.9% standard deviation."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "8-9.9% standard deviation."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">=10% standard deviation with frequent recessions."
+                }
+            ]
+        },
+        {
+            "key": "stability_political_stability",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "World Bank political stability percentile >=90."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "80-89th percentile."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "70-79th percentile."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "60-69th percentile."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "50-59th percentile."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "40-49th percentile."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "30-39th percentile."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "20-29th percentile."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "10-19th percentile."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "<10th percentile with recurrent unrest."
+                }
+            ]
+        },
+        {
+            "key": "stability_social_and_quality_of_life_stability",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Violent crime <200 incidents per 100k residents plus reliable utilities and schooling continuity."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "200-249 incidents per 100k."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "250-299 incidents per 100k."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "300-349 incidents per 100k."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "350-399 incidents per 100k."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "400-449 incidents per 100k."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "450-549 incidents per 100k."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "550-699 incidents per 100k."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "700-899 incidents per 100k."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">=900 incidents per 100k or persistent service disruptions."
+                }
+            ]
+        },
+        {
+            "key": "stability_climate_stability",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "<=5 severe weather or AQI>150 days per year."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "6-9 severe weather/AQI days per year."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "10-13 severe weather/AQI days per year."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "14-17 severe weather/AQI days per year."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "18-21 severe weather/AQI days per year."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "22-25 severe weather/AQI days per year."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "26-30 severe weather/AQI days per year."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "31-40 severe weather/AQI days per year."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "41-55 severe weather/AQI days per year."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">55 severe weather/AQI days per year."
+                }
+            ]
+        },
+        {
+            "key": "stability_migration_stability",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "<=1 major immigration policy overhaul per decade and <1% skilled approvals revoked."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "2 overhauls per decade; 1-2% revocations."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "2-3 overhauls per decade; 2-3% revocations."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "3 overhauls per decade; 3-4% revocations."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "3-4 overhauls per decade; 4-5% revocations."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "4 overhauls per decade; 5-6% revocations."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "4-5 overhauls per decade; 6-7% revocations."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "5 overhauls per decade; 7-8% revocations."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "5-6 overhauls per decade; 8-10% revocations."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">6 overhauls per decade or >10% revocations."
+                }
+            ]
+        },
+        {
+            "key": "opportunity_college_accessibility",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Public tuition <=5% of median household net income with admission rate >=75% for desired programs."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Tuition 6-7% of income with admission rate 70-74%."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Tuition 8-9% with admission rate 65-69%."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Tuition 10-11% with admission rate 60-64%."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Tuition 12-13% with admission rate 55-59%."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Tuition 14-15% with admission rate 50-54%."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Tuition 16-18% with admission rate 45-49%."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Tuition 19-21% with admission rate 40-44%."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Tuition 22-25% with admission rate 35-39%."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">25% of income or admission rate <35%."
+                }
+            ]
+        },
+        {
+            "key": "opportunity_college_quality",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "At least two universities rank within the global top 50 and >50% of advanced programs are available in English."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Top campus ranks 51-100 globally with >40% English programs."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Top campus ranks 101-150 with >35% English programs."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Top campus ranks 151-200 with >30% English programs."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Top campus ranks 201-300 with >25% English programs."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Top campus ranks 301-400 with >20% English programs."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Top campus ranks 401-500 with >15% English programs."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Top campus ranks 501-700 with >10% English programs."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Top campus ranks 701-900 with >5% English programs."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No university in global top 900 and English programs rare."
+                }
+            ]
+        },
+        {
+            "key": "opportunity_continuing_education_accessibility",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=20 accredited adult upskilling programs per 100k residents plus subsidized online options."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "17-19 programs per 100k."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "14-16 programs per 100k."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "11-13 programs per 100k."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "8-10 programs per 100k."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "5-7 programs per 100k."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "3-4 programs per 100k."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "2 programs per 100k with limited schedules."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "1 program per 100k with long waitlists."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No accredited adult education locally."
+                }
+            ]
+        },
+        {
+            "key": "opportunity_demand_for_dotnet_architect",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=25 senior .NET architect postings per million residents per month with median salaries in the top national quartile."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "21-24 postings per million residents per month."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "17-20 postings per million residents per month."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "13-16 postings per million residents per month."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "9-12 postings per million residents per month."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "6-8 postings per million residents per month."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "4-5 postings per million residents per month."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "2-3 postings per million residents per month."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "1 posting per million residents per month."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No recurring senior .NET architect postings."
+                }
+            ]
+        },
+        {
+            "key": "opportunity_demand_for_ruby_on_rails",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=35 Rails developer postings per million residents per month with multiple employers hiring concurrently."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "30-34 postings per million residents per month."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "25-29 postings per million residents per month."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "20-24 postings per million residents per month."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "15-19 postings per million residents per month."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "10-14 postings per million residents per month."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "7-9 postings per million residents per month."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "4-6 postings per million residents per month."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "1-3 postings per million residents per month."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No consistent Rails postings locally."
+                }
+            ]
+        },
+        {
+            "key": "kids_education_quality",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "PISA math/reading/science scores >=90th percentile globally."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "80-89th percentile."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "70-79th percentile."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "60-69th percentile."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "50-59th percentile."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "40-49th percentile."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "30-39th percentile."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "20-29th percentile."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "10-19th percentile."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "<10th percentile with persistent underperformance."
+                }
+            ]
+        },
+        {
+            "key": "kids_food_quality",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=25 Michelin/Bib Gourmand entries per million residents plus top-tier food safety scores."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "20-24 entries per million residents."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "16-19 entries per million residents."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "12-15 entries per million residents."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "9-11 entries per million residents."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "6-8 entries per million residents."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "4-5 entries per million residents."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "2-3 entries per million residents."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "1 entry per million residents."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No recognized culinary destinations and food safety concerns."
+                }
+            ]
+        },
+        {
+            "key": "kids_language_expectations_in_schools",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Students receive >=20 hours/week of English instruction plus bilingual aides in all subjects."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "16-19 hours/week of English instruction with bilingual support in core subjects."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "14-15 hours/week of English instruction with bilingual aides in language-heavy subjects."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "12-13 hours/week of English instruction with some bilingual support."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "10-11 hours/week of English instruction; bilingual aides limited."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "8-9 hours/week of English instruction; translation provided only on request."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "6-7 hours/week of English instruction; most homework in local language."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "4-5 hours/week of English instruction; bilingual aides rare."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "2-3 hours/week of English instruction; classes primarily in local language."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No English instruction in public schools beyond foreign-language elective."
+                }
+            ]
+        },
+        {
+            "key": "kids_language_integration_services",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=150 subsidized language-course seats per 100 newcomers annually plus official translation at all agencies."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "120-149 course seats per 100 newcomers and translation for most agencies."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "100-119 course seats per 100 newcomers; translation for critical services."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "80-99 course seats per 100 newcomers; translation via request."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "60-79 course seats per 100 newcomers; limited translation."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "40-59 course seats per 100 newcomers; classes fill quickly."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "25-39 course seats per 100 newcomers; translation volunteers only."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "10-24 course seats per 100 newcomers; sporadic translation support."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "<10 course seats per 100 newcomers; translation rarely available."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No subsidized language courses or translation programs."
+                }
+            ]
+        },
+        {
+            "key": "kids_bullying_and_racism",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "<1 reported incident per 1,000 students/workers with mandatory anti-bias training and swift enforcement."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "1-2 incidents per 1,000; strong enforcement."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "2-3 incidents per 1,000; enforcement consistent."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "3-4 incidents per 1,000; enforcement improving."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "4-5 incidents per 1,000; mixed enforcement."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "5-6 incidents per 1,000; enforcement inconsistent."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "6-7 incidents per 1,000; enforcement weak."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "7-8 incidents per 1,000; few resources for victims."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "8-10 incidents per 1,000; limited recourse."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">10 incidents per 1,000 with little accountability."
+                }
+            ]
+        },
+        {
+            "key": "cost_of_living_family_150m2_in_city_center",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Very affordable for a family of four; renting/buying 150mÂ² in the city center is easily sustainable."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Affordable with comfortable budgeting; good options available centrally."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Manageable costs; some trade-offs on building or finishes."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Costs are noticeable but feasible with planning."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "High but achievable costs; may require smaller compromises or longer searches."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Stretch budget; limited suitable options within the center."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Very expensive; only a few options fit with significant sacrifice."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Costs are near-luxury levels; practical options are scarce."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Prohibitively expensive for a typical family budget."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Effectively unattainable to house a family of four at 150mÂ² in the city center."
+                }
+            ]
+        },
+        {
+            "key": "cost_of_living_family_150m2_on_city_edge",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Very affordable on the city edge with ample suitable inventory."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Affordable with multiple good choices and reasonable commutes."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Manageable costs; good-quality homes are attainable."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Feasible with budget attention; some compromises needed."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Noticeable expense; selection is moderate."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Costly; acceptable homes exist but limit other spending."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Very costly; options are few or require major trade-offs."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Edge locations still price at premium; inventory is tight."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Prohibitively expensive even outside the core."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No viable 150mÂ² options for a family budget on the city edge."
+                }
+            ]
+        },
+        {
+            "key": "cost_of_living_family_150m2_suburb",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Very affordable suburban options with strong amenities and commutes."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Affordable with many choices; good schools and transit nearby."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Manageable costs; quality suburbs available within reasonable distance."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Feasible but requires commute or feature compromises."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Notable expense; selection is uneven across suburbs."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Costly; suitable homes exist but constrain budget."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Expensive or limited inventory; trade-offs on schools or transit."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Affordable options are scarce even in outer suburbs."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Prohibitively expensive or impractical commutes."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No attainable suburban options meeting the size need."
+                }
+            ]
+        },
+        {
+            "key": "cost_of_living_family_eating_out",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Family meal (two adults, two kids) averages <EUR/USD 45 including drinks."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "EUR/USD 45-55 per family meal."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "EUR/USD 56-65 per family meal."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "EUR/USD 66-75 per family meal."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "EUR/USD 76-85 per family meal."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "EUR/USD 86-95 per family meal."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "EUR/USD 96-110 per family meal."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "EUR/USD 111-130 per family meal."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "EUR/USD 131-160 per family meal."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">EUR/USD 160 per family meal or higher."
+                }
+            ]
+        },
+        {
+            "key": "cost_of_living_family_52_therapy_sessions",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Annual out-of-pocket cost <=EUR/USD 500 thanks to public coverage."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Cost EUR/USD 501-1,000 per year."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Cost EUR/USD 1,001-1,500 per year."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Cost EUR/USD 1,501-2,000 per year."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Cost EUR/USD 2,001-2,500 per year."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Cost EUR/USD 2,501-3,000 per year."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Cost EUR/USD 3,001-3,500 per year."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Cost EUR/USD 3,501-4,000 per year."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Cost EUR/USD 4,001-5,000 per year."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">EUR/USD 5,000 per year or sessions unavailable in English."
+                }
+            ]
+        },
+        {
+            "key": "cost_of_living_family_3_days_in_er",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Net cost <=EUR/USD 200 for a 3-day stay including meds."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "EUR/USD 201-400 total cost."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "EUR/USD 401-600 total cost."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "EUR/USD 601-800 total cost."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "EUR/USD 801-1,000 total cost."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "EUR/USD 1,001-1,250 total cost."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "EUR/USD 1,251-1,500 total cost."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "EUR/USD 1,501-1,800 total cost."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "EUR/USD 1,801-2,200 total cost."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">EUR/USD 2,200 total cost or billed upfront."
+                }
+            ]
+        },
+        {
+            "key": "cost_of_living_family_semester_of_college_non_resident",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Tuition and mandatory fees <=EUR/USD 3,000 per semester."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "EUR/USD 3,001-4,000 per semester."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "EUR/USD 4,001-5,000 per semester."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "EUR/USD 5,001-6,000 per semester."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "EUR/USD 6,001-7,000 per semester."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "EUR/USD 7,001-8,000 per semester."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "EUR/USD 8,001-9,500 per semester."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "EUR/USD 9,501-11,000 per semester."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "EUR/USD 11,001-13,000 per semester."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">EUR/USD 13,000 per semester."
+                }
+            ]
+        },
+        {
+            "key": "cost_of_living_family_semester_of_college_perm_resident",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Tuition <=EUR/USD 1,500 per semester."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "EUR/USD 1,501-2,000 per semester."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "EUR/USD 2,001-2,500 per semester."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "EUR/USD 2,501-3,000 per semester."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "EUR/USD 3,001-3,500 per semester."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "EUR/USD 3,501-4,000 per semester."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "EUR/USD 4,001-4,500 per semester."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "EUR/USD 4,501-5,000 per semester."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "EUR/USD 5,001-5,500 per semester."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">EUR/USD 5,500 per semester."
+                }
+            ]
+        },
+        {
+            "key": "cost_of_living_family_semester_of_college_citizen",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Tuition <=EUR/USD 1,000 per semester."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "EUR/USD 1,001-1,250 per semester."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "EUR/USD 1,251-1,500 per semester."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "EUR/USD 1,501-1,750 per semester."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "EUR/USD 1,751-2,000 per semester."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "EUR/USD 2,001-2,250 per semester."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "EUR/USD 2,251-2,500 per semester."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "EUR/USD 2,501-2,750 per semester."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "EUR/USD 2,751-3,000 per semester."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">EUR/USD 3,000 per semester."
+                }
+            ]
+        },
+        {
+            "key": "life_bureaucratic_compliance_effort",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Digital-by-default registration, translation support, and one-stop gov portals keep everyday compliance tasks under an hour per month."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Most filings completed online with modest queues; occasional in-person visit needed but handled in a single morning."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Mix of paper and online workflows; families spend several afternoons per quarter managing forms and in-person stamps."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Fragmented offices, limited English support, and repeated document requests consume multiple full days per quarter."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Highly manual processes with unpredictable delays; compliance requires persistent follow-up and often local fixer help."
+                }
+            ]
+        }
+    ]
 }

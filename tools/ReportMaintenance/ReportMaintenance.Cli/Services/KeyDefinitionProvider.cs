@@ -62,9 +62,24 @@ public sealed class KeyDefinitionProvider : IKeyDefinitionProvider
                 throw new InvalidOperationException("Unable to deserialize category key data.");
             }
 
-            _cache = document.CategoryKeys
-                .Where(k => !string.IsNullOrWhiteSpace(k.Name))
-                .ToDictionary(k => k.Name, k => k, StringComparer.OrdinalIgnoreCase);
+            var groupedKeys = document.CategoryKeys
+                .Where(k => !string.IsNullOrWhiteSpace(k.Id))
+                .GroupBy(k => k.Id!, StringComparer.OrdinalIgnoreCase);
+
+            var dictionary = new Dictionary<string, CategoryKey>(StringComparer.OrdinalIgnoreCase);
+            foreach (var group in groupedKeys)
+            {
+                var key = group.Key;
+                var first = group.First();
+                dictionary[key] = first;
+
+                if (group.Skip(1).Any())
+                {
+                    _logger.LogWarning("Duplicate key definitions found for '{Key}'. Using the first occurrence.", key);
+                }
+            }
+
+            _cache = dictionary;
 
             _logger.LogInformation("Loaded {Count} key definitions.", _cache.Count);
             return _cache;

@@ -44,12 +44,13 @@ public sealed class ReportContext
     {
         if (_ratingGuides.TryGetValue(key, out var guide) && guide.Entries.Count > 0)
         {
-            return BuildRatingGuideText(guide.Key, guide.Entries);
+            return BuildRatingGuideText(key, guide.Entries);
         }
 
-        if (_keyDefinitions.TryGetValue(key, out var definition) && definition.RatingGuide is { Count: > 0 })
+        var definition = GetKeyDefinition(key);
+        if (definition is { RatingGuide: { Count: > 0 } ratingGuide })
         {
-            return BuildRatingGuideText(key, definition.RatingGuide);
+            return BuildRatingGuideText(key, ratingGuide);
         }
 
         return null;
@@ -57,6 +58,11 @@ public sealed class ReportContext
 
     public CategoryKey? GetKeyDefinition(string key)
     {
+        if (string.IsNullOrWhiteSpace(key))
+        {
+            return null;
+        }
+
         return _keyDefinitions.TryGetValue(key, out var definition) ? definition : null;
     }
 
@@ -70,16 +76,26 @@ public sealed class ReportContext
         return sb.ToString();
     }
 
-    private static string BuildRatingGuideText(string key, IEnumerable<RatingGuideEntry> entries)
+    private string BuildRatingGuideText(string key, IEnumerable<RatingGuideEntry> entries)
     {
         var sb = new StringBuilder();
-        sb.AppendLine($"Rating guidance for '{key}':");
+        sb.AppendLine($"Rating guidance for {GetKeyDescriptor(key)}:");
         foreach (var entry in entries.OrderByDescending(e => e.Rating))
         {
             sb.AppendLine($"- {entry.Rating}: {entry.Guidance}");
         }
 
         return sb.ToString();
+    }
+
+    private string GetKeyDescriptor(string key)
+    {
+        if (_keyDefinitions.TryGetValue(key, out var definition) && !string.IsNullOrWhiteSpace(definition.Label))
+        {
+            return $"'{definition.Label}' ({key})";
+        }
+
+        return $"'{key}'";
     }
 }
 

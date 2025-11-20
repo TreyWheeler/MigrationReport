@@ -42,11 +42,14 @@ async function loadRelationalMain() {
   });
   const categoriesResult = categories.map(cat => ({
     Category: cat.name,
-    Keys: sortByOrderThenName(keysByCategory.get(cat.id) || [], 'order', 'name').map(key => ({
-      Key: key.name,
+    Keys: sortByOrderThenName(keysByCategory.get(cat.id) || [], 'order', 'label').map(key => ({
+      KeyId: key.id,
+      Key: typeof key.label === 'string' && key.label.length > 0 ? key.label : key.id,
       Guidance: key.guidance,
       Informational: coerceInformationalFlag(key.informational),
       Hidden: !!key.hidden,
+      RatingGuide: key.ratingGuide,
+      RatingConsiderations: key.ratingConsiderations,
     })),
   }));
 

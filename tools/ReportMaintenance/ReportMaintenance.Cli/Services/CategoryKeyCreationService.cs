@@ -52,19 +52,19 @@ public sealed class CategoryKeyCreationService
         _logger = logger;
     }
 
-    public async Task AddCategoryKeyAsync(string categorySelector, string keyName, string? keyGuidance, CancellationToken cancellationToken = default)
+    public async Task AddCategoryKeyAsync(string categorySelector, string keyLabel, string? keyGuidance, CancellationToken cancellationToken = default)
     {
         if (string.IsNullOrWhiteSpace(categorySelector))
         {
             throw new ArgumentException("A category selector must be provided.", nameof(categorySelector));
         }
 
-        if (string.IsNullOrWhiteSpace(keyName))
+        if (string.IsNullOrWhiteSpace(keyLabel))
         {
-            throw new ArgumentException("A key name must be provided.", nameof(keyName));
+            throw new ArgumentException("A key label must be provided.", nameof(keyLabel));
         }
 
-        keyName = keyName.Trim();
+        keyLabel = keyLabel.Trim();
         keyGuidance = string.IsNullOrWhiteSpace(keyGuidance) ? null : keyGuidance.Trim();
 
         var categoryMatch = await _categoryKeyProvider.GetCategoryMatchAsync(categorySelector, cancellationToken).ConfigureAwait(false);
@@ -82,35 +82,35 @@ public sealed class CategoryKeyCreationService
         var categoryName = string.IsNullOrWhiteSpace(categoryMatch.DisplayName)
             ? categoryId
             : categoryMatch.DisplayName.Trim();
-        var keyId = BuildKeyId(categoryId, keyName);
+        var keyId = BuildKeyId(categoryId, keyLabel);
 
         var categoryKeysDocument = await LoadCategoryKeyDocumentAsync(cancellationToken).ConfigureAwait(false);
-        ValidateCategoryKeyUniqueness(categoryKeysDocument, categoryId, keyId, keyName);
+        ValidateCategoryKeyUniqueness(categoryKeysDocument, categoryId, keyId, keyLabel);
 
         var ratingGuidesDocument = await LoadRatingGuideDocumentAsync(cancellationToken).ConfigureAwait(false);
-        ValidateRatingGuideUniqueness(ratingGuidesDocument, keyName);
+        ValidateRatingGuideUniqueness(ratingGuidesDocument, keyId);
 
         var familyProfile = await _familyProfileProvider.GetProfileAsync(cancellationToken).ConfigureAwait(false);
         var ratingGuideSuggestion = await _ratingGuideClient
-            .GenerateRatingGuideAsync(keyName, categoryName, familyProfile, keyGuidance, cancellationToken)
+            .GenerateRatingGuideAsync(keyLabel, categoryName, familyProfile, keyGuidance, cancellationToken)
             .ConfigureAwait(false);
 
-        await PersistRatingGuideAsync(ratingGuidesDocument, keyName, ratingGuideSuggestion, cancellationToken).ConfigureAwait(false);
-        await PersistCategoryKeyAsync(categoryKeysDocument, categoryId, keyId, keyName, keyGuidance, cancellationToken).ConfigureAwait(false);
+        await PersistRatingGuideAsync(ratingGuidesDocument, keyId, keyLabel, ratingGuideSuggestion, cancellationToken).ConfigureAwait(false);
+        await PersistCategoryKeyAsync(categoryKeysDocument, categoryId, keyId, keyLabel, keyGuidance, cancellationToken).ConfigureAwait(false);
 
         _categoryKeyProvider.Invalidate();
         _ratingGuideProvider.Invalidate();
 
-        var updatedReports = await EnsureKeyExistsInReportsAsync(keyName, cancellationToken).ConfigureAwait(false);
-        _logger.LogInformation("Ensured key {Key} exists in {Count} reports.", keyName, updatedReports.Count);
+        var updatedReports = await EnsureKeyExistsInReportsAsync(keyId, cancellationToken).ConfigureAwait(false);
+        _logger.LogInformation("Ensured key {KeyId} ({KeyLabel}) exists in {Count} reports.", keyId, keyLabel, updatedReports.Count);
 
         if (updatedReports.Count > 0)
         {
-            await _reportUpdateService.UpdateReportsAsync(updatedReports, keyName, cancellationToken).ConfigureAwait(false);
+            await _reportUpdateService.UpdateReportsAsync(updatedReports, keyId, cancellationToken).ConfigureAwait(false);
         }
         else
         {
-            _logger.LogInformation("Key {Key} already existed in all reports; skipping update pass.", keyName);
+            _logger.LogInformation("Key {KeyId} already existed in all reports; skipping update pass.", keyId);
         }
     }
 
@@ -150,7 +150,7 @@ public sealed class CategoryKeyCreationService
         return document;
     }
 
-    private async Task PersistCategoryKeyAsync(CategoryKeyDocument document, string categoryId, string keyId, string keyName, string? keyGuidance, CancellationToken cancellationToken)
+    private async Task PersistCategoryKeyAsync(CategoryKeyDocument document, string categoryId, string keyId, string keyLabel, string? keyGuidance, CancellationToken cancellationToken)
     {
         var order = document.CategoryKeys
             .Where(k => k.CategoryId.Equals(categoryId, StringComparison.OrdinalIgnoreCase))
@@ -162,7 +162,7 @@ public sealed class CategoryKeyCreationService
         {
             Id = keyId,
             CategoryId = categoryId,
-            Name = keyName,
+            Label = keyLabel,
             Order = order,
             Guidance = keyGuidance
         });
@@ -171,14 +171,14 @@ public sealed class CategoryKeyCreationService
         Directory.CreateDirectory(Path.GetDirectoryName(path)!);
         await using var stream = File.Create(path);
         await JsonSerializer.SerializeAsync(stream, document, WriteOptions, cancellationToken).ConfigureAwait(false);
-        _logger.LogInformation("Added key {KeyName} ({KeyId}) to category {CategoryId}.", keyName, keyId, categoryId);
+        _logger.LogInformation("Added key {KeyLabel} ({KeyId}) to category {CategoryId}.", keyLabel, keyId, categoryId);
     }
 
-    private async Task PersistRatingGuideAsync(RatingGuideDocument document, string keyName, RatingGuideSuggestion suggestion, CancellationToken cancellationToken)
+    private async Task PersistRatingGuideAsync(RatingGuideDocument document, string keyId, string keyLabel, RatingGuideSuggestion suggestion, CancellationToken cancellationToken)
     {
         document.RatingGuides.Add(new RatingGuide
         {
-            Key = keyName,
+            Key = keyId,
             Entries = suggestion.Entries
                 .Select(entry => new RatingGuideEntry
                 {
@@ -192,10 +192,10 @@ public sealed class CategoryKeyCreationService
         Directory.CreateDirectory(Path.GetDirectoryName(path)!);
         await using var stream = File.Create(path);
         await JsonSerializer.SerializeAsync(stream, document, WriteOptions, cancellationToken).ConfigureAwait(false);
-        _logger.LogInformation("Persisted rating guide for {KeyName} with {Count} entries.", keyName, suggestion.Entries.Count);
+        _logger.LogInformation("Persisted rating guide for {KeyLabel} ({KeyId}) with {Count} entries.", keyLabel, keyId, suggestion.Entries.Count);
     }
 
-    private async Task<IReadOnlyList<string>> EnsureKeyExistsInReportsAsync(string keyName, CancellationToken cancellationToken)
+    private async Task<IReadOnlyList<string>> EnsureKeyExistsInReportsAsync(string keyId, CancellationToken cancellationToken)
     {
         var reportNames = await _reportRepository.GetReportNamesAsync(cancellationToken).ConfigureAwait(false);
         var updatedReports = new List<string>();
@@ -203,12 +203,12 @@ public sealed class CategoryKeyCreationService
         foreach (var reportName in reportNames)
         {
             var document = await _reportRepository.LoadAsync(reportName, cancellationToken).ConfigureAwait(false);
-            if (document.Values.Any(entry => entry.Key.Equals(keyName, StringComparison.OrdinalIgnoreCase)))
+            if (document.Values.Any(entry => entry.Key.Equals(keyId, StringComparison.OrdinalIgnoreCase)))
             {
                 continue;
             }
 
-            document.Values.Add(new ReportEntry { Key = keyName });
+            document.Values.Add(new ReportEntry { Key = keyId });
             document.Values.Sort((left, right) => string.Compare(left.Key, right.Key, StringComparison.OrdinalIgnoreCase));
             await _reportRepository.SaveAsync(reportName, document, cancellationToken).ConfigureAwait(false);
             updatedReports.Add(reportName);
@@ -217,24 +217,24 @@ public sealed class CategoryKeyCreationService
         return updatedReports.AsReadOnly();
     }
 
-    private static void ValidateCategoryKeyUniqueness(CategoryKeyDocument document, string categoryId, string keyId, string keyName)
+    private static void ValidateCategoryKeyUniqueness(CategoryKeyDocument document, string categoryId, string keyId, string keyLabel)
     {
         if (document.CategoryKeys.Any(key => key.Id.Equals(keyId, StringComparison.OrdinalIgnoreCase)))
         {
             throw new InvalidOperationException($"A category key with id '{keyId}' already exists.");
         }
 
-        if (document.CategoryKeys.Any(key => key.CategoryId.Equals(categoryId, StringComparison.OrdinalIgnoreCase) && key.Name.Equals(keyName, StringComparison.OrdinalIgnoreCase)))
+        if (document.CategoryKeys.Any(key => key.CategoryId.Equals(categoryId, StringComparison.OrdinalIgnoreCase) && key.Label.Equals(keyLabel, StringComparison.OrdinalIgnoreCase)))
         {
-            throw new InvalidOperationException($"A key named '{keyName}' already exists for category '{categoryId}'.");
+            throw new InvalidOperationException($"A key labeled '{keyLabel}' already exists for category '{categoryId}'.");
         }
     }
 
-    private static void ValidateRatingGuideUniqueness(RatingGuideDocument document, string keyName)
+    private static void ValidateRatingGuideUniqueness(RatingGuideDocument document, string keyId)
     {
-        if (document.RatingGuides.Any(guide => guide.Key.Equals(keyName, StringComparison.OrdinalIgnoreCase)))
+        if (document.RatingGuides.Any(guide => guide.Key.Equals(keyId, StringComparison.OrdinalIgnoreCase)))
         {
-            throw new InvalidOperationException($"A rating guide for key '{keyName}' already exists.");
+            throw new InvalidOperationException($"A rating guide for key '{keyId}' already exists.");
         }
     }
 
@@ -243,13 +243,13 @@ public sealed class CategoryKeyCreationService
         return Path.GetFullPath(relativePath, Directory.GetCurrentDirectory());
     }
 
-    private static string BuildKeyId(string categoryId, string keyName)
+    private static string BuildKeyId(string categoryId, string keyLabel)
     {
-        var builder = new StringBuilder(categoryId.Length + keyName.Length + 1);
+        var builder = new StringBuilder(categoryId.Length + keyLabel.Length + 1);
         builder.Append(categoryId.Trim());
         builder.Append('_');
 
-        var normalized = keyName.Trim();
+        var normalized = keyLabel.Trim();
         var lastWasSeparator = true;
         foreach (var ch in normalized)
         {
@@ -268,7 +268,7 @@ public sealed class CategoryKeyCreationService
         var result = builder.ToString().TrimEnd('_');
         if (result.Length == 0)
         {
-            throw new InvalidOperationException($"Unable to build a key identifier from '{keyName}'.");
+            throw new InvalidOperationException($"Unable to build a key identifier from '{keyLabel}'.");
         }
 
         return result;
