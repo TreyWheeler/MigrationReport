@@ -136,6 +136,51 @@
             ]
         },
         {
+            "key": "daemon_games_number_of_aaa_studios",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "8+ flagship AAA studios (100+ staff) actively shipping titles from the metro."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "6-7 AAA studios with multi-team projects in steady development."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "5 AAA studios anchoring the local enterprise ecosystem."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "4 AAA studios running full production teams on-site."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "3 AAA studios maintaining sizable franchises locally."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "2 AAA studios present; hiring pipeline exists but limited."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "1 AAA studio HQ or major campus operating in the city."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Only satellite AAA support teams (QA/LiveOps) with <150 local staff total."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Only sporadic AAA contract houses or project offices without permanent teams."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No meaningful AAA studio presence."
+                }
+            ]
+        },
+        {
             "key": "daemon_games_vibrancy_of_local_game_development_communities",
             "ratingGuide": [
                 {
@@ -451,47 +496,137 @@
             ]
         },
         {
-            "key": "life_daycare_affordability",
+            "key": "life_daycare_affordability_non_resident",
             "ratingGuide": [
                 {
                     "rating": 10,
-                    "guidance": "Net childcare cost <5% of median household take-home income."
+                    "guidance": "Net daycare tuition <=EUR/USD 500 per month for a non resident child."
                 },
                 {
                     "rating": 9,
-                    "guidance": "5-7% of median income."
+                    "guidance": "EUR/USD 501-600 per month."
                 },
                 {
                     "rating": 8,
-                    "guidance": "8-10% of median income."
+                    "guidance": "EUR/USD 601-700 per month."
                 },
                 {
                     "rating": 7,
-                    "guidance": "11-13% of median income."
+                    "guidance": "EUR/USD 701-800 per month."
                 },
                 {
                     "rating": 6,
-                    "guidance": "14-16% of median income."
+                    "guidance": "EUR/USD 801-900 per month."
                 },
                 {
                     "rating": 5,
-                    "guidance": "17-20% of median income."
+                    "guidance": "EUR/USD 901-1,050 per month."
                 },
                 {
                     "rating": 4,
-                    "guidance": "21-25% of median income."
+                    "guidance": "EUR/USD 1,051-1,200 per month."
                 },
                 {
                     "rating": 3,
-                    "guidance": "26-30% of median income."
+                    "guidance": "EUR/USD 1,201-1,400 per month."
                 },
                 {
                     "rating": 2,
-                    "guidance": "31-35% of median income."
+                    "guidance": "EUR/USD 1,401-1,600 per month."
                 },
                 {
                     "rating": 1,
-                    "guidance": ">35% of median income or higher."
+                    "guidance": ">EUR/USD 1,600 per month."
+                }
+            ]
+        },
+        {
+            "key": "life_daycare_affordability_perm_resident",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Net daycare tuition <=EUR/USD 350 per month for a permanent resident child."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "EUR/USD 351-425 per month."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "EUR/USD 426-500 per month."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "EUR/USD 501-575 per month."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "EUR/USD 576-650 per month."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "EUR/USD 651-725 per month."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "EUR/USD 726-800 per month."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "EUR/USD 801-875 per month."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "EUR/USD 876-950 per month."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">EUR/USD 950 per month."
+                }
+            ]
+        },
+        {
+            "key": "life_daycare_affordability_citizen",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Net daycare tuition <=EUR/USD 250 per month for a citizen child."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "EUR/USD 251-300 per month."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "EUR/USD 301-350 per month."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "EUR/USD 351-400 per month."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "EUR/USD 401-450 per month."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "EUR/USD 451-500 per month."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "EUR/USD 501-575 per month."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "EUR/USD 576-650 per month."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "EUR/USD 651-725 per month."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">EUR/USD 725 per month."
                 }
             ]
         },
@@ -541,47 +676,137 @@
             ]
         },
         {
-            "key": "life_healthcare_affordability",
+            "key": "life_healthcare_affordability_non_resident",
             "ratingGuide": [
                 {
                     "rating": 10,
-                    "guidance": "Average out-of-pocket share <5% of total medical costs."
+                    "guidance": "Family healthcare costs (premiums plus typical out-of-pocket) <=EUR/USD 1,000 per month for non residents."
                 },
                 {
                     "rating": 9,
-                    "guidance": "5-8% out-of-pocket."
+                    "guidance": "EUR/USD 1,001-1,200 per month."
                 },
                 {
                     "rating": 8,
-                    "guidance": "9-12% out-of-pocket."
+                    "guidance": "EUR/USD 1,201-1,400 per month."
                 },
                 {
                     "rating": 7,
-                    "guidance": "13-15% out-of-pocket."
+                    "guidance": "EUR/USD 1,401-1,600 per month."
                 },
                 {
                     "rating": 6,
-                    "guidance": "16-20% out-of-pocket."
+                    "guidance": "EUR/USD 1,601-1,800 per month."
                 },
                 {
                     "rating": 5,
-                    "guidance": "21-25% out-of-pocket."
+                    "guidance": "EUR/USD 1,801-2,100 per month."
                 },
                 {
                     "rating": 4,
-                    "guidance": "26-30% out-of-pocket."
+                    "guidance": "EUR/USD 2,101-2,400 per month."
                 },
                 {
                     "rating": 3,
-                    "guidance": "31-40% out-of-pocket."
+                    "guidance": "EUR/USD 2,401-2,800 per month."
                 },
                 {
                     "rating": 2,
-                    "guidance": "41-50% out-of-pocket."
+                    "guidance": "EUR/USD 2,801-3,200 per month."
                 },
                 {
                     "rating": 1,
-                    "guidance": ">50% out-of-pocket or unpredictable billing."
+                    "guidance": ">EUR/USD 3,200 per month or highly volatile billing."
+                }
+            ]
+        },
+        {
+            "key": "life_healthcare_affordability_perm_resident",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Monthly costs <=EUR/USD 800 with permanent resident coverage."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "EUR/USD 801-900 per month."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "EUR/USD 901-1,000 per month."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "EUR/USD 1,001-1,150 per month."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "EUR/USD 1,151-1,300 per month."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "EUR/USD 1,301-1,450 per month."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "EUR/USD 1,451-1,650 per month."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "EUR/USD 1,651-1,900 per month."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "EUR/USD 1,901-2,200 per month."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">EUR/USD 2,200 per month."
+                }
+            ]
+        },
+        {
+            "key": "life_healthcare_affordability_citizen",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Monthly healthcare costs <=EUR/USD 500 for citizens."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "EUR/USD 501-575 per month."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "EUR/USD 576-650 per month."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "EUR/USD 651-725 per month."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "EUR/USD 726-800 per month."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "EUR/USD 801-875 per month."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "EUR/USD 876-950 per month."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "EUR/USD 951-1,050 per month."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "EUR/USD 1,051-1,200 per month."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">EUR/USD 1,200 per month."
                 }
             ]
         },
@@ -1040,43 +1265,43 @@
             "ratingGuide": [
                 {
                     "rating": 10,
-                    "guidance": ">=10 full-service grocers, >=2 weekly farmers markets, and >=80 restaurants per 100k residents within 5 km."
+                    "guidance": "Ultra-processed (NOVA 4) foods <15% of caloric intake, >6 permanent fresh food halls/markets per 100k residents, and <0.5 fast-food chains per 10k residents."
                 },
                 {
                     "rating": 9,
-                    "guidance": "8-9 grocers, 2 weekly farmers markets, >=65 restaurants per 100k within 5 km."
+                    "guidance": "Ultra-processed share 15-19%, >5 permanent markets per 100k, <0.7 fast-food outlets per 10k."
                 },
                 {
                     "rating": 8,
-                    "guidance": "7 grocers, weekly farmers market, >=55 restaurants per 100k."
+                    "guidance": "Ultra-processed share 20-24%, >4 fresh markets or weekly farmers markets per 100k, <1 fast-food outlet per 10k."
                 },
                 {
                     "rating": 7,
-                    "guidance": "6 grocers, seasonal farmers market, >=45 restaurants per 100k."
+                    "guidance": "Ultra-processed share 25-29%, at least 3 markets/CSAs with daily produce, <1.2 fast-food outlets per 10k."
                 },
                 {
                     "rating": 6,
-                    "guidance": "5 grocers and >=35 restaurants per 100k."
+                    "guidance": "Ultra-processed share 30-34%, 2-3 farmers markets or co-ops supplying fresh staples, <1.5 fast-food outlets per 10k."
                 },
                 {
                     "rating": 5,
-                    "guidance": "4 grocers and >=25 restaurants per 100k."
+                    "guidance": "Ultra-processed share 35-39%, at least 2 dependable produce vendors but heavy packaged presence, <1.8 fast-food outlets per 10k."
                 },
                 {
                     "rating": 4,
-                    "guidance": "3 grocers and >=18 restaurants per 100k."
+                    "guidance": "Ultra-processed share 40-44%, only 1 recurring farmers market or produce co-op, fast-food density <2.2 per 10k."
                 },
                 {
                     "rating": 3,
-                    "guidance": "2 grocers and >=12 restaurants per 100k."
+                    "guidance": "Ultra-processed share 45-54%, monthly or seasonal markets only, 2.2-2.8 fast-food outlets per 10k."
                 },
                 {
                     "rating": 2,
-                    "guidance": "1 grocer and <12 restaurants per 100k."
+                    "guidance": "Ultra-processed share 55-64%, fresh produce mostly through supermarkets with limited variety, >=3 fast-food outlets per 10k."
                 },
                 {
                     "rating": 1,
-                    "guidance": "No full-service grocer within 5 km and minimal dining options."
+                    "guidance": "Ultra-processed share >=65%, convenience/fast-food venues outnumber produce markets >4:1, little cultural emphasis on fresh cooking."
                 }
             ]
         },
@@ -1670,43 +1895,43 @@
             "ratingGuide": [
                 {
                     "rating": 10,
-                    "guidance": ">=25 Michelin/Bib Gourmand entries per million residents plus top-tier food safety scores."
+                    "guidance": "School meals score >=90 on the Healthy Eating Index (HEI) or equivalent, with <5% of calories from ultra-processed foods."
                 },
                 {
                     "rating": 9,
-                    "guidance": "20-24 entries per million residents."
+                    "guidance": "HEI 85-89 with <8% ultra-processed share."
                 },
                 {
                     "rating": 8,
-                    "guidance": "16-19 entries per million residents."
+                    "guidance": "HEI 80-84 with <10% ultra-processed share."
                 },
                 {
                     "rating": 7,
-                    "guidance": "12-15 entries per million residents."
+                    "guidance": "HEI 75-79 with <12% ultra-processed share."
                 },
                 {
                     "rating": 6,
-                    "guidance": "9-11 entries per million residents."
+                    "guidance": "HEI 70-74 with <15% ultra-processed share."
                 },
                 {
                     "rating": 5,
-                    "guidance": "6-8 entries per million residents."
+                    "guidance": "HEI 65-69 with <20% ultra-processed share."
                 },
                 {
                     "rating": 4,
-                    "guidance": "4-5 entries per million residents."
+                    "guidance": "HEI 60-64 with <25% ultra-processed share."
                 },
                 {
                     "rating": 3,
-                    "guidance": "2-3 entries per million residents."
+                    "guidance": "HEI 55-59 with <30% ultra-processed share."
                 },
                 {
                     "rating": 2,
-                    "guidance": "1 entry per million residents."
+                    "guidance": "HEI 50-54 with <35% ultra-processed share."
                 },
                 {
                     "rating": 1,
-                    "guidance": "No recognized culinary destinations and food safety concerns."
+                    "guidance": "HEI <50 and/or >35% of calories from ultra-processed foods."
                 }
             ]
         },
@@ -1850,43 +2075,43 @@
             "ratingGuide": [
                 {
                     "rating": 10,
-                    "guidance": "Very affordable for a family of four; renting/buying 150mÂ² in the city center is easily sustainable."
+                    "guidance": "Monthly rent for a 150m2 home is <=EUR/USD 2,500 equivalent."
                 },
                 {
                     "rating": 9,
-                    "guidance": "Affordable with comfortable budgeting; good options available centrally."
+                    "guidance": "EUR/USD 2,501-3,000 per month."
                 },
                 {
                     "rating": 8,
-                    "guidance": "Manageable costs; some trade-offs on building or finishes."
+                    "guidance": "EUR/USD 3,001-3,500 per month."
                 },
                 {
                     "rating": 7,
-                    "guidance": "Costs are noticeable but feasible with planning."
+                    "guidance": "EUR/USD 3,501-4,000 per month."
                 },
                 {
                     "rating": 6,
-                    "guidance": "High but achievable costs; may require smaller compromises or longer searches."
+                    "guidance": "EUR/USD 4,001-4,500 per month."
                 },
                 {
                     "rating": 5,
-                    "guidance": "Stretch budget; limited suitable options within the center."
+                    "guidance": "EUR/USD 4,501-5,000 per month."
                 },
                 {
                     "rating": 4,
-                    "guidance": "Very expensive; only a few options fit with significant sacrifice."
+                    "guidance": "EUR/USD 5,001-5,800 per month."
                 },
                 {
                     "rating": 3,
-                    "guidance": "Costs are near-luxury levels; practical options are scarce."
+                    "guidance": "EUR/USD 5,801-6,600 per month."
                 },
                 {
                     "rating": 2,
-                    "guidance": "Prohibitively expensive for a typical family budget."
+                    "guidance": "EUR/USD 6,601-7,500 per month."
                 },
                 {
                     "rating": 1,
-                    "guidance": "Effectively unattainable to house a family of four at 150mÂ² in the city center."
+                    "guidance": ">EUR/USD 7,500 per month or inventory rarely available."
                 }
             ]
         },
@@ -1895,43 +2120,43 @@
             "ratingGuide": [
                 {
                     "rating": 10,
-                    "guidance": "Very affordable on the city edge with ample suitable inventory."
+                    "guidance": "Monthly rent for a 150m2 home is <=EUR/USD 2,500 equivalent."
                 },
                 {
                     "rating": 9,
-                    "guidance": "Affordable with multiple good choices and reasonable commutes."
+                    "guidance": "EUR/USD 2,501-3,000 per month."
                 },
                 {
                     "rating": 8,
-                    "guidance": "Manageable costs; good-quality homes are attainable."
+                    "guidance": "EUR/USD 3,001-3,500 per month."
                 },
                 {
                     "rating": 7,
-                    "guidance": "Feasible with budget attention; some compromises needed."
+                    "guidance": "EUR/USD 3,501-4,000 per month."
                 },
                 {
                     "rating": 6,
-                    "guidance": "Noticeable expense; selection is moderate."
+                    "guidance": "EUR/USD 4,001-4,500 per month."
                 },
                 {
                     "rating": 5,
-                    "guidance": "Costly; acceptable homes exist but limit other spending."
+                    "guidance": "EUR/USD 4,501-5,000 per month."
                 },
                 {
                     "rating": 4,
-                    "guidance": "Very costly; options are few or require major trade-offs."
+                    "guidance": "EUR/USD 5,001-5,800 per month."
                 },
                 {
                     "rating": 3,
-                    "guidance": "Edge locations still price at premium; inventory is tight."
+                    "guidance": "EUR/USD 5,801-6,600 per month."
                 },
                 {
                     "rating": 2,
-                    "guidance": "Prohibitively expensive even outside the core."
+                    "guidance": "EUR/USD 6,601-7,500 per month."
                 },
                 {
                     "rating": 1,
-                    "guidance": "No viable 150mÂ² options for a family budget on the city edge."
+                    "guidance": ">EUR/USD 7,500 per month or inventory rarely available."
                 }
             ]
         },
@@ -1940,43 +2165,43 @@
             "ratingGuide": [
                 {
                     "rating": 10,
-                    "guidance": "Very affordable suburban options with strong amenities and commutes."
+                    "guidance": "Monthly rent for a 150m2 home is <=EUR/USD 2,500 equivalent."
                 },
                 {
                     "rating": 9,
-                    "guidance": "Affordable with many choices; good schools and transit nearby."
+                    "guidance": "EUR/USD 2,501-3,000 per month."
                 },
                 {
                     "rating": 8,
-                    "guidance": "Manageable costs; quality suburbs available within reasonable distance."
+                    "guidance": "EUR/USD 3,001-3,500 per month."
                 },
                 {
                     "rating": 7,
-                    "guidance": "Feasible but requires commute or feature compromises."
+                    "guidance": "EUR/USD 3,501-4,000 per month."
                 },
                 {
                     "rating": 6,
-                    "guidance": "Notable expense; selection is uneven across suburbs."
+                    "guidance": "EUR/USD 4,001-4,500 per month."
                 },
                 {
                     "rating": 5,
-                    "guidance": "Costly; suitable homes exist but constrain budget."
+                    "guidance": "EUR/USD 4,501-5,000 per month."
                 },
                 {
                     "rating": 4,
-                    "guidance": "Expensive or limited inventory; trade-offs on schools or transit."
+                    "guidance": "EUR/USD 5,001-5,800 per month."
                 },
                 {
                     "rating": 3,
-                    "guidance": "Affordable options are scarce even in outer suburbs."
+                    "guidance": "EUR/USD 5,801-6,600 per month."
                 },
                 {
                     "rating": 2,
-                    "guidance": "Prohibitively expensive or impractical commutes."
+                    "guidance": "EUR/USD 6,601-7,500 per month."
                 },
                 {
                     "rating": 1,
-                    "guidance": "No attainable suburban options meeting the size need."
+                    "guidance": ">EUR/USD 7,500 per month or inventory rarely available."
                 }
             ]
         },

@@ -22,6 +22,15 @@
             "valueRequirements": "Value must be a single integer representing the count of AA studios (e.g., \"7\")."
         },
         {
+            "id": "daemon_games_number_of_aaa_studios",
+            "categoryId": "daemon_games",
+            "label": "Number of AAA Studios",
+            "model": "gpt-5-mini",
+            "order": 4,
+            "guidance": "Number of major AAA studios with 100+ employees actively producing titles in the region.",
+            "valueRequirements": "Value must be a single integer representing the count of AAA studios (e.g., \"3\")."
+        },
+        {
             "id": "daemon_games_vibrancy_of_local_game_development_communities",
             "categoryId": "daemon_games",
             "label": "Vibrancy of local game development communities",
@@ -85,6 +94,7 @@
             "id": "daemon_games_employer_on_cost_rate",
             "categoryId": "daemon_games",
             "label": "Employer On Cost Rate",
+            "model": "gpt-5-mini",
             "order": 12,
             "valueRequirements": "A single percentage value represented as a whole number (example: 35%)",
             "informational": true
@@ -93,6 +103,7 @@
             "id": "daemon_games_corporate_tax_rate",
             "categoryId": "daemon_games",
             "label": "Corporate Tax Rate",
+            "model": "gpt-5-mini",
             "order": 13,
             "valueRequirements": "Value must be a single percentage value such as 25%.",
             "informational": true
@@ -101,6 +112,7 @@
             "id": "daemon_games_dev_incentive_rate",
             "categoryId": "daemon_games",
             "label": "Dev Incentive Rate",
+            "model": "gpt-5-mini",
             "order": 14,
             "guidance": "Effective % credit/rebate on eligible development costs (e.g. 30% game tax credit).",
             "valueRequirements": "Value must be a single percentage value such as 30%.",
@@ -110,6 +122,7 @@
             "id": "daemon_games_dev_incentive_eligible_share",
             "categoryId": "daemon_games",
             "label": "Dev Incentive Eligible Share",
+            "model": "gpt-5-mini",
             "order": 15,
             "guidance": "Fraction of total dev cost that qualifies for the incentive (e.g. 0.8 for 80%).",
             "valueRequirements": "Value must be a single percentage value representing the eligible share (e.g., 80%).",
@@ -224,28 +237,64 @@
             "order": 2
         },
         {
-            "id": "life_daycare_affordability",
+            "id": "life_daycare_affordability_non_resident",
             "categoryId": "life",
-            "label": "Daycare Affordability",
-            "order": 3
+            "label": "Daycare Affordability (Non Resident)",
+            "order": 3,
+            "guidance": "Estimated monthly cost for full-time daycare when the child is considered a non resident.",
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+        },
+        {
+            "id": "life_daycare_affordability_perm_resident",
+            "categoryId": "life",
+            "label": "Daycare Affordability (Perm Resident)",
+            "order": 4,
+            "guidance": "Estimated monthly cost for full-time daycare when the child qualifies as a permanent resident.",
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+        },
+        {
+            "id": "life_daycare_affordability_citizen",
+            "categoryId": "life",
+            "label": "Daycare Affordability (Citizen)",
+            "order": 5,
+            "guidance": "Estimated monthly cost for full-time daycare when the child is a citizen.",
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
         },
         {
             "id": "life_healthcare_accessibility",
             "categoryId": "life",
             "label": "Healthcare Accessibility",
-            "order": 4
+            "order": 6
         },
         {
-            "id": "life_healthcare_affordability",
+            "id": "life_healthcare_affordability_non_resident",
             "categoryId": "life",
-            "label": "Healthcare Affordability",
-            "order": 5
+            "label": "Healthcare Affordability (Non Resident)",
+            "order": 7,
+            "guidance": "Estimated monthly healthcare expenses (insurance premiums plus typical out-of-pocket) when the family has non-resident status.",
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+        },
+        {
+            "id": "life_healthcare_affordability_perm_resident",
+            "categoryId": "life",
+            "label": "Healthcare Affordability (Perm Resident)",
+            "order": 8,
+            "guidance": "Estimated monthly healthcare expenses when covered as permanent residents, including insurance and average out-of-pocket costs.",
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+        },
+        {
+            "id": "life_healthcare_affordability_citizen",
+            "categoryId": "life",
+            "label": "Healthcare Affordability (Citizen)",
+            "order": 9,
+            "guidance": "Estimated monthly healthcare expenses for citizens with standard coverage.",
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
         },
         {
             "id": "life_healthcare_tied_to_employment",
             "categoryId": "life",
             "label": "Healthcare Tied to Employment",
-            "order": 6,
+            "order": 10,
             "ratingGuide": [
                 {
                     "rating": 10,
@@ -261,7 +310,7 @@
             "id": "life_hours_worked_per_year",
             "categoryId": "life",
             "label": "Hours Worked Per Year",
-            "order": 7,
+            "order": 11,
             "guidance": "Typically average hours worked per year. Takes into account vacation/sick leave, weekly hours, etc.",
             "valueRequirements": "Value must be a single integer",
             "ratingGuide": [
@@ -279,7 +328,7 @@
             "id": "life_public_transportation",
             "categoryId": "life",
             "label": "Public Transportation",
-            "order": 8,
+            "order": 12,
             "guidance": "Quality and ubiquity of public transportation"
         },
         {
@@ -446,6 +495,7 @@
             "id": "opportunity_salary_for_dotnet_architect",
             "categoryId": "opportunity",
             "label": "Salary for .NET Architect (20 years of experience)",
+            "model": "gpt-5-mini",
             "order": 5,
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
             "informational": true
@@ -460,6 +510,7 @@
             "id": "opportunity_salary_for_ruby_on_rails",
             "categoryId": "opportunity",
             "label": "Salary for Ruby on Rails (6 years of experience)",
+            "model": "gpt-5-mini",
             "order": 7,
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
             "informational": true
@@ -476,13 +527,14 @@
             "categoryId": "kids",
             "label": "Food Quality",
             "order": 2,
-            "guidance": "In primary and in scondary schooling"
+            "guidance": "Evaluate school meal plans using a consistent nutrition quality index (e.g., Healthy Eating Index adapted to local dietary guidelines) with emphasis on limiting ultra-processed foods in primary and secondary schools."
         },
         {
             "id": "kids_language_expectations_in_schools",
             "categoryId": "kids",
             "label": "Language Expectations in Schools",
-            "order": 3
+            "order": 3,
+            "guidance": "Capture the average weekly hours of English instruction in public schools and whether bilingual aides support core subjects."
         },
         {
             "id": "kids_language_integration_services",
@@ -522,7 +574,7 @@
             "categoryId": "cost_of_living_family",
             "label": "150m2 (in city center)",
             "order": 1,
-            "guidance": "Estimated cost of living for a family of four in the city center",
+            "guidance": "Report the typical monthly rent to lease a 150m2 family apartment in the central business/core districts, including estimated building fees where standard.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
         },
         {
@@ -530,7 +582,7 @@
             "categoryId": "cost_of_living_family",
             "label": "150m2 (on city edge)",
             "order": 2,
-            "guidance": "Estimated cost of living for a family of four on the city edge",
+            "guidance": "Report the monthly rent for a representative 150m2 family apartment on the edge of the city (mixed residential/urban fringe). Include common charges if typical.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
         },
         {
@@ -538,7 +590,7 @@
             "categoryId": "cost_of_living_family",
             "label": "150m2 (suburb)",
             "order": 3,
-            "guidance": "Estimated cost of living for a family of four in the most appropriate suburb",
+            "guidance": "Report the monthly rent for a 150m2 family home in a realistic commuter suburb with comparable schools/amenities. Include HOA/service charges if expected.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
         },
         {
@@ -554,6 +606,7 @@
             "categoryId": "cost_of_living_family",
             "label": "Health Insurance Costs",
             "order": 5,
+            "guidance": "Capture the typical monthly family premium. If health insurance is optional or only an add-on to public coverage, record the value as 0.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
             "informational": true
         },

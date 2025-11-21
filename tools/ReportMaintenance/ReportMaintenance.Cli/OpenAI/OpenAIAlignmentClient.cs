@@ -171,7 +171,6 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
         {
             model = model,
             temperature = _options.Temperature,
-            max_output_tokens = 800,
             text = new { format = new { type = "json_object" } },
             input = new object[]
             {

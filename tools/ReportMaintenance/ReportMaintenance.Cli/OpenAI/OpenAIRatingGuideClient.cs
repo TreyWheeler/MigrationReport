@@ -116,7 +116,6 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
         {
             model = _options.Model,
             temperature = _options.Temperature,
-            max_output_tokens = 800,
             text = new { format = new { type = "json_object" } },
             input = new object[]
             {
