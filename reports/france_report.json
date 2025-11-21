@@ -5,25 +5,25 @@
     {
       "key": "cost_of_living_family_150m2_in_city_center",
       "alignmentText": "EUR 6,000.00 ($6,600.00)",
-      "alignmentValue": 6,
+      "alignmentValue": 3,
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
       "alignmentText": "EUR 2,300.00 ($2,530.00)",
-      "alignmentValue": 7,
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "EUR 320,000.00 ($345,600.00)",
-      "alignmentValue": 6,
+      "alignmentText": "EUR 3,800.00 ($4,104.00)",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "EUR 1,200.00 ($1,308.00)",
-      "alignmentValue": 5
+      "alignmentText": "EUR 350.00 ($380.50)",
+      "alignmentValue": 9
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
@@ -33,83 +33,85 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "France: 20-30% of official tasks require French; English support exists in many services; family plans to learn French.",
+      "alignmentText": "France (FR): 20-30% of interactions require French; English support exists in many services; family plans to learn French to ease integration.",
       "alignmentValue": 8
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "In France, primary schools enforce anti-bullying quickly; caucasian American immigrant children in France typically face very rare incidents.",
+      "alignmentText": "In France, primary/secondary schools enforce anti-bullying. Caucasian American immigrant children report very rare incidents with swift enforcement.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "France (FR): for a small family startup, monthly payroll/VAT and cross-agency filings; hire a local accountant to stay compliant.",
-      "alignmentValue": 6
+      "alignmentText": "France (FR): small family startup. Payroll and VAT filings are handled by a local accountant; translations are rarely needed.",
+      "alignmentValue": 7
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "France FR: Public schools offer bilingual options around 60-69% by grade 2; start French early for Anduin (5) and Alasdair (1).",
+      "alignmentText": "France FR: Public bilingual options ~60-69% by grade 2; start French early for Anduin (5) and Alasdair (1). English ubiquity important.",
       "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "France\u0027s temperate climate and strong infrastructure keep occasional heatwaves or floods well-managed for families.",
-      "alignmentValue": 9
+      "alignmentText": "France\u0027s temperate climate and solid infrastructure offer mild weather most of the year; heatwaves and floods occur occasionally but are manageable.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "France public universities keep tuition very low for non-EU students; CROUS subsidies ease costs for international families, with favorable admission odds.",
+      "alignmentText": "In France, public universities offer low tuition for international students; CROUS subsidies ease costs and aid admissions.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "France\u0027s grandes ecoles (Paris-Saclay) offer strong English programs; bilingual exposure is feasible for tech careers.",
+      "alignmentText": "Paris-Saclay and Paris-area universities offer English-taught tech programs; bilingual exposure matches your family\u0027s education goals in France.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Paris, FR offers extensive English-friendly continuing education with flexible enrollment and subsidized online options; fits a busy family\u0027s learning goals.",
+      "alignmentText": "Paris, FR offers extensive English-friendly continuing education with flexible enrollment and subsidized online options for a busy family.",
       "alignmentValue": 10
     },
     {
       "key": "life_daycare_accessibility",
-      "alignmentText": "France: a 1-year-old usually faces 3\u20136 month cr\u00E8che wait times. A 5-year-old mostly transitions to school care; plan flexibility remains essential.",
-      "alignmentValue": 6
+      "alignmentText": "France: 3-6 month creche waits for 1-year-olds; plan flexibility and private options exist; 5-year-olds transition to primary school.",
+      "alignmentValue": 7
     },
     {
       "key": "life_daycare_affordability",
-      "alignmentText": "France\u0027s subsidized cr\u00E8ches (CAF) cost about 9\u201312% of median income for a 1-year-old; subsidies help keep it affordable.",
-      "alignmentValue": 8,
+      "alignmentText": "France\u0027s CAF childcare subsidies keep 1-year-old daycare around 9\u201312% of income, helping a two-child family stay affordable.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "France (Paris/Lyon) offers robust senior .NET Architect roles; remote/hybrid options and visa pathways support your family-friendly move.",
-      "alignmentValue": 8
+      "alignmentText": "France (Paris/Lyon) has strong senior .NET Architect roles; remote/hybrid options and visa routes ease a family move with solid schools.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "France (FR): Rails demand steady in Paris/Lyon startups; remote EU roles exist; English-friendly teams help Sarah settle and grow in France.",
-      "alignmentValue": 7
+      "alignmentText": "France (FR): Rails demand steady in Paris/Lyon startups; remote EU roles exist; English-friendly teams suit Sarah and Trey as they settle in France.",
+      "alignmentValue": 8
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "France startup visa suits a KC indie game studio; 4-6 months with filings and some in-person steps; family-friendly FR setup.",
+      "alignmentText": "France startup visa is viable for a small indie game studio; 4-6 months with some in-person steps; family-friendly setup for two adults, two kids.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_eating_out",
-      "alignmentText": "EUR 70.00 ($77.00)",
+      "alignmentText": "EUR 75.00 ($82.50)",
       "alignmentValue": 7
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "France\u0027s stable, diverse economy offers EU access and startup grants. Strong public services and family-friendly policies support our entrepreneurial family.",
+      "alignmentText": "France\u0027s stable economy, EU access, and startup grants fit our plans; strong public services support work-life balance for a growing family.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -121,192 +123,192 @@
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "France fall (FR): highs 55\u201372\u00B0F, lows 45\u201355\u00B0F; gentle cool-down fits your mild, family-friendly plan in France.",
+      "alignmentText": "France fall (FR): highs 55\u201372\u00B0F, lows 45\u201355\u00B0F; mild, family-friendly autumn in FR.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "France\u0027s public school meals are nutritious and safe, aligning with kids\u0027 nutrition needs. Cantine culture supports kid-friendly variety with local produce.",
-      "alignmentValue": 4,
+      "alignmentText": "France\u0027s cantines emphasize local produce and balanced meals; school meals likely HEI 80-84 with ultra-processed \u003C10%.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "France\u0027s universal healthcare supports families; in urban areas, English-speaking pediatric clinics offer modest wait times.",
+      "alignmentText": "France\u0027s universal care; in urban centers, pediatric GP waits ~1\u20132 days. Specialists ~5\u20137 days; English-friendly clinics are common.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability",
-      "alignmentText": "In France, universal health care plus mutuelle keeps routine and pediatric care affordable for a family of four; copays are modest and predictable.",
+      "alignmentText": "France\u0027s universal health care with mutuelle keeps routine and pediatric care affordable for a family of four; copays are modest and predictable.",
       "alignmentValue": 10
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "France\u0027s S\u00E9curit\u00E9 Sociale provides universal health; residency auto-enrolls, and job changes rarely disrupt coverage for families in FR.",
-      "alignmentValue": 10,
-      "sameAsParent": true
+      "alignmentText": "France offers universal health coverage through S\u00E9curit\u00E9 Sociale. Residency auto-enrolls and job changes rarely disrupt the family\u0027s coverage.",
+      "alignmentValue": 10
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "1820",
-      "alignmentValue": 7,
+      "alignmentText": "1645",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "France: mid-sized cities typically take 4-6 months to rent a family home; guarantor common; English options vary; seek parks and schools.",
+      "alignmentText": "France FR: in mid-sized cities, family rentals typically take 4-6 months; guarantor common; English options vary; seek parks and schools.",
       "alignmentValue": 2,
       "sameAsParent": false
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "France (FR): Passeport Talent for US founders remains feasible for a family. Requires organized evidence; 3-4 month processing; interview possible.",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentText": "France\u0027s Passeport Talent remains feasible for US founder families; prepare organized evidence; 3-4 month processing; interview possible.",
+      "alignmentValue": 8
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "France public schools offer modest English (~4-5 hrs/wk) with limited bilingual aides; some tracks provide options, aligning with bilingual exposure.",
+      "alignmentText": "France public schools offer ~4\u20135 hrs/week of English. Bilingual aides are rare, limiting English exposure for kids.",
       "alignmentValue": 3,
       "sameAsParent": false
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "France offers CLA/UPE2A and broad FLE in public schools; two kids (ages 5 and 1) will get strong language support.",
+      "alignmentText": "France public schools offer CLA/UPE2A and broad FLE; two children (5 and 1) will receive strong language support.",
       "alignmentValue": 9
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "France\u0027s Talent Passport remains a stable route for founders and skilled workers; strong public services support families with only minor policy tweaks.",
+      "alignmentText": "France\u0027s Talent Passport remains a stable path for Trey (founder) and Sarah (web dev); strong family support with only minor policy tweaks expected.",
       "alignmentValue": 9
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Paris region, FR offers mild winters and comfortable summers, suitable for families. Occasional heatwaves or cold snaps keep it varied but manageable.",
+      "alignmentText": "Paris region, FR offers mild winters and comfortable summers; occasional heatwaves or cold snaps add variation but remain manageable.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "France\u0027s coastlines (Brittany, Loire) and the Alps offer kid-friendly nature escapes within easy reach; mild, year-round climate supports outdoor time.",
+      "alignmentText": "France\u0027s Brittany coast, Loire Valley, and the Alps offer kid-friendly nature within easy reach; mild climate supports year-round outdoor time.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Excellent urban nature access across France; Paris/Lyon offer 12\u002B parks \u003E10 acres within 5 km and 4\u002B trails reachable by transit for family outings.",
+      "alignmentText": "Excellent urban nature access in France (Paris/Lyon); 12\u002B parks \u003E10 acres within 5 km and 4\u002B trails reachable by transit for family outings.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_number_of_aa_studios",
-      "alignmentText": "22",
+      "alignmentText": "35",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Paris/Lyon, France offer family-friendly 3rd places (parks and libraries) after 6 pm. About 26\u201329 venues per 100k with supervision.",
+      "alignmentText": "France (Paris/Lyon): 26\u201329 family-friendly 3rd places per 100k after 6pm with staff supervision.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Paris and Lyon show pedestrian zones, bike lanes, and reliable transit for a family-friendly FR. Most trips are easy by walking, cycling, or transit.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Paris and Lyon provide pedestrian zones, bike lanes, and reliable transit; FR family life is largely car-free for most trips.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "France remains politically stable with strong institutions. Paris protests are sporadic, and the rule of law protects your family relocation plans.",
+      "alignmentText": "France remains politically stable with strong institutions; in Paris, protests are infrequent and the rule of law safeguards your family\u0027s relocation plans.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "life_public_transportation",
-      "alignmentText": "France\u0027s urban transit is strong in major cities (Paris/Lyon) with frequent service and English apps; rural gaps exist; city travel is easy.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "France\u0027s major cities (Paris/Lyon) offer frequent transit with English apps; urban family mobility is strong, though rural gaps remain.",
+      "alignmentValue": 9
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "France\u0027s major cities (Paris, Lyon, Marseille) offer plentiful grocers, weekly markets, and diverse dining within 5 km for a family-friendly urban life.",
-      "alignmentValue": 10
+      "alignmentText": "France\u0027s cities offer plentiful markets and fresh produce within reach, supporting healthy family meals with moderate ultra-processed foods.",
+      "alignmentValue": 9
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
       "alignmentText": "EUR 170.00 ($183.60)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "EUR 2,000.00 ($2,200.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
       "alignmentText": "EUR 190.00 ($209.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "France\u0027s universal healthcare and strong schools support a safe, family-friendly life for Trey, Sarah, and the kids. Generous family subsidies aid work-life balance.",
+      "alignmentText": "France\u0027s universal healthcare and strong public schools give a safe, family-friendly life for Trey, Sarah, and the kids.",
       "alignmentValue": 10
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Paris, France spring is mild for families: highs 55\u201372\u00B0F, lows 45\u201355\u00B0F. Occasional light rain.",
-      "alignmentValue": 9,
+      "alignmentText": "Paris, France spring is stable and pleasant for families. Highs 60\u201375\u00B0F, lows 50\u201360\u00B0F.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "France FR summers: highs 70\u201382\u00B0F, lows 60\u201370\u00B0F; low humidity and rare heatwaves fit your mild-climate family.",
+      "alignmentText": "France FR summers: highs 70\u201382\u00B0F, lows 60\u201370\u00B0F; low humidity and rare heatwaves suit your mild-climate family.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "France (Paris/Lyon) indie scene offers roughly monthly meetups and mentorship with EU funding; a solid fit for Trey\u0027s startup and family.",
+      "alignmentText": "France (Paris/Lyon) indie scene has monthly meetups and EU funding mentorship; a solid fit for Trey\u0027s startup and family.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "France (Paris) welcomes skilled migrants; Paris tech hubs and visa routes fit your IT family, with bureaucracy and language steps.",
+      "alignmentText": "France (Paris) remains welcoming to skilled IT families; strong tech hubs and Talent Passport routes fit your team, though bureaucracy and language steps apply.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "France (Paris area) winter highs 40\u201355\u00B0F, lows 28\u201340\u00B0F with light snow; winters are mild, matching your climate preference.",
+      "alignmentText": "Paris area, France: winter highs 40\u201355\u00B0F, lows 28\u201340\u00B0F with light snow; winters are mild, matching your climate preference.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Target FR Atlantic/M\u00E9diterran\u00E9e coastal towns with safe, walkable beaches and parks, robust broadband, universal healthcare, and strong public services; prioritize reliable rail/road links to Paris and other major centers, plus bilingual or English\u2011friendly schooling. Favor communities with active tech/game\u2011dev ecosystems or grants that support remote work and entrepreneurship to align with Trey\u2019s startup and Sarah\u2019s web\u2011dev role, while supporting QoL and immigration goals. Suitable options include coastal towns along the Atlantic (La Rochelle, Arcachon/Bordeaux fringe) and the Mediterranean (Nice, Marseille, Montpellier, Toulon) that offer mild climate and measures against extreme heat.",
+      "alignmentText": "France beach-life: focus on Atlantic coast towns (La Rochelle, Arcachon/Bordeaux fringe) and Mediterranean coast (Nice, Marseille, Montpellier, Toulon) with safe beaches, parks, and walkability; ensure reliable broadband, universal healthcare, and strong public services. Prioritize good rail/road links to Paris and other centers; favor bilingual or English-friendly schooling. Seek communities with active tech/game-dev ecosystems or grants that support remote work and entrepreneurship to align with Trey\u2019s startup and Sarah\u2019s web-dev role, while supporting QoL and immigration goals; emphasize a mild climate with heat-mitigation infrastructure.",
       "sameAsParent": false
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "EUR 886,166.67 ($975,956.62)"
+      "alignmentText": "EUR 846,666.67 ($931,333.34)",
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "Target intimate bistros and wine bars in walkable Parisian cores (e.g., Le Marais, Saint-Germain, Montmartre) and other compact FR neighborhoods; pair Seine riverfront strolls with cinema, live music, or museum visits; reserve in advance and use basic French for bookings and ordering; prioritize pedestrian-friendly districts and verify venue hours; consider seasonal outdoor venues when possible.",
+      "alignmentText": "Date nights in France should center on walkable city cores (Paris: Le Marais, Saint-Germain-des-Pres, Montmartre; other compact centers) with Seine riverfront strolls paired with cinema, live music, or museum visits. Reserve ahead; use basic French for bookings and orders. Prioritize pedestrian-friendly areas, confirm hours, and choose seasonal outdoor venues when weather allows.",
       "sameAsParent": false
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "France: Focus on family-friendly quartiers with safe streets, parks, reliable broadband, and access to high-quality public schools offering bilingual/Section Internationale options; prioritize affordable childcare (cr\u00E8ches and \u00E9coles maternelles) and early childhood programs. Ensure easy access to comprehensive transit (metro, tram, RER) and connections to libraries and family services. Connect families to local grant networks and visa pathways (France Tech Visa, Passeport Talent, entrepreneur permits) that support remote-working founders; promote bilingual exposure through schools and community programs and language initiatives.",
+      "alignmentText": "France: Target family-friendly quartiers with safe streets, parks, reliable broadband, and well-funded public schools offering bilingual/Section Internationale options; ensure affordable childcare (cr\u00E8ches, \u00E9coles maternelles) and strong early-education programs; map metros, tram/RER lines, and access to libraries, family centers, and social services; connect families to local grants and visa pathways (France Tech Visa, Passeport Talent, Talent Passport) that support remote founders; promote bilingual exposure through schools and community programs; prioritize work-life balance and straightforward public services access.",
       "sameAsParent": false
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Implement France-specific Common Friend Nights in major FR cities (Paris, Lyon, Marseille) and other metro areas. Partner with expat groups, libraries, schools, and community centers to offer bilingual English-French evenings with on-site childcare. Prioritize parks or transit-accessible indoor venues and engage local parenting networks to maximize attendance; monitor attendance and satisfaction; ensure compliance with French childcare and safety regulations."
+      "alignmentText": "Launch bilingual English\u2013French Common Friend Nights across France\u2019s metro areas (Paris, Lyon, Marseille; plus major FR metros) with on-site childcare; partner with expat groups, libraries, schools, and community centers; prioritize parks or transit-accessible indoor venues; recruit and activate local parenting networks; ensure compliance with French childcare and safety regulations; track attendance and satisfaction, and adjust venues and formats based on feedback on a quarterly basis."
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -314,67 +316,104 @@
     },
     {
       "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "40%"
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
       "alignmentText": "30%",
       "sameAsParent": false
     },
     {
+      "key": "daemon_games_dev_incentive_rate",
+      "alignmentText": "30%"
+    },
+    {
       "key": "daemon_games_employer_on_cost_rate",
-      "alignmentText": "42%",
-      "sameAsParent": true
+      "alignmentText": "42%"
     },
     {
       "key": "daemon_games_feasible_game_grants",
-      "alignmentText": "- EUR 150,000.00 ($163,500.00) \u2013 La French Tech Tremplin \u2013 Public incubator seed support for foreign founders establishing in FR, aiding early-stage game studios and providing a path to FR incorporation and ecosystem access for Daemon.\n- EUR 450,000.00 ($490,500.00) \u2013 Cr\u00E9dit d\u0027imp\u00F4t jeux vid\u00E9o (CIGV) \u2013 Tax credit covering about 30% of eligible production costs, enabling a development budget around \u20AC1.5M for a self-published, narrative premium game and suitable for a small indie studio planning a 2-year FR development.\n- EUR 900,000.00 ($981,000.00) \u2013 CNC \u2013 Early-stage FR studio production grants within 0.5\u20135M, requiring FR entity setup and aligning with Daemon\u0027s budget and local incorporation plan.\n- EUR 600,000.00 ($654,000.00) \u2013 Creative Europe MEDIA \u2013 Supports narrative-driven games with cross-border collaboration and can provide co-funding or marketing support while staying within the 0.5\u20135M budget.",
+      "alignmentText": "- EUR 150,000.00 ($163,500.00) \u2013 La French Tech Tremplin \u2013 Public incubator seed support for foreign founders establishing in FR, aiding early-stage game studios and providing a path to FR incorporation and ecosystem access for Daemon.\n- EUR 450,000.00 ($490,500.00) \u2013 Cr\u00E9dit d\u0027imp\u00F4t jeux vid\u00E9o (CIGV) \u2013 Tax credit covering about 30% of eligible production costs, enabling a development budget around \u20AC1.50M for a self-published, narrative premium game and suitable for a small indie studio planning a 2-year FR development.\n- EUR 900,000.00 ($981,000.00) \u2013 CNC \u2013 Early-stage FR studio production grants within 0.5\u20135M, requiring FR entity setup and aligning with Daemon\u0027s budget and local incorporation plan.\n- EUR 600,000.00 ($654,000.00) \u2013 Creative Europe MEDIA \u2013 Supports narrative-driven games with cross-border collaboration and can provide co-funding or marketing support while staying within the 0.5\u20135M budget.",
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "EUR 4,400.00 ($4,928.00)",
+      "alignmentText": "EUR 200.00 ($224.00)",
       "sameAsParent": false
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "France grants a staged immigration path for this US family: obtain long-stay visas for Trey, Sarah, and dependents to enter and work within visa scopes; apply on arrival for Carte de S\u00E9jour temporaire (temporary residence) with proof of housing, income, health coverage, and school records. Enroll the children in public schools and maintain documentation (passports, birth certificates, lease, income proofs, health insurance, language evidence). After meeting residence duration and language/integration milestones, apply for Carte de r\u00E9sident (permanent residency) to gain long-term residence, broader work permissions, and access to social benefits; after meeting additional residency and language criteria, pursue naturalisation (Citoyen) to obtain full political rights. Key actions: secure long-stay visas for all; coordinate with the prefecture to align timelines; keep documents updated; monitor policy changes; ensure healthcare access and education continuity during transitions; support Trey as an entrepreneur with statuses that permit business activity and access to grants where available.",
+      "alignmentText": "France immigration status and rights for the US family: obtain long\u2011stay visas for Trey, Sarah, and dependents to enter and work; on arrival secure Carte de S\u00E9jour Temporaire with proof of housing, income, health coverage, and school records. Enroll Anduin and Alasdair in public schools. After meeting residence duration and language/integration milestones, apply for Carte de R\u00E9sident (permanent residency) to gain long\u2011term stay and broader work rights; with further residency and language criteria, pursue naturalisation (Citoyen) for full political rights. Key actions: coordinate with the prefecture; gather and maintain documents (passports, birth certificates, lease, income proofs, health insurance, language evidence); ensure healthcare access and education continuity; support Trey\u2019s entrepreneurship with grants access; monitor policy changes through transitions.",
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "EUR 9,196,911.75 ($10,116,603.93)",
+      "alignmentText": "EUR 7,500,000.00 ($8,542,500.00)",
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "EUR 2,807,362.50 ($3,031,951.50)",
+      "alignmentText": "EUR 3,087,000.00 ($3,395,700.00)",
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "EUR 51,145,218.75 ($55,748,288.44)",
+      "alignmentText": "EUR 51,353,077.50 ($55,974,854.48)",
       "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 140,000.00 ($151,200.00)",
-      "sameAsParent": false
+      "alignmentText": "EUR 110,000.00 ($118,800.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 60,000.00 ($65,400.00)",
+      "alignmentText": "EUR 58,000.00 ($63,220.00)",
       "sameAsParent": false
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
       "alignmentText": "EUR 125,000.00 ($135,000.00)",
-      "sameAsParent": false
+      "sameAsParent": true
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "France offers universal healthcare and strong family support. Visa steps remain bureaucratic, but many services are online.",
-      "alignmentValue": 6
+      "alignmentText": "France\u0027s visa steps are mostly online with some in-person visits; universal healthcare and strong family support ease relocation.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "7",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "EUR 350.00 ($385.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "EUR 1,100.00 ($1,166.00)",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "EUR 350.00 ($378.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "EUR 480.00 ($528.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "EUR 1,150.00 ($1,265.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "EUR 250.00 ($270.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     }
   ]
 }

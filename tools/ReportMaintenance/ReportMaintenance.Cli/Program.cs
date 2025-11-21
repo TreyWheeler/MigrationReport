@@ -1,4 +1,5 @@
 using System.CommandLine;
+using System.IO;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -15,8 +16,25 @@ var builder = Host.CreateApplicationBuilder(args);
 
 builder.Configuration
     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true)
-    .AddEnvironmentVariables(prefix: "REPORT_MAINTENANCE_");
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true);
+
+var assemblyBasePath = AppContext.BaseDirectory;
+if (!string.IsNullOrWhiteSpace(assemblyBasePath))
+{
+    var assemblyAppSettings = Path.Combine(assemblyBasePath, "appsettings.json");
+    if (File.Exists(assemblyAppSettings))
+    {
+        builder.Configuration.AddJsonFile(assemblyAppSettings, optional: true, reloadOnChange: true);
+    }
+
+    var assemblyEnvSettings = Path.Combine(assemblyBasePath, $"appsettings.{builder.Environment.EnvironmentName}.json");
+    if (File.Exists(assemblyEnvSettings))
+    {
+        builder.Configuration.AddJsonFile(assemblyEnvSettings, optional: true, reloadOnChange: true);
+    }
+}
+
+builder.Configuration.AddEnvironmentVariables(prefix: "REPORT_MAINTENANCE_");
 
 builder.Services.Configure<ReportMaintenanceOptions>(builder.Configuration.GetSection("ReportMaintenance"));
 builder.Services.Configure<OpenAIOptions>(builder.Configuration.GetSection("OpenAI"));

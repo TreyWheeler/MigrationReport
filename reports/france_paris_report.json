@@ -5,17 +5,18 @@
     {
       "key": "cost_of_living_family_150m2_in_city_center",
       "alignmentText": "EUR 7,200.00 ($7,776.00)",
-      "alignmentValue": 6
+      "alignmentValue": 2
     },
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
       "alignmentText": "EUR 2,900.00 ($3,260.00)",
-      "alignmentValue": 8
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "EUR 40,000.00 ($44,000.00)",
-      "alignmentValue": 6
+      "alignmentText": "EUR 3,200.00 ($3,486.40)",
+      "alignmentValue": 8
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
@@ -25,54 +26,57 @@
     {
       "key": "cost_of_living_family_52_therapy_sessions",
       "alignmentText": "EUR 3,900.00 ($4,290.00)",
-      "alignmentValue": 3
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "In Paris, English covers work and most services; some government forms require French; the family is open to learning French.",
-      "alignmentValue": 8
+      "alignmentText": "Paris, FR: English covers work and most services; 20-30% of gov tasks require French; family is open to learning French.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Paris, France: caucasian US kids face low bullying risk; schools act quickly with clear anti-bullying policies and bilingual options.",
-      "alignmentValue": 8
+      "alignmentText": "Paris, France: caucasian US kids face low bullying risk; Paris schools enforce anti-bullying policies and offer bilingual options.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Paris, France: monthly payroll and VAT with multiple agency filings; a part-time accountant helps with translations.",
+      "alignmentText": "Paris, FR: monthly payroll and VAT across agencies; a part-time accountant/translator keeps this small foreign family startup compliant with minimal hassle.",
       "alignmentValue": 6
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Paris public schools offer some English sections; roughly 60\u201369% have bilingual options by grade 2, supporting your 5-year-old.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "stability_climate_stability",
-      "alignmentText": "Paris, France offers a mild climate with occasional heatwaves and Seine floods, but strong infrastructure minimizes disruptions for families.",
-      "alignmentValue": 9,
+      "alignmentText": "Paris, FR public schools offer English bilingual tracks by grade 2 (60-69%), aligning with your 5-year-old\u0027s bilingual exposure.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
+      "key": "stability_climate_stability",
+      "alignmentText": "Paris, FR offers a mild climate with occasional heatwaves and Seine floods, but strong infrastructure helps protect families.",
+      "alignmentValue": 9
+    },
+    {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "Paris offers affordable public degrees; residency unlocks CROUS aid and subsidies for international families.",
+      "alignmentText": "In Paris, public degrees stay affordable; residency unlocks CROUS aid for international families, easing tuition and living costs for a bilingual family.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "Paris offers top-tier universities with strong industry links and many English-taught programs; grads show solid outcomes.",
+      "alignmentText": "Paris, France offers top-ranked universities with many English-taught programs, supporting bilingual, high-quality education for your two kids.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Paris, FR offers abundant English-friendly continuing education (online/in-person); expat enrollment is straightforward.",
+      "alignmentText": "Paris, FR offers extensive English-friendly continuing education (online/in-person); expat enrollment is straightforward for upskilling.",
       "alignmentValue": 9
     },
     {
       "key": "life_daycare_accessibility",
-      "alignmentText": "In Paris, under-3 care spots commonly wait 3\u20136 months. Plan micro-cr\u00E8ches or bilingual home care and seek English-friendly options.",
+      "alignmentText": "Paris, France under-3 slots typically wait 3\u20136 months; plan micro-cr\u00E8ches or bilingual home care and seek English-friendly options for Alasdair.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
@@ -84,228 +88,228 @@
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Paris, FR shows strong senior .NET architect demand; English-friendly teams and France\u0027s Talent Passport visa aid relocation for U.S. families.",
+      "alignmentText": "Paris, FR shows strong senior .NET architect demand; English-friendly teams and Talent Passport visa support relocation for a U.S. family.",
       "alignmentValue": 9
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Paris/\u00CEle-de-France Rails demand remains solid (7/10); fintech/startups offer remote/hybrid Rails roles in English-friendly teams for Sarah.",
+      "alignmentText": "Paris/\u00CEle-de-France Rails demand solid (7/10); fintech/startups offer remote/English-friendly Rails roles for Sarah.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Paris, FR\u0027s Passeport Talent supports entrepreneurs; 2-4 months with solid documentation; strong fit for a startup-minded family.",
+      "alignmentText": "Paris, FR: Passeport Talent supports founders; 2\u20134 months with solid docs; strong fit for a startup-minded family.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_eating_out",
-      "alignmentText": "EUR 115.00 ($124.20)",
-      "alignmentValue": 3,
-      "sameAsParent": false
+      "alignmentText": "EUR 100.00 ($108.00)",
+      "alignmentValue": 4
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Paris\u0027s resilient, tech-driven economy offers startup grants/visas; reliable services and a strong job market support a family-friendly move to France.",
+      "alignmentText": "Paris, FR offers strong tech jobs and startup visas; reliable public services support a family-friendly relocation with solid economic stability.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "kids_education_quality",
-      "alignmentText": "In Paris, France, public schools are high-quality with bilingual options and strong early childhood programs, but outcomes vary by arrondissement.",
+      "alignmentText": "Paris public schools offer high-quality education with bilingual options and strong early childhood programs; arrondissement differences may affect Trey(5) and Alasdair(1).",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Paris, FR fall highs 60\u201375\u00B0F, nights 50\u201360\u00B0F; crisp and stable.",
+      "alignmentText": "Paris, FR fall highs 60-75\u00B0F, nights 50-60\u00B0F; mild, stable autumn, suitable for a family move.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "Paris cantines follow national nutrition standards with seasonal produce. Meals are balanced and culturally considerate, aligning with the family\u0027s education priorities.",
-      "alignmentValue": 10
+      "alignmentText": "Paris school meals meet French nutrition standards with seasonal produce; meals are balanced and align with family education priorities.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "Paris provides universal healthcare with strong pediatric care for families; urban English-speaking clinics exist with modest wait times.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "life_healthcare_affordability",
-      "alignmentText": "Paris, FR: Assurance Maladie with mutuelle keeps most costs predictable and largely covered for a family of four.",
+      "alignmentText": "France\u0027s universal healthcare supports families; Paris has strong pediatric care and English-speaking clinics; primary care waits 1-2 days, specialists 5-7.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
+      "key": "life_healthcare_affordability",
+      "alignmentText": "Paris, FR: Assurance Maladie with mutuelle provides predictable costs and broad coverage for a family of four.",
+      "alignmentValue": 9
+    },
+    {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "Paris, France offers universal health coverage not tied to employment, smoothing your relocation for two adults and two kids.",
+      "alignmentText": "Paris, FR has universal health coverage not tied to employment; leaving a job won\u0027t end coverage for two adults and two kids.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "1575",
+      "alignmentText": "1607",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "In Paris, France, 3-bedroom family rentals often take 4\u20136 months; expect guarantor, documents, and deposits.",
+      "alignmentText": "In Paris, 3-bedroom family rentals typically take 4-6 weeks; deposit around 2.5 months and a guarantor is commonly needed.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_effort",
+      "alignmentText": "France long-stay visa for a US family of four relocating to Paris; expect 6-8 months for first-time applicants with organized docs and interviews.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Paris public schools offer limited English exposure; seek bilingual tracks or international schools for stronger English.",
       "alignmentValue": 2,
       "sameAsParent": false
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "France long-stay visa for a US family of four; Paris processing commonly 6-8 months for first-time applicants with organized docs and interviews.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "kids_language_expectations_in_schools",
-      "alignmentText": "Paris, France public schools are French-led; English exposure is limited. Seek bilingual tracks or international schools for stronger English.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
       "key": "kids_language_integration_services",
-      "alignmentText": "Paris schools provide robust FLE/allophone support; bilingual families integrate well in public schools.",
+      "alignmentText": "Paris offers strong FLE support and translation in schools; bilingual families tend to integrate well into public education.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Paris, FR offers stable pro-resident paths and clear Talent Passport renewals; family routes support long-term stays with manageable bureaucracy.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Paris, FR offers stable pro-resident paths and clear Talent Passport renewals; family routes support long-term stays with straightforward bureaucracy.",
+      "alignmentValue": 9
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Paris, FR features mild winters and warm summers with occasional heatwaves and humidity. Overall, a family-friendly, year-round climate.",
+      "alignmentText": "Paris, FR offers mild winters and warm summers with occasional heatwaves. Families can enjoy roughly 210-239 comfortable outdoor days per year.",
       "alignmentValue": 7
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "\u00CEle-de-France provides easy, family-friendly green spaces near Paris: Fontainebleau forest, Bois de Boulogne, Vincennes\u2014perfect for kids.",
+      "alignmentText": "\u00CEle-de-France offers family-friendly green spaces near Paris: Fontainebleau forest, Bois de Boulogne, and Chevreuse Valley\u2014great for kids.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Paris offers parks and Seine access within 5 km (Luxembourg, Tuileries); easy transit to kid-friendly greenways for a two-child family.",
+      "alignmentText": "Paris has multiple parks \u003E10 acres within 5 km (Luxembourg, Tuileries, Montsouris) with Seine access and easy transit to kid-friendly greenways.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "25",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
-      "key": "daemon_games_number_of_aa_studios",
-      "alignmentText": "18",
-      "alignmentValue": 9,
-      "sameAsParent": false
-    },
-    {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Paris has many parks (Luxembourg, Tuileries), libraries, and kid-friendly caf\u00E9s; the dense metro makes after-hours family outings easy.",
+      "alignmentText": "Paris, France offers parks (Luxembourg, Tuileries), libraries, and kid-friendly caf\u00E9s; a dense metro supports after-hours family outings.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Paris, FR remains walkable with Velib and parks, plus strong transit; family-friendly neighborhoods with bilingual options support kids.",
+      "alignmentText": "Paris, France offers walkable streets, Velib, parks, and strong transit; family-friendly, bilingual neighborhoods support kids.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Paris, FR offers stable governance and rule of law; protests occur, but policy remains predictable, supporting family healthcare and schooling.",
+      "alignmentText": "Paris, FR shows high political stability with rule of law. Protests occur, but policy remains predictable, supporting family healthcare and schooling.",
       "alignmentValue": 9
     },
     {
       "key": "life_public_transportation",
-      "alignmentText": "Paris offers frequent Metro/RER; most neighborhoods are within 500 m of frequent service, with English-friendly planning apps for families.",
-      "alignmentValue": 9
+      "alignmentText": "Paris offers extensive metro/RER with most neighborhoods within 500 m of frequent service; planning tools are family- and English-friendly.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "Paris, FR offers abundant grocers, markets, and diverse, family-friendly dining; fresh ingredients are readily accessible within 5 km.",
-      "alignmentValue": 10,
+      "alignmentText": "Paris, FR offers abundant march\u00E9s and family-friendly dining; fresh produce is widely accessible, though ultra-processed options are common.",
+      "alignmentValue": 5,
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
-      "alignmentText": "EUR 1,385.00 ($1,509.65)",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentText": "EUR 350.00 ($381.75)",
+      "alignmentValue": 10
     },
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "EUR 4,500.00 ($4,950.00)",
-      "alignmentValue": 8
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
-      "alignmentText": "EUR 200.00 ($218.00)",
+      "alignmentText": "EUR 800.00 ($880.00)",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Paris offers universal healthcare, reliable services, strong social cohesion, and safe neighborhoods with good public schools for our kids.",
-      "alignmentValue": 9,
+      "alignmentText": "Paris provides universal healthcare, reliable services, and safe neighborhoods with strong public schools for our two kids.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Paris spring: highs 55\u201372\u00B0F, lows 45\u201355\u00B0F; mild with light rain, ideal for outdoor family days in city parks.",
+      "alignmentText": "Paris, FR spring: highs 55-72\u00B0F, lows 45-55\u00B0F. Mostly mild with light rain, good for outdoor family days in parks.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Paris, France summers: highs 72\u201385\u00B0F, lows 60\u201372\u00B0F; occasional heat spikes, aligning with a mild, family-friendly climate for Paris.",
+      "alignmentText": "Paris summers in FR: highs 72\u201385\u00B0F, lows 60\u201372\u00B0F. Occasional heat spikes occur.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Paris, FR offers monthly indie meetups, mentorship circles, and strong online communities; local grants/venues back Trey\u0027s game-dev goals.",
-      "alignmentValue": 9,
+      "alignmentText": "Paris has ~1 in-person game dev meetup/month and a strong online scene with grants; good fit for Trey and Sarah\u0027s indie dev goals.",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Paris remains welcoming to skilled immigrants; strong tech scene and Passeport Talent routes support Trey and Sarah\u0027s startup plans.",
+      "alignmentText": "Paris remains welcoming to skilled immigrants; Passeport Talent and a strong tech ecosystem support Trey and Sarah\u0027s startup.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "Paris, France winters: highs 40\u00B0F\u201355\u00B0F, lows 28\u00B0F\u201340\u00B0F, occasional light snow. Fits your mild, low-risk climate goals.",
+      "alignmentText": "Paris, FR winters: highs 40\u00B0F-55\u00B0F, lows 28\u00B0F-40\u00B0F with occasional light snow; a mild, low-risk climate for your family.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Beach Life (Paris): Plan 2\u20134 family-friendly coastal or lake day trips within 2\u20133 hours of Paris (Normandy coast: Deauville/Etretat; Hauts-de-France beaches: Le Touquet/Dieppe; inland lakes such as Lac d\u2019Orient). Prioritize mild months, book accommodations early, confirm shade, restrooms, playgrounds, and reliable Wi\u2011Fi; coordinate with school/work calendars and target weekend getaways with flexible transport and kid-friendly activities.",
-      "sameAsParent": false
+      "alignmentText": "Plan 2-4 family-friendly coastal or lake day trips within 2-3 hours of Paris (e.g., Deauville, \u00C9tretat, Le Touquet, Dieppe, Lac d\u0027Orient). Prioritize mild months; book accommodations early; confirm shade, restrooms, playgrounds, and reliable Wi-Fi. Align trips with school/work calendars and target weekend getaways; choose transport options with flexibility and kid-friendly activities."
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "EUR 979,266.67 ($1,057,608.00)",
+      "alignmentText": "EUR 850,000.00 ($926,500.00)",
       "sameAsParent": false
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "Paris date nights: begin with a family-friendly Seine stroll or sunset cruise; adults can follow with a candlelit dinner in Le Marais or Saint-Germain or a rooftop view by the Eiffel Tower. For kids, pair an early-evening park or riverside walk (Luxembourg Gardens, \u00CEle Saint\u2011Louis) with casual, family-friendly meals; if possible, finish with live music in the Latin Quarter after children are settled."
+      "alignmentText": "Paris plan: begin with a family-friendly Seine stroll or sunset cruise; adults can reserve a candlelit dinner in Le Marais or Saint\u2011Germain, or enjoy a rooftop view near the Eiffel Tower. For children, pair an early-evening park or riverside walk (Luxembourg Gardens, \u00CEle Saint\u2011Louis) with a casual, family-friendly meal. If possible, finish with live music in the Latin Quarter after children are settled. Book in advance and confirm stroller access and dining hours.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "In Paris, families can plan outdoor play at Jardin du Luxembourg and Parc des Buttes-Chaumont, visit kid-friendly venues such as Cit\u00E9 des Sciences et de l\u2019Industrie and Mus\u00E9e en Herbe, enjoy Seine river walks, borrow books at Biblioth\u00E8que publique d\u2019information, and participate in bilingual early-childhood programs at local Paris centers to support language exposure and early learning.",
+      "alignmentText": "In Paris, prioritize kid-friendly parks with safe play areas (e.g., Jardin du Luxembourg, Parc des Buttes-Chaumont) and reliable childcare; include visits to Cite des Sciences et de l\u0027Industrie and Musee en Herbe for hands-on exhibits; enjoy strolls along the Seine; borrow books at Bibliotheque publique d\u0027information; explore bilingual early-childhood programs at local Paris centers to support language exposure for the 5-year-old and 1-year-old.",
       "sameAsParent": false
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Actionable plan for Paris: curate 4-6 family-friendly venues in walkable, transit-rich districts (Le Marais, Canal Saint-Martin, Bastille, Montparnasse) that host evening social nights. Shortlist: Venue A (Le Marais), Venue B (Le Marais), Venue C (Canal Saint-Martin), Venue D (Canal Saint-Martin), Venue E (Bastille), Venue F (Montparnasse). For each, verify after-6pm hours, ensure safe spaces with kid-friendly zones, stroller access and restrooms; staff multilingual/English-speaking; flexible group reservations at affordable options. Map proximity to Metro lines and bus routes; note nearby childcare options if needed. Implement a biweekly Common Friend Night starting at 18:30 for 2 hours with a simple kid-oriented activity plan (e.g., crafts, storytime, games). Include an indoor weather contingency (libraries or cultural centers) and a lightweight language-support plan (bilingual invites and a volunteer host)."
+      "alignmentText": "Paris: select 4-6 family-friendly venues in walkable, transit-rich districts (Le Marais, Canal Saint-Martin, Bastille, Montparnasse) with after-6pm hours, stroller access, and accessible restrooms; ensure multilingual staff and affordable group reservations. Map each venue to nearby Metro lines/bus routes and note childcare options. Launch a biweekly Common Friend Night at 18:30-20:30 with a simple kid activity plan (crafts, storytime, games). Include an indoor weather contingency (libraries/cultural centers) and a lightweight language-support plan (bilingual invites and a volunteer host).",
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -315,7 +319,7 @@
     {
       "key": "daemon_games_dev_incentive_eligible_share",
       "alignmentText": "30%",
-      "sameAsParent": false
+      "sameAsParent": true
     },
     {
       "key": "daemon_games_dev_incentive_rate",
@@ -334,48 +338,84 @@
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "EUR 300.00 ($330.00)",
+      "alignmentText": "EUR 120.00 ($132.00)",
       "sameAsParent": false
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "France Paris immigration status and rights: map visa types for each family member (short stay up to 90 days; long stay for work, study, or family reunification) and renewal timelines; obtain a titre de s\u00E9jour after arrival and verify work rights before any employment; pursue a Carte de r\u00E9sident after several years or naturalisation once residency and integration requirements are met. For Trey, assess entrepreneur or work visa options compatible with startup activity and proximity to Paris tech ecosystems; for Sarah, confirm framework for web development work with appropriate work permit or visa; Anduin and Alasdair will need visas if staying long term and access to education and secure healthcare. Gather documents early: passports, birth and marriage certificates, proof of income and housing, health insurance, police records as required, translations and apostilles. Coordinate with the French consulate for initial visa applications and plan timelines for residency permits and eventual citizenship eligibility.",
+      "alignmentText": "France (Paris) immigration status and rights: map visa options for each family member (short stay up to 90 days; long stay for work, study, or family reunification) and renewal timelines; secure a titre de sejour on arrival and verify work rights before any employment; pursue a carte de sejour after several years or naturalisation once residency and integration requirements are met. Trey should explore entrepreneur/startup or talent visas aligned with Paris tech ecosystems; Sarah should obtain a work permit appropriate for web development (remote/hybrid options considered) and confirm eligibility for remote work; Anduin and Alasdair require long stay family visas with access to education and universal healthcare. Gather documents early: passports, birth/marriage certificates, proof of income and housing, health insurance, police records, translations and apostilles. Coordinate with the French consulate for initial visa applications and plan timelines for residency permits and eventual citizenship eligibility.",
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "EUR 8,426,486.25 ($9,259,875.00)",
-      "sameAsParent": false
+      "alignmentText": "EUR 9,232,380.00 ($10,137,153.24)"
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "EUR 2,635,987.50 ($2,871,909.38)",
+      "alignmentText": "EUR 2,510,229.36 ($2,736,150.00)",
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "EUR 46,363,993.18 ($50,999,392.50)",
+      "alignmentText": "EUR 46,800,000.00 ($51,199,200.00)",
       "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 130,000.00 ($141,700.00)",
-      "sameAsParent": false
+      "alignmentText": "EUR 135,000.00 ($147,150.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 95,000.00 ($103,455.00)",
+      "alignmentText": "EUR 68,000.00 ($74,120.00)",
       "sameAsParent": false
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
-      "alignmentText": "EUR 60,000.00 ($64,800.00)",
+      "alignmentText": "EUR 70,000.00 ($75,600.00)",
       "sameAsParent": false
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Paris, FR offers strong public services, but residency/tax steps require planning; aligns with the family\u0027s low-bureaucracy preference.",
-      "alignmentValue": 5
+      "alignmentText": "Paris, FR residency/visa steps mix online and in-person; plan several half-days per quarter for docs; English support limited.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "5",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "EUR 350.00 ($385.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "EUR 1,350.00 ($1,485.00)",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "EUR 410.00 ($451.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "EUR 180.00 ($194.40)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "EUR 1,800.00 ($1,944.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "EUR 350.00 ($385.00)",
+      "alignmentValue": 10
     }
   ]
 }
