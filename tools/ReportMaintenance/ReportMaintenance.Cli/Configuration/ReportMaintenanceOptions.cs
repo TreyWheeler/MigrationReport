@@ -21,4 +21,8 @@ public sealed class ReportMaintenanceOptions
     public string PersonWeightsPath { get; set; } = "data/person_weights.json";
 
     public string PeoplePath { get; set; } = "data/people.json";
+
+    public string CountriesPath { get; set; } = "data/countries.json";
+
+    public string CitiesPath { get; set; } = "data/cities.json";
 }

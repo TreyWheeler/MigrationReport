@@ -79,6 +79,7 @@ builder.Services.AddSingleton<ICategoryKeyProvider, CategoryKeyProvider>();
 builder.Services.AddSingleton<ReportCreationService>();
 builder.Services.AddSingleton<CategoryCreationService>();
 builder.Services.AddSingleton<CategoryKeyCreationService>();
+builder.Services.AddSingleton<ILocationMetadataService, LocationMetadataService>();
 builder.Services.AddSingleton<IAlignmentSuggestionCache>(sp =>
 {
     var options = sp.GetRequiredService<IOptions<ReportMaintenanceOptions>>().Value;
@@ -154,8 +155,10 @@ addCountryCommand.AddOption(isoOption);
 addCountryCommand.SetHandler(async (string country, string iso) =>
 {
     using var scope = host.Services.CreateScope();
-    var service = scope.ServiceProvider.GetRequiredService<ReportCreationService>();
-    await service.CreateCountryReportAsync(country, iso);
+    var creationService = scope.ServiceProvider.GetRequiredService<ReportCreationService>();
+    var updateService = scope.ServiceProvider.GetRequiredService<ReportUpdateService>();
+    var reportName = await creationService.CreateCountryReportAsync(country, iso);
+    await updateService.UpdateReportAsync(reportName);
 }, countryNameOption, isoOption);
 
 var addCityCommand = new Command("AddCity", "Create a new city report JSON file, ensuring the parent country exists.");
@@ -186,8 +189,12 @@ addCityCommand.SetHandler(async (string country, string city, string? iso) =>
     var creationService = scope.ServiceProvider.GetRequiredService<ReportCreationService>();
     var updateService = scope.ServiceProvider.GetRequiredService<ReportUpdateService>();
 
-    var reportName = await creationService.CreateCityReportAsync(country, city, iso);
-    await updateService.UpdateReportAsync(reportName);
+    var result = await creationService.CreateCityReportAsync(country, city, iso);
+    await updateService.UpdateReportAsync(result.CityReportName);
+    if (!string.IsNullOrWhiteSpace(result.CreatedCountryReportName))
+    {
+        await updateService.UpdateReportAsync(result.CreatedCountryReportName!);
+    }
 }, cityCountryOption, cityNameOption, cityIsoOption);
 
 var addCategoryCommand = new Command("AddCategory", "Create a new category and seed person weight estimates.");

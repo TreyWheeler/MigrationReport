@@ -1,3 +1,4 @@
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -16,6 +17,7 @@ public sealed class ReportCreationService
     private readonly IReportRepository _reportRepository;
     private readonly IRatingGuideProvider _ratingGuideProvider;
     private readonly IKeyDefinitionProvider _keyDefinitionProvider;
+    private readonly ILocationMetadataService _locationMetadataService;
     private readonly ILogger<ReportCreationService> _logger;
     private readonly ReportMaintenanceOptions _options;
 
@@ -23,12 +25,14 @@ public sealed class ReportCreationService
         IReportRepository reportRepository,
         IRatingGuideProvider ratingGuideProvider,
         IKeyDefinitionProvider keyDefinitionProvider,
+        ILocationMetadataService locationMetadataService,
         IOptions<ReportMaintenanceOptions> options,
         ILogger<ReportCreationService> logger)
     {
         _reportRepository = reportRepository;
         _ratingGuideProvider = ratingGuideProvider;
         _keyDefinitionProvider = keyDefinitionProvider;
+        _locationMetadataService = locationMetadataService;
         _logger = logger;
         _options = options.Value;
     }
@@ -57,10 +61,11 @@ public sealed class ReportCreationService
         var document = await CreateDocumentAsync(normalizedIso, cancellationToken).ConfigureAwait(false);
         await _reportRepository.SaveAsync(reportName, document, cancellationToken).ConfigureAwait(false);
         _logger.LogInformation("Created country report {ReportName} ({Iso}).", reportName, normalizedIso);
+        await _locationMetadataService.EnsureCountryEntryAsync(slug, countryName.Trim(), BuildReportPath(reportName), cancellationToken).ConfigureAwait(false);
         return reportName;
     }
 
-    public async Task<string> CreateCityReportAsync(string countryName, string cityName, string? iso, CancellationToken cancellationToken = default)
+    public async Task<CityReportCreationResult> CreateCityReportAsync(string countryName, string cityName, string? iso, CancellationToken cancellationToken = default)
     {
         if (string.IsNullOrWhiteSpace(countryName))
         {
@@ -84,6 +89,7 @@ public sealed class ReportCreationService
 
         var countryExists = await _reportRepository.ExistsAsync(countryReportName, cancellationToken).ConfigureAwait(false);
         string? resolvedIso = iso;
+        string? createdCountryReportName = null;
 
         if (!countryExists)
         {
@@ -93,6 +99,7 @@ public sealed class ReportCreationService
             }
 
             await CreateCountryReportAsync(countryName, resolvedIso!, cancellationToken).ConfigureAwait(false);
+            createdCountryReportName = countryReportName;
             resolvedIso = NormalizeIso(resolvedIso!);
         }
         else if (string.IsNullOrWhiteSpace(resolvedIso))
@@ -110,7 +117,9 @@ public sealed class ReportCreationService
         var document = await CreateDocumentAsync(normalizedIso, cancellationToken).ConfigureAwait(false);
         await _reportRepository.SaveAsync(cityReportName, document, cancellationToken).ConfigureAwait(false);
         _logger.LogInformation("Created city report {ReportName} ({Iso}).", cityReportName, normalizedIso);
-        return cityReportName;
+        var cityId = $"{countrySlug}_{citySlug}";
+        await _locationMetadataService.EnsureCityEntryAsync(cityId, countrySlug, cityName.Trim(), BuildReportPath(cityReportName), cancellationToken).ConfigureAwait(false);
+        return new CityReportCreationResult(cityReportName, createdCountryReportName);
     }
 
     private async Task<ReportDocument> CreateDocumentAsync(string iso, CancellationToken cancellationToken)
@@ -144,6 +153,23 @@ public sealed class ReportCreationService
         }
 
         return normalized;
+    }
+
+    private string BuildReportPath(string reportName)
+    {
+        var fileName = reportName.EndsWith(".json", StringComparison.OrdinalIgnoreCase)
+            ? reportName
+            : $"{reportName}.json";
+
+        var directory = string.IsNullOrWhiteSpace(_options.ReportsDirectory)
+            ? string.Empty
+            : _options.ReportsDirectory.Trim().TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
+
+        var combined = string.IsNullOrEmpty(directory)
+            ? fileName
+            : Path.Combine(directory, fileName);
+
+        return combined.Replace('\\', '/');
     }
 
     private static string CreateSlug(string value)
@@ -180,3 +206,5 @@ public sealed class ReportCreationService
         return slug;
     }
 }
+
+public sealed record CityReportCreationResult(string CityReportName, string? CreatedCountryReportName);
