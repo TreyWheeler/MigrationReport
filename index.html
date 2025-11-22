@@ -15,8 +15,8 @@
       --md-color-primary: #2962ff;
       --glass-bg: rgba(255,255,255,0.7);
       --diff-bg: #fff3cd; /* soft amber */
-      --header-height: 36px;
-      --footer-height: 92px;
+      --header-height: 32px;
+      --footer-height: 72px;
 
       /* Score palette (Material-ish) */
       --score-red: #d32f2f;      /* Red 700 */
@@ -140,10 +140,7 @@
     }
     /* Let the body/page scroll naturally for sticky headers */
 
-    h1 {
-      font-size: 22px;
-      margin: 0;
-    }
+    h1 { font-size: 20px; margin: 0; }
 
     .container { max-width: 100%; margin: 0 auto; padding: 12px 24px 24px; }
     .controls { display: flex; flex-direction: column; gap: 8px; flex: 1 1 auto; min-height: 0; overflow: hidden; }
@@ -155,15 +152,15 @@
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--md-color-outline);
       box-shadow: 0 6px 24px rgba(0,0,0,0.08);
-      padding: 8px 16px;
+      padding: 6px 14px;
     }
     .app-header__inner {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10px;
+      gap: 8px;
       min-height: var(--header-height);
-      padding: 4px 0;
+      padding: 2px 0;
     }
     .app-header__brand { display: flex; align-items: center; gap: 10px; }
     .app-header__controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: flex-end; }
@@ -171,8 +168,8 @@
     .tab-nav {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      padding: 4px 6px;
+      gap: 4px;
+      padding: 3px 6px;
       background: var(--md-color-surface);
       border: 1px solid var(--md-color-outline);
       border-radius: 999px;
@@ -181,7 +178,7 @@
     .tab-button {
       border: 1px solid transparent;
       background: transparent;
-      padding: 6px 12px;
+      padding: 5px 10px;
       border-radius: 999px;
       font-weight: 700;
       color: var(--md-color-on-surface);
@@ -231,7 +228,7 @@
       padding: 10px 24px;
       text-align: right;
     }
-    .legend-footer__label { font-weight: 700; color: color-mix(in srgb, var(--md-color-on-surface) 88%, transparent); }
+    .legend-footer__label { font-weight: 700; color: color-mix(in srgb, var(--md-color-on-surface) 88%, transparent); margin-left: auto; }
     .controls .toggle { align-self: flex-start; }
     .layout { display: grid; grid-template-columns: minmax(260px, 320px) minmax(0, 1fr); gap: 16px; align-items: stretch; width: 100%; flex: 1 1 auto; min-height: 0; }
     @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
@@ -929,6 +926,8 @@
     .floating-row { display: grid; align-items: center; background: #f7f7f7; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
     .floating-row .fh-cell { padding: 6px 8px; border-right: 1px solid #ddd; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .floating-row .fh-cell:last-child { border-right: none; }
+    .comparison-table thead th { position: sticky; top: 0; z-index: 5; background: #f7f7f7; }
+    body[data-theme="dark"] .comparison-table thead th { background: #0f172a; }
     body[data-theme="dark"] .floating-row { background: #0f172a; box-shadow: 0 2px 8px rgba(0,0,0,0.4); }
     .floating-row .fh-cell .flag-icon { margin-right: 6px; vertical-align: -2px; }
     #notice {
@@ -1098,7 +1097,7 @@
     /* Ensure links inside cells/lists inherit */
     .cell-inner a, ul.score-list a { color: var(--md-color-primary); }
     body[data-theme="dark"] a:hover { color: color-mix(in srgb, var(--md-color-primary) 80%, #ffffff 20%); }
-    #legendMount { display: flex; flex: 1 1 auto; justify-content: flex-start; align-items: center; gap: 8px 16px; flex-wrap: wrap; min-width: 0; }
+    #legendMount { display: flex; flex: 0 0 auto; justify-content: flex-start; align-items: center; gap: 8px 16px; flex-wrap: wrap; min-width: 0; margin-left: 8px; }
   </style>
 </head>
 <body>

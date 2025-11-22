@@ -35,6 +35,17 @@ import { makeScoreChip, makePersonScoreChip, makeInformationalPlaceholderChip } 
 import { appendTextWithLinks } from './src/utils/dom.js';
 import { showLoadingIndicator, hideLoadingIndicator, showLoadingError } from './src/ui/loadingIndicator.js';
 
+function syncHeaderHeightVar() {
+  if (typeof document === 'undefined') return;
+  const header = document.querySelector('.app-header');
+  if (!header) return;
+  const rect = header.getBoundingClientRect();
+  const height = Math.ceil(rect.height || 0);
+  if (Number.isFinite(height) && height > 0) {
+    document.documentElement.style.setProperty('--header-height', `${height}px`);
+  }
+}
+
 function setActiveView(viewId) {
   if (typeof document === 'undefined') return;
   const views = Array.from(document.querySelectorAll('.view-pane'));
@@ -75,6 +86,8 @@ function setupViewTabs() {
 async function loadMain() {
   showLoadingIndicator();
   try {
+    syncHeaderHeightVar();
+    window.addEventListener('resize', syncHeaderHeightVar, { passive: true });
     setupViewTabs();
     const { mainData, ratingGuides } = await loadMainData();
     appState.mainData = mainData;

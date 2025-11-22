@@ -29,6 +29,22 @@ import { getKeyAlertLevels, evaluateScoreAgainstLevels } from '../data/keyAlerts
 import { createAlertIcon } from './components/alerts.js';
 import { canonKey, buildAlertReason, buildAlertTooltip } from '../data/alertUtils.js';
 
+function getHeaderOffset() {
+  try {
+    const header = document.querySelector('.app-header');
+    if (header) {
+      const rect = header.getBoundingClientRect();
+      const measured = Math.ceil(rect.height || 0);
+      if (Number.isFinite(measured) && measured > 0) return measured;
+    }
+    const raw = getComputedStyle(document.documentElement).getPropertyValue('--header-height');
+    const parsed = Number.parseFloat(raw);
+    return Number.isFinite(parsed) ? parsed : 0;
+  } catch {
+    return 0;
+  }
+}
+
 function getKeyIdentifier(keyObj) {
   if (!keyObj || typeof keyObj !== 'object') return '';
   if (typeof keyObj.KeyId === 'string' && keyObj.KeyId.length > 0) return keyObj.KeyId;
@@ -862,6 +878,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           if (isCollapsed) current.add(catName); else current.delete(catName);
           setStored('collapsedCategories', Array.from(current));
         } catch {}
+        updateCollapseCategoriesButton();
       });
 
       catSections.push({ name: catName, header: catRow, rows: keyRowRefs, toggle });
@@ -913,37 +930,71 @@ export async function renderComparison(selectedList, mainData, options = {}) {
 
     table.appendChild(tbody);
 
-    if (collapseCategoriesBtn) {
+    const updateCollapseCategoriesButton = () => {
+      if (!collapseCategoriesBtn) return;
       if (!catSections.length) {
         collapseCategoriesBtn.disabled = true;
         collapseCategoriesBtn.onclick = null;
         collapseCategoriesBtn.setAttribute('aria-disabled', 'true');
-      } else {
-        collapseCategoriesBtn.disabled = false;
-        collapseCategoriesBtn.removeAttribute('aria-disabled');
-        collapseCategoriesBtn.onclick = () => {
-          if (!catSections.length) return;
-          const collapsedNames = [];
-          catSections.forEach(section => {
-            if (!section) return;
-            if (section.name) collapsedNames.push(section.name);
-            if (section.header) {
-              section.header.classList.add('collapsed');
-            }
-            if (Array.isArray(section.rows)) {
-              section.rows.forEach(row => { row.style.display = 'none'; });
-            }
-            if (section.toggle) {
-              section.toggle.textContent = '▸';
-              section.toggle.setAttribute('aria-expanded', 'false');
-              section.toggle.title = 'Expand category';
-            }
-          });
-          const uniqueNames = Array.from(new Set(collapsedNames.filter(Boolean)));
-          setStored('collapsedCategories', uniqueNames);
-        };
+        collapseCategoriesBtn.textContent = 'Collapse all categories';
+        return;
       }
+      const allCollapsed = catSections.every(section => section?.header?.classList.contains('collapsed'));
+      collapseCategoriesBtn.disabled = false;
+      collapseCategoriesBtn.removeAttribute('aria-disabled');
+      collapseCategoriesBtn.textContent = allCollapsed ? 'Expand all categories' : 'Collapse all categories';
+      collapseCategoriesBtn.setAttribute('aria-pressed', allCollapsed ? 'true' : 'false');
+    };
+
+    const collapseAllCategories = () => {
+      const collapsedNames = [];
+      catSections.forEach(section => {
+        if (!section) return;
+        if (section.name) collapsedNames.push(section.name);
+        if (section.header) section.header.classList.add('collapsed');
+        if (Array.isArray(section.rows)) {
+          section.rows.forEach(row => { row.style.display = 'none'; });
+        }
+        if (section.toggle) {
+          section.toggle.textContent = '▸';
+          section.toggle.setAttribute('aria-expanded', 'false');
+          section.toggle.title = 'Expand category';
+        }
+      });
+      const uniqueNames = Array.from(new Set(collapsedNames.filter(Boolean)));
+      setStored('collapsedCategories', uniqueNames);
+    };
+
+    const expandAllCategories = () => {
+      catSections.forEach(section => {
+        if (!section) return;
+        if (section.header) section.header.classList.remove('collapsed');
+        if (Array.isArray(section.rows)) {
+          section.rows.forEach(row => { row.style.display = ''; });
+        }
+        if (section.toggle) {
+          section.toggle.textContent = '▾';
+          section.toggle.setAttribute('aria-expanded', 'true');
+          section.toggle.title = 'Collapse category';
+        }
+      });
+      setStored('collapsedCategories', []);
+    };
+
+    if (collapseCategoriesBtn) {
+      collapseCategoriesBtn.onclick = () => {
+        if (!catSections.length) return;
+        const allCollapsed = catSections.every(section => section?.header?.classList.contains('collapsed'));
+        if (allCollapsed) {
+          expandAllCategories();
+        } else {
+          collapseAllCategories();
+        }
+        updateCollapseCategoriesButton();
+      };
     }
+
+    updateCollapseCategoriesButton();
 
     const keyMin = 240;
     const countryMin = 320;
@@ -1004,9 +1055,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
     function updateFloatingVisibility() {
       try {
         const headerRect = table.tHead.getBoundingClientRect();
-        const headerHeightVar = getComputedStyle(document.documentElement).getPropertyValue('--header-height');
-        const baseOffset = Number.parseFloat(headerHeightVar);
-        const stickyOffset = Number.isFinite(baseOffset) ? baseOffset + 4 : 0;
+        const stickyOffset = getHeaderOffset() + 4;
         floating.style.top = `${stickyOffset}px`;
         const show = headerRect.top < stickyOffset;
         floating.classList.toggle('visible', show);
