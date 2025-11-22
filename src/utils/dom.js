@@ -63,13 +63,16 @@ export function appendTextWithLinks(parent, text) {
 }
 
 // Create an <img> for a country ISO code using a public flag CDN (SVG).
-export function createFlagImg(iso, width = 18) {
+export function createFlagImg(iso, width = 18, altText = '') {
   if (!iso || typeof iso !== 'string') return null;
   const lower = iso.toLowerCase();
   const url = `https://flagcdn.com/${lower}.svg`;
   const img = document.createElement('img');
   img.src = url;
-  img.alt = `${iso} flag`;
+  const readableName = typeof altText === 'string' && altText.trim().length > 0
+    ? altText.trim()
+    : `${iso} flag`;
+  img.alt = readableName;
   img.className = 'flag-icon';
   img.width = width;
   img.height = Math.round(width * (2 / 3));

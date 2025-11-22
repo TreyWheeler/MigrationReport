@@ -471,6 +471,64 @@
     body[data-theme="dark"] #alertFilter:focus { box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 30%, transparent); }
     body[data-theme="dark"] #countrySelect option { background: var(--md-color-surface); color: var(--md-color-on-surface); }
     body[data-theme="dark"] #countrySelect option:checked { background: color-mix(in srgb, var(--md-color-primary) 30%, transparent); color: var(--md-color-on-surface); }
+    /* Funnel view */
+    .funnel-view__inner { display: flex; flex-direction: column; gap: 16px; padding: 16px 0 32px; }
+    .funnel-grid { display: flex; flex-direction: column; gap: 12px; }
+    .funnel-grid__headers,
+    .funnel-row { display: grid; grid-template-columns: minmax(320px, 1fr) minmax(260px, 1fr); gap: 12px; align-items: flex-start; }
+    .funnel-grid__headers { font-weight: 700; color: var(--md-color-on-surface); padding: 0 4px; }
+    .funnel-rows { display: flex; flex-direction: column; gap: 12px; }
+    .funnel-cell { background: var(--md-color-surface); border: 1px solid var(--md-color-outline); border-radius: 12px; padding: 10px; min-height: 110px; display: flex; flex-direction: column; gap: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+    .funnel-cell__muted { margin: 0; color: color-mix(in srgb, var(--md-color-on-surface) 70%, transparent); }
+    .funnel-cell__controls { display: flex; flex-direction: column; gap: 6px; align-items: center; justify-content: center; text-align: center; }
+    .funnel-cell__controls--center { align-items: center; justify-content: center; }
+    .funnel-filter-summary { display: flex; flex-direction: column; gap: 4px; align-items: center; }
+    .funnel-filter-summary__rule { font-weight: 600; color: var(--md-color-on-surface); }
+    .funnel-filter-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; }
+    .funnel-icon-button {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      border: 2px solid transparent;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform 120ms ease, box-shadow 160ms ease, background-color 160ms ease, border-color 160ms ease;
+    }
+    .funnel-icon-button:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 32%, transparent); }
+    .funnel-icon-button--add { background: color-mix(in srgb, #16a34a 16%, var(--md-color-surface)); border-color: color-mix(in srgb, #16a34a 40%, transparent); color: #0f5132; }
+    .funnel-icon-button--edit { background: color-mix(in srgb, var(--md-color-primary) 12%, var(--md-color-surface)); border-color: color-mix(in srgb, var(--md-color-primary) 40%, transparent); color: var(--md-color-on-surface); }
+    .funnel-icon-button--remove { background: color-mix(in srgb, #dc2626 10%, var(--md-color-surface)); border-color: color-mix(in srgb, #dc2626 35%, transparent); color: #7f1d1d; }
+    .funnel-icon-button:hover { transform: translateY(-1px); }
+    .funnel-icon-button:active { transform: translateY(0); }
+    .funnel-report-list { display: flex; flex-wrap: wrap; gap: 6px; flex: 1 1 auto; align-items: flex-start; }
+    .funnel-report-pill { display: inline-flex; align-items: center; gap: 6px; padding: 6px 8px; border: 1px solid var(--md-color-outline); border-radius: 9px; background: var(--glass-bg); box-shadow: 0 1px 1px rgba(0,0,0,0.04); min-height: 32px; }
+    .funnel-report-pill .right-chip { transform: scale(0.92); transform-origin: left center; }
+    .funnel-report-pill .name-wrap { display: flex; flex-direction: column; gap: 1px; }
+    .funnel-report-pill .name { font-weight: 600; color: var(--md-color-on-surface); font-size: 13px; }
+    .funnel-report-pill .meta { font-size: 11px; color: color-mix(in srgb, var(--md-color-on-surface) 68%, transparent); }
+    body.density-compact .funnel-report-pill .meta { display: none; }
+    .funnel-empty { margin: 0; color: color-mix(in srgb, var(--md-color-on-surface) 70%, transparent); }
+    .funnel-actions-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .funnel-dialog { border: none; padding: 0; border-radius: 16px; box-shadow: 0 18px 48px rgba(15, 23, 42, 0.26); }
+    .funnel-dialog::backdrop { background: color-mix(in srgb, #0f172a 38%, transparent); }
+    .funnel-dialog form { display: flex; flex-direction: column; gap: 14px; min-width: 320px; padding: 18px 20px; background: linear-gradient(180deg, color-mix(in srgb, var(--glass-bg) 80%, transparent) 0%, var(--md-color-surface) 100%); border-radius: 16px; border: 1px solid color-mix(in srgb, var(--md-color-outline) 60%, transparent); }
+    .funnel-dialog h3 { margin: 0; display: flex; align-items: center; gap: 8px; font-size: 20px; }
+    .funnel-dialog h3::before { content: '🎯'; font-size: 18px; }
+    .funnel-dialog label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; color: var(--md-color-on-surface); }
+    .funnel-dialog p { margin: 0; color: color-mix(in srgb, var(--md-color-on-surface) 75%, transparent); }
+    .funnel-dialog input,
+    .funnel-dialog select { padding: 10px 12px; border: 1px solid color-mix(in srgb, var(--md-color-outline) 65%, transparent); border-radius: 10px; background: var(--md-color-surface); color: var(--md-color-on-surface); box-shadow: inset 0 1px 0 rgba(255,255,255,0.45); }
+    .funnel-dialog select:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 32%, transparent); }
+    .funnel-dialog .dialog-actions { display: flex; justify-content: flex-end; gap: 8px; padding-top: 4px; }
+    body[data-theme="dark"] .funnel-cell { background: #0f172a; border-color: #334155; box-shadow: 0 1px 2px rgba(0,0,0,0.35); }
+    body[data-theme="dark"] .funnel-report-pill { background: color-mix(in srgb, #111827 96%, transparent); border-color: #334155; box-shadow: 0 1px 1px rgba(0,0,0,0.4); }
+    body[data-theme="dark"] .funnel-dialog form { background: linear-gradient(180deg, color-mix(in srgb, #0b1220 85%, transparent) 0%, #0f172a 100%); border-color: #334155; box-shadow: inset 0 1px 0 rgba(255,255,255,0.04); }
+    body[data-theme="dark"] .funnel-dialog input,
+    body[data-theme="dark"] .funnel-dialog select { background: #0b1220; border-color: #334155; box-shadow: inset 0 1px 0 rgba(255,255,255,0.05); }
     /* Remove default bullets for data lists */
     ul.score-list {
       list-style: none;
@@ -1176,10 +1234,14 @@
       </div>
     </section>
     <section id="funnelView" class="view-pane" role="tabpanel" aria-labelledby="funnelTab" aria-label="Funnel view" hidden>
-      <div class="container funnel-placeholder">
-        <h2>Funnel</h2>
-        <p>An upcoming funnel view will appear here.</p>
-        <p class="empty-state__hint">Switch back to the Data tab to continue exploring the report.</p>
+      <div class="container funnel-view__inner">
+        <div class="funnel-grid">
+          <div class="funnel-grid__headers" aria-hidden="true">
+            <div>Excluded reports</div>
+            <div>Included reports</div>
+          </div>
+          <div id="funnelRows" class="funnel-rows" aria-live="polite"></div>
+        </div>
       </div>
     </section>
   </main>
@@ -1236,6 +1298,29 @@
         </div>
       </section>
     </div>
+  </dialog>
+
+  <dialog id="funnelFilterDialog" class="funnel-dialog" aria-labelledby="funnelDialogTitle" aria-describedby="funnelDialogDesc">
+    <form id="funnelFilterForm" novalidate>
+      <h3 id="funnelDialogTitle">Configure filter</h3>
+      <p id="funnelDialogDesc" class="funnel-view__hint">Choose a key and minimum alignment value to exclude reports below that threshold.</p>
+      <label>
+        Category
+        <select id="funnelCategorySelect"></select>
+      </label>
+      <label>
+        Key
+        <select id="funnelKeySelect" required></select>
+      </label>
+      <label>
+        Minimum alignment (rating guidance)
+        <select id="funnelMinSelect" name="minimum" required></select>
+      </label>
+      <div class="dialog-actions">
+        <button type="button" class="pill-button" id="funnelCancelBtn">Cancel</button>
+        <button type="submit" class="pill-button">Save filter</button>
+      </div>
+    </form>
   </dialog>
 
   <!-- Weights Adjustment Dialog -->

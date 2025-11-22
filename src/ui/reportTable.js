@@ -441,7 +441,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       const labelWrap = document.createElement('span');
       labelWrap.className = 'country-header-label';
       if (ds.data && ds.data.iso) {
-        const img = createFlagImg(ds.data.iso, 18);
+        const img = createFlagImg(ds.data.iso, 18, ds.node?.parentCountry?.name || ds.name);
         if (img) labelWrap.appendChild(img);
       }
       const nameNode = document.createElement('span');
