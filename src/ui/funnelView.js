@@ -30,6 +30,7 @@ const dragState = {
   sourceElement: null,
   indicator: null,
   lastTarget: null,
+  hideTimer: null,
 };
 
 function normalizeKey(value) {
@@ -270,15 +271,41 @@ function updateDropGhostContent() {
 
 function clearDropIndicator() {
   const indicator = dragState.indicator;
-  if (indicator?.parentNode) {
-    indicator.parentNode.removeChild(indicator);
+  dragState.lastTarget = null;
+  if (!indicator) return;
+  if (dragState.hideTimer) {
+    clearTimeout(dragState.hideTimer);
+    dragState.hideTimer = null;
   }
+  if (!indicator.parentNode) {
+    indicator.classList.remove('funnel-drop-ghost--visible', 'funnel-drop-ghost--hiding');
+    return;
+  }
+
+  indicator.classList.remove('funnel-drop-ghost--visible');
+  indicator.classList.add('funnel-drop-ghost--hiding');
+
+  const removeIndicator = () => {
+    if (dragState.hideTimer) {
+      clearTimeout(dragState.hideTimer);
+      dragState.hideTimer = null;
+    }
+    indicator.parentNode?.removeChild(indicator);
+    indicator.classList.remove('funnel-drop-ghost--hiding');
+  };
+
+  indicator.addEventListener('transitionend', removeIndicator, { once: true });
+  dragState.hideTimer = window.setTimeout(removeIndicator, 320);
 }
 
 function positionDropIndicator(targetRow, before = true) {
   if (!targetRow || !targetRow.parentNode) return;
   const indicator = getDropIndicator();
-  clearDropIndicator();
+  indicator.classList.remove('funnel-drop-ghost--hiding');
+  if (dragState.hideTimer) {
+    clearTimeout(dragState.hideTimer);
+    dragState.hideTimer = null;
+  }
   updateDropGhostContent();
   dragState.lastTarget = { targetIndex: Number(targetRow.dataset.filterIndex), before };
   if (before) {
@@ -286,6 +313,7 @@ function positionDropIndicator(targetRow, before = true) {
   } else {
     targetRow.parentNode.insertBefore(indicator, targetRow.nextSibling);
   }
+  requestAnimationFrame(() => indicator.classList.add('funnel-drop-ghost--visible'));
 }
 
 function handleDragStart(event, index) {
