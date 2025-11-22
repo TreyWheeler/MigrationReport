@@ -1002,6 +1002,10 @@ export async function renderComparison(selectedList, mainData, options = {}) {
 
     const wrap = document.createElement('div');
     wrap.className = 'table-wrap';
+
+    const floatingSpacer = document.createElement('div');
+    floatingSpacer.className = 'floating-header-spacer';
+    wrap.appendChild(floatingSpacer);
     wrap.appendChild(table);
 
     const floating = document.createElement('div');
@@ -1035,6 +1039,13 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       });
     };
 
+    function setStickyOffset() {
+      try {
+        const stickyOffset = getHeaderOffset();
+        document.documentElement.style.setProperty('--sticky-header-offset', `${stickyOffset}px`);
+      } catch {}
+    }
+
     function buildFloatingFromThead() {
       frow.innerHTML = '';
       const headerRow = table.tHead && table.tHead.rows[0];
@@ -1050,12 +1061,21 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       });
       floating.style.width = wrap.clientWidth + 'px';
       attachRemoveHandlers(floating);
+      updateFloatingSpacer();
+    }
+
+    function updateFloatingSpacer() {
+      try {
+        const spacer = Math.ceil(frow.getBoundingClientRect().height || 0);
+        const spacerPx = spacer > 0 ? `${spacer}px` : '';
+        floatingSpacer.style.height = spacerPx;
+        floating.style.height = spacerPx;
+      } catch {}
     }
 
     function updateFloatingVisibility() {
       try {
-        const stickyOffset = getHeaderOffset() + 4;
-        floating.style.top = `${stickyOffset}px`;
+        setStickyOffset();
         const show = wrap.scrollTop > 6;
         floating.classList.toggle('visible', show);
         floating.style.display = show ? 'block' : 'none';
@@ -1064,6 +1084,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       } catch {}
     }
 
+    setStickyOffset();
     buildFloatingFromThead();
     updateFloatingVisibility();
     wrap.addEventListener('scroll', () => {
@@ -1071,7 +1092,11 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       setStored('tableScroll', { x: wrap.scrollLeft, y: wrap.scrollTop });
     });
     window.addEventListener('scroll', updateFloatingVisibility, { passive: true });
-    window.addEventListener('resize', buildFloatingFromThead);
+    window.addEventListener('resize', () => {
+      setStickyOffset();
+      buildFloatingFromThead();
+      updateFloatingSpacer();
+    });
 
     const floatingContainer = floating.querySelector('.floating-row');
     attachRemoveHandlers(reportDiv);

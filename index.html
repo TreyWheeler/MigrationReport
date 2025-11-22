@@ -16,6 +16,7 @@
       --glass-bg: rgba(255,255,255,0.7);
       --diff-bg: #fff3cd; /* soft amber */
       --header-height: 20px;
+      --sticky-header-offset: 0px;
       --footer-height: 72px;
 
       /* Score palette (Material-ish) */
@@ -591,7 +592,7 @@
     }
     table.comparison-table thead th {
       position: sticky;
-      top: calc(var(--header-height) + 4px);
+      top: var(--sticky-header-offset);
       z-index: 5;
       background: #f7f7f7;
     }
@@ -930,13 +931,14 @@
     }
 
     /* Floating header overlay (replaces sticky thead for reliability) */
-    .floating-header { position: sticky; top: calc(var(--header-height) + 4px); z-index: 10; border-bottom: 1px solid #ddd; visibility: hidden; opacity: 0; pointer-events: none; transition: opacity 120ms ease; height:0px; }
+    .floating-header { position: sticky; top: var(--sticky-header-offset); z-index: 10; border-bottom: 1px solid #ddd; visibility: hidden; opacity: 0; pointer-events: none; transition: opacity 120ms ease; height:0px; }
     .floating-header.visible { visibility: visible; opacity: 1; pointer-events: auto; }
     .floating-row { display: grid; align-items: center; background: #f7f7f7; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
     .floating-row .fh-cell { padding: 6px 8px; border-right: 1px solid #ddd; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .floating-row .fh-cell:last-child { border-right: none; }
     body[data-theme="dark"] .floating-row { background: #0f172a; box-shadow: 0 2px 8px rgba(0,0,0,0.4); }
     .floating-row .fh-cell .flag-icon { margin-right: 6px; vertical-align: -2px; }
+    .floating-header-spacer { height: 0; flex: 0 0 auto; width: 100%; }
     #notice {
       color: #a33;
       margin-top: 6px;
