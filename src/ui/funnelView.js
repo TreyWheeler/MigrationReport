@@ -324,9 +324,18 @@ function handleDragOver(event) {
     dragState.lastTarget = null;
     return;
   }
-  const { before } = dropMeta;
+  const { before, targetIndex } = dropMeta;
   event.preventDefault();
-  positionDropIndicator(targetRow, before);
+  const indicator = dragState.indicator;
+  const isSameTarget =
+    dragState.lastTarget?.targetIndex === targetIndex &&
+    dragState.lastTarget?.before === before &&
+    indicator?.parentNode === targetRow.parentNode &&
+    ((before && indicator?.nextSibling === targetRow) || (!before && indicator?.previousSibling === targetRow));
+
+  if (!isSameTarget) {
+    positionDropIndicator(targetRow, before);
+  }
 }
 
 function handleDrop(event) {
