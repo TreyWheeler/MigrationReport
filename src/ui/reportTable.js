@@ -86,6 +86,66 @@ function normalizeCategoryName(name) {
   return typeof name === 'string' ? name.trim().toLowerCase() : '';
 }
 
+function setCategoryCollapsed(section, collapsed) {
+  if (!section) return;
+  if (section.header) {
+    section.header.classList.toggle('collapsed', collapsed);
+  }
+  if (Array.isArray(section.rows)) {
+    section.rows.forEach(row => {
+      if (row) row.style.display = collapsed ? 'none' : '';
+    });
+  }
+  if (section.toggle) {
+    section.toggle.textContent = collapsed ? '▸' : '▾';
+    section.toggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+    section.toggle.title = collapsed ? 'Expand category' : 'Collapse category';
+  }
+}
+
+function applyPendingKeyFocus(catSections, options = {}) {
+  const pending = appState.pendingKeyFocus;
+  if (!pending) return;
+  appState.pendingKeyFocus = null;
+
+  const normalizedCategory = normalizeCategoryName(pending.category);
+  const normalizedKey = canonKey(pending.keyId || pending.keyLabel);
+  if (!normalizedCategory || !normalizedKey) return;
+
+  const targetSection = Array.isArray(catSections)
+    ? catSections.find(section => normalizeCategoryName(section?.name) === normalizedCategory)
+    : null;
+  if (!targetSection) return;
+
+  const collapsedNames = [];
+  catSections.forEach(section => {
+    const shouldCollapse = section && section !== targetSection;
+    if (shouldCollapse && section?.name) {
+      collapsedNames.push(section.name);
+    }
+    setCategoryCollapsed(section, shouldCollapse);
+  });
+  try {
+    setStored('collapsedCategories', collapsedNames);
+  } catch {}
+  if (typeof options.updateCollapseButton === 'function') {
+    options.updateCollapseButton();
+  }
+
+  const targetRow = Array.isArray(targetSection.rows)
+    ? targetSection.rows.find(row => canonKey(row?.dataset?.keyId || row?.dataset?.keyLabel) === normalizedKey)
+    : null;
+  if (!targetRow) return;
+
+  targetRow.classList.add('key-flash');
+  try {
+    targetRow.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
+  } catch {
+    targetRow.scrollIntoView();
+  }
+  setTimeout(() => targetRow.classList.remove('key-flash'), 1400);
+}
+
 function buildAlertKeyConfigs(mainData) {
   const configs = [];
   const categories = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
@@ -699,6 +759,8 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         const informational = isInformationalKey(keyObj, category.Category);
         const tr = document.createElement('tr');
         tr.dataset.category = catName;
+        tr.dataset.keyId = canonKey(getKeyIdentifier(keyObj));
+        tr.dataset.keyLabel = keyObj?.Key || '';
         if (informational) tr.classList.add('informational-key');
         const keyTd = document.createElement('td');
         keyTd.className = 'key-cell';
@@ -1087,6 +1149,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
     setStickyOffset();
     buildFloatingFromThead();
     updateFloatingVisibility();
+    applyPendingKeyFocus(catSections, { updateCollapseButton: updateCollapseCategoriesButton });
     wrap.addEventListener('scroll', () => {
       updateFloatingVisibility();
       setStored('tableScroll', { x: wrap.scrollLeft, y: wrap.scrollTop });

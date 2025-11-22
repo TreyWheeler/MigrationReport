@@ -171,6 +171,20 @@ function activateReportSelection(node) {
   void onSelectionChanged(funnelState.mainData, notice);
 }
 
+function handleFunnelReportActivate(node, filter) {
+  if (node?.type === 'city' && filter?.keyId) {
+    const meta = getKeyDisplay(filter.keyId);
+    appState.pendingKeyFocus = {
+      keyId: meta.id,
+      keyLabel: meta.label,
+      category: meta.category,
+    };
+  } else {
+    appState.pendingKeyFocus = null;
+  }
+  activateReportSelection(node);
+}
+
 async function evaluateFilter(nodes, filter) {
   const min = Number(filter?.minAlignment);
   const threshold = Number.isFinite(min) ? min : 0;
@@ -191,7 +205,7 @@ async function evaluateFilter(nodes, filter) {
   return { excluded, included };
 }
 
-function makeReportPill(node) {
+function makeReportPill(node, options = {}) {
   const pill = document.createElement('div');
   pill.className = 'funnel-report-pill';
   pill.setAttribute('role', 'button');
@@ -223,7 +237,13 @@ function makeReportPill(node) {
   }
   pill.appendChild(textWrap);
 
-  const handleActivate = () => activateReportSelection(node);
+  const handleActivate = () => {
+    if (typeof options.onActivate === 'function') {
+      options.onActivate(node);
+    } else {
+      activateReportSelection(node);
+    }
+  };
   pill.addEventListener('click', handleActivate);
   pill.addEventListener('keydown', (event) => {
     if (event.key === 'Enter' || event.key === ' ') {
@@ -235,7 +255,7 @@ function makeReportPill(node) {
   return pill;
 }
 
-function renderReportList(nodes, emptyText) {
+function renderReportList(nodes, emptyText, options = {}) {
   const wrapper = document.createElement('div');
   wrapper.className = 'funnel-report-list';
   if (!nodes || nodes.length === 0) {
@@ -248,7 +268,7 @@ function renderReportList(nodes, emptyText) {
     wrapper.appendChild(empty);
     return wrapper;
   }
-  nodes.forEach(node => wrapper.appendChild(makeReportPill(node)));
+  nodes.forEach(node => wrapper.appendChild(makeReportPill(node, options)));
   return wrapper;
 }
 
@@ -304,12 +324,13 @@ function makeFilterRow(filter, index, excluded, included) {
   actions.appendChild(removeBtn);
   controls.appendChild(actions);
 
-  excludedCell.appendChild(renderReportList(excluded, 'No reports excluded by this filter.'));
+  const activateWithFilter = (node) => handleFunnelReportActivate(node, filter);
+  excludedCell.appendChild(renderReportList(excluded, 'No reports excluded by this filter.', { onActivate: activateWithFilter }));
   excludedCell.appendChild(controls);
 
   const includedCell = document.createElement('div');
   includedCell.className = 'funnel-cell';
-  includedCell.appendChild(renderReportList(included, 'No reports remain after this filter.'));
+  includedCell.appendChild(renderReportList(included, 'No reports remain after this filter.', { onActivate: activateWithFilter }));
 
   row.appendChild(excludedCell);
   row.appendChild(includedCell);

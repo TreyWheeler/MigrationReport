@@ -791,6 +791,29 @@
     table.comparison-table.focus-active tr.focus-target {
       opacity: 1;
     }
+    @keyframes key-focus-flash {
+      0% {
+        background-color: color-mix(in srgb, var(--md-color-primary) 18%, transparent);
+        box-shadow: 0 0 0 0 color-mix(in srgb, var(--md-color-primary) 28%, transparent);
+      }
+      55% {
+        background-color: color-mix(in srgb, var(--md-color-primary) 32%, transparent);
+        box-shadow: 0 0 0 12px color-mix(in srgb, var(--md-color-primary) 16%, transparent);
+      }
+      100% {
+        background-color: transparent;
+        box-shadow: 0 0 0 0 transparent;
+      }
+    }
+    tr.key-flash .key-cell,
+    tr.key-flash .value-cell {
+      background: color-mix(in srgb, var(--md-color-primary) 9%, var(--md-color-surface));
+    }
+    tr.key-flash .key-inner {
+      border-radius: 10px;
+      animation: key-focus-flash 1.4s ease;
+      box-shadow: 0 0 0 2px color-mix(in srgb, var(--md-color-primary) 42%, transparent);
+    }
     td.key-cell {
       font-weight: 600;
       white-space: normal;
