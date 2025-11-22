@@ -19,8 +19,8 @@ const peopleData = readJson('people.json');
 const personWeightsData = readJson('person_weights.json');
 const familyProfile = JSON.parse(fs.readFileSync(familyProfilePath, 'utf8'));
 
-const categoryByKeyName = new Map(categoryKeysData.categoryKeys.map(key => [key.name, key.categoryId]));
-const requiredKeyNames = new Set(categoryKeysData.categoryKeys.map(key => key.name));
+const categoryByKeyId = new Map(categoryKeysData.categoryKeys.map(key => [key.id, key.categoryId]));
+const requiredKeyIds = new Set(categoryKeysData.categoryKeys.map(key => key.id));
 
 const familyValuesSummary = [
   familyProfile?.values?.political_alignment,
@@ -30,8 +30,8 @@ const familyValuesSummary = [
   .filter(Boolean)
   .join('; ');
 
-const categoryGuidanceByName = new Map(
-  categoryKeysData.categoryKeys.map(key => [key.name, typeof key.guidance === 'string' ? key.guidance.trim() : ''])
+const categoryGuidanceById = new Map(
+  categoryKeysData.categoryKeys.map(key => [key.id, typeof key.guidance === 'string' ? key.guidance.trim() : ''])
 );
 
 function buildAlignmentFailureMessage(reportFile, entry, issue) {
@@ -39,7 +39,7 @@ function buildAlignmentFailureMessage(reportFile, entry, issue) {
     ? reportFile.replace(/_report\.json$/i, '')
     : 'Unknown report';
   const keyLabel = entry?.key ? `Key "${entry.key}"` : 'Unknown key';
-  const guidance = entry?.key ? categoryGuidanceByName.get(entry.key) : undefined;
+  const guidance = entry?.key ? categoryGuidanceById.get(entry.key) : undefined;
   const guidanceLine = guidance
     ? `Category guidance reminder: ${guidance}`
     : 'Add or revisit the guidance for this key in data/category_keys.json so writers know how to tailor the narrative.';
@@ -60,7 +60,7 @@ function buildAlignmentFailureMessage(reportFile, entry, issue) {
 
 describe.skip('Report alignment data', () => {
   const reports = fs.readdirSync(reportsDir).filter(name => name.endsWith('_report.json'));
-  const categoryKeyNames = new Set(categoryKeysData.categoryKeys.map(key => key.name));
+  const categoryKeyIds = new Set(categoryKeysData.categoryKeys.map(key => key.id));
 
   reports.forEach(reportFile => {
     test(`${reportFile} contains alignment text and values`, () => {
@@ -84,7 +84,7 @@ describe.skip('Report alignment data', () => {
           throw new Error(buildAlignmentFailureMessage(reportFile, entry, 'Duplicate key detected. Each key should appear once so the guidance rating stays clear.'));
         }
 
-        const keyDefinition = categoryKeysData.categoryKeys.find(key => key.name === entry.key);
+        const keyDefinition = categoryKeysData.categoryKeys.find(key => key.id === entry.key);
         const informational = keyDefinition?.informational === true;
         const inheritsFromParent = entry.sameAsParent === true;
 
@@ -110,7 +110,7 @@ describe.skip('Report alignment data', () => {
           }
         }
 
-        const keyIsKnown = categoryKeyNames.has(entry.key);
+        const keyIsKnown = categoryKeyIds.has(entry.key);
         if (!keyIsKnown) {
           // eslint-disable-next-line no-console
           console.warn(buildAlignmentFailureMessage(reportFile, entry, 'Unknown key. Add it to data/category_keys.json with guidance so future writers know how to speak to the family profile priorities.'));
@@ -119,11 +119,11 @@ describe.skip('Report alignment data', () => {
         seenKeys.add(entry.key);
       });
 
-      const missingRequiredKeys = [...requiredKeyNames].filter(key => !seenKeys.has(key));
+      const missingRequiredKeys = [...requiredKeyIds].filter(key => !seenKeys.has(key));
       if (missingRequiredKeys.length > 0) {
         const missingList = missingRequiredKeys
           .map(name => {
-            const categoryId = categoryByKeyName.get(name);
+            const categoryId = categoryByKeyId.get(name);
             return categoryId ? `${name} (category: ${categoryId})` : name;
           })
           .join(', ');
@@ -145,8 +145,10 @@ describe('Geographic dataset relationships', () => {
     categoryKeysData.categoryKeys.forEach(key => {
       expect(categoryIds.has(key.categoryId)).toBe(true);
       const guidance = typeof key.guidance === 'string' ? key.guidance.trim() : '';
-      expect(typeof key.name).toBe('string');
-      expect(key.name.trim().length).toBeGreaterThan(0);
+      expect(typeof key.id).toBe('string');
+      expect(key.id.trim().length).toBeGreaterThan(0);
+      expect(typeof key.label).toBe('string');
+      expect(key.label.trim().length).toBeGreaterThan(0);
       expect(guidance.length).toBeGreaterThanOrEqual(0);
     });
   });
