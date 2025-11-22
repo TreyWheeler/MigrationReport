@@ -61,6 +61,9 @@ dotnet run --project tools/ReportMaintenance/ReportMaintenance.Cli -- UpdateRepo
 
 # Update a specific report (e.g., canada_report.json)
 dotnet run --project tools/ReportMaintenance/ReportMaintenance.Cli -- UpdateReport -Report canada_report
+
+# Update a single key within a report
+dotnet run --project tools/ReportMaintenance/ReportMaintenance.Cli -- UpdateKey -Report canada_report -Key cost_of_living_family_150m2_in_city_center
 ```
 
 ### Command reference
@@ -76,6 +79,25 @@ Both commands:
    - Call the OpenAI API and parse the structured JSON response (`alignmentValue`, `alignmentText`, `sameAsParent`).
    - Update the in-memory document.
 3. Persist changes back to the source file once all keys succeed. Failures are logged and the original content is retained for manual follow-up as required by SOP QA steps.
+
+## HTTP regeneration API (for the UI regenerate button)
+
+To drive single-key refreshes from the UI, start the lightweight API host:
+
+```
+dotnet run --project tools/ReportMaintenance/ReportMaintenance.Api
+```
+
+By default it listens on `http://localhost:5075` and exposes:
+
+- `POST /api/regenerate` with JSON body `{ "report": "canada_report", "keyId": "cost_of_living_family_150m2_in_city_center", "category": "Cost of Living" }`
+- `GET /api/health` for a simple readiness check.
+
+The frontend looks for a regeneration endpoint in this order:
+
+1. `window.__MIGRATION_REPORT_REGENERATE_ENDPOINT__` (set in the browser console or injected before `script.js`)
+2. `localStorage.regenerateEndpoint`
+3. Fallback to `http://localhost:5075/api/regenerate`
 
 ## Extending the CLI
 

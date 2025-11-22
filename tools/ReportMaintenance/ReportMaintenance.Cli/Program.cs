@@ -139,6 +139,23 @@ updateReportCommand.SetHandler(async (string reportName, string? category) =>
     await service.UpdateReportAsync(reportName, category);
 }, reportOption, categoryOption);
 
+var keyOption = new Option<string>(name: "--key", description: "Key identifier to refresh (category key ID or label).");
+keyOption.AddAlias("--Key");
+keyOption.AddAlias("-Key");
+keyOption.AddAlias("-k");
+keyOption.IsRequired = true;
+
+var updateKeyCommand = new Command("UpdateKey", "Update a single key within a report using OpenAI suggestions.");
+updateKeyCommand.AddOption(reportOption);
+updateKeyCommand.AddOption(keyOption);
+updateKeyCommand.AddOption(categoryOption);
+updateKeyCommand.SetHandler(async (string reportName, string key, string? category) =>
+{
+    using var scope = host.Services.CreateScope();
+    var service = scope.ServiceProvider.GetRequiredService<ReportUpdateService>();
+    await service.UpdateSingleEntryAsync(reportName, key, category);
+}, reportOption, keyOption, categoryOption);
+
 var addCountryCommand = new Command("AddCountry", "Create a new country report JSON file with empty entries.");
 var countryNameOption = new Option<string>(name: "--country", description: "Country name used for the report slug and title.")
 {
@@ -262,6 +279,7 @@ addCategoryKeyCommand.SetHandler(async (string category, string keyLabel, string
 
 rootCommand.AddCommand(updateReportsCommand);
 rootCommand.AddCommand(updateReportCommand);
+rootCommand.AddCommand(updateKeyCommand);
 rootCommand.AddCommand(addCountryCommand);
 rootCommand.AddCommand(addCityCommand);
 rootCommand.AddCommand(addCategoryCommand);

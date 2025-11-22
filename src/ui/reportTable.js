@@ -1,7 +1,7 @@
 import { appState, resetKeyActionsMenuState, clearCachedMetrics } from '../state/appState.js';
 import { closeKeyActionsMenu, makeKeyActionsMenu } from '../state/keyActionsMenu.js';
 import { getStored, setStored } from '../storage/preferences.js';
-import { fetchCountry } from '../data/reports.js';
+import { fetchCountry, clearCountryCache } from '../data/reports.js';
 import { makeKeyGuidanceButton } from './dialogs/index.js';
 import {
   makeInformationalToggleButton,
@@ -68,6 +68,123 @@ function getCategoryAlertKey(categoryName, datasetKey) {
 
 function normalizeCategoryName(name) {
   return typeof name === 'string' ? name.trim().toLowerCase() : '';
+}
+
+function resolveRegenerateEndpoint() {
+  try {
+    if (typeof window !== 'undefined' && typeof window.__MIGRATION_REPORT_REGENERATE_ENDPOINT__ === 'string') {
+      const fromWindow = window.__MIGRATION_REPORT_REGENERATE_ENDPOINT__;
+      if (fromWindow && fromWindow.trim()) return fromWindow.trim();
+    }
+  } catch {}
+
+  try {
+    const stored = getStored('regenerateEndpoint', null);
+    if (typeof stored === 'string' && stored.trim()) return stored.trim();
+  } catch {}
+
+  return 'http://localhost:5075/api/regenerate';
+}
+
+function normalizeReportNameFromPath(file) {
+  if (typeof file !== 'string') return '';
+  const parts = file.split(/[\\/]/);
+  const last = parts.length > 0 ? parts[parts.length - 1] : file;
+  const withoutExt = last.endsWith('.json') ? last.slice(0, -5) : last;
+  if (withoutExt.endsWith('_report')) return withoutExt;
+  return withoutExt ? `${withoutExt}_report` : '';
+}
+
+async function requestRegeneration(payload) {
+  const endpoint = resolveRegenerateEndpoint();
+  const response = await fetch(endpoint, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+
+  let body = null;
+  try { body = await response.json(); } catch {}
+
+  if (!response.ok) {
+    const message = (body && (body.message || body.Message))
+      || `${response.status} ${response.statusText}`
+      || 'Regeneration request failed.';
+    throw new Error(message);
+  }
+
+  return body || {};
+}
+
+function makeRegenerateButton({ dataset, categoryName, keyObj, rerender, mainData }) {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'regenerate-btn';
+  btn.textContent = 'Regenerate';
+
+  const keyId = getKeyIdentifier(keyObj);
+  const reportName = normalizeReportNameFromPath(dataset && dataset.file);
+  const label = keyObj && keyObj.Key ? keyObj.Key : keyId;
+
+  if (!reportName || !keyId) {
+    btn.disabled = true;
+    btn.title = 'Missing report or key metadata for regeneration';
+    return btn;
+  }
+
+  btn.title = dataset?.name
+    ? `Regenerate ${label} for ${dataset.name}`
+    : `Regenerate ${label}`;
+  btn.setAttribute('aria-label', btn.title);
+
+  btn.addEventListener('click', async (event) => {
+    try { event.preventDefault(); event.stopPropagation(); } catch {}
+    if (btn.disabled) return;
+
+    let indicatorVisible = false;
+    const setBusy = (state, labelText) => {
+      btn.disabled = state;
+      btn.classList.toggle('is-busy', state);
+      if (labelText) btn.textContent = labelText;
+    };
+
+    try {
+      setBusy(true, 'Regenerating…');
+      showLoadingIndicator(`Regenerating ${label || keyId}…`);
+      indicatorVisible = true;
+
+      const response = await requestRegeneration({
+        report: reportName,
+        keyId,
+        category: categoryName,
+      });
+
+      const success = !!(response?.success ?? response?.Success ?? response?.updated ?? response?.Updated);
+      const message = response?.message || response?.Message || (success ? 'Updated' : 'No changes detected.');
+
+      clearCountryCache();
+      try { await refreshAllReportAlerts(mainData); } catch {}
+      await rerender({ loadingMessage: 'Refreshing regenerated value…', skipLoadingIndicator: true });
+
+      if (indicatorVisible) hideLoadingIndicator();
+
+      if (!success && message) {
+        window.alert(message);
+      }
+
+      setBusy(false, success ? 'Regenerated' : 'Regenerate');
+      if (success) {
+        setTimeout(() => { btn.textContent = 'Regenerate'; }, 1200);
+      }
+    } catch (error) {
+      if (indicatorVisible) hideLoadingIndicator();
+      setBusy(false, 'Regenerate');
+      const err = error && error.message ? error.message : 'Unable to regenerate this value. Please try again.';
+      window.alert(err);
+    }
+  });
+
+  return btn;
 }
 
 function buildAlertKeyConfigs(mainData) {
@@ -760,6 +877,18 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           try {
             digInButton = makeDigInButton(ds.name, category.Category, keyObj.Key, textForQuery);
           } catch {}
+          let regenerateButton = null;
+          if (!informational) {
+            try {
+              regenerateButton = makeRegenerateButton({
+                dataset: ds,
+                categoryName: category.Category,
+                keyObj,
+                rerender,
+                mainData,
+              });
+            } catch {}
+          }
           let severity = null;
           let severityThreshold = null;
           if (!informational && thresholds) {
@@ -791,6 +920,9 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           }
           if (digInButton) {
             wrap.appendChild(digInButton);
+          }
+          if (regenerateButton) {
+            wrap.appendChild(regenerateButton);
           }
           if (ds?.node?.type === 'city' && match && match.inheritedFromParent) {
             td.classList.add('inherited-value');
