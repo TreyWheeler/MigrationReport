@@ -505,7 +505,9 @@
     .funnel-icon-button:hover { transform: translateY(-1px); }
     .funnel-icon-button:active { transform: translateY(0); }
     .funnel-report-list { display: flex; flex-wrap: wrap; gap: 6px; flex: 1 1 auto; align-items: flex-start; }
-    .funnel-report-pill { display: inline-flex; align-items: center; gap: 6px; padding: 6px 8px; border: 1px solid var(--md-color-outline); border-radius: 9px; background: var(--glass-bg); box-shadow: 0 1px 1px rgba(0,0,0,0.04); min-height: 32px; }
+    .funnel-report-pill { display: inline-flex; align-items: center; gap: 6px; padding: 6px 8px; border: 1px solid var(--md-color-outline); border-radius: 9px; background: var(--glass-bg); box-shadow: 0 1px 1px rgba(0,0,0,0.04); min-height: 32px; cursor: pointer; transition: transform 140ms ease, box-shadow 160ms ease, border-color 160ms ease, background-color 160ms ease; }
+    .funnel-report-pill:hover { transform: translateY(-1px) scale(1.02); box-shadow: 0 4px 10px rgba(0,0,0,0.08); border-color: color-mix(in srgb, var(--md-color-primary) 24%, var(--md-color-outline)); }
+    .funnel-report-pill:focus-visible { outline: 3px solid color-mix(in srgb, var(--md-color-primary) 26%, transparent); outline-offset: 2px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
     .funnel-report-pill .right-chip { transform: scale(0.92); transform-origin: left center; }
     .funnel-report-pill .name-wrap { display: flex; flex-direction: column; gap: 1px; }
     .funnel-report-pill .name { font-weight: 600; color: var(--md-color-on-surface); font-size: 13px; }
@@ -788,6 +790,29 @@
     }
     table.comparison-table.focus-active tr.focus-target {
       opacity: 1;
+    }
+    @keyframes key-focus-flash {
+      0% {
+        background-color: color-mix(in srgb, var(--md-color-primary) 18%, transparent);
+        box-shadow: 0 0 0 0 color-mix(in srgb, var(--md-color-primary) 28%, transparent);
+      }
+      55% {
+        background-color: color-mix(in srgb, var(--md-color-primary) 32%, transparent);
+        box-shadow: 0 0 0 12px color-mix(in srgb, var(--md-color-primary) 16%, transparent);
+      }
+      100% {
+        background-color: transparent;
+        box-shadow: 0 0 0 0 transparent;
+      }
+    }
+    tr.key-flash .key-cell,
+    tr.key-flash .value-cell {
+      background: color-mix(in srgb, var(--md-color-primary) 9%, var(--md-color-surface));
+    }
+    tr.key-flash .key-inner {
+      border-radius: 10px;
+      animation: key-focus-flash 1.4s ease 3;
+      box-shadow: 0 0 0 2px color-mix(in srgb, var(--md-color-primary) 42%, transparent);
     }
     td.key-cell {
       font-weight: 600;

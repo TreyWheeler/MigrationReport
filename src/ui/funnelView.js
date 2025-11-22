@@ -1,5 +1,6 @@
 import { appState } from '../state/appState.js';
 import { getStored, setStored } from '../storage/preferences.js';
+import { saveSelectedToStorage } from '../storage/selection.js';
 import { fetchCountry } from '../data/reports.js';
 import { computeRoundedMetrics } from '../data/scoring.js';
 import { getEffectivePeople } from '../data/weights.js';
@@ -7,6 +8,9 @@ import { createFlagImg } from '../utils/dom.js';
 import { makeScoreChip } from './components/chips.js';
 import { getParentFileForNode, resolveParentReportFile } from '../utils/nodes.js';
 import { isInformationalKey } from '../data/informationalOverrides.js';
+import { updateCountryListSelection, renderCountryList, updateCollapseCountriesButton } from './sidebar.js';
+import { onSelectionChanged } from './reportTable.js';
+import { setActiveView } from './viewTabs.js';
 
 const STORAGE_KEY = 'funnelFilters';
 
@@ -154,6 +158,47 @@ function findValueForKey(reportData, keyId) {
   return values.find(entry => normalizeKey(entry?.key) === target) || null;
 }
 
+function activateReportSelection(node) {
+  if (!node) return;
+  if (node.type === 'city') {
+    appState.showCitiesOnly = true;
+    setStored('showCitiesOnly', true);
+    const toggle = document.getElementById('citiesOnlyToggle');
+    if (toggle) toggle.checked = true;
+    const listEl = document.getElementById('countryList');
+    const notice = document.getElementById('notice');
+    updateCollapseCountriesButton();
+    if (listEl) {
+      renderCountryList(listEl, appState.countries, notice, () => {
+        void onSelectionChanged(funnelState.mainData, notice);
+      });
+    }
+  }
+  setActiveView('dataView');
+  appState.selected = [node];
+  saveSelectedToStorage();
+  const listEl = document.getElementById('countryList');
+  const notice = document.getElementById('notice');
+  if (listEl) {
+    updateCountryListSelection(listEl);
+  }
+  void onSelectionChanged(funnelState.mainData, notice);
+}
+
+function handleFunnelReportActivate(node, filter) {
+  if (node?.type === 'city' && filter?.keyId) {
+    const meta = getKeyDisplay(filter.keyId);
+    appState.pendingKeyFocus = {
+      keyId: meta.id,
+      keyLabel: meta.label,
+      category: meta.category,
+    };
+  } else {
+    appState.pendingKeyFocus = null;
+  }
+  activateReportSelection(node);
+}
+
 async function evaluateFilter(nodes, filter) {
   const min = Number(filter?.minAlignment);
   const threshold = Number.isFinite(min) ? min : 0;
@@ -174,9 +219,12 @@ async function evaluateFilter(nodes, filter) {
   return { excluded, included };
 }
 
-function makeReportPill(node) {
+function makeReportPill(node, options = {}) {
   const pill = document.createElement('div');
   pill.className = 'funnel-report-pill';
+  pill.setAttribute('role', 'button');
+  pill.tabIndex = 0;
+  pill.setAttribute('aria-label', `Open ${node?.name || 'report'} in data view`);
 
   const metrics = node?.metrics || {};
   const chip = makeScoreChip(metrics.overall, { labelPrefix: 'Alignment score' });
@@ -203,10 +251,25 @@ function makeReportPill(node) {
   }
   pill.appendChild(textWrap);
 
+  const handleActivate = () => {
+    if (typeof options.onActivate === 'function') {
+      options.onActivate(node);
+    } else {
+      activateReportSelection(node);
+    }
+  };
+  pill.addEventListener('click', handleActivate);
+  pill.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      handleActivate();
+    }
+  });
+
   return pill;
 }
 
-function renderReportList(nodes, emptyText) {
+function renderReportList(nodes, emptyText, options = {}) {
   const wrapper = document.createElement('div');
   wrapper.className = 'funnel-report-list';
   if (!nodes || nodes.length === 0) {
@@ -219,7 +282,7 @@ function renderReportList(nodes, emptyText) {
     wrapper.appendChild(empty);
     return wrapper;
   }
-  nodes.forEach(node => wrapper.appendChild(makeReportPill(node)));
+  nodes.forEach(node => wrapper.appendChild(makeReportPill(node, options)));
   return wrapper;
 }
 
@@ -275,12 +338,13 @@ function makeFilterRow(filter, index, excluded, included) {
   actions.appendChild(removeBtn);
   controls.appendChild(actions);
 
-  excludedCell.appendChild(renderReportList(excluded, 'No reports excluded by this filter.'));
+  const activateWithFilter = (node) => handleFunnelReportActivate(node, filter);
+  excludedCell.appendChild(renderReportList(excluded, 'No reports excluded by this filter.', { onActivate: activateWithFilter }));
   excludedCell.appendChild(controls);
 
   const includedCell = document.createElement('div');
   includedCell.className = 'funnel-cell';
-  includedCell.appendChild(renderReportList(included, 'No reports remain after this filter.'));
+  includedCell.appendChild(renderReportList(included, 'No reports remain after this filter.', { onActivate: activateWithFilter }));
 
   row.appendChild(excludedCell);
   row.appendChild(includedCell);

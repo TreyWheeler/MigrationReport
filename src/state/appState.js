@@ -11,6 +11,7 @@ const appState = {
   mainData: null,
   reportAlerts: new Map(),
   sidebarAlertFilter: 'all',
+  pendingKeyFocus: null,
 };
 
 const keyGuidanceDialogState = { lastTrigger: null };
