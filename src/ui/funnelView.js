@@ -249,15 +249,22 @@ function getDropIndicator() {
   return dragState.indicator;
 }
 
+function formatFilterRuleText(filter) {
+  if (!filter) return '';
+  const { label } = getKeyDisplay(filter.keyId);
+  const guide = getRatingGuideForKey(filter.keyId);
+  const numericMin = Number(filter.minAlignment);
+  const matchedGuide = guide.find(entry => entry.rating === numericMin);
+  const guidanceText = matchedGuide?.guidance?.trim();
+  const thresholdLabel = guidanceText || `${filter.minAlignment}`;
+  return `${label} - ${thresholdLabel}`;
+}
+
 function updateDropGhostContent() {
   const indicator = getDropIndicator();
   const cells = indicator.querySelectorAll('.funnel-drop-ghost__cell');
   const sourceFilter = funnelState.filters[dragState.sourceIndex];
-  let label = 'Move filter here';
-  if (sourceFilter) {
-    const { label: keyLabel } = getKeyDisplay(sourceFilter.keyId);
-    label = `${keyLabel} ≥ ${sourceFilter.minAlignment}`;
-  }
+  const label = sourceFilter ? formatFilterRuleText(sourceFilter) : 'Move filter here';
   cells.forEach(cell => { cell.textContent = label; });
 }
 
@@ -380,15 +387,9 @@ function handleDrop(event) {
 function makeFilterSummary(filter) {
   const container = document.createElement('div');
   container.className = 'funnel-filter-summary';
-  const { label } = getKeyDisplay(filter.keyId);
-  const guide = getRatingGuideForKey(filter.keyId);
-  const numericMin = Number(filter.minAlignment);
-  const matchedGuide = guide.find(entry => entry.rating === numericMin);
-  const guidanceText = matchedGuide?.guidance?.trim();
-  const thresholdLabel = guidanceText || `${filter.minAlignment}`;
   const title = document.createElement('div');
   title.className = 'funnel-filter-summary__rule';
-  title.textContent = `${label} - ${thresholdLabel}`;
+  title.textContent = formatFilterRuleText(filter);
   container.appendChild(title);
   return container;
 }
