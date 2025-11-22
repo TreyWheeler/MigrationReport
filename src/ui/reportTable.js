@@ -1050,6 +1050,17 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       });
       floating.style.width = wrap.clientWidth + 'px';
       attachRemoveHandlers(floating);
+      updateFloatingSpacer();
+    }
+
+    function updateFloatingSpacer() {
+      try {
+        const spacer = Math.ceil(frow.getBoundingClientRect().height || 0);
+        const spacerPx = spacer > 0 ? `${spacer}px` : '';
+        wrap.style.paddingTop = spacerPx;
+        wrap.style.scrollPaddingTop = spacerPx;
+        floating.style.height = spacerPx;
+      } catch {}
     }
 
     function updateFloatingVisibility() {
@@ -1071,7 +1082,10 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       setStored('tableScroll', { x: wrap.scrollLeft, y: wrap.scrollTop });
     });
     window.addEventListener('scroll', updateFloatingVisibility, { passive: true });
-    window.addEventListener('resize', buildFloatingFromThead);
+    window.addEventListener('resize', () => {
+      buildFloatingFromThead();
+      updateFloatingSpacer();
+    });
 
     const floatingContainer = floating.querySelector('.floating-row');
     attachRemoveHandlers(reportDiv);
