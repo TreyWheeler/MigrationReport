@@ -143,7 +143,7 @@ function applyPendingKeyFocus(catSections, options = {}) {
   } catch {
     targetRow.scrollIntoView();
   }
-  setTimeout(() => targetRow.classList.remove('key-flash'), 1400);
+  setTimeout(() => targetRow.classList.remove('key-flash'), 4400);
 }
 
 function buildAlertKeyConfigs(mainData) {

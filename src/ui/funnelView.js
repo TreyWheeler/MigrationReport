@@ -8,7 +8,7 @@ import { createFlagImg } from '../utils/dom.js';
 import { makeScoreChip } from './components/chips.js';
 import { getParentFileForNode, resolveParentReportFile } from '../utils/nodes.js';
 import { isInformationalKey } from '../data/informationalOverrides.js';
-import { updateCountryListSelection } from './sidebar.js';
+import { updateCountryListSelection, renderCountryList, updateCollapseCountriesButton } from './sidebar.js';
 import { onSelectionChanged } from './reportTable.js';
 import { setActiveView } from './viewTabs.js';
 
@@ -160,6 +160,20 @@ function findValueForKey(reportData, keyId) {
 
 function activateReportSelection(node) {
   if (!node) return;
+  if (node.type === 'city') {
+    appState.showCitiesOnly = true;
+    setStored('showCitiesOnly', true);
+    const toggle = document.getElementById('citiesOnlyToggle');
+    if (toggle) toggle.checked = true;
+    const listEl = document.getElementById('countryList');
+    const notice = document.getElementById('notice');
+    updateCollapseCountriesButton();
+    if (listEl) {
+      renderCountryList(listEl, appState.countries, notice, () => {
+        void onSelectionChanged(funnelState.mainData, notice);
+      });
+    }
+  }
   setActiveView('dataView');
   appState.selected = [node];
   saveSelectedToStorage();
