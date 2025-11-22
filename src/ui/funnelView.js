@@ -110,7 +110,6 @@ function getRatingGuideForKey(keyId) {
 function getAllReportNodes() {
   const nodes = [];
   appState.countries.forEach(country => {
-    nodes.push(country);
     (country.cities || []).forEach(city => nodes.push(city));
   });
   return nodes;
@@ -219,9 +218,16 @@ function makeFilterSummary(filter, index) {
   const container = document.createElement('div');
   container.className = 'funnel-filter-summary';
   const { label } = getKeyDisplay(filter.keyId);
+  const guide = getRatingGuideForKey(filter.keyId);
+  const numericMin = Number(filter.minAlignment);
+  const matchedGuide = guide.find(entry => entry.rating === numericMin);
+  const guidanceText = matchedGuide?.guidance?.trim();
+  const thresholdLabel = guidanceText
+    ? `${numericMin} – ${guidanceText}`
+    : `${filter.minAlignment}`;
   const title = document.createElement('div');
   title.className = 'funnel-filter-summary__rule';
-  title.textContent = `Filter ${index + 1}: ${label} ≥ ${filter.minAlignment}`;
+  title.textContent = `Filter ${index + 1}: ${label} ≥ ${thresholdLabel}`;
   container.appendChild(title);
   const hint = document.createElement('p');
   hint.className = 'funnel-cell__muted';
