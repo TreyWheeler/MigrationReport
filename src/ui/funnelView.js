@@ -215,7 +215,7 @@ function renderReportList(nodes, emptyText) {
   return wrapper;
 }
 
-function makeFilterSummary(filter, index) {
+function makeFilterSummary(filter) {
   const container = document.createElement('div');
   container.className = 'funnel-filter-summary';
   const { label } = getKeyDisplay(filter.keyId);
@@ -228,10 +228,6 @@ function makeFilterSummary(filter, index) {
   title.className = 'funnel-filter-summary__rule';
   title.textContent = `${label} - ${thresholdLabel}`;
   container.appendChild(title);
-  const hint = document.createElement('p');
-  hint.className = 'funnel-cell__muted';
-  hint.textContent = 'Remove or edit this filter to change the funnel.';
-  container.appendChild(hint);
   return container;
 }
 
@@ -239,22 +235,33 @@ function makeFilterRow(filter, index, excluded, included) {
   const row = document.createElement('div');
   row.className = 'funnel-row';
 
-  const adminCell = document.createElement('div');
-  adminCell.className = 'funnel-cell';
-  adminCell.appendChild(makeFilterSummary(filter, index));
+  const excludedCell = document.createElement('div');
+  excludedCell.className = 'funnel-cell';
+
+  const controls = document.createElement('div');
+  controls.className = 'funnel-cell__controls';
+  controls.appendChild(makeFilterSummary(filter));
+
+  const hint = document.createElement('p');
+  hint.className = 'funnel-cell__muted';
+  hint.textContent = 'Remove or edit this filter to change the funnel.';
+  controls.appendChild(hint);
 
   const actions = document.createElement('div');
   actions.className = 'funnel-filter-actions';
+
   const editBtn = document.createElement('button');
   editBtn.type = 'button';
-  editBtn.className = 'pill-button';
-  editBtn.textContent = 'Edit filter';
+  editBtn.className = 'funnel-icon-button funnel-icon-button--edit';
+  editBtn.setAttribute('aria-label', 'Edit filter');
+  editBtn.textContent = '✎';
   editBtn.addEventListener('click', () => openFilterDialog({ editIndex: index }));
 
   const removeBtn = document.createElement('button');
   removeBtn.type = 'button';
-  removeBtn.className = 'pill-button';
-  removeBtn.textContent = 'Remove filter';
+  removeBtn.className = 'funnel-icon-button funnel-icon-button--remove';
+  removeBtn.setAttribute('aria-label', 'Remove filter');
+  removeBtn.textContent = '×';
   removeBtn.addEventListener('click', () => {
     funnelState.filters.splice(index, 1);
     persistFilters();
@@ -263,17 +270,14 @@ function makeFilterRow(filter, index, excluded, included) {
 
   actions.appendChild(editBtn);
   actions.appendChild(removeBtn);
-  adminCell.appendChild(actions);
-
-  const excludedCell = document.createElement('div');
-  excludedCell.className = 'funnel-cell';
+  controls.appendChild(actions);
+  excludedCell.appendChild(controls);
   excludedCell.appendChild(renderReportList(excluded, 'No reports excluded by this filter.'));
 
   const includedCell = document.createElement('div');
   includedCell.className = 'funnel-cell';
   includedCell.appendChild(renderReportList(included, 'No reports remain after this filter.'));
 
-  row.appendChild(adminCell);
   row.appendChild(excludedCell);
   row.appendChild(includedCell);
   return row;
@@ -283,32 +287,38 @@ function makeAddRow(remaining) {
   const row = document.createElement('div');
   row.className = 'funnel-row';
 
-  const adminCell = document.createElement('div');
-  adminCell.className = 'funnel-cell';
+  const excludedCell = document.createElement('div');
+  excludedCell.className = 'funnel-cell';
+
+  const controls = document.createElement('div');
+  controls.className = 'funnel-cell__controls';
   const title = document.createElement('h3');
   title.className = 'funnel-cell__title';
   title.textContent = 'Add a filter';
-  adminCell.appendChild(title);
+  controls.appendChild(title);
   const hint = document.createElement('p');
   hint.className = 'funnel-cell__muted';
   hint.textContent = 'Filters are additive and remove reports below the specified alignment value.';
-  adminCell.appendChild(hint);
+  controls.appendChild(hint);
+
+  const actions = document.createElement('div');
+  actions.className = 'funnel-filter-actions';
   const addBtn = document.createElement('button');
   addBtn.type = 'button';
-  addBtn.className = 'pill-button';
-  addBtn.textContent = 'Add filter';
+  addBtn.className = 'funnel-icon-button funnel-icon-button--add';
+  addBtn.setAttribute('aria-label', 'Add filter');
+  addBtn.textContent = '+';
   addBtn.addEventListener('click', () => openFilterDialog({ editIndex: null }));
-  adminCell.appendChild(addBtn);
+  actions.appendChild(addBtn);
+  controls.appendChild(actions);
 
-  const excludedCell = document.createElement('div');
-  excludedCell.className = 'funnel-cell';
+  excludedCell.appendChild(controls);
   excludedCell.appendChild(renderReportList([], 'No filters applied in this step.'));
 
   const includedCell = document.createElement('div');
   includedCell.className = 'funnel-cell';
   includedCell.appendChild(renderReportList(remaining, 'No reports available.'));
 
-  row.appendChild(adminCell);
   row.appendChild(excludedCell);
   row.appendChild(includedCell);
   return row;
