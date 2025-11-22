@@ -23,6 +23,9 @@ const {
   computeCountryScoresForSorting,
   applyHiddenKeysVisibility,
   toggleHiddenKeysVisibility,
+  collapseAllCountries,
+  expandAllCountries,
+  toggleCollapseExpandCountries,
   openKeyGuidanceDialog,
 } = MigrationReportAPI;
 
@@ -65,6 +68,9 @@ export {
   computeCountryScoresForSorting,
   applyHiddenKeysVisibility,
   toggleHiddenKeysVisibility,
+  collapseAllCountries,
+  expandAllCountries,
+  toggleCollapseExpandCountries,
   openKeyGuidanceDialog,
 };
 

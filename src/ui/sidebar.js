@@ -11,16 +11,28 @@ import { createAlertIcon } from './components/alerts.js';
 
 const VALID_ALERT_FILTERS = new Set(['all', 'hide-none', 'hide-warnings', 'hide-incompatible']);
 
+function getExpandableCountries() {
+  return Array.isArray(appState.countries)
+    ? appState.countries.filter(country => Array.isArray(country.cities) && country.cities.length > 0)
+    : [];
+}
+
 function updateCollapseCountriesButton(hasExpandable) {
   const collapseBtn = document.getElementById('collapseCountriesBtn');
   if (!collapseBtn) return;
   let canExpand = hasExpandable;
+  const expandableCountries = getExpandableCountries();
   if (typeof canExpand !== 'boolean') {
-    canExpand = Array.isArray(appState.countries) && appState.countries.some(country => Array.isArray(country.cities) && country.cities.length > 0);
+    canExpand = expandableCountries.length > 0;
   }
   const hideCollapse = !!appState.showCitiesOnly;
   collapseBtn.hidden = hideCollapse;
   collapseBtn.disabled = hideCollapse || !canExpand;
+
+  const allCollapsed = canExpand && expandableCountries.length > 0 && expandableCountries.every(country => !country.expanded);
+  const label = allCollapsed ? 'Expand all categories' : 'Collapse all categories';
+  collapseBtn.textContent = label;
+  collapseBtn.setAttribute('aria-label', label);
 }
 
 function getCurrentSortMode() {
@@ -81,6 +93,55 @@ export function collapseAllCountries() {
       toggle.setAttribute('aria-label', countryName ? `Expand ${countryName}` : 'Expand country');
     }
   });
+
+  updateCollapseCountriesButton();
+}
+
+export function expandAllCountries() {
+  if (appState.showCitiesOnly) return;
+  const listEl = document.getElementById('countryList');
+  if (!listEl) return;
+  const groups = Array.from(listEl.querySelectorAll('.country-group'));
+  if (groups.length === 0) return;
+
+  if (!Array.isArray(appState.countries)) return;
+  appState.countries.forEach(country => {
+    if (!country || !Array.isArray(country.cities) || country.cities.length === 0) return;
+    country.expanded = true;
+    persistCountryExpandedState(country);
+  });
+
+  groups.forEach(group => {
+    group.classList.remove('collapsed');
+    group.classList.add('expanded');
+    const cityList = group.querySelector('.city-list');
+    if (cityList) {
+      cityList.hidden = false;
+      cityList.style.display = 'flex';
+    }
+    const toggle = group.querySelector('.tree-toggle');
+    if (toggle) {
+      const countryNode = group.querySelector('.country-item-root');
+      const countryName = countryNode && countryNode.dataset ? countryNode.dataset.name : '';
+      toggle.textContent = '▾';
+      toggle.setAttribute('aria-expanded', 'true');
+      toggle.setAttribute('aria-label', countryName ? `Collapse ${countryName}` : 'Collapse country');
+    }
+  });
+
+  updateCollapseCountriesButton();
+}
+
+export function toggleCollapseExpandCountries() {
+  const expandableCountries = getExpandableCountries();
+  if (expandableCountries.length === 0) return;
+  const allCollapsed = expandableCountries.every(country => !country.expanded);
+  if (allCollapsed) {
+    expandAllCountries();
+  } else {
+    collapseAllCountries();
+  }
+  updateCollapseCountriesButton();
 }
 
 function getNodeIso(item) {
@@ -243,6 +304,7 @@ export function renderCountryList(listEl, countries, notice, onChange) {
         }
         updateToggle();
         persistCountryExpandedState(country);
+        updateCollapseCountriesButton();
       });
       countryRow.prepend(toggle);
     }
@@ -394,6 +456,8 @@ export default {
   buildTreeRow,
   toggleSelectNode,
   collapseAllCountries,
+  expandAllCountries,
+  toggleCollapseExpandCountries,
   updateCountryListSelection,
   applyCountrySort,
   updateCollapseCountriesButton,

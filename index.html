@@ -15,7 +15,7 @@
       --md-color-primary: #2962ff;
       --glass-bg: rgba(255,255,255,0.7);
       --diff-bg: #fff3cd; /* soft amber */
-      --header-height: 72px;
+      --header-height: 36px;
       --footer-height: 92px;
 
       /* Score palette (Material-ish) */
@@ -155,14 +155,15 @@
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--md-color-outline);
       box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+      padding: 8px 16px;
     }
     .app-header__inner {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 12px;
+      gap: 10px;
       min-height: var(--header-height);
-      padding: 8px 0;
+      padding: 4px 0;
     }
     .app-header__brand { display: flex; align-items: center; gap: 10px; }
     .app-header__controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: flex-end; }
@@ -171,7 +172,7 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      padding: 6px;
+      padding: 4px 6px;
       background: var(--md-color-surface);
       border: 1px solid var(--md-color-outline);
       border-radius: 999px;
@@ -180,7 +181,7 @@
     .tab-button {
       border: 1px solid transparent;
       background: transparent;
-      padding: 8px 14px;
+      padding: 6px 12px;
       border-radius: 999px;
       font-weight: 700;
       color: var(--md-color-on-surface);
@@ -224,9 +225,11 @@
     .legend-footer__inner {
       display: flex;
       align-items: center;
+      justify-content: flex-end;
       gap: 12px;
       flex-wrap: wrap;
       padding: 10px 24px;
+      text-align: right;
     }
     .legend-footer__label { font-weight: 700; color: color-mix(in srgb, var(--md-color-on-surface) 88%, transparent); }
     .controls .toggle { align-self: flex-start; }
@@ -580,9 +583,10 @@
       opacity: 1;
       pointer-events: auto;
     }
-    /* Header row appearance (not sticky; we handle stickiness via floating header) */
     table.comparison-table thead th {
-      position: static;
+      position: sticky;
+      top: calc(var(--header-height) + 4px);
+      z-index: 5;
       background: #f7f7f7;
     }
     body[data-theme="dark"] table.comparison-table thead th,
@@ -594,7 +598,7 @@
     /* Sticky first column (header cell and body key cells) */
     table.comparison-table thead th:first-child {
       left: 0;
-      z-index: 4;
+      z-index: 6;
     }
     tr.category-header-row th {
       background: #1f2937; /* slate-800 */
@@ -911,6 +915,7 @@
       flex: 1 1 auto;
       min-height: 0;
       overflow: auto;
+      position: relative;
       border: 1px solid var(--md-color-outline);
       border-radius: 12px;
       background: var(--glass-bg);
@@ -919,7 +924,7 @@
     }
 
     /* Floating header overlay (replaces sticky thead for reliability) */
-    .floating-header { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid #ddd; visibility: hidden; opacity: 0; pointer-events: none; transition: opacity 120ms ease; height:0px; }
+    .floating-header { position: sticky; top: calc(var(--header-height) + 4px); z-index: 10; border-bottom: 1px solid #ddd; visibility: hidden; opacity: 0; pointer-events: none; transition: opacity 120ms ease; height:0px; }
     .floating-header.visible { visibility: visible; opacity: 1; pointer-events: auto; }
     .floating-row { display: grid; align-items: center; background: #f7f7f7; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
     .floating-row .fh-cell { padding: 6px 8px; border-right: 1px solid #ddd; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

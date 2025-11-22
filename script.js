@@ -22,6 +22,8 @@ import {
   renderCountryList,
   toggleSelectNode,
   collapseAllCountries,
+  expandAllCountries,
+  toggleCollapseExpandCountries,
   updateCountryListSelection,
   applyCountrySort,
   updateCollapseCountriesButton,
@@ -113,7 +115,7 @@ async function loadMain() {
       citiesOnlyToggle.checked = appState.showCitiesOnly;
     }
     if (collapseCountriesBtn) {
-      collapseCountriesBtn.addEventListener('click', () => collapseAllCountries());
+      collapseCountriesBtn.addEventListener('click', () => toggleCollapseExpandCountries());
     }
     updateCollapseCountriesButton();
 
@@ -433,6 +435,9 @@ const MigrationReportAPI = {
   computeCountryScoresForSorting,
   applyHiddenKeysVisibility,
   toggleHiddenKeysVisibility,
+  collapseAllCountries,
+  expandAllCountries,
+  toggleCollapseExpandCountries,
   openKeyGuidanceDialog,
 };
 

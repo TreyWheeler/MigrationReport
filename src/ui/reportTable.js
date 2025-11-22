@@ -1004,7 +1004,11 @@ export async function renderComparison(selectedList, mainData, options = {}) {
     function updateFloatingVisibility() {
       try {
         const headerRect = table.tHead.getBoundingClientRect();
-        const show = headerRect.top < 0;
+        const headerHeightVar = getComputedStyle(document.documentElement).getPropertyValue('--header-height');
+        const baseOffset = Number.parseFloat(headerHeightVar);
+        const stickyOffset = Number.isFinite(baseOffset) ? baseOffset + 4 : 0;
+        floating.style.top = `${stickyOffset}px`;
+        const show = headerRect.top < stickyOffset;
         floating.classList.toggle('visible', show);
         frow.style.transform = `translateX(${-wrap.scrollLeft}px)`;
       } catch {}
