@@ -1057,7 +1057,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
         const headerRect = table.tHead.getBoundingClientRect();
         const stickyOffset = getHeaderOffset() + 4;
         floating.style.top = `${stickyOffset}px`;
-        const show = headerRect.top < stickyOffset;
+        const show = wrap.scrollTop > 0 && headerRect.top < stickyOffset;
         floating.classList.toggle('visible', show);
         frow.style.transform = `translateX(${-wrap.scrollLeft}px)`;
       } catch {}
