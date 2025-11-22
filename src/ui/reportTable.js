@@ -203,6 +203,7 @@ export function renderEmptyReportState() {
   const reportDiv = document.getElementById('report');
   if (!reportDiv) return;
   reportDiv.innerHTML = '';
+  renderScoreLegend();
   if (typeof document !== 'undefined' && document.body) {
     document.body.classList.remove('has-category-focus');
   }
@@ -262,6 +263,14 @@ function buildLegend() {
   return legend;
 }
 
+function renderScoreLegend() {
+  const legendMount = document.getElementById('legendMount');
+  if (legendMount) {
+    legendMount.innerHTML = '';
+    legendMount.appendChild(buildLegend());
+  }
+}
+
 let activeRenderToken = 0;
 
 export async function renderComparison(selectedList, mainData, options = {}) {
@@ -313,11 +322,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       return;
     }
 
-    const legendMount = document.getElementById('legendMount');
-    if (legendMount) {
-      legendMount.innerHTML = '';
-      legendMount.appendChild(buildLegend());
-    }
+    renderScoreLegend();
 
     reportDiv.innerHTML = '';
     closeKeyActionsMenu();
@@ -1034,8 +1039,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
 export async function onSelectionChanged(mainData, notice, options = {}) {
   const selected = appState.selected;
   if (!selected || selected.length === 0) {
-    const legendMount = document.getElementById('legendMount');
-    if (legendMount) legendMount.innerHTML = '';
+    renderScoreLegend();
     renderEmptyReportState();
     return;
   }
