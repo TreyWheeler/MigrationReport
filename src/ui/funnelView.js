@@ -179,7 +179,8 @@ function makeReportPill(node) {
   pill.appendChild(chip);
 
   if (node?.iso) {
-    const flag = createFlagImg(node.iso, 16);
+    const flagName = node?.parentCountry?.name || '';
+    const flag = createFlagImg(node.iso, 16, flagName);
     if (flag) pill.appendChild(flag);
   }
 
@@ -222,12 +223,10 @@ function makeFilterSummary(filter, index) {
   const numericMin = Number(filter.minAlignment);
   const matchedGuide = guide.find(entry => entry.rating === numericMin);
   const guidanceText = matchedGuide?.guidance?.trim();
-  const thresholdLabel = guidanceText
-    ? `${numericMin} – ${guidanceText}`
-    : `${filter.minAlignment}`;
+  const thresholdLabel = guidanceText || `${filter.minAlignment}`;
   const title = document.createElement('div');
   title.className = 'funnel-filter-summary__rule';
-  title.textContent = `Filter ${index + 1}: ${label} ≥ ${thresholdLabel}`;
+  title.textContent = `${label} - ${thresholdLabel}`;
   container.appendChild(title);
   const hint = document.createElement('p');
   hint.className = 'funnel-cell__muted';

@@ -201,7 +201,7 @@ export function buildTreeRow(item, ctx) {
   if (chipWrap) row.appendChild(chipWrap);
 
   if (isoCode) {
-    const img = createFlagImg(isoCode, 18);
+    const img = createFlagImg(isoCode, 18, item?.parentCountry?.name || item.name);
     if (img) row.appendChild(img);
   }
 
