@@ -1065,7 +1065,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
 
     function updateFloatingVisibility() {
       try {
-        const stickyOffset = getHeaderOffset() + 4;
+        const stickyOffset = getHeaderOffset();
         floating.style.top = `${stickyOffset}px`;
         const show = wrap.scrollTop > 6;
         floating.classList.toggle('visible', show);
