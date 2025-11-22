@@ -5,7 +5,7 @@ namespace ReportMaintenance.Services;
 public sealed record ReportEntryUpdateResult(
     string ReportName,
     string Key,
-    bool Updated,
+    bool IsUpdated,
     string Message,
     ReportEntry? Entry)
 {

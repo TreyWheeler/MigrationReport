@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 
 namespace ReportMaintenance.Logging;
 
-internal sealed class FileLoggerProvider : ILoggerProvider
+public sealed class FileLoggerProvider : ILoggerProvider
 {
     private readonly StreamWriter _writer;
     private readonly object _lock = new();

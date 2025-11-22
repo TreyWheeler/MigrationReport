@@ -73,7 +73,7 @@ app.MapPost("/api/regenerate", async (
         .UpdateSingleEntryAsync(reportName, keyId, request.Category, cancellationToken)
         .ConfigureAwait(false);
 
-    return Results.Json(new RegenerateResponse(result.Updated, result.Message)
+    return Results.Json(new RegenerateResponse(result.IsUpdated, result.Message)
     {
         Report = result.ReportName,
         KeyId = result.Key,
