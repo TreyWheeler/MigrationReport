@@ -475,11 +475,11 @@
     .funnel-rows { display: flex; flex-direction: column; gap: 12px; }
     .funnel-cell { background: var(--md-color-surface); border: 1px solid var(--md-color-outline); border-radius: 12px; padding: 10px; min-height: 110px; display: flex; flex-direction: column; gap: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
     .funnel-cell__muted { margin: 0; color: color-mix(in srgb, var(--md-color-on-surface) 70%, transparent); }
-    .funnel-cell__controls { display: flex; flex-direction: column; gap: 6px; }
+    .funnel-cell__controls { display: flex; flex-direction: column; gap: 6px; align-items: center; justify-content: center; text-align: center; }
     .funnel-cell__controls--center { align-items: center; justify-content: center; }
-    .funnel-filter-summary { display: flex; flex-direction: column; gap: 4px; }
+    .funnel-filter-summary { display: flex; flex-direction: column; gap: 4px; align-items: center; }
     .funnel-filter-summary__rule { font-weight: 600; color: var(--md-color-on-surface); }
-    .funnel-filter-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .funnel-filter-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; }
     .funnel-icon-button {
       width: 44px;
       height: 44px;
@@ -508,15 +508,22 @@
     body.density-compact .funnel-report-pill .meta { display: none; }
     .funnel-empty { margin: 0; color: color-mix(in srgb, var(--md-color-on-surface) 70%, transparent); }
     .funnel-actions-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-    .funnel-dialog form { display: flex; flex-direction: column; gap: 12px; min-width: 280px; }
+    .funnel-dialog { border: none; padding: 0; border-radius: 16px; box-shadow: 0 18px 48px rgba(15, 23, 42, 0.26); }
+    .funnel-dialog::backdrop { background: color-mix(in srgb, #0f172a 38%, transparent); }
+    .funnel-dialog form { display: flex; flex-direction: column; gap: 14px; min-width: 320px; padding: 18px 20px; background: linear-gradient(180deg, color-mix(in srgb, var(--glass-bg) 80%, transparent) 0%, var(--md-color-surface) 100%); border-radius: 16px; border: 1px solid color-mix(in srgb, var(--md-color-outline) 60%, transparent); }
+    .funnel-dialog h3 { margin: 0; display: flex; align-items: center; gap: 8px; font-size: 20px; }
+    .funnel-dialog h3::before { content: '🎯'; font-size: 18px; }
     .funnel-dialog label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; color: var(--md-color-on-surface); }
+    .funnel-dialog p { margin: 0; color: color-mix(in srgb, var(--md-color-on-surface) 75%, transparent); }
     .funnel-dialog input,
-    .funnel-dialog select { padding: 8px; border: 1px solid var(--md-color-outline); border-radius: 8px; background: var(--md-color-surface); color: var(--md-color-on-surface); }
-    .funnel-dialog .dialog-actions { display: flex; justify-content: flex-end; gap: 8px; }
+    .funnel-dialog select { padding: 10px 12px; border: 1px solid color-mix(in srgb, var(--md-color-outline) 65%, transparent); border-radius: 10px; background: var(--md-color-surface); color: var(--md-color-on-surface); box-shadow: inset 0 1px 0 rgba(255,255,255,0.45); }
+    .funnel-dialog select:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 32%, transparent); }
+    .funnel-dialog .dialog-actions { display: flex; justify-content: flex-end; gap: 8px; padding-top: 4px; }
     body[data-theme="dark"] .funnel-cell { background: #0f172a; border-color: #334155; box-shadow: 0 1px 2px rgba(0,0,0,0.35); }
     body[data-theme="dark"] .funnel-report-pill { background: color-mix(in srgb, #111827 96%, transparent); border-color: #334155; box-shadow: 0 1px 1px rgba(0,0,0,0.4); }
+    body[data-theme="dark"] .funnel-dialog form { background: linear-gradient(180deg, color-mix(in srgb, #0b1220 85%, transparent) 0%, #0f172a 100%); border-color: #334155; box-shadow: inset 0 1px 0 rgba(255,255,255,0.04); }
     body[data-theme="dark"] .funnel-dialog input,
-    body[data-theme="dark"] .funnel-dialog select { background: #0b1220; border-color: #334155; }
+    body[data-theme="dark"] .funnel-dialog select { background: #0b1220; border-color: #334155; box-shadow: inset 0 1px 0 rgba(255,255,255,0.05); }
     /* Remove default bullets for data lists */
     ul.score-list {
       list-style: none;

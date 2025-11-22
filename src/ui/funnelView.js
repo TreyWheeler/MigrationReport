@@ -6,6 +6,7 @@ import { getEffectivePeople } from '../data/weights.js';
 import { createFlagImg } from '../utils/dom.js';
 import { makeScoreChip } from './components/chips.js';
 import { getParentFileForNode, resolveParentReportFile } from '../utils/nodes.js';
+import { isInformationalKey } from '../data/informationalOverrides.js';
 
 const STORAGE_KEY = 'funnelFilters';
 
@@ -87,15 +88,19 @@ function buildKeyIndex(mainData) {
     keys.forEach(keyObj => {
       const id = keyObj?.KeyId || keyObj?.Id || keyObj?.Key || '';
       if (!id) return;
+      const informational = isInformationalKey(keyObj, categoryName);
       const label = keyObj?.Key || id;
       const meta = {
         id,
         label,
         category: normalizedCategory,
+        informational,
         ratingGuide: normalizeRatingGuide(keyObj?.RatingGuide || keyObj?.ratingGuide),
       };
       funnelState.keyIndex.set(normalizeKey(id), meta);
-      list.push(meta);
+      if (!informational) {
+        list.push(meta);
+      }
     });
     funnelState.keysByCategory.set(normalizedCategory, list);
   });
