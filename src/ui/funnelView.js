@@ -314,6 +314,14 @@ function handleDragOver(event) {
   if (dragState.sourceIndex === null) return;
   const targetRow = getTargetFromEvent(event);
   if (!targetRow) {
+    const indicator = dragState.indicator;
+    if (indicator?.isConnected) {
+      const rect = indicator.getBoundingClientRect();
+      if (event.clientY >= rect.top && event.clientY <= rect.bottom) {
+        event.preventDefault();
+        return;
+      }
+    }
     clearDropIndicator();
     dragState.lastTarget = null;
     return;
