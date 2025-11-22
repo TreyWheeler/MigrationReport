@@ -29,6 +29,7 @@ import {
   updateCollapseCountriesButton,
   applySidebarAlerts,
 } from './src/ui/sidebar.js';
+import { initFunnelView } from './src/ui/funnelView.js';
 import { openKeyGuidanceDialog, makeKeyGuidanceButton, openWeightsDialog, afterWeightsChanged } from './src/ui/dialogs/index.js';
 import { getEffectivePeople } from './src/data/weights.js';
 import { makeScoreChip, makePersonScoreChip, makeInformationalPlaceholderChip } from './src/ui/components/chips.js';
@@ -211,6 +212,7 @@ async function loadMain() {
 
     // Enrich with ISO in the background and refresh flags without blocking first paint.
     enrichCountryNodes(mainData, listEl, notice);
+    initFunnelView(mainData);
 
     // Toolbar toggles
     const diffToggle = document.getElementById('diffToggle');
@@ -439,6 +441,7 @@ const MigrationReportAPI = {
   sortByOrderThenName,
   loadMain,
   renderComparison,
+  initFunnelView,
   refreshAllReportAlerts,
   getStored,
   setStored,
