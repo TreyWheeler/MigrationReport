@@ -18,7 +18,7 @@ const funnelState = {
   form: null,
   categorySelect: null,
   keySelect: null,
-  minInput: null,
+  minSelect: null,
   mainData: null,
   currentEditIndex: null,
   reportCache: new Map(),
@@ -60,6 +60,21 @@ function persistFilters() {
   setStored(STORAGE_KEY, funnelState.filters);
 }
 
+function normalizeRatingGuide(list) {
+  if (!Array.isArray(list)) return [];
+  return list
+    .map(entry => {
+      const rating = Number(entry?.rating ?? entry?.Rating ?? entry?.value);
+      if (!Number.isFinite(rating)) return null;
+      const guidance = typeof entry?.guidance === 'string'
+        ? entry.guidance
+        : (typeof entry?.Guidance === 'string' ? entry.Guidance : '');
+      return { rating, guidance };
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.rating - b.rating);
+}
+
 function buildKeyIndex(mainData) {
   funnelState.keyIndex = new Map();
   funnelState.keysByCategory = new Map();
@@ -73,12 +88,23 @@ function buildKeyIndex(mainData) {
       const id = keyObj?.KeyId || keyObj?.Id || keyObj?.Key || '';
       if (!id) return;
       const label = keyObj?.Key || id;
-      const meta = { id, label, category: normalizedCategory };
+      const meta = {
+        id,
+        label,
+        category: normalizedCategory,
+        ratingGuide: normalizeRatingGuide(keyObj?.RatingGuide || keyObj?.ratingGuide),
+      };
       funnelState.keyIndex.set(normalizeKey(id), meta);
       list.push(meta);
     });
     funnelState.keysByCategory.set(normalizedCategory, list);
   });
+}
+
+function getRatingGuideForKey(keyId) {
+  if (!keyId) return [];
+  const meta = getKeyDisplay(keyId);
+  return Array.isArray(meta?.ratingGuide) ? meta.ratingGuide : [];
 }
 
 function getAllReportNodes() {
@@ -154,7 +180,7 @@ function makeReportPill(node) {
   pill.appendChild(chip);
 
   if (node?.iso) {
-    const flag = createFlagImg(node.iso, 18);
+    const flag = createFlagImg(node.iso, 16);
     if (flag) pill.appendChild(flag);
   }
 
@@ -323,6 +349,40 @@ function populateKeys(categoryName, selectedKeyId = '') {
   }
 }
 
+function populateMinimumOptions(selectedValue = null) {
+  if (!funnelState.minSelect || !funnelState.keySelect) return;
+  const guide = getRatingGuideForKey(funnelState.keySelect.value);
+  const options = guide.length > 0
+    ? guide
+    : Array.from({ length: 11 }, (_, i) => ({ rating: i, guidance: '' }));
+  funnelState.minSelect.innerHTML = '';
+
+  options.forEach(entry => {
+    const opt = document.createElement('option');
+    opt.value = String(entry.rating);
+    const label = entry.guidance ? `${entry.rating} – ${entry.guidance}` : String(entry.rating);
+    opt.textContent = label;
+    funnelState.minSelect.appendChild(opt);
+  });
+
+  const numeric = Number(selectedValue);
+  if (Number.isFinite(numeric)) {
+    const hasOption = options.some(opt => opt.rating === numeric);
+    if (!hasOption) {
+      const custom = document.createElement('option');
+      custom.value = String(numeric);
+      custom.textContent = String(numeric);
+      funnelState.minSelect.appendChild(custom);
+    }
+    funnelState.minSelect.value = String(numeric);
+  } else {
+    const defaultValue = options.find(opt => opt.rating === 7)?.rating ?? options[options.length - 1]?.rating;
+    if (typeof defaultValue !== 'undefined') {
+      funnelState.minSelect.value = String(defaultValue);
+    }
+  }
+}
+
 function openFilterDialog({ editIndex = null } = {}) {
   if (!funnelState.dialog) return;
   funnelState.currentEditIndex = (typeof editIndex === 'number') ? editIndex : null;
@@ -336,11 +396,7 @@ function openFilterDialog({ editIndex = null } = {}) {
     funnelState.categorySelect.value = category;
   }
   populateKeys(funnelState.categorySelect.value, targetKey);
-  if (existing) {
-    funnelState.minInput.value = existing.minAlignment;
-  } else {
-    funnelState.minInput.value = '7';
-  }
+  populateMinimumOptions(existing ? existing.minAlignment : null);
   try {
     if (typeof funnelState.dialog.showModal === 'function') {
       funnelState.dialog.showModal();
@@ -371,9 +427,9 @@ function closeFilterDialog() {
 
 function handleDialogSubmit(event) {
   event.preventDefault();
-  if (!funnelState.keySelect || !funnelState.minInput) return;
+  if (!funnelState.keySelect || !funnelState.minSelect) return;
   const keyId = funnelState.keySelect.value;
-  const minAlignment = Number(funnelState.minInput.value);
+  const minAlignment = Number(funnelState.minSelect.value);
   if (!keyId || !Number.isFinite(minAlignment)) {
     return;
   }
@@ -413,6 +469,12 @@ function wireDialogControls() {
   if (funnelState.categorySelect) {
     funnelState.categorySelect.addEventListener('change', () => {
       populateKeys(funnelState.categorySelect.value);
+      populateMinimumOptions();
+    });
+  }
+  if (funnelState.keySelect) {
+    funnelState.keySelect.addEventListener('change', () => {
+      populateMinimumOptions();
     });
   }
   const cancelBtn = document.getElementById('funnelCancelBtn');
@@ -434,13 +496,14 @@ function initFunnelView(mainData) {
   funnelState.form = document.getElementById('funnelFilterForm');
   funnelState.categorySelect = document.getElementById('funnelCategorySelect');
   funnelState.keySelect = document.getElementById('funnelKeySelect');
-  funnelState.minInput = document.getElementById('funnelMinInput');
+  funnelState.minSelect = document.getElementById('funnelMinSelect');
   funnelState.mainData = mainData;
   if (!funnelState.rowsContainer || !funnelState.dialog || !funnelState.form) return;
 
   buildKeyIndex(mainData);
   populateCategories();
   populateKeys(funnelState.categorySelect.value);
+  populateMinimumOptions();
   funnelState.filters = loadStoredFilters();
   wireDialogControls();
   void renderFunnel();
