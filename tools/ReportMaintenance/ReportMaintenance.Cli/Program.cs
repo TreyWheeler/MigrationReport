@@ -9,6 +9,7 @@ using OpenTelemetry.Logs;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
 using ReportMaintenance.Configuration;
+using ReportMaintenance.Logging;
 using ReportMaintenance.OpenAI;
 using ReportMaintenance.Services;
 
@@ -53,6 +54,12 @@ builder.Services.AddLogging(logging =>
         options.ParseStateValues = true;
         options.IncludeScopes = true;
         options.AddConsoleExporter();
+    });
+
+    logging.Services.AddSingleton<ILoggerProvider>(sp =>
+    {
+        var reportOptions = sp.GetRequiredService<IOptions<ReportMaintenanceOptions>>().Value;
+        return new FileLoggerProvider(reportOptions.LogsDirectory);
     });
 });
 

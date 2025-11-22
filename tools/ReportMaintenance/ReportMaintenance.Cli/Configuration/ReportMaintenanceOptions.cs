@@ -25,4 +25,6 @@ public sealed class ReportMaintenanceOptions
     public string CountriesPath { get; set; } = "data/countries.json";
 
     public string CitiesPath { get; set; } = "data/cities.json";
+
+    public string LogsDirectory { get; set; } = "logs";
 }
