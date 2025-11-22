@@ -205,6 +205,9 @@ function renderReportList(nodes, emptyText) {
   const wrapper = document.createElement('div');
   wrapper.className = 'funnel-report-list';
   if (!nodes || nodes.length === 0) {
+    if (!emptyText) {
+      return wrapper;
+    }
     const empty = document.createElement('p');
     empty.className = 'funnel-empty';
     empty.textContent = emptyText;
@@ -242,11 +245,6 @@ function makeFilterRow(filter, index, excluded, included) {
   controls.className = 'funnel-cell__controls';
   controls.appendChild(makeFilterSummary(filter));
 
-  const hint = document.createElement('p');
-  hint.className = 'funnel-cell__muted';
-  hint.textContent = 'Remove or edit this filter to change the funnel.';
-  controls.appendChild(hint);
-
   const actions = document.createElement('div');
   actions.className = 'funnel-filter-actions';
 
@@ -271,8 +269,9 @@ function makeFilterRow(filter, index, excluded, included) {
   actions.appendChild(editBtn);
   actions.appendChild(removeBtn);
   controls.appendChild(actions);
-  excludedCell.appendChild(controls);
+
   excludedCell.appendChild(renderReportList(excluded, 'No reports excluded by this filter.'));
+  excludedCell.appendChild(controls);
 
   const includedCell = document.createElement('div');
   includedCell.className = 'funnel-cell';
@@ -291,15 +290,7 @@ function makeAddRow(remaining) {
   excludedCell.className = 'funnel-cell';
 
   const controls = document.createElement('div');
-  controls.className = 'funnel-cell__controls';
-  const title = document.createElement('h3');
-  title.className = 'funnel-cell__title';
-  title.textContent = 'Add a filter';
-  controls.appendChild(title);
-  const hint = document.createElement('p');
-  hint.className = 'funnel-cell__muted';
-  hint.textContent = 'Filters are additive and remove reports below the specified alignment value.';
-  controls.appendChild(hint);
+  controls.className = 'funnel-cell__controls funnel-cell__controls--center';
 
   const actions = document.createElement('div');
   actions.className = 'funnel-filter-actions';
@@ -312,8 +303,8 @@ function makeAddRow(remaining) {
   actions.appendChild(addBtn);
   controls.appendChild(actions);
 
+  excludedCell.appendChild(renderReportList([], ''));
   excludedCell.appendChild(controls);
-  excludedCell.appendChild(renderReportList([], 'No filters applied in this step.'));
 
   const includedCell = document.createElement('div');
   includedCell.className = 'funnel-cell';
