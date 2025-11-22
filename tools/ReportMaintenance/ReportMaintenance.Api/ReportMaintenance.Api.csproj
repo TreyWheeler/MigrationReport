@@ -6,6 +6,9 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ReportMaintenance.Cli\ReportMaintenance.Cli.csproj" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReportMaintenance.Domain\ReportMaintenance.Domain.csproj" />
   </ItemGroup>
 </Project>

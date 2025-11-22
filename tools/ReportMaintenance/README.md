@@ -13,16 +13,21 @@ The Report Maintenance CLI is a .NET console application that automates SOP-driv
 ```
 tools/
   ReportMaintenance/
-    ReportMaintenance.Cli/
-      Program.cs              # Entry point and command routing
-      Configuration/          # Strongly typed configuration objects
-      Data/                   # JSON models (reports, rating guides, family profile)
-      Services/               # File I/O, context construction, orchestration
-      OpenAI/                 # API client that builds SOP-aligned prompts
-      appsettings.json        # Default relative paths and OpenAI defaults
+    ReportMaintenance.Domain/  # Shared domain services, commands, and abstractions
+      Configuration/           # Strongly typed configuration objects
+      Data/                    # JSON models (reports, rating guides, family profile)
+      Services/                # File I/O, context construction, orchestration
+      OpenAI/                  # API client that builds SOP-aligned prompts
+      Commands/                # System.CommandLine command builders used by the CLI entry point
+    ReportMaintenance.Cli/     # Console entry point (pulls commands from the domain library)
+      Program.cs
+      appsettings.json         # Default relative paths and OpenAI defaults
+    ReportMaintenance.Api/     # Minimal API host (regeneration endpoint and Swagger)
+      Program.cs
+      Properties/launchSettings.json
 ```
 
-The CLI is built with `System.CommandLine` so new commands can be added following SOP extensions (see `SOPs/` in the repository for reference material).
+The CLI is built with `System.CommandLine` via the shared domain command builders (see `ReportMaintenance.Domain/Commands`). The API host shares the same domain services so it no longer shells out to the CLI.
 
 ## Configuration
 
@@ -88,10 +93,12 @@ To drive single-key refreshes from the UI, start the lightweight API host:
 dotnet run --project tools/ReportMaintenance/ReportMaintenance.Api
 ```
 
-By default it listens on `http://localhost:5075` and exposes:
+By default it listens on `http://localhost:5075` (matching the UI's default regenerate endpoint) and exposes:
 
 - `POST /api/regenerate` with JSON body `{ "report": "canada_report", "keyId": "cost_of_living_family_150m2_in_city_center", "category": "Cost of Living" }`
 - `GET /api/health` for a simple readiness check.
+
+Open http://localhost:5075/swagger for an interactive contract view and quick manual testing.
 
 The frontend looks for a regeneration endpoint in this order:
 

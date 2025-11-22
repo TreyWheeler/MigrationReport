@@ -17,6 +17,9 @@
     <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.7.0" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ReportMaintenance.Domain\ReportMaintenance.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

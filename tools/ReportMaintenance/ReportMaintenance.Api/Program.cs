@@ -1,18 +1,17 @@
 using Microsoft.Extensions.Options;
+using ReportMaintenance;
 using ReportMaintenance.Configuration;
 using ReportMaintenance.Logging;
-using ReportMaintenance.OpenAI;
 using ReportMaintenance.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.WebHost.UseUrls("http://localhost:5075");
 
 builder.Configuration
     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables(prefix: "REPORT_MAINTENANCE_");
-
-builder.Services.Configure<ReportMaintenanceOptions>(builder.Configuration.GetSection("ReportMaintenance"));
-builder.Services.Configure<OpenAIOptions>(builder.Configuration.GetSection("OpenAI"));
 
 builder.Services.AddLogging(logging =>
 {
@@ -37,34 +36,16 @@ builder.Services.AddCors(options =>
     });
 });
 
-builder.Services.AddSingleton<IReportRepository, FileReportRepository>();
-builder.Services.AddSingleton<IRatingGuideProvider, RatingGuideProvider>();
-builder.Services.AddSingleton<IFamilyProfileProvider, FamilyProfileProvider>();
-builder.Services.AddSingleton<IKeyDefinitionProvider, KeyDefinitionProvider>();
-builder.Services.AddSingleton<ReportContextFactory>();
-builder.Services.AddSingleton<ReportUpdateService>();
-builder.Services.AddSingleton<ICategoryKeyProvider, CategoryKeyProvider>();
-builder.Services.AddSingleton<ReportCreationService>();
-builder.Services.AddSingleton<CategoryCreationService>();
-builder.Services.AddSingleton<CategoryKeyCreationService>();
-builder.Services.AddSingleton<ILocationMetadataService, LocationMetadataService>();
-builder.Services.AddSingleton<IAlignmentSuggestionCache>(sp =>
-{
-    var options = sp.GetRequiredService<IOptions<ReportMaintenanceOptions>>().Value;
-    if (string.IsNullOrWhiteSpace(options.ContextCachePath))
-    {
-        return NoopAlignmentSuggestionCache.Instance;
-    }
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-    return ActivatorUtilities.CreateInstance<FileAlignmentSuggestionCache>(sp);
-});
-
-builder.Services.AddHttpClient<IOpenAIAlignmentClient, OpenAIAlignmentClient>();
-builder.Services.AddHttpClient<IOpenAIRatingGuideClient, OpenAIRatingGuideClient>();
+builder.Services.AddReportMaintenanceCore(builder.Configuration);
 
 var app = builder.Build();
 
 app.UseCors();
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.MapPost("/api/regenerate", async (
     RegenerateRequest request,
