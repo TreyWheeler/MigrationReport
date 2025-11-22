@@ -314,6 +314,11 @@ function computeDropTarget(event, targetRow) {
   const before = isAddRow ? true : event.clientY < (rect.top + rect.height / 2);
   if (isAddRow && before === false) return null;
   const targetIndex = Number(targetRow.dataset.filterIndex);
+  const sourceIndex = dragState.sourceIndex;
+  if (sourceIndex === null || Number.isNaN(targetIndex)) return null;
+  let insertIndex = before ? targetIndex : targetIndex + 1;
+  if (sourceIndex < insertIndex) insertIndex -= 1;
+  if (insertIndex === sourceIndex) return null;
   return { before, targetIndex };
 }
 
