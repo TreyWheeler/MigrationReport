@@ -910,7 +910,8 @@
       transform: scale(1.15);
     }
     /* Dig In button visibility on hover */
-    .value-cell .dig-in-btn {
+    .value-cell .dig-in-btn,
+    .value-cell .regenerate-btn {
       margin-left: auto;
       font-size: 12px;
       padding: 4px 8px;
@@ -924,8 +925,11 @@
       pointer-events: none;
       transition: opacity 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
     }
-    .value-cell:hover .dig-in-btn { opacity: 1; pointer-events: auto; }
-    .value-cell .dig-in-btn:hover {
+    .value-cell .regenerate-btn { margin-left: 6px; }
+    .value-cell:hover .dig-in-btn,
+    .value-cell:hover .regenerate-btn { opacity: 1; pointer-events: auto; }
+    .value-cell .dig-in-btn:hover,
+    .value-cell .regenerate-btn:hover {
       border-color: var(--md-color-primary);
       box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent);
     }

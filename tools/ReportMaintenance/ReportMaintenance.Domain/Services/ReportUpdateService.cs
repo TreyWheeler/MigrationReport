@@ -90,6 +90,97 @@ public sealed class ReportUpdateService
         await Task.WhenAll(tasks).ConfigureAwait(false);
     }
 
+    public async Task<ReportEntryUpdateResult> UpdateSingleEntryAsync(
+        string reportName,
+        string key,
+        string? category = null,
+        CancellationToken cancellationToken = default)
+    {
+        var normalizedReport = NormalizeSelector(reportName);
+        var normalizedKey = NormalizeSelector(key);
+        category = NormalizeSelector(category);
+
+        if (string.IsNullOrWhiteSpace(normalizedReport))
+        {
+            throw new ArgumentException("A report name must be provided.", nameof(reportName));
+        }
+
+        if (string.IsNullOrWhiteSpace(normalizedKey))
+        {
+            throw new ArgumentException("A key identifier must be provided.", nameof(key));
+        }
+
+        _logger.LogInformation("Updating key {Key} for report {ReportName}.", normalizedKey, normalizedReport);
+
+        var document = await _reportRepository.LoadAsync(normalizedReport, cancellationToken).ConfigureAwait(false);
+        var definitions = await _keyDefinitionProvider.GetDefinitionsAsync(cancellationToken).ConfigureAwait(false);
+        BackfillMissingEntries(document, definitions, normalizedReport);
+        var context = await _contextFactory.CreateAsync(normalizedReport, document, cancellationToken).ConfigureAwait(false);
+
+        ICategoryKeyProvider.CategoryMatch? categoryMatch = null;
+        if (category is not null)
+        {
+            categoryMatch = await _categoryKeyProvider.GetCategoryMatchAsync(category, cancellationToken).ConfigureAwait(false);
+            if (categoryMatch is { Keys.Count: > 0 } && !categoryMatch.Keys.Contains(normalizedKey, StringComparer.OrdinalIgnoreCase))
+            {
+                var message = $"Key '{normalizedKey}' is not part of category '{categoryMatch.DisplayName}'.";
+                _logger.LogWarning(message);
+                return ReportEntryUpdateResult.NotUpdated(normalizedReport, normalizedKey, message);
+            }
+        }
+
+        try
+        {
+            var entry = document.Values.FirstOrDefault(e => e.Key.Equals(normalizedKey, StringComparison.OrdinalIgnoreCase));
+            if (entry is null)
+            {
+                var message = $"Key '{normalizedKey}' was not found in report '{normalizedReport}'.";
+                _logger.LogWarning(message);
+                return ReportEntryUpdateResult.NotUpdated(normalizedReport, normalizedKey, message);
+            }
+
+            var originalText = entry.AlignmentText?.Trim();
+            var originalValue = entry.AlignmentValue;
+            var originalSame = entry.SameAsParent;
+
+            try
+            {
+                var suggestion = await _openAiClient.GenerateSuggestionAsync(context, entry, cancellationToken).ConfigureAwait(false);
+
+                var hasChanges =
+                    !string.Equals(originalText, suggestion.AlignmentText, StringComparison.Ordinal) ||
+                    originalValue != suggestion.AlignmentValue ||
+                    originalSame != suggestion.SameAsParent;
+
+                if (!hasChanges)
+                {
+                    var unchangedMessage = $"No changes detected for {normalizedKey}; skipping save.";
+                    _logger.LogInformation(unchangedMessage);
+                    return ReportEntryUpdateResult.Unchanged(normalizedReport, normalizedKey, entry);
+                }
+
+                entry.AlignmentText = suggestion.AlignmentText;
+                entry.AlignmentValue = suggestion.AlignmentValue;
+                entry.SameAsParent = suggestion.SameAsParent;
+
+                await _reportRepository.SaveAsync(normalizedReport, document, cancellationToken).ConfigureAwait(false);
+                _logger.LogInformation("Updated key {Key} with value {Value} for report {Report}.", normalizedKey, suggestion.AlignmentValue, normalizedReport);
+
+                return ReportEntryUpdateResult.Updated(normalizedReport, normalizedKey, entry);
+            }
+            catch (Exception ex)
+            {
+                var message = $"Failed to update key '{normalizedKey}' for report '{normalizedReport}'.";
+                _logger.LogError(ex, message);
+                return ReportEntryUpdateResult.NotUpdated(normalizedReport, normalizedKey, message);
+            }
+        }
+        finally
+        {
+            await _cache.FlushAsync(cancellationToken).ConfigureAwait(false);
+        }
+    }
+
     public async Task UpdateReportsAsync(IEnumerable<string> reportNames, string? category = null, CancellationToken cancellationToken = default)
     {
         if (reportNames is null)
