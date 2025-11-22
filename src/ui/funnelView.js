@@ -1,5 +1,6 @@
 import { appState } from '../state/appState.js';
 import { getStored, setStored } from '../storage/preferences.js';
+import { saveSelectedToStorage } from '../storage/selection.js';
 import { fetchCountry } from '../data/reports.js';
 import { computeRoundedMetrics } from '../data/scoring.js';
 import { getEffectivePeople } from '../data/weights.js';
@@ -7,6 +8,9 @@ import { createFlagImg } from '../utils/dom.js';
 import { makeScoreChip } from './components/chips.js';
 import { getParentFileForNode, resolveParentReportFile } from '../utils/nodes.js';
 import { isInformationalKey } from '../data/informationalOverrides.js';
+import { updateCountryListSelection } from './sidebar.js';
+import { onSelectionChanged } from './reportTable.js';
+import { setActiveView } from './viewTabs.js';
 
 const STORAGE_KEY = 'funnelFilters';
 
@@ -154,6 +158,19 @@ function findValueForKey(reportData, keyId) {
   return values.find(entry => normalizeKey(entry?.key) === target) || null;
 }
 
+function activateReportSelection(node) {
+  if (!node) return;
+  setActiveView('dataView');
+  appState.selected = [node];
+  saveSelectedToStorage();
+  const listEl = document.getElementById('countryList');
+  const notice = document.getElementById('notice');
+  if (listEl) {
+    updateCountryListSelection(listEl);
+  }
+  void onSelectionChanged(funnelState.mainData, notice);
+}
+
 async function evaluateFilter(nodes, filter) {
   const min = Number(filter?.minAlignment);
   const threshold = Number.isFinite(min) ? min : 0;
@@ -177,6 +194,9 @@ async function evaluateFilter(nodes, filter) {
 function makeReportPill(node) {
   const pill = document.createElement('div');
   pill.className = 'funnel-report-pill';
+  pill.setAttribute('role', 'button');
+  pill.tabIndex = 0;
+  pill.setAttribute('aria-label', `Open ${node?.name || 'report'} in data view`);
 
   const metrics = node?.metrics || {};
   const chip = makeScoreChip(metrics.overall, { labelPrefix: 'Alignment score' });
@@ -202,6 +222,15 @@ function makeReportPill(node) {
     textWrap.appendChild(meta);
   }
   pill.appendChild(textWrap);
+
+  const handleActivate = () => activateReportSelection(node);
+  pill.addEventListener('click', handleActivate);
+  pill.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      handleActivate();
+    }
+  });
 
   return pill;
 }
