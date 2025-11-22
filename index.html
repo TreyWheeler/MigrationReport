@@ -15,6 +15,8 @@
       --md-color-primary: #2962ff;
       --glass-bg: rgba(255,255,255,0.7);
       --diff-bg: #fff3cd; /* soft amber */
+      --header-height: 20px;
+      --footer-height: 72px;
 
       /* Score palette (Material-ish) */
       --score-red: #d32f2f;      /* Red 700 */
@@ -130,27 +132,118 @@
       -moz-osx-font-smoothing: grayscale;
       min-height: 100vh;
     }
-    body { display: flex; flex-direction: column; min-height: 100vh; }
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      padding-bottom: var(--footer-height);
+    }
     /* Let the body/page scroll naturally for sticky headers */
 
-    h1 {
-      font-size: 22px;
-      margin: 16px 0 8px;
-    }
+    h1 { font-size: 20px; margin: 0; }
 
-    .container { max-width: 100%; margin: 0 auto; padding: 12px 24px 24px; }
+    .container { max-width: 100%; margin: 0 auto; padding: 10px 20px 20px; }
     .controls { display: flex; flex-direction: column; gap: 8px; flex: 1 1 auto; min-height: 0; overflow: hidden; }
+    .app-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: color-mix(in srgb, var(--md-color-surface) 80%, transparent);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--md-color-outline);
+      box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+      padding: 1px 6px;
+    }
+    .app-header .container { padding: 1px 8px; }
+    .app-header__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2px;
+      min-height: var(--header-height);
+      padding: 0;
+    }
+    .app-header__brand { display: flex; align-items: center; gap: 6px; }
+    .app-header__brand h1 { font-size: 15px; }
+    .app-header__controls { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; justify-content: flex-end; }
+    .header-toolbar { display: flex; flex-wrap: wrap; gap: 5px 6px; align-items: center; }
+    .tab-nav {
+      display: inline-flex;
+      align-items: center;
+      gap: 1px;
+      padding: 0 3px;
+      background: var(--md-color-surface);
+      border: 1px solid var(--md-color-outline);
+      border-radius: 999px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    .tab-button {
+      border: 1px solid transparent;
+      background: transparent;
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 1.1;
+      color: var(--md-color-on-surface);
+      cursor: pointer;
+      transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+    }
+    .tab-button.is-active {
+      background: color-mix(in srgb, var(--md-color-primary) 16%, var(--md-color-surface));
+      border-color: var(--md-color-primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 10%, transparent);
+      color: var(--md-color-on-surface);
+    }
+    .tab-button:not(.is-active):hover { background: color-mix(in srgb, var(--md-color-primary) 10%, transparent); }
+    .view-shell { flex: 1 1 auto; display: flex; flex-direction: column; gap: 24px; }
+    .view-pane { display: none; }
+    .view-pane.is-active { display: block; }
+    .view-pane[hidden] { display: none !important; }
+    .data-view__inner { display: flex; flex-direction: column; gap: 12px; }
+    .data-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 12px;
+      background: var(--md-color-surface);
+      border: 1px solid var(--md-color-outline);
+      border-radius: 12px;
+      padding: 10px 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .funnel-placeholder { display: flex; flex-direction: column; gap: 12px; padding: 16px 0 32px; }
+    .legend-footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: color-mix(in srgb, var(--md-color-surface) 90%, transparent);
+      border-top: 1px solid var(--md-color-outline);
+      box-shadow: 0 -6px 20px rgba(0,0,0,0.08);
+      z-index: 950;
+    }
+    .legend-footer__inner {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+      flex-wrap: wrap;
+      padding: 10px 24px;
+      text-align: right;
+    }
+    .legend-footer__label { font-weight: 700; color: color-mix(in srgb, var(--md-color-on-surface) 88%, transparent); margin-left: auto; }
     .controls .toggle { align-self: flex-start; }
     .layout { display: grid; grid-template-columns: minmax(260px, 320px) minmax(0, 1fr); gap: 16px; align-items: stretch; width: 100%; flex: 1 1 auto; min-height: 0; }
     @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
     .sidebar {
-      position: sticky; top: 12px;
+      position: sticky; top: calc(var(--header-height) + 12px);
       background: var(--md-color-surface);
       border: 1px solid var(--md-color-outline);
       border-radius: 12px;
       padding: 12px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-      height: calc(100vh - 24px);
+      height: calc(100vh - var(--header-height) - var(--footer-height) - 24px);
       display: flex;
       flex-direction: column;
       overflow: hidden;
@@ -203,6 +296,7 @@
       cursor: pointer;
       transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease;
     }
+    .app-header .toggle { padding: 4px 7px; font-size: 11px; }
     .toggle:hover { border-color: var(--md-color-primary); box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 12%, transparent); }
     .toggle:has(input:checked) { background: color-mix(in srgb, var(--md-color-primary) 18%, var(--md-color-surface)); border-color: var(--md-color-primary); }
     .pill-button {
@@ -234,6 +328,22 @@
     body.show-hidden-keys .comparison-table tr.hidden-key .cell-inner { background: transparent; }
     body.show-hidden-keys .hidden-key-inner { font-style: italic; opacity: 0.85; }
     body.show-hidden-keys .hidden-key .score-chip { opacity: 0.9; }
+    body[data-theme="dark"] .app-header,
+    body[data-theme="dark"] .legend-footer {
+      background: color-mix(in srgb, #0f172a 88%, transparent);
+      border-color: #1f2937;
+      box-shadow: 0 10px 28px rgba(0,0,0,0.55);
+    }
+    body[data-theme="dark"] .tab-nav {
+      background: #0f172a;
+      border-color: #334155;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+    }
+    body[data-theme="dark"] .tab-button.is-active {
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 22%, transparent);
+    }
+    body[data-theme="dark"] .data-toolbar { background: #0f172a; border-color: #334155; box-shadow: 0 2px 10px rgba(0,0,0,0.45); }
+    body[data-theme="dark"] .legend-footer__label { color: color-mix(in srgb, var(--md-color-on-surface) 86%, transparent); }
     body[data-theme="dark"] .toggle {
       background: #111827; border-color: #334155; color: var(--md-color-on-surface);
       box-shadow: 0 1px 1px rgba(0,0,0,0.4);
@@ -475,9 +585,10 @@
       opacity: 1;
       pointer-events: auto;
     }
-    /* Header row appearance (not sticky; we handle stickiness via floating header) */
     table.comparison-table thead th {
-      position: static;
+      position: sticky;
+      top: calc(var(--header-height) + 4px);
+      z-index: 5;
       background: #f7f7f7;
     }
     body[data-theme="dark"] table.comparison-table thead th,
@@ -489,7 +600,7 @@
     /* Sticky first column (header cell and body key cells) */
     table.comparison-table thead th:first-child {
       left: 0;
-      z-index: 4;
+      z-index: 6;
     }
     tr.category-header-row th {
       background: #1f2937; /* slate-800 */
@@ -806,6 +917,7 @@
       flex: 1 1 auto;
       min-height: 0;
       overflow: auto;
+      position: relative;
       border: 1px solid var(--md-color-outline);
       border-radius: 12px;
       background: var(--glass-bg);
@@ -814,7 +926,7 @@
     }
 
     /* Floating header overlay (replaces sticky thead for reliability) */
-    .floating-header { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid #ddd; visibility: hidden; opacity: 0; pointer-events: none; transition: opacity 120ms ease; height:0px; }
+    .floating-header { position: sticky; top: calc(var(--header-height) + 4px); z-index: 10; border-bottom: 1px solid #ddd; visibility: hidden; opacity: 0; pointer-events: none; transition: opacity 120ms ease; height:0px; }
     .floating-header.visible { visibility: visible; opacity: 1; pointer-events: auto; }
     .floating-row { display: grid; align-items: center; background: #f7f7f7; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
     .floating-row .fh-cell { padding: 6px 8px; border-right: 1px solid #ddd; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -972,7 +1084,7 @@
     body.scores-hidden .floating-header .score-chip,
     body.scores-hidden .floating-header .person-chip { display: none !important; }
     /* Legend */
-    .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 8px 0 4px; font-size: 12px; color: var(--md-color-on-surface); }
+    .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 0; font-size: 12px; color: var(--md-color-on-surface); }
     .legend-item { display: inline-flex; align-items: center; gap: 6px; }
 
     /* Density: compact mode */
@@ -988,24 +1100,7 @@
     /* Ensure links inside cells/lists inherit */
     .cell-inner a, ul.score-list a { color: var(--md-color-primary); }
     body[data-theme="dark"] a:hover { color: color-mix(in srgb, var(--md-color-primary) 80%, #ffffff 20%); }
-    /* Header layout */
-    .header-flex { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-    .header-controls { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
-    #legendMount { display: flex; justify-content: flex-end; }
-    .hero .legend { margin: 0; color: #fff; }
-    /* Consistent header toggle styling (same in light and dark) */
-    .hero .toolbar .toggle { background: #ffffff; border-color: #e5e7eb; color: #111; }
-    .hero .toolbar .toggle:hover { border-color: var(--md-color-primary); box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 16%, transparent); }
-    .hero .toolbar .toggle:has(input:checked) { background: color-mix(in srgb, var(--md-color-primary) 14%, #ffffff); border-color: var(--md-color-primary); color: #111; }
-    .hero .toolbar .pill-button {
-      background: #ffffff;
-      border-color: #e5e7eb;
-      color: #111827;
-    }
-    .hero .toolbar .pill-button:hover {
-      border-color: var(--md-color-primary);
-      box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-color-primary) 16%, transparent);
-    }
+    #legendMount { display: flex; flex: 0 0 auto; justify-content: flex-start; align-items: center; gap: 8px 16px; flex-wrap: wrap; min-width: 0; margin-left: 8px; }
   </style>
 </head>
 <body>
@@ -1013,55 +1108,83 @@
     <div class="app-loading__spinner" aria-hidden="true"></div>
     <div class="app-loading__label">Loading report data…</div>
   </div>
-  <div class="hero hero-full">
-    <div class="hero-inner container header-flex">
-      <h1>Migration Report</h1>
-      <div class="header-controls">
-        <div class="toolbar">
-          <label class="toggle"><input type="checkbox" id="diffToggle"/> Highlight differences</label>
+  <header class="app-header">
+    <div class="container app-header__inner">
+      <div class="app-header__brand">
+        <h1>Migration Report</h1>
+      </div>
+      <div class="app-header__controls">
+        <nav class="tab-nav" aria-label="Primary views" role="tablist">
+          <button type="button" id="dataTab" class="tab-button is-active" role="tab" aria-selected="true" aria-controls="dataView" data-view-tab="dataView">Data</button>
+          <button type="button" id="funnelTab" class="tab-button" role="tab" aria-selected="false" aria-controls="funnelView" data-view-tab="funnelView">Funnel</button>
+        </nav>
+        <div class="toolbar header-toolbar">
           <label class="toggle"><input type="checkbox" id="densityToggle"/> Compact density</label>
           <label class="toggle"><input type="checkbox" id="themeToggle"/> Dark mode</label>
           <label class="toggle"><input type="checkbox" id="scoresToggle"/> Show scores</label>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="view-shell">
+    <section id="dataView" class="view-pane is-active" role="tabpanel" aria-labelledby="dataTab" aria-label="Data view">
+      <div class="container data-view__inner">
+        <div class="toolbar data-toolbar">
+          <label class="toggle"><input type="checkbox" id="diffToggle"/> Highlight differences</label>
           <button id="weightsBtn" type="button" class="toggle">Adjust weights</button>
           <button id="collapseCategoriesBtn" type="button" class="pill-button">Collapse all categories</button>
         </div>
-        <div id="legendMount" class="legend"></div>
+        <div class="layout">
+          <aside class="sidebar">
+            <div class="controls">
+              <label>Select Locations (up to 3):</label>
+              <div class="sort-controls">
+                <label for="countrySort">Sort by:</label>
+                <select id="countrySort">
+                  <option value="alpha">Alphabetical</option>
+                  <option value="alignment">Alignment</option>
+                  <option value="total">Total Score</option>
+                </select>
+              </div>
+              <div class="alert-filter-controls">
+                <label for="alertFilter">Exclude:</label>
+                <select id="alertFilter">
+                  <option value="all">Nothing</option>
+                  <option value="hide-none">No alerts (None)</option>
+                  <option value="hide-warnings">Warnings</option>
+                  <option value="hide-incompatible">Incompatible</option>
+                </select>
+              </div>
+              <label class="toggle"><input type="checkbox" id="citiesOnlyToggle"/> Show only cities</label>
+              <button id="collapseCountriesBtn" type="button" class="pill-button">Collapse all countries</button>
+              <div id="countryList" class="country-list" role="listbox" aria-multiselectable="true"></div>
+              <div id="notice"></div>
+            </div>
+
+          </aside>
+          <div class="content">
+            <div id="report"></div>
+          </div>
+        </div>
       </div>
+    </section>
+    <section id="funnelView" class="view-pane" role="tabpanel" aria-labelledby="funnelTab" aria-label="Funnel view" hidden>
+      <div class="container funnel-placeholder">
+        <h2>Funnel</h2>
+        <p>An upcoming funnel view will appear here.</p>
+        <p class="empty-state__hint">Switch back to the Data tab to continue exploring the report.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="legend-footer" aria-label="Scoring key">
+    <div class="container legend-footer__inner">
+      <div class="legend-footer__label">Scoring key</div>
+      <div id="legendMount" class="legend"></div>
     </div>
-  </div>
+  </footer>
 
-  <div class="container layout">
-    <aside class="sidebar">
-      <div class="controls">
-        <label>Select Locations (up to 3):</label>
-        <div class="sort-controls">
-          <label for="countrySort">Sort by:</label>
-          <select id="countrySort">
-            <option value="alpha">Alphabetical</option>
-            <option value="alignment">Alignment</option>
-            <option value="total">Total Score</option>
-          </select>
-        </div>
-        <div class="alert-filter-controls">
-          <label for="alertFilter">Exclude:</label>
-          <select id="alertFilter">
-            <option value="all">Nothing</option>
-            <option value="hide-none">No alerts (None)</option>
-            <option value="hide-warnings">Warnings</option>
-            <option value="hide-incompatible">Incompatible</option>
-          </select>
-        </div>
-        <label class="toggle"><input type="checkbox" id="citiesOnlyToggle"/> Show only cities</label>
-        <button id="collapseCountriesBtn" type="button" class="pill-button">Collapse all countries</button>
-        <div id="countryList" class="country-list" role="listbox" aria-multiselectable="true"></div>
-        <div id="notice"></div>
-      </div>
-
-    </aside>
-    <main class="content">
-      <div id="report"></div>
-    </main>
-  </div>
   <script type="module" src="src/main.js"></script>
   
   <!-- Key Guidance Dialog -->

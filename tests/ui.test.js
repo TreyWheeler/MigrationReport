@@ -92,6 +92,22 @@ describe('UI helpers', () => {
     expect(button.disabled).toBe(false);
   });
 
+  test('updateCollapseCountriesButton toggles label based on expansion state', () => {
+    const button = document.getElementById('collapseCountriesBtn');
+    moduleExports.appState.showCitiesOnly = false;
+    moduleExports.appState.countries = [
+      { name: 'Alpha', cities: [{}], expanded: true },
+      { name: 'Beta', cities: [{}], expanded: true },
+    ];
+
+    moduleExports.updateCollapseCountriesButton();
+    expect(button.textContent).toBe('Collapse all categories');
+
+    moduleExports.appState.countries.forEach(country => { country.expanded = false; });
+    moduleExports.updateCollapseCountriesButton();
+    expect(button.textContent).toBe('Expand all categories');
+  });
+
   test('sortByOrderThenName sorts by order then name', () => {
     const input = [
       { order: 2, name: 'Bravo' },

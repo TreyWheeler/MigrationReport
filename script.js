@@ -22,6 +22,8 @@ import {
   renderCountryList,
   toggleSelectNode,
   collapseAllCountries,
+  expandAllCountries,
+  toggleCollapseExpandCountries,
   updateCountryListSelection,
   applyCountrySort,
   updateCollapseCountriesButton,
@@ -33,9 +35,60 @@ import { makeScoreChip, makePersonScoreChip, makeInformationalPlaceholderChip } 
 import { appendTextWithLinks } from './src/utils/dom.js';
 import { showLoadingIndicator, hideLoadingIndicator, showLoadingError } from './src/ui/loadingIndicator.js';
 
+function syncHeaderHeightVar() {
+  if (typeof document === 'undefined') return;
+  const header = document.querySelector('.app-header');
+  if (!header) return;
+  const rect = header.getBoundingClientRect();
+  const height = Math.ceil(rect.height || 0);
+  if (Number.isFinite(height) && height > 0) {
+    document.documentElement.style.setProperty('--header-height', `${height}px`);
+  }
+}
+
+function setActiveView(viewId) {
+  if (typeof document === 'undefined') return;
+  const views = Array.from(document.querySelectorAll('.view-pane'));
+  const tabs = Array.from(document.querySelectorAll('[data-view-tab]'));
+  views.forEach(view => {
+    const isActive = view && view.id === viewId;
+    view.classList.toggle('is-active', isActive);
+    view.toggleAttribute('hidden', !isActive);
+    view.setAttribute('aria-hidden', (!isActive).toString());
+    view.setAttribute('tabindex', isActive ? '0' : '-1');
+  });
+  tabs.forEach(tab => {
+    const isMatch = tab?.dataset?.viewTab === viewId;
+    tab.classList.toggle('is-active', isMatch);
+    tab.setAttribute('aria-selected', isMatch ? 'true' : 'false');
+    tab.setAttribute('tabindex', isMatch ? '0' : '-1');
+  });
+}
+
+function setupViewTabs() {
+  if (typeof document === 'undefined') return;
+  const tabs = Array.from(document.querySelectorAll('[data-view-tab]'));
+  if (tabs.length === 0) return;
+  const initial = tabs.find(tab => tab.classList.contains('is-active')) || tabs[0];
+  const initialView = initial?.dataset?.viewTab;
+  if (initialView) {
+    setActiveView(initialView);
+  }
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      if (tab.dataset?.viewTab) {
+        setActiveView(tab.dataset.viewTab);
+      }
+    });
+  });
+}
+
 async function loadMain() {
   showLoadingIndicator();
   try {
+    syncHeaderHeightVar();
+    window.addEventListener('resize', syncHeaderHeightVar, { passive: true });
+    setupViewTabs();
     const { mainData, ratingGuides } = await loadMainData();
     appState.mainData = mainData;
     appState.reportAlerts = new Map();
@@ -75,7 +128,7 @@ async function loadMain() {
       citiesOnlyToggle.checked = appState.showCitiesOnly;
     }
     if (collapseCountriesBtn) {
-      collapseCountriesBtn.addEventListener('click', () => collapseAllCountries());
+      collapseCountriesBtn.addEventListener('click', () => toggleCollapseExpandCountries());
     }
     updateCollapseCountriesButton();
 
@@ -395,6 +448,9 @@ const MigrationReportAPI = {
   computeCountryScoresForSorting,
   applyHiddenKeysVisibility,
   toggleHiddenKeysVisibility,
+  collapseAllCountries,
+  expandAllCountries,
+  toggleCollapseExpandCountries,
   openKeyGuidanceDialog,
 };
 
