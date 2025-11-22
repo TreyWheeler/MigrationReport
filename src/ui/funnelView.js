@@ -25,6 +25,12 @@ const funnelState = {
   reportCache: new Map(),
 };
 
+const dragState = {
+  sourceIndex: null,
+  indicator: null,
+  lastTarget: null,
+};
+
 function normalizeKey(value) {
   try {
     let text = typeof value === 'string' ? value : '';
@@ -223,6 +229,89 @@ function renderReportList(nodes, emptyText) {
   return wrapper;
 }
 
+function getDropIndicator() {
+  if (!dragState.indicator) {
+    const indicator = document.createElement('div');
+    indicator.className = 'funnel-drop-indicator';
+    indicator.setAttribute('aria-hidden', 'true');
+    dragState.indicator = indicator;
+  }
+  return dragState.indicator;
+}
+
+function clearDropIndicator() {
+  const indicator = dragState.indicator;
+  if (indicator?.parentNode) {
+    indicator.parentNode.removeChild(indicator);
+  }
+}
+
+function positionDropIndicator(targetRow, before = true) {
+  if (!targetRow || !targetRow.parentNode) return;
+  const indicator = getDropIndicator();
+  clearDropIndicator();
+  dragState.lastTarget = { targetIndex: Number(targetRow.dataset.filterIndex), before };
+  if (before) {
+    targetRow.parentNode.insertBefore(indicator, targetRow);
+  } else {
+    targetRow.parentNode.insertBefore(indicator, targetRow.nextSibling);
+  }
+}
+
+function handleDragStart(event, index) {
+  dragState.sourceIndex = index;
+  event.dataTransfer.effectAllowed = 'move';
+  event.dataTransfer.setData('text/plain', String(index));
+}
+
+function handleDragEnd() {
+  dragState.sourceIndex = null;
+  dragState.lastTarget = null;
+  clearDropIndicator();
+}
+
+function getTargetFromEvent(event) {
+  return event.target.closest('[data-filter-index]');
+}
+
+function computeDropTarget(event, targetRow) {
+  const rect = targetRow.getBoundingClientRect();
+  const before = event.clientY < (rect.top + rect.height / 2);
+  const targetIndex = Number(targetRow.dataset.filterIndex);
+  return { before, targetIndex };
+}
+
+function handleDragOver(event) {
+  if (dragState.sourceIndex === null) return;
+  const targetRow = getTargetFromEvent(event);
+  if (!targetRow) return;
+  const { before } = computeDropTarget(event, targetRow);
+  event.preventDefault();
+  positionDropIndicator(targetRow, before);
+}
+
+function handleDrop(event) {
+  if (dragState.sourceIndex === null) return;
+  const targetRow = getTargetFromEvent(event);
+  const dropMeta = targetRow ? computeDropTarget(event, targetRow) : dragState.lastTarget;
+  if (!dropMeta) return;
+  const { before, targetIndex } = dropMeta;
+  event.preventDefault();
+  let insertIndex = before ? targetIndex : targetIndex + 1;
+  const sourceIndex = dragState.sourceIndex;
+  clearDropIndicator();
+  dragState.sourceIndex = null;
+  dragState.lastTarget = null;
+  if (Number.isNaN(insertIndex) || sourceIndex === insertIndex) return;
+  const [moved] = funnelState.filters.splice(sourceIndex, 1);
+  if (!moved) return;
+  if (sourceIndex < insertIndex) insertIndex -= 1;
+  insertIndex = Math.max(0, Math.min(insertIndex, funnelState.filters.length));
+  funnelState.filters.splice(insertIndex, 0, moved);
+  persistFilters();
+  void renderFunnel();
+}
+
 function makeFilterSummary(filter) {
   const container = document.createElement('div');
   container.className = 'funnel-filter-summary';
@@ -242,12 +331,23 @@ function makeFilterSummary(filter) {
 function makeFilterRow(filter, index, excluded, included) {
   const row = document.createElement('div');
   row.className = 'funnel-row';
+  row.dataset.filterIndex = String(index);
 
   const excludedCell = document.createElement('div');
   excludedCell.className = 'funnel-cell';
 
   const controls = document.createElement('div');
   controls.className = 'funnel-cell__controls';
+
+  const dragHandle = document.createElement('button');
+  dragHandle.type = 'button';
+  dragHandle.className = 'funnel-drag-handle';
+  dragHandle.setAttribute('aria-label', 'Reorder filter');
+  dragHandle.textContent = '☰';
+  dragHandle.draggable = true;
+  dragHandle.addEventListener('dragstart', event => handleDragStart(event, index));
+  dragHandle.addEventListener('dragend', handleDragEnd);
+  controls.appendChild(dragHandle);
   controls.appendChild(makeFilterSummary(filter));
 
   const actions = document.createElement('div');
@@ -290,6 +390,8 @@ function makeFilterRow(filter, index, excluded, included) {
 function makeAddRow(remaining) {
   const row = document.createElement('div');
   row.className = 'funnel-row';
+  row.classList.add('funnel-row--add');
+  row.dataset.filterIndex = String(funnelState.filters.length);
 
   const excludedCell = document.createElement('div');
   excludedCell.className = 'funnel-cell';
@@ -474,6 +576,12 @@ async function renderFunnel() {
   rows.appendChild(makeAddRow(remaining));
 }
 
+function wireDragAndDrop() {
+  if (!funnelState.rowsContainer) return;
+  funnelState.rowsContainer.addEventListener('dragover', handleDragOver);
+  funnelState.rowsContainer.addEventListener('drop', handleDrop);
+}
+
 function wireDialogControls() {
   if (!funnelState.form) return;
   funnelState.form.addEventListener('submit', handleDialogSubmit);
@@ -517,6 +625,7 @@ function initFunnelView(mainData) {
   populateMinimumOptions();
   funnelState.filters = loadStoredFilters();
   wireDialogControls();
+  wireDragAndDrop();
   void renderFunnel();
 }
 

@@ -485,6 +485,10 @@
     .funnel-filter-summary { display: flex; flex-direction: column; gap: 4px; align-items: center; }
     .funnel-filter-summary__rule { font-weight: 600; color: var(--md-color-on-surface); }
     .funnel-filter-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; }
+    .funnel-drag-handle { border: 1px dashed color-mix(in srgb, var(--md-color-outline) 60%, transparent); background: color-mix(in srgb, var(--md-color-surface) 90%, transparent); color: color-mix(in srgb, var(--md-color-on-surface) 70%, transparent); padding: 6px 8px; border-radius: 10px; cursor: grab; font-size: 14px; transition: transform 0.15s ease, box-shadow 0.15s ease; }
+    .funnel-drag-handle:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .funnel-drag-handle:active { cursor: grabbing; }
+    .funnel-drop-indicator { height: 6px; border-radius: 999px; background: color-mix(in srgb, var(--md-color-primary) 55%, transparent); margin: -2px 0 10px; box-shadow: 0 0 0 2px color-mix(in srgb, var(--md-color-primary) 20%, transparent); }
     .funnel-icon-button {
       width: 44px;
       height: 44px;
