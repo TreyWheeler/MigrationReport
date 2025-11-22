@@ -200,6 +200,7 @@
     .view-pane { display: none; }
     .view-pane.is-active { display: block; }
     .view-pane[hidden] { display: none !important; }
+    .container.data-view__inner { padding-top: 6px; }
     .data-view__inner { display: flex; flex-direction: column; gap: 12px; }
     .data-toolbar {
       display: flex;
@@ -211,6 +212,9 @@
       border-radius: 12px;
       padding: 10px 12px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      position: sticky;
+      top: calc(var(--header-height) + 2px);
+      z-index: 980;
     }
     .funnel-placeholder { display: flex; flex-direction: column; gap: 12px; padding: 16px 0 32px; }
     .legend-footer {
