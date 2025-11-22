@@ -62,7 +62,9 @@ internal static class ValueRequirementHelper
         var currencyCode = GetCurrencyCode(isoCode) ?? "LOCAL";
         return format switch
         {
-            ValueFormat.CurrencyWithUsd => $"alignmentText MUST be formatted exactly as \"{currencyCode} 1,234.56 ($1,345.67)\" with the local currency amount rounded to two decimals followed by the USD conversion in parentheses and no additional text.",
+            ValueFormat.CurrencyWithUsd => currencyCode.Equals("USD", StringComparison.OrdinalIgnoreCase)
+                ? "alignmentText MUST be formatted exactly as \"USD 1,234.56\" with no additional text."
+                : $"alignmentText MUST be formatted exactly as \"{currencyCode} 1,234.56 ($1,345.67)\" with the local currency amount rounded to two decimals followed by the USD conversion in parentheses and no additional text.",
             ValueFormat.Percentage => "alignmentText MUST be a single percentage such as \"35%\" with no other words.",
             ValueFormat.Integer => "alignmentText MUST be a single integer (e.g., \"1620\") with no labels or units.",
             ValueFormat.Fahrenheit => "alignmentText must explicitly include Fahrenheit values (e.g., \"35°F–55°F\").",
@@ -177,7 +179,7 @@ internal static class ValueRequirementHelper
         Regex regex;
         if (isUsd)
         {
-            regex = new Regex($@"^{Regex.Escape(currencyCode)}\s\d{{1,3}}(,\d{{3}})*\.\d{{2}}$", RegexOptions.Compiled);
+            regex = new Regex($@"^{Regex.Escape(currencyCode)}\s\d{{1,3}}(,\d{{3}})*\.\d{{2}}(?:\s\(\$\d{{1,3}}(,\d{{3}})*\.\d{{2}}\))?$", RegexOptions.Compiled);
             if (!regex.IsMatch(text))
             {
                 error = $"expected format \"{currencyCode} 1,234.56\"";
@@ -185,6 +187,12 @@ internal static class ValueRequirementHelper
             }
 
             var numberSegment = text.Substring(currencyCode.Length).Trim();
+            var spaceIndex = numberSegment.IndexOf(' ');
+            if (spaceIndex > 0)
+            {
+                numberSegment = numberSegment[..spaceIndex];
+            }
+
             return TryParseAmount(numberSegment, out amount);
         }
 

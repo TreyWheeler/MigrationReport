@@ -1,0 +1,394 @@
+{
+  "version": 2,
+  "iso": "ES",
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "EUR 2,800.00 ($3,080.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "EUR 2,100.00 ($2,289.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "EUR 2,400.00 ($2,592.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "EUR 0.00 ($0.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "EUR 2,800.00 ($3,080.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "EUR 70.00 ($75.60)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "EUR 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "EUR 1,150.00 ($1,265.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "EUR 3,000.00 ($3,270.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "EUR 1,800.00 ($2,016.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Valencia (ES): monthly payroll and VAT filings; US-founded studio; payroll software plus local bookkeeper keep compliance under 40 hrs/yr.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "EUR 727,000.00 ($799,700.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_dev_incentive_eligible_share",
+      "alignmentText": "60%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_dev_incentive_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Valencia, ES startup visa fits a small US game studio; family-friendly city with schools; 8-12 weeks, up to \u20AC50k, filings by a startup lawyer.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "31%",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- EUR 120,000.00 ($129,600.00) \u2013 IVACE/Val\u00E8ncia \u2013 Co-financing grant for production and development targeting Valencia-based studios, with local spend requirements and suitability for prototyping/early phases.\n- EUR 300,000.00 ($324,000.00) \u2013 Creative Europe MEDIA \u2013 Development funding for narrative-driven premium videogames; competitive but accessible to small studios with international reach.\n- EUR 50,000.00 ($54,000.00) \u2013 Generalitat Valenciana regional innovation fund \u2013 Small subsidy for prototyping and market entry in cultural/creative industries; realistic for early-stage teams willing to incorporate locally.\n- EUR 1,500,000.00 ($1,620,000.00) \u2013 ENISA \u2013 Startup loan for innovative SMEs; helps bridge to production with requirement of Spain incorporation and innovation criteria.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "4",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "EUR 8,440,172.37 ($9,621,796.50)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "EUR 2,727,021.82 ($2,999,724.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "EUR 51,604,125.00 ($55,784,059.13)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Valencia, Spain indie game scene is modest: about 4\u20135 in-person meetups annually; online community around 100\u2013150 members with some sponsor activity.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "EUR 18,000.00 ($19,620.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Valencia, Spain: English is widely usable in government, banking, and healthcare; expect 10-20% tasks in Spanish; most forms have English versions.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Valencia public schools offer Spanish/English bilingual tracks in a subset of seats, beginning by grade 4; roughly 40\u201349% coverage.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Valencia, Spain: leases typically take 4-6 weeks; deposits around 2.5 months; guarantor commonly requested for expat families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_effort",
+      "alignmentText": "Spain Valencia long-term visa is moderate; 6-8 months with in-person steps and possible RFEs; prepare organized docs and timelines.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Spain Valencia: Eligible immigration statuses build from temporary residence permits to long-term permanent rights and citizenship. Primary options and associated rights include: (1) residencia y trabajo (residence and work permit) for non-EU family members or workers; enables lawful residence and work, with a Tarjeta de Identidad de Extranjero (TIE) and access to public healthcare and schooling; applications can be based on work offers or family reunification. (2) Residencia de larga duracion (permanent residence) after roughly five years of legal residence; ongoing right to live and work in Spain with easier renewals and broad equal-rights along with nationals. (3) Residencia de larga duracion de la UE (EU long-term residence) after five years; similar to permanent status but with enhanced cross-EU equal treatment for work, housing and social services. (4) Ciudadania espa\u00F1ola por naturalizacion (Spanish citizenship by naturalization) after long-term residence (often around ten years; shorter in some cases such as marriage to a Spanish citizen or specific nationalities); grants full civil and political rights and a Spanish passport. Other routes exist (student, researcher, etc.) with corresponding residence rights. Action plan for the Valencia family: identify whether family reunification or work-based permits apply, assemble required documents (passports, birth/marriage certificates, antecedentes penales, proof of means, health coverage, housing), apply for visas and residence permits before/after arrival, obtain the TIE within 30 days of arriving, enroll in health care and schools, maintain continuous residency to pursue permanent residency and eventual citizenship if desired.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Valencia offers a pro-immigrant climate for skilled workers, with strong expat networks and mild climate; bureaucracy can slow visa steps.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Valencia, Spain has strong anti-bullying policies; for Caucasian American kids, incidents are typically 1-2 per 1,000 with solid enforcement.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Valencia, Spain offers bilingual public schools with solid primary/secondary outcomes; performance sits mid-to-upper mid globally.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Val\u00E8ncia school meals emphasize vegetables and olive oil within a Mediterranean pattern. HEI around 80\u201384 with under 10% ultra-processed calories.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Valencia, Spain public schools typically offer 2-3 hours/week of English with limited bilingual aides; expect primary instruction mainly in Spanish.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Spain/Valencia provides solid subsidized language courses, with on-demand translation at many public services; not universal but generally accessible.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Valencia date-night options: enjoy a sunset stroll along the Turia Gardens or the Malvarrosa beach, followed by a tapas crawl in El Carmen or Ruzafa; consider a rooftop bar or restaurant with city views in the center; or a twilight boat ride near Albufera for a quieter, scenic option. Plan babysitting in advance and reserve popular spots to ensure a relaxed, low-stress evening."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Valencia, prioritize family-friendly outdoor spaces such as Turia Gardens and Parque de la Cabecera for daily play, and plan weekend outings to the City of Arts and Sciences, Oceanogr\u00E0fic, and Malvarrosa beach. Target neighborhoods with parks, walkability, reliable broadband, and access to bilingual early-childhood programs and public schools; arrange affordable childcare with predictable hours and use libraries and local meetups to support English exposure and community belonging."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Valencia (Val\u00E8ncia) evening social options for the family: pursue family-friendly, English-accessible activities such as expat and bilingual meetups, board-game evenings, and community groups in Ciutat Vella and Ruzafa. Prioritize venues with reliable wifi for Trey, safe late-evening access, and childcare or kid-friendly programming. Aim for 1-2 recurring events per month (weeknights or weekends) near Turia Park/old town to balance social life with a slower pace; ensure activities welcome parents, allow flexible participation, and align with Sarah\u0027s preference for predictable hours and remote work."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Valencia, Spain offers many after-6pm family venues (parks, libraries, activity centers); alignment 8 (22-25/100k) fits this family\u0027s needs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Valencia\u0027s walkable center, Turia Park, and bike-friendly lanes make 70-79% of trips car-free\u2014well suited for a family in Spain.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Valencia, Spain offers daily markets (Mercado Central) with fresh produce. Fast-food options exist, but healthy choices are easy.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Valencia requires a mix of online and in-person steps (NIE, empadronamiento) for first-time visa holders. Budget several half-days to full-days per quarter.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Valencia, public nurseries for a 1-year-old usually 6-9 months; private options can be faster but costlier.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "EUR 320.00 ($352.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "EUR 750.00 ($810.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "EUR 430.00 ($473.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Valencia, ES offers universal, affordable healthcare; GP visits 1-2 days, specialists 5-7 days - fits your family\u0027s needs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "EUR 0.00 ($0.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "EUR 1,100.00 ($1,210.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "EUR 350.00 ($378.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Spain\u0027s universal public healthcare in Valencia ensures baseline coverage isn\u0027t employer-tied; private options exist but public system covers essentials.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "4000",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Valencia\u0027s transit is solid; central areas have frequent service (metro/bus), good for families though outskirts vary.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Valencia, ES offers affordable public universities with broad access for expats; English-taught programs are available.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Valencia offers solid universities with some English-taught programs; not top-50 globally, but bilingual exposure aligns with study goals.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Valencia, Spain provides many accredited adult upskilling programs with subsidized online options; strong fit for your high education priority.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Valencia, Spain shows modest senior .NET architect demand (roughly 2-3 postings per million per month); remote work common.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Valencia, Spain shows modest Rails demand; local postings are limited. Consider remote roles or Madrid/Barcelona opportunities.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "EUR 58,000.00 ($63,220.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "EUR 38,500.00 ($42,350.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Valencia offers easy access to family-friendly, lifeguarded beaches (Malvarrosa/Las Arenas, El Saler). Prioritize housing within 20\u201330 minutes of the coast by transit or car, with good walkability, parks, and safe beach access; plan for seasonal crowds and parking constraints; ensure reliable broadband near coastal zones."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall in Valencia, ES typically 60\u201375\u00B0F highs and 50\u201360\u00B0F nights, offering crisp, stable autumn.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Valencia, Spain offers ~270\u2013299 comfortable days yearly (10\u201329\u00B0C), matching your mild-weather preference.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Valencia has protected areas within an hour (Albufera Natural Park; Serra Calderona). Great for family outdoor time in a mild, coastal climate.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Valencia offers ample nature options close to home: Turia Gardens and nearby parks are within 5 km, with several regional trails accessible by transit in under 30 minutes.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Valencia, Spain typically has 60\u201375\u00B0F highs and 50\u201360\u00B0F nights. Spring is mainly mild with light rain, ideal for family outdoor time.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Valencia, ES summers: highs 78\u00B0F\u201390\u00B0F, lows 65\u00B0F\u201375\u00B0F. Occasional heat advisories; humidity is moderate.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Valencia winters typically 54-60\u00B0F highs and 41-46\u00B0F lows. There is little snow or ice, supporting a mild climate for the family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Valencia, Spain has a mild Mediterranean climate with rare severe weather; expect about 10-13 days/year of AQI spikes or storms.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Valencia, ES offers a stable economy with modest 5-year GDP volatility (about 2-3%), supporting steady family finances and startup grants.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Spain\u0027s immigration regime is steady with few major overhauls in a decade; Valencia offers predictable visa paths and family-friendly policies.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Valencia, Spain ranks high on political stability with strong institutions; favorable for families seeking predictable governance.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Valencia, ES shows very strong social stability: violent crime well under 200 per 100k. Utilities are reliable and schooling supports a family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    }
+  ]
+}

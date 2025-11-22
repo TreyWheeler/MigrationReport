@@ -1,0 +1,400 @@
+{
+  "version": 2,
+  "iso": "US",
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "USD 6,200.00",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "USD 4,250.00",
+      "alignmentValue": 6
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "USD 4,800.00",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "USD 3,400.00",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "USD 9,360.00",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "USD 125.00",
+      "alignmentValue": 3
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "USD 1,234.56",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "USD 7,000.00",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "USD 15,000.00",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "USD 3,400.00",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Los Angeles, CA: CA payroll taxes require monthly deposits and quarterly filings; a local CPA keeps compliance manageable.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "USD 1,384,166.67",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_dev_incentive_eligible_share",
+      "alignmentText": "30%",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_dev_incentive_rate",
+      "alignmentText": "0%",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Los Angeles, US: US citizens can form a game studio via standard regs; no dedicated startup visa required.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "35%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- USD 500,000.00 ($500,000.00) \u2013 California Competes Tax Credit \u2013 A state incentive offering credits for California-based studios that create jobs and invest in qualifying activities, suitable for hosting a 1.5M narrative action-adventure project in LA.\n- USD 256,000.00 ($256,000.00) \u2013 NSF SBIR Phase I \u2013 Federal R\u0026D grant program for small, US-incorporated tech startups; supports early development of engine/tools and narrative tech aligned with a game project in the 0.5\u20135M range.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "9",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "40",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "USD 8,830,620.00",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "USD 2,465,274.00",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "USD 52,448,100.00",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Los Angeles, USA has a vibrant game-dev scene with frequent meetups, jams, and a large online community\u2014great for Trey\u0027s founder goals.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "USD 1,234.56",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Los Angeles: English-dominant govt; 10-20% tasks need Spanish; most forms in English; supports bilingual exposure for kids; adults value English ubiquity.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Los Angeles, CA offers many K Spanish-English bilingual tracks; supports your 5-year-old\u0027s early bilingual schooling.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Los Angeles: family leases typically take 3\u20134 weeks, up to 2 months deposit; digital paperwork common; English generally sufficient.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_effort",
+      "alignmentText": "Los Angeles, US: U.S. citizens relocating domestically; no visa needed. Immigration steps are straightforward and quick.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Los Angeles, CA: U.S. permanent residency (Green Card) can be obtained through family sponsorship, employment petitions, asylum/refugee relief, or the Diversity Visa lottery. It grants lawful work, permanent residence, travel with a valid card, and a path to citizenship; it does not confer voting rights. Action steps in LA: determine the applicable path, gather required documentation, file or adjust with USCIS, and maintain status with timely renewals; consult a California-experienced immigration attorney or accredited representative; use local LA nonprofit clinics for affordable help; monitor processing times and plan for naturalization if eligible; after obtaining status, explore California benefits such as driver license eligibility and potential in-state tuition options.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "LA offers strong skilled-immigrant support, grants, and a thriving game/dev scene that suits Trey and Sarah\u0027s entrepreneurial goals.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Los Angeles, CA, USA: caucasian American students face low bullying risk with strong anti-bias enforcement; ~1\u20132 incidents per 1,000 students.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Los Angeles public schools offer magnet/charter options and bilingual programs; education quality around the global 60th percentile.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Los Angeles, CA public schools meet HEI 80-84 with \u003C10% ultra-processed calories, aligning with our health-minded family goals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In LA public schools, English instruction averages about 12-13 hours/week with some bilingual support in core subjects. Bilingual exposure is feasible.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Los Angeles offers strong ESOL and translations across agencies, supporting your kids\u0027 bilingual exposure and English ubiquity goals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Los Angeles date-night opportunities: prioritize walkable, low-stress evenings in Koreatown, West Hollywood, DTLA, Santa Monica, and Griffith Park. Sample plans include: Griffith Observatory sunset with dinner in Los Feliz; a coastal stroll and seafood dinner in Santa Monica; a culture-focused DTLA night with a gallery visit or live music followed by dessert. Practical notes: book babysitting and transit/parking in advance; account for traffic and parking challenges; consider earlier start times to avoid crowds.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Los Angeles, plan regular family activities: outdoor time at Griffith Park and Santa Monica Beach; visits to kid-friendly museums (California Science Center, La Brea Tar Pits, Natural History Museum); use LA libraries and community centers for affordable childcare, after-school, and bilingual programs; explore parks, farmers markets, and cultural festivals in walkable neighborhoods with strong schools; participate in LA game-dev and tech meetups and family-friendly coworking spaces to support Trey\u2019s interests while Sarah continues remote work."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "LA-area common-friend nights: implement a rotating schedule of 1-2 recurring, family-friendly evenings within 20-30 minutes of home (board-game caf\u00E9s, trivia, hosted game nights). Reserve ahead; coordinate childcare swaps with trusted friends; use Meetups or community centers to find events; prioritize safe, accessible venues with easy transit or parking."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Los Angeles, CA has ample after-6pm kid-friendly venues (libraries, museums, parks). It suits a two-kid family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Los Angeles offers walkable, park-rich areas ideal for families; ~30-34% car-free trips place it mid-range among People-Centric cities.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Los Angeles has abundant markets and fresh produce across neighborhoods. Dense fast-food presence limits top scores for families like ours.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Los Angeles, CA: most filings online with modest queues; first-time visa onboarding may require a single morning in person.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Los Angeles, slots for a 1-year-old often run 6-9 months; seek affordable, bilingual options with periodic documentation.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "USD 1,234.56",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "USD 2,000.00",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "USD 2,000.00 ($2,000.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Los Angeles has broad insured access; PCP waits 5-7 days and specialists 11-14 days - reasonable for a family with two young kids.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "USD 1,900.00",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "USD 2,300.00",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "USD 1,234.56",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "LA, CA: employer coverage is common; if employment ends, 51-60% risk; CA Medi-Cal/ACA options help families with kids.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1880",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "LA transit is uneven; core areas offer 500m access to frequent service, which supports family-friendly neighborhoods, but many parts still require driving.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "In Los Angeles, public colleges offer affordable in-state tuition and open-admission options, supporting your high education priority.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "LA hosts UCLA and Caltech in the global top 50 with strong English programs; abundant bilingual exposure supports your education goals.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Los Angeles offers abundant accredited adult upskilling via colleges/extensions and subsidized online options. This supports the family\u0027s high education priority.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Los Angeles, CA shows solid senior .NET architect demand; strong pay and remote options support Trey\u0027s startup and Sarah\u0027s web work.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Los Angeles Rails demand: 20-24 postings/mn, matching Sarah\u0027s 6 years of Rails. Remote/hybrid roles are common in LA.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "USD 185,000.00"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "USD 150,000.00"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "For Los Angeles, prioritize housing within easy reach of Santa Monica, Venice, or Marina del Rey; select family-friendly beach neighborhoods with reliable lifeguards, shade, restrooms, and stroller-friendly paths; plan weekend beach outings with sun protection, hydration, and parking strategies; monitor air quality during wildfire season and heat waves; budget for parking, beach gear, and occasional traffic delays; leverage coastal bike/pedestrian routes to support walks and safe play; check surf and tide conditions and lifeguard coverage when scheduling activities.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Los Angeles fall: highs 60\u201375\u00B0F, lows 50\u201360\u00B0F; mild, stable autumn in SoCal matches the family\u0027s climate preference.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Los Angeles typically has 300\u002B mild, dry days yearly. Humidity is generally low, matching your climate preference.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Los Angeles offers rich family-friendly nature: ~40-49% protected within 60 minutes; Santa Monica Mountains NRA, Griffith Park, Malibu/Topanga.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Nature access in Los Angeles, United States: 6-7 parks \u003E10 acres within 5 km and 1 regional trail; supports family-friendly outdoor time.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Los Angeles, USA: spring highs 60\u201375\u00B0F and lows 50\u201360\u00B0F; mild, stable weather matches your family\u0027s climate preferences.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Los Angeles summers: highs 72\u201385\u00B0F, lows 60\u201372\u00B0F; low humidity fits our mild, low-stress, family-friendly climate.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Los Angeles (US) winters: 65-70\u00B0F highs and 50-55\u00B0F lows; very mild with little to no snow, fitting a 10 for your family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Los Angeles, USA offers a mild year-round climate. For your family, expect about 10-13 severe weather/AQI days per year.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Los Angeles, USA offers steady GDP stability amid a diverse tech/media economy; supports Trey\u0027s startup and Sarah\u0027s remote-friendly family life.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "US/LA policy shows moderate shifts; LA startup visa paths exist, but federal rules can alter residency, affecting founders in LA\u0027s tech scene.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Los Angeles, USA enjoys high political stability, strong civil liberties, and robust institutions that support your family\u0027s long-term plans.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Los Angeles offers family-friendly neighborhoods and strong schools; safety varies by area, while utilities remain reliable.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    }
+  ]
+}

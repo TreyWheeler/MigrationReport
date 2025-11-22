@@ -1,0 +1,402 @@
+{
+  "version": 2,
+  "iso": "PT",
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "EUR 2,800.00 ($3,024.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "EUR 1,750.00 ($1,890.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "EUR 2,000.00 ($2,180.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "EUR 800.00 ($872.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "EUR 2,080.00 ($2,246.40)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "EUR 90.00 ($99.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "EUR 250.00 ($270.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "EUR 800.00 ($880.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "EUR 1,000.00 ($1,089.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "EUR 1,200.00 ($1,308.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Porto, Portugal: Monthly payroll and VAT with a fractional accountant; occasional in-person residency/company registrations.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "EUR 620,416.67 ($676,254.17)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "21%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_dev_incentive_eligible_share",
+      "alignmentText": "40%",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_dev_incentive_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Porto offers a 4-6 month entrepreneur path with local incubator and legal help; English-friendly and workable for US founder families.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "24%",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- EUR 120,000.00 ($128,400.00) \u2013 SIFIDE II \u2013 Plan to leverage R\u0026D tax credit on game development costs, with careful documentation of eligible expenditures during the 2-year build.\n- EUR 40,000.00 ($42,800.00) \u2013 Beta-i Accelerator \u2013 Leverage local incubator resources (mentoring, facilities, and potential micro-grants) to de-risk early-stage development.\n- EUR 150,000.00 ($160,500.00) \u2013 Creative Europe \u2013 MEDIA \u2013 EU-wide development funding for narrative-driven games; supports co-production and market-readiness for Steam/consoles.\n- EUR 25,000.00 ($26,750.00) \u2013 IAPMEI Innovation Voucher \u2013 Short-cycle R\u0026D support for early-stage game development or tech integration, contingent on local incorporation and partner universities.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "6",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "EUR 8,516,200.00 ($9,699,952.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "EUR 3,077,522.24 ($3,320,646.50)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "EUR 50,065,163.75 ($54,420,833.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Porto, Portugal\u0027s game-dev scene is budding: 6-11 in-person meetups yearly, ~150 online members, occasional jams; decent fit for a founder family.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "EUR 28,500.00 ($30,780.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Porto, Portugal: English covers most critical admin. 10-20% of tasks may need Portuguese (visa/health forms), but English options exist.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Porto\u0027s public schools offer bilingual English tracks in a portion of seats. They often start around grade 4-5, not universal.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Porto, leases typically take 4\u20136 weeks with up to 2.5 months deposit. A guarantor is common; consider translator help if needed.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_effort",
+      "alignmentText": "Porto, PT: entrepreneur visa path typically 4-6 months with organized docs; some in-person steps, most steps online.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Portugal (Porto), immigration statuses of relevance are: (1) temporary residence permits (Autoriza\u00E7\u00E3o de resid\u00EAncia) issued for work, study, or family reunification, determined by the applicant\u0027s grounds and ongoing eligibility; (2) permanent residence (Autoriza\u00E7\u00E3o de resid\u00EAncia permanente) after five years of legal residence, which grants long-term residence and broader work and benefit access; (3) citizenship by naturalization after a minimum period of legal residence (typically five years) with required Portuguese language proficiency and integration; (4) EU long-term resident status after five years of lawful residence, offering enhanced rights across EU states. Rights by status include: temporary permits allow residence and work; permanent residence expands access to employment without tied programs plus healthcare and social benefits; citizenship adds full civil rights, including voting and a Portuguese passport. Action steps for your Porto family: map your current status path (work, family, or study), maintain continuous residence, begin language and integration efforts, collect required documents, submit applications through SEF and municipal services, and plan for potential naturalization if long-term residency is feasible. Coordinate with local immigration offices or SEF to align with your two adults and two children; ensure dependents are included on any permits.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Porto offers solid skilled-immigrant approvals and positive sentiment; strong startup grants and tech visa options support Trey\u0027s venture.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Porto, Portugal schools strongly enforce anti-bias policies; Caucasian immigrant kids face very low bullying, about 1-2 per 1,000.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Porto offers solid primary/secondary schooling with strong public options and good early childhood programs; bilingual exposure is increasingly available.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Porto school meals prioritize local fish, legumes and veggies; HEI ~75\u201379 with low ultra-processed share for your kids.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Porto public schools typically offer 4-5 hours/week of English; bilingual aides are rare and most coursework remains in Portuguese.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Porto offers strong language courses and translations across agencies; English-friendly with broad access to Portuguese classes for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Porto date-night ideas: stroll the Douro riverside in Ribeira at sunset, followed by dinner in Gaia\u2019s wine-cellar district; enjoy wine-tasting and candlelit seafood in Baixa/Cl\u00E9rigos; catch a small live Fado show in intimate venues in Cedofeita or Vila Nova de Gaia; end with a nightcap at Miradouro da Vit\u00F3ria or the Dom Lu\u00EDs I Bridge viewpoint for views over the river; consider a twilight Douro boat cruise or a retro tram ride through the historic hills for a relaxed, romantic pace."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Porto family-friendly opportunities include short, stroller-friendly outdoor options (Parque da Cidade, Jardim do Pal\u00E1cio de Cristal), beach days at Matosinhos, a Ribeira waterfront stroll, kid-focused experiences at World of Discoveries or Sea Life Porto, and a brief Douro River boat trip. Plan logistics to keep travel under 30 minutes from central Porto, favor bilingual signage, and mix free/low-cost options with indoor options for the 1-year-old\u0027s naps and safety."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Map 4-6 Porto evening options that are expat-friendly and English-accessible (board-game caf\u00E9s, casual music pubs, meetup events) in Baixa, Cedofeita, Ribeira and Boavista. For each option, note hours (18:00-23:00\u002B), rough cost, language accessibility, whether family-friendly, and easiest transit back; propose a 6-week trial schedule (Fri/Sat) and a simple safety/transport plan."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Porto has a solid mix of after-hours family spaces (play areas, libraries, kid-friendly cafes), roughly 14-17 venues per 100k.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Porto\u0027s walkable Baixa/Ribeira with trams and good buses suits a car-light, family-friendly lifestyle; many trips doable by foot or transit.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Porto has multiple markets with daily produce and affordable options; easy access to fresh foods and relatively lower fast-food density.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Porto offers online portals, but visa/residency still needs in-person visits; expect several half-days per quarter.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Porto public creches typically 4\u20139 months wait. Private slots vary widely; there is no universal month guarantee.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "EUR 325.00 ($351.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "EUR 450.00 ($495.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "EUR 450.00 ($495.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Porto, Portugal offers universal healthcare; GP visits typically 5-7 days and specialists 11-14 days, aligning with affordable, family-friendly care.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "EUR 150.00 ($165.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "EUR 900.00 ($981.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "EUR 350.00 ($395.50)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Portugal\u0027s universal healthcare means coverage isn\u0027t tied to employment. In Porto, leaving a job shouldn\u0027t jeopardize baseline care.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1800",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Porto has dense metro/bus coverage; most residents are within 500m of 10-minute headways for ~18h. Good for families, with some outskirts less served.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Porto, Portugal public universities give international access with tuition around 8-9% of income and admission ~65-69%, aligning with your education priority.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Porto, Portugal has top campuses ranked 101\u2013150 globally with strong English programs. This supports bilingual college options for your kids.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Porto, Portugal has strong continuing education access: many programs per 100k and subsidized online options; English-taught courses exist.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Porto has a modest senior .NET market; about 2-3 postings per million residents per month, with many English-friendly firms and hybrid/remote options.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Porto, Portugal shows moderate Rails demand (~4-6 postings/million/mo); remote roles common - good fit for a two-software-parent family.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "EUR 65,000.00 ($70,200.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "EUR 40,000.00 ($43,200.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Porto\u0027s Atlantic beaches (e.g., Matosinhos, Le\u00E7a da Palmeira) are accessible from central neighborhoods by metro or short drives. For Beach Life, prioritize beaches with reliable lifeguards, clean restrooms, shade, and stroller-friendly paths; verify water quality and seasonal lifeguard coverage; plan family outings to align with mild summers and straightforward transit.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Porto, Portugal in fall: highs 55\u201372\u00B0F and lows 45\u201355\u00B0F. Mild, ocean-influenced days with cool nights suit the family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Porto, Portugal, has a maritime climate with mild winters. Many days stay in the 50-85\u00B0F range with manageable humidity, matching your preferences.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Porto, Portugal offers scenic Douro coast and estuary views; protected areas within an hour provide easy, family-friendly nature days.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Porto, Portugal: Nature access 8/10\u2014several parks within 5 km (Pal\u00E1cio de Cristal, Parque da Cidade) and 2\u002B trails reachable by transit.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Porto, Portugal: spring highs 55\u201372\u00B0F and lows 45\u201355\u00B0F. Mostly mild with occasional light rain.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Porto summers typically see 72-85\u00B0F highs with 60-72\u00B0F nights. Heat spikes are occasional but not prolonged.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Porto winters typically 45-60\u00B0F highs and 32-45\u00B0F lows; little snow/ice, mild season for family activities.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Porto offers a mild Atlantic climate with few extreme days; regular rain, rare heatwaves and generally stable air quality suit your climate preference.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Porto, PT offers solid EU stability; 5-year real GDP per capita volatility is modest (~2\u20132.4%), supporting grant/visa planning.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Porto, Portugal offers steady immigration policy with 2-3 overhauls this decade and modest revocation risk; favorable for family plans.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Portugal\u0027s stable democracy and low unrest; Porto offers predictable governance and safe neighborhoods.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Porto, Portugal offers strong social stability. Violent crime is typically well under 200/100k with reliable utilities and solid public schools.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    }
+  ]
+}

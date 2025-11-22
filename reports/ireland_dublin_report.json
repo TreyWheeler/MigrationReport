@@ -1,0 +1,388 @@
+{
+  "version": 2,
+  "iso": "IE",
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "EUR 4,800.00 ($5,280.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "EUR 3,700.00 ($3,996.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "EUR 3,000.00 ($3,300.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "EUR 1,400.00 ($1,512.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "EUR 3,900.00 ($4,290.00)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "EUR 90.00 ($99.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "EUR 500.00 ($540.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "EUR 1,500.00 ($1,620.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "EUR 6,500.00 ($7,084.35)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "EUR 1,500.00 ($1,650.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "In Ireland/Dublin, payroll and VAT are monthly. A Dublin-based accountant handles filings and visa setup, about 40-60 hours/year.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "EUR 990,400.00 ($1,109,248.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "12.5%",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_dev_incentive_eligible_share",
+      "alignmentText": "60%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_dev_incentive_rate",
+      "alignmentText": "32%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Dublin startup visa is workable for a founder family; expect 3-4 months with biometrics and background checks; quotas may apply.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- EUR 60,000.00 ($66,000.00) \u2013 Creative Europe MEDIA \u2013 Game development funding for small European studios, including Irish-based teams, suitable for a 2-year narrative premium title.\n- EUR 50,000.00 ($55,000.00) \u2013 Enterprise Ireland Competitive Start Fund \u2013 Early-stage Irish-incorporated startups can access support for prototype development and initial market traction.\n- EUR 50,000.00 ($55,000.00) \u2013 Local Enterprise Office Priming Grant \u2013 Micro enterprises can obtain funding for product development and market validation with local spend requirements.\n- EUR 480,000.00 ($528,000.00) \u2013 Ireland Section 481 Tax Credit for Video Game Development \u2013 Up to 32% tax credit on eligible Irish spend, supporting cash-flow for a \u20ac1.5M title; requires Irish incorporation and in-country spend.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "14",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "EUR 9,297,272.73 ($10,227,000.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "EUR 3,412,281.25 ($3,753,509.38)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "EUR 54,123,722.73 ($59,536,093.75)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Monthly Dublin game dev meetups and an annual jam. Online community around 300 organizers fuels collaboration for a game-focused family in Ireland.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "EUR 125,000.00 ($135,000.00)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Dublin, IE: English is dominant in government, healthcare, and banking; expect 10-20% tasks needing Irish.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "In Dublin, most public primary seats teach in English from kindergarten; Irish-medium Gaelscoileanna offer bilingual exposure from early grades.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Dublin, Ireland, securing a lease may take 4-6 weeks with up to 2.5 months deposit; guarantor is commonly requested for newcomers.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_effort",
+      "alignmentText": "Dublin, Ireland offers manageable routes for tech founders; expect organized docs and a 4\u20136 month process (possible interview).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Ireland, the main statuses for US citizens are: Short-stay permission (up to 90 days) for visitors; Long-stay/work routes such as the Critical Skills Employment Permit or General Employment Permit, which lead to Stamp 4 work authorization; and residence-based paths to permanent residency and ultimately citizenship by naturalisation after the statutory period of lawful residence. The rights attached include the ability to work (without separate work permits once Stamp 4 or permanent residency is granted), access to public healthcare and education, eligibility for certain social supports, and the ability to sponsor eligible family members after meeting residence requirements. Citizenship provides full political rights and visa-free travel within the EU. Actionable next steps: map the most viable visa route for Trey and Sarah (leveraging tech skills and potential employer sponsorship), pursue a formal immigration plan to achieve a Stamp 4 and then permanent residency, track years of residence toward naturalisation, and consult a licensed immigration advisor to confirm current criteria and timelines.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "In Dublin, Ireland, skilled immigration is well-supported (Critical Skills, startup grants) with high approval and welcoming attitudes for tech founders like Trey.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "In Dublin, Ireland, schools enforce anti-bullying policies. For Caucasian immigrant kids, expect about 1-2 incidents per 1,000 with strong enforcement.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Dublin, Ireland offers strong public primary/secondary schooling with solid early-childhood programs and good bilingual exposure options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Dublin, Ireland: school meals generally follow national nutrition standards; HEI around 75 with <12% ultra-processed foods.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Ireland's public schools teach primarily in English; expect about 16-19 hours/week of English with bilingual support in core subjects in Dublin.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Dublin provides ESOL for kids and translations for key services; language integration supports for newcomers are solid.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Date-night opportunities in Dublin: curate 2-3 options within easy transit from home: (1) family-friendly dinners with early seating in Rathmines or Clontarf near parks such as Phoenix Park or Iveagh Gardens; (2) after-dark options at cinemas or theatres nearby (IFI, Savoy, Abbey) with accessible babysitting; (3) safe, well-lit evening strolls in walkable districts with caf\u00e9s and child-friendly venues. Coordinate childcare in advance and ensure venues have English-speaking staff and reliable Wi-Fi for flexible plans."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Explore Phoenix Park for playgrounds and zoo visits; plan easy coastal day trips to Howth or Dalkey for stroller-friendly outings. Add kid-friendly venues like Imaginosity (National Children\u2019s Museum), The Ark in Temple Bar, and the National Museum of Ireland, and use Dublin City Libraries\u2019 children's programs for the 5-year-old. Favor neighborhoods with parks and reliable transit (Luas/bus) and pack layers for Dublin\u2019s mild, rainy climate to allow quick indoor options on rainy days."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Dublin, plan friend nights around family-friendly, English-friendly venues with easy transit: board game cafes, trivia nights, and community centers in walkable areas (city centre and inner suburbs). Target events starting after 6pm on weekdays or weekend evenings; look for family-friendly options so adults can socialize while kids are cared for. Check local calendars for recurring groups and RSVP options, and prioritize safe, affordable venues with reliable public transit access."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Dublin, IE likely has 22\u201325 parent-friendly 3rd places per 100k after 6 pm with staff supervision.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Dublin, Ireland offers walkable neighborhoods with transit options like Luas and buses; expect ~60-69% car-free trips, matching your family-friendly goals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Ireland's Dublin has several weekly farmers markets and many produce vendors. Fresh options exist, with diverse but abundant fast-food nearby.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Life Bureaucratic Compliance in Dublin, Ireland: most filings online with modest queues; occasional in-person visit, usually a single morning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Dublin, infant/daycare spaces are tight; expect ~6\u20139 months wait with possible cancellations; consider private providers and early booking.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "EUR 1,350.00 ($1,458.00)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "EUR 1,450.00 ($1,585.50)",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "EUR 425.00 ($463.25)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Dublin, Ireland: public healthcare offers universal access; GP waits ~5\u20137 days, specialists ~11\u201314 days; private options can shorten waits.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "EUR 650.00 ($702.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "EUR 1,100.00 ($1,210.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "EUR 950.00 ($1,045.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Dublin, Ireland, basic care is universal; leaving a job won\u2019t remove baseline coverage, though private employer plans are common.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2000",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Dublin's dense bus/Luas network; most residents are within 500m of frequent service (about 10-min headways) for much of the day.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Dublin, Ireland: US/non-EU tuition can exceed 25% of median net income. Admissions vary by program, so college access is challenging.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Dublin hosts top-100 Trinity College Dublin (and UCD) with English programs; aligns with your education goals and bilingual exposure in Ireland.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Dublin, Ireland has many accredited adult upskilling options and subsidized online courses, supporting education-focused families and founders.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Dublin's mature tech scene offers solid demand for senior .NET architects. Expect 17-20 postings per million residents, with strong salaries in Ireland.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Moderate Rails demand in Dublin, Ireland (about 10-14 postings/million); remote/hybrid roles can fit 6 years experience.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "EUR 120,000.00 ($130,800.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "EUR 75,000.00 ($82,500.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "In Dublin, prioritize family-friendly beaches within easy public-transit reach (e.g., Howth, Portmarnock, Dollymount) and plan beach outings around lifeguard coverage, parking, and facilities. Map transit options (DART/bus), check current water quality and tide times, and pack layers for Ireland\u2019s changeable weather; schedule visits on mild, dry days and consider crowd levels in peak summer.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Dublin, Ireland autumn: highs 50\u201370\u00b0F and lows 40\u201350\u00b0F. Mild with occasional swings.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Dublin, Ireland offers mild, maritime weather year-round. Expect many days between 50-75 F, but humidity can be high, limiting comfortable days.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Natural beauty near Dublin is strong. Wicklow Mountains and Dublin Bay offer protected lands and scenic routes within an hour.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Excellent nature access in Dublin, Ireland. Several large parks within 5 km (Phoenix Park, Botanic Gardens) and coast trails reachable by DART.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring in Dublin, IE: roughly 48\u201365\u00b0F highs and 36\u201346\u00b0F lows; frequent rain and mild days.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Dublin summers commonly reach 72-85\u00b0F by day with 60-72\u00b0F nights; occasional heat spikes.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Dublin, IE winter highs 45\u00b0F-50\u00b0F and lows 35\u00b0F-40\u00b0F; little snow/ice, fits a 10 for mild winters.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Dublin, IE has a mild, maritime climate with few extreme days; about 6\u20139 severe weather/AQI days per year, matching your mild-weather preference.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Dublin's strong, grant-friendly economy offers a pro-business climate, but GDP swings from multinationals require prudent planning.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Ireland (Dublin) offers stable, skilled-migrant policies. Startups and families benefit from startup-friendly visas and English-friendly processes.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Dublin, Ireland has strong political stability and reliable governance, supporting safe, predictable family life.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Dublin, Ireland has very low violent crime and reliable utilities; excellent schools support your family's QoL.",
+      "alignmentValue": 10
+    }
+  ]
+}

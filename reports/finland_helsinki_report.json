@@ -9,28 +9,30 @@
     },
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
-      "alignmentText": "EUR 3,500.00 ($3,780.00)",
+      "alignmentText": "EUR 3,200.00 ($3,456.00)",
       "alignmentValue": 8
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
       "alignmentText": "EUR 3,900.00 ($4,212.00)",
-      "alignmentValue": 7
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "EUR 350.00 ($378.00)",
-      "alignmentValue": 9
+      "alignmentText": "EUR 900.00 ($972.00)",
+      "alignmentValue": 6
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
-      "alignmentText": "EUR 4,056.00 ($4,380.48)",
-      "alignmentValue": 2
+      "alignmentText": "EUR 988.00 ($1,066.45)",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_eating_out",
-      "alignmentText": "EUR 92.00 ($101.20)",
-      "alignmentValue": 5
+      "alignmentText": "EUR 105.00 ($115.50)",
+      "alignmentValue": 4
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
@@ -46,8 +48,7 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "EUR 8,000.00 ($8,800.00)",
-      "alignmentValue": 5,
-      "sameAsParent": false
+      "alignmentValue": 5
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -56,36 +57,40 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Finland (Helsinki) requires monthly payroll and VAT; expect multiple agency steps\u2014engage a part-time accountant.",
+      "alignmentText": "Finland (Helsinki): monthly payroll and VAT across multiple agencies; a part-time accountant is needed to stay compliant (roughly 60-90 hours/year).",
       "alignmentValue": 6
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "EUR 1,036,250.00 ($1,119,150.00)",
-      "sameAsParent": false
+      "alignmentText": "EUR 951,250.00 ($1,046,279.88)",
+      "alignmentValue": 5
     },
     {
       "key": "daemon_games_corporate_tax_rate",
       "alignmentText": "20%",
+      "alignmentValue": 10,
       "sameAsParent": true
     },
     {
       "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "50%"
+      "alignmentText": "50%",
+      "alignmentValue": 7
     },
     {
       "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "0%"
+      "alignmentText": "0%",
+      "alignmentValue": 2
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Finland Startup Permit in Helsinki: viable path for a small game studio; 2\u20134 months with credible plan and funds; legal help advised.",
+      "alignmentText": "Finland Start-up Permit in Helsinki: solid path for a small game studio; 2\u20134 months with credible plan and funds; legal help advised.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
-      "alignmentText": "24%"
+      "alignmentText": "25%",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_feasible_game_grants",
@@ -95,121 +100,123 @@
     {
       "key": "daemon_games_number_of_aaa_studios",
       "alignmentText": "3",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "alignmentValue": 5
     },
     {
       "key": "daemon_games_number_of_aa_studios",
-      "alignmentText": "12",
+      "alignmentText": "20",
       "alignmentValue": 8
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "EUR 9,640,800.00 ($10,605,880.00)",
-      "sameAsParent": false
+      "alignmentText": "EUR 9,964,640.00 ($10,961,104.00)",
+      "alignmentValue": 9
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "EUR 3,129,600.00 ($3,411,264.00)",
+      "alignmentText": "EUR 2,612,760.00 ($2,847,910.40)",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "EUR 54,631,300.00 ($60,094,430.00)"
+      "alignmentText": "EUR 54,469,696.00 ($59,916,665.60)",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Moderately vibrant: about 1 in-person game meetup per month in Helsinki, occasional jams, and a 250-399 online organizer community.",
+      "alignmentText": "Helsinki, Finland game dev scene: monthly meetups, 250-399 online members; grants and founder support for startups.",
       "alignmentValue": 7
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
-      "alignmentText": "EUR 45,000.00 ($48,600.00)",
-      "sameAsParent": false
+      "alignmentText": "EUR 60,000.00 ($64,800.00)",
+      "alignmentValue": 6
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "Finland, Helsinki: English is widely used, but 20-30% of admin tasks may require Finnish; English help desks cover the rest.",
+      "alignmentText": "Finland, Helsinki: English widely used; about 20-30% admin tasks require Finnish; English help desks cover most services, family-friendly.",
       "alignmentValue": 8
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Helsinki, Finland public K-12 bilingual/English options are limited. Most bilingual exposure comes from private or international schools.",
+      "alignmentText": "Public K-12 bilingual/English options in Helsinki are limited; most bilingual exposure comes from private or international schools; plan for private options.",
       "alignmentValue": 2
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Helsinki leases take 4-6 weeks with up to 2.5 months deposit; guarantor common for families. English-friendly, digital paperwork help the process.",
+      "alignmentText": "Helsinki leases typically take 4-6 weeks with up to 2.5 months deposit. Guarantor common for families; English-friendly, digital paperwork helps.",
       "alignmentValue": 7
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Finland offers startup/employee permits with online steps. For a US family in Helsinki, expect about 3\u20134 months processing.",
+      "alignmentText": "Finland offers startup/employee permits with online steps. In Helsinki, a US family should plan about 3\u20134 months processing.",
       "alignmentValue": 8
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "Finland offers US citizens these statuses: temporary residence permits (based on work/entrepreneurship, study, or family ties), permanent residence after several years of continuous lawful residence, and citizenship by naturalization. For this family\u2019s first-time visa, pursue a Residence Permit for Entrepreneurs (self-employed founder) or a work-based permit aligned to Trey\u0027s role; family reunification may apply if eligible. Both paths require Migri review, a viable business plan or job offer, proof of funds, health insurance, and integration steps. After roughly four years of continuous residence with valid permits and sufficient means, apply for permanent residence; after longer residence and language/civics requirements, apply for citizenship. Rights include residing and working under the permit, access to universal healthcare and education; permanent residence expands long-term rights and social benefits; citizenship grants full political rights and a Finnish passport.",
+      "alignmentText": "Finland offers temporary residence permits (based on work/entrepreneurship, study, or family ties), permanent residence after several years of continuous lawful residence, and naturalization. For this family\u2019s first visa, pursue either a Residence Permit for Entrepreneurs (self\u2011employed founder) or a work\u2011based permit aligned to Trey\u2019s role; family reunification may apply if eligible. Migri will review the application and require a viable business plan or job offer, proof of funds, health insurance, and documented integration steps. After about four years of uninterrupted residence with valid permits and sufficient means, apply for permanent residence; with longer residence plus language and civics requirements, apply for citizenship. Rights include residing and working under the permit, access to universal healthcare and education; permanent residence unlocks longer\u2011term rights and benefits; citizenship provides full political rights and a Finnish passport.",
       "sameAsParent": false
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Helsinki offers a welcoming climate for skilled migrants: solid work-permit approvals and a growing tech ecosystem; good for families.",
+      "alignmentText": "Helsinki, Finland is welcoming to skilled migrants with solid work-permit processes and a growing tech ecosystem; family-friendly.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Finland\u0027s Helsinki schools have strong anti-bias policies. Caucasian expat kids face very low bullying risk with supportive, bilingual-friendly environments.",
+      "alignmentText": "In Helsinki, Finland, schools uphold strong anti-bias policies; caucasian expat kids face very low bullying risk in supportive, bilingual environments.",
       "alignmentValue": 9
     },
     {
       "key": "kids_education_quality",
-      "alignmentText": "Finland\u0027s Helsinki schools rank among the world\u0027s best. Expect strong teaching, bilingual options, and universal access for your kids.",
+      "alignmentText": "Helsinki\u0027s schools rank among the world\u0027s best. Expect strong bilingual options and universal access, with solid early childhood programs.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "Finland\u0027s Helsinki school meals are nutritious with low ultra-processed foods; HEI \u003E= 90, matching family health goals.",
+      "alignmentText": "Helsinki, Finland school meals score HEI \u003E=90 with \u003C5% ultra-processed foods; aligns with family health goals.",
       "alignmentValue": 10
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "In Helsinki, Finland, public schools typically provide about 10\u201311 hours/week of English with limited bilingual aides; local language dominates.",
+      "alignmentText": "In Helsinki, public schools offer 10\u201311 hours/week of English with limited bilingual aides; Finnish dominates, matching the family\u0027s English ubiquity goal",
       "alignmentValue": 6
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Helsinki offers extensive subsidized Finnish language courses and translation in most public services, aiding kids\u0027 language integration.",
+      "alignmentText": "Helsinki offers extensive subsidized Finnish language courses with translation in many public services, aiding your kids\u0027 integration and schooling.",
       "alignmentValue": 9
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "Date-night plan for Helsinki: start with a sunset walk along Esplanadi and the South Harbour, followed by a casual dinner near Market Square or in the Design District; later, enjoy a low-cost cultural option (gallery or theatre) or a late coffee/dessert. In winter, swap the stroll for ice skating at Esplanadi and consider a Nordic spa visit (e.g., L\u00F6yly or Allas Sea Pool) to cap the night."
-    },
-    {
-      "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Helsinki-based family activity plan: align Trey and Sarah\u2019s tech/gaming interests with the kids\u2019 needs through regular, low-stress outings. Schedule visits to hands-on venues like Heureka science center and interactive museums; enjoy parks and nature in the Helsinki region (Nuuksio National Park, forests) for easy outdoor time; identify indoor climbing gyms near Helsinki to support climbing interests; seek board-game caf\u00E9s and family game nights; prioritize bilingual/English-friendly programs at cultural sites and libraries to support language exposure; use city passes or affordable pricing to keep activities predictable and within a slower family pace."
-    },
-    {
-      "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "In Helsinki, prioritize after-6pm social options that work for adults and kids: English-language parent/expat meetups and family-friendly caf\u00E9s in central districts (Kallio, Kamppi, Punavuori); late-opening venues and city events (Oodi programs, museum night events) for adult friends; sunset strolls in Esplanadi or Kaivopuisto with casual bites nearby; use Helsinki calendars/Meetup groups for seasonal markets and occasional night gatherings; rotate hosts to keep outings fresh and inclusive.",
+      "alignmentText": "Helsinki date night: start with a sunset stroll along Esplanadi to the South Harbour, then reserve a casual dinner near Market Square or in the Design District. After dinner, pick a low-cost cultural option (gallery or small theatre) or enjoy a late coffee or dessert at a local cafe. In winter, swap the stroll for ice skating at Esplanadi and cap the night with a Nordic spa visit at L\u00F6yly or Allas Sea Pool.",
       "sameAsParent": false
     },
     {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Helsinki-based family activity plan: plan regular, low-stress outings that align Trey and Sarah\u2019s tech/gaming interests with the kids\u2019 needs. Prioritize hands-on venues such as Heureka (in Vantaa) and other interactive museums; enjoy parks and nature in the Helsinki region (Nuuksio National Park, Espoo forests) for easy outdoor time; identify nearby indoor climbing gyms to support climbing interests; seek board-game caf\u00E9s and family game nights; choose bilingual/English-friendly programs at cultural sites and libraries to support language exposure; use city passes or affordable pricing to keep activities predictable and within a slower family pace."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Prioritize after-6pm social options in Helsinki that work for adults and kids: target English-language parent/expat meetups and family-friendly caf\u00E9s in central districts (Kallio, Kamppi, Punavuori); include late-opening venues and city events (Oodi programs, museum nights) for adults; plan sunset walks in Esplanadi or Kaivopuisto with casual bites nearby; use Helsinki calendars/Meetup groups for seasonal markets and occasional night gatherings; rotate hosts to keep outings fresh and inclusive."
+    },
+    {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Helsinki, Finland has a strong family-friendly 3rd places scene: libraries and kid centers stay open evenings. Museums and cafes offer supervised spaces for kids.",
-      "alignmentValue": 7
+      "alignmentText": "Helsinki has a rich family-friendly 3rd places scene: libraries and kid centers stay open late; museums and caf\u00E9s offer supervised spaces for kids.",
+      "alignmentValue": 8
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Helsinki, Finland offers strong transit, bike-friendly streets, and walkable neighborhoods. Many family trips can be car-free.",
+      "alignmentText": "Helsinki, Finland offers strong transit, bike-friendly streets, and family-friendly neighborhoods; expect 70\u201379% car-free trips.",
       "alignmentValue": 9
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "Quality Food Access in Helsinki is strong: multiple markets (Hakaniemi, Kauppatori) with diverse fresh produce for families.",
+      "alignmentText": "Quality Food Access in Helsinki is strong for families: Hakaniemi Market Hall and Kauppatori Market provide diverse fresh produce.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -220,8 +227,9 @@
     },
     {
       "key": "life_daycare_accessibility",
-      "alignmentText": "In Helsinki\u0027s municipal daycare system, a 1-year-old typically gets a slot in 2\u20133 months, with weekly waitlist updates.",
-      "alignmentValue": 8
+      "alignmentText": "In Helsinki, municipal daycare for a 1-year-old typically slots in 2-3 months with weekly waitlist updates.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_citizen",
@@ -231,7 +239,8 @@
     {
       "key": "life_daycare_affordability_non_resident",
       "alignmentText": "EUR 850.00 ($918.00)",
-      "alignmentValue": 6
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_perm_resident",
@@ -240,142 +249,147 @@
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "Finland\u0027s universal care in Helsinki offers solid access; expect 3-4 day primary care waits and 8-10 days for specialists.",
+      "alignmentText": "Finland\u0027s universal care in Helsinki offers solid access. Expect 3-4 day waits for primary care and 8-10 days for specialists.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_citizen",
-      "alignmentText": "EUR 180.00 ($196.02)",
+      "alignmentText": "EUR 120.00 ($130.68)",
       "alignmentValue": 10
     },
     {
       "key": "life_healthcare_affordability_non_resident",
-      "alignmentText": "EUR 1,500.00 ($1,650.00)",
-      "alignmentValue": 7,
+      "alignmentText": "EUR 1,350.00 ($1,485.00)",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
-      "alignmentText": "EUR 800.00 ($864.00)",
+      "alignmentText": "EUR 200.00 ($216.00)",
       "alignmentValue": 10
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "In Helsinki, Finland, universal healthcare keeps baseline coverage beyond employment. The family has very low risk of losing coverage when changing jobs.",
+      "alignmentText": "Helsinki, Finland has universal public healthcare. Baseline coverage remains after job changes, giving this family very low risk.",
       "alignmentValue": 10
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "1700",
-      "alignmentValue": 8
+      "alignmentText": "1600",
+      "alignmentValue": 9
     },
     {
       "key": "life_public_transportation",
-      "alignmentText": "Finland\u0027s Helsinki has strong public transit: most residents live within 500m of 10-minute service most of the day, supporting a car-light, family-friendly life.",
+      "alignmentText": "Public transit in Helsinki is strong: most homes are within 500m of 10-minute service for most of the day, enabling a car-light, family-friendly lifestyle.",
       "alignmentValue": 9
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "Finland\u0027s Helsinki offers non-EU tuition; program admissions vary, but scholarships and grants help US families access college.",
-      "alignmentValue": 3
+      "alignmentText": "Finland/Helsinki non-EU tuition applies; scholarships help US families, but costs stay moderate (16-18% of income) with mid-range admissions (45-49%).",
+      "alignmentValue": 4
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "Helsinki hosts a university in the 51-100 global tier with \u003E40% English programs, supporting your high education goals in Finland.",
-      "alignmentValue": 9
+      "alignmentText": "Helsinki\u0027s top-100 university with many English-taught programs supports your high education goals in Finland.",
+      "alignmentValue": 9,
+      "sameAsParent": true
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Helsinki offers abundant adult education: Open University and universities of applied sciences with subsidized online options; English-friendly access.",
+      "alignmentText": "Helsinki offers extensive adult education via Open University and UAS, with subsidized online options and English-friendly access for tech families.",
       "alignmentValue": 9
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Finland (Helsinki) shows modest senior .NET architect demand; expect a tight market but English-friendly IT scene and good work-life balance.",
-      "alignmentValue": 4
+      "alignmentText": "Finland (Helsinki) shows modest senior .NET architect demand; tight market but strong English-friendly IT scene and solid work\u2013life balance.",
+      "alignmentValue": 5
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Rails demand in Helsinki, Finland is light (4-6 postings per million residents per month); suitable for a 6-year Rails pro with remote options.",
+      "alignmentText": "Rails demand in Helsinki, Finland remains light (4-6 postings per million residents per month); remote options suit a 6-year Rails pro.",
       "alignmentValue": 3,
       "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 95,000.00 ($103,550.00)"
+      "alignmentText": "EUR 100,000.00 ($109,000.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 62,000.00 ($67,580.00)"
+      "alignmentText": "EUR 66,000.00 ($71,940.00)"
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Helsinki offers abundant, safe public beaches and park-front outdoor spaces with mild summers and long days, aligning with your Beach Life preference. Aim for a home near beaches such as Hietaniemi or Lauttasaari to enable frequent family beach and park outings; plan water activities for kids with wetsuits due to cold Baltic water, and use reliable public transit for easy weekend beach trips; note beach season is shorter than in the Midwest, so build year\u2011round outdoor routines around late spring to early autumn.",
+      "alignmentText": "Helsinki provides family-friendly Baltic beaches within easy reach of the city center, notably Hietaniemi (Hietaranta) and Lauttasaari. Plan weekend seaside outings via reliable public transit; water is cold, so bring wetsuits for kids and supervise at all times. Target homes in walkable neighborhoods with quick beach/park access and reliable broadband for remote work. Expect a shorter beach season than the Midwest\u2014focus on late spring to early autumn and supplement with year\u2011round urban park and harborfront activities.",
       "sameAsParent": false
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Helsinki autumn typically 50\u00B0F\u201368\u00B0F highs and 38\u00B0F\u201348\u00B0F lows; mix of mild and chilly days, layer for wind and rain.",
+      "alignmentText": "In Helsinki, Finland, autumn highs 50-68\u00B0F and lows 38-48\u00B0F; a mild-to-chilly mix, layer for wind and rain.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Finland/Helsinki offers many 50-85 F days with low humidity; about 180-210 comfortable days per year, aligning with your mild-weather preference.",
+      "alignmentText": "Finland/Helsinki offers many 50-85\u00B0F days with low humidity; about 180-210 comfortable days per year, aligning with your mild-weather preference.",
       "alignmentValue": 6
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Helsinki area offers abundant protected nature within an hour, with Nuuksio and Sipoonkorpi nearby, two scenic sites for family outings.",
+      "alignmentText": "Helsinki area offers accessible nature within 60 minutes: Nuuksio and Sipoonkorpi nearby provide easy family outings.",
       "alignmentValue": 8
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Excellent nature access in Helsinki: several sizable parks within 5 km and easy transit to nearby forest trails, great for family outdoor time.",
+      "alignmentText": "Excellent nature access in Helsinki: multiple parks within 5 km and easy transit to nearby forest trails, ideal for family outdoor time.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Spring in Helsinki: highs 42\u00B0F\u201360\u00B0F, nights 32\u00B0F\u201342\u00B0F. Chilly stretches are common, with occasional milder days.",
-      "alignmentValue": 4
+      "alignmentText": "Spring in Helsinki, Finland: highs 42\u00B0F\u201360\u00B0F, lows 32\u00B0F\u201342\u00B0F; chilly stretches are common, with occasional milder days.",
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Helsinki, Finland summers are mild: highs 70-82\u00B0F, lows 60-70\u00B0F; low humidity and rare heatwaves.",
+      "alignmentText": "Finland\u0027s Helsinki summers are mild. Highs 70\u201382\u00B0F, lows 60\u201370\u00B0F; low humidity and rare heatwaves.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "Winter in Helsinki, Finland: typical highs 30-34\u00B0F and lows 23-27\u00B0F; regular frost and some snow; aligns with rating 7.",
-      "alignmentValue": 7
+      "alignmentText": "Winter in Helsinki, Finland: highs 30-34\u00B0F, lows 23-27\u00B0F; regular frost and some snow; aligns with a 7 for mild, manageable winters.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Helsinki, Finland offers a very stable climate with few extreme weather days; AQI rarely exceeds 150, aligning with your mild, low-stress plan.",
-      "alignmentValue": 9
+      "alignmentText": "Helsinki offers a mild, stable climate with few severe weather days and clean air\u2014ideal for a calm, family-focused life.",
+      "alignmentValue": 10
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Finland\u0027s economy is stable with low volatility, supporting families. Helsinki offers strong welfare, good broadband, and startup funding access.",
-      "alignmentValue": 9
+      "alignmentText": "Finland\u0027s economy remains stable with low volatility, supporting families. Helsinki offers strong welfare, reliable broadband, and startup funding access.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Finland/Helsinki has stable immigration rules with few major overhauls. This supports dependable family relocation and planning.",
+      "alignmentText": "Finland/Helsinki shows stable immigration rules with few overhauls; family reunification is predictable, aiding long-term planning.",
       "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Finland\u0027s top-tier political stability, with Helsinki\u0027s transparent governance and low unrest, aligns well with your family\u0027s safety and future.",
+      "alignmentText": "Finland\u0027s top-tier political stability and Helsinki\u0027s transparent governance fit your safety-focused, family-friendly plans.",
       "alignmentValue": 10
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
       "alignmentText": "Helsinki, Finland offers very low crime and reliable services; top schools and universal healthcare support your family\u0027s stability.",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     }
   ]
 }

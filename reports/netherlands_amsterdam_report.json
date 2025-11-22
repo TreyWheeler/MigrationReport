@@ -1,0 +1,387 @@
+{
+  "version": 2,
+  "iso": "NL",
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "EUR 4,800.00 ($5,328.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "EUR 2,800.00 ($3,080.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "EUR 3,250.00 ($3,540.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "EUR 1,100.00 ($1,188.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "EUR 4,160.00 ($4,492.80)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "EUR 95.00 ($104.50)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "EUR 300.00 ($324.00)",
+      "sameAsParent": true
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "EUR 1,157.00 ($1,272.70)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "EUR 6,500.00 ($7,150.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "EUR 1,350.00 ($1,485.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Netherlands (Amsterdam): monthly payroll and quarterly VAT with digital filings; bookkeeper-friendly, keeping compliance under 40 hours/year.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "EUR 1,047,916.67 ($1,152,708.34)",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "26%",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_dev_incentive_eligible_share",
+      "alignmentText": "45%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_dev_incentive_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Amsterdam startup visa can suit a small game studio. Remote steps via an NL facilitator with light documentation; processing in about 6-8 weeks.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "35%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- EUR 50,000.00 ($54,000.00) \u2013 WBSO tax credit \u2013 Netherlands-based indie studio with NL-registered entity can claim a payroll-related R\u0026D tax credit of up to approximately 32% on eligible wages, helping fund core development during the 2-year plan.\n- EUR 40,000.00 ($43,200.00) \u2013 Creative Industries Fund NL \u2013 Development grants for narrative-driven games; open to small teams (including foreign founders who incorporate NL) that demonstrate artistic and innovative value, with potential co-funding for pre-production and prototypes.\n- EUR 70,000.00 ($75,600.00) \u2013 Creative Europe MEDIA \u2013 European development/production funding for high-fantasy narrative games; competitive but accessible to NL studios with cross-border teams that meet cultural and creative criteria; plan to apply during main production window.\n- EUR 30,000.00 ($32,400.00) \u2013 GameFounders NL \u2013 Accelerator with cash or in-kind support for early-stage studios that incorporate locally; supports prototyping, business development, and go-to-market efforts.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "2",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "20",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "EUR 9,148,462.50 ($10,063,308.75)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "EUR 2,800,739.55 ($3,080,802.50)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "EUR 46,347,727.27 ($50,962,500.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Amsterdam\u0027s game-dev scene is vibrant; expect 3\u002B in-person events monthly and 700-999 online members with sponsor support.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "EUR 42,000.00 ($45,360.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Amsterdam, NL: English is widely used in government, healthcare, and banking; most forms have English versions; learning Dutch helps with visas.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Amsterdam public schools offer limited bilingual options. Most start English exposure later in primary, not in kindergarten; private or international options may offer earlier bilingual tracks.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Amsterdam expat housing is tight. Expect 6-8 weeks to secure a lease and about 3 months deposit, with income verification possible.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_effort",
+      "alignmentText": "Moderate immigration effort in the Netherlands (Amsterdam). Skilled paths exist (startup/highly skilled) with employer support; plan for 6\u20138 months.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In the Netherlands, immigration status is established via permits issued by the IND. Initial statuses for new arrivals include temporary residence permits for work, study, family reunification, or asylum, which grant lawful residence and work rights for a defined period. After maintaining lawful residence for sufficient time (typically 5\u002B years) and meeting integration requirements (Dutch language and civic integration exams), you may apply for permanent residency (verblijfsvergunning for permanent residence) and, with continued eligibility, for Dutch citizenship through naturalization. Citizenship provides full political rights (including voting in most elections) and a Dutch passport. Rights vary by status: temporary permits offer time-limited rights; permanent residents gain long-term residence with broad access to healthcare, education, and social services; naturalized citizens obtain the highest rights, including voting and mobility benefits. For your case, engage with the IND early, pursue the appropriate permit type (work, family, or study), satisfy language and civic criteria, and track timelines for potential permanent residence or citizenship while maintaining compliant status.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Amsterdam, NL offers strong high-skilled migration routes; positive public sentiment and solid support for tech founders and families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "NL schools enforce anti-bias policies with swift action; Amsterdam\u0027s inclusive climate offers low bullying for caucasian American immigrant families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Amsterdam, NL offers high-quality education with strong public schools. Bilingual Dutch-English options and robust early childhood programs support young kids.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Amsterdam schools score in the 80s on a Healthy Eating Index-like metric, with limited ultra-processed foods; a good fit for the family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Amsterdam public schools primarily teach in Dutch, with about 6-7 hours of English per week. Bilingual aides for core subjects are not common.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Amsterdam, Netherlands offers robust language integration: ~120-149 subsidized Dutch courses per 100 newcomers and translation at most public services.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Amsterdam, NL: date-night options that suit a couple with a 5-year-old and a 1-year-old include sunset canal cruises or riverside strolls; family-friendly dining with play spaces in Jordaan or De Pijp; board-game caf\u00E9s or casual caf\u00E9s with kid zones; children\u2019s theatre, puppet shows, or evening programs at science/museum venues; twilight walks in Vondelpark or Amsterdamse Bos with prearranged childcare; and pre-booked babysitting through registered services to enable adults time together. Coordinate childcare in advance, check hours, and use easy public transit for low-stress evenings.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Prioritize family-friendly Amsterdam neighborhoods with parks and walkability; ensure access to quality public schools and bilingual early childhood programs, and build a calendar of kid-friendly activities (NEMO Science Museum, ARTIS zoo, Tropenmuseum, canal boat tours). Actions: shortlist districts near parks (Vondelpark, Amsterdamse Bos), verify reliable childcare and subsidies, enroll in introductory Dutch classes, join local parent networks, and confirm broadband options with low latency for remote work."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Establish 1\u20132 weekly, child-friendly social evenings in Amsterdam with local friends via board game cafes, expat and community groups; prioritize accessible venues near transit, bilingual activities, and events suitable for adults and young children; aim for low-stress, inclusive, social environments."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Amsterdam, NL has many parent-friendly 3rd places after 6 p.m. with supervision. Play cafes and indoor playgrounds are common options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Amsterdam\u0027s bike-friendly, transit-rich layout enables car-free family trips; most errands and school runs stay off cars.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Quality food access in Amsterdam, NL: multiple daily markets and fresh produce; aligns to value 7 (25-29% ultra-processed, low fast-food density).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Netherlands uses DigiD/online IND; in Amsterdam expect a few morning visits (BRP/visa), most filings online.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Amsterdam, a 1-year-old usually gets daycare in 2-3 months with weekly waitlist updates; start early and explore subsidy options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "EUR 480.00 ($528.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "EUR 1,100.00 ($1,210.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "EUR 420.00 ($462.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "In Amsterdam, GPs typically have 1\u20132 day waits and specialists about 5\u20137 days; aligns with your universal, affordable care goals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "EUR 260.00 ($280.80)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "EUR 350.00 ($378.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "EUR 320.00 ($344.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Netherlands has universal health insurance; coverage isn\u0027t tied to employment, so job changes pose minimal risk to losing care in Amsterdam.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1700",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Amsterdam, NL has dense transit; most residents are within 500m of frequent trams/buses with 10-minute headways for long hours, easing family mobility.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Amsterdam\u0027s public universities offer relatively affordable tuition for residents. Admission rates are often around two-thirds for many programs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Netherlands offers many English-taught programs; Amsterdam\u0027s top universities rank in the 51\u2013100 global band with strong English-language options.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Amsterdam, NL has broad, accredited adult upskilling programs with subsidized online options. Strong English-friendly options support accessibility.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Amsterdam, NL has steady senior .NET architect demand; 20\u002B years experience should find roles in fintech and cloud with English-friendly firms.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Amsterdam, NL shows modest Ruby on Rails demand; expect limited local postings (some startups). Remote options may expand opportunities.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "EUR 115,000.00 ($124,200.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "EUR 72,000.00 ($78,480.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "From Amsterdam, plan beach time in nearby coastal towns (Zandvoort, Noordwijk, Bloemendaal) for family-friendly options with lifeguards, restrooms, shade, and playgrounds. Check transit options (train/bus or park-and-ride) to avoid parking hassles, and budget for peak-season crowds and fees. Bring sun protection, wind- and water-appropriate layers, and water-safety basics for young children; verify water quality and lifeguard hours before swimming."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Amsterdam, NL fall typically 55\u201372\u00B0F highs and 45\u201355\u00B0F lows. Mild and stable, ideal for outdoor family activities.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Amsterdam\u0027s maritime climate is mild but often humid; expect around 60-89 days annually with 50-85\u00B0F and humidity under 70%.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Netherlands (Amsterdam) offers protected dunes and reserves within an hour (Zuid-Kennemerland, Amsterdamse Waterleidingduinen); great for family outdoor days.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Excellent nature access in Amsterdam: parks \u003E10 acres within 5 km (Vondelpark, Oosterpark) and one regional trail reachable by transit within 30 minutes.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Amsterdam spring: highs 50-60\u00B0F, lows 40-50\u00B0F; mild with occasional swings.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Amsterdam summers: highs about 72-85\u00B0F, lows 60-72\u00B0F; occasional short heat spikes, but generally mild.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Amsterdam winter highs 40-45\u00B0F and lows 32-38\u00B0F, with occasional light snow. This fits a 9 winter-range rating and the family\u0027s mild-winter preference.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Amsterdam, Netherlands, offers a mild maritime climate with stable conditions. Expect about 10-13 severe weather/AQI days per year.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Amsterdam, NL offers a stable, high-income economy with strong social supports, aligning with the family\u0027s need for predictable stability.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Netherlands (Amsterdam) offers solid migration stability: 2-3 overhauls per decade and 2-3% skilled-visa revocations.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Netherlands (Amsterdam) ranks very high for political stability. Expect predictable policy, strong rule of law, and low unrest.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Stability high in Amsterdam, NL: violent crime well below 200 per 100k; utilities and schools are reliable.",
+      "alignmentValue": 10
+    }
+  ]
+}

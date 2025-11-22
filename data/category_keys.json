@@ -4,13 +4,15 @@
             "id": "daemon_games_ease_of_entrepreneurship_visa",
             "categoryId": "daemon_games",
             "label": "Ease of Entrepreneurship Visa",
-            "order": 1
+            "order": 1,
+            "informational": false
         },
         {
             "id": "daemon_games_bureaucratic_compliance_effort",
             "categoryId": "daemon_games",
             "label": "Bureaucratic Compliance Effort",
-            "order": 2
+            "order": 2,
+            "informational": false
         },
         {
             "id": "daemon_games_number_of_aa_studios",
@@ -19,7 +21,8 @@
             "model": "gpt-5-mini",
             "order": 3,
             "guidance": "Number of Indie game studios with 10-50 employees",
-            "valueRequirements": "Value must be a single integer representing the count of AA studios (e.g., \"7\")."
+            "valueRequirements": "Value must be a single integer representing the count of AA studios (e.g., \"7\").",
+            "informational": false
         },
         {
             "id": "daemon_games_number_of_aaa_studios",
@@ -28,13 +31,15 @@
             "model": "gpt-5-mini",
             "order": 4,
             "guidance": "Number of major AAA studios with 100+ employees actively producing titles in the region.",
-            "valueRequirements": "Value must be a single integer representing the count of AAA studios (e.g., \"3\")."
+            "valueRequirements": "Value must be a single integer representing the count of AAA studios (e.g., \"3\").",
+            "informational": false
         },
         {
             "id": "daemon_games_vibrancy_of_local_game_development_communities",
             "categoryId": "daemon_games",
             "label": "Vibrancy of local game development communities",
-            "order": 5
+            "order": 5,
+            "informational": false
         },
         {
             "id": "daemon_games_feasible_game_grants",
@@ -52,7 +57,7 @@
             "order": 7,
             "guidance": "Define yearly base salaries (before employer on-costs) for these roles in the target city/country: Lead Game Designer, Senior Game Developer, Senior VFX Artist, Senior 2D Environment Artist, Senior 3D Character Artist, Senior Character Animator, and Video Game Marketer, plus a yearly office-space cost and a single employerOnCostRate applied to all salaries. Compute yearly burn rate (pre-tax, pre-incentives, pre-revenue) as: yearlyBurn = officeCostPerYear + (sumOfBaseSalariesPerYear Ã— (1 + employerOnCostRate)) + (200_000 / developmentYears). Treat the 200,000 as total fixed marketing/advertising for the whole project, amortised evenly across developmentYears when adding it into the yearly burn.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to the second decimal. If the local currency isn't the US dollar than it should be converted and appended to the local currency value. Example: â‚¬5 ($5.70)",
-            "informational": true
+            "informational": false
         },
         {
             "id": "daemon_games_roi_400k_units_2_years",
@@ -61,7 +66,7 @@
             "order": 8,
             "guidance": "For the given city/country, estimate yearly base salaries (before employer on-costs) for these roles â€” Lead Game Designer, Senior Game Developer, Senior VFX Artist, Senior 2D Environment Artist, Senior 3D Character Artist, Senior Character Animator, and Video Game Marketer â€” plus a yearly office-space cost and a single employerOnCostRate applied to all salaries. Compute devCostBeforeIncentives = developmentYears Ã— (officeCostPerYear + (sumOfBaseSalariesPerYear Ã— (1 + employerOnCostRate))) and devIncentive = devIncentiveRate Ã— devIncentiveEligibleShare Ã— devCostBeforeIncentives, then set adjustedDevCost = devCostBeforeIncentives âˆ’ devIncentive if the incentive is non-taxable or adjustedDevCost = devCostBeforeIncentives if the incentive is taxable (and in that case you add devIncentive to income instead of subtracting it from cost). Calculate grossRevenue = unitsSold Ã— 20 and netRevenue = grossRevenue Ã— 0.7 (30% platform cut), then profitBeforeTax = netRevenue + (incentiveIsTaxable ? devIncentive : 0) âˆ’ adjustedDevCost âˆ’ 200_000 and netProfitAfterTax = profitBeforeTax âˆ’ max(0, profitBeforeTax Ã— corporateTaxRate). In this case use 2 years and 400k units sold.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to the second decimal. If the local currency isn't the US dollar than it should be converted and appended to the local currency value. Example: â‚¬5 ($5.70)",
-            "informational": true
+            "informational": false
         },
         {
             "id": "daemon_games_roi_1m_units_2_years",
@@ -70,7 +75,7 @@
             "order": 9,
             "guidance": "For the given city/country, estimate yearly base salaries (before employer on-costs) for these roles â€” Lead Game Designer, Senior Game Developer, Senior VFX Artist, Senior 2D Environment Artist, Senior 3D Character Artist, Senior Character Animator, and Video Game Marketer â€” plus a yearly office-space cost and a single employerOnCostRate applied to all salaries. Compute devCostBeforeIncentives = developmentYears Ã— (officeCostPerYear + (sumOfBaseSalariesPerYear Ã— (1 + employerOnCostRate))) and devIncentive = devIncentiveRate Ã— devIncentiveEligibleShare Ã— devCostBeforeIncentives, then set adjustedDevCost = devCostBeforeIncentives âˆ’ devIncentive if the incentive is non-taxable or adjustedDevCost = devCostBeforeIncentives if the incentive is taxable (and in that case you add devIncentive to income instead of subtracting it from cost). Calculate grossRevenue = unitsSold Ã— 20 and netRevenue = grossRevenue Ã— 0.7 (30% platform cut), then profitBeforeTax = netRevenue + (incentiveIsTaxable ? devIncentive : 0) âˆ’ adjustedDevCost âˆ’ 200_000 and netProfitAfterTax = profitBeforeTax âˆ’ max(0, profitBeforeTax Ã— corporateTaxRate). In this case use 2 years and 1M units sold.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to the second decimal. If the local currency isn't the US dollar than it should be converted and appended to the local currency value. Example: â‚¬5 ($5.70)",
-            "informational": true
+            "informational": false
         },
         {
             "id": "daemon_games_roi_5m_units_2_years",
@@ -79,7 +84,7 @@
             "order": 10,
             "guidance": "For the given city/country, estimate yearly base salaries (before employer on-costs) for these roles â€” Lead Game Designer, Senior Game Developer, Senior VFX Artist, Senior 2D Environment Artist, Senior 3D Character Artist, Senior Character Animator, and Video Game Marketer â€” plus a yearly office-space cost and a single employerOnCostRate applied to all salaries. Compute devCostBeforeIncentives = developmentYears Ã— (officeCostPerYear + (sumOfBaseSalariesPerYear Ã— (1 + employerOnCostRate))) and devIncentive = devIncentiveRate Ã— devIncentiveEligibleShare Ã— devCostBeforeIncentives, then set adjustedDevCost = devCostBeforeIncentives âˆ’ devIncentive if the incentive is non-taxable or adjustedDevCost = devCostBeforeIncentives if the incentive is taxable (and in that case you add devIncentive to income instead of subtracting it from cost). Calculate grossRevenue = unitsSold Ã— 20 and netRevenue = grossRevenue Ã— 0.7 (30% platform cut), then profitBeforeTax = netRevenue + (incentiveIsTaxable ? devIncentive : 0) âˆ’ adjustedDevCost âˆ’ 200_000 and netProfitAfterTax = profitBeforeTax âˆ’ max(0, profitBeforeTax Ã— corporateTaxRate). In this case use 2 years and 5M units sold.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to the second decimal. If the local currency isn't the US dollar than it should be converted and appended to the local currency value. Example: â‚¬5 ($5.70)",
-            "informational": true
+            "informational": false
         },
         {
             "id": "daemon_games_yearly_office_space_cost",
@@ -88,7 +93,7 @@
             "order": 11,
             "guidance": "For a 10ish person company",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
-            "informational": true
+            "informational": false
         },
         {
             "id": "daemon_games_employer_on_cost_rate",
@@ -97,7 +102,7 @@
             "model": "gpt-5-mini",
             "order": 12,
             "valueRequirements": "A single percentage value represented as a whole number (example: 35%)",
-            "informational": true
+            "informational": false
         },
         {
             "id": "daemon_games_corporate_tax_rate",
@@ -106,7 +111,7 @@
             "model": "gpt-5-mini",
             "order": 13,
             "valueRequirements": "Value must be a single percentage value such as 25%.",
-            "informational": true
+            "informational": false
         },
         {
             "id": "daemon_games_dev_incentive_rate",
@@ -116,7 +121,7 @@
             "order": 14,
             "guidance": "Effective % credit/rebate on eligible development costs (e.g. 30% game tax credit).",
             "valueRequirements": "Value must be a single percentage value such as 30%.",
-            "informational": true
+            "informational": false
         },
         {
             "id": "daemon_games_dev_incentive_eligible_share",
@@ -126,7 +131,7 @@
             "order": 15,
             "guidance": "Fraction of total dev cost that qualifies for the incentive (e.g. 0.8 for 80%).",
             "valueRequirements": "Value must be a single percentage value representing the eligible share (e.g., 80%).",
-            "informational": true
+            "informational": false
         },
         {
             "id": "integration_immigration_status_rights",

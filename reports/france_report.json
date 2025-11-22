@@ -44,7 +44,7 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "France (FR): small family startup. Payroll and VAT filings are handled by a local accountant; translations are rarely needed.",
+      "alignmentText": "France (FR): small family startup; payroll and VAT handled by a local accountant; translations rarely needed; reasonable annual compliance effort.",
       "alignmentValue": 7
     },
     {
@@ -100,9 +100,8 @@
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "France startup visa is viable for a small indie game studio; 4-6 months with some in-person steps; family-friendly setup for two adults, two kids.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentText": "France startup visa is workable for a two-adult, two-child family; 3-4 month FR process with in-person biometrics; solid game-dev scene.",
+      "alignmentValue": 7
     },
     {
       "key": "cost_of_living_family_eating_out",
@@ -270,7 +269,7 @@
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "France (Paris/Lyon) indie scene has monthly meetups and EU funding mentorship; a solid fit for Trey\u0027s startup and family.",
+      "alignmentText": "France (Paris/Lyon) indie game scene has monthly meetups and EU funding mentorship. It\u0027s a good fit for Trey\u0027s startup and family.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -293,8 +292,8 @@
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "EUR 846,666.67 ($931,333.34)",
-      "sameAsParent": false
+      "alignmentText": "EUR 840,800.00 ($907,559.52)",
+      "alignmentValue": 7
     },
     {
       "key": "leisure_common_date_night_opportunities",
@@ -312,24 +311,27 @@
     },
     {
       "key": "daemon_games_corporate_tax_rate",
-      "alignmentText": "25%"
+      "alignmentText": "25%",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_dev_incentive_eligible_share",
       "alignmentText": "30%",
-      "sameAsParent": false
+      "alignmentValue": 3
     },
     {
       "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%"
+      "alignmentText": "30%",
+      "alignmentValue": 9
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
-      "alignmentText": "42%"
+      "alignmentText": "45%",
+      "alignmentValue": 1
     },
     {
       "key": "daemon_games_feasible_game_grants",
-      "alignmentText": "- EUR 150,000.00 ($163,500.00) \u2013 La French Tech Tremplin \u2013 Public incubator seed support for foreign founders establishing in FR, aiding early-stage game studios and providing a path to FR incorporation and ecosystem access for Daemon.\n- EUR 450,000.00 ($490,500.00) \u2013 Cr\u00E9dit d\u0027imp\u00F4t jeux vid\u00E9o (CIGV) \u2013 Tax credit covering about 30% of eligible production costs, enabling a development budget around \u20AC1.50M for a self-published, narrative premium game and suitable for a small indie studio planning a 2-year FR development.\n- EUR 900,000.00 ($981,000.00) \u2013 CNC \u2013 Early-stage FR studio production grants within 0.5\u20135M, requiring FR entity setup and aligning with Daemon\u0027s budget and local incorporation plan.\n- EUR 600,000.00 ($654,000.00) \u2013 Creative Europe MEDIA \u2013 Supports narrative-driven games with cross-border collaboration and can provide co-funding or marketing support while staying within the 0.5\u20135M budget.",
+      "alignmentText": "- EUR 150,000.00 ($163,500.00) \u2013 La French Tech Tremplin \u2013 Public incubator seed support enabling foreign founders to establish in FR and access the local ecosystem, a solid entry point for Daemon\u0027s incorporation and early-stage development.\n- EUR 450,000.00 ($490,500.00) \u2013 Cr\u00E9dit d\u0027imp\u00F4t jeux vid\u00E9o (CIGV) \u2013 Tax credit covering about 30% of eligible production costs, enabling a development budget around \u20AC1.50M for a self-published, narrative premium game and suitable for a small indie studio planning a 2-year FR development.\n- EUR 900,000.00 ($981,000.00) \u2013 CNC \u2013 Early-stage FR studio production grants within 0.5\u20135M, requiring FR entity setup and aligning with Daemon\u0027s budget and local incorporation plan.\n- EUR 600,000.00 ($654,000.00) \u2013 Creative Europe MEDIA \u2013 Supports narrative-driven games with cross-border collaboration and can provide co-funding or marketing support while staying within the 0.5\u20135M budget.",
       "sameAsParent": false
     },
     {
@@ -344,17 +346,19 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "EUR 7,500,000.00 ($8,542,500.00)",
-      "sameAsParent": false
+      "alignmentText": "EUR 9,344,343.75 ($10,278,778.13)",
+      "alignmentValue": 8
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "EUR 3,087,000.00 ($3,395,700.00)",
+      "alignmentText": "EUR 2,718,862.20 ($2,955,285.00)",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "EUR 51,353,077.50 ($55,974,854.48)",
+      "alignmentText": "EUR 46,798,931.72 ($51,012,570.00)",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
@@ -368,8 +372,8 @@
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
-      "alignmentText": "EUR 125,000.00 ($135,000.00)",
-      "sameAsParent": true
+      "alignmentText": "EUR 40,000.00 ($44,000.00)",
+      "alignmentValue": 8
     },
     {
       "key": "life_bureaucratic_compliance_effort",
@@ -378,7 +382,7 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "7",
+      "alignmentText": "8",
       "alignmentValue": 9
     },
     {

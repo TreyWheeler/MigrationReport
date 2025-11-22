@@ -1,0 +1,406 @@
+{
+  "version": 2,
+  "iso": "US",
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "USD 4,750.00",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "USD 3,200.00",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "USD 2,800.00",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "USD 2,500.00",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "USD 4,940.00",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "USD 72.50",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "USD 1,234.56"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "USD 6,000.00",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "USD 10,500.00",
+      "alignmentValue": 3
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "USD 5,500.00",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Austin, TX: no state income tax and digital filings simplify taxes for a family business; hire a part-time bookkeeper (\u003C20h/year).",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "USD 1,050,000.00",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "21%",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_dev_incentive_eligible_share",
+      "alignmentText": "25%",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_dev_incentive_rate",
+      "alignmentText": "0%",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "In Austin, TX, US, families can access local startup grants. As US citizens, no visa is needed and the ecosystem is supportive.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "35%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "4",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "20",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "USD 9,103,644.00",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "USD 2,690,661.00",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "USD 53,328,223.20",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Austin, TX, United States: vibrant game-dev scene with 4\u002B in-person meetups monthly and a robust online hub; supports Trey\u0027s funding access.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "USD 24,000.00",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "English predominates in Austin, TX; 10-20% of critical tasks require the local language. Most forms are in English, with interpreters available but not 24/7.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Austin public schools offer bilingual/dual-language tracks from kindergarten; about 60-69% of seats bilingual by grade 2.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Austin, TX family rentals stay tight; plan 4-6 weeks to lease, up to 2.5 months deposit; guarantor may be required; digital, English-friendly process.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_effort",
+      "alignmentText": "US citizens relocating within Texas to Austin. No visa is needed and paperwork is straightforward.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Status types: Citizen (birth or naturalization); Lawful Permanent Resident (green card); Nonimmigrant (temporary visa). Determination: citizenship via birth/naturalization; LPR via approved petition with ongoing status; nonimmigrant via visa category and maintenance. Rights: Citizens may vote, obtain a passport, sponsor relatives; LPRs may work and travel with a green card and access certain benefits; nonimmigrants may remain/work/study for a limited period and must maintain status. This Austin family currently holds U.S. citizenship for all adults, granting full federal rights and sponsorship capacity. For longer-term Texas residence, establish state residency to access in-state tuition and state-issued ID (driver\u0027s license). Future immigration needs should be planned around family or employment petitions and complied with federal requirements to preserve status.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Austin\u0027s thriving tech scene warmly welcomes skilled immigrants; strong opportunities fit our software/cloud background and family-friendly work culture.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "In Austin, TX public schools, anti-bias efforts are strong with solid enforcement; expect about 1-2 incidents per 1,000 for white families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "In Austin, TX, public schools are solid with strong early childhood programs; bilingual options and secular schooling are accessible.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "In Austin, TX, USA, school meals likely HEI ~72 with \u003C15% ultra-processed calories; aligns with the family\u0027s focus on kids\u0027 nutrition.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Austin, TX public schools offer about 12-13 hours/week of English with bilingual support; aligns with bilingual exposure and desire for quality public schools.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Austin, TX offers solid language access: translations for critical services and ~100 seats per 100 newcomers; supports kids\u0027 bilingual exposure.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Plan 2-3 hour, low-stress Austin date nights in walkable neighborhoods. Start with a sunset stroll along Lady Bird Lake or Zilker Park, then dine at family-friendly spots in SoCo or The Domain. Arrange licensed childcare in advance (sitter or in-home) and choose venues with outdoor seating or early-evening hours to fit mild Texas evenings. Target a 5:30-8:30 PM window and mix outdoor/indoor options to adapt to weather while keeping kids settled.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Austin-specific family leisure: plan weekends at shaded parks such as Zilker and Mueller, explore kid-friendly nature trails in the Barton Creek Greenbelt, visit Thinkery for early-child programs, attend library storytimes in English and Spanish, use affordable drop-in childcare at neighborhood community centers, and participate in local events that blend education with play; prioritize neighborhoods with parks, walkability, and reliable broadband.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Establish a recurring Austin area evening social: organize 2-3 hour board game nights (6-9 pm) on weekdays or alternating Saturdays at kid-friendly venues such as board game cafes, libraries, or shaded parks; prioritize venues with parking or transit access, affordable options, and on-site kid activities; rotate hosts and invite nearby friends to strengthen social ties and support work-life balance.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Austin, TX shows 22-25 parent-friendly 3rd places per 100k after 6pm with staff supervision, matching your family-friendly needs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Austin\u0027s walkable cores (Downtown, Hyde Park, Mueller) with parks and schools enable ~50% car-free trips. Hot, humid summers limit year-round options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Austin, TX, USA has strong farmers markets and fresh produce, but fast-food options keep ultra-processed share mid-range.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Austin, TX: most filings online; occasional in-person visits for permits and school docs, usually one morning per quarter, manageable for a busy family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Austin, TX infant/daycare waits typically 6\u20139 months; subsidies and backup care can help a 1-year-old and a 5-year-old.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "USD 1,234.56",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "USD 1,350.00",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "USD 1,200.00",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Austin, TX: PCP waits 5-7 days; specialists 11-14 days. Steady access in a market system aligns with the family\u0027s healthcare goals.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "USD 1,234.56",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "USD 1,234.56",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "USD 1,350.00",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Austin, TX, health coverage is typically tied to employment; with a startup path, have a COBRA/Marketplace backup to keep the family covered.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1880",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Austin, USA transit remains car-centric; ~30-39% live within 500m of frequent CapMetro routes, so many trips rely on driving.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Austin colleges remain accessible but competitive. In-state tuition is around $11k/yr (~12% of median income), with UT flagship programs being selective.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Austin hosts UT Austin with strong English programs; solid college pathways, but global top-50 status isn\u0027t guaranteed.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Austin, TX offers robust adult education via UT Austin and ACC, with subsidized online courses\u2014great for education-focused families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Austin, TX offers strong senior .NET architect demand; many hybrid/remote roles and a robust Azure ecosystem ease family relocation.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Austin, TX Rails postings are moderate with steady demand and strong remote options, fitting Trey\u0027s startup and Sarah\u0027s web work.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "USD 175,000.00",
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "USD 125,000.00"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Prioritize inland lake access around Lake Travis and Lake Austin and riverfront parks along Lady Bird Lake; ensure shaded trails, spray parks, and water-safety features. Support family-friendly housing near these venues with ample shade trees and cooling features. Maintain easy weekend routes to Gulf Coast beaches for day trips."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Austin fall: highs 60-75\u00B0F, lows 50-60\u00B0F; crisp and stable, ideal for a family seeking mild weather in Austin, TX.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Austin, TX, USA has ~180\u2013210 mild days/year (50\u201385\u00B0F, humidity \u003C70%); summers are hot and humid, limiting year-round comfort.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Natural beauty in Austin, TX: 20-24% land within 60 minutes protected; Balcones Canyonlands and city parks offer quick family-friendly scenic outings.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Austin, TX has multiple 10\u002B acre parks within 5 km (Zilker, Pease Park) and 3 regional trails reachable by transit in ~30 min; family-friendly outdoors.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring in Austin, TX, USA: highs 55\u00B0F\u201372\u00B0F, lows 45\u00B0F\u201355\u00B0F; mostly mild with light rain.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Austin, TX summers: highs 88\u2013100\u00B0F, lows 72\u201382\u00B0F; long, oppressive heat stretches challenge a family seeking mild weather.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "In Austin, TX, winter highs around 60\u201370\u00B0F and lows around 40\u201350\u00B0F; winters are mild with little to no snow.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Austin\u0027s hot, humid summers and smoke days yield ~14-17 severe weather/AQI days/year; moderate stability, but not ideal for a mild-year-round climate.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Austin, TX\u0027s tech startup hub supports the family\u0027s founder goals; strong schools help the kids\u0027 long-term plans.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Migration Stability 6: US policy remains fluid; Austin\u0027s startup-friendly scene offers opportunity, but visa approvals can vary.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Austin, US offers stable politics with predictable governance and robust civil liberties, aligning with your progressive, family-friendly values.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Austin, US offers family-friendly neighborhoods and strong schools; violent crime ~400-450/100k with stable utilities.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    }
+  ]
+}

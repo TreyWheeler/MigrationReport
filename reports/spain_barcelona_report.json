@@ -1,0 +1,394 @@
+{
+  "version": 2,
+  "iso": "ES",
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "EUR 3,500.00 ($3,850.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "EUR 2,800.00 ($3,080.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "EUR 3,100.00 ($3,410.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "EUR 2,000.00 ($2,160.00)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "EUR 3,120.00 ($3,400.80)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "EUR 90.00 ($99.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "EUR 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "EUR 750.00 ($825.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "EUR 2,900.00 ($3,190.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "EUR 1,500.00 ($1,650.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Barcelona, Spain: payroll and VAT filed monthly with Hacienda and Seguridad Social; hire a local accountant to stay compliant (40\u201360 hrs/yr).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "EUR 804,166.67 ($884,583.33)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_dev_incentive_eligible_share",
+      "alignmentText": "30%",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_dev_incentive_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Spain/Barcelona presents a workable entrepreneur visa (3-4 months with biometrics) and a growing game/startup scene suitable for founders.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "35%",
+      "alignmentValue": 4,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- EUR 60,000.00 ($64,800.00) \u2013 Creative Europe MEDIA Development \u2013 EU-wide grant for development of interactive content; accessible to small studios and foreign founders who establish a local entity; highly competitive but attainable for a narrative-driven title within a 0\u20133 year window.\n- EUR 50,000.00 ($54,000.00) \u2013 ACCI\u00D3 Catalonia Video Game Prototype/Production Grant \u2013 Catalan regional support for prototyping/production; accepts new entities; aligns with premium narrative-driven games; competitive but feasible for a 1.5M project.\n- EUR 375,000.00 ($405,000.00) \u2013 Spain R\u0026D and Video Game Tax Credit \u2013 25% of eligible development costs; can be refundable for SMEs; helps offset costs during a 2-year development period, provided qualification criteria are met.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "3",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "20",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "EUR 8,348,954.02 ($9,175,500.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "EUR 2,729,490.00 ($2,947,849.20)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "EUR 51,384,300.00 ($56,522,730.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Barcelona, ES hosts ~2 in-person game dev events/month and 400-699 online members with sponsor support; aligns with Trey\u0027s game dev interests.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "EUR 28,000.00 ($30,800.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Barcelona (ES) will require Spanish for most admin. English helps in clinics and some schools; plan to learn Spanish.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Barcelona, Spain: public schools offer Catalan/Spanish bilingual tracks. English options exist in many urban schools but are not universal.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Barcelona housing: for a family, leases usually take 4-6 weeks; deposits around 2-2.5 months; guarantor often required; English-speaking agents aid.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_effort",
+      "alignmentText": "Barcelona, Spain: first-time US family visas are manageable but doc-heavy; plan roughly 6-8 months with organized evidence and some in-person steps.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Spain provides two core statuses relevant to this family: permanent residency after about five years of legal residence (residencia de larga duraci\u00F3n) and citizenship by naturalization after typically around ten years of legal residence (with shorter timelines in certain cases, e.g., marriage to a Spanish citizen or specific nationalities). Permanent residence grants work authorization, access to public healthcare, education, and social benefits, and a stable path toward full rights. Citizenship by naturalization grants full political rights, a Spanish passport, and freedom to live and work across the EU. For this family: pursue Trey\u2019s work visa or self-employment path within Spain\u2019s tech ecosystem; apply for family reunification or dependent visas for Sarah and the children; maintain continuous lawful residence, enroll in schools, and start language/integration efforts to support eligibility for permanent residency and eventual citizenship; rights to consider alongside these statuses include work authorization, healthcare access, education, social services, Schengen mobility, and, upon naturalization, voting rights.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Barcelona, Spain offers a welcoming skilled-immigrant climate with startup support; English-friendly services exist, but expect bureaucracy.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Barcelona schools typically enforce anti-bias policies; expect low bullying risk for US kids (about 1\u20132 incidents per 1,000) with strong enforcement.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Barcelona offers solid public schools with bilingual options; PISA shows around the 50-60th percentile, i.e., mid-level education quality.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Barcelona school meals follow a Mediterranean pattern; HEI ~80-84 with \u003C10% ultra-processed calories. Supports healthy growth for your kids.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Barcelona public schools offer about 4-5 hours/week of English; bilingual aides are rare, with local language emphasis.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Barcelona, Spain offers newcomer language support. Expect 80\u201399 subsidized course seats per 100 newcomers and translation on request.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Date nights in Barcelona: start with a tapas crawl in El Born or Barri G\u00F2tic, followed by a sunset stroll along Barceloneta Beach or a Montju\u00EFc viewpoint; finish with rooftop cocktails overlooking the city and sea, plus an optional live show (Tablao Flamenco Cordob\u00E9s) or a cinema night at venues like Cines Verdi; for a memorable close, consider a twilight harbor cruise from Port Vell."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Barcelona offers abundant family-friendly activities: parks and playgrounds (Parc de la Ciutadella, Montju\u00EFc), beaches (Barceloneta), and frequent family workshops at museums (Cosmocaixa, Picasso) for bilingual exposure; strong public transit and bike lanes enable car-free outings with kids; municipal childcare (escoles bressol) and affordable after-school programs support education priority, while libraries and community centers provide language-friendly events. Neighborhoods like Gr\u00E0cia, Eixample, and Sant Mart\u00ED offer parks, safety, and walkability; leverage bilingual public schools and early-years programs to balance Catalan/Spanish with English usage; tap reliable broadband and coworking spaces to support remote work and game development; plan seasonal activities around mild climate and accessible healthcare."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Launch a weekly Barcelona \u0027Common Friends Night\u0027: family-friendly board-game evenings at walkable, English-friendly venues (board-game cafes or civic centers in neighborhoods like Eixample or Gr\u00E0cia) near reliable transit; include occasional adult meetups at nearby cafes; coordinate with expat/bilingual groups to invite friends, offer childcare as needed, and adjust venues/times to fit a slower pace for the family.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Barcelona, Spain, has many family-friendly 3rd places after 6pm with staff. Libraries, civic centers, and play spaces suit your kids and English-friendly setup.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Barcelona\u0027s walkable layout and strong transit (metro, buses) support 70-79% car-free trips; great parks and bike lanes for a family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Barcelona, ES: abundant fresh markets and produce; ultraprocessed share moderate; strong, family-friendly food access.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Barcelona offers online filings, but visas and translations still require in-person visits; expect several afternoons per quarter.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Barcelona (ES), public daycares for a 1-year-old typically wait 6-9 months. Private options or informal spots may help accelerate placement.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "EUR 350.00 ($374.50)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "EUR 1,000.00 ($1,100.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "EUR 625.00 ($675.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Barcelona, Spain\u0027s universal healthcare offers solid access; primary care waits 5-7 days, specialists 11-14 days.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "EUR 0.00 ($0.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "EUR 800.00 ($860.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "EUR 750.00 ($810.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Barcelona, Spain, healthcare is universal via the SNS, not tied to employment; job changes won\u0027t cut baseline coverage.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1700",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Barcelona offers strong transit: most neighborhoods are within 500m of frequent services with 10-min headways much of the day, supporting family mobility.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Barcelona public universities offer modest tuition (roughly 6\u20139% of local median income) with solid admission rates and broad bilingual options.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Barcelona\u0027s UB/UAB/UPF offer English programs; global rankings are often 201-300 with about 25% English offerings.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Barcelona offers strong continuing education options with subsidized online courses. Local programs support upskilling for families and entrepreneurs.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Barcelona, Spain shows moderate senior .NET architect demand. Expect about 4-5 postings per million per month, with remote options.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Rails demand in Barcelona, ES is moderate. Roughly 10-14 postings per million residents per month make it a mid-range fit for a 6-year Rails dev.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "EUR 80,000.00 ($87,200.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "EUR 48,000.00 ($52,320.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Barcelona\u2019s beaches (e.g., Barceloneta, Bogatell) offer family-friendly options with calm water, shade, restrooms, and lifeguards in season. Tailor beach days to cooler morning or late afternoon hours, bring sun protection, and pair with nearby parks and promenades to support a relaxed, child-friendly outdoor life that fits the family\u2019s mild-weather preference."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall in Barcelona, Spain, highs 60-75\u00B0F and lows 50-60\u00B0F. The weather is mild and crisp, matching your family\u0027s preferences.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Barcelona\u0027s mild, Mediterranean climate offers many days in 50-85 F with moderate humidity. This fits your year-round mild-weather preference.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Natural beauty near Barcelona: about 20-24% protected within 60 minutes, with Montseny, Garraf and Collserola offering scenic coast-mountain views.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Barcelona, ES offers strong nature access: several 5-km parks (Ciutadella, Montju\u00EFc) and transit to Collserola trails in 30 minutes.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Barcelona, Spain spring: highs 60\u00B0F\u201368\u00B0F and lows 50\u00B0F\u201360\u00B0F; stable, pleasant days for family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Barcelona summers: 75\u201388\u00B0F by day and 62\u201374\u00B0F at night; moderate humidity.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Barcelona, ES winter: highs 50\u201360\u00B0F, lows 40\u201350\u00B0F. Little snow and mild temps suit your family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Barcelona, Spain offers a mild Mediterranean climate with few severe days; about 6-9 days/year of heavy weather or AQI spikes; low-risk living.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Barcelona, ES shows moderate economic stability; 5-year GDP per capita volatility around 2-2.4%.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Barcelona/Spain offers stable EU immigration rules with few overhauls and low revocation risk, suitable for a US family pursuing entrepreneurship.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Barcelona, Spain ranks high in political stability with strong institutions; favorable for long-term family plans and predictable governance.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Barcelona, ES offers strong social stability with violent crime under 200 per 100k. Utilities are reliable and schools are solid for families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    }
+  ]
+}

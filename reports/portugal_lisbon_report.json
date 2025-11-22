@@ -1,0 +1,394 @@
+{
+  "version": 2,
+  "iso": "PT",
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "EUR 3,000.00 ($3,240.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "EUR 2,500.00 ($2,700.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "EUR 2,800.00 ($3,080.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "EUR 1,251.00 ($1,376.10)",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "EUR 3,120.00 ($3,369.60)",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "EUR 75.00 ($82.50)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "EUR 0.00 ($0.00)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "EUR 750.00 ($810.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "EUR 1,000.00 ($1,100.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "EUR 750.00 ($810.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Portugal (Lisbon) has regular VAT/payroll filings; hire a local accountant for monthly payroll and annual returns, with digital Portal das Finan\u00E7as support.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "EUR 671,250.00 ($738,375.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "21%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_dev_incentive_eligible_share",
+      "alignmentText": "30%",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_dev_incentive_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Lisbon, Portugal offers D2 startup visas for founders. Timelines are about 3-4 months with in-person biometrics; feasible but slower for indie studios.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "24%",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "3",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "9",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "EUR 8,997,913.64 ($9,897,705.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "EUR 2,956,943.07 ($3,252,637.38)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "EUR 49,141,779.55 ($54,055,947.50)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Lisbon, Portugal offers a steady game dev scene with Big Festival visibility. 6-11 in-person events/year and 150-249 online members support local collaboration.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "EUR 32,400.00 ($35,640.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Lisbon, Portugal: English is common in daily life, but official forms often require Portuguese. Start learning basics to manage processes.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Lisbon public schools offer few bilingual tracks from kindergarten; English is mostly a foreign language, with private/international options more common.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Lisbon leases for expats typically take 4-6 weeks; deposit around 2.5 months; guarantor commonly needed; expect some in-person viewings.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_effort",
+      "alignmentText": "Lisbon, PT: For a US family, startup/long-term visas are doable but plan 4-6 months; gather organized docs and expect some in-person steps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Portugal has four main immigration statuses: 1) Autoriza\u00E7\u00E3o de resid\u00EAncia (temporary residence) for work, study, family reunification, or entrepreneurship; it grants the right to reside and work, access to healthcare and education, and Schengen mobility during validity, with renewal required. 2) Resid\u00EAncia Permanente (permanent residence) after five years of legal residence; it provides long term residence, work and social rights, and easier travel, but does not confer full political rights. 3) Cidadania portuguesa por naturaliza\u00E7\u00E3o (Portuguese citizenship by naturalization) after five years of legal residence (with Portuguese language proficiency and integration). Citizenship grants full political rights (vote, stand for elections), a Portuguese passport, and broad EU mobility. 4) EU long term resident status after five years of continuous lawful residence; similar to permanent residence with enhanced EU mobility. Pathways include employment or entrepreneurship, family ties, or study, and require ongoing lawful residence and language/integration criteria."
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Lisbon\u0027s welcoming tech scene and English-friendly culture support skilled migrants; some bureaucracy remains.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Lisbon, Portugal schools generally enforce anti-bias policies. For caucasian expats, bullying risk is around 1-2 per 1,000 with strong enforcement.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Lisbon schools are mid-range globally (about the 50th percentile). Public options are solid, with bilingual programs and language exposure opportunities.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Lisbon public school meals follow Portugal\u0027s nutrition guidelines with a Mediterranean tilt. HEI would be in the 75\u201379 range with under 12% ultra-processed foods.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In Lisbon, Portugal, public schools typically offer 2-3 hours of English weekly for kids. Most core subjects are taught in Portuguese with limited bilingual aides.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Lisbon offers moderate language support for kids; translation is available on request at many public services, with English widely used.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Lisbon date-night opportunities: reserve a sunset stroll through Alfama or Baixa/Chiado, followed by candlelit dining at a traditional Portuguese tavern or modern tapas in Bairro Alto; catch a short Fado show in Alfama; finish with rooftop cocktails at Park Bar or a river-view venue near Cais do Sodr\u00E9. To keep it low-stress, pre-book childcare, and choose weekday evenings or early nights to avoid crowds; use the tram/metro for easy, relaxed transit."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Lisbon offers many family-friendly, low-stress activities for two young children: strolls in Jardim da Estrela and Parque Eduardo VII; riverside walks in Bel\u00E9m and along the Tagus; Ocean\u00E1rio de Lisboa and Pavilh\u00E3o do Conhecimento for interactive learning; a short historic tram ride; Lisbon Zoo; and weekend trips to Sintra or Cascais for easy day trips. Focus on neighborhoods with parks, safe play areas, and access to bilingual programs; use metro/tram to keep travel calm and avoid crowds."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Lisbon, common after-work social opportunities for adults and families include expat/local meetups, board-game nights at family-friendly cafes, language-exchange evenings, and casual tech/startup mixers. Prioritize central districts (Baixa, Chiado, Pr\u00EDncipe Real, Cais do Sodr\u00E9) with English-friendly hosts, safe pedestrian routes, and kid-friendly spaces. Target events around 7\u20139 pm or early weekend slots; favor venues with flexible hours and quick transit access. Plan to attend 1\u20132 events per month to build a local network compatible with a two-parent, two-child family schedule."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Lisbon, Portugal has solid family-friendly 3rd places after 6pm (libraries, play centers). About 18\u201321 venues per 100k residents.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Lisbon\u0027s transit-rich, walkable layouts suit families. Expect ~70\u201379% of trips car-free, with easy access to parks and schools.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Lisbon offers 3\u002B daily-produce markets (e.g., Campo de Ourique, Ribeira area) and abundant fresh foods; ultra-processed share ~25-29% and low fast-food density.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Lisbon\u0027s online services help, but visa docs and translations mean several in-person visits; still manageable.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Lisbon creches for a 1-year-old typically 4-6 months; public 5-year-olds slots follow similar timelines; expect private options as backups.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "EUR 320.00 ($352.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "EUR 850.00 ($926.50)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "EUR 350.00 ($378.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Lisbon\u0027s public healthcare offers universal access. Primary care waits typically 3\u20134 days; specialists 8\u201310 days for non-urgent needs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "EUR 450.00 ($481.50)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "EUR 800.00 ($880.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "EUR 350.00 ($378.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Portugal\u0027s universal healthcare (SNS) keeps baseline coverage when you change jobs; in Lisbon, coverage remains for residents.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1700",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Lisbon offers strong transit; many neighborhoods are within 500m of metro/tram with frequent service most hours, easing family travel.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Lisbon public universities offer affordable tuition and solid admission rates; good bilingual options and scholarships for internationals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Lisbon\u0027s top universities rank 151-200 globally with \u003E30% English programs, providing English-taught options for tech and business.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Lisbon offers 17-19 accredited adult upskilling programs per 100k with subsidized online options; solid fit for ongoing education.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Lisbon\u0027s senior .NET architect demand is moderate: about 6-8 postings per million monthly, with English-friendly firms and remote options.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Lisbon Rails demand is modest (about 4-6 postings per million residents monthly); mainly startups and remote roles in Portugal.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "EUR 75,000.00 ($81,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "EUR 50,000.00 ($53,500.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Lisbon\u2019s coast supports regular, family-friendly beach outings within easy reach from central Lisbon: Carcavelos, Estoril/Cascais, and Costa da Caparica offer long sandy beaches, lifeguards, restrooms, shade, and reliable transit (train or short drives). Prioritize days with calmer seas for the 5-year-old and sun protection/shade for the 1-year-old; plan visits during off-peak hours to minimize crowds; check parking or rail schedules in advance and pack sunscreen, hats, water, snacks, and a lightweight shelter.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Lisbon fall typically 60\u201375\u00B0F highs and 50\u201360\u00B0F lows; mild, stable autumn, ideal for parks and family strolls.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Lisbon, Portugal offers a mild Atlantic climate with many 50-85\u00B0F days; humidity varies but climate fits the family\u0027s mild-weather goal.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Lisbon offers two major parks (Sintra-Cascais, Arr\u00E1bida) and a rugged coast, delivering strong natural beauty within 60 minutes.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Lisbon offers strong nature access for families: 8-9 parks \u003E10 acres within 5 km and about 2 regional trails reachable by transit.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Lisbon, Portugal spring typically 60\u201375\u00B0F highs and 50\u201360\u00B0F lows; mild, pleasant days with light rain.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Lisbon summers typically range 72-85\u00B0F with mild humidity. Occasional heat spikes up to around 90\u00B0F.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Lisbon, Portugal winters: typical highs 50-60\u00B0F and lows 40-45\u00B0F. Snow is rare; no major winter disruptions.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Lisbon, Portugal enjoys a mild, maritime climate with few extreme events; air quality is typically good, supporting high climate stability.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Lisbon\u0027s EU-backed economy offers moderate stability; 5-year GDP per capita volatility around 2.5-3.4%, plus grants/visa options for entrepreneurship.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Lisbon\u0027s immigration regime remains stable for skilled migrants; a couple reforms in the last decade, with generally steady approvals and low revocations.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Lisbon, Portugal has very high political stability (likely \u003E=90th percentile). Safe governance supports families and startups.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Lisbon, Portugal has very low violent crime and stable services. Reliable utilities and strong schools support family stability.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    }
+  ]
+}

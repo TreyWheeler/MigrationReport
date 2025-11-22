@@ -1,0 +1,410 @@
+{
+  "version": 2,
+  "iso": "US",
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "USD 2,750.00",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "USD 1,234.56",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "USD 2,400.00",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "USD 2,500.00",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "USD 7,800.00",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "USD 75.00",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "USD 1,234.56",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "USD 5,000.00",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "USD 12,000.00",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "USD 4,750.50",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "KC, MO, US: regular federal/state filings with occasional in-person steps; part-time accountant keeps taxes predictable for a founder family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "USD 1,205,416.67",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_dev_incentive_eligible_share",
+      "alignmentText": "25%",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_dev_incentive_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "US citizen founders in Kansas City, MO: no entrepreneur visa needed; leverage KC grants and the local game-dev ecosystem.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "35%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "2",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "USD 9,389,446.25",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "USD 2,549,225.00",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "USD 53,625,200.00",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Kansas City, USA has a modest indie game scene with quarterly events and a 100-149 online hub; founder-friendly, supports your game startup.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "USD 1,234.56",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Kansas City, MO uses English for official tasks; 10-20% of admin may require local language; family bilingual-ready and open to learning.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "In Kansas City, MO, public schools offer limited bilingual options. Most programs start by grade 6 (Park Hill, KCPS).",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Kansas City, USA: leases 2-3 weeks; deposits up to 1.5 months; English paperwork usually enough for a family of four in family-friendly areas.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_immigration_effort",
+      "alignmentText": "KC, USA: first-time visa for the family; organized docs; most steps online, some interviews; 4-6 months.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "KC, MO: U.S. immigration status is determined by federal law. Citizenship (birth or naturalization) provides full civil rights, eligibility to vote where allowed, and the ability to sponsor relatives for permanent residency. Lawful permanent residency (green card) allows work authorization and a path to citizenship, typically through family sponsorship, employer sponsorship, asylum/refugee status, or the Diversity Visa program; rights are tied to maintaining status and do not include voting. Non-immigrant visas (work, study, visitor) grant rights for the duration and purpose of the visa and come with restrictions on benefits. To plan in KC, gather essential documents (birth certificates, naturalization records, passports, current visas if applicable), map timelines toward sponsorship or naturalization, and consult an immigration attorney to align status with family and career plans.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Kansas City, MO, USA has a growing tech scene with grants; family-friendly neighborhoods welcome skilled immigrants amid mixed politics.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Kansas City, MO, US has strong anti-bias policies with enforcement; ~1-2 incidents/1,000 students, providing a safe, inclusive setting for two kids.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "KC metro public schools vary. Strong nearby MO districts offer bilingual exposure and early education options for young children.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "KC, MO school meals show HEI 75-79 with \u003C12% ultra-processed. It aligns with family goals, but healthier options should be pushed.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "KC, MO public schools offer 16-19 hours/week of English with bilingual support in core subjects, supporting the kids\u0027 bilingual exposure.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Kansas City, MO offers ESOL in public schools and translation on request, supporting bilingual exposure for kids amid English ubiquity.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Plan 2\u20133 hour date nights in Kansas City, MO with three rotating options: 1) quiet dinner in Country Club Plaza or Westport followed by a short post-dinner stroll; 2) an intimate Crossroads Arts District venue with small plates and low-volume live music; 3) a cozy Brookside wine bar. Reserve trusted local childcare at least 2\u20134 weeks in advance. Prefer weekday evenings or mild-weather patios to avoid humidity; rotate options monthly (2\u20133 choices).",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Actionable KC family plan: prioritize walkable, park-adjacent neighborhoods near Loose Park and Swope Park with kid-friendly venues (Science City at Union Station, KC Zoo, Crown Center play spaces). Establish a cadence of outdoor days, museum visits, and community events; leverage library programs for bilingual exposure and affordable childcare; select high-quality public schools. Connect Trey with local game studios, makerspaces, and dev meetups; maintain Sarah\u2019s low-stress remote/hybrid schedule. Tap KC entrepreneurship resources for family-friendly grants; ensure reliable broadband and proximity to Azure data centers to reduce latency. Prioritize safety, healthcare access, housing affordability, and climate resilience."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Kansas City, MO: Establish a weekly or biweekly Common Friend Night for families with three formats: (1) board-game evenings at venues in Downtown, Crossroads, Westport, or River Market; (2) KC Public Library family programs; (3) nearby community-center socials. Schedule Fridays or Saturdays 6:00\u20139:00 pm with rotating hosts. Publicize via Meetup, KC Public Library calendars, and local boards; prioritize low-cost, accessible venues and clear RSVP/carpooling details; track turnout and solicit feedback to improve inclusivity and safety."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Kansas City, MO has about 22\u201325 child-friendly venues per 100k residents open after 6pm with supervision. That fits Trey and Sarah\u0027s family evenings.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Kansas City, MO, USA offers family-friendly, park-rich neighborhoods with walkability; expect ~35-39% car-free trips for a family with kids.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Quality Food Access in Kansas City, MO is moderate; City Market and River Market offer fresh produce for families, but fast-food density remains high.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "KC, MO, US: online-first filings with modest queues; occasional in-person visits fit a busy family schedule.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Kansas City, MO, 1-year-old daycare slots typically take 2-3 months with weekly waitlists; not guaranteed within 1 month.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "USD 1,234.56",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "USD 900.00",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "USD 900.00",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Kansas City, US offers mid-range healthcare access for families with kids: primary care 11-14 days; specialists 21-28 days.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "USD 1,000.00",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "USD 3,000.00",
+      "alignmentValue": 2
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "USD 1,500.00",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "KC, MO: 41-50% risk of losing employer health coverage if you change jobs. Missouri lacks universal coverage; plan for family healthcare.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1920",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Kansas City, MO has limited frequent transit beyond core areas; for a family with kids, cars remain primary, with some downtown bus options.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "KC, MO public colleges are mid-range; tuition ~16-18% of median income with modest admissions. Grants can help two kids afford college.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "KC metro offers solid English-language colleges; WashU (St. Louis) is strong, KU in KS also solid, though top-50 campuses aren\u2019t nearby.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Kansas City, MO offers extensive continuing education options (MCC/JCCC and online). This aligns with the family\u0027s education goals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Kansas City, MO shows solid senior .NET architect demand (9-12 postings/million); family-friendly tech scene and affordable living fit your profile.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Rails demand in Kansas City, MO is moderate (~10-14 postings/m). Remote or local roles suit Trey and Sarah\u0027s web skills.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "USD 150,000.00"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "USD 105,000.00"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Plan beach days within ~2.5-3 hours from Kansas City to Lake of the Ozarks (Osage Beach/Grand Glaize), Smithville Lake, and Longview Lake. For each site, verify seasonal lifeguards, parking limits, and fees; check current conditions on park sites; target mild, low-humidity windows and morning visits in summer; pack sunscreen, water, and snacks; arrive early to secure parking.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Kansas City, MO, United States falls: highs 50\u201370\u00B0F, lows 40\u201350\u00B0F; mild autumn with occasional warm or cool swings.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Kansas City, MO offers about 210-239 comfortable days/year. Springs/falls are mild, summers can be hot/humid, aligning with your mild-weather preference.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "KC, MO has ~20-25% protected land within 60 minutes; Swope Park and Loose Park with river bluffs offer easy, kid-friendly outdoor scenery.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "KC, MO, USA: ~3 parks \u003E10 acres within 5 km; regional trails \u003E60 minutes away by car; suitable for occasional family day trips with the kids.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Kansas City spring: highs 55\u201372\u00B0F and lows 45\u201355\u00B0F; mild with light rain, fitting the family\u0027s climate preference.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Summer in Kansas City, MO, USA: highs 75-88\u00B0F, lows 62-74\u00B0F with moderate humidity. Great for family outdoor activities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Kansas City, MO winters typically 40\u201355\u00B0F highs and 28\u201340\u00B0F lows with light snow; generally manageable for a family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Kansas City, MO has spring storms and tornado risk. Expect about 22-25 severe weather/AQI days yearly; plan flexible outdoor activities.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "US GDP-per-capita stability is solid; Kansas City\u0027s diversified economy and startup grants support the family\u0027s entrepreneurial plans.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Migration Stability: 6. US policy shows 3-4 overhauls/decade and 4-5% revocations; KC offers family-friendly, pragmatic options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "US political stability remains high in Kansas City, MO. World Bank percentile \u003E=90, supporting safe neighborhoods and reliable services for families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Kansas City, MO, USA offers family-friendly neighborhoods and solid schools; crime ~320-340/100k with reliable utilities.",
+      "alignmentValue": 7
+    }
+  ]
+}

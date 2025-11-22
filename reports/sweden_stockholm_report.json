@@ -1,0 +1,392 @@
+{
+  "version": 2,
+  "iso": "SE",
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "SEK 50,000.00 ($4,545.45)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "SEK 30,000.00 ($2,760.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "SEK 26,000.00 ($2,261.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "SEK 4,050.00 ($450.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "SEK 52,000.00 ($4,727.27)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "SEK 1,500.00 ($136.36)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "SEK 1,234.56 ($1,345.67)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "SEK 0.00 ($0.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "SEK 42,000.00 ($4,000.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "SEK 60,000.00 ($5,454.55)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Stockholm\u0027s startup-friendly tax system automates payroll/VAT; optional local Swedish accountant keeps family finances simple.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "SEK 10,954,166.67 ($995,833.33)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "21%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_dev_incentive_eligible_share",
+      "alignmentText": "35%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_dev_incentive_rate",
+      "alignmentText": "0%",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Stockholm startup visa feasible with incubator support; requires \u003C= $50k capital; about 8-12 weeks with lawyer-ready docs.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "31%",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "5",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "28",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "SEK 108,358,005.76 ($9,850,731.43)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "SEK 28,011,442.11 ($2,661,087.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "SEK 37,162,632.00 ($3,378,421.09)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Stockholm, Sweden: ~2 in-person game-dev events per month, 400-699 online members; solid sponsor support and a grants-friendly ecosystem.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "SEK 1,300,000.00 ($118,181.82)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Stockholm has high English use. Most admin (healthcare, banking) offers English options, with some Swedish needed for taxes.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Stockholm public schools offer limited bilingual options; roughly 30-39% by grade 5, with strong English exposure across schools.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Stockholm rental market is competitive for newcomers; plan 4-6 weeks to secure a lease, with deposits up to 2.5 months and often a guarantor.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_effort",
+      "alignmentText": "Stockholm\u0027s startup visa is feasible with organized evidence. Plan 4-6 months, with some interviews and mostly online processing.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Sweden, the two primary immigration statuses to consider are: Permanent Residence Permit (Permanent uppeh\u00E5llstillst\u00E5nd) and Swedish Citizenship. A Permanent Residence Permit is granted after a qualifying period of lawful residence in Sweden through work, family ties, or other pathways; it enables long-term residence and work, access to most social benefits, and creates a clear path toward citizenship. Swedish Citizenship is typically granted after several years of continuous lawful residence (often around five years for non-EU nationals), with language and civic-knowledge requirements and good conduct; citizenship provides full civil rights, including the right to vote in national and municipal elections, eligibility for a Swedish passport, and broader mobility rights. In addition, temporary permits (work, study, family reunification) can bridge you toward permanent residence or citizenship. Actionable steps: map each family member\u2019s profile to an eligible category (trey\u2019s entrepreneurship and remote work suit skilled-work or self-employed paths; sarah\u2019s web development suits skilled-work with a job offer), obtain sponsorship or a valid permit, maintain lawful status, start language and civics integration activities, assemble required documents (IDs, birth/marriage certificates, proof of funds, housing), submit applications to the Swedish Migration Agency, and track milestones toward permanent residence and citizenship while aligning with your goals on climate, healthcare access, education quality, and work-life balance."
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Stockholm, Sweden is generally welcoming to skilled immigrants. Sweden\u0027s visa processes and a strong tech ecosystem support entry and integration.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Stockholm schools enforce anti-bullying and equality policies. For caucasian American immigrants, bullying risk is very low (about 1-2 per 1,000).",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Stockholm\u0027s primary/secondary schools are strong; bilingual programs and universal childcare support smooth learning in Sweden.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Stockholm schools follow Nordic guidelines and offer nutritious lunches. HEI ~85\u201389 with \u003C8% ultra-processed foods.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Stockholm public schools: ~4-5 hours/week of English; bilingual aides are rare; most classes and homework are in Swedish.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Stockholm has strong language support for newcomers: subsidized courses and translation in most public agencies, aiding kids integration.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Stockholm date-night plan: assemble 3 family-friendly options within 30 minutes of central Stockholm (e.g., Gamla Stan stroll with a kid-friendly dinner; Djurg\u00E5rden sunset walk with a casual, child-friendly cafe; an early-evening cultural option with seating suitable for families). Pre-arrange childcare or a trusted sitter, verify child menus and play spaces, and have a weather-backup option (indoor venue or cinema) ready."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Stockholm offers family-friendly leisure options aligned with your needs: outdoor days in Djurg\u00E5rden, Tantolunden, and Vasaparken with stroller-friendly paths and safe playgrounds; kid-focused venues like Skansen and Junibacken for bilingual or Swedish-language programming; easy day trips to the Stockholm archipelago for nature and sea air; and library-driven activities (story times, crafts) at low or no cost to support bilingual exposure and affordable childcare. Plan weekend outings that combine two outdoor experiences with one cultural activity to balance QoL, education, and safety."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Stockholm, establish a rotating set of \u0027common friend night\u0027 options: (1) weekly board game or casual game-night at a central venue (board game cafes or community centers) with English-friendly sessions; (2) expat/tech meetups (Unity, game dev, web) that run evenings; (3) family-friendly venues in walkable neighborhoods with safe transit and reliable Wi-Fi for remote work or game sessions. Target Fridays or Saturdays; prioritize locations with good broadband, easy transit, and child-friendly hours to accommodate Trey and Sarah. Build a 1-month pilot of 4 venues, then rotate every 6-8 weeks based on turnout and safety."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Stockholm, Sweden offers abundant family-friendly 3rd places after 6pm. Libraries, community centers, and clubs provide supervised options for kids and parents.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Stockholm\u0027s walkable, transit-first layout and parks suit your family; expect ~60-70% trips car-free with strong cycling options.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "7 - Stockholm has several daily markets (\u00D6stermalms Saluhall, H\u00F6torget) with fresh produce; fast-food density is modest for a big city.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Stockholm, Sweden: digital-by-default registrations, translation support, and one-stop portals keep family admin under an hour per month.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Stockholm daycare slots typically within 1\u20132 months with transparent queues; for a 1-year-old this is common.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "SEK 1,100.00 ($100.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "SEK 3,500.00 ($318.18)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "SEK 803.50 ($76.33)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Stockholm, Sweden has universal public healthcare and affordable costs. Primary care waits typically 5-7 days; specialists 11-14 days.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "SEK 550.00 ($51.16)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "SEK 11,880.00 ($1,100.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "SEK 2,000.00 ($181.82)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Stockholm, Sweden offers universal healthcare, keeping coverage beyond employment. For this Kansas City family moving there, loss risk is minimal.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1760",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Stockholm\u0027s transit is dense: \u003E90% live within 500m of frequent service (10-min headways) for 18\u002B hours/day, great for a family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Stockholm public universities are tuition-free for residents and offer scholarships; English-taught programs ease admissions for internationals.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Stockholm\u0027s universities offer many English-taught programs; top campuses rank 101-150 globally, aligning with your education goals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Stockholm, Sweden offers extensive, subsidized adult education (Komvux, Folkuniversitetet) and strong online options for upskilling.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Stockholm\u0027s mature tech scene shows steady senior .NET architect demand. English-friendly environment supports remote/hybrid work for your family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Stockholm, Sweden: Rails demand is moderate (10-14 postings/million/month); many roles are remote or English-friendly - good fit for Sarah and Trey.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "SEK 900,000.00 ($85,714.29)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "SEK 660,000.00 ($61,380.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Stockholm offers strong Beach Life options for a young family: multiple urban beaches and nearby archipelago access with calm water and family-friendly facilities. Prioritize transit-accessible sites with shallow water, shade, restrooms, and safety provisions; plan visits primarily May\u2013September, preferably mornings to avoid crowds. Be mindful of variable water temperatures and wind, and balance beach days with park time for a 5\u2011 and 1\u2011year\u2011old; check local water quality and safety guidelines before trips."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Stockholm fall: highs 50\u201360\u00B0F, lows 40\u201350\u00B0F; mild with occasional warmer or cooler days.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Stockholm, Sweden offers a mild, temperate climate most of the year. Expect about 150\u2013170 days with highs 50\u201385\u00B0F and comfortable humidity.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Stockholm area offers abundant nature within 60 minutes. Tyresta National Park and the Royal National City Park showcase accessible natural beauty.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Stockholm has many large parks within 5 km (e.g., Hagaparken, Djurg\u00E5rden) and easy transit to regional trails\u2014great for family outdoor time in Sweden.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Stockholm spring typically ranges from 50\u00B0F to 68\u00B0F by day and 38\u00B0F to 48\u00B0F at night. Expect mixed sunny and cool days with some rain.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Stockholm summers typically reach 72\u201385\u00B0F by day and 60\u201372\u00B0F at night. Occasional short heat spikes may occur.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Stockholm, Sweden winter: typical highs 30\u201340\u00B0F and lows 20\u201330\u00B0F. Frost and light snow are common.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Stockholm, Sweden has mild, consistent seasons with few severe weather days; air quality is typically good, aligning with your climate goals.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Stockholm, Sweden offers a stable, high-income economy and strong public services. This supports reliable long-term plans for a growing family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Stockholm remains relatively stable: 2-3 major reforms this decade; skilled-visa revocations around 2-3%.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Stockholm, Sweden has very high political stability. This supports your family\u0027s long-term plans and a calm relocation with reliable services.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Stockholm, Sweden offers very low violent crime (\u003C200/100k) with reliable utilities and strong schools\u2014ideal for a family seeking stability.",
+      "alignmentValue": 10
+    }
+  ]
+}
