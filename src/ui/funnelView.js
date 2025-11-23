@@ -368,14 +368,19 @@ function getDropIndicator() {
   return dragState.indicator;
 }
 
-function formatThreshold({ keyId, minAlignment }) {
+function getThresholdParts({ keyId, minAlignment }) {
   const { label } = getKeyDisplay(keyId);
   const guide = getRatingGuideForKey(keyId);
   const numericMin = Number(minAlignment);
   const matchedGuide = guide.find(entry => entry.rating === numericMin);
   const guidanceText = matchedGuide?.guidance?.trim();
   const thresholdLabel = guidanceText || `${minAlignment}`;
-  return `${label} - ${thresholdLabel}`;
+  return { label, thresholdLabel };
+}
+
+function formatThreshold(condition) {
+  const { label, thresholdLabel } = getThresholdParts(condition);
+  return `${label}: ${thresholdLabel}`;
 }
 
 function formatFilterRuleText(filter) {
@@ -395,18 +400,38 @@ function buildFilterRuleContent(filter) {
   if (!filter) return fragment;
   const conditions = Array.isArray(filter.conditions) ? filter.conditions : [];
   conditions.forEach((condition, index) => {
+    const row = document.createElement('div');
+    row.className = 'funnel-filter-summary__row';
+
     if (index > 0) {
-      fragment.appendChild(document.createTextNode(' '));
       const join = document.createElement('span');
       join.className = 'funnel-filter-summary__join';
       join.textContent = condition?.join === 'or' ? 'OR' : 'AND';
-      fragment.appendChild(join);
-      fragment.appendChild(document.createTextNode(' '));
+      row.appendChild(join);
     }
+
+    const { label, thresholdLabel } = getThresholdParts(condition);
     const threshold = document.createElement('span');
     threshold.className = 'funnel-filter-summary__threshold';
-    threshold.textContent = formatThreshold(condition);
-    fragment.appendChild(threshold);
+
+    const keyLabel = document.createElement('span');
+    keyLabel.className = 'funnel-filter-summary__key';
+    keyLabel.textContent = label;
+
+    const delimiter = document.createElement('span');
+    delimiter.className = 'funnel-filter-summary__delimiter';
+    delimiter.textContent = ': ';
+
+    const valueLabel = document.createElement('span');
+    valueLabel.className = 'funnel-filter-summary__value';
+    valueLabel.textContent = thresholdLabel;
+
+    threshold.appendChild(keyLabel);
+    threshold.appendChild(delimiter);
+    threshold.appendChild(valueLabel);
+
+    row.appendChild(threshold);
+    fragment.appendChild(row);
   });
   return fragment;
 }
