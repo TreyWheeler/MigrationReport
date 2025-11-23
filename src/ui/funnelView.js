@@ -23,7 +23,6 @@ const funnelState = {
   form: null,
   conditionsContainer: null,
   conditionRows: [],
-  joinSelect: null,
   mainData: null,
   currentEditIndex: null,
   reportCache: new Map(),
@@ -61,7 +60,6 @@ function loadStoredFilters() {
   return raw
     .map(entry => {
       if (!entry || typeof entry !== 'object') return null;
-      const conjunction = entry?.conjunction === 'or' ? 'or' : 'and';
       const legacyKeyId = typeof entry.keyId === 'string' ? entry.keyId : String(entry.keyId || '');
       const legacyMin = Number(entry.minAlignment);
       const parsedConditions = Array.isArray(entry.conditions)
@@ -82,7 +80,7 @@ function loadStoredFilters() {
           ? [{ keyId: legacyKeyId, minAlignment: Number.isFinite(legacyMin) ? legacyMin : 0, join: 'and' }]
           : []);
       if (conditions.length === 0) return null;
-      return { conjunction, conditions };
+      return { conditions };
     })
     .filter(Boolean);
 }
@@ -554,11 +552,6 @@ function makeFilterSummary(filter) {
   const title = document.createElement('div');
   title.className = 'funnel-filter-summary__rule';
   title.textContent = formatFilterRuleText(filter);
-  const logic = document.createElement('span');
-  const conjunction = filter?.conjunction === 'or' ? 'or' : 'and';
-  logic.className = `funnel-filter-summary__logic funnel-filter-summary__logic--${conjunction}`;
-  logic.textContent = conjunction === 'or' ? 'OR' : 'AND';
-  container.appendChild(logic);
   container.appendChild(title);
   return container;
 }
@@ -841,9 +834,6 @@ function openFilterDialog({ editIndex = null } = {}) {
     ? existing.conditions
     : (existing?.keyId ? [{ keyId: existing.keyId, minAlignment: existing.minAlignment }] : []);
   buildConditionRows(conditions);
-  if (funnelState.joinSelect) {
-    funnelState.joinSelect.value = existing?.conjunction === 'or' ? 'or' : 'and';
-  }
   try {
     if (typeof funnelState.dialog.showModal === 'function') {
       funnelState.dialog.showModal();
@@ -876,11 +866,10 @@ function closeFilterDialog() {
 function handleDialogSubmit(event) {
   event.preventDefault();
   const conditions = collectConditionPayloads();
-  const conjunction = funnelState.joinSelect?.value === 'or' ? 'or' : 'and';
   if (conditions.length === 0) {
     return;
   }
-  const payload = { conditions, conjunction };
+  const payload = { conditions };
   if (typeof funnelState.currentEditIndex === 'number') {
     funnelState.filters.splice(funnelState.currentEditIndex, 1, payload);
   } else {
@@ -900,28 +889,12 @@ async function renderFunnel() {
   if (funnelState.filters.length === 0) {
     await Promise.all(allNodes.map(node => ensureReportEntry(node)));
   }
-  let activeSet = null;
+  let activeSet = new Set(allNodes);
   for (let i = 0; i < funnelState.filters.length; i += 1) {
     const filter = funnelState.filters[i];
-    const isOr = filter?.conjunction === 'or';
-    const baseline = activeSet === null
-      ? allNodes
-      : (isOr
-        ? allNodes.filter(node => !activeSet.has(node))
-        : Array.from(activeSet));
+    const baseline = Array.from(activeSet);
     const { excluded, included } = await evaluateFilter(baseline, filter);
-    if (activeSet === null) {
-      activeSet = new Set(included);
-    } else if (isOr) {
-      included.forEach(node => activeSet.add(node));
-    } else {
-      const allowed = new Set(included);
-      Array.from(activeSet).forEach(node => {
-        if (!allowed.has(node)) {
-          activeSet.delete(node);
-        }
-      });
-    }
+    activeSet = new Set(included);
     const includedList = Array.from(activeSet).sort(compareNodes);
     rows.appendChild(makeFilterRow(filter, i, excluded, includedList));
   }
@@ -964,7 +937,6 @@ function initFunnelView(mainData) {
   funnelState.dialog = document.getElementById('funnelFilterDialog');
   funnelState.form = document.getElementById('funnelFilterForm');
   funnelState.conditionsContainer = document.getElementById('funnelConditions');
-  funnelState.joinSelect = document.getElementById('funnelJoinSelect');
   funnelState.mainData = mainData;
   if (!funnelState.rowsContainer || !funnelState.dialog || !funnelState.form) return;
 
