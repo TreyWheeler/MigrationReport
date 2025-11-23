@@ -482,8 +482,26 @@
     .funnel-cell__muted { margin: 0; color: color-mix(in srgb, var(--md-color-on-surface) 70%, transparent); }
     .funnel-cell__controls { display: flex; flex-direction: column; gap: 8px; align-items: center; justify-content: center; text-align: center; }
     .funnel-cell__controls--center { align-items: center; justify-content: center; }
-    .funnel-filter-summary { display: flex; flex-direction: column; gap: 4px; align-items: center; }
-    .funnel-filter-summary__rule { font-weight: 600; color: var(--md-color-on-surface); }
+    .funnel-filter-summary { display: inline-flex; flex-direction: column; gap: 6px; align-items: flex-start; justify-content: center; }
+    .funnel-filter-summary__rule { display: flex; flex-direction: column; gap: 6px; font-weight: 600; color: var(--md-color-on-surface); }
+    .funnel-filter-summary__row { display: inline-flex; align-items: baseline; gap: 8px; }
+    .funnel-filter-summary__threshold { display: inline-flex; align-items: baseline; gap: 4px; color: var(--md-color-on-surface); font-weight: 500; }
+    .funnel-filter-summary__key { font-weight: 800; }
+    .funnel-filter-summary__delimiter { color: color-mix(in srgb, var(--md-color-on-surface) 80%, transparent); font-weight: 700; }
+    .funnel-filter-summary__value { font-weight: 500; }
+    .funnel-filter-summary__join { color: #15803d; font-weight: 800; letter-spacing: 0.03em; }
+    .funnel-filter-summary__logic { font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; padding: 3px 7px; border-radius: 999px; background: color-mix(in srgb, var(--md-color-outline) 24%, transparent); color: color-mix(in srgb, var(--md-color-on-surface) 72%, transparent); border: 1px solid color-mix(in srgb, var(--md-color-outline) 45%, transparent); }
+    .funnel-filter-summary__logic--or { background: color-mix(in srgb, var(--md-color-primary) 20%, transparent); border-color: color-mix(in srgb, var(--md-color-primary) 46%, transparent); color: color-mix(in srgb, var(--md-color-on-surface) 78%, transparent); }
+    .funnel-conditions { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+    .funnel-condition { display: grid; grid-template-columns: 70px 1fr; gap: 8px; align-items: center; }
+    .funnel-condition__join { display: flex; align-items: center; justify-content: center; }
+    .funnel-condition__join-label { font-weight: 700; color: color-mix(in srgb, var(--md-color-on-surface) 80%, transparent); }
+    .funnel-condition__join-select { padding: 8px 10px; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--md-color-outline) 65%, transparent); background: var(--md-color-surface); font-weight: 700; }
+    .funnel-condition__fields { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) auto; gap: 8px; align-items: center; }
+    .funnel-condition__select { width: 100%; padding: 10px 12px; border: 1px solid color-mix(in srgb, var(--md-color-outline) 65%, transparent); border-radius: 10px; background: var(--md-color-surface); color: var(--md-color-on-surface); }
+    .funnel-condition__remove { border: 1px solid color-mix(in srgb, #dc2626 35%, transparent); background: color-mix(in srgb, #dc2626 8%, var(--md-color-surface)); color: #7f1d1d; border-radius: 999px; padding: 8px 10px; cursor: pointer; }
+    .funnel-condition__remove:hover { transform: translateY(-1px); }
+    .funnel-conditions__add { align-self: flex-start; }
     .funnel-filter-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; }
     .funnel-drag-handle { border: 1px dashed color-mix(in srgb, var(--md-color-outline) 60%, transparent); background: color-mix(in srgb, var(--md-color-surface) 90%, transparent); color: color-mix(in srgb, var(--md-color-on-surface) 70%, transparent); padding: 6px 8px; border-radius: 10px; cursor: grab; font-size: 14px; transition: transform 0.15s ease, box-shadow 0.15s ease; }
     .funnel-drag-handle:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
@@ -1336,19 +1354,9 @@
   <dialog id="funnelFilterDialog" class="funnel-dialog" aria-labelledby="funnelDialogTitle" aria-describedby="funnelDialogDesc">
     <form id="funnelFilterForm" novalidate>
       <h3 id="funnelDialogTitle">Configure filter</h3>
-      <p id="funnelDialogDesc" class="funnel-view__hint">Choose a key and minimum alignment value to exclude reports below that threshold.</p>
-      <label>
-        Category
-        <select id="funnelCategorySelect"></select>
-      </label>
-      <label>
-        Key
-        <select id="funnelKeySelect" required></select>
-      </label>
-      <label>
-        Minimum alignment (rating guidance)
-        <select id="funnelMinSelect" name="minimum" required></select>
-      </label>
+      <p id="funnelDialogDesc" class="funnel-view__hint">Add one or more key and minimum alignment conditions that must be met for reports to remain in this filter.</p>
+      <div class="funnel-conditions" id="funnelConditions"></div>
+      <button type="button" class="pill-button funnel-conditions__add" id="funnelAddConditionBtn">Add condition</button>
       <div class="dialog-actions">
         <button type="button" class="pill-button" id="funnelCancelBtn">Cancel</button>
         <button type="submit" class="pill-button">Save filter</button>
