@@ -21,9 +21,8 @@ const funnelState = {
   rowsContainer: null,
   dialog: null,
   form: null,
-  categorySelect: null,
-  keySelect: null,
-  minSelect: null,
+  conditionsContainer: null,
+  conditionRows: [],
   joinSelect: null,
   mainData: null,
   currentEditIndex: null,
@@ -62,15 +61,28 @@ function loadStoredFilters() {
   return raw
     .map(entry => {
       if (!entry || typeof entry !== 'object') return null;
-      const keyId = typeof entry.keyId === 'string' ? entry.keyId : String(entry.keyId || '');
-      const minAlignment = Number(entry.minAlignment);
       const conjunction = entry?.conjunction === 'or' ? 'or' : 'and';
-      if (!keyId) return null;
-      return {
-        keyId,
-        minAlignment: Number.isFinite(minAlignment) ? minAlignment : 0,
-        conjunction,
-      };
+      const legacyKeyId = typeof entry.keyId === 'string' ? entry.keyId : String(entry.keyId || '');
+      const legacyMin = Number(entry.minAlignment);
+      const parsedConditions = Array.isArray(entry.conditions)
+        ? entry.conditions
+            .map(cond => {
+              const keyId = typeof cond?.keyId === 'string' ? cond.keyId : String(cond?.keyId || '');
+              const minAlignment = Number(cond?.minAlignment);
+              const join = cond?.join === 'or' ? 'or' : 'and';
+              const category = typeof cond?.category === 'string' ? cond.category : '';
+              if (!keyId || !Number.isFinite(minAlignment)) return null;
+              return { keyId, minAlignment, join, category };
+            })
+            .filter(Boolean)
+        : [];
+      const conditions = parsedConditions.length > 0
+        ? parsedConditions
+        : (legacyKeyId
+          ? [{ keyId: legacyKeyId, minAlignment: Number.isFinite(legacyMin) ? legacyMin : 0, join: 'and' }]
+          : []);
+      if (conditions.length === 0) return null;
+      return { conjunction, conditions };
     })
     .filter(Boolean);
 }
@@ -199,9 +211,16 @@ function activateReportSelection(node) {
   void onSelectionChanged(funnelState.mainData, notice);
 }
 
+function getPrimaryCondition(filter) {
+  if (!filter) return null;
+  const list = Array.isArray(filter.conditions) ? filter.conditions : [];
+  return list.length > 0 ? list[0] : null;
+}
+
 function handleFunnelReportActivate(node, filter) {
-  if (node?.type === 'city' && filter?.keyId) {
-    const meta = getKeyDisplay(filter.keyId);
+  const primary = getPrimaryCondition(filter);
+  if (node?.type === 'city' && primary?.keyId) {
+    const meta = getKeyDisplay(primary.keyId);
     appState.pendingKeyFocus = {
       keyId: meta.id,
       keyLabel: meta.label,
@@ -213,14 +232,14 @@ function handleFunnelReportActivate(node, filter) {
   activateReportSelection(node);
 }
 
-async function evaluateFilter(nodes, filter) {
-  const min = Number(filter?.minAlignment);
+async function evaluateCondition(nodes, condition) {
+  const min = Number(condition?.minAlignment);
   const threshold = Number.isFinite(min) ? min : 0;
   const withData = await Promise.all(nodes.map(async node => ({ node, entry: await ensureReportEntry(node) })));
   const excluded = [];
   const included = [];
   withData.forEach(({ node, entry }) => {
-    const valueEntry = findValueForKey(entry.data, filter.keyId);
+    const valueEntry = findValueForKey(entry.data, condition?.keyId);
     const numeric = Number(valueEntry?.alignmentValue);
     if (Number.isFinite(numeric) && numeric >= threshold) {
       included.push(node);
@@ -231,6 +250,38 @@ async function evaluateFilter(nodes, filter) {
   excluded.sort(compareNodes);
   included.sort(compareNodes);
   return { excluded, included };
+}
+
+async function evaluateFilter(nodes, filter) {
+  const conditions = Array.isArray(filter?.conditions) ? filter.conditions : [];
+  if (conditions.length === 0) {
+    return { excluded: nodes.slice().sort(compareNodes), included: [] };
+  }
+  let activeSet = null;
+  for (let i = 0; i < conditions.length; i += 1) {
+    const condition = conditions[i];
+    const join = condition?.join === 'or' ? 'or' : 'and';
+    const baseline = activeSet === null
+      ? nodes
+      : (join === 'or' ? nodes : Array.from(activeSet));
+    const { included } = await evaluateCondition(baseline, condition);
+    if (activeSet === null) {
+      activeSet = new Set(included);
+    } else if (join === 'or') {
+      included.forEach(node => activeSet.add(node));
+    } else {
+      const allowed = new Set(included);
+      Array.from(activeSet).forEach(node => {
+        if (!allowed.has(node)) {
+          activeSet.delete(node);
+        }
+      });
+    }
+  }
+  const includedList = Array.from(activeSet || []);
+  const excludedList = nodes.filter(node => !(activeSet?.has(node))).sort(compareNodes);
+  includedList.sort(compareNodes);
+  return { excluded: excludedList, included: includedList };
 }
 
 function makeReportPill(node, options = {}) {
@@ -319,15 +370,26 @@ function getDropIndicator() {
   return dragState.indicator;
 }
 
-function formatFilterRuleText(filter) {
-  if (!filter) return '';
-  const { label } = getKeyDisplay(filter.keyId);
-  const guide = getRatingGuideForKey(filter.keyId);
-  const numericMin = Number(filter.minAlignment);
+function formatThreshold({ keyId, minAlignment }) {
+  const { label } = getKeyDisplay(keyId);
+  const guide = getRatingGuideForKey(keyId);
+  const numericMin = Number(minAlignment);
   const matchedGuide = guide.find(entry => entry.rating === numericMin);
   const guidanceText = matchedGuide?.guidance?.trim();
-  const thresholdLabel = guidanceText || `${filter.minAlignment}`;
+  const thresholdLabel = guidanceText || `${minAlignment}`;
   return `${label} - ${thresholdLabel}`;
+}
+
+function formatFilterRuleText(filter) {
+  if (!filter) return '';
+  const conditions = Array.isArray(filter.conditions) ? filter.conditions : [];
+  if (conditions.length === 0) return '';
+  return conditions
+    .map((condition, index) => {
+      const joinLabel = index === 0 ? '' : `${condition?.join === 'or' ? 'OR' : 'AND'} `;
+      return `${joinLabel}${formatThreshold(condition)}`;
+    })
+    .join(' ');
 }
 
 function updateDropGhostContent() {
@@ -597,22 +659,28 @@ function makeAddRow(remaining) {
   return row;
 }
 
-function populateCategories() {
-  if (!funnelState.categorySelect) return;
+function populateCategories(selectEl, selectedCategory = '') {
+  if (!selectEl) return;
   const categories = Array.from(funnelState.keysByCategory.keys());
-  funnelState.categorySelect.innerHTML = '';
+  selectEl.innerHTML = '';
   categories.forEach(cat => {
     const opt = document.createElement('option');
     opt.value = cat;
     opt.textContent = cat;
-    funnelState.categorySelect.appendChild(opt);
+    selectEl.appendChild(opt);
   });
+  if (selectedCategory && categories.includes(selectedCategory)) {
+    selectEl.value = selectedCategory;
+  }
+  if (!selectEl.value && categories[0]) {
+    selectEl.value = categories[0];
+  }
 }
 
-function populateKeys(categoryName, selectedKeyId = '') {
-  if (!funnelState.keySelect) return;
+function populateKeys(categoryName, selectedKeyId = '', selectEl) {
+  if (!selectEl) return;
   const keys = funnelState.keysByCategory.get(categoryName) || [];
-  funnelState.keySelect.innerHTML = '';
+  selectEl.innerHTML = '';
   let matched = false;
   keys.forEach(key => {
     const opt = document.createElement('option');
@@ -622,7 +690,7 @@ function populateKeys(categoryName, selectedKeyId = '') {
       opt.selected = true;
       matched = true;
     }
-    funnelState.keySelect.appendChild(opt);
+    selectEl.appendChild(opt);
   });
   if (selectedKeyId && !matched) {
     const fallback = getKeyDisplay(selectedKeyId);
@@ -630,27 +698,27 @@ function populateKeys(categoryName, selectedKeyId = '') {
     opt.value = fallback.id;
     opt.textContent = fallback.label;
     opt.selected = true;
-    funnelState.keySelect.appendChild(opt);
+    selectEl.appendChild(opt);
   }
-  if (!funnelState.keySelect.value && keys[0]) {
-    funnelState.keySelect.value = keys[0].id;
+  if (!selectEl.value && keys[0]) {
+    selectEl.value = keys[0].id;
   }
 }
 
-function populateMinimumOptions(selectedValue = null) {
-  if (!funnelState.minSelect || !funnelState.keySelect) return;
-  const guide = getRatingGuideForKey(funnelState.keySelect.value);
+function populateMinimumOptions(keySelect, minSelect, selectedValue = null) {
+  if (!minSelect || !keySelect) return;
+  const guide = getRatingGuideForKey(keySelect.value);
   const options = guide.length > 0
     ? guide
     : Array.from({ length: 11 }, (_, i) => ({ rating: i, guidance: '' }));
-  funnelState.minSelect.innerHTML = '';
+  minSelect.innerHTML = '';
 
   options.forEach(entry => {
     const opt = document.createElement('option');
     opt.value = String(entry.rating);
     const label = entry.guidance ? `${entry.rating} – ${entry.guidance}` : String(entry.rating);
     opt.textContent = label;
-    funnelState.minSelect.appendChild(opt);
+    minSelect.appendChild(opt);
   });
 
   const numeric = Number(selectedValue);
@@ -660,15 +728,108 @@ function populateMinimumOptions(selectedValue = null) {
       const custom = document.createElement('option');
       custom.value = String(numeric);
       custom.textContent = String(numeric);
-      funnelState.minSelect.appendChild(custom);
+      minSelect.appendChild(custom);
     }
-    funnelState.minSelect.value = String(numeric);
+    minSelect.value = String(numeric);
   } else {
     const defaultValue = options.find(opt => opt.rating === 7)?.rating ?? options[options.length - 1]?.rating;
     if (typeof defaultValue !== 'undefined') {
-      funnelState.minSelect.value = String(defaultValue);
+      minSelect.value = String(defaultValue);
     }
   }
+}
+
+function buildConditionRow(condition = {}, index = 0) {
+  if (!funnelState.conditionsContainer) return null;
+  const row = document.createElement('div');
+  row.className = 'funnel-condition';
+
+  const joinWrap = document.createElement('div');
+  joinWrap.className = 'funnel-condition__join';
+  let joinSelect = null;
+  if (index === 0) {
+    const label = document.createElement('span');
+    label.textContent = 'Where';
+    label.className = 'funnel-condition__join-label';
+    joinWrap.appendChild(label);
+  } else {
+    joinSelect = document.createElement('select');
+    joinSelect.className = 'funnel-condition__join-select';
+    const andOpt = document.createElement('option');
+    andOpt.value = 'and';
+    andOpt.textContent = 'AND';
+    const orOpt = document.createElement('option');
+    orOpt.value = 'or';
+    orOpt.textContent = 'OR';
+    joinSelect.appendChild(andOpt);
+    joinSelect.appendChild(orOpt);
+    joinSelect.value = condition?.join === 'or' ? 'or' : 'and';
+    joinWrap.appendChild(joinSelect);
+  }
+
+  const fieldWrap = document.createElement('div');
+  fieldWrap.className = 'funnel-condition__fields';
+
+  const categorySelect = document.createElement('select');
+  categorySelect.className = 'funnel-condition__select';
+  const targetMeta = condition?.keyId ? getKeyDisplay(condition.keyId) : null;
+  const category = condition?.category || targetMeta?.category;
+  populateCategories(categorySelect, category);
+
+  const keySelect = document.createElement('select');
+  keySelect.className = 'funnel-condition__select';
+  populateKeys(categorySelect.value, condition?.keyId, keySelect);
+
+  const minSelect = document.createElement('select');
+  minSelect.className = 'funnel-condition__select';
+  populateMinimumOptions(keySelect, minSelect, condition?.minAlignment);
+
+  categorySelect.addEventListener('change', () => {
+    populateKeys(categorySelect.value, '', keySelect);
+    populateMinimumOptions(keySelect, minSelect);
+  });
+  keySelect.addEventListener('change', () => populateMinimumOptions(keySelect, minSelect));
+
+  const removeBtn = document.createElement('button');
+  removeBtn.type = 'button';
+  removeBtn.className = 'funnel-condition__remove';
+  removeBtn.setAttribute('aria-label', 'Remove condition');
+  removeBtn.textContent = '×';
+  removeBtn.addEventListener('click', () => {
+    const existingPayloads = collectConditionPayloads();
+    const filtered = existingPayloads.filter((_, idx) => idx !== index);
+    buildConditionRows(filtered);
+  });
+
+  fieldWrap.appendChild(categorySelect);
+  fieldWrap.appendChild(keySelect);
+  fieldWrap.appendChild(minSelect);
+  fieldWrap.appendChild(removeBtn);
+
+  row.appendChild(joinWrap);
+  row.appendChild(fieldWrap);
+  funnelState.conditionsContainer.appendChild(row);
+  funnelState.conditionRows.push({ row, categorySelect, keySelect, minSelect, joinSelect });
+  return row;
+}
+
+function buildConditionRows(conditions = []) {
+  if (!funnelState.conditionsContainer) return;
+  funnelState.conditionsContainer.innerHTML = '';
+  funnelState.conditionRows = [];
+  const source = conditions.length > 0 ? conditions : [{}];
+  source.forEach((condition, idx) => buildConditionRow(condition, idx));
+}
+
+function collectConditionPayloads() {
+  const payloads = funnelState.conditionRows.map((entry, index) => {
+    const keyId = entry.keySelect?.value || '';
+    const minAlignment = Number(entry.minSelect?.value);
+    const join = index === 0 ? 'and' : (entry.joinSelect?.value === 'or' ? 'or' : 'and');
+    const category = entry.categorySelect?.value || '';
+    return { keyId, minAlignment, join, category };
+  });
+  return payloads.filter(item => item.keyId && Number.isFinite(item.minAlignment));
 }
 
 function openFilterDialog({ editIndex = null } = {}) {
@@ -676,15 +837,10 @@ function openFilterDialog({ editIndex = null } = {}) {
   funnelState.currentEditIndex = (typeof editIndex === 'number') ? editIndex : null;
   const isEdit = funnelState.currentEditIndex !== null;
   const existing = isEdit ? funnelState.filters[funnelState.currentEditIndex] : null;
-  const targetKey = existing?.keyId;
-  const targetMeta = targetKey ? getKeyDisplay(targetKey) : null;
-  const category = targetMeta?.category || funnelState.categorySelect?.value;
-  populateCategories();
-  if (category) {
-    funnelState.categorySelect.value = category;
-  }
-  populateKeys(funnelState.categorySelect.value, targetKey);
-  populateMinimumOptions(existing ? existing.minAlignment : null);
+  const conditions = Array.isArray(existing?.conditions) && existing.conditions.length > 0
+    ? existing.conditions
+    : (existing?.keyId ? [{ keyId: existing.keyId, minAlignment: existing.minAlignment }] : []);
+  buildConditionRows(conditions);
   if (funnelState.joinSelect) {
     funnelState.joinSelect.value = existing?.conjunction === 'or' ? 'or' : 'and';
   }
@@ -704,6 +860,7 @@ function openFilterDialog({ editIndex = null } = {}) {
 function closeFilterDialog() {
   if (!funnelState.dialog) return;
   funnelState.form?.reset();
+  buildConditionRows();
   funnelState.currentEditIndex = null;
   try {
     if (typeof funnelState.dialog.close === 'function') {
@@ -718,14 +875,12 @@ function closeFilterDialog() {
 
 function handleDialogSubmit(event) {
   event.preventDefault();
-  if (!funnelState.keySelect || !funnelState.minSelect) return;
-  const keyId = funnelState.keySelect.value;
-  const minAlignment = Number(funnelState.minSelect.value);
+  const conditions = collectConditionPayloads();
   const conjunction = funnelState.joinSelect?.value === 'or' ? 'or' : 'and';
-  if (!keyId || !Number.isFinite(minAlignment)) {
+  if (conditions.length === 0) {
     return;
   }
-  const payload = { keyId, minAlignment, conjunction };
+  const payload = { conditions, conjunction };
   if (typeof funnelState.currentEditIndex === 'number') {
     funnelState.filters.splice(funnelState.currentEditIndex, 1, payload);
   } else {
@@ -783,15 +938,12 @@ function wireDragAndDrop() {
 function wireDialogControls() {
   if (!funnelState.form) return;
   funnelState.form.addEventListener('submit', handleDialogSubmit);
-  if (funnelState.categorySelect) {
-    funnelState.categorySelect.addEventListener('change', () => {
-      populateKeys(funnelState.categorySelect.value);
-      populateMinimumOptions();
-    });
-  }
-  if (funnelState.keySelect) {
-    funnelState.keySelect.addEventListener('change', () => {
-      populateMinimumOptions();
+  const addConditionBtn = document.getElementById('funnelAddConditionBtn');
+  if (addConditionBtn) {
+    addConditionBtn.addEventListener('click', () => {
+      const payloads = collectConditionPayloads();
+      payloads.push({ join: 'and' });
+      buildConditionRows(payloads);
     });
   }
   const cancelBtn = document.getElementById('funnelCancelBtn');
@@ -811,17 +963,13 @@ function initFunnelView(mainData) {
   funnelState.rowsContainer = document.getElementById('funnelRows');
   funnelState.dialog = document.getElementById('funnelFilterDialog');
   funnelState.form = document.getElementById('funnelFilterForm');
-  funnelState.categorySelect = document.getElementById('funnelCategorySelect');
-  funnelState.keySelect = document.getElementById('funnelKeySelect');
-  funnelState.minSelect = document.getElementById('funnelMinSelect');
+  funnelState.conditionsContainer = document.getElementById('funnelConditions');
   funnelState.joinSelect = document.getElementById('funnelJoinSelect');
   funnelState.mainData = mainData;
   if (!funnelState.rowsContainer || !funnelState.dialog || !funnelState.form) return;
 
   buildKeyIndex(mainData);
-  populateCategories();
-  populateKeys(funnelState.categorySelect.value);
-  populateMinimumOptions();
+  buildConditionRows();
   funnelState.filters = loadStoredFilters();
   wireDialogControls();
   wireDragAndDrop();
