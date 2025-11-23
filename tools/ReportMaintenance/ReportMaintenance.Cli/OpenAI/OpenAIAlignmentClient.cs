@@ -32,6 +32,20 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
     private readonly ILogger<OpenAIAlignmentClient> _logger;
     private readonly IAlignmentSuggestionCache _cache;
 
+    private sealed record RateLimitInfo(
+        string? RequestId,
+        string? RemainingRequests,
+        string? LimitRequests,
+        string? ResetRequests,
+        string? RemainingTokens,
+        string? LimitTokens,
+        string? ResetTokens)
+    {
+        public string ToLogSuffix() =>
+            $"Rate limits: req {RemainingRequests ?? "?"}/{LimitRequests ?? "?"} reset {ResetRequests ?? "?"}s; " +
+            $"tok {RemainingTokens ?? "?"}/{LimitTokens ?? "?"} reset {ResetTokens ?? "?"}s; request-id {RequestId ?? "n/a"}";
+    }
+
     public OpenAIAlignmentClient(HttpClient httpClient, IOptions<OpenAIOptions> options, ILogger<OpenAIAlignmentClient> logger, IAlignmentSuggestionCache cache)
     {
         _httpClient = httpClient;
@@ -104,13 +118,26 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
             {
                 using var response = await _httpClient.SendAsync(requestMessage, cancellationToken);
                 var body = await response.Content.ReadAsStringAsync(cancellationToken);
+                var rateLimits = ExtractRateLimitInfo(response);
                 activity?.SetTag("http.status_code", (int)response.StatusCode);
                 activity?.AddEvent(new ActivityEvent("http.response", tags: new ActivityTagsCollection
                 {
                     { "http.response.length", body?.Length ?? 0 }
                 }));
+                activity?.SetTag("openai.ratelimit.remaining_requests", rateLimits.RemainingRequests);
+                activity?.SetTag("openai.ratelimit.limit_requests", rateLimits.LimitRequests);
+                activity?.SetTag("openai.ratelimit.reset_requests", rateLimits.ResetRequests);
+                activity?.SetTag("openai.ratelimit.remaining_tokens", rateLimits.RemainingTokens);
+                activity?.SetTag("openai.ratelimit.limit_tokens", rateLimits.LimitTokens);
+                activity?.SetTag("openai.ratelimit.reset_tokens", rateLimits.ResetTokens);
+                activity?.SetTag("openai.request_id", rateLimits.RequestId);
 
-                _logger.LogInformation("OpenAI response for {Key} status {StatusCode} (len {Length})", entry.Key, (int)response.StatusCode, body?.Length ?? 0);
+                _logger.LogInformation(
+                    "OpenAI response for {Key} status {StatusCode} (len {Length}). {RateInfo}",
+                    entry.Key,
+                    (int)response.StatusCode,
+                    body?.Length ?? 0,
+                    rateLimits.ToLogSuffix());
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -137,14 +164,14 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
                 if (IsRetryable(response.StatusCode) && attempt < totalAttempts)
                 {
                     var delay = TimeSpan.FromSeconds(Math.Pow(2, attempt));
-                    _logger.LogWarning("OpenAI request for {Key} failed with status {StatusCode}. Retrying in {Delay}.", entry.Key, (int)response.StatusCode, delay);
+                    _logger.LogWarning("OpenAI request for {Key} failed with status {StatusCode}. Retrying in {Delay}. {RateInfo}", entry.Key, (int)response.StatusCode, delay, rateLimits.ToLogSuffix());
                     activity?.SetStatus(ActivityStatusCode.Error, $"Retrying due to status {(int)response.StatusCode}");
                     await Task.Delay(delay, cancellationToken);
                     continue;
                 }
 
                 activity?.SetStatus(ActivityStatusCode.Error, $"Request failed: {(int)response.StatusCode}");
-                throw new HttpRequestException($"OpenAI request failed: {response.StatusCode}");
+                throw new HttpRequestException($"OpenAI request failed: {response.StatusCode}. {rateLimits.ToLogSuffix()}");
             }
             catch (TaskCanceledException) when (attempt < totalAttempts && !cancellationToken.IsCancellationRequested)
             {
@@ -214,6 +241,22 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
         requestBody = JsonSerializer.Serialize(payload);
         message.Content = new StringContent(requestBody, Encoding.UTF8, "application/json");
         return message;
+    }
+
+    private static RateLimitInfo ExtractRateLimitInfo(HttpResponseMessage response)
+    {
+        string? Get(string name) =>
+            response.Headers.TryGetValues(name, out var values) ? values.FirstOrDefault() :
+            response.Content.Headers.TryGetValues(name, out var contentValues) ? contentValues.FirstOrDefault() : null;
+
+        return new RateLimitInfo(
+            RequestId: Get("x-request-id"),
+            RemainingRequests: Get("x-ratelimit-remaining-requests"),
+            LimitRequests: Get("x-ratelimit-limit-requests"),
+            ResetRequests: Get("x-ratelimit-reset-requests"),
+            RemainingTokens: Get("x-ratelimit-remaining-tokens"),
+            LimitTokens: Get("x-ratelimit-limit-tokens"),
+            ResetTokens: Get("x-ratelimit-reset-tokens"));
     }
 
     private static string BuildPrompt(ReportContext context, ReportEntry entry, CategoryKey? keyDefinition, ValueFormat format, string? validationFeedback)

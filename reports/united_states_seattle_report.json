@@ -61,23 +61,26 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Seattle, US: predictable, low-bureaucracy environment; under 10 hours/year for a small founder-friendly household.",
+      "alignmentText": "Seattle, US: low-bureaucracy vibe; under 10 hours/year for a small founder-friendly household in WA.",
       "alignmentValue": 10
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "USD 1,495,000.00",
-      "alignmentValue": 1
+      "alignmentText": "USD 1,396,666.67",
+      "alignmentValue": 2,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_corporate_tax_rate",
       "alignmentText": "21%",
-      "alignmentValue": 9
+      "alignmentValue": 9,
+      "sameAsParent": true
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Seattle, US: US passport holders; no entrepreneur visa needed; Seattle\u2019s startup ecosystem supports founders; foreign startup visa not applicable.",
-      "alignmentValue": 10
+      "alignmentText": "Seattle, US: US passport holders have no entrepreneur visa requirement; Seattle\u0027s startup scene supports founders with grants and programs.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
@@ -86,12 +89,12 @@
     },
     {
       "key": "daemon_games_feasible_game_grants",
-      "alignmentText": "- USD 256,000.00 ($256,000.00) \u2013 SBIR Phase I \u2013 Early-stage federal prototype funding well-suited for a small indie, enabling initial build of a narrative, premium PC/console game within a 0.5\u20135M budget.\n- USD 1,600,000.00 ($1,600,000.00) \u2013 SBIR Phase II \u2013 Larger follow-on development and pilot funding that aligns with a two-year development cycle for a story-driven title.\n- USD 100,000.00 ($100,000.00) \u2013 National Endowment for the Arts \u2013 Art Works (Media Arts) \u2013 Supports narrative-driven digital media for small teams, beneficial for partnerships and sponsorships in Seattle.\n- USD 1,000,000.00 ($1,000,000.00) \u2013 Economic Development Administration (EDA) Regional Innovation Strategies \u2013 Incubator/accelerator grants with cash and in-kind support, viable via Seattle regional partnerships.",
+      "alignmentText": "- USD 256,000.00 ($256,000.00) \u2013 SBIR Phase I \u2013 Early-stage federal prototype funding suitable for a small indie in Seattle seeking to build a narrative premium game within 0.5\u20135M budget.\n- USD 1,600,000.00 ($1,600,000.00) \u2013 SBIR Phase II \u2013 Larger follow-on development funding aligning with a 2-year dev cycle; viable to scale prototype into full title for premium PC/console.\n- USD 100,000.00 ($100,000.00) \u2013 National Endowment for the Arts \u2013 Art Works (Media Arts) \u2013 Supports narrative-driven digital media; helpful for partnerships and sponsorships in Seattle.\n- USD 1,000,000.00 ($1,000,000.00) \u2013 Economic Development Administration (EDA) Regional Innovation Strategies \u2013 Incubator/accelerator grants with cash and in-kind support; Seattle-region partnerships can leverage to house dev studio.",
       "sameAsParent": false
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "7",
+      "alignmentText": "6",
       "alignmentValue": 8
     },
     {
@@ -101,14 +104,14 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "USD 9,209,554.56",
+      "alignmentText": "USD 9,255,640.00",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "USD 2,217,135.00",
-      "alignmentValue": 5,
+      "alignmentText": "USD 3,040,710.00",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
@@ -118,38 +121,42 @@
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Seattle, WA has a thriving game-dev scene with frequent meetups and jams. A large online hub supports Trey and Sarah\u0027s ecosystem and funding needs.",
-      "alignmentValue": 10
-    },
-    {
-      "key": "daemon_games_yearly_office_space_cost",
-      "alignmentText": "USD 1,234.56",
+      "alignmentText": "Seattle, WA\u0027s vibrant game-dev scene offers frequent in-person meetups and jams plus a strong online hub, supporting Trey\u0027s funding and ecosystem needs.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "USD 1,234.56",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "Seattle, US: English ubiquity fits; adults expect minimal local-language use; most interactions are English.",
-      "alignmentValue": 10
+      "alignmentText": "Seattle, US: English ubiquity fits. Adults expect minimal local-language use; most interactions are English.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Seattle Public Schools offer bilingual/dual-language kindergarten options; strong support for your 5-year-old\u0027s language goals.",
+      "alignmentText": "Seattle Public Schools offer bilingual/dual-language kindergarten options in Seattle, WA; strong support for Anduin\u0027s language goals.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Seattle, USA: family of four; lease typically 5\u20136 weeks; deposits up to 2.5 months; guarantor common for households with kids.",
-      "alignmentValue": 7
+      "alignmentText": "Seattle, USA: for a family of four, plan 5-6 weeks to secure a lease. Deposits around 2.5 months; guarantor common for households with kids.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "Seattle, WA Immigration Status \u0026 Rights: For each family member, determine current status as Citizen, Lawful Permanent Resident (LPR), or valid non-immigrant and record any expiration dates or travel restrictions. With US passports on file for Trey, Sarah, Anduin, and Alasdair, confirm citizenship status for each child (likely US citizens by birth) to ensure uninterrupted eligibility for school, work, and state benefits. Rights by status: citizens have full work authorization, travel rights, and in-state tuition eligibility where applicable; LPRs have work authorization and a path to naturalization; non-immigrants have status tied to their visa. Gather key documents: passports, birth certificates, marriage certificates, visas, I-94s, and prior approvals; store securely in both digital and physical files. If naturalization (N-400) or adjustment of status (I-485) or family petitions (I-130) are pursued, consult a WA-licensed immigration attorney to tailor steps and timelines to minimize gaps. Apply for filings as needed, monitor status, and keep work authorization active if applicable. In Washington/Seattle, immigration status affects driving license eligibility, in-state tuition, and access to state benefits; coordinate with school/work calendars, renewal reminders, and travel plans to avoid gaps and ensure status aligns with deadlines."
+      "alignmentText": "Seattle, WA Immigration Status \u0026 Rights: Determine each family member\u2019s status as Citizen, Lawful Permanent Resident (LPR), or valid non-immigrant; note expiration dates and travel restrictions. With US passports on file for Trey, Sarah, Anduin, and Alasdair, confirm children\u2019s citizenship (likely birthright US citizens) to ensure uninterrupted school enrollment, work authorization, and access to state benefits. Gather documents: passports, birth certificates, visas, I-94s, prior approvals; store securely in digital and physical files. If naturalization (N-400), adjustment of status (I-485), or family petitions (I-130) are pursued, consult a WA-licensed immigration attorney to tailor steps and timelines. Apply for filings as needed, monitor status, and, if applicable, keep work authorization active for adults. In Washington, status affects driving license eligibility, in-state tuition, and state benefits; align with school/work calendars, renewal reminders, and travel plans to prevent gaps and meet deadlines.",
+      "sameAsParent": false
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Seattle\u0027s tech and research scene remains welcoming to skilled immigrants; strong schools and family services support newcomers.",
+      "alignmentText": "Seattle\u0027s strong tech scene and family services support skilled immigrants; accessible visas and grants aid settlement.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -214,26 +221,26 @@
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Seattle, WA filings largely online with modest queues; for this family, 1-2 hours per month of compliance tasks, with occasional morning in-person visits.",
+      "alignmentText": "Seattle, WA: filings largely online with modest queues; for this family, 1-2 hours per month of compliance tasks.",
       "alignmentValue": 8,
       "sameAsParent": true
     },
     {
       "key": "life_daycare_accessibility",
-      "alignmentText": "Seattle, WA: daycare wait times for a 1-year-old are typically 3-4 months; waitlists update weekly.",
+      "alignmentText": "Seattle, WA: daycare slots for a 1-year-old are typically 3-4 months; waitlists update weekly.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_citizen",
-      "alignmentText": "USD 450.00",
-      "alignmentValue": 6,
+      "alignmentText": "USD 900.00",
+      "alignmentValue": 1,
       "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_non_resident",
-      "alignmentText": "USD 1,300.00",
-      "alignmentValue": 3,
+      "alignmentText": "USD 1,500.00",
+      "alignmentValue": 2,
       "sameAsParent": false
     },
     {
@@ -250,34 +257,36 @@
     },
     {
       "key": "life_healthcare_affordability_citizen",
-      "alignmentText": "USD 1,234.56",
-      "alignmentValue": 1,
-      "sameAsParent": false
+      "alignmentText": "USD 1,150.00",
+      "alignmentValue": 2
     },
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "USD 2,150.00",
-      "alignmentValue": 4
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
       "alignmentText": "USD 1,100.00",
-      "alignmentValue": 7
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "Seattle, WA/US: health coverage remains tied to employment; WA ACA marketplace and COBRA provide backups for a founder with two kids.",
+      "alignmentText": "Seattle, WA/US: health coverage remains employment-tied; WA ACA marketplace and COBRA offer backups for a founder with two kids.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "life_hours_worked_per_year",
       "alignmentText": "1900",
-      "alignmentValue": 7
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "life_public_transportation",
-      "alignmentText": "Seattle\u0027s transit is family-friendly with Link light Rail and frequent buses; many neighborhoods lie within 500m of service.",
+      "alignmentText": "Seattle\u0027s transit is family-friendly with Link light Rail and frequent buses; about 70-79% live within 500 m of service with 10-min headways for >=16 hours.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -391,12 +400,12 @@
     },
     {
       "key": "stability_autocratization_trend",
-      "alignmentText": "US autocratization index sits around 0.12 over the last 10–20 years, indicating mild backsliding but institutions remain resilient.",
+      "alignmentText": "US autocratization index sits around 0.12 over the last 10\u201320 years, indicating mild backsliding but institutions remain resilient.",
       "alignmentValue": 7
     },
     {
       "key": "stability_wealth_inequality_level",
-      "alignmentText": "National Gini inequality ~41 (post-tax, OECD/World Bank), reflecting high wealth and income dispersion despite Seattle’s strong labor market.",
+      "alignmentText": "National Gini inequality ~41 (post-tax, OECD/World Bank), reflecting high wealth and income dispersion despite Seattle\u2019s strong labor market.",
       "alignmentValue": 6
     },
     {
@@ -415,18 +424,91 @@
     },
     {
       "key": "integration_immigration_timeline_entrepreneur",
-      "alignmentText": "US passport holders in Seattle can start businesses without a visa hurdle; Entrepreneur visa timeline not applicable for this family.",
-      "alignmentValue": 1
+      "alignmentText": "Seattle, WA: US passport holders can start a business with no entrepreneur visa hurdle; no visa delays for this family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "integration_immigration_timeline_without_recognized_sponsor",
-      "alignmentText": "Seattle/US context: non-sponsored visa paths typically 13\u201316 weeks end-to-end; plan for paperwork, checks, and possible delays.",
+      "alignmentText": "Seattle/US: non-sponsored visa timelines are typically 13\u201316 weeks end-to-end; with US citizenship this path may not apply.",
       "alignmentValue": 5
     },
     {
       "key": "integration_immigration_timeline_with_recognized_sponsor",
-      "alignmentText": "Seattle-area sponsor pathways could finish a work visa in about 7\u20138 weeks end-to-end. This suits first-time applicants in a tech-rich city.",
+      "alignmentText": "Seattle, US: sponsor work-visa routes take 7-8 weeks; for this US-citizen family, visa isn\u0027t required.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Seattle has a strong game/creative-tech scene: PAX West plus frequent local meetups; about 8-9 relevant events per year.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Seattle\u0027s robust game-dev scene offers a strong freelance roster across art, animation, audio, and narrative for local and near-remote work.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Seattle has several game-friendly accelerators (Techstars Seattle, UW CoMotion, Microsoft for Startups) offering mentorship and funding for indie studios.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Seattle, USA indie scene is strong with multiple small studios, regular game jams, and active meetups; solid co-working spaces and local funding options.",
       "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Seattle\u0027s strong game/tech ecosystem includes UW partnerships, studios, coworking spaces, and funding programs. It suits a founder-family focused on grants and collaboration.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Seattle has a strong game dev scene with Microsoft, Bungie, and Valve nearby, plus regular local publisher access and bizdev events.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Seattle (WA, USA) to GDC in San Francisco is about 4-6 hours door-to-door, making major game events easily accessible.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games offers Seattle a tangible path to strengthen its tech and creative economy by creating skilled software/game development roles, engaging with local studios, and leveraging cloud/AI platforms to spur innovation. The project aligns with Washington state priorities around high-tech job growth, workforce training, and culturally rich digital content, while supporting inclusive talent pipelines and remote/hybrid work to attract diverse talent. Opportunities exist for partnerships with universities, local accelerators, and grant programs to accelerate job creation, R\u0026D, and community outreach in Seattle\u0027s innovation ecosystem."
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "US citizen status; Seattle\u0027s family-friendly tech scene and schools fit your timeline; no additional years needed for citizenship.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Seattle, USA offers a strong tech/startup path; with employer or startup routes, plan on about 4-5 years to permanent residency if requirements are met.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Seattle, WA: federal Child Tax Credit ~$166 per child per month for middle-income families; ~$332 per month for two kids.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Seattle, WA: most core services (DMV, taxes, healthcare, school enrollment) are online; visa appointments still require in-person visits (about 70-79% online).",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Seattle, WA offers 12 weeks per parent of paid leave (WA PFML) with ~70-90% income and job protections - good for your two-child family.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Seattle, WA: dual-income family with a startup. Tax filing/record-keeping is ~25\u201335 hours/year; may use an accountant.",
+      "alignmentValue": 4
     }
   ]
 }

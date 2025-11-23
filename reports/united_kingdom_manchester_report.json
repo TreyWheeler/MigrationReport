@@ -399,16 +399,97 @@
       "alignmentValue": 5
     },
     {
-      "key": "stability_autocratization_trend"
+      "key": "stability_autocratization_trend",
+      "alignmentText": "UK shows mild autocratization risk. Manchester remains stable with strong rights, but Brexit-era polarization hints at backsliding.",
+      "alignmentValue": 9
     },
     {
-      "key": "stability_dominant_political_narratives"
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "UK-wide political narratives focus on cost-of-living pressures, NHS funding, housing affordability, energy prices, immigration policy, and climate/Net-Zero transitions; Brexit\u0027s economic and trade impacts persist in discourse. In Manchester, emphasis is on levelling up and regional investment, affordable housing, better transport links, and support for the local tech/startup ecosystem."
     },
     {
-      "key": "stability_media_freedom"
+      "key": "stability_media_freedom",
+      "alignmentText": "UK press freedom is high (roughly 70-79 percentile); in Manchester you will find diverse outlets, though ownership concentration exists.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
-      "key": "stability_wealth_inequality_level"
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Manchester, UK: moderate inequality (Gini ~32\u201334); NHS healthcare and family-friendly policies align with your priorities and social stability.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Manchester, UK hosts about 3 game/dev events yearly - good for demos and local networking near the family.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Manchester, UK has a solid freelance game talent pool (local grads, studios) with good near-remote access; depth isn\u0027t as rich as London\u0027s game scene.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Manchester, UK offers few game-focused incubators; mostly general accelerators and remote options for indie devs.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Manchester\u0027s indie scene is growing: studios, jams, and meetups; solid networking and funding paths, though not as dense as London.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Manchester has strong university ties (U Manchester, MMU, Salford), culture venues, and coworking/tech hubs - great partners for game studios.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Manchester, UK has a growing indie-dev scene with regional meetups; no major publisher hubs, but local events and grants offer workable access.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Manchester, UK has good door-to-door access to European events (Gamescom) in about 6-8 hours. US events such as GDC are longer.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Establishing a Manchester-based Daemon Games studio will create high-skill local roles in software, cloud, and creative production, contribute to the region\u0027s digital economy and cultural output, and leverage UK incentives (R\u0026D tax relief, skilled visas, regional grants) in line with levelling-up priorities; recommended visa narrative highlights 30-50 software/engineer roles plus 10-20 creative roles over 2-3 years, university partnerships for internships/tech transfer, and local supplier engagement to maximize regional impact."
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Manchester, UK generally yields citizenship in about 6 years (5-year residence with ILR). You typically apply after that ILR year.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "ILR in the UK usually 5\u20136 years via skilled worker or entrepreneur routes; in Manchester plan for a 5\u20136 year path with sponsorship.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Manchester, UK: typical per-child Child Benefit for a middle-income family is about $90-120/month. This supports a life_child_benefit_generosity rating of 5.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Manchester, UK has strong digital government. Most core services can be done online, but visa biometrics still require in-person visits.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Manchester, UK: Shared Parental Leave provides up to 37 weeks per parent with job protection. Early weeks at 90% pay, later weeks capped at the statutory rate.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Manchester, GB: dual US-UK tax filing may require ~30 hours/yr; cross-border filings; consider professional help.",
+      "alignmentValue": 4
     }
   ]
 }

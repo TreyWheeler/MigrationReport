@@ -114,14 +114,18 @@ startPrefixOption.AddAlias("--StartPrefix");
 startPrefixOption.AddAlias("-StartPrefix");
 startPrefixOption.AddAlias("-s");
 
+var missingOnlyOption = new Option<bool>(name: "--missing-only", getDefaultValue: () => false, description: "Only backfill entries that are missing alignment text/value.");
+missingOnlyOption.AddAlias("--MissingOnly");
+
 updateReportsCommand.AddOption(categoryOption);
 updateReportsCommand.AddOption(startPrefixOption);
-updateReportsCommand.SetHandler(async (string? category, string? startPrefix) =>
+updateReportsCommand.AddOption(missingOnlyOption);
+updateReportsCommand.SetHandler(async (string? category, string? startPrefix, bool missingOnly) =>
 {
     using var scope = host.Services.CreateScope();
     var service = scope.ServiceProvider.GetRequiredService<ReportUpdateService>();
-    await service.UpdateAllReportsAsync(category, startPrefix);
-}, categoryOption, startPrefixOption);
+    await service.UpdateAllReportsAsync(category, startPrefix, missingOnly);
+}, categoryOption, startPrefixOption, missingOnlyOption);
 
 var reportOption = new Option<string>(name: "--report", description: "Report file name without extension (e.g., canada_report).");
 reportOption.AddAlias("--Report");
@@ -131,12 +135,23 @@ reportOption.IsRequired = true;
 var updateReportCommand = new Command("UpdateReport", "Update a single report JSON file using OpenAI suggestions.");
 updateReportCommand.AddOption(reportOption);
 updateReportCommand.AddOption(categoryOption);
-updateReportCommand.SetHandler(async (string reportName, string? category) =>
+updateReportCommand.AddOption(missingOnlyOption);
+updateReportCommand.SetHandler(async (string reportName, string? category, bool missingOnly) =>
 {
     using var scope = host.Services.CreateScope();
     var service = scope.ServiceProvider.GetRequiredService<ReportUpdateService>();
-    await service.UpdateReportAsync(reportName, category);
-}, reportOption, categoryOption);
+    await service.UpdateReportAsync(reportName, category, missingOnly);
+}, reportOption, categoryOption, missingOnlyOption);
+
+var backfillMissingCommand = new Command("BackfillMissing", "Backfill only entries with missing alignment text/value across reports.");
+backfillMissingCommand.AddOption(categoryOption);
+backfillMissingCommand.AddOption(startPrefixOption);
+backfillMissingCommand.SetHandler(async (string? category, string? startPrefix) =>
+{
+    using var scope = host.Services.CreateScope();
+    var service = scope.ServiceProvider.GetRequiredService<ReportUpdateService>();
+    await service.UpdateAllReportsAsync(category, startPrefix, onlyMissingData: true);
+}, categoryOption, startPrefixOption);
 
 var addCountryCommand = new Command("AddCountry", "Create a new country report JSON file with empty entries.");
 var countryNameOption = new Option<string>(name: "--country", description: "Country name used for the report slug and title.")
@@ -289,6 +304,7 @@ addCategoryKeyCommand.SetHandler(async (string category, string keyLabel, string
 
 rootCommand.AddCommand(updateReportsCommand);
 rootCommand.AddCommand(updateReportCommand);
+rootCommand.AddCommand(backfillMissingCommand);
 rootCommand.AddCommand(addCountryCommand);
 rootCommand.AddCommand(addCityCommand);
 rootCommand.AddCommand(addCategoryCommand);

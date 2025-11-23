@@ -59,13 +59,13 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Austin, TX: no state income tax and digital filings simplify taxes for a family business; hire a part-time bookkeeper (\u003C20h/year).",
+      "alignmentText": "Austin, TX: no state income tax and digital filings ease taxes for a family business; hire a part-time bookkeeper (\u003C20h/year).",
       "alignmentValue": 9
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "USD 1,050,000.00",
-      "alignmentValue": 4,
+      "alignmentText": "USD 1,347,916.67",
+      "alignmentValue": 2,
       "sameAsParent": false
     },
     {
@@ -76,14 +76,14 @@
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "In Austin, TX, US, families can access local startup grants. As US citizens, no visa is needed and the ecosystem is supportive.",
+      "alignmentText": "US citizens in Austin have no visa; strong startup grants and a supportive ecosystem fit the family\u0027s entrepreneurship plans.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
-      "alignmentText": "35%",
-      "alignmentValue": 4
+      "alignmentText": "27%",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_feasible_game_grants",
@@ -92,8 +92,8 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "4",
-      "alignmentValue": 6
+      "alignmentText": "3",
+      "alignmentValue": 5
     },
     {
       "key": "daemon_games_number_of_aa_studios",
@@ -102,32 +102,30 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "USD 9,103,644.00",
+      "alignmentText": "USD 9,167,160.00",
       "alignmentValue": 7
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "USD 2,690,661.00",
-      "alignmentValue": 6,
+      "alignmentText": "USD 2,910,992.00",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "USD 53,328,223.20",
+      "alignmentText": "USD 53,744,569.00",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Austin, TX, United States: vibrant game-dev scene with 4\u002B in-person meetups monthly and a robust online hub; supports Trey\u0027s funding access.",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "Austin, TX, United States: vibrant game-dev scene with 4\u002B in-person meetups monthly; robust online hub; supports Trey\u0027s funding access.",
+      "alignmentValue": 10
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
       "alignmentText": "USD 24,000.00",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentValue": 10
     },
     {
       "key": "integration_adult_language_expectations",
@@ -405,13 +403,21 @@
       "alignmentValue": 1
     },
     {
-      "key": "stability_anti_immigrant_political_rhetoric"
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Austin, TX, USA, anti-immigrant rhetoric is prominent in national politics, shaping policy debates and local immigrant communities.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
-      "key": "stability_autocratization_trend"
+      "key": "stability_autocratization_trend",
+      "alignmentText": "US autocratization: mild backsliding over 10-20 years; Austin aligns with the national trend while valuing civil liberties.",
+      "alignmentValue": 8,
+      "sameAsParent": true
     },
     {
-      "key": "stability_dominant_political_narratives"
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "National political discourse centers on crime and public safety, immigration policy, economic volatility (inflation and wages), healthcare access, climate action, and polarized debates over democracy and social values; in the Austin area these narratives intersect with rapid growth, housing affordability challenges, a tech-driven economy, and progressive priorities on inclusion and climate resilience.",
+      "sameAsParent": false
     },
     {
       "key": "stability_media_freedom",
@@ -419,7 +425,83 @@
       "alignmentValue": 9
     },
     {
-      "key": "stability_wealth_inequality_level"
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "US wealth inequality is mid-high (Gini around 42-45); in Austin this medium inequality supports diverse tech jobs and demand for inclusive policies.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Austin, TX hosts SXSW and RTX plus frequent dev meetups; about 8\u20139 relevant events/year for Daemon Games.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Austin, TX has a strong freelance game talent pool across art, animation, audio, and narrative. Near-remote options support Trey\u0027s startup and family needs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Austin, TX offers several game-friendly accelerators (Capital Factory, Techstars Austin) with mentorship, space, and funding paths for indie studios.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Indie scene in Austin, TX is growing with meetups, game jams, and local studios; active and supportive for developers, though not as dense as coasts.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Austin offers strong game-dev partnerships: UT Austin, Capital Factory, and local studios. It has robust ties to universities and coworking spaces.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Austin hosts Blizzard\u0027s campus and a lively indie scene. Local publishers and bizdev contacts are reasonably accessible via events and visits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Austin, TX to GDC (San Francisco): door-to-door ~5-6 hours; strong access to major global game events.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Establish a permanent Daemon Games studio in Austin to create high-quality jobs in software and creative roles (gaming, cloud, art, QA), anchor collaboration with local universities (UT Austin, ACC) for internships and research, and deliver culturally resonant titles that align with Austin\u0027s innovation and creative economy. This supports local growth in tech talent, unlocks access to state incentives and grants, and leverages Austin\u0027s ecosystem (founders, accelerators, a diverse, inclusive workforce) while enabling remote/hybrid options to widen the talent pool."
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Austin, TX: expect about 4.1-5 years from permanent residency to U.S. citizenship; plan accordingly.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "US citizen; no permanent-residency timeline needed in Austin, TX.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Austin, TX, USA: federal Child Tax Credit \u2248$2,000/child/year (\u2248$167/mo) suits this middle-income, two-child family.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Austin, US: about 60% of core services online end-to-end; DMV and international visa steps still require in-person visits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Austin, USA offers limited paid parental leave; expect 1-3 weeks per parent (often 0-2) with FMLA job protection, not 70-100% pay.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In Austin, TX, a two-income US family typically spends 6-8 hours/year on federal tax filing; no state return needed in Texas.",
+      "alignmentValue": 8
     }
   ]
 }

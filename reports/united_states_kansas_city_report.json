@@ -59,13 +59,13 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "KC, MO, US: federal/state filings with occasional in-person steps; founder family keeps taxes predictable with a part-time accountant in Kansas City.",
+      "alignmentText": "KC, MO, US: federal/state filings with occasional in-person steps; founder family relies on a KC-area part-time accountant for predictable taxes.",
       "alignmentValue": 7
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "USD 1,205,416.67",
-      "alignmentValue": 3
+      "alignmentText": "USD 1,127,666.67",
+      "alignmentValue": 4
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -75,7 +75,7 @@
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "US citizen founders in Kansas City, MO: no entrepreneur visa needed; leverage KC grants and the local game-dev ecosystem.",
+      "alignmentText": "US citizen founders in Kansas City, MO: no entrepreneur visa required; leverage KC grants and the local game-dev ecosystem.",
       "alignmentValue": 10,
       "sameAsParent": true
     },
@@ -86,7 +86,7 @@
     },
     {
       "key": "daemon_games_feasible_game_grants",
-      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "alignmentText": "- USD 500,000.00 ($500,000.00) \u2013 Epic MegaGrants \u2013 Global program that funds Unreal Engine\u2013based indie games, offering cash support suitable for a 1.5M, narrative-driven title with self-publishing on Steam/consoles. \n- USD 60,000.00 ($60,000.00) \u2013 National Endowment for the Arts Art Works \u2013 Media Arts \u2013 Supports innovative digital storytelling and game-like media projects; accessible to small studios with MO incorporation under national guidelines. \n- USD 150,000.00 ($150,000.00) \u2013 SBIR/STTR Federal R\u0026D Grants \u2013 Federal competitive grants for game-related tech R\u0026D (engine/tools/AI) that can apply to a small team developing new tech for premium narrative games.",
       "sameAsParent": false
     },
     {
@@ -101,30 +101,31 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "USD 9,389,446.25",
+      "alignmentText": "USD 9,464,990.00",
       "alignmentValue": 7
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "USD 2,549,225.00",
+      "alignmentText": "USD 2,528,000.00",
       "alignmentValue": 6,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "USD 53,751,995.00",
-      "alignmentValue": 7
-    },
-    {
-      "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Kansas City, USA has a modest indie game scene with quarterly events and a 100-149 online hub. Founder-friendly, supporting early game startups.",
-      "alignmentValue": 5,
+      "alignmentText": "USD 53,731,850.00",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Kansas City, USA has a modest indie game scene with quarterly in-person events. A 100-149 online hub supports early founders.",
+      "alignmentValue": 5,
+      "sameAsParent": true
+    },
+    {
       "key": "daemon_games_yearly_office_space_cost",
-      "alignmentText": "USD 1,234.56",
-      "alignmentValue": 10,
+      "alignmentText": "USD 50,000.00",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
@@ -430,6 +431,79 @@
       "key": "stability_wealth_inequality_level",
       "alignmentText": "US wealth inequality is high (Gini \u003E=60); Kansas City offers family-friendly, affordable neighborhoods, but gaps persist.",
       "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "KC, MO, USA has a modest but growing game/dev scene: PixelPop KC, indie meetups, and occasional game jams\u2014enough for demos and networking opportunities.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Kansas City, MO offers a growing indie game scene with local freelancers; solid for artists/sound/narrative, but depth is moderate.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Kansas City, MO has one game-friendly startup program (LaunchKC) plus general accelerators. No large cluster of dedicated game incubators.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "KC\u0027s indie scene is growing: several studios, regular jams and meetups, plus coworking spaces; decent for a founder-family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Kansas City has a solid game-dev partner scene: local universities, tech orgs, and coworking spaces collaborate on events and funding.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Limited direct publisher access in Kansas City, but a growing indie dev scene and regional events offer occasional BizDev contacts.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Kansas City, door-to-door to GDC SF is ~6\u20138 hours; a realistic travel option for this Midwest US family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Position Daemon Games as a Kansas City-region innovation anchor by highlighting high-skill software and creative roles, partnerships with local higher education (e.g., UMKC), and ongoing cloud/game development work. Emphasize job creation, local talent development, and cultural output through regional game projects; leverage Missouri/KC incentives and grants, plus broadband and infrastructure improvements, to support scalable growth. Promote remote/hybrid pathways to attract national and international talent while aligning with KC\u0027s and Missouri\u0027s priorities for diverse, resilient tech and creative industries."
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Already a US citizen in Kansas City, MO; no years to citizenship required.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "US citizen with a Kansas City, MO base; no permanent-residency timeline needed.",
+      "alignmentValue": 0,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "US federal Child Tax Credit yields ~$333/month per child; Kansas City, MO households see mid-range support.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "KC, MO: ~60% core services online end-to-end. Taxes and school enrollment are largely online; licenses and visa steps still need in-person visits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "In the U.S. (Kansas City), paid parental leave is rare; expect 0 weeks paid with job protection uncertain, especially for startups.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In Kansas City, MO, USA, a dual-income family with a founder role can expect roughly 13-18 hours/year for tax filing and record-keeping.",
+      "alignmentValue": 6
     }
   ]
 }

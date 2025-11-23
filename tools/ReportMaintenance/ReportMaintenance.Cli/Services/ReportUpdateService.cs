@@ -42,7 +42,7 @@ public sealed class ReportUpdateService
         _options = options.Value;
     }
 
-    public async Task UpdateAllReportsAsync(string? category = null, string? startPrefix = null, CancellationToken cancellationToken = default)
+    public async Task UpdateAllReportsAsync(string? category = null, string? startPrefix = null, bool onlyMissingData = false, CancellationToken cancellationToken = default)
     {
         category = NormalizeSelector(category);
         startPrefix = NormalizeSelector(startPrefix);
@@ -81,7 +81,7 @@ public sealed class ReportUpdateService
                 await throttler.WaitAsync(cancellationToken).ConfigureAwait(false);
                 try
                 {
-                    await UpdateReportAsync(reportName!, category, cancellationToken).ConfigureAwait(false);
+                    await UpdateReportAsync(reportName!, category, onlyMissingData, cancellationToken).ConfigureAwait(false);
                     var done = Interlocked.Increment(ref completed);
                     _logger.LogInformation("Progress {Done}/{Total}: {ReportName} updated.", done, reportNames.Count, reportName);
                 }
@@ -94,7 +94,7 @@ public sealed class ReportUpdateService
         await Task.WhenAll(tasks).ConfigureAwait(false);
     }
 
-    public async Task UpdateReportsAsync(IEnumerable<string> reportNames, string? category = null, CancellationToken cancellationToken = default)
+    public async Task UpdateReportsAsync(IEnumerable<string> reportNames, string? category = null, bool onlyMissingData = false, CancellationToken cancellationToken = default)
     {
         if (reportNames is null)
         {
@@ -124,7 +124,7 @@ public sealed class ReportUpdateService
             await throttler.WaitAsync(cancellationToken).ConfigureAwait(false);
             try
             {
-                await UpdateReportAsync(reportName, category, cancellationToken).ConfigureAwait(false);
+                await UpdateReportAsync(reportName, category, onlyMissingData, cancellationToken).ConfigureAwait(false);
                 var done = Interlocked.Increment(ref completed);
                 _logger.LogInformation("Progress {Done}/{Total}: {ReportName} updated.", done, normalizedNames.Length, reportName);
             }
@@ -137,7 +137,7 @@ public sealed class ReportUpdateService
         await Task.WhenAll(tasks).ConfigureAwait(false);
     }
 
-    public async Task UpdateReportAsync(string reportName, string? category = null, CancellationToken cancellationToken = default)
+    public async Task UpdateReportAsync(string reportName, string? category = null, bool onlyMissingData = false, CancellationToken cancellationToken = default)
     {
         category = NormalizeSelector(category);
 
@@ -178,6 +178,19 @@ public sealed class ReportUpdateService
             }
 
             var entries = candidates.ToList();
+
+            if (onlyMissingData)
+            {
+                entries = entries
+                    .Where(entry => ShouldUpdateMissing(entry, context))
+                    .ToList();
+
+                if (entries.Count == 0)
+                {
+                    _logger.LogInformation("No missing data to backfill for report {ReportName}.", reportName);
+                    return;
+                }
+            }
 
             if (entries.Count == 0)
             {
@@ -287,6 +300,15 @@ public sealed class ReportUpdateService
         }
 
         _logger.LogInformation("Added {Count} missing entries to report {ReportName}.", missingKeys.Count, reportName);
+    }
+
+    private static bool ShouldUpdateMissing(ReportEntry entry, ReportContext context)
+    {
+        var keyDefinition = context.GetKeyDefinition(entry.Key);
+        var informational = keyDefinition?.Informational == true;
+        var textMissing = string.IsNullOrWhiteSpace(entry.AlignmentText);
+        var valueMissing = entry.AlignmentValue is null && !informational;
+        return textMissing || valueMissing;
     }
 
     private static string? NormalizeSelector(string? value) =>

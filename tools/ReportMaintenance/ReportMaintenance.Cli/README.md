@@ -20,6 +20,8 @@ Core commands
 -------------
 - Update every report:
   `DOTNET_ENVIRONMENT=Development dotnet run --project tools/ReportMaintenance/ReportMaintenance.Cli -- UpdateReports`
+- Backfill only missing entries (all reports):
+  `DOTNET_ENVIRONMENT=Development dotnet run --project tools/ReportMaintenance/ReportMaintenance.Cli -- BackfillMissing`
 - Update a single report (omit `.json`):
   `DOTNET_ENVIRONMENT=Development dotnet run --project tools/ReportMaintenance/ReportMaintenance.Cli -- UpdateReport -Report united_states_report`
 - Restrict updates to a category or key:

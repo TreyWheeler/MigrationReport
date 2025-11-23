@@ -395,7 +395,10 @@
       "alignmentValue": 8
     },
     {
-      "key": "stability_anti_immigrant_political_rhetoric"
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Sweden shows notable anti-immigrant rhetoric led by the Sweden Democrats (~20% vote share); it\u0027s salient but not the dominant national narrative.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "stability_autocratization_trend",
@@ -404,15 +407,92 @@
       "sameAsParent": false
     },
     {
-      "key": "stability_dominant_political_narratives"
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Sweden\u0027s national discourse centers on immigration/integration, crime and public safety, welfare-state sustainability and tax policy, climate and energy transition, and continued EU/NATO alignment, with emphasis on balancing openness with social cohesion and regional economic resilience.",
+      "sameAsParent": false
     },
     {
-      "key": "stability_media_freedom"
+      "key": "stability_media_freedom",
+      "alignmentText": "Sweden (SE) has top press freedom (RSF top 10%), with independent media and low interference\u2014well aligned with your family\u0027s values.",
+      "alignmentValue": 10
     },
     {
       "key": "stability_wealth_inequality_level",
       "alignmentText": "Sweden\u0027s wealth inequality around 28 on a 0-100 scale; aligns with Sweden\u0027s strong social safety nets, healthcare, and family-friendly policies for expats.",
       "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Stockholm, Sweden hosts several game/dev events annually (meetups, showcases, hackathons), enabling regular demos and pitches.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Sweden\u0027s Stockholm and Gothenburg host a robust freelance game talent pool across art, animation, and audio. English-friendly, EU-wide access.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Sweden has several game-friendly accelerators for indie studios (Stugan, Minc Malm\u00F6). About 3 local programs exist.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Sweden\u0027s indie scene is active in Stockholm and Gothenburg, with studios, jams, and co-working hubs; solid networks and public grants support devs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Sweden has a strong game ecosystem: universities, studios, and coworking spaces collaborate on funding and events. Stockholm leads, with broad support.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Stockholm, Sweden offers a dense game-dev hub with majors (Paradox, King, Mojang, Unity) and frequent meetups, boosting local BizDev access for the family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "In Sweden, access to Nordic Game (Malm\u00F6) is typically 4\u20136 hours door-to-door from major cities, via rail or short flight.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games would establish a Sweden-based studio, creating high-skill jobs in game development and cloud, boosting local tech talent and cultural output. The project aligns with Sweden\u0027s priorities for innovation, digital economy, and cultural industries; it can leverage Swedish startup grants and visa schemes, and offers opportunities to partner with universities and industry clusters for R\u0026D. Recommend targeted visa facilitation, incentives for local hiring and hybrid work, and a commitment to inclusive, English-friendly operations to maximize community impact and long-term sustainability."
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Sweden (SE), citizenship typically requires about 5 years of continuous residence. Your family aligns with the standard path.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Sweden typically grants permanent residency after ~4 years of legal residence for skilled workers/entrepreneurs; target 3.1-4 years.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Sweden\u0027s flat barnbidrag is about SEK 1,250 per child monthly ($110-$120). That puts this family in the mid-range of generosity for SE.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "9: Sweden\u0027s core e-services are mostly online (tax, school enrollment, healthcare); some visa/biometrics still require in-person visits.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Sweden offers ~18 months per child with ~80% pay and two-parent quotas; highly generous and family-friendly for your plan.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "SE: Sweden\u0027s pre-filled returns keep tax filing to 6-8 hours/year for a dual-income family; US cross-border filing may add a few hours.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     }
   ]
 }

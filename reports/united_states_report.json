@@ -61,12 +61,13 @@
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
       "alignmentText": "In Kansas City, MO, payroll/taxes are manageable with a part-time accountant for a founder-led family business.",
-      "alignmentValue": 7
+      "alignmentValue": 8
     },
     {
       "key": "daemon_games_burn_rate",
       "alignmentText": "USD 1,244,666.67",
-      "alignmentValue": 3
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -75,7 +76,7 @@
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Kansas City, MO, US: US citizens; founder visa not required. Leverage KC startup grants and US programs for fast entrepreneurship.",
+      "alignmentText": "Kansas City, MO, US: US citizens; no entrepreneurship visa needed. Leverage KC grants and US programs for fast entrepreneurship.",
       "alignmentValue": 10
     },
     {
@@ -95,8 +96,8 @@
     },
     {
       "key": "daemon_games_number_of_aa_studios",
-      "alignmentText": "4",
-      "alignmentValue": 4
+      "alignmentText": "120",
+      "alignmentValue": 10
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
@@ -105,22 +106,22 @@
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "USD 2,607,000.00",
+      "alignmentText": "USD 2,671,701.00",
       "alignmentValue": 6
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "USD 53,765,820.00",
+      "alignmentText": "USD 53,549,636.50",
       "alignmentValue": 7
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Kansas City, MO, USA has about one in-person game-dev meetup per month; online group of 250\u2013399 members aligns with the family\u0027s game-dev interests.",
+      "alignmentText": "Kansas City, MO has ~1 in-person game-dev meetup per month plus an online 250-399 member group; aligns with the family\u0027s game-dev interests.",
       "alignmentValue": 7
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
-      "alignmentText": "USD 30,000.00",
+      "alignmentText": "USD 1,234.56",
       "alignmentValue": 9
     },
     {
@@ -420,6 +421,78 @@
       "key": "stability_wealth_inequality_level",
       "alignmentText": "Wealth inequality in the US is high (Gini ~70\u002B); Kansas City, MO shows pronounced asset gaps, affecting mobility and security.",
       "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Kansas City, MO, USA has a modest game/creative-tech scene with about 4 events per year, suitable for Daemon Games to show builds and network in a family-friendly Midwest setting.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Kansas City has a growing indie game scene with accessible remote freelancers; local talent is present but depth varies.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Kansas City, MO has limited game-focused incubators. Only a couple local programs support indie devs with mentorship or space.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Indie game scene in Kansas City is growing but modest. Local jams and small studios exist, but it\u0027s not as dense as coastal hubs.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Kansas City, MO has a moderate partner ecosystem: UMKC/Rockhurst, coworking hubs, and local game-dev meetups with funding options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Moderate access: Kansas City has regional publisher meetups and indie devs; majors usually require travel to Chicago or coasts.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "KC, MO has about 6-7 hours door-to-door to GDC SF (flight \u002B transfers). Strong fit for attending major game events from the US.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games plans to establish a US-based development and digital media hub that directly creates skilled local jobs in Unity/.NET and cloud tooling, with a target of 20-40 roles over 2-3 years (engineers, artists, designers, QA, and support) in Kansas City metro or a comparable tech corridor. The narrative emphasizes partnerships with regional universities for internships/co-ops, access to grants and state/federal incentives for R\u0026D and digital media production, and a clear path for local supplier ecosystems and wage tax contributions. The company will pursue remote/hybrid work to accommodate entrepreneurship while maintaining a strong local presence, and will prioritize inclusive hiring, language access, and community engagement (game jams, STEM outreach) to strengthen cultural output and local innovation. To support talent pipelines and immigration processes, Daemon Games will work with local authorities on visa pathways for skilled tech positions and streamlined onboarding for essential roles.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Kansas City, MO, naturalization typically requires about 5 years of permanent residency; marriage to a citizen could shorten to ~3 years.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Projected 5\u20136 years to permanent residency via US entrepreneur paths; Kansas City offers grants and a supportive founder ecosystem.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "US (KC, MO): typical middle-income child benefit is ~$160/child/month (~$320/mo for two) via tax credits.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "KC, MO: roughly 75% of core resident services are online end-to-end. Taxes, healthcare enrollment, and school enrollment are online; some DMV steps still require in-person visits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "US (Kansas City, MO): no paid parental leave; FMLA offers up to 12 weeks of job-protected unpaid leave.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Kansas City, US: a dual-income family typically spends 13-18 hours/year filing taxes. Self-employment adds some complexity.",
+      "alignmentValue": 6
     }
   ]
 }

@@ -60,13 +60,14 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "San Francisco, US: two-adult startup; CA/state filings and local licenses; quarterly filings with a bookkeeper; 20\u201329 hours/yr.",
+      "alignmentText": "San Francisco, US: two-adult startup; CA/state\u002Blocal licenses; quarterly bookkeeper filings; ~20\u201329 hours/yr.",
       "alignmentValue": 8
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "USD 1,468,666.67",
-      "alignmentValue": 1
+      "alignmentText": "USD 1,258,333.34",
+      "alignmentValue": 2,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -75,7 +76,7 @@
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "SF, USA: This US citizen family has no entrepreneur visa need; foreign founders route exists with \u2265$75k, incubator backing, 4-6 months.",
+      "alignmentText": "SF, USA: US citizen family; no entrepreneur visa needed. SF Bay Area startup scene has incubators and grants for founders.",
       "alignmentValue": 0
     },
     {
@@ -85,7 +86,7 @@
     },
     {
       "key": "daemon_games_feasible_game_grants",
-      "alignmentText": "- USD 150,000.00 ($150,000.00) \u2013 California Competes Tax Credit \u2013 Early-stage CA-incorporated studio can leverage tax credits tied to job creation; plan to apply during 0\u20133 year ramp-up as you establish CA HQ and hire core staff.\n- USD 60,000.00 ($60,000.00) \u2013 California Arts Council \u2013 Media Arts Grants \u2013 Supports narrative-driven digital media projects (including premium games) with public-benefit aspects; eligibility favors creative studios with clear artistic merit; applies to foreign founders who incorporate locally.\n- USD 50,000.00 ($50,000.00) \u2013 San Francisco Office of Economic and Workforce Development \u2013 Small Business Grants / Creative Economy Micro-Grants \u2013 Micro-grants for SF-based startups to prototype, market, and grow; requires SF address and CA incorporation; ideal for prototyping and early marketing.",
+      "alignmentText": "- USD 150,000.00 ($150,000.00) \u2013 California Competes Tax Credit \u2013 Early-stage CA-incorporated studio can leverage tax credits tied to job creation; plan to apply during 0\u20133 year ramp-up as you establish CA HQ and hire core staff.\n- USD 60,000.00 ($60,000.00) \u2013 California Arts Council \u2013 Media Arts Grants \u2013 Supports narrative-driven digital media projects (including premium games) with public-benefit aspects; eligibility favors creative studios with clear artistic merit; applies to foreign founders who incorporate locally.\n- USD 50,000.00 ($50,000.00) \u2013 San Francisco Office of Economic and Workforce Development \u2013 Small Business Grants / Creative Economy Micro-Grants \u2013 Micro-grants for SF-based startups to prototype, market, and grow; requires SF address and CA incorporation; ideal for prototyping and early marketing.\n- USD 75,000.00 ($75,000.00) \u2013 National Endowment for the Arts \u2013 Media Arts Grants \u2013 Supports narrative-driven digital media projects with artistic merit; competitive grants open to CA-incorporated studios that include foreign founders; suitable for additional development milestones.",
       "sameAsParent": false
     },
     {
@@ -100,24 +101,24 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "USD 8,757,248.75",
+      "alignmentText": "USD 8,797,420.25",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "USD 2,067,499.52",
-      "alignmentValue": 5
+      "alignmentText": "USD 2,479,336.00",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "USD 52,479,636.80",
-      "alignmentValue": 6,
+      "alignmentText": "USD 48,470,400.00",
+      "alignmentValue": 5,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "San Francisco, USA has a vibrant game-dev scene with frequent in-person events and strong startup support for Trey\u0027s venture.",
+      "alignmentText": "San Francisco, USA offers a vibrant game-dev scene with frequent in-person events and strong startup support for Trey\u0027s venture.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
@@ -400,10 +401,15 @@
       "alignmentValue": 1
     },
     {
-      "key": "stability_anti_immigrant_political_rhetoric"
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "San Francisco, US: national anti-immigrant rhetoric remains quite salient. Locally, SF emphasizes inclusivity and accessible immigration paths for families.",
+      "alignmentValue": 2,
+      "sameAsParent": false
     },
     {
-      "key": "stability_autocratization_trend"
+      "key": "stability_autocratization_trend",
+      "alignmentText": "San Francisco, USA shows a mild autocratization trend (index ~0.12\u20130.15) over 10\u201320 years; democratic norms remain functional for families.",
+      "alignmentValue": 7
     },
     {
       "key": "stability_dominant_political_narratives",
@@ -411,13 +417,88 @@
       "sameAsParent": false
     },
     {
-      "key": "stability_media_freedom"
+      "key": "stability_media_freedom",
+      "alignmentText": "US press freedom ranks solidly; in San Francisco it\u0027s diverse and independent, with occasional national-security access concerns.",
+      "alignmentValue": 8
     },
     {
       "key": "stability_wealth_inequality_level",
       "alignmentText": "US wealth inequality sits in the low-40s on the Gini, matching your progressive, family-focused goals in San Francisco. SF\u0027s tech scene supports your needs.",
       "alignmentValue": 6,
       "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "San Francisco hosts 8-9 relevant game/dev events annually (GDC SF, IndieCade, meetups). This supports Daemon\u0027s show, networking, and pitches.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "San Francisco Bay Area offers a deep freelance game talent pool (art/animation/audio/narrative) with strong near-remote options for Trey\u0027s startup.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "San Francisco has several game-friendly accelerators and startup programs offering mentorship and space; solid fit for Daemon Games.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "San Francisco area indie scene is dense: many studios, frequent jams, and active meetups (IGDA SF, Game Dev nights).",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Strong SF Bay Area partner depth. Universities, cultural institutions, coworking spaces, and game-industry networks are active here.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Strong publisher access in San Francisco; Bay Area offices and regular industry visits boost bizdev chances for game founders.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Excellent access: in San Francisco, GDC and other major game events are reachable door-to-door, often 1\u20132 hours with airport transfers.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "San Francisco alignment: Daemon Games would anchor a Bay Area studio focused on high-skill roles in game development, software engineering, and cloud tooling, creating direct jobs for software professionals and indirect value through local vendors and partnerships. The project advances innovation, digital culture output, and a globally competitive tech ecosystem, aligning with San Francisco priorities on entrepreneurship, university collaboration, and diverse immigration. Action steps for authorities include facilitating visa pathways for specialized tech and media talent, connecting Daemon with local universities and accelerators to build talent pipelines, offering targeted incentives for job creation in tech and creative sectors, and streamlining permits and access to broadband and infrastructure to support flexible work models.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Already US citizens; no years needed for citizenship. In San Francisco, you have full rights and a family-friendly, tech-focused environment.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "San Francisco, US: you already hold US citizenship; no years-to-PR path to track.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Federal Child Tax Credit yields about $166/month per child in SF; modest, reasonable for this middle-income family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "San Francisco, CA has high digital government maturity; roughly 80-89% of core services (registration, taxes, healthcare, school enrollment) online end-to-end.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "In San Francisco, CA, California provides up to 8 weeks of paid family leave at ~60-70% income. Job protection adds up to 12 weeks via FMLA/CFRA.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Moderate tax filing effort in San Francisco, CA for a dual-income family with side gigs; about 19-24 hours/year.",
+      "alignmentValue": 5
     }
   ]
 }

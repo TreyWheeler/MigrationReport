@@ -3151,6 +3151,321 @@
             ]
         },
         {
+            "key": "daemon_games_indie_scene_strength",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Indie scene index 90-100: dense studios, weekly jams, active hubs."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Indie scene index 80-89."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Indie scene index 70-79."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Indie scene index 60-69."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Indie scene index 50-59."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Indie scene index 40-49."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Indie scene index 30-39."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Indie scene index 20-29."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Indie scene index 10-19."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Indie scene index <10: sparse activity."
+                }
+            ]
+        },
+        {
+            "key": "daemon_games_game_incubators_and_accelerators",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=8 relevant incubator/accelerator programs."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "6-7 programs."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "5 programs."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "4 programs."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "3 programs."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "2 programs."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "1 program."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Only regional/general incubators; no game focus."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Remote-only options; none local."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No incubators/accelerators applicable."
+                }
+            ]
+        },
+        {
+            "key": "daemon_games_freelance_game_talent_availability",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Freelance talent index 90-100: deep roster across art/animation/audio/narrative."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Freelance talent index 80-89."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Freelance talent index 70-79."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Freelance talent index 60-69."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Freelance talent index 50-59."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Freelance talent index 40-49."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Freelance talent index 30-39."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Freelance talent index 20-29."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Freelance talent index 10-19."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Freelance talent index <10: hard to source locally/near-remote."
+                }
+            ]
+        },
+        {
+            "key": "daemon_games_local_publisher_and_bizdev_access",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Publisher access index 90-100: local offices plus regular visits from majors."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Publisher access index 80-89."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Publisher access index 70-79."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Publisher access index 60-69."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Publisher access index 50-59."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Publisher access index 40-49."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Publisher access index 30-39."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Publisher access index 20-29."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Publisher access index 10-19."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Publisher access index <10: rare contact opportunities."
+                }
+            ]
+        },
+        {
+            "key": "daemon_games_festival_and_event_presence",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=12 relevant events per year in/near city."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "10-11 events per year."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "8-9 events per year."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "6-7 events per year."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "5 events per year."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "4 events per year."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "3 events per year."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "2 events per year."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "1 event per year."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No meaningful local events."
+                }
+            ]
+        },
+        {
+            "key": "daemon_games_travel_access_to_major_game_events",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "<=4 hours door-to-door to a major global games event."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "4.1-6 hours door-to-door."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "6.1-8 hours door-to-door."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "8.1-10 hours door-to-door."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "10.1-12 hours door-to-door."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "12.1-14 hours door-to-door."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "14.1-16 hours door-to-door."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "16.1-20 hours door-to-door."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "20.1-24 hours door-to-door."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">24 hours door-to-door."
+                }
+            ]
+        },
+        {
+            "key": "daemon_games_local_partner_ecosystem_depth",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Partner depth index 90-100: abundant universities/cultural/tech partners actively collaborating."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Partner depth index 80-89."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Partner depth index 70-79."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Partner depth index 60-69."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Partner depth index 50-59."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Partner depth index 40-49."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Partner depth index 30-39."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Partner depth index 20-29."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Partner depth index 10-19."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Partner depth index <10: minimal partner ecosystem."
+                }
+            ]
+        },
+        {
             "key": "life_digital_government_maturity",
             "ratingGuide": [
                 {

@@ -100,30 +100,29 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "USD 8,969,446.56",
+      "alignmentText": "USD 9,090,688.00",
       "alignmentValue": 7
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "USD 2,405,945.00",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "alignmentText": "USD 2,358,150.00",
+      "alignmentValue": 5
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "USD 52,448,100.00",
-      "alignmentValue": 6
+      "alignmentText": "USD 53,389,385.00",
+      "alignmentValue": 7
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Los Angeles, USA has a vibrant game-dev scene with frequent meetups, jams, and a large online community\u2014great for Trey\u0027s founder goals.",
+      "alignmentText": "Los Angeles, USA has a vibrant game-dev scene with frequent in-person events, jams, and a large, active community, ideal for Trey\u0027s founder goals.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
-      "alignmentText": "USD 1,234.56",
-      "alignmentValue": 5,
+      "alignmentText": "USD 30,000.00",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -417,7 +416,9 @@
       "alignmentValue": 6
     },
     {
-      "key": "stability_dominant_political_narratives"
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "National discourse centers on crime/public safety, immigration, economic inequality, climate action, healthcare/education, and tech regulation. In Los Angeles, key local themes are housing affordability and homelessness, transit and urban governance, climate resilience, immigrant integration, and safeguarding civil liberties while pursuing policing reform. Actionable takeaway: highlight practical safety measures with civil-liberties protections; accelerate housing production and homelessness relief; invest in climate-resilient infrastructure and transit; support immigrant communities; streamline permits and small-business grants; maintain transparent, nonpartisan communication to reduce polarization.",
+      "sameAsParent": false
     },
     {
       "key": "stability_media_freedom",
@@ -429,6 +430,78 @@
       "alignmentText": "Los Angeles, US, has high wealth inequality; this affects housing and opportunity. The family may prefer places with more equal wealth distribution.",
       "alignmentValue": 1,
       "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Los Angeles has a dense game/creative-tech scene (IndieCade, LA meetups) with frequent demo/pitch opportunities for Daemon Games.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Los Angeles, USA has a deep freelance game talent pool across art/animation/audio/narrative. Strong near-remote hiring options support your team.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Los Angeles, CA has several game-friendly incubators/accelerators (roughly 6\u20137) offering mentors, space, and funding for indie studios.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "LA\u0027s indie scene is vibrant with dense studios, regular jams, and active hubs\u2014great for game dev startups and grant access.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Los Angeles has a deep game partner ecosystem with USC/UCLA, studios, and coworking hubs for funding and events.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Los Angeles has major game publishers with active local offices. BizDev access through regular meetups and events is strong in SoCal.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Los Angeles offers 5-6 hour door-to-door access to major game events (GDC SF), including airport transfers; well-suited for a US family planning travel.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Frame Daemon Games as a Los Angeles\u2013based catalyst for local tech-creative jobs and IP output. Highlight concrete plans to hire and train local game/software professionals (R\u0026D, design, QA, art) within 2\u20133 years; pursue LA-area university/studio partnerships to build a talent pipeline and IP collaborations; leverage California incentives and federal visa pathways for founders and skilled workers; ensure partnerships with local cloud providers for reliable broadband and latency; commit to inclusive hiring aligned with LA\u2019s diverse workforce."
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "US citizen living in Los Angeles; no extra residency years needed for citizenship.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Los Angeles, US: you already hold US citizenship; permanent residency is secured, no waiting period.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Estimated US child tax credit in LA is about $167 per child per month; mid-range support for two kids.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Los Angeles, US: life_digital_government_maturity ~6 (50-59% online). DMV and visa appointments still require in-person steps.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "LA/CA: 12 weeks job-protected FMLA \u002B 8 weeks Paid Family Leave at ~60-70% wage; ~20 weeks total per parent.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Los Angeles, CA: dual-income family with a founder; about 25-35 hours/year for federal/state returns and filings.",
+      "alignmentValue": 4
     }
   ]
 }

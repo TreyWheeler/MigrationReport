@@ -116,7 +116,7 @@ public sealed class CategoryKeyCreationService
 
         if (updatedReports.Count > 0)
         {
-            await _reportUpdateService.UpdateReportsAsync(updatedReports, keyId, cancellationToken).ConfigureAwait(false);
+            await _reportUpdateService.UpdateReportsAsync(updatedReports, keyId, cancellationToken: cancellationToken).ConfigureAwait(false);
         }
         else
         {
