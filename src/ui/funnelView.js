@@ -390,6 +390,27 @@ function formatFilterRuleText(filter) {
     .join(' ');
 }
 
+function buildFilterRuleContent(filter) {
+  const fragment = document.createDocumentFragment();
+  if (!filter) return fragment;
+  const conditions = Array.isArray(filter.conditions) ? filter.conditions : [];
+  conditions.forEach((condition, index) => {
+    if (index > 0) {
+      fragment.appendChild(document.createTextNode(' '));
+      const join = document.createElement('span');
+      join.className = 'funnel-filter-summary__join';
+      join.textContent = condition?.join === 'or' ? 'OR' : 'AND';
+      fragment.appendChild(join);
+      fragment.appendChild(document.createTextNode(' '));
+    }
+    const threshold = document.createElement('span');
+    threshold.className = 'funnel-filter-summary__threshold';
+    threshold.textContent = formatThreshold(condition);
+    fragment.appendChild(threshold);
+  });
+  return fragment;
+}
+
 function updateDropGhostContent() {
   const indicator = getDropIndicator();
   const cells = indicator.querySelectorAll('.funnel-drop-ghost__cell');
@@ -551,7 +572,12 @@ function makeFilterSummary(filter) {
   container.className = 'funnel-filter-summary';
   const title = document.createElement('div');
   title.className = 'funnel-filter-summary__rule';
-  title.textContent = formatFilterRuleText(filter);
+  const content = buildFilterRuleContent(filter);
+  if (content.childNodes.length > 0) {
+    title.appendChild(content);
+  } else {
+    title.textContent = formatFilterRuleText(filter);
+  }
   container.appendChild(title);
   return container;
 }
