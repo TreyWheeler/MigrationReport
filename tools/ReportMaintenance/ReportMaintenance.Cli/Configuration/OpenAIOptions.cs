@@ -12,5 +12,5 @@ public sealed class OpenAIOptions
 
     public int MaxRetryCount { get; set; } = 3;
 
-    public int RequestTimeoutSeconds { get; set; } = 180;
+    public int RequestTimeoutSeconds { get; set; } = 600;
 }

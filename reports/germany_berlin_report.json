@@ -4,20 +4,21 @@
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "EUR 3,200.00 ($3,520.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
       "alignmentText": "EUR 2,800.00 ($3,080.00)",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
-      "key": "cost_of_living_family_150m2_on_city_edge",
-      "alignmentText": "EUR 2,500.00 ($2,750.00)",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "EUR 2,800.00 ($3,080.00)",
-      "alignmentValue": 9
+      "alignmentText": "EUR 2,900.00 ($3,190.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
@@ -66,9 +67,8 @@
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "EUR 997,916.67 ($1,097,708.33)",
-      "alignmentValue": 4,
-      "sameAsParent": false
+      "alignmentText": "EUR 936,800.00 ($1,029,543.20)",
+      "alignmentValue": 5
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -76,18 +76,8 @@
       "alignmentValue": 3
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "50%",
-      "alignmentValue": 7
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Berlin, Germany: a self-employed visa can work for a game studio; with a solid plan and funds, expect 3-4 months (biometrics/in-person checks).",
+      "alignmentText": "Berlin, Germany: self-employed visa for game studios; solid plan \u002B funds; expect ~3-4 months (biometrics/in-person checks).",
       "alignmentValue": 7
     },
     {
@@ -112,9 +102,8 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "EUR 8,579,142.00 ($9,438,000.00)",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentText": "EUR 8,162,894.00 ($8,815,926.00)",
+      "alignmentValue": 7
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
@@ -124,8 +113,8 @@
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "EUR 43,834,239.25 ($48,217,181.00)",
-      "alignmentValue": 5,
+      "alignmentText": "EUR 46,945,500.00 ($51,027,716.37)",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
@@ -135,30 +124,30 @@
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
-      "alignmentText": "EUR 45,000.00 ($49,500.00)",
-      "alignmentValue": 7
-    },
-    {
-      "key": "integration_adult_language_expectations",
-      "alignmentText": "Berlin, DE: about 20-30% of interactions require German. Many government/banking forms have English options, and daily-life English support is common.",
-      "alignmentValue": 8,
+      "alignmentText": "EUR 60,000.00 ($66,000.00)",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Berlin, DE: about 20-30% of interactions require German; daily life and official forms have English options, and the family is open to learning German.",
+      "alignmentValue": 7
+    },
+    {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Berlin public schools offer limited bilingual options. Most English dual-language tracks begin after grade 5.",
-      "alignmentValue": 4
+      "alignmentText": "Berlin has few bilingual seats in public schools; English tracks start around Grade 5\u20136. For your 5-year-old, consider kindergartens or bilingual Kita.",
+      "alignmentValue": 4,
+      "sameAsParent": true
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Berlin housing: expect 6-8 weeks to lease with a 3 months\u0027 deposit. In-person viewings are common, and foreigners may need a guarantor.",
+      "alignmentText": "Berlin housing for a family (2 adults, 2 kids): expect 6-8 weeks to lease with a 3 months deposit. In-person viewings common; foreigners may need a guarantor.",
       "alignmentValue": 6
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Berlin, Germany: EU Blue Card route for skilled workers; organized docs with a qualifying offer. Expect 4-6 months, possibly with an interview.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentText": "Berlin, Germany: EU Blue Card for IT/tech with qualifying offer; organized docs. End-to-end ~4-6 months; interview possible.",
+      "alignmentValue": 4
     },
     {
       "key": "integration_immigration_status_rights",
@@ -167,7 +156,7 @@
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Berlin provides strong skilled-immigrant pathways (Blue Card) with a thriving tech scene; positive overall, though some bureaucracy exists.",
+      "alignmentText": "Berlin offers strong Blue Card pathways and a thriving tech scene. Some bureaucracy exists, but English-friendly services support families.",
       "alignmentValue": 8
     },
     {
@@ -178,8 +167,9 @@
     },
     {
       "key": "kids_education_quality",
-      "alignmentText": "Berlin\u0027s primary/secondary schools offer solid public education with bilingual options; PISA sits around the 60-69th percentile.",
-      "alignmentValue": 7
+      "alignmentText": "Berlin\u0027s public schools offer solid education with bilingual options; PISA sits around the 60-69th percentile, matching the family\u0027s emphasis on quality schooling.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "kids_food_quality",
@@ -257,8 +247,9 @@
     },
     {
       "key": "life_healthcare_affordability_citizen",
-      "alignmentText": "EUR 850.00 ($935.00)",
-      "alignmentValue": 5
+      "alignmentText": "EUR 400.00 ($440.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_non_resident",
@@ -274,7 +265,7 @@
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "Germany\u0027s universal health system ensures continuous coverage when you change jobs; in Berlin, leaving employment rarely affects baseline care.",
+      "alignmentText": "Berlin\u0027s universal public health system provides coverage regardless of job status; families stay insured even when employment changes.",
       "alignmentValue": 10
     },
     {
@@ -289,13 +280,14 @@
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "Berlin public universities offer near-free tuition and broad program access, matching your family\u0027s affordability and college accessibility goals.",
+      "alignmentText": "Berlin public universities offer near-free tuition with broad programs, aligning with your family\u0027s affordability and bilingual education goals.",
       "alignmentValue": 10
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "Berlin\u0027s top campuses sit around 101-150 globally with \u003E35% English-taught programs. It fits your bilingual, high-quality college goals.",
-      "alignmentValue": 8
+      "alignmentText": "Berlin\u0027s top universities rank 101-150 globally with \u003E35% English-taught programs; supports bilingual, high-quality college goals.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_continuing_education_accessibility",
@@ -319,7 +311,7 @@
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 75,000.00 ($81,000.00)"
+      "alignmentText": "EUR 68,000.00 ($73,440.00)"
     },
     {
       "key": "outdoors_beach_life",
@@ -328,7 +320,7 @@
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "In Berlin, Germany, fall highs 55\u201372\u00B0F and lows 45\u201355\u00B0F. It\u2019s mild with a gentle cool-down, aligning with your climate preferences.",
+      "alignmentText": "In Berlin, Germany, fall highs 55\u00B0F-72\u00B0F and lows 45\u00B0F-55\u00B0F; mild with a gentle cool-down that matches your climate preferences.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -367,9 +359,8 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Berlin, DE offers a mild, temperate climate with distinct seasons. Expect roughly 10-13 days of severe weather or AQI days per year.",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentText": "Berlin, Germany offers a mild, temperate climate with manageable seasonal risk. Relatively few severe-weather days support family-friendly climate stability.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_economic_stability",

@@ -11,7 +11,8 @@
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
       "alignmentText": "USD 6,700.00",
-      "alignmentValue": 2
+      "alignmentValue": 2,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
@@ -22,13 +23,13 @@
     {
       "key": "cost_of_living_family_3_days_in_er",
       "alignmentText": "USD 9,500.00",
-      "alignmentValue": 1
+      "alignmentValue": 1,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
       "alignmentText": "USD 7,800.00",
-      "alignmentValue": 1,
-      "sameAsParent": false
+      "alignmentValue": 1
     },
     {
       "key": "cost_of_living_family_eating_out",
@@ -43,7 +44,8 @@
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
       "alignmentText": "USD 7,500.00",
-      "alignmentValue": 1
+      "alignmentValue": 1,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
@@ -53,19 +55,18 @@
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
       "alignmentText": "USD 3,375.00",
-      "alignmentValue": 6
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "San Francisco, US: two-adult startup; quarterly digital filings with a part-time bookkeeper; payroll/returns under 20 hours/year; outside accountants optional.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "San Francisco, US: two-adult startup; CA/state filings and local licenses; quarterly filings with a bookkeeper; 20\u201329 hours/yr.",
+      "alignmentValue": 8
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "USD 1,532,500.00",
-      "alignmentValue": 1,
-      "sameAsParent": false
+      "alignmentText": "USD 1,468,666.67",
+      "alignmentValue": 1
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -73,20 +74,9 @@
       "alignmentValue": 3
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "30%",
-      "alignmentValue": 3
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "0%",
-      "alignmentValue": 1
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "SF, USA: US citizens in San Francisco have no entrepreneur visa need; for foreign founders, route exists with \u2265$75k, incubator backing, 4\u20136 months.",
-      "alignmentValue": 1,
-      "sameAsParent": false
+      "alignmentText": "SF, USA: This US citizen family has no entrepreneur visa need; foreign founders route exists with \u2265$75k, incubator backing, 4-6 months.",
+      "alignmentValue": 0
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
@@ -100,8 +90,8 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "4",
-      "alignmentValue": 6
+      "alignmentText": "6",
+      "alignmentValue": 8
     },
     {
       "key": "daemon_games_number_of_aa_studios",
@@ -110,13 +100,13 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "USD 8,064,572.80",
-      "alignmentValue": 6,
+      "alignmentText": "USD 8,757,248.75",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "USD 2,134,659.00",
+      "alignmentText": "USD 2,067,499.52",
       "alignmentValue": 5
     },
     {
@@ -127,8 +117,9 @@
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "San Francisco, USA, game dev scene remains highly active: frequent in-person events and 1k\u002B online members, great for Trey\u0027s startup.",
-      "alignmentValue": 10
+      "alignmentText": "San Francisco, USA has a vibrant game-dev scene with frequent in-person events and strong startup support for Trey\u0027s venture.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
@@ -138,79 +129,75 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "San Francisco, USA: English dominates govt/healthcare; 10-20% tasks may need local language; interpreters widely available.",
+      "alignmentText": "San Francisco, USA: English dominates govt/health; 10\u201314% of interactions may need local language; interpreters widely available.",
       "alignmentValue": 9
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "San Francisco, USA: ~60-69% of public seats offer bilingual options by grade 2; many schools offer kindergarten bilingual programs.",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentText": "San Francisco, USA: ~60-69% of public seats offer bilingual options by grade 2; Kindergarten programs support early bilingual exposure for your kids.",
+      "alignmentValue": 8
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "SF rental market remains tight for families with two kids: leases often 6-8 weeks with ~3 months deposit; expect in-person viewings.",
+      "alignmentText": "San Francisco rental market remains tight for families; leases typically 6-8 weeks with in-person viewings.",
       "alignmentValue": 6
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "US passport holders relocating within the US to San Francisco incur no visa; CA residency steps are straightforward.",
+      "alignmentText": "US passport holders relocating to San Francisco, CA incur no visa; California residency steps are straightforward (driver\u0027s license, address, taxes).",
       "alignmentValue": 10,
-      "sameAsParent": false
+      "sameAsParent": true
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "San Francisco area \u2014 US Immigration Status \u0026 Rights: 1) Lawful Permanent Resident (Green Card): attained via family or employment sponsorship, asylum/refugee status, or other approved pathways; grants the right to live and work in the United States, travel with a green card, and sponsor certain relatives; path to naturalization after required residency. 2) US Citizen: acquired by birth in the United States or by naturalization after meeting residency and other requirements; provides full civil rights (voting, passport eligibility) and more permissive relative sponsorship. Your profile shows US citizenship by passport; verify current status with USCIS, renew passport as needed, and maintain documentation. If not yet naturalized, determine eligibility timing (typically 5 years, or 3 years with qualifying marriage) and begin naturalization with professional guidance. For the San Francisco Bay Area, use local USCIS offices/resources and consult an immigration attorney if timelines or forms are unclear.",
+      "alignmentText": "San Francisco area \u2014 US Immigration Status \u0026 Rights: Status types are US citizen (by birth or naturalization) and US permanent resident (green card). Citizenship gives full civil rights, including voting eligibility and passport access; permanent residency grants lawful residence/work and may lead to citizenship. How status is determined: US citizenship is typically earned by naturalization after 5 years of permanent residency (3 years with qualifying marriage); permanent residency is granted through family, employment, asylum, or Diversity Visa programs and must be maintained. Actions: verify current status with USCIS; ensure passport validity and renew if you are a citizen; keep secure copies of key documents (birth certificate, naturalization certificate or green card, current passport); in San Francisco, use local USCIS resources and district forms; if timelines or forms are unclear, consult an immigration attorney or accredited representative.",
       "sameAsParent": false
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "San Francisco\u0027s strong tech-immigrant scene and local grants align with Trey\u0027s startup goals and Sarah\u0027s web career. National mood is mixed.",
-      "alignmentValue": 7,
+      "alignmentText": "San Francisco\u0027s strong tech-immigrant scene and local grants support Trey\u0027s startup goals and Sarah\u0027s web career. It\u0027s a skilled-migrant friendly environment.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "San Francisco, CA schools have strong anti-bias policies; caucasian families can expect about 1-2 incidents per 1,000 with swift enforcement.",
+      "alignmentText": "San Francisco schools uphold strong anti-bias policies; caucasian families can expect about 1-2 incidents per 1,000 students with swift enforcement.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "kids_education_quality",
-      "alignmentText": "San Francisco public schools provide robust early childhood programs and bilingual options, aligning with your high education priority.",
+      "alignmentText": "San Francisco public schools offer strong K-12 programs with bilingual options, aligning with your high education priority.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "SF Unified meals align with HEI 75\u201379 and \u003C12% ultra-processed foods. District variations show gradual health gains for San Francisco, USA.",
+      "alignmentText": "SF public meals meet HEI 75-79 with \u003C12% ultra-processed foods, supporting Anduin and Alasdair\u0027s nutrition in San Francisco, USA.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "San Francisco public schools offer strong English instruction with bilingual core aides; about 16\u201319 hours/week.",
-      "alignmentValue": 9,
-      "sameAsParent": true
+      "alignmentText": "San Francisco public schools offer strong English instruction with bilingual aides; about 16\u201319 hours/week.",
+      "alignmentValue": 9
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "In San Francisco, translation is common at agencies and broad public language classes support bilingual kids, including ages 5 and 1.",
+      "alignmentText": "San Francisco offers strong language access: city agencies provide translations and broad bilingual programs for ages 5 and 1; supports bilingual exposure.",
       "alignmentValue": 9
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "San Francisco date nights should center on walkable, safe neighborhoods with outdoor seating, notably Hayes Valley, North Beach, Mission District, Marina, and Noe Valley. Action plan: 1) secure a trusted babysitter for 3-4 hours; 2) begin with a stroll along the Embarcadero or Dolores Park depending on neighborhood; 3) reserve ahead at a flexible-hours venue with outdoor seating; 4) end with dessert or a drink that offers city views. Prioritize easy transit or parking and mild evening weather. If time allows for Trey, include a quick stop at local game/tech hubs in SoMa or Mission to look for developer/community events.",
-      "sameAsParent": false
+      "alignmentText": "Secure a trusted babysitter for 3\u20134 hours in advance. Start with a stroll through walkable SF neighborhoods with outdoor seating\u2014Embarcadero waterfront, Dolores Park, Hayes Valley, or North Beach\u2014then dine at a restaurant with outdoor seating and flexible hours. Reserve ahead and aim for nearby parking or easy Muni access. End with dessert or a drink that offers city or bay views. If Trey has time, swing by SoMa or Mission for short stops at local game/tech hubs or community spots; verify current events online before heading out."
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "In San Francisco, implement a weekly, low-stress family activity plan centered on walkable neighborhoods: park days at Golden Gate Park and Crissy Field; visits to Exploratorium, California Academy of Sciences, and Children\u0027s Creativity Museum; library programs for bilingual exposure; seasonal trips to Lands End or Muir Woods; coordinate activities with work-life balance and dependable childcare; ensure proximity to strong schools and reliable broadband for remote work.",
-      "sameAsParent": false
+      "alignmentText": "San Francisco: Establish a weekly, low-stress family activity plan rooted in walkable neighborhoods and dependable childcare. Schedule park days at Golden Gate Park or Crissy Field; routinely visit Exploratorium, California Academy of Sciences, and Children\u0027s Creativity Museum; participate in library programs for bilingual exposure; plan seasonal outings to Lands End or Muir Woods; align activities with Trey and Sarah\u0027s remote/work balance; ensure access to strong public schools and reliable broadband for remote work."
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "San Francisco weeknights: identify 2\u20133 recurring family\u2011friendly events within a 30\u201340 minute transit window that suit both adults and two kids (e.g., board\u2011game nights, library programs, or kid\u2011friendly classes); prioritize venues with flexible hours and childcare options; add events to a shared calendar and pre\u2011arrange childcare as needed."
+      "alignmentText": "San Francisco weeknights: identify 2-3 recurring family-friendly events within a 30-40 minute transit window for two adults and two kids; prioritize venues with flexible hours and on-site or nearby childcare; add confirmed events to a shared calendar and pre-arrange childcare as needed (examples: library programs, board-game or family nights, kid-friendly classes at community centers, and parent-child workshops)."
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
@@ -220,59 +207,56 @@
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "San Francisco, USA offers transit-rich, walkable neighborhoods ideal for your family. Parks and schools fit your mild climate, with 70-79% car-free.",
+      "alignmentText": "San Francisco\u0027s transit-rich, walkable neighborhoods suit your family; parks and schools match your mild climate with ~70-79% car-free trips.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "Quality Food Access in San Francisco, US: abundant farmers markets and fresh produce; fast-food density is manageable for family meals.",
-      "alignmentValue": 7
+      "alignmentText": "Quality Food Access in San Francisco is strong, with abundant farmers markets and fresh produce. Fast-food density remains manageable for family meals.",
+      "alignmentValue": 9
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "San Francisco, US: Most filings online; expect a quick one-morning DMV/taxes visit. English-friendly portals help a two-kid family.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "San Francisco, US: Most filings online. Expect 1-2 hours per month for licenses, school/childcare enrollment, and local registrations.",
+      "alignmentValue": 8
     },
     {
       "key": "life_daycare_accessibility",
-      "alignmentText": "In San Francisco, 1-year-olds face long daycare waits; anticipate 12-15 months to secure a slot, with private options often used.",
+      "alignmentText": "San Francisco public slots for 1-year-olds typically wait 12-15 months. For Trey and Sarah\u0027s family, private daycare will likely bridge the gap.",
       "alignmentValue": 3
     },
     {
       "key": "life_daycare_affordability_citizen",
       "alignmentText": "USD 2,500.00",
-      "alignmentValue": 1,
-      "sameAsParent": false
+      "alignmentValue": 1
     },
     {
       "key": "life_daycare_affordability_non_resident",
       "alignmentText": "USD 2,900.00",
-      "alignmentValue": 1
-    },
-    {
-      "key": "life_daycare_affordability_perm_resident",
-      "alignmentText": "USD 2,000.00",
       "alignmentValue": 1,
       "sameAsParent": false
     },
     {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "USD 1,500.00",
+      "alignmentValue": 1
+    },
+    {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "San Francisco, CA: PCP waits 5-7 days; specialists 11-14 days; aligns with preference for affordable, reliable healthcare for a young family.",
-      "alignmentValue": 7
+      "alignmentText": "San Francisco, CA, USA: PCP waits about 5-7 days; specialists ~11-14 days; reasonable for a young family seeking reliable US healthcare.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_citizen",
-      "alignmentText": "USD 1,200.00",
-      "alignmentValue": 2,
-      "sameAsParent": false
+      "alignmentText": "USD 1,234.56",
+      "alignmentValue": 1
     },
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "USD 2,500.00",
-      "alignmentValue": 3,
-      "sameAsParent": false
+      "alignmentValue": 3
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
@@ -282,28 +266,29 @@
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "San Francisco, CA, US: CA safety nets soften gaps when employer coverage ends for a two-adult, two-child family.",
+      "alignmentText": "San Francisco, CA, US: California safety nets soften gaps when employer plans end for a two-adult, two-child family. Coverage changes have low friction.",
       "alignmentValue": 8
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "1680",
+      "alignmentText": "1700",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "life_public_transportation",
-      "alignmentText": "SF\u0027s dense Muni/BART network keeps many neighborhoods within 500 m of frequent service, supporting a car-light, family-friendly lifestyle.",
-      "alignmentValue": 9
+      "alignmentText": "San Francisco\u0027s dense Muni/BART network keeps many neighborhoods within 500 m of frequent service, enabling a car-light, family-friendly lifestyle.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "San Francisco public CSU tuition runs about 8-9% of median income with solid admission rates, aligning with your high education priority.",
+      "alignmentText": "San Francisco CSU tuition runs ~8-9% of median household net income. It aligns with your high education priority; consider grants.",
       "alignmentValue": 8
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "SF Bay Area (US) hosts Stanford and Berkeley in the global top 50 with many programs in English; strong, family-friendly higher education options.",
+      "alignmentText": "San Francisco Bay Area has top-50 universities (Stanford/UC Berkeley) with English programs; family-friendly higher-ed options nearby.",
       "alignmentValue": 10
     },
     {
@@ -313,12 +298,12 @@
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "San Francisco, US: senior .NET postings 21-24 per million; fits your 20-year architect profile amid SF\u0027s strong tech/startup scene.",
+      "alignmentText": "San Francisco, US: senior .NET postings 21-24 per million; aligns with your 20-year architect goal in SF\u0027s strong tech/startup ecosystem.",
       "alignmentValue": 9
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "San Francisco, USA: Rails postings ~25/million residents/month; fits a 6-year Rails dev; strong web/game dev scene supports Trey and Sarah.",
+      "alignmentText": "San Francisco Rails postings are ~25\u201329 per million; matches Trey\u2019s 6 years of Rails work. SF\u2019s robust web/dev scene also benefits Sarah.",
       "alignmentValue": 8
     },
     {
@@ -332,73 +317,75 @@
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Prioritize family-friendly beaches within a short drive in the SF Bay Area: Ocean Beach (San Francisco), Crissy Field, and Half Moon Bay beaches, all with lifeguards, clean facilities, ample parking, and stroller-friendly paths. Provide practical guidance on coastal fog, cooler water temperatures, and winds; advise dressing in layers and planning for windbreaks. Plan day trips with current tide data and water quality checks before swimming: Ocean Beach, Crissy Field, Half Moon Bay. If beach conditions are not suitable for swimming, offer indoor or sheltered outdoor options (Exploratorium, California Academy of Sciences) and calmer-beach alternatives with sheltered coves."
-    },
-    {
-      "key": "outdoors_fall_temperature_range",
-      "alignmentText": "San Francisco fall, USA: highs 60\u201375\u00B0F, nights 50\u201360\u00B0F; crisp, stable autumn with mild, ocean-influenced weather.",
-      "alignmentValue": 10,
+      "alignmentText": "San Francisco Beach Life: Three family-friendly beaches within easy reach: Ocean Beach (SF), Crissy Field, and Half Moon Bay State Beach. Check lifeguard status, current water quality, and tides before visits; plan for coastal fog, cold water, and wind with layered clothing and a windbreak. If swimming isn\u2019t feasible, consider indoor or sheltered outdoor options (Exploratorium, California Academy of Sciences) or calmer coves with protective breakwaters.",
       "sameAsParent": false
     },
     {
-      "key": "outdoors_mild_weather",
-      "alignmentText": "San Francisco, USA offers a mild, low-humidity climate with about 270-299 comfortable days per year; ideal for family outdoor time.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "outdoors_natural_beauty",
-      "alignmentText": "San Francisco Bay Area offers strong natural beauty: 40\u201349% protected land within 60 minutes and 3\u20134 scenic sites (Muir Woods, Point Reyes, Angel Island).",
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "San Francisco fall, USA: highs 65\u201369\u00B0F, nights 50\u201360\u00B0F; mild, ocean-influenced autumn.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "San Francisco, USA provides mild, low-humidity weather with ~270-299 comfortable days\u2014ideal for outdoor family time in parks.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "San Francisco Bay Area offers strong natural beauty: 40-49% protected land within 60 minutes and kid-friendly trails (Muir Woods, Point Reyes, Angel Island).",
+      "alignmentValue": 9
+    },
+    {
       "key": "outdoors_nature_access",
-      "alignmentText": "Strong nature access for families in SF; Golden Gate Park and the Presidio are within 5 km, with many parks and 2 regional trails reachable by transit.",
+      "alignmentText": "Strong nature access for a family in San Francisco; Golden Gate Park and the Presidio within 5 km, plus several parks \u003E10 acres reachable by transit.",
       "alignmentValue": 8
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Spring in San Francisco, US typically 60-65\u00B0F highs and 50-55\u00B0F lows; mild, pleasant, and aligned with your family-friendly climate.",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "Spring in San Francisco, US sees highs around 60\u201364\u00B0F and lows around 50\u201355\u00B0F, a mild climate suitable for outdoor family activities.",
+      "alignmentValue": 8
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "San Francisco summers are mild: highs 75-82\u00B0F, nights 60-70\u00B0F, low humidity; fits a 10 rating.",
-      "alignmentValue": 10,
+      "alignmentText": "San Francisco summers typically reach 76-80\u00B0F. Nights drop to about 60-70\u00B0F in the USA.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "San Francisco winters: 55-60\u00B0F highs, 45-50\u00B0F lows; snow is rare, keeping days mild and manageable.",
+      "alignmentText": "San Francisco winters, USA: highs 55\u201360\u00B0F, lows 45\u201350\u00B0F; snow is rare, keeping days mild and manageable.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "San Francisco\u0027s climate remains mild and stable; expect about 6-9 severe weather or high-AQI days per year, suitable for families.",
-      "alignmentValue": 9
+      "alignmentText": "San Francisco\u0027s mild coastal climate offers stable conditions, few extreme heat days, and good air quality for families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "SF Bay Area offers strong startup funding and a vibrant tech ecosystem for your founder goals and family; housing costs and livability are notable tradeoffs.",
+      "alignmentText": "SF Bay Area remains strong for startups and tech jobs, but housing costs dent overall economic stability.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "San Francisco, US policy shows ~3 major overhauls/decade and 3-4% revocations; SF\u0027s tech hub remains strong but expect ongoing shifts.",
+      "alignmentText": "San Francisco remains a strong tech hub; US policy shifts could bring ~4 overhauls/decade, impacting family visas and startup plans.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "San Francisco, CA, US maintains strong political stability and civil liberties, matching your resilience and democratic values.",
-      "alignmentValue": 9
+      "alignmentText": "San Francisco, CA shows strong liberal democracy indicators and civil liberties; immigrant-friendly, pro-family policies fit this family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "San Francisco, US: crime ~600/100k; stable utilities and schools support family life; many family-friendly neighborhoods.",
+      "alignmentText": "San Francisco, US: violent crime ~600/100k; strong schools and family-friendly neighborhoods with parks and walkable streets.",
       "alignmentValue": 3,
       "sameAsParent": false
     }

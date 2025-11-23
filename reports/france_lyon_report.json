@@ -4,8 +4,8 @@
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
-      "alignmentText": "EUR 3,000.00 ($3,240.00)",
-      "alignmentValue": 9,
+      "alignmentText": "EUR 3,100.00 ($3,348.00)",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
@@ -73,18 +73,6 @@
       "sameAsParent": true
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "70%",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
       "alignmentText": "Lyon Passeport Talent offers a workable path for your US family; plan 3-4 months with modest funds and strong local support in France.",
       "alignmentValue": 7,
@@ -140,12 +128,12 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "In Lyon, 40-50% of admin interactions need French; English helps for tech work, but government/banking forms often require French. Family open to learning.",
+      "alignmentText": "In Lyon, France, 40-50% of admin tasks require French; English helps for tech, but gov/banking forms often require French. Family open to learning.",
       "alignmentValue": 6
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Lyon, France public schools offer English bilingual options, but availability is limited. Seek schools with Section Internationale Anglais for early exposure.",
+      "alignmentText": "Lyon public schools offer some English bilingual options (Section Internationale Anglais); seats are limited\u2014target schools with English sections for early exposure.",
       "alignmentValue": 5
     },
     {
@@ -156,19 +144,19 @@
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "France Lyon visa effort: 4\u20136 months with organized evidence; an interview is a possibility for talent/entrepreneur routes.",
-      "alignmentValue": 7
+      "alignmentText": "France (Lyon): visa effort ~4\u20136 months with organized evidence; interview possible for talent/entrepreneur routes.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "In France (Lyon), non-EU entrants obtain status through: (1) long-stay visa (visa de long s\u00E9jour) that doubles as a residence permit for work, study, family reunification, or asylum; (2) a carte de s\u00E9jour (temporary residence permit) issued for a qualifying activity (employment, family ties, studies) and renewable; (3) carte de r\u00E9sident (permanent residence) after ~5 years of lawful residence and sustained integration; (4) naturalisation to French citizenship after several years of residence with language and civics requirements; (5) skilled-work routes such as the Passeport Talent or EU Blue Card where applicable. Rights accompanying these statuses include the ability to work (subject to permit), access to the French healthcare system, eligibility for social benefits and public education, housing support where eligible, and freedom to travel within the Schengen Area; citizenship unlocks full civil and political rights. Action steps: identify the most suitable visa path based on Trey\u2019s entrepreneurship and Sarah\u2019s web development background, gather required documents (passport validity, proof of funds, housing, health insurance, language plans, job or family sponsorship), apply from the US for a long-stay visa, then transition to a carte de s\u00E9jour on arrival and plan toward permanent residency and potential naturalisation if desired; monitor prefecture timelines in Lyon and stay compliant to maintain status.",
+      "alignmentText": "In Lyon, France, non\u2011EU entrants obtain residency mainly via: (1) visa de long s\u00E9jour that doubles as a work/study permit; (2) carte de s\u00E9jour (temporary residence permit) tied to activity and renewable; (3) carte de r\u00E9sident (permanent residence) after years of lawful residence with integration; (4) naturalisation after several years with language/civics requirements; and (5) skilled\u2011work routes like Passeport Talent or EU Blue Card when eligible. For Trey (entrepreneur) and Sarah (web developer), prioritize Passeport Talent or EU Blue Card eligibility or a long\u2011stay entrepreneur/work visa, then transition to a carte de s\u00E9jour on arrival and plan toward permanent residence and potential naturalisation if desired. Action steps: apply from the US for the appropriate visa with passport validity, proof of funds/housing, health insurance, language plan, and sponsor/plan; on arrival in Lyon obtain the carte de s\u00E9jour and complete prefecture registration; maintain status with renewals and compliant activity; monitor timelines and pursue permanent residency and citizenship if desired; ensure access to healthcare, education, housing support where eligible.",
       "sameAsParent": false
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "In Lyon, France, skilled immigration is fairly welcomed; ~80-84% approval and ~50% positive polls, supporting your startup/visa plans.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentText": "In Lyon, France, skilled immigration enjoys roughly 80-84% approval with about 50% positive polls, aligning with your startup/visa plans.",
+      "alignmentValue": 7
     },
     {
       "key": "kids_bullying_and_racism",
@@ -182,43 +170,43 @@
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "Lyon, FR school meals emphasize fresh produce and balance; HEI likely 85-89 with under 8% ultra-processed calories.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "In Lyon, FR schools emphasize fresh produce and balance; HEI 85\u201389 with ultra-processed share under 8%.",
+      "alignmentValue": 9
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "Lyon, France public schools typically offer 2-3 hours/week of English; bilingual aides are not consistently available.",
+      "alignmentText": "Lyon, France public schools offer 2-3 hours/week English; bilingual aides not consistently available.",
       "alignmentValue": 2
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Lyon, FR provides many subsidized FLE courses. Translation is available for critical services to support your kids.",
+      "alignmentText": "Lyon, FR offers subsidized FLE courses; translation for critical services is available to support your kids\u0027 bilingual development.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "Plan Lyon date nights around Vieux Lyon bouchons (traditional dinner), a sunset stroll along the Sa\u00F4ne, and a post-dinner view from Fourvi\u00E8re or a rooftop terrace; for culture, catch a show at Op\u00E9ra de Lyon or a live music venue in Croix-Rousse; finish with desserts along the Presqu\u2019\u00EEle."
-    },
-    {
-      "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "France Lyon: Prioritize outdoor parks and interactive museums suitable for a 5-year-old and a 1-year-old. Suggested activities: Parc de la T\u00EAte d\u0027Or for playgrounds and zoo; Mus\u00E9e des Confluences for hands-on exhibits; Mini World Lyon for short, stroller-friendly displays. Use public transit (TCL trams/buses or V\u00E9lo\u0027V bike-share) to access these sites; check city calendars for family events and bilingual programs to support English exposure.",
+      "alignmentText": "In Lyon, plan date nights around Vieux Lyon bouchons for traditional dining, a sunset stroll along the Sa\u00F4ne, and a view from Fourvi\u00E8re or a rooftop terrace. For culture, reserve seats at Op\u00E9ra de Lyon or enjoy live music in Croix-Rousse, then finish with desserts along the Presqu\u2019\u00EEle.",
       "sameAsParent": false
     },
     {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Focus on stroller-friendly parks and interactive museums suitable for a 5-year-old and a 1-year-old in Lyon. Recommendations: Parc de la T\u00EAte d\u0027Or (playgrounds, zoo), Mus\u00E9e des Confluences (hands-on family exhibits), Mini World Lyon (short, stroller-friendly displays). Use TCL trams/buses or V\u00E9lo\u0027V bike-share to reach these sites; check city calendars for family events and bilingual programs to support English exposure; plan visits with breaks and consider cooler morning hours."
+    },
+    {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Focus on Lyon-based, English-friendly, family-accessible night social options: seek after-work or weekend board-game nights at local caf\u00E9s (especially in Presqu\u2019\u00EEle and Croix-Rousse) with bilingual hosts; join expat and tech Meetups and Alliance Fran\u00E7aise Lyon events that welcome non-French speakers; favor family-friendly venues and early-evening programs, using groups like Expat Lyon and Lyon Board Games to schedule recurring gatherings and coordinate babysitting as needed."
+      "alignmentText": "Organize or join Lyon-based, English-friendly, family-accessible evening socials: after-work or weekend board-game nights at caf\u00E9s in Presqu\u2019\u00EEle and Croix-Rousse with bilingual hosts; participate in expat/tech Meetups and Alliance Fran\u00E7aise Lyon events welcoming non-French speakers; prioritize family-friendly venues and early-evening slots; coordinate babysitting through Expat Lyon and Lyon Board Games to establish recurring gatherings.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Lyon, FR offers about 22\u201325 parent-friendly 3rd places per 100k after 6pm with staff supervision. Great for after-school family activities.",
+      "alignmentText": "Lyon, FR has about 22-25 parent-friendly 3rd places per 100k after 6pm with staff supervision; good for after-school family activities.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "In Lyon, FR, walkable neighborhoods and transit enable 60-69% car-free trips for this family. Some car use may be needed for groceries.",
+      "alignmentText": "In Lyon, FR, walkable neighborhoods and transit support about 60-69% car-free trips for this family; some car use may be needed for groceries.",
       "alignmentValue": 8
     },
     {
@@ -234,14 +222,14 @@
     },
     {
       "key": "life_daycare_accessibility",
-      "alignmentText": "Lyon, FR: public daycare slots for 1-year-olds typically 3\u20134 months; monthly confirmation often required.",
+      "alignmentText": "In Lyon, FR, public daycare for 1-year-olds typically takes 3\u20134 months. Monthly confirmations are common.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_citizen",
-      "alignmentText": "EUR 550.00 ($605.00)",
-      "alignmentValue": 4
+      "alignmentText": "EUR 300.00 ($330.00)",
+      "alignmentValue": 9
     },
     {
       "key": "life_daycare_affordability_non_resident",
@@ -251,8 +239,8 @@
     },
     {
       "key": "life_daycare_affordability_perm_resident",
-      "alignmentText": "EUR 450.00 ($495.00)",
-      "alignmentValue": 8,
+      "alignmentText": "EUR 360.00 ($396.00)",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -262,13 +250,15 @@
     },
     {
       "key": "life_healthcare_affordability_citizen",
-      "alignmentText": "EUR 450.00 ($499.50)",
-      "alignmentValue": 10
+      "alignmentText": "EUR 600.00 ($666.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "EUR 1,150.00 ($1,265.00)",
-      "alignmentValue": 9
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
@@ -284,7 +274,7 @@
     {
       "key": "life_hours_worked_per_year",
       "alignmentText": "1645",
-      "alignmentValue": 8,
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -299,7 +289,7 @@
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "Lyon\u2019s universities offer English-taught programs (\u003E15%). Top-tier global ranks beyond 400 are uncommon.",
+      "alignmentText": "Lyon has English-taught programs across several universities; global ranks are mid-tier (\u2248401\u2013500), offering solid options.",
       "alignmentValue": 4
     },
     {
@@ -314,16 +304,16 @@
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Lyon, FR Rails demand around 20\u201324 postings per million per month; solid for startups and remote/hybrid roles.",
+      "alignmentText": "Lyon, FR Rails demand ~20-24 postings/m. Solid for startups and remote roles, matching this family\u0027s need for flexible, family-friendly schedules.",
       "alignmentValue": 7
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 85,000.00 ($92,650.00)"
+      "alignmentText": "EUR 82,000.00 ($89,380.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 60,000.00 ($65,400.00)"
+      "alignmentText": "EUR 58,000.00 ($63,220.00)"
     },
     {
       "key": "outdoors_beach_life",
@@ -336,12 +326,13 @@
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Lyon, FR has a temperate climate with many days 50\u201385\u00B0F; about 240\u2013270 comfortable days per year, matching your mild-weather preference.",
-      "alignmentValue": 8
+      "alignmentText": "Lyon, FR has a temperate climate with many 50-85\u00B0F days and moderate humidity; roughly 240-270 comfortable days per year.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Excellent natural beauty near Lyon, FR. About 30% protected land within 60 minutes (Pilat/Beaujolais parks) and multiple scenic spots ideal for family hikes.",
+      "alignmentText": "Excellent natural beauty near Lyon, FR; ~30% protected land within 60 minutes (Pilat/Beaujolais) with family-friendly hikes.",
       "alignmentValue": 8
     },
     {
@@ -363,35 +354,35 @@
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "Lyon winters: highs 40-50\u00B0F, lows 25-35\u00B0F with occasional light snow; mild and manageable climate.",
+      "alignmentText": "Lyon, FR winters: highs 45-49\u00B0F, lows 30-40\u00B0F; occasional light snow; mild, family-friendly climate.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Lyon, FR has a temperate maritime climate with mild seasons; few severe weather/AQI days (roughly 6-9 yearly), aligning with low-risk living.",
+      "alignmentText": "Lyon, FR has a temperate, mild climate with few severe-weather days; low climate risk supports stable family life.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "France (Lyon) shows low 5-year GDP-per-capita volatility and solid public services; a stable base for family migration.",
+      "alignmentText": "France (Lyon) had only two recession years in the last 20, offering stable economic footing for a family relocation.",
       "alignmentValue": 9
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "France shows steady immigration policy with moderate reforms across the decade. Lyon offers stable rules and practical visa pathways for tech professionals.",
-      "alignmentValue": 8,
-      "sameAsParent": false
-    },
-    {
-      "key": "stability_political_stability",
-      "alignmentText": "Lyon, FR offers strong institutions with relatively low unrest. Political stability supports a safe, family-friendly migration plan.",
+      "alignmentText": "France\u0027s immigration policy stays steady with modest reforms; Lyon provides clear visa routes for tech professionals and startup founders.",
       "alignmentValue": 8
     },
     {
+      "key": "stability_political_stability",
+      "alignmentText": "Lyon, FR benefits from robust institutions and steady civic order. Political stability supports a safe, family-friendly migration plan.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Stability in Lyon, FR is solid for families. Violent crime sits around 250-299 per 100k, with reliable utilities and solid public schools.",
+      "alignmentText": "Lyon, FR offers solid family stability: violent crime around 250-299/100k, with reliable services and strong public schools.",
       "alignmentValue": 8
     }
   ]

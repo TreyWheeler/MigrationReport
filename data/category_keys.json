@@ -5,14 +5,24 @@
             "categoryId": "daemon_games",
             "label": "Ease of Entrepreneurship Visa",
             "order": 1,
-            "informational": false
+            "informational": false,
+            "metric": {
+                "name": "visa",
+                "unit": "month",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "daemon_games_bureaucratic_compliance_effort",
             "categoryId": "daemon_games",
             "label": "Bureaucratic Compliance Effort",
             "order": 2,
-            "informational": false
+            "informational": false,
+            "metric": {
+                "name": "compliance",
+                "unit": "filings",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "daemon_games_number_of_aa_studios",
@@ -22,7 +32,12 @@
             "order": 3,
             "guidance": "Number of Indie game studios with 10-50 employees",
             "valueRequirements": "Value must be a single integer representing the count of AA studios (e.g., \"7\").",
-            "informational": false
+            "informational": false,
+            "metric": {
+                "name": "aa studio",
+                "unit": "studios",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "daemon_games_number_of_aaa_studios",
@@ -32,14 +47,24 @@
             "order": 4,
             "guidance": "Number of major AAA studios with 100+ employees actively producing titles in the region.",
             "valueRequirements": "Value must be a single integer representing the count of AAA studios (e.g., \"3\").",
-            "informational": false
+            "informational": false,
+            "metric": {
+                "name": "aaa studio",
+                "unit": "studios",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "daemon_games_vibrancy_of_local_game_development_communities",
             "categoryId": "daemon_games",
             "label": "Vibrancy of local game development communities",
             "order": 5,
-            "informational": false
+            "informational": false,
+            "metric": {
+                "name": "events",
+                "unit": "community",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "daemon_games_feasible_game_grants",
@@ -48,7 +73,12 @@
             "order": 6,
             "guidance": "For the given city/country and Daemon Gamesâ€™ profile (small, unfunded indie studio planning a 2-year, â‰ˆ1.5M budget, narrative PC/console action-adventure using high-fantasy allegory about resistance to empire and depression, self-publishing on Steam/consoles), identify public support instruments that are realistically attainable within the next 0â€“3 years: game-specific tax credits, selective prototype/production/marketing grants, innovation or creative-industry funds, and incubator/accelerator programmes that include cash or in-kind financial support. Only consider programmes that accept small or early-stage studios and foreign founders who are willing to incorporate locally, and that are compatible with story-driven premium games without gambling or exploitative monetisation; ignore schemes restricted to gambling, tightly scoped serious/educational games, or projects with budgets far outside the 0.5Mâ€“5M range. For each programme, infer basic eligibility (e.g. local spend requirements, cultural tests, minimum team/company age) from up-to-date sources, but treat selection as competitive and focus on whether Daemon should reasonably plan to apply during or shortly before the 2-year development period.",
             "valueRequirements": "Return 1-5 bullet lines. Each line must begin with - {CurrencyCode} <localAmount> ($<usdAmount>) where both amounts are real values rounded to two decimals, followed by – ProgramName – a 1-sentence justification. If no programmes exist, return a single line: - None – no realistic grant or incentive programmes identified for this region.",
-            "informational": true
+            "informational": true,
+            "metric": {
+                "name": "grants",
+                "unit": "programs",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "daemon_games_burn_rate",
@@ -57,7 +87,12 @@
             "order": 7,
             "guidance": "Define yearly base salaries (before employer on-costs) for these roles in the target city/country: Lead Game Designer, Senior Game Developer, Senior VFX Artist, Senior 2D Environment Artist, Senior 3D Character Artist, Senior Character Animator, and Video Game Marketer, plus a yearly office-space cost and a single employerOnCostRate applied to all salaries. Compute yearly burn rate (pre-tax, pre-incentives, pre-revenue) as: yearlyBurn = officeCostPerYear + (sumOfBaseSalariesPerYear Ã— (1 + employerOnCostRate)) + (200_000 / developmentYears). Treat the 200,000 as total fixed marketing/advertising for the whole project, amortised evenly across developmentYears when adding it into the yearly burn.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to the second decimal. If the local currency isn't the US dollar than it should be converted and appended to the local currency value. Example: â‚¬5 ($5.70)",
-            "informational": false
+            "informational": false,
+            "metric": {
+                "name": "burn",
+                "unit": "per year",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "daemon_games_roi_400k_units_2_years",
@@ -66,7 +101,12 @@
             "order": 8,
             "guidance": "For the given city/country, estimate yearly base salaries (before employer on-costs) for these roles â€” Lead Game Designer, Senior Game Developer, Senior VFX Artist, Senior 2D Environment Artist, Senior 3D Character Artist, Senior Character Animator, and Video Game Marketer â€” plus a yearly office-space cost and a single employerOnCostRate applied to all salaries. Compute devCostBeforeIncentives = developmentYears Ã— (officeCostPerYear + (sumOfBaseSalariesPerYear Ã— (1 + employerOnCostRate))) and devIncentive = devIncentiveRate Ã— devIncentiveEligibleShare Ã— devCostBeforeIncentives, then set adjustedDevCost = devCostBeforeIncentives âˆ’ devIncentive if the incentive is non-taxable or adjustedDevCost = devCostBeforeIncentives if the incentive is taxable (and in that case you add devIncentive to income instead of subtracting it from cost). Calculate grossRevenue = unitsSold Ã— 20 and netRevenue = grossRevenue Ã— 0.7 (30% platform cut), then profitBeforeTax = netRevenue + (incentiveIsTaxable ? devIncentive : 0) âˆ’ adjustedDevCost âˆ’ 200_000 and netProfitAfterTax = profitBeforeTax âˆ’ max(0, profitBeforeTax Ã— corporateTaxRate). In this case use 2 years and 400k units sold.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to the second decimal. If the local currency isn't the US dollar than it should be converted and appended to the local currency value. Example: â‚¬5 ($5.70)",
-            "informational": false
+            "informational": false,
+            "metric": {
+                "name": "net profit",
+                "unit": "usd",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "daemon_games_roi_1m_units_2_years",
@@ -75,7 +115,12 @@
             "order": 9,
             "guidance": "For the given city/country, estimate yearly base salaries (before employer on-costs) for these roles â€” Lead Game Designer, Senior Game Developer, Senior VFX Artist, Senior 2D Environment Artist, Senior 3D Character Artist, Senior Character Animator, and Video Game Marketer â€” plus a yearly office-space cost and a single employerOnCostRate applied to all salaries. Compute devCostBeforeIncentives = developmentYears Ã— (officeCostPerYear + (sumOfBaseSalariesPerYear Ã— (1 + employerOnCostRate))) and devIncentive = devIncentiveRate Ã— devIncentiveEligibleShare Ã— devCostBeforeIncentives, then set adjustedDevCost = devCostBeforeIncentives âˆ’ devIncentive if the incentive is non-taxable or adjustedDevCost = devCostBeforeIncentives if the incentive is taxable (and in that case you add devIncentive to income instead of subtracting it from cost). Calculate grossRevenue = unitsSold Ã— 20 and netRevenue = grossRevenue Ã— 0.7 (30% platform cut), then profitBeforeTax = netRevenue + (incentiveIsTaxable ? devIncentive : 0) âˆ’ adjustedDevCost âˆ’ 200_000 and netProfitAfterTax = profitBeforeTax âˆ’ max(0, profitBeforeTax Ã— corporateTaxRate). In this case use 2 years and 1M units sold.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to the second decimal. If the local currency isn't the US dollar than it should be converted and appended to the local currency value. Example: â‚¬5 ($5.70)",
-            "informational": false
+            "informational": false,
+            "metric": {
+                "name": "net profit",
+                "unit": "usd",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "daemon_games_roi_5m_units_2_years",
@@ -84,7 +129,12 @@
             "order": 10,
             "guidance": "For the given city/country, estimate yearly base salaries (before employer on-costs) for these roles â€” Lead Game Designer, Senior Game Developer, Senior VFX Artist, Senior 2D Environment Artist, Senior 3D Character Artist, Senior Character Animator, and Video Game Marketer â€” plus a yearly office-space cost and a single employerOnCostRate applied to all salaries. Compute devCostBeforeIncentives = developmentYears Ã— (officeCostPerYear + (sumOfBaseSalariesPerYear Ã— (1 + employerOnCostRate))) and devIncentive = devIncentiveRate Ã— devIncentiveEligibleShare Ã— devCostBeforeIncentives, then set adjustedDevCost = devCostBeforeIncentives âˆ’ devIncentive if the incentive is non-taxable or adjustedDevCost = devCostBeforeIncentives if the incentive is taxable (and in that case you add devIncentive to income instead of subtracting it from cost). Calculate grossRevenue = unitsSold Ã— 20 and netRevenue = grossRevenue Ã— 0.7 (30% platform cut), then profitBeforeTax = netRevenue + (incentiveIsTaxable ? devIncentive : 0) âˆ’ adjustedDevCost âˆ’ 200_000 and netProfitAfterTax = profitBeforeTax âˆ’ max(0, profitBeforeTax Ã— corporateTaxRate). In this case use 2 years and 5M units sold.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to the second decimal. If the local currency isn't the US dollar than it should be converted and appended to the local currency value. Example: â‚¬5 ($5.70)",
-            "informational": false
+            "informational": false,
+            "metric": {
+                "name": "net profit",
+                "unit": "usd",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "daemon_games_yearly_office_space_cost",
@@ -93,7 +143,12 @@
             "order": 11,
             "guidance": "For a 10ish person company",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
-            "informational": false
+            "informational": false,
+            "metric": {
+                "name": "office",
+                "unit": "per year",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "daemon_games_employer_on_cost_rate",
@@ -102,7 +157,12 @@
             "model": "gpt-5-mini",
             "order": 12,
             "valueRequirements": "A single percentage value represented as a whole number (example: 35%)",
-            "informational": false
+            "informational": false,
+            "metric": {
+                "name": "on-cost",
+                "unit": "percent",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "daemon_games_corporate_tax_rate",
@@ -111,27 +171,12 @@
             "model": "gpt-5-mini",
             "order": 13,
             "valueRequirements": "Value must be a single percentage value such as 25%.",
-            "informational": false
-        },
-        {
-            "id": "daemon_games_dev_incentive_rate",
-            "categoryId": "daemon_games",
-            "label": "Dev Incentive Rate",
-            "model": "gpt-5-mini",
-            "order": 14,
-            "guidance": "Effective % credit/rebate on eligible development costs (e.g. 30% game tax credit).",
-            "valueRequirements": "Value must be a single percentage value such as 30%.",
-            "informational": false
-        },
-        {
-            "id": "daemon_games_dev_incentive_eligible_share",
-            "categoryId": "daemon_games",
-            "label": "Dev Incentive Eligible Share",
-            "model": "gpt-5-mini",
-            "order": 15,
-            "guidance": "Fraction of total dev cost that qualifies for the incentive (e.g. 0.8 for 80%).",
-            "valueRequirements": "Value must be a single percentage value representing the eligible share (e.g., 80%).",
-            "informational": false
+            "informational": false,
+            "metric": {
+                "name": "tax",
+                "unit": "percent",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "integration_immigration_status_rights",
@@ -139,7 +184,12 @@
             "label": "Immigration Status & Rights",
             "order": 1,
             "valueRequirements": "Defines the types of status' and how they are determined and what rights they add. (Permanant, Citizen). Isn't constrained to character limit.",
-            "informational": true
+            "informational": true,
+            "metric": {
+                "name": "status",
+                "unit": "rights",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "integration_immigration_effort",
@@ -151,7 +201,12 @@
                     "rating": 10,
                     "guidance": "Visa filing is straight forward and evaluations have a quick turn around."
                 }
-            ]
+            ],
+            "metric": {
+                "name": "visa",
+                "unit": "month",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "integration_adult_language_expectations",
@@ -179,7 +234,12 @@
                     "rating": 1,
                     "guidance": "English is unwelcome"
                 }
-            ]
+            ],
+            "metric": {
+                "name": "language",
+                "unit": "percent",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "integration_childhood_language_expectations",
@@ -195,7 +255,12 @@
                     "rating": 5,
                     "guidance": "Regional language proficiency expected, with some inegration assistance"
                 }
-            ]
+            ],
+            "metric": {
+                "name": "seats",
+                "unit": "bilingual",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "integration_welcoming_of_skilled_immigrants",
@@ -207,7 +272,12 @@
                     "rating": 10,
                     "guidance": "Most people are generally happy with your presence and anti-immigration sentiment is low"
                 }
-            ]
+            ],
+            "metric": {
+                "name": "approval",
+                "unit": "percent",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "integration_housing_accessibility",
@@ -227,49 +297,87 @@
                     "rating": 5,
                     "guidance": "Skill migrants are able to find an acceptable home in under six months"
                 }
-            ]
+            ],
+            "metric": {
+                "name": "lease",
+                "unit": "weeks",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "life_bureaucratic_compliance_effort",
             "categoryId": "life",
             "label": "Life Bureaucratic Compliance Effort",
-            "order": 1
+            "order": 1,
+            "metric": {
+                "name": "compliance",
+                "unit": "hours",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "life_daycare_accessibility",
             "categoryId": "life",
             "label": "Daycare Accessibility",
-            "order": 2
+            "order": 2,
+            "metric": {
+                "name": "placement",
+                "unit": "months",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "life_daycare_affordability_non_resident",
             "categoryId": "life",
             "label": "Daycare Affordability (Non Resident)",
             "order": 3,
-            "guidance": "Estimated monthly cost for full-time daycare when the child is considered a non resident.",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "guidance": "Monthly net daycare cost for a 1-year-old child (include subsidies).",
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "net daycare tuition for a 1-year-old",
+                "unit": "EUR/USD per month",
+                "direction": "lower is better",
+                "rangeHint": "Typical monthly net daycare cost for a 1-year-old child"
+            }
         },
         {
             "id": "life_daycare_affordability_perm_resident",
             "categoryId": "life",
             "label": "Daycare Affordability (Perm Resident)",
             "order": 4,
-            "guidance": "Estimated monthly cost for full-time daycare when the child qualifies as a permanent resident.",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "guidance": "Monthly net daycare cost for a 1-year-old child (include subsidies).",
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "net daycare tuition for a 1-year-old",
+                "unit": "EUR/USD per month",
+                "direction": "lower is better",
+                "rangeHint": "Typical monthly net daycare cost for a 1-year-old child"
+            }
         },
         {
             "id": "life_daycare_affordability_citizen",
             "categoryId": "life",
             "label": "Daycare Affordability (Citizen)",
             "order": 5,
-            "guidance": "Estimated monthly cost for full-time daycare when the child is a citizen.",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "guidance": "Monthly net daycare cost for a 1-year-old child (include subsidies).",
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "net daycare tuition for a 1-year-old",
+                "unit": "EUR/USD per month",
+                "direction": "lower is better",
+                "rangeHint": "Typical monthly net daycare cost for a 1-year-old child"
+            }
         },
         {
             "id": "life_healthcare_accessibility",
             "categoryId": "life",
             "label": "Healthcare Accessibility",
-            "order": 6
+            "order": 6,
+            "metric": {
+                "name": "wait",
+                "unit": "days",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "life_healthcare_affordability_non_resident",
@@ -277,7 +385,12 @@
             "label": "Healthcare Affordability (Non Resident)",
             "order": 7,
             "guidance": "Estimated monthly healthcare expenses (insurance premiums plus typical out-of-pocket) when the family has non-resident status.",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "cost",
+                "unit": "per month",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "life_healthcare_affordability_perm_resident",
@@ -285,7 +398,12 @@
             "label": "Healthcare Affordability (Perm Resident)",
             "order": 8,
             "guidance": "Estimated monthly healthcare expenses when covered as permanent residents, including insurance and average out-of-pocket costs.",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "cost",
+                "unit": "per month",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "life_healthcare_affordability_citizen",
@@ -293,7 +411,12 @@
             "label": "Healthcare Affordability (Citizen)",
             "order": 9,
             "guidance": "Estimated monthly healthcare expenses for citizens with standard coverage.",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "cost",
+                "unit": "per month",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "life_healthcare_tied_to_employment",
@@ -309,7 +432,14 @@
                     "rating": 1,
                     "guidance": "Yes"
                 }
-            ]
+            ],
+            "metric": {
+                "name": "coverage tied to employment",
+                "unit": "boolean tendency",
+                "direction": "lower is better",
+                "rangeHint": "10 = healthcare not tied to employment; 1 = healthcare primarily tied to employment"
+            },
+            "guidance": "Is baseline healthcare access primarily tied to employment? Aim for 10 = no, 1 = yes. Consider typical resident experience, not edge cases."
         },
         {
             "id": "life_hours_worked_per_year",
@@ -327,136 +457,245 @@
                     "rating": 4,
                     "guidance": "2,200"
                 }
-            ]
+            ],
+            "metric": {
+                "name": "hours",
+                "unit": "per year",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "life_public_transportation",
             "categoryId": "life",
             "label": "Public Transportation",
             "order": 12,
-            "guidance": "Quality and ubiquity of public transportation"
+            "guidance": "Use percent of residents within 500 m of transit running <=10-minute headways for at least 16 hours/day.",
+            "metric": {
+                "name": "residents near frequent transit",
+                "unit": "percent of residents",
+                "direction": "higher is better",
+                "rangeHint": "Share of residents within 500 m of transit running <=10-minute headways for >=16 hours/day"
+            }
         },
         {
             "id": "outdoors_mild_weather",
             "categoryId": "outdoors",
             "label": "Mild Weather",
-            "order": 1
+            "order": 1,
+            "metric": {
+                "name": "comfortable weather days",
+                "unit": "days per year",
+                "direction": "higher is better",
+                "rangeHint": "Count days with daytime highs 50-85 F and humidity <70%"
+            }
         },
         {
             "id": "outdoors_winter_temperature_range",
             "categoryId": "outdoors",
             "label": "Winter Temperature Range",
             "order": 2,
-            "valueRequirements": "Value must be in fahrenheit"
+            "valueRequirements": "Value must be in fahrenheit",
+            "metric": {
+                "name": "winter",
+                "unit": "degrees",
+                "direction": "closer to mild is better"
+            }
         },
         {
             "id": "outdoors_spring_temperature_range",
             "categoryId": "outdoors",
             "label": "Spring Temperature Range",
             "order": 3,
-            "valueRequirements": "Value must be in fahrenheit"
+            "valueRequirements": "Value must be in fahrenheit",
+            "metric": {
+                "name": "spring",
+                "unit": "degrees",
+                "direction": "closer to mild is better"
+            }
         },
         {
             "id": "outdoors_summer_temperature_range",
             "categoryId": "outdoors",
             "label": "Summer Temperature Range",
             "order": 4,
-            "valueRequirements": "Value must be in fahrenheit"
+            "valueRequirements": "Value must be in fahrenheit",
+            "metric": {
+                "name": "summer",
+                "unit": "degrees",
+                "direction": "closer to mild is better"
+            }
         },
         {
             "id": "outdoors_fall_temperature_range",
             "categoryId": "outdoors",
             "label": "Fall Temperature Range",
             "order": 5,
-            "valueRequirements": "Value must be in fahrenheit"
+            "valueRequirements": "Value must be in fahrenheit",
+            "metric": {
+                "name": "fall",
+                "unit": "degrees",
+                "direction": "closer to mild is better"
+            }
         },
         {
             "id": "outdoors_natural_beauty",
             "categoryId": "outdoors",
             "label": "Natural Beauty",
-            "order": 6
+            "order": 6,
+            "metric": {
+                "name": "land",
+                "unit": "minutes",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "outdoors_nature_access",
             "categoryId": "outdoors",
             "label": "Nature Access",
-            "order": 7
+            "order": 7,
+            "metric": {
+                "name": "park",
+                "unit": "trail",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "outdoors_beach_life",
             "categoryId": "outdoors",
             "label": "Beach Life",
             "order": 8,
-            "informational": true
+            "informational": true,
+            "metric": {
+                "name": "beach",
+                "unit": "minutes",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "leisure_quality_food_access",
             "categoryId": "leisure",
             "label": "Quality Food Access",
-            "order": 1
+            "order": 1,
+            "metric": {
+                "name": "food",
+                "unit": "calories",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "leisure_peoples_centric_cities",
             "categoryId": "leisure",
             "label": "Peoples Centric Cities",
-            "order": 2
+            "order": 2,
+            "metric": {
+                "name": "trips",
+                "unit": "percent",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "leisure_parent_friendly_3rd_places",
             "categoryId": "leisure",
             "label": "Parent Friendly 3rd Places",
-            "order": 3
+            "order": 3,
+            "metric": {
+                "name": "venues",
+                "unit": "per 100k",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "leisure_common_date_night_opportunities",
             "categoryId": "leisure",
             "label": "Common Date Night Opportunities",
             "order": 4,
-            "informational": true
+            "informational": true,
+            "metric": {
+                "name": "date",
+                "unit": "per week",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "leisure_common_family_activity_opportunities",
             "categoryId": "leisure",
             "label": "Common Family Activity Opportunities",
             "order": 5,
-            "informational": true
+            "informational": true,
+            "metric": {
+                "name": "family",
+                "unit": "per week",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "leisure_common_friend_night_opportunities",
             "categoryId": "leisure",
             "label": "Common Friend Night Opportunities",
             "order": 6,
-            "informational": true
+            "informational": true,
+            "metric": {
+                "name": "friend",
+                "unit": "per week",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "stability_economic_stability",
             "categoryId": "stability",
             "label": "Economic Stability",
-            "order": 1
+            "order": 1,
+            "metric": {
+                "name": "years in recession (last 20 years)",
+                "unit": "years",
+                "direction": "lower is better"
+            },
+            "guidance": "Use number of years with negative real GDP growth in the last 20 years; fewer recession years means more stability."
         },
         {
             "id": "stability_political_stability",
             "categoryId": "stability",
             "label": "Political Stability",
-            "order": 2
+            "order": 2,
+            "metric": {
+                "name": "V-Dem LDI percentile",
+                "unit": "percentile",
+                "direction": "higher is better"
+            },
+            "guidance": "Use V-Dem Liberal Democracy Index percentile; higher shows stronger institutions and fewer signs of autocratization."
         },
         {
             "id": "stability_social_and_quality_of_life_stability",
             "categoryId": "stability",
             "label": "Social and Quality of Life Stability",
-            "order": 3
+            "order": 3,
+            "metric": {
+                "name": "incidents",
+                "unit": "per 100k",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "stability_climate_stability",
             "categoryId": "stability",
             "label": "Climate Stability",
-            "order": 4
+            "order": 4,
+            "metric": {
+                "name": "ND-GAIN percentile",
+                "unit": "percentile",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "stability_migration_stability",
             "categoryId": "stability",
             "label": "Migration Stability",
-            "order": 5
+            "order": 5,
+            "metric": {
+                "name": "overhauls",
+                "unit": "per decade",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "opportunity_college_accessibility",
@@ -476,25 +715,45 @@
                     "rating": 8,
                     "guidance": "College is free or very low cost for our family eventually"
                 }
-            ]
+            ],
+            "metric": {
+                "name": "tuition",
+                "unit": "percent of income",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "opportunity_college_quality",
             "categoryId": "opportunity",
             "label": "College Quality",
-            "order": 2
+            "order": 2,
+            "metric": {
+                "name": "rank",
+                "unit": "english",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "opportunity_continuing_education_accessibility",
             "categoryId": "opportunity",
             "label": "Continuing Education Accessibility",
-            "order": 3
+            "order": 3,
+            "metric": {
+                "name": "program",
+                "unit": "education",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "opportunity_demand_for_dotnet_architect",
             "categoryId": "opportunity",
             "label": "Demand for .NET Architect (20 years of experience)",
-            "order": 4
+            "order": 4,
+            "metric": {
+                "name": "postings",
+                "unit": "per million",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "opportunity_salary_for_dotnet_architect",
@@ -503,13 +762,23 @@
             "model": "gpt-5-mini",
             "order": 5,
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
-            "informational": true
+            "informational": true,
+            "metric": {
+                "name": "salary",
+                "unit": "usd",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "opportunity_demand_for_ruby_on_rails",
             "categoryId": "opportunity",
             "label": "Demand for Ruby on Rails (6 years of experience)",
-            "order": 6
+            "order": 6,
+            "metric": {
+                "name": "postings",
+                "unit": "per million",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "opportunity_salary_for_ruby_on_rails",
@@ -518,28 +787,48 @@
             "model": "gpt-5-mini",
             "order": 7,
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
-            "informational": true
+            "informational": true,
+            "metric": {
+                "name": "salary",
+                "unit": "usd",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "kids_education_quality",
             "categoryId": "kids",
             "label": "Education Quality",
             "order": 1,
-            "guidance": "In primary and in scondary schooling"
+            "guidance": "In primary and in scondary schooling",
+            "metric": {
+                "name": "pisa",
+                "unit": "percentile",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "kids_food_quality",
             "categoryId": "kids",
             "label": "Food Quality",
             "order": 2,
-            "guidance": "Evaluate school meal plans using a consistent nutrition quality index (e.g., Healthy Eating Index adapted to local dietary guidelines) with emphasis on limiting ultra-processed foods in primary and secondary schools."
+            "guidance": "Evaluate school meal plans using a consistent nutrition quality index (e.g., Healthy Eating Index adapted to local dietary guidelines) with emphasis on limiting ultra-processed foods in primary and secondary schools.",
+            "metric": {
+                "name": "hei",
+                "unit": "score",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "kids_language_expectations_in_schools",
             "categoryId": "kids",
             "label": "Language Expectations in Schools",
             "order": 3,
-            "guidance": "Capture the average weekly hours of English instruction in public schools and whether bilingual aides support core subjects."
+            "guidance": "Capture the average weekly hours of English instruction in public schools and whether bilingual aides support core subjects.",
+            "metric": {
+                "name": "english",
+                "unit": "hours/week",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "kids_language_integration_services",
@@ -555,7 +844,12 @@
                     "rating": 9,
                     "guidance": "Integration services fully provided in the public school system"
                 }
-            ]
+            ],
+            "metric": {
+                "name": "language",
+                "unit": "seats",
+                "direction": "higher is better"
+            }
         },
         {
             "id": "kids_bullying_and_racism",
@@ -572,7 +866,12 @@
                     "rating": 5,
                     "guidance": "There is some concern for physical safety"
                 }
-            ]
+            ],
+            "metric": {
+                "name": "incidents",
+                "unit": "per 1,000",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "cost_of_living_family_150m2_in_city_center",
@@ -580,7 +879,12 @@
             "label": "150m2 (in city center)",
             "order": 1,
             "guidance": "Report the typical monthly rent to lease a 150m2 family apartment in the central business/core districts, including estimated building fees where standard.",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "rent",
+                "unit": "per month",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "cost_of_living_family_150m2_on_city_edge",
@@ -588,7 +892,12 @@
             "label": "150m2 (on city edge)",
             "order": 2,
             "guidance": "Report the monthly rent for a representative 150m2 family apartment on the edge of the city (mixed residential/urban fringe). Include common charges if typical.",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "rent",
+                "unit": "per month",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "cost_of_living_family_150m2_suburb",
@@ -596,7 +905,12 @@
             "label": "150m2 (suburb)",
             "order": 3,
             "guidance": "Report the monthly rent for a 150m2 family home in a realistic commuter suburb with comparable schools/amenities. Include HOA/service charges if expected.",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "rent",
+                "unit": "per month",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "cost_of_living_family_eating_out",
@@ -604,7 +918,12 @@
             "label": "Eating Out",
             "order": 4,
             "guidance": "Estimated cost of taking a family of four out to dinner.",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "meal",
+                "unit": "per outing",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "cost_of_living_family_health_insurance_costs",
@@ -613,7 +932,12 @@
             "order": 5,
             "guidance": "Capture the typical monthly family premium. If health insurance is optional or only an add-on to public coverage, record the value as 0.",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
-            "informational": true
+            "informational": true,
+            "metric": {
+                "name": "premium",
+                "unit": "per month",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "cost_of_living_family_52_therapy_sessions",
@@ -621,7 +945,12 @@
             "label": "52 Therapy Sessions",
             "order": 6,
             "guidance": "Estimated cost for 52 therapy sessions",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "cost",
+                "unit": "per year",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "cost_of_living_family_3_days_in_er",
@@ -629,7 +958,12 @@
             "label": "3 Days in ER",
             "order": 7,
             "guidance": "Estiamted cost for 3 nights in the ER",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "cost",
+                "unit": "er",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "cost_of_living_family_semester_of_college_non_resident",
@@ -637,7 +971,12 @@
             "label": "Semester of College (Non Resident)",
             "order": 8,
             "guidance": "Estimated cost for a single semester of college for a non resident",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "tuition",
+                "unit": "per semester",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "cost_of_living_family_semester_of_college_perm_resident",
@@ -645,7 +984,12 @@
             "label": "Semester of College (Perm Resident)",
             "order": 9,
             "guidance": "Estimated cost for a single semester of college for a perm resident",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "tuition",
+                "unit": "per semester",
+                "direction": "lower is better"
+            }
         },
         {
             "id": "cost_of_living_family_semester_of_college_citizen",
@@ -653,7 +997,12 @@
             "label": "Semester of College (Citizen)",
             "order": 10,
             "guidance": "Estimated cost for a single semester of college for a citizen",
-            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67))."
+            "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
+            "metric": {
+                "name": "tuition",
+                "unit": "per semester",
+                "direction": "lower is better"
+            }
         }
     ]
 }

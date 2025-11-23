@@ -44,7 +44,8 @@
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
       "alignmentText": "NOK 0.00 ($0.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
@@ -74,16 +75,6 @@
       "sameAsParent": true
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "40%",
-      "alignmentValue": 5
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "19%",
-      "alignmentValue": 6
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
       "alignmentText": "Bergen entrepreneur visa can work for your family; plan 3\u20134 months, in-person biometrics and background checks, with a solid business plan and funding.",
       "alignmentValue": 7,
@@ -101,13 +92,13 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "1",
+      "alignmentText": "0",
       "alignmentValue": 1
     },
     {
       "key": "daemon_games_number_of_aa_studios",
-      "alignmentText": "1",
-      "alignmentValue": 2
+      "alignmentText": "2",
+      "alignmentValue": 3
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
@@ -117,8 +108,8 @@
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "NOK 39,423,390.00 ($3,399,080.17)",
-      "alignmentValue": 8
+      "alignmentText": "NOK 34,500,000.00 ($2,973,900.00)",
+      "alignmentValue": 7
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
@@ -135,7 +126,8 @@
     {
       "key": "daemon_games_yearly_office_space_cost",
       "alignmentText": "NOK 180,000.00 ($16,363.64)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "integration_adult_language_expectations",
@@ -144,13 +136,13 @@
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Bergen public schools are largely Norwegian; bilingual options are rare, usually only in upper grades.",
+      "alignmentText": "Bergen public schools are largely Norwegian; bilingual/English tracks are rare (1-9%), so English ubiquity is limited.",
       "alignmentValue": 2,
       "sameAsParent": false
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Bergen, Norway rental process: 6\u20138 weeks to secure a lease, ~3 months deposit; expect in-person viewings and a possible guarantor for foreign tenants.",
+      "alignmentText": "Family moving to Bergen: 6\u20138 weeks to secure; ~3 months deposit; in-person viewings; guarantor possible; English commonly spoken.",
       "alignmentValue": 6
     },
     {
@@ -177,12 +169,13 @@
     },
     {
       "key": "kids_education_quality",
-      "alignmentText": "Norway\u0027s Bergen schools rank around 70-79th percentile globally. The public system offers strong early programs and bilingual exposure that fit your goals.",
-      "alignmentValue": 8
+      "alignmentText": "Bergen public schools are around the 70-79th percentile globally; strong early programs and bilingual exposure fit your 5-year-old and 1-year-old kids.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "Bergen school meals in Norway commonly score HEI 85-89 with low ultra-processed foods, matching your health goals.",
+      "alignmentText": "Bergen school meals in Norway typically score HEI 85\u201389 with low ultra-processed foods, aligning with your family\u0027s health goals.",
       "alignmentValue": 9
     },
     {
@@ -192,8 +185,9 @@
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Bergen, Norway offers strong language support for kids. Norwegian classes and translations are widely available in public services.",
-      "alignmentValue": 9
+      "alignmentText": "Bergen offers strong language support for kids: Norwegian classes and translations are widely available, with English-friendly public services.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_date_night_opportunities",
@@ -255,7 +249,7 @@
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "Norway\u0027s universal healthcare in Bergen offers affordable care; GP waits 8-10 days, specialists 15-20 days - fits mid-range needs for the family.",
+      "alignmentText": "Norway\u0027s Bergen provides universal healthcare. GP waits 8\u201310 days, a mid-range access level for a family with young children.",
       "alignmentValue": 6
     },
     {
@@ -280,19 +274,21 @@
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "1688",
+      "alignmentText": "1700",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "life_public_transportation",
-      "alignmentText": "Bergen\u0027s dense bus network offers frequent headways. Most urban areas are within 500 m of service for long daytime hours.",
-      "alignmentValue": 9
+      "alignmentText": "Public transit in Bergen covers most neighborhoods within 500 m of frequent service; transit operates well over 16 hours daily, supporting a car-light family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "Bergen, Norway offers tuition-free public higher education. Admission is relatively accessible in many programs.",
-      "alignmentValue": 10
+      "alignmentText": "Bergen, Norway offers tuition-free public higher education; admissions are accessible in many programs, easing family budgeting for college.",
+      "alignmentValue": 10,
+      "sameAsParent": true
     },
     {
       "key": "opportunity_college_quality",
@@ -301,13 +297,13 @@
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Bergen, Norway offers strong continuing education with the University of Bergen, Folkeuniversitetet, and subsidized online courses locally.",
+      "alignmentText": "Bergen offers continuing education options (University of Bergen, Folkeuniversitetet) and subsidized online courses. Ideal for families prioritizing education.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Bergen, Norway shows modest senior .NET architect demand; postings are limited. For higher demand, consider Oslo or remote opportunities.",
+      "alignmentText": "Bergen, Norway shows modest senior .NET architect demand with limited postings. Oslo or remote roles offer more opportunities.",
       "alignmentValue": 4,
       "sameAsParent": false
     },
@@ -318,12 +314,12 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "NOK 980,000.00 ($98,000.00)",
+      "alignmentText": "NOK 1,350,000.00 ($129,236.75)",
       "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "NOK 800,000.00 ($76,190.48)"
+      "alignmentText": "NOK 720,000.00 ($68,571.43)"
     },
     {
       "key": "outdoors_beach_life",
@@ -343,24 +339,25 @@
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Bergen, Norway offers fjords and protected lands within 60 minutes; at least two scenic sites nearby suit an outdoors-loving family.",
+      "alignmentText": "Bergen, Norway\u0027s fjords and protected lands within 60 minutes offer kid-friendly nature days for an outdoors-loving family.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Bergen, Norway offers strong nature access for a family: 8-9 parks \u003E10 acres within 5 km and transit-accessible trails near Fl\u00F8yen/Ulriken in under 30 minutes.",
-      "alignmentValue": 8
+      "alignmentText": "Bergen offers strong nature access for a family. Expect 8-9 parks \u003E10 acres within 5 km and transit-accessible trails near Fl\u00F8yen/Ulriken in under 30 minutes.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Spring in Bergen, Norway is mild with mixed sun and rain; highs about 50\u201368\u00B0F and lows around 38\u201348\u00B0F.",
+      "alignmentText": "Spring in Bergen, Norway: highs about 50\u201368\u00B0F and lows 38\u201348\u00B0F. Expect a mix of sun and rain; mild but changeable.",
       "alignmentValue": 7
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Summer in Bergen, NO: highs 65-72\u00B0F and lows 55-60\u00B0F; mild, with rare heat spikes, ideal for a family-friendly outdoor lifestyle.",
-      "alignmentValue": 9,
+      "alignmentText": "Bergen, NO summer highs 70-75\u00B0F; mild, family-friendly climate matches your preference for calm, low-humidity summers.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
@@ -382,7 +379,7 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Norway\u0027s immigration system is stable and predictable; Bergen\u0027s family-friendly policies support clear visa routes and entrepreneurship.",
+      "alignmentText": "Norway\u0027s immigration system remains stable and predictable. Bergen offers clear visa routes for families and a supportive startup ecosystem.",
       "alignmentValue": 9,
       "sameAsParent": false
     },

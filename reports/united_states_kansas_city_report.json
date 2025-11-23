@@ -22,7 +22,7 @@
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "USD 2,500.00",
+      "alignmentText": "USD 1,234.56",
       "alignmentValue": 1,
       "sameAsParent": false
     },
@@ -38,8 +38,7 @@
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "USD 1,234.56",
-      "sameAsParent": false
+      "alignmentText": "USD 1,234.56"
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
@@ -60,7 +59,7 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "KC, MO, US: regular federal/state filings with occasional in-person steps; part-time accountant keeps taxes predictable for a founder family.",
+      "alignmentText": "KC, MO, US: federal/state filings with occasional in-person steps; founder family keeps taxes predictable with a part-time accountant in Kansas City.",
       "alignmentValue": 7
     },
     {
@@ -73,16 +72,6 @@
       "alignmentText": "25%",
       "alignmentValue": 6,
       "sameAsParent": true
-    },
-    {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "25%",
-      "alignmentValue": 2
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
@@ -123,12 +112,12 @@
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "USD 53,625,200.00",
+      "alignmentText": "USD 53,751,995.00",
       "alignmentValue": 7
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Kansas City, USA has a modest indie game scene with quarterly events and a 100-149 online hub; founder-friendly, supports your game startup.",
+      "alignmentText": "Kansas City, USA has a modest indie game scene with quarterly events and a 100-149 online hub. Founder-friendly, supporting early game startups.",
       "alignmentValue": 5,
       "sameAsParent": false
     },
@@ -213,7 +202,8 @@
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Kansas City, MO: Establish a weekly or biweekly Common Friend Night for families with three formats: (1) board-game evenings at venues in Downtown, Crossroads, Westport, or River Market; (2) KC Public Library family programs; (3) nearby community-center socials. Schedule Fridays or Saturdays 6:00\u20139:00 pm with rotating hosts. Publicize via Meetup, KC Public Library calendars, and local boards; prioritize low-cost, accessible venues and clear RSVP/carpooling details; track turnout and solicit feedback to improve inclusivity and safety."
+      "alignmentText": "Kansas City, MO: Launch a recurring Common Friend Night for families (weekly or biweekly) with three formats: (1) board-game evenings at venues in Downtown, Crossroads, Westport, or River Market; (2) KC Public Library family programs; (3) nearby community-center socials. Schedule Friday or Saturday evenings 6:00\u20139:00 pm with rotating hosts. Promote via Meetup groups, KC Public Library calendars, and local boards; prioritize low-cost or free venues, clear RSVP and carpooling details, and collect turnout feedback to improve inclusivity and safety.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
@@ -246,7 +236,8 @@
     {
       "key": "life_daycare_affordability_citizen",
       "alignmentText": "USD 1,234.56",
-      "alignmentValue": 1
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_non_resident",
@@ -302,7 +293,7 @@
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "KC, MO public colleges are mid-range; tuition ~16-18% of median income with modest admissions. Grants can help two kids afford college.",
+      "alignmentText": "KC, MO public colleges cost about 16-18% of median net income. Grants can help two kids afford college.",
       "alignmentValue": 4,
       "sameAsParent": false
     },
@@ -314,8 +305,9 @@
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Kansas City, MO offers extensive continuing education options (MCC/JCCC and online). This aligns with the family\u0027s education goals.",
-      "alignmentValue": 9
+      "alignmentText": "Kansas City, MO offers strong continuing education options (MCC/JCCC; online). This aligns with the family\u0027s high education priority.",
+      "alignmentValue": 9,
+      "sameAsParent": true
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
@@ -338,8 +330,7 @@
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Plan beach days within ~2.5-3 hours from Kansas City to Lake of the Ozarks (Osage Beach/Grand Glaize), Smithville Lake, and Longview Lake. For each site, verify seasonal lifeguards, parking limits, and fees; check current conditions on park sites; target mild, low-humidity windows and morning visits in summer; pack sunscreen, water, and snacks; arrive early to secure parking.",
-      "sameAsParent": false
+      "alignmentText": "Plan beach trips from Kansas City to Lake of the Ozarks (Osage Beach/Grand Glaize), Smithville Lake, and Longview Lake within roughly 2.5\u20133 hours. For each site, verify seasonal lifeguards, parking limits, and fees; check current park conditions; target morning visits in summer with mild, low-humidity weather; pack sunscreen, water, and snacks; arrive early to secure parking."
     },
     {
       "key": "outdoors_fall_temperature_range",
@@ -370,20 +361,19 @@
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Summer in Kansas City, MO, USA: highs 75-88\u00B0F, lows 62-74\u00B0F with moderate humidity. Great for family outdoor activities.",
+      "alignmentText": "Summer in Kansas City, MO, USA: highs 75\u201388\u00B0F, lows 62\u201374\u00B0F; humidity moderate; mild evenings but warm days persist.",
       "alignmentValue": 8
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "Kansas City, MO winters typically 40\u201355\u00B0F highs and 28\u201340\u00B0F lows with light snow; generally manageable for a family.",
-      "alignmentValue": 9,
+      "alignmentText": "Kansas City, MO winters typically 40-44\u00B0F highs with lows around 20-30\u00B0F; generally manageable for a family.",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Kansas City, MO has spring storms and tornado risk. Expect about 22-25 severe weather/AQI days yearly; plan flexible outdoor activities.",
-      "alignmentValue": 5,
-      "sameAsParent": false
+      "alignmentText": "Kansas City, MO, USA: spring storms and tornado risk; expect about 22-25 severe weather days yearly; plan flexible outdoor activities.",
+      "alignmentValue": 5
     },
     {
       "key": "stability_economic_stability",
@@ -392,8 +382,8 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Migration Stability: 6. US policy shows 3-4 overhauls/decade and 4-5% revocations; KC offers family-friendly, pragmatic options.",
-      "alignmentValue": 6
+      "alignmentText": "Migration Stability: 8 - US policy ~3 overhauls/decade; KC offers family-friendly, pragmatic immigration options and local stability.",
+      "alignmentValue": 8
     },
     {
       "key": "stability_political_stability",
@@ -403,7 +393,7 @@
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Kansas City, MO, USA offers family-friendly neighborhoods and solid schools; crime ~320-340/100k with reliable utilities.",
+      "alignmentText": "Kansas City, MO, USA offers family-friendly neighborhoods and solid schools. Crime runs around 320-340 per 100k with reliable utilities.",
       "alignmentValue": 7
     }
   ]

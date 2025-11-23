@@ -52,7 +52,7 @@ public sealed class CategoryKeyCreationService
         _logger = logger;
     }
 
-    public async Task AddCategoryKeyAsync(string categorySelector, string keyLabel, string? keyGuidance, CancellationToken cancellationToken = default)
+    public async Task AddCategoryKeyAsync(string categorySelector, string keyLabel, string? keyGuidance, MetricDefinition metricDefinition, CancellationToken cancellationToken = default)
     {
         if (string.IsNullOrWhiteSpace(categorySelector))
         {
@@ -64,8 +64,18 @@ public sealed class CategoryKeyCreationService
             throw new ArgumentException("A key label must be provided.", nameof(keyLabel));
         }
 
+        if (metricDefinition is null)
+        {
+            throw new ArgumentNullException(nameof(metricDefinition));
+        }
+
         keyLabel = keyLabel.Trim();
         keyGuidance = string.IsNullOrWhiteSpace(keyGuidance) ? null : keyGuidance.Trim();
+        var metric = NormalizeMetric(metricDefinition);
+        if (string.IsNullOrEmpty(metric.Name))
+        {
+            throw new ArgumentException("A metric name must be provided.", nameof(metricDefinition));
+        }
 
         var categoryMatch = await _categoryKeyProvider.GetCategoryMatchAsync(categorySelector, cancellationToken).ConfigureAwait(false);
         if (categoryMatch is null)
@@ -92,11 +102,11 @@ public sealed class CategoryKeyCreationService
 
         var familyProfile = await _familyProfileProvider.GetProfileAsync(cancellationToken).ConfigureAwait(false);
         var ratingGuideSuggestion = await _ratingGuideClient
-            .GenerateRatingGuideAsync(keyLabel, categoryName, familyProfile, keyGuidance, cancellationToken)
+            .GenerateRatingGuideAsync(keyLabel, categoryName, familyProfile, keyGuidance, metric, cancellationToken)
             .ConfigureAwait(false);
 
         await PersistRatingGuideAsync(ratingGuidesDocument, keyId, keyLabel, ratingGuideSuggestion, cancellationToken).ConfigureAwait(false);
-        await PersistCategoryKeyAsync(categoryKeysDocument, categoryId, keyId, keyLabel, keyGuidance, cancellationToken).ConfigureAwait(false);
+        await PersistCategoryKeyAsync(categoryKeysDocument, categoryId, keyId, keyLabel, keyGuidance, metric, cancellationToken).ConfigureAwait(false);
 
         _categoryKeyProvider.Invalidate();
         _ratingGuideProvider.Invalidate();
@@ -150,7 +160,7 @@ public sealed class CategoryKeyCreationService
         return document;
     }
 
-    private async Task PersistCategoryKeyAsync(CategoryKeyDocument document, string categoryId, string keyId, string keyLabel, string? keyGuidance, CancellationToken cancellationToken)
+    private async Task PersistCategoryKeyAsync(CategoryKeyDocument document, string categoryId, string keyId, string keyLabel, string? keyGuidance, MetricDefinition metric, CancellationToken cancellationToken)
     {
         var order = document.CategoryKeys
             .Where(k => k.CategoryId.Equals(categoryId, StringComparison.OrdinalIgnoreCase))
@@ -164,7 +174,8 @@ public sealed class CategoryKeyCreationService
             CategoryId = categoryId,
             Label = keyLabel,
             Order = order,
-            Guidance = keyGuidance
+            Guidance = keyGuidance,
+            Metric = metric
         });
 
         var path = ResolvePath(_options.CategoryKeysPath);
@@ -272,5 +283,16 @@ public sealed class CategoryKeyCreationService
         }
 
         return result;
+    }
+
+    private static MetricDefinition NormalizeMetric(MetricDefinition metric)
+    {
+        return new MetricDefinition
+        {
+            Name = metric.Name?.Trim() ?? string.Empty,
+            Unit = string.IsNullOrWhiteSpace(metric.Unit) ? null : metric.Unit.Trim(),
+            Direction = string.IsNullOrWhiteSpace(metric.Direction) ? null : metric.Direction.Trim(),
+            RangeHint = string.IsNullOrWhiteSpace(metric.RangeHint) ? null : metric.RangeHint.Trim()
+        };
     }
 }

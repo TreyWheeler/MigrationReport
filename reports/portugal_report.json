@@ -32,12 +32,11 @@
     {
       "key": "cost_of_living_family_eating_out",
       "alignmentText": "EUR 68.00 ($74.80)",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentValue": 7
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "EUR 0.00 ($0.00)",
+      "alignmentText": "EUR 180.00 ($194.40)",
       "sameAsParent": false
     },
     {
@@ -48,8 +47,7 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "EUR 3,500.00 ($3,850.00)",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentValue": 9
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -58,8 +56,8 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "In Portugal, payroll and VAT filings are monthly; rely on a local accountant. Grants and founder visas are available; expect 40-60 hours/year.",
-      "alignmentValue": 7
+      "alignmentText": "In Portugal, payroll and VAT filings are monthly with a local accountant. Grants and founder visas are available; expect about 40-60 hours/year.",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_burn_rate",
@@ -71,16 +69,6 @@
       "key": "daemon_games_corporate_tax_rate",
       "alignmentText": "21%",
       "alignmentValue": 9
-    },
-    {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "35%",
-      "alignmentValue": 4
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "25%",
-      "alignmentValue": 8
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
@@ -153,8 +141,8 @@
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Portugal\u0027s D2 entrepreneur visa is workable for US founders. Expect 4\u20136 months with organized docs, and some in-person steps in Lisbon or Porto.",
-      "alignmentValue": 7
+      "alignmentText": "Portugal\u0027s D2 visa works for US founders. For your family in Lisbon/Porto, expect ~4\u20136 months end-to-end with organized docs and some in-person steps.",
+      "alignmentValue": 4
     },
     {
       "key": "integration_immigration_status_rights",
@@ -163,8 +151,8 @@
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Portugal offers visa routes for skilled immigrants and a supportive startup scene. Lisbon and Porto lead thriving tech ecosystems for remote and local work.",
-      "alignmentValue": 8
+      "alignmentText": "Portugal offers accessible skilled-immigrant visas and strong Lisbon/Porto tech scenes; supportive for founders with grants, though some bureaucracy remains.",
+      "alignmentValue": 9
     },
     {
       "key": "kids_bullying_and_racism",
@@ -173,12 +161,12 @@
     },
     {
       "key": "kids_education_quality",
-      "alignmentText": "Portugal\u0027s primary/secondary education is near OECD average; urban schools offer bilingual options, supporting high-quality, secular public education.",
+      "alignmentText": "Portugal\u0027s primary/secondary education is near OECD average; urban schools offer bilingual options and secular public education, suitable for a 5-year-old starting school.",
       "alignmentValue": 6
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "Portugal school meals emphasize fresh produce and regional dishes; HEI near 80\u201384 with ultra-processed foods under 10%.",
+      "alignmentText": "Portugal\u0027s school meals emphasize fresh produce with regional dishes; HEI 80\u201384 and ultra-processed \u003C10%, matching family priorities in PT.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -195,7 +183,8 @@
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "Leverage Portugal\u0027s walkable cities for short date nights: plan a sunset stroll along the river in Lisbon or Porto, followed by an intimate dinner at a nearby wine bar; for longer evenings, arrange reputable babysitting or hotel kids\u0027 club in advance, then enjoy a nearby cultural activity (Fado, cooking class) within a short cab ride."
+      "alignmentText": "Leverage Portugal\u0027s walkable cities for date nights: in Lisbon or Porto, plan a sunset stroll along the riverfront (Tagus in Lisbon; Douro/Ribeira in Porto) followed by an intimate dinner at a local wine bar. For longer evenings, pre-book reliable babysitting or a hotel kids\u0027 club, then enjoy a nearby cultural activity (Fado performance or Portuguese cooking class) within a short cab ride.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_family_activity_opportunities",
@@ -214,7 +203,7 @@
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Portugal\u0027s urban cores, like Lisbon/Porto, have walkable neighborhoods, parks, and solid transit. Roughly half of trips can be car-free for a family.",
+      "alignmentText": "Portugal\u2019s Lisbon/Porto cores offer walkable, park-rich neighborhoods with solid transit; about half of family trips can be car-free.",
       "alignmentValue": 7
     },
     {
@@ -235,7 +224,7 @@
     },
     {
       "key": "life_daycare_affordability_citizen",
-      "alignmentText": "EUR 200.00 ($216.00)",
+      "alignmentText": "EUR 180.00 ($194.40)",
       "alignmentValue": 10,
       "sameAsParent": false
     },
@@ -274,7 +263,7 @@
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "Portugal\u0027s universal public healthcare (SNS) remains accessible to residents even after job changes; employer-based coverage risk is minimal for your family.",
+      "alignmentText": "Portugal\u0027s SNS offers universal care for residents. Job changes won\u0027t typically cut baseline coverage for your family.",
       "alignmentValue": 10
     },
     {
@@ -289,8 +278,9 @@
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "Portugal\u0027s public universities offer low tuition (\u2248\u20AC1k\u2013\u20AC2k/year) with broad admission. It aligns with your high education priority and family-friendly relocation.",
-      "alignmentValue": 9
+      "alignmentText": "Portugal\u0027s public universities offer \u20AC1k-\u20AC2k/year tuition with broad admission; a strong fit for your high education priority and family-friendly relocation.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_college_quality",
@@ -305,7 +295,7 @@
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Portugal (PT) shows modest senior .NET architect demand (~2-3 postings per million per month); visa options and English-friendly tech support your move.",
+      "alignmentText": "Portugal (PT) shows modest senior .NET architect demand (~2-3 postings/million); visa options and English-friendly support aid your move.",
       "alignmentValue": 3,
       "sameAsParent": false
     },
@@ -316,26 +306,26 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 75,000.00 ($81,750.00)"
+      "alignmentText": "EUR 65,000.00 ($71,500.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 42,000.00 ($45,780.00)"
+      "alignmentText": "EUR 45,000.00 ($49,050.00)"
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Coastal Portugal offers abundant beach options; treat beach access as a nice-to-have. Prioritize family-friendly coastal towns with safe, walkable beaches, reliable public transport to inland services, and nearby parks, childcare, and healthcare to support a slower, family-oriented lifestyle.",
+      "alignmentText": "Portugal coast: prioritize family-friendly towns with safe, walkable beaches and reliable public transport to inland services. Seek areas with nearby parks, affordable childcare, and accessible healthcare; ensure strong broadband and English-friendly services to support remote work. Favor milder climate zones along the Lisbon\u2013Porto corridor, Algarve, and Silver Coast that offer a slower, family-oriented lifestyle, plus opportunities for bilingual schooling and community integration.",
       "sameAsParent": false
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Fall in Portugal (PT) typically 60-75\u00B0F highs and 50-60\u00B0F lows. Mild, stable autumn supports outdoor family life in PT.",
+      "alignmentText": "Fall in Portugal (PT) around 60-75\u00B0F highs and 50-60\u00B0F lows; mild, stable autumn supports outdoor family life in PT.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Portugal\u0027s temperate coast offers many 50-85\u00B0F days with moderate humidity, supporting a high count of outdoors-friendly days.",
+      "alignmentText": "Portugal\u0027s temperate coast (Lisbon/Porto area) offers many 50-85\u00B0F days with moderate humidity, delivering ample outdoors-friendly days for the family.",
       "alignmentValue": 8
     },
     {
@@ -351,14 +341,14 @@
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Portugal spring highs 55\u201372\u00B0F, lows 45\u201355\u00B0F. Mostly mild with light rain.",
+      "alignmentText": "Portugal (PT) spring highs 65\u201369\u00B0F, lows 45\u201355\u00B0F; mild with light rain.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Portugal summers (Lisbon/Coast) typically 75-88\u00B0F by day and 62-74\u00B0F at night with moderate humidity; occasional heat spikes.",
-      "alignmentValue": 8,
+      "alignmentText": "Lisbon coast summers typically 75\u201388\u00B0F by day, 62\u201374\u00B0F at night with moderate humidity; occasional heat spikes near 90\u00B0F.",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
@@ -374,8 +364,8 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "PT shows stable, EU-backed growth with modest GDP per capita volatility; supportive services and family policies ease relocation for this family.",
-      "alignmentValue": 8
+      "alignmentText": "Portugal\u0027s EU-backed growth offers stability. Past recessions (2009-2013, 2020) are offset by family-friendly policies aiding relocation for this family.",
+      "alignmentValue": 5
     },
     {
       "key": "stability_migration_stability",
@@ -385,14 +375,15 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Portugal\u2019s stable democracy and low unrest offer a predictable, family-friendly environment for living in Portugal.",
-      "alignmentValue": 9,
+      "alignmentText": "Portugal\u0027s robust liberal democracy and low unrest offer a stable, family-friendly setting for your life in Portugal.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Portugal (PT) offers very low violent crime, reliable utilities, and strong schools/healthcare for family stability.",
-      "alignmentValue": 10
+      "alignmentText": "Portugal (PT) is very safe with reliable utilities and strong schools/healthcare, supporting a stable, family-friendly life for this family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     }
   ]
 }

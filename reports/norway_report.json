@@ -16,13 +16,13 @@
     {
       "key": "cost_of_living_family_150m2_suburb",
       "alignmentText": "NOK 28,500.00 ($2,707.50)",
-      "alignmentValue": 9
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
       "alignmentText": "NOK 7,500.00 ($825.00)",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "alignmentValue": 6
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
@@ -36,8 +36,7 @@
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "NOK 0.00 ($0.00)",
-      "sameAsParent": false
+      "alignmentText": "NOK 0.00 ($0.00)"
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
@@ -46,9 +45,8 @@
     },
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
-      "alignmentText": "NOK 0.00 ($0.00)",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "NOK 1,000.00 ($95.00)",
+      "alignmentValue": 10
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -62,8 +60,8 @@
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "NOK 10,846,666.67 ($1,008,992.25)",
-      "alignmentValue": 5
+      "alignmentText": "NOK 13,106,666.67 ($1,220,154.83)",
+      "alignmentValue": 3
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -71,25 +69,15 @@
       "alignmentValue": 9
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "50%",
-      "alignmentValue": 7
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "18%",
-      "alignmentValue": 6
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Norway\u0027s startup visa via Innovation Norway can work for a small game studio. Expect 3-4 month timelines with in-person biometrics and checks.",
+      "alignmentText": "Norway\u0027s Innovation Norway startup visa suits a small game studio founder; expect ~3-4 months with in-person biometrics and checks.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
-      "alignmentText": "14%",
-      "alignmentValue": 10
+      "alignmentText": "26%",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_feasible_game_grants",
@@ -143,7 +131,7 @@
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Norway\u2019s public schools are mostly Norwegian-language; English is taught early, but bilingual programs are scarce\u2014international options help.",
+      "alignmentText": "Norway\u0027s public schools are mainly Norwegian-language; English is introduced early, but bilingual tracks are limited. International options can help.",
       "alignmentValue": 4,
       "sameAsParent": false
     },
@@ -163,13 +151,14 @@
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Norway welcomes skilled immigrants; approvals ~90\u201394% with ~60\u201369% positive polls. Expect solid integration support and English-friendly services.",
+      "alignmentText": "Norway\u0027s skilled-immigrant approvals (~90\u201394%) and English-friendly services support Trey and Sarah\u0027s tech work and family integration.",
       "alignmentValue": 9
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Norway schools have strong anti-bullying policies and a supportive environment; for caucasian American kids, bullying risk is very low with swift redress.",
-      "alignmentValue": 9
+      "alignmentText": "Norwegian schools have strong anti-bullying policies; for caucasian American kids in Norway, bullying risk is very low with swift redress.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "kids_education_quality",
@@ -178,14 +167,15 @@
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "In Norway, school meals lean toward fresh ingredients (fish/veg) with low ultra-processed share; HEI likely 85\u201389, matching high nutrition quality.",
+      "alignmentText": "In Norway, school meals favor fresh fish and vegetables with low ultra-processed foods. HEI typically sits around 85\u201389, indicating high nutrition quality.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "In Norway, English instruction starts in early primary and is around 4 hours/week; bilingual aides in core subjects are not universal.",
-      "alignmentValue": 3
+      "alignmentText": "Norway: 4-5 hours/week English in public schools; bilingual aides are rare. Family seeks strong English ubiquity with some bilingual exposure.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "kids_language_integration_services",
@@ -194,16 +184,16 @@
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "In Norway, prioritize family-friendly, early-evening date options: stroll waterfront districts (Oslo\u0027s Aker Brygge/Tjuvholmen, Bergen\u0027s Bryggen), casual restaurants with kids\u0027 menus, and museums or science centers with late openings; arrange vetted babysitting for a parent-only outing, and take advantage of long Nordic summer days for outdoor caf\u00E9s and parks."
+      "alignmentText": "Norway (Oslo/Bergen): Plan early-evening, family-friendly date options: stroll Oslo\u2019s Aker Brygge/Tjuvholmen or Bergen\u2019s Bryggen waterfront, followed by casual dining with kids\u2019 menus. For a parent-only outing, arrange vetted local babysitting and take advantage of long Nordic days for outdoor caf\u00E9s and parks; when possible, pair with late-opening museums or science centers."
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Plan regular, kid-friendly Norwegian activities: easy hikes or nature walks in Marka or nearby reserves, weekly visits to parks (e.g., Frognerparken) and libraries, and seasonal sledding or beginner cross-country skiing for the children. Add monthly family-oriented museum or science-center outings (Nasjonalmuseet/Norsk Folkemuseum) with children\u2019s programs. Leverage municipal childcare and universal healthcare, and choose neighborhoods with parks, walkability and strong schools. For Trey, ensure reliable broadband and proximity to game/tech hubs; for Sarah, remote/hybrid options and low-stress teams. Create a 3-5 activity calendar within 30-60 minutes of home and maintain English-friendly pathways while gradually learning Norwegian.",
+      "alignmentText": "Develop a Norway-specific family activity plan: schedule easy Marka hikes and nature walks in Oslo\u2019s Marka and Bygd\u00F8y reserves; plan weekly visits to parks (e.g., Frognerparken) and libraries. Add winter options such as sledding and beginner cross-country skiing for the children. Include monthly museum or science-center outings (Nasjonalmuseet, Norsk Folkemuseum) with children\u2019s programs. Leverage municipal childcare and universal healthcare; choose neighborhoods with parks, walkability, and strong schools. For Trey, ensure reliable broadband and proximity to game/tech hubs; for Sarah, prioritize remote/hybrid options and low-stress teams. Create a 3-5 activity calendar within 30-60 minutes of home and maintain English-friendly pathways while gradually learning Norwegian.",
       "sameAsParent": false
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Identify and map weekly, family-friendly evening social options in Norway (NO): board-game nights, expat meetups, language exchanges, and other English-friendly events in accessible urban centers (focus on Oslo and nearby cities). Ensure venues offer child-friendly spaces, reliable hours, and good public transit; provide concrete details (dates, times, transport, childcare) to help the Trey/Sarah household build local social networks.",
+      "alignmentText": "Norway (NO): Identify and map weekly, family-friendly evening social options in Oslo and nearby urban centers for the Trey/Sarah household. Prioritize board-game nights, expat meetups, language exchanges, and other English-friendly events. For each option, list venue name and address, typical schedule (recurring days/times), accessibility for children (child-friendly spaces or on-site childcare), transit info (nearest bus/tram stops, metro), and any costs. Include concrete upcoming dates/times (next 6\u20138 weeks) to facilitate planning and help build local social networks.",
       "sameAsParent": false
     },
     {
@@ -264,8 +254,9 @@
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
-      "alignmentText": "NOK 2,000.00 ($181.82)",
-      "alignmentValue": 10
+      "alignmentText": "NOK 9,680.00 ($880.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_tied_to_employment",
@@ -292,20 +283,21 @@
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "Norway\u0027s universities rank 101-150 globally with many English-taught programs, offering solid college quality for your family.",
+      "alignmentText": "Norway\u0027s top universities (Oslo/NTNU) sit around 101-150 globally with English programs, offering solid college quality for your family.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Norway offers extensive, subsidized continuing education with many accredited programs and online options; strong for adult upskilling in NO.",
+      "alignmentText": "Norway offers extensive, subsidized continuing education nationwide (including Oslo); abundant accredited programs and online options.",
       "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Oslo, Norway shows modest demand for senior .NET architects (~2-3 postings/million/month), aligning with cautious migration planning.",
-      "alignmentValue": 3
+      "alignmentText": "Oslo, Norway shows modest senior .NET architect demand (~2-3 postings/million/month); aligns with our cautious family migration plan.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
@@ -314,7 +306,7 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "NOK 1,100,000.00 ($99,000.00)"
+      "alignmentText": "NOK 1,600,000.00 ($144,000.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
@@ -322,23 +314,23 @@
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Prioritize coastal Norway areas with family-friendly beaches near urban centers; beaches are close to amenities but water stays cold even in summer, so plan for windproof clothing and warm layers. Select beaches with lifeguards, restrooms, and play areas, plus nearby parks and walking/biking paths for kids; ensure easy transport from neighborhoods and consider long daylight hours in summer for outdoor activities.",
-      "sameAsParent": false
+      "alignmentText": "Target coastal zones near key urban centers (Oslo, Bergen, Trondheim) with family-friendly beaches that have lifeguards, restrooms, and kids\u0027 playgrounds, plus nearby parks and safe walking/biking paths. Choose beaches with good public transit access and easy neighborhood links. Prepare for cold water year-round by packing windproof layers and jackets; leverage long Nordic daylight in summer for extended outdoor activities."
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Norway falls typically 50\u201370\u00B0F highs and 40\u201350\u00B0F lows; expect mild fall with occasional warm or cool days. Choosing 8 aligns with this range.",
-      "alignmentValue": 8
+      "alignmentText": "Norway fall highs typically 60-64\u00B0F; mild days with cool nights suit your climate goals.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Oslo, Norway: many days with 50-85\u00B0F highs and moderate humidity; roughly 240-269 comfortable days per year, matching your mild-weather goal.",
-      "alignmentValue": 8
+      "alignmentText": "Oslo, Norway offers mild summers with many 50-85 F days and moderate humidity, aligning well with the family\u0027s mild-weather preference.",
+      "alignmentValue": 7
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Norway\u0027s natural beauty is rich: protected lands and iconic fjords (Geirangerfjord) within reach, offering easy outdoor adventures for the family.",
-      "alignmentValue": 8
+      "alignmentText": "Norway\u0027s fjords and protected lands are within a short drive for your family, with Geirangerfjord nearby offering memorable, low-stress outdoor days.",
+      "alignmentValue": 9
     },
     {
       "key": "outdoors_nature_access",
@@ -368,23 +360,24 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Norway\u0027s economy is highly stable with low volatility, strong social safety nets, and excellent long-term prospects for families.",
+      "alignmentText": "Norway\u0027s stable, welfare-led economy offers predictable incomes and strong family safety nets for households like yours.",
       "alignmentValue": 10
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Norway\u0027s immigration system is stable and transparent, with strong welfare and broad English use, making a move to Norway (NO) sensible for your family.",
-      "alignmentValue": 9
+      "alignmentText": "Norway\u0027s stable, transparent immigration system with strong welfare and broad English use suits your tech family in NO.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Norway ranks among the world\u0027s most politically stable countries with strong rule of law. Norwegian family policies and education align with your priorities.",
+      "alignmentText": "Norway ranks among the world\u0027s most politically stable nations with strong rule of law, aligning with your family-friendly education and welfare priorities.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Norway offers strong family stability: violent crime well under 200/100k, reliable utilities and top-tier schooling for your kids.",
+      "alignmentText": "Norway\u0027s very low violent crime and reliable services support safety. Its universal schooling backs your kids\u0027 education.",
       "alignmentValue": 10
     }
   ]

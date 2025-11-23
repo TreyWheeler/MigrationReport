@@ -44,7 +44,8 @@
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
       "alignmentText": "USD 6,000.00",
-      "alignmentValue": 1
+      "alignmentValue": 1,
+      "sameAsParent": true
     },
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
@@ -53,7 +54,7 @@
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
-      "alignmentText": "USD 5,500.00",
+      "alignmentText": "USD 5,500.00 ($5,500.00)",
       "alignmentValue": 2
     },
     {
@@ -72,16 +73,6 @@
       "alignmentText": "21%",
       "alignmentValue": 9,
       "sameAsParent": true
-    },
-    {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "25%",
-      "alignmentValue": 2
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "0%",
-      "alignmentValue": 2
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
@@ -156,7 +147,7 @@
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "US citizens relocating within Texas to Austin. No visa is needed and paperwork is straightforward.",
+      "alignmentText": "US citizens relocating to Austin, TX from within the U.S. have no visa needed. Paperwork is straightforward.",
       "alignmentValue": 10
     },
     {
@@ -219,7 +210,7 @@
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Austin\u0027s walkable cores (Downtown, Hyde Park, Mueller) with parks and schools enable ~50% car-free trips. Hot, humid summers limit year-round options.",
+      "alignmentText": "Austin\u0027s walkable cores (Downtown, Hyde Park, Mueller) with parks and schools support family life; ~50% car-free trips; summers are hot and humid.",
       "alignmentValue": 7
     },
     {
@@ -258,14 +249,14 @@
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "Austin, TX: PCP waits 5-7 days; specialists 11-14 days. Steady access in a market system aligns with the family\u0027s healthcare goals.",
-      "alignmentValue": 7
+      "alignmentText": "Austin, TX, USA: PCP wait ~3-4 days; specialists ~11-14 days; aligns with the family\u0027s affordable-care preference.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_citizen",
       "alignmentText": "USD 1,234.56",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentValue": 3
     },
     {
       "key": "life_healthcare_affordability_non_resident",
@@ -301,12 +292,13 @@
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "Austin hosts UT Austin with strong English programs; solid college pathways, but global top-50 status isn\u0027t guaranteed.",
-      "alignmentValue": 8
+      "alignmentText": "UT Austin in Austin, TX sits in the 51-100 global tier with strong English programs; solid pathways, not guaranteed top-50.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Austin, TX offers robust adult education via UT Austin and ACC, with subsidized online courses\u2014great for education-focused families.",
+      "alignmentText": "Austin, TX provides robust continuing education via UT Austin and ACC with online options, ideal for education-focused families.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -323,7 +315,7 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "USD 175,000.00",
+      "alignmentText": "USD 195,000.00",
       "sameAsParent": false
     },
     {
@@ -332,7 +324,7 @@
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Prioritize inland lake access around Lake Travis and Lake Austin and riverfront parks along Lady Bird Lake; ensure shaded trails, spray parks, and water-safety features. Support family-friendly housing near these venues with ample shade trees and cooling features. Maintain easy weekend routes to Gulf Coast beaches for day trips."
+      "alignmentText": "Prioritize and expand family-friendly waterfront access around Lake Travis, Lake Austin, and Lady Bird Lake in Austin: expand shaded trails, spray parks, and water-safety features; support nearby housing with ample trees and cooling amenities; ensure reliable weekend routes to Gulf Coast beaches for day trips."
     },
     {
       "key": "outdoors_fall_temperature_range",
@@ -352,14 +344,14 @@
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Austin, TX has multiple 10\u002B acre parks within 5 km (Zilker, Pease Park) and 3 regional trails reachable by transit in ~30 min; family-friendly outdoors.",
+      "alignmentText": "Austin, TX has 10\u002B acre parks within 5 km (Zilker, Barton area) and several trails reachable by transit; family-friendly outdoors.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Spring in Austin, TX, USA: highs 55\u00B0F\u201372\u00B0F, lows 45\u00B0F\u201355\u00B0F; mostly mild with light rain.",
-      "alignmentValue": 9,
+      "alignmentText": "Spring in Austin, TX, USA: highs 60-75\u00B0F, lows 50-60\u00B0F; stable and pleasant.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
@@ -375,30 +367,30 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Austin\u0027s hot, humid summers and smoke days yield ~14-17 severe weather/AQI days/year; moderate stability, but not ideal for a mild-year-round climate.",
+      "alignmentText": "Austin, TX has about 14-17 severe-weather/AQI days per year. This climate is moderate and not ideal for your mild year-round preference.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Austin, TX\u0027s tech startup hub supports the family\u0027s founder goals; strong schools help the kids\u0027 long-term plans.",
+      "alignmentText": "Austin\u0027s thriving startup scene supports the family\u0027s founder goals; strong public schools benefit the kids\u0027 long-term plans.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Migration Stability 6: US policy remains fluid; Austin\u0027s startup-friendly scene offers opportunity, but visa approvals can vary.",
+      "alignmentText": "Migration Stability 6: US policy remains fluid; Austin\u0027s startup scene offers opportunity, but visa approvals can vary for relocating families.",
       "alignmentValue": 6
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Austin, US offers stable politics with predictable governance and robust civil liberties, aligning with your progressive, family-friendly values.",
+      "alignmentText": "Austin, US offers stable politics with predictable governance and strong civil liberties, aligning with your progressive, family-friendly values.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Austin, US offers family-friendly neighborhoods and strong schools; violent crime ~400-450/100k with stable utilities.",
+      "alignmentText": "Austin, US offers family-friendly neighborhoods and solid schools; violent crime around 400-450/100k with stable utilities.",
       "alignmentValue": 5,
       "sameAsParent": false
     }

@@ -17,6 +17,7 @@ const countriesData = readJson('countries.json');
 const citiesData = readJson('cities.json');
 const peopleData = readJson('people.json');
 const personWeightsData = readJson('person_weights.json');
+const ratingGuidesData = readJson('rating_guides.json');
 const familyProfile = JSON.parse(fs.readFileSync(familyProfilePath, 'utf8'));
 
 const categoryByKeyId = new Map(categoryKeysData.categoryKeys.map(key => [key.id, key.categoryId]));
@@ -33,6 +34,31 @@ const familyValuesSummary = [
 const categoryGuidanceById = new Map(
   categoryKeysData.categoryKeys.map(key => [key.id, typeof key.guidance === 'string' ? key.guidance.trim() : ''])
 );
+
+const metricByKeyId = new Map(
+  categoryKeysData.categoryKeys.map(key => [key.id, key.metric ?? null])
+);
+
+const normalizeText = value => (typeof value === 'string' ? value.trim() : '');
+
+const buildMetricTokens = metric => {
+  if (!metric) {
+    return [];
+  }
+
+  const tokens = [];
+  const name = normalizeText(metric.name);
+  if (name) {
+    tokens.push(name.toLowerCase());
+  }
+
+  const unit = normalizeText(metric.unit);
+  if (unit && unit.toLowerCase() !== name.toLowerCase()) {
+    tokens.push(unit.toLowerCase());
+  }
+
+  return tokens;
+};
 
 function buildAlignmentFailureMessage(reportFile, entry, issue) {
   const location = typeof reportFile === 'string'
@@ -171,6 +197,41 @@ describe('Geographic dataset relationships', () => {
       const key = `${city.countryId}:${city.id}`;
       expect(seen.has(key)).toBe(false);
       seen.add(key);
+    });
+  });
+});
+
+describe('Metric alignment', () => {
+  test('every category key declares a metric', () => {
+    categoryKeysData.categoryKeys.forEach(key => {
+      const metric = metricByKeyId.get(key.id);
+      if (!metric) {
+        throw new Error(`Key ${key.id} is missing a metric definition.`);
+      }
+      const name = normalizeText(metric.name);
+      expect(name).not.toHaveLength(0);
+    });
+  });
+
+  test('rating guides reference the declared metric or unit', () => {
+    ratingGuidesData.ratingGuides.forEach(guide => {
+      const metric = metricByKeyId.get(guide.key);
+      if (!metric) {
+        throw new Error(`Rating guide ${guide.key} is missing a metric definition.`);
+      }
+      const tokens = buildMetricTokens(metric);
+      expect(tokens.length).toBeGreaterThan(0);
+
+      const entries = Array.isArray(guide.ratingGuide) ? guide.ratingGuide : [];
+      expect(entries).not.toHaveLength(0);
+
+      entries.forEach(entry => {
+        const guidance = normalizeText(entry.guidance);
+        expect(guidance).not.toHaveLength(0);
+        const normalizedGuidance = guidance.toLowerCase();
+        const containsMetric = tokens.some(token => normalizedGuidance.includes(token));
+        expect(containsMetric).toBe(true);
+      });
     });
   });
 });

@@ -4,24 +4,26 @@
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
-      "alignmentText": "CAD 5,600.00 ($4,200.00)",
-      "alignmentValue": 4,
+      "alignmentText": "CAD 7,000.00 ($5,250.00)",
+      "alignmentValue": 2,
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
       "alignmentText": "CAD 4,200.00 ($3,108.00)",
-      "alignmentValue": 6
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "CAD 3,900.00 ($2,900.00)",
-      "alignmentValue": 7
+      "alignmentText": "CAD 4,200.00 ($3,108.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "CAD 1,475.00 ($1,106.25)",
-      "alignmentValue": 4,
+      "alignmentText": "CAD 1,525.00 ($1,143.75)",
+      "alignmentValue": 5,
       "sameAsParent": false
     },
     {
@@ -31,16 +33,17 @@
     },
     {
       "key": "cost_of_living_family_eating_out",
-      "alignmentText": "CAD 140.00 ($103.60)",
-      "alignmentValue": 4
+      "alignmentText": "CAD 180.00 ($133.20)",
+      "alignmentValue": 2
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "CAD 0.00 ($0.00)"
+      "alignmentText": "CAD 0.00 ($0.00)",
+      "sameAsParent": true
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
-      "alignmentText": "CAD 3,000.00 ($2,250.00)",
+      "alignmentText": "CAD 2,900.00 ($2,175.00)",
       "alignmentValue": 5
     },
     {
@@ -51,20 +54,19 @@
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
-      "alignmentText": "CAD 3,200.00 ($2,400.00)",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
-      "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Vancouver, BC: online GST/HST and payroll filings fit a small family biz; a part-time accountant keeps compliance under 40 hours/year.",
+      "alignmentText": "CAD 2,800.00 ($2,100.00)",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Vancouver, BC: GST/HST and payroll are manageable for a small family business; ~30\u201339 hours/year with a part-time accountant.",
+      "alignmentValue": 7
+    },
+    {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "CAD 1,135,666.67 ($840,393.34)",
-      "alignmentValue": 9
+      "alignmentText": "CAD 1,162,500.00 ($859,087.50)",
+      "alignmentValue": 8
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -72,20 +74,9 @@
       "alignmentValue": 4
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "70%",
-      "alignmentValue": 10
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "32%",
-      "alignmentValue": 9
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Vancouver Start-up Visa is possible with a designated sponsor; approvals can exceed 6 months and require incubator backing.",
-      "alignmentValue": 5,
-      "sameAsParent": false
+      "alignmentText": "Vancouver Start-up Visa remains feasible with a sponsor/incubator; matches Trey\u0027s game/tech startup goals; typical processing 6-8 months.",
+      "alignmentValue": 4
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
@@ -109,25 +100,25 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "CAD 8,746,125.00 ($6,463,832.43)",
-      "alignmentValue": 4,
+      "alignmentText": "CAD 14,373,994.36 ($10,569,113.50)",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "CAD 3,027,375.00 ($2,242,500.00)",
-      "alignmentValue": 5,
+      "alignmentText": "CAD 3,888,700.00 ($2,880,518.52)",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "CAD 67,673,101.38 ($50,416,460.53)",
-      "alignmentValue": 6,
+      "alignmentText": "CAD 49,966,817.10 ($37,475,112.83)",
+      "alignmentValue": 1,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Vancouver\u0027s game dev scene hosts ~3 in-person events/month, quarterly jams, and 700\u2013999 online members with mentorship tracks\u2014great for a founder/remote team.",
+      "alignmentText": "Vancouver, Canada hosts ~3 in-person game-dev events per month; a founder-friendly ecosystem supports Trey\u0027s game ventures.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -139,51 +130,51 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "In Vancouver, English suffices for most government, healthcare, and banking tasks; 10-20% may require local language support.",
+      "alignmentText": "Vancouver, Canada: English covers most government, healthcare, and banking tasks; about 10-14% may require local-language support for your family.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Vancouver, BC offers broad early English\u2013French immersion in kindergarten; bilingual options are widely available.",
+      "alignmentText": "Vancouver, BC public schools offer extensive English\u2013French immersion from kindergarten; ideal for an English-first family seeking early bilingual exposure.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Vancouver, BC, Canada: US family of four; lease window 7-8 weeks; 2.5-month deposit; newcomers often require a guarantor.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_effort",
+      "alignmentText": "Express Entry end-to-end to Vancouver is roughly 4-5 months for our tech family; Vancouver\u0027s English-friendly, startup ecosystem aids transition.",
+      "alignmentValue": 4,
+      "sameAsParent": true
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Vancouver, BC recognizes three immigration statuses: Canadian citizen, permanent resident (PR), and temporary resident (visitor, student, or worker). Rights by status: citizens have full political rights and a Canadian passport; PRs can live/work/study anywhere in Canada, access most social benefits and provincial health coverage, and sponsor family; temporary residents have defined stay periods tied to their permits, with no voting rights and limited benefits. For long-term planning, pursue PR or citizenship via Express Entry or BC PNP, maintain residency and language requirements, keep documentation up to date, and monitor a path that maintains status. US citizens are visa-exempt for short visits but may require an eTA for air travel."
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Vancouver, BC remains welcoming for skilled US founders/remote workers via Express Entry/BCPNP; good odds for this family.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
-      "key": "integration_housing_accessibility",
-      "alignmentText": "Vancouver, BC: US family with kids; leasing 4-6 weeks, up to 2.5 months deposit; guarantor commonly requested for newcomers.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Canada\u0027s Express Entry path for tech workers; online steps with 4-6 month processing; Vancouver offers a strong, English-friendly tech ecosystem.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "integration_immigration_status_rights",
-      "alignmentText": "Canada recognizes three main immigration statuses applicable to Vancouver: Canadian citizen, permanent resident (PR), and temporary resident (visitor, student, or worker). Status is granted by IRCC through programs such as Express Entry, Provincial Nominee Programs (including BC PNP), family sponsorship, or permit-based routes (study/work). Rights by status: Citizen - full political rights, ability to hold a Canadian passport, and access to nationwide social benefits; PR - right to live, work, and study anywhere in Canada, access to most social benefits and provincial health coverage, ability to sponsor family, and a path to citizenship after meeting residency, language, and knowledge requirements; Temporary Resident - permission to stay for a defined period with restricted work/study rights tied to the permit; no voting rights and limited benefits, with potential extensions or status changes. For Vancouver/BC, consider local programs (BC PNP) and general entry rules (US citizens typically entering visa-exempt for short visits with an eTA). Plan long-term pathways toward PR/citizenship if you intend to live in Canada; ensure you maintain status and understand renewal timelines.",
-      "sameAsParent": false
-    },
-    {
-      "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Vancouver, Canada broadly welcomes skilled immigrants; strong tech scene and BC programs align with your founder/remote-work goals.",
-      "alignmentValue": 9
-    },
-    {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Very low bullying/racism risk for Caucasian immigrant students in Vancouver; schools require anti-bias training and swift enforcement.",
+      "alignmentText": "In Vancouver, white immigrant kids face very low bullying risk (\u003C1/1,000); BC schools emphasize anti-bias training and swift enforcement.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "kids_education_quality",
-      "alignmentText": "Vancouver\u0027s public schools are among Canada\u0027s best. French immersion options support bilingual exposure for your kids.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Vancouver-area public schools rank among Canada\u0027s best. Strong math/reading outcomes and French immersion support bilingual exposure.",
+      "alignmentValue": 10,
+      "sameAsParent": true
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "Vancouver BC schools follow provincial nutrition guidelines, prioritizing whole foods. HEI ~80-84 with under 10% ultra-processed calories.",
+      "alignmentText": "Vancouver, BC, Canada follows provincial school-nutrition guidelines. HEI ~80-84 with \u003C10% ultra-processed calories for kids.",
       "alignmentValue": 8
     },
     {
@@ -195,15 +186,17 @@
     {
       "key": "kids_language_integration_services",
       "alignmentText": "In Vancouver, BC, kids have strong ESL options (LINC) and translation in most agencies; supports family language needs.",
-      "alignmentValue": 9
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "In Vancouver, propose date-night options that fit a slower pace and mild climate: stroll the Stanley Park Seawall at sunset; explore Granville Island\u0027s markets and waterfront eateries; have dinner in Yaletown or Kitsilano with harbor views; catch live music or comedy at local venues; consider after-hours museum or gallery events for low-stress, culturally rich outings."
+      "alignmentText": "In Vancouver, plan relaxed, mild-evening date nights: stroll the Stanley Park Seawall at sunset; explore Granville Island\u2019s markets and waterfront dining; have dinner with harbor views in Yaletown or Kitsilano; enjoy live music or comedy at local venues in Gastown or the West End; consider after-hours museum or gallery visits for low-stress, culturally rich outings."
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Prioritize a rotating set of stroller-friendly, family-friendly activities in Greater Vancouver that are low-cost or free. Emphasize outdoor play at parks like Stanley Park, Queen Elizabeth Park, and Pacific Spirit Park, and include indoor options such as Science World, Vancouver Aquarium, and library/community-center programs for rainy days and bilingual exposure. Ensure activities are transit-accessible and diaper/changing facilities are available, and tailor plans to a 5-year-old and 1-year-old with nap and rest breaks, safety, and language exposure in mind."
+      "alignmentText": "Actionable plan for Greater Vancouver: maintain a rotating set of stroller-friendly, low-cost or free family activities. Prioritize outdoor play at Stanley Park, Queen Elizabeth Park, and Pacific Spirit Park with accessible transit (SkyTrain/bus), safe routes, shade, playgrounds, and diaper-changing facilities; on rainy days, switch to indoor options such as Science World, Vancouver Aquarium, and library or community-center programs that include bilingual exposure. Schedule visits with nap/rest breaks, emphasize safety and supervision, and tailor activities for a 5-year-old and a 1-year-old.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_friend_night_opportunities",
@@ -254,7 +247,7 @@
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "Vancouver, Canada: public healthcare provides universal coverage. Primary care waits about 5-7 days; specialists about 11-14 days.",
+      "alignmentText": "Vancouver provides universal public healthcare. Primary care waits 5-7 days; specialists 11-14 days, aligning with family needs.",
       "alignmentValue": 7
     },
     {
@@ -301,8 +294,9 @@
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Vancouver, Canada offers abundant continuing education: many accredited programs and subsidized online options; aligns with high education priority.",
-      "alignmentValue": 9
+      "alignmentText": "Vancouver, Canada has abundant accredited continuing education programs and subsidized online options. This aligns with your high education priority.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
@@ -311,17 +305,18 @@
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Vancouver, Canada shows moderate Rails demand (~4-6 postings per million residents per month), aligning with 6 years\u0027 experience.",
+      "alignmentText": "Vancouver Rails demand is moderate (4-6 postings/m). For a tech-oriented family with web/software roots, this aligns with local opportunities there.",
       "alignmentValue": 3,
       "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "CAD 165,000.00 ($122,100.00)"
+      "alignmentText": "CAD 170,000.00 ($125,800.00)",
+      "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "CAD 110,000.00 ($81,400.00)"
+      "alignmentText": "CAD 125,000.00 ($92,500.00)"
     },
     {
       "key": "outdoors_beach_life",
@@ -335,7 +330,7 @@
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Vancouver\u0027s mild coastal climate yields many 50-85\u00B0F days with moderate humidity; about 240\u2013269 comfortable days per year.",
+      "alignmentText": "Vancouver, Canada offers a mild coastal climate with many 50-85\u00B0F days; about 240-269 comfortable days per year.",
       "alignmentValue": 8
     },
     {
@@ -345,13 +340,13 @@
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Vancouver, Canada has solid nature access: 6-7 parks \u003E10 acres within 5 km and a regional trail within ~30 min transit; family-friendly outdoors.",
-      "alignmentValue": 7
+      "alignmentText": "Vancouver, Canada offers strong nature access: 8-9 parks \u003E10 acres within 5 km and 2 regional trails reachable by transit in under 30 min; family-friendly outdoors.",
+      "alignmentValue": 8
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Spring in Vancouver, BC: highs 50\u201370\u00B0F, lows 40\u201350\u00B0F. Occasional swings with rain; overall mild days.",
-      "alignmentValue": 8,
+      "alignmentText": "Spring in Vancouver, BC, Canada: highs 55\u201372\u00B0F, lows 45\u201355\u00B0F; mostly mild with light rain.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -373,8 +368,9 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Vancouver\u0027s economy is diversified with strong services/tech, showing low GDP per capita volatility. This supports stable, family-friendly living.",
-      "alignmentValue": 9
+      "alignmentText": "Vancouver\u0027s diversified services/tech economy in BC offers steady growth and family-friendly stability, aligning with your plan.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",

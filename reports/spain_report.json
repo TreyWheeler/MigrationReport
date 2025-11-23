@@ -16,14 +16,14 @@
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "EUR 2,600.00 ($2,808.00)",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "EUR 2,800.00 ($3,022.84)",
+      "alignmentValue": 9
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
       "alignmentText": "EUR 1,750.00 ($1,925.00)",
-      "alignmentValue": 3
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
@@ -43,8 +43,9 @@
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
-      "alignmentText": "EUR 1,000.00 ($1,080.00)",
-      "alignmentValue": 10
+      "alignmentText": "EUR 1,100.00 ($1,188.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
@@ -75,16 +76,6 @@
       "alignmentValue": 6
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "30%",
-      "alignmentValue": 3
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
       "alignmentText": "Spain\u0027s entrepreneur visa can work for a first-time applicant with a local sponsor/accelerator; expect 3-4 month processing.",
       "alignmentValue": 7,
@@ -102,13 +93,13 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "5",
-      "alignmentValue": 7
+      "alignmentText": "4",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_number_of_aa_studios",
-      "alignmentText": "20",
-      "alignmentValue": 8
+      "alignmentText": "28",
+      "alignmentValue": 9
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
@@ -140,8 +131,8 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "In Spain, 30-40% of admin requires Spanish; English covers routine services but not filings. The family plans to learn Spanish and rely on bilingual help.",
-      "alignmentValue": 7
+      "alignmentText": "In Spain (ES), about 30-39% of admin requires Spanish; family will learn Spanish and rely on bilingual help.",
+      "alignmentValue": 6
     },
     {
       "key": "integration_childhood_language_expectations",
@@ -171,7 +162,7 @@
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Spain generally maintains strong anti-bullying policies in schools; caucasian American kids face low bullying risk with solid enforcement.",
+      "alignmentText": "Spain (ES) maintains strong anti-bullying policies in primary and secondary schools. Caucasian American kids typically face very low bullying risk with solid enforcement.",
       "alignmentValue": 9
     },
     {
@@ -188,7 +179,7 @@
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "Spain public schools typically allocate 2-3 hours/week of English; bilingual aides are not universal, so core subjects may be mainly in Spanish.",
+      "alignmentText": "Spain public schools typically offer 2-3 hours/week of English; core subjects are often in Spanish, with limited bilingual aides.",
       "alignmentValue": 2
     },
     {
@@ -207,23 +198,24 @@
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Spain (ES): Build a short list of English-friendly, inclusive evening venues in safe, walkable neighborhoods of Madrid and Barcelona. Focus on board-game caf\u00E9s, casual meetups for software/entrepreneur communities, and non-alcoholic social spaces with early-evening hours and reliable transit. Prioritize multilingual staff, clear safety policies, and affordable options suitable for families after work."
+      "alignmentText": "Spain (ES) Madrid and Barcelona: compile a concise list of English\u2011friendly, inclusive evening venues in safe, walkable neighborhoods with reliable public transit. Prioritize board\u2011game caf\u00E9s, casual software/entrepreneur meetups, and non\u2011alcoholic social spaces with early/evening hours (\u224818:00\u201321:00) that are affordable and family\u2011friendly. Verify multilingual staff and clear safety policies, and note metro/bus access, pricing, and kid\u2011friendly options to support after\u2011work gatherings.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Spain\u0027s major cities offer many supervised after-hours spaces for kids; roughly 22-25 venues per 100k residents after 6 p.m.",
+      "alignmentText": "Spain\u0027s major cities offer supervised after-hours spaces for kids; 22-25 venues per 100k after 6 p.m., aligning with family-friendly outings.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "In Spain, central cities offer strong transit and walkability; expect roughly 60-70% car-free trips, matching your urban, family-friendly needs.",
+      "alignmentText": "In Spain\u0027s major cities (Madrid, Barcelona), transit and walkability support 60-69% car-free trips, aligning with your urban, family-friendly needs.",
       "alignmentValue": 8
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "In Spain, fresh markets and a strong produce culture are common. This supports your family\u0027s quality food access needs.",
-      "alignmentValue": 7
+      "alignmentText": "Spain\u0027s markets and weekly farmers\u0027 markets offer plentiful fresh produce and broad healthy options for your family.",
+      "alignmentValue": 9
     },
     {
       "key": "life_bureaucratic_compliance_effort",
@@ -232,13 +224,13 @@
     },
     {
       "key": "life_daycare_accessibility",
-      "alignmentText": "In Spain, municipal daycare for a 1-year-old typically 6-9 months. Private nurseries can be quicker but pricier.",
+      "alignmentText": "Spain: municipal daycare for a 1-year-old typically has a 6\u20139 month wait; private nurseries can be quicker but more expensive.",
       "alignmentValue": 5
     },
     {
       "key": "life_daycare_affordability_citizen",
-      "alignmentText": "EUR 325.00 ($357.50)",
-      "alignmentValue": 8,
+      "alignmentText": "EUR 275.00 ($297.00)",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -249,17 +241,19 @@
     {
       "key": "life_daycare_affordability_perm_resident",
       "alignmentText": "EUR 350.00 ($385.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "Spain offers universal healthcare. Primary care waits around 3-4 days; specialists often 8-10 days depending on region.",
+      "alignmentText": "Spain\u0027s universal healthcare offers accessible care for families; primary care waits are typically 3-4 days, with regional specialist waits 8-10 days.",
       "alignmentValue": 8
     },
     {
       "key": "life_healthcare_affordability_citizen",
-      "alignmentText": "EUR 45.00 ($49.50)",
-      "alignmentValue": 10
+      "alignmentText": "EUR 0.00 ($0.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_non_resident",
@@ -289,8 +283,8 @@
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "8: Spain\u0027s public tuition is often under 5% of income with broad admission; supports bilingual, family-friendly college pathways.",
-      "alignmentValue": 8
+      "alignmentText": "In Spain, public university tuition typically runs around 6\u20137% of median net income; broad access with bilingual, family-friendly pathways.",
+      "alignmentValue": 9
     },
     {
       "key": "opportunity_college_quality",
@@ -322,13 +316,13 @@
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Coastal Spain offers diverse beach access; prioritize coastal neighborhoods with reliable broadband, safe bathing water, and walkable beach fronts; plan for seasonal beach traffic and ensure climate resilience in housing and public spaces (heat mitigation and flood/sea-level risk).",
+      "alignmentText": "Target Spain\u2019s coastal neighborhoods with reliable broadband, ensure safe bathing waters and continuous walkable beachfronts, plan for peak-season traffic with effective transit and parking, and embed climate resilience in beachfront housing and public spaces through heat mitigation and flood/sea-level rise adaptations in collaboration with local authorities.",
       "sameAsParent": false
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "In Spain (ES), autumn typically brings 60\u00B0F\u201375\u00B0F highs and 50\u00B0F\u201360\u00B0F nights. This matches a mild, stable fall for the family\u2019s needs.",
-      "alignmentValue": 10,
+      "alignmentText": "In Spain (ES), autumn highs typically 65\u201369\u00B0F with some days at 70\u201375\u00B0F.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -355,7 +349,7 @@
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Spain (ES) summers typically 78-90\u00B0F highs and 65-75\u00B0F lows; occasional heat advisories, overall mild and tolerable.",
+      "alignmentText": "Spain (ES) summers often reach 86\u00B0F\u201390\u00B0F highs with 65\u00B0F\u201375\u00B0F nights; coastal areas are milder, occasional heat waves.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -366,28 +360,29 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Spain\u0027s climate offers mild, Mediterranean stability with relatively few extreme days; estimated 6-9 severe weather/AQI days per year.",
-      "alignmentValue": 9
+      "alignmentText": "Spain\u0027s mild Mediterranean climate has few extremes (6-9 severe days/year), matching your low-risk, climate-mild preferences.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Spain (ES) shows about 2% 5-year GDP per capita volatility\u2014moderate stability for a family-friendly move.",
-      "alignmentValue": 7
+      "alignmentText": "Spain has about 6 recession years in the last 20 (2008\u20132013, 2020). This implies moderate stability for a family move.",
+      "alignmentValue": 5
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Spain\u0027s migration policy is stable: roughly 2-3 overhauls/decade with 2-3% skilled-visa revocations; predictable for a tech-loving family.",
+      "alignmentText": "Spain maintains steady immigration policy with modest skilled-visa updates; suitable for a tech-friendly, English-friendly family.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Spain (ES) offers high political stability and reliable governance, a solid base for a family-focused move with two young children.",
+      "alignmentText": "Spain\u0027s high political stability and reliable governance support a family move with two young children; safe, predictable rules.",
       "alignmentValue": 9
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Spain (ES) provides strong family stability: low violent crime and reliable utilities. Public schools, universal healthcare, and cohesive communities support daily life.",
+      "alignmentText": "Spain (ES) offers solid family stability: low violent crime and reliable utilities; universal healthcare and strong public schools support daily life.",
       "alignmentValue": 9
     }
   ]

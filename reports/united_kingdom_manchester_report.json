@@ -61,25 +61,14 @@
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "GBP 857,500.00 ($1,097,600.00)",
-      "alignmentValue": 4,
+      "alignmentText": "GBP 773,750.00 ($988,852.50)",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_corporate_tax_rate",
       "alignmentText": "25%",
       "alignmentValue": 6,
-      "sameAsParent": true
-    },
-    {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "80%",
-      "alignmentValue": 10
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "25%",
-      "alignmentValue": 8,
       "sameAsParent": true
     },
     {
@@ -115,9 +104,8 @@
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "GBP 3,250,125.00 ($4,165,035.19)",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "GBP 2,987,400.00 ($3,828,353.10)",
+      "alignmentValue": 9
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
@@ -139,13 +127,15 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "Manchester, UK uses English as the default. Most government, healthcare, and banking tasks are in English, with interpreters available if needed.",
-      "alignmentValue": 9
+      "alignmentText": "Manchester, UK uses English as the default; most official tasks are in English, with interpreters available if needed.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Manchester public schools mainly use English; bilingual options exist but are not widespread, typically by upper primary (Year 5).",
-      "alignmentValue": 5
+      "alignmentText": "Manchester, UK schools primarily teach in English; bilingual programs exist but are limited, typically starting by Year 5.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "integration_housing_accessibility",
@@ -154,8 +144,8 @@
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Manchester, UK visa path is manageable with organized documents and sponsor routes. Expect 4\u20136 months; most steps online, biometrics if required.",
-      "alignmentValue": 7
+      "alignmentText": "Manchester, UK: US family visa path doable with sponsor routes; plan ~4\u20136 months end-to-end, mostly online.",
+      "alignmentValue": 4
     },
     {
       "key": "integration_immigration_status_rights",
@@ -186,7 +176,7 @@
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "In Manchester, UK, public schools likely offer about 10-11 hours/week of English; bilingual aides are limited.",
+      "alignmentText": "Manchester public schools likely provide about 10-11 hours/week of English with limited bilingual aides. Plan for bilingual exposure at home.",
       "alignmentValue": 6
     },
     {
@@ -202,12 +192,12 @@
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Manchester, UK family-leisure plan: curate a monthly calendar of affordable, kid-friendly activities close to home\u2014utilize safe parks (e.g., Heaton Park, Fletcher Moss Park), toddler-friendly indoor spaces, and library programs with children\u0027s events; include family days at the Manchester Museum and Science and Industry Museum; schedule story times in Manchester Libraries and ensure activities support bilingual exposure; prioritize venues with good accessibility and reasonable travel times from your home to align with ages 5 and 1 and parental work/childcare needs."
+      "alignmentText": "Manchester, UK family leisure plan: curate a monthly calendar of affordable, kid-friendly activities close to home. Prioritize safe parks (Heaton Park, Fletcher Moss Park), toddler-friendly indoor spaces, and library programs with children\u2019s events. Include family days at Manchester Museum and the Science and Industry Museum; schedule bilingual story times at Manchester Libraries; ensure venues are accessible and within reasonable travel time from your home to accommodate ages 5 and 1 and parental work/childcare needs.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Manchester, UK: Focus on low-stress, family-friendly evening social opportunities\u2014board-game nights and hobby meetups at libraries and community centers, cafe gatherings with quiet hours, and beginner-friendly gaming groups. Prioritize venues with good late-night transit, safety, and affordable prices; seek multilingual or English-practice meetups to support language exposure; tap local community hubs and tech/startup scenes for relaxed networking.",
-      "sameAsParent": false
+      "alignmentText": "Manchester, UK: Focus on low-stress, family-friendly evening social options. Promote board-game nights and hobby meetups at libraries and community centers; cafe gatherings with quiet hours; and beginner-friendly gaming groups. Prioritize venues with safe, affordable options and reliable late-night transit; support multilingual or English-practice meetups to aid language exposure; partner with local community hubs and tech/startup spaces to enable relaxed networking."
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
@@ -232,7 +222,7 @@
     },
     {
       "key": "life_daycare_accessibility",
-      "alignmentText": "In Manchester, UK, expect a 4-6 month wait for 1-year-old nursery slots; start registration early and keep documents ready.",
+      "alignmentText": "In Manchester, UK, 1-year-old nursery slots typically take 4-6 months; start applications early and have documents ready.",
       "alignmentValue": 6
     },
     {
@@ -265,12 +255,11 @@
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "GBP 1,100.00 ($1,375.00)",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentValue": 9
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
-      "alignmentText": "GBP 650.00 ($832.00)",
+      "alignmentText": "GBP 60.00 ($76.80)",
       "alignmentValue": 10
     },
     {
@@ -307,22 +296,21 @@
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Manchester, UK shows steady senior .NET architect demand. Moderate postings per million, with growing remote options.",
+      "alignmentText": "Manchester, UK shows steady senior .NET architect demand with moderate postings. Growing remote options suit Trey\u0027s Azure/game-dev work and Sarah\u0027s web role.",
       "alignmentValue": 6
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Manchester, UK Rails demand is moderate; roughly 4-6 postings per million residents per month for 6 years of Rails experience.",
+      "alignmentText": "Manchester, UK Rails demand is modest: about 4-6 postings per million per month for 6 years of Rails experience; decent but not abundant.",
       "alignmentValue": 3
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "GBP 95,000.00 ($120,650.00)",
-      "sameAsParent": false
+      "alignmentText": "GBP 85,000.00 ($107,865.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "GBP 65,000.00 ($82,550.00)"
+      "alignmentText": "GBP 60,000.00 ($76,200.00)"
     },
     {
       "key": "outdoors_beach_life",
@@ -347,12 +335,12 @@
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Manchester, UK offers several parks over 10 acres within 5 km and at least one regional trail reachable by transit in under 30 minutes.",
+      "alignmentText": "Manchester offers several 10\u002B acre parks within 5 km and fast transit to regional trails, supporting family-friendly outdoor time.",
       "alignmentValue": 7
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Manchester, UK spring highs 50\u00B0F\u201368\u00B0F and lows 38\u00B0F\u201348\u00B0F; generally mild with variable, day-to-day weather.",
+      "alignmentText": "Manchester, UK spring highs 55-59\u00B0F; lows 45-50\u00B0F; generally mild but variable.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -375,8 +363,8 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Manchester offers a diversified economy and UK stability. 5-year GDP per capita volatility is moderate.",
-      "alignmentValue": 7
+      "alignmentText": "Manchester, UK offers diversified economy and stability; about 3 recession years in the last 20 (2008-09, 2020).",
+      "alignmentValue": 8
     },
     {
       "key": "stability_migration_stability",
@@ -386,14 +374,14 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Manchester, UK benefits from strong political stability with reliable institutions and predictable governance.",
-      "alignmentValue": 9
+      "alignmentText": "Manchester, UK shows very high political stability with reliable institutions and predictable governance; good for family planning.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Manchester, UK provides reliable services and good schools; a stable, family-friendly city with moderate crime risk.",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "alignmentText": "Manchester, UK offers strong schools, reliable services, and family-friendly neighborhoods; crime is moderate, ensuring stable family life.",
+      "alignmentValue": 6
     }
   ]
 }

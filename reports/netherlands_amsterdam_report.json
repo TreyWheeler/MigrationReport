@@ -10,7 +10,8 @@
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
       "alignmentText": "EUR 2,800.00 ($3,080.00)",
-      "alignmentValue": 8
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
@@ -35,7 +36,7 @@
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "EUR 300.00 ($324.00)",
+      "alignmentText": "EUR 350.00 ($378.00)",
       "sameAsParent": true
     },
     {
@@ -72,17 +73,6 @@
       "alignmentValue": 5
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "45%",
-      "alignmentValue": 6
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
       "alignmentText": "Amsterdam startup visa can suit a small game studio. Remote steps via an NL facilitator with light documentation; processing in about 6-8 weeks.",
       "alignmentValue": 9
@@ -99,13 +89,13 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "2",
-      "alignmentValue": 4
+      "alignmentText": "1",
+      "alignmentValue": 3
     },
     {
       "key": "daemon_games_number_of_aa_studios",
-      "alignmentText": "20",
-      "alignmentValue": 8
+      "alignmentText": "25",
+      "alignmentValue": 9
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
@@ -115,8 +105,8 @@
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "EUR 2,800,739.55 ($3,080,802.50)",
-      "alignmentValue": 7
+      "alignmentText": "EUR 3,065,062.50 ($3,371,568.75)",
+      "alignmentValue": 8
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
@@ -151,8 +141,8 @@
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Moderate immigration effort in the Netherlands (Amsterdam). Skilled paths exist (startup/highly skilled) with employer support; plan for 6\u20138 months.",
-      "alignmentValue": 6
+      "alignmentText": "Amsterdam startup/highly skilled visa paths exist; as first-time applicants, plan for end-to-end processing \u003E28 weeks.",
+      "alignmentValue": 2
     },
     {
       "key": "integration_immigration_status_rights",
@@ -192,7 +182,7 @@
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "Amsterdam, NL: date-night options that suit a couple with a 5-year-old and a 1-year-old include sunset canal cruises or riverside strolls; family-friendly dining with play spaces in Jordaan or De Pijp; board-game caf\u00E9s or casual caf\u00E9s with kid zones; children\u2019s theatre, puppet shows, or evening programs at science/museum venues; twilight walks in Vondelpark or Amsterdamse Bos with prearranged childcare; and pre-booked babysitting through registered services to enable adults time together. Coordinate childcare in advance, check hours, and use easy public transit for low-stress evenings.",
+      "alignmentText": "Amsterdam, NL: For a couple with two young children (ages 5 and 1), plan date nights that balance adult time with kid-friendly options. Suggested activities: sunset canal cruises or riverside strolls; family-friendly dining with play spaces in Jordaan or De Pijp; board-game caf\u00E9s or kid-friendly caf\u00E9s; early-evening children\u0027s theatre/puppet shows or science/museum programs; twilight walks in Vondelpark or Amsterdamse Bos. Actionable steps: book registered babysitting in advance, verify venue hours, choose stroller-accessible venues, and use reliable public transit to minimize stress; coordinate childcare ahead of time to enable adults time together.",
       "sameAsParent": false
     },
     {
@@ -210,7 +200,7 @@
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Amsterdam\u0027s bike-friendly, transit-rich layout enables car-free family trips; most errands and school runs stay off cars.",
+      "alignmentText": "Amsterdam\u0027s bike-friendly, transit-rich layout supports car-free family trips; many errands and school runs can be done by bike or transit.",
       "alignmentValue": 10
     },
     {
@@ -225,7 +215,7 @@
     },
     {
       "key": "life_daycare_accessibility",
-      "alignmentText": "In Amsterdam, a 1-year-old usually gets daycare in 2-3 months with weekly waitlist updates; start early and explore subsidy options.",
+      "alignmentText": "In Amsterdam, NL, a 1-year-old typically gets daycare in 2-3 months; start early and check subsidies for affordable care.",
       "alignmentValue": 8
     },
     {
@@ -293,8 +283,8 @@
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Amsterdam, NL has broad, accredited adult upskilling programs with subsidized online options. Strong English-friendly options support accessibility.",
-      "alignmentValue": 8
+      "alignmentText": "Amsterdam, NL has 15-19 accredited adult programs per 100k; English-friendly courses and subsidized online options fit busy families.",
+      "alignmentValue": 9
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
@@ -308,7 +298,7 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 115,000.00 ($124,200.00)"
+      "alignmentText": "EUR 130,000.00 ($141,700.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
@@ -341,9 +331,8 @@
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Amsterdam spring: highs 50-60\u00B0F, lows 40-50\u00B0F; mild with occasional swings.",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentText": "Amsterdam spring: highs 55\u201365\u00B0F, lows 40\u201350\u00B0F; mild with occasional swings.",
+      "alignmentValue": 8
     },
     {
       "key": "outdoors_summer_temperature_range",
@@ -358,8 +347,8 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Amsterdam, Netherlands, offers a mild maritime climate with stable conditions. Expect about 10-13 severe weather/AQI days per year.",
-      "alignmentValue": 8,
+      "alignmentText": "Amsterdam, NL has a mild maritime climate with stable conditions and few severe-weather days; fits the family\u0027s low-risk, mild-weather preference.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -370,18 +359,20 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Netherlands (Amsterdam) offers solid migration stability: 2-3 overhauls per decade and 2-3% skilled-visa revocations.",
+      "alignmentText": "Amsterdam, Netherlands offers solid migration stability for families: about 2-3 policy overhauls per decade and modest skilled-visa changes.",
       "alignmentValue": 8
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Netherlands (Amsterdam) ranks very high for political stability. Expect predictable policy, strong rule of law, and low unrest.",
-      "alignmentValue": 10
+      "alignmentText": "Amsterdam, NL ranks very high in political stability; expect predictable policy, strong rule of law, and low unrest; supportive for families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Stability high in Amsterdam, NL: violent crime well below 200 per 100k; utilities and schools are reliable.",
-      "alignmentValue": 10
+      "alignmentText": "Stability in Amsterdam, NL is high for families. Violent crime stays under 200 per 100k; healthcare and utilities are reliable.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     }
   ]
 }

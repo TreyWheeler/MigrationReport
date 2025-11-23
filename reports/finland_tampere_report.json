@@ -75,16 +75,6 @@
       "sameAsParent": true
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "50%",
-      "alignmentValue": 7
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "0%",
-      "alignmentValue": 2
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
       "alignmentText": "Tampere startup visa doable in ~3-4 months with a Finnish company; plan with local legal help; English-friendly, family-friendly setup.",
       "alignmentValue": 7
@@ -200,7 +190,8 @@
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "In Tampere, prioritize family-friendly, stroller-accessible activities: Vapriikki Museum Centre (interactive exhibits for young children), S\u00E4rk\u00E4nniemi Adventure Park and aquarium, and N\u00E4sinneula Observation Tower for city views; complement with easy nature outings at Pyynikki Park/Sorsapuisto playgrounds and indoor options like local climbing gyms or library workshops for rainy days; book ahead for peak seasons and choose kid-friendly cafes nearby."
+      "alignmentText": "In Tampere, prioritize family-friendly, stroller-accessible options: visit Vapriikki Museum Centre (interactive exhibits for young children); Sarkannenniemi Adventure Park and its aquarium; N\u00E4sinneula Observation Tower for panoramic city views. Complement with easy nature outings at Pyynikki Park and Sorsapuisto playgrounds; for rainy days, explore indoor options such as climbing gyms or library workshops; plan ahead by booking timed tickets where available and choose nearby kid-friendly cafes before or after visits.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_friend_night_opportunities",
@@ -208,23 +199,23 @@
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Tampere, Finland has libraries and family centers with after-hours staff supervision. This aligns with a mid-range 3rd-places score (roughly 14-17 per 100k residents).",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "alignmentText": "Tampere, Finland has libraries and family centers with after-hours staff; aligns with a mid-range 3rd-places score (14\u201317 venues/100k).",
+      "alignmentValue": 6
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Tampere, Finland offers a walkable center with tram transit and bike lanes; ~60-69% car-free trips suit your family\u0027s slower, family-friendly lifestyle.",
-      "alignmentValue": 8
+      "alignmentText": "Tampere, Finland offers a compact, walkable city center with tram transit and bike lanes. About 60-69% of trips are car-free, suiting your kid-friendly pace.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "Quality food access in Tampere, Finland is strong with weekly markets and ample produce options. Ultra-processed share is moderate by Nordic norms.",
+      "alignmentText": "Quality food access in Tampere, Finland is family-friendly with weekly markets and ample produce; ultra-processed share stays moderate by Nordic norms.",
       "alignmentValue": 8
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Finland\u0027s Tampere has digital-by-default services and English-friendly portals; most routine tasks can be done online in under an hour per month.",
+      "alignmentText": "Tampere offers digital-by-default, one-stop e-services with English-friendly portals; most tasks take under an hour monthly.",
       "alignmentValue": 10
     },
     {
@@ -244,9 +235,8 @@
     },
     {
       "key": "life_daycare_affordability_perm_resident",
-      "alignmentText": "EUR 350.00 ($385.00)",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "EUR 320.00 ($348.80)",
+      "alignmentValue": 10
     },
     {
       "key": "life_healthcare_accessibility",
@@ -261,7 +251,7 @@
     },
     {
       "key": "life_healthcare_affordability_non_resident",
-      "alignmentText": "EUR 900.00 ($990.00)",
+      "alignmentText": "EUR 1,000.00 ($1,090.00)",
       "alignmentValue": 10
     },
     {
@@ -276,13 +266,15 @@
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "1900",
-      "alignmentValue": 7
+      "alignmentText": "1700",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "life_public_transportation",
-      "alignmentText": "Tampere has dense, reliable public transit; most neighborhoods are within 500m of 10-minute service for about 18 hours a day.",
-      "alignmentValue": 9
+      "alignmentText": "Tampere\u0027s public transit is dense and reliable. Most neighborhoods are within 500 m of 10-minute service for ~18 hours daily, helping family outings and school runs.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_college_accessibility",
@@ -314,11 +306,11 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 85,000.00 ($91,800.00)"
+      "alignmentText": "EUR 76,500.00 ($82,620.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 58,000.00 ($62,640.00)"
+      "alignmentText": "EUR 52,000.00 ($56,160.00)"
     },
     {
       "key": "outdoors_beach_life",
@@ -337,8 +329,9 @@
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Within 60 minutes of Tampere, Finland, protected natural land is substantial. There are scenic reserves nearby for family outdoor trips.",
-      "alignmentValue": 7
+      "alignmentText": "Within 60 minutes of Tampere, protected forests and lakes offer easy, family-friendly outdoor trips; Seitseminen and nearby reserves provide scenic escapes.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_nature_access",
@@ -368,23 +361,24 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Finland\u0027s economy is stable; Tampere offers strong safety nets, healthcare, and education\u2014supporting long-term family plans with low volatility.",
-      "alignmentValue": 9
+      "alignmentText": "Tampere\u0027s economy remains resilient; strong welfare, healthcare, and education support stable family life in Finland.",
+      "alignmentValue": 7
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Finland\u0027s immigration system is highly stable (few policy overhauls) and Tampere offers clear, family-friendly entry paths.",
-      "alignmentValue": 10
+      "alignmentText": "Tampere, Finland offers highly stable immigration rules with clear, family-friendly residency paths for newcomers.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Finland\u0027s Tampere offers very high political stability with strong rule of law, supporting a safe, predictable life for your family.",
+      "alignmentText": "Tampere, Finland offers very high political stability and strong rule of law, supporting a safe, predictable life for your family.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Stability in Tampere, Finland is excellent. Violent crime is well under 200/100k with reliable utilities and solid schools.",
+      "alignmentText": "Stability in Tampere, Finland is excellent for families. Violent crime stays well under 200/100k, with strong schools and reliable services.",
       "alignmentValue": 10
     }
   ]

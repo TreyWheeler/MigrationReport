@@ -4,25 +4,26 @@
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
-      "alignmentText": "USD 6,200.00",
+      "alignmentText": "USD 6,000.00",
       "alignmentValue": 3,
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
-      "alignmentText": "USD 4,250.00",
-      "alignmentValue": 6
+      "alignmentText": "USD 3,900.00",
+      "alignmentValue": 7
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "USD 4,800.00",
-      "alignmentValue": 5,
+      "alignmentText": "USD 4,000.00",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
       "alignmentText": "USD 3,400.00",
-      "alignmentValue": 1
+      "alignmentValue": 1,
+      "sameAsParent": true
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
@@ -57,9 +58,8 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Los Angeles, CA: CA payroll taxes require monthly deposits and quarterly filings; a local CPA keeps compliance manageable.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentText": "Los Angeles, CA payroll taxes require monthly deposits and quarterly filings; a local CPA keeps startup compliance manageable.",
+      "alignmentValue": 7
     },
     {
       "key": "daemon_games_burn_rate",
@@ -73,19 +73,9 @@
       "alignmentValue": 3
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "30%",
-      "alignmentValue": 3
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "0%",
-      "alignmentValue": 2
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Los Angeles, US: US citizens can form a game studio via standard regs; no dedicated startup visa required.",
-      "alignmentValue": 7,
+      "alignmentText": "Los Angeles, US: US citizens can start a game studio under standard regs. No startup visa is required.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
@@ -100,8 +90,8 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "9",
-      "alignmentValue": 9
+      "alignmentText": "10",
+      "alignmentValue": 10
     },
     {
       "key": "daemon_games_number_of_aa_studios",
@@ -110,12 +100,12 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "USD 8,830,620.00",
+      "alignmentText": "USD 8,969,446.56",
       "alignmentValue": 7
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "USD 2,465,274.00",
+      "alignmentText": "USD 2,405,945.00",
       "alignmentValue": 6,
       "sameAsParent": false
     },
@@ -138,12 +128,13 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "Los Angeles: English-dominant govt; 10-20% tasks need Spanish; most forms in English; supports bilingual exposure for kids; adults value English ubiquity.",
-      "alignmentValue": 9
+      "alignmentText": "Los Angeles: English-dominant; ~10-14% Spanish-use; supports bilingual exposure for kids; adults value English ubiquity.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Los Angeles, CA offers many K Spanish-English bilingual tracks; supports your 5-year-old\u0027s early bilingual schooling.",
+      "alignmentText": "Los Angeles, CA has many K Spanish-English bilingual tracks; supports your 5-year-old\u0027s early bilingual schooling.",
       "alignmentValue": 9,
       "sameAsParent": true
     },
@@ -154,12 +145,13 @@
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Los Angeles, US: U.S. citizens relocating domestically; no visa needed. Immigration steps are straightforward and quick.",
-      "alignmentValue": 10
+      "alignmentText": "Los Angeles, US: US citizens relocating within the United States; no visa needed. Domestic move to CA is straightforward and quick.",
+      "alignmentValue": 10,
+      "sameAsParent": true
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "Los Angeles, CA: U.S. permanent residency (Green Card) can be obtained through family sponsorship, employment petitions, asylum/refugee relief, or the Diversity Visa lottery. It grants lawful work, permanent residence, travel with a valid card, and a path to citizenship; it does not confer voting rights. Action steps in LA: determine the applicable path, gather required documentation, file or adjust with USCIS, and maintain status with timely renewals; consult a California-experienced immigration attorney or accredited representative; use local LA nonprofit clinics for affordable help; monitor processing times and plan for naturalization if eligible; after obtaining status, explore California benefits such as driver license eligibility and potential in-state tuition options.",
+      "alignmentText": "Los Angeles, CA: U.S. permanent residency (Green Card) grants lawful permanent resident status with work authorization and a path to citizenship; it does not grant federal voting rights. Eligible pathways include family sponsorship, employment-based petitions, asylum/refugee relief, or the Diversity Visa (DV) lottery. Action steps: confirm the applicable pathway, assemble required documents (identity, proof of relationship or employment, immigration history, financials), file for adjustment of status or consular processing with USCIS or a U.S. embassy/consulate, and maintain status with timely renewals. Seek guidance from a California-licensed immigration attorney or accredited representative; utilize local LA nonprofit clinics for affordable help; monitor processing times; plan for naturalization if eligible; after status is granted, explore California benefits such as driver license eligibility and potential in-state tuition options.",
       "sameAsParent": false
     },
     {
@@ -187,8 +179,9 @@
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "In LA public schools, English instruction averages about 12-13 hours/week with some bilingual support in core subjects. Bilingual exposure is feasible.",
-      "alignmentValue": 7
+      "alignmentText": "LA public schools provide about 12-13 hours/week of English instruction with some bilingual support in core subjects; bilingual exposure is feasible.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "kids_language_integration_services",
@@ -221,13 +214,13 @@
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "Los Angeles has abundant markets and fresh produce across neighborhoods. Dense fast-food presence limits top scores for families like ours.",
-      "alignmentValue": 5
+      "alignmentText": "Los Angeles has many markets and fresh produce, but dense fast-food options limit healthy choices for our family.",
+      "alignmentValue": 7
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Los Angeles, CA: most filings online with modest queues; first-time visa onboarding may require a single morning in person.",
-      "alignmentValue": 8
+      "alignmentText": "Los Angeles, CA: most filings online with modest queues; family visa onboarding may require a single morning in person.",
+      "alignmentValue": 7
     },
     {
       "key": "life_daycare_accessibility",
@@ -249,17 +242,19 @@
     {
       "key": "life_daycare_affordability_perm_resident",
       "alignmentText": "USD 2,000.00 ($2,000.00)",
-      "alignmentValue": 1
+      "alignmentValue": 1,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "Los Angeles has broad insured access; PCP waits 5-7 days and specialists 11-14 days - reasonable for a family with two young kids.",
+      "alignmentText": "Los Angeles offers broad insured access; PCP waits 5-7 days, specialists 11-14 days, reasonable for a family with two young kids.",
       "alignmentValue": 7
     },
     {
       "key": "life_healthcare_affordability_citizen",
       "alignmentText": "USD 1,900.00",
-      "alignmentValue": 1
+      "alignmentValue": 1,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_non_resident",
@@ -273,39 +268,42 @@
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "LA, CA: employer coverage is common; if employment ends, 51-60% risk; CA Medi-Cal/ACA options help families with kids.",
-      "alignmentValue": 4
+      "alignmentText": "LA\u0027s Medi-Cal/Covered California cushion job changes; kids stay insured through public options, though adults may see plan changes after job shifts.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "1880",
-      "alignmentValue": 7
+      "alignmentText": "2000",
+      "alignmentValue": 6
     },
     {
       "key": "life_public_transportation",
-      "alignmentText": "LA transit is uneven; core areas offer 500m access to frequent service, which supports family-friendly neighborhoods, but many parts still require driving.",
-      "alignmentValue": 4
+      "alignmentText": "LA transit is uneven. Core areas offer 500m access to frequent service, benefiting families, but many neighborhoods still require driving.",
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "In Los Angeles, public colleges offer affordable in-state tuition and open-admission options, supporting your high education priority.",
-      "alignmentValue": 10
+      "alignmentText": "In Los Angeles, affordable California community colleges and open admissions support your high education priority; strong public options, transfer pathways.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "LA hosts UCLA and Caltech in the global top 50 with strong English programs; abundant bilingual exposure supports your education goals.",
+      "alignmentText": "Los Angeles hosts UCLA and Caltech in the global top 50 with strong English programs; bilingual exposure supports your kids\u0027 education goals.",
       "alignmentValue": 10
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Los Angeles offers abundant accredited adult upskilling via colleges/extensions and subsidized online options. This supports the family\u0027s high education priority.",
+      "alignmentText": "Los Angeles, CA offers abundant accredited adult programs and subsidized online options, supporting the family\u0027s high education priority.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Los Angeles, CA shows solid senior .NET architect demand; strong pay and remote options support Trey\u0027s startup and Sarah\u0027s web work.",
-      "alignmentValue": 7,
+      "alignmentText": "Los Angeles, CA, USA shows strong senior .NET architect demand with solid pay and remote options that support Trey\u0027s startup and Sarah\u0027s web work.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
@@ -359,7 +357,7 @@
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Los Angeles summers: highs 72\u201385\u00B0F, lows 60\u201372\u00B0F; low humidity fits our mild, low-stress, family-friendly climate.",
+      "alignmentText": "Los Angeles summers typically reach 76\u201380\u00B0F highs with low humidity, matching our mild, low-stress, family-friendly climate.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -376,25 +374,26 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Los Angeles, USA offers steady GDP stability amid a diverse tech/media economy; supports Trey\u0027s startup and Sarah\u0027s remote-friendly family life.",
-      "alignmentValue": 8
+      "alignmentText": "Los Angeles offers steady GDP stability (3 recession years in 20) in a diverse tech/media economy; supports Trey\u0027s startup and Sarah\u0027s work.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "US/LA policy shows moderate shifts; LA startup visa paths exist, but federal rules can alter residency, affecting founders in LA\u0027s tech scene.",
-      "alignmentValue": 7
+      "alignmentText": "US/LA policy shows moderate shifts; LA startup visas exist, but federal rules can change residency, impacting this KC-origin family\u0027s LA tech plans.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Los Angeles, USA enjoys high political stability, strong civil liberties, and robust institutions that support your family\u0027s long-term plans.",
-      "alignmentValue": 10,
+      "alignmentText": "Los Angeles, USA shows high liberal-democracy indicators and strong civil liberties; stable institutions support your family\u0027s long-term plans.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Los Angeles offers family-friendly neighborhoods and strong schools; safety varies by area, while utilities remain reliable.",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "alignmentText": "Los Angeles has family-friendly neighborhoods and strong schools. Safety varies by area, with some safe, walkable communities.",
+      "alignmentValue": 6
     }
   ]
 }

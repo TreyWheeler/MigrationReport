@@ -68,7 +68,8 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
         }
 
         string? validationFeedback = null;
-        for (var attempt = 1; attempt <= Math.Max(1, _options.MaxRetryCount); attempt++)
+        var totalAttempts = Math.Max(1, _options.MaxRetryCount);
+        for (var attempt = 1; attempt <= totalAttempts; attempt++)
         {
             var prompt = validationFeedback is null
                 ? basePrompt
@@ -94,54 +95,71 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
 
             activity?.AddEvent(new ActivityEvent("http.request", tags: new ActivityTagsCollection
             {
-                { "http.request.body", requestBody }
+                { "http.request.length", requestBody?.Length ?? 0 }
             }));
 
-            _logger.LogInformation("OpenAI request for {Key} using {Model}: {Body}", entry.Key, model, requestBody);
+            _logger.LogInformation("OpenAI request for {Key} using {Model} (attempt {Attempt}/{Total}).", entry.Key, model, attempt, totalAttempts);
 
-            using var response = await _httpClient.SendAsync(requestMessage, cancellationToken);
-            var body = await response.Content.ReadAsStringAsync(cancellationToken);
-            activity?.SetTag("http.status_code", (int)response.StatusCode);
-            activity?.AddEvent(new ActivityEvent("http.response", tags: new ActivityTagsCollection
+            try
             {
-                { "http.response.body", body }
-            }));
-
-            _logger.LogInformation("OpenAI response for {Key}: {Body}", entry.Key, body);
-
-            if (response.IsSuccessStatusCode)
-            {
-                var suggestion = ParseResponse(body, entry.Key, informational);
-                var validation = ValueRequirementHelper.Validate(format, suggestion.AlignmentText, context.Iso, keyDefinition);
-                if (!validation.IsValid)
+                using var response = await _httpClient.SendAsync(requestMessage, cancellationToken);
+                var body = await response.Content.ReadAsStringAsync(cancellationToken);
+                activity?.SetTag("http.status_code", (int)response.StatusCode);
+                activity?.AddEvent(new ActivityEvent("http.response", tags: new ActivityTagsCollection
                 {
-                    if (attempt < Math.Max(1, _options.MaxRetryCount))
+                    { "http.response.length", body?.Length ?? 0 }
+                }));
+
+                _logger.LogInformation("OpenAI response for {Key} status {StatusCode} (len {Length})", entry.Key, (int)response.StatusCode, body?.Length ?? 0);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var suggestion = ParseResponse(body, entry.Key, informational);
+                    var validation = ValueRequirementHelper.Validate(format, suggestion.AlignmentText, context.Iso, keyDefinition);
+                    if (!validation.IsValid)
                     {
-                        validationFeedback = validation.ErrorMessage;
-                        _logger.LogWarning("Suggestion for {Key} failed validation: {Error}. Retrying with stricter instructions.", entry.Key, validationFeedback);
-                        activity?.SetStatus(ActivityStatusCode.Error, validationFeedback);
-                        continue;
+                        if (attempt < totalAttempts)
+                        {
+                            validationFeedback = validation.ErrorMessage;
+                            _logger.LogWarning("Suggestion for {Key} failed validation: {Error}. Retrying with stricter instructions.", entry.Key, validationFeedback);
+                            activity?.SetStatus(ActivityStatusCode.Error, validationFeedback);
+                            continue;
+                        }
+
+                        throw new InvalidOperationException($"OpenAI returned invalid alignment for {entry.Key}: {validation.ErrorMessage}");
                     }
 
-                    throw new InvalidOperationException($"OpenAI returned invalid alignment for {entry.Key}: {validation.ErrorMessage}");
+                    await TrySetCachedSuggestionAsync(cacheKey, suggestion, entry.Key, cancellationToken).ConfigureAwait(false);
+                    activity?.SetStatus(ActivityStatusCode.Ok);
+                    return suggestion;
                 }
 
-                await TrySetCachedSuggestionAsync(cacheKey, suggestion, entry.Key, cancellationToken).ConfigureAwait(false);
-                activity?.SetStatus(ActivityStatusCode.Ok);
-                return suggestion;
-            }
+                if (IsRetryable(response.StatusCode) && attempt < totalAttempts)
+                {
+                    var delay = TimeSpan.FromSeconds(Math.Pow(2, attempt));
+                    _logger.LogWarning("OpenAI request for {Key} failed with status {StatusCode}. Retrying in {Delay}.", entry.Key, (int)response.StatusCode, delay);
+                    activity?.SetStatus(ActivityStatusCode.Error, $"Retrying due to status {(int)response.StatusCode}");
+                    await Task.Delay(delay, cancellationToken);
+                    continue;
+                }
 
-            if (IsRetryable(response.StatusCode) && attempt < _options.MaxRetryCount)
+                activity?.SetStatus(ActivityStatusCode.Error, $"Request failed: {(int)response.StatusCode}");
+                throw new HttpRequestException($"OpenAI request failed: {response.StatusCode}");
+            }
+            catch (TaskCanceledException) when (attempt < totalAttempts && !cancellationToken.IsCancellationRequested)
             {
                 var delay = TimeSpan.FromSeconds(Math.Pow(2, attempt));
-                _logger.LogWarning("OpenAI request for {Key} failed with status {StatusCode}. Retrying in {Delay}.", entry.Key, (int)response.StatusCode, delay);
-                activity?.SetStatus(ActivityStatusCode.Error, $"Retrying due to status {(int)response.StatusCode}");
+                _logger.LogWarning("OpenAI request for {Key} timed out. Retrying in {Delay}.", entry.Key, delay);
                 await Task.Delay(delay, cancellationToken);
                 continue;
             }
-
-            activity?.SetStatus(ActivityStatusCode.Error, $"Request failed: {(int)response.StatusCode}");
-            throw new HttpRequestException($"OpenAI request failed: {response.StatusCode} {body}");
+            catch (HttpRequestException ex) when (attempt < totalAttempts)
+            {
+                var delay = TimeSpan.FromSeconds(Math.Pow(2, attempt));
+                _logger.LogWarning(ex, "OpenAI request for {Key} failed. Retrying in {Delay}.", entry.Key, delay);
+                await Task.Delay(delay, cancellationToken);
+                continue;
+            }
         }
 
         throw new HttpRequestException("OpenAI request failed after retries.");

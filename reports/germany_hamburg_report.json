@@ -5,7 +5,8 @@
     {
       "key": "cost_of_living_family_150m2_in_city_center",
       "alignmentText": "EUR 3,600.00 ($3,888.00)",
-      "alignmentValue": 7
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
@@ -19,8 +20,8 @@
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "EUR 1,350.00 ($1,485.00)",
-      "alignmentValue": 4
+      "alignmentText": "EUR 750.00 ($825.00)",
+      "alignmentValue": 7
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
@@ -30,7 +31,7 @@
     },
     {
       "key": "cost_of_living_family_eating_out",
-      "alignmentText": "EUR 111.00 ($122.10)",
+      "alignmentText": "EUR 120.00 ($132.00)",
       "alignmentValue": 3,
       "sameAsParent": false
     },
@@ -48,7 +49,8 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "EUR 300.00 ($324.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -63,8 +65,8 @@
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "EUR 732,916.67 ($807,307.71)",
-      "alignmentValue": 9
+      "alignmentText": "EUR 895,000.00 ($985,842.50)",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -72,18 +74,8 @@
       "alignmentValue": 3
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "40%",
-      "alignmentValue": 5
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Hamburg startup visa exists but needs in-person steps; ~3-4 month timeline with paperwork; local funding/grants can help.",
+      "alignmentText": "Hamburg startup visa exists with in-person steps; ~3-4 months to approval; local grants/funding can help the business.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -99,8 +91,8 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "4",
-      "alignmentValue": 6
+      "alignmentText": "3",
+      "alignmentValue": 5
     },
     {
       "key": "daemon_games_number_of_aa_studios",
@@ -109,25 +101,25 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "EUR 8,396,063.52 ($9,118,125.50)",
+      "alignmentText": "EUR 8,039,566.67 ($8,682,732.00)",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "EUR 2,693,669.61 ($2,927,901.75)",
+      "alignmentText": "EUR 2,822,107.00 ($3,067,629.94)",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "EUR 43,550,014.20 ($47,894,000.00)",
-      "alignmentValue": 5,
+      "alignmentText": "EUR 46,875,234.38 ($50,953,379.77)",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Hamburg, Germany has a growing game-dev scene; ~2 in-person events/month, 400-699 online hub with sponsor support, matching Trey\u0027s needs.",
+      "alignmentText": "Hamburg, Germany has ~2 in-person game events per month and 400-699 online members with sponsor support, matching Trey\u0027s needs.",
       "alignmentValue": 8
     },
     {
@@ -137,7 +129,7 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "In Hamburg, Germany, most government/healthcare tasks are in German; English covers routine services, but plan to learn German for official matters.",
+      "alignmentText": "In Hamburg, Germany, German dominates official tasks; English covers routine services, and the family plans to learn German for official interactions.",
       "alignmentValue": 6
     },
     {
@@ -147,13 +139,15 @@
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Hamburg housing: lease typically 3-4 weeks with up to 2 months deposit; English-friendly options exist, but Schufa and income proof are common.",
-      "alignmentValue": 8
+      "alignmentText": "Hamburg housing: leases for internationals typically 4-6 weeks; deposits up to 2 months. English options exist, but Schufa and income proof are common.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Hamburg, Germany: Family reunification/Blue Card route for US citizens. Expect 4-6 months with organized docs and in-person steps.",
-      "alignmentValue": 7
+      "alignmentText": "Hamburg, Germany: US citizens\u2014Blue Card/work visa path; ~21\u201328 weeks end-to-end with organized docs and in-person steps.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "integration_immigration_status_rights",
@@ -162,7 +156,7 @@
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Hamburg, Germany is fairly welcoming to skilled immigrants with Blue Card routes and a growing tech scene; expect solid approvals.",
+      "alignmentText": "Hamburg offers Blue Card routes and a growing tech scene. Skilled visa approvals are solid for a US family.",
       "alignmentValue": 7,
       "sameAsParent": true
     },
@@ -180,7 +174,7 @@
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "Hamburg, Germany school meals emphasize balanced, fresh options; HEI around 80\u201384 with \u003C10% ultra-processed foods.",
+      "alignmentText": "Hamburg school meals offer balanced, fresh options. HEI is around 80-84 with ultra-processed foods under 10%.",
       "alignmentValue": 8
     },
     {
@@ -196,7 +190,7 @@
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "Hamburg offers accessible date-night options: sunset walks along the Alster or Elbe, family-friendly dinners in HafenCity with early seating, and seasonal evening events at Planten un Blomen; for longer outings, pre-arrange trusted childcare and use reliable public transit (HVV) to nearby neighborhoods; check Elbphilharmonie/Stage Theater programs for family-friendly offerings and book in advance.",
+      "alignmentText": "Hamburg date-night options include sunset strolls along the Alster or Elbe, family-friendly dinners in HafenCity with early seating, and seasonal evening events at Planten un Blomen; for longer outings, pre-arrange trusted childcare and use HVV for reliable transit to Speicherstadt, St. Pauli, or nearby neighborhoods; check Elbphilharmonie and Stage Theater programs for family-friendly performances and book in advance.",
       "sameAsParent": false
     },
     {
@@ -205,7 +199,7 @@
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "In Hamburg (DE), establish regular, family-friendly evening gatherings at accessible venues near major transit (S-/U-Bahn) - board game cafes, community centers, and parks - on weekends or weekday early evenings; prioritize English-friendly venues, affordable options, and safe spaces; coordinate with local gamer/expat groups to host monthly \u0027friends night\u0027 rotations and track attendance to refine locations and timing."
+      "alignmentText": "Hamburg (DE): Launch a regular family-friendly \u0027Friends Night\u0027 program at affordable, English-friendly venues (board game cafes, libraries, community centers) or other indoor spaces near transit (Hauptbahnhof, Jungfernstieg). Schedule on weekend evenings or Friday early evenings; rotate venues monthly with local gamer/expat groups; track attendance and feedback to refine locations, timing, and language supports. Seek discounts or space grants, provide bilingual event prompts, and ensure stroller-friendly, safe setups."
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
@@ -226,7 +220,7 @@
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Moderate bureaucracy expected in Hamburg: initial visa and Anmeldung require in-person steps; online filings grow, plan several afternoons per quarter during setup.",
+      "alignmentText": "Hamburg has moderate bureaucracy: visa/Anmeldung require in-person steps; online filings are growing\u2014schedule several setup afternoons in the first months.",
       "alignmentValue": 6
     },
     {
@@ -237,12 +231,14 @@
     {
       "key": "life_daycare_affordability_citizen",
       "alignmentText": "EUR 250.00 ($275.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_non_resident",
       "alignmentText": "EUR 650.00 ($715.00)",
-      "alignmentValue": 8
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_perm_resident",
@@ -280,8 +276,8 @@
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "1900",
-      "alignmentValue": 7,
+      "alignmentText": "1700",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
@@ -292,7 +288,7 @@
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "Hamburg, Germany has tuition-free public universities with broadly accessible admissions; ideal for bilingual education and family college planning.",
+      "alignmentText": "Hamburg public universities are tuition-free with broad access, supporting bilingual family college plans in Germany.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
@@ -303,8 +299,9 @@
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Strong access in Hamburg, DE: many Volkshochschule options and subsidized online courses for adult upskilling.",
-      "alignmentValue": 9
+      "alignmentText": "Hamburg, DE offers strong adult education: many Volkshochschule options and subsidized online courses for working parents.",
+      "alignmentValue": 9,
+      "sameAsParent": true
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
@@ -318,11 +315,11 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 95,000.00 ($103,550.00)"
+      "alignmentText": "EUR 115,000.00 ($125,350.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 72,000.00 ($78,480.00)"
+      "alignmentText": "EUR 78,000.00 ($85,059.00)"
     },
     {
       "key": "outdoors_beach_life",
@@ -330,8 +327,8 @@
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Fall in Hamburg, Germany ranges 50\u201368\u00B0F days and 38\u201348\u00B0F nights; expect mild to chilly days.",
-      "alignmentValue": 7,
+      "alignmentText": "Fall in Hamburg, Germany: highs around 65\u201369\u00B0F with nights of 38\u201348\u00B0F; mild to chilly days.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -341,17 +338,17 @@
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Hamburg, Germany offers waterfront scenery (Alster/Elbe) and coastal reserves; about 30-39% of land is protected within 60 minutes with 2\u002B scenic sites.",
-      "alignmentValue": 8
+      "alignmentText": "Hamburg offers Alster/Elbe waterfronts and nature reserves. About 40-49% of land within 60 minutes is protected with 2\u002B scenic sites.",
+      "alignmentValue": 9
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Hamburg, Germany offers ample nature: large parks like Stadtpark within 5 km and transit-accessible Alster/Elbe trails within 30 minutes.",
+      "alignmentText": "Hamburg offers ample family-friendly nature: Stadtpark within 5 km and transit-accessible Alster/Elbe trails within 30 minutes.",
       "alignmentValue": 8
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Hamburg, Germany spring highs 50-60\u00B0F, lows 40-50\u00B0F. Mostly mild with occasional rain.",
+      "alignmentText": "Hamburg spring highs around 60\u201364\u00B0F. Lows about 40\u201350\u00B0F; overall mild.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -368,8 +365,9 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Hamburg, Germany has a mild maritime climate with few severe weather/AQI days (about 6-9 per year). This aligns with your climate stability preference for low disruption.",
-      "alignmentValue": 9
+      "alignmentText": "Hamburg, Germany\u0027s mild maritime climate offers low disruption for your family; about 6-9 severe weather/AQI days per year align with your preferences.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
@@ -379,7 +377,7 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Hamburg\u0027s stable EU migration framework with skilled visas and startup support fits a family-focused plan.",
+      "alignmentText": "Hamburg, Germany offers a stable EU migration framework with skilled visas and startup support, aligning with a family-focused relocation.",
       "alignmentValue": 9
     },
     {

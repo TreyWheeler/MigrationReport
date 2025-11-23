@@ -21,22 +21,25 @@
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "EUR 150.00 ($162.00)",
-      "alignmentValue": 10
+      "alignmentText": "EUR 420.00 ($453.60)",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
       "alignmentText": "EUR 3,900.00 ($4,290.00)",
-      "alignmentValue": 3
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_eating_out",
-      "alignmentText": "EUR 100.00 ($110.00)",
-      "alignmentValue": 4
+      "alignmentText": "EUR 120.00 ($132.00)",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "EUR 450.00 ($495.00)",
+      "alignmentText": "EUR 500.00 ($550.00)",
       "sameAsParent": false
     },
     {
@@ -74,18 +77,8 @@
       "sameAsParent": false
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "35%",
-      "alignmentValue": 4
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "32%",
-      "alignmentValue": 9
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Ireland's Start-up Entrepreneur visa fits a game-studio founder relocating to Dublin; 8-12 weeks, ~\u20ac50k funding, startup-friendly docs.",
+      "alignmentText": "Ireland\u0027s Start-up Entrepreneur visa supports a Dublin game-studio founder; ~2-3 months for approval with ~\u20AC50k funding and startup-friendly docs.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -96,7 +89,7 @@
     },
     {
       "key": "daemon_games_feasible_game_grants",
-      "alignmentText": "- EUR 1,200,000.00 ($1,272,000.00) \u2013 Creative Europe MEDIA \u2013 Provides narrative-driven premium-game support to Ireland-incorporated studios and eligible EU partners within 0\u20133 years with milestone-based funding.\n- EUR 900,000.00 ($955,000.00) \u2013 Screen Ireland \u2013 Video Games Fund \u2013 Supports development and production for indie studios that establish an Irish entity, with flexible terms for small teams.\n- EUR 1,000,000.00 ($1,060,000.00) \u2013 Enterprise Ireland \u2013 New Frontiers \u2013 Offers early-stage, internationally oriented startup funding and mentorship over a 2-year trajectory.\n- EUR 500,000.00 ($530,000.00) \u2013 R&D Tax Credit \u2013 Ireland \u2013 Allows a 25% credit on qualifying R&D expenditure, reducing development costs for an Irish-incorporated project.",
+      "alignmentText": "- EUR 1,200,000.00 ($1,272,000.00) \u2013 Creative Europe MEDIA \u2013 Provides narrative-driven premium-game support to Ireland-incorporated studios and eligible EU partners within 0\u20133 years with milestone-based funding.\n- EUR 900,000.00 ($955,000.00) \u2013 Screen Ireland \u2013 Video Games Fund \u2013 Supports development and production for indie studios that establish an Irish entity, with flexible terms for small teams.\n- EUR 1,000,000.00 ($1,060,000.00) \u2013 Enterprise Ireland \u2013 New Frontiers \u2013 Offers early-stage, internationally oriented startup funding and mentorship over a 2-year trajectory.\n- EUR 500,000.00 ($530,000.00) \u2013 R\u0026D Tax Credit \u2013 Ireland \u2013 Allows a 25% credit on qualifying R\u0026D expenditure, reducing development costs for an Irish-incorporated project.",
       "sameAsParent": false
     },
     {
@@ -128,7 +121,7 @@
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Dublin's game dev scene has monthly meetups and a yearly jam; 250-399 online members drive collaborations in Dublin\u2014great for an entrepreneur family.",
+      "alignmentText": "Dublin\u0027s game dev scene has monthly meetups and a yearly jam; 250-399 online members drive collaborations in Dublin\u2014great for an entrepreneur family.",
       "alignmentValue": 7
     },
     {
@@ -155,7 +148,7 @@
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Ireland's tech visa paths are manageable; 4-6 months with organized evidence; online steps; possible interview for dependents.",
+      "alignmentText": "Ireland\u0027s tech visa paths are manageable; 4-6 months with organized evidence; online steps; possible interview for dependents.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -182,19 +175,18 @@
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "Ireland's school meals are improving; HEI ~70\u201374 with ultra-processed calories under 15%.",
+      "alignmentText": "Ireland\u0027s school meals are improving; HEI ~70\u201374 with ultra-processed calories under 15%.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "In Ireland, public schools are English-medium with Irish as a compulsory subject; expect 12-13 hours of English weekly with some bilingual support.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentText": "Public schools in Ireland are English-medium; Irish is compulsory. Expect 12-13 hours of English weekly with some bilingual support.",
+      "alignmentValue": 7
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Ireland offers robust ESOL access and critical-service translations; strong language integration for newcomer kids in IE.",
+      "alignmentText": "Ireland offers robust ESOL access and translations at essential services; newcomer kids in IE benefit from strong language integration.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -205,7 +197,7 @@
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Plan a rotating calendar of Ireland-based family activities that mix outdoor parks and beaches with kid-friendly cultural venues within a 1-2 hour drive. Action steps: map regular visits to parks and coast (Phoenix Park, Howth, Bray), plan day trips to nature areas (Wicklow Mountains, Glendalough) and family venues (Imaginosity Dublin; Fota Wildlife Park near Cork; King John's Castle and Hunt Museum in Limerick). Include libraries with children's programs and indoor play centres for rainy days; prioritize affordable options and accessibility for a 5-year-old and a 1-year-old, and plan around daylight and weather."
+      "alignmentText": "Plan a rotating calendar of Ireland-based family activities that mix outdoor parks and beaches with kid-friendly cultural venues within a 1-2 hour drive. Action steps: map regular visits to parks and coast (Phoenix Park, Howth, Bray), plan day trips to nature areas (Wicklow Mountains, Glendalough) and family venues (Imaginosity Dublin; Fota Wildlife Park near Cork; King John\u0027s Castle and Hunt Museum in Limerick). Include libraries with children\u0027s programs and indoor play centres for rainy days; prioritize affordable options and accessibility for a 5-year-old and a 1-year-old, and plan around daylight and weather."
     },
     {
       "key": "leisure_common_friend_night_opportunities",
@@ -219,7 +211,7 @@
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "In Ireland's urban centers (Dublin, Cork), walk/bike/transit fit; about 50\u201359% of trips can be car-free for a family.",
+      "alignmentText": "In Ireland\u0027s urban centers (Dublin, Cork), walk/bike/transit fit; about 50\u201359% of trips can be car-free for a family.",
       "alignmentValue": 7
     },
     {
@@ -230,8 +222,9 @@
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Ireland's digital portals (mygov.ie, INIS) streamline visa/tax filings; mostly online with occasional morning in-person visits; simple compliance overall.",
-      "alignmentValue": 8
+      "alignmentText": "Ireland\u0027s mygov.ie/INIS portals keep visa and tax tasks online; ongoing compliance about 1-2 hours/mo, with a one-time initial set-up.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_accessibility",
@@ -257,7 +250,7 @@
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "Public healthcare in Ireland (IE) offers universal access. GP visits typically take 5-7 days; specialists 11-14 days.",
+      "alignmentText": "Ireland (IE) offers universal healthcare; for a family in IE, GP visits are 5-7 days and specialists 11-14 days.",
       "alignmentValue": 7
     },
     {
@@ -273,8 +266,9 @@
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
-      "alignmentText": "EUR 900.00 ($990.00)",
-      "alignmentValue": 9
+      "alignmentText": "EUR 850.00 ($935.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_tied_to_employment",
@@ -288,7 +282,7 @@
     },
     {
       "key": "life_public_transportation",
-      "alignmentText": "Dublin's urban transit is strong; many inner suburbs are within 500m of frequent buses/trams with 10-minute headways for about 18 hours a day.",
+      "alignmentText": "Dublin, Ireland: transit is strong; many inner suburbs sit within 500m of 10-minute buses/trams for ~18 hours daily. Good for families.",
       "alignmentValue": 9
     },
     {
@@ -298,29 +292,28 @@
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "Ireland's universities (e.g., Dublin) sit 101\u2013300 globally with English programs, aligning with your high-quality education goals and English ubiquity.",
+      "alignmentText": "Ireland\u0027s universities (e.g., Dublin) sit 101\u2013300 globally with English programs, aligning with your high-quality education goals and English ubiquity.",
       "alignmentValue": 6
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Ireland (IE) has strong continuing education with many accredited upskilling programs and subsidized online options via Springboard+.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Ireland (IE) offers strong continuing education with many accredited programs. Subsidized Springboard\u002B options support Trey\u0027s upskilling.",
+      "alignmentValue": 9
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Ireland's senior .NET architect demand is strong; Dublin's tech scene offers remote/hybrid roles and English-friendly pathways.",
+      "alignmentText": "Ireland\u0027s senior .NET architect demand remains strong. Dublin\u0027s tech scene supports remote/hybrid roles and English-friendly pathways.",
       "alignmentValue": 9
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Ireland (Dublin region) Rails demand is moderate, ~15-19 postings/m; steady opportunities for 6 years' experience, not saturated.",
+      "alignmentText": "Ireland (Dublin region) Rails demand ~15-19 postings/m; steady for 6 years\u0027 experience; not saturated.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 120,000.00 ($130,800.00)"
+      "alignmentText": "EUR 140,000.00 ($152,600.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
@@ -328,48 +321,49 @@
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Coastal Ireland offers broad beach access with a mild climate; prioritize family-friendly towns with blue-flag beaches and lifeguarded options (Howth, Portmarnock, Salthill, Inchydoney). Choose neighborhoods within reasonable access to Dublin and regional cities, ensuring near-beach housing, parks, indoor activities for rainy days, reliable broadband, and child-friendly amenities to support a slower, outdoors-friendly lifestyle."
+      "alignmentText": "Target coastal Ireland towns with blue-flag beaches within a reasonable radius of Dublin and regional centers (e.g., Howth, Portmarnock, Salthill, Inchydoney). Prioritize family-friendly neighborhoods near the beach with reliable broadband, parks, indoor options for rainy days, strong schools/childcare, affordable housing, and access to public services; ensure mild climate, low crime, and a supportive remote-work/startup ecosystem to support Trey and Sarah."
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Fall in Dublin, Ireland: highs 55\u201372\u00b0F, lows 45\u201355\u00b0F; mild, with gentle cool-down.",
+      "alignmentText": "Fall in Dublin, Ireland: highs 55\u201372\u00B0F, lows 45\u201355\u00B0F; mild, with gentle cool-down.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Ireland's temperate maritime climate offers many comfortable days per year; humidity can be damp, especially near the coast.",
+      "alignmentText": "Ireland\u0027s temperate maritime climate offers many comfortable days per year; humidity can be damp, especially near the coast.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Ireland features extensive protected lands and iconic scenery, including Cliffs of Moher, Ring of Kerry, and Wicklow Mountains within reach.",
+      "alignmentText": "In Ireland\u0027s Dublin region, Wicklow Mountains, Glendalough, and Howth Cliffs are within an hour; ~40-49% protected lands nearby.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Ireland (IE) offers strong nature access: many parks >10 acres within 5 km and regional trails reachable by transit in under 30 minutes for families.",
+      "alignmentText": "Ireland provides solid nature access for families: many parks \u003E10 acres within 5 km and regional trails reachable by transit in under 30 minutes.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Spring in Ireland (IE) typically ranges 48\u201365\u00b0F by day and 36\u201346\u00b0F at night. Expect frequent rain; mild, changeable days suit a family-friendly plan.",
+      "alignmentText": "Spring in Ireland (IE) typically ranges 48\u201365\u00B0F by day and 36\u201346\u00B0F at night. Expect frequent rain; mild, changeable days suit a family-friendly plan.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Ireland (IE) summers typically reach 70-82\u00b0F with nights 60-70\u00b0F and generally low humidity; heatwaves are rare.",
+      "alignmentText": "Ireland (IE) summers typically reach 70-82\u00B0F with nights 60-70\u00B0F and generally low humidity; heatwaves are rare.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "Ireland (IE) winters typical highs 45\u00b0F\u201360\u00b0F and lows 32\u00b0F\u201345\u00b0F; little snow/ice.",
-      "alignmentValue": 10
+      "alignmentText": "Winter in Ireland (IE) typically highs 45\u00B0F\u201360\u00B0F and lows 32\u00B0F\u201345\u00B0F with little snow. This aligns with your mild-weather, low-risk climate preference.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_climate_stability",
@@ -378,7 +372,7 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Ireland's 5-year GDP per capita volatility is moderate (~2.5\u20133.4%), with EU-backed stability and solid public services for families.",
+      "alignmentText": "Ireland\u0027s 5-year GDP per capita volatility is moderate (~2.5\u20133.4%), with EU-backed stability and solid public services for families.",
       "alignmentValue": 6
     },
     {
@@ -388,12 +382,12 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "IE/Ireland offers high political stability (World Bank >=90th percentile); strong institutions and predictable governance support family and entrepreneurship.",
+      "alignmentText": "IE/Ireland offers high political stability (World Bank \u003E=90th percentile); strong institutions and predictable governance support family and entrepreneurship.",
       "alignmentValue": 10
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Ireland offers very low violent crime, universal healthcare, and reliable utilities and schools\u2014great for family stability in Ireland.",
+      "alignmentText": "Ireland (IE) has very low violent crime and universal healthcare; reliable schools and services support a stable, family-friendly life.",
       "alignmentValue": 10
     }
   ]

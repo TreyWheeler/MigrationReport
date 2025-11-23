@@ -71,6 +71,8 @@ public sealed class ReportUpdateService
         }
 
         var concurrency = Math.Max(1, _options.MaxConcurrentReports);
+        _logger.LogInformation("Starting updates for {Count} reports (concurrency: {Concurrency}).", reportNames.Count, concurrency);
+        var completed = 0;
         using var throttler = new SemaphoreSlim(concurrency, concurrency);
         var tasks = reportNames
             .Where(name => !string.IsNullOrWhiteSpace(name))
@@ -80,6 +82,8 @@ public sealed class ReportUpdateService
                 try
                 {
                     await UpdateReportAsync(reportName!, category, cancellationToken).ConfigureAwait(false);
+                    var done = Interlocked.Increment(ref completed);
+                    _logger.LogInformation("Progress {Done}/{Total}: {ReportName} updated.", done, reportNames.Count, reportName);
                 }
                 finally
                 {
@@ -112,6 +116,8 @@ public sealed class ReportUpdateService
         }
 
         var concurrency = Math.Max(1, _options.MaxConcurrentReports);
+        _logger.LogInformation("Starting updates for {Count} reports (concurrency: {Concurrency}).", normalizedNames.Length, concurrency);
+        var completed = 0;
         using var throttler = new SemaphoreSlim(concurrency, concurrency);
         var tasks = normalizedNames.Select(async reportName =>
         {
@@ -119,6 +125,8 @@ public sealed class ReportUpdateService
             try
             {
                 await UpdateReportAsync(reportName, category, cancellationToken).ConfigureAwait(false);
+                var done = Interlocked.Increment(ref completed);
+                _logger.LogInformation("Progress {Done}/{Total}: {ReportName} updated.", done, normalizedNames.Length, reportName);
             }
             finally
             {

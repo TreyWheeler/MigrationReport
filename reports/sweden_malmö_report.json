@@ -37,7 +37,7 @@
     {
       "key": "cost_of_living_family_health_insurance_costs",
       "alignmentText": "SEK 0.00 ($0.00)",
-      "sameAsParent": false
+      "sameAsParent": true
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
@@ -56,7 +56,7 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Malm\u00F6, Sweden: mostly digital filings with occasional in-person steps; translations rarely needed; a part-time accountant keeps compliance manageable.",
+      "alignmentText": "Malm\u00F6, Sweden: most filings are digital; English-friendly bureaucracy. Startup grants and tax support with a part-time accountant keeping compliance around 30\u201340 hrs/yr.",
       "alignmentValue": 7
     },
     {
@@ -71,19 +71,8 @@
       "alignmentValue": 9
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "35%",
-      "alignmentValue": 4
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "0%",
-      "alignmentValue": 2,
-      "sameAsParent": true
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Sweden\u0027s startup visa exists; Malm\u00F6 offers a founder-friendly ecosystem. Approvals typically 3-4 months with filings and biometrics.",
+      "alignmentText": "Malm\u00F6\u0027s startup visa supports founders; approvals typically 3-4 months with filings and biometrics.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -115,7 +104,7 @@
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "SEK 34,817,250.00 ($3,165,204.55)",
+      "alignmentText": "SEK 32,483,220.00 ($2,953,020.00)",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -170,7 +159,7 @@
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "In Malm\u00F6, Sweden, schools enforce anti-bias policies strongly; Caucasian American immigrant students usually face very low bullying levels.",
+      "alignmentText": "In Malm\u00F6, schools enforce anti-bias policies; Caucasian American immigrant kids typically face very low bullying, about 1-1.9 per 1,000 students.",
       "alignmentValue": 9
     },
     {
@@ -199,7 +188,7 @@
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Malmo offers safe, family-friendly leisure with ready access to parks, beaches and kid-friendly culture: playgrounds in Pildammsparken, Kungsparken and Slottsparken; beach days at Ribersborgsstranden and walks along Vastra hamnen; and regular children\u0027s programs at Malmo City Library and family-friendly exhibits at Malmo Museer. Build a simple weekly rhythm of park days, library/story sessions, and a child-friendly cultural outing, plus early bilingual exposure through municipal preschool/daycare to support the 5-year-old and 1-year-old."
+      "alignmentText": "Malmo-based family activity plan: enjoy park days at Pildammsparken, Kungsparken and Slottsparken; beach days at Ribersborgsstranden and short walks along Vastra hamnen; and ongoing children\u0027s programs at Malmo City Library plus kid-friendly exhibits at Malmo Museer. Establish a simple weekly rhythm: park/outdoor time; library/story sessions; waterfront strolls; and a weekend family outing to a museum or park, while providing bilingual exposure through municipal preschool/daycare for the 5-year-old and the 1-year-old. Coordinate reliable broadband for Trey\u0027s remote work, prioritize safe, walkable routes and easy transit to activities."
     },
     {
       "key": "leisure_common_friend_night_opportunities",
@@ -275,8 +264,8 @@
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "1880",
-      "alignmentValue": 7
+      "alignmentText": "1700",
+      "alignmentValue": 8
     },
     {
       "key": "life_public_transportation",
@@ -311,7 +300,7 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "SEK 720,000.00 ($66,666.67)"
+      "alignmentText": "SEK 900,000.00 ($85,714.29)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
@@ -319,7 +308,7 @@
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Malmo offers close, family-friendly beach life: Ribersborgsstranden (Ribban) near the city center provides shallow water and playgrounds for kids; for broader sands, drive to Skan\u00F6r/Falsterbo or Havsudden within about 30\u201360 minutes. Aim to choose housing with quick beach access or good transit, plan regular weekend outings May\u2013September, and check lifeguard coverage, parking, shade, and sun protection needs for Trey and the children.",
+      "alignmentText": "Focus on Ribersborgsstranden (Ribban) for easy city-center beach access with shallow water and playgrounds. For longer beach trips, drive to Skan\u00F6r/Falsterbo or Havsudden within 30\u201360 minutes. Choose housing with quick beach access or strong transit links; plan regular weekend outings May\u2013Sept; confirm lifeguard coverage, parking, shade, and sun protection needs for Trey and the children.",
       "sameAsParent": false
     },
     {
@@ -345,8 +334,9 @@
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Spring in Malm\u00F6, SE: highs 50\u201370\u00B0F, lows 40\u201350\u00B0F; mild with occasional swings.",
-      "alignmentValue": 8
+      "alignmentText": "Spring in Malm\u00F6, SE: highs 60-64\u00B0F, lows 40-50\u00B0F; mild with occasional swings, great for family outdoor activities.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_summer_temperature_range",
@@ -367,7 +357,7 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Sweden (Malm\u00F6) shows very low 5-year real GDP per capita volatility. This stable economy supports Trey\u0027s startup goals with grants and a predictable life.",
+      "alignmentText": "Sweden (Malm\u00F6) had 2 recession years in 20 years (2009, 2020), signaling stable, low-volatility growth for Trey\u0027s startup goals.",
       "alignmentValue": 9
     },
     {

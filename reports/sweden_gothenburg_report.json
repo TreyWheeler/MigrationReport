@@ -16,7 +16,7 @@
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "SEK 18,500.00 ($1,681.82)",
+      "alignmentText": "SEK 22,000.00 ($2,000.00)",
       "alignmentValue": 10,
       "sameAsParent": false
     },
@@ -39,7 +39,8 @@
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "SEK 0.00 ($0.00)"
+      "alignmentText": "SEK 0.00 ($0.00)",
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
@@ -59,30 +60,20 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Gothenburg, Sweden: payroll and VAT are largely digital; software handles most tasks, with occasional in-person steps and a part-time local accountant.",
-      "alignmentValue": 8,
+      "alignmentText": "Gothenburg, Sweden: payroll and VAT are highly digital. Software handles most tasks with occasional in-person steps and light local accounting.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "SEK 8,329,166.67 ($757,196.97)",
-      "alignmentValue": 10,
+      "alignmentText": "SEK 12,397,333.00 ($1,127,939.36)",
+      "alignmentValue": 4,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_corporate_tax_rate",
       "alignmentText": "21%",
       "alignmentValue": 9
-    },
-    {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "30%",
-      "alignmentValue": 3
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "0%",
-      "alignmentValue": 2
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
@@ -103,13 +94,13 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "0",
-      "alignmentValue": 1
+      "alignmentText": "1",
+      "alignmentValue": 3
     },
     {
       "key": "daemon_games_number_of_aa_studios",
-      "alignmentText": "10",
-      "alignmentValue": 6
+      "alignmentText": "14",
+      "alignmentValue": 7
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
@@ -124,20 +115,20 @@
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "SEK 40,282,195.20 ($3,502,800.00)",
-      "alignmentValue": 1,
+      "alignmentText": "SEK 583,432,785.00 ($53,039,344.09)",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Gothenburg\u0027s indie game scene hosts monthly meetups; 250-399 online members, fostering collaborations and founder-friendly grants pathways.",
+      "alignmentText": "Gothenburg, Sweden hosts monthly indie game meetups (1/mo) with 250\u2013399 online members, plus founder-friendly grants and a supportive dev network.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
-      "alignmentText": "SEK 320,000.00 ($29,795.16)",
-      "alignmentValue": 9,
+      "alignmentText": "SEK 400,000.00 ($37,243.95)",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
@@ -147,27 +138,27 @@
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Gothenburg public schools mix Swedish instruction with some English bilingual options; true bilingual tracks by grade 5 are not universal.",
-      "alignmentValue": 5
+      "alignmentText": "Gothenburg, Sweden schools primarily teach in Swedish, with some English/bilingual options. By grade 5, English tracks are not universal.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "In Gothenburg, leases typically take 4-6 weeks. A deposit up to 2.5 months is common, and a guarantor is often required for foreign tenants.",
+      "alignmentText": "Gothenburg leases typically take 4-6 weeks; deposits up to 2.5 months; foreign tenants often need a guarantor, feasible for a two-kid family.",
       "alignmentValue": 7
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "6 - Sweden entrepreneur permit is doable but needs solid plan and funds; expect 6-8 months, mostly online, with an interview.",
-      "alignmentValue": 6
+      "alignmentText": "Gothenburg, Sweden: self-employed permit feasible with solid plan and funds; for a family, expect 4\u20135 months end-to-end.",
+      "alignmentValue": 4
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "In Sweden, two primary immigration statuses determine rights for this family: Permanent residence (uppeh\u00E5llstillst\u00E5nd permanent) and Swedish citizenship (medborgarskap). Permanent residence is typically granted after several years of lawful residence on a Swedish permit (commonly around four years under most family/work routes); it allows indefinite stay and work, access to healthcare, education, and social benefits, and family reunification; it does not confer national voting rights. Citizenship is obtained through naturalization after meeting residency duration (usually five years for most applicants), continuing good conduct, and language/civic knowledge requirements; citizenship provides full political rights (including national voting), a Swedish passport, and broader eligibility for certain public benefits and services. Action steps: select a visa path (work, family reunification) to establish a path to permanent status, maintain lawful status and integrate (language, cultural knowledge), and prepare for citizenship application once you meet the criteria.",
-      "sameAsParent": false
+      "alignmentText": "Sweden offers two main statuses for this family: permanent residence (uppeh\u00E5llstillst\u00E5nd permanent) and Swedish citizenship (medborgarskap). Pathways: work permit or family reunification; permanent residence is typically granted after about 4 years of continuous lawful residence, while citizenship is usually achievable after around 5 years with good conduct and language/civic knowledge requirements. Rights: permanent residents may live and work indefinitely and access healthcare, education, and social benefits; citizenship provides full political rights (including national voting) and a Swedish passport. Action steps: select an immigration pathway to establish permanent status; maintain lawful status and accumulate residence time; pursue language and civic integration; gather required documents and prepare for citizenship when eligible; coordinate with Migrationsverket and Gothenburg local authorities for support."
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Gothenburg, Sweden, is relatively welcoming to skilled immigrants. English-friendly services and strong public systems support family-oriented integration.",
+      "alignmentText": "Gothenburg, Sweden is welcoming to skilled workers; English-friendly services and strong public systems aid our family\u2019s integration.",
       "alignmentValue": 9
     },
     {
@@ -194,7 +185,7 @@
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Gothenburg offers robust Swedish language courses (SFI) and interpreters. Most public services provide translation, easing family newcomer integration.",
+      "alignmentText": "Gothenburg offers strong SFI Swedish courses and interpreters for families. Public services frequently provide translations to ease newcomer integration.",
       "alignmentValue": 9
     },
     {
@@ -234,9 +225,8 @@
     },
     {
       "key": "life_daycare_accessibility",
-      "alignmentText": "Gothenburg, Sweden typically offers a 1-year-old daycare slot within 1-2 months. Slots are tracked via a transparent municipal queue.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Gothenburg, Sweden typically offers a 1-year-old daycare slot within 1-2 months; slots are managed via a municipal queue.",
+      "alignmentValue": 9
     },
     {
       "key": "life_daycare_affordability_citizen",
@@ -281,8 +271,8 @@
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "1700",
-      "alignmentValue": 8
+      "alignmentText": "1880",
+      "alignmentValue": 7
     },
     {
       "key": "life_public_transportation",
@@ -304,8 +294,7 @@
     {
       "key": "opportunity_continuing_education_accessibility",
       "alignmentText": "Gothenburg, SE has robust adult ed: subsidized online courses, Komvux, and university programs - good fit for high education priority.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentValue": 9
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
@@ -314,8 +303,9 @@
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Gothenburg, Sweden Rails demand is modest; expect limited postings (about 4\u20136 per million residents per month) in the local tech market.",
-      "alignmentValue": 3
+      "alignmentText": "Gothenburg Rails postings are modest (4-6 per million residents monthly); for a framework-agnostic dev like Sarah, opportunities exist but are limited.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
@@ -323,7 +313,7 @@
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "SEK 600,000.00 ($55,200.00)"
+      "alignmentText": "SEK 680,000.00 ($62,543.93)"
     },
     {
       "key": "outdoors_beach_life",
@@ -331,8 +321,8 @@
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Autumn in Gothenburg, SE usually 50-60\u00B0F highs and 40-50\u00B0F lows; layering recommended.",
-      "alignmentValue": 8
+      "alignmentText": "Autumn in Gothenburg, SE typically has highs around 55-59\u00B0F with lows near 40-50\u00B0F; layering is recommended.",
+      "alignmentValue": 7
     },
     {
       "key": "outdoors_mild_weather",
@@ -341,7 +331,7 @@
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "6 - Gothenburg offers 20-25% protected land within an hour and nearby nature reserves; easy coastal getaways for the family.",
+      "alignmentText": "Gothenburg, Sweden features ~20-25% protected land within 60 minutes, with nature reserves and coastal escapes great for family trips.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
@@ -369,13 +359,15 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Gothenburg, SE has a mild maritime climate with few severe-weather/AQI days per year; strong stability for family life.",
-      "alignmentValue": 10
+      "alignmentText": "Gothenburg, SE has a mild maritime climate with low climate risk. Strong social services support stable family life here.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Gothenburg, Sweden offers a stable, high-income economy with solid public services; supports startups, grants, and family-friendly growth.",
-      "alignmentValue": 9
+      "alignmentText": "Gothenburg, Sweden offers a stable, high-income economy with strong welfare and grants; only 2 recession years in 20.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
@@ -385,12 +377,13 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Sweden has strong political stability and rule of law. Gothenburg offers predictable governance and safe, family-friendly neighborhoods.",
-      "alignmentValue": 10
+      "alignmentText": "Gothenburg sits in Sweden\u0027s very high Liberal Democracy Index, with stable institutions. Safe, family-friendly neighborhoods support your family\u0027s move.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Gothenburg, Sweden: violent crime under 200/100k, reliable utilities, and solid schooling - strong family stability for relocation.",
+      "alignmentText": "Gothenburg, Sweden has violent crime under 200/100k with reliable utilities and solid schooling. This supports strong family stability for relocation.",
       "alignmentValue": 10
     }
   ]

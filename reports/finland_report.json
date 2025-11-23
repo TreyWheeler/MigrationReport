@@ -49,7 +49,8 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "EUR 4,500.00 ($4,950.00)",
-      "alignmentValue": 8
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -72,16 +73,6 @@
       "key": "daemon_games_corporate_tax_rate",
       "alignmentText": "20%",
       "alignmentValue": 10
-    },
-    {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "50%",
-      "alignmentValue": 7
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "0%",
-      "alignmentValue": 2
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
@@ -200,8 +191,7 @@
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "In Finland, prioritize English-friendly, low-stress date-night options in major cities: book intimate Nordic restaurants, board-game or gaming cafes, late-opening theaters or live-music venues, and seasonal outdoor activities near walkable neighborhoods with good transit. For winter, include cozy cafes, indoor saunas with private bookings, and museum or cinema evenings; for summer, explore lakeside strolls, outdoor concerts, and riverside cafes. Ensure venues are within easy transit from residential areas and offer a quiet, safe atmosphere suitable for a couple-focused evening.",
-      "sameAsParent": false
+      "alignmentText": "Finland (FI): In Helsinki and other major cities, prioritize English-friendly, low-stress date nights within easy transit from residential areas. Target intimate Nordic restaurants, board-game or gaming cafes, late-opening theaters or live music venues, and seasonal outdoor activities in walkable, well-connected neighborhoods. Winter: cozy cafes, private sauna bookings, and museum or cinema evenings. Summer: lakeside strolls, outdoor concerts, and riverside caf\u00E9s. All options should offer a quiet, safe atmosphere suitable for a couple-focused evening."
     },
     {
       "key": "leisure_common_family_activity_opportunities",
@@ -213,22 +203,23 @@
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Finland (FI) has many parent-friendly 3rd places after 6pm. Helsinki area likely 22\u201325 venues/100k, supporting family needs.",
+      "alignmentText": "Finland (FI) has 22-25 parent-friendly 3rd places per 100k after 6pm, especially Helsinki; fits a family-friendly, slower pace.",
       "alignmentValue": 8
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Finland\u2019s cities, like Helsinki, offer walkable neighborhoods, strong transit, and parks\u2014great for a family-friendly, car-light lifestyle.",
-      "alignmentValue": 9
+      "alignmentText": "Helsinki and Finnish cities are highly walkable with strong transit and parks. This supports a family-friendly, car-light lifestyle.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "Finland offers strong access to fresh produce with weekly markets and many grocers. Helsinki-area markets are reliable and family-friendly.",
-      "alignmentValue": 8
+      "alignmentText": "Finland offers broad access to fresh produce with frequent markets; Helsinki grocers are reliable and family-friendly.",
+      "alignmentValue": 9
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Finland\u0027s digital-by-default government portals (Suomi.fi) and English support keep routine filings under an hour per month.",
+      "alignmentText": "In Finland, Suomi.fi digital portals with English support simplify routine filings. They stay under 1 hour per month for this family.",
       "alignmentValue": 10
     },
     {
@@ -254,14 +245,14 @@
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "In Finland, primary care waits ~5\u20137 days and specialists ~11\u201314 days, aligning with universal healthcare that serves families.",
-      "alignmentValue": 7
+      "alignmentText": "Finland\u0027s primary care waits about 5-7 days; specialists about 11-14 days under universal healthcare. This aligns with the family\u0027s access needs.",
+      "alignmentValue": 7,
+      "sameAsParent": true
     },
     {
       "key": "life_healthcare_affordability_citizen",
-      "alignmentText": "EUR 500.00 ($540.00)",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "EUR 60.00 ($64.80)",
+      "alignmentValue": 10
     },
     {
       "key": "life_healthcare_affordability_non_resident",
@@ -280,7 +271,9 @@
       "sameAsParent": false
     },
     {
-      "key": "life_hours_worked_per_year"
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1700",
+      "alignmentValue": 8
     },
     {
       "key": "life_public_transportation",
@@ -315,15 +308,16 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 110,000.00 ($116,600.00)"
+      "alignmentText": "EUR 92,000.00 ($97,520.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 62,000.00 ($67,580.00)"
+      "alignmentText": "EUR 58,500.00 ($63,793.67)"
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Finland offers seasonal coastal beaches; identify family-friendly seaside areas with safe, accessible beaches (shallow water zones), nearby parks, and reliable transit/parking. Plan beach days mainly in June\u2013August when summers are mild, and ensure facilities for young children (shade, restrooms) and proximity to family-friendly housing."
+      "alignmentText": "For Finland (FI), identify coastal areas along the Baltic Sea and Gulf of Bothnia with family-friendly beaches featuring shallow water, shade, restrooms, and stroller-friendly paths. Prioritize towns with reliable parking and public transit, nearby parks, and proximate family-friendly housing. Plan beach days for June\u2013August when summers are mild and daylight is long; ensure facilities (shade, restrooms, changing areas) and easy access for young children, and align with nearby family-friendly accommodations and childcare options.",
+      "sameAsParent": false
     },
     {
       "key": "outdoors_fall_temperature_range",
@@ -360,8 +354,9 @@
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "Finland (FI) winters typically run 20\u201335\u00B0F highs and 10\u201325\u00B0F lows with significant snow. For your family, that means a cold but manageable season with preparedness.",
-      "alignmentValue": 5
+      "alignmentText": "Finland (FI) winters: highs 30-45\u00B0F, lows 20-32\u00B0F; regular frost and some snow, manageable with preparedness.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "stability_climate_stability",
@@ -377,17 +372,18 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Finland offers stable, startup-friendly immigration with modest policy changes; low revocation risk supports your family\u0027s plans.",
+      "alignmentText": "Finland\u0027s immigration remains stable and startup-friendly (Helsinki area). Clear rules and low revocation risk suit your family.",
       "alignmentValue": 8
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Finland\u2019s high political stability and strong civil liberties support your family-friendly, progressive plan in a safe, predictable setting.",
-      "alignmentValue": 10
+      "alignmentText": "In Finland, strong institutions and safety back your family-friendly, progressive plan with universal healthcare and top schools.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Finland offers high social stability: violent crime well under 200/100k and reliable utilities. Universal healthcare and strong public schools support families.",
+      "alignmentText": "Finland offers top social stability; violent crime is well under 200/100k. Universal healthcare and strong public schools support families.",
       "alignmentValue": 10
     }
   ]

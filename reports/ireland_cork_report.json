@@ -15,14 +15,14 @@
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "EUR 2,750.00 ($2,970.00)",
-      "alignmentValue": 9
+      "alignmentText": "EUR 2,900.00 ($3,132.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
       "alignmentText": "EUR 2,100.00 ($2,310.00)",
-      "alignmentValue": 2,
-      "sameAsParent": false
+      "alignmentValue": 2
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
@@ -58,7 +58,7 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Moderate but manageable in Cork, Ireland: ROS payroll/VAT + quarterly returns; standard software with a part-time accountant keeps effort reasonable.",
+      "alignmentText": "Moderate but manageable in Cork, Ireland: ROS payroll/VAT \u002B quarterly returns; standard software with a part-time accountant keeps effort reasonable.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -75,20 +75,8 @@
       "sameAsParent": true
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "80%",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "32%",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Viable Cork, Ireland entrepreneur path; ~3-4 month timeline with biometrics. Leverage Cork's game-dev ecosystem and grants.",
+      "alignmentText": "Viable Cork, Ireland entrepreneur path; ~3-4 month timeline with biometrics. Leverage Cork\u0027s game-dev ecosystem and grants.",
       "alignmentValue": 7
     },
     {
@@ -98,12 +86,12 @@
     },
     {
       "key": "daemon_games_feasible_game_grants",
-      "alignmentText": "- EUR 50,000.00 ($54,000.00) \u2013 Enterprise Ireland Competitive Start Fund \u2013 Non-dilutive funding plus mentorship for early-stage game studios; supports Ireland-incorporation for foreign founders planning a 2-year Cork-based development plan.\n- EUR 480,000.00 ($518,400.00) \u2013 Section 481 Tax Credit \u2013 32% relief on eligible Irish game development expenditure, offsetting a substantial portion of the \u20ac1.50M development budget when spend qualifies in Ireland.\n- EUR 75,000.00 ($81,000.00) \u2013 Creative Europe MEDIA \u2013 Competitive development/marketing support for ambitious indie games with cross-border potential and international reach.\n- EUR 25,000.00 ($27,000.00) \u2013 Local Enterprise Office Cork \u2013 Start-up/prototype grants for validation and early-stage prototyping accessible to micro studios in Cork.\n- EUR 375,000.00 ($405,000.00) \u2013 R&D Tax Credit \u2013 25% of eligible R&D spend, reducing corporate tax over time to help sustain development of a story-driven game.",
+      "alignmentText": "- EUR 50,000.00 ($54,000.00) \u2013 Enterprise Ireland Competitive Start Fund \u2013 Non-dilutive funding plus mentorship for early-stage game studios; supports Ireland-incorporation for foreign founders planning a 2-year Cork-based development plan.\n- EUR 480,000.00 ($518,400.00) \u2013 Section 481 Tax Credit \u2013 32% relief on eligible Irish game development expenditure, offsetting a substantial portion of the \u20AC1.50M development budget when spend qualifies in Ireland.\n- EUR 75,000.00 ($81,000.00) \u2013 Creative Europe MEDIA \u2013 Competitive development/marketing support for ambitious indie games with cross-border potential and international reach.\n- EUR 25,000.00 ($27,000.00) \u2013 Local Enterprise Office Cork \u2013 Start-up/prototype grants for validation and early-stage prototyping accessible to micro studios in Cork.\n- EUR 375,000.00 ($405,000.00) \u2013 R\u0026D Tax Credit \u2013 25% of eligible R\u0026D spend, reducing corporate tax over time to help sustain development of a story-driven game.",
       "sameAsParent": false
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "1",
+      "alignmentText": "0",
       "alignmentValue": 1
     },
     {
@@ -130,7 +118,7 @@
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Cork, Ireland's game-dev scene is modest but founder-friendly: 6\u201311 events/year and ~150 online members; occasional jams and local grants support.",
+      "alignmentText": "Cork, Ireland\u0027s game-dev scene is modest but founder-friendly: 6\u201311 events/year and ~150 online members; occasional jams and local grants support.",
       "alignmentValue": 6
     },
     {
@@ -150,7 +138,7 @@
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "In Cork, Ireland, expect a 3-4 week lease with up to 2 months' deposit; digital docs common; family-friendly neighborhoods with parks.",
+      "alignmentText": "In Cork, Ireland, expect a 3-4 week lease with up to 2 months\u0027 deposit; digital docs common; family-friendly neighborhoods with parks.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -166,19 +154,19 @@
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Ireland offers clear skilled-immigrant visa routes and grants; Cork's growing tech ecosystem fits your founder/remote plans.",
+      "alignmentText": "Ireland offers clear skilled-immigrant visa routes and grants; Cork\u0027s growing tech ecosystem fits your founder/remote plans.",
       "alignmentValue": 9
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "In Cork, Ireland, primary schools enforce anti-bias policies; caucasian American immigrant kids face very low bullying (1-2 per 1,000) with strong enforcement.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "In Cork, Ireland, schools enforce anti-bias policies; caucasian American immigrant kids face low bullying (1-1.9 per 1,000) with strong enforcement.",
+      "alignmentValue": 9
     },
     {
       "key": "kids_education_quality",
-      "alignmentText": "Cork, Ireland's primary/secondary education ranks around the 80-89th percentile globally. Strong public schools with bilingual exposure.",
-      "alignmentValue": 9
+      "alignmentText": "Cork\u0027s primary/secondary schools rank in the 80-89th percentile globally; strong public schools with bilingual exposure, suitable for the kids.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "kids_food_quality",
@@ -199,11 +187,11 @@
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "Date-night opportunities in Cork, IE: reserve a riverside dinner along the River Lee in the city centre, then enjoy a twilight stroll along the quays; attend an evening performance at The Everyman Theatre or Cork Opera House; alternatively, pair a late caf\u00e9 dessert in Opera Lane with a stroll through Patrick Street and Grand Parade; for a livelier vibe, seek intimate traditional pubs in the Shandon area with live music; check weekend schedules and make reservations in advance."
+      "alignmentText": "Date-night opportunities in Cork, IE: reserve a riverside dinner along the River Lee in the city centre, then enjoy a twilight stroll along the quays; attend an evening performance at The Everyman Theatre or Cork Opera House; alternatively, pair a late caf\u00E9 dessert in Opera Lane with a stroll through Patrick Street and Grand Parade; for a livelier vibe, seek intimate traditional pubs in the Shandon area with live music; check weekend schedules and make reservations in advance."
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "In Cork, Ireland, prioritize family-friendly, stroller-accessible options: plan visits to Fota Wildlife Park; Blackrock Castle Observatory for interactive science; Cork Public Museum; and a day trip to Blarney Castle & Gardens. Add relaxed park days at Fitzgerald Park and the UCC greens, plus coastal outings to Inchydoney or Youghal beaches; look for kid-friendly workshops and seasonal events that suit a 5-year-old and a 1-year-old.",
+      "alignmentText": "Location-specific plan for Cork, Ireland: focus on family-friendly, stroller-accessible activities. Plan visits to Fota Wildlife Park, Blackrock Castle Observatory, Cork Public Museum, and a day trip to Blarney Castle \u0026 Gardens. Add relaxed park days at Fitzgerald Park and the UCC greens. Include coastal outings to Inchydoney or Youghal beaches and look for kid-friendly workshops or seasonal events suitable for a 5-year-old and a 1-year-old.",
       "sameAsParent": false
     },
     {
@@ -212,12 +200,12 @@
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Cork, Ireland offers a modest set of parent-friendly 3rd places open after 6pm. Roughly 15\u201319 venues per 100k residents.",
-      "alignmentValue": 4
+      "alignmentText": "Cork, Ireland offers ~18-21 parent-friendly 3rd places per 100k after 6pm, suitable for a family with a 5-year-old and a 1-year-old.",
+      "alignmentValue": 7
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Cork's walkable core, parks, and bike lanes suit a family-friendly lifestyle; ~40-49% car-free trips with solid bus services.",
+      "alignmentText": "Cork\u0027s walkable core, parks, and bike lanes suit a family-friendly lifestyle; ~40-49% car-free trips with solid bus services.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
@@ -278,7 +266,7 @@
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "Very low risk in Cork: Ireland's universal healthcare means baseline care isn't tied to employment; private plans exist but aren't required.",
+      "alignmentText": "Very low risk in Cork: Ireland\u0027s universal healthcare means baseline care isn\u0027t tied to employment; private plans exist but aren\u0027t required.",
       "alignmentValue": 9
     },
     {
@@ -294,8 +282,8 @@
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "Cork, Ireland offers modest public college fees (a few thousand EUR) and solid admission odds for popular programs.",
-      "alignmentValue": 9,
+      "alignmentText": "Cork\u0027s public programs are affordable for EU students; as a US family, expect higher non-EU tuition, though scholarships/grants help.",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
@@ -305,22 +293,25 @@
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Continuing education in Cork offers strong access with 8-10 programs per 100k residents. Online options and local colleges keep upskilling accessible.",
-      "alignmentValue": 6
+      "alignmentText": "Cork, Ireland offers a robust continuing education ecosystem via UCC/MTU with online options; family-friendly upskilling is accessible.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Moderate Cork, Ireland demand for senior .NET architects (~4-5 postings/million); supports remote options and Ireland's growing tech scene.",
-      "alignmentValue": 4
+      "alignmentText": "Cork, Ireland shows moderate senior .NET architect demand (~4-5 postings/million); remote roles fit Trey\u0027s background.",
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Cork, IE shows modest Rails demand (4-6 postings per million per month); not a Rails hotspot but opportunities exist.",
-      "alignmentValue": 3
+      "alignmentText": "Cork, IE shows modest Ruby on Rails demand (4-6/m); not a hotspot, but remote Rails roles are available for Sarah.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 85,000.00 ($91,800.00)"
+      "alignmentText": "EUR 90,000.00 ($97,200.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
@@ -328,55 +319,56 @@
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "In Cork, Ireland, beach access should be planned around family-friendly coastal options within a short drive; prioritize beaches with lifeguards, accessible facilities, and safe swimming zones; anticipate frequent rain and cool sea temperatures\u2014plan indoor alternatives for wet days and ensure year-round outdoor activity opportunities (parks, trails) nearby.",
+      "alignmentText": "Location: Cork, Ireland. Prioritize family-friendly beaches within a short drive that offer lifeguards, accessible facilities, and clearly marked safe-swimming zones. Plan for frequent rain and cool sea temperatures by pairing beach outings with nearby parks or trails and scheduling indoor activities on wet days; choose year-round outdoor options with sheltered spaces nearby.",
       "sameAsParent": false
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Fall in Cork, IE: highs around 50\u201370\u00b0F and lows 40\u201350\u00b0F with occasional warm or cool spells; bring layers for damp, mild days.",
-      "alignmentValue": 8,
+      "alignmentText": "Fall in Cork, IE: highs 55-72\u00B0F and lows 45-55\u00B0F; mild, damp days with gentle cool-down; bring layers.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Cork, Ireland offers a mild, oceanic climate; summers stay cool and comfortable, though humidity can be high; about 180\u2013210 days hit 50\u201385\u00b0F.",
-      "alignmentValue": 6
+      "alignmentText": "Cork, Ireland has a mild, oceanic climate; summers are cool, humidity can be high. Roughly 120-149 days reach 50-85 F with humidity \u003C70%.",
+      "alignmentValue": 5
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "8 - In Cork (IE), coast and green spaces within an hour offer strong natural beauty. Gougane Barra and coastal cliffs provide signature views.",
+      "alignmentText": "Cork, Ireland offers coastlines and green spaces within an hour; Gougane Barra and cliff walks provide family-friendly nature outings.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Cork, Ireland has several large parks within 5 km (Fitzgerald Park) and regional trails within 45 minutes by car, supporting your family's outdoor time.",
+      "alignmentText": "Cork, Ireland has several large parks within 5 km (Fitzgerald Park) and regional trails within 45 minutes by car, supporting your family\u0027s outdoor time.",
       "alignmentValue": 6
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Spring in Cork, Ireland is roughly 48\u201365\u00b0F highs and 36\u201346\u00b0F lows with frequent rain. It's typically mild and workable for daily life.",
+      "alignmentText": "Spring in Cork, Ireland is roughly 48\u201365\u00B0F highs and 36\u201346\u00B0F lows with frequent rain. It\u0027s typically mild and workable for daily life.",
       "alignmentValue": 6
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Cork summers: highs 72-85\u00b0F, lows 60-72\u00b0F; mild, with occasional heat spikes.",
+      "alignmentText": "Cork summers: highs 72-85\u00B0F, lows 60-72\u00B0F; mild, with occasional heat spikes.",
       "alignmentValue": 9
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "Winter in Cork, Ireland is mild; typical highs 45\u00b0F-60\u00b0F and lows 32\u00b0F-45\u00b0F with little snow.",
-      "alignmentValue": 10
+      "alignmentText": "Winter in Cork, IE typically highs 45\u00B0F-49\u00B0F. Lows 32\u00B0F-45\u00B0F.",
+      "alignmentValue": 8
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Cork, Ireland has a mild maritime climate with few extreme weather days, aligning with your low-risk, family-friendly goals.",
-      "alignmentValue": 9
+      "alignmentText": "Cork\u0027s mild maritime climate and clean air support your low-risk, family-friendly goals; few extreme weather days help with reliable daily life.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Cork, Ireland shows moderate real GDP per capita volatility around 2.5-3.4%, aligning with a stable job market and grants access.",
-      "alignmentValue": 6
+      "alignmentText": "Cork, IE shows ~4 recession years in 20; benefits include a stable job market and accessible startup grants for families.",
+      "alignmentValue": 7
     },
     {
       "key": "stability_migration_stability",
@@ -385,7 +377,7 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Cork, Ireland enjoys high political stability (PS percentile around 90+), supporting safe neighborhoods, reliable services for families.",
+      "alignmentText": "Cork, Ireland offers very high political stability (~90\u002B percentile), supporting safe neighborhoods and reliable services for families.",
       "alignmentValue": 10,
       "sameAsParent": false
     },

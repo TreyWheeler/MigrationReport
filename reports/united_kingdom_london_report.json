@@ -5,24 +5,25 @@
     {
       "key": "cost_of_living_family_150m2_in_city_center",
       "alignmentText": "GBP 9,000.00 ($11,520.00)",
-      "alignmentValue": 1
+      "alignmentValue": 1,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
-      "alignmentText": "GBP 2,900.00 ($3,712.00)",
-      "alignmentValue": 9,
+      "alignmentText": "GBP 3,200.00 ($4,096.00)",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "GBP 2,900.00 ($3,625.00)",
-      "alignmentValue": 9,
+      "alignmentText": "GBP 3,100.00 ($3,875.00)",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "GBP 0.00 ($0.00)",
-      "alignmentValue": 10
+      "alignmentText": "GBP 2,500.00 ($3,125.00)",
+      "alignmentValue": 1
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
@@ -31,12 +32,14 @@
     },
     {
       "key": "cost_of_living_family_eating_out",
-      "alignmentText": "GBP 100.00 ($127.00)",
-      "alignmentValue": 4
+      "alignmentText": "GBP 120.00 ($152.40)",
+      "alignmentValue": 2,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "GBP 0.00 ($0.00)"
+      "alignmentText": "GBP 0.00 ($0.00)",
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
@@ -52,18 +55,18 @@
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
       "alignmentText": "GBP 4,625.00 ($5,781.25)",
-      "alignmentValue": 1
+      "alignmentValue": 1,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "London\u0027s VAT/RTI payroll and annual accounts with a part-time accountant; ~40-60 hours/year - manageable for a family startup.",
-      "alignmentValue": 7
+      "alignmentText": "London VAT/RTI payroll and annual accounts with a part-time accountant; ~40-60 hours/year - manageable for a UK family startup.",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "GBP 842,916.67 ($1,078,533.34)",
-      "alignmentValue": 4,
-      "sameAsParent": false
+      "alignmentText": "GBP 774,166.67 ($843,593.94)",
+      "alignmentValue": 9
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -72,20 +75,9 @@
       "sameAsParent": true
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "80%",
-      "alignmentValue": 10
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "20%",
-      "alignmentValue": 7
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "UK Start-up visa could suit a London game studio: 3-4 month timeline, endorsement required, modest funds; good for first-time applicants.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentText": "London Start-up visa fits Trey\u0027s game-studio plan. It offers a 3-4 month path with endorsement and funding for a family move to the UK.",
+      "alignmentValue": 7
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
@@ -100,8 +92,8 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "5",
-      "alignmentValue": 7
+      "alignmentText": "3",
+      "alignmentValue": 5
     },
     {
       "key": "daemon_games_number_of_aa_studios",
@@ -110,14 +102,14 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "GBP 7,832,953.13 ($9,791,191.41)",
-      "alignmentValue": 6,
+      "alignmentText": "GBP 7,775,057.16 ($9,968,022.00)",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "GBP 2,910,468.75 ($3,725,400.00)",
-      "alignmentValue": 9,
+      "alignmentText": "GBP 2,376,843.75 ($3,042,360.00)",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
@@ -128,7 +120,7 @@
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "London\u0027s active game dev scene offers regular in-person meetups and the London Games Festival; online hub 700\u2013999 members with mentorship tracks.",
+      "alignmentText": "London\u0027s active game dev scene offers regular in-person meetups, the London Games Festival, and an online hub with 700-999 members.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -140,14 +132,13 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "London, UK: English is dominant; most government, healthcare, and banking forms are in English; interpreters are rarely needed.",
-      "alignmentValue": 9
+      "alignmentText": "London, UK: English dominates public life; most interactions are in English; your family can rely on English while learning basics.",
+      "alignmentValue": 10
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "London schools offer limited bilingual options; most start after primary years. Private or international schools may offer earlier bilingual exposure.",
-      "alignmentValue": 3,
-      "sameAsParent": false
+      "alignmentText": "London has some private/international schools with bilingual tracks. Public schools offer more limited early bilingual options.",
+      "alignmentValue": 5
     },
     {
       "key": "integration_housing_accessibility",
@@ -217,7 +208,7 @@
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "In London, expect 60-69% car-free trips with extensive transit and walkable, park-rich neighborhoods; fits your family\u0027s urban, walkable priorities.",
+      "alignmentText": "In London, expect 60-69% car-free trips via extensive transit and walkable, park-rich neighborhoods; fits your urban, family-friendly priorities.",
       "alignmentValue": 8
     },
     {
@@ -257,9 +248,8 @@
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "London (UK) NHS provides universal care; GP visits 1-2 weeks, specialist referrals about 2-3 weeks.",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "alignmentText": "London NHS provides universal care; GP visits 1-2 weeks, referrals 2-3 weeks, reasonable for a family relocating to London.",
+      "alignmentValue": 5
     },
     {
       "key": "life_healthcare_affordability_citizen",
@@ -284,8 +274,8 @@
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "1860",
-      "alignmentValue": 7
+      "alignmentText": "1700",
+      "alignmentValue": 8
     },
     {
       "key": "life_public_transportation",
@@ -294,8 +284,9 @@
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "In London, international tuition for UK universities is high; costs may exceed 25% of income for Trey/Sarah, limiting college accessibility.",
-      "alignmentValue": 1
+      "alignmentText": "In London, UK, international tuition at universities can exceed 25% of income, limiting college accessibility for Trey and Sarah.",
+      "alignmentValue": 1,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_college_quality",
@@ -304,7 +295,7 @@
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "London, UK offers abundant accredited adult upskilling programs and subsidized online options. This aligns with your high education priority.",
+      "alignmentText": "London, UK has an extensive adult education ecosystem with many accredited programs and subsidized online options, aligning with your high education priority.",
       "alignmentValue": 10
     },
     {
@@ -315,7 +306,7 @@
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "London, UK shows mid-range Ruby on Rails demand for 6\u002B years; expect ~10 postings/mo, making it feasible for the family\u0027s move.",
+      "alignmentText": "London, UK Rails demand is mid-range (~10 postings/million/mo), aligning with Trey/Sarah web roles in London.",
       "alignmentValue": 5
     },
     {
@@ -324,11 +315,11 @@
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "GBP 75,000.00 ($95,250.00)"
+      "alignmentText": "GBP 85,000.00 ($107,950.00)"
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "London (GB) offers limited direct beach life; optimize for rapid day trips to coastal towns and riverside beaches via rail (e.g., Brighton, Southend). Prioritize housing with easy transit to waterfront recreation, seasonal beach activities, and affordable weekend trips suitable for children."
+      "alignmentText": "London-area plan: prioritize rapid rail access to seaside towns (Brighton, Southend) for quick day trips; secure housing with easy transit to waterfront recreation and seasonal beaches; plan affordable weekend trips with children and family-friendly waterfront amenities."
     },
     {
       "key": "outdoors_fall_temperature_range",
@@ -338,8 +329,9 @@
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "London\u2019s mild climate yields about 180\u2013210 comfortable days (50\u201385\u00B0F, moderate humidity), aligning with the family\u2019s mild-weather preference.",
-      "alignmentValue": 6
+      "alignmentText": "London, UK typically has about 180\u2013210 days with 50\u201385\u00B0F highs and moderate humidity, aligning with your mild-weather preference.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_natural_beauty",
@@ -384,12 +376,12 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "London\u0027s political stability is strong (UK percentile 80-89). Supports your progressive, democratic values and family-friendly life.",
+      "alignmentText": "London, UK: political stability strong (LDI 80-89); aligns with your progressive, family-friendly values.",
       "alignmentValue": 9
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "London, UK stability: violent crime ~900\u002B per 100k; utilities and schools generally stable but higher risk than low-crime regions.",
+      "alignmentText": "London, UK stability: violent crime ~900\u002B per 100k; good services but safety risk for families with kids lowers overall stability.",
       "alignmentValue": 1
     }
   ]

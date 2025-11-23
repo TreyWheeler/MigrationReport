@@ -4,8 +4,8 @@
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
-      "alignmentText": "USD 5,500.00",
-      "alignmentValue": 4,
+      "alignmentText": "USD 6,000.00",
+      "alignmentValue": 3,
       "sameAsParent": false
     },
     {
@@ -17,12 +17,14 @@
     {
       "key": "cost_of_living_family_150m2_suburb",
       "alignmentText": "USD 3,900.00",
-      "alignmentValue": 7
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
       "alignmentText": "USD 1,234.56",
-      "alignmentValue": 1
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
@@ -33,12 +35,12 @@
     {
       "key": "cost_of_living_family_eating_out",
       "alignmentText": "USD 140.00",
-      "alignmentValue": 2
+      "alignmentValue": 2,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "USD 1,234.56",
-      "sameAsParent": false
+      "alignmentText": "USD 1,234.56"
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
@@ -53,19 +55,19 @@
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
-      "alignmentText": "USD 6,000.00",
+      "alignmentText": "USD 6,000.00 ($6,000.00)",
       "alignmentValue": 1,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Seattle, US: predictable quarterly filings with low bureaucracy; under 20 hours/year for a small founder-friendly household.",
-      "alignmentValue": 9
+      "alignmentText": "Seattle, US: predictable, low-bureaucracy environment; under 10 hours/year for a small founder-friendly household.",
+      "alignmentValue": 10
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "USD 1,395,666.67",
-      "alignmentValue": 2
+      "alignmentText": "USD 1,495,000.00",
+      "alignmentValue": 1
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -73,19 +75,9 @@
       "alignmentValue": 9
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "30%",
-      "alignmentValue": 3
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "25%",
-      "alignmentValue": 8
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Seattle, US: family holds US passports; no entrepreneur visa needed\u2014the foreign startup path not applicable.",
-      "alignmentValue": 1
+      "alignmentText": "Seattle, US: US passport holders; no entrepreneur visa needed; Seattle\u2019s startup ecosystem supports founders; foreign startup visa not applicable.",
+      "alignmentValue": 10
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
@@ -109,25 +101,25 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "USD 9,310,791.87",
+      "alignmentText": "USD 9,209,554.56",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "USD 2,810,030.00",
-      "alignmentValue": 7
-    },
-    {
-      "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "USD 53,009,987.50",
-      "alignmentValue": 7,
+      "alignmentText": "USD 2,217,135.00",
+      "alignmentValue": 5,
       "sameAsParent": false
     },
     {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "USD 53,615,720.00",
+      "alignmentValue": 7
+    },
+    {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Seattle, WA offers a strong game-dev scene with frequent in-person meetups and jams. A large online hub backs Trey and Sarah, aligning with their needs.",
-      "alignmentValue": 9
+      "alignmentText": "Seattle, WA has a thriving game-dev scene with frequent meetups and jams. A large online hub supports Trey and Sarah\u0027s ecosystem and funding needs.",
+      "alignmentValue": 10
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
@@ -137,132 +129,135 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "Seattle, US: English ubiquity fits; 10-20% tasks may need local language help; English forms are widely available.",
-      "alignmentValue": 9
+      "alignmentText": "Seattle, US: English ubiquity fits; adults expect minimal local-language use; most interactions are English.",
+      "alignmentValue": 10
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Seattle Public Schools offer bilingual/dual-language programs starting in kindergarten; strong options support early language goals.",
+      "alignmentText": "Seattle Public Schools offer bilingual/dual-language kindergarten options; strong support for your 5-year-old\u0027s language goals.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Seattle family rental timeline: 4-6 weeks to lease; deposits up to 2.5 months; guarantor commonly requested for households with kids.",
+      "alignmentText": "Seattle, USA: family of four; lease typically 5\u20136 weeks; deposits up to 2.5 months; guarantor common for households with kids.",
       "alignmentValue": 7
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "US passport holders relocating to Seattle, WA; no visa required\u2014immigration effort effectively minimal for a domestic move.",
-      "alignmentValue": 9
+      "alignmentText": "Domestic move to Seattle, WA; US passport holder; no visa needed\u2014immigration effort minimal.",
+      "alignmentValue": 10,
+      "sameAsParent": true
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "Seattle immigration status and rights: Verify each family member\u2019s current status (citizen, lawful permanent resident, or valid non-immigrant) and expiration dates; determine next steps for those eligible for naturalization or adjustment of status. Actions: gather documents (passports, visas, I-94, birth/marriage certificates), assess eligibility for Form N-400 (citizenship) or Form I-485 (adjustment) and, if needed, Form I-130/I-765 for dependents/work authorization; consult an immigration attorney to tailor options and timelines; file and monitor petitions to avoid gaps in status; ensure work authorization is maintained through EAD if applicable. In Washington/Seattle, status often influences driving license eligibility, in-state tuition, and access to certain state benefits; plan filings to protect continuous status and align with school/work timelines, renewal reminders, and travel permissions.",
-      "sameAsParent": false
+      "alignmentText": "Seattle, WA Immigration Status \u0026 Rights: For each family member, determine current status as Citizen, Lawful Permanent Resident (LPR), or valid non-immigrant and record any expiration dates or travel restrictions. With US passports on file for Trey, Sarah, Anduin, and Alasdair, confirm citizenship status for each child (likely US citizens by birth) to ensure uninterrupted eligibility for school, work, and state benefits. Rights by status: citizens have full work authorization, travel rights, and in-state tuition eligibility where applicable; LPRs have work authorization and a path to naturalization; non-immigrants have status tied to their visa. Gather key documents: passports, birth certificates, marriage certificates, visas, I-94s, and prior approvals; store securely in both digital and physical files. If naturalization (N-400) or adjustment of status (I-485) or family petitions (I-130) are pursued, consult a WA-licensed immigration attorney to tailor steps and timelines to minimize gaps. Apply for filings as needed, monitor status, and keep work authorization active if applicable. In Washington/Seattle, immigration status affects driving license eligibility, in-state tuition, and access to state benefits; coordinate with school/work calendars, renewal reminders, and travel plans to avoid gaps and ensure status aligns with deadlines."
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Seattle\u0027s tech ecosystem welcomes skilled immigrants; strong schools and family services support newcomer families.",
+      "alignmentText": "Seattle\u0027s tech and research scene remains welcoming to skilled immigrants; strong schools and family services support newcomers.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Seattle, WA public schools have strong anti-bias training and swift enforcement; caucasian students typically see 1-2 incidents per 1,000, indicating low bullying risk.",
-      "alignmentValue": 9,
-      "sameAsParent": true
+      "alignmentText": "Seattle, WA public schools show low bullying risk for white students (1\u20132 per 1,000). Strong anti-bias training supports safety.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "kids_education_quality",
-      "alignmentText": "Seattle public schools are roughly in the 50-60th percentile globally; solid K-12 with bilingual options and strong early childhood programs for young kids.",
+      "alignmentText": "Seattle public schools sit around the 50-60th percentile globally; solid K-12 with bilingual options and strong early childhood programs.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "Seattle public school meals HEI ~82; ultra-processed share \u003C10%, aligning with the family\u0027s health/education goals in Seattle, USA.",
+      "alignmentText": "Seattle public school meals HEI ~82; ultra-processed share \u003C10%, aligning with the family\u0027s health/education goals in Seattle.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "Seattle public schools offer 16-19 hours/week of English with bilingual aides in core subjects; aligns with family emphasis on English ubiquity and bilingual exposure.",
+      "alignmentText": "Seattle public schools offer 16-19 hrs/wk of English with bilingual aides in core subjects; aligns with family emphasis on English ubiquity and bilingual exposure",
       "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Seattle, WA offers broad ESL options for kids and translations at many agencies, supporting a bilingual upbringing.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Seattle, WA offers broad ESL options for kids (ages 5 and 1) with translations across agencies, supporting a bilingual upbringing.",
+      "alignmentValue": 9
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "Seattle: Plan walkable, low-stress date nights in Capitol Hill, Ballard, and the waterfront districts. Include sunset views from Kerry Park, a Waterfront stroll, casual dinners in Capitol Hill or Ballard, and craft breweries or live music venues. Prioritize reservations, transit-friendly routes, and indoor options for rain or cooler evenings.",
+      "alignmentText": "Seattle: Plan walkable, low-stress date nights in Capitol Hill, Ballard, and the waterfront, including sunset views from Kerry Park or a Waterfront stroll, casual dinners in Capitol Hill or Ballard, and craft breweries or live music venues; prioritize reservations, transit-friendly routes, and indoor options for rain or cooler evenings.",
       "sameAsParent": false
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Seattle-area family activities should emphasize walkable, park-rich outings at Green Lake, Discovery Park, and Volunteer Park; include kid-friendly venues such as Woodland Park Zoo and Pacific Science Center. Build bilingual exposure through Seattle Public Library story times and early-childhood programs; tap affordable childcare via community centers. Seek family-friendly events and makers/tech meetups that welcome kids. Plan year-round outdoor routines with rain-ready indoor options (community centers, indoor play spaces) to fit mild, wetter seasons."
+      "alignmentText": "Focus on Seattle-area family outings that leverage walkable, park-rich venues (Green Lake, Discovery Park, Volunteer Park) and kid-friendly institutions (Woodland Park Zoo, Pacific Science Center). Schedule bilingual exposure through Seattle Public Library storytimes and early-childhood programs; access affordable childcare via neighborhood centers. Seek family-friendly events and makers/tech meetups welcoming children. Build year-round routines with rain-ready indoor options at community centers and indoor play spaces to accommodate Seattle\u0027s milder, wetter seasons."
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Seattle: Organize a rotating slate of family-friendly game nights at local venues (Capitol Hill and Ballard board-game cafes), library and community-center game nights, and park/caf\u00E9 meetups. Schedule 2\u20133 weeknights plus one weekend per cycle to build a stable social rhythm for Trey and Sarah, with nearby kid-friendly options for Anduin (5) and Alasdair (1). Prioritize venues with reliable broadband and wifi, food/coffee, seating for families, stroller accessibility, and quiet spaces for play; ensure travel times are reasonable (roughly 15\u201330 minutes from home) and include occasional at-home or virtual sessions as a backup."
+      "alignmentText": "Seattle: Rotate family-friendly game nights across Capitol Hill and Ballard venues (board-game cafes, libraries, and community centers) with 2\u20133 weeknights and one weekend per cycle to build a stable social rhythm for Trey and Sarah, with kid-friendly options for Anduin (5) and Alasdair (1). Prioritize venues with reliable broadband/Wi\u2011Fi, food/coffee, seating for families, stroller accessibility, and quiet spaces for play; keep travel times around 15\u201330 minutes from home; include occasional at-home or virtual sessions as backups."
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Seattle has many staff-supervised after-6pm 3rd places (libraries/centers) for kids, supporting safe, affordable after-school options.",
+      "alignmentText": "Seattle, USA offers many after-6pm, staff-supervised 3rd places (libraries/rec centers) with family-friendly hours for a 5-year-old and a 1-year-old.",
       "alignmentValue": 9
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Seattle\u0027s walkable neighborhoods and the Link light rail support car-free trips for a family; abundant parks and strong public schools.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "leisure_quality_food_access",
-      "alignmentText": "Seattle offers strong markets and co-ops for fresh foods, but dense fast-food outlets push quality food access to a mid-range level for your family.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Seattle, WA, USA: most filings online with modest queues. Occasional in-person visit fits a single busy morning for the family.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "life_daycare_accessibility",
-      "alignmentText": "Seattle, WA infant daycare for a 1-year-old typically 2\u20133 months; waitlists update weekly.",
+      "alignmentText": "Seattle\u0027s walkable, Link Light Rail-connected neighborhoods and parks support family-friendly trips; strong public schools suit two young children.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "In Seattle, WA, USA, markets and co-ops give your family good healthy options. Dense fast-food pockets keep access from being top-tier.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Seattle, WA filings largely online with modest queues; for this family, 1-2 hours per month of compliance tasks, with occasional morning in-person visits.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Seattle, WA: daycare wait times for a 1-year-old are typically 3-4 months; waitlists update weekly.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
       "key": "life_daycare_affordability_citizen",
-      "alignmentText": "USD 2,450.00",
-      "alignmentValue": 1,
+      "alignmentText": "USD 450.00",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_non_resident",
-      "alignmentText": "USD 1,234.56",
+      "alignmentText": "USD 1,300.00",
       "alignmentValue": 3,
       "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_perm_resident",
-      "alignmentText": "USD 1,900.00 ($1,900.00)",
+      "alignmentText": "USD 1,900.00",
       "alignmentValue": 1,
       "sameAsParent": false
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "Seattle, WA offers timely family care for a two-parent, two-child household: PCP 3-4 days; specialists 8-10 days.",
-      "alignmentValue": 8
+      "alignmentText": "Seattle, WA provides family care; PCP wait 3-4 days, specialists 8-10 days for a two-parent, two-child household.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_citizen",
       "alignmentText": "USD 1,234.56",
-      "alignmentValue": 2,
+      "alignmentValue": 1,
       "sameAsParent": false
     },
     {
@@ -277,18 +272,18 @@
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "Seattle, WA/US: health coverage remains tied to employment; WA ACA marketplace and COBRA provide solid backups for a founder and a developer.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "life_hours_worked_per_year",
-      "alignmentText": "1880",
+      "alignmentText": "Seattle, WA/US: health coverage remains tied to employment; WA ACA marketplace and COBRA provide backups for a founder with two kids.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1900",
+      "alignmentValue": 7
+    },
+    {
       "key": "life_public_transportation",
-      "alignmentText": "Seattle, WA, USA offers frequent buses and Link light rail; many neighborhoods are within 500m of transit with frequent service for families.",
+      "alignmentText": "Seattle\u0027s transit is family-friendly with Link light Rail and frequent buses; many neighborhoods lie within 500m of service.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -299,19 +294,20 @@
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "Seattle, WA: UW is a top global university with strong English-language programs; ample local options support your kids\u0027 education priorities.",
-      "alignmentValue": 9,
+      "alignmentText": "Seattle\u0027s UW ranks in the global top 50; nearby colleges and strong English programs support your kids\u0027 college goals.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Seattle, WA offers dense continuing education options (UW, community colleges) with online subsidies; strong for Trey and Sarah\u0027s upskilling.",
+      "alignmentText": "Seattle, WA has strong continuing education options (UW, CCs) with subsidies; well-suited for Trey and Sarah\u0027s upskilling.",
       "alignmentValue": 9
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Seattle, WA, US: Strong senior .NET architect demand with top-quartile pay; numerous postings and remote options suit Trey\u0027s 20\u002B years.",
-      "alignmentValue": 10
+      "alignmentText": "Seattle, WA, US: Very strong senior .NET Architect demand with top-quartile pay; many postings and remote options for Trey\u0027s 20\u002B years.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
@@ -328,48 +324,46 @@
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Seattle-area beach outings should focus on Puget Sound beaches and nearby lakefronts with family-friendly amenities (parking, restrooms, shade, lifeguards where available). Recommended spots include Alki Beach, Golden Gardens, and Carkeek Park. Plan visits on mild, dry days and pair beach time with nearby parks for a 5-year-old and a 1-year-old. Emphasize water safety, stroller-friendly paths, and accessible facilities; bring sun protection and hydration."
+      "alignmentText": "Seattle-area beach plan: prioritize Puget Sound beaches with parking, restrooms, shade, and stroller-friendly paths; recommend Alki Beach, Golden Gardens, and Carkeek Park. Schedule visits on mild, dry days and pair beach time with nearby parks suitable for a 5-year-old and a 1-year-old. Emphasize water safety, sun protection, and hydration; verify lifeguard presence and accessible facilities; check tides, current conditions, and available shade/picnic areas."
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Seattle fall temperatures: highs 55\u00B0F\u201372\u00B0F, lows 45\u00B0F\u201355\u00B0F. Mild autumn aligns with your climate preferences.",
+      "alignmentText": "Seattle fall highs 65\u201369\u00B0F; lows 45\u201355\u00B0F. Mild autumn aligns with your climate preferences.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Seattle\u0027s mild, year-round climate offers many 50\u201385\u00B0F days with moderate humidity. Expect roughly 240\u2013260 comfortable days per year.",
-      "alignmentValue": 8
+      "alignmentText": "Seattle, USA has a mild, year-round climate with many 50-85\u00B0F days. Humidity is moderate, about 240-260 comfortable days per year.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Seattle, WA offers parks, water views, and kid-friendly climbing near families. Within 60 minutes, 30-39% land protected with 2\u002B scenic sites.",
+      "alignmentText": "Seattle, WA offers parks, water views, and family-friendly climbing. Within 60 minutes, 30-39% land protected with 2\u002B scenic sites.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Nature access in Seattle, US: 6-7 parks \u003E10 acres within 5 km (Gas Works Park, Volunteer Park); 1 regional trail accessible by transit in under 30 minutes.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentText": "Nature access in Seattle, US: several parks \u003E10 acres within 5 km and transit-friendly trails nearby. Great for kids and outdoor families.",
+      "alignmentValue": 9
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Seattle, WA spring: 48\u00B0F\u201365\u00B0F highs and 36\u00B0F\u201346\u00B0F lows with frequent rain. Mild for this Kansas City family.",
-      "alignmentValue": 6,
+      "alignmentText": "Seattle spring highs around 60-64\u00B0F with frequent rain; mild overall, suitable for a calmer climate compared to Kansas City.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Seattle summers: highs 72\u201385\u00B0F, lows 60\u201372\u00B0F. Occasional heat spikes, but overall mild with low humidity.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Seattle summers typically see highs around 76\u201380\u00B0F, with occasional spikes to 85\u00B0F.",
+      "alignmentValue": 9
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "Seattle, WA winters: 40\u00B0F\u201350\u00B0F highs and 32\u00B0F\u201340\u00B0F lows with occasional light snow. Fits their mild, low-risk winter climate (9).",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Seattle winters: highs 45\u00B0F\u201349\u00B0F and lows 32\u00B0F\u201340\u00B0F. Mild, low-risk climate suitable for kids.",
+      "alignmentValue": 8
     },
     {
       "key": "stability_climate_stability",
@@ -379,24 +373,25 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Seattle\u0027s tech market offers strong jobs and grants, but high housing costs and childcare pressures impact family stability.",
-      "alignmentValue": 7,
+      "alignmentText": "Seattle, WA shows solid tech-driven stability with resilient GDP, but high housing costs and childcare pressures strain family stability.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Seattle, US offers policy stability with occasional reforms; mild climate and inclusive communities support a two-adult, two-child family.",
+      "alignmentText": "Seattle, WA, US offers stable immigration policy with occasional reforms; mild climate and inclusive communities support a two-adult, two-child family.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Seattle, USA offers strong political stability and predictable governance. Reliable public services support a family-friendly relocation.",
-      "alignmentValue": 9
+      "alignmentText": "Seattle, USA offers strong political stability and reliable public services, aligning with a calm, family-friendly relocation.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Seattle, WA, USA: reliable utilities and strong schools; violent crime ~300-349/100k; family-friendly neighborhoods with parks.",
+      "alignmentText": "Seattle, WA offers strong schools, plentiful parks, and family-friendly neighborhoods; crime runs around 300-349 per 100k.",
       "alignmentValue": 7,
       "sameAsParent": false
     }

@@ -4,8 +4,8 @@
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
-      "alignmentText": "EUR 7,200.00 ($7,776.00)",
-      "alignmentValue": 2
+      "alignmentText": "EUR 6,500.00 ($7,020.00)",
+      "alignmentValue": 3
     },
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
@@ -121,9 +121,8 @@
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Paris, FR fall highs 60-75\u00B0F, nights 50-60\u00B0F; mild, stable autumn, suitable for a family move.",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "Paris fall highs typically 60-64\u00B0F with nights around 50-60\u00B0F; a mild autumn well-suited for a family move.",
+      "alignmentValue": 8
     },
     {
       "key": "kids_food_quality",
@@ -133,7 +132,7 @@
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "France\u0027s universal healthcare supports families; Paris has strong pediatric care and English-speaking clinics; primary care waits 1-2 days, specialists 5-7.",
+      "alignmentText": "France offers universal healthcare; Paris has strong pediatric care and English-friendly clinics. Primary care waits 1-2 days.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -144,9 +143,8 @@
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "Paris, FR has universal health coverage not tied to employment; leaving a job won\u0027t end coverage for two adults and two kids.",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "Paris, FR offers universal health coverage not tied to employment; two adults and two kids keep coverage if they change jobs.",
+      "alignmentValue": 10
     },
     {
       "key": "life_hours_worked_per_year",
@@ -156,8 +154,9 @@
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "In Paris, 3-bedroom family rentals typically take 4-6 weeks; deposit around 2.5 months and a guarantor is commonly needed.",
-      "alignmentValue": 7
+      "alignmentText": "Paris family 3-bed rentals typically take 4-6 weeks with about 2.5 months deposit. A guarantor is commonly required for non-residents.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "integration_immigration_effort",
@@ -173,13 +172,12 @@
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Paris offers strong FLE support and translation in schools; bilingual families tend to integrate well into public education.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Paris offers strong FLE support and translations in schools; bilingual families integrate well into public education with English-friendly options.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Paris, FR offers stable pro-resident paths and clear Talent Passport renewals; family routes support long-term stays with straightforward bureaucracy.",
+      "alignmentText": "Paris, FR offers stable pro-resident routes (Talent Passport) with clear renewals; family-friendly paths support long-term stays and straightforward bureaucracy.",
       "alignmentValue": 9
     },
     {
@@ -218,13 +216,13 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Paris, FR shows high political stability with rule of law. Protests occur, but policy remains predictable, supporting family healthcare and schooling.",
+      "alignmentText": "Paris, FR offers strong political stability and rule of law; protests exist but policies remain predictable, supporting family healthcare and schooling.",
       "alignmentValue": 9
     },
     {
       "key": "life_public_transportation",
-      "alignmentText": "Paris offers extensive metro/RER with most neighborhoods within 500 m of frequent service; planning tools are family- and English-friendly.",
-      "alignmentValue": 9,
+      "alignmentText": "Paris offers an extensive metro/RER network; 90%\u002B residents are within 500 m of frequent service with family-friendly hours.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
@@ -252,7 +250,7 @@
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Paris provides universal healthcare, reliable services, and safe neighborhoods with strong public schools for our two kids.",
+      "alignmentText": "Paris, FR offers universal healthcare and reliable services. Safe neighborhoods and strong public schools support our two kids.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
@@ -270,13 +268,13 @@
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Paris hosts monthly in-person game-dev meetups and a growing grants scene. This supports Trey and Sarah\u0027s indie goals in France.",
+      "alignmentText": "Paris hosts monthly in-person game-dev meetups and a growing grants scene, supporting Trey\u0027s indie goals and Sarah\u0027s web dev ecosystem in France.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Paris remains welcoming to skilled immigrants; Passeport Talent and a strong tech ecosystem support Trey and Sarah\u0027s startup.",
+      "alignmentText": "Paris remains welcoming to skilled immigrants; Passeport Talent and a strong Paris tech ecosystem support Trey and Sarah\u0027s startup.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -308,25 +306,13 @@
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Paris: select 4-6 family-friendly venues in walkable, transit-rich districts (Le Marais, Canal Saint-Martin, Bastille, Montparnasse) with after-6pm hours, stroller access, and accessible restrooms; ensure multilingual staff and affordable group reservations. Map each venue to nearby Metro lines/bus routes and note childcare options. Launch a biweekly Common Friend Night at 18:30-20:30 with a simple kid activity plan (crafts, storytime, games). Include an indoor weather contingency (libraries/cultural centers) and a lightweight language-support plan (bilingual invites and a volunteer host).",
+      "alignmentText": "In Paris, select 4\u20136 family\u2011friendly venues in walkable, transit\u2011rich districts (Le Marais, Canal Saint\u2011Martin, Bastille, Montparnasse) with after\u20116pm hours, stroller access, accessible restrooms, multilingual staff, and affordable group reservations; map venues to Metro lines/bus routes and note childcare options. Launch a biweekly Common Friend Night 18:30\u201320:30 with a simple kid activity plan; include an indoor weather contingency (libraries/cultural centers) and a bilingual invitation/volunteer host plan.",
       "sameAsParent": false
     },
     {
       "key": "daemon_games_corporate_tax_rate",
       "alignmentText": "25%",
       "alignmentValue": 6,
-      "sameAsParent": true
-    },
-    {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "30%",
-      "alignmentValue": 3,
-      "sameAsParent": true
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9,
       "sameAsParent": true
     },
     {
@@ -342,12 +328,12 @@
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "EUR 120.00 ($132.00)",
+      "alignmentText": "EUR 210.00 ($231.00)",
       "sameAsParent": false
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "France (Paris) immigration status and rights: map visa options for each family member (short stay up to 90 days; long stay for work, study, or family reunification) and renewal timelines; secure a titre de sejour on arrival and verify work rights before any employment; pursue a carte de sejour after several years or naturalisation once residency and integration requirements are met. Trey should explore entrepreneur/startup or talent visas aligned with Paris tech ecosystems; Sarah should obtain a work permit appropriate for web development (remote/hybrid options considered) and confirm eligibility for remote work; Anduin and Alasdair require long stay family visas with access to education and universal healthcare. Gather documents early: passports, birth/marriage certificates, proof of income and housing, health insurance, police records, translations and apostilles. Coordinate with the French consulate for initial visa applications and plan timelines for residency permits and eventual citizenship eligibility.",
+      "alignmentText": "France (Paris) immigration status \u0026 rights: Start with a long-stay visa and secure a titre de s\u00E9jour on arrival; ensure work rights are in place before any employment; pursue a Carte de R\u00E9sident after several years of residence, with naturalisation as the long-term pathway. Trey should explore entrepreneur/startup or talent visa routes aligned with Paris tech ecosystems; Sarah should obtain the appropriate work permit for web development (remote/hybrid options permitted) and maintain clear employment status; Anduin and Alasdair should pursue family-reunification long-stay visas with access to education and universal healthcare. Gather documents early (passports, birth certificates, marriage certificates if applicable, proof of income and housing, health insurance, police records, translations and apostilles) and coordinate with the French consulate to file initial visa applications and map timelines for residency permits and eventual citizenship eligibility.",
       "sameAsParent": false
     },
     {
@@ -373,8 +359,7 @@
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 68,000.00 ($74,120.00)",
-      "sameAsParent": false
+      "alignmentText": "EUR 65,000.00 ($70,850.00)"
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
@@ -399,8 +384,8 @@
     },
     {
       "key": "life_daycare_affordability_non_resident",
-      "alignmentText": "EUR 1,350.00 ($1,485.00)",
-      "alignmentValue": 3,
+      "alignmentText": "EUR 1,000.00 ($1,100.00)",
+      "alignmentValue": 5,
       "sameAsParent": false
     },
     {
@@ -412,13 +397,13 @@
     {
       "key": "life_healthcare_affordability_citizen",
       "alignmentText": "EUR 180.00 ($194.40)",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentValue": 10
     },
     {
       "key": "life_healthcare_affordability_non_resident",
-      "alignmentText": "EUR 1,800.00 ($1,944.00)",
-      "alignmentValue": 6
+      "alignmentText": "EUR 2,200.00 ($2,376.00)",
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

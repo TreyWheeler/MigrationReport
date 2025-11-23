@@ -20,7 +20,7 @@
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "EUR 350.00 ($378.00)",
+      "alignmentText": "EUR 400.00 ($432.00)",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -73,16 +73,6 @@
       "alignmentValue": 9
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "35%",
-      "alignmentValue": 4
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "25%",
-      "alignmentValue": 8
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
       "alignmentText": "Coimbra, Portugal offers a D2/Startup visa for indie game studios; 2-4 months, up to \u20AC50k; grants and local startup lawyers help families.",
       "alignmentValue": 8
@@ -104,8 +94,8 @@
     },
     {
       "key": "daemon_games_number_of_aa_studios",
-      "alignmentText": "1",
-      "alignmentValue": 2
+      "alignmentText": "2",
+      "alignmentValue": 3
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
@@ -173,7 +163,7 @@
     },
     {
       "key": "kids_education_quality",
-      "alignmentText": "Coimbra offers solid public primary/secondary schooling with strong early-years options; bilingual programs exist in several schools.",
+      "alignmentText": "Coimbra\u0027s public primary/secondary schools offer solid options with good early-years programs; several bilingual programs exist in public and local schools.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -184,7 +174,7 @@
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "Coimbra, Portugal: public schools offer ~2-3 hrs/week English; core subjects mostly in Portuguese; bilingual aides are rare.",
+      "alignmentText": "Coimbra, Portugal: public schools offer ~2-3 hours/week English; core subjects are mostly in Portuguese; bilingual aides are rare.",
       "alignmentValue": 2,
       "sameAsParent": false
     },
@@ -199,7 +189,7 @@
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Coimbra offers family-friendly leisure: plan regular outdoor days at Jardim Bot\u00E2nico da Universidade de Coimbra and along the Mondego River for safe, stroller-friendly walks; add kid-friendly museum visits in the historic university precinct; schedule weekend trips to nearby Atlantic beaches for sand and shallow water; seek bilingual-friendly activities and English-speaking staff at centers and libraries to support language exposure; tap into local parent groups for meetups and affordable childcare options; ensure reliable broadband and quiet workspaces to balance remote work with family time."
+      "alignmentText": "Plan regular outdoor days along the Mondego River and at Jardim Bot\u00E2nico da Universidade de Coimbra for stroller-friendly walks; add kid-friendly visits to the historic Universidade de Coimbra precinct (e.g., Museu da Ci\u00EAncia, Biblioteca Joanina); schedule weekend trips to nearby Atlantic beaches (Figueira da Foz, Mira) for sand and shallow water; seek bilingual-friendly activities and English-speaking staff at centers and libraries to support language exposure; engage with local family/parent groups for affordable childcare and play dates; ensure reliable broadband and quiet workspaces at cafes or coworking spaces to balance remote work with family time."
     },
     {
       "key": "leisure_common_friend_night_opportunities",
@@ -207,25 +197,26 @@
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Coimbra, PT has a healthy after-6pm family-friendly scene with supervised venues. Think libraries, kids caf\u00E9s, and play spaces that fit your family\u0027s routine.",
+      "alignmentText": "Coimbra, PT offers a strong after-6pm, supervised family scene with libraries, kids\u0027 caf\u00E9s and play spaces that fit your routine.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Coimbra\u0027s compact, walkable center and frequent buses support car-free trips for a family. Parks and the Mondego riverfront boost livability.",
-      "alignmentValue": 8,
+      "alignmentText": "Coimbra\u0027s compact, walkable center and frequent buses support car-free family trips; parks and Mondego riverfront boost livability in a mild climate.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "Coimbra offers strong fresh-food access: multiple markets and produce options; low fast-food density supports healthier meals for your family.",
-      "alignmentValue": 8
+      "alignmentText": "Coimbra, Portugal has abundant fresh markets and produce with relatively low fast-food density, supporting healthier meals for your family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Coimbra, Portugal: most tasks online, but visa/residency needs some in-person SEF/consulate steps; plan a few mornings for forms.",
-      "alignmentValue": 8
+      "alignmentText": "Coimbra, Portugal: most tasks online; visa/residency needs SEF visits\u2014budget ~4-5 hours/month for forms.",
+      "alignmentValue": 5
     },
     {
       "key": "life_daycare_accessibility",
@@ -240,7 +231,7 @@
     },
     {
       "key": "life_daycare_affordability_non_resident",
-      "alignmentText": "EUR 450.00 ($486.00)",
+      "alignmentText": "EUR 250.00 ($270.00)",
       "alignmentValue": 10
     },
     {
@@ -256,22 +247,24 @@
     },
     {
       "key": "life_healthcare_affordability_citizen",
-      "alignmentText": "EUR 0.00 ($0.00)",
-      "alignmentValue": 10
+      "alignmentText": "EUR 60.00 ($64.80)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_non_resident",
-      "alignmentText": "EUR 1,000.00 ($1,100.00)",
+      "alignmentText": "EUR 800.00 ($880.00)",
       "alignmentValue": 10
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
-      "alignmentText": "EUR 250.00 ($270.00)",
-      "alignmentValue": 10
+      "alignmentText": "EUR 300.00 ($324.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "Coimbra, Portugal offers universal SNS healthcare; leaving a job won\u0027t drop baseline coverage for this family.",
+      "alignmentText": "Coimbra\u0027s SNS provides universal healthcare. Leaving employment won\u0027t affect baseline coverage for this family.",
       "alignmentValue": 10
     },
     {
@@ -287,7 +280,7 @@
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "Coimbra, Portugal offers low public tuition as a share of local income and solid admission rates, supporting the family\u0027s education goals.",
+      "alignmentText": "Coimbra, Portugal\u0027s public universities offer modest tuition for international students, supporting your education-focused goals.",
       "alignmentValue": 8
     },
     {
@@ -297,13 +290,13 @@
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Coimbra, PT offers multiple adult education programs via UC and public centers. Subsidized online options support lifelong learning.",
+      "alignmentText": "Coimbra, PT offers UC and public-center adult programs with subsidized online options. This suits a family prioritizing education and flexible schedules.",
       "alignmentValue": 8
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Coimbra, PT has scarce senior .NET architect postings; for a 20-year veteran, prioritize remote roles with Lisbon/Porto firms.",
-      "alignmentValue": 1
+      "alignmentText": "Coimbra\u0027s senior .NET postings are scarce; target remote roles or firms in Lisbon/Porto to fit this profile.",
+      "alignmentValue": 2
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
@@ -313,15 +306,15 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 45,000.00 ($49,050.00)"
+      "alignmentText": "EUR 35,000.00 ($38,115.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 36,000.00 ($39,600.00)"
+      "alignmentText": "EUR 30,000.00 ($33,000.00)"
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Coimbra is inland; Beach Life is optional. Action: identify nearby beaches (Figueira da Foz, Mira, Nazar\u00E9) with drive times to plan regular coastal weekends; prefer housing options within a 1.5-2 hour coastal commute; build a practical coastal-leisure plan that fits with mild climate year-round."
+      "alignmentText": "Coimbra region: identify beaches within 1.5\u20132 hours: Figueira da Foz, Mira, Nazar\u00E9. Action: map drive times from candidate housing in Coimbra; verify family-friendly parking, access to restrooms, and safety features; choose housing within 1.5\u20132 hours with reliable broadband; create a year-round coastal plan with regular weekend beach visits and occasional local getaways; coordinate trips with work/school schedules; leverage the mild climate for spring/autumn beach days and have indoor options for bad weather."
     },
     {
       "key": "outdoors_fall_temperature_range",
@@ -336,7 +329,7 @@
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Coimbra, Portugal offers strong natural beauty: Bu\u00E7aco Forest and nearby protected landscapes are within an hour, with multiple scenic spots to explore.",
+      "alignmentText": "Coimbra offers family-friendly nature within easy reach. Bu\u00E7aco Forest and protected lands are under an hour, with easy trails for kids.",
       "alignmentValue": 8
     },
     {
@@ -347,8 +340,9 @@
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Coimbra, Portugal spring highs 55\u201372\u00B0F and lows 45\u201355\u00B0F. Mostly mild with light rain.",
-      "alignmentValue": 9
+      "alignmentText": "Coimbra, Portugal spring highs around 70-72\u00B0F (lows 45-55\u00B0F). Mild with light rain; ideal for outdoor family time.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_summer_temperature_range",
@@ -374,13 +368,13 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Coimbra, Portugal offers stable migration rules with modest reforms; visas and startup grants support entrepreneurship, though some bureaucracy remains.",
+      "alignmentText": "Coimbra, Portugal maintains stable migration rules with modest reforms; visas and startup grants back entrepreneurship amid some bureaucracy.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Coimbra, Portugal offers a stable democracy with low unrest, strong rule of law, and broad civil liberties\u2014family-friendly and safe.",
+      "alignmentText": "Coimbra, Portugal enjoys stable democracy with strong rule of law and low unrest; safe, family-friendly neighborhoods and reliable public services.",
       "alignmentValue": 10,
       "sameAsParent": false
     },

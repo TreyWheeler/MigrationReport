@@ -4,18 +4,20 @@
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
-      "alignmentText": "CAD 5,200.00 ($3,848.00)",
-      "alignmentValue": 4
+      "alignmentText": "CAD 4,900.00 ($3,626.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
       "alignmentText": "CAD 2,900.00 ($2,146.00)",
-      "alignmentValue": 9
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "CAD 3,600.00 ($2,664.00)",
-      "alignmentValue": 7,
+      "alignmentText": "CAD 3,200.00 ($2,368.00)",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
@@ -26,17 +28,17 @@
     {
       "key": "cost_of_living_family_52_therapy_sessions",
       "alignmentText": "CAD 7,800.00 ($5,772.00)",
-      "alignmentValue": 1
-    },
-    {
-      "key": "cost_of_living_family_eating_out",
-      "alignmentText": "CAD 100.00 ($74.50)",
-      "alignmentValue": 7,
+      "alignmentValue": 1,
       "sameAsParent": false
     },
     {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "CAD 120.00 ($90.00)",
+      "alignmentValue": 5
+    },
+    {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "CAD 350.00 ($259.00)",
+      "alignmentText": "CAD 0.00 ($0.00)",
       "sameAsParent": false
     },
     {
@@ -47,7 +49,7 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "CAD 9,000.00 ($6,660.00)",
-      "alignmentValue": 4,
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
@@ -57,13 +59,14 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Canada (CA) founder path is digital-first but involves several agencies. Expect occasional in-person steps; a part-time accountant helps keep filings on track.",
+      "alignmentText": "Canada (CA): US founder family; CRA filings digital-first; occasional in-person steps; payroll/VAT via part-time accountant.",
       "alignmentValue": 7
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "CAD 1,017,916.67 ($753,258.34)",
-      "alignmentValue": 10
+      "alignmentText": "CAD 1,427,916.67 ($1,063,797.92)",
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -71,20 +74,9 @@
       "alignmentValue": 5
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "55%",
-      "alignmentValue": 8
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Canada Startup Visa via designated incubators suits Trey\u0027s founder path; expect 9-12\u002B months with incubator grants/accelerators in Canada.",
-      "alignmentValue": 5,
-      "sameAsParent": false
+      "alignmentText": "Canada Start-up Visa via incubators in Toronto or Montreal fits Trey\u0027s founder path; expect 10-12 months.",
+      "alignmentValue": 2
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
@@ -108,8 +100,8 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "CAD 11,781,606.96 ($8,792,244.00)",
-      "alignmentValue": 7,
+      "alignmentText": "CAD 8,969,812.50 ($6,637,661.25)",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
@@ -137,83 +129,90 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "Canada: English predominant in most admin; Quebec French common; family is prepared to learn local language.",
-      "alignmentValue": 9
+      "alignmentText": "Canada admin is mostly English nationwide; Quebec French is common. The family will learn French; English forms are widely available.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Canada: bilingual options exist; ~40-50% of seats by grade 4, aligned with the family\u0027s openness to a local language.",
+      "alignmentText": "Canada (CA): bilingual options exist; ~40-50% of seats by grade 4, aligning with your openness to a local language.",
       "alignmentValue": 6
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Canada housing for US newcomers: lease in 4\u20136 weeks with deposits up to 2.5 months. Guarantor commonly requested.",
+      "alignmentText": "Canada (CA): four-person newcomer family often secures a lease in 5-6 weeks with deposits up to 2.5 months; guarantor commonly requested.",
       "alignmentValue": 7
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Canada\u0027s Express Entry/Startup path will take roughly 8-12 months for this US family. Endorsements and potential interviews may add time.",
-      "alignmentValue": 5
+      "alignmentText": "Canada (CA) Express Entry/Startup for this US family may take ~6\u20139 months; endorsements/interviews can extend timelines.",
+      "alignmentValue": 3
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "Canada uses several immigration statuses with distinct rights and pathways. Key statuses are: Permanent Resident (PR) \u2014 earned through economic streams (Express Entry), Provincial Nominee Programs, family sponsorship, or humanitarian programs; PRs must meet residency obligations (physically present at least 2 of the last 5 years) to maintain status; PRs may work and study anywhere in Canada and have access to many social benefits and publicly funded healthcare after provincial enrollment; citizenship can be pursued after meeting residency, language, and knowledge requirements and typically results in a Canadian passport, voting rights, mobility rights, and broader civil rights. Canadian citizen \u2014 obtained by naturalization after meeting required physical presence (typically 3 years in the last 5), language proficiency, knowledge of Canada, and passing a citizenship test and oath; rights include full political rights (vote and run for office), a Canadian passport, and wide mobility rights. Temporary residents \u2014 visitors, students, and workers who hold valid permits/visas; rights are limited to activities permitted by the permit and access to healthcare/social benefits varies by province; maintaining status is essential, and permits must be renewed or visa conditions met or the status risks loss. Pathways and steps to PR from CA include Express Entry (economic), Provincial Nominee Programs, or family sponsorship; required steps generally include document collection (passports, education credentials, work history), language tests, credential assessments, police certificates, medical exams, and timely submission; once PR is obtained, duties include meeting residency obligations and renewing PR cards; citizenship eligibility typically requires several years of PR, language/knowledge requirements, and an oath. Practical plan for your family: evaluate which pathway (economic or family sponsorship) aligns with your timelines, prepare and submit applications, pursue language testing and credential recognition, and map out residency and settlement steps to qualify for citizenship; monitor provincial options and potential sponsorship routes for partners and dependents; stay current with evolving immigration policy and processing times.",
+      "alignmentText": "Canada offers permanent residency via Express Entry, Provincial Nominee Programs (PNP), or family sponsorship. For your family, practical paths are Express Entry (FSW/CEC) or a provincial entrepreneur/Start-up option if you pursue a business. Action steps: 1) confirm proof-of-funds needs for a four-person family and convert to CAD; 2) obtain Educational Credential Assessments (ECA) for Trey and Sarah; 3) complete language tests (IELTS or CELPIP) and target CLB 7\u002B; 4) gather documents (passports, birth/marriage certificates, education credentials, police certificates, medicals); 5) explore provinces with tech ecosystems (Ontario, British Columbia, Alberta) and suitable streams; 6) submit an Express Entry profile or apply through a PNP or Start-up/entrepreneur pathway; 7) plan settlement: housing, healthcare enrollment, schools, childcare; 8) after immigration approval, ensure residency obligations are met for PR and monitor citizenship eligibility timelines; keep temporary permits valid if needed.",
       "sameAsParent": false
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Canada broadly welcomes skilled immigrants. Government programs and family-friendly policies support a four-person family pursuing work paths.",
-      "alignmentValue": 9
+      "alignmentText": "Canada\u0027s Express Entry and family-friendly policies support a four-person Kansas City family pursuing work and settlement in Canada.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Canada schools generally enforce anti-bullying policies with strong enforcement; Caucasian American immigrant families often report low bullying risk.",
-      "alignmentValue": 9
+      "alignmentText": "Canada-wide anti-bullying policies protect your 5-year-old in primary school; risk for a Caucasian immigrant is low.",
+      "alignmentValue": 9,
+      "sameAsParent": true
     },
     {
       "key": "kids_education_quality",
-      "alignmentText": "Canada (CA) offers strong universal public schools, solid early childhood programs, and bilingual options\u2014aligns well with your kids\u0027 needs.",
-      "alignmentValue": 9
+      "alignmentText": "Canada\u0027s universal public schools and strong early childhood programs; English/French bilingual options match your kids\u0027 needs.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "Canada\u0027s school meals commonly meet HEI ~85-89 with \u003C8% ultra-processed calories, supporting Trey\u0027s healthy growth.",
+      "alignmentText": "Canada school meals typically achieve HEI 85-89 with \u003C8% ultra-processed calories. This aligns with your family\u0027s needs for healthy growth in Canada.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "Canada public schools offer English instruction with ESL/bilingual support, aligning with your English ubiquity and bilingual exposure goals.",
-      "alignmentValue": 9,
+      "alignmentText": "Canada public schools provide robust English instruction with ESL/bilingual supports; aligns with your English ubiquity goals and bilingual exposure for the kids.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Canada\u0027s LINC/settlement programs offer solid language support; most agencies provide translation, aiding Trey and Sarah\u0027s integration.",
-      "alignmentValue": 9
+      "alignmentText": "Canada\u0027s LINC/settlement programs provide abundant language training and kid-friendly support; translation helps families integrate across CA.",
+      "alignmentValue": 10
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "CA: Curate a short, affordable date-night playbook for urban/suburban Canada: 4\u20136 options that are walkable and English-friendly\u2014casual dinner with a park stroll; indie cinema or theatre; museum after-hours; live music at a neighborhood venue; waterfront/riverwalk stroll with coffee; seasonal activities (ice skating in winter, outdoor patios in mild summers). Pair each option with a childcare plan (evening sitter or trusted family), prioritize venues with good transit access and predictable hours, and aim for low-stress, predictable evenings.",
+      "alignmentText": "CA: Create a practical, family-friendly date-night guide for urban/suburban Canada with 4-6 walkable, transit-friendly options: 1) casual dinner near a park for a stroll; 2) indie cinema or local theatre; 3) museum after-hours or late-opening exhibit; 4) neighbourhood live music at family-friendly venues; 5) waterfront or riverwalk with coffee; 6) mild-summer outdoor patio with shade; pair each option with a childcare plan (evening sitter or trusted family), prioritize venues with reliable hours and good transit access, and design evenings to be low-stress and predictable for a family routine.",
       "sameAsParent": false
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Canada offers rich, affordable family leisure through walkable neighborhoods, abundant parks, libraries, and community centers. Action plan: in CA cities, target areas with strong parks/recreation and bilingual options; map nearby parks, museums/science centers, libraries, and winter activity sites (public skating, sledding hills) and enroll in family programs; leverage subsidized childcare and community events to support family life while exposing children to English-friendly environments; ensure reliable broadband and connect with local game-dev and tech communities to support Trey\u2019s work and entrepreneurship."
+      "alignmentText": "Canada-focused family activity plan: prioritize bilingual-friendly, walkable neighborhoods in major CA cities (Toronto, Montreal, Vancouver, Calgary) with parks, libraries, and recreation centers. Action: map nearby parks, museums/science centers, libraries, and winter activities (public skating rinks, sledding hills, cross-country trails); enroll families in municipal programs and subsidized childcare; seek family-friendly events to boost daily life while exposing Anduin and Alasdair to English/French language options. Ensure reliable broadband and connect with local game-dev/tech communities to support Trey\u0027s work and entrepreneurship; leverage city programs and subsidies for affordable activities to sustain work-life balance.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Canada (CA): Establish 2-3 family-friendly, after-work friend-night meetups in Toronto, Montreal, and Vancouver (6:00-9:00 pm) at board-game caf\u00E9s, libraries, or community centers with reliable Wi-Fi and easy transit access; offer kid-friendly activities or on-site childcare where possible; ensure bilingual or English-dominant signage (French in Montreal) and inclusive, low-stress environments; partner with local gaming groups and neighborhood associations to sustain regular social opportunities."
+      "alignmentText": "Canada (CA): Launch 2-3 recurring family-friendly after-work meetups in Toronto, Montreal, and Vancouver (6:00-9:00 pm) at board-game cafes, libraries, or community centers with reliable Wi-Fi and easy transit; provide kid-friendly activities or on-site childcare where feasible; use bilingual signage (English and French, with Montreal emphasis on French); foster inclusive, low-stress environments; partner with local gaming groups and neighborhood associations to sustain regular events and collect feedback for ongoing participation.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Canada has many parent-friendly 3rd places. Major cities offer libraries and community centers after 6 p.m. with staff supervision.",
-      "alignmentValue": 8
+      "alignmentText": "Canada\u0027s major cities offer abundant after-6pm parent-friendly 3rd places (libraries/rec centers) with staff; strong fit for this family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Canada\u0027s urban cores offer walkable, transit-rich living. Expect about 50\u201359% car-free trips in inner-city areas; prioritize parks and good schools.",
-      "alignmentValue": 7
+      "alignmentText": "Canada\u2019s urban cores offer walkable, transit-rich living for families; inner areas typically have 60\u201369% car-free trips and strong parks and schools.",
+      "alignmentValue": 8
     },
     {
       "key": "leisure_quality_food_access",
@@ -313,7 +312,7 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "CAD 150,000.00 ($111,000.00)"
+      "alignmentText": "CAD 172,000.00 ($127,280.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
@@ -331,17 +330,18 @@
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Canada (CA) - mild coastal areas (e.g., Vancouver region) offer roughly 210-239 days of 50-85\u00B0F with low humidity.",
+      "alignmentText": "Canada (CA) Vancouver-area mild climate offers ~210-239 days at 50-85\u00B0F with low humidity. It aligns with the family\u0027s mild-weather preference.",
       "alignmentValue": 7
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Canada offers strong natural beauty near cities: 40-49% protected land within 60 minutes and 3-4 scenic sites; great for family outdoor time.",
-      "alignmentValue": 9
+      "alignmentText": "Canada offers rich outdoor beauty near cities: 40-49% protected land within 60 minutes and 3-4 scenic sites; ideal for family hikes and park time.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Canada cities offer many parks \u003E10 acres within 5 km and multiple transit-accessible trails, supporting easy family outdoor time.",
+      "alignmentText": "Canada cities offer many parks \u003E10 acres within 5 km and several transit-accessible trails, supporting easy family outdoor time with two kids.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -374,7 +374,7 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Canada (CA) offers high stability with few major immigration overhauls and low revocation risk. This supports a US-origin family\u0027s settlement in CA.",
+      "alignmentText": "Canada (CA) offers high stability with few major immigration overhauls and low revocation risk. This supports a US-origin family like yours settling in CA.",
       "alignmentValue": 9,
       "sameAsParent": false
     },

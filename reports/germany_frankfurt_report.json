@@ -4,7 +4,7 @@
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
-      "alignmentText": "EUR 3,100.00 ($3,348.00)",
+      "alignmentText": "EUR 3,200.00 ($3,456.00)",
       "alignmentValue": 8
     },
     {
@@ -15,13 +15,14 @@
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "EUR 2,800.00 ($3,050.60)",
-      "alignmentValue": 9
+      "alignmentText": "EUR 2,900.00 ($3,159.55)",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "EUR 2,000.00 ($2,160.00)",
-      "alignmentValue": 2
+      "alignmentText": "EUR 1,450.00 ($1,566.00)",
+      "alignmentValue": 4
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
@@ -36,14 +37,13 @@
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "EUR 0.00 ($0.00)",
+      "alignmentText": "EUR 1,000.00 ($1,090.00)",
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
-      "alignmentText": "EUR 0.00 ($0.00)",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "EUR 300.00 ($330.00)",
+      "alignmentValue": 10
     },
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
@@ -59,29 +59,19 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Frankfurt, DE: payroll, VAT filings, visas, and translations across multiple agencies; hire a local accountant to manage Germany\u0027s bureaucracy.",
+      "alignmentText": "Frankfurt, DE: visas and registrations; taxes and filings across agencies; hire a local Steuerberater to keep bureaucracy to ~40\u201360 hrs/yr.",
       "alignmentValue": 6
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "EUR 886,666.67 ($975,333.34)",
-      "alignmentValue": 6,
+      "alignmentText": "EUR 949,166.67 ($1,034,591.67)",
+      "alignmentValue": 5,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_corporate_tax_rate",
       "alignmentText": "32%",
       "alignmentValue": 2
-    },
-    {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "35%",
-      "alignmentValue": 4
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
@@ -110,7 +100,7 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "EUR 8,686,824.07 ($9,381,770.00)",
+      "alignmentText": "EUR 8,320,653.41 ($9,152,718.75)",
       "alignmentValue": 7
     },
     {
@@ -137,8 +127,8 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "In Frankfurt, about half of official tasks require German. English help exists but interpreters are often needed for critical matters.",
-      "alignmentValue": 5
+      "alignmentText": "In Frankfurt, roughly half of official tasks require German. English is usable in business settings, and the family is willing to learn German.",
+      "alignmentValue": 4
     },
     {
       "key": "integration_childhood_language_expectations",
@@ -152,8 +142,8 @@
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Germany startup visa path is manageable with organized docs; expect 4-6 months in Frankfurt, with possible interview.",
-      "alignmentValue": 7
+      "alignmentText": "Frankfurt startup visa is feasible with organized docs; plan roughly 4-6 months end-to-end, with a possible interview.",
+      "alignmentValue": 4
     },
     {
       "key": "integration_immigration_status_rights",
@@ -205,7 +195,7 @@
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Identify family-friendly evening social options in Frankfurt such as board game cafes, expat meetups, and community centers with supervised activities. Prioritize events in safe walkable districts (Nordend, Bornheim, Westend) that run before 8\u20139 pm and are English-friendly; seek venues with childcare or family-friendly hours. Use Meetup/Expat networks to find groups that fit a progressive, family-oriented lifestyle."
+      "alignmentText": "Frankfurt family\u2011oriented evening options: focus on Nordend, Bornheim, and Westend for board game caf\u00E9s, expat meetups, and community centers with supervised activities. Prioritize English\u2011friendly venues that run before 8\u20139 pm and offer childcare or family hours. Use Meetup/Expat networks to surface groups matching a progressive, family\u2011friendly lifestyle; compile a short list (6\u20138 venues) with address, typical hours, childcare options, and next 6\u20138 weeks events."
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
@@ -220,8 +210,8 @@
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "6 \u2014 Frankfurt (DE) has multiple weekly markets and Kleinmarkthalle, with strong fresh produce access; fast-food density is moderate.",
-      "alignmentValue": 6,
+      "alignmentText": "Frankfurt (DE) offers reliable healthy options; strong fresh produce via weekly markets and Kleinmarkthalle, with moderate fast-food density.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
@@ -237,7 +227,8 @@
     {
       "key": "life_daycare_affordability_citizen",
       "alignmentText": "EUR 450.00 ($486.00)",
-      "alignmentValue": 6
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_non_resident",
@@ -279,8 +270,8 @@
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "4200",
-      "alignmentValue": 1
+      "alignmentText": "1840",
+      "alignmentValue": 7
     },
     {
       "key": "life_public_transportation",
@@ -300,26 +291,27 @@
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Frankfurt, Germany has many accredited adult upskilling programs via VHS and universities, with subsidized online options.",
-      "alignmentValue": 8
+      "alignmentText": "Frankfurt, Germany offers abundant continuing education via VHS and universities. Online options are accessible for busy families.",
+      "alignmentValue": 9
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Frankfurt, Germany shows moderate senior .NET architect demand (~4 postings/million/mo). Good fit for stable, family-friendly roles and healthcare access.",
+      "alignmentText": "Frankfurt, Germany shows moderate senior .NET architect demand (~4 postings/million/mo); fits family-friendly roles and healthcare access.",
       "alignmentValue": 4
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Frankfurt, DE offers modest Ruby on Rails demand; about 5\u20137 postings/mo for a city of ~0.8M\u2014good for remote/hybrid with English-friendly teams.",
-      "alignmentValue": 4
+      "alignmentText": "Frankfurt, DE shows modest Ruby on Rails demand (~5-7 postings/mo for ~0.8M); supports remote/hybrid with English-friendly teams.",
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 120,000.00 ($129,600.00)"
+      "alignmentText": "EUR 150,000.00 ($162,000.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 75,000.00 ($81,000.00)"
+      "alignmentText": "EUR 84,000.00 ($90,720.00)"
     },
     {
       "key": "outdoors_beach_life",
@@ -328,7 +320,7 @@
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Fall in Frankfurt, Germany: highs 50\u00B0F-68\u00B0F, lows 38\u00B0F-48\u00B0F. Mix of mild and chilly days.",
+      "alignmentText": "Fall in Frankfurt, Germany: highs 50\u00B0F-68\u00B0F, lows 38\u00B0F-48\u00B0F. A mix of mild to chilly days fits the family\u0027s climate preference.",
       "alignmentValue": 7
     },
     {
@@ -349,14 +341,15 @@
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Frankfurt, Germany spring typically highs 55-72\u00B0F and lows 45-55\u00B0F; mostly mild with light rain.",
+      "alignmentText": "Frankfurt spring highs typically 65-69\u00B0F with lows 45-55\u00B0F. Mild, with light rain, good for outdoor family time.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Frankfurt, Germany summers: highs 75-86\u00B0F and lows 62-74\u00B0F with moderate humidity; fits an 8.",
-      "alignmentValue": 8
+      "alignmentText": "Frankfurt, Germany summers: highs 72\u201385\u00B0F, lows 60\u201372\u00B0F. Occasional short heat spikes may occur.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_winter_temperature_range",
@@ -365,7 +358,7 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Frankfurt, Germany has a temperate, mild climate with occasional severe weather days; suits your family\u0027s low-stress, stable lifestyle.",
+      "alignmentText": "Frankfurt, Germany has a temperate, mild climate with gentle seasons; supports your low-stress, stable lifestyle.",
       "alignmentValue": 9
     },
     {
@@ -386,7 +379,7 @@
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Frankfurt, Germany offers strong social stability with low violent crime and reliable utilities. Quality public schools support your family.",
+      "alignmentText": "Frankfurt, Germany offers strong social stability with low crime and reliable utilities; high-quality public schools support your family.",
       "alignmentValue": 10
     }
   ]

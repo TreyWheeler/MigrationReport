@@ -10,28 +10,28 @@
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
       "alignmentText": "EUR 2,800.00 ($3,080.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "EUR 2,900.00 ($3,190.00)",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
-      "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "EUR 3,100.00 ($3,410.00)",
-      "alignmentValue": 8
-    },
-    {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "EUR 2,000.00 ($2,160.00)",
-      "alignmentValue": 2
+      "alignmentText": "EUR 650.00 ($715.00)",
+      "alignmentValue": 7
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
-      "alignmentText": "EUR 3,120.00 ($3,400.80)",
+      "alignmentText": "EUR 3,380.00 ($3,684.20)",
       "alignmentValue": 4
     },
     {
       "key": "cost_of_living_family_eating_out",
-      "alignmentText": "EUR 90.00 ($99.00)",
-      "alignmentValue": 5,
+      "alignmentText": "EUR 110.00 ($121.00)",
+      "alignmentValue": 4,
       "sameAsParent": false
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
-      "alignmentText": "EUR 750.00 ($825.00)",
+      "alignmentText": "EUR 900.00 ($990.00)",
       "alignmentValue": 10
     },
     {
@@ -72,20 +72,9 @@
       "sameAsParent": true
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "30%",
-      "alignmentValue": 3
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Spain/Barcelona presents a workable entrepreneur visa (3-4 months with biometrics) and a growing game/startup scene suitable for founders.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentText": "Barcelona offers a workable entrepreneur visa with biometrics in about 3-4 months. Spain has a growing game/startup scene that supports founders like you.",
+      "alignmentValue": 7
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
@@ -100,8 +89,8 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "3",
-      "alignmentValue": 5
+      "alignmentText": "2",
+      "alignmentValue": 4
     },
     {
       "key": "daemon_games_number_of_aa_studios",
@@ -121,8 +110,8 @@
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "EUR 51,384,300.00 ($56,522,730.00)",
-      "alignmentValue": 8
+      "alignmentText": "EUR 47,262,372.48 ($51,372,144.00)",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
@@ -137,13 +126,13 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "Barcelona (ES) will require Spanish for most admin. English helps in clinics and some schools; plan to learn Spanish.",
-      "alignmentValue": 5
+      "alignmentText": "Barcelona (ES) admin largely in Spanish; English available in clinics and some schools; family plans to learn Spanish.",
+      "alignmentValue": 4
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Barcelona, Spain: public schools offer Catalan/Spanish bilingual tracks. English options exist in many urban schools but are not universal.",
-      "alignmentValue": 6
+      "alignmentText": "Barcelona, Spain: public schools offer Catalan/Spanish bilingual tracks; English is available in many urban schools but not universal.",
+      "alignmentValue": 8
     },
     {
       "key": "integration_housing_accessibility",
@@ -153,8 +142,8 @@
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Barcelona, Spain: first-time US family visas are manageable but doc-heavy; plan roughly 6-8 months with organized evidence and some in-person steps.",
-      "alignmentValue": 6
+      "alignmentText": "Barcelona, Spain: first-time US family visas are lengthy and doc-heavy; plan 7-9\u002B months end-to-end with organized evidence and some in-person steps.",
+      "alignmentValue": 2
     },
     {
       "key": "integration_immigration_status_rights",
@@ -168,13 +157,13 @@
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Barcelona schools typically enforce anti-bias policies; expect low bullying risk for US kids (about 1\u20132 incidents per 1,000) with strong enforcement.",
+      "alignmentText": "Barcelona schools emphasize anti-bias policies; Caucasian American kids typically face very low bullying risk (~1-2 per 1,000) with strong enforcement.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "kids_education_quality",
-      "alignmentText": "Barcelona offers solid public schools with bilingual options; PISA shows around the 50-60th percentile, i.e., mid-level education quality.",
+      "alignmentText": "Barcelona\u0027s public schools are solid with bilingual options; PISA places Spain around the 50-60th percentile (mid-level education quality).",
       "alignmentValue": 6
     },
     {
@@ -189,9 +178,8 @@
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Barcelona, Spain offers newcomer language support. Expect 80\u201399 subsidized course seats per 100 newcomers and translation on request.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentText": "Barcelona, Spain offers newcomer language support with translation on request. For English-speaking families, it has about 80-99 language-course seats per 100 newcomers.",
+      "alignmentValue": 7
     },
     {
       "key": "leisure_common_date_night_opportunities",
@@ -213,14 +201,14 @@
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Barcelona\u0027s walkable layout and strong transit (metro, buses) support 70-79% car-free trips; great parks and bike lanes for a family.",
+      "alignmentText": "In Barcelona, Spain, your family can likely do 70-79% car-free trips thanks to walkable streets and transit; parks/bike lanes suit kids.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "Barcelona, ES: abundant fresh markets and produce; ultraprocessed share moderate; strong, family-friendly food access.",
-      "alignmentValue": 7,
+      "alignmentText": "Barcelona has abundant markets and fresh produce with reliable healthy options. Family-friendly food access supports a two-child household.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
@@ -230,7 +218,7 @@
     },
     {
       "key": "life_daycare_accessibility",
-      "alignmentText": "In Barcelona (ES), public daycares for a 1-year-old typically wait 6-9 months. Private options or informal spots may help accelerate placement.",
+      "alignmentText": "Barcelona, ES: public daycares for a 1-year-old typically wait 6-9 months; private or informal options can speed placement.",
       "alignmentValue": 5
     },
     {
@@ -272,7 +260,7 @@
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "In Barcelona, Spain, healthcare is universal via the SNS, not tied to employment; job changes won\u0027t cut baseline coverage.",
+      "alignmentText": "In Barcelona, Spain, healthcare via the SNS is universal and not employment-tied; the family stays covered regardless of job changes.",
       "alignmentValue": 10
     },
     {
@@ -289,8 +277,7 @@
     {
       "key": "opportunity_college_accessibility",
       "alignmentText": "Barcelona public universities offer modest tuition (roughly 6\u20139% of local median income) with solid admission rates and broad bilingual options.",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentValue": 8
     },
     {
       "key": "opportunity_college_quality",
@@ -305,22 +292,23 @@
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Barcelona, Spain shows moderate senior .NET architect demand. Expect about 4-5 postings per million per month, with remote options.",
+      "alignmentText": "Barcelona, ES shows moderate senior .NET architect demand. About 4-5 postings per million residents per month, with remote options.",
       "alignmentValue": 4,
       "sameAsParent": false
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Rails demand in Barcelona, ES is moderate. Roughly 10-14 postings per million residents per month make it a mid-range fit for a 6-year Rails dev.",
+      "alignmentText": "Rails demand in Barcelona, ES is moderate (~10-14 postings per million). Fits a 6-year Rails dev seeking remote or local roles.",
       "alignmentValue": 5
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 80,000.00 ($87,200.00)"
+      "alignmentText": "EUR 95,000.00 ($103,602.94)",
+      "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 48,000.00 ($52,320.00)"
+      "alignmentText": "EUR 54,000.00 ($58,860.00)"
     },
     {
       "key": "outdoors_beach_life",
@@ -344,13 +332,14 @@
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Barcelona, ES offers strong nature access: several 5-km parks (Ciutadella, Montju\u00EFc) and transit to Collserola trails in 30 minutes.",
-      "alignmentValue": 8
+      "alignmentText": "Barcelona, ES: several parks within 5 km (Ciutadella, Montju\u00EFc) and transit to Collserola trails in 30 minutes; strong, family-friendly nature access.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Barcelona, Spain spring: highs 60\u00B0F\u201368\u00B0F and lows 50\u00B0F\u201360\u00B0F; stable, pleasant days for family.",
-      "alignmentValue": 10
+      "alignmentText": "Barcelona, Spain spring: highs 60\u00B0F\u201368\u00B0F and lows 50\u00B0F\u201360\u00B0F. Mild, family-friendly days.",
+      "alignmentValue": 9
     },
     {
       "key": "outdoors_summer_temperature_range",
@@ -359,7 +348,7 @@
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "Barcelona, ES winter: highs 50\u201360\u00B0F, lows 40\u201350\u00B0F. Little snow and mild temps suit your family.",
+      "alignmentText": "Barcelona, ES winter highs 55\u201360\u00B0F; lows 40\u201350\u00B0F. Mild with little snow\u2014well suited for your family.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
@@ -370,8 +359,8 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Barcelona, ES shows moderate economic stability; 5-year GDP per capita volatility around 2-2.4%.",
-      "alignmentValue": 7,
+      "alignmentText": "Barcelona, ES shows moderate stability; Spain had a few recession years in the last two decades, with gradual recovery.",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
@@ -381,7 +370,7 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Barcelona, Spain ranks high in political stability with strong institutions; favorable for long-term family plans and predictable governance.",
+      "alignmentText": "Barcelona, Spain shows strong institutions and stable governance per the Liberal Democracy Index, supporting long-term family plans.",
       "alignmentValue": 9
     },
     {

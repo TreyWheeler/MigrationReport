@@ -15,20 +15,19 @@
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "CAD 2,500.00 ($1,850.00)",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "CAD 2,900.00 ($2,146.00)",
+      "alignmentValue": 10
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "CAD 1,350.00 ($1,012.50)",
-      "alignmentValue": 4
+      "alignmentText": "CAD 900.00 ($675.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
       "alignmentText": "CAD 5,200.00 ($3,900.00)",
-      "alignmentValue": 1,
-      "sameAsParent": false
+      "alignmentValue": 3
     },
     {
       "key": "cost_of_living_family_eating_out",
@@ -38,13 +37,13 @@
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "CAD 350.00 ($262.50)",
+      "alignmentText": "CAD 0.00 ($0.00)",
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
       "alignmentText": "CAD 2,250.00 ($1,665.00)",
-      "alignmentValue": 5,
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
@@ -55,19 +54,18 @@
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
       "alignmentText": "CAD 1,800.00 ($1,332.00)",
-      "alignmentValue": 9
+      "alignmentValue": 10
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Montreal, QC: bilingual CRA/Qu\u00E9bec filings; ~40-60h/yr with a fractional accountant; aligns with a family seeking simpler tax processes.",
-      "alignmentValue": 7,
+      "alignmentText": "Montreal, QC: bilingual CRA/Qu\u00E9bec filings; ~40-59h/yr with a fractional accountant; founder-family friendly, but bureaucracy remains moderate.",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "CAD 1,142,500.00 ($844,307.50)",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "CAD 1,111,666.67 ($822,633.34)",
+      "alignmentValue": 9
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -75,20 +73,9 @@
       "alignmentValue": 4
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "55%",
-      "alignmentValue": 8
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "35%",
-      "alignmentValue": 10
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Montreal Start-up Visa exists but needs a designated sponsor and solid paperwork. For a family of four, plan 6-9 months with legal help.",
-      "alignmentValue": 5,
-      "sameAsParent": false
+      "alignmentText": "Montreal Start-up Visa typically takes 12\u002B months; requires a designated sponsor and solid paperwork; plan for long timelines with local legal help.",
+      "alignmentValue": 1
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
@@ -112,26 +99,24 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "CAD 8,808,975.00 ($6,518,641.50)",
-      "alignmentValue": 5,
-      "sameAsParent": false
+      "alignmentText": "CAD 11,903,959.68 ($8,883,552.00)",
+      "alignmentValue": 7
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "CAD 2,632,500.00 ($1,948,050.00)",
-      "alignmentValue": 6
+      "alignmentText": "CAD 2,570,020.00 ($1,901,814.80)",
+      "alignmentValue": 4
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "CAD 69,207,942.31 ($51,208,244.40)",
-      "alignmentValue": 6,
+      "alignmentText": "CAD 50,268,200.00 ($37,198,468.00)",
+      "alignmentValue": 1,
       "sameAsParent": false
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Montreal, Canada hosts about 2 in-person game-dev events monthly and 400-699 online members, with sponsor support and mentorship opportunities.",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentText": "Montreal hosts about 3 in-person game-dev events per month plus a quarterly jam. Strong online community supports Trey\u0027s game/tech goals.",
+      "alignmentValue": 9
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
@@ -140,71 +125,71 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "Montreal relies on French for government/health docs; English help exists, but plan to learn French basics for smoother admin and banking.",
-      "alignmentValue": 5
+      "alignmentText": "Montreal relies on French for government/health forms; English help exists. The family plans to learn basic French for smoother admin and banking.",
+      "alignmentValue": 7
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Montreal, Canada offers broad English immersion and bilingual options by grade 2 in many public schools; supports early bilingual exposure.",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentText": "Montreal public schools offer strong English immersion with bilingual tracks by Grade 2, aligning with your English-first, bilingual exposure goals in Quebec.",
+      "alignmentValue": 9
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Montreal housing for newcomers often needs a guarantor; expect 4\u20136 weeks to sign and up to 2.5 months deposit; English docs often accepted.",
+      "alignmentText": "Montreal, Canada: newcomers may need a guarantor; expect 5-6 weeks to sign; English documents are usually accepted.",
       "alignmentValue": 7
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Montreal offers tech paths (Express Entry/Quebec). Expect 6\u20138 months with organized docs; French prep helps.",
-      "alignmentValue": 6
+      "alignmentText": "Montreal\u0027s Express Entry and Quebec routes suit tech workers; US first-timers should plan 12\u201324\u002B months end-to-end (French helps).",
+      "alignmentValue": 2
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "Montreal/Quebec immigration status and rights: you can enter with a temporary permit (visitor, work, or study) and then pursue permanent residency (PR) via federal Express Entry or the Quebec-selected Skilled Worker (CSQ) route; in Quebec, CSQ is often needed before federal PR. Once PR is granted, you and your family gain broad rights to work and study in Canada and access to universal healthcare (Quebec enrollment). Citizenship rights accrue after meeting PR residence requirements and language/civics tests (typically 3 of the last 5 years as a PR and passing knowledge tests). Actionable steps: choose a Montreal-ready pathway (CSQ-first or federal Express Entry), gather documents (passports, education/work records, credential assessments, language tests), pursue French to improve Quebec prospects, apply for PR, maintain residency and status renewals, and plan for eventual citizenship; consider consulting an immigration professional to tailor the path to your family\u2019s profile and Quebec-specific requirements.",
+      "alignmentText": "Montreal immigration status and rights: pursue a Quebec-selected skilled worker (CSQ) path via MIFI or use federal Express Entry to obtain permanent residence. In Quebec, CSQ is typically required before federal PR; once PR is granted you and your family can live, work, and study in Canada and access RAMQ, Quebec\u0027s universal healthcare. Citizenship requires meeting PR residency, French language proficiency, and civics requirements. Action steps: choose a Montreal-ready route (CSQ-first or Express Entry); assemble documents (passports, education and work records, credential assessments, language results); begin French language training to strengthen Quebec prospects; submit the CSQ application or Express Entry profile and then the PR application; track residency obligations; plan for citizenship timelines and language/civics study; consider consulting a Montreal/Quebec immigration professional for guidance.",
       "sameAsParent": false
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Montreal welcomes skilled migrants with strong programs and a growing tech scene. Expect supportive, bilingual communities and family-friendly policies.",
+      "alignmentText": "Montreal\u0027s bilingual tech scene and family-friendly policies welcome skilled US migrants; Quebec visa/grant programs ease relocation.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Montreal schools emphasize anti-bullying with swift enforcement; diverse, bilingual environment; low risk for Caucasian immigrant families.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "kids_education_quality",
-      "alignmentText": "In Montreal, Canada, primary/secondary schools perform in the high range (80-89th percentile), with strong public options and bilingual programs.",
-      "alignmentValue": 9,
+      "alignmentText": "Montreal schools enforce anti-bullying in a bilingual French/English setting; supports caucasian immigrant families; very low risk for your 5-year-old.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
+      "key": "kids_education_quality",
+      "alignmentText": "Montreal\u0027s public schools typically sit in the 80-89th percentile with strong bilingual programs; aligns with your kids\u0027 bilingual exposure goals.",
+      "alignmentValue": 9
+    },
+    {
       "key": "kids_food_quality",
-      "alignmentText": "Montreal schools (Quebec) show solid nutrition standards; estimated HEI 77 with \u003C12% ultra-processed foods.",
-      "alignmentValue": 7
+      "alignmentText": "Montreal, Canada schools exhibit HEI ~77 with \u003C12% ultra-processed foods. This aligns with the family\u0027s preference for solid kid nutrition.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "Montreal public schools are primarily French; expect about 4-5 hours/week English with bilingual aides rare.",
+      "alignmentText": "Montreal public schools are French-dominant. Expect about 4-5 hours/week English with bilingual aides rare.",
       "alignmentValue": 3,
       "sameAsParent": false
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Montreal, Canada offers robust language integration: subsidized French courses and translations for critical services; excellent for a bilingual family.",
-      "alignmentValue": 8
+      "alignmentText": "Montreal, Canada offers strong language integration: subsidized French courses and essential-service translations; ideal for a bilingual family.",
+      "alignmentValue": 9
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "Montreal date nights: stroll the Old Port at sunset, dine at a cozy bilingual-friendly bistro in the Plateau/Mile End, and finish with live music at Upstairs Jazz Bar \u0026 Grill or a small Mile End venue. Reserve ahead on weekends; use transit or rideshare to avoid parking stress.",
+      "alignmentText": "Montreal date nights: stroll the Old Port at sunset, dine at a bilingual-friendly bistro in the Plateau/Mile End, then enjoy live music at a Mile End venue such as Upstairs Jazz Bar \u0026 Grill. Reserve weekend tables in advance; use transit or rideshare to avoid parking stress.",
       "sameAsParent": false
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Montreal family activity plan: prioritize bilingual, family-friendly outings with easy transit access; rotate between outdoor time at Parc du Mont-Royal and stroller-friendly city parks, and indoor experiences at Space for Life and the Montreal Science Centre; include affordable, seasonal activities near home suitable for a 5-year-old and a 1-year-old; schedule 1- to 2-hour blocks with flexibility to accommodate work and childcare needs, ensuring safety and walkability."
+      "alignmentText": "Montreal, CA: Implement a bilingual, family-friendly activity plan with reliable transit access. Alternate outdoor time between Parc du Mont-Royal and stroller-friendly city parks near metro hubs; include indoor options at Space for Life and the Montreal Science Centre. Prioritize affordable, seasonal activities close to home suitable for a 5-year-old and a 1-year-old; schedule 1\u20132 hour blocks with built-in flexibility for work and childcare; ensure safety, walkability, and accessibility."
     },
     {
       "key": "leisure_common_friend_night_opportunities",
@@ -212,8 +197,9 @@
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Montreal, Canada has many parent-friendly 3rd places after 6pm - libraries, community centers, indoor play spaces; about 26-29 venues per 100k.",
-      "alignmentValue": 9
+      "alignmentText": "Montreal has many after-6pm family-friendly venues (libraries, community centers, indoor plays) for a family with kids aged 5 and 1. About 26-29 venues per 100k.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "leisure_peoples_centric_cities",
@@ -265,7 +251,8 @@
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "CAD 1,400.00 ($1,036.00)",
-      "alignmentValue": 7
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
@@ -309,7 +296,7 @@
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Montreal, CA shows moderate Rails demand (about 10-12 postings per million residents per month), aligning with mid-level Rails roles for this family.",
+      "alignmentText": "Montreal, CA Rails demand ~10-12 postings/million; fits mid-level Rails roles for this family.",
       "alignmentValue": 5
     },
     {
@@ -322,13 +309,13 @@
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Beach Life in Montreal, QC: prioritize family-friendly, lifeguarded shoreline options within city limits and nearby islands (e.g., Parc Jean-Drapeau, waterfront Old Port) that offer shallow water for young children, shaded areas, accessible restrooms, and stroller-friendly paths. ensure reliable transit access, parking, and seasonal hours; account for summer heat and water quality when planning outdoor time for Trey\u2019s family.",
+      "alignmentText": "Beach Life in Montreal, QC: identify family-friendly, lifeguarded beaches within the city and on nearby islands (e.g., Parc Jean-Drapeau, the Old Port waterfront) that offer shallow water for young children, shaded areas, accessible restrooms, and stroller-friendly paths. ensure reliable transit access, parking, and seasonal hours; account for summer heat and water quality when planning outdoor time for Trey\u0027s family.",
       "sameAsParent": false
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Montreal fall typically ranges 50\u00B0F\u201370\u00B0F highs and 40\u00B0F\u201350\u00B0F lows. Expect occasional warm or cool swings.",
-      "alignmentValue": 8,
+      "alignmentText": "Montreal fall: highs 55-72\u00B0F and lows 45-55\u00B0F. Expect a gentle cool-down with occasional swings.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -338,19 +325,19 @@
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Montreal has protected parks within 60 minutes (Mont Royal, \u00CEles-de-Boucherville, Mont-Saint-Bruno); natural beauty is moderate.",
-      "alignmentValue": 6
-    },
-    {
-      "key": "outdoors_nature_access",
-      "alignmentText": "Montreal offers 8-9 parks \u003E10 acres within 5 km (Mont Royal, La Fontaine) and 2 regional trails reachable by transit in under 30 minutes.",
-      "alignmentValue": 8,
+      "alignmentText": "Montreal has protected parks within 60 minutes (Mont Royal, \u00CEles-de-Boucherville, Mont-Saint-Bruno); natural beauty is moderate for families.",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Montreal offers 8-9 parks \u003E10 acres within 5 km (Mont Royal, La Fontaine). Two regional trails are reachable by transit in under 30 minutes.",
+      "alignmentValue": 8
+    },
+    {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Montreal, CA spring: highs 45\u00B0F\u201362\u00B0F, lows 34\u00B0F\u201344\u00B0F; noticeable variability with rain.",
-      "alignmentValue": 5,
+      "alignmentText": "Montreal, CA spring: highs 50-68\u00B0F, lows 38-48\u00B0F; mixed sunny and cool days with rain.",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {

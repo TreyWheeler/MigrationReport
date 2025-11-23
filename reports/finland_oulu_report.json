@@ -4,7 +4,7 @@
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
-      "alignmentText": "EUR 2,400.00 ($2,616.00)",
+      "alignmentText": "EUR 2,450.00 ($2,670.50)",
       "alignmentValue": 10,
       "sameAsParent": false
     },
@@ -22,19 +22,20 @@
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "EUR 1,500.00 ($1,620.00)",
-      "alignmentValue": 4,
+      "alignmentText": "EUR 300.00 ($323.70)",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_52_therapy_sessions",
       "alignmentText": "EUR 1,750.00 ($1,890.00)",
-      "alignmentValue": 7
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_eating_out",
-      "alignmentText": "EUR 92.50 ($101.75)",
-      "alignmentValue": 5
+      "alignmentText": "EUR 145.00 ($159.50)",
+      "alignmentValue": 2
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
@@ -53,18 +54,19 @@
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
-      "alignmentText": "EUR 5,500.00 ($6,050.00)",
-      "alignmentValue": 2
+      "alignmentText": "EUR 0.00 ($0.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Oulu, Finland: digital VAT/payroll via software; monthly payroll with a part-time bookkeeper keeps taxes under 40 hours/year for a family.",
-      "alignmentValue": 8
+      "alignmentText": "Oulu, Finland: digital VAT/payroll makes compliance smoother; monthly payroll with a part-time bookkeeper targets about 30\u201339 hours/year.",
+      "alignmentValue": 7
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "EUR 935,000.00 ($1,028,500.00)",
-      "alignmentValue": 5,
+      "alignmentText": "EUR 827,916.67 ($910,708.34)",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -74,21 +76,9 @@
       "sameAsParent": true
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "50%",
-      "alignmentValue": 7
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "0%",
-      "alignmentValue": 2,
-      "sameAsParent": true
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Oulu, Finland startup permit fits a US game studio; 8-12 weeks, under $50k, paperwork handled by a startup lawyer; aligns with family\u0027s founder plans.",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentText": "Oulu startup visa typically takes 2-3 months; with local startup programs and US founders, relocation can proceed smoothly.",
+      "alignmentValue": 8
     },
     {
       "key": "daemon_games_employer_on_cost_rate",
@@ -103,16 +93,16 @@
     {
       "key": "daemon_games_number_of_aaa_studios",
       "alignmentText": "0",
-      "alignmentValue": 0
+      "alignmentValue": 1
     },
     {
       "key": "daemon_games_number_of_aa_studios",
-      "alignmentText": "4",
-      "alignmentValue": 4
+      "alignmentText": "2",
+      "alignmentValue": 3
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "EUR 8,735,972.73 ($9,608,570.00)",
+      "alignmentText": "EUR 9,034,080.00 ($9,924,839.89)",
       "alignmentValue": 8
     },
     {
@@ -123,13 +113,12 @@
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "EUR 54,772,600.00 ($60,249,860.00)",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "EUR 54,671,360.00 ($60,083,825.00)",
+      "alignmentValue": 9
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Oulu, Finland has a small but friendly indie game scene with quarterly events. A 100-150 online hub supports collaboration, but it\u0027s not a major hub.",
+      "alignmentText": "Oulu, Finland has a small but friendly indie game scene with quarterly events and a 100-150 online hub that supports Trey\u0027s early-stage dev goals and grants.",
       "alignmentValue": 5,
       "sameAsParent": false
     },
@@ -140,54 +129,55 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "In Oulu, Finland, about 20\u201330% of admin tasks require Finnish; English help desks cover the rest. Your family uses English and is open to learning Finnish.",
-      "alignmentValue": 8
+      "alignmentText": "Oulu, Finland: about 20\u201330% of admin tasks require Finnish; your English-first family is open to learning Finnish.",
+      "alignmentValue": 7
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "In Oulu, some public schools offer Finnish\u2013English bilingual options by grade 4; English ubiquity is supported but not universal.",
+      "alignmentText": "In Oulu, Finnish-English bilingual options exist by Grade 4; English ubiquity is not universal, supporting early bilingual exposure.",
       "alignmentValue": 6,
       "sameAsParent": false
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Finland\u0027s Oulu rental market for a US family: expect 4-6 weeks to lease; deposits up to ~2.5 months; guarantor may be requested; English docs common.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Finland startup/family permit likely 4\u20136 months; organized evidence needed; Oulu offers good support and English use.",
-      "alignmentValue": 7
-    },
-    {
-      "key": "integration_immigration_status_rights",
-      "alignmentText": "Finland offers three main statuses relevant to your plan: temporary residence permits (work, study, or family ties); permanent residence permits (granted after several years of lawful, continuous residence and meeting integration requirements); and Finnish citizenship. Pathways are determined by residency duration, employment or family relationships, language and civic integration, and clean criminal record; the Finnish Immigration Service (Migri) issues the permits. Rights increase with status: temporary permits allow residence and work subject to conditions; permanent permits secure ongoing residency and access to social benefits; citizenship grants full civil rights (including voting) and a Finnish passport. Action steps: determine eligible permit type (likely work- or family-based), prepare documentation, apply via Migri, pursue language/integration training, maintain lawful residence to qualify for permanent residence, and plan for citizenship eligibility if long-term residence is established in Finland (including Oulu).",
-      "sameAsParent": false
-    },
-    {
-      "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Oulu, Finland has a solid tech scene and family-friendly policies for skilled migrants; English-friendly with strong healthcare and schools.",
+      "alignmentText": "In Oulu, leases are typically secured in about 4 weeks; deposits 1\u20132 months; English docs widely available; guarantor options assist families.",
       "alignmentValue": 8
     },
     {
-      "key": "kids_bullying_and_racism",
-      "alignmentText": "Oulu, Finland schools show very low bullying risk for caucasian American immigrant kids; robust anti-bias training and swift enforcement.",
-      "alignmentValue": 9
+      "key": "integration_immigration_effort",
+      "alignmentText": "Finland startup/family permit typically 4-6 months end-to-end; in Oulu, English-friendly processes and strong local support for families.",
+      "alignmentValue": 4
     },
     {
-      "key": "kids_education_quality",
-      "alignmentText": "Oulu\u0027s public schools are high quality with bilingual options. Finland\u0027s PISA scores are among the global top 10%.",
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Finland (Oulu): Immigration status options include a temporary residence permit (work-based or self-employed) or a family-based permit. Permanent residence and citizenship are available after meeting residence, language, and integration requirements. Action steps: (1) determine eligibility with Migri for a temporary permit or through family ties; (2) assemble documents: valid US passport, job offer or business plan, evidence of sufficient funds and health coverage, and proof of family ties if applicable; (3) submit online via Migri and monitor progress; (4) after arrival, register with the Digital and Population Data Services Agency, enroll in language and integration training, and arrange healthcare coverage (Kela); (5) ensure your children have access to quality public schools and affordable childcare; (6) maintain lawful residence to qualify for permanent residence after the required period; (7) later apply for citizenship per Finnish law with guidance from local integration services; (8) coordinate with Kela and tax authorities for social security and benefits; (9) leverage Oulu\u0027s startup/tech ecosystem for funding and community support."
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Oulu, Finland offers startup grants, English-friendly services, and strong healthcare and schools for families like ours.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "In Oulu, Finland, caucasian American kids face very low bullying; anti-bias training and swift enforcement support families like ours.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
+      "key": "kids_education_quality",
+      "alignmentText": "Oulu, Finland public schools offer high-quality education with bilingual options; Finland\u0027s PISA scores place students in the global top 10%.",
+      "alignmentValue": 10
+    },
+    {
       "key": "kids_food_quality",
-      "alignmentText": "Oulu, Finland school meals align with Nordic guidelines; estimated HEI 85-89 with ultra-processed foods under 8%.",
-      "alignmentValue": 9
+      "alignmentText": "Oulu, Finland follows Nordic school meals with HEI 85-89 and ultra-processed foods under 8%. This supports your family\u0027s health goals.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "Finland/Oulu public schools offer ~4-5 hours/week English; bilingual aides are rare, but some bilingual exposure exists.",
+      "alignmentText": "Public schools in Oulu provide about 4-5 hours/week of English. Bilingual aides are rare, but some core exposure exists.",
       "alignmentValue": 3,
       "sameAsParent": false
     },
@@ -198,14 +188,16 @@
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "In Oulu, prioritize walkable, safe date-night options: a dusk stroll along the Oulu River and through the city center; choose cozy cafes or small bars with light meals and board games, or catch a film or live performance at a local venue. Plan for 2-3 hour date blocks and arrange vetted childcare in advance; favor places with English-friendly service and climate-mitigated outdoor seating for shoulder seasons; outdoor strolls are pleasant in spring/fall, with indoor options available in winter."
+      "alignmentText": "Date nights in Oulu should emphasize walkable, safe options: a dusk stroll along the Oulu River to the city center; follow with a cozy cafe or small bar offering light meals and board games, or catch a film or live performance at a local venue. Plan 2\u20133 hour blocks and arrange vetted childcare in advance. Prioritize venues with English-friendly service and climate-mitigated outdoor seating for shoulder seasons; indoor options are reliable in winter, while spring/fall strolls are pleasant.",
+      "sameAsParent": false
     },
     {
-      "key": "leisure_common_family_activity_opportunities"
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Oulu, Finland, offer weekly family-friendly activities: outdoor play at parks and nature trails; winter-friendly indoor options such as children\u0027s museums and city libraries; and enroll in municipal family centers or programs offering affordable activities and bilingual early-childhood exposure, with reliable childcare options nearby and compatible hours."
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Schedule a recurring 2-3 hour Friends Night in Oulu: rotate between family-friendly venues in the city center and waterfront; include board game evenings at libraries or community spaces, casual dinners at kid-friendly caf\u00E9s, and occasional indoor movie or game nights; aim for 6-9 pm; coordinate on-site childcare or trusted babysitters when needed; ensure English-friendly staff and easy transit options to keep it low-stress and inclusive."
+      "alignmentText": "Launch a recurring 2\u20133 hour Friends Night in Oulu (city center and waterfront) from 6\u20139 pm, rotating family-friendly venues; include board game evenings at libraries or community spaces and casual dinners at kid-friendly cafes; arrange on-site childcare or trusted babysitters; ensure English-friendly staff and easy transit options to keep it low-stress and inclusive; promote through local expat and community networks and collect feedback to improve."
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
@@ -315,15 +307,17 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 78,000.00 ($85,020.00)"
+      "alignmentText": "EUR 62,000.00 ($67,704.00)",
+      "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 55,000.00 ($59,400.00)"
+      "alignmentText": "EUR 47,500.00 ($51,300.00)"
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Beach Life (outdoors_beach_life) in Oulu, Finland: prioritize family-friendly coastal access (e.g., Nallikari Beach) with safe swimming, seasonal lifeguards, clean restrooms, shade, and nearby amenities; ensure year-round options (indoor alternatives in winter) and straightforward transit from neighborhoods to enable reliable weekend family beach outings; anticipate seasonal variability in crowds and water temperature."
+      "alignmentText": "Beach Life (outdoors_beach_life) in Oulu, Finland: ensure family-friendly coastal access at Nallikari Beach with clearly marked safe swimming zones, seasonal lifeguards, clean restrooms, and shaded seating plus nearby amenities. provide year-round options (including indoor alternatives in winter), and implement straightforward transit options from residential neighborhoods to enable reliable weekend family beach outings. account for seasonal crowd variability and cooler water temperatures when planning facilities and staffing.",
+      "sameAsParent": false
     },
     {
       "key": "outdoors_fall_temperature_range",
@@ -337,8 +331,8 @@
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Natural beauty near Oulu: coastal forests and reserves within an hour, including Hailuoto - ideal for family outdoor life.",
-      "alignmentValue": 8
+      "alignmentText": "Natural beauty around Oulu, Finland is family-friendly: coastal forests and Hailuoto within an hour; multiple scenic spots and easy outdoor access.",
+      "alignmentValue": 9
     },
     {
       "key": "outdoors_nature_access",
@@ -348,7 +342,7 @@
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "In Oulu, Finland, spring highs around 42\u00B0F\u201360\u00B0F and lows 32\u00B0F\u201342\u00B0F; chilly stretches with occasional milder days.",
+      "alignmentText": "In Oulu, Finland, spring highs 42\u00B0F\u201360\u00B0F and lows 32\u00B0F\u201342\u00B0F; chilly spells persist with some milder days.",
       "alignmentValue": 4,
       "sameAsParent": false
     },
@@ -381,8 +375,9 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Finland ranks among the most politically stable democracies; in Oulu you\u2019ll find strong rule of law and predictable governance that support families.",
-      "alignmentValue": 10
+      "alignmentText": "Finland\u0027s top-tier stability shines in Oulu with strong rule of law and predictable governance, supporting families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",

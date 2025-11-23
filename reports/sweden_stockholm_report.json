@@ -72,16 +72,6 @@
       "alignmentValue": 9
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "35%",
-      "alignmentValue": 4
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "0%",
-      "alignmentValue": 2
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
       "alignmentText": "Stockholm startup visa feasible with incubator support; requires \u003C= $50k capital; about 8-12 weeks with lawyer-ready docs.",
       "alignmentValue": 8,
@@ -127,7 +117,7 @@
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Stockholm, Sweden: ~2 in-person game-dev events per month, 400-699 online members; solid sponsor support and a grants-friendly ecosystem.",
+      "alignmentText": "Stockholm, Sweden: ~2 in-person game-dev events per month and 400-699 online members. Strong sponsor support and a grants-friendly ecosystem.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -138,23 +128,26 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "Stockholm has high English use. Most admin (healthcare, banking) offers English options, with some Swedish needed for taxes.",
-      "alignmentValue": 9
+      "alignmentText": "Stockholm uses English widely; most admin (healthcare, banking) is in English, with some Swedish for taxes. Trey and Sarah are ready to learn Swedish.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "integration_childhood_language_expectations",
       "alignmentText": "Stockholm public schools offer limited bilingual options; roughly 30-39% by grade 5, with strong English exposure across schools.",
-      "alignmentValue": 5
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Stockholm rental market is competitive for newcomers; plan 4-6 weeks to secure a lease, with deposits up to 2.5 months and often a guarantor.",
+      "alignmentText": "Stockholm housing is competitive for newcomers. Plan 4-6 weeks to secure a lease, with deposits up to 2.5 months and a guarantor often needed.",
       "alignmentValue": 7
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Stockholm\u0027s startup visa is feasible with organized evidence. Plan 4-6 months, with some interviews and mostly online processing.",
-      "alignmentValue": 7
+      "alignmentText": "Stockholm startup visa feasible with organized evidence; ~4-6 months end-to-end for a four-person family; interviews mostly online.",
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "integration_immigration_status_rights",
@@ -162,13 +155,13 @@
     },
     {
       "key": "integration_welcoming_of_skilled_immigrants",
-      "alignmentText": "Stockholm, Sweden is generally welcoming to skilled immigrants. Sweden\u0027s visa processes and a strong tech ecosystem support entry and integration.",
+      "alignmentText": "Stockholm welcomes skilled immigrants; Sweden\u0027s visa routes and a strong tech ecosystem support Trey and Sarah.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Stockholm schools enforce anti-bullying and equality policies. For caucasian American immigrants, bullying risk is very low (about 1-2 per 1,000).",
+      "alignmentText": "Stockholm schools enforce anti-bullying and equality policies; for caucasian expat kids, bullying risk is about 1-2 per 1,000 students.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -179,8 +172,9 @@
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "Stockholm schools follow Nordic guidelines and offer nutritious lunches. HEI ~85\u201389 with \u003C8% ultra-processed foods.",
-      "alignmentValue": 9
+      "alignmentText": "Stockholm schools follow Nordic guidelines with HEI about 85-89. Ultra-processed foods are under 8% of meals.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "kids_language_expectations_in_schools",
@@ -190,16 +184,17 @@
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Stockholm has strong language support for newcomers: subsidized courses and translation in most public agencies, aiding kids integration.",
+      "alignmentText": "Stockholm offers subsidized language courses and translations in public services. This supports your two kids\u0027 integration.",
       "alignmentValue": 9
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "Stockholm date-night plan: assemble 3 family-friendly options within 30 minutes of central Stockholm (e.g., Gamla Stan stroll with a kid-friendly dinner; Djurg\u00E5rden sunset walk with a casual, child-friendly cafe; an early-evening cultural option with seating suitable for families). Pre-arrange childcare or a trusted sitter, verify child menus and play spaces, and have a weather-backup option (indoor venue or cinema) ready."
+      "alignmentText": "Stockholm date-night options within 30 minutes of central Stockholm: 1) Gamla Stan stroll with a kid-friendly dinner; 2) Djurg\u00E5rden sunset walk ending at a casual, child-friendly cafe; 3) an early-evening cultural option with family-friendly seating. Pre-arrange childcare or a trusted sitter; verify child menus and play spaces; have a weather backup option (indoor venue or cinema) ready."
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Stockholm offers family-friendly leisure options aligned with your needs: outdoor days in Djurg\u00E5rden, Tantolunden, and Vasaparken with stroller-friendly paths and safe playgrounds; kid-focused venues like Skansen and Junibacken for bilingual or Swedish-language programming; easy day trips to the Stockholm archipelago for nature and sea air; and library-driven activities (story times, crafts) at low or no cost to support bilingual exposure and affordable childcare. Plan weekend outings that combine two outdoor experiences with one cultural activity to balance QoL, education, and safety."
+      "alignmentText": "Plan Stockholm family outings: two stroller-friendly outdoor days per weekend at Djurg\u00E5rden, Tantolunden, or Vasaparken; add a kid-friendly cultural visit (Skansen or Junibacken) and a simple archipelago day trip for nature and sea air; leverage municipal libraries for bilingual story times and crafts to support language exposure and affordable childcare. Use walkable, safe routes and predictable weekend timings to support QoL and family needs.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_friend_night_opportunities",
@@ -223,7 +218,7 @@
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Stockholm, Sweden: digital-by-default registrations, translation support, and one-stop portals keep family admin under an hour per month.",
+      "alignmentText": "Stockholm, Sweden: digital-by-default registrations and translation support keep this founder family\u2019s admin under 1 hour per month.",
       "alignmentValue": 10
     },
     {
@@ -249,7 +244,7 @@
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "Stockholm, Sweden has universal public healthcare and affordable costs. Primary care waits typically 5-7 days; specialists 11-14 days.",
+      "alignmentText": "Stockholm, Sweden has universal public healthcare and affordable costs. Primary care waits are typically 5-7 days.",
       "alignmentValue": 7
     },
     {
@@ -285,13 +280,13 @@
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "Stockholm public universities are tuition-free for residents and offer scholarships; English-taught programs ease admissions for internationals.",
-      "alignmentValue": 8,
+      "alignmentText": "Stockholm public universities are tuition-free for residents; English-taught options and scholarships ease access for internationals.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "Stockholm\u0027s universities offer many English-taught programs; top campuses rank 101-150 globally, aligning with your education goals.",
+      "alignmentText": "Stockholm\u0027s universities offer many English-taught programs; top campuses sit around 101-150 globally, aligning with your education goals in Sweden.",
       "alignmentValue": 8
     },
     {
@@ -315,7 +310,7 @@
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "SEK 660,000.00 ($61,380.00)"
+      "alignmentText": "SEK 680,000.00 ($63,240.00)"
     },
     {
       "key": "outdoors_beach_life",
@@ -334,8 +329,8 @@
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Stockholm area offers abundant nature within 60 minutes. Tyresta National Park and the Royal National City Park showcase accessible natural beauty.",
-      "alignmentValue": 8,
+      "alignmentText": "Stockholm-area nature is reachable within 60 minutes, with Tyresta NP and the Royal National City Park offering family-friendly outdoor options and easy trails.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -373,7 +368,7 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Stockholm remains relatively stable: 2-3 major reforms this decade; skilled-visa revocations around 2-3%.",
+      "alignmentText": "Stockholm remains steady: ~2\u20133 immigration reforms this decade; skilled-visa revocations ~2\u20133%, supporting a US family relocating to Sweden.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -385,7 +380,7 @@
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Stockholm, Sweden offers very low violent crime (\u003C200/100k) with reliable utilities and strong schools\u2014ideal for a family seeking stability.",
+      "alignmentText": "Stockholm has very low violent crime (\u003C200/100k) and strong schools. Reliable utilities and services support stable family life.",
       "alignmentValue": 10
     }
   ]

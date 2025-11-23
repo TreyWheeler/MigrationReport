@@ -38,7 +38,8 @@
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "EUR 0.00 ($0.00)"
+      "alignmentText": "EUR 180.00 ($198.00)",
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_citizen",
@@ -53,7 +54,8 @@
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
       "alignmentText": "EUR 750.00 ($810.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
@@ -70,17 +72,6 @@
       "key": "daemon_games_corporate_tax_rate",
       "alignmentText": "21%",
       "alignmentValue": 9
-    },
-    {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "30%",
-      "alignmentValue": 3
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9,
-      "sameAsParent": true
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
@@ -100,13 +91,13 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "3",
+      "alignmentText": "1",
       "alignmentValue": 3
     },
     {
       "key": "daemon_games_number_of_aa_studios",
-      "alignmentText": "9",
-      "alignmentValue": 6
+      "alignmentText": "14",
+      "alignmentValue": 7
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
@@ -126,30 +117,29 @@
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Lisbon, Portugal offers a steady game dev scene with Big Festival visibility. 6-11 in-person events/year and 150-249 online members support local collaboration.",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "alignmentText": "Lisbon\u0027s game dev scene is steady with Big Festival visibility; 6-11 in-person events/year and 150-249 online members support collaboration.",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_yearly_office_space_cost",
-      "alignmentText": "EUR 32,400.00 ($35,640.00)",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentText": "EUR 28,800.00 ($31,680.00)",
+      "alignmentValue": 9
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "Lisbon, Portugal: English is common in daily life, but official forms often require Portuguese. Start learning basics to manage processes.",
-      "alignmentValue": 8
+      "alignmentText": "Lisbon, Portugal: English is common, but many official tasks require Portuguese; start basic Portuguese to access services and schooling.",
+      "alignmentValue": 7
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Lisbon public schools offer few bilingual tracks from kindergarten; English is mostly a foreign language, with private/international options more common.",
-      "alignmentValue": 2
+      "alignmentText": "Lisbon public schools have limited bilingual tracks; most families use private/international options for English exposure for your 5-year-old.",
+      "alignmentValue": 4
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Lisbon leases for expats typically take 4-6 weeks; deposit around 2.5 months; guarantor commonly needed; expect some in-person viewings.",
-      "alignmentValue": 7
+      "alignmentText": "Lisbon expat leases typically 4\u20136 weeks; ~2.5 months deposit; guarantor common; expect in-person viewings; family-friendly neighborhoods with parks.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "integration_immigration_effort",
@@ -167,7 +157,7 @@
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Lisbon, Portugal schools generally enforce anti-bias policies. For caucasian expats, bullying risk is around 1-2 per 1,000 with strong enforcement.",
+      "alignmentText": "Lisbon schools enforce anti-bias policies; for caucasian expats, bullying risk is 1-2 per 1,000 with strong enforcement.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -183,15 +173,14 @@
     },
     {
       "key": "kids_language_expectations_in_schools",
-      "alignmentText": "In Lisbon, Portugal, public schools typically offer 2-3 hours of English weekly for kids. Most core subjects are taught in Portuguese with limited bilingual aides.",
+      "alignmentText": "In Lisbon, Portugal, public schools typically offer 2-3 hours of English weekly; core subjects are taught in Portuguese with limited bilingual aides.",
       "alignmentValue": 2,
       "sameAsParent": false
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Lisbon offers moderate language support for kids; translation is available on request at many public services, with English widely used.",
-      "alignmentValue": 7,
-      "sameAsParent": false
+      "alignmentText": "Lisbon offers translation on request in public services. English is common, supporting your kids\u0027 bilingual exposure and Portuguese language programs.",
+      "alignmentValue": 7
     },
     {
       "key": "leisure_common_date_night_opportunities",
@@ -199,7 +188,8 @@
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Lisbon offers many family-friendly, low-stress activities for two young children: strolls in Jardim da Estrela and Parque Eduardo VII; riverside walks in Bel\u00E9m and along the Tagus; Ocean\u00E1rio de Lisboa and Pavilh\u00E3o do Conhecimento for interactive learning; a short historic tram ride; Lisbon Zoo; and weekend trips to Sintra or Cascais for easy day trips. Focus on neighborhoods with parks, safe play areas, and access to bilingual programs; use metro/tram to keep travel calm and avoid crowds."
+      "alignmentText": "Lisbon family activities: prioritize walkable, park-rich neighborhoods with safe play areas. Include Jardim da Estrela and Parque Eduardo VII strolls; riverside walks in Bel\u00E9m and along the Tagus; Ocean\u00E1rio de Lisboa and Pavilh\u00E3o do Conhecimento for hands-on learning; a short historic tram ride; Lisbon Zoo; and easy day trips to Sintra or Cascais. Plan travel by metro/tram to minimize crowds and travel time; seek venues with bilingual options.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_friend_night_opportunities",
@@ -219,13 +209,13 @@
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "Lisbon offers 3\u002B daily-produce markets (e.g., Campo de Ourique, Ribeira area) and abundant fresh foods; ultra-processed share ~25-29% and low fast-food density.",
+      "alignmentText": "Lisbon, Portugal: 3\u002B daily markets (e.g., Campo de Ourique); fresh foods abundant, ultra-processed ~25-29%, low fast-food density.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Lisbon\u0027s online services help, but visa docs and translations mean several in-person visits; still manageable.",
+      "alignmentText": "In Lisbon, Portugal, online services help; visa documents and translations require several in-person visits, but workable with planning for a family.",
       "alignmentValue": 6
     },
     {
@@ -273,8 +263,9 @@
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "Portugal\u0027s universal healthcare (SNS) keeps baseline coverage when you change jobs; in Lisbon, coverage remains for residents.",
-      "alignmentValue": 10
+      "alignmentText": "In Lisbon, Portugal\u0027s SNS offers universal healthcare for residents; leaving an employer won\u0027t sever baseline coverage for your family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_hours_worked_per_year",
@@ -289,7 +280,7 @@
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "Lisbon public universities offer affordable tuition and solid admission rates; good bilingual options and scholarships for internationals.",
+      "alignmentText": "Lisbon public universities are affordable for families; bilingual programs and scholarships ease international study costs.",
       "alignmentValue": 9
     },
     {
@@ -299,7 +290,7 @@
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Lisbon offers 17-19 accredited adult upskilling programs per 100k with subsidized online options; solid fit for ongoing education.",
+      "alignmentText": "Lisbon, Portugal offers 17-19 continuing programs per 100k with subsidized online options; English-friendly, family-focused tech households welcome.",
       "alignmentValue": 9
     },
     {
@@ -314,11 +305,11 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 75,000.00 ($81,000.00)"
+      "alignmentText": "EUR 78,000.00 ($84,240.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 50,000.00 ($53,500.00)"
+      "alignmentText": "EUR 45,000.00 ($48,150.00)"
     },
     {
       "key": "outdoors_beach_life",
@@ -338,9 +329,8 @@
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Lisbon offers two major parks (Sintra-Cascais, Arr\u00E1bida) and a rugged coast, delivering strong natural beauty within 60 minutes.",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentText": "Lisbon offers Sintra-Cascais and Arr\u00E1bida parks and coastal scenery within an hour, great for family-friendly outdoor days.",
+      "alignmentValue": 8
     },
     {
       "key": "outdoors_nature_access",
@@ -349,13 +339,15 @@
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Lisbon, Portugal spring typically 60\u201375\u00B0F highs and 50\u201360\u00B0F lows; mild, pleasant days with light rain.",
-      "alignmentValue": 10
+      "alignmentText": "Lisbon spring: 60\u201375\u00B0F highs, 50\u201360\u00B0F lows; mild, pleasant days with light rain, great for family outdoor time in Portugal.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Lisbon summers typically range 72-85\u00B0F with mild humidity. Occasional heat spikes up to around 90\u00B0F.",
-      "alignmentValue": 9
+      "alignmentText": "Lisbon summers typically reach 81\u00B0F\u201385\u00B0F with mild humidity; occasional spikes near 90\u00B0F.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_winter_temperature_range",
@@ -365,7 +357,7 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Lisbon, Portugal enjoys a mild, maritime climate with few extreme events; air quality is typically good, supporting high climate stability.",
+      "alignmentText": "Lisbon, Portugal offers a mild maritime climate with good air quality, supporting high climate stability for your family.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
@@ -381,12 +373,12 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Lisbon, Portugal has very high political stability (likely \u003E=90th percentile). Safe governance supports families and startups.",
+      "alignmentText": "Lisbon, Portugal: extremely high political stability (LDI \u003E=90); safe governance supports families and startups.",
       "alignmentValue": 10
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Lisbon, Portugal has very low violent crime and stable services. Reliable utilities and strong schools support family stability.",
+      "alignmentText": "Lisbon, Portugal has very low violent crime and stable services. Walkable neighborhoods, strong schools, and reliable broadband fit the family\u0027s needs.",
       "alignmentValue": 10,
       "sameAsParent": false
     }

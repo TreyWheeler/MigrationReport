@@ -4,7 +4,7 @@
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
-      "alignmentText": "GBP 8,000.00 ($10,000.00)",
+      "alignmentText": "GBP 7,500.00 ($9,750.00)",
       "alignmentValue": 1,
       "sameAsParent": false
     },
@@ -16,8 +16,8 @@
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
-      "alignmentText": "GBP 2,800.00 ($3,640.00)",
-      "alignmentValue": 7,
+      "alignmentText": "GBP 3,000.00 ($3,900.00)",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -59,13 +59,13 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "UK (GB): VAT quarterly returns and monthly payroll; ~40-60 hours/year, manageable with a fractional accountant for this US family.",
-      "alignmentValue": 7
+      "alignmentText": "UK (GB): VAT quarterly returns and monthly payroll; ~40-60 hours/year, manageable with a fractional accountant.",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "GBP 813,750.00 ($1,042,200.00)",
-      "alignmentValue": 5
+      "alignmentText": "GBP 729,166.67 ($933,870.34)",
+      "alignmentValue": 7
     },
     {
       "key": "daemon_games_corporate_tax_rate",
@@ -73,18 +73,8 @@
       "alignmentValue": 6
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "75%",
-      "alignmentValue": 10
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "25%",
-      "alignmentValue": 8
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "UK startup visa with endorsement; ~3-4 months, biometrics and checks. Feasible for a Kansas City family relocating to the UK (GB).",
+      "alignmentText": "UK startup visa with endorsement; ~3-4 months; feasible for a Kansas City, MO family relocating to GB.",
       "alignmentValue": 7
     },
     {
@@ -109,25 +99,23 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "GBP 7,198,425.29 ($9,213,984.38)",
+      "alignmentText": "GBP 6,913,125.00 ($8,848,800.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "GBP 2,468,425.50 ($3,136,500.00)",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
-      "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "GBP 3,185,426.25 ($4,045,491.34)",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "GBP 55,596,780.00 ($69,495,975.00)",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "GBP 41,062,575.00 ($51,328,218.75)",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "UK game dev scene (London/Manchester) runs ~3 in-person events/mo with quarterly jams and 700-999 online members; solid sponsor/support for Trey\u0027s startup.",
+      "alignmentText": "UK game dev scene (London/Manchester) hosts ~3 in-person events monthly. There is strong sponsor support for Trey\u0027s startup and 700-999 online members.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -138,18 +126,18 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "United Kingdom (GB): English is ubiquitous in government, healthcare, and banking. Expect \u003C10% local-language needs; interpreters rarely required.",
+      "alignmentText": "United Kingdom (GB): English is the primary language for government, healthcare, and banking. Expect \u003C10% local-language needs; interpreters rarely required.",
       "alignmentValue": 10
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "UK public schools are mostly English; bilingual tracks exist mainly in Wales (Welsh-English) and some Scotland, not widespread from kindergarten.",
-      "alignmentValue": 3
+      "alignmentText": "UK schools are English-dominant; Welsh-English bilingual options exist mainly in Wales and parts of Scotland, not widespread from kindergarten.",
+      "alignmentValue": 4
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "UK rental market: lease in 4-6 weeks with ~1-2 months deposit; guarantor commonly requested for foreign tenants.",
-      "alignmentValue": 7,
+      "alignmentText": "UK rental market often requires a guarantor for foreign tenants; US family with a visa should expect 7-8 weeks to secure a lease and 1-2 months deposit.",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
@@ -180,7 +168,7 @@
     },
     {
       "key": "kids_food_quality",
-      "alignmentText": "UK school meals: HEI-like rating ~70s with ~15% ultra-processed foods; alignment value 6 for kids\u0027 food quality.",
+      "alignmentText": "UK primary meals have an HEI-like score in the 70s. About 15% are ultra-processed, aligning with our family health goals in GB.",
       "alignmentValue": 6
     },
     {
@@ -191,21 +179,22 @@
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "United Kingdom ESOL is well-supported; translation on request across public services helps your family settle.",
-      "alignmentValue": 7
+      "alignmentText": "UK ESOL is strong; schools offer translation on request, aiding your 5-year-old\u0027s integration and your family\u2019s navigation of public services.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_date_night_opportunities",
-      "alignmentText": "In the United Kingdom, prioritize after-hours date options in major cities (London, Manchester, Edinburgh) that are easy to reach by public transit: West End theatre or cinema, live music, museum late openings, or scenic riverside walks near pubs or caf\u00E9s. Pair with planned childcare (babysitter or co-parent swap) and advance reservations at family-friendly venues to sustain a healthy work-life balance.",
+      "alignmentText": "UK-focused: prioritize after-hours date options in major cities (London, Manchester, Edinburgh) with easy transit access; options include West End theatre, cinema, live music, late museum openings, or riverside walks near pubs/caf\u00E9s. Arrange childcare (babysitter or co-parent swap) and reserve family-friendly venues in advance to sustain work\u2013life balance.",
       "sameAsParent": false
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "Leverage UK-friendly family activities: free national museums and science centres, libraries with free children\u0027s activities, and large parks for playgrounds and nature walks; plan monthly short trips to nearby countryside, coast, or national parks; rotate between indoor venues (storytime at libraries, soft play) and outdoor days to suit the mild climate; prioritise neighbourhoods with parks, walkability, and good public transit; schedule 1-2 short outings per week and a longer weekend trip each month; coordinate with local community centres for affordable childcare and kids\u0027 programmes."
+      "alignmentText": "UK-focused family activity plan: emphasize free national museums and science centres, libraries with free children\u0027s activities, and large parks for playgrounds and nature walks; plan monthly short trips to nearby countryside, coastlines, or national parks; rotate between indoor venues (library storytimes, soft play) and outdoor days to suit the mild climate; prioritise neighbourhoods with parks, walkability, and reliable public transport; schedule 1-2 short outings per week and a longer weekend trip each month; coordinate with local community centres for affordable childcare and kids programs."
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "In the United Kingdom, common evening social options for friend groups include board game cafes in major cities, pub quiz nights, group dinners, escape rooms, theatre or cinema outings, and community meetups; prioritize venues with good public transit, safety, and childcare options when needed."
+      "alignmentText": "UK-friendly evening options for friend groups: prioritise major-city venues with reliable public transit (e.g., London, Manchester, Edinburgh, Birmingham) offering board game cafes, pub nights, group dinners, escape rooms, theatre or cinema outings, and community meetups; ensure safety, accessibility, and childcare options where needed."
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
@@ -215,7 +204,7 @@
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "UK cities offer strong transit and walkable cores; expect 70-79% car-free trips in many urban areas, aligning with your family needs in GB.",
+      "alignmentText": "UK cities offer strong transit and walkable cores; many GB urban areas are 70-79% car-free, aligning with your family needs.",
       "alignmentValue": 9
     },
     {
@@ -253,7 +242,7 @@
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "UK NHS provides universal care; GP waits typically 5-7 days; specialist waits around 11-14 days.",
+      "alignmentText": "UK NHS provides universal care for families. GP waits 5\u20137 days; specialist waits 11\u201314 days.",
       "alignmentValue": 7
     },
     {
@@ -278,8 +267,8 @@
     },
     {
       "key": "life_hours_worked_per_year",
-      "alignmentText": "1920",
-      "alignmentValue": 7
+      "alignmentText": "1740",
+      "alignmentValue": 8
     },
     {
       "key": "life_public_transportation",
@@ -303,7 +292,7 @@
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "UK tech market shows solid senior .NET demand (13\u201316 postings/million); a good fit for a 20-year architect relocating to the UK.",
+      "alignmentText": "UK senior .NET demand remains solid (13-16 postings/million); a good fit for a 20-year architect relocating to the UK.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -314,37 +303,37 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "GBP 95,000.00 ($118,750.00)"
+      "alignmentText": "GBP 130,000.00 ($162,500.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "GBP 60,000.00 ($76,800.00)"
+      "alignmentText": "GBP 70,000.00 ($89,600.00)"
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Plan occasional UK beach trips for the family; coastal beaches are optional but accessible, focusing on safe swimming zones, parking, and seasonal amenities while accounting for variable weather and tides."
+      "alignmentText": "Plan quarterly UK beach trips by selecting coastal beaches with lifeguarded zones and clear safe-swimming areas (prefer Blue Flag or equivalent safety ratings). Before each outing, check tide tables and short-range forecasts; confirm parking options and accessible facilities (toilets, changing areas, stroller-friendly paths) and nearby family-friendly cafes. Choose spots within a comfortable UK drive from home (e.g., under 2\u20133 hours) and verify mobile network coverage for remote work; have backup beach options in case of poor weather."
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Autumn in the United Kingdom (GB) typically 55\u201368\u00B0F highs and 40\u201350\u00B0F lows; mild but changeable\u2014layer up.",
+      "alignmentText": "Autumn in the United Kingdom (GB) typically 60\u201364\u00B0F highs and 40\u201350\u00B0F lows; mild but changeable\u2014layer up.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "UK (GB): mild, temperate climate; about 240-269 comfortable days (50-85\u00B0F) with moderate humidity; great for outdoor life most of the year.",
-      "alignmentValue": 8
+      "alignmentText": "UK (GB) offers a mild, temperate climate. About 260 days sit in the 50-85\u00B0F range with moderate humidity, supporting outdoor life most of the year.",
+      "alignmentValue": 9
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "UK offers rich natural beauty: within 60 minutes you reach protected lands and several scenic sites (coastlines, parks) for family walks.",
+      "alignmentText": "UK offers accessible protected landscapes, coastlines, and parks within about an hour. Great for easy family walks.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "In the UK, alignment 8: 8-9 parks \u003E10 acres within 5 km and 2 regional trails reachable by transit within 30 minutes. This suits a family-friendly, walkable lifestyle.",
-      "alignmentValue": 8,
+      "alignmentText": "UK offers 10-11 parks \u003E10 acres within 5 km and two regional trails reachable by transit; fits a family-friendly, walkable lifestyle.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
@@ -355,7 +344,7 @@
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "UK summers commonly hit 72\u201385\u00B0F with 60\u201372\u00B0F nights; mild and less humid overall. Occasional heat spikes occur but are short.",
+      "alignmentText": "UK summers in GB typically reach about 76-80\u00B0F highs. Occasional spikes up to 85\u00B0F occur but are brief.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -367,18 +356,19 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "United Kingdom (GB) offers mild, stable climate; expect roughly 6-9 severe weather/AQI days per year.",
-      "alignmentValue": 9
+      "alignmentText": "United Kingdom (GB) has a mild, stable climate with roughly 6-9 severe weather/AQI days per year, aligning with your low-risk climate preference.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "UK economy is steady with ~2% 5-year real GDP per capita volatility; strong tech/remote work options for families.",
-      "alignmentValue": 7,
+      "alignmentText": "UK economy shows stability with just 2 recession years in 20. Strong tech/remote work options and family-friendly policies support migration from the US.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "UK migration stability: ~2\u20133 overhauls/decade with low revocations; for a US family, GB\u0027s Points-Based system provides a clear, manageable path.",
+      "alignmentText": "United Kingdom stability: 2-3 immigration overhauls/decade; for a US family, GB\u0027s Points-Based system offers a clear, manageable path.",
       "alignmentValue": 8
     },
     {

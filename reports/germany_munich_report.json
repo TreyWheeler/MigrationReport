@@ -21,7 +21,7 @@
     },
     {
       "key": "cost_of_living_family_3_days_in_er",
-      "alignmentText": "EUR 120.00 ($129.60)",
+      "alignmentText": "EUR 150.00 ($162.00)",
       "alignmentValue": 10,
       "sameAsParent": false
     },
@@ -55,32 +55,23 @@
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
       "alignmentText": "EUR 350.00 ($385.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Munich requires monthly payroll and VAT filings; hire a local accountant. Expect about 40\u201360 hours/year.",
-      "alignmentValue": 7
+      "alignmentText": "Munich/Germany requires monthly payroll and VAT filings; hire a local accountant. Expect about 40-60 hours/year.",
+      "alignmentValue": 6
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "EUR 1,106,250.00 ($1,194,750.00)",
-      "alignmentValue": 3
+      "alignmentText": "EUR 1,009,166.67 ($1,089,294.50)",
+      "alignmentValue": 4
     },
     {
       "key": "daemon_games_corporate_tax_rate",
       "alignmentText": "30%",
       "alignmentValue": 3
-    },
-    {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "50%",
-      "alignmentValue": 7
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9
     },
     {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
@@ -110,7 +101,7 @@
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
-      "alignmentText": "EUR 8,909,075.00 ($9,710,891.75)",
+      "alignmentText": "EUR 7,747,953.97 ($8,521,748.37)",
       "alignmentValue": 7
     },
     {
@@ -142,12 +133,12 @@
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Munich public schools offer some bilingual tracks, usually starting by grade 5. English ubiquity is good, but many strong options are private.",
-      "alignmentValue": 5
+      "alignmentText": "In Munich, public schools offer some bilingual tracks (often from grade 5); English is common, with notable private options.",
+      "alignmentValue": 6
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Munich\u0027s housing market is tight for newcomers; expect 6-8 weeks to lease. A 3-month deposit and possible guarantor are common.",
+      "alignmentText": "Munich rentals typically take 7-8 weeks; expect a 3-month deposit. Start early with expat-friendly agencies to secure a family-friendly home.",
       "alignmentValue": 6
     },
     {
@@ -205,17 +196,18 @@
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Organize regular, English-friendly evening social nights in Munich (board games, language exchanges, and parent-friendly activities) at accessible community centers or libraries with good public transit; set a predictable schedule (e.g., biweekly Thursdays or Saturdays), provide bilingual materials, and partner with expat groups and local libraries to engage families and remote workers."
+      "alignmentText": "Munich: Organize regular, English-friendly evening social nights for families and remote workers at transit-accessible community centers or libraries. Schedule a predictable biweekly cadence (e.g., Thursdays or Saturdays); provide bilingual DE/EN materials and activities (board games, language exchanges, parent-friendly programming); partner with expat groups and M\u00FCnchner Stadtbibliothek to reach families; ensure affordable entry and childcare options where feasible; promote through libraries, community centers, and coworking spaces to maximize participation."
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Munich offers many after-6pm family spaces (museums, cafes, libraries); ~26-29 venues/100k - strong fit for parent-friendly 3rd places.",
+      "alignmentText": "Munich, Germany has 26-29 after-6pm, child-friendly venues per 100k residents (museums, cafes, libraries) with staff; strong fit for your family.",
       "alignmentValue": 9
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Munich\u0027s transit and bike-friendly streets enable around 70-79% car-free trips. This fits your urban, family-centered priorities in Munich, Germany.",
-      "alignmentValue": 9
+      "alignmentText": "Munich\u0027s transit and bike-friendly streets enable roughly 70-79% car-free trips, aligning with your urban, family-centered priorities in Germany.",
+      "alignmentValue": 9,
+      "sameAsParent": true
     },
     {
       "key": "leisure_quality_food_access",
@@ -225,8 +217,9 @@
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Munich, Germany: mix of online and in-person bureaucracy; expect several half-days per quarter handling forms and approvals.",
-      "alignmentValue": 6
+      "alignmentText": "Munich, Germany: bureaucracy blends online and in-person steps. Expect about 4-5 hours per month for registrations, visas, and taxes.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_accessibility",
@@ -236,8 +229,9 @@
     },
     {
       "key": "life_daycare_affordability_citizen",
-      "alignmentText": "EUR 350.00 ($378.00)",
-      "alignmentValue": 8
+      "alignmentText": "EUR 450.00 ($486.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_non_resident",
@@ -253,7 +247,7 @@
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "Germany\u0027s universal healthcare offers affordable care in Munich. Primary care waits are typically 3-4 days; specialists 8-10 days.",
+      "alignmentText": "Munich benefits from Germany\u0027s universal health system. Primary care waits about 3-4 days; specialists 8-10 days.",
       "alignmentValue": 8
     },
     {
@@ -286,13 +280,12 @@
     },
     {
       "key": "life_public_transportation",
-      "alignmentText": "Munich, Germany has excellent transit. Most neighborhoods are within 500m of frequent service, with late-hour options.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Munich, Germany offers excellent transit; most neighborhoods are within 500m of frequent service with late-hour options.",
+      "alignmentValue": 9
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "Munich, Germany offers near-free public tuition and broad program access for international students. This aligns well with your family\u0027s educational goals.",
+      "alignmentText": "Munich\u0027s near-free public tuition and broad programs for international students align with your kids\u0027 education goals.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
@@ -319,11 +312,11 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 120,000.00 ($130,800.00)"
+      "alignmentText": "EUR 140,000.00 ($152,600.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 75,000.00 ($81,000.00)"
+      "alignmentText": "EUR 100,000.00 ($108,000.00)"
     },
     {
       "key": "outdoors_beach_life",
@@ -331,7 +324,7 @@
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Munich, Germany fall typically 50\u00B0F\u201370\u00B0F by day and 40\u00B0F\u201350\u00B0F at night; mild autumn with occasional warm or cool spells.",
+      "alignmentText": "Munich fall highs typically 60\u00B0F-64\u00B0F; nights cooler, making for mild autumn.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -364,8 +357,8 @@
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "Munich, Germany winters typically have 35\u201345\u00B0F highs and 25\u201335\u00B0F lows, with occasional light snow.",
-      "alignmentValue": 8,
+      "alignmentText": "Munich winters typically have daytime highs around 40\u201344\u00B0F. Lows usually run 25\u201334\u00B0F with occasional light snow.",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
@@ -394,7 +387,7 @@
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Munich, Germany offers very low violent crime and excellent public services; a stable, family-friendly environment with universal healthcare.",
+      "alignmentText": "Munich, DE has very low violent crime and universal healthcare; a stable, family-friendly city with strong services and parks for kids.",
       "alignmentValue": 10
     }
   ]

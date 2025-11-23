@@ -9,6 +9,7 @@ using OpenTelemetry.Logs;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
 using ReportMaintenance.Configuration;
+using ReportMaintenance.Data;
 using ReportMaintenance.Logging;
 using ReportMaintenance.OpenAI;
 using ReportMaintenance.Services;
@@ -48,13 +49,12 @@ builder.Services.AddLogging(logging =>
         options.TimestampFormat = "HH:mm:ss ";
     });
 
-    logging.AddOpenTelemetry(options =>
-    {
-        options.IncludeFormattedMessage = true;
-        options.ParseStateValues = true;
-        options.IncludeScopes = true;
-        options.AddConsoleExporter();
-    });
+logging.AddOpenTelemetry(options =>
+{
+    options.IncludeFormattedMessage = true;
+    options.ParseStateValues = true;
+    options.IncludeScopes = true;
+});
 
     logging.Services.AddSingleton<ILoggerProvider>(sp =>
     {
@@ -72,8 +72,7 @@ builder.Services.AddOpenTelemetry()
             .AddHttpClientInstrumentation(options =>
             {
                 options.RecordException = true;
-            })
-            .AddConsoleExporter();
+            });
     });
 
 builder.Services.AddSingleton<IReportRepository, FileReportRepository>();
@@ -250,15 +249,43 @@ var keyGuidanceOption = new Option<string?>(name: "--guidance", description: "Op
 keyGuidanceOption.AddAlias("--Guidance");
 keyGuidanceOption.AddAlias("-g");
 
+var metricNameOption = new Option<string>(name: "--metric-name", description: "Primary metric name (e.g., 'Net Profit').")
+{
+    IsRequired = true
+};
+metricNameOption.AddAlias("--MetricName");
+metricNameOption.AddAlias("-m");
+
+var metricUnitOption = new Option<string?>(name: "--metric-unit", description: "Unit or format for the metric (e.g., USD, hours/week).");
+metricUnitOption.AddAlias("--MetricUnit");
+
+var metricDirectionOption = new Option<string?>(name: "--metric-direction", description: "How to interpret the metric (e.g., 'higher is better').");
+metricDirectionOption.AddAlias("--MetricDirection");
+
+var metricRangeOption = new Option<string?>(name: "--metric-range", description: "Optional range hint or scoring reminder.");
+metricRangeOption.AddAlias("--MetricRange");
+
 addCategoryKeyCommand.AddOption(addKeyCategoryOption);
 addCategoryKeyCommand.AddOption(keyNameOption);
 addCategoryKeyCommand.AddOption(keyGuidanceOption);
-addCategoryKeyCommand.SetHandler(async (string category, string keyLabel, string? guidance) =>
+addCategoryKeyCommand.AddOption(metricNameOption);
+addCategoryKeyCommand.AddOption(metricUnitOption);
+addCategoryKeyCommand.AddOption(metricDirectionOption);
+addCategoryKeyCommand.AddOption(metricRangeOption);
+addCategoryKeyCommand.SetHandler(async (string category, string keyLabel, string? guidance, string metricName, string? metricUnit, string? metricDirection, string? metricRange) =>
 {
     using var scope = host.Services.CreateScope();
     var service = scope.ServiceProvider.GetRequiredService<CategoryKeyCreationService>();
-    await service.AddCategoryKeyAsync(category, keyLabel, guidance);
-}, addKeyCategoryOption, keyNameOption, keyGuidanceOption);
+    var metric = new MetricDefinition
+    {
+        Name = metricName,
+        Unit = metricUnit,
+        Direction = metricDirection,
+        RangeHint = metricRange
+    };
+
+    await service.AddCategoryKeyAsync(category, keyLabel, guidance, metric);
+}, addKeyCategoryOption, keyNameOption, keyGuidanceOption, metricNameOption, metricUnitOption, metricDirectionOption, metricRangeOption);
 
 rootCommand.AddCommand(updateReportsCommand);
 rootCommand.AddCommand(updateReportCommand);

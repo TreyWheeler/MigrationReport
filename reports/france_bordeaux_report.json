@@ -74,18 +74,6 @@
       "sameAsParent": true
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "30%",
-      "alignmentValue": 3,
-      "sameAsParent": true
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "30%",
-      "alignmentValue": 9,
-      "sameAsParent": true
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
       "alignmentText": "France\u0027s Passeport Talent founder visa in Bordeaux typically 3\u20134 months; biometrics required. Accelerator programs can help the startup path for a family move.",
       "alignmentValue": 7,
@@ -211,13 +199,13 @@
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Bordeaux offers a solid stock of family-friendly 3rd places after 6pm, including libraries, cafes and kids events. Expect about 18-21 venues per 100k residents.",
+      "alignmentText": "Bordeaux has many family-friendly 3rd places after 6pm (libraries, cafes, kids events). About 18-21 venues per 100k residents.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Bordeaux, FR: walkable historic centre, bike-friendly streets and tram network; ~60\u201369% car-free trips, suiting a family-friendly, mild-climate move.",
+      "alignmentText": "Bordeaux, FR: historic centre walkable with bike-friendly streets and tram network. ~60-69% car-free trips; family-friendly neighborhoods and mild climate.",
       "alignmentValue": 8
     },
     {
@@ -235,7 +223,7 @@
       "key": "life_daycare_accessibility",
       "alignmentText": "In Bordeaux, municipal cr\u00E8ches for a 1-year-old commonly run 6-9 month waits; plan for delays and explore private options.",
       "alignmentValue": 5,
-      "sameAsParent": false
+      "sameAsParent": true
     },
     {
       "key": "life_daycare_affordability_citizen",
@@ -268,7 +256,8 @@
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "EUR 1,500.00 ($1,650.00)",
-      "alignmentValue": 7
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
@@ -287,47 +276,51 @@
     },
     {
       "key": "life_public_transportation",
-      "alignmentText": "Bordeaux, FR has a dense tram/bus network; most residents are within 500 m of 10-minute service for much of the day, enabling family mobility.",
-      "alignmentValue": 10,
+      "alignmentText": "In Bordeaux, most residents are within 500 m of 10-minute transit for much of the day. This supports easy family mobility in France.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "opportunity_college_accessibility",
-      "alignmentText": "Bordeaux public universities offer relatively low tuition for international students (~\u20AC2.7k/year). Admission rates are reasonably high, supporting access for your family.",
-      "alignmentValue": 8
+      "alignmentText": "Bordeaux public tuition is ~\u20AC2.7k/yr, about 8\u20139% of a typical Bordeaux-area household net income, making access reasonably strong for your family.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "France\u0027s Bordeaux universities rank 201\u2013300 globally with English-taught programs. This aligns with your English ubiquity goal and strong education focus.",
-      "alignmentValue": 6
+      "alignmentText": "Bordeaux\u0027s universities rank 201-300 globally with English-taught programs, supporting your English ubiquity goal and education focus.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Bordeaux offers strong adult education with multiple universities, CNAM, and subsidized online options. CPF-funded programs are widely accessible in Bordeaux.",
-      "alignmentValue": 9
+      "alignmentText": "Bordeaux, France offers extensive continuing education: universities, CNAM, CPF-funded options; broad adult access and online courses.",
+      "alignmentValue": 10
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Senior .NET architect roles in Bordeaux are modest; about 4-5 postings per million. English-friendly tech exists, with remote work easing a family move.",
-      "alignmentValue": 4
+      "alignmentText": "Bordeaux has modest senior .NET architect demand (~4-5 postings per million residents per month). English-friendly tech and remote work ease a family move.",
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Bordeaux, FR shows moderate Ruby on Rails demand (~7-9 postings per million per month); growing EU tech scene with remote/hybrid options.",
+      "alignmentText": "Bordeaux, FR shows moderate Ruby on Rails demand (~7-9 postings/million/month) with remote/hybrid options; supports their startup and web dev careers.",
       "alignmentValue": 4,
       "sameAsParent": false
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 85,000.00 ($93,500.00)"
+      "alignmentText": "EUR 68,500.00 ($75,350.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "EUR 50,000.00 ($54,000.00)"
+      "alignmentText": "EUR 46,500.00 ($50,220.00)"
     },
     {
       "key": "outdoors_beach_life",
-      "alignmentText": "Beaches near Bordeaux are desirable but optional. Prioritize housing within easy reach of Arcachon Bay, Cap Ferret, Lacanau, or other Atlantic beaches (roughly 50\u201390 minutes from Bordeaux) to enable regular family beach days without sacrificing work/school routines. Action steps: map 3 closest beaches with parking and lifeguards, verify travel times during peak season, and plan a beach schedule that fits remote work and childcare. Ensure reliable broadband at home and during trips, and prepare family-friendly routines (sun protection, shade, hydration) for Trey, Sarah, Anduin, and Alasdair. Reassess seasonally based on weather, safety, and family needs."
+      "alignmentText": "Beaches near Bordeaux should be leveraged for regular family days while preserving work/school routines. Focus on Arcachon Bay (Cap Ferret), Lacanau, and other Atlantic beaches within ~50\u201390 minutes of Bordeaux. Action steps: map 3 beaches with parking and lifeguards; verify peak-season travel times; draft a beach schedule that fits remote work and childcare; confirm reliable broadband at home and during trips (consider mobile back-up); establish family routines (sun protection, shade, hydration) for Trey, Sarah, Anduin, and Alasdair. Reassess seasonally for weather, safety, and needs.",
+      "sameAsParent": false
     },
     {
       "key": "outdoors_fall_temperature_range",
@@ -336,7 +329,7 @@
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Bordeaux, FR offers a temperate, mild climate; about 240\u2013269 comfortable days/year with mild summers and manageable humidity.",
+      "alignmentText": "Bordeaux, FR offers a temperate, mild climate with about 240\u2013269 comfortable days/year; mild summers and manageable humidity suit a family life.",
       "alignmentValue": 8
     },
     {
@@ -347,8 +340,8 @@
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Bordeaux offers strong nature access: several large parks within 5 km (Parc Bordelais, Jardin Public) and trails reachable by transit in 30 minutes.",
-      "alignmentValue": 8
+      "alignmentText": "Bordeaux offers strong nature access within 5 km. Parc Bordelais and Jardin Public, with several parks \u003E10 acres, are reachable by transit.",
+      "alignmentValue": 5
     },
     {
       "key": "outdoors_spring_temperature_range",
@@ -375,7 +368,7 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "France (Bordeaux) offers a stable economy with low GDP-per-capita volatility; a favorable startup scene and accessible grants.",
+      "alignmentText": "Bordeaux, France shows stability with ~2 recession years in 20. Strong startup grants and a growing tech scene support new ventures.",
       "alignmentValue": 9
     },
     {
@@ -385,12 +378,13 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "France has high political stability; Bordeaux enjoys stable governance and safety, aiding predictable family life.",
-      "alignmentValue": 9
+      "alignmentText": "Bordeaux\u0027s stable governance and family-friendly services support a calm, predictable life in France; good broadband helps remote work.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Bordeaux, FR offers top stability: violent crime under 200/100k, reliable utilities, and strong public schools for your family.",
+      "alignmentText": "Bordeaux, FR offers stable living: violent crime under 200/100k, reliable utilities, and strong public schools for your family.",
       "alignmentValue": 10
     }
   ]

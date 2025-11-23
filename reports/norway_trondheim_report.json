@@ -4,7 +4,7 @@
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
-      "alignmentText": "NOK 32,000.00 ($2,782.61)",
+      "alignmentText": "NOK 34,000.00 ($2,956.52)",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -74,17 +74,6 @@
       "sameAsParent": true
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "35%",
-      "alignmentValue": 4
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "19%",
-      "alignmentValue": 6,
-      "sameAsParent": true
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
       "alignmentText": "Trondheim, Norway, offers an incubator-backed startup permit; US founder family should plan 6\u20139 months with thorough docs and proof of funds.",
       "alignmentValue": 5,
@@ -139,17 +128,18 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "Trondheim uses English broadly in daily life. Expect 10-20% Norwegian for official tasks; learning basics will help.",
-      "alignmentValue": 9
+      "alignmentText": "Trondheim uses English widely; expect about 10-14% Norwegian for official tasks; learning basics will help.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "integration_childhood_language_expectations",
-      "alignmentText": "Trondheim public schools mainly teach in Norwegian; bilingual tracks are rare and usually appear only in upper grades; English is taught as a subject.",
+      "alignmentText": "Trondheim public schools mainly teach in Norwegian. Bilingual/English tracks are rare (1-9%), with English mainly taught as a subject.",
       "alignmentValue": 2
     },
     {
       "key": "integration_housing_accessibility",
-      "alignmentText": "Trondheim rents: foreigners often need a guarantor; plan 4\u20136 weeks to secure a lease with up to 2.5 months deposit.",
+      "alignmentText": "Trondheim, Norway: foreigners often need a guarantor; plan 4-6 weeks to secure a family lease with deposits up to 2.5 months.",
       "alignmentValue": 7
     },
     {
@@ -207,14 +197,14 @@
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Trondheim, Norway has ~14-17 child-friendly 3rd places per 100k after 6pm with staff; aligns with your need for safe, supervised spaces.",
-      "alignmentValue": 6
+      "alignmentText": "Trondheim has about 14-17 supervised child-friendly 3rd places per 100k after 6pm, aligning with your need for safe, after-hours spaces.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Trondheim, Norway offers bike-friendly streets and transit. This supports a car-light, people-centric lifestyle with 70-79% of trips by walking/cycling.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Trondheim\u0027s bike-friendly streets and transit enable a family-friendly, car-light lifestyle with 70-79% of trips by walking/cycling.",
+      "alignmentValue": 9
     },
     {
       "key": "leisure_quality_food_access",
@@ -239,7 +229,8 @@
     {
       "key": "life_daycare_affordability_non_resident",
       "alignmentText": "NOK 2,000.00 ($190.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_perm_resident",
@@ -270,7 +261,7 @@
     },
     {
       "key": "life_healthcare_tied_to_employment",
-      "alignmentText": "Trondheim, Norway has universal healthcare not tied to employment, so leaving a job won\u0027t jeopardize the family\u0027s coverage.",
+      "alignmentText": "Trondheim, Norway provides universal healthcare not tied to employment. Leaving a job won\u0027t jeopardize your family\u0027s coverage.",
       "alignmentValue": 10
     },
     {
@@ -296,12 +287,12 @@
     },
     {
       "key": "opportunity_continuing_education_accessibility",
-      "alignmentText": "Trondheim, Norway offers strong continuing education: 17-19 accredited programs per 100k residents plus subsidized online options; great for upskilling.",
+      "alignmentText": "Trondheim offers robust continuing education with 17-19 programs per 100k and subsidized online options; strong for upskilling.",
       "alignmentValue": 9
     },
     {
       "key": "opportunity_demand_for_dotnet_architect",
-      "alignmentText": "Trondheim, Norway has steady senior .NET architect demand (20\u002B yrs) with solid salaries; visa-friendly tech sector supports migration.",
+      "alignmentText": "Trondheim offers steady senior .NET architect demand (20\u002B yrs) with solid salaries. Visa-friendly, family-oriented tech scene eases relocation.",
       "alignmentValue": 6
     },
     {
@@ -312,11 +303,11 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "NOK 1,100,000.00 ($104,500.00)"
+      "alignmentText": "NOK 1,200,000.00 ($111,624.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
-      "alignmentText": "NOK 720,000.00 ($66,000.00)"
+      "alignmentText": "NOK 780,000.00 ($71,500.00)"
     },
     {
       "key": "outdoors_beach_life",
@@ -334,7 +325,7 @@
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Trondheim area offers forest and fjord scenery within an hour; about 30\u201340% protected land and at least 2 scenic sites, great for outdoor family activities.",
+      "alignmentText": "Trondheim\u0027s forest and fjord within an hour; about 30-40% protected land, ideal for easy family hikes and nature time with the kids.",
       "alignmentValue": 8
     },
     {
@@ -367,14 +358,14 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Trondheim, Norway shows a stable economy with low 5-year GDP per capita volatility, aiding long-term family plans.",
+      "alignmentText": "Trondheim, Norway has a stable, low-volatility economy with limited recession exposure, supporting long-term family plans.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Norway maintains stable, transparent immigration with strong rights and tech visas; Trondheim offers family-friendly policies and English-accessible services.",
-      "alignmentValue": 8
+      "alignmentText": "Very stable, transparent immigration in Norway with strong rights and tech visas; Trondheim offers family-friendly policies and English-friendly services.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
@@ -383,7 +374,7 @@
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Trondheim, Norway offers high stability with crime under 200/100k. Utilities and schools are reliable for families.",
+      "alignmentText": "Trondheim, Norway offers very high social stability with crime under 200/100k and reliable utilities plus strong schools for your family.",
       "alignmentValue": 10
     }
   ]

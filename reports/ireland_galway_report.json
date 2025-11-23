@@ -10,7 +10,8 @@
     {
       "key": "cost_of_living_family_150m2_on_city_edge",
       "alignmentText": "EUR 2,900.00 ($3,132.00)",
-      "alignmentValue": 9
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_150m2_suburb",
@@ -27,8 +28,7 @@
     {
       "key": "cost_of_living_family_52_therapy_sessions",
       "alignmentText": "EUR 4,160.00 ($4,492.80)",
-      "alignmentValue": 2,
-      "sameAsParent": false
+      "alignmentValue": 2
     },
     {
       "key": "cost_of_living_family_eating_out",
@@ -38,7 +38,7 @@
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "EUR 320.00 ($345.60)",
+      "alignmentText": "EUR 350.00 ($370.50)",
       "sameAsParent": false
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
-      "alignmentText": "Galway, Ireland: Quarterly VAT/payroll filings with a part-time local accountant fit this family's preference for predictable, low-bureaucracy operations.",
+      "alignmentText": "Galway, Ireland: Quarterly VAT/payroll filings with a part-time local accountant fit this family\u0027s preference for predictable, low-bureaucracy operations.",
       "alignmentValue": 9
     },
     {
@@ -74,18 +74,8 @@
       "sameAsParent": true
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "65%",
-      "alignmentValue": 9
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "32%",
-      "alignmentValue": 9
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "Galway, Ireland startup visa remains a workable path for founders. Expect ~12 weeks and ~\u20ac50k funding, with docs handled by a startup lawyer.",
+      "alignmentText": "Galway, Ireland startup visa remains workable for first-time founders; ~2-3 months and ~\u20AC50k, with docs handled by a startup lawyer.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -96,7 +86,7 @@
     },
     {
       "key": "daemon_games_feasible_game_grants",
-      "alignmentText": "- EUR 480,000.00 ($518,400.00) \u2013 Section 481 Tax Credit for Video Game Production \u2013 Provides 32% relief on eligible Irish spend, helping a 1.5M project reach cashflow-friendly post-tax margins and supports self-publishing on Steam/consoles.\n- EUR 60,000.00 ($64,800.00) \u2013 Creative Europe MEDIA \u2013 Development funding for video games; viable for co-development with European partners on a story-driven premium title.\n- EUR 10,000.00 ($10,800.00) \u2013 Galway City/County Council Arts & Creative Grants \u2013 Local prototyping, market research and outreach support for Galway-based initiatives.\n- EUR 50,000.00 ($54,000.00) \u2013 Enterprise Ireland Competitive Start Fund \u2013 Early-stage Ireland-incorporated startup support accessible to foreign founders willing to establish a local entity to accelerate pre-production.",
+      "alignmentText": "- EUR 480,000.00 ($518,400.00) \u2013 Section 481 Tax Credit for Video Game Production \u2013 Provides 32% relief on eligible Irish spend, helping a 1.5M project reach cashflow-friendly post-tax margins and supports self-publishing on Steam/consoles.\n- EUR 60,000.00 ($64,800.00) \u2013 Creative Europe MEDIA \u2013 Development funding for video games; viable for co-development with European partners on a story-driven premium title.\n- EUR 10,000.00 ($10,800.00) \u2013 Galway City/County Council Arts \u0026 Creative Grants \u2013 Local prototyping, market research and outreach support for Galway-based initiatives.\n- EUR 50,000.00 ($54,000.00) \u2013 Enterprise Ireland Competitive Start Fund \u2013 Early-stage Ireland-incorporated startup support accessible to foreign founders willing to establish a local entity to accelerate pre-production.",
       "sameAsParent": false
     },
     {
@@ -128,7 +118,7 @@
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Galway, Ireland's game-dev scene is modest: a couple of events per year and under 100 online members; mentorship and funding access are limited.",
+      "alignmentText": "Galway, Ireland\u0027s game-dev scene is modest: a couple of events per year and under 100 online members; mentorship and funding access are limited.",
       "alignmentValue": 4
     },
     {
@@ -139,8 +129,8 @@
     },
     {
       "key": "integration_adult_language_expectations",
-      "alignmentText": "9: Galway, Ireland is English-dominant; most government, healthcare, and banking tasks are in English; Irish knowledge is optional for adults.",
-      "alignmentValue": 9
+      "alignmentText": "Galway, Ireland is English-dominant; adults can mostly use English for government, healthcare, and banking; Irish knowledge is optional.",
+      "alignmentValue": 10
     },
     {
       "key": "integration_childhood_language_expectations",
@@ -154,12 +144,12 @@
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "Galway, Ireland offers a clear Critical Skills path for tech roles; most steps are online with a 2-3 month turnaround.",
-      "alignmentValue": 9
+      "alignmentText": "Galway\u0027s Critical Skills path suits tech roles; most steps online, with end-to-end visa processing around 11-12 weeks for a US family.",
+      "alignmentValue": 6
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "Ireland Galway Immigration Status & Rights: The main statuses for non-EU entrants are temporary residence tied to a visa or work/study permit (eg general or critical-skills permits leading to Stamp 2/Stamp 4), long-term residency (permanent/settled status) after several years of lawful residence, and citizenship by naturalisation after meeting residence, character and integration requirements. How determined: status is granted by the Irish authorities (Department of Justice and Equality/INIS) based on visa/permit outcomes, sponsorship or family ties, and ongoing compliance with conditions; transitions from temporary permits to permanent residency and later to naturalisation depend on continued lawful residence. Rights by status: temporary statuses provide work/study rights and limited access to public services; permanent residency removes most visa constraints and broadens access to social welfare and healthcare; citizenship grants full civil and political rights, including eligibility for an Irish passport and voting in national elections. For a Galway family with a US origin, pathways typically involve employer sponsorship under a skilled work permit or family reunification, with multi-year timelines to achieve long-term residency and eventually citizenship; ensure ongoing lawful residence, language and integration steps, and accurate records with INIS/DJE.",
+      "alignmentText": "Ireland Galway Immigration Status \u0026 Rights: The main statuses for non-EU entrants are temporary residence tied to a visa or work/study permit (eg general or critical-skills permits leading to Stamp 2/Stamp 4), long-term residency (permanent/settled status) after several years of lawful residence, and citizenship by naturalisation after meeting residence, character and integration requirements. How determined: status is granted by the Irish authorities (Department of Justice and Equality/INIS) based on visa/permit outcomes, sponsorship or family ties, and ongoing compliance with conditions; transitions from temporary permits to permanent residency and later to naturalisation depend on continued lawful residence. Rights by status: temporary statuses provide work/study rights and limited access to public services; permanent residency removes most visa constraints and broadens access to social welfare and healthcare; citizenship grants full civil and political rights, including eligibility for an Irish passport and voting in national elections. For a Galway family with a US origin, pathways typically involve employer sponsorship under a skilled work permit or family reunification, with multi-year timelines to achieve long-term residency and eventually citizenship; ensure ongoing lawful residence, language and integration steps, and accurate records with INIS/DJE.",
       "sameAsParent": false
     },
     {
@@ -169,18 +159,18 @@
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Galway, Ireland schools enforce anti-bullying policies well; expect low incidents (2\u20133 per 1,000) with strong support for immigrant families.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "kids_education_quality",
-      "alignmentText": "Galway, Ireland offers solid primary/secondary schooling with good public options; strong early-childhood programs and feasible bilingual exposure.",
-      "alignmentValue": 7,
+      "alignmentText": "Galway schools enforce anti-bullying; for caucasian American immigrant kids, expect 2-3 per 1,000 incidents with strong immigrant support.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
+      "key": "kids_education_quality",
+      "alignmentText": "Galway provides solid primary/secondary schools with good public options, strong early-childhood programs, and feasible bilingual exposure.",
+      "alignmentValue": 8
+    },
+    {
       "key": "kids_food_quality",
-      "alignmentText": "Galway schools follow Ireland's Healthy Eating in Schools guidelines. HEI is around 80-84 with limited ultra-processed foods.",
+      "alignmentText": "Galway, Ireland follows Healthy Eating in Schools; HEI ~80-84 with limited ultra-processed foods supports our education and health goals.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -202,8 +192,7 @@
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "In Galway, focus on outdoor and community-based family activities: take regular walks and playtime along Salthill Promenade and Galway Bay beaches; explore Eyre Square and nearby parks for weekend family time; leverage Galway City Library storytimes and toddler groups, plus affordable childcare options at local community centers; attend family-friendly venues and events such as Galway City Museum and local festivals to support social, cultural, and language development; seek local community language resources and school programs to enhance bilingual exposure for the child.",
-      "sameAsParent": false
+      "alignmentText": "In Galway, focus on outdoor and community-based family activities: regularly walk and play along Salthill Promenade and Galway Bay beaches; visit Eyre Square and adjacent parks for weekend family time; register for Galway City Library storytimes and local toddler groups; rely on affordable childcare options at community centers; attend family-friendly venues and events such as Galway City Museum and local festivals to support social, cultural, and language development; explore bilingual exposure through local schools, language resources, and community programs."
     },
     {
       "key": "leisure_common_friend_night_opportunities",
@@ -212,23 +201,22 @@
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
-      "alignmentText": "Galway offers a solid after-hours kid-friendly scene (soft plays, libraries, family venues); roughly 10-13 venues per 100k residents.",
+      "alignmentText": "Galway, Ireland has about 10-13 after 6pm kid-friendly venues per 100k with staff supervision; supports family-friendly evenings.",
       "alignmentValue": 5
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Galway's walkable, bike-friendly streets and compact neighborhoods support car-light living; expect about 60-69% car-free trips for a family.",
+      "alignmentText": "Galway\u0027s walkable, bike-friendly streets and compact neighborhoods support car-light living for a family; expect about 60-69% car-free trips in Galway, Ireland.",
       "alignmentValue": 8
     },
     {
       "key": "leisure_quality_food_access",
-      "alignmentText": "Quality food access in Galway, IE: markets like Galway Market offer fresh produce; diverse options, with moderate fast-food density for family meals.",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "alignmentText": "Galway, IE offers strong access to fresh produce via Galway Market and local markets; fast-food density is moderate, supporting family meals.",
+      "alignmentValue": 6
     },
     {
       "key": "life_bureaucratic_compliance_effort",
-      "alignmentText": "Galway, Ireland: most filings online; expect a single-morning in-person IRP/visa visit. English support is strong and the process is manageable.",
+      "alignmentText": "Galway, Ireland: online filings; first-time IRP/visa visit likely a single morning; English support is strong.",
       "alignmentValue": 8
     },
     {
@@ -239,8 +227,8 @@
     },
     {
       "key": "life_daycare_affordability_citizen",
-      "alignmentText": "EUR 1,000.00 ($1,090.00)",
-      "alignmentValue": 1
+      "alignmentText": "EUR 575.00 ($621.00)",
+      "alignmentValue": 4
     },
     {
       "key": "life_daycare_affordability_non_resident",
@@ -249,18 +237,19 @@
     },
     {
       "key": "life_daycare_affordability_perm_resident",
-      "alignmentText": "EUR 1,000.00 ($1,090.00)",
-      "alignmentValue": 1
+      "alignmentText": "EUR 750.00 ($817.50)",
+      "alignmentValue": 4
     },
     {
       "key": "life_healthcare_accessibility",
-      "alignmentText": "Galway, Ireland offers universal healthcare; expect 5-7 day primary care waits and 11-14 day specialist waits, fitting family-ready access.",
+      "alignmentText": "Galway, Ireland offers universal healthcare; primary care waits 5-7 days and specialist waits 11-14 days, a generally family-friendly access.",
       "alignmentValue": 7
     },
     {
       "key": "life_healthcare_affordability_citizen",
-      "alignmentText": "EUR 525.00 ($567.00)",
-      "alignmentValue": 9
+      "alignmentText": "EUR 350.00 ($378.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_non_resident",
@@ -269,8 +258,8 @@
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
-      "alignmentText": "EUR 850.00 ($918.00)",
-      "alignmentValue": 9,
+      "alignmentText": "EUR 350.00 ($377.00)",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
@@ -296,7 +285,7 @@
     },
     {
       "key": "opportunity_college_quality",
-      "alignmentText": "Galway's NUIG ranks 201-300 globally with English programs, aligning with your education and English-access priorities in Ireland.",
+      "alignmentText": "Galway\u0027s NUIG ranks 201-300 globally with English programs, aligning with your education and English-access priorities in Ireland.",
       "alignmentValue": 6
     },
     {
@@ -316,7 +305,7 @@
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "EUR 110,000.00 ($118,800.00)"
+      "alignmentText": "EUR 95,000.00 ($102,600.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
@@ -328,38 +317,38 @@
     },
     {
       "key": "outdoors_fall_temperature_range",
-      "alignmentText": "Galway, Ireland fall highs 55-66\u00b0F; nights 45-55\u00b0F. Aligns with 9: 55-72\u00b0F highs, 45-55\u00b0F lows; mild with gentle cool-down.",
-      "alignmentValue": 9,
+      "alignmentText": "Galway fall highs typically 60-64\u00B0F with nights 45-55\u00B0F; aligns with 60-64\u00B0F highs (value 8), reflecting a mild, comfortable autumn.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Galway's temperate maritime climate yields many comfortable days year-round; summers stay cool, winters mild, though rain is common.",
+      "alignmentText": "Galway, Ireland features a mild maritime climate with many comfortable days; summers are cool, winters mild, and rain is common.",
       "alignmentValue": 7
     },
     {
       "key": "outdoors_natural_beauty",
-      "alignmentText": "Galway Bay SAC lies within 60 minutes, with dramatic coastlines and nearby Connemara - strong natural beauty for the family.",
-      "alignmentValue": 7
+      "alignmentText": "Galway Bay SAC within 60 minutes, Connemara\u0027s rugged coast and green landscapes offer strong natural beauty for the family.",
+      "alignmentValue": 8
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Galway offers several parks >10 acres within 5 km and nearby trails; suitable for family nature outings, with most trails reachable by short transit or car.",
+      "alignmentText": "Galway, Ireland has several parks over 10 acres within 5 km with nearby trails; easy car or foot access for family nature outings.",
       "alignmentValue": 6
     },
     {
       "key": "outdoors_spring_temperature_range",
-      "alignmentText": "Spring in Galway, IE typically features highs 50-68\u00b0F and lows 38-48\u00b0F. Expect mixed sun and showers; overall mild.",
+      "alignmentText": "Spring in Galway, IE: highs 55\u00B0F\u201359\u00B0F with scattered showers; overall mild.",
       "alignmentValue": 7
     },
     {
       "key": "outdoors_summer_temperature_range",
-      "alignmentText": "Galway summers typically see 72\u201385\u00b0F highs and 60\u201372\u00b0F nights. Mild overall with rare heat spikes.",
+      "alignmentText": "Galway summers typically see 72\u201385\u00B0F highs and 60\u201372\u00B0F nights. Mild overall with rare heat spikes.",
       "alignmentValue": 9
     },
     {
       "key": "outdoors_winter_temperature_range",
-      "alignmentText": "Galway winters typically 35\u00b0F\u201350\u00b0F highs and 25\u00b0F\u201335\u00b0F lows. Snow is rare, frost is possible.",
+      "alignmentText": "Galway winters typically 35\u00B0F\u201350\u00B0F highs and 25\u00B0F\u201335\u00B0F lows. Snow is rare, frost is possible.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
@@ -370,24 +359,24 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Galway, Ireland offers a stable EU economy with a steady job market; 5-year real GDP per capita volatility ~2%, supporting our family plan.",
-      "alignmentValue": 7
+      "alignmentText": "Galway offers a stable EU economy and growing tech scene; about 3 recession years in 2005\u20132024 fits our family plan.",
+      "alignmentValue": 8
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Migration stability: Ireland's immigration policy is stable with clear Start-Up/critical-skills routes; Galway offers predictable, family-friendly visa prospects.",
+      "alignmentText": "Migration stability: Ireland\u0027s immigration policy is stable with clear Start-Up/critical-skills routes; Galway offers predictable, family-friendly visa prospects.",
       "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Galway's political stability is high and governance is predictable. Ireland's institutions, as an EU member, support families with reliable services.",
-      "alignmentValue": 10
+      "alignmentText": "Galway\u0027s stable governance in Ireland with EU support; strong local healthcare and schools bolster family life.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Galway, Ireland offers very low violent crime, reliable utilities, and strong schools; family-friendly living with healthcare access.",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "Galway, Ireland has very low violent crime and reliable utilities. Strong schools and universal healthcare make it family-friendly with English ubiquity.",
+      "alignmentValue": 10
     }
   ]
 }

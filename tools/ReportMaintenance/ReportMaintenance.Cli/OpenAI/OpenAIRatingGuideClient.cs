@@ -18,6 +18,7 @@ public interface IOpenAIRatingGuideClient
         string categoryName,
         FamilyProfile familyProfile,
         string? keyDescription,
+        MetricDefinition metricDefinition,
         CancellationToken cancellationToken = default);
 }
 
@@ -47,6 +48,7 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
         string categoryName,
         FamilyProfile familyProfile,
         string? keyDescription,
+        MetricDefinition metricDefinition,
         CancellationToken cancellationToken = default)
     {
         if (string.IsNullOrWhiteSpace(_options.ApiKey))
@@ -59,7 +61,18 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
             throw new ArgumentException("Key name must be provided.", nameof(keyName));
         }
 
-        var prompt = BuildPrompt(keyName.Trim(), categoryName, familyProfile, keyDescription);
+        if (metricDefinition is null)
+        {
+            throw new ArgumentNullException(nameof(metricDefinition));
+        }
+
+        var metric = NormalizeMetric(metricDefinition);
+        if (string.IsNullOrWhiteSpace(metric.Name))
+        {
+            throw new ArgumentException("Metric definition must include a name.", nameof(metricDefinition));
+        }
+
+        var prompt = BuildPrompt(keyName.Trim(), categoryName, familyProfile, keyDescription, metric);
 
         using var activity = OpenAITelemetry.ActivitySource.StartActivity("GenerateRatingGuide", ActivityKind.Client);
         activity?.SetTag("http.method", HttpMethod.Post.Method);
@@ -102,7 +115,7 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
             throw new HttpRequestException($"OpenAI request failed: {response.StatusCode} {body}");
         }
 
-        var suggestion = ParseResponse(body, keyName);
+        var suggestion = ParseResponse(body, keyName, metric);
         activity?.SetStatus(ActivityStatusCode.Ok);
         return suggestion;
     }
@@ -143,13 +156,18 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
         return message;
     }
 
-    private static string BuildPrompt(string keyName, string categoryName, FamilyProfile familyProfile, string? keyDescription)
+    private static string BuildPrompt(string keyName, string categoryName, FamilyProfile familyProfile, string? keyDescription, MetricDefinition metricDefinition)
     {
         var sb = new StringBuilder();
         sb.AppendLine("Family profile (JSON):");
         sb.AppendLine(familyProfile.ToIndentedJson());
         sb.AppendLine();
         sb.AppendLine($"Create a migration rating guide for the key '{keyName}' within the category '{categoryName}'.");
+        sb.AppendLine("Metric definition (JSON):");
+        sb.AppendLine(JsonSerializer.Serialize(metricDefinition, new JsonSerializerOptions { WriteIndented = true }));
+        sb.AppendLine();
+        sb.AppendLine("Stay focused on this metric only. Every rating must describe thresholds or qualitative statements about the same metric and unit.");
+
         if (!string.IsNullOrWhiteSpace(keyDescription))
         {
             sb.AppendLine("Key intent:");
@@ -164,7 +182,7 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
         return sb.ToString();
     }
 
-    private RatingGuideSuggestion ParseResponse(string json, string keyName)
+    private RatingGuideSuggestion ParseResponse(string json, string keyName, MetricDefinition metricDefinition)
     {
         using var document = JsonDocument.Parse(json);
         if (!document.RootElement.TryGetProperty("output", out var output))
@@ -173,10 +191,10 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
         }
 
         var contentText = ExtractResponsesContent(output);
-        return ParseRatingGuideContent(contentText, keyName);
+        return ParseRatingGuideContent(contentText, keyName, metricDefinition);
     }
 
-    private static RatingGuideSuggestion ParseRatingGuideContent(string text, string keyName)
+    private static RatingGuideSuggestion ParseRatingGuideContent(string text, string keyName, MetricDefinition metricDefinition)
     {
         using var ratingDocument = JsonDocument.Parse(text);
         var root = ratingDocument.RootElement;
@@ -209,6 +227,7 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
             .ThenBy(e => e.Guidance, StringComparer.Ordinal)
             .ToList();
 
+        ValidateMetricUsage(ordered, metricDefinition, keyName);
         return new RatingGuideSuggestion(ordered, text);
     }
 
@@ -233,6 +252,67 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
         }
 
         throw new InvalidOperationException("Unable to extract text content from OpenAI response.");
+    }
+
+    private static void ValidateMetricUsage(IReadOnlyList<RatingGuideEntry> entries, MetricDefinition metricDefinition, string keyName)
+    {
+        var tokens = new List<string>();
+        if (!string.IsNullOrWhiteSpace(metricDefinition.Name))
+        {
+            tokens.Add(metricDefinition.Name.Trim());
+        }
+
+        if (!string.IsNullOrWhiteSpace(metricDefinition.Unit))
+        {
+            tokens.Add(metricDefinition.Unit.Trim());
+        }
+
+        if (tokens.Count == 0)
+        {
+            return;
+        }
+
+        foreach (var entry in entries)
+        {
+            if (string.IsNullOrWhiteSpace(entry.Guidance))
+            {
+                continue;
+            }
+
+            if (!ContainsMetricToken(entry.Guidance, tokens))
+            {
+                throw new InvalidOperationException($"Rating guide for {keyName} must describe the {metricDefinition.Name} metric or its unit '{metricDefinition.Unit}'.");
+            }
+        }
+    }
+
+    private static bool ContainsMetricToken(string guidance, IReadOnlyList<string> tokens)
+    {
+        foreach (var token in tokens)
+        {
+            if (string.IsNullOrWhiteSpace(token))
+            {
+                continue;
+            }
+
+            if (guidance.IndexOf(token, StringComparison.OrdinalIgnoreCase) >= 0)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private static MetricDefinition NormalizeMetric(MetricDefinition metricDefinition)
+    {
+        return new MetricDefinition
+        {
+            Name = metricDefinition.Name?.Trim() ?? string.Empty,
+            Unit = string.IsNullOrWhiteSpace(metricDefinition.Unit) ? null : metricDefinition.Unit.Trim(),
+            Direction = string.IsNullOrWhiteSpace(metricDefinition.Direction) ? null : metricDefinition.Direction.Trim(),
+            RangeHint = string.IsNullOrWhiteSpace(metricDefinition.RangeHint) ? null : metricDefinition.RangeHint.Trim()
+        };
     }
 
     private static string? ExtractJson(string text)

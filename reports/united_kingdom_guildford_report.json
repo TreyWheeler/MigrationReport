@@ -26,7 +26,8 @@
     {
       "key": "cost_of_living_family_52_therapy_sessions",
       "alignmentText": "GBP 0.00 ($0.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_eating_out",
@@ -36,7 +37,7 @@
     },
     {
       "key": "cost_of_living_family_health_insurance_costs",
-      "alignmentText": "GBP 1,234.56 ($1,345.67)",
+      "alignmentText": "GBP 0.00 ($0.00)",
       "sameAsParent": false
     },
     {
@@ -53,7 +54,8 @@
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
       "alignmentText": "GBP 4,625.00 ($5,920.00)",
-      "alignmentValue": 1
+      "alignmentValue": 1,
+      "sameAsParent": false
     },
     {
       "key": "daemon_games_bureaucratic_compliance_effort",
@@ -62,8 +64,8 @@
     },
     {
       "key": "daemon_games_burn_rate",
-      "alignmentText": "GBP 835,416.67 ($1,069,333.34)",
-      "alignmentValue": 4,
+      "alignmentText": "GBP 792,916.67 ($991,145.84)",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
@@ -73,20 +75,8 @@
       "sameAsParent": true
     },
     {
-      "key": "daemon_games_dev_incentive_eligible_share",
-      "alignmentText": "80%",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
-      "key": "daemon_games_dev_incentive_rate",
-      "alignmentText": "25%",
-      "alignmentValue": 8,
-      "sameAsParent": true
-    },
-    {
       "key": "daemon_games_ease_of_entrepreneurship_visa",
-      "alignmentText": "UK startup visa path exists with Guildford grants for game dev. In-person biometrics and ~3-4 month processing apply.",
+      "alignmentText": "Guildford, UK offers a startup visa path for game dev with local grants. In-person biometrics and a ~3-4 month processing time apply.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -102,13 +92,13 @@
     },
     {
       "key": "daemon_games_number_of_aaa_studios",
-      "alignmentText": "1",
-      "alignmentValue": 3
+      "alignmentText": "2",
+      "alignmentValue": 4
     },
     {
       "key": "daemon_games_number_of_aa_studios",
-      "alignmentText": "7",
-      "alignmentValue": 7
+      "alignmentText": "6",
+      "alignmentValue": 5
     },
     {
       "key": "daemon_games_roi_1m_units_2_years",
@@ -117,7 +107,7 @@
     },
     {
       "key": "daemon_games_roi_400k_units_2_years",
-      "alignmentText": "GBP 2,478,473.24 ($3,147,661.01)",
+      "alignmentText": "GBP 2,360,000.00 ($2,999,000.00)",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -129,7 +119,7 @@
     },
     {
       "key": "daemon_games_vibrancy_of_local_game_development_communities",
-      "alignmentText": "Guildford, UK has 6-11 game-dev events yearly and 150-249 online members with occasional jams. Good for small studios and grant opportunities.",
+      "alignmentText": "Guildford, UK hosts roughly 0.5-0.9 in-person game-dev events per month (6-11 yearly) and a 150-249 online community; grants-friendly for small studios.",
       "alignmentValue": 6
     },
     {
@@ -155,12 +145,12 @@
     },
     {
       "key": "integration_immigration_effort",
-      "alignmentText": "UK founder/Skilled Worker routes are viable for this US family; expect 4\u20136 months with organized docs. Guildford has a growing game/tech scene and good schools.",
-      "alignmentValue": 7
+      "alignmentText": "UK Skilled Worker routes are viable for this US family; expect 4-6 months with organized docs in Guildford\u0027s growing game/tech scene and good schools.",
+      "alignmentValue": 4
     },
     {
       "key": "integration_immigration_status_rights",
-      "alignmentText": "In the United Kingdom (Guildford, England) immigration status options relevant to your family include: 1) British citizenship \u2014 obtained by naturalisation after meeting residence, English language, and Life in the UK test requirements; it provides a UK passport, full civic rights (including voting) and travel ease. 2) Settled status / Indefinite Leave to Remain (ILR) \u2014 a permanent residence status earned after a qualifying period on an eligible visa or via the EU Settlement Scheme; it enables long-term residence and work, access to NHS and public services, and lays groundwork toward citizenship. 3) Temporary/limited leave \u2014 time-limited permission tied to specific visa routes (work, family, study); rights are restricted to the visa duration but can be extended or lead to ILR if criteria are met. How determined: by your visa type, total lawful residence years, compliance with conditions (e.g., employment, schooling, absence limits), English language proficiency, and Life in the UK test for naturalisation; typical progression is roughly five years of lawful residence to qualify for ILR, with naturalisation possible after ILR (often after 12 months, or sooner if married to a British citizen). Actionable steps: map out visa pathways (likely Skilled Worker or family visa), maintain clear residence and employment records, plan toward ILR within ~5 years, prepare for English and Life in the UK test, and evaluate citizenship versus long-term settlement based on your family goals; ensure continued access to NHS, schooling for Anduin and Alasdair, and local integration in Guildford.",
+      "alignmentText": "Guildford, UK \u2013 Immigration status options for your family are British citizenship (via naturalisation), Indefinite Leave to Remain (ILR) and temporary leave. Action plan: (1) choose a visa pathway (likely Skilled Worker for Trey or a Family visa for dependents) and secure sponsor/employment; (2) meet English language and Life in the UK test requirements and prepare for ILR after ~5 years of lawful residence; (3) maintain records of residence, employment, and absences; (4) apply for ILR, then for naturalisation after ILR where eligible (often 12 months, or sooner if married to a UK citizen); (5) ensure ongoing NHS access, schooling for Anduin/Alasdair, and Guildford integration; (6) monitor visa validity and plan ahead to avoid lapses.",
       "sameAsParent": false
     },
     {
@@ -171,8 +161,9 @@
     },
     {
       "key": "kids_bullying_and_racism",
-      "alignmentText": "Guildford schools in the UK enforce anti-bullying policies strongly; white American immigrant children typically face low incident risk with clear reporting.",
-      "alignmentValue": 9
+      "alignmentText": "Guildford, UK schools enforce strong anti-bullying policies; white American immigrant children typically face low incident risk with clear reporting.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "kids_education_quality",
@@ -193,8 +184,9 @@
     },
     {
       "key": "kids_language_integration_services",
-      "alignmentText": "Guildford, UK offers strong ESOL/EAL in schools and translation for essential services, easing your kids\u0027 language integration.",
-      "alignmentValue": 8
+      "alignmentText": "Guildford, UK offers strong ESOL/EAL in schools and translations for essential services, helping Anduin and Alasdair adapt smoothly.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_date_night_opportunities",
@@ -203,11 +195,12 @@
     },
     {
       "key": "leisure_common_family_activity_opportunities",
-      "alignmentText": "In Guildford, plan short, stroller-friendly family days: Guildford Castle Gardens for a 1\u20132 hour outdoor visit; Stoke Park and the River Wey towpath for easy walks; Guildford Spectrum for swimming and toddler activities; kid-friendly options like Guildford Borough Museum or library story times; and nearby Surrey Hills nature trails for simple, flat hikes. Aim for 2\u20133 outings per week with rest breaks, prioritize central/accessible venues to minimize travel, and ensure facilities suit a 1-year-old (changing areas, baby-changing, etc.)."
+      "alignmentText": "Plan 2\u20133 stroller-friendly family outings per week in Guildford, prioritizing central, accessible venues. Options: Guildford Castle Gardens (1\u20132 hour outdoor visit); Stoke Park and the River Wey towpath for flat walks; Guildford Spectrum for swimming and toddler activities; libraries or Guildford Borough Museum story times as light options. Add short nature walks in nearby Surrey Hills. Ensure baby-changing facilities are available, breaks for feeding/rest are scheduled, and travel is stroller-friendly and reliable.",
+      "sameAsParent": false
     },
     {
       "key": "leisure_common_friend_night_opportunities",
-      "alignmentText": "Guildford evening social options: attend family-friendly shows at Yvonne Arnaud Theatre or G Live; see a film at Odeon Guildford after 6 pm; host or join board-game or game-night events at libraries or community venues; organize post-dinner park meetups in Stoke Park to connect with other local families."
+      "alignmentText": "Guildford: Plan family-friendly evening activities such as theatre or film outings at Yvonne Arnaud Theatre, G Live, or Odeon Guildford after 6 pm; host or join board-game/game-night sessions at local libraries or community venues; organize post-dinner meetups in Stoke Park to connect with other local families."
     },
     {
       "key": "leisure_parent_friendly_3rd_places",
@@ -217,8 +210,8 @@
     },
     {
       "key": "leisure_peoples_centric_cities",
-      "alignmentText": "Guildford, UK offers a walkable town center and rail links that enable many car-free trips; outer neighborhoods still rely on cars.",
-      "alignmentValue": 7,
+      "alignmentText": "Guildford, UK offers a walkable center and rail links for car-free trips; ideal for a family with parks and daily life, though outer areas are car-dependent.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
@@ -245,13 +238,13 @@
     {
       "key": "life_daycare_affordability_non_resident",
       "alignmentText": "GBP 1,300.00 ($1,625.00)",
-      "alignmentValue": 3
+      "alignmentValue": 3,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_perm_resident",
-      "alignmentText": "GBP 1,000.00 ($1,250.00)",
-      "alignmentValue": 1,
-      "sameAsParent": false
+      "alignmentText": "GBP 1,000.00 ($1,280.00)",
+      "alignmentValue": 1
     },
     {
       "key": "life_healthcare_accessibility",
@@ -311,12 +304,12 @@
     },
     {
       "key": "opportunity_demand_for_ruby_on_rails",
-      "alignmentText": "Rails demand in Guildford, UK is modest. Expect about 1-3 postings per million residents per month.",
+      "alignmentText": "Guildford, UK Rails demand is modest; expect about 1-3 postings per million residents per month. Local market supports remote/hybrid roles.",
       "alignmentValue": 2
     },
     {
       "key": "opportunity_salary_for_dotnet_architect",
-      "alignmentText": "GBP 95,000.00 ($120,650.00)"
+      "alignmentText": "GBP 105,000.00 ($133,350.00)"
     },
     {
       "key": "opportunity_salary_for_ruby_on_rails",
@@ -344,7 +337,7 @@
     },
     {
       "key": "outdoors_nature_access",
-      "alignmentText": "Guildford, UK has 6-7 parks \u003E10 acres within 5 km. At least 1 regional trail is reachable by transit within 30 minutes, good for family outdoors.",
+      "alignmentText": "Guildford, UK has 6-7 parks \u003E10 acres within 5 km; a regional trail is reachable by transit within 30 minutes, great for family outdoors.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
@@ -371,12 +364,13 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Guildford, UK: economy is stable with modest 5-year GDP per capita volatility (roughly 1.5\u20131.9%). Tech and services support steady incomes for families.",
-      "alignmentValue": 8
+      "alignmentText": "Guildford, UK economy shows resilience with just 3 recession years in 20 years. Tech/services growth supports stable incomes for families.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "UK immigration stability: ~2-3 overhauls this decade with ~2-3% revocations; Guildford offers a growing tech scene, solid schools, and family-friendly living.",
+      "alignmentText": "Guildford immigration stability: ~2-3 overhauls/decade with ~2-3% revocations; a family-friendly city with a growing tech scene and solid schools.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
