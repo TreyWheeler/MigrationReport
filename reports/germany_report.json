@@ -141,12 +141,6 @@
       "alignmentValue": 7
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Germany offers a skilled-migrant path for US families; with a German job offer, expect about 4-6 months for work visa and family reunification.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Germany offers several immigration tracks for your family: Aufenthaltserlaubnis (temporary residence) linked to work, study, or family reunification; Niederlassungserlaubnis (permanent residence) after years of lawful residence and integration; EU Blue Card for highly skilled workers with a concrete job offer and salary threshold, often speeding permanent residency; and Einb\u00FCrgerung (naturalization) after long residence with language and civics prerequisites. Action steps: contact your local Ausl\u00E4nderbeh\u00F6rde to assess eligibility, gather documents (proof of income, housing, health insurance, marriage and birth certificates, language certificates), enroll in German language and integration courses, and map a timeline prioritizing the Blue Card route for Sarah and a path to permanent residency and eventual naturalization if desired. Be aware of dual citizenship rules and potential permission needed to retain your US passport.",
       "sameAsParent": false
@@ -357,28 +351,71 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Germany (DE) offers a mild year-round climate. Expect about 10\u201313 severe weather/AQI days per year.",
-      "alignmentValue": 8
+      "alignmentText": "Germany (DE) has a mild, year-round climate with few severe-weather days, aligning with your climate-stability and low-risk preferences.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Germany offers a very stable economy with strong public services and EU market access. It\u0027s ideal for tech work and family life in DE.",
-      "alignmentValue": 10
+      "alignmentText": "Germany\u0027s economy remains resilient with only two recessions (2009, 2020); strong public services and EU market access support tech work and family life.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Germany\u0027s migration policy remains relatively stable; Blue Card/startup routes fit this US family, with modest bureaucracy.",
-      "alignmentValue": 8
+      "alignmentText": "Germany\u0027s migration policy is stable for skilled workers; Blue Card/startup routes fit this US family in DE with modest bureaucracy.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Germany\u0027s strong rule of law and stable institutions support long-term family plans; political stability in Germany is high.",
+      "alignmentText": "Germany\u0027s strong rule of law and stable institutions support long-term family plans; political stability in DE remains high.",
       "alignmentValue": 10
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Germany (DE) offers very low violent crime and reliable utilities, aiding stable family life, strong public schools, and universal healthcare for the kids.",
+      "alignmentText": "Germany (DE) offers very low violent crime, reliable utilities, universal healthcare, and strong schools for a stable, family-friendly life.",
       "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Germany\u0027s entrepreneur visa for first-timers usually takes about 9-10 weeks end-to-end. Plan early with a solid business plan and funds to smooth the process.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Germany\u0027s non-sponsored visa path for a US family often runs 21-28 weeks; plan 5-7 months end-to-end for first-time applicants.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Germany visa via a recognized sponsor could take 7-8 weeks end-to-end for this US family; target EU Blue Card with a job offer in DE.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Germany (DE) has moderate anti-immigrant rhetoric due to AfD influence. However, governing parties push integration and openness for families like yours.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Germany (DE) shows a stable democracy with no autocratization; strong rule of law and social safety nets support families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Germany\u0027s political discourse centers on humane immigration and integration within a robust social-market economy, climate leadership and energy security amid rising prices, affordable housing and cost of living, strong welfare and digitalization, and EU-wide rule-of-law integrity.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Germany (DE) has strong media freedom with independent outlets and solid legal protections, supporting reliable, plural reporting for families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Germany\u0027s Gini around 30\u201333 puts Wealth Inequality Level at 8, aligning with family-friendly policies, universal healthcare, and strong public schools in DE.",
+      "alignmentValue": 8
     }
   ]
 }

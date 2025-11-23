@@ -144,11 +144,6 @@
       "alignmentValue": 2
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Sweden\u0027s family-residence path is moderate; plan 6\u20138 months with organized docs and a potential interview. Filing is online; prepare funds, insurance, and ties.",
-      "alignmentValue": 6
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Sweden offers three main immigration status tracks: (1) temporary residence permits for work, study, asylum, or family reunification\u2014granted by the Swedish Migration Agency and valid for the duration of the purpose with possible renewal; (2) permanent residence permits granted after sustained lawful residence under qualifying permits and meeting integration criteria, providing an indefinite right to live and work in Sweden and expanded access to social benefits; (3) Swedish citizenship by naturalisation (after the required period of permanent residence and meeting language, conduct, and income requirements), which confers full political rights, eligibility for a Swedish passport, and the strongest, lasting civil rights. For your US family relocating to SE, a typical path is a work permit or family reunification permit that can lead to permanent residence, followed by citizenship after the required residence period. Start by assessing eligibility with the Swedish Migration Agency, prepare documentation (employment offer or family ties, funds, health coverage), and plan integration steps (language and civic requirements) to optimize timing for citizenship.",
       "sameAsParent": false
@@ -357,13 +352,14 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Stockholm, Sweden: climate stability is high with \u003C=5 severe-weather days; air quality is good; mild summers and cold winters suit a family.",
-      "alignmentValue": 10
+      "alignmentText": "Stockholm, Sweden: climate stability is high with few severe-weather days; air quality is good; mild summers and cold winters fit a family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Sweden\u0027s 5-year real GDP per capita volatility is low, supporting stable family plans and business growth for your relocation.",
-      "alignmentValue": 8
+      "alignmentText": "Sweden (SE) had only 2 recession years in the last 20, signaling stable GDP growth favorable for family relocation and business in SE.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_migration_stability",
@@ -373,15 +369,50 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "In Sweden (SE), political stability is very high, with strong democracy and welfare systems supporting families.",
+      "alignmentText": "In Sweden (SE), political stability is very high, thanks to strong democracy and welfare systems that support families.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Sweden (SE) has \u003C200/100k violent crime, reliable services and strong schools\u2014family-friendly stability for a 2-adult, 2-kid family.",
+      "alignmentText": "In Sweden (SE), violent crime is under 200/100k and services are reliable. Strong schools support a 2-adult, 2-kid family.",
       "alignmentValue": 10,
       "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Sweden startup visa end-to-end ~13\u201316 weeks. Plan ~4 months for founders relocating from Kansas City, USA to SE.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Sweden (SE), without a recognized sponsor, the startup visa path for US first-time applicants can take about 21-28 weeks.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "With a recognized sponsor, Sweden work permits usually take about 7\u20138 weeks end-to-end. Budget around two months in total.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric"
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Sweden shows a stable democracy with minimal autocratization risk over 10-20 years. This supports a safe, open environment for your family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives"
+    },
+    {
+      "key": "stability_media_freedom"
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Sweden\u0027s wealth inequality around 28 on a 0-100 scale; aligns with Sweden\u0027s strong social safety nets, healthcare, and family-friendly policies for expats.",
+      "alignmentValue": 9
     }
   ]
 }

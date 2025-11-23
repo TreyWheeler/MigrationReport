@@ -143,11 +143,6 @@
       "alignmentValue": 6
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "NL startup visa for a US family is lengthy; plan 7-9 months with organized docs. Utrecht offers English-friendly services and startup resources.",
-      "alignmentValue": 2
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "In Utrecht, Netherlands, immigration statuses include: (a) temporary residence permits tied to work, study, family reunification, or entrepreneurship, permitting lawful stay and often work within defined conditions; (b) permanent residence (verblijfsvergunning voor onbepaalde tijd) after years of lawful residence, granting ongoing stay, broad work rights, and access to social benefits; (c) Dutch citizenship by naturalization after meeting residence duration, language/integration requirements, and other criteria, which provides full political rights and a Dutch passport. Action steps: verify your IND visa type and expiry with IND; document years of lawful residence; complete required language and integration benchmarks; maintain continuous residence (no prolonged gaps); gather financial/identity documents for future applications; plan early if pursuing permanent residency or naturalization and monitor changes to requirements; ensure healthcare, schooling, and employment rights remain in scope for dependents (including children).",
       "sameAsParent": false
@@ -361,31 +356,74 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Utrecht, NL offers mild, predictable weather with few extreme events; fits your low climate-risk preference.",
-      "alignmentValue": 8,
+      "alignmentText": "Utrecht, NL remains highly climate-resilient with mild, stable weather and strong flood defenses; aligns with your low climate-risk preference.",
+      "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Netherlands (Utrecht) shows low 5-year GDP per capita volatility, supporting stable family finances and long-term plans.",
+      "alignmentText": "Utrecht, NL: stable economy with only 2 recession years in 20. It supports predictable family finances and solid public services.",
       "alignmentValue": 9
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Netherlands/ Utrecht offers high migration stability: predictable policy changes and English-friendly services support our family\u0027s immigration.",
+      "alignmentText": "Netherlands/Utrecht offers strong migration stability: predictable policy changes and English-friendly services ease our family\u0027s visa and settlement.",
       "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Netherlands (Utrecht) ranks highly on liberal democracy; strong rule of law supports stable, safe, family-friendly living.",
+      "alignmentText": "Utrecht, Netherlands provides strong rule of law and stable institutions; family-friendly policies and good schools match our needs.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "In Utrecht, Netherlands, social QoL is very stable. Violent crime remains well under 200/100k, with reliable utilities and strong public schools.",
+      "alignmentText": "In Utrecht, NL, social QoL is very stable for families; violent crime remains well under 200/100k, with reliable utilities and strong public schools.",
       "alignmentValue": 10,
-      "sameAsParent": true
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Netherlands (Utrecht) self-employed/entrepreneur visa typically 17-20 weeks end-to-end. Plan for a multi-month process given Trey\u2019s startup grants.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Utrecht, NL, non-recognized sponsor visas may take 11-12 weeks end-to-end; plan about 3 months for a decision.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Netherlands (Utrecht) with a sponsor: about 5-6 weeks end-to-end for a Dutch residence permit; plan relocation and onboarding.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Utrecht, NL: anti-immigrant rhetoric exists in mainstream discourse but is not dominant; the area remains progressive and openly inclusive.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Netherlands (Utrecht) remains democratically stable with minimal autocratization. Strong rule of law supports family life and safety.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Key national narratives in the Netherlands center on housing affordability and livability in urban areas like Utrecht, the climate/energy transition (including nitrogen policy and sustainable transport), immigration and integration, and maintaining a robust welfare state with fiscally prudent reforms. Debates also emphasize the rule of law, EU cohesion, healthcare access, and affordable childcare as policy priorities that influence migration, work, and family policies.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Utrecht, NL has top-tier press freedom with diverse, independent outlets; transparent local news supports informed family decisions.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Netherlands shows moderate wealth inequality (Gini ~0.28), aligning with stable, welfare-friendly policy. Utrecht benefits from strong public services for families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

@@ -144,11 +144,6 @@
       "alignmentValue": 7
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "France long-stay visa for a US family: expect 4-6 months; use France-Visas; possible interview at Bordeaux consulate.",
-      "alignmentValue": 7
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "France grants immigration status via: (1) titre de s\u00E9jour (residence permit) for work, study, or family reunification, enabling lawful residence and work; renewal is periodic. (2) carte de r\u00E9sident (permanent/long-term residence) after years of lawful stay, increasing stability and EU mobility. (3) naturalization to French citizenship (typically after about 5 years of continuous residence, with language and integration requirements) providing full civil rights and a passport. Core rights attached include access to healthcare, social benefits, education, work permissions, family reunification, and freedom of movement within the Schengen area. For a US family, start with an appropriate visa, secure a valid residence permit, maintain continuous lawful residence toward permanent status, and track language/integration benchmarks to support potential naturalization.",
       "sameAsParent": false
@@ -362,8 +357,8 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Bordeaux, France has a mild maritime climate with low extreme-weather risk; about 6\u20139 severe weather/AQI days per year.",
-      "alignmentValue": 9,
+      "alignmentText": "Bordeaux, France has a mild maritime climate with low extreme-weather risk; roughly 6-9 severe weather/AQI days per year.",
+      "alignmentValue": 6,
       "sameAsParent": false
     },
     {
@@ -373,19 +368,62 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Migration stability in France/Bordeaux is moderate (level 7). France maintains ongoing but stable visa paths; entrepreneurship grants remain available.",
-      "alignmentValue": 7
+      "alignmentText": "Migration stability in Bordeaux, FR is high with predictable visa routes and active entrepreneur grants.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Bordeaux\u0027s stable governance and family-friendly services support a calm, predictable life in France; good broadband helps remote work.",
+      "alignmentText": "Bordeaux, France benefits from a stable liberal democracy; family-friendly services and reliable broadband support remote work.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Bordeaux, FR offers a safe, family-friendly environment with low violent crime, reliable public services, and strong schools for kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "France\u0027s entrepreneur visa via Bordeaux\u0027s startup ecosystem; expect about 3-4 months end-to-end for a US founder family.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Bordeaux, France, a first-time US applicant without a sponsor may take ~11-16 weeks for a long-stay visa; plan for steps and delays.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "France Bordeaux with a recognized sponsor, the Talent Passport path could take about 7\u20138 weeks end-to-end. Prepare required documents to keep it smooth.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Bordeaux, anti-immigrant rhetoric is moderately salient (RN), shaping local immigration debates.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "France (Bordeaux) shows very mild autocratization (0.01-0.05) 2005-2024; democracy remains broadly intact.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
-      "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Bordeaux, FR offers stable living: violent crime under 200/100k, reliable utilities, and strong public schools for your family.",
-      "alignmentValue": 10
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "France Bordeaux: National narratives center on security and immigration control, economic competitiveness, affordable public services and housing, and climate transition with energy security; ongoing EU sovereignty debates with emphasis on civil liberties and social cohesion. Locally, prioritize safe, inclusive neighborhoods; expand affordable housing and quality public services; advance urban climate resilience and energy-efficient housing; support multilingual integration and accessible childcare; maintain transparent governance and alignment with EU frameworks to minimize social friction.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Media freedom in Bordeaux, FR is strong with diverse outlets (percentile ~85). Supports your values for independent media and informed choices.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "France\u0027s Gini ~29; Bordeaux offers family-friendly neighborhoods and solid public services for your plan.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

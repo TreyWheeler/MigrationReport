@@ -144,11 +144,6 @@
       "alignmentValue": 8
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Finland startup/family permit typically 4-6 months end-to-end; in Oulu, English-friendly processes and strong local support for families.",
-      "alignmentValue": 4
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Finland (Oulu): Immigration status options include a temporary residence permit (work-based or self-employed) or a family-based permit. Permanent residence and citizenship are available after meeting residence, language, and integration requirements. Action steps: (1) determine eligibility with Migri for a temporary permit or through family ties; (2) assemble documents: valid US passport, job offer or business plan, evidence of sufficient funds and health coverage, and proof of family ties if applicable; (3) submit online via Migri and monitor progress; (4) after arrival, register with the Digital and Population Data Services Agency, enroll in language and integration training, and arrange healthcare coverage (Kela); (5) ensure your children have access to quality public schools and affordable childcare; (6) maintain lawful residence to qualify for permanent residence after the required period; (7) later apply for citizenship per Finnish law with guidance from local integration services; (8) coordinate with Kela and tax authorities for social security and benefits; (9) leverage Oulu\u0027s startup/tech ecosystem for funding and community support."
     },
@@ -359,30 +354,76 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Oulu, Finland offers a stable climate with mild summers and cold winters; expect 6-9 severe weather/AQI days per year.",
-      "alignmentValue": 9
-    },
-    {
-      "key": "stability_economic_stability",
-      "alignmentText": "Finland\u0027s Oulu shows very low 5-year GDP per capita volatility and strong social welfare\u2014excellent stability for families.",
+      "alignmentText": "Oulu, Finland enjoys a very stable climate with mild summers; Finland sits in the ND-GAIN top tier for climate stability.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
+      "key": "stability_economic_stability",
+      "alignmentText": "Oulu, Finland offers solid economic stability with just 2 recession years in the last 20 years (2009, 2020), aiding long-term family plans.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
       "key": "stability_migration_stability",
-      "alignmentText": "Finland\u2019s migration policy is highly stable; in Oulu expect predictable rules, steady reforms, and low visa revocation risk.",
-      "alignmentValue": 9
+      "alignmentText": "In Oulu, Finland\u0027s stable immigration regime offers predictable visa rules and low revocation risk for first-time applicants.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Finland\u0027s top-tier stability shines in Oulu with strong rule of law and predictable governance, supporting families.",
+      "alignmentText": "Oulu, Finland benefits from strong, transparent governance and rule of law; stable institutions support families.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Oulu, Finland has very low violent crime and reliable utilities. Excellent schools and family-friendly neighborhoods support a stable, kid-friendly life.",
+      "alignmentText": "Oulu, Finland offers very low violent crime, reliable services, and strong schools; family-friendly neighborhoods support a stable, kid-friendly life.",
       "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Finland startup/entrepreneur permit for first-time applicants in Oulu typically takes 12\u201316 weeks end-to-end. Plan for possible delays; Finland offers startup grants.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Finland self-employment permit (Oulu) likely 13-16 weeks end-to-end without a sponsor. Prepare a solid business plan and funding proof.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "In Oulu, Finland, family residence paths for first-time US applicants are lengthy; without a recognized sponsor, timelines could exceed 28 weeks.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Moderate salience in Finland; anti-immigrant rhetoric exists but is not dominant. Oulu leans toward integration and inclusive policies.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Finland (Oulu) shows no autocratization; a stable democracy with predictable governance and strong civic rights for residents.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Finland\u0027s national political narrative centers on sustaining welfare funding for an aging population, immigration and integration, climate/energy transition with security considerations, and regional tech-driven growth. Public debate also covers housing affordability, taxes and public service costs, education quality, and EU energy coordination; in Oulu this translates into a focus on expanding broadband and smart-city infrastructure, talent pipelines for tech industries, and balanced social cohesion with innovation funding.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Oulu, Finland enjoys strong press freedom; independent media supports transparent, pluralistic daily life for families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Finland (Oulu) shows modest wealth gaps thanks to Nordic welfare; strong local family services support your family plans.",
+      "alignmentValue": 9,
       "sameAsParent": false
     }
   ]

@@ -143,11 +143,6 @@
       "alignmentValue": 7
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Norway\u0027s visa path for a US family: expect 6\u20138 months with organized docs. In-person steps in Trondheim may be required.",
-      "alignmentValue": 6
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Norway recognizes two core immigration statuses with rights tied to duration and eligibility: 1) permanent residence permit (permanent oppholdstillatelse) after several years of lawful residence and meeting integration/self-sufficiency criteria; it unlocks ongoing work rights, access to universal healthcare and social security, and indefinite residence. 2) citizenship (statsborgerskap) after meeting residency duration (typically about seven years within the last ten) plus language and civic-knowledge requirements; it grants full political rights (vote at all levels), a Norwegian passport, and enhanced social integration privileges. Temporary permits (work, study, family reunification) provide residence/work rights for the permit duration and can lead to permanent status if criteria are met. Action steps for Trondheim: confirm current status with the UDI, track residence duration and language/civics progress, enroll in Norwegian language and civics courses, assemble key documents (passport, permits, housing and employment records, health insurance), and map a naturalization timeline if long-term stay is intended.",
       "sameAsParent": false
@@ -353,29 +348,75 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Trondheim, Norway offers strong climate stability with mild, predictable seasons and few severe weather days; ideal for a family-friendly, low-stress life.",
-      "alignmentValue": 9
+      "alignmentText": "Trondheim, Norway enjoys exceptionally stable, mild weather with few extremes; ideal for a low-stress, family-friendly lifestyle.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Trondheim, Norway has a stable, low-volatility economy with limited recession exposure, supporting long-term family plans.",
+      "alignmentText": "Trondheim, Norway offers a stable economy with about 2 recession years in 20. Welfare and tech sectors support family security here.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Very stable, transparent immigration in Norway with strong rights and tech visas; Trondheim offers family-friendly policies and English-friendly services.",
+      "alignmentText": "Very stable migration climate in Norway, with Trondheim offering family-friendly policies. English-friendly services and strong welfare support fit this family.",
       "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Norway is among the world\u0027s most politically stable democracies; Trondheim enjoys transparent governance and strong social safety nets.",
-      "alignmentValue": 10
+      "alignmentText": "Norway ranks among the world\u0027s most stable democracies; Trondheim offers transparent governance and strong social safety nets for families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Trondheim, Norway offers very high social stability with crime under 200/100k and reliable utilities plus strong schools for your family.",
+      "alignmentText": "Trondheim, Norway offers very high social stability; violent crime well under 200/100k, reliable services, and strong bilingual-friendly schools.",
       "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Norway entrepreneur visa typically 13-16 weeks end-to-end; in Trondheim, prepare business plan and funding proofs for smoother processing.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Trondheim, Norway: without a recognized sponsor, immigration options are limited. Expect \u003E28 weeks with unpredictable steps.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Trondheim, Norway: with a recognized sponsor, skilled worker visas typically take 11-12 weeks end-to-end. This fits the family\u0027s tech plans.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Trondheim (NO) shows moderate anti-immigrant rhetoric in mainstream politics, but Norway\u0027s inclusive migration policies guide debates.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Norway (Trondheim) remains stable and democratic; autocratization risk is very low.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Norway-wide political narratives emphasize a green transition and economic diversification beyond oil, while preserving a generous welfare state and debating tax levels and public spending. Immigration, integration and social cohesion remain central, alongside climate action funding and energy policy. In Trondheim, policymakers focus on housing affordability and supply, sustainable urban mobility, and maintaining high-quality education and healthcare as knowledge and tech sectors expand.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Trondheim enjoys Norway\u0027s top-tier media freedom (~95th percentile); expect open reporting, diverse outlets, and minimal censorship.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Trondheim benefits from Norway\u0027s strong welfare system and low inequality. Disposable-income Gini sits in the high-20s (\u224827\u201329%), signaling stable wealth.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

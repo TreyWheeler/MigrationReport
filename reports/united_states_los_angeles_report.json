@@ -144,12 +144,6 @@
       "alignmentValue": 8
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Los Angeles, US: US citizens relocating within the United States; no visa needed. Domestic move to CA is straightforward and quick.",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Los Angeles, CA: U.S. permanent residency (Green Card) grants lawful permanent resident status with work authorization and a path to citizenship; it does not grant federal voting rights. Eligible pathways include family sponsorship, employment-based petitions, asylum/refugee relief, or the Diversity Visa (DV) lottery. Action steps: confirm the applicable pathway, assemble required documents (identity, proof of relationship or employment, immigration history, financials), file for adjustment of status or consular processing with USCIS or a U.S. embassy/consulate, and maintain status with timely renewals. Seek guidance from a California-licensed immigration attorney or accredited representative; utilize local LA nonprofit clinics for affordable help; monitor processing times; plan for naturalization if eligible; after status is granted, explore California benefits such as driver license eligibility and potential in-state tuition options.",
       "sameAsParent": false
@@ -370,7 +364,8 @@
     {
       "key": "stability_climate_stability",
       "alignmentText": "Los Angeles, USA offers a mild year-round climate. For your family, expect about 10-13 severe weather/AQI days per year.",
-      "alignmentValue": 8
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
@@ -380,13 +375,13 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "US/LA policy shows moderate shifts; LA startup visas exist, but federal rules can change residency, impacting this KC-origin family\u0027s LA tech plans.",
+      "alignmentText": "US/LA immigration policy shows shifts; LA startup visa options exist, but federal rules can affect residency, impacting this KC-origin family\u0027s LA plans.",
       "alignmentValue": 7,
-      "sameAsParent": false
+      "sameAsParent": true
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Los Angeles, USA shows high liberal-democracy indicators and strong civil liberties; stable institutions support your family\u0027s long-term plans.",
+      "alignmentText": "Los Angeles, CA, USA shows strong liberal-democracy indicators and civil liberties; stable institutions support your family\u0027s long-term plans.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -394,6 +389,46 @@
       "key": "stability_social_and_quality_of_life_stability",
       "alignmentText": "Los Angeles has family-friendly neighborhoods and strong schools. Safety varies by area, with some safe, walkable communities.",
       "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "US citizen relocating to Los Angeles; no entrepreneur/self-employment visa needed; timeline effectively immediate.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Los Angeles, as US citizens, there\u2019s no non-sponsored visa path; immigration is effectively immediate with your US passport.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "US citizen; no international visa required for LA relocation; sponsorship timing not applicable.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Anti-immigrant rhetoric remains moderately salient nationwide. In LA, local policy and communities tend to be welcoming, aligning with your progressive, inclusive family values.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "United States (Los Angeles): mild autocratization trend observed; democratic norms remain resilient with active civil society.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_dominant_political_narratives"
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Los Angeles, USA has strong press freedom and diverse outlets; expect pluralistic, independent media coverage for your family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Los Angeles, US, has high wealth inequality; this affects housing and opportunity. The family may prefer places with more equal wealth distribution.",
+      "alignmentValue": 1,
+      "sameAsParent": false
     }
   ]
 }

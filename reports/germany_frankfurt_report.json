@@ -141,11 +141,6 @@
       "alignmentValue": 6
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Frankfurt startup visa is feasible with organized docs; plan roughly 4-6 months end-to-end, with a possible interview.",
-      "alignmentValue": 4
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Germany recognizes several immigration statuses that determine rights and duration of stay: 1) Aufenthaltstitel (residence permit) for work, study, or family reunification\u2014confers lawful residence, work authorization, and access to public services; 2) EU Blue Card for highly skilled workers\u2014specialized work rights with a faster route to permanent residence and reduced language/income hurdles; 3) Niederlassungserlaubnis (permanent settlement permit) after years of lawful residence\u2014permanent residence and broad work rights; 4) German citizenship by naturalization\u2014usually after 8 years (reduced to 6 with integration), granting full political rights and broad travel freedom. Rights associated with these statuses include access to healthcare, education, social benefits, ability to sponsor family, and EU freedom of movement. Actionable steps: coordinate with the Ausl\u00E4nderbeh\u00F6rde, assemble documents (passport, visa/permit, proof of income, housing, health insurance, language/integration certificates), and track residency milestones toward permanent residency or citizenship."
     },
@@ -358,29 +353,73 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Frankfurt, Germany has a temperate, mild climate with gentle seasons; supports your low-stress, stable lifestyle.",
-      "alignmentValue": 9
+      "alignmentText": "Frankfurt\u0027s temperate climate offers mild seasons and reliable conditions, aligning with your low-stress, stable family lifestyle.",
+      "alignmentValue": 4
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Frankfurt, Germany offers a stable economy with low 5-year GDP-per-capita volatility, aligning with the family\u0027s long-term plans.",
-      "alignmentValue": 9
+      "alignmentText": "Frankfurt, Germany offers a stable economy with only a few recession years in 20 years. This fits your long-term family plans and thriving tech/finance scene.",
+      "alignmentValue": 8
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Germany\u0027s skilled-migration reforms are ongoing but stable; Frankfurt offers clear visa paths and business support for families.",
+      "alignmentText": "Germany\u0027s skilled-migration reforms are ongoing but stable. Frankfurt offers clear visa paths and strong family support.",
       "alignmentValue": 8
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Frankfurt, Germany offers strong political stability with predictable governance, solid rule of law, and reliable public services for families.",
+      "alignmentText": "Frankfurt, Germany enjoys high political stability and predictable governance. Public services are reliable, supporting families.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Frankfurt, Germany offers strong social stability with low crime and reliable utilities; high-quality public schools support your family.",
+      "alignmentText": "Frankfurt, Germany offers strong social stability with low crime, reliable utilities, and universal healthcare; good public schools support your family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Germany\u0027s entrepreneur visa path in Frankfurt typically takes 17\u201320 weeks end-to-end. Plan for a lengthy, multi-step process including funding checks.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Frankfurt, Germany: non-sponsor visas typically 17\u201320 weeks end-to-end (4\u20135 months). Expect some bureaucracy\u2014plan early for the family.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Frankfurt, DE with a recognized sponsor: expect 7\u20138 weeks end-to-end for visa processing (Blue Card or self-employed path).",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Germany\u0027s anti-immigrant rhetoric is present but not dominant; Frankfurt\u0027s politics remain pluralistic and generally pro-immigration.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Germany (Frankfurt, DE) shows a stable democracy with minimal autocratization over 10-20 years; strong rule of law supports family life and rights.",
       "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "National discourse focuses on housing affordability, immigration and integration, energy prices and the pace of the energy transition, crime/safety, and EU cohesion; for the Frankfurt region this translates into emphasis on skilled migration and startup-friendly policy, affordable childcare, reliable public services, and steady broadband/education investments to support families and growth.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Germany/Frankfurt has robust, pluralistic media with strong safeguards, supporting your family\u0027s preference for independent, low-propaganda coverage.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Germany/Frankfurt has moderate wealth inequality (Gini ~32), fitting a stable, family-friendly setting with strong social protections.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     }
   ]
 }

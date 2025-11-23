@@ -143,11 +143,6 @@
       "alignmentValue": 7
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Spain family visa is manageable but doc-heavy in Madrid; plan 4-6 months with organized evidence and potential Madrid consulate interview.",
-      "alignmentValue": 7
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Spain (Madrid) recognizes two main long-term immigration statuses for your family: permanent residency and citizenship. Permanent residence (residencia permanente) is typically granted after about 5 years of continuous legal residence and allows you to live and work in Spain with access to public healthcare and social services; it does not confer a Spanish passport, but it enables long-term settlement and a smoother path to citizenship. Citizenship by naturalization generally requires about 10 years of legal residence (with shorter timelines for certain groups, including nationals of Ibero-American countries, Andorra, the Philippines, Equatorial Guinea, Portugal, and Sephardic origin) and provides full civil rights, eligibility for a Spanish passport, and voting rights. Both routes require an entry or residence permit obtained via the Spanish consulate or local Extranjer\u00EDa offices, proof of income or means, health coverage, and integration steps (language, civic knowledge). Actionable steps for Madrid: choose the appropriate visa track (work/entrepreneur or family reunification); progressively meet the 5-year mark for permanent residence; monitor eligibility and prepare for naturalization if long-term settlement remains the goal; gather required documents (passport, background checks, proof of residency, health insurance); consult official portals or an immigration professional for current forms and processing times."
     },
@@ -359,31 +354,72 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Madrid\u0027s hot, dry summers bring 26-30 AQI/severe-weather days yearly. Climate stability is moderate for families in Spain.",
+      "alignmentText": "Madrid\u0027s hot, dry summers with mild winters. Climate stability is moderate for families in Spain.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Madrid\u0027s diverse economy and EU backing support startups and families; Spain faced 7 recession years, giving moderate stability.",
       "alignmentValue": 4,
       "sameAsParent": false
     },
     {
-      "key": "stability_economic_stability",
-      "alignmentText": "Madrid\u0027s diversified economy and EU backing offer stable conditions for a startup and family life, though Spain faced several recession years.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
       "key": "stability_migration_stability",
-      "alignmentText": "Spain\u0027s immigration framework remains stable; Madrid\u0027s founder visas and a growing tech scene support founders.",
+      "alignmentText": "Spain\u0027s immigration framework remains stable; Madrid\u0027s founder visa and a growing startup ecosystem support US founders like Trey and Sarah.",
       "alignmentValue": 8
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Madrid, Spain shows very high political stability with strong rule of law and predictable governance; family-friendly policies support long-term planning.",
-      "alignmentValue": 10,
+      "alignmentText": "Madrid, Spain shows strong political stability with rule of law and predictable governance. Family-friendly policies support long-term planning.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Madrid, Spain provides low violent crime, reliable utilities, and family-friendly neighborhoods with strong schools for a stable family life.",
+      "alignmentText": "Madrid, Spain offers low violent crime, reliable utilities, and family-friendly neighborhoods with strong schools for a stable family life.",
       "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Madrid, Spain entrepreneur visa timeline: expect 17-20 weeks end-to-end; prep business plan and local registrations.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Madrid, ES: For a first-time US family with no sponsor, visa timeline ~11-12 weeks end-to-end; plan for bureaucracy.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Madrid, Spain: with a recognized sponsor, first US visa may take 13-16 weeks end-to-end; plan for potential delays.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Madrid, Spain shows moderate anti-immigrant rhetoric in mainstream politics. It\u0027s not the dominant national narrative.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Madrid, Spain shows negligible autocratization over 10-20 years; democracy is robust and family-friendly.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In Madrid, dominant political narratives center on economic recovery and inflation relief for households, housing affordability, and sustained social-welfare funding; debates on regional autonomy (including Catalonia) and immigration integration; adherence to EU fiscal rules; climate transition and energy-price policy; with a focus on stable governance, job creation, and high-quality public services to address unemployment and the cost of living.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Madrid, Spain has strong media freedom with diverse outlets and EU safeguards; RSF score sits in the high 70s.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Madrid, Spain: Gini ~0.34 (mid-range); stable services and family-friendly neighborhoods support your family.",
+      "alignmentValue": 7
     }
   ]
 }

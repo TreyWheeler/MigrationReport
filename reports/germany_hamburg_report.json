@@ -144,12 +144,6 @@
       "sameAsParent": false
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Hamburg, Germany: US citizens\u2014Blue Card/work visa path; ~21\u201328 weeks end-to-end with organized docs and in-person steps.",
-      "alignmentValue": 3,
-      "sameAsParent": false
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Germany supports multiple immigration statuses with rights that build over time: 1) Aufenthaltserlaubnis (temporary residence) tied to work, study, or family; 2) EU Blue Card for highly skilled workers with a job offer and a salary threshold; 3) Niederlassungserlaubnis (permanent settlement permit) after several years of lawful residence and basic integration; 4) German citizenship by naturalization after typically 6\u20138 years of residence plus language and legal-system knowledge, with possible shorter timelines in specific cases. Rights associated with these statuses include work authorization, access to health care and social benefits, and, at citizenship, full civil and political rights and a German passport. Action steps for Hamburg: coordinate with the local Ausl\u00E4nderbeh\u00F6rde, determine the most suitable path (employment-based permit, Blue Card, or family reunification), assemble required documents (passport, proof of income, health insurance, degree recognition, language certificates), pursue language and integration milestones, and monitor timelines for visa renewals and potential naturalization.",
       "sameAsParent": false
@@ -365,31 +359,72 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Hamburg, Germany\u0027s mild maritime climate offers low disruption for your family; about 6-9 severe weather/AQI days per year align with your preferences.",
+      "alignmentText": "Hamburg, Germany\u0027s temperate maritime climate supports stable family routines; 6-9 severe weather/AQI days per year match your mild-weather preference.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Hamburg, Germany offers stable GDP-per-capita and strong social supports, matching your family-friendly, entrepreneurship-focused plan.",
+      "alignmentText": "Hamburg, Germany\u0027s economy shows two recession years in the last two decades (2009, 2020) but remains relatively stable with strong social supports.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Hamburg, Germany offers a stable EU migration framework with skilled visas and startup support, aligning with a family-focused relocation.",
+      "alignmentText": "Hamburg, Germany offers a stable EU migration framework with skilled visas and startup support. This suits the family\u2019s needs for a family-friendly relocation.",
       "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Hamburg, Germany offers high political stability with strong rule of law and reliable public services, matching your family\u0027s safety and education priorities.",
+      "alignmentText": "Hamburg, Germany offers strong rule of law and reliable public services. Safe, family-friendly neighborhoods support your education and well-being goals.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Stability high in Hamburg. Violent crime is well under 200/100k with reliable utilities and solid schools supporting family life.",
+      "alignmentText": "Stability very high in Hamburg. Violent crime is well under 200/100k with reliable utilities and solid schools for families.",
       "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Hamburg, Germany: entrepreneur visa often 6\u201312\u002B months, with bureaucratic steps and potential delays.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Hamburg, DE: visa paths without a recognized sponsor can exceed 28 weeks and be uncertain. US applicants should plan for bureaucratic variability.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Hamburg, DE: with a recognized sponsor, expect visa end-to-end in about 7-8 weeks. Allow time for docs and checks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Hamburg shows moderate anti-immigrant rhetoric in mainstream politics; it\u0027s present but not dominant, with cautious migration debates.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Hamburg, Germany remains a stable democracy with strong civil liberties; autocratization trend is near zero. Family-friendly services and good public schools support your plan.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Hamburg-specific political narratives emphasize affordable housing, efficient public transit, and inclusive migrant services, within a broader climate-protective energy transition. City policy also prioritizes civil liberties, welfare modernization, and digital services to support sustainable, cosmopolitan urban growth.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Hamburg, Germany benefits from strong media freedom with independent outlets; diverse reporting supports transparent daily life for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Hamburg, Germany has moderate inequality (Gini ~30\u201333), supporting stable families with strong social systems.",
+      "alignmentValue": 8
     }
   ]
 }

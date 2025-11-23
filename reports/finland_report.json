@@ -148,11 +148,6 @@
       "sameAsParent": false
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Finland\u0027s family-residence path for a US family is moderate; expect organized docs and possibly an interview, with about 6-8 months processing.",
-      "alignmentValue": 6
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Finland\u0027s main immigration statuses are temporary residence permits, permanent residence permits, and Finnish citizenship. Temporary permits are issued based on purpose (work, study, family ties) and conditions (sufficient means, health insurance). Permanent residence is granted after long, lawful residence and meeting integration/self-sufficiency requirements. Citizenship is granted by naturalization after a qualifying residence period, language skills, and financial independence. Rights: temporary permits confer lawful stay and work rights for the permit duration; permanent residence enables long-term stay with work rights and broad access to social services; citizenship provides full political rights (vote in national and municipal elections), eligibility for a Finnish passport, and strongest social rights. Action steps for the family: align visa paths with Trey\u0027s work needs, enroll in Finnish language and integration programs to meet language and civic requirements, track residence duration, prepare documentation for permit renewals and eventual naturalization, and consult Migri or an immigration lawyer for timelines and required forms, to secure long-term housing and income to support self-sufficiency."
     },
@@ -360,31 +355,73 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Finland generally has climate stability with about 6\u20139 severe weather/AQI days per year; winters are cold but air stays clean.",
+      "alignmentText": "Finland offers strong climate stability and clean air; winters are cold but predictable, and summers are mild, matching your mild year-round preference.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Finland\u0027s economy is highly stable with low volatility and a strong welfare state. This supports long-term family relocation and Trey\u0027s ventures in a predictable market.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Finland\u0027s economy has only two recession years (2009, 2020) in 20 years, signaling a stable base for family relocation and Trey\u0027s ventures.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Finland\u0027s immigration remains stable and startup-friendly (Helsinki area). Clear rules and low revocation risk suit your family.",
-      "alignmentValue": 8
+      "alignmentText": "Finland\u0027s Helsinki area offers stable, clear immigration rules and startup support. This helps your family with a smoother visa path and favorable grants.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "In Finland, strong institutions and safety back your family-friendly, progressive plan with universal healthcare and top schools.",
+      "alignmentText": "Finland\u0027s very high LDI signals strong institutions and safety. It supports your family-friendly, progressive plan with universal healthcare and top schools.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Finland offers top social stability; violent crime is well under 200/100k. Universal healthcare and strong public schools support families.",
+      "alignmentText": "Finland\u0027s social stability is high; violent crime remains well below 200 per 100k, with universal healthcare and strong public schools supporting your family.",
       "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Finland startup permit for US founders often spans 13-16 weeks; expect a several-month process and plan funding readiness.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Finland non-sponsored residence routes likely take 21-28 weeks end-to-end; for a US family with two kids, startup or entrepreneur paths may help.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Finland with a recognized sponsor: visa end-to-end ~11\u201312 weeks. Helsinki-area tech hubs support founders and remote/hybrid work options.",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Finland, anti-immigrant rhetoric is present but not dominant; True Finns maintain a modest, stable share in recent campaigns.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Finland remains a stable democracy with minimal autocratization; Helsinki\u0027s transparent governance supports civil liberties and predictable services.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In Finland, political narratives center on sustaining the welfare state with prudent public finances, advancing the green transition and climate policy, and careful immigration and integration; they also emphasize affordability (inflation and housing), sustained EU cooperation, and energy security/defense amid regional tensions.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Finland ranks among the world\u0027s freest presses; expect pluralistic media and strong transparency in Helsinki and across Finland.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Finland\u0027s wealth inequality is low (Gini ~27%), bolstered by universal healthcare and Nordic family-friendly policies.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

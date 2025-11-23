@@ -140,11 +140,6 @@
       "alignmentValue": 7
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Portugal\u0027s D2 visa works for US founders. For your family in Lisbon/Porto, expect ~4\u20136 months end-to-end with organized docs and some in-person steps.",
-      "alignmentValue": 4
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Portugal offers multiple immigration statuses for U.S. families relocating there. Key tracks: 1) Autoriza\u00E7\u00E3o de Resid\u00EAncia Tempor\u00E1ria (temporary residence permit) for work, study, or family reunification, with live/work rights for a defined period and renewable; 2) Autoriza\u00E7\u00E3o de Resid\u00EAncia Permanente (permanent residence) after about five years of legal residence, enabling long-term stay and easier renewal; 3) Cidadania Portuguesa (Portuguese citizenship) by naturalization after roughly five years of residence, with language/integration requirements, granting full civil and political rights (including voting) and access to social benefits; 4) Residente de Longa Dura\u00E7\u00E3o (EU long\u2011term resident) status after five years, providing EU\u2011wide residence/work rights; 5) other pathways such as family reunification, marriage, descent, or startup/entrepreneur visas for founders. Action steps: determine primary route (family reunification, work, or entrepreneurship), obtain a valid permit via the Portuguese consulate, secure a NIF/tax ID and health coverage, maintain lawful residence for five years to apply for permanent residence, and pursue citizenship later if desired (meeting language/integration criteria). Consider a language plan early to support naturalization.",
       "sameAsParent": false
@@ -359,31 +354,73 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Portugal\u0027s Atlantic climate offers mild winters and few severe weather days; air quality is typically good, supporting a stable family environment.",
+      "alignmentText": "Portugal\u0027s Atlantic climate offers mild winters and few extremes, supporting a stable, low-risk family environment. Air quality is good for daily life.",
       "alignmentValue": 9
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Portugal\u0027s EU-backed growth offers stability. Past recessions (2009-2013, 2020) are offset by family-friendly policies aiding relocation for this family.",
-      "alignmentValue": 5
+      "alignmentText": "Portugal shows moderate economic stability; 2009\u20132013 and 2020 were recession years, yet EU-backed growth supports family relocation.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Portugal (PT) has stable immigration policy with modest revocation rates, favorable for family relocation from the US.",
+      "alignmentText": "Portugal\u0027s residency routes (D7/Golden Visa) remain stable for US families. Modest updates keep timelines predictable and pathways clear.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Portugal\u0027s robust liberal democracy and low unrest offer a stable, family-friendly setting for your life in Portugal.",
+      "alignmentText": "Portugal\u0027s liberal democracy and low unrest offer a stable, family-friendly life for your family in Portugal (Lisbon/Porto).",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Portugal (PT) is very safe with reliable utilities and strong schools/healthcare, supporting a stable, family-friendly life for this family.",
+      "alignmentText": "Portugal (PT) offers low crime and reliable utilities. It has strong schools and healthcare, making a safe, family-friendly life for this KC family.",
       "alignmentValue": 10,
       "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Portugal startup visa for entrepreneurs typically 11-12 weeks end-to-end; plan for several months for Trey\u2019s venture in PT.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Portugal (PT): visa processing without a recognized sponsor is about 13-16 weeks end-to-end; plan a multi-month timeline for the Trey/Sarah family.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Portugal (PT) with a recognized sponsor: first-time work visa for a US family. Expect about 9-10 weeks end-to-end.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Portugal, anti-immigrant rhetoric remains moderate. Chega holds seats but does not dominate national discourse.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Portugal remains a stable democracy with no autocratization in 10\u201320 years. Strong rule of law supports families across the country.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Portugal\u0027s political discourse centers on preserving universal public services, easing housing and cost-of-living pressures, accelerating green and digital transformation, maintaining EU-aligned public finances, and strengthening inclusive policies for migrants and youth, with continued emphasis on rule-of-law resilience.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Portugal has strong press freedom with plural outlets and low government interference; RSF ranks it highly.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Portugal\u0027s Gini around 32 signals a stable, family-friendly environment with universal healthcare and strong remote-work options.",
+      "alignmentValue": 8
     }
   ]
 }

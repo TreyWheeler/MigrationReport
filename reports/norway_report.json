@@ -141,11 +141,6 @@
       "alignmentValue": 5
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Norway offers online skilled-worker permits for US families; typical 3\u20134 months. Founder routes exist but may take longer and need incubator support.",
-      "alignmentValue": 8
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Norway provides two primary immigration statuses with corresponding rights: permanent residence and citizenship. Permanent residence (permanent oppholdstillatelse) is typically earned after several years of lawful residence (through work, family ties, or study) and meeting integration criteria; it allows indefinite stay and work and access to most social benefits, subject to ongoing conditions. Citizenship (Norsk statsborgerskap) requires longer lawful residence plus language and civics competence and a citizenship test, after which individuals gain full political rights (including voting) and a Norwegian passport. Temporary residence permits exist for work, study, family reunification, or protection and carry limited, time-bound rights; to pursue a plan, track residence duration, complete language/civics requirements, and submit applications via the Norwegian Directorate of Immigration (UDI) when eligible."
     },
@@ -355,30 +350,76 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Climate Stability in Norway is strong for your family. It offers a mild climate and good air quality; expect a few winter storms per year, not extremes.",
-      "alignmentValue": 8
+      "alignmentText": "Climate stability in Norway is strong for your family: mild year-round climate and clean air, with only occasional light winter storms.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Norway\u0027s stable, welfare-led economy offers predictable incomes and strong family safety nets for households like yours.",
-      "alignmentValue": 10
+      "alignmentText": "Norway\u0027s welfare-led economy shows stability with about 2 negative-growth years in 20, offering predictable incomes for families like yours in Norway.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Norway\u0027s stable, transparent immigration system with strong welfare and broad English use suits your tech family in NO.",
+      "alignmentText": "Norway\u0027s stable, transparent immigration system and strong welfare suit your tech family in Norway; broad English use eases integration.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Norway ranks among the world\u0027s most politically stable nations with strong rule of law, aligning with your family-friendly education and welfare priorities.",
+      "alignmentText": "Norway\u0027s LDI percentile \u003E=90 shows very stable institutions. This supports your family-friendly welfare, schooling, and low-bureaucracy lifestyle in Norway.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Norway\u0027s very low violent crime and reliable services support safety. Its universal schooling backs your kids\u0027 education.",
+      "alignmentText": "Norway\u0027s low violent crime and universal healthcare keep families safe. Great public services and quality schools support your kids\u0027 education and family life.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Norway entrepreneur permits (UDI) typically take months. Plan for about 4-5 months end-to-end.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Immigration to Norway without a recognized sponsor for this family is lengthy. Expect \u003E28 weeks with potential UDI delays (Oslo).",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Norway skilled worker visa with sponsor: expect about 9\u201310 weeks end-to-end for first-time applicants.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Norway, anti-immigrant rhetoric exists in some campaigns but is not dominant; mainstream politics remains relatively inclusive.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Norway maintains a stable democracy with no autocratization trend in 10\u201320 years. Families can expect predictable governance and strong civil liberties.",
       "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Norway\u2019s national discourse centers on preserving the welfare state and universal public services while managing a staged transition away from oil toward green jobs, balancing climate action with energy security; immigration and integration policy remains a hot topic; housing affordability and regional disparities shape demand for tax-financed public services and more efficient government; trust in institutions guides policy expectations.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Norway (NO) offers top-tier press freedom (RSF ~90\u002B%), with independent outlets and minimal government interference - a diverse media environment for your family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Norway shows relatively low wealth inequality (Gini ~25-29 after tax), aligning with your values and Norway\u0027s strong welfare system.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

@@ -145,12 +145,6 @@
       "alignmentValue": 6
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Express Entry end-to-end to Vancouver is roughly 4-5 months for our tech family; Vancouver\u0027s English-friendly, startup ecosystem aids transition.",
-      "alignmentValue": 4,
-      "sameAsParent": true
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Vancouver, BC recognizes three immigration statuses: Canadian citizen, permanent resident (PR), and temporary resident (visitor, student, or worker). Rights by status: citizens have full political rights and a Canadian passport; PRs can live/work/study anywhere in Canada, access most social benefits and provincial health coverage, and sponsor family; temporary residents have defined stay periods tied to their permits, with no voting rights and limited benefits. For long-term planning, pursue PR or citizenship via Express Entry or BC PNP, maintain residency and language requirements, keep documentation up to date, and monitor a path that maintains status. US citizens are visa-exempt for short visits but may require an eTA for air travel."
     },
@@ -363,31 +357,76 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Vancouver, Canada offers a mild coastal climate with few extremes; expect roughly 6-9 severe weather/AQI days per year.",
-      "alignmentValue": 9
+      "alignmentText": "Vancouver\u0027s mild coastal climate aligns with your preference for low extremes; expect 6-9 severe weather/AQI days per year.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Vancouver\u0027s diversified services/tech economy in BC offers steady growth and family-friendly stability, aligning with your plan.",
+      "alignmentText": "Vancouver, Canada, has a diversified tech/services economy with steady growth; family-friendly neighborhoods and a mild climate align with your plan.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Migration stability in Vancouver, Canada: 9. Canada\u0027s immigration policy is stable with few overhauls and low revocation risk.",
+      "alignmentText": "Migration stability in Vancouver, Canada: 9. Canada\u0027s policy remains stable with few overhauls, helping first-time applicants and flexible families here.",
       "alignmentValue": 9,
       "sameAsParent": true
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Canada ranks highly for political stability; Vancouver offers predictable governance and inclusive policies for families.",
+      "alignmentText": "V-Dem LDI percentile in Canada is very high; Vancouver\u0027s stable governance and inclusive, family-friendly policies fit your profile.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Vancouver, Canada offers stability with 200-249 violent crimes per 100k, reliable utilities, and strong public schools for your family.",
+      "alignmentText": "Vancouver offers family-friendly neighborhoods with strong schools and parks; violent crime around 200-250 per 100k keeps safety solid and walkable.",
       "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Vancouver Start-up visa path is long: 12-16 months end-to-end for entrepreneurs, with designated organization support and local startup funding options.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Immigration in Vancouver, Canada without a sponsor is lengthy and unpredictable. End-to-end timelines often exceed 28 weeks.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Vancouver, Canada: with a recognized sponsor (Global Talent/LMIA), end-to-end visa processing could be under 4 weeks for first-time applicants.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Vancouver, Canada shows low mainstream anti-immigrant rhetoric; immigration-friendly policies align with your family\u0027s plans.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Vancouver, BC, Canada remains a stable democracy with strong civil liberties. No autocratization trend evident in recent years.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Metro Vancouver political discourse centers on housing affordability and urban density, climate action and transit investment, immigration and inclusive multiculturalism, healthcare funding, and Indigenous reconciliation; debates emphasize housing supply, cost of living, sustainable growth, and fiscal balance.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Vancouver\u0027s media remains pluralistic and independent with strong protections; Canada\u0027s press freedom ranks among the world\u0027s best.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Vancouver, Canada: moderate wealth inequality (Gini ~31); universal healthcare and stable services, but housing costs remain high.",
+      "alignmentValue": 8,
       "sameAsParent": false
     }
   ]

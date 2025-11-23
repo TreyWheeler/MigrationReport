@@ -139,12 +139,6 @@
       "alignmentValue": 7
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Netherlands immigration for a US family: roughly 4-6 months with organized docs; startup visa needs sponsor or a solid business plan.",
-      "alignmentValue": 4,
-      "sameAsParent": false
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "In the Netherlands, immigration status is issued by the IND and covers several paths: (a) temporary residence permit (verblijfsvergunning) tied to work, study, or family reunification, with work rights governed by the permit conditions; (b) permanent residence (verblijfsvergunning voor onbepaalde tijd) after roughly five years of lawful residence with a valid permit and meeting integration requirements; (c) EU long-term resident status (duurzaam verblijf) after five years of lawful residence, granting broad work, study, and social benefits rights across the EU; (d) naturalization to Dutch citizenship after typically five years of continuous lawful residence plus language and civic integration requirements and good character considerations; (e) family member and highly skilled migrant routes obtained via employer sponsorship or family ties. Rights associated with these statuses generally include work authorization, access to healthcare and education, eligibility for certain social benefits, and, for permanent residents or citizens, greater stability, the ability to sponsor relatives under conditions, and enhanced mobility within the EU. Action steps for your family: determine the most suitable initial route (likely work- or family-based temporary permit); assemble documents (passports, birth/marriage certificates, proof of income or job offer, proof of relationship); begin language and civic integration preparation if required; submit the application through the Dutch IND; after arrival and registration, obtain health insurance and register with your municipality; monitor time in residence toward applying for permanent residence after ~5 years and, if eligible, pursue naturalization for citizenship.",
       "sameAsParent": false
@@ -357,29 +351,71 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Netherlands\u0027 mild maritime climate has few extreme days. Climate stability aligns with a high ND-GAIN percentile (80-89) for the family\u0027s plan.",
+      "alignmentText": "Netherlands\u0027 mild maritime climate means few extreme days. ND-GAIN puts NL climate stability in the 80-89 percentile, aligning with your family\u0027s plan.",
       "alignmentValue": 9
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Netherlands has low GDP-per-capita volatility, aiding long-term planning. High quality of life with universal healthcare and solid schools supports your family.",
+      "alignmentText": "Netherlands offers strong economic stability (about 2 recession years in 2005-2024), with universal healthcare and solid schools for your family.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Netherlands immigration policy is stable and predictable. EU mobility support benefits a family planning to relocate to NL.",
+      "alignmentText": "Netherlands immigration policy remains stable and predictable for this first-time visa applicant family; EU mobility supports relocation to NL.",
       "alignmentValue": 8
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Netherlands ranks highly in political stability (World Bank), offering predictable governance, strong rule of law, and supportive family policies in NL.",
-      "alignmentValue": 10
+      "alignmentText": "Netherlands shows high liberal-democracy quality; stable governance and strong rule of law support families relocating to the Netherlands.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "In the Netherlands, violent crime is very low and utilities are reliable. Strong schools and social services support stable family life.",
+      "alignmentText": "In the Netherlands, violent crime is very low and social services are strong; families benefit from high-quality public schools and universal healthcare.",
       "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Netherlands self-employed/entrepreneur path typically 13-16 weeks end-to-end. Plan for about 3-4 months.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Netherlands self-employed path (no sponsor) ~17\u201320 weeks end-to-end; expect slower, complex processing.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Netherlands (NL) with a recognized sponsor can target about 5-6 weeks end-to-end visa processing. Your founder and web-dev profiles fit NL startup or Highly Skilled routes.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Netherlands shows moderate anti-immigrant rhetoric in mainstream politics (PVV presence). Yet governance remains pluralistic.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Netherlands maintains stable democracy; autocratization trend near zero over 10\u201320 years\u2014good safety and predictable governance for families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In the Netherlands, dominant political narratives focus on housing affordability, climate policy and the energy transition, immigration and integration, and sustaining a robust welfare state within EU rules. Debates on public safety, healthcare funding, education quality, and taxation reflect a pragmatic, coalition-based policymaking culture rooted in consensus (the \u0027polder model\u0027). Economic competitiveness, inflation management, and EU alignment remain core priorities as parties seek broad support across urban and regional divides.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Netherlands (NL) has strong press freedom with independent media nationwide, aiding informed family decisions.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Netherlands\u0027 disposable-income Gini sits in the high-20s, reflecting strong social programs and family-friendly policies ideal for a two-kid family.",
+      "alignmentValue": 9
     }
   ]
 }

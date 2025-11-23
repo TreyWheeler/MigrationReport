@@ -541,47 +541,137 @@
             ]
         },
         {
-            "key": "integration_immigration_effort",
+            "key": "integration_immigration_timeline_entrepreneur",
             "ratingGuide": [
                 {
                     "rating": 10,
-                    "guidance": "Visa processing <=4 weeks end-to-end."
+                    "guidance": "Visa processing <=4 weeks end-to-end for entrepreneur/self-employment routes."
                 },
                 {
                     "rating": 9,
-                    "guidance": "Visa processing 5-6 weeks end-to-end."
+                    "guidance": "Visa processing 5-6 weeks end-to-end for entrepreneur/self-employment routes."
                 },
                 {
                     "rating": 8,
-                    "guidance": "Visa processing 7-8 weeks end-to-end."
+                    "guidance": "Visa processing 7-8 weeks end-to-end for entrepreneur/self-employment routes."
                 },
                 {
                     "rating": 7,
-                    "guidance": "Visa processing 9-10 weeks end-to-end."
+                    "guidance": "Visa processing 9-10 weeks end-to-end for entrepreneur/self-employment routes."
                 },
                 {
                     "rating": 6,
-                    "guidance": "Visa processing 11-12 weeks end-to-end."
+                    "guidance": "Visa processing 11-12 weeks end-to-end for entrepreneur/self-employment routes."
                 },
                 {
                     "rating": 5,
-                    "guidance": "Visa processing 13-16 weeks end-to-end."
+                    "guidance": "Visa processing 13-16 weeks end-to-end for entrepreneur/self-employment routes."
                 },
                 {
                     "rating": 4,
-                    "guidance": "Visa processing 17-20 weeks end-to-end."
+                    "guidance": "Visa processing 17-20 weeks end-to-end for entrepreneur/self-employment routes."
                 },
                 {
                     "rating": 3,
-                    "guidance": "Visa processing 21-28 weeks end-to-end."
+                    "guidance": "Visa processing 21-28 weeks end-to-end for entrepreneur/self-employment routes."
                 },
                 {
                     "rating": 2,
-                    "guidance": "Visa processing >28 weeks with unpredictable steps."
+                    "guidance": "Visa processing >28 weeks with unpredictable steps for entrepreneur/self-employment routes."
                 },
                 {
                     "rating": 1,
-                    "guidance": "No viable visa path or indefinite timelines."
+                    "guidance": "No viable entrepreneur/self-employment path or indefinite timelines."
+                }
+            ]
+        },
+        {
+            "key": "integration_immigration_timeline_without_recognized_sponsor",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Visa processing <=4 weeks end-to-end for non-recognized sponsors."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Visa processing 5-6 weeks end-to-end for non-recognized sponsors."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Visa processing 7-8 weeks end-to-end for non-recognized sponsors."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Visa processing 9-10 weeks end-to-end for non-recognized sponsors."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Visa processing 11-12 weeks end-to-end for non-recognized sponsors."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Visa processing 13-16 weeks end-to-end for non-recognized sponsors."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Visa processing 17-20 weeks end-to-end for non-recognized sponsors."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Visa processing 21-28 weeks end-to-end for non-recognized sponsors."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Visa processing >28 weeks with unpredictable steps for non-recognized sponsors."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No viable path or indefinite timelines for non-recognized sponsors."
+                }
+            ]
+        },
+        {
+            "key": "integration_immigration_timeline_with_recognized_sponsor",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Visa processing <=4 weeks end-to-end with a recognized/fast-track sponsor."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Visa processing 5-6 weeks end-to-end with a recognized/fast-track sponsor."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Visa processing 7-8 weeks end-to-end with a recognized/fast-track sponsor."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Visa processing 9-10 weeks end-to-end with a recognized/fast-track sponsor."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Visa processing 11-12 weeks end-to-end with a recognized/fast-track sponsor."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Visa processing 13-16 weeks end-to-end with a recognized/fast-track sponsor."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Visa processing 17-20 weeks end-to-end with a recognized/fast-track sponsor."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Visa processing 21-28 weeks end-to-end with a recognized/fast-track sponsor."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Visa processing >28 weeks with unpredictable steps with a recognized/fast-track sponsor."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No viable path or indefinite timelines even with a recognized/fast-track sponsor."
                 }
             ]
         },
@@ -1936,6 +2026,186 @@
             ]
         },
         {
+            "key": "stability_autocratization_trend",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Autocratization index <=0 over the last 10-20 years (democratizing or stable)."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Autocratization index 0.01-0.05 (very mild backsliding)."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Autocratization index 0.06-0.10."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Autocratization index 0.11-0.15."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Autocratization index 0.16-0.20."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Autocratization index 0.21-0.25."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Autocratization index 0.26-0.30."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Autocratization index 0.31-0.35."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Autocratization index 0.36-0.45."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Autocratization index >0.45 (sustained backsliding)."
+                }
+            ]
+        },
+        {
+            "key": "stability_wealth_inequality_level",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Gini inequality index <=25."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Gini inequality index 26-29."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Gini inequality index 30-33."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Gini inequality index 34-37."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Gini inequality index 38-41."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Gini inequality index 42-45."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Gini inequality index 46-49."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Gini inequality index 50-54."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Gini inequality index 55-59."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Gini inequality index >=60."
+                }
+            ]
+        },
+        {
+            "key": "stability_media_freedom",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Press freedom percentile >=90."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Press freedom percentile 80-89."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Press freedom percentile 70-79."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Press freedom percentile 60-69."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Press freedom percentile 50-59."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Press freedom percentile 40-49."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Press freedom percentile 30-39."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Press freedom percentile 20-29."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Press freedom percentile 10-19."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Press freedom percentile <10."
+                }
+            ]
+        },
+        {
+            "key": "stability_anti_immigrant_political_rhetoric",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Rhetoric salience index <=10 (anti-immigrant rhetoric fringe only)."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Rhetoric salience index 11-15."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Rhetoric salience index 16-20."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Rhetoric salience index 21-25."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Rhetoric salience index 26-30."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Rhetoric salience index 31-40."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Rhetoric salience index 41-50."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Rhetoric salience index 51-60."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Rhetoric salience index 61-70."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Rhetoric salience index >70 (dominant narrative)."
+                }
+            ]
+        },
+        {
             "key": "opportunity_college_accessibility",
             "ratingGuide": [
                 {
@@ -2787,6 +3057,276 @@
                 {
                     "rating": 1,
                     "guidance": ">EUR/USD 3,000 per semester."
+                }
+            ]
+        },
+        {
+            "key": "integration_years_to_permanent_residency",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "<=2 years to permanent residency."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "2.1-3 years to permanent residency."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "3.1-4 years to permanent residency."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "4.1-5 years to permanent residency."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "5.1-6 years to permanent residency."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "6.1-7 years to permanent residency."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "7.1-8 years to permanent residency."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "8.1-9 years to permanent residency."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "9.1-10 years to permanent residency."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">10 years or no clear path to permanent residency."
+                }
+            ]
+        },
+        {
+            "key": "integration_years_to_citizenship",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "<=3 years to citizenship eligibility."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "3.1-4 years to citizenship eligibility."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "4.1-5 years to citizenship eligibility."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "5.1-6 years to citizenship eligibility."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "6.1-7 years to citizenship eligibility."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "7.1-8 years to citizenship eligibility."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "8.1-9 years to citizenship eligibility."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "9.1-10 years to citizenship eligibility."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "10.1-12 years to citizenship eligibility."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">12 years or no clear path to citizenship."
+                }
+            ]
+        },
+        {
+            "key": "life_digital_government_maturity",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=90% of core services fully online end-to-end."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "80-89% of core services fully online."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "70-79% of core services fully online."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "60-69% of core services fully online."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "50-59% of core services fully online."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "40-49% of core services fully online."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "30-39% of core services fully online."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "20-29% of core services fully online."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "10-19% of core services fully online."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "<10% of core services fully online; mostly in-person."
+                }
+            ]
+        },
+        {
+            "key": "life_personal_tax_filing_effort",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "<=2 hours/year for filing and record-keeping."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "3-5 hours/year."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "6-8 hours/year."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "9-12 hours/year."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "13-18 hours/year."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "19-24 hours/year."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "25-35 hours/year."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "36-48 hours/year."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "49-72 hours/year."
+                },
+                {
+                    "rating": 1,
+                    "guidance": ">72 hours/year or requires professional help every year."
+                }
+            ]
+        },
+        {
+            "key": "life_parental_leave_generosity",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=52 weeks paid leave per parent at ~70-100% income."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "40-51 weeks paid leave per parent."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "32-39 weeks paid leave per parent."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "24-31 weeks paid leave per parent."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "16-23 weeks paid leave per parent."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "12-15 weeks paid leave per parent."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "8-11 weeks paid leave per parent."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "4-7 weeks paid leave per parent."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "1-3 weeks paid leave per parent."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "0 weeks paid leave per parent or no job protection."
+                }
+            ]
+        },
+        {
+            "key": "life_child_benefit_generosity",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=USD 400 equivalent per child per month."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "USD 325-399 equivalent per child per month."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "USD 250-324 equivalent per child per month."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "USD 175-249 equivalent per child per month."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "USD 125-174 equivalent per child per month."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "USD 75-124 equivalent per child per month."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "USD 50-74 equivalent per child per month."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "USD 25-49 equivalent per child per month."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "USD 1-24 equivalent per child per month."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No meaningful child benefit or USD 0 equivalent."
                 }
             ]
         },

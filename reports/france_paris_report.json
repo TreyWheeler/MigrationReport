@@ -54,8 +54,9 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Paris, FR offers a mild climate with occasional heatwaves and Seine floods, but strong infrastructure helps protect families.",
-      "alignmentValue": 9
+      "alignmentText": "Paris, FR offers a mild climate with occasional heatwaves and Seine floods, yet robust infrastructure helps protect families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "opportunity_college_accessibility",
@@ -109,7 +110,7 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Paris, FR offers strong tech jobs and startup visas; reliable public services support a family-friendly relocation with solid economic stability.",
+      "alignmentText": "Paris, FR offers a strong tech scene and startup visas; ~2 recession years in 20, with solid public services easing a family move.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -159,12 +160,6 @@
       "sameAsParent": false
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "France long-stay visa for a US family of four relocating to Paris; expect 6-8 months for first-time applicants with organized docs and interviews.",
-      "alignmentValue": 6,
-      "sameAsParent": false
-    },
-    {
       "key": "kids_language_expectations_in_schools",
       "alignmentText": "Paris public schools offer limited English exposure; seek bilingual tracks or international schools for stronger English.",
       "alignmentValue": 2,
@@ -177,7 +172,7 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Paris, FR offers stable pro-resident routes (Talent Passport) with clear renewals; family-friendly paths support long-term stays and straightforward bureaucracy.",
+      "alignmentText": "Paris, FR offers stable pro-resident routes (Talent Passport) with clear renewals; family-friendly paths support long stays with straightforward bureaucracy.",
       "alignmentValue": 9
     },
     {
@@ -216,7 +211,7 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Paris, FR offers strong political stability and rule of law; protests exist but policies remain predictable, supporting family healthcare and schooling.",
+      "alignmentText": "Paris, FR shows strong stability with predictable policy; protests occur, but family healthcare, schooling, and visa planning are well-supported.",
       "alignmentValue": 9
     },
     {
@@ -250,9 +245,8 @@
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Paris, FR offers universal healthcare and reliable services. Safe neighborhoods and strong public schools support our two kids.",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentText": "Paris, FR offers universal healthcare and safe neighborhoods; excellent public schools and family-friendly amenities support our two kids.",
+      "alignmentValue": 10
     },
     {
       "key": "outdoors_spring_temperature_range",
@@ -409,6 +403,49 @@
       "key": "life_healthcare_affordability_perm_resident",
       "alignmentText": "EUR 350.00 ($385.00)",
       "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "France (Paris) entrepreneur visa timeline is typically 13-16 weeks end-to-end. Plan for startup filings and potential delays.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Paris, France: non-recognized sponsor visa typically 11-12 weeks end-to-end; expect consular delays, plan early.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Paris, FR: with a recognized sponsor, a family long-stay visa may take about 9\u201310 weeks end-to-end. This assumes employer support for Trey and Sarah.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "France/Paris: anti-immigrant rhetoric is visible nationally (RN) but Paris stays pluralistic; not a dominant local narrative.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Paris, France remains broadly democratic and stable with strong civil liberties; no sustained autocratization detected over the last two decades.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Paris region\u0027s dominant political narratives center on economic resilience, funded public services, immigration/integration, security, housing affordability, and climate/energy policy, with pension reform as a cross-cutting theme. Actionable focus: track shifts in asylum and labor-market policy, monitor housing/urban renewal initiatives, and pursue incentives for startups and green tech; align migration planning with Paris-area language integration efforts and access to local grants and public services.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "France (Paris) enjoys robust press freedom with diverse outlets; occasional protests or security measures may briefly affect reporting.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Paris, FR: Gini ~29-30, moderate inequality; strong family services and social cohesion support families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

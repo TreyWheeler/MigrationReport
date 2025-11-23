@@ -142,12 +142,6 @@
       "alignmentValue": 6
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Germany immigration for a US founder family. Expect 6-8 months with periodic in-person steps in Munich.",
-      "alignmentValue": 6,
-      "sameAsParent": true
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Germany offers several immigration statuses with clear paths and rights. Temporary residence (Aufenthaltserlaubnis) is issued for work, study, or family reasons and is tied to the purpose; EU Blue Card (Blaue Karte EU) is for highly skilled workers with a job offer and salary threshold and provides a faster path to permanent residence; Permanent settlement permit (Niederlassungserlaubnis) can be obtained after several years of lawful residence (often 5 years with a Blue Card or other qualifying status) and grants unrestricted work and settlement rights throughout Germany; Citizenship (Staatsangeh\u00F6rigkeit) via naturalization typically after about 6\u20138 years of residence, with language, integration knowledge, and financial requirements, and grants full civil rights, including voting in national and EU elections. Family reunification and other routes exist but depend on your visa type and integration outcomes. To progress, secure a qualifying job or program, meet language and integration benchmarks (e.g., B1 language, test requirements), maintain lawful residence, and apply through the local immigration office (Ausl\u00E4nderbeh\u00F6rde) with documentation such as passport, housing, health insurance, and income proof.",
       "sameAsParent": false
@@ -363,32 +357,75 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Munich, Germany has a temperate climate with mild seasons. Expect about 14-17 severe weather/AQI days per year, indicating moderate stability.",
+      "alignmentText": "Munich, Germany has a temperate climate with mild seasons and moderate stability; ~14-17 severe weather/AQI days per year.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Munich, Germany offers a stable, diversified economy. Five-year GDP per capita volatility is modest, supporting long-term family plans.",
+      "alignmentText": "Munich, Germany offers a stable, diversified economy; only two recession years (2009, 2020) in the last 20 years support long-term family plans.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Germany\u0027s migration regime shows stability with skilled-immigration reforms; Munich offers EU Blue Card routes and family-friendly visa options.",
+      "alignmentText": "Munich shows stable migration policy for first-time applicants; EU Blue Card routes and family visas support a smooth relocation.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Munich, Germany has high political stability with strong rule of law and social cohesion, supporting long-term family plans.",
+      "alignmentText": "Munich, Germany ranks in the top percentile on the Liberal Democracy Index. It has strong rule of law and social cohesion that support long-term family plans.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Munich, DE has very low violent crime and universal healthcare; a stable, family-friendly city with strong services and parks for kids.",
+      "alignmentText": "Munich, DE has very low violent crime and universal healthcare. It\u0027s a family-friendly city with parks and strong schools for kids.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Germany self-employment visa typically 11-12 weeks end-to-end; Munich has grants and a thriving startup ecosystem, but bureaucracy remains.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Munich non-recognized sponsor visa: ~21-28 weeks end-to-end; plan for 6-7 months and potential delays.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Munich, with a recognized sponsor: visa timeline ~7-8 weeks end-to-end (Blue Card/startup path); depends on sponsor \u0026 docs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Munich, Germany: anti-immigrant rhetoric is present in mainstream politics but not dominant; debates exist, yet local culture remains inclusive.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Munich, Germany stays a stable democracy with minimal autocratization risk; strong rule of law and pluralistic media support family safety.",
       "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Germany-wide discourse in Munich centers on tighter immigration control with integration, public safety and social cohesion, affordable housing and urban mobility, a rapid energy transition amid price pressures, and economic resilience with startup support; EU unity and defense policy remain central, alongside streamlined bureaucracy and tax simplification.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Munich, Germany enjoys strong media freedom with diverse outlets and strong protections. Pluralistic, independent reporting aligns with your family\u0027s values.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Germany\u0027s disposable income Gini is ~31 (moderate inequality); Munich offers strong social supports, healthcare, and family-friendly services.",
+      "alignmentValue": 8
     }
   ]
 }

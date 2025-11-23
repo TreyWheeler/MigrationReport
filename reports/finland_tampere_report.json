@@ -144,11 +144,6 @@
       "alignmentValue": 6
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Finland Tampere offers a manageable path for US tech workers/founders; expect organized docs, maybe interview, 4-6 months.",
-      "alignmentValue": 7
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Finland offers three main immigration statuses with concrete paths to long-term residence and citizenship: Temporary Residence Permit (TRP) tied to a basis such as work, family ties, or study; Permanent Residence Permit (PRP) once you have long-term lawful residence and meet program-specific requirements; and Finnish citizenship by naturalization. A TRP allows live-and-work rights for a defined period and may provide access to healthcare; PRP provides ongoing residence with broad work rights and eligibility for social security benefits; citizenship grants full political rights (including voting in national elections) and a Finnish passport. Additional options include the EU Long-Term Residence permit, which can improve mobility within the EU. How statuses are determined: applications go to Migri (Finnish Immigration Service) with evidence of basis (employment or entrepreneurship, family ties, or study), background checks, and integration requirements such as language skills. Rights scale with status: PRP and especially citizenship unlock broader work freedom, social security access, housing and child welfare benefits, and civic rights. Tampere-specific path: begin with a family- or work-based TRP for each member (e.g., join through family ties or pursue a startup/self-employed permit for Trey; Sarah as a family member), ensure valid documentation and health insurance, and register with the Finnish Population Information System. After roughly four or more years of lawful residence and language/integration success, apply for PRP; after additional residence and civic requirements, pursue citizenship. Immediate next steps: document-by-document check for all members (passports, birth certificates, marriage certificates where applicable, proof of funds and income, health insurance), identify the most favorable permit bases for each member, and set a timeline with Migri and Tampere-based services."
     },
@@ -355,14 +350,15 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Tampere, Finland offers high climate stability: mild weather, clean air, and very few severe-weather/AQI days per year - ideal for a family.",
+      "alignmentText": "Tampere, Finland offers high climate stability with mild seasons and clean air, ideal for a family.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Tampere\u0027s economy remains resilient; strong welfare, healthcare, and education support stable family life in Finland.",
-      "alignmentValue": 7
+      "alignmentText": "Tampere\u0027s diversified tech/services economy and Finland\u0027s welfare system offer solid family stability. Universal healthcare supports daily life.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
@@ -372,14 +368,56 @@
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Tampere, Finland offers very high political stability and strong rule of law, supporting a safe, predictable life for your family.",
+      "alignmentText": "Tampere, Finland offers very high political stability and strong rule of law (V-Dem LDI \u003E=90), providing a safe, predictable family setting.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Stability in Tampere, Finland is excellent for families. Violent crime stays well under 200/100k, with strong schools and reliable services.",
+      "alignmentText": "Stability in Tampere, Finland is strong for families; crime remains well under 200 per 100k with strong schools and reliable services.",
       "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Finland startup visa in Tampere typically 3\u20134 months end-to-end; favorable founder ecosystem and accessible startup support for US entrepreneurs.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Tampere, Finland, non-sponsor US family residence permits for first-time applicants typically take about 4-5 months (17-20 weeks).",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "With a recognized sponsor in Tampere, Finland, visa processing is about 11-12 weeks end-to-end; plan for roughly 3 months to secure permits and settle.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Tampere, anti-immigrant rhetoric has moderate mainstream influence (Finns Party) but is not dominant.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Tampere, Finland shows near-zero autocratization over 10-20 years; a stable democracy supporting your family\u0027s safety and schooling.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Dominant Tampere (FI) political narratives prioritize a robust welfare state and high-quality public services with balanced taxation; immigration and integration remain central, emphasizing regional cohesion and skilled migration; climate neutrality and the green transition are pursued together with digitalization and resilient regional economies; housing affordability and education standards are top family concerns, alongside the rule of law and reliable energy and public safety.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Finland (Tampere) has top-tier press freedom; pluralistic media and transparency give families reliable local news with minimal propaganda.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Finland\u0027s wealth inequality is low (Gini ~27); Tampere\u0027s stable, family-friendly environment supports this migration profile.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

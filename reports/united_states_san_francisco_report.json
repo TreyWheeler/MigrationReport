@@ -143,12 +143,6 @@
       "alignmentValue": 6
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "US passport holders relocating to San Francisco, CA incur no visa; California residency steps are straightforward (driver\u0027s license, address, taxes).",
-      "alignmentValue": 10,
-      "sameAsParent": true
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "San Francisco area \u2014 US Immigration Status \u0026 Rights: Status types are US citizen (by birth or naturalization) and US permanent resident (green card). Citizenship gives full civil rights, including voting eligibility and passport access; permanent residency grants lawful residence/work and may lead to citizenship. How status is determined: US citizenship is typically earned by naturalization after 5 years of permanent residency (3 years with qualifying marriage); permanent residency is granted through family, employment, asylum, or Diversity Visa programs and must be maintained. Actions: verify current status with USCIS; ensure passport validity and renew if you are a citizen; keep secure copies of key documents (birth certificate, naturalization certificate or green card, current passport); in San Francisco, use local USCIS resources and district forms; if timelines or forms are unclear, consult an immigration attorney or accredited representative.",
       "sameAsParent": false
@@ -373,13 +367,13 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "San Francisco remains a strong tech hub; US policy shifts could bring ~4 overhauls/decade, impacting family visas and startup plans.",
+      "alignmentText": "San Francisco tech hub stays strong; US policy could bring ~4 overhauls/decade, affecting family visas and startup plans.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "San Francisco, CA shows strong liberal democracy indicators and civil liberties; immigrant-friendly, pro-family policies fit this family.",
+      "alignmentText": "San Francisco, US: strong liberal democracy and civil liberties, immigrant-friendly and pro-family policies support this family\u0027s stability.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -387,6 +381,42 @@
       "key": "stability_social_and_quality_of_life_stability",
       "alignmentText": "San Francisco, US: violent crime ~600/100k; strong schools and family-friendly neighborhoods with parks and walkable streets.",
       "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "US citizen; no entrepreneur visa needed in San Francisco. No end-to-end visa timeline applies.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "SF relocation for US citizens: no visa required; immigration timeline for non-recognized sponsors is not applicable.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "In San Francisco, US passport holders have no sponsor visa path here. With first-time visa applicants but no sponsor, this is a no-viable-path scenario.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric"
+    },
+    {
+      "key": "stability_autocratization_trend"
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "US discourse centers on housing affordability, immigration and border policy, crime/public safety, economic inequality, climate action, healthcare access, and tech-sector regulation; in San Francisco these themes co-occur with urgent focus on housing supply, homelessness, transit, and progressive values shaping local policy.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom"
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "US wealth inequality sits in the low-40s on the Gini, matching your progressive, family-focused goals in San Francisco. SF\u0027s tech scene supports your needs.",
+      "alignmentValue": 6,
       "sameAsParent": false
     }
   ]

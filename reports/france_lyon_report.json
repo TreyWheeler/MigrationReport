@@ -143,12 +143,6 @@
       "sameAsParent": false
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "France (Lyon): visa effort ~4\u20136 months with organized evidence; interview possible for talent/entrepreneur routes.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "In Lyon, France, non\u2011EU entrants obtain residency mainly via: (1) visa de long s\u00E9jour that doubles as a work/study permit; (2) carte de s\u00E9jour (temporary residence permit) tied to activity and renewable; (3) carte de r\u00E9sident (permanent residence) after years of lawful residence with integration; (4) naturalisation after several years with language/civics requirements; and (5) skilled\u2011work routes like Passeport Talent or EU Blue Card when eligible. For Trey (entrepreneur) and Sarah (web developer), prioritize Passeport Talent or EU Blue Card eligibility or a long\u2011stay entrepreneur/work visa, then transition to a carte de s\u00E9jour on arrival and plan toward permanent residence and potential naturalisation if desired. Action steps: apply from the US for the appropriate visa with passport validity, proof of funds/housing, health insurance, language plan, and sponsor/plan; on arrival in Lyon obtain the carte de s\u00E9jour and complete prefecture registration; maintain status with renewals and compliant activity; monitor timelines and pursue permanent residency and citizenship if desired; ensure access to healthcare, education, housing support where eligible.",
       "sameAsParent": false
@@ -360,30 +354,77 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Lyon, FR has a temperate, mild climate with few severe-weather days; low climate risk supports stable family life.",
-      "alignmentValue": 9,
+      "alignmentText": "Lyon, FR offers a temperate, mild climate with few extremes. Its climate stability supports a safe, family-friendly life for your family.",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "France (Lyon) had only two recession years in the last 20, offering stable economic footing for a family relocation.",
+      "alignmentText": "France (Lyon) had 2 recession years in 20 years, signaling stability for relocation; Lyon\u0027s tech/services sector supports flexible work.",
       "alignmentValue": 9
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "France\u0027s immigration policy stays steady with modest reforms; Lyon provides clear visa routes for tech professionals and startup founders.",
-      "alignmentValue": 8
+      "alignmentText": "France\u0027s policy stays steady with modest reforms; Lyon offers accessible tech visas and startup support for founders and teams.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Lyon, FR benefits from robust institutions and steady civic order. Political stability supports a safe, family-friendly migration plan.",
+      "alignmentText": "France\u0027s high Liberal Democracy Index underpins Lyon\u0027s stable institutions, supporting a safe, family-friendly move.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Lyon, FR offers solid family stability: violent crime around 250-299/100k, with reliable services and strong public schools.",
+      "alignmentText": "Lyon, FR offers strong family stability with low crime, solid public schools, and walkable neighborhoods with reliable services.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "France\u0027s startup visa (Passeport Talent) can fit founders in Lyon. End-to-end processing for entrepreneur routes is typically 7-8 weeks.",
       "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "France, Lyon: non-sponsored visa ~17\u201320 weeks end-to-end; expect bureaucracy; consider entrepreneur or long-stay route.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "France Lyon: with a recognized sponsor, visa processing ~7-8 weeks end-to-end; Lyon startup ecosystem supports a tech family move.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Lyon, anti-immigrant rhetoric exists in mainstream politics but is not dominant; policy emphasizes integration and family-friendly support.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "France (Lyon) shows very mild autocratization risk (0.01\u20130.05) over 10\u201320 years; democracy remains stable for families in Lyon.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Lyon-specific narratives emphasize affordable housing and urban mobility as anchors of growth, while aligning with national debates on pension reforms, immigration and security, and climate transition. Policy discourse foregrounds robust public services, secular public life, and EU cohesion, with a focus on integrating newcomers and supporting local tech/industrial jobs.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "France (Lyon) maintains robust media freedom with diverse outlets and plural voices; regional pressures remain moderate.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Lyon, France has moderate inequality (~29 Gini). Strong social safety nets and public services support families here.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

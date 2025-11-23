@@ -147,12 +147,6 @@
       "alignmentValue": 7
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Ireland\u0027s tech visa paths are manageable; 4-6 months with organized evidence; online steps; possible interview for dependents.",
-      "alignmentValue": 7,
-      "sameAsParent": false
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Ireland offers two main immigration tracks: citizenship and long-term residency. Citizenship can be acquired by birth/descent (if a parent is an Irish citizen or under certain conditions) or by naturalisation after meeting residence requirements (typically about 5 years of lawful residence in the last 9 years, including 12 months continuous residence). Rights conferred: Irish passport; live/work anywhere in Ireland and the EU; access to public services and social benefits; eligibility to vote in national elections. Long-term residency (EU long-term resident status or Stamp 4) is usually available after around 5 years of lawful residence and satisfactory character checks; rights include the ability to reside and work in Ireland without a separate work permit, access to healthcare and welfare on par with nationals, and a pathway to permanent residency and eventual citizenship. Stamp 4 can apply to qualifying family members (e.g., spouses of Irish citizens); rights include unrestricted work and study rights and access to services, with potential upgrade to long-term residency later. Action steps: assess eligibility for each path, gather documents (passports, birth/marriage certificates, proof of residence and income), consult INIS or an immigration adviser, and plan timelines toward naturalisation or permanent residence."
     },
@@ -367,28 +361,72 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Ireland, IE: mild temperate climate with few severe-weather/AQI days; about 6-9 days per year.",
-      "alignmentValue": 9
+      "alignmentText": "Ireland, IE offers a mild, temperate climate with few severe-weather days. It supports a low-stress, family-friendly lifestyle.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Ireland\u0027s 5-year GDP per capita volatility is moderate (~2.5\u20133.4%), with EU-backed stability and solid public services for families.",
-      "alignmentValue": 6
+      "alignmentText": "Ireland shows stability with only two negative real GDP years (2009, 2020); solid for family plans in IE.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Stable immigration climate in Ireland (Dublin) with few major overhauls per decade and low skilled-visa revocations; favorable for startup-focused families.",
+      "alignmentText": "Stable immigration climate in Ireland (IE), including Dublin; English ubiquity; startup-friendly visas with modest, predictable policy updates.",
       "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "IE/Ireland offers high political stability (World Bank \u003E=90th percentile); strong institutions and predictable governance support family and entrepreneurship.",
+      "alignmentText": "Ireland sits in the top tier of the V-Dem Liberal Democracy Index with strong, predictable governance; ideal for families and startups in IE.",
       "alignmentValue": 10
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Ireland (IE) has very low violent crime and universal healthcare; reliable schools and services support a stable, family-friendly life.",
+      "alignmentText": "Ireland has very low violent crime (well under 200/100k) and universal healthcare. This supports a stable, family-friendly life for Trey, Sarah and their kids.",
       "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Ireland Start-up Entrepreneur visa end-to-end often 21-28 weeks; plan for 5-7 months with approvals in IE.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Ireland\u0027s non-recognized-sponsor path for a US family is slow; expect 28\u002B weeks end-to-end. Consider startup programs or a recognized sponsor route.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Ireland\u0027s recognized-sponsor visa path is typically about 11-12 weeks end-to-end; plan startup/permit timelines in Ireland (Dublin).",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Ireland, anti-immigrant rhetoric is not dominant; expect a stable, family-friendly climate with inclusive immigration and housing policies.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Ireland (IE) shows stable democracy with near-zero autocratization over 10-20 years, supporting civil liberties and family-friendly living.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Dominant narratives in Ireland center on expanding affordable housing and reducing cost of living, reforming healthcare and reducing wait times, managing energy prices while pursuing climate action, maintaining tax and economic stability, investing in rural infrastructure, and navigating EU/NI relations post-Brexit; immigration and social inclusion remain key policy axes.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Ireland\u0027s media freedom remains strong; independent outlets protect pluralistic reporting across Dublin and the country.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Ireland\u0027s Gini ~31 indicates moderate inequality; strong services and English ubiquity support a family-friendly life in Ireland.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     }
   ]
 }

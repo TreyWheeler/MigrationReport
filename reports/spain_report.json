@@ -146,11 +146,6 @@
       "alignmentValue": 7
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Spain\u0027s entrepreneur visa path is manageable for US founders; plan 4-6 months with organized docs and possible interview.",
-      "alignmentValue": 7
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Spain uses visa categories tied to duration and purpose. Key statuses: 1) Short-stay (Schengen) visa-exempt for US citizens for up to 90 days; no work rights. 2) Residence and work permit (residencia temporal y trabajo) for employment or self-employment; grants legal residence and work, access to healthcare and social benefits during validity. 3) Non-lucrative residence visa (residencia no lucrativa) for those with sufficient funds and health insurance; residence granted but work not permitted. 4) Self-employed and employed residence routes; require a work permit and registration. 5) Long-term permanent residence (residencia de larga duracion) after several years of continuous legal residence; provides extended/work rights and easier re-entry. 6) EU Blue Card or other skilled-worker routes for highly qualified professionals. 7) Family reunification (reagrupacion familiar) for eligible relatives of someone with legal status. 8) Path to Spanish citizenship via naturalization typically after about 10 years of continuous residence (shorter under specific family or marriage circumstances). How determined: through the Ministerio de Inclusi\u00F3n, Seguridad Social y Migraciones or Spanish consulates; requirements include identity documents, proof of finances, health insurance, background checks, and a job offer or business plan for work or self-employment routes. Rights added: permission to live, work, access healthcare, education, social security, and travel within Schengen; some statuses allow family members to accompany.",
       "sameAsParent": false
@@ -360,30 +355,74 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Spain\u0027s mild Mediterranean climate has few extremes (6-9 severe days/year), matching your low-risk, climate-mild preferences.",
+      "alignmentText": "Spain\u0027s mild Mediterranean climate has few extremes. This matches your low-risk, climate-mild preferences.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Spain has about 6 recession years in the last 20 (2008\u20132013, 2020). This implies moderate stability for a family move.",
+      "alignmentText": "Spain shows about 6 recession years in 20 years (2008-2013, 2020); moderate stability for a family move to ES.",
       "alignmentValue": 5
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Spain maintains steady immigration policy with modest skilled-visa updates; suitable for a tech-friendly, English-friendly family.",
+      "alignmentText": "Spain maintains steady immigration policy with modest tech-visa updates (Startups Law); supportive for English-friendly, family-focused tech careers.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Spain\u0027s high political stability and reliable governance support a family move with two young children; safe, predictable rules.",
-      "alignmentValue": 9
+      "alignmentText": "Spain\u0027s stable democracy and robust institutions provide a safe, predictable environment for a two-child family; public services support planning.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Spain (ES) offers solid family stability: low violent crime and reliable utilities; universal healthcare and strong public schools support daily life.",
+      "alignmentText": "Spain (ES) offers solid family stability: low violent crime and universal healthcare; strong public schools support daily life for a KC family.",
       "alignmentValue": 9
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Spain (ES) entrepreneur visa end-to-end processing ~13\u201316 weeks; plan for 4 months for Trey\u0027s self-employment path.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Spain\u0027s non-sponsor visa path for U.S. families is slow and uncertain. End-to-end processing can take 21-28 weeks with variable steps.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Spain with a recognized sponsor: expected 9-10 weeks end-to-end visa processing; leverage Spain startup/tech ecosystem for Trey and Sarah.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Spain (ES): Moderate anti-immigrant rhetoric in mainstream politics; Vox influence exists, but immigration is not the dominant issue.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Spain (ES) has shown stable democracy over 10\u201320 years; autocratization trend near 0, with EU rule-of-law support for families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In Spain, dominant political narratives center on economic recovery and living standards, job quality and social welfare of public services, immigration management, regional autonomy tensions (notably Catalonia), climate policy and energy transition, public spending and taxation debates, and a pragmatic stance toward EU integration."
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Spain (ES) has strong media freedom with diverse outlets and independent reporting; expect pluralistic coverage with some pressure.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Spain (ES) shows moderate wealth inequality (Gini mid-30s); stable institutions and public services support family planning in ES.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     }
   ]
 }

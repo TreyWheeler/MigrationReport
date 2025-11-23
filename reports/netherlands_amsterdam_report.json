@@ -140,11 +140,6 @@
       "alignmentValue": 6
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Amsterdam startup/highly skilled visa paths exist; as first-time applicants, plan for end-to-end processing \u003E28 weeks.",
-      "alignmentValue": 2
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "In the Netherlands, immigration status is established via permits issued by the IND. Initial statuses for new arrivals include temporary residence permits for work, study, family reunification, or asylum, which grant lawful residence and work rights for a defined period. After maintaining lawful residence for sufficient time (typically 5\u002B years) and meeting integration requirements (Dutch language and civic integration exams), you may apply for permanent residency (verblijfsvergunning for permanent residence) and, with continued eligibility, for Dutch citizenship through naturalization. Citizenship provides full political rights (including voting in most elections) and a Dutch passport. Rights vary by status: temporary permits offer time-limited rights; permanent residents gain long-term residence with broad access to healthcare, education, and social services; naturalized citizens obtain the highest rights, including voting and mobility benefits. For your case, engage with the IND early, pursue the appropriate permit type (work, family, or study), satisfy language and civic criteria, and track timelines for potential permanent residence or citizenship while maintaining compliant status.",
       "sameAsParent": false
@@ -347,31 +342,74 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Amsterdam, NL has a mild maritime climate with stable conditions and few severe-weather days; fits the family\u0027s low-risk, mild-weather preference.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Amsterdam, NL offers a mild maritime climate with few severe-weather days, matching the family\u0027s low-risk, mild-weather preference.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Amsterdam, NL offers a stable, high-income economy with strong social supports, aligning with the family\u0027s need for predictable stability.",
+      "alignmentText": "Amsterdam offers stability with a high-income economy and family-friendly supports; the Netherlands had 2 recession years (2009, 2020) in 20 years.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Amsterdam, Netherlands offers solid migration stability for families: about 2-3 policy overhauls per decade and modest skilled-visa changes.",
-      "alignmentValue": 8
+      "alignmentText": "Amsterdam, NL offers steady migration stability for families: about 2-3 policy overhauls per decade and stable skilled-migrant paths.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Amsterdam, NL ranks very high in political stability; expect predictable policy, strong rule of law, and low unrest; supportive for families.",
+      "alignmentText": "Amsterdam, NL shows very high liberal-democracy stability with strong rule of law and a predictable, family-friendly policy environment.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Stability in Amsterdam, NL is strong for families. Violent crime is around 200-249 per 100k; healthcare and utilities are reliable.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "NL self-employed visa for Amsterdam founders typically 13\u201316 weeks end-to-end; plan mid-range timelines with startup support.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Netherlands (Amsterdam) without a recognized sponsor: expect 21\u201328 weeks end-to-end. There may be delays and bureaucratic variability for family reunification.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Amsterdam with a recognized sponsor: visa end-to-end about 7-8 weeks; suitable for a two-adult, two-child family seeking EU residency.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Amsterdam, NL still has modest anti-immigrant rhetoric from a few parties, but mainstream politics remain inclusive and family-friendly.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Netherlands (Amsterdam) shows near-zero autocratization, stable democracy; strong civil liberties and social safety nets support the family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In the Netherlands, national political discourse centers on housing affordability and supply, climate action and energy transition, immigration and integration policies, and the sustainability of healthcare and welfare systems; debates also stress economic competitiveness, taxation, and public safety, with Amsterdam prioritizing housing access, urban resilience, and inclusive family/migrant policies.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Netherlands ranks among the world\u2019s top for press freedom; Amsterdam\u0027s independent media keeps local news trustworthy for your family.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
-      "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Stability in Amsterdam, NL is high for families. Violent crime stays under 200 per 100k; healthcare and utilities are reliable.",
-      "alignmentValue": 10,
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Amsterdam, Netherlands: moderate inequality (Gini ~28) supports a stable, family-friendly life with strong public services and childcare.",
+      "alignmentValue": 9,
       "sameAsParent": false
     }
   ]

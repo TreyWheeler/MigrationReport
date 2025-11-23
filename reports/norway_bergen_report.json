@@ -146,11 +146,6 @@
       "alignmentValue": 6
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Norway family immigration for a US couple and two children is about 6-8 months with some in-person steps. Prepare sponsor income and full family docs; Bergen processing can vary.",
-      "alignmentValue": 6
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Norway recognizes multiple immigration statuses that determine how you may stay and what rights you gain. Temporary permits (work, study, family reunification, asylum/refugee) authorize lawful residence and limited work or study; after a period of lawful residence, applicants may be granted a permanent residence permit (permanent oppholdstillatelse) with extended rights. Citizenship (statsborgerskap) is obtained by naturalization after meeting residence duration and integration requirements (Norwegian language and social studies, stable means of support, good conduct); citizenship confers full political rights and a Norwegian passport. EU/EEA/Swiss citizens have freedom of movement rights in Norway. Rights attached to these statuses typically include the right to live and work, access to healthcare and education, eligibility for social security and welfare, and the ability to sponsor family members; citizenship additionally provides full political rights and the right to hold a Norwegian passport. Pathways and thresholds depend on residence duration, language/integration performance, employment or study status, and compliance with immigration rules.",
       "sameAsParent": false
@@ -368,20 +363,18 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Bergen, Norway offers a mild maritime climate with low severe weather/AQI days; overall climate stability supports a steady family life.",
-      "alignmentValue": 9
+      "alignmentText": "Bergen\u0027s mild maritime climate has few extreme weather days. This stability supports a calm family life for the household in Norway.",
+      "alignmentValue": 10
     },
     {
       "key": "stability_economic_stability",
       "alignmentText": "Bergen, Norway shows high economic stability; robust welfare and a sovereign fund smooth cycles, benefiting families and startups.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentValue": 9
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Norway\u0027s immigration system remains stable and predictable. Bergen offers clear visa routes for families and a supportive startup ecosystem.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Norway\u0027s immigration system remains stable and predictable. Bergen offers clear family visa routes and a supportive startup ecosystem.",
+      "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
@@ -390,7 +383,49 @@
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "High stability in Bergen, Norway: violent crime under 200/100k, reliable utilities, strong schools; English-friendly and family-oriented.",
+      "alignmentText": "Very high stability in Bergen, Norway: violent crime under 200/100k, reliable utilities, strong schools; English-friendly and family-oriented.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "In Bergen, Norway, first-time entrepreneur visas typically take 21\u201328 weeks end-to-end. Expect longer processing for self-employment routes; plan accordingly.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Bergen, Norway: without a recognized sponsor, a US family visa is lengthy and uncertain; expect \u003E28 weeks end-to-end.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "With a recognized sponsor, Norway\u0027s skilled worker path could be about 7\u20138 weeks end-to-end for your family in Bergen; English-friendly processes help.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Bergen, Norway, anti-immigrant rhetoric is present but not dominant; expect balanced debates on immigration.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Bergen, Norway shows stable democracy with negligible autocratization over 10\u201320 years; a safe, rights-respecting environment for families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In Norway, Bergen\u2019s spotlight in national discourse centers on sustaining the welfare state while accelerating the green transition and energy diversification, managing housing affordability in urban coastal regions, and strengthening climate resilience and public services. Immigration and integration remain key topics, with policy debates balancing inclusion and labor market needs, especially in skilled tech and maritime sectors. Regional development priorities emphasize transport connectivity, housing, digital infrastructure, and fisheries/aquaculture resilience, all within a consensus-driven, evidence-based policymaking framework.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Norway\u0027s Bergen benefits from top-tier media freedom; independent outlets are common and censorship is minimal.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Bergen, Norway enjoys low wealth inequality (Gini around 25); strong welfare, universal healthcare, and family-friendly policies support stability.",
       "alignmentValue": 10
     }
   ]

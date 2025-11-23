@@ -192,19 +192,35 @@
             }
         },
         {
-            "id": "integration_immigration_effort",
+            "id": "integration_immigration_timeline_entrepreneur",
             "categoryId": "integration",
-            "label": "Immigration Effort",
+            "label": "Immigration Timeline (Entrepreneur)",
             "order": 2,
-            "ratingGuide": [
-                {
-                    "rating": 10,
-                    "guidance": "Visa filing is straight forward and evaluations have a quick turn around."
-                }
-            ],
             "metric": {
-                "name": "visa",
-                "unit": "month",
+                "name": "timeline",
+                "unit": "weeks",
+                "direction": "lower is better"
+            }
+        },
+        {
+            "id": "integration_immigration_timeline_without_recognized_sponsor",
+            "categoryId": "integration",
+            "label": "Immigration Timeline (without Recognized Sponsor)",
+            "order": 3,
+            "metric": {
+                "name": "timeline",
+                "unit": "weeks",
+                "direction": "lower is better"
+            }
+        },
+        {
+            "id": "integration_immigration_timeline_with_recognized_sponsor",
+            "categoryId": "integration",
+            "label": "Immigration Timeline (with Recognized Sponsor)",
+            "order": 4,
+            "metric": {
+                "name": "timeline",
+                "unit": "weeks",
                 "direction": "lower is better"
             }
         },
@@ -212,7 +228,7 @@
             "id": "integration_adult_language_expectations",
             "categoryId": "integration",
             "label": "Adult Language Expectations",
-            "order": 3,
+            "order": 5,
             "ratingGuide": [
                 {
                     "rating": 10,
@@ -245,7 +261,7 @@
             "id": "integration_childhood_language_expectations",
             "categoryId": "integration",
             "label": "Childhood Language Expectations",
-            "order": 4,
+            "order": 6,
             "ratingGuide": [
                 {
                     "rating": 10,
@@ -266,7 +282,7 @@
             "id": "integration_welcoming_of_skilled_immigrants",
             "categoryId": "integration",
             "label": "Welcoming of Skilled immigrants",
-            "order": 5,
+            "order": 7,
             "ratingGuide": [
                 {
                     "rating": 10,
@@ -283,7 +299,7 @@
             "id": "integration_housing_accessibility",
             "categoryId": "integration",
             "label": "Housing Accessibility",
-            "order": 6,
+            "order": 8,
             "ratingGuide": [
                 {
                     "rating": 10,
@@ -301,6 +317,32 @@
             "metric": {
                 "name": "lease",
                 "unit": "weeks",
+                "direction": "lower is better"
+            }
+        },
+        {
+            "id": "integration_years_to_permanent_residency",
+            "categoryId": "integration",
+            "label": "Years to Permanent Residency",
+            "order": 9,
+            "guidance": "Typical minimum continuous-residence period (in years) for a skilled worker or entrepreneur to reach permanent residency, assuming requirements are met.",
+            "informational": false,
+            "metric": {
+                "name": "years",
+                "unit": "years",
+                "direction": "lower is better"
+            }
+        },
+        {
+            "id": "integration_years_to_citizenship",
+            "categoryId": "integration",
+            "label": "Years to Citizenship",
+            "order": 10,
+            "guidance": "Typical minimum continuous-residence period (in years) before naturalization is possible for a family like ours.",
+            "informational": false,
+            "metric": {
+                "name": "years",
+                "unit": "years",
                 "direction": "lower is better"
             }
         },
@@ -475,6 +517,58 @@
                 "unit": "percent of residents",
                 "direction": "higher is better",
                 "rangeHint": "Share of residents within 500 m of transit running <=10-minute headways for >=16 hours/day"
+            }
+        },
+        {
+            "id": "life_digital_government_maturity",
+            "categoryId": "life",
+            "label": "Digital Government Maturity",
+            "order": 13,
+            "guidance": "Share of core resident services (registration, taxes, healthcare enrollment, school enrollment, visa appointments) that can be completed fully online without in-person visits.",
+            "informational": false,
+            "metric": {
+                "name": "services online",
+                "unit": "percent",
+                "direction": "higher is better"
+            }
+        },
+        {
+            "id": "life_personal_tax_filing_effort",
+            "categoryId": "life",
+            "label": "Personal Tax Filing Effort",
+            "order": 14,
+            "guidance": "Estimated hours per year a typical dual-income family spends on income tax filing and required record-keeping (including dealing with cross-border issues if relevant).",
+            "informational": false,
+            "metric": {
+                "name": "tax compliance",
+                "unit": "hours/year",
+                "direction": "lower is better"
+            }
+        },
+        {
+            "id": "life_parental_leave_generosity",
+            "categoryId": "life",
+            "label": "Parental Leave Generosity",
+            "order": 15,
+            "guidance": "Total weeks of paid leave available to each parent at ~70-100% of income around birth/adoption, including job protection.",
+            "informational": false,
+            "metric": {
+                "name": "leave",
+                "unit": "weeks",
+                "direction": "higher is better"
+            }
+        },
+        {
+            "id": "life_child_benefit_generosity",
+            "categoryId": "life",
+            "label": "Child Benefit Generosity",
+            "order": 16,
+            "guidance": "Typical monthly cash or tax-credit support per child for a middle-income family.",
+            "informational": false,
+            "metric": {
+                "name": "benefit",
+                "unit": "local currency/month",
+                "direction": "higher is better"
             }
         },
         {
@@ -695,6 +789,71 @@
                 "name": "overhauls",
                 "unit": "per decade",
                 "direction": "lower is better"
+            }
+        },
+        {
+            "id": "stability_autocratization_trend",
+            "categoryId": "stability",
+            "label": "Autocratization Trend",
+            "order": 6,
+            "guidance": "Use a neutral democracy backsliding measure (e.g., V-Dem autocratization index) to capture whether the country is trending more authoritarian over the last 10-20 years.",
+            "informational": false,
+            "metric": {
+                "name": "autocratization",
+                "unit": "index",
+                "direction": "lower is better"
+            }
+        },
+        {
+            "id": "stability_wealth_inequality_level",
+            "categoryId": "stability",
+            "label": "Wealth Inequality Level",
+            "order": 7,
+            "guidance": "Use Gini coefficient or similar 0-100 inequality index for disposable income or wealth at national level.",
+            "informational": false,
+            "metric": {
+                "name": "gini",
+                "unit": "index",
+                "direction": "lower is better"
+            }
+        },
+        {
+            "id": "stability_media_freedom",
+            "categoryId": "stability",
+            "label": "Media Freedom",
+            "order": 8,
+            "guidance": "Use a press freedom percentile or index (e.g., RSF score) to capture independence of media from government and oligarchic control.",
+            "informational": false,
+            "metric": {
+                "name": "press freedom",
+                "unit": "percentile",
+                "direction": "higher is better"
+            }
+        },
+        {
+            "id": "stability_anti_immigrant_political_rhetoric",
+            "categoryId": "stability",
+            "label": "Anti-Immigrant Political Rhetoric",
+            "order": 9,
+            "guidance": "Capture how central anti-immigrant, anti-refugee narratives are in mainstream politics in the last 5 years using a 0-100 rhetoric salience index based on mainstream vote share and campaign prominence.",
+            "informational": false,
+            "metric": {
+                "name": "rhetoric",
+                "unit": "index",
+                "direction": "lower is better"
+            }
+        },
+        {
+            "id": "stability_dominant_political_narratives",
+            "categoryId": "stability",
+            "label": "Dominant Political Narratives",
+            "order": 10,
+            "guidance": "Short, qualitative summary of the main themes in national political discourse (e.g., focus on crime, immigration, family, austerity, climate).",
+            "informational": true,
+            "metric": {
+                "name": "narrative",
+                "unit": "summary",
+                "direction": "higher is better"
             }
         },
         {

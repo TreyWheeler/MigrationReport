@@ -143,11 +143,6 @@
       "alignmentValue": 7
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Portugal visa for U.S. founders is feasible; plan 4-6 months (D7/startup). Gather docs; Coimbra registrations will apply.",
-      "alignmentValue": 7
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Portugal (Coimbra): Immigration Status \u0026 Rights - identify applicable non-EU paths (work/entrepreneurship residence permits, family reunification, or study) and how to obtain them through SEF; enumerate the rights each status confers (work, healthcare, education, social benefits, Schengen mobility) and the obligations (residency duration, renewals, language/integration requirements). Actions: confirm eligibility, gather documents (US passports, birth/marriage certificates, background checks, proof of funds or business plan), submit an initial residence-permit application as a first-time applicant, arrange healthcare enrollment and schooling access for your children, and track timelines toward permanent residency and citizenship where feasible. Ensure alignment with your priorities: stable residency, universal healthcare access, bilingual education exposure, and long-term citizenship prospects."
     },
@@ -357,31 +352,73 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Coimbra offers a mild, stable climate; expect around 18-21 severe weather/AQI days yearly, supporting your low-risk, climate-friendly goals.",
-      "alignmentValue": 6
+      "alignmentText": "Coimbra offers a mild Atlantic climate with few extreme events; around 18\u201321 severe weather/AQI days yearly supports your low-risk, climate-friendly goals.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Coimbra, Portugal shows modest GDP-per-capita volatility; EU-backed stability supports long-term family plans and a resilient startup path.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "Coimbra, Portugal shows about 5 years of negative real GDP in 2005-2024; EU stability and a growing startup ecosystem support long-term family plans.",
+      "alignmentValue": 6
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Coimbra, Portugal maintains stable migration rules with modest reforms; visas and startup grants back entrepreneurship amid some bureaucracy.",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentText": "Coimbra\u0027s migration rules are stable with modest reforms; startup visas back entrepreneurship, though bureaucracy remains.",
+      "alignmentValue": 8
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Coimbra, Portugal enjoys stable democracy with strong rule of law and low unrest; safe, family-friendly neighborhoods and reliable public services.",
+      "alignmentText": "Coimbra, PT benefits from high liberal democracy (LDI \u226590), strong rule of law, and low unrest; safe, family-friendly neighborhoods and reliable services.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Coimbra, Portugal has very low violent crime, reliable utilities, and solid public schools - ideal for a family move.",
+      "alignmentText": "Coimbra, PT shows very low violent crime and reliable utilities. It also has solid public schools, making it ideal for a family seeking safe, stable living.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Portugal entrepreneur visa likely 13-16 weeks end-to-end; Coimbra offers a supportive startup scene for founders like Trey.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Coimbra, PT: non-sponsor visa (D7) end-to-end ~13-16 weeks; plan for several months.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Portugal (Coimbra) with a recognized sponsor: end-to-end visa processing about 7-8 weeks.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Portugal\u0027s mainstream immigration rhetoric remains low; Chega exists but is marginal in Coimbra\u0027s broader political discourse.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Coimbra, Portugal remains a stable democracy with civil liberties intact. Families can count on predictable governance and solid public services.",
       "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Coimbra prioritizes a fiscally prudent, socially cohesive agenda: expanding affordable student and family housing; accelerating university-driven innovation with accessible funding; ensuring universal broadband and reliable connectivity for education and business; sustaining education quality and local job growth; and preserving safe, livable neighborhoods with climate resilience.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Coimbra benefits from Portugal\u0027s high press freedom; diverse, independent outlets with pluralistic coverage and broad English access.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Portugal\u0027s wealth inequality is moderate (Gini around 32). Coimbra offers affordable, family-friendly living with solid public services.",
+      "alignmentValue": 8
     }
   ]
 }

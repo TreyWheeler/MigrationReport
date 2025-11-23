@@ -140,12 +140,6 @@
       "alignmentValue": 9
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "US citizens in Kansas City, MO (USA); domestic relocation requires no visa or immigration processing.",
-      "alignmentValue": 10,
-      "sameAsParent": false
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "US immigration status overview and rights: 1) Citizen by birth or naturalization \u2014 full civil rights, voting eligibility; 2) Lawful permanent resident (green card) \u2014 work authorization and lawful residence with a path to naturalization; 3) Non immigrant statuses \u2014 temporary residence/work rights with status-specific conditions and renewal requirements; 4) Asylum or humanitarian status \u2014 work authorization and potential path to permanent status after a defined period. For each household member, determine current status (residency duration, language and civics knowledge, good moral character where required) and document eligibility. If eligible, outline steps to naturalization or permanent residency via family sponsorship or employment, including filing the appropriate forms (N-400 for naturalization; I-485 or consular processing for green card), biometrics, interviews, and timing; maintain status, comply with conditions, and plan renewals. For minors, note voting is not applicable and ensure parental sponsorship or guardianship pathways as needed; consult an immigration attorney as appropriate.",
       "sameAsParent": false
@@ -357,31 +351,75 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "KC, MO, USA: climate stability moderate; summers hot/humid, winters milder; aligned with a family seeking mild year-round climate.",
+      "alignmentText": "KC, MO, USA: climate stability is moderate. Summers are hot and humid; winters are milder, matching a family seeking mild year-round climate.",
       "alignmentValue": 5,
       "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "US/Kansas City, MO: ~4 negative-growth years in 2001, 2008-09, 2020; KC offers a diversified, tech-friendly economy for families and remote work.",
-      "alignmentValue": 7
+      "alignmentText": "US/Kansas City, MO: 3 recession years in the last 20 (2008-09, 2020); KC remains diversified and tech-friendly, supportive of families and remote work.",
+      "alignmentValue": 8
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "US immigration policy is highly dynamic; Kansas City, MO-based family should plan for visa-rule changes and processing delays.",
-      "alignmentValue": 4
+      "alignmentText": "US immigration policy shifts are frequent; Kansas City, MO-based family should anticipate visa-rule updates and processing delays.",
+      "alignmentValue": 7,
+      "sameAsParent": true
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "US institutions remain solid (LDI in the 70s); Kansas City, MO offers stable governance and a family-friendly, tech-friendly environment.",
+      "alignmentText": "US LDI percentile in the 70s; Kansas City, MO offers stable governance, solid schools, and a growing tech-friendly, family-focused environment.",
       "alignmentValue": 8,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Kansas City, MO has higher violent crime than the national average; safer suburban areas (Johnson County, KS) offer better stability.",
-      "alignmentValue": 3,
+      "alignmentText": "Kansas City, MO has higher violent crime than US avg; safer Johnson County, KS suburbs offer stronger stability for families.",
+      "alignmentValue": 4,
       "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "US citizens in Kansas City have no US entrepreneur visa path; timelines don\u0027t apply. If pursuing abroad, check the destination country\u0027s visa timeline.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "From Kansas City, USA, visa pathways without a recognized sponsor are often lengthy and uncertain. Likely \u003E28 weeks.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "From Kansas City, MO, with a sponsor, expect visa end-to-end in about 7-8 weeks; fits their English-friendly, family-focused plan.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In the US (Kansas City, MO), anti-immigrant rhetoric has been moderately salient in national politics 2019\u20132024, not fully dominant.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "US shows very mild autocratization trend. Kansas City, MO remains in a relatively stable democracy, with civil liberties and media pluralism still protected.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In the United States, national political narratives center on economic stability (inflation, jobs, taxes), immigration policy, crime/public safety, healthcare affordability, climate action and energy policy, and education/cultural issues, with debates over democratic norms and governance driving polarization and shaping policy priorities.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "US media remains pluralistic and independent (Kansas City, MO), aligning with our goal of minimal propaganda.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Wealth inequality in the US is high (Gini ~70\u002B); Kansas City, MO shows pronounced asset gaps, affecting mobility and security.",
+      "alignmentValue": 1
     }
   ]
 }

@@ -142,11 +142,6 @@
       "alignmentValue": 7
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Spain Valencia visa for US family is moderate; 11-12 weeks end-to-end with in-person steps and possible RFEs; prepare organized docs.",
-      "alignmentValue": 6
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Spain Valencia: Eligible immigration statuses build from temporary residence permits to long-term permanent rights and citizenship. Primary options and associated rights include: (1) residencia y trabajo (residence and work permit) for non-EU family members or workers; enables lawful residence and work, with a Tarjeta de Identidad de Extranjero (TIE) and access to public healthcare and schooling; applications can be based on work offers or family reunification. (2) Residencia de larga duracion (permanent residence) after roughly five years of legal residence; ongoing right to live and work in Spain with easier renewals and broad equal-rights along with nationals. (3) Residencia de larga duracion de la UE (EU long-term residence) after five years; similar to permanent status but with enhanced cross-EU equal treatment for work, housing and social services. (4) Ciudadania espa\u00F1ola por naturalizacion (Spanish citizenship by naturalization) after long-term residence (often around ten years; shorter in some cases such as marriage to a Spanish citizen or specific nationalities); grants full civil and political rights and a Spanish passport. Other routes exist (student, researcher, etc.) with corresponding residence rights. Action plan for the Valencia family: identify whether family reunification or work-based permits apply, assemble required documents (passports, birth/marriage certificates, antecedentes penales, proof of means, health coverage, housing), apply for visas and residence permits before/after arrival, obtain the TIE within 30 days of arriving, enroll in health care and schools, maintain continuous residency to pursue permanent residency and eventual citizenship if desired.",
       "sameAsParent": false
@@ -357,17 +352,18 @@
     {
       "key": "stability_climate_stability",
       "alignmentText": "Valencia, Spain has a mild Mediterranean climate with rare severe weather; expect about 10-13 days/year of AQI spikes or storms.",
-      "alignmentValue": 8
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Valencia, ES: 4 recession years in the last 20 (2009, 2010, 2012, 2013); recovery is steady, supporting family finances and startup grants.",
+      "alignmentText": "Valencia, ES: 4 recession years in the last 20 (2009, 2010, 2012, 2013); recovery steady, supporting family finances and startup grants.",
       "alignmentValue": 7,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Valencia, Spain maintains a steady immigration regime with limited reforms this decade; visa processes are predictable and family-friendly.",
+      "alignmentText": "Valencia, Spain maintains a stable immigration regime this decade. Visa processes are predictable and family-friendly.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -382,6 +378,37 @@
       "alignmentText": "Valencia, ES offers strong family stability: very low violent crime and reliable services support schooling and daily life.",
       "alignmentValue": 10,
       "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Spain\u0027s entrepreneur visa for US founders typically runs 11-12 weeks end-to-end; expect consular filing, business plan review, and local residency steps in Valencia.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Valencia, Spain non-sponsor visa paths typically 13\u201316 weeks end-to-end; plan for months with no job offer.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Valencia, Spain: with a recognized sponsor, visa processing for work/residence is about 11\u201312 weeks end-to-end.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric"
+    },
+    {
+      "key": "stability_autocratization_trend"
+    },
+    {
+      "key": "stability_dominant_political_narratives"
+    },
+    {
+      "key": "stability_media_freedom"
+    },
+    {
+      "key": "stability_wealth_inequality_level"
     }
   ]
 }

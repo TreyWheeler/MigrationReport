@@ -144,11 +144,6 @@
       "alignmentValue": 7
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Canada (CA) Express Entry/Startup for this US family may take ~6\u20139 months; endorsements/interviews can extend timelines.",
-      "alignmentValue": 3
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Canada offers permanent residency via Express Entry, Provincial Nominee Programs (PNP), or family sponsorship. For your family, practical paths are Express Entry (FSW/CEC) or a provincial entrepreneur/Start-up option if you pursue a business. Action steps: 1) confirm proof-of-funds needs for a four-person family and convert to CAD; 2) obtain Educational Credential Assessments (ECA) for Trey and Sarah; 3) complete language tests (IELTS or CELPIP) and target CLB 7\u002B; 4) gather documents (passports, birth/marriage certificates, education credentials, police certificates, medicals); 5) explore provinces with tech ecosystems (Ontario, British Columbia, Alberta) and suitable streams; 6) submit an Express Entry profile or apply through a PNP or Start-up/entrepreneur pathway; 7) plan settlement: housing, healthcare enrollment, schools, childcare; 8) after immigration approval, ensure residency obligations are met for PR and monitor citizenship eligibility timelines; keep temporary permits valid if needed.",
       "sameAsParent": false
@@ -364,30 +359,77 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Canada (CA) climate stability varies; coastal BC is mild, inland winters are harsher. Expect about 14-17 severe weather/AQI days per year.",
-      "alignmentValue": 7
+      "alignmentText": "Canada climate stability is high: coastal BC tends to be mild, inland winters are colder; aligns with your preference for mild, lower-risk weather.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Canada provides a stable economy with universal healthcare and grants access, great for a family-friendly, entrepreneur-friendly plan.",
-      "alignmentValue": 9
+      "alignmentText": "Canada\u0027s economy shows 2 recession years in 2009 and 2020; universal healthcare and startup grants support family-friendly entrepreneurship.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Canada (CA) offers high stability with few major immigration overhauls and low revocation risk. This supports a US-origin family like yours settling in CA.",
+      "alignmentText": "Canada\u0027s stable immigration rules and universal healthcare suit a US-origin family. CA offers predictability and a strong, welcoming community.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Canada enjoys very high political stability; Ottawa\u0027s stable institutions support family life and predictable policies.",
+      "alignmentText": "Canada\u0027s very high V-Dem LDI percentile signals stable institutions; Ottawa\u0027s predictable policies support families.",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Canada (CA) has relatively low violent crime and reliable utilities. Strong public schools support stable family life for Trey and Sarah.",
-      "alignmentValue": 9
+      "alignmentText": "Canada (CA) violent crime sits in the high range (\u2265900/100k). It still offers strong public schools and family-friendly neighborhoods for Trey and Sarah.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Canada startup visa for entrepreneurs can exceed 28 weeks end-to-end; plan for a long timeline and secure grants in Ontario/BC.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Canada (CA): without a recognized sponsor, visa timelines commonly exceed 28 weeks; expect 6-12\u002B months and explore Express Entry and PNPs.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Canada: With a recognized sponsor for tech roles, end-to-end visa could be around 4 weeks in cities like Toronto, Montreal, or Vancouver.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "For your family in Canada, anti-immigrant rhetoric remains fringe in mainstream politics; inclusion and immigration targets are emphasized.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Canada (Ottawa) remains a stable democracy; autocratization index at or below 0, with strong civil liberties for families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Canada\u0027s dominant political narratives center on making housing affordable, sustaining universal healthcare funding, and accelerating the climate transition; debates on immigration levels and integration; Indigenous reconciliation; and managing federal-provincial fiscal tensions to balance growth with social protections and regional equity.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Canada (CA) maintains top-tier media freedom; independent journalism is strong nationwide with clear protections for reporters.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Canada\u0027s Gini ~30-33 shows moderate inequality; universal healthcare and strong public schools support a stable, family-friendly lifestyle.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     }
   ]
 }

@@ -54,7 +54,7 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "France\u0027s temperate climate and solid infrastructure offer mild weather most of the year; heatwaves and floods occur occasionally but are manageable.",
+      "alignmentText": "France offers a temperate climate with mild weather most of the year. Heatwaves and floods occur occasionally but are manageable for a family.",
       "alignmentValue": 9,
       "sameAsParent": false
     },
@@ -109,9 +109,8 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "France\u0027s stable economy, EU access, and startup grants fit our plans; strong public services support work-life balance for a growing family.",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentText": "France offers stable growth, EU access, and startup grants that fit a growing family. Strong public services support work-life balance.",
+      "alignmentValue": 8
     },
     {
       "key": "kids_education_quality",
@@ -161,11 +160,6 @@
       "sameAsParent": false
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "France\u0027s Passeport Talent remains feasible for US founder families; prepare organized evidence; 3-4 month processing; interview possible.",
-      "alignmentValue": 8
-    },
-    {
       "key": "kids_language_expectations_in_schools",
       "alignmentText": "France public schools offer ~4\u20135 hrs/week of English. Bilingual aides are rare, limiting English exposure for kids.",
       "alignmentValue": 3,
@@ -178,7 +172,7 @@
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "France\u0027s Talent Passport remains a stable path for Trey (founder) and Sarah (web dev); strong family support with only minor policy tweaks expected.",
+      "alignmentText": "France\u0027s Talent Passport remains a stable path for Trey and Sarah; expect ~2 policy overhauls/decade; strong family support.",
       "alignmentValue": 9
     },
     {
@@ -251,8 +245,9 @@
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "In France, violent crime is typically under 200 per 100k, with universal healthcare and strong public schools supporting Trey, Sarah, and the kids.",
-      "alignmentValue": 10
+      "alignmentText": "In France, violent crime remains under 200 per 100k; universal healthcare and strong public schools support Trey, Sarah, and the kids.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "outdoors_spring_temperature_range",
@@ -406,6 +401,48 @@
       "key": "life_healthcare_affordability_perm_resident",
       "alignmentText": "EUR 750.00 ($810.00)",
       "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "France (FR) entrepreneur visa likely 13\u201316 weeks end-to-end; US applicant with first visa, plan for French admin steps.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "France (FR) non-sponsored visa path for a US family is lengthy; expect roughly 21\u201328 weeks end-to-end and potential delays.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "France long-stay visa with a recognized sponsor could take about 7-8 weeks end-to-end; prepare docs for Passeport Talent pathway.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "France\u0027s mainstream politics include immigration debates but remain stable; expect moderate rhetoric with solid social protections for families.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "France shows a stable democracy with minimal autocratization over the last 10-20 years; civil liberties remain strong for families relocating to FR.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In France, the dominant political narratives focus on preserving and reforming the welfare state, immigration and integration policy, economic reform and labor market flexibility, climate action and energy transition, public security, and EU sovereignty and governance.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "France has strong media freedom with diverse outlets; expect pluralistic coverage. English resources exist, but French helps access local media.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "France\u0027s wealth inequality is moderate (Gini ~29); supportive of public services like healthcare and education for families.",
+      "alignmentValue": 9,
       "sameAsParent": false
     }
   ]

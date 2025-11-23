@@ -145,11 +145,6 @@
       "alignmentValue": 6
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Berlin, Germany: EU Blue Card for IT/tech with qualifying offer; organized docs. End-to-end ~4-6 months; interview possible.",
-      "alignmentValue": 4
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Germany uses a two-tier framework for long-term status: Permanent residence (Niederlassungserlaubnis) and Citizenship (Staatsangeh\u00F6rigkeit). Niederlassungserlaubnis is granted after several years of legal residence and meeting criteria such as prior valid stays, stable livelihood, and language/integration benchmarks; it provides unrestricted residence, work rights, and access to social benefits with a clear path to citizenship. Citizenship is usually obtained by naturalization after typically 6-8 years of residence (reduced with strong integration or through marriage to a German citizen) and includes full political rights, eligibility for a German passport, and easier family sponsorship. Non-EU family members typically begin with a residence permit (Aufenthaltserlaubnis) tied to work or family ties, which can convert to Niederlassungserlaubnis after meeting conditions. Rights associated with these statuses include access to healthcare, education, social security, freedom to work, ability to travel within the EU, and, at citizenship level, voting rights and broader civic protections.",
       "sameAsParent": false
@@ -360,28 +355,71 @@
     {
       "key": "stability_climate_stability",
       "alignmentText": "Berlin, Germany offers a mild, temperate climate with manageable seasonal risk. Relatively few severe-weather days support family-friendly climate stability.",
-      "alignmentValue": 9
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Berlin\u0027s economy shows steady growth. 5-year real GDP per capita volatility is about 1.5-1.9%, supporting stable family finances.",
-      "alignmentValue": 8,
+      "alignmentText": "Germany had just 2 negative-growth years in 20 (2009, 2020); Berlin offers stable jobs and strong social supports for families.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Berlin, Germany offers a stable, pro-immigration climate with clear skilled worker pathways; robust healthcare and family support ease relocation.",
+      "alignmentText": "Berlin\u0027s stable pro-immigration climate with clear skilled-worker paths and strong healthcare/family support fits our visa, IT, and childcare needs.",
       "alignmentValue": 8
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Berlin, Germany shows very high political stability; stable governance and low unrest, favoring a family relocation.",
-      "alignmentValue": 10
+      "alignmentText": "Berlin, Germany shows very high stability; strong institutions and low unrest support a family-friendly relocation.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Berlin, Germany offers solid safety and steady services. With reliable schools and utilities, the city supports family stability.",
-      "alignmentValue": 7
+      "alignmentText": "Berlin, Germany offers low violent crime and reliable services; strong public schools and family-friendly neighborhoods support stability.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "In Berlin, entrepreneur visas typically take about 13\u201316 weeks end-to-end. Berlin offers grants, but bureaucracy can slow things.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Berlin, Germany: visa for first-time US applicants without a sponsor is likely 13-20 weeks. Plan for longer.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Berlin, Germany: with a recognized sponsor, visa timeline ~11-12 weeks end-to-end. Expect bureaucratic steps, but sponsor support may speed things.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Berlin, Germany, anti-immigrant rhetoric remains present but not dominant in mainstream politics; emphasis on integration and asylum policy.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Germany (Berlin) has a stable democracy and strong rule of law. Family-friendly policies support a predictable, safe relocation.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Berlin/Germany\u0027s dominant political narratives emphasize energy security and affordability amid the transition to renewables, inflation and housing costs, social welfare and family policy, immigration and integration, rule-of-law and EU cohesion, while balancing defense spending and industrial competitiveness."
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Berlin, Germany has strong press freedom and independent media, supporting informed civic life for a family prioritizing education and rights.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Germany shows moderate wealth inequality (Gini ~30-33); Berlin\u0027s family-friendly policies, healthcare access, and public services fit the family\u0027s needs.",
+      "alignmentValue": 8
     }
   ]
 }

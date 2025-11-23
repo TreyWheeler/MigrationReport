@@ -145,11 +145,6 @@
       "sameAsParent": false
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Toronto, ON: Express Entry remains viable for US citizens seeking PR; expect about 5-7 months end-to-end (docs, scoring, possible PNP).",
-      "alignmentValue": 3
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "Canada/Toronto: Eligible statuses are Permanent Residency (PR) and citizenship. PR can be pursued via Express Entry (Federal Skilled Worker or Canadian Experience Class) or the Ontario Immigrant Nominee Program (OINP), with a tech founder/web developer profile; a job offer or provincial nomination strengthens eligibility. Action steps: assemble documents (passports, birth certificates, education credentials with ECA where required); take English tests (IELTS or CELPIP) and meet minimum CLB; obtain police clearances and medical exams; provide proof of funds unless you have a qualifying job offer; secure a job offer or provincial nomination to boost Express Entry; apply for PR. After PR is granted, you may live and work in Ontario; enroll in OHIP after establishing residency; maintain status by meeting the 730-day presence rule within five years and filing taxes. After meeting residency, language, and civics requirements, apply for Canadian citizenship to obtain a passport and broader mobility. Plan bilingual exposure (English \u002B potential French) and leverage Toronto language resources; monitor residency timelines and coordinate with immigration counsel or service providers as needed.",
       "sameAsParent": false
@@ -358,29 +353,71 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Toronto, Canada offers a mild, four-season climate with occasional winter storms; about 10-13 severe weather/AQI days per year.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "stability_economic_stability",
-      "alignmentText": "Toronto\u0027s diversified economy and strong services sector provide steady GDP per capita and low recession risk for family planning.",
-      "alignmentValue": 8
-    },
-    {
-      "key": "stability_migration_stability",
-      "alignmentText": "Toronto, Canada offers stable immigration policy with modest changes; skilled approvals rarely revoke and Express Entry remains predictable for families.",
-      "alignmentValue": 8,
+      "alignmentText": "Toronto has a mild four-season climate with light winter storms and manageable heat; aligns with the family\u0027s preference for lower climate risk.",
+      "alignmentValue": 9,
       "sameAsParent": false
     },
     {
+      "key": "stability_economic_stability",
+      "alignmentText": "Toronto, Canada has a diversified economy with just 2 recession years (2009, 2020), supporting long-term family planning.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Canada/Toronto offers stable immigration with predictable Express Entry for families; strong healthcare and schools.",
+      "alignmentValue": 9
+    },
+    {
       "key": "stability_political_stability",
-      "alignmentText": "Toronto, Canada offers high political stability and stable governance. Strong public services and inclusive, family-friendly policies support your family\u0027s plans.",
+      "alignmentText": "Toronto, Canada offers strong institutions and stable governance; universal healthcare and family-friendly policies support your family\u0027s plans.",
       "alignmentValue": 10
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Toronto offers stable social services and universal healthcare; violent crime is moderate, with solid schools and reliable utilities.",
-      "alignmentValue": 4
+      "alignmentText": "Toronto offers universal healthcare, strong schools, and safe, cohesive neighborhoods; violent crime is moderate.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Toronto Start-up Visa is viable but slow; plan 6-12\u002B months end-to-end, including securing a designated organization.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Toronto offers Express Entry for skilled workers without a sponsor, suitable for your tech family. End-to-end processing typically spans several months.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Toronto, Canada: with a recognized sponsor, visa timelines are roughly 9-10 weeks end-to-end.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Toronto, Canada, anti-immigrant rhetoric is not dominant; mainstream politics emphasize inclusion, so your US-to-Canada family should feel welcome.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Canada\u0027s autocratization trend remains stable in Toronto. Democratic institutions show no backsliding.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In Toronto, the dominant political narratives center on housing affordability and urban infrastructure (transit, land use) in the GTA, public healthcare wait times, and climate action with an accelerated energy transition. Immigration and multilingual settlement services, social equity, and reconciliation with Indigenous communities are foregrounded in policy messaging, alongside fiscal prudence, protections for the middle class, and cost-of-living relief while addressing regional disparities and growth pressures.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Toronto, Canada maintains strong media freedom (RSF ~85th percentile); diverse, independent outlets support your family\u0027s daily life.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Canada\u0027s wealth inequality is moderate (Gini ~0.32, ~32); Toronto offers a stable, family-friendly environment with strong services.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     }
   ]
 }

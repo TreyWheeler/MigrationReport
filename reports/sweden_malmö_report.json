@@ -142,11 +142,6 @@
       "sameAsParent": false
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "In Malm\u00F6, Sweden, US family visas are manageable: 4-6 months with organized docs; most steps online, some interview possible.",
-      "alignmentValue": 7
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "In Sweden, two primary immigration statuses determine rights for this family: Permanent Residence (permanent uppeh\u00E5llstillst\u00E5nd) and Citizenship (svenskt medborgarskap). Determination: Permanent Residence is granted after lawful, ongoing residence under a valid permit (e.g., work, family reunification) and meeting applicable conditions; Citizenship requires a defined period of continuous residence and satisfactory integration (language basics, conduct) and is granted by the Swedish Migration Agency. Rights added: Permanent Residence lets you live and work in Sweden indefinitely, access most social benefits, and pursue family reunification and long-term planning; Citizenship grants full political rights (voting in national/local elections), eligibility for a Swedish passport, and strong protection under Swedish law. Note: temporary residence permits provide more limited rights and require renewal; both statuses typically allow access to universal healthcare and education. Actionable path for this family: secure an approved residence permit first (work or family ties), maintain lawful residence to qualify for Permanent Residence, then, after meeting the residence/integration thresholds, apply for Citizenship if long-term residency and integration goals align with timelines.",
       "sameAsParent": false
@@ -357,23 +352,66 @@
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Sweden (Malm\u00F6) had 2 recession years in 20 years (2009, 2020), signaling stable, low-volatility growth for Trey\u0027s startup goals.",
+      "alignmentText": "Sweden (Malm\u00F6) had 2 recession years in 20 years (2009, 2020). This signals stable growth favorable for Trey\u0027s startup goals.",
       "alignmentValue": 9
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Stable Swedish policy with a few reforms per decade and modest revocation risk; good fit for a tech family settling in Malm\u00F6 with strong public services.",
+      "alignmentText": "Sweden\u0027s policy framework remains stable with a few reforms per decade; a strong fit for a tech family settling in Malm\u00F6 with solid public services.",
       "alignmentValue": 8
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Sweden (Malm\u00F6) ranks highly on political stability with strong institutions. Predictable governance supports long-term family plans.",
-      "alignmentValue": 10
+      "alignmentText": "Sweden (Malm\u00F6) exhibits very high political stability with strong institutions. Predictable governance supports long-term family plans.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "In Malm\u00F6, Sweden, you get universal healthcare and solid schools; violent crime around 300-350 per 100k, plan for urban safety.",
+      "alignmentText": "Universal healthcare and good schools in Malm\u00F6; violent crime around 300-350 per 100k, signaling a generally stable family environment.",
       "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "In Sweden (Malm\u00F6), entrepreneur visas often take 17-20 weeks end-to-end; strong plan and funds help, expect multi-step review.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Sweden (Malm\u00F6) non-recognized sponsor self-employed/startup permits typically take ~17-20 weeks end-to-end. Trey\u0027s founder plan makes this feasible, but it\u0027s a multi-month timeline.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "In Malm\u00F6, Sweden, sponsor-backed work permits for first-time applicants typically process in about 4-5 months end-to-end.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Malm\u00F6, Sweden, anti-immigrant rhetoric exists but is not dominant in mainstream politics; discourse remains pluralistic and inclusive.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Sweden\u0027s autocratization trend is stable-to-democratic in the last 10\u201320 years; Malm\u00F6 offers strong civil liberties and family-friendly democracy-based living.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Sweden/Malm\u00F6: dominant political narratives focus on immigration and integration, sustaining a high-tax welfare state, housing affordability, and urban safety, alongside ambitious climate action; the discourse emphasizes social cohesion, education equity, and targeted regional development to reduce metro disparities while balancing civil liberties with security concerns.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "In Malm\u00F6, Sweden, press freedom is high: independent outlets and transparent reporting with minimal government interference.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Sweden\u0027s wealth inequality is low (Gini ~28/100), with strong social safety nets. Malm\u00F6 offers family-friendly policies and universal healthcare.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

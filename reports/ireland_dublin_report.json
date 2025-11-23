@@ -144,11 +144,6 @@
       "alignmentValue": 6
     },
     {
-      "key": "integration_immigration_effort",
-      "alignmentText": "Dublin, Ireland offers manageable routes for tech founders; expect organized docs and a 4\u20136 month process (possible interview).",
-      "alignmentValue": 7
-    },
-    {
       "key": "integration_immigration_status_rights",
       "alignmentText": "In Ireland, the main statuses for US citizens are: Short-stay permission (up to 90 days) for visitors; Long-stay/work routes such as the Critical Skills Employment Permit or General Employment Permit, which lead to Stamp 4 work authorization; and residence-based paths to permanent residency and ultimately citizenship by naturalisation after the statutory period of lawful residence. The rights attached include the ability to work (without separate work permits once Stamp 4 or permanent residency is granted), access to public healthcare and education, eligibility for certain social supports, and the ability to sponsor eligible family members after meeting residence requirements. Citizenship provides full political rights and visa-free travel within the EU. Actionable next steps: map the most viable visa route for Trey and Sarah (leveraging tech skills and potential employer sponsorship), pursue a formal immigration plan to achieve a Stamp 4 and then permanent residency, track years of residence toward naturalisation, and consult a licensed immigration advisor to confirm current criteria and timelines.",
       "sameAsParent": false
@@ -361,28 +356,73 @@
     },
     {
       "key": "stability_climate_stability",
-      "alignmentText": "Dublin, IE has a mild, maritime climate with few extreme days; about 6\u20139 severe weather/AQI days per year, matching your mild-weather preference.",
-      "alignmentValue": 9
+      "alignmentText": "Dublin, IE offers a mild maritime climate with few extremes; ~6\u20139 severe weather/AQI days annually, matching your mild-weather preference.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "stability_economic_stability",
-      "alignmentText": "Dublin\u0027s strong, grant-friendly economy offers a pro-business climate, but GDP swings from multinationals require prudent planning.",
+      "alignmentText": "Dublin\u0027s strong, grant-friendly economy offers opportunity, but Ireland\u0027s GDP swings (2008-2010, 2020) require prudent, flexible planning.",
       "alignmentValue": 7
     },
     {
       "key": "stability_migration_stability",
-      "alignmentText": "Ireland (Dublin) offers stable, skilled-migrant policies. Startups and families benefit from startup-friendly visas and English-friendly processes.",
+      "alignmentText": "Ireland (Dublin) offers stable, skilled-migrant policies; startups and families benefit from startup visas and English-friendly processes.",
       "alignmentValue": 9
     },
     {
       "key": "stability_political_stability",
-      "alignmentText": "Dublin, Ireland has strong political stability and reliable governance, supporting safe, predictable family life.",
-      "alignmentValue": 10
+      "alignmentText": "Dublin\u0027s strong institutions and stable governance support safe, predictable family life with reliable public services.",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "stability_social_and_quality_of_life_stability",
-      "alignmentText": "Dublin, Ireland has very low violent crime and reliable utilities; excellent schools support your family\u0027s QoL.",
+      "alignmentText": "Dublin, Ireland has very low violent crime and reliable utilities. Excellent schools and universal healthcare support your family\u0027s QoL.",
       "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "In Dublin, Ireland, entrepreneur visas often take 21\u201328 weeks end-to-end; plan ~6 months for approval and stamping.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Dublin, Ireland, visa paths without a recognized sponsor are slow. Expect about 13-16 weeks end-to-end for startup/entrepreneur routes.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Dublin, Ireland: with a recognized sponsor, work permit processing typically 11\u201312 weeks end-to-end.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Dublin, Ireland, anti-immigrant rhetoric exists but is not dominant in mainstream politics; immigration debates have moderate salience.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Dublin, IE shows a stable democracy with minimal backsliding over the last two decades; autocratization index near zero.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Key political narratives in Ireland (Dublin) emphasize housing affordability and supply, cost of living, and the adequacy of public services (healthcare, education). Debates focus on climate action and energy transition, tax policy for multinationals, and sustaining a resilient, growth-driven economy within the EU. Immigration, social inclusion, and EU-UK relations post-Brexit are persistent, shaping policy discourse.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Ireland\u0027s press freedom is strong and Dublin hosts a pluralistic English-language media scene, supporting independent reporting with minimal propaganda.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Ireland (Dublin) wealth inequality around level 8 (Gini 30-33); moderate inequality with strong social supports for families.",
+      "alignmentValue": 8
     }
   ]
 }
