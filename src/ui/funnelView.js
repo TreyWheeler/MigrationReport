@@ -24,6 +24,7 @@ const funnelState = {
   categorySelect: null,
   keySelect: null,
   minSelect: null,
+  joinSelect: null,
   mainData: null,
   currentEditIndex: null,
   reportCache: new Map(),
@@ -63,8 +64,13 @@ function loadStoredFilters() {
       if (!entry || typeof entry !== 'object') return null;
       const keyId = typeof entry.keyId === 'string' ? entry.keyId : String(entry.keyId || '');
       const minAlignment = Number(entry.minAlignment);
+      const conjunction = entry?.conjunction === 'or' ? 'or' : 'and';
       if (!keyId) return null;
-      return { keyId, minAlignment: Number.isFinite(minAlignment) ? minAlignment : 0 };
+      return {
+        keyId,
+        minAlignment: Number.isFinite(minAlignment) ? minAlignment : 0,
+        conjunction,
+      };
     })
     .filter(Boolean);
 }
@@ -486,6 +492,11 @@ function makeFilterSummary(filter) {
   const title = document.createElement('div');
   title.className = 'funnel-filter-summary__rule';
   title.textContent = formatFilterRuleText(filter);
+  const logic = document.createElement('span');
+  const conjunction = filter?.conjunction === 'or' ? 'or' : 'and';
+  logic.className = `funnel-filter-summary__logic funnel-filter-summary__logic--${conjunction}`;
+  logic.textContent = conjunction === 'or' ? 'OR' : 'AND';
+  container.appendChild(logic);
   container.appendChild(title);
   return container;
 }
@@ -674,6 +685,9 @@ function openFilterDialog({ editIndex = null } = {}) {
   }
   populateKeys(funnelState.categorySelect.value, targetKey);
   populateMinimumOptions(existing ? existing.minAlignment : null);
+  if (funnelState.joinSelect) {
+    funnelState.joinSelect.value = existing?.conjunction === 'or' ? 'or' : 'and';
+  }
   try {
     if (typeof funnelState.dialog.showModal === 'function') {
       funnelState.dialog.showModal();
@@ -707,10 +721,11 @@ function handleDialogSubmit(event) {
   if (!funnelState.keySelect || !funnelState.minSelect) return;
   const keyId = funnelState.keySelect.value;
   const minAlignment = Number(funnelState.minSelect.value);
+  const conjunction = funnelState.joinSelect?.value === 'or' ? 'or' : 'and';
   if (!keyId || !Number.isFinite(minAlignment)) {
     return;
   }
-  const payload = { keyId, minAlignment };
+  const payload = { keyId, minAlignment, conjunction };
   if (typeof funnelState.currentEditIndex === 'number') {
     funnelState.filters.splice(funnelState.currentEditIndex, 1, payload);
   } else {
@@ -730,14 +745,33 @@ async function renderFunnel() {
   if (funnelState.filters.length === 0) {
     await Promise.all(allNodes.map(node => ensureReportEntry(node)));
   }
-  let remaining = allNodes;
+  let activeSet = null;
   for (let i = 0; i < funnelState.filters.length; i += 1) {
     const filter = funnelState.filters[i];
-    const { excluded, included } = await evaluateFilter(remaining, filter);
-    rows.appendChild(makeFilterRow(filter, i, excluded, included));
-    remaining = included;
+    const isOr = filter?.conjunction === 'or';
+    const baseline = activeSet === null
+      ? allNodes
+      : (isOr
+        ? allNodes.filter(node => !activeSet.has(node))
+        : Array.from(activeSet));
+    const { excluded, included } = await evaluateFilter(baseline, filter);
+    if (activeSet === null) {
+      activeSet = new Set(included);
+    } else if (isOr) {
+      included.forEach(node => activeSet.add(node));
+    } else {
+      const allowed = new Set(included);
+      Array.from(activeSet).forEach(node => {
+        if (!allowed.has(node)) {
+          activeSet.delete(node);
+        }
+      });
+    }
+    const includedList = Array.from(activeSet).sort(compareNodes);
+    rows.appendChild(makeFilterRow(filter, i, excluded, includedList));
   }
-  rows.appendChild(makeAddRow(remaining));
+  const finalIncluded = Array.from(activeSet ?? allNodes);
+  rows.appendChild(makeAddRow(finalIncluded.sort(compareNodes)));
 }
 
 function wireDragAndDrop() {
@@ -780,6 +814,7 @@ function initFunnelView(mainData) {
   funnelState.categorySelect = document.getElementById('funnelCategorySelect');
   funnelState.keySelect = document.getElementById('funnelKeySelect');
   funnelState.minSelect = document.getElementById('funnelMinSelect');
+  funnelState.joinSelect = document.getElementById('funnelJoinSelect');
   funnelState.mainData = mainData;
   if (!funnelState.rowsContainer || !funnelState.dialog || !funnelState.form) return;
 
