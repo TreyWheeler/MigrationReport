@@ -63,9 +63,12 @@ async function loadRelationalMain() {
 
   const countries = Array.isArray(countriesRaw?.countries) ? countriesRaw.countries.slice() : [];
   const countriesResult = countries.map(country => ({
+    id: country.id,
     name: country.name,
     file: country.report,
     cities: (citiesByCountry.get(country.id) || []).map(city => ({
+      id: city.id,
+      countryId: city.countryId,
       name: city.name,
       file: city.report,
     })).sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' })),

@@ -30,6 +30,7 @@ import {
   applySidebarAlerts,
 } from './src/ui/sidebar.js';
 import { initFunnelView } from './src/ui/funnelView.js';
+import { initMapView } from './src/ui/mapView.js';
 import { openKeyGuidanceDialog, makeKeyGuidanceButton, openWeightsDialog, afterWeightsChanged } from './src/ui/dialogs/index.js';
 import { getEffectivePeople } from './src/data/weights.js';
 import { makeScoreChip, makePersonScoreChip, makeInformationalPlaceholderChip } from './src/ui/components/chips.js';
@@ -98,9 +99,19 @@ async function loadMain() {
     updateCollapseCountriesButton();
 
     const countries = Array.isArray(mainData.Countries) ? mainData.Countries.map(c => {
-      const country = { name: c.name, file: c.file, iso: '', type: 'country', expanded: false, cities: [] };
+      const country = {
+        id: c.id,
+        name: c.name,
+        file: c.file,
+        iso: '',
+        type: 'country',
+        expanded: false,
+        cities: [],
+      };
       const cityList = Array.isArray(c.cities) ? c.cities : [];
       country.cities = cityList.map(city => ({
+        id: city.id,
+        countryId: city.countryId,
         name: city.name,
         file: city.file,
         iso: '',
@@ -177,6 +188,7 @@ async function loadMain() {
     // Enrich with ISO in the background and refresh flags without blocking first paint.
     enrichCountryNodes(mainData, listEl, notice);
     initFunnelView(mainData);
+    void initMapView(mainData);
 
     // Toolbar toggles
     const diffToggle = document.getElementById('diffToggle');
@@ -406,6 +418,7 @@ const MigrationReportAPI = {
   loadMain,
   renderComparison,
   initFunnelView,
+  initMapView,
   refreshAllReportAlerts,
   getStored,
   setStored,
