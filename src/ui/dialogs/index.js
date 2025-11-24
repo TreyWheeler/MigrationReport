@@ -17,6 +17,7 @@ import {
   setKeyAlertLevels,
   getAlertLevelsFromRatingGuide,
 } from '../../data/keyAlerts.js';
+import { initMapView } from '../mapView.js';
 
 function getKeyIdentifier(keyObj) {
   if (!keyObj || typeof keyObj !== 'object') return '';
@@ -308,6 +309,7 @@ export async function afterWeightsChanged(mainData) {
     await onSelectionChanged(mainData, notice, {
       loadingMessage: 'Updating report with new weights…',
     });
+    await initMapView(mainData);
     refreshed = true;
   } catch (error) {
     console.warn('Failed to refresh report after weights update', error);
