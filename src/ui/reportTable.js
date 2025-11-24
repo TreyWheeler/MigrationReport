@@ -1066,18 +1066,8 @@ export async function renderComparison(selectedList, mainData, options = {}) {
 
     const wrap = document.createElement('div');
     wrap.className = 'table-wrap';
-
-    const floatingSpacer = document.createElement('div');
-    floatingSpacer.className = 'floating-header-spacer';
-    wrap.appendChild(floatingSpacer);
     wrap.appendChild(table);
 
-    const floating = document.createElement('div');
-    floating.className = 'floating-header';
-    const frow = document.createElement('div');
-    frow.className = 'floating-row';
-    floating.appendChild(frow);
-    reportDiv.appendChild(floating);
     reportDiv.appendChild(wrap);
 
     try {
@@ -1110,62 +1100,16 @@ export async function renderComparison(selectedList, mainData, options = {}) {
       } catch {}
     }
 
-    function buildFloatingFromThead() {
-      frow.innerHTML = '';
-      const headerRow = table.tHead && table.tHead.rows[0];
-      if (!headerRow) return;
-      const cells = Array.from(headerRow.cells);
-      const widths = cells.map(c => Math.ceil(c.getBoundingClientRect().width));
-      frow.style.gridTemplateColumns = widths.map(w => `${w}px`).join(' ');
-      cells.forEach(c => {
-        const cell = document.createElement('div');
-        cell.className = 'fh-cell';
-        cell.innerHTML = c.innerHTML;
-        frow.appendChild(cell);
-      });
-      floating.style.width = wrap.clientWidth + 'px';
-      attachRemoveHandlers(floating);
-      updateFloatingSpacer();
-    }
-
-    function updateFloatingSpacer() {
-      try {
-        const spacer = Math.ceil(frow.getBoundingClientRect().height || 0);
-        const spacerPx = spacer > 0 ? `${spacer}px` : '';
-        floatingSpacer.style.height = spacerPx;
-        floating.style.height = spacerPx;
-      } catch {}
-    }
-
-    function updateFloatingVisibility() {
-      try {
-        setStickyOffset();
-        const show = wrap.scrollTop > 6;
-        floating.classList.toggle('visible', show);
-        floating.style.display = show ? 'block' : 'none';
-        if (!show) return;
-        frow.style.transform = `translateX(${-wrap.scrollLeft}px)`;
-      } catch {}
-    }
-
     setStickyOffset();
-    buildFloatingFromThead();
-    updateFloatingVisibility();
     applyPendingKeyFocus(catSections, { updateCollapseButton: updateCollapseCategoriesButton });
     wrap.addEventListener('scroll', () => {
-      updateFloatingVisibility();
       setStored('tableScroll', { x: wrap.scrollLeft, y: wrap.scrollTop });
     });
-    window.addEventListener('scroll', updateFloatingVisibility, { passive: true });
     window.addEventListener('resize', () => {
       setStickyOffset();
-      buildFloatingFromThead();
-      updateFloatingSpacer();
     });
 
-    const floatingContainer = floating.querySelector('.floating-row');
     attachRemoveHandlers(reportDiv);
-    attachRemoveHandlers(floatingContainer);
 
     renderSucceeded = true;
   } catch (error) {
