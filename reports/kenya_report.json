@@ -1,5 +1,489 @@
 {
   "version": 2,
   "iso": "KE",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "KES 300,000.00 ($1,875.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "KES 350,000.00 ($2,333.33)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "KES 180,000.00 ($1,200.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "KES 112,500.00 ($750.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "KES 104,000.00 ($693.33)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "KES 8,000.00 ($66.67)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "KES 25,000.00 ($166.67)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "KES 60,000.00 ($375.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "KES 450,000.00 ($3,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "KES 180,000.00 ($1,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Kenya (KE) offers digital visa options; expect moderate paperwork for a US family starting a business, around 30\u201340 hours/year.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "KES 37,316,666.67 ($240,752.69)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Kenya\u0027s startup visa exists but requires local entity and funding; expect about 5-6 months in Nairobi.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "18%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Kenya\u0027s Nairobi area has few game/dev events, about 1 per year. That limits festival presence for Daemon Games, but local meetups could host demos.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Kenya (Nairobi) offers a growing but limited freelance game talent pool; English common; mid-range availability for artists, animators, sound, and narrative roles.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Nairobi, Kenya has 3 game-friendly incubators (iHub, Nailab, Nairobi Garage) offering mentorship, space, and funding for indie studios.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Indie scene in Nairobi, Kenya is growing with studios and jams; still modest vs US hubs.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Kenya\u0027s Nairobi game-dev scene has universities, hubs (iHub/Nairobi Garage), and events; depth is solid but not saturated.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Kenya (Nairobi) has a budding indie game scene with publishers; major offices are limited, so plan regional partnerships and events for access.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "2",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "KES 1,800,000,000.00 ($12,000,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "KES 517,921,875.00 ($3,452,812.50)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "KES 7,205,100,000.00 ($48,034,000.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "KC, USA to a major game event (GDC in SF or Gamescom) is about 8 hours door-to-door; Europe events typically 16-18 hours.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Kenya\u0027s game-dev scene is small. Nairobi hosts only a handful of events per year, far from a monthly cadence.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Leverage Kenya\u0027s growing tech ecosystem to position Daemon Games as a local employer driving jobs and cultural output: establish a Nairobi-area studio, hire 30\u201350 roles across software, art, QA, and operations, and implement apprenticeship and university-partner programs to build a sustainable talent pipeline. Create bilingual (English\u2013Swahili) content with Kenyan themes and cloud-enabled distribution to maximize regional reach. Pursue Kenyan incentives and grants and seek co-development opportunities with universities and tech parks to align with national digital-economy and creative-industries priorities."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "KES 2,880,000.00 ($18,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Kenya, about 20-30% of daily interactions may require Swahili; English is common, but learning local language will ease routines.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Kenya uses English as the default school language with Kiswahili exposure. About 70-79% of seats offer bilingual or English tracks.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Lease in Nairobi, Kenya may take 7-8 weeks for a US family. Engage local brokers and relocation support to speed things up.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Kenya\u0027s immigration framework centers on Permanant (permanent residence), Citizen (citizenship), and temporary permits. Permanant enables indefinite lawful residence and work rights, usually via long-term residency, investment, or specific sponsorship; it does not confer voting rights. Citizen covers citizenship by birth, registration, or naturalization; it grants a Kenyan passport and full civil and political rights (including voting and eligibility for public services). Temporary permits\u2014for work, study, or dependents\u2014allow residence and limited work/study rights for the permit duration but do not provide permanent status. Determination and progression: citizenship can be attained by birth in Kenya or through Kenyan parentage, or via naturalization after meeting residency and statutory requirements; permanant status is typically earned through extended residency, qualifying investment, or marriage/employment sponsorship and requires ongoing compliance; apply through the Department of Immigration Services with the required documentation. Action steps for your family: decide preferred long-term route (likely permanant residency toward eventual citizenship), prepare documents (passports, birth certificates, marriage certificates, evidence of employment or investment), meet residency/eligibility criteria, submit via DIS, and monitor progress to ensure lawful status during transition.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "In Kenya, entrepreneur visas often run 11\u201312 weeks end-to-end; plan for vetting, business-plan checks, and a resident permit in Nairobi.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Kenya non-sponsored residency typically 21\u201328 weeks end-to-end; plan months-long timelines. Consider eVisa or short-term options while pursuing a sponsor.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Kenya work visa with a sponsor for first-time applicants may take about 17\u201320 weeks end-to-end; plan for labor, embassy steps.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Kenya offers skilled expat work permits with employer sponsorship; Nairobi\u0027s tech ecosystem backs relocation. Expect ~70-79% approval with proper docs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Kenya typically requires ~7 years of continuous residence for naturalization. This aligns with a mid-range citizenship timeline for your KE family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "In Kenya, skilled/entrepreneur paths often require about 5-6 years of residency to PR; prepare for local business visa routes.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Kenya\u0027s international schools show low bullying/racism risk for caucasian expats; roughly 1-2 incidents per 1,000 students.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Kenya\u0027s primary/secondary education quality varies; English instruction is standard and Kiswahili exposure is feasible. This aligns with your priority for high-quality public schools and bilingual options.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Kenya KE school meals: HEI ~65; urban programs improving, but ultra-processed foods persist. Prioritize whole grains, fruits, vegetables.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Kenyan public schools use English as the main medium; roughly 14\u201315 hours/week of English instruction, with some bilingual support in core subjects.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Kenya offers English-heavy schooling with Kiswahili basics; expect 70-89 language seats per 100 newcomers annually.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Kenya: focus on safe, English-friendly urban date-night options in Nairobi and coastal hubs with short, relaxing experiences and reliable childcare backup. Actionable steps: compile 3\u20135 vetted venues (dinner with live music, rooftop lounges, or cultural/film evenings) in Nairobi and Mombasa; establish trusted babysitter options and a quick transport plan; prioritize venues within 15\u201330 minutes of home and with clear late-hour exit options to support childcare pickup."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Kenya, prioritize safe, family-friendly leisure in and around Nairobi: parks and nature trails (Karura Forest, Nairobi National Park); kid-friendly venues (David Sheldrick Elephant Nursery, Giraffe Centre, Bomas of Kenya) and cultural museums with family programs. Plan morning visits to beat heat and keep kids engaged. Favor expat-friendly neighborhoods with safe play areas and reliable broadband (Karen, Runda, Westlands, Gigiri) and access to international schools and licensed childcare. Build a weekly mix of outdoor park days, short nature walks, kid-focused museums, and weekend trips to beaches or national parks. For work-life balance, identify coworking spaces with strong connectivity and nearby private hospitals (Nairobi Hospital, Mater, AAR) and arrange trusted childcare through reputable agencies.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Kenya-specific night/social options should emphasize family-friendly, English-friendly venues in major towns (e.g., Nairobi): board game cafes, community centers with game nights, expat/remote-worker meetups, and family-oriented clubs. Prioritize safe, walkable venues with predictable evening hours, stroller accessibility, affordable pricing, and activities suitable for both adults and children; leverage parks, libraries, cultural centers, and university events for low-cost options; ensure transport safety and language support.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Kenya\u0027s parent-friendly 3rd places after 6pm are concentrated in Nairobi; staff supervision is common. Estimated 14\u201317 venues per 100k residents.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Kenya (Nairobi): walkable family neighborhoods with parks exist. Car use remains common; roughly 35-40% of trips are by foot or transit.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Kenya (Nairobi): healthy food options exist, but price and reliability vary; overall moderate access via markets and supermarkets.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Kenya: with your low-bureaucracy preference, expect 2-3 hours/month for visa upkeep, local registrations, and basic taxes.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "KE\u0027s child benefits are targeted and modest; middle-income families typically receive little or no per-child monthly support.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Kenya\u0027s urban centers have creches; plan 2-3 months to secure reliable childcare for a 1-year-old and a 5-year-old, start early and compare costs.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "KES 35,000.00 ($218.75)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "KES 60,000.00 ($375.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "KES 28,000.00 ($186.67)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Kenya\u0027s digital government maturity is around 8 (70-79% online). Core services via eCitizen (visa, taxes) are largely online; some in-person steps remain.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Kenya\u0027s public healthcare offers broad access via NHIF, but primary care waits are typically 11\u201315 days in urban clinics. Private care is faster but costlier.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "KES 82,500.00 ($550.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "KES 135,000.00 ($900.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "KES 120,000.00 ($800.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Kenya\u0027s healthcare isn\u0027t strictly employment-based; NHIF and private plans cover most workers and the self-employed. Enroll your family in NHIF.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2080",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Kenya provides maternity leave around 12-14 weeks with full pay and job protection; paternity leave is modest, about 1-2 weeks.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Kenya expat family: tax filing and record-keeping will likely take 13\u201318 hours/year, including cross-border US reporting (Kenya iTax).",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Nairobi, KE offers frequent urban routes in central areas. Roughly 60\u201369% live within 500 m of 10\u2011min headways most hours.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Kenya\u0027s public universities are affordable for locals; international tuition is higher. For this US family, access is moderate, with scholarships key.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Kenya\u2019s top universities mostly rank 701\u002B globally (e.g., University of Nairobi). College quality is modest by US standards.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Kenya\u0027s urban centers offer 9-11 accredited adult programs per 100k residents, aiding lifelong learning for families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Kenya\u0027s senior .NET architect postings are sparse (2-3 per million). Nairobi market offers top-quartile salaries but remains competitive; remote options help.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "In Kenya, Ruby on Rails postings are not consistent; Rails roles are rare in the Kenyan market.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "KES 5,400,000.00 ($36,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "KES 3,000,000.00 ($20,000.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "In Kenya, Beach Life is feasible along the Indian Ocean coast; if pursued, focus on coastal hubs such as Mombasa, Kilifi, and Malindi to access beaches while assessing housing costs, safety, schools, and broadband. Ensure chosen areas offer reliable internet, healthcare access, and walkable seaside neighborhoods, and plan for hot, humid conditions with monsoon variability by incorporating climate resilience (air conditioning, water security)."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Kenya (Nairobi area) around 70\u201375\u00B0F, matching the family\u0027s mild climate preference.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Kenya (Nairobi region) offers mild, year-round temps around 60-78 F with moderate humidity; many outdoor days for your family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Kenya offers rich natural beauty. In the Nairobi area, protected lands like Nairobi National Park are within 60 minutes, roughly 20-24% of land.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Nature access in KE: Nairobi offers parks \u003E10 acres within 5 km (Karura Forest, Arboretum, Uhuru Park), supporting family outdoor time.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Kenya spring highs typically 65\u00B0F-69\u00B0F (Nairobi highlands), matching the family\u0027s mild, low-humidity spring.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Kenya summers typically 76\u201380\u00B0F, aligning with your mild-weather preference for KE. Heat risk is moderate in the highlands.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Kenya winters offer mild highs around 55\u00B0F\u201360\u00B0F, aligning with your preference for mild, low-stress climate.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Kenya\u0027s mainstream politics show modest anti-immigrant rhetoric; refugee issues appear, but they\u0027re not a dominant campaign theme.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Kenya shows very mild autocratization in the last 10-20 years (0.01-0.05). Overall democratic stability persists with ongoing reforms (Nairobi).",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Kenya (KE): ND-GAIN shows mid-range climate stability; drought risk persists, but Nairobi\u0027s urban planning supports family-friendly resilience.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In Kenya, the national political narrative centers on economic reform to curb unemployment and rising living costs, anti-corruption and governance improvements, and debates over devolution and fair resource distribution; security and counter-terrorism within the region; climate-resilient agriculture and ongoing infrastructure expansion; and maintaining social cohesion amid ethnic contestation and electoral legitimacy concerns."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Kenya\u0027s economy had only one negative year (2020) in the last 20, with growth rebounding afterward, indicating high stability for KE.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Kenya (Nairobi): media freedom is moderate; some political pressure and safety risks remain, but independent outlets stay active.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Kenya\u0027s visa rules are relatively stable with periodic updates (e-visa, online systems). Expect about 2 changes per decade nationwide.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Kenya\u0027s Liberal Democracy Index percentile is mid-range; Nairobi remains relatively stable with ongoing reforms.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Kenya (KE) offers strong family safety; violent crime is typically under 200 per 100k, aligning with our QoL and safety goals.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Kenya\u0027s Gini around 42-45 shows moderate inequality; aligns with a growing, diverse economy and family-friendly urban hubs (Nairobi).",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    }
+  ]
 }

@@ -1,5 +1,485 @@
 {
   "version": 2,
   "iso": "RS",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "RSD 240,000.00 ($2,200.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "RSD 152,100.00 ($1,430.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "RSD 150,000.00 ($1,411.20)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "RSD 156,200.00 ($1,420.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "RSD 156,000.00 ($1,356.52)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "RSD 10,000.00 ($90.91)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "RSD 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "RSD 110,000.00 ($1,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "RSD 420,000.00 ($3,500.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "RSD 152,100.00 ($1,430.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Belgrade, Serbia offers moderate bureaucracy; plan roughly 40\u201359 hours/year for permits, registrations and taxes; digital nomad options exist.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "RSD 70,333,333.34 ($639,393.03)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "15%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Belgrade, Serbia startup visa: doable in 3\u20134 months; strong entrepreneurial ecosystem, but expect some bureaucracy.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "18%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Belgrade, Serbia hosts a handful of indie/game dev meetups yearly; festival presence is modest with few showcase opportunities.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Belgrade, Serbia has a growing freelance game talent pool (art/animation/audio/narrative); EU overlap and affordable rates, though roster depth is moderate.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Belgrade has a couple of game-friendly accelerators (ICT Hub Belgrade; Startit Center) offering mentorship and space.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Belgrade\u0027s indie game scene is budding with a few small studios and regular jams/meetups. Accessible and affordable for a family-led startup, though not dense.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Belgrade, Serbia has a growing game-dev partner ecosystem: universities and coworking spaces enable grants and collaborations; depth is solid but uneven.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Belgrade has a modest indie scene; local studios offer regional access, but major publisher offices are scarce, though events help.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "1",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "5",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "RSD 1,177,048,125.00 ($10,700,437.50)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "RSD 385,930,800.00 ($3,355,920.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "RSD 6,463,975,237.50 ($58,763,411.25)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Belgrade to major game events, expect about 4-6 hours door-to-door (flight plus transfers); good access via European hubs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Belgrade has a growing but quiet indie game-dev scene; roughly 0.5-0.9 in-person events per month.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Belgrade\u0027s growing IT and game-dev ecosystem makes Daemon Games well-positioned to create local jobs and cultural output. Propose establishing a Belgrade studio that hires 10\u201320 developers within 2\u20133 years, focusing on Unity/C#, cloud tooling, and regional university partnerships to build a strong talent pipeline. Leverage Serbia\u0027s IT incentives and grant programs and pursue collaborations with local accelerators to align with national priorities for digital economy, education, and export-oriented tech. Action steps: register a local entity, apply for IT-sector tax incentives, recruit locally, partner with universities, secure regional funding, and map visa pathways to support family relocation and English-friendly onboarding."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "RSD 3,080,000.00 ($28,000.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Serbia\u0027s Belgrade tech scene uses English widely; expect about 20-25% interactions in Serbian as you settle; continue learning local language.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Belgrade offers a mix of Serbian and bilingual/English tracks; roughly 50% of seats in some schools.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Belgrade, RS: expect a family lease in about 5-6 weeks with English-speaking agents; choose family-friendly neighborhoods near parks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Types include Temporary Residence for work, study, family reunification, or humanitarian reasons; Permanent Residence after qualifying lawful stay; and Citizenship via naturalization. How determined: by purpose and duration of stay, family ties, employment or investment, language and integration criteria, and security/background checks; ongoing compliance with visa/permit conditions. Rights granted: Temporary Residence allows lawful stay and limited work; Permanent Residence provides broader work rights, access to healthcare and social services, education, and mobility within Serbia; Citizenship grants full civil rights, a Serbian passport, and political rights. All paths require adherence to Serbian laws and visa/permit conditions.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Belgrade, Serbia entrepreneur visas tend to run about 11\u201312 weeks end-to-end. This fits Trey\u2019s startup goals but requires patience with bureaucracy.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Belgrade, Serbia: non-sponsored visa paths are multi-month; expect about 4-5 months end-to-end.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Belgrade, Serbia: with a recognized sponsor, visa processing is likely 11\u201312 weeks end-to-end. Expect HR paperwork and residency steps.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Belgrade offers IT-friendly work permits and a growing tech scene; skilled US developers typically receive accessible visas and English-friendly workplaces.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Belgrade, Serbia typically requires about 3-4 years of permanent residence for citizenship; aligns with our planned timeline.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Serbia offers a five-year path to permanent residency for entrepreneurs; Belgrade supports startup activity and stable residency.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Belgrade, Serbia schools are generally welcoming to Western expats; bullying risk is low (about 2 to 3 per 1,000 students) for Caucasian American kids.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Belgrade has solid public schools overall, with area variation. Bilingual exposure is mostly through private/international programs; early childhood options are good.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Belgrade school meals offer moderate nutrition. HEI is around 75-79, with room to cut ultra-processed items.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In Belgrade, public schools average 2-3 hours per week of English; bilingual aides for core subjects are uncommon.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Belgrade has Serbian language courses for newcomers, with modest capacity (30\u201349 seats per 100 newcomers yearly). It favors families willing to learn Serbian.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Belgrade date-night options include a sunset stroll along the Danube/Sava to Kalemegdan Fortress, a traditional Serbian dinner with live music in Skadarlija, and a river cruise with dinner or cocktails. For planning, reserve a table in Skadarlija on weekends, book a Danube cruise in advance, and consider a rooftop bar in the city center for panoramic views after 9 pm.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Belgrade family activity opportunities: plan easy, stroller-friendly days at Kalemegdan Park and Fortress, Belgrade Zoo, and Ada Ciganlija for playgrounds, beaches, and bike paths; add short, interactive visits to Nikola Tesla Museum or Museum of Illusions for hands-on learning with English-friendly explanations to engage a 5-year-old and a toddler.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Identify family-friendly evening social options in Belgrade (Dor\u0107ol/Vra\u010Dar/Savski Venac) such as board game nights, casual trivia evenings, language-exchange meetups, and cafe hangs that welcome kids. Prioritize venues with safe surroundings and good transit, and schedule 1\u20132 outings per month (6:00\u20139:00 PM). Use local expat and parent groups on social media and Meetup to find events; confirm hours and child-friendly amenities before attending."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Belgrade offers a solid after-6pm family scene (museums, libraries, parks, kid-friendly venues). Aligns with 18-21 venues per 100k.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Belgrade\u0027s transit-heavy layout and riverfront parks support family-friendly, walkable trips, placing it around 50% car-free; still some car use.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Belgrade, Serbia offers good access to fresh markets and healthy foods; options exist across neighborhoods, with district variation.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Belgrade, Serbia: first-time residency and payroll/tax tasks. Plan about 4-5 hours per month.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Belgrade\u0027s per-child benefits are modest for a middle-income family (two kids): roughly $80-100 per child per month.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Belgrade, Serbia offers private nurseries with roughly 4-6 months to secure a spot. Municipal centers often have longer waits and require Serbian.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "RSD 25,000.00 ($231.48)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "RSD 52,500.00 ($500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "RSD 18,000.00 ($153.85)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Belgrade offers partial online core services; plan some in-person visits for visas and enrollment, with solid digital access.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Belgrade offers universal public healthcare. Primary care waits are typically 5-7 days, with faster but pricier private options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "RSD 3,000.00 ($26.09)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "RSD 60,000.00 ($571.43)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "RSD 84,000.00 ($800.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Belgrade, Serbia, healthcare is universal and not employment-tied, which supports a family of two adults and two kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1680",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Belgrade, Serbia offers up to 52 weeks of paid parental leave per parent with job protection; strong fit for a family-friendly plan.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Belgrade, Serbia: dual US-Serbia filings and local wage tax (~10%), expect 13\u201318 hours/year of tax filing and records.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Belgrade, RS: transit is dense; most areas are within 500m of frequent lines for 16\u002B hours, supporting a walkable, urban family lifestyle.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Belgrade, Serbia public universities are affordable for locals, but international tuition often exceeds 25% of median income.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Belgrade, Serbia: public universities offer solid quality; not top-100 globally, but affordable and regionally strong for bilingual programs.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Belgrade offers 12\u201314 accredited adult programs per 100k (universities extension, private centers), with English-friendly options for busy families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Belgrade, Serbia shows modest senior .NET architect postings (\u22484\u20135 per million); 20 years\u0027 exp is feasible but not abundant.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Belgrade, Serbia shows low Ruby on Rails demand (about 1-3 postings per million monthly). For 6 years of experience, plan remote work or EU-market opportunities.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "RSD 6,000,000.00 ($54,545.45)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "RSD 280,000.00 ($2,604.65)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "In Belgrade, formal beach life is limited to river/lake beaches (e.g., Ada Ciganlija); true seaside access requires longer trips. If beach life matters, target neighborhoods with quick access to water recreation, parks, and reliable transport for weekend getaways to the Adriatic or nearby lakes, and ensure cooling solutions for hot summers. Verify family-friendly facilities, safety, and multilingual amenities near your intended home.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Belgrade, Serbia are typically 65\u201369\u00B0F. This aligns with your preference for mild autumn weather.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Belgrade, Serbia has many days in the 50-85\u00B0F range with mild humidity. Estimated 150-180 days meet the \u0027mild weather\u0027 criterion.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Belgrade, Serbia has many city parks and protected areas reachable within an hour, supporting frequent easy family outdoor time.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Belgrade has several large parks within 5 km (Kalemegdan, Top\u010Dider, U\u0161\u0107e). This provides strong nature access for your family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Belgrade, Serbia spring highs typically reach 65\u201369\u00B0F. This aligns with your preference for mild, low-heat springs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Belgrade, Serbia summers average highs around 86\u201390\u00B0F (30\u201332\u00B0C), with occasional hotter days near 95\u00B0F.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Belgrade winters: highs 35\u00B0F\u201339\u00B0F (often up to 40\u00B0F). This fits the family\u0027s mild-winter preference.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Belgrade, Serbia shows notable but not dominant anti-immigrant rhetoric in mainstream politics; relevant for your visa and settlement planning.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Serbia shows a mild autocratization trend (\u22480.21\u20130.25) over 10\u201320 years; Belgrade remains open, with some media pressure.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Belgrade, Serbia has a temperate continental climate with hot summers. Climate stability is mid-range (ND-GAIN 60-69), matching your mild-weather preference.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Serbia\u0027s national political discourse foregrounds economic stabilization and job creation amid inflation, EU accession progress tied to reform and rule of law, and anti-corruption efforts; Kosovo normalization and sovereignty debates remain central; energy security and infrastructure investments feature prominently, alongside concerns about media independence and demographic decline."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Belgrade, Serbia offers solid stability with roughly two recession years in 2005-2024; good tech ecosystem and affordable family-friendly living.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Media freedom in Belgrade, Serbia is moderate: several independent outlets exist, but ownership concentration and political pressure affect reporting.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Belgrade, Serbia shows moderate immigration stability amid ongoing reforms. Expect occasional visa-rule changes linked to EU accession talks.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Belgrade, Serbia sits mid-range on the liberal democracy index; strong civil society exists, but autocratization risk warrants vigilance.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Belgrade, Serbia typically records violent crime under 200/100k, supporting family safety. Parks, schools, and a growing tech scene support QoL.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Serbia\u0027s Gini is around 30-33, showing moderate inequality. Belgrade offers affordable, family-friendly living with a growing tech scene and English.",
+      "alignmentValue": 8
+    }
+  ]
 }

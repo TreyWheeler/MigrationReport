@@ -1,5 +1,486 @@
 {
   "version": 2,
   "iso": "PL",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "PLN 9,000.00 ($2,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "PLN 6,000.00 ($1,500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "PLN 8,750.00 ($2,187.50)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "PLN 12,500.00 ($3,125.00)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "PLN 7,800.00 ($1,980.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "PLN 230.00 ($57.50)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "PLN 0.00 ($0.00)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "PLN 0.00 ($0.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "PLN 9,500.00 ($2,065.22)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "PLN 5,000.00 ($1,250.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "In Krak\u00F3w, a US family may face 90\u2013119 hours/year of bureaucracy (visas, residence, school enrollment). Plan ahead for local registry and taxes.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "PLN 2,494,166.67 ($623,541.67)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "19%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Poland (Krak\u00F3w) entrepreneurship visa pace ~4\u20135 months for startups; solid ecosystem but expect some bureaucracy.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "22%",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Krak\u00F3w, Poland has a growing game/creative-tech scene with Digital Dragons and nearby expos; about 6-7 events per year for demos and networking.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Krak\u00F3w, Poland offers a solid freelance game talent pool across art, animation, sound, and narrative; strong near-remote collaboration options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Krak\u00F3w, Poland has a small but active indie game scene. About 3 incubators/accelerators welcome studios like Daemon Games, with mentorship and space.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Indie scene in Krak\u00F3w, Poland is growing: meetups and small studios; accessible hubs support game dev and family-friendly learning.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Krak\u00F3w has a strong partner ecosystem: universities (UJ/AGH), coworking spaces, and tech orgs collaborate on funding, research, and events for game studios.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Krak\u00F3w, Poland has a modest local publishers/bizdev scene; indie networks and regional events offer entry, but majors are not widely present.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "3",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "9",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "PLN 8,100,000.00 ($2,025,000.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "PLN 13,468,275.00 ($3,367,068.75)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "PLN 221,476,680.00 ($52,112,160.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Krakow to Gamescom (Cologne) is 4-6 hours door-to-door; reliable flights and transit make family travel to major game events practical.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Krak\u00F3w has a growing game-dev scene with regular local meetups and studios. Expect 1-2 in-person events per month.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Poland Krakow authorities can view Daemon Games as a catalyst for high skilled software jobs and cultural output in the regional gaming ecosystem. The project aligns with Poland\u0027s and the EU\u0027s priorities for a digital economy and creative industries, and can anchor partnerships with local universities such as AGH and Jagiellonian University for internships and R\u0026D. Recommend actions: streamline visa pathways for tech workers, designate a Krakow base with startup incentives, support grant applications from mechanisms like NCBR and EU funds, and create a local talent pipeline through university partnerships. Target to establish a regional hub with sustained local hiring and local language game development within 2-3 years."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "PLN 200,000.00 ($50,000.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Krak\u00F3w, English is common in tech hubs. However, about 30\u201340% of daily interactions require Polish; plan language learning and local support.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Krak\u00F3w, Poland public primary options offer about 40-49% bilingual/English tracks; enabling early bilingual exposure alongside Polish.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Krak\u00F3w, expect 5\u20136 weeks to secure a lease with English-speaking agents; target family-friendly areas like Kazimierz or Zab\u0142ocie.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Poland (Krakow), non-EU entrants can obtain status via: (1) temporary residence permits (work, study, or family reunification) that may lead to permanent residence; (2) permanent residence after extended lawful stay with valid permits; (3) EU long-term resident status after about five years of continuous legal stay; (4) Polish citizenship by naturalization following residency, language and integration requirements. Each status grants rights such as lawful work, access to public healthcare and social benefits, education access, and, for permanent/EU status, travel within the Schengen Area; citizenship provides full political rights and eligibility for a Polish passport. Pathways depend on visa type, duration of stay, language proficiency, income/employment, and compliance with Polish law."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Krak\u00F3w, Poland offers entrepreneur routes; end-to-end processing for first-time applicants often exceeds 28 weeks - plan for a long timeline.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Krakow, Poland long-term visa for non-recognized sponsors typically 11-12 weeks end-to-end. As first-time applicants, expect some bureaucracy but a doable process.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "In Krak\u00F3w, Poland, a sponsor-backed work visa for a US family is likely 7-8 weeks end-to-end; plan extra time for relocation.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Poland offers solid skilled-immigrant routes; Krak\u00F3w has a strong IT scene and English-friendly workplaces, though some bureaucracy remains.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Krak\u00F3w, expect 8-9 years of continuous residence before naturalization; focus on permanent residency and Polish language readiness.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Poland typically grants permanent residency after about 5 years of legal residence for skilled workers and entrepreneurs; Krak\u00F3w offers supportive, family-friendly pathways.",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Expat-friendly Krak\u00F3w, Poland, English schools; bullying/racism for Caucasian Americans is very low, about 1\u20131.9 per 1,000 students.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Education in Krak\u00F3w\u0027s primary/secondary schools is solid, with growing bilingual programs. Variability exists between schools, but overall suitable for families.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Poland\u0027s Krak\u00F3w school meals emphasize balanced nutrition and limit ultra-processed foods. HEI is about 80-84, aligning with your quality priorities.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Poland Krak\u00F3w public schools typically provide 2-3 hours/week of English instruction; core subjects are taught in Polish. Bilingual aides are not common.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Krak\u00F3w provides strong Polish language integration options for kids via city, school and university programs; good bilingual development opportunities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Krak\u00F3w date nights center on Stare Miasto and Kazimierz: reserve a cozy dinner, stroll the lit cobblestones along the Vistula boulevards at dusk, enjoy a small theatre or live music, and end with a drink at a rooftop bar with views of Wawel. Plan ahead for childcare if needed and choose venues with family-friendly hours or nearby options to keep a slower, low-stress pace for the family.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Plan Krakow family leisure around stroller-friendly parks (Planty Park, Vistula riverbank), short nature outings (Wawel hill, Kazimierz playgrounds), Krakow Zoo, and kid-friendly museums with bilingual staff. Use 2-4 hour blocks with shaded breaks; stay in accommodations near parks with reliable internet; schedule outdoor time in cooler mornings/evenings to avoid heat; ensure accessible facilities for the 1-year-old and nap-friendly options for the 5-year-old."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Poland Krak\u00F3w: Establish a monthly rotating \u0027Friends Night\u0027 plan with 3 family-friendly, English-friendly venues in Old Town, Kazimierz, and Zab\u0142ocie. Offer 2 events per month (board games, casual dining, or coffee) with clear transit guidance, affordable pricing, and host rotation. Create a shared calendar, invite local and expat friends, and prioritize safe, walkable routes and late-evening transit options."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Krak\u00F3w\u2019s after-6pm family venues: play spaces and kid-friendly cafes are solid, supporting your parent-friendly, bilingual lifestyle.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Krak\u00F3w offers walkable, tram-connected streets; about 50% car-free trips, matching your family\u0027s slower, kid-friendly lifestyle in Poland.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Krak\u00F3w offers broad healthy food access via markets and supermarkets; great options for a family\u0027s meals (HEI ~85-89).",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Krak\u00F3w, Poland offers light ongoing bureaucracy; ~1 hour/month for taxes/permits, with solid expat support and strong online gov services.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Krak\u00F3w, Poland\u0027s 500\u002B program provides about 110\u2013125 USD per child monthly, aligning with your family needs.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Daycare for a 1-year-old in Krak\u00F3w, Poland typically has 6-9 month waits; plan ahead. For the 5-year-old, przedszkole spots are usually easier to obtain.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "PLN 275.00 ($68.75)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "PLN 2,000.00 ($500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "PLN 420.00 ($100.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Krak\u00F3w, Poland has strong e-government; about 70-79% of core resident services can be completed online end-to-end, with some in-person steps.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Krak\u00F3w, Poland: primary care visits typically 1\u20132 days; universal healthcare supports families with children.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "PLN 2,000.00 ($500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "PLN 2,500.00 ($600.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "PLN 2,000.00 ($480.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Poland\u0027s NFZ offers universal health coverage; access isn\u0027t tied to employment, so in Krak\u00F3w your family can get care regardless of job status.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1800",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Poland (Krak\u00F3w) provides ~32 weeks of paid parental leave per parent with job protection. Income replacement is typically around 70-100%.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In Krak\u00F3w, dual US-Poland taxes mean yearly Polish PIT plus US 1040/FEIE; most families rely on a tax pro, so effort is high annually.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Krak\u00F3w, Poland has a dense tram network. Most residents live within 500 m of 10-minute headways for much of the day, supporting family mobility.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Krak\u00F3w English-taught degrees for non-EU students cost ~3\u20134k EUR/year. This is roughly 19\u201321% of median Polish net income\u2014moderate accessibility for your family.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Krak\u00F3w, Poland offers solid universities (Jagiellonian Univ). Global rankings hover around 200\u2013300, not top 50.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Krak\u00F3w offers strong continuing education via universities (UJ, AGH) and private providers; English options improve accessibility.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Krak\u00F3w\u0027s growing tech scene offers modest senior .NET architect demand (about 2-3 postings/million/mo); English-friendly firms support your family plan.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Krakow, Poland shows modest Rails demand (about 4-6 postings per million monthly); several employers hire, but it\u0027s not Rails-heavy.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "PLN 300,000.00 ($71,428.57)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "PLN 220,000.00 ($52,380.95)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "In Krak\u00F3w, formal beach life is limited; for the family\u2019s Beach Life preference, plan regular inland beach experiences and occasional trips to coastal or lake beaches. Identify 2-3 weekend-friendly options within 2-4 hours (e.g., nearby lake beaches or riverfront spots) and 1-2 longer trips per year to the Baltic coast or Masurian lakes. Prioritize accommodations and transport that are family-friendly and permit quick, low-stress access to water and sand.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Krak\u00F3w autumn highs typically 65\u201369\u00B0F, matching mild fall in Poland.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Krak\u00F3w, Poland offers mild springs/falls with many days 50\u201385\u00B0F; humidity often moderate, aligning with a mild-weather lifestyle (roughly 180\u2013219 days).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Krak\u00F3w area offers notable green spaces: Ojc\u00F3w NP and nearby landscape parks within an hour, totaling about 20-25% protected land.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Krak\u00F3w offers strong nature access. Several parks \u003E10 acres lie within 5 km (Planty, B\u0142onia) for family outdoor time.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Krak\u00F3w, Poland springs typically reach about 60\u201364\u00B0F, offering mild, comfortable weather for outdoor activities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Krak\u00F3w, Poland summers typically reach 76\u201380\u00B0F; outdoor living is comfortable with mild humidity and occasional brief spikes.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Krak\u00F3w winter highs run about 35\u00B0F\u201339\u00B0F (2\u20134\u00B0C), a mild, family-friendly range for your plan. This climate supports outdoor activities with less extreme cold.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Poland (Krak\u00F3w) shows moderate anti-immigrant rhetoric in mainstream politics; nationalist framing persists but immigration is not the sole focus.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "In Krak\u00F3w, Poland, autocratization trend is mild to moderate (judiciary/media concerns); the city remains a family-friendly place with strong community ties.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Krak\u00F3w, Poland has mid-range climate stability (ND-GAIN 30-39). Four seasons, mild summers and cold winters\u2014predictable for family routines.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Poland\u0027s national political discourse centers on sovereignty and judiciary reforms amid EU rule-of-law tensions, energy security and price relief measures, and strong social welfare programs to support birthrates. Immigration control and border security remain prominent themes, while climate policy is debated with emphasis on affordability and energy independence."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Poland had 2 recession years in the last 20 (2009, 2020); Krak\u00F3w\u0027s economy remains relatively stable with EU links.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Poland/Krak\u00F3w media freedom near the 25th percentile; seek independent, multilingual outlets to stay well-informed.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Poland (Krak\u00F3w) offers moderate migration stability. Expect occasional policy shifts (e.g., Ukraine protections) but overall predictable family entry.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Poland ranks mid-to-upper on the liberal democracy index; Krak\u00F3w benefits from EU governance and stability, though national reforms may introduce some risk.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Krak\u00F3w, Poland offers very low violent crime; safe, family-friendly neighborhoods with parks, walkable areas, strong schools, and universal healthcare access.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Poland\u0027s Gini ~30\u201333 places wealth inequality in a mid-range. Krak\u00F3w offers affordable, stable family living with strong communities.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    }
+  ]
 }

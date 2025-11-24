@@ -1,5 +1,491 @@
 {
   "version": 2,
   "iso": "MX",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "MXN 25,000.00 ($1,190.48)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "MXN 28,000.00 ($1,473.68)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "MXN 34,500.00 ($1,725.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "MXN 60,000.00 ($3,240.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "MXN 28,600.00 ($1,430.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "MXN 950.00 ($47.50)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "MXN 1,234.56 ($1,345.67)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "MXN 30,000.00 ($1,500.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "MXN 60,000.00 ($3,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "MXN 1,200.00 ($60.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Guadalajara, Mexico imposes moderate bureaucracy; expect about 40-60 hours/year for residency, school enrollment, and local admin.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "MXN 13,441,666.67 ($747,870.37)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Guadalajara has a growing startup scene and grants-friendly programs. Expect entrepreneurship visa processing in about 3-4 months.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "33%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Guadalajara, MX has a modest indie game/dev scene with 2-3 local events annually; useful for networking but less than MX City.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Guadalajara, MX has a growing freelance game talent pool (art, animation, audio). Nearshore access makes it viable for US teams.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Guadalajara offers a handful of general startup accelerators and university incubators that can support indie game teams; expect 2\u20133 local programs with mentorship.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Guadalajara\u0027s indie game scene is moderate: small studios, occasional jams, and local co-working hubs; supportive for founders but less dense than Mexico City.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Guadalajara has a growing game-dev ecosystem: UDG, ITESO, ITESM Guadalajara, plus coworking spaces and studios; solid depth, but not CDMX-level.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Guadalajara has a growing indie dev scene and regular meetups; local publisher access is moderate, with majors mostly in Mexico City.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "6",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "MXN 199,270,124.95 ($9,720,493.90)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "MXN 47,733,000.00 ($2,582,000.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "MXN 31,556,000.00 ($1,577,800.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Guadalajara, Mexico to GDC SF is ~8 hours door-to-door; English-friendly, strong game-dev ecosystem fits the family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Guadalajara, MX has a budding indie game-dev scene with about 1 event per month; workable for networking, though denser hubs exist.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games in Guadalajara could anchor a regional creative-tech cluster by creating high-skill jobs in game development, cloud infrastructure, and digital art, while producing export-ready IP and vibrant local culture. The project aligns with Mexico\u0027s priorities for digital economy growth, innovation, and STEM/arts education; it can leverage partnerships with nearby universities and government grants, plus nearshoring opportunities with the US. For impact, coordinate with local authorities to streamline permits and incentives, ensure robust broadband and studio infrastructure, and develop bilingual, locally relevant titles with Guadalajara studios to maximize youth employment and cultural output over the next 3-5 years."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "MXN 450,000.00 ($25,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Guadalajara: roughly 50-59% of daily interactions require Spanish; English is common in tech/expat contexts - plan to learn Spanish for services and schooling.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Guadalajara has many private/international schools with bilingual/English tracks; roughly 60-69% of seats, supporting English-friendly learning.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Guadalajara, MX, plan 5\u20136 weeks to secure a family-friendly lease; work with expat agents and focus on walkable neighborhoods.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Guadalajara, Mexico, immigration status options for the family include: 1) Residente Temporal (temporary resident) which permits lawful residence and work with a valid permit, and 2) Residente Permanente (permanent resident) with longer residence rights and broader access to work opportunities and social services. Determination is through INM processing based on purpose (Trey\u0027s employment, Sarah\u0027s work and family ties, and family reunification) and duration of stay; dependents follow the principal\u0027s status. Citizenship can be pursued after meeting statutory residence requirements and language/civic criteria. Actionable steps: consult INM or Mexican consulates to select the appropriate route, assemble documents (passports, birth/marriage certificates, apostilles, police clearance, proof of income/assets, translations), secure a qualifying job offer or sponsorship, apply for temporary residency first and upgrade to permanent residency if eligible, arrange healthcare access and schooling, and track renewal/approval timelines; note that permanent residents gain broader work rights and eligibility for some social benefits, while non-citizens cannot vote and will need to meet naturalization requirements for citizenship.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "In Guadalajara, Mexico, entrepreneur visas usually take 11-12 weeks end-to-end; plan for consulate processing and resident-card steps.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Guadalajara, MX, for first-time visa applicants without a recognized sponsor, end-to-end timelines often run about 7-8 weeks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Guadalajara work visa with a recognized sponsor: about 9\u201310 weeks end-to-end; plan for 2\u20133 months including prep.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Guadalajara hosts a growing tech scene and skilled-worker visa routes; some bureaucracy can slow approvals.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Mexico naturalization typically after 5 years of residency; Guadalajara offers expat-friendly tech networks and language resources.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Guadalajara, MX entrepreneur route typically requires 3-4 years of temporary residency before permanent residency; aligns with 8.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Guadalajara private international schools show low bullying for caucasian expats. Rates are about 2-2.9 per 1,000 students, with strong anti-bullying policies.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Guadalajara public schools are mid-range overall. Bilingual options exist and strong private schools can fill gaps.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "In Guadalajara, Mexico, school meals align around HEI in the 70\u201374 range; improvements exist, but ultra-processed foods still appear in some schools.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Guadalajara public schools offer about 2\u20133 hours a week of English. Bilingual aides in core subjects are not common.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Guadalajara provides moderate language integration for kids; expect roughly 70\u201389 seats per 100 newcomers via community programs and universities.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Identify 5-7 family friendly, English-accessible date night options in Guadalajara (Centro, Chapultepec, Providencia) with evening hours, safe neighborhoods, and affordable pricing; prioritize venues with nearby childcare or kid-friendly activities, clear safety profiles, and convenient transit or parking; include brief notes on distance from typical residential areas and typical costs.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Guadalajara family leisure should prioritize safe, shaded, walkable venues and a mix of outdoor parks and kid-friendly indoor spaces. Key options include large city parks with playgrounds and trails, the Guadalajara Zoo, and interactive science/children\u0027s spaces in the metro area; plan visits during cooler mornings or late afternoons to avoid peak heat and include indoor alternatives on hotter days. Create a simple 2-week sample schedule: park mornings on Tue/Thu; visit a museum/science center on Mon; family-friendly plaza events on weekends; and a zoo or aquarium day midweek if available. Use metro/bus for efficient transit; choose neighborhoods with parks and good walkability; look for bilingual signage or staff; and seek family-based discounts or passes."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Plan Guadalajara-area, family-friendly evening social options with friends: prioritize board-game caf\u00E9s and casual eateries in safe, walkable neighborhoods (Chapultepec, Providencia, Americana), venues with kid-friendly hours and English-friendly staff, and good transit access. Schedule gatherings to fit the kids\u2019 bedtimes and Trey\u2019s remote-work needs, and include flexible outdoor plaza or park meetups for easy socializing."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Guadalajara, Mexico has kid-friendly places (museums, libraries, cafes) open after 6pm with staff supervision, suiting a family-friendly, bilingual plan.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Guadalajara\u0027s walkable centers and good transit support family mobility. Expect car-free trips around 40\u201349% in daily life.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Guadalajara offers broad healthy food access with diverse markets, aligning well with the family\u0027s health and bilingual needs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Guadalajara, Mexico: about 2-3 hours/month for visa renewals, taxes, and enrollment; manageable with a US passport and initial visa steps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Guadalajara, Mexico offers limited monthly child benefits for middle-income families; per-child support is effectively minimal.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Guadalajara\u0027s private daycares typically have 4\u20136 month waitlists. Plan early for slots for a 1-year-old and a 5-year-old.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "MXN 3,000.00 ($150.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "MXN 4,000.00 ($200.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "MXN 4,200.00 ($240.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Guadalajara, MX: about 60% online for core services; some visa/healthcare/school steps still in-person.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Guadalajara, MX offers universal, affordable care; public primary care waits 5-7 days; private care is faster but more costly.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "MXN 1,000.00 ($50.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "MXN 18,000.00 ($1,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "MXN 24,000.00 ($1,297.30)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Moderate employment tie in Guadalajara, MX; expats commonly use private insurance while public options are linked to work.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1760",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Guadalajara, MX offers ~12 weeks paid maternity leave (~100%); paternal leave ~1 week with job protection; overall moderate generosity.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Guadalajara expat taxes: US citizens must file US return and Mexican taxes; expect annual professional help for cross-border filings.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Guadalajara, MX has solid central transit; about 60-69% live within 500 m of 10-minute headways most of the day, aligning with family needs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Guadalajara, MX public colleges offer low tuition; many programs cost under 5% of local median net income, improving access for the family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Guadalajara, MX has solid regional universities; global rankings commonly 301\u2013500, with bilingual programs for long\u2011term study.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Guadalajara offers several accredited continuing education programs from UDG, ITESO, and ITESM campuses; strong adult learning access.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Guadalajara\u0027s senior .NET architect postings are modest (about 4\u20135 per million); remote/nearshore roles fit for bilingual/cross-border teams.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Guadalajara, MX shows moderate Ruby on Rails demand (~10\u201314 postings per million monthly), aligning with 6-year Rails roles and remote/hybrid options.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "MXN 1,200,000.00 ($66,666.67)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "MXN 600,000.00 ($32,432.43)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Guadalajara is inland; ocean beaches are not nearby. For Beach Life, plan weekend trips to Pacific coast beaches (Puerto Vallarta, Manzanillo) or lakefront options on Lake Chapala (Ajijic). Ensure kid-friendly facilities, reliable transport, and seasonal planning; account for travel time, safety, water quality, and costs."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Guadalajara, MX fall highs around 70\u00B0F\u201375\u00B0F; mild, comfortable days align with the family\u0027s climate preferences.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Guadalajara, MX offers mild year-round days (50-85\u00B0F) with moderate humidity; ~260 days fit your outdoors_mild_weather goal.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Guadalajara offers solid natural beauty with La Primavera Reserve nearby; about 20% of land within 60 minutes is protected for parks and trails.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Guadalajara, MX offers several parks over 10 acres within 5 km. This supports frequent outdoor time for the kids.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Guadalajara, MX typically 82\u00B0F\u201390\u00B0F; warmer than mild climates, plan for sunny, warm outdoor days.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Guadalajara, MX summers reach 88\u201390\u00B0F (31\u201332\u00B0C) highs. This climate is warm but not extreme, suitable for outdoor activities.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Guadalajara, MX winter highs typically 75\u00B0F-80\u00B0F; mild winters suit your climate goals and avoid extreme cold.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Guadalajara, MX: anti-immigrant rhetoric is low-salience in mainstream politics; migration debates are not central.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Guadalajara, MX shows very mild autocratization backsliding (0.01-0.05); democracy broadly stable with ongoing civil liberties and plural media.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Guadalajara, Mexico has a temperate, relatively stable climate. It\u2019s well-suited for a family-focused relocation with mild summers.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Mexico-wide political discourse centers on crime and public security, corruption and governance, economic reform and inflation control, and social programs. In Guadalajara, dominant narratives emphasize transparent institutions, stronger policing and rule of law, job growth and affordable public services, and climate-resilient urban planning to boost safety and quality of life.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Guadalajara, MX shows stable macroeconomy with only 2 recession years in 20 (2009, 2020); strong tech/education sectors support families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "In Guadalajara, Jalisco, Mexico, press freedom is mid-range with diverse outlets. Journalists face safety risks and political pressure.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Mexico\u0027s rules have seen a few revisions this past decade; Guadalajara offers clear, family-friendly visa paths and stable processes for settling.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Guadalajara, MX sits in a mid-range liberal democracy percentile (about 50-60). Stable local governance supports families, but national reforms could affect stability.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Guadalajara, MX: violent crime around 300\u2013349 per 100k; generally stable, family-friendly neighborhoods with practical safety practices.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Guadalajara, MX has high wealth inequality (Gini mid-40s). The vibrant tech scene supports remote work, but housing and services disparities remain.",
+      "alignmentValue": 4
+    }
+  ]
 }

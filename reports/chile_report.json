@@ -1,5 +1,490 @@
 {
   "version": 2,
   "iso": "CL",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "CLP 2,600,000.00 ($2,600.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "CLP 2,300,000.00 ($2,300.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "CLP 1,800,000.00 ($2,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "CLP 810,000.00 ($900.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "CLP 1,560,000.00 ($1,642.11)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "CLP 60,000.00 ($60.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "CLP 1,234.56 ($1,345.67)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "CLP 1,900,000.00 ($2,111.11)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "CLP 4,500,000.00 ($4,800.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "CLP 1,620,000.00 ($1,800.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Chile (CL) expat family: expect about 60\u201389 hours/yr of visa/tax paperwork. Use online portals to smooth the process.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "CLP 1,053,525,003.30 ($1,064,166.67)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "27%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Chile\u0027s entrepreneur visa path (Start-Up Chile) is practical; expect about 4-5 months for approval for a US family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- CLP 32,000,000.00 ($40,000.00) \u2013 Start-Up Chile \u2013 National accelerator offering equity-free seed funding and visa support for foreign founders; highly relevant for a small, unfunded indie studio planning a 2-year development in Chile.\n- CLP 20,000,000.00 ($25,000.00) \u2013 Fondart Nacional \u2013 Chile\u2019s arts/culture fund that can support narrative-driven game development when framed as audiovisual/creative work; competitive but accessible for a story-driven premium title.\n- CLP 5,000,000.00 ($6,250.00) \u2013 SERCOTEC Capital Semilla \u2013 Microenterprise grant for early-stage ventures, including those with foreign incorporation in Chile; supports prototyping and early market readiness; plan to apply around initial prototype.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Santiago, Chile hosts regular game/dev meetups and the Global Game Jam Chile. Daemon Games could demo and network at multiple local events yearly.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Santiago, Chile has a budding indie game scene with local freelancers; overall talent depth across art/animation/audio/narrative is moderate.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Santiago, Chile has 2 game-friendly accelerators (Start-Up Chile, Wayra) offering mentorship, space, and funding. Start-Up Chile also provides founder visa options.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Chile\u0027s indie scene is emerging; Santiago has several small studios and jams, with growing meetups, but still less dense than US metros.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Chile (Santiago) has a growing game-dev partner ecosystem: universities, coworking spaces, and grants; depth is moderate.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Chile (Santiago) has a growing indie game scene and CORFO grants. Major publishers\u0027 offices are limited.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "4",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "CLP 8,314,110,000.00 ($9,237,900.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "CLP 3,187,289,500.20 ($3,541,432.78)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "CLP 38,371,875.00 ($42,635.42)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Kansas City to San Francisco for GDC is roughly 6\u20138 hours door-to-door, making major game events reasonably reachable.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Chile\u0027s game-dev scene is modest but active; in Santiago expect about 1 in-person meetup per month.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games presents a compelling Chilean narrative: the project would create skilled software and creative roles, contribute to exportable IP, and strengthen local innovation ecosystems. To maximize alignment with Chilean priorities, frame the initiative as a catalyst for regional game-development clusters, university collaboration, and access to public grants and visa pathways, with a staged plan for a Chile-based studio, local hiring, and participation in tech/creative-industry incentives.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "CLP 26,000,000.00 ($26,000.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Chile, expect about half encounters in Spanish; English is common in tech, but local services require the language. Ready to learn Spanish.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Chile\u0027s bilingual/English tracks are limited; roughly 20-29% of schools offer them, with better options in Santiago\u0027s private/international schools.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Chile (CL), especially Santiago, has an active expat rental market; with a broker, a 4-week lease is realistic. Plan for bilingual help and family-friendly neighborhoods.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Chile offers multiple immigration statuses with distinct paths and rights: temporary residency (work/study/family reunification) for lawful stay and limited work; permanent residency (Residencia Definitiva) after required residence and integration, enabling unrestricted work and access to public services; naturalization/citizenship after a prescribed period of continuous residence (often about five years, shorter for spouses or Chilean children) with demonstration of language and integration, granting full civil rights and a Chilean passport; citizenship by birth is possible in specific cases based on place of birth and parentage; dual citizenship is generally allowed. To pursue, contact the Servicio Nacional de Migraciones, assemble standard documents (passport, background check, proof of income/ housing, health coverage), and outline a concrete timeline from temporary status to permanent residency and potential citizenship.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Chile\u0027s entrepreneur visa path (Start-Up Chile) can be relatively quick; 9-10 weeks end-to-end for founders.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Chile, without a recognized sponsor, visa timelines typically run about 11-12 weeks end-to-end for family/work routes.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Chile (CL) with a recognized sponsor could bring visa processing to about 7-8 weeks end-to-end. This aligns with an 8 for your family\u0027s plan.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Chile\u2019s Start-Up Chile and tech visas welcome skilled migrants; English-friendly business climate with Spanish-learning opportunities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Chile naturalization typically requires ~5 years of continuous residence; fits a family relocation plan to Chile.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Chile typically grants permanent residency after about 5 years of temporary residence for skilled workers/entrepreneurs.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Chile (urban) schooling typically shows very low bullying toward white immigrant kids; likely under 2 incidents per 1,000 students.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Chile\u2019s public schools vary; in Santiago you\u2019ll find solid options and bilingual/private schools, with quality differing by area.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Chile\u0027s school meals use HEI-style standards to limit ultra-processed foods. Quality varies by district, but momentum is strong nationwide.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In Chile, public schools typically offer around 2-3 hours per week of English with limited bilingual aides; aligns with your English exposure goals.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Chile\u0027s public schools provide immigrant language support with about 70-89 seats per 100 newcomers. That supports bilingual exposure for Anduin and Alasdair.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Chile (CL): Focus date nights in Santiago\u2019s Lastarria and Bellavista (and nearby Vitacura) for multilingual dining, artsy strolls, and rooftop bars; pair dinner with a safe post-dinner walk along the Mapocho or sunset views from Cerro San Crist\u00F3bal; offer a wine-tasting or short Maipo/Casablanca Valley outing as a flexible option; prioritize reservations, English-friendly service, and safe transit in well-lit, walkable neighborhoods with year-round outdoor seating options.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Identify and prioritize Chile-based, family-friendly activities that are stroller-accessible and engaging for a 5-year-old and a 1-year-old: plan days at Parque Metropolitano de Santiago (including Cerro San Crist\u00F3bal and a visit to the zoo or Botanical Garden), hands-on experiences at Museo Interactivo Mirador (MIM) or other science centers, short nature outings in Caj\u00F3n del Maipo, and coastal outings in Vi\u00F1a del Mar or Valpara\u00EDso; emphasize safe neighborhoods, walkable parks, bilingual resources, and cost-conscious options to support predictable routines and work\u2011life balance."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Identify safe, family-friendly evening options in Chile that are walkable or well served by transit: board-game nights at community centers, kid-friendly cafes, library events, and outdoor parks with lighting; prioritize venues with predictable hours, reasonable prices, and English-friendly staff to accommodate expat families.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "In Santiago, Chile, many family-friendly 3rd places stay open after 6 pm with supervision. About 22-25 venues per 100k residents match your needs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Chile (Santiago) has strong transit and walkable neighborhoods; car-free trips likely ~40-50%, fitting a family-friendly, park-rich city life.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Chile\u0027s cities provide broad healthy food access (HEI ~80-84), e.g., Santiago; supports family meals with diverse options.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Chile (CL) offers streamlined online admin; plan about 2-3 hrs/month for visa, taxes, and school docs; English-friendly options and local support help.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Chile\u0027s family allowances for middle-income families hover around USD 50-70 per child per month. This aligns with a life_child_benefit_generosity rating of 4.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Chile\u0027s urban centers, private bilingual daycares often have 2\u20133 month waitlists. Plan 2\u20133 months for the 1-year-old and school enrollment for the 5-year-old.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "CLP 270,000.00 ($300.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "CLP 350,000.00 ($368.42)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "CLP 410,000.00 ($410.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Chile (CL) core services are ~70\u201379% online; taxes, healthcare enrollment, and registration can be done remotely, but some visa steps still require in person.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Chile\u0027s universal health system offers affordable care; in cities, primary care waits are typically 5-7 days in public clinics, private options are faster.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "CLP 582,000.00 ($600.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "CLP 1,800,000.00 ($2,000.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "CLP 800,000.00 ($888.89)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Chile offers universal healthcare via FONASA with private ISAPRE options; coverage is not strongly employment-based.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1800",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Chile offers ~18 weeks of paid maternity leave at ~100% wage with job protection; paternity leave is ~5 days.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Chile (CL): US dual-income family may file US \u002B Chile taxes; estimate 25-35 hours/year for filings and records.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Chile\u0027s cities (Santiago) offer strong transit with frequent headways; urban coverage is around 70\u201379%, with gaps outside urban cores.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Chile offers relatively affordable public universities; as US expats, expect higher international tuition but grants are available.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Chile\u0027s top universities (PUC Chile, U. de Chile) rank around 101-150 globally. They offer solid bilingual options for college plans.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Chile\u0027s urban centers offer solid continuing education; roughly 9\u201311 programs per 100k residents, including English-friendly courses.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "In Chile, senior .NET architect demand is moderate (9\u201312/m); remote/nearshore options fit this family\u0027s Azure/game-dev goals.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Chile (Santiago) Rails postings are modest; expect limited local roles but steady remote opportunities.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "CLP 50,000,000.00 ($55,555.56)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "CLP 2,400,000.00 ($2,823.53)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Prioritize central Chile coastal areas (Valpara\u00EDso/Vi\u00F1a del Mar) with safe, family-friendly beaches, parks, and reliable broadband; confirm access to beach amenities, lifeguard coverage, water quality, and affordable housing within commuting distance to schools and healthcare; account for mild year-round climate and seasonal humidity when evaluating neighborhoods.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Chile fall highs run ~70-75\u00B0F in early fall. By late fall they\u0027re ~65-69\u00B0F, reflecting mild autumn weather for your family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Santiago, Chile offers a Mediterranean climate with many days 50-85 F and low humidity, matching your mild-weather preference.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Chile features dramatic landscapes and protected lands within easy reach. Great for your family\u0027s outdoor time in a mild climate.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "In Chilean urban areas there are roughly 10-11 parks \u003E10 acres within 5 km, fitting your park-friendly, urban lifestyle.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring in Santiago, Chile usually has highs around 70\u201375\u00B0F, with mild, comfortable days. Evenings are cooler, supporting a pleasant spring climate.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "In Chile summers, highs commonly range around 76\u00B0F\u201380\u00B0F in many coastal/central areas, aligning with your mild climate preference.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Chile (Santiago region) are typically 55\u00B0F\u201360\u00B0F during June\u2013August. This aligns with your mild-winter preference.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Chile, mainstream immigration rhetoric is moderate; debates exist but aren\u0027t dominant, aligning with your stable, inclusive migration plan.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Chile (CL) shows no autocratization over 10\u201320 years; democracy remains stable with open institutions and civil rights.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Chile\u0027s climate stability is moderate. Central Chile faces drought risk, but overall mild weather supports family life.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Chile\u0027s dominant political narratives center on constitutional reform, governance credibility, and reducing social inequality through pensions, tax reform, and strengthening public services; security and crime policy remain salient; education and healthcare reform debates; energy transition and climate policy alongside mining-driven growth; and demands for transparency, anti-corruption measures, and accountable institutions, all within concerns about cost of living and economic stability.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Chile had 2 recession years (2009, 2020) in the last 20, signaling solid stability for family relocation to Chile.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Chile has strong media freedom with independent outlets; in urban areas like Santiago, expect pluralistic coverage and accessible local reporting.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Chile\u0027s immigration policy is relatively stable, with roughly 3 overhauls per decade; a predictable visa path supports long-term planning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Chile\u0027s liberal democratic institutions provide high stability (LDI). For a family in CL, this means predictable governance and strong rule of law.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Chile (Santiago) offers stable institutions and family-friendly services. Violent crime is generally moderate, with safety varying by neighborhood.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Chile\u0027s Gini 46-49 indicates mid-high wealth inequality; supports a stable, inclusive policy environment in CL for families.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    }
+  ]
 }

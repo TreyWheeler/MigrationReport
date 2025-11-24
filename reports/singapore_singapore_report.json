@@ -1,5 +1,479 @@
 {
   "version": 2,
   "iso": "SG",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "SGD 6,000.00 ($4,440.00)",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "SGD 6,800.00 ($5,032.00)",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "SGD 4,600.00 ($3,404.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "SGD 8,500.00 ($6,290.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "SGD 9,360.00 ($6,926.40)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "SGD 165.00 ($122.10)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "SGD 1,400.00 ($1,036.00)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "SGD 4,000.00 ($2,962.96)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "SGD 9,800.00 ($7,252.00)",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "SGD 4,250.00 ($3,145.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Singapore\u2019s processes are streamlined for startups. Expect about 20\u201329 hours/year of visa and tax compliance for your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "SGD 1,170,000.00 ($866,666.67)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "17%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Singapore\u0027s EntrePass aligns with this family\u0027s startup goals and grant access. Expect roughly 3-4 months for approval as first-time applicants.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "17%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "SG hosts ~5 annual game/dev/creative-tech events (GameStart Asia, Gamescom Asia, GDAS meetups) enabling demos and pitches.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Singapore has freelancers across art, animation, audio, and narrative in a growing game-dev scene. Good English and regional links aid near-remote work.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Singapore has few game-focused accelerators; most are general startups. Indie-friendly game mentorship is limited locally; consider remote programs.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Singapore\u0027s indie game scene is growing with studios and meetups, but remains moderate in density relative to major hubs; supportive ecosystem for small teams.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Singapore has a strong game-dev ecosystem (NUS/NTU) with government support (IMDA/Enterprise SG) and SGInnovate; many coworking spaces enable funding/events.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Singapore is a strong SEA hub with local publisher offices (Ubisoft Singapore, Tencent) and frequent industry events; government support enhances bizdev access.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "3",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "10",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "SGD 13,563,029.56 ($10,046,688.56)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "SGD 4,499,264.00 ($3,356,450.94)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "SGD 75,615,642.72 ($56,011,587.20)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Singapore to major game events, door-to-door is typically 14\u201316 hours to Europe or ~20\u002B hours to SF; long-haul travel with layovers is common.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "In Singapore, the game-dev scene is active but modest; expect roughly quarterly in-person events.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games would create a high-skill game development hub in Singapore, generating local tech and creative jobs, advancing IP and cloud-based innovation, and aligning with Singapore\u0027s digital economy, R\u0026D, and talent-visa initiatives (EntrePass/EP) and government support."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "SGD 170,000.00 ($125,000.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Singapore, English is widely used in public life. Expect less than 10% of interactions to require a local language; the family is open to learning basics.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Singapore\u0027s education emphasizes English with a Mother Tongue; many local schools offer bilingual tracks, supporting your family\u0027s bilingual exposure goals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Singapore, a US family with visas can typically secure a lease in about 4 weeks with an agent. Seek family-friendly neighborhoods near good schools.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Singapore, immigration status is determined by the ICA. The family should target two primary statuses: Permanent Resident (PR) and Singaporean Citizen. PR can be obtained via approved routes (EntrePass/Entrepreneur route for founders, Employment Pass for skilled workers, or family ties) and, if granted, provides the right to live and work in Singapore, access to many public services, and a pathway to citizenship; PR holders can sponsor dependants and may be eligible for CPF participation and healthcare subsidies. Citizenship is granted by naturalization or by birth/descent and confers full political rights (including voting) and a Singaporean passport, with broader public-service access. For the family here, practical steps include mapping PR options for Trey and Sarah, preparing required documents (proof of qualifications, business plans, finances, health and background checks), planning timelines, and consulting ICA guidance or an immigration professional to tailor a plan toward PR and eventual citizenship.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "In Singapore, EntrePass often runs 11-12 weeks end-to-end for first-time applicants; plan for longer timelines.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Singapore (SG) requires a local job offer; non-recognized sponsors typically 7-8 weeks end-to-end for visa processing with MOM.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "In Singapore, with a recognized sponsor, Employment Pass/EntrePass for founders can take about 5-6 weeks end-to-end.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Singapore offers robust Employment Pass routes for skilled founders and developers; English is dominant and the startup ecosystem is family-friendly.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Singapore citizenship typically requires several years of PR status. For your family, plan roughly 6-7 years before eligibility.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Singapore typically grants PR to skilled workers or entrepreneurs after about 2-3 years on valid passes. For your family, target 2.1-3 years if criteria are met.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "In Singapore, caucasian kids face low bullying risk (1\u20131.9 per 1,000 students); robust policies and English-language schools support them.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Singapore offers top-tier public primary/secondary education with English-medium instruction and strong bilingual Mother Tongue programs, ideal for kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Singapore school meals follow HEI-based nutrition, prioritizing balanced options and limiting ultra-processed foods; strong fit for an education-first family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Singapore public schools provide 20\u002B hours/week of English instruction. Bilingual support is integrated via Mother Tongue subjects in core classes.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Singapore offers abundant language courses for newcomers; English ubiquity helps families, with mother-tongue options for your kids.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Singapore: Plan low-stress date nights around Marina Bay waterfront strolls, Clarke/Boat Quay riverside dining, CBD rooftop bars for sunset views, Gardens by the Bay at night, and Kampong Glam dining with dessert; reserve in advance and account for late-night transit."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Singapore-based family activities: mix outdoor, shade-friendly park days (Gardens by the Bay, Botanic Gardens, East Coast Park) with indoor educational visits (Science Centre Singapore, National Museum) to beat heat; choose stroller-accessible routes via MRT/bus, keep a slower pace, and use affordable options for the 5-year-old while ensuring safe, supervised time for the infant.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Organize a monthly, family-friendly \u0027night with friends\u0027 in Singapore: a hosted board-game or light co-op game night at an air-conditioned venue (board game cafe or community center) from 6-9 pm on weekends. Collaborate with local parent groups and expat networks to invite other families; choose venues with easy MRT/bus access and reliable wifi, and ensure child-friendly amenities; offer bilingual introductions to welcome Sarah and Trey\u2019s circle and keep activities short so both adults and kids can participate."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Singapore offers ample parent-friendly 3rd places after 6pm. Libraries, indoor playgrounds, and family cafes abound.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Singapore\u0027s transit-first, walkable layout supports car-free trips for most outings. Parks and family-friendly neighborhoods suit your plan.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Quality food access in Singapore is strong for families, with hawker centers and supermarkets offering diverse, healthy options; HEI around 85\u201390.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Singapore\u0027s efficient bureaucracy keeps ongoing family tasks light; expect about 1-2 hours/month for permits, payroll, and annual taxes.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Singapore provides modest monthly cash per child for middle-income families; most support comes from subsidies and the CDA.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Singapore, daycare slots for infants/toddlers typically take 4-6 months; plan early and have backup options (centers, nannies).",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "SGD 420.00 ($310.80)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "SGD 1,800.00 ($1,332.00)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "SGD 1,150.00 ($851.00)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Singapore\u0027s digital government is highly mature; most core resident services (tax, healthcare, education, visas) can be completed online end-to-end.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Singapore offers high-quality healthcare with good access. Primary care waits are typically 1-2 days in public clinics; private GP slots are often sooner.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "SGD 450.00 ($333.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "SGD 2,000.00 ($1,480.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "SGD 850.00 ($629.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Singapore uses universal schemes (MediShield Life) with subsidies; healthcare access isn\u2019t tied to employment for new residents.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2288",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Singapore offers 16 weeks maternity leave and 2 weeks paternity leave. It\u0027s a moderate level of parental leave generosity for a family seeking work-life balance.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Singapore IRAS filing is straightforward; dual-income US expats should expect about 19-24 hours/year for tax filing and cross-border paperwork.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Singapore\u0027s transit is dense; over 90% live within 500m of transit with headways \u003C=10 minutes for at least 16 hours/day.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "In Singapore, international tuition for expats is higher, but scholarships and strong public options keep college access in the mid-teens of median income.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Singapore\u0027s universities rank in the global top 50 (NUS/NTU). This aligns with your emphasis on high-quality education and bilingual exposure.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Singapore offers extensive lifelong learning through SkillsFuture and many accredited adult programs per 100k residents. This aligns with your high education priority.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Singapore shows moderate demand for senior .NET architects; 20\u002B years can land roles in banks/tech firms with solid salaries.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Singapore Rails postings are modest (about 4\u20136 per million residents per month). English-friendly tech scene with startups and fintech offering Rails roles.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "SGD 180,000.00 ($131,400.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "SGD 110,000.00 ($81,400.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Singapore offers urban beach options year-round (East Coast Park, Sentosa, Changi Beach). For a family with young children, prioritize shaded, lifeguarded spots with nearby restrooms; plan visits in cooler morning or late afternoon hours to minimize heat and humidity; bring sun protection, water, and snacks; use reliable public transit and allow extra travel time on weekends; be mindful of weather and occasional rain showers and plan indoor alternatives if needed."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Singapore are about 85\u00B0F\u201390\u00B0F, far above the 70\u00B0F\u201375\u00B0F ideal for the family.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Not mild: Singapore is hot and humid year-round; typical highs 85\u201390\u00B0F with humidity above 70%.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Singapore offers strong outdoor access: protected areas like Bukit Timah and Sungei Buloh within an hour suit active families.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Singapore offers strong nature access: about 6\u20137 parks over 10 acres within 5 km of central areas, including Gardens by the Bay and Botanic Gardens.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Singapore are 85-90\u00B0F, far from your 70-75\u00B0F target; climate alignment is poor.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Singapore summer highs typically range 86-90\u00B0F with high humidity. It is warmer and more humid than the profile\u0027s mild-year-round preference.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Singapore are 85\u00B0F-90\u00B0F year-round, far from the family\u0027s mild-winter preference.",
+      "alignmentValue": 0,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Singapore\u0027s anti-immigrant rhetoric is moderate in mainstream politics. Immigration policy is debated but does not dominate campaigns.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Autocratization trend in Singapore is mild (index ~0.11\u20130.15). Society remains stable for families, but civil liberties are tighter.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Singapore\u0027s climate stability is high (ND-GAIN), with strong governance and urban planning supporting adaptation to heat and sea-level risk.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Singapore\u0027s national political narrative focuses on pragmatic governance, economic resilience, housing affordability, controlled immigration, social cohesion, public safety, and a steady climate/green transition, with policy signals emphasizing efficiency, rule of law, and stable institutions to support families and businesses."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Singapore\u0027s economic stability is solid; about 3 negative-growth years in 20 (2009, 2016, 2020) amid strong institutions.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Singapore\u0027s press freedom is restricted; licensing and defamation laws limit independent outlets, though basic media remains available.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Singapore\u0027s immigration policy is highly stable with clear EP/PR paths; updates are incremental, supporting long-term planning for a US family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Singapore\u0027s stable institutions and predictable governance support a low-risk family move; centralized but rule-based oversight.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "In Singapore, violent crime is extremely low, offering exceptional social stability and family-friendly quality of life.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Singapore\u0027s disposable-income Gini is mid-40s, showing wealth gaps. This fits a highly developed, policy-focused city-state.",
+      "alignmentValue": 5
+    }
+  ]
 }

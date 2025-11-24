@@ -1,5 +1,488 @@
 {
   "version": 2,
   "iso": "ZA",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "ZAR 18,500.00 ($1,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "ZAR 18,000.00 ($947.37)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "ZAR 18,000.00 ($1,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "ZAR 25,000.00 ($1,351.35)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "ZAR 46,800.00 ($2,600.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "ZAR 900.00 ($50.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "ZAR 6,500.00 ($361.11)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "ZAR 24,700.00 ($1,300.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "ZAR 60,000.00 ($3,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "ZAR 28,500.00 ($1,500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Johannesburg, ZA: expect moderate bureaucracy; plan 60\u201389 hours/yr for visas, taxes, school enrollment. Entrepreneurship support exists with careful planning.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "ZAR 10,654,166.67 ($560,746.14)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "28%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Johannesburg, South Africa: entrepreneur visa for tech startups typically takes 6-8 months. A strong plan and local funding help.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "28%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- ZAR 20,000,000.00 ($1,052,631.58) \u2013 NFVF Interactive Media Production Grant \u2013 supports narrative-driven, premium indie games and accepts SA-incorporated or foreign studios establishing SA entity; aligns with a 1.5M USD budget over ~2 years, though competition is strong.\n- ZAR 8,000,000.00 ($421,052.63) \u2013 NLDTF Arts \u0026 Culture Digital \u0026 Gaming Grant \u2013 funds prototype/production, marketing and audience development for small studios; eligibility favors local partnerships and scalable, story-driven projects.\n- ZAR 6,000,000.00 ($315,789.47) \u2013 Section 11D R\u0026D Tax Incentive \u2013 offers substantial tax relief on eligible game development R\u0026D; plan to incorporate SA entity to maximize benefit during the development window.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Johannesburg, ZA hosts 5\u20136 game/dev/creative-tech events yearly (RAGE Expo, Jozi Game Dev meetups, hackathons), suitable for demos and networking.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Johannesburg has a modest growing freelance game talent pool (art/animation/sound/narrative); strong remote links to global studios aid projects.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Johannesburg, SA offers a modest game-friendly scene; about 4 incubator/accelerator options in Gauteng accept indie devs for mentorship, space, or funding.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Johannesburg has a growing but moderate SA indie scene with a few studios and regular local jams; accessible for founders but not as dense as top metros.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Johannesburg (ZA) has Tshimologong Precinct, Wits/UJ links and active coworking spaces; strong local game partnerships and funding opportunities.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Johannesburg, SA provides moderate local publisher access via events like rAge and regional studios; majors are less frequent but regional bizdev is feasible.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "2",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "ZAR 1,408,320.00 ($76,125.41)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "ZAR 63,086,400.00 ($3,410,076.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "ZAR 943,443,000.06 ($49,654,894.74)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Johannesburg, South Africa, door-to-door travel to major game events runs roughly 18\u201322 hours. Plan for long-haul logistics and layovers.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Johannesburg has a small, evolving game-dev scene with occasional meetups. Expect about 0.25/mo in SA; growth via local grants.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games would establish a Johannesburg studio that creates local software, art, and QA jobs, develops export\u2011ready, culturally resonant IP, and acts as a regional hub for co\u2011development, apprenticeships, and publishing. The project directly supports South Africa\u2019s digital economy growth, skills development, and creative industries priorities by partnering with local universities and incubators, investing in training pipelines, and leveraging English ubiquity and strong broadband. It aligns with visa and grant pathways to attract talent, increases international visibility for South African tech and culture, and fosters innovation through cloud\u2011based collaboration and cross\u2011border studios while prioritizing job quality and local community engagement."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "ZAR 504,000.00 ($28,000.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Johannesburg, SA relies on English for most business and daily life; expect about 10-14% interactions in a local language, with the family willing to learn.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Johannesburg has many English-medium and bilingual schools. Expect about 70-79% of seats to offer English or bilingual tracks.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Johannesburg, South Africa, expect about 5-6 weeks to secure a family-friendly lease. Use a relocation agent to handle deposits and expat credit checks.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "South Africa\u0027s immigration framework, administered by the Department of Home Affairs, defines primary statuses as: Temporary Residence (work, study, business) - defined-period permits that authorize specific activities; Permanent Residence - indefinite stay with work rights and access to public services, plus a route to naturalization; Citizenship - by birth, descent, or naturalization, delivering full civil rights including voting and SA passport eligibility. There are also Refugee/Protection statuses with restricted work rights. Pathways are through Home Affairs: meet residency and activity requirements, language/civics checks for naturalization, and maintain/renew status. For Johannesburg, the family can pursue temporary work/entrepreneur visas to establish residence, then PR for long-term settlement and eventual naturalization if eligible."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Johannesburg, ZA entrepreneur visa typically 17\u201320 weeks end-to-end; expect bureaucratic steps and possible delays.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Johannesburg visa without a recognized sponsor is likely \u003E28 weeks with uncertain steps for a US family.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Johannesburg, SA with a recognized sponsor can be 7-8 weeks end-to-end for visa processing. Leverage local tech/entrepreneur programs to support the path.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Johannesburg, ZA offers skilled-immigrant routes (Critical Skills); approvals are reasonable, but processing can be bureaucratic.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Naturalization in South Africa typically requires about 5 years of residence in Johannesburg; you would fit in the 4.1\u20135 year window.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Johannesburg SA PR for skilled/entrepreneur routes is about 4.1-5 years; strong startup scene but bureaucracy can slow applications.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Johannesburg, South Africa schools generally promote inclusion, but race-based bullying can occur. Prioritize schools with strong anti-bullying policies.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Johannesburg primary/secondary schooling is mixed; expect variability in public schools and consider strong private or international English-language options.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Johannesburg school meals align with SA nutrition guidelines. HEI is mid-range (75-79), with ongoing efforts to curb ultra-processed foods.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Johannesburg public schools generally provide about 8-9 hours of English per week; bilingual aides are variable, affecting core subjects.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Johannesburg, South Africa offers English-language newcomer support via community programs and schools. Capacity sits at about 70-89 seats per 100 newcomers.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Johannesburg date nights should focus on safe, English-friendly districts (Rosebank, Parkhurst, Braamfontein, Sandton). Start with a sunset walk at Emmarentia Botanical Gardens, then a quiet dinner in Rosebank or Parkhurst with easy transport home. For options: live jazz or theatre in Braamfontein (The Orbit Jazz Club; Joburg Theatre), rooftop dining with city views in Rosebank or Sandton, or artsy evenings in Maboneng (Market on Main) or Parkhurst caf\u00E9s. If a gaming vibe helps Trey, look for arcade lounges in Braamfontein. Book in advance, use trusted rideshares, and prioritize well-lit, busy areas."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Johannesburg, family-friendly leisure includes outdoor days at Delta Park and Zoo Lake with shaded play areas for the 1-year-old and space for the 5-year-old to explore; animal and science experiences at Johannesburg Zoo and Sci\u2011Bono Discovery Centre in Newtown; kid-friendly rides at Gold Reef City; short cultural outings to Origins Centre or Apartheid Museum; and weekend markets in Rosebank or Maboneng. Plan daytime visits, pre\u2011book where possible, carry sun protection, and choose walkable, well\u2011lit venues with accessible restrooms and parking.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Plan 2\u20134 weekly evening social opportunities in safe, walkable Johannesburg areas (parks with lighting, community centers, or family-friendly caf\u00E9s), prioritizing accessible transit, inclusive spaces, multilingual communication, and budget-friendly options for adults and accompanying children.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Johannesburg, SA has roughly 14\u201317 supervised child-friendly venues per 100k after 6pm. This supports after-school and weekend family time in ZA.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Johannesburg has walkable inner-suburban pockets and parks. Most trips remain by car, so a mid-low car-free share fits.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Johannesburg offers broad healthy food access; expect reliable produce in urban/suburban SA, with variation by neighborhood and price.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Johannesburg, SA: 3-4 hours/month for visa/tax/school admin; initial setup heavier, then ongoing tasks stay manageable.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Johannesburg, SA offers minimal middle-income child benefits; main grants target low-income families\u2014expect near USD 0 per child per month.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Johannesburg has many daycares, but spaces fill quickly. Plan 4-6 months to secure a reputable creche for a 1-year-old and a 5-year-old.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "ZAR 5,000.00 ($277.78)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "ZAR 3,800.00 ($200.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "ZAR 5,200.00 ($273.68)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Johannesburg\u0027s digital government maturity is moderate (~60-70% online); core services online but some in-person steps (visas, ID) still needed.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Johannesburg offers universal/public care, but primary care waits typically 8\u201310 days; private options are faster but costly for a family on a budget.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "ZAR 9,000.00 ($500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "ZAR 27,750.00 ($1,500.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "ZAR 8,000.00 ($421.05)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Johannesburg relies on employer-based private medical schemes; public care exists but access varies. Job changes can disrupt private coverage and raise costs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1900",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Johannesburg, ZA: maternity leave up to 16 weeks with job protection (UIF ~58% pay); paternity leave is limited; matches family\u2019s long-term planning.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In Johannesburg, tax filing for a dual-US family is moderate. Expect about 25-35 hours/year with cross-border considerations.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Johannesburg, SA has growing BRT/rail options, but 10-minute headways within 500m for 16\u002B hours are uneven; plan for transport flexibility.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Johannesburg, SA, international student tuition is high; often exceeds 25% of median household net income, limiting access.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Johannesburg colleges (Wits/UJ) offer solid quality. Global ranks typically 151-200, aligning with your English-friendly SA options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Johannesburg has many accredited adult education programs (universities/colleges). This supports Trey and Sarah\u0027s upskilling with visa-friendly options in SA.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Johannesburg, South Africa, shows modest demand for senior .NET architects (2-3 postings/mo per million); strong IT scene with remote options.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Rails postings in Johannesburg, SA are scarce (roughly 1-3 per million residents per month). Consider diversifying stacks or remote Rails roles.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "ZAR 1,200,000.00 ($64,864.86)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "ZAR 650,000.00 ($35,135.14)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Johannesburg is inland with no local beaches; Beach Life is not applicable locally. Emphasize inland outdoor options (parks, reservoirs, river trails) and plan occasional coastal trips to Cape Town or KwaZulu-Natal for true beach access; ensure family-friendly, safe, and affordable logistics for a 5-year-old and a 1-year-old."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Johannesburg typically range 68\u00B0F\u201375\u00B0F, aligning with mild autumn for the family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Johannesburg enjoys a mild, highland climate with many days in 50-85 F and moderate humidity, aligning with your outdoor weather preferences.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Within an hour of Johannesburg, protected lands like Cradle of Humankind boost nearby natural beauty. Gauteng\u0027s climate supports easy weekend nature outings.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Johannesburg has several large parks within 5 km (e.g., Emmarentia Botanic Garden, Delta Park) for easy family outdoor time.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Johannesburg, ZA spring highs typically 70\u00B0F\u201375\u00B0F, aligning with your mild-weather preference.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Johannesburg, ZA summers typically reach 81\u201385\u00B0F; mild overall climate with occasional hotter days.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Johannesburg, ZA typically around 60-65\u00B0F in winter (June-August).",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Moderate salience: in Johannesburg, SA anti-immigrant rhetoric exists but isn\u0027t a dominant national theme; xenophobia issues surface occasionally.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "South Africa shows very mild autocratization (\u22480.03) over 10\u201320 years. Johannesburg remains politically stable with robust civil society.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Johannesburg, ZA offers a mild, urban climate with resilient infrastructure; climate stability is moderate amid SA\u0027s broader climate risks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Dominant narratives in South Africa, including Johannesburg, focus on energy security (load shedding) and cost of living, persistent inequality and unemployment, concerns about corruption and governance, delivery of basic services, and debates over land reform and economic transformation; safety and crime remain high-salience issues, with climate resilience and energy transition policies increasingly spotlighted.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "South Africa had only two recession years in 2005-2024 (2009, 2020); Johannesburg offers a relatively stable base for your tech-focused family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Johannesburg, SA offers strong, independent media overall; minor political pressure exists but press freedom remains robust for a family setting.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "South Africa\u0027s immigration regime is fairly stable for professionals in Johannesburg; expect about 2 policy updates per decade for visas.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Johannesburg, SA has solid institutions but corruption risks; political stability is moderate, supporting stable family plans.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Stability: 4 - Johannesburg, South Africa has higher violent crime; prioritize secure housing and safe transport.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "South Africa\u0027s wealth inequality is very high (Gini ~63); in Johannesburg plan for strong safety nets and inclusive services for your family.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    }
+  ]
 }

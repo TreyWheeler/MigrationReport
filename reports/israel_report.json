@@ -1,5 +1,483 @@
 {
   "version": 2,
   "iso": "IL",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "ILS 17,000.00 ($4,450.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "ILS 9,800.00 ($2,578.95)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "ILS 11,000.00 ($2,894.74)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "ILS 1,450.00 ($381.58)",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "ILS 18,200.00 ($4,666.67)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "ILS 360.00 ($97.60)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "ILS 2,150.00 ($552.70)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "ILS 10,000.00 ($2,631.58)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "ILS 35,100.00 ($9,000.00)",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "ILS 2,500.00 ($678.57)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Israel\u0027s expat bureaucracy is moderate; expect about 40-60 hours/year for taxes and permits; English helps.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "ILS 4,441,666.67 ($1,168,609.13)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "23%",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Israel startup visa for US founders typically 4-5 months; strong Tel Aviv ecosystem supports entrepreneurship.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "32%",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- ILS 1,250,000.00 ($360,000.00) \u2013 Israel Innovation Authority \u2013 Prototype/Proof-of-Concept Grant \u2013 Early-stage game prototypes are eligible; supports R\u0026D milestones and core tech validation; good for 0\u20133 year planning before full production.\n- ILS 2,800,000.00 ($805,000.00) \u2013 Israel Innovation Authority \u2013 Technology Incubators/Accelerators \u2013 Large grant \u002B incubation support for 18\u201324 months; requires local incorporation; fits a 1.5M budget and a narrative premium game.\n- ILS 600,000.00 ($171,000.00) \u2013 Ministry of Culture and Sports \u2013 Creative Industries Grants \u2013 Supports indie, storytelling-driven games; useful for production or marketing; competitive but accessible to small studios; eligibility includes foreign founders establishing Israeli entity.\n- ILS 900,000.00 ($260,000.00) \u2013 European Union Creative Europe Desk Israel \u2013 Israel-EU co-production/market development grants \u2013 Small-scale funding with EU partnership requirements; good for international outreach and distribution prep.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Tel Aviv, Israel hosts around 6\u20137 game/creative-tech events annually\u2014great for demos, networking, and local partnerships.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Israel (Tel Aviv/Haifa): solid freelance game talent across art, animation, audio, and narrative; active dev scene with variable rates.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Israel\u0027s indie-game incubators are scarce; in Tel Aviv, one program is game-friendly, offering mentorship and space.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Israel\u0027s indie game scene, centered in Tel Aviv/Jerusalem, is growing with jams and studios; mid-to-high activity.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Israel\u0027s game-dev scene is robust, with TAU/Technion collaboration, active hubs, and funding partners in Tel Aviv and Jerusalem.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Tel Aviv\u0027s game-dev scene offers regular publisher access and active bizdev events, with strong ties to EU/US publishers.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "3",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "9",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "ILS 34,289,062.50 ($9,023,437.50)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "ILS 11,182,248.69 ($2,958,266.85)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "ILS 193,874,142.00 ($51,699,771.20)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Tel Aviv, Israel to Gamescom (Cologne) is ~6-8 hours door-to-door - feasible for major game-event travel.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Israel\u0027s game-dev scene, centered in Tel Aviv, is growing with regular meetups; about 2 in-person events per month.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Israel\u0027s vibrant tech and startup ecosystem, strong software talent pool, and growing digital entertainment scene offer Daemon Games an opportunity to create local high-skill jobs (developers, QA, UX, localization), develop exportable IP, and contribute to the culture economy. Recommend establishing a studio near Tel Aviv or Haifa, pursuing university partnerships for AI/graphics talent, and leveraging government R\u0026D grants and incentives. This aligns with national priorities on innovation, tech exports, and cultural output, and supports bilingual outreach and international collaboration while ensuring robust broadband and cloud access."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "ILS 180,000.00 ($48,648.65)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Israel (IL), Hebrew is used daily while English is common in business; expect ~25% local-language interactions; family plans to learn Hebrew.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Israel has broad English ubiquity, but bilingual tracks are not universal. Look for international/private schools in cities like Tel Aviv or Jerusalem for stronger bilingual options.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Israel (IL) housing is competitive for families; with stable tech income, a lease may be secured in about 4 weeks.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Israel offers two primary immigration pathways for this US family. 1) Aliyah under the Law of Return, which grants Israeli citizenship to Jews and eligible family members (including spouses and children); 2) long-term residency and work rights for those not eligible for citizenship. If Aliyah is possible, initiate through the Jewish Agency and the Population and Immigration Authority; assemble documents (birth certificates for all; marriage certificates; evidence of Jewish status or eligibility; passports; police checks; medical records); complete interviews and medical examinations as required; and, on approval, receive Teudat Zehut (resident identity card) and, after naturalization, an Israeli passport. Register for healthcare with a Kupat Holim and enroll the children in quality public schools; start Hebrew language integration and local community connections. Be aware of military service considerations for residents/citizens and possible exemptions for dependents. If Aliyah is not available or practical, pursue visas (work or student) that lead to temporary or permanent residency and eventual naturalization where eligible, understanding visa requirements, work authorization, and cost implications. Plan a relocation timeline that aligns with school enrollment, housing, healthcare enrollment, and the family\u2019s work arrangements, and budget for housing, taxes, and family services in Israel.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Israel entrepreneur visa timelines: 13\u201316 weeks end-to-end for first-time applicants; plan for family relocation and funding steps.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Israel, non-sponsored aliyah for first-time US applicants typically runs 13-16 weeks end-to-end; expect some variability.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Israel with a recognized sponsor: visa timelines are typically 11\u201312 weeks end-to-end for first-time applicants. Expect possible processing delays due to administrative steps.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Israel has a tech-friendly visa system for skilled workers. English-friendly workplaces aid family integration, especially in Tel Aviv.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Israel\u0027s Law of Return offers relatively fast citizenship for new immigrants; this US family may be eligible within months after aliyah in IL.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Israel\u0027s Law of Return and startup visas can yield PR in about 2-3 years for founders; aligns with your entrepreneur goals in Israel.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "In Israel\u0027s primary/secondary schools, caucasian American immigrant kids typically face very low bullying; expect about 1-2 incidents per 1,000 students.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Israel\u0027s primary/secondary education is mid-range; urban secular schools offer solid bilingual options, but outcomes vary by district.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Israel school meals target HEI 85-89 with reduced ultra-processed foods; aligns with your health-forward goals for IL.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Israel public schools offer about 4-5 hours/week of English; some schools use bilingual aides for core subjects, though not universal.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Israel offers robust Ulpan language integration with broad Hebrew course access across major cities; US newcomers in IL should find ample seats.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "In IL, plan date nights around urban hubs like Tel Aviv, Jerusalem, and Haifa with options that work for a family with a 5-year-old and a 1-year-old: sunset strolls along the Tel Aviv Promenade or Jerusalem waterfront; outdoor dining or cafes with child-friendly menus; evening markets or arts walks in central neighborhoods; family-friendly museums or science centers with occasional after-hours events; arrange trusted babysitting or family-friendly restaurants, and use rideshares for safe transit; verify hours in advance as venues vary; English is widely understood in urban areas and staff can help with Hebrew basics."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Israel offers family-friendly activities: plan weekly stroller-friendly park days and easy nature trails, monthly visits to kid-friendly museums and zoos, and regular beach outings along the Mediterranean; choose venues with English accessibility and predictable hours, and seek family passes or community programs to support affordable childcare and social opportunities for a 5-year-old and an infant."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Israel-specific: prioritize English-friendly, low-stress evening social opportunities for adults in Tel Aviv, Jerusalem, and Haifa; focus on board-game caf\u00E9s, expat/tech meetups, and cafe/wine bar nights with welcoming community vibe, and recurring events that fit family schedules. Ensure venues have reliable broadband for remote work, good transit access and affordability, safe environments, and optional childcare or family-friendly hours where needed; verify inclusivity for LGBTQ\u002B and polyamory-friendly spaces."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "In Israel\u0027s urban centers, there are roughly 18-21 parent-friendly 3rd places per 100k residents after 6pm. This fits a 7 alignment for your family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Israel\u0027s Tel Aviv area offers walkable neighborhoods and decent transit; expect roughly 35-40% car-free trips, not a fully car-free city.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Israel\u0027s major cities offer broad, reliable access to healthy foods with abundant markets. This supports HEI in the 85\u201389 range (rating 9) for urban areas.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Israel (IL) outlook: moderate bureaucratic load; plan ~3-4 hours/month for visas, residency, healthcare enrollment with local support.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "In Israel, middle-income families typically receive about $125-150 per child per month in benefits.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Israel: 4-6 month wait for a 1-year-old in municipal daycares (gan). Private options exist but cost more.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "ILS 2,000.00 ($526.32)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "ILS 2,800.00 ($777.78)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "ILS 1,000.00 ($263.16)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Israel\u0027s digital services are strong; taxes, healthcare, and school enrollment are largely online; visa steps still partly in-person; ~75% online.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Israel\u0027s universal healthcare provides primary care within 1\u20132 days for families. English-friendly clinics are common in urban areas like Tel Aviv.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "ILS 725.00 ($195.95)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "ILS 8,280.00 ($2,250.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "ILS 2,400.00 ($631.58)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Israel has universal health coverage via the National Health Insurance; you remain insured even if you lose or change jobs.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1700",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Israel provides about 12-15 weeks of paid parental leave per parent (70-100% income) plus 14 weeks maternity. Reasonable support for a two-parent family planning in IL.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In Israel (IL), a dual-income family typically spends 25\u201335 hours/year on tax filings; consider a local tax pro to minimize bureaucracy.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Israel\u0027s urban centers have strong transit; about 80-89% live within 500m of 10-min headways for 16\u002B hours, aiding family mobility.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Israel\u0027s public university tuition for new immigrants is typically affordable (often under 5% of median income); scholarships aid access.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Israel hosts top-150 global universities (Tel Aviv Univ, Hebrew Univ) with English programs. This supports your high education goals and family plans.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Israel offers a solid range of accredited adult programs via Open University and colleges; good access for continuing education nationwide.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Moderate demand for senior .NET architects in Israel\u0027s tech hubs (Tel Aviv). Expect 9-12 postings per million residents per month; English-friendly roles common.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Israel Rails demand is moderate (7-9 per million monthly). Tel Aviv startup hubs offer remote Rails roles and potential grant funding.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "ILS 480,000.00 ($134,400.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "ILS 240,000.00 ($66,666.67)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Israel\u2019s Mediterranean coast offers plentiful family-friendly beaches and promenades; prioritize coastal municipalities with safe beaches, lifeguards, shaded parks, and walkable access to amenities; confirm water quality, summer crowd levels, and reliable broadband near beach neighborhoods for remote work; plan around hot, humid summers."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Israel autumn highs typically range 70\u201375\u00B0F. This aligns with your mild-weather preference.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Israel\u0027s climate yields many 50-85 F days in spring/fall with manageable humidity, aligning with mild outdoor plans (about 7/10).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Israel\u0027s landscapes offer easy access to parks near Tel Aviv/Jerusalem; about 30-40% of land is protected within 60 minutes, rating 8.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Israel (IL): Tel Aviv/Jerusalem areas have several parks \u003E10 acres within 5 km, providing solid nature access for a family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Israel commonly reach 70-75\u00B0F (21-24\u00B0C). Evenings stay around 60-65\u00B0F, keeping conditions mild for outdoor time.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Israel summers commonly reach 86\u201390\u00B0F along the coast (Tel Aviv area) and hotter inland. This matches your preference for mild, lower-humidity climates in IL.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Israel winter highs are typically 55-60\u00B0F, especially in coastal areas like Tel Aviv. This aligns with your mild-weather preference.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Israel shows moderate anti-immigrant rhetoric in mainstream politics; not dominant, suggesting room for inclusive policies relevant to IL.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Israel shows very mild backsliding (0.01\u20130.05) on autocratization over 10\u201320 years amid judicial reform debates; democracy remains broadly stable in IL.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Israel\u0027s climate is generally mild, but summers are hot; climate stability is moderate, with coastal areas (e.g., Tel Aviv) balancing warmth and comfort.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Israel\u0027s national political discourse centers on security and regional threats (notably Iran and the Israeli-Palestinian context), ongoing debates over judiciary reform and civil liberties, coalition politics and policy stability, and the management of the Israeli-Palestinian conflict and settlement dynamics; economic pressures such as cost of living and housing shape policy priorities, while strong U.S. alignment and regional diplomacy frame external policy and electoral strategy.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Israel has only 2 recession years in the last 20, signaling stable economics for IL families. Tech and healthcare strength support daily life here.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Israel (IL): generally free media with vibrant outlets in Tel Aviv/Jerusalem, but security/political pressures temper coverage in some cases.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Israel\u0027s migration policy is very stable (Law of Return); expect few reforms this decade. For your US family, visa routes stay clear.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Israel (IL) shows strong liberal-democracy stability with robust institutions, though regional tensions persist.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Israel\u0027s violent crime is around 200\u2013249 per 100k, indicating high stability. Major cities like Tel Aviv offer family-friendly, walkable neighborhoods.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Israel has mid-to-high wealth inequality (Gini ~38\u201341), rating 6. Tel Aviv\u0027s strong tech scene and grants support the family\u0027s goals.",
+      "alignmentValue": 6
+    }
+  ]
 }

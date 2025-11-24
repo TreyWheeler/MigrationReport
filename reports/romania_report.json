@@ -1,5 +1,488 @@
 {
   "version": 2,
   "iso": "RO",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "RON 14,000.00 ($2,857.14)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "RON 9,000.00 ($1,836.73)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "RON 9,800.00 ($1,960.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "RON 4,410.00 ($900.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "RON 5,200.00 ($1,056.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "RON 170.00 ($34.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "RON 420.00 ($84.00)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "RON 0.00 ($0.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "RON 14,400.00 ($3,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "RON 10,290.00 ($2,310.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Romania requires a long-stay visa/residence for Americans. Ongoing taxes are manageable, but initial residency steps can take months.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "RON 1,552,500.00 ($313,636.36)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "16%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Romania Startup Visa likely 4\u20135 months; moderate bureaucracy but strong EU market access and funding potential for tech founders.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "22%",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Romania\u0027s Bucharest/Cluj host 6\u20139 game/creative-tech events yearly. A solid local dev network supports Daemon Games to show builds and pitch.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Romania has a growing game-dev talent pool (Bucharest/Cluj) with freelancers in art/animation/sound; strong IT base and remote options.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Romania has few game-focused incubators; likely 1 local program, plus remote options for indie studios.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Romania\u0027s indie scene (Bucharest/Cluj) is growing with meetups and jams; decent visibility and EU grants, but not as dense as US hubs.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Romania\u2019s game-dev scene is growing, with universities in Bucharest and Cluj, coworking spaces, and EU funding; partner depth is moderate.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Romania (Bucharest) has limited local publisher offices; leverage regional game-dev events and EU programs to meet publishers.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "1",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "14",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "RON 52,255,340.00 ($10,451,068.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "RON 18,663,618.75 ($3,732,723.75)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "RON 287,924,700.00 ($57,584,940.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Romania (Bucharest) to Gamescom in Cologne is about 5 hours door-to-door. Major events stay within easy reach for your family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Romania shows a growing game-dev scene; Bucharest and Cluj host monthly in-person meetups, roughly 2 events per month.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games would anchor a Romanian studio that creates high-skill jobs in game development, cloud/tech infrastructure, and QA, while delivering cultural output through Romanian-language titles and local storytelling. By partnering with universities and leveraging EU funding and Romania\u0027s robust IT ecosystem, the visa narrative supports job creation, talent retention, and innovation in line with national priorities; a Bucharest or Cluj-Napoca hub with remote/hybrid arrangements would maximize regional impact and align with local digital economy strategies.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "RON 147,000.00 ($30,000.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Romania (RO): Expect 40-49% of interactions to require Romanian; you value English ubiquity and will learn the local language.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Romania offers some English-bilingual tracks in urban schools. Roughly 30-40% of seats are bilingual, not universal.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Romania housing: expect 5-6 weeks to lease a home for a 4-person family; target expat-friendly, park-rich areas in Bucharest or Cluj; English-friendly agents.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Romania, immigration status is earned and governed by duration, purpose, and integration. Types include: 1) temporary residence permits (for work, study, or family reunification) valid for set periods and renewable; 2) long-term residence (permanent EU-residence) after lawful residence and meeting conditions; and 3) Romanian citizenship by naturalization or by descent. Status is determined by the specific visa/permit, length of stay, employment, financial means, and compliance with language and civic integration requirements. Rights attached: temporary permits grant work rights related to the permit and access to core public services; long-term residence broadens work rights, access to healthcare and social benefits, social protections, and eligibility to sponsor family in some cases; citizenship confers full civil and political rights, permanent residency for family, and visa-free travel within the EU. For your family, practical paths include obtaining a work- and family-based temporary permit, then pursuing long-term residence after several years of lawful stay, with language and integration steps, and eventual eligibility for citizenship. Start by identifying a Romanian employer or visa route that fits your profiles, ensure documentation for lawful residence, and plan for language/civics learning to meet integration requirements.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Romania startup visa for US founders can take about 11-12 weeks end-to-end; includes company setup and residency steps in Bucharest.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Romania requires a sponsor for long-term stay. For a US family with no sponsor, timelines are uncertain and likely non-viable.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Romania (RO) with a recognized sponsor could be 7-10 weeks for work visas; Trey as founder and Sarah as web dev fit sponsor pathways.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Romania offers growing IT-friendly skilled visa routes with moderate bureaucracy; Bucharest/Cluj hubs attract tech talent.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Romania naturalization typically requires 7.1-8 years of continuous residence; with your profile, eligibility likely around year 7-8.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "In Romania, skilled/entrepreneur residency often leads to permanent residency in about 4-5 years. For this US family, plan roughly 4-5 years of residence.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Romania generally has low bullying rates for caucasian expat students in schools. International or bilingual tracks offer language support and inclusion.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Education quality in Romania is mid-range globally (40\u201350th percentile); strong public schools in major cities with bilingual programs.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Romania school meals show HEI around 72 (70-74); reforms aim to cut ultra-processed foods in schools, but more improvement is needed; aligns with family goals.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Romania public schools offer about 2-3 hours of English weekly; bilingual aides are uncommon in core subjects.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Romania provides solid newcomer language courses in urban RO; roughly 110-129 seats per 100 newcomers yearly, helping your family learn Romanian.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Focus date-night options in Romania on walkable historic cores (e.g., Bucharest Lipscani, Cluj-Napoca, Timi\u0219oara), casual pubs and rooftop cocktails, live music or theater, and sunset riverside strolls. Include intimate wine bars in nearby regions (Dealu Mare, Cotnari). For variety, plan weekend getaways to Sinaia or Bran castles. Prioritize venues with English-friendly staff, reliable Wi-Fi for remote work, and straightforward transit to keep evenings low-stress and enjoyable."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Romania offers abundant, affordable family leisure: prioritize stroller-friendly urban parks (Parcul Ci\u0219migiu, Parcul Her\u0103str\u0103u in Bucharest) and gentle Carpathian excursions (Bra\u0219ov/Predeal area) with kid-safe trails; include visits to interactive museums and open-air folk villages (Muzeul Satului) and Bran/Pele\u0219 castles. Balance outdoor days with indoor options (science centers, children\u0027s museums, playgrounds) during heat or rain; target cities with good broadband, reliable childcare options, and English-friendly services (Bucharest, Cluj-Napoca, Bra\u0219ov)."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Map family-friendly, English-friendly evening social options in Romania (focus: Bucharest, Cluj-Napoca, Timi\u0219oara) such as board game caf\u00E9s, expat/parent groups, and community centers; prioritize venues with childcare, safety, and reliable Wi-Fi; propose a monthly or biweekly \u0027friends night\u0027 plan with transport and language support."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "In Romania, major cities like Bucharest/Cluj have roughly 14-17 parent-friendly venues per 100k after 6pm. Most include on-site staff supervision.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Romania\u0027s walkable city cores (Cluj-Napoca, Timi\u0219oara) support ~60-69% car-free trips for a family-friendly urban life.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Romania\u0027s urban areas offer good access to fresh produce and healthy options; local markets provide value, though prices vary by city.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Romania\u0027s ongoing admin fits 4-5 hrs/month: registrations, healthcare, schooling; initial visa work is heavier but steady later.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Romania\u0027s per-child benefit for middle-income families is modest (~$60/mo), aligning with a 4 rating for life_child_benefit_generosity.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Romania: daycare slots for 1-year-olds (cre\u0219\u0103) often have 4\u20136 month waits; plan ahead, especially in Bucharest or Cluj.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "RON 300.00 ($62.50)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "RON 1,000.00 ($208.33)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "RON 650.00 ($132.32)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Romania offers many core services online (tax, healthcare, school enrollment), but visa appointments and some registrations still require in-person visits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Romania: GP waits in public care are typically 5-7 days; private clinics offer faster visits, keeping healthcare accessible for families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "RON 50.00 ($10.20)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "RON 5,100.00 ($1,110.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "RON 750.00 ($151.52)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Romania (RO) has universal public healthcare; access isn\u0027t tied to employment for residents, aiding family relocation.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1832",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Romania offers ~18 weeks paid maternity per parent (~85% income). Parental leave can extend up to 2 years with job protection.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In Romania, payroll withholding is automatic; expect about 6-8 hours/year for modest declarations and child tax adjustments for a dual-income family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Major Romanian cities offer decent transit; about 70\u201379% live within 500 m of frequent service most of the day, supporting family-friendly mobility.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Romania\u0027s public universities charge international tuition around 3k-6k EUR/year (~30-40% of median net income), making college access tougher for expats.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Romania\u0027s top universities rank around 301-400 globally (e.g., Bucharest). English programs exist, but they are not elite.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Romania has moderate continuing education access (about 9-11 programs per 100k in major cities). This supports Trey\u0027s game/dev upskilling and Sarah\u0027s web skills.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Romania shows solid demand for senior .NET architects (Bucharest/Cluj); ample postings, not top-tier salaries, with strong remote options.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Romania (RO): Rails demand modest; ~4-6 postings per million monthly, with remote options and growing startups in Bucharest and Cluj.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "RON 240,000.00 ($53,333.33)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "RON 120,000.00 ($26,400.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Evaluate Beach Life in Romania by prioritizing proximity to family-friendly Black Sea beaches (e.g., Constan\u021Ba region), beach safety, water quality, and reliable coastal facilities; check transport access, seasonal crowd levels, and English/local-language information; ensure year-round options via inland beaches or lake areas to mitigate humidity and heat."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "In Romania (RO), fall highs are typically 65\u201369\u00B0F, aligning with your mild-year-round preference.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Romania (RO) offers a temperate climate with many days in 50-85\u00B0F range and moderate humidity; overall mild weather suitable for outdoor activity.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Romania\u0027s Carpathians and protected areas offer substantial natural beauty within an hour of many towns, ideal for family-friendly outdoor life.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Romania\u0027s major cities (e.g., Bucharest) have several parks \u003E10 acres within 5 km, supporting family outdoor time and easy nature access.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Romania (RO) typically reach 65\u201369\u00B0F, indicating mild, comfortable springs for the family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Romania summers typically reach 86-90\u00B0F in many areas, aligning with your mild preference, with only occasional hotter days.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Romania winters (RO) typically see daytime highs around 35\u00B0F\u201339\u00B0F, aligning with mild-winter preferences.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Romania (RO), mainstream anti-immigrant rhetoric is limited. Asylum debates exist but remain peripheral to national politics.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Romania shows a very mild autocratization trend in 10-20 yrs (0.01-0.05). EU rules help sustain democratic norms for families moving to RO.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Romania has moderate climate stability (mid-range ND-GAIN); mild seasons aid family life, with some regional flood risk.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Romania\u0027s national discourse centers on rule-of-law and anti-corruption reforms, economic growth and wage resilience, demographic and family policies, migration pressures, and energy transition/climate policy; EU relations and prudent public spending are consistently emphasized.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Romania\u0027s economy has shown stability with 2 negative-growth years in the last 20 (2009, 2020), supporting your long-term relocation plans.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "In Romania, media is plural with watchdog outlets, but ownership concentration and political pressure temper press freedom.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "In Romania (RO), immigration policy is relatively stable for US residents, with predictable residency steps and only modest reforms expected.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Romania\u0027s Liberal Democracy Index percentile is roughly in the 60s\u201370s. That signals solid institutions with some democratic risk for families.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "In Romania (RO), violent crime is generally very low (\u003C200 per 100k), supporting a stable family life with walkable neighborhoods and good public services.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Romania (RO) shows mid-30s wealth inequality (Gini ~34-37), aligning with a 7; relatively stable but noticeable gaps in disposable wealth.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    }
+  ]
 }

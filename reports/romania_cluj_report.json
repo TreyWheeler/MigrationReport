@@ -1,5 +1,483 @@
 {
   "version": 2,
   "iso": "RO",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "RON 12,300.00 ($2,827.59)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "RON 4,900.00 ($980.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "RON 6,500.00 ($1,368.42)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "RON 750.00 ($810.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "RON 5,200.00 ($1,155.56)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "RON 336.00 ($74.67)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "RON 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "RON 5,880.00 ($1,200.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "RON 15,190.00 ($3,100.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "RON 6,900.00 ($1,500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Cluj, Romania: expect roughly 40\u201359 hours/year of residency, tax, and admin tasks for a US family; bureaucratic effort is moderate but manageable.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "RON 2,092,000.00 ($426,122.45)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "16%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Cluj-Napoca, Romania offers EU startup funding; entrepreneur visas typically take 4\u20135 months with some bureaucracy.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "12%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- RON 2,500,000.00 ($570,000.00) \u2013 Creative Europe \u2013 MEDIA \u2013 Development support for a narrative-driven premium game; accessible to small studios that incorporate in an EU member state and partner with a local entity; typical budgets and timelines fit 0.5\u20135M EUR.\n- RON 1,800,000.00 ($388,000.00) \u2013 AFCN \u2013 Administra\u021Bia Fondului Cultural Na\u021Bional \u2013 Digital/interactive content grants \u2013 supports independent game projects and co-production; open to foreign partners relocating to Romania; prototype/production stages eligible; annual calls.\n- RON 1,000,000.00 ($216,000.00) \u2013 UEFISCDI \u2013 Competitiveness and Innovation in Culture \u2013 Cultural industries grants \u2013 funds early-stage development and pilot/production; allows foreign founders who establish a Romanian entity.\n- RON 900,000.00 ($195,000.00) \u2013 Start-Up Nation Romania \u2013 Non-reimbursable grant for new companies \u2013 aids equipment, software, and early-stage costs; requires incorporation in Romania and qualifies for new startups.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Cluj-Napoca has a modest game/dev scene with about five local events per year\u2014good for demos and networking, but not a dense festival calendar.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Cluj-Napoca has a growing IT pool and mid-range game talent; strong near-remote options, but a smaller dedicated art/audio roster than Bucharest.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Cluj-Napoca has a few general accelerators; none are game-specific. Indie studios like Daemon Games will find limited mentorship and funding locally.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Cluj-Napoca, Romania, has a budding indie scene: several small studios, occasional jams, and local meetups; visibility is growing but not dense.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Cluj-Napoca has strong universities and a growing game/dev scene. Local coworking spaces and tech groups offer funding and collaborations.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Cluj has a budding game-dev scene with local studios and events, but major publisher offices are scarce; access via regional meetups is limited.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 0
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "9",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "RON 8,636,040.00 ($1,727,208.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "RON 20,499,360.00 ($4,099,872.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "RON 288,804,600.00 ($57,760,920.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Cluj-Napoca, Romania, door-to-door to Gamescom in Cologne is ~5 hours; European events accessible; SF/GDC is much farther.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Cluj-Napoca, Romania has a budding game-dev scene with about 1-1.4 in-person events per month, plus meetups and local studios.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games can anchor a Cluj game-dev and software cluster by creating 3-5 steady local roles (development, QA, and support) within 12-24 months, catalyzing collaboration with universities (UBB/Politehnica) and regional studios, and contributing to cultural output through local-language titles and exports. It aligns with Romania\u0027s digital economy priorities, EU innovation funds, and regional tech talent development. To maximize impact, authorities should offer targeted R\u0026D grants or tax incentives, streamline visas for international hires, and ensure reliable broadband and access to local data-center resources."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "RON 147,000.00 ($30,000.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Cluj, about 15-19% of interactions may require Romanian; English works in tech, but learning Romanian will ease daily tasks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "In Cluj-Napoca, Romania, many schools offer English bilingual tracks; roughly 60\u201370% of seats provide English instruction.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Cluj-Napoca, Romania, expect ~4 weeks to secure a family-friendly lease (parks, walkability); expat-friendly neighborhoods and local agents help.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Cluj, Romania\u0027s immigration framework for US passport holders includes: 1) visa-free short stay up to 90 days in 180; 2) temporary residence permits for work or study (employer sponsorship or enrollment); 3) entrepreneur/self-employed permits for founders or startups; 4) family reunification permits if sponsored by a Romanian/EU family member; 5) long-term EU residence permit after about 5 years of legal residence; 6) citizenship by naturalization after ~8 years of continuous residence with language and civics tests; 7) EU Blue Card for highly skilled workers, researchers, and students. To take action: determine primary purpose (work, study, entrepreneurship, family), engage with the competent authorities (IGI/Regional Prefecture), prepare required documents (passports, birth/marriage certificates, proof of income/health insurance), apply for the appropriate permit, and plan for language/civics training to advance toward permanent residency and citizenship. Rights associated with statuses include work authorization where permitted, access to public healthcare and education, eligibility for social security, ability to sponsor dependents, and freedom of movement within the Schengen area.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Cluj, Romania entrepreneur visa path for first-time applicants typically 21-28 weeks end-to-end. Plan for local filings and potential grants.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Cluj, Romania: visa via non-recognized sponsor likely 21\u201328 weeks end-to-end; expect bureaucracy and language hurdles for first-time applicants.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "In Cluj, Romania, sponsor-backed visas for US families typically take several months. Plan on about 4-5 months end-to-end.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Cluj-Napoca has a strong IT scene and English-friendly workplaces. Romania offers EU work paths (Blue Card) with moderate bureaucracy for skilled immigrants.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Cluj, Romania typically requires about 8 years of continuous residence for non-EU families to naturalize.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Romania typically requires about five years of lawful residence for permanent residency; Cluj-Napoca\u0027s growing tech scene supports a feasible path.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Bullying risk for Caucasian American kids in Cluj is very low; expat-friendly English exposure in public schools supports safe integration.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Cluj has solid public schools and bilingual options; overall education quality sits mid-range globally (not top-tier), with variability by district.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Cluj, Romania school meals follow EU-style guidelines to limit ultra-processed foods; overall quality is moderate with some variation.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In Cluj, Romania, public schools typically provide about 4-5 hours/week of English; bilingual tracks are increasingly available.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Cluj offers Romanian language courses for newcomers with moderate capacity. Plan early for your kids to access 30-49 seats per 100 newcomers annually.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Cluj-Napoca date nights should favor low-stress, walkable options: stroll the Old Town for casual dining and coffee, catch a small theatre or live music show, and enjoy a sunset walk on Cet\u0103\u021Buia Hill or along the Some\u0219 River, followed by an English-friendly restaurant. Prioritize midweek slots, outdoor seating when weather allows, and easy transit/parking.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Cluj-Napoca offers family-friendly options: Parcul Central and Cet\u0103\u021Buia for safe playgrounds and scenic walks; Hoia Forest for easy nature trails and picnics; Gr\u0103dina Botanic\u0103 \u0027Alexandru Borza\u0027 for stroller-friendly paths and seasonal blooms; Ethnographic Museum of Transylvania and the Natural History Museum with kid-friendly exhibits; look for free or low-cost programs at libraries and cultural centers; plan a compact weekend outing pairing outdoor time with a museum stop, aiming for bilingual resources or English-friendly content when available.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Identify family-friendly evening social options in Cluj (RO) suitable for a couple with two young children: board game cafes or play-friendly venues, language-exchange or expat groups with family activities, community centers offering kid-friendly events, and safe parks with evening gatherings. Prioritize venues with easy transit access, reliable Wi-Fi, reasonable crowd levels after 6 PM, and childcare-friendly facilities."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "In Cluj-Napoca, Romania, expect a moderate scene of parent-friendly 3rd places after 6 pm; roughly 14\u201317 venues per 100k residents.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Cluj-Napoca, Romania, has walkable districts and a growing tram network; about half of trips could be car-free, suiting a family-friendly lifestyle.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Cluj-Napoca, Romania provides broad healthy food access: frequent markets and supermarkets with fresh produce; good for family meals.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Moderate ongoing bureaucracy in Cluj, Romania; expect initial residency setup and ongoing registrations for a family; ~4-6 hours/month.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Cluj, Romania offers modest child benefits (~$60/child/month); generosity is middling for a middle-income family.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Daycare access in Cluj is moderate; public cre\u0219e often have 4-6 month waits, private options exist but costlier.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "RON 1,000.00 ($210.08)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "RON 1,470.00 ($303.09)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "RON 320.00 ($64.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Cluj, Romania offers online taxes and health enrollment; visa and school enrollment often require in-person steps; about 50% of core services online.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Cluj-Napoca, Romania has universal healthcare; GP waits 5\u20137 days in public care; private clinics offer faster access.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "RON 2,100.00 ($449.40)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "RON 5,445.00 ($1,100.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "RON 600.00 ($125.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Healthcare in Cluj, Romania is largely universal and not job-tied; CNAS coverage remains when you change jobs, with simple public options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2000",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Romania offers up to 2 years of parental leave per child with near-70-85% pay and job protection; a strong fit for a Cluj-based family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Moderate tax effort in Cluj, Romania for dual US-Romania filings; expect about 15-18 hours/year.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Cluj, Romania has solid tram/bus coverage. About 70-79% live within 500 m of service with \u003C=10-minute headways for most of the day, aiding family mobility.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Cluj, Romania: non-EU public tuition often \u20AC2k\u2013\u20AC4k/year, often \u003E25% of median net income; college access for this family is limited.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Cluj-Napoca offers solid local colleges (Babe\u0219-Bolyai Univ). Global rank likely 701\u2013900 globally, with bilingual options and affordable study.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Cluj-Napoca offers a solid set of accredited adult programs (\u22489\u201311 per 100k); universities provide English-accessible courses and certificates.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Cluj-Napoca, Romania: solid senior .NET architect demand (~13\u201316 postings per million residents per month); favorable for a 20-year veteran and tech founder.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Cluj-Napoca, Romania Rails postings are moderate; local demand suits a 6-year Rails dev.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "RON 240,000.00 ($52,173.91)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "RON 180,000.00 ($39,600.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Cluj is inland; to support Beach Life, plan regular coastal or lake-based recreation: schedule 1\u20132 weekend trips per summer to the Romanian Black Sea coast (Constan\u021Ba/Mamaia) or to nearby lakes, prioritizing family-friendly options with easy transit and affordable lodging. Ensure travel time, childcare, and budget fit with Sarah\u2019s and Trey\u2019s work and school calendars; choose destinations with reliable internet if remote work is needed and with safe, shallow-water options for the children."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Cluj-Napoca, Romania autumn highs often hover around 65-69\u00B0F. This aligns with your mild-fall preference and avoids extreme heat.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Cluj-Napoca, RO offers roughly 180-219 days/year at 50-85\u00B0F with moderate humidity, aligning with your mild-weather preference.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Cluj-Napoca, Romania: Protected nature within 60 minutes (Cheile Turzii and nearby reserves) aligns with the family\u0027s outdoor-friendly lifestyle.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Cluj-Napoca likely has about 3 parks \u003E10 acres within 5 km, offering outdoor options for family. Fits a mild climate and park life in Romania.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Cluj-Napoca spring highs typically 65\u00B0F\u201369\u00B0F, aligning with mild spring weather and our preference for gentle temps.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Cluj-Napoca, Romania: summer highs typically 76-80\u00B0F, aligning with your mild-weather preference.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Cluj-Napoca, Romania: winter highs around 35\u201339\u00B0F (2\u20134\u00B0C).",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Cluj-Napoca, Romania: anti-immigrant rhetoric is not central in mainstream politics; far-right narratives exist but are marginal locally.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Cluj, Romania shows mild autocratization (roughly 0.01-0.05) over 10-20 years; still EU-aligned with active civil society supporting family life.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Cluj-Napoca, Romania offers a temperate climate with moderate climate stability, fitting your family\u0027s preference for mild, predictable weather.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Romania-wide discourse foregrounds rule-of-law integrity, anticorruption reforms, and EU funds governance, with focus on inflation/energy price relief and social-welfare concerns; in Cluj, emphasis is on developing the tech ecosystem, high-quality education, and reliable local services as drivers of growth."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Romania shows only 2 recession years in the past 20; Cluj-Napoca has a growing tech scene, solid broadband, and family-friendly affordability.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Romania\u0027s media freedom (Cluj) offers some independent media, but political influence and oligarchic pressures create uneven reporting.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Cluj, Romania offers moderate migration stability; expect roughly four immigration policy changes per decade for US citizens.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Romania/Cluj shows mid-to-high LDI signals; EU-aligned institutions provide stability, with regional political fluctuations possible.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Cluj-Napoca, Romania offers strong social stability with low violent crime. Family-friendly neighborhoods and parks support a high quality of life.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Romania has moderate wealth inequality (Gini ~34\u201337). Cluj offers family-friendly living with good services but some income gaps.",
+      "alignmentValue": 7
+    }
+  ]
 }

@@ -1,5 +1,498 @@
 {
   "version": 2,
   "iso": "AU",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "AUD 5,800.00 ($3,828.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "AUD 2,800.00 ($1,904.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "AUD 2,900.00 ($1,972.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "AUD 2,600.00 ($1,716.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "AUD 3,750.00 ($2,475.00)",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "AUD 110.00 ($74.80)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "AUD 750.00 ($495.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "AUD 2,000.00 ($1,320.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "AUD 15,000.00 ($9,900.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "AUD 2,000.00 ($1,320.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Brisbane\u0027s systems are relatively straightforward. Expect ~60-80 hours/year for visas, taxes, and admin.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "AUD 1,311,666.67 ($865,700.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Brisbane, AU entrepreneur visa for a first-time applicant is estimated at 6-8 months. Queensland grants and startup ecosystem can help.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "23%",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- AUD 200,000.00 ($140,000.00) \u2013 Screen Queensland \u2013 Indie Game Production Grant \u2013 cash support for small Queensland-based studios to cover production costs; local spend requirements and Australian incorporation make it realistic within a 0\u20133 year window for a 1.5M narrative title.\n- AUD 125,000.00 ($87,500.00) \u2013 Screen Australia \u2013 Game Development Fund \u2013 development/prototyping grants for indie, accessible to studios that establish an Australian entity; suitable for a story-driven premium title and staged milestones over a 2-year cycle.\n- AUD 60,000.00 ($42,000.00) \u2013 Create NSW \u2013 Games Prototype/Innovation Grant \u2013 micro-grant with mentorship and industry connections for early-stage prototypes; typically requires local incorporation and potential co-funding; aligns with a 2-year plan.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Brisbane offers several local indie game nights and regional events; roughly 3 events per year for Daemon Games to showcase builds.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Brisbane offers a growing freelance game-talent pool (art/anim/audio); remote work is common, but local depth is moderate.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Brisbane has a handful of game-friendly incubators/accelerators (SPARK@QUT, River City Labs, plus uni programs) supporting indie studios with mentorship and space.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Brisbane\u0027s indie scene is growing: frequent game jams and co-working hubs (IGDA Brisbane); mid-density, supportive for a game founder.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Brisbane, AU has a solid game-dev partner scene: UQ and QUT, coworking spaces like Fishburners, and Screen Queensland funding.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Brisbane has a budding indie dev scene and regional publishers; expect occasional visits from larger publishers and active local meetups.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "6",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "AUD 8,401,400.00 ($5,544,924.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "AUD 2,311,875.00 ($1,525,837.50)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "AUD 77,933,300.45 ($51,435,982.50)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Brisbane to major events (GDC, Gamescom) is typically 24\u002B hours door-to-door; long international hops reduce alignment.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Brisbane, AU hosts ~2 in-person game-dev events per month (IGDA Brisbane, indie meetups), supporting the family\u0027s dev goals with local community ties.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Position Daemon Games as a Brisbane-based hub for innovative game development and digital media that creates high-skill jobs, advances cloud-enabled gaming workflows, and contributes to Australia\u0027s cultural output. Highlight access to a skilled local workforce, proximity to Asia-Pacific markets, and government grants/tax incentives in Queensland and Australia. Propose partnerships with universities and local studios to co-develop IP, deliver QA and localization pipelines, and establish a multi-year studio footprint with pathways for skilled migration to support long-term growth and alignment with national digital economy priorities."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "AUD 60,000.00 ($39,600.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Brisbane, AU relies on English; with strong English ubiquity and readiness to learn, expect \u003C10% of interactions needing the local language.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Brisbane schools offer language immersion; roughly 50-59% have bilingual or English tracks, aligning with your bilingual exposure goals.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Brisbane, AU: for a family of four seeking walkable, family-friendly neighborhoods, expect 7-8 weeks to secure a 3-bedroom lease.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Australia Brisbane immigration status types: Temporary visas, Permanent Residency (PR), and Australian Citizenship. Determination occurs through the Australian Department of Home Affairs via visa grants (skill-based, family/partner sponsorship, student, etc.); PR is awarded after meeting visa criteria and residence requirements; citizenship is granted after required years of residence plus English proficiency, good character, and a knowledge test. Rights by status: temporary visa holders have restricted work rights and limited access to services; permanent residents gain broad work rights, access to Medicare and most social services, and can sponsor family; citizens have full rights, including an Australian passport, federal voting rights, and eligibility for most public-sector jobs and government benefits. Action items: map suitable PR pathways for the family (e.g., skilled migration or family sponsorship), track residence duration and visa conditions, prepare for the citizenship knowledge test and good character checks, and align plans with schooling and healthcare access in Brisbane."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Brisbane, AU entrepreneur visa end-to-end typically 21-28 weeks; plan for a slow, multi-step process, though Brisbane offers startup grants.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Brisbane, AU: without a recognized sponsor, visa timelines are long and unpredictable; plan for more than 28 weeks, possibly a year.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Brisbane, Australia sponsor-backed visa for first-time applicants likely exceeds 28 weeks end-to-end; expect longer processing and potential delays.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Brisbane offers clear skilled visa pathways and a supportive startup ecosystem; tech founders and developers have solid visa prospects.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Brisbane citizenship typically requires about 4 years of residence with 1 year as a permanent resident. Plan accordingly for your Kansas City family.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Brisbane, Australia offers skilled/entrepreneur pathways; PR often requires about 4\u20135 years with the right visa and local business ecosystem.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Brisbane schools offer robust anti-bullying and inclusion programs; for caucasian immigrant kids, bullying risk is very low (1-1.9 per 1000).",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Brisbane, Australia offers high-quality K-12; public schools and early childhood programs are strong, with PISA in the high-80s percentile globally.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Brisbane schools follow Australian dietary guidelines and canteen rules to limit ultra-processed foods. This supports your goal for quality meals for kids.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Brisbane, Australia public schools provide English-focused literacy; roughly 5 hours/week of English classes, with ESL/bilingual aides in core subjects.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Brisbane, AU has strong ESOL support for kids. There are about 130-149 language seats per 100 newcomers, aiding bilingual development.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Brisbane date-night options: reserve a riverside dinner at South Bank for skyline views; do a sunset walk along the Kangaroo Point Cliffs; enjoy rooftop drinks in Fortitude Valley or CBD; catch a live music set in West End; or see a film at Palace Centro or Dendy Portside. Plan childcare in advance and arrange easy transit/parking to minimize stress.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Brisbane, prioritize family-friendly activities: frequent outdoor visits to South Bank Parklands and Roma Street Parkland; beginner-friendly wildlife and science experiences at Lone Pine Koala Sanctuary and Queensland Museum Sciencentre; easy nature outings to Mt Coot-Tha Summit and Brisbane Botanic Gardens; monthly day trips to Moreton Bay islands or Gold Coast beaches; leverage libraries for children\u0027s programs and local council splash parks and free community events throughout the year; plan around mild weather months for comfort.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Establish weekly family-friendly board game nights in Brisbane (inner-suburban) venues (libraries, community centers, board-game cafes); partner with expat groups and local organizations to ensure accessible, low-cost events with childcare options and clear safety guidelines; track attendance and feedback to refine partnerships and grow sustainable social opportunities for adults and children."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Brisbane offers many after-6pm family spaces (libraries, play centres) with staff supervision. About 22-25 venues/100k, aligning with an 8.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Brisbane, Australia offers walkable inner-suburban neighborhoods with parks and reliable transit; expect ~50% car-free trips for a family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Brisbane offers broad healthy food access with markets and groceries. HEI sits around 85-89, supporting your family\u0027s nutrition goals.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Brisbane, AU: expect ~4-6 hrs/mo for Medicare, taxes, visas, and school enrollment; bureaucracy is manageable with upfront planning.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Brisbane, AU middle-income child benefits are modest; roughly USD 75-124 per child per month, a mid-range generosity score.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Brisbane, Australia daycare demand is high; with early enrollment, a 1-year-old spot may take 3-4 months; explore subsidies.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "AUD 800.00 ($528.00)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "AUD 1,800.00 ($1,188.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "AUD 625.00 ($412.50)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Brisbane, AU has strong e-government; most core services (visa, taxes, healthcare enrollment, school enrollment) can be completed online end-to-end.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Brisbane, Australia offers universal healthcare via Medicare. Non-urgent GP visits typically have a 1-2 day wait.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "AUD 500.00 ($330.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "AUD 1,900.00 ($1,254.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "AUD 1,250.00 ($825.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Brisbane, Australia, Medicare provides universal coverage for eligible residents. Healthcare isn\u2019t tied to employment.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1990",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Australia provides 18 weeks primary caregiver leave (plus 2 weeks for the other parent) at minimum wage. Brisbane sits in the mid-range for parental leave generosity.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Brisbane-based dual-US family tax filing is high-effort; expect annual professional help. Cross-border ATO/IRS filings add time.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Brisbane offers frequent transit; many residents live within 500 m of \u003C=10-min headways for 16\u002B hours/day, aiding family commutes.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Brisbane, Australia: international tuition remains high; seek scholarships or sponsorships to improve college access for your family.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Brisbane has top-50 global universities (e.g., UQ) and strong public schools; universal healthcare supports stable family life.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Brisbane offers strong continuing education options (TAFE Queensland, universities, private providers) with good access for families prioritizing learning.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Brisbane\u0027s senior .NET architect postings are modest (about 2-3 per million). This AU market offers steady opportunities with competitive salaries.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Brisbane, AU shows moderate Rails demand (roughly 15-19 postings per million residents per month). Good fit for Sarah\u0027s web work; remote/hybrid options suit a startup-friendly family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "AUD 170,000.00 ($108,800.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "AUD 140,000.00 ($89,600.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "In Brisbane, prioritize family-friendly beaches with lifeguards, shaded areas, and easy transit access; map nearby options on the Gold Coast and Sunshine Coast for weekend trips; plan beach days for cooler mornings or late afternoons to avoid peak humidity, and monitor water quality and safety advisories during summer.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Brisbane fall highs are roughly 75\u201382\u00B0F. That\u0027s mild autumn weather for Australia.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Brisbane, AU offers many mild outdoor days. About 180-219 days/year fit 50-85 F with humidity under 70%.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Brisbane offers strong natural beauty within 60 minutes: easy access to D\u2019Aguilar NP and Glasshouse Mountains keeps green spaces close to family life.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Brisbane, AU offers strong nature access. About 8-9 parks over 10 acres lie within 5 km, ideal for a family outdoor life.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "In Brisbane, spring highs run about 77-82\u00B0F (25-28\u00B0C). That\u0027s mild, family-friendly weather perfect for parks and outdoor activities.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Brisbane summer highs 86\u201390\u00B0F (30\u201332\u00B0C), aligning with a mild-warm climate preference.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Brisbane, AU winters have daily highs around 75-80\u00B0F. This mild, non-extreme climate supports your family\u0027s comfort and goals.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Australia shows moderate anti-immigrant rhetoric; not a dominant national theme, with Brisbane politics remaining comparatively moderate.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Brisbane, AU remains a stable democracy; autocratization trend is minimal over 10-20 years.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Brisbane, AU offers climate stability in the 70s (ND-GAIN), with mild weather and manageable climate risks for your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "National political discourse in Australia centers on housing affordability and cost of living, immigration policy and border control, climate action and energy transition, economic growth with infrastructure investment, healthcare funding, and social cohesion; Brisbane-specific concerns emphasize flood/climate resilience, urban housing supply, transport connectivity, and regional development.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Brisbane, Australia shows strong economic stability (0-1 recession years in 20) - favorable for entrepreneurship, remote work, and family plans.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Brisbane, AU: press freedom is strong with pluralistic media; expect open reporting and diverse viewpoints, though local coverage varies.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Brisbane, Australia benefits from a fairly stable immigration system for skilled and family visas; expect periodic updates but clear pathways.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Brisbane, Australia shows strong democratic stability and rule of law, supporting safe, long-term family settlement.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Brisbane, AU has moderate violent crime (~300-349/100k); stability = 7, suitable for a family-friendly, lower-risk life.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Australia\u0027s wealth inequality is high (Gini \u003E=60); Brisbane offers strong healthcare, quality schools, and family-friendly policies that fit your goals.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    }
+  ]
 }

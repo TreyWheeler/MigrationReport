@@ -1,5 +1,486 @@
 {
   "version": 2,
   "iso": "MX",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "MXN 52,500.00 ($2,800.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "MXN 40,000.00 ($2,105.26)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "MXN 32,000.00 ($1,641.03)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "MXN 29,120.00 ($1,600.00)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "MXN 20,800.00 ($1,040.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "MXN 1,000.00 ($50.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "MXN 0.00 ($0.00)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "MXN 18,500.00 ($1,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "MXN 65,000.00 ($3,421.05)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "MXN 30,600.00 ($1,800.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Mexico City offers expat support and bilingual services; visa and school paperwork may require ~20\u201330 hours/year, keeping compliance manageable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "MXN 12,287,500.00 ($614,375.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Mexico City startup visa options exist; for a US founder, expect 4-5 months to approval; leverage CDMX\u0027s growing tech ecosystem.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "32%",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Mexico City has a robust game/dev ecosystem with Campus Party, DevF, and numerous meetups; ~8\u20139 events yearly for demos and pitches.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Mexico City offers a solid freelance game talent pool (art, audio, narrative). Nearshore collaboration with the US is feasible and cost-effective.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Mexico City has 1 game-focused incubator/accelerator for indie devs (mentorship/space); most options are general tech programs.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Mexico City has a growing indie scene with studios and jams; a solid base for game devs, though not as dense as major US metros.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Mexico City has a robust partner ecosystem for game studios, with UNAM and ITESM, cultural institutions, and coworking hubs. Strong funding and events exist for local devs.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Moderate access: Mexico City has local publishers and events; major visits occur but are not guaranteed.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "10",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "MXN 183,546,160.00 ($9,177,308.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "MXN 53,671,800.00 ($3,066,960.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "MXN 730,149,000.00 ($34,769,000.00)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Mexico City to GDC in SF, door-to-door time is about 8 hours (flight \u002B transfers). This fits a family-friendly travel plan for major game events.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Mexico City (CDMX) has an active game-dev scene with regular meetups and studios; about 2 in-person events per month.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Position Daemon Games as a catalyst for Mexico City\u2019s tech-creative economy by establishing a local entity to hire high-skilled developers, designers, and QA, develop and localize IP with Mexican cultural input, and expand export-ready titles. Align with national and CDMX incentives for digital media, R\u0026D, and skilled-visa programs; partner with local universities (e.g., UNAM, ITESM) to build a talent pipeline; pursue remote/hybrid work to access broader talent; implement bilingual operations and clear work-permit pathways to support family stability.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "MXN 720,000.00 ($36,000.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Mexico City, MX: roughly 30-40% of daily interactions will require Spanish; English remains useful while you build local language skills for the family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Mexico City has a robust bilingual education scene, especially in private and international schools. Expect roughly 60-69% of seats with bilingual/English tracks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "CDMX leases typically take about 4 weeks with expat agents; focus on family-friendly areas near parks and good schools (Condesa, Roma, Polanco).",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Mexico City, Mexico uses a two-tier residency system: Residente Temporal (temporary resident) and Residente Permanente (permanent resident), with path to ciudadan\u00EDa through naturalization. Status is granted via a visa type (e.g., Temporary Resident Visa with work authorization or Permanent Resident Visa) issued by Mexican consulates abroad or by INM after entry; renewal is required. Rights granted by each status include: lawful residence; work authorization where permitted; access to public healthcare and education; potential eligibility to social services; ability to own property and travel with appropriate documents; and a route to citizenship after meeting residence requirements (often 5 years of permanent residence, shorter with marriage to a Mexican citizen or Mexican parent). Actionable steps for the family: (1) define primary purpose (work, family reunification, or long-term residence); (2) apply for the appropriate visa at a Mexican consulate or INM process; (3) obtain and maintain a Tarjeta de Residente (residency card) and work permit if required; (4) plan for eventual permanent residency and citizenship timeline; (5) ensure passport validity and compliance with residency obligations; (6) coordinate with Trey\u0027s startup/remote work needs and Sarah\u0027s web development role within the chosen status.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Mexico City, MX: Entrepreneur visa end-to-end around 11\u201312 weeks; multi-step process with possible appointment delays for first-time applicants.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Residency visa in Mexico City without a sponsor is likely 13-16 weeks end-to-end; prepare funds and bilingual docs for consulate processing.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Mexico City with a recognized sponsor typically 7-8 weeks end-to-end for a work visa; suitable for a US family of four seeking sponsorship.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Mexico City offers a workable path for skilled migrants with visas and startup grants. However, bureaucratic processes can slow approvals.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Mexico City, naturalization typically requires about five years of permanent residence. Plan on roughly five years of residency for your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "In Mexico City, skilled entrepreneurs typically reach permanent residency after about 4 years of temporary residency if requirements are met.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Mexico City offers many international/bilingual schools; for Caucasian expat kids, bullying risk is typically low with good school choice.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Mexico City offers strong bilingual and private options, but public schools vary; overall education quality is mid-range globally.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "CDMX school meals are shifting toward healthier options with less ultra-processed foods. HEI is mid-70s, a moderate alignment with your family\u0027s goals.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In Mexico City public schools, English is about 2\u20133 hours/week; bilingual aides in core subjects are not common.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Mexico City has strong language-education options for newcomers; abundant Spanish courses and English-friendly programs help family integration.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Date-night in Mexico City: Start with a sunset stroll through Roma or Condesa, then dinner at a boutique or fusion restaurant and drinks at a rooftop bar with city views (Polanco or Reforma). For a cultural option, add a late-evening walk in Centro Hist\u00F3rico or Coyoac\u00E1n with live music or a small venue show. For a romantic experience, book a twilight trajinera boat ride in Xochimilco. Casual options include weekend markets or late-night food halls like Mercado Roma. Plan roughly 6\u201311 pm, with reservations recommended for popular spots."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "CDMX family leisure: Chapultepec Park offers playgrounds, lake boats, and the zoo; Papalote Museo del Ni\u00F1o provides hands-on science experiences; Museo Nacional de Antropolog\u00EDa offers compact, kid-friendly cultural exhibits; strolls in Coyoac\u00E1n plazas/markets for relaxed afternoons; safe, walkable options with child-friendly caf\u00E9s in Polanco or Roma-Condesa; occasional Six Flags M\u00E9xico for bigger thrills; travel via Metro or bike lanes for affordability and reliability; plan 2-4 hour outings with breaks for younger children.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Mexico City: identify family-friendly evening social options aligned with gaming/tech peers - board game cafes, hobby nights, or meetups in Roma/Condesa; verify accessible transit, safety, and on-site childcare or kids-friendly times; prefer venues offering reliable Wi-Fi, quiet corners for remote work, and English-friendly staff.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Mexico City offers many after-6pm, staff-supervised kid venues (museums, libraries, play centers). Aligns to 26-29 per 100k.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Mexico City, MX offers walkable streets and strong transit with bike lanes. Expect about 60-69% car-free trips for your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Mexico City, MX offers broad healthy food access with mercados and supermarkets; abundant nutritious options for a family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Mexico City (MX) should keep routine bureaucratic tasks light with digital portals. Expect roughly 1-2 hours per month after visa setup.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Mexico City offers little per-child cash support for middle-income families; most aid targets low-income households.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Daycare slots in Mexico City typically take 3-4 months for both kids (private/bilingual options common). Start search now.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "MXN 2,000.00 ($105.26)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "MXN 12,350.00 ($650.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "MXN 4,500.00 ($250.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Mexico City overall ~50-60% of core services online; taxes and school enrollment are online to some extent, but visa/healthcare often require in-person.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Mexico City offers universal public care, but primary visits often wait 5-7 days. Private care is faster but pricey.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "MXN 1,800.00 ($100.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "MXN 18,000.00 ($1,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "MXN 15,200.00 ($800.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Mexico City, healthcare is moderately tied to employment; public options exist, but job changes can require plan adjustments.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2000",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Mexico offers 12 weeks maternity and ~1 week paternity. For a two-parent family in Mexico City, average leave per parent is about 6.5 weeks.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Moderate-to-high: ~36\u201348 hrs/yr for US expat tax filing (FEIE \u002B MX residency); periodic professional help recommended in Mexico City.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Mexico City has a dense metro/bus network with long hours. About 70-79% live within 500 m of 10-minute headways for 16\u002B hours daily, supporting family life.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Mexico City public tuition is very low relative to median income; UNAM/IPN provide strong college access with bilingual options.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Mexico City offers strong college options. UNAM ranks around 100-150 globally, with bilingual programs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Mexico City offers abundant accredited continuing education programs (universities and institutes) with broad access for adults and bilingual options.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Mexico City has moderate senior .NET architect demand; English-friendly firms and nearshore roles support remote/hybrid work for US-linked teams.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Moderate Ruby on Rails demand (~10-14 postings/mn) in Mexico City; Trey\u0027s .NET/Web skills enable cross-skill Rails roles in a multilingual tech scene.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "MXN 1,400,000.00 ($75,675.68)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "MXN 720,000.00 ($38,918.92)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Beach access is limited in Mexico City; implement a plan for regular coastal getaways (Veracruz, Acapulco, Puerto Escondido) within short flights, while upgrading inland outdoor options (parks, lakes, waterfronts) to sustain beach-life vibes in between trips; ensure travel time and budget align with family needs."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Mexico City, Mexico are typically 70-75\u00B0F; a mild autumn climate fits the family\u2019s preferences.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Mexico City, MX offers mild year-round temps with many days 50-85\u00B0F; humidity varies but generally comfortable for outdoor activity.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Mexico City has several nearby protected areas (Desierto de los Leones, Ajusco) within 60 minutes, totaling about 20-24% protected land.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Nature access in Mexico City is strong; within 5 km there are about 6-7 parks \u003E10 acres (e.g., Chapultepec) for family outdoor time.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Mexico City average about 75\u00B0F. That fits the family\u0027s mild climate preference.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Mexico City, MX summers run about 75\u201379\u00B0F. This aligns with a mild, comfortable outdoor climate for the family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Mexico City winter highs typically 65\u00B0F\u201375\u00B0F. It is mild and comfortable for outdoor activities.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Mexico City (MX), anti-immigrant rhetoric is present but not dominant; expect moderate debate and generally welcoming local policies.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Mexico City, MX: mild autocratization trend over 2005\u20132025; democracy largely intact, but media freedom and checks on power need vigilance.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Mexico City\u2019s mild year-round climate fits the family\u2019s low-risk preference; MX climate stability is mid-to-high.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "National discourse emphasizes security and reducing violence, anti-corruption and governance reforms, economic stability and job creation, social programs to reduce inequality, migration management, and climate/energy transition, with urban centers prioritizing reliable public services and rule-of-law."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Mexico City, MX shows about 2 recession years in the last 20 (2009, 2020), signaling solid stability for family relocation and remote-work plans.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Mexico City has a vibrant media scene but threats to journalists persist; rely on independent, diverse local outlets for accurate information.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Mexico City, MX: immigration policy is generally stable with occasional updates; first-time visa applicants should expect modest paperwork.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Mexico City\u0027s liberal democracy percentile is mid-range; strong local institutions here, but national politics can be volatile.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Mexico City safety varies by neighborhood; prioritize family-friendly zones (Condesa, Polanco) with strong cohesion. Overall stability is moderate.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Mexico\u0027s wealth inequality is high (Gini around 45-49); Mexico City has gaps but strong urban services and family opportunities.",
+      "alignmentValue": 4
+    }
+  ]
 }

@@ -1,5 +1,492 @@
 {
   "version": 2,
   "iso": "RU",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "RUB 320,000.00 ($2,869.50)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "RUB 150,000.00 ($1,500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "RUB 180,000.00 ($1,800.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "RUB 20,000.00 ($200.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "RUB 125,000.00 ($1,136.36)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "RUB 8,800.00 ($80.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "RUB 20,000.00 ($181.82)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "RUB 0.00 ($0.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "RUB 495,000.00 ($4,500.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "RUB 120,000.00 ($1,090.91)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Saint Petersburg, RU bureaucracy for US families is high; expect ~120\u2013150 hours/year on visas, registrations, and taxes.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "RUB 46,125,000.00 ($419,318.18)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "20%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "In Saint Petersburg, startup visas exist but bureaucracy can slow the process. Plan for about 5-6 months.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "St. Petersburg hosts around 4 local game/tech events yearly (DevGAMM SPB, White Nights, meetups), offering Daemon Games decent show/network chances.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Saint Petersburg, Russia has a solid freelance game talent pool for near-remote work. Note sanctions and payment frictions can slow cross-border projects.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Saint Petersburg has some general startup accelerators (ITMO, city programs), but no clearly game-focused incubators for indie studios.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Saint Petersburg\u0027s indie scene is growing with local studios and meetups; active but smaller than Western hubs, good for networking.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Saint Petersburg, Russia has a moderate game-dev ecosystem: top universities, cultural partners, coworking spaces, and local events; funding is modest.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Saint Petersburg has an active game-dev scene with regional publishers; moderate BizDev access and regular local events (e.g., DevGAMM SPb).",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "2",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "10",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "RUB 54,960,000.00 ($499,636.36)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "RUB 916,000.00 ($8,327.27)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "RUB 5,992,518,400.00 ($54,477,440.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Door-to-door to Gamescom (Cologne) from Saint Petersburg is roughly 6\u20138 hours; reasonably accessible for major EU game events.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Saint Petersburg has a modest in-person game-dev scene with occasional meetups and DevGAMM-style events. Networking exists but cadence is roughly quarterly.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games would directly create 60-100 high-skill jobs in Saint Petersburg across game development, software, and cloud operations; it would foster local talent through partnerships with universities and training programs and generate cultural output with Russian-themed, locally localized titles for domestic and international markets. The project aligns with Saint Petersburg\u0027s priorities for digital economy growth, creative industries, and regional innovation, and would leverage local grants, tax incentives, and a robust talent pipeline to support scalable growth while offering family-friendly, remote/hybrid work options.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "RUB 1,800,000.00 ($18,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Saint Petersburg, Russia: about 50\u201359% of adult interactions will need Russian; English is valued, and adults plan to learn the local language.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Saint Petersburg public schools offer few bilingual/English tracks; private international schools are the main option for English instruction.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Lease in Saint Petersburg, Russia for a US family may take 7\u20138 weeks; language and visa steps can slow housing access.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Saint Petersburg, immigration statuses center on three main paths: 1) Temporary Residence Permit (TRP) \u2014 issued by local authorities; valid up to 3 years; provides lawful residence and, with a separate work permit, allows employment; a common step toward long\u2011term residence. 2) Permanent Residence Permit (PRP) \u2014 awarded after lawful residence (often following TRP) or via specific family/spousal pathways; grants indefinite residence and generally allows work without a separate permit, plus family sponsorship and broader access to services. 3) Citizenship \u2014 acquired by naturalization after about 5 years of permanent residence (3 years if married to a Russian citizen); requires language and integration requirements; grants full civil and political rights, a Russian passport, and voting rights. Note: dual citizenship is allowed; timelines vary by region; coordinate with an immigration adviser to map your path.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "In Saint Petersburg, Russia, entrepreneur visas tend to be lengthy and uncertain. Expect complex bureaucracy for a first-time applicant.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Saint Petersburg, Russia: non-recognized sponsor visas for this US family are likely lengthy and uncertain; timelines \u003E28 weeks.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Saint Petersburg, RU: with a sponsor, expect 17\u201320 weeks end-to-end; bureaucracy and first-time visa complexity likely.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Saint Petersburg offers tech demand and HQS paths, but bureaucracy and geopolitical risk temper the welcome for skilled immigrants.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Saint Petersburg citizenship usually after about 5 years of permanent residence; plan a ~5-year path from arrival.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Saint Petersburg, RU: PR for skilled/entrepreneur routes typically takes about 6-7 years with TRP steps. Timing depends on policy and compliance.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Saint Petersburg has international schools and expat communities; English-friendly options exist. Bullying risk for caucasian expats is moderate, about 5 per 1,000 students.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Saint Petersburg public schools are mid-range by PISA; private/intl options exist, so bilingual exposure may rely on private programs.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Saint Petersburg school meals are mid-range on HEI (65\u201369); some ultra-processed items persist, with gradual improvements.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Saint Petersburg, Russia: public schools typically provide 2\u20133 hours of English per week; bilingual aides are rare outside international schools.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Saint Petersburg offers moderate language integration seats (30-49/100 newcomers); some English-friendly options exist.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Explore Saint Petersburg with family-friendly date-night options: reserve an early Neva canal cruise followed by dining at a kid-friendly restaurant in the city center; book trusted babysitting for 2\u20133 hours to allow adults time alone; optionally attend an early performance at a child-friendly venue (puppet theater or family program at Mariinsky) and finish with a safe stroll along the Neva embankments."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Saint Petersburg, Russia: prioritize family-friendly, low-stress activities such as safe parks and playgrounds; interactive children\u0027s museums/science centers; stroller-friendly venues with easy transit; affordable options with clear Russian (and some English) signage; plan for mid-day breaks to accommodate the 5-year-old and 1-year-old."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Saint Petersburg, compile a concise map of evening social options suitable for a mixed group: expat-friendly cafes, board-game or gaming venues, and community centers with English or multilingual staff. For each venue, record post-6 pm hours, metro accessibility, safety/pricing, and group-booking options. Propose a rotating monthly plan (2\u20133 venues) with weather/backups and provide contact details and booking links to simplify planning."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Saint Petersburg has many family-friendly venues after 6 pm, including museums with late hours and indoor play spaces. Staff supervision is common.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Saint Petersburg, Russia has a transit-rich system (metro, trams) and walkable neighborhoods. This supports a family-friendly, car-free lifestyle.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "In Saint Petersburg, RU, broad healthy food access exists via supermarkets and markets; reliable healthy options are available for your family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "In Saint Petersburg, expect about 3\u20134 hours/month for visa/registration upkeep and local tax compliance.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "In Saint Petersburg, Russia, child benefits for a middle-income family are modest; typically a few thousand rubles per child per month.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Expect 4-6 months to secure daycare slots in Saint Petersburg, Russia; private bilingual nurseries exist but waitlists and costs are higher for expats.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "RUB 20,000.00 ($200.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "RUB 60,000.00 ($545.45)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "RUB 28,000.00 ($266.67)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Saint Petersburg\u0027s Gosuslugi powers most core services online (tax, healthcare, school enrollment); visa appointments and some steps still require in-person visits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Saint Petersburg public primary care waits commonly 8\u201310 days; private clinics offer faster access.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "RUB 3,000.00 ($30.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "RUB 126,500.00 ($1,150.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "RUB 45,000.00 ($480.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Saint Petersburg, Russia, healthcare is broadly universal via compulsory medical insurance. Coverage isn\u0027t strongly tied to employment, aiding families regardless of job.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2080",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Saint Petersburg offers about 20 weeks of paid maternity leave at ~100% income per parent. This fits the 16-23 week band (alignment 6).",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Saint Petersburg, Russia: dual-income US/Russian filers face cross-border tax complexity; expect ~36-48 hours/year or hire a tax pro.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Saint Petersburg, Russia offers dense transit; ~70-79% live within 500 m of 10-min headways for 16\u002B hours, supporting family mobility.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Saint Petersburg public universities for international students cost ~19-21% of median household net income; affordable with aid, but not cheap.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Saint Petersburg, Russia offers SPb State University in the 301\u2013400 global range. This fits your high education priority and bilingual exposure plan.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Saint Petersburg offers solid continuing education with roughly 7\u20138 accredited programs per 100k, via major universities and private providers.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Saint Petersburg\u0027s senior .NET architect demand is modest; market activity is small (roughly 4\u20135 postings per million), not top-tier.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Saint Petersburg, RU has low Ruby on Rails demand (roughly 1-3 postings per million). Consider remote or international roles.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "RUB 3,200,000.00 ($32,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "RUB 2,700,000.00 ($30,000.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Identify and evaluate Baltic Sea beaches within 1\u20132 hours\u2019 drive of Saint Petersburg that offer family\u2011friendly facilities (restrooms, shade, safe shallow water, lifeguards) and stroller access. Prioritize options with easy transport, clear safety measures, and predictable travel times; plan visits on mild, low\u2011humidity days to align with the family\u2019s climate preferences and reduce heat stress for young children."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Saint Petersburg, RU are typically 60-64\u00B0F, reflecting a mild autumn.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Saint Petersburg, RU has few 50\u201385\u00B0F days with \u003C70% humidity; not a strong match for \u0027Mild Weather\u0027.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Saint Petersburg offers abundant urban parks and the Kronverksky Reserve nearby. Protected land within 60 minutes is modest (10-14%).",
+      "alignmentValue": 4
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Saint Petersburg, Russia has about 8 large parks (\u003E10 acres) within 5 km, offering plentiful outdoor time for your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Saint Petersburg, Russia typically run around 60\u201364\u00B0F. This aligns with your preference for mild, predictable springs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "In Saint Petersburg, Russia, summer highs typically reach 70\u201375\u00B0F. This reflects mild, comfortable summers suitable for outdoor activities.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs ~30-34\u00B0F in Saint Petersburg, RU; aligns with cooler winters but milder than extreme cold, matching your mild-weather preference.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Saint Petersburg, Russia: anti-immigrant rhetoric exists nationally but is not a dominant local narrative; migration policy remains tightly managed.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Saint Petersburg, Russia shows sustained autocratization. Expect growing political control, tighter media limits, and civil liberty constraints.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "St. Petersburg has a maritime climate with cold winters and milder summers; climate risk is moderate. This fits your preference for stable, low-risk conditions and resilient infrastructure in Russia.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Dominant narratives emphasize resilience under sanctions and state-led economic management, with a patriotic, security-forward framing of governance; strong focus on social stability, family and traditional values, and loyalty to leadership; urban development priorities in Saint Petersburg, including housing affordability and inward-looking economic policy (import substitution, subsidies); a controlled media environment and limited political pluralism shape public discourse; foreign policy assertiveness remains the backdrop to domestic policy.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Saint Petersburg, Russia has had about 4 recession years in 20. Expect volatility from sanctions and energy markets, with pockets of stability.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Media freedom in Saint Petersburg, Russia is limited due to state influence; rely on diverse, reliable local sources.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Saint Petersburg, Russia shows moderate immigration policy shifts. Expect bureaucracy and occasional changes that affect family visas.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Russia\u0027s LDI percentile is well below 10, signaling weak political stability; in Saint Petersburg expect centralized power and limited civil liberties.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Saint Petersburg, Russia offers solid social stability with relatively low violent crime; family-friendly neighborhoods and reliable services support safety.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Saint Petersburg, Russia has mid-30s wealth inequality (Gini ~34-37); family life benefits from local supports and moderate budget pressures.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    }
+  ]
 }

@@ -1,5 +1,486 @@
 {
   "version": 2,
   "iso": "KR",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "KRW 7,000,000.00 ($5,384.62)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "KRW 4,000,000.00 ($2,857.14)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "KRW 4,480,000.00 ($3,200.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "KRW 2,227,500.00 ($1,650.00)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "KRW 3,120,000.00 ($2,400.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "KRW 105,000.00 ($75.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "KRW 0.00 ($0.00)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "KRW 2,130,000.00 ($1,500.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "KRW 8,030,000.00 ($5,500.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "KRW 5,320,000.00 ($3,800.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Seoul, KR offers streamlined visa/tax steps; with low bureaucracy tolerance, expect about 10-19 hours/year of admin.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "KRW 1,004,583,333.33 ($803,666.67)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Seoul has startup visa options and funding support; with proper documentation, approval may take ~2\u20133 months.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "20%",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- KRW 150,000,000.00 ($115,384.62) \u2013 KOCCA Game Content Production Support \u2013 Provides partial funding for indie game production and accepts foreign founders who incorporate in Korea; suitable for a 1.5M USD narrative premium title.\n- KRW 75,000,000.00 ($57,692.31) \u2013 KOCCA Prototype Grant \u2013 Supports early prototype/vertical slice development for small studios; competitive but attainable with a strong concept.\n- KRW 50,000,000.00 ($38,461.54) \u2013 Seoul Indie Game Grant \u2013 City-level funding for indie teams including international partnerships; practical for initial development phases.\n- KRW 600,000,000.00 ($461,538.46) \u2013 Creative Content Innovation Fund \u2013 National program backing innovative content including story-driven games; can cover development and marketing alongside other sources.\n- KRW 250,000,000.00 ($192,307.69) \u2013 R\u0026D Tax Credit (Corporate) \u2013 Tax-based incentive offsetting eligible R\u0026D costs for Korea-incorporated studios; plan expenses to maximize offset over year 1\u20132.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Seoul hosts multiple game/dev/creative-tech events annually (indie nights, uni showcases, meetups) suitable for Daemon Games.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Seoul, Korea has a strong freelance game talent pool across art, animation, audio, and narrative; easy local or near-remote collaboration.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Seoul\u0027s indie game accelerator scene includes about 3-4 programs; they offer mentorship, space, and funding for early-stage studios.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Seoul has a solid indie scene\u2014numerous small studios, regular game jams, and active hubs; great for collaboration and startup grants.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Seoul, KR has a strong game ecosystem: KOCCA funding, universities, and coworking spaces collaborate on games and events; solid depth for partnerships.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Seoul\u0027s dense game ecosystem features major publishers and regular bizdev events. This creates strong local access to publishers and partners.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "9",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "22",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "KRW 13,580,105,000.00 ($9,700,075.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "KRW 5,075,040,000.00 ($3,625,742.86)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "KRW 79,451,205,677.50 ($54,793,934.95)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Seoul, door-to-door to major game events (e.g., GDC SF) runs about 14-16 hours. It\u0027s long but doable with planning.",
+      "alignmentValue": 4,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Seoul hosts about 3 in-person game-dev events per month; a robust indie scene and regular meetups support devs and founders.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "In Seoul, Daemon Games can anchor a 2-year talent and IP development program by establishing a local studio, hiring 25-40 KR-based developers and designers, and co-developing 1-2 Korean-market titles with local partners. Action items: secure university partnerships for internships, apply for Korean R\u0026D grants and tax incentives, pursue visa/immigration pathways for technical staff, and implement a Korean localization and publishing plan (distribution through KR app stores and partners). This aligns with Korea\u0027s priorities on digital content exports, cloud/AI-enabled game development, and job creation in creative tech. Milestones: set up office within 6 months; hire 10-15 by month 12; reach 25-40 by month 24; KPIs: local hires, grants secured, partnerships formed, titles released. Risks: regulatory guidelines for content, visa timelines, and competitive KR market.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "KRW 81,000,000.00 ($60,000.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Seoul, expect roughly 40-49% of interactions in Korean. English is commonly useful in tech and expat scenes, but learning Korean will ease daily life.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Seoul public schools offer few bilingual/English tracks. English-medium options are mainly pricey international schools.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Seoul, expat families typically secure a 3-bed lease in about 4 weeks with a broker; expect deposits and solid docs.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "South Korea offers two main immigration status tracks with distinct rights: Permanent Residency (F-5) and naturalized citizenship. Permanent residency can be earned after long-term lawful residence (generally several years) with language proficiency and stable income; it grants long\u2011term stay and work rights plus access to social benefits, but it does not grant a Korean passport or voting rights. Naturalization requires extended residence (typically around 5 years) with language and civic knowledge requirements and a clean legal record; it grants a Korean passport, full political rights, and eligibility to pass citizenship to children under current laws, subject to dual citizenship rules. For this family, begin with a work visa to establish residence and income, pursue language and integration steps, and consult immigration counsel to map timelines, documents, and any family-specific options.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Seoul startup-entrepreneur visa typically takes 13\u201316 weeks end-to-end. Your founder plan and grant access fit a mid-range timeline.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Seoul, non-sponsored visa timelines for US families are typically long or uncertain; plan for delays or explore sponsorship options.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Seoul, South Korea: with a recognized sponsor, visa processing ~7-8 weeks end-to-end for families; first-time applicants.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Seoul offers robust skilled-immigrant routes (E-7, IT demand); expect favorable approvals but prepare for language steps and bureaucracy.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Seoul, Korea: ordinary naturalization usually requires 4.1-5 years of residence; aligns with an 8.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "In Seoul, South Korea, expect about 5 years of residence for skilled workers/entrepreneurs to qualify for PR (F-5) if requirements are met.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Seoul\u0027s international schools tend to have low bullying risk for expat kids. Expected rate: roughly 3\u20133.9 per 1,000, with supportive, multilingual campuses.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Seoul offers top-tier primary and secondary education, with strong public schools and bilingual options. PISA places Korea among the global top performers.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Seoul school meals follow Korean HEI guidelines; expected HEI around 80\u201384 with emphasis on whole foods and limiting ultra-processed items.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Seoul public schools offer about 2-3 hours of English per week; bilingual aides in core subjects are limited.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Seoul offers strong Korean language programs for newcomers (Seoul Global Center, local centers). Ample seats support kids\u0027 bilingual exposure.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Seoul offers adult-focused date-night options: plan an early dinner in Itaewon, Gangnam, or Yeonnam-dong with English-friendly service, then enjoy a post-dinner stroll along the Han River at Yeouido or Banpo, or a quiet viewpoint at Namsan Tower. If you arrange trusted childcare in advance, consider a rooftop bar or live music venue in central districts for a true date night; for a low-key alternative, explore Bukchon Hanok Village or Insadong for a cultural stroll and dessert, ensuring easy subway access for return home."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Seoul, focus on family-friendly, English-accessible outings within walkable neighborhoods: Hangang Park for riverside picnics and bike rides; Seoul Forest and Namsan Park for playgrounds and easy walks; kid-focused venues such as Seoul Children\u0027s Museum, Lotte World Aquarium, and Seoul Grand Park Zoo; seek bilingual early-childhood programs and affordable childcare nearby; prioritize neighborhoods with parks, good schools, and reliable broadband to support both adults\u0027 remote work and kids\u0027 activities."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Prioritize family-friendly, English-friendly night options in Seoul: rotate 1) board game caf\u00E9s with kid zones (Hongdae/Itaewon/Gangnam), 2) early-evening library or community-center meetups with multilingual staff, 3) supervised kid-friendly activities (play caf\u00E9s, family-friendly karaoke/escape rooms) with adult social time, 4) safe, walkable hangout spots along Hangang parks; set a monthly schedule, confirm hours, and reserve in advance."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Seoul has many parent-friendly 3rd places (kid cafes, libraries) open after 6pm; good fit for your family-friendly, remote-work lifestyle.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Seoul\u2019s dense, walkable districts with strong transit; car-free trips around 60-70%, aligning with family-friendly, park-rich living.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Seoul offers broad access to fresh produce and healthy options\u2014great for a family with young kids via markets, supermarkets, and delivery.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Seoul\u2019s expat-friendly admin and digital services keep monthly compliance around 2-3 hours; ARC, NHIS, and taxes are straightforward.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Seoul, Korea: middle-income child benefits roughly 200\u2013230 USD per child, placing alignment at 7 (175\u2013249 USD).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Seoul, daycare spots for a 1-year-old can take several months; plan for about 4-6 months to secure a licensed place.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "KRW 250,000.00 ($192.31)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "KRW 1,020,000.00 ($750.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "KRW 320,000.00 ($237.04)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Seoul\u0027s e-government enables most core resident services online end-to-end; expect about 70-79% online (visa steps still require in-person).",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Seoul provides universal health coverage; primary care typically available within 1-2 days at urban clinics.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "KRW 1,000,000.00 ($735.29)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "KRW 2,500,000.00 ($1,900.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "KRW 1,050,000.00 ($777.78)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Seoul uses universal NHI; healthcare isn\u0027t employment-locked, but changing jobs can affect enrollment timing.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1900",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "South Korea offers up to 52 weeks of parental leave per parent with job protection; pay is partial (high initial months, then lower) for this family in Seoul.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Seoul expat family: Korea year-end tax settlement plus US credits; typical filing 13-18 hours/year.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Seoul, KR offers dense transit: \u003E90% live within 500 m of frequent transit (subway/bus) for most hours, supporting family mobility and remote work.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Seoul\u0027s international tuition is often ~19-21% of median net income. Scholarships exist, but overall college access is moderate for this profile.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Seoul hosts SNU, a top-50 global university, with strong college options and bilingual programs - excellent for families planning education in Korea.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Seoul has extensive accredited continuing education options (universities and municipal centers) for adults. Many run evenings or weekends for working families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Seoul, South Korea shows moderate senior .NET architect demand (9-12/mo); favorable for Trey\u0027s .NET/architect background in enterprise roles.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Seoul, South Korea has modest Ruby on Rails demand for senior roles. Expect only a few postings per month per million residents (about 4\u20136), suggesting a 3 alignment.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "KRW 120,000,000.00 ($92,307.69)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "KRW 60,000,000.00 ($50,000.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Seoul-area beach life is viable via short trips to the Incheon coast (e.g., Eurwangni and Wolmido). Plan weekend day trips, aiming for late spring or early autumn to avoid hot, humid midsummer conditions. Expect crowded beaches during peak times; prioritize family-friendly spots with shallow water and lifeguards, and verify transport and parking options in advance. Pack shade, sunscreen, and water for the kids (ages 5 and 1). Consider travel time from central Seoul and seasonal weather (monsoon/rain) when scheduling beach days."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Seoul, South Korea fall highs typically reach 65\u201369\u00B0F; mild autumn climate supports outdoor activities.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Seoul, KR has many 50-85\u00B0F days with humidity under 70% outside summer; roughly 220-259 mild-weather days per year.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Seoul offers mountains and parks nearby; roughly 30-39% of land is protected within 60 minutes, supporting your family\u0027s outdoor and climbing interests.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Seoul offers strong nature access for families. Multiple large parks (\u003E10 acres) along the Han River are within 5 km.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Seoul, South Korea spring highs typically around 65\u00B0F-69\u00B0F, offering mild, comfortable days. This fits your family\u0027s mild-weather preference.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Seoul summer highs are about 86\u00B0F\u201390\u00B0F (humid). This aligns with a mild climate preference, though humidity may feel hotter.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Seoul, South Korea winter highs typically 35\u201339\u00B0F; cool but manageable with warm layers.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Seoul, KR: Anti-immigrant rhetoric exists but is not a dominant mainstream issue; focus is on jobs and housing.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Seoul, KR demonstrates stable democracy with minimal autocratization risk over two decades; predictable governance supports a family-friendly environment.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Seoul offers four seasons and generally mild climate with good infrastructure; plan for hot/humid summers\u2014urban resilience helps families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "South Korea\u0027s national political narratives center on housing affordability and real estate reform, economic resilience and youth employment, the US-ROK security alliance and North Korea deterrence, education and social welfare reform, gender equality and LGBTQ rights, and a rapid shift to a digital/green economy with regulatory modernization."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Seoul, KR shows ~2 recession years in the last 20 years; stability rating 9, supporting your tech/remote work plans.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "South Korea (Seoul) has relatively free media; expect diverse reporting, but some ownership influence in outlets.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Seoul\u0027s immigration policy is generally stable with periodic tweaks. For a US family seeking first-time visas, paths exist but can evolve.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Seoul, Korea has strong liberal-democratic stability; reliable services and predictable policies support families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Seoul, South Korea offers low violent crime (often under 200 per 100k), supporting a safe, family-friendly urban lifestyle.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Korea\u0027s Gini ~33 (moderate inequality) maps to level 8; Seoul offers strong tech/healthcare and a stable market for a family like yours.",
+      "alignmentValue": 8
+    }
+  ]
 }

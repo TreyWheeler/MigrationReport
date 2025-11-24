@@ -1,5 +1,483 @@
 {
   "version": 2,
   "iso": "TR",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "TRY 30,000.00 ($1,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "TRY 25,000.00 ($862.07)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "TRY 25,000.00 ($833.33)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "TRY 20,000.00 ($666.67)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "TRY 15,600.00 ($520.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "TRY 700.00 ($25.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "TRY 2,500.00 ($83.33)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "TRY 42,000.00 ($1,400.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "TRY 42,000.00 ($1,500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "TRY 45,000.00 ($1,500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Turkey (TR) residency and tax processes involve ongoing paperwork. Plan for about 60\u201389 hours/year of compliance.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "TRY 6,212,500.00 ($207,083.33)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "In Turkey, entrepreneur visas commonly take 3-4 months; Istanbul\u0027s startup ecosystem offers grants, mentors, and accelerators.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- TRY 2,000,000.00 ($71,428.57) \u2013 T\u00DCB\u0130TAK TEYDEB R\u0026D/Innovation Grant \u2013 Turkish-incorporated indie studios can access targeted R\u0026D funding for game development, with milestones and co-funding suitable for a 1.5M USD project; competitive but realistic within 0\u20133 years.\n- TRY 1,000,000.00 ($35,714.29) \u2013 KOSGEB R\u0026D and Innovation Support for Startups \u2013 Early-stage grant for prototyping/production costs; open to foreign founders who establish a Turkish entity and meet local spend prerequisites.\n- TRY 1,500,000.00 ($53,571.43) \u2013 Kalk\u0131nma Ajans\u0131 Regional Creative Industry Grant \u2013 Regional funds for creative-content projects; supports local spend and infrastructure; accessible to foreign founders who incorporate locally and align with regional development goals.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Istanbul, Turkey hosts about 4 annual game/creative-tech events; Daemon Games could showcase and network in this near-city market.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Turkey offers a solid freelance game talent pool (Istanbul/Ankara/Izmir); artists, animators, sound designers, and narrative designers are accessible.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Turkey\u0027s game incubator scene is sparse; only general regional programs exist, with no strong local game-focused accelerators.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Turkey\u0027s indie scene is moderate; Istanbul has studios and jams, with growing activity but not as dense as major hubs.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Turkey\u0027s game scene, led by Istanbul/Ankara, has strong universities and coworking spaces. Grants and funding programs support dev activity.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Istanbul, Turkey offers a growing game dev scene with local publisher offices and regular meetups; majors visit for bizdev, easing access for teams.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "2",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "22",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "TRY 5,418,800.00 ($180,626.67)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "TRY 107,434,154.00 ($3,704,626.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "TRY 1,156,041,600.00 ($41,287,200.00)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Turkey (Istanbul) to major events like Gamescom, door-to-door travel is about 6-8 hours; feasible for a family with planning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Turkey\u0027s game-dev scene is active but smaller, centered in Istanbul; expect about 1\u20131.4 in-person game-dev events per month.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Position Daemon Games as a Turkey-based studio hub that creates high-skilled jobs in software, cloud, and game development, while driving local cultural output through original IP. Recommend incentives such as R\u0026D tax credits/grants, streamlined visa processes for technical staff, and funding for university\u2013industry collaborations; ensure reliable broadband and access to local game-dev ecosystems; and promote partnerships with Turkish universities and studios to build a strong talent pipeline. This aligns with Turkey\u2019s digital transformation goals, growth of the creative/tech industries, and regional innovation priorities."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "TRY 600,000.00 ($20,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Turkey (TR): expect Turkish use in about 40\u201349% of daily interactions; English handy in tech/expat hubs; plan to learn Turkish.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "In Turkey, bilingual/English tracks are limited, roughly 20-29% of seats. Private or international schools offer the best bilingual pathway.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "TR: In major cities with expat help, a family-friendly lease typically takes 7-8 weeks; expect some paperwork.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Turkey immigration statuses and rights: 1) Temporary residence permit (for study, work, or family ties) issued by the DGMM or Turkish consulates; it provides lawful residence and, depending on the permit type, limited work rights, with renewal required. 2) Long-term residence permit (after approximately eight years of continuous lawful residence) offering durable stay and broad work rights, subject to ongoing compliance. 3) Permanent residence (unlimited stay) for eligible individuals (e.g., long residence, close family ties) with ongoing work rights and path to citizenship considerations. 4) Citizenship (via naturalization or investment) after meeting residence duration, language/integration criteria or qualifying investment; citizenship grants full civil and political rights, eligibility for a Turkish passport, and enhanced mobility. Rights associated with each status vary by statute and are administered by DGMM/consulates; statuses require documentation, renewals, and maintenance of eligibility."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Turkey entrepreneur visa timeline is likely ~11-12 weeks end-to-end. Prepare a solid business plan and complete local registrations.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Turkey, immigration without recognized sponsor: expect 13-16 weeks end-to-end for a US family; bureaucracy may add delays.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "TR with a recognized sponsor: work visa for US citizens typically 7\u20138 weeks end-to-end; ensure employer sponsor and complete docs for first-time applicants.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Turkey offers skilled-work permits, but approvals are moderate and bureaucracy can slow entry; expect employer sponsorship and Turkish admin steps.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Turkey, citizenship typically requires about 5 years of continuous residence with language proficiency; this aligns with your family\u0027s timeline.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "In Turkey, PR for skilled/entrepreneur routes usually requires about 4.1\u20135 years of residence; plan for around 5 years.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Turkey offers international schools; Caucasian children fare well in English/bilingual options. Choose reputable schools to minimize bullying.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Turkey\u0027s primary/secondary education quality varies; urban areas offer stronger public schools and some bilingual options; plan for variability.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "In Turkey, school meals follow national guidelines; HEI around 75\u201379; ongoing reforms to reduce ultra-processed foods.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In Turkey, public schools offer about 4-5 hours/week of English; bilingual aides vary by district\u2014plan for Turkish language exposure.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "In Turkey\u0027s major cities, Turkish language courses for kids exist. Access is reasonable but varies by province.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "In Turkey, date-night opportunities cluster around Istanbul\u2019s waterfront and rooftop venues: consider a Bosphorus sunset dinner or boat cruise, rooftop dining with views of the historic skyline in Beyo\u011Flu or Karak\u00F6y, and traditional meyhane/meze experiences. For relaxation, couples spa/hamam options are available. Choose English-friendly venues, book in advance, and plan early-evening outings to align with childcare."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Develop a Turkey-specific family leisure plan focused on parks, playgrounds, and short nature outings in major cities (Istanbul, Ankara, Izmir). Include kid-friendly venues and interactive museums such as Rahmi Ko\u00E7 Museum and other children\u0027s museums, plus easy day trips to nearby nature areas (Belgrad Forest, Princes\u2019 Islands, coastal towns). Build a quarterly activity calendar prioritizing safe, walkable, family-friendly neighborhoods and bilingual exposure, with affordable childcare options and schedules that support the family\u2019s work-life balance and mild climate preferences."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Identify family-friendly evening opportunities in Turkey that fit a two adults and two children household: prioritize parks, playgrounds, and community centers with safe after-dark options; seek English-friendly or bilingual events, expat or tech meetups, and kid-focused cafes; plan within 20-30 minutes of home, ensure reliable WiFi for work if needed, reasonable costs, and evening security.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "In Turkey\u0027s cities (Istanbul/Ankara), expect roughly 10-13 parent-friendly 3rd places per 100k after 6pm with staff; helpful for family time.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Turkey\u0027s cities like Izmir or Bursa offer walkable neighborhoods with parks and transit; 60-69% of trips can be car-free, suiting families.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "In Turkey\u0027s urban centers (TR), fresh produce and healthy options are broadly accessible; expect HEI around 75-79 with reliable markets, though prices vary.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "TR visa/residency requires paperwork but is manageable; plan roughly 4-5 hours/month for admin, taxes, and permits.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Turkey\u0027s per-child benefits for middle-income families are modest; typical payments are only a few USD per child per month.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Turkey (Istanbul/Ankara): 1-2 months to secure kre\u015F/daycare slots; private options can be faster but pricier.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "TRY 1,000.00 ($33.33)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "TRY 3,000.00 ($100.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "TRY 1,800.00 ($60.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "In Turkey, e-Devlet supports many core services online (registration, taxes, visa, health, schooling). Approx. 70-79% can be completed end-to-end.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Turkey offers universal healthcare; in major cities private clinics can offer primary care within 1-2 days, with broader access nationwide.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "TRY 450.00 ($15.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "TRY 63,000.00 ($2,100.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "TRY 1,650.00 ($55.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Turkey provides broadly universal healthcare; coverage isn\u0027t tied to employment, aiding families regardless of job status.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2220",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Turkey offers 16 weeks of paid maternity leave (full pay); paternity leave is limited, giving overall moderate parental leave generosity for our family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Moderate personal tax effort in Turkey: dual incomes plus US expat rules likely 13-18 hours/year for filing and records.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "In Turkey\u0027s major cities, about 80\u201389% live within 500 m of frequent transit for 16\u002B hours, supporting a family-friendly urban lifestyle.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Turkey offers English-taught public programs, but international tuition is higher; around 12-13% of median income. With your assets, college access is workable.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Turkey\u0027s top universities typically sit in the 301\u2013400 global band; solid options exist in Istanbul and Ankara.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Turkey has accredited continuing education programs, especially in Istanbul and Ankara. Access varies by city; bigger urban centers offer more options.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "In Turkey (TR), senior .NET architect demand is steady in hubs like Istanbul/Ankara; expect moderate postings and local salaries.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Turkey Rails postings are moderate (~10-14 per million), concentrated in Istanbul; remote roles suit the family\u0027s setup.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "TRY 900,000.00 ($25,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "TRY 720,000.00 ($24,000.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Target mild-climate coastal Turkey communities (Izmir, Ku\u015Fadas\u0131, Ala\u00E7at\u0131, Bodrum, Antalya) where summers are warm but less humid, with easy beach access, family-friendly neighborhoods, and reliable broadband; assess water quality and safety near beaches, access to good public schools and healthcare, and opportunities for remote work; prefer places with sea breezes and walkable parks to support outdoor family life."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Turkey are typically 65\u00B0F-69\u00B0F, aligning with a mild autumn. This suits the family\u0027s climate preferences.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Turkey offers many days within 50\u201385\u00B0F with moderate humidity; expect around 180\u2013220 such days in coastal and inland regions.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Turkey offers abundant protected lands; within 60 minutes, many areas feature parks and scenic preserves, underscoring its natural beauty.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "In Turkey, major cities typically have several large parks. Around 4 parks \u003E10 acres within 5 km support family outdoor time.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Turkey spring highs typically 65-69\u00B0F; mild and comfortable for outdoor activities.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Turkey summers often reach 81-85\u00B0F. This aligns with your mild-weather preference for comfortable heat levels.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Turkey typically around 45-49\u00B0F (7-9\u00B0C). Inland areas can be cooler, but coastal regions stay mild.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Turkey\u0027s mainstream politics show persistent anti-immigrant rhetoric over 5 years, centered on refugees and security. Not fringe, but a steady narrative in campaigns.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Turkey shows moderate autocratization in the last 10\u201320 years (V-Dem ~0.32), with civil liberties under pressure but electoral processes enduring.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Turkey\u0027s climate stability is moderate (ND-GAIN ~60s); target mild-year-round cities with heat mitigation for the family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Turkey\u0027s dominant political narratives emphasize economic stabilization amid inflation and rising living costs, assertive national sovereignty in foreign policy, security and counterterrorism priorities, migration/refugee management, ongoing debates over democracy and rule of law, rising nationalist and traditional-values framing, and a focus on energy security and climate resilience."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Turkey (TR) has seen several recession years in the last two decades; expect moderate economic volatility that could impact family budgets and costs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Turkey\u0027s press freedom is low; state-linked influence and legal pressures limit independent outlets in TR; plan for diverse, cross-border sources.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Turkey has had several immigration-policy reforms (6458, visa/work rules) in the last decade. Expect some policy variability for planning your move.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Turkey (TR) V-Dem LDI percentile sits in the 30s, indicating moderate stability. Expect occasional policy shifts but governance remains workable for families.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "In Turkey, violent crime rates vary; choose safe neighborhoods in cities like Istanbul. Prioritize strong community and security.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Turkey\u0027s Gini is around 41, indicating moderate inequality. In major cities like Istanbul, housing costs and family life vary.",
+      "alignmentValue": 6
+    }
+  ]
 }

@@ -1,5 +1,487 @@
 {
   "version": 2,
   "iso": "UA",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "UAH 114,000.00 ($3,000.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "UAH 87,800.00 ($2,200.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "UAH 60,000.00 ($1,700.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "UAH 15,000.00 ($384.62)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "UAH 49,400.00 ($1,300.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "UAH 1,500.00 ($40.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "UAH 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "UAH 41,975.00 ($1,150.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "UAH 68,400.00 ($1,800.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "UAH 40,000.00 ($1,052.63)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Ukraine requires careful visa/residency steps for U.S. families. Prepare for local registrations, translations, and ongoing filings.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "UAH 12,516,666.80 ($312,916.67)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "18%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Ukraine\u0027s Ease of Entrepreneurship Visa is slow and uncertain amid war risk; expect \u003E12 months or unpredictable processing in Kyiv.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "22%",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Kyiv, Ukraine hosts several game-dev events yearly (DevGAMM Kyiv, IT Arena). Expect about 3-4 suitable events annually for Daemon Games.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Ukraine has a strong freelance game talent pool\u2014art, animation, audio, and narrative\u2014with Kyiv and Lviv as hubs. Most freelancers are English-friendly, enabling smooth remote collaboration.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Ukraine has several game incubators in Kyiv and Lviv offering mentorship, space, and grants for indie devs. Expect 3\u20134 solid options.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Ukraine\u0027s indie scene is growing in Kyiv/Lviv with studios, jams, and meetups, but conflict slows density; moderate strength.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Ukraine has a growing game-dev ecosystem with Kyiv/Lviv universities and coworking spaces. War risk can affect collaboration depth.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Ukraine: Kyiv hosts dev events and local publishers, offering moderate access; ongoing conflict and travel limits reduce frequent face-to-face meetings.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "1",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "20",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "UAH 402,006,845.00 ($10,579,127.50)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "UAH 138,486,840.00 ($3,794,160.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "UAH 2,200,793,600.00 ($55,019,840.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Kansas City, MO to GDC SF, door-to-door travel is about 9-10 hours; good US access but Europe is longer.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Ukraine\u0027s game-dev scene in Kyiv/Lviv offers around 2 in-person meetups per month; a growing, supportive ecosystem for Trey.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Establish a Ukraine-based Daemon Games studio hub (25-50 high-skill roles in game development and cloud tooling) within 2-3 years, with partnerships to universities and local game-dev networks to train talent; leverage government grants and visa facilitation to accelerate setup; align with Ukraine\u0027s IT/export-driven priorities and cultural output through locally developed IP; implement remote/hybrid operations to mitigate disruption and a staged hiring plan with milestones."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "UAH 420,000.00 ($11,351.35)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Ukraine: about 60-69% of daily interactions require Ukrainian. The family values English ubiquity and plans to learn the local language.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Ukraine offers bilingual/English tracks mainly in private/intl schools; about 30-39% of seats, so expect variable English exposure for Anduin.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Ukraine housing: expect 7-8 weeks to secure a family lease; English-friendly options clustered in Kyiv area; plan to learn local language basics.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Ukraine, immigration status is determined by the State Migration Service through formal applications for residency or citizenship. The two relevant categories are Permanent Residence (permanent residency) and Ukrainian Citizenship. Permanent Residence provides legal long-term residence and work rights, access to social services, and a basis to apply for family reunification; it can lead to citizenship after meeting duration and integration requirements. Citizenship grants full civil/political rights, a Ukrainian passport, and the ability to vote and travel with broader mobility. Action steps: identify eligible pathways (family reunification or work/study), collect required documents, maintain lawful status, meet residence duration and language/integration criteria, and apply for naturalization when eligible. Consider consulting the State Migration Service or an immigration attorney to navigate timelines and documentation."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "In Ukraine, entrepreneur visas face wartime delays and bureaucracy. End-to-end timelines can exceed 28 weeks with uncertain steps.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Ukraine: no viable path for non-sponsored visas; ongoing conflict makes timelines indefinite.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Ukraine with a sponsor: visa end-to-end about 11-12 weeks. Plan for some processing variance.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Ukraine offers skilled-work permits, but war and bureaucracy dampen approvals; for a US tech family, expect modest visa odds.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Ukraine citizenship via naturalization typically after 5 years of permanent residence; plan for Ukrainian language requirement and stable residency.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "In Ukraine, skilled workers/entrepreneurs typically reach permanent residency after 4.1\u20135 years of continuous temporary residence; plan for ~4\u20135 years.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Ukraine (UA): Caucasian American kids may encounter occasional xenophobia; likely low bullying risk (~2 per 1000) with language support and inclusive schools.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Ukraine\u0027s primary/secondary ed is mid-range (30-39th percentile); secular, affordable public schools exist with growing bilingual options.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Ukraine\u0027s school meals meet public nutrition standards with HEI ~72; ultra-processed foods still present, but healthier options expanding.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Ukraine public schools typically offer 2-3 hours/week of English; bilingual aides are uncommon; private/international schools provide more options.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Ukraine provides solid language integration for newcomers. About 90\u2013109 language seats per 100 newcomers per year support bilingual exposure for Trey and Sarah\u0027s kids.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "In Ukraine, prioritize safe, English-friendly date options in major cities. For Kyiv, consider cozy Podil cafes, Khreshchatyk evenings, a National Opera performance, or board-game/escape-room venues; in Lviv, enjoy central squares, coffeehouses, and live music; in Odesa, stroll the waterfront and dine at wine bars. Always check safety updates, use reliable transit, and have a quick plan B if venues are temporarily unavailable.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Ukraine, prioritize safe, family-friendly activities: identify urban parks with playgrounds and walkable neighborhoods in stable cities (Kyiv, Lviv, Odesa); use English-friendly libraries and parent groups for playdates; seek bilingual children\u0027s programs and affordable childcare; plan regular weekend outings to nature reserves and cultural venues."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Ukraine, prioritize family-friendly, evening social opportunities in major cities (Kyiv, Lviv, Odesa): seek English-friendly expat and local parent groups, board-game cafes, language exchanges, and community centers with kid-friendly events; ensure safe transport and childcare for after-dark gatherings, and monitor local advisories."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Ukraine\u0027s major cities offer about 18\u201321 child-friendly 3rd places per 100k after 6pm; a solid fit for your urban, family-focused plan.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Ukraine\u0027s city cores rely on transit and walking; about 50% of trips are car-free in urban centers.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Ukraine\u0027s cities have groceries and fresh foods, but conflict-related disruptions limit options in some areas. Healthy choices exist but access can be uneven.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Ukraine (UA): expect 5\u20138 hours/month for visa, registrations, and taxes; first-time residency will require steady paperwork.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Ukraine\u0027s middle-income child benefits are modest (roughly $30-50 per child per month); aligns with a 3 on the scale.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Ukraine: urban daycare for a 1-year-old often 4\u20136 months to secure a slot; public options can have longer waits; consider private care if urgent.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "UAH 1,800.00 ($49.32)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "UAH 12,000.00 ($343.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "UAH 3,500.00 ($95.89)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Ukraine\u0027s Diia platform supports many online resident services; it\u0027s strong online, but visa scheduling and some registrations still require in-person visits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Ukraine (UA) offers universal care. Primary care waits commonly 16-20 days amid conflict; access is universal but stressed.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "UAH 0.00 ($0.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "UAH 47,500.00 ($1,300.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "UAH 41,250.00 ($1,100.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Ukraine, health coverage is largely universal and not employment-dependent; NHSU provides access for the family, with private options if desired.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2000",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Ukraine offers ~18 weeks paid parental leave per parent around birth at ~70-100% income with job protection; mid-range generosity fits the family.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Ukraine tax filing for a dual US household can be 36\u201348 hours/year due to cross-border (US) tax rules and local compliance.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Ukraine\u0027s cities offer frequent transit within 500 m for long hours, aiding family mobility. Central areas often have 10-minute headways for most of the day.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Ukraine: foreign tuition roughly $3-5k/yr, likely \u003E25% of median net income; college affordability for expats remains limited.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "In Ukraine (UA), top universities typically sit around 501-700 globally. Expect solid college options, but not elite worldwide.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Ukraine offers a solid continuing education landscape in major cities; expect moderate access and language support in programs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Ukraine\u0027s senior .NET demand is solid (remote-friendly); Kyiv-based postings boost access, though war risk affects certainty.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Ukraine (UA): Rails postings are modest (4-6 per million residents per month); remote/outsourcing roles common in Kyiv and Lviv.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "UAH 129,500.00 ($3,500.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "UAH 1,200,000.00 ($32,876.71)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "In Ukraine, focus Beach Life on safe, family-friendly coastal access along the Black Sea and Azov Sea. Prioritize beaches with clean water, lifeguards, accessible restrooms, shade, and reliable broadband in nearby towns. Target coastal areas with walkable promenades (e.g., Odesa region and select seaside communities) while avoiding conflict zones and areas of elevated risk; account for seasonal heat by favoring breezier, well-shaded spots and ensuring language-accessible information for expatriate families."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Ukraine fall highs typically run about 60\u00B0F\u201364\u00B0F. This matches a mild autumn climate for UA planning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Ukraine\u0027s temperate climate offers many 50-85 F days with moderate humidity, aligning well with your mild-weather preference.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Ukraine offers solid natural beauty. Within an hour of major cities, there are protected lands and parks that support family outdoor time.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Ukraine (UA): In major Ukrainian cities like Kyiv, there are 10-11 parks \u003E10 acres within 5 km, supporting your family\u0027s outdoor time.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Ukraine spring highs typically 60-64\u00B0F; a mild, comfortable season for the family.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Ukraine summers typically 76\u00B0F\u201380\u00B0F; mild and manageable, matching the profile\u0027s preference for mild weather.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Ukraine winter highs typically 35-39\u00B0F. In Kyiv, highs are about 32-40\u00B0F, indicating a mild winter climate.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Ukraine (UA): Anti-immigrant rhetoric exists but is not dominant; mainstream politics focus on unity and refugee support amid conflict.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Ukraine shows mild autocratization backsliding (0.16-0.20) over 10-20 years due to wartime governance; civil society remains active.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Ukraine climate stability: mid-range (ND-GAIN 60-69); expect seasonal extremes - cold winters, hot summers - manageable for a family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Ukraine\u0027s dominant political narrative centers on wartime resilience and defense funding, ongoing anti-corruption and governance reform, energy independence, EU integration goals, economic stabilization, and social support for displaced populations, with emphasis on media pluralism and civil liberties within security constraints.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Ukraine has had several recession years (2009, 2014-15, 2022-23). Economic stability is moderate, with ongoing recovery and potential volatility.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Ukraine\u0027s media freedom is mid-range (RSF ~40\u201345th percentile); expect mixed coverage and some wartime censorship, but independent outlets persist.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Ukraine visa rules have shifted frequently amid conflict; expect policy changes and admin delays in Kyiv; plan for flexibility and rapid updates.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Ukraine\u0027s liberal democracy is mid-range amid ongoing conflict; civil liberties persist but governance strains remain.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Ukraine (UA) currently faces conflict with violence, undermining social stability. For a family prioritizing safety, UA may not meet stability goals.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Ukraine\u0027s wealth inequality is moderate (~Gini 27); major urban concentration around Kyiv skews access to services and costs\u2014plan for inclusive, affordable options.",
+      "alignmentValue": 9
+    }
+  ]
 }

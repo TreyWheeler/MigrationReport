@@ -1,5 +1,493 @@
 {
   "version": 2,
   "iso": "JP",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "JPY 650,000.00 ($4,193.55)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "JPY 360,000.00 ($2,400.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "JPY 337,500.00 ($2,500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "JPY 320,000.00 ($2,133.33)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "JPY 109,200.00 ($728.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "JPY 8,400.00 ($56.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "JPY 85,000.00 ($566.67)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "JPY 267,900.00 ($1,900.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "JPY 275,000.00 ($1,833.33)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "JPY 270,000.00 ($1,741.94)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Tokyo, Japan: expect about 30-39 hours/year for bureaucratic tasks; visas and taxes are manageable with planning and English-friendly services in city bureaus.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "JPY 115,400,000.00 ($769,333.33)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Tokyo has a strong startup ecosystem with grants and mentors. Entrepreneurship visa processing typically takes 3\u20134 months in Japan.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "17%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Tokyo\u0027s robust game/creative-tech scene offers 8-9 annual events (e.g., Tokyo Game Show, CEDEC) for Daemon Games to showcase, network, and pitch.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Tokyo has a strong freelance game talent pool across art, animation, audio, and narrative; nearshore/remote options and bilingual freelancers are common.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Tokyo, Japan has few dedicated game accelerators. Most options are general regional programs with limited indie-game focus.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Tokyo, Japan offers a vibrant indie scene with studios, jams, and coworking hubs. Indie strength is around 8 for game-dev activity.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Tokyo, Japan has abundant universities, coworking spaces, and game-focused orgs actively collaborating on funding, research, and events.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Tokyo has a dense publisher scene: local offices and frequent events (Tokyo Game Show) offer solid BizDev access.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "10",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "20",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "JPY 1,431,430,000.35 ($9,235,032.26)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "JPY 408,909,375.00 ($2,638,125.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "JPY 7,898,976,000.00 ($52,659,840.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Tokyo, door-to-door to major game events (SF, Cologne, Malmo) is roughly 16-20 hours; long but feasible with direct flights and swift transfers.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Tokyo, Japan offers about 3 in-person game-dev events per month, signaling a vibrant, collaborative ecosystem for founders.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games establishing a Tokyo studio would create local jobs in game development and cloud engineering, anchor a vibrant creative-tech cluster, and foster collaboration with Tokyo universities and startups through internships, co-development, and accelerators. The project aligns with Japan\u2019s priorities for digital innovation, cross-border creative content, and regional economic growth in a bilingual, inclusive, and remote-friendly model, reinforcing Tokyo as a global hub for entertainment tech while leveraging local incentives and industry partnerships."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "JPY 20,150,000.00 ($130,000.00)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Tokyo, Japan, English is common but many daily tasks still need Japanese; expect about 20-30% interactions in the local language.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Tokyo offers many English-taught private/international schools; bilingual/English seats likely around 60-70%, matching your bilingual exposure goal.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Tokyo housing for expat families often requires guarantor checks; leases usually take 5\u20136 weeks to secure.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Japan/Tokyo immigration status \u0026 rights: outline concrete pathways for the family\u2014(1) secure work visas for Trey (engineer/game tech) and Sarah (web developer) with a Certificate of Eligibility and employer sponsorship; (2) obtain dependent/family visas for Anduin and Alasdair; (3) evaluate permanent residency and naturalization options (residency duration, language benchmarks, integration), and rights these statuses confer (work eligibility, access to public healthcare and schooling, ability to sponsor family, path to PR/citizenship); (4) enumerate required steps and documents (job offers/COE, visa applications, housing, school enrollment, health coverage, financial planning) and provide a realistic timeline; (5) note practical considerations such as language training and residency continuity; (6) include a candid note on citizenship: naturalization exists but typically requires long residence and potential relinquishment of prior citizenship under Japanese law\u2014consult an immigration professional to tailor to Trey\u0027s and Sarah\u0027s profiles.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "In Tokyo, Japan, the Business Manager/entrepreneur path typically runs 11-12 weeks end-to-end; ensure local entity and plan are ready.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Tokyo, visa paths without a sponsor can be lengthy and uncertain for US families; explore startup/business manager routes and local visa counsel.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "In Tokyo, with a recognized sponsor, expect about 9\u201310 weeks for the visa; ensure startup docs and family relocation plan are ready.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Tokyo, Japan offers skilled visas and startup routes for US tech families. Approvals are solid with due diligence and planning.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Japan naturalization usually requires about 5 years of continuous residence; for a Tokyo-based family, plan a 5-year path.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "In Tokyo, PR for skilled entrepreneurs generally takes about 5-7 years of residence; shorter if you qualify as a highly skilled professional.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Tokyo\u0027s international schools support inclusion; caucasian expat kids face a moderate bullying risk (~3\u20134 per 1,000 students).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Tokyo, Japan offers strong public schools and solid PISA performance; families have good access to quality education and bilingual options for kids.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Tokyo school meals emphasize balance with fish, rice and vegetables; ultra-processed foods are limited; HEI expected around 80-84.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Tokyo public schools offer about 3 hours/week of English; bilingual aides mainly support English, not core subjects.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Tokyo, Japan offers strong language support for newcomers; abundant municipal/Japanese classes for kids and families, enabling bilingual exposure.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Identify Tokyo date-night options that support a family with two young kids: prioritize early-evening, child-friendly venues or trusted nearby babysitting, plus parks, museums, or activities with kid-friendly elements; choose neighborhoods with walkability and English-speaking staff, and verify hours and childcare availability before reservations."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Tokyo family plan: choose safe, walkable neighborhoods with parks (Ueno, Yoyogi, Shinjuku Gyoen) and easy transit; schedule kid-friendly days at Miraikan or Edo-Tokyo Museum and nature trips to Tama River or Mt. Takao; use ward community centers, libraries, and bilingual programs for early childhood exposure; compare affordable childcare options and municipal activities; ensure reliable broadband and consider nearby game/dev coworking spaces to support Trey."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Tokyo, set up a standing weekly friend-night: every Wednesday 7\u20139 pm in central neighborhoods (e.g., Shibuya, Shinjuku, or Ebisu) at English-friendly venues with options for board games or casual dining. Prioritize family-friendly or parent-accessible settings to accommodate Trey and Sarah, and include a mix of board-game cafes, cafes with private rooms, and expat/social clubs. Maintain a short list of 3\u20135 venues with easy transit access, clear directions in English, and affordable pricing; use a simple RSVP and rotation of hosts to keep participation low-effort.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Tokyo, Japan offers many after-6pm, supervised kid-friendly spots (libraries, play cafes, parks); roughly 26-29 per 100k residents.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Tokyo\u0027s excellent transit and walkable neighborhoods support a family-friendly, low-car lifestyle; safe, bilingual-friendly, with parks and schools nearby.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Tokyo, Japan has abundant fresh markets and diverse healthy options; strong, broad access to quality foods for a family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "In Tokyo, expect about 4-5 hours/month for visa/residency and taxes; set up ward registration and health insurance early.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Tokyo, Japan: child allowance ~10k\u201315k JPY per child monthly; two kids \u2248 $110\u2013$180, a mid-range benefit for middle-income families.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Tokyo hoikuen slots for a 1-year-old often require 6-9 months. Start ward applications early and consider private centers as backups.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "JPY 30,000.00 ($200.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "JPY 90,000.00 ($600.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "JPY 25,000.00 ($178.57)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Tokyo, JP: core resident services are partially online; about 60-69% end-to-end, with visa appointments and some registrations requiring in-person visits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Tokyo, Japan has universal healthcare; primary care is typically available within 1-2 days, with many family-friendly clinics.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "JPY 90,000.00 ($600.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "JPY 240,000.00 ($1,500.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "JPY 60,000.00 ($444.44)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Japan\u0027s universal health system means coverage isn\u0027t tied to employment; residents in Tokyo access care via public insurance regardless of job.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1900",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Tokyo, Japan offers up to 52 weeks of parental leave per parent with ~50-67% wage and job protection.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Tokyo, Japan: dual-income US/Japan tax filing likely ~25-35 hours/year including cross-border forms.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Tokyo\u2019s transit is extremely dense; over 90% live within 500m of frequent service (\u226410-min headways for 16\u002B hours), ideal for your family in Japan.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Tokyo, Japan: public university tuition is about 16\u201318% of median net income. This makes college reasonably accessible for this family.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Tokyo, Japan hosts globally top-50 universities (e.g., UTokyo). This supports your family\u0027s strong education priority and bilingual exposure.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Tokyo, Japan offers abundant continuing education for adults, with universities and centers providing diverse, language-friendly programs for lifelong learning.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Tokyo has a solid market for senior .NET architects in multinational firms. English-friendly postings exist; basic Japanese helps for local teams.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Tokyo, Japan shows moderate Rails demand for 6 years\u0027 experience. There are about 20-24 postings per million residents monthly.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "JPY 18,000,000.00 ($120,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "JPY 8,000,000.00 ($53,333.33)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Beaches in Tokyo are not a daily-life anchor; plan for occasional coastal outings (Kamakura/Enoshima, Chiba) and prioritize access to parks and riverfronts for regular outdoor time. Ensure housing has shade and air conditioning, and build a reliable weekend-transit plan to coastal areas to accommodate hot, humid summers and family-friendly beach trips."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Tokyo typically 70-75\u00B0F (21-24\u00B0C) in autumn; mild autumn weather aligns with the family\u2019s preferences.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Tokyo, Japan offers roughly 120\u2013150 days/year of 50\u201385\u00B0F with humidity under 70%, aligning with your mild-weather goal.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Natural beauty around Tokyo includes parks and hills within 60 minutes (Mt. Takao, Okutama). Great for family outdoor time with quick trips from Tokyo.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Strong nature access in Tokyo: several large parks (\u003E10 acres) within 5 km (Shinjuku Gyoen, Yoyogi, Ueno) for family outdoor time.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Tokyo, Japan spring highs typically 65\u00B0F\u201369\u00B0F, with many days near 60\u201365\u00B0F and occasional 70\u201375\u00B0F, aligning with a mild climate.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Tokyo summers typically top out around 86\u201390\u00B0F (30\u201332\u00B0C). Stay cool with A/C, shade, and hydration.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Tokyo commonly 50\u00B0F\u201354\u00B0F (10\u201312\u00B0C). Mild winters align with your climate preference.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Tokyo, Japan: mainstream anti-immigrant rhetoric is relatively modest; immigration policy remains pragmatic and selective.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Autocratization trend in Japan is stable (democracy maintained). In Tokyo, families benefit from strong services, safety, and global connectivity.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Tokyo\u0027s climate stability is high with low climate risk. In Japan, ND-GAIN indicates strong resilience, supporting long-term family-friendly settlement.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In Japan, the dominant political narratives center on reviving growth with price stability, addressing an aging society and fiscal/social security pressures, and strengthening national security and the U.S.\u2013Japan alliance amid regional tensions. Immigration, labor shortages, and workplace reform are debated, alongside energy transition and climate policy, all framed within governance that emphasizes resilience, disaster readiness, and digital modernization.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Tokyo, Japan has moderate stability; ~4 recession years (2008\u201309, 2011, 2020) in 2005\u20132024, implying steady but slower growth.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Tokyo, Japan has high media freedom with diverse outlets; expect some self-censorship and corporate influence in reporting.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Japan\u0027s immigration policy remains highly stable; expect few overhauls in a decade. In Tokyo, visa processes are predictable for skilled U.S. families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Japan (Tokyo) shows strong institutions and stable governance per the Liberal Democracy Index, supporting a safe, predictable family life.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Tokyo, Japan has very low violent crime (\u003C200/100k), offering a safe, stable family environment. Walkable, park-friendly neighborhoods suit your lifestyle.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Japan (Tokyo) has moderate wealth inequality (Gini ~32); matches family needs for stable services, universal healthcare, and affordable living.",
+      "alignmentValue": 8
+    }
+  ]
 }

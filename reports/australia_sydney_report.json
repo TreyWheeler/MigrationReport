@@ -1,5 +1,478 @@
 {
   "version": 2,
   "iso": "AU",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "AUD 8,500.00 ($5,610.00)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "AUD 4,350.00 ($2,871.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "AUD 3,200.00 ($2,112.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "AUD 2,000.00 ($1,320.00)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "AUD 4,680.00 ($3,088.80)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "AUD 150.00 ($99.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "AUD 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "AUD 5,000.00 ($3,250.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "AUD 18,000.00 ($12,000.00)",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "AUD 3,000.00 ($1,980.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Sydney, Australia: expect about 40-59 hours/year of bureaucracy (visa steps, taxes, Medicare enrollment). With local support, daily admin stays manageable.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "AUD 1,270,000.00 ($1,383,411.00)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "In Sydney, Australia, the entrepreneur visa process is mid-range in turnaround. With state nomination and a strong business case, expect about 6-8 months.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "17%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Sydney, AU has a modest but active indie/creative scene with Global Game Jam, local dev meetups, and several conferences, roughly 3 events per year.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Sydney, AU has a solid freelance game talent pool across art/animation/audio/narrative; strong remote-friendly options and access to local grants.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Sydney, AU offers a handful of game-friendly accelerators/incubators within tech hubs; indie studios can find mentorship, space and funding paths.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Sydney hosts a growing indie scene with several small studios, frequent jams, and active meetups; visibility is solid but not as dense as Melbourne.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Sydney, Australia has a strong game-dev ecosystem: universities, coworking hubs, and NSW grants support; aligns with your family-friendly, grant-focused goals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Sydney has strong APAC publisher presence with local offices and regular visits from majors. Great for Australian teams seeking publishing deals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "1",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "14",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "AUD 12,664,772.60 ($8,358,750.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "AUD 1,556,250.00 ($1,037,500.00)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "AUD 70,761,890.63 ($47,174,593.75)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Sydney, AU: door-to-door travel to major events (GDC, Gamescom) is \u003E24 hours, making frequent attendance challenging.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Sydney, AU has an active game-dev scene with regular meetups; about 2 in-person events per month align with Trey\u2019s needs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Sydney, NSW: Daemon Games offers scalable local employment in games/software, boosting skilled jobs, innovation, and cultural output aligned with Australia\u2019s digital economy and immigration priorities. The founder-led, hybrid remote/local model with Azure integration fits grant and R\u0026D incentives and can attract local support. Action items for authorities: fast-track visas for founders and core developers, facilitate grant eligibility and industry partnerships, and ensure robust broadband/low-latency access via local cloud regions to support locally hosted services."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "AUD 90,000.00 ($60,000.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Sydney, Australia, English is ubiquitous; adults will interact mostly in English, with little need for additional language skills.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Sydney schools are largely English-medium. Bilingual programs exist in some schools, giving moderate bilingual/English-track options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Sydney, AU, a US family with kids can expect to secure a lease in about 5-6 weeks; focus on family-friendly neighborhoods near schools and parks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Australia\u0027s long-term immigration statuses are Permanent Residency (PR) and Citizenship. PR is granted via skilled, family, or employer-sponsored visa streams and is determined by stream-specific criteria (including age, English, qualifications, work experience, and job offers, often via a points test). PR lets you live and work in Australia indefinitely, access Medicare (after applicable waiting periods), and sponsor eligible relatives; it does not confer full voting rights. After meeting residency, character, and English requirements (typically around four years with at least one year as PR), you may apply for citizenship, which grants full political rights (federal and state elections), an Australian passport, and broader eligibility for government roles. Temporary visas exist but offer more limited rights and do not by themselves lead to PR or citizenship. For Sydney, align the family\u2019s tech/remote-work skills with NSW skilled or employer pathways, develop a clear PR plan, gather evidence, and consider engaging a licensed migration professional to pursue PR first and citizenship later.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Australia (Sydney) entrepreneur visa timelines often exceed 28 weeks with unpredictable steps. Expect long, uncertain processing and possible delays.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Non-sponsored routes to Sydney, Australia can exceed 28 weeks with uncertain steps; expect a lengthy, variable process.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "In Sydney, a sponsored Australian visa often takes 21-28 weeks end-to-end. Plan for several months for the family.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Sydney, Australia offers robust skilled-migration routes; US tech professionals enjoy high visa approval odds (90\u201394%) and startup support.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Sydney, AU: Citizenship typically requires 4 years of lawful residence, including 1 year as a permanent resident; aligns with a 4-year path.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Sydney, AU: PR likely in 2.1\u20133 years via skilled/entrepreneur routes; strong grants and startup ecosystem support.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "In Sydney, bullying/racism risk for Caucasian immigrant students is typically low. Australian schools emphasize inclusion and language support.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Sydney\u0027s primary education is solid; NSW schools offer diverse programs and strong early childhood options, aligning with your high education priority.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Sydney, Australia adheres to Australian Dietary Guidelines for school meals. Meals emphasize fresh produce and limit ultra-processed items to support child health.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "English is the medium in Sydney public schools, with ~25\u002B hours/week; many schools offer EAL/D support and bilingual aides.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "In Sydney, public schools offer EAL/D support and community language options for kids. Seats per 100 newcomers are likely in the 110\u2013129 range.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Select Sydney date-night options in safe, walkable neighborhoods (CBD, Darling Harbour, Surry Hills) with flexible hours and clear childcare support (onsite, partner babysitting, or nearby options). Favor venues that accommodate couples with kids, offer early dining or adults-friendly evenings, and provide easy transit or parking to reduce travel time from home or childcare drop-off points.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Leisure opportunities in Sydney should emphasize family-friendly outdoor time and affordable cultural activities: plan regular visits to Centennial Park, Royal Botanic Garden Sydney, and local playgrounds; include kid-friendly attractions such as Taronga Zoo and SEA LIFE Sydney Aquarium; take advantage of free programs at public libraries and community centers (story times, language-friendly workshops) to support bilingual exposure; prefer inner-suburban routes with parks, walkable streets, and safe beaches (Coogee, Manly) during mild weather; schedule outings for morning or late afternoon to avoid heat and respect slower pace."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Sydney, focus on family-friendly evening social options: board-game caf\u00E9s and game nights in neighborhoods like Surry Hills, Newtown, and Glebe; libraries and community centers hosting after-hours family programs; local gaming/tech Meetups; choose venues with reliable Wi-Fi, quiet spaces for remote work if needed, stroller accessibility, and easy public transport to fit Trey and the kids\u2019 routines.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Sydney has many after-6pm parent-friendly venues (libraries, indoor plays, family spaces). Supervised options suit a 5-year-old and toddler.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Sydney, AU: strong transit and walkable neighborhoods suit family life, but car use remains common; align with 40-49% car-free trips.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Sydney, AU offers broad healthy food access (supermarkets/markets) with diverse, family-friendly options; HEI around 85-89.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Sydney, AU presents a manageable bureaucratic load for a new family; roughly 5-8 hours/month handling taxes, Medicare enrollment, school admin, and licenses.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "In Sydney, Australia, middle-income child benefits are about AUD 380/mo per child (~USD 260), aligning with level 8.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Sydney daycare slots are competitive; expect 4-6 months to secure a place for ages 5 and 1; start applications before arrival.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "AUD 750.00 ($495.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "AUD 1,100.00 ($726.00)",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "AUD 880.00 ($580.80)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Sydney, AU offers strong online core services; most registrations, taxes, Medicare, school enrollment are online, with some visa steps in person.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Sydney, AU has universal Medicare. GP visits are often same-day to 2 days, giving your family quick primary care.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "AUD 700.00 ($476.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "AUD 1,100.00 ($748.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "AUD 1,350.00 ($900.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Sydney, healthcare basics are universal via Medicare for eligible residents; job loss rarely cuts access, though private cover is still common.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2080",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Sydney, Australia provides about 18 weeks of paid parental leave for the primary carer. The partner gets 2 weeks of Dad \u0026 Partner Pay.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Across Sydney, US dual citizens face cross-border filing; expect 36-48 hrs/yr of tax prep and records, likely with a pro.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Sydney, Australia has strong transit; many neighborhoods are within 500m of frequent services most hours, helping family commutes.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Sydney\u0027s HECS-HELP system makes public uni tuition minimal upfront; excellent college access for your kids in Australia.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Sydney, Australia hosts top-50 global universities (e.g., University of Sydney, UNSW), boosting your kids\u2019 college prospects.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Sydney offers abundant continuing education via universities, TAFE, and private providers with broad access and flexible formats.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Sydney, AU shows solid senior .NET architect demand (17-20 postings per million per month); fintech/enterprise dev scene supports your 20-year experience.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Sydney, AU Rails demand is solid for 6 years\u0027 experience (\u224825\u201329 postings per million residents per month); favorable relocation prospects for your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "AUD 200,000.00 ($128,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "AUD 140,000.00 ($91,000.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Sydney provides abundant beach life within easy reach of many family-friendly suburbs; for your family, focus on neighborhoods with close-by, safe beaches (lifeguarded areas), parks, and good weekday traffic; confirm school options, childcare, broadband, and reliable transport to beaches; map 2\u20133 preferred beaches within 15\u201330 minutes to balance work and play."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Sydney typically reach 70\u00B0F\u201375\u00B0F (21\u00B0C\u201324\u00B0C). This aligns with a mild autumn.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Sydney, Australia has a mild, low-humidity climate year-round, with 50\u201385\u00B0F days. Roughly 260\u2013299 days per year fit your criteria.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Sydney area\u2019s parks/beaches offer strong natural beauty; about 40-49% protected land within 60 minutes supports outdoor family life.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Sydney, Australia offers about 10-11 parks over 10 acres within 5 km, supporting your family\u0027s outdoor lifestyle.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Sydney, AU are about 70\u201375\u00B0F. This matches your mild, family-friendly climate preferences.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Sydney summers typically reach 81-85\u00B0F (27-29\u00B0C), reflecting mild, comfortable warmth.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Sydney, AU are typically 64\u201368\u00B0F, reflecting mild winters that suit the family\u0027s climate preferences.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Sydney, Australia shows mixed anti-immigrant rhetoric: asylum/border debates are present. But mainstream voices remain varied and pluralistic.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Australia (Sydney): very mild backsliding in autocratization (0.01-0.05) over 10-20 yrs; democracy remains stable for families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Sydney\u0027s climate is mild year-round with reliable infrastructure; ND-GAIN places it in mid-range stability, aligning with your low-risk preference.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In Sydney (and nationally), dominant political narratives center on climate action and energy transition, housing affordability and urban infrastructure, immigration and skilled migration policy, and funding for healthcare and education; discourse emphasizes balancing growth with affordable housing, reliable services, and climate resilience in cities, while debating taxation and energy costs."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Economic stability in Australia shows only 2 recession years in 20; Sydney offers steady growth, strong schools, and family-friendly services.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Sydney, AU enjoys strong press freedom; independent outlets thrive and reporting is accessible (RSF around 78/100).",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Australia (Sydney) shows moderate immigration policy shifts; plan for a few visa reforms per decade and flexible timelines.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Australia (Sydney) has strong, stable institutions per V-Dem LDI; low risk of autocratization supports long-term plans for families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Sydney, AU offers solid family safety; violent crime runs around 300\u2013349 per 100k, giving stability vs many US metros.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Australia\u0027s wealth inequality is high (wealth Gini ~63). In Sydney, households face uneven asset gaps and housing costs.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    }
+  ]
 }

@@ -149,14 +149,11 @@ public sealed class ReportUpdateService
         _logger.LogInformation("Updating report {ReportName}.", reportName);
         var document = await _reportRepository.LoadAsync(reportName, cancellationToken);
         var definitions = await _keyDefinitionProvider.GetDefinitionsAsync(cancellationToken).ConfigureAwait(false);
-        BackfillMissingEntries(document, definitions, reportName);
+        var categoryMatch = category is null
+            ? null
+            : await _categoryKeyProvider.GetCategoryMatchAsync(category, cancellationToken).ConfigureAwait(false);
+        BackfillMissingEntries(document, definitions, reportName, categoryMatch, category);
         var context = await _contextFactory.CreateAsync(reportName, document, cancellationToken);
-
-        ICategoryKeyProvider.CategoryMatch? categoryMatch = null;
-        if (category is not null)
-        {
-            categoryMatch = await _categoryKeyProvider.GetCategoryMatchAsync(category, cancellationToken);
-        }
 
         try
         {
@@ -269,7 +266,12 @@ public sealed class ReportUpdateService
     }
 }
 
-    private void BackfillMissingEntries(ReportDocument document, IReadOnlyDictionary<string, CategoryKey> definitions, string reportName)
+    private void BackfillMissingEntries(
+        ReportDocument document,
+        IReadOnlyDictionary<string, CategoryKey> definitions,
+        string reportName,
+        ICategoryKeyProvider.CategoryMatch? categoryMatch,
+        string? categoryFilter)
     {
         if (definitions.Count == 0)
         {
@@ -280,9 +282,7 @@ public sealed class ReportUpdateService
             document.Values.Select(v => v.Key).Where(k => !string.IsNullOrWhiteSpace(k)),
             StringComparer.OrdinalIgnoreCase);
 
-        var definitionKeys = definitions.Keys
-            .Where(key => !string.IsNullOrWhiteSpace(key))
-            .Select(key => key.Trim());
+        var definitionKeys = GetDefinitionKeysToEnsure(definitions, categoryMatch, categoryFilter);
 
         var missingKeys = definitionKeys
             .Where(key => !existingKeys.Contains(key))
@@ -309,6 +309,26 @@ public sealed class ReportUpdateService
         var textMissing = string.IsNullOrWhiteSpace(entry.AlignmentText);
         var valueMissing = entry.AlignmentValue is null && !informational;
         return textMissing || valueMissing;
+    }
+
+    private static IEnumerable<string> GetDefinitionKeysToEnsure(
+        IReadOnlyDictionary<string, CategoryKey> definitions,
+        ICategoryKeyProvider.CategoryMatch? categoryMatch,
+        string? categoryFilter)
+    {
+        if (categoryMatch is { Keys.Count: > 0 })
+        {
+            return categoryMatch.Keys;
+        }
+
+        if (!string.IsNullOrWhiteSpace(categoryFilter) && definitions.ContainsKey(categoryFilter))
+        {
+            return new[] { categoryFilter };
+        }
+
+        return definitions.Keys
+            .Where(key => !string.IsNullOrWhiteSpace(key))
+            .Select(key => key.Trim());
     }
 
     private static string? NormalizeSelector(string? value) =>

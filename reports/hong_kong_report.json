@@ -1,5 +1,482 @@
 {
   "version": 2,
   "iso": "HK",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "HKD 180,000.00 ($23,076.92)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "HKD 85,000.00 ($10,897.44)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "HKD 75,000.00 ($9,615.38)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "HKD 7,362.50 ($950.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "HKD 46,800.00 ($6,000.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "HKD 800.00 ($102.56)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "HKD 3,500.00 ($448.72)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "HKD 21,060.00 ($2,700.00)",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "HKD 78,000.00 ($10,000.00)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "HKD 21,060.00 ($2,700.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "HK\u0027s tax system is simple and many services online; for a US family with a startup, expect about 40-59 hours/year of bureaucracy.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "HKD 9,300,000.00 ($1,192,307.69)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate"
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "HK entrepreneurship visa typically takes 5\u20136 months for first-time applicants. Secure HK incubator support to improve odds.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "15%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Hong Kong has a modest but active game/creative-tech scene with annual events like HK GDC and ACG HK Expo; good for Daemon Games demos.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Hong Kong has a budding indie game scene with freelancers in art, animation, audio, and narrative. Cyberport grants help, but the pool is modest vs major hubs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Hong Kong has several game-friendly incubators (Cyberport, HKSTP) offering mentorship, space, or funding for indie studios.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Hong Kong\u0027s indie scene is mid-density: Global Game Jam HK, local studios and hubs; solid funding access, but not ultra-dense.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Hong Kong has strong university-industry links and government support for game dev funding. Coworking spaces and local events boost collaboration.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Hong Kong has a growing indie scene and regional hubs; local offices and events make publisher access practical, though majors are often elsewhere.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "3",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "HKD 77,704,160.63 ($9,962,071.88)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "HKD 21,865,999.96 ($2,803,333.33)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "HKD 45,330,062.50 ($5,802,248.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Hong Kong, door-to-door to major game events is about 20\u201322 hours; feasible but a long trip.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Hong Kong has a budding game-dev scene with regular meetups and indie studios. Expect about 1-1.5 events per month and accessible local funding programs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "In Hong Kong, Daemon Games can establish a local studio to develop and publish games with cloud-enabled live ops, creating 20-40 HK-based roles across development, art, design, QA, and operations. The initiative would partner with universities for internships, leverage IP protection, and tap HK\u0027s startup visas, tax incentives, and government grants to support a creative-tech ecosystem. This aligns with HK priorities on digital entertainment, innovation, and regional export, with potential for Asia-Pacific distribution and collaboration with local tech clusters. Actionable next steps: scope a HK establishment plan, engage with InvestHK/CreateHK for visas and grants, build a local recruitment pipeline, pilot with local partners, and ensure compliance with data/local laws.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "HKD 360,000.00 ($46,153.85)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Hong Kong uses English broadly in business and services; with your willingness to learn Cantonese, expect 15\u201319% of interactions in the local language.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Hong Kong provides plentiful EMI/bilingual options in kindergartens and private schools; expect roughly 60-69% of seats bilingual/English.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Expect 5-6 weeks to secure a family-friendly lease in Hong Kong with expat brokers. Target districts like Pok Fu Lam or Sha Tin for parks and schools.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Hong Kong immigration status options and rights: 1) Hong Kong Permanent Resident (Right of Abode) \u2014 earned after 7 years of lawful residence (or by birth to HK permanent residents); confers the right to live, work, study, and access public services without a visa; serves as a gateway to potential naturalization as a Chinese national. 2) Non-permanent resident visas (employment, dependent/partner, investment/entrepreneur) \u2014 require sponsorship or a viable plan and may lead to permanent residency after sustained lawful residence. 3) Chinese nationality/naturalization \u2014 possible from permanent residency but requires government approval; not automatic. Action steps for your family: plan visa routes (Trey via work or startup, Sarah via dependent/partner or employment), gather required documents (proof of residence, job offers or business plans, financials, schooling records), monitor the 7-year residence path if permanent residency is the objective, and align with healthcare, education, and language exposure goals."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Hong Kong first-time entrepreneur visa usually takes 13-16 weeks end-to-end; arrange local startup support to help timing.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Hong Kong non-sponsored immigration paths (QMAS/entrepreneur) are lengthy and uncertain; for your US family, expect 6-12\u002B months without a sponsor.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "In Hong Kong, with a recognized sponsor, an employment visa is typically 5\u20136 weeks end-to-end; ensure sponsor and documents are ready.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "HK offers solid skilled-immigrant routes (work visas, QMAS) for tech founders; approvals are decent but competitive.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Hong Kong: expect about 7 years of ordinary residence for permanent residency; citizenship/naturalization pathways are long and uncertain.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "HK skilled/entrepreneur PR usually requires ~7 years of continuous residence; your family path aligns with a ~7-year timeline.",
+      "alignmentValue": 5,
+      "sameAsParent": true
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "HK has many expat/English schools; bullying risk for white expatriate children is typically low (about 1-2 per 1,000) with strong anti-bullying policies.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Hong Kong\u0027s primary/secondary education ranks among the top globally; strong public schools and English-friendly options support bilingual exposure for your kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Hong Kong school meals show solid nutrition standards with reduced ultra-processed foods; improvements guided by Education Bureau health initiatives.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Hong Kong public schools typically offer about 8-9 hours of English per week; many EMI schools provide bilingual support for core subjects.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Hong Kong offers strong language support for newcomers with English/Cantonese programs. Estimated 130\u2013149 language-course seats per 100 newcomers annually.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Date-night options in Hong Kong: reserve a harbour-view dinner in Central/Wan Chai followed by a stroll along the Tsim Sha Tsui Promenade for skyline views; ride the Star Ferry at sunset; enjoy cocktails with city lights at ICC SkyBar or Ozone; consider a quiet SoHo restaurant for a low-stress evening; for a broader experience, take a sunset ride to Victoria Peak or a dim sum dinner in Central; ensure childcare plans if going out without kids."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Prioritize HK family opportunities: plan a balanced mix of indoor STEM experiences (Hong Kong Science Museum and Hong Kong Space Museum) and outdoor parks (Kowloon Park, Hong Kong Zoological and Botanical Gardens, Tai Tam Reservoirs), plus kid friendly venues such as Ocean Park and Hong Kong Disneyland. Use MTR for easy transit, target weekday visits to reduce crowds, and look for family passes to maximize value for a two parent two child household."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Map and pilot 2-3 Hong Kong evening social options for families: (1) after-hours programs at family-friendly community centers or libraries; (2) expat and local parent groups hosting casual weeknight meetups; (3) park or promenade gatherings suitable for a 5-year-old and a 1-year-old. For each option, confirm distance from Central and Kowloon, hours after 6 pm, cost, safety, stroller accessibility, and English-language support; verify wifi availability if remote work is needed. Select at least one recurring option and track attendance, satisfaction, cost, and feasibility over 6-8 weeks to inform ongoing leisure planning.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Hong Kong offers a moderate supply of after-6pm parent-friendly spots; about 7-9 venues per 100k residents, with district variation.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Hong Kong\u0027s transit-first, walkable streets deliver 70-79% car-free trips. Parks and dense, safe neighborhoods suit your family-friendly priorities.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Hong Kong offers broad access to fresh produce and healthy meals through markets and supermarkets. This supports strong family nutrition in HK.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Life in Hong Kong involves mostly upfront visa steps and straightforward taxes. Ongoing admin is modest, about an hour per month.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "In Hong Kong, no meaningful monthly per-child cash benefit for a middle-income family; relief comes from tax allowances, not direct subsidies.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Hong Kong, a 1-year-old daycare slot usually takes 6\u20139 months; start early and consider private nurseries or international centers to improve reliability.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "HKD 2,800.00 ($361.29)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "HKD 12,000.00 ($1,538.46)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "HKD 4,200.00 ($541.94)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "HK\u0027s e-government (iAMSmart) enables most core services online; about 80-89% end-to-end, with some visa steps needing in-person visits.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "HK public GP waits typically 3-4 days; private care can be faster but costlier, aligning with universal, affordable healthcare goals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "HKD 350.00 ($44.87)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "HKD 15,600.00 ($2,000.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "HKD 1,800.00 ($230.77)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Hong Kong\u0027s public healthcare is subsidized and accessible to residents regardless of employment; private options available.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2200",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Hong Kong offers 10 weeks maternity leave and 5 days paternity leave with job protection; per-parent average is about 5 weeks\u2014mid-range for families.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "HK salaries tax is straightforward; for a dual-income US family in HK, expect 9-12 hours/year for HK and US returns (FEIE/FTC) and record-keeping.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Hong Kong has dense transit: \u003E90% live within 500m of frequent service (\u003C=10 min headways) for 16\u002B hours, ideal for family mobility.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "In Hong Kong, public undergraduate tuition is about HKD42k/year (~11\u201313% of median income). This suggests moderate college accessibility for families.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Hong Kong has top-50 global universities (e.g., HKU). English-friendly programs and bilingual options align with your family\u0027s education goals.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Hong Kong offers strong access to accredited continuing education through HKU SPACE, polytechnics, and universities for lifelong learning.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "HK\u0027s senior .NET market is modest but steady: ~4\u20135 postings per million residents per month; fintech/cloud demand and strong English use.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "In Hong Kong, Ruby on Rails roles are scarce; expect about 1-3 postings per million residents per month.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "HKD 1,000,000.00 ($127,388.54)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "HKD 600,000.00 ($76,433.12)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Hong Kong offers numerous beaches but climate is hot and very humid in summer; plan visits in cooler months and non-typhoon days. Target family-friendly beaches with shade, lifeguards, restrooms, and easy transit (MTR/bus). Examples: Repulse Bay, Shek O, Clear Water Bay. Go early morning or late afternoon to avoid peak humidity; bring sunscreen, hats, water, and light clothing. Monitor typhoon warnings and rainstorm signals; check water quality advisories after heavy rain. For young children, prioritize calm waters and shorter transit times from home; consider parks or promenades as alternatives when heat or air quality is poor.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Hong Kong fall highs are typically 70\u201375\u00B0F, offering mild, comfortable outdoor conditions for autumn activities.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Hong Kong\u0027s humid subtropical climate yields few 50-85\u00B0F days with \u003C70% humidity; mild weather mainly in winter, roughly 60-89 days per year.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Hong Kong has 40-49% protected land within 60 minutes, giving your family easy access to parks and nature reserves.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "In Hong Kong, 3 parks \u003E10 acres lie within 5 km (Victoria Park, Hong Kong Park, Kowloon Park), aligning with the family\u0027s outdoors needs.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Hong Kong springs typically reach 70\u201375\u00B0F, matching your mild, family-friendly climate.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Hong Kong summers typically reach 91-95\u00B0F on hot, humid days.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Hong Kong winter highs around 65\u201370\u00B0F; a mild, year-round climate that fits the family\u0027s preference for mild weather.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Hong Kong, anti-immigrant rhetoric is not a dominant issue; politics focus on governance and cross-border matters, keeping exposure for your family low.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Autocratization trend in Hong Kong shows moderate backsliding (0.31\u20130.35) over 10\u201320 years; civil liberties are tightening.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Hong Kong\u0027s climate stability is moderate; typhoon/heat risks exist, but strong infrastructure helps families cope year-round.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Hong Kong\u0027s dominant political narratives emphasize stability and national security, housing affordability and cost of living, economic resilience and business confidence, with ongoing debates over electoral reform, civil liberties, and Beijing-Hong Kong integration."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Hong Kong\u0027s economy has only 2 recession years in the last 20 (2009, 2020), indicating solid stability for a family move.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "HK media freedom is constrained; RSF rankings show limited independence; rely on multilingual, independent outlets for accurate local coverage.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Hong Kong\u0027s immigration policy evolves gradually under one country, two systems. It sees only a handful of tweaks per decade, so overall stability.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Hong Kong\u0027s political stability sits mid-range: solid institutions but civil liberties tightened, signaling mixed democratic resilience.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Hong Kong has very low violent crime, supporting family safety and QoL. It offers strong healthcare and schools, with awareness of civil liberties dynamics.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "HK has high wealth inequality (Gini ~50\u201354). Prepare for selective public services, strong safety nets, and affordable childcare amid the city\u0027s high living costs.",
+      "alignmentValue": 3
+    }
+  ]
 }

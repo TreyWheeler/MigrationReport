@@ -1,5 +1,488 @@
 {
   "version": 2,
   "iso": "CN",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "CNY 28,000.00 ($4,000.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "CNY 20,000.00 ($2,777.78)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "CNY 17,500.00 ($2,500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "CNY 6,300.00 ($900.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "CNY 13,520.00 ($1,864.14)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "CNY 500.00 ($69.44)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "CNY 2,800.00 ($400.00)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "CNY 3,000.00 ($416.67)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "CNY 24,850.00 ($3,500.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "CNY 9,000.00 ($1,250.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "CN bureaucracy is moderate to high. A US family should expect about 90-119 hours/year for visas, permits, and taxes in China.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "CNY 3,266,666.67 ($453,259.74)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "China\u0027s entrepreneurial visas are city-specific and often slow; for US first-time applicants, expect 8-10 months.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "45%",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- CNY 2,000,000.00 ($277,777.78) \u2013 Beijing Municipal Culture and Tourism Bureau Creative Industry Fund \u2013 Provides cash/production grants for culturally resonant indie games; prioritizes local incorporation and early-stage studios with 0\u20133 year development timelines.\n- CNY 1,200,000.00 ($166,666.67) \u2013 Shanghai Cultural and Creative Industry Fund \u2013 Offers prototype/production grants for narrative games; accessible to small studios and foreign founders who establish a local entity.\n- CNY 800,000.00 ($111,111.11) \u2013 Guangdong Cultural Industry Startup Fund \u2013 Incubator-style support with cash and in-kind resources; favors early-stage teams incorporating locally.\n- CNY 350,000.00 ($48,611.11) \u2013 Zhongguancun Software Park Game Dev Incubator \u2013 Incubator program with subsidies and workspace for indie game developers; open to foreign founders with local incorporation.\n- CNY 500,000.00 ($69,444.44) \u2013 Hainan Free Trade Port Digital Game Grant \u2013 Cash grant and mentorship for early-stage game projects aligned with local culture and export potential.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "China hosts several game events such as ChinaJoy in Shanghai each year. Expect around 4 events for demos and networking.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "China has a large, active freelance game talent pool in Shanghai/Beijing/Shenzhen; English-friendly options exist, but bilingual coordination helps.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "China has some game accelerators in Beijing/Shanghai/Shenzhen, but indie-friendly options are limited (roughly 3-4 programs).",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "CN indie scene is growing with studios and co-working spaces in Beijing/Shanghai. Licensing rules temper jam frequency and platform access.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "China offers a robust partner ecosystem: top universities, cultural institutions, coworking spaces, and game-industry funding/events in Beijing/Shanghai.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "CN has big publisher hubs in Beijing/Shanghai; foreigners usually need a local partner to access publishers. Expect moderate access with language effort.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "10",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "40",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "CNY 66,799,380.00 ($9,150,600.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "CNY 20,287,500.00 ($2,779,109.59)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "CNY 372,440,296.88 ($51,019,218.75)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "KC, USA to major game events like GDC in SF is about 8-9 hours door-to-door. This provides solid access for a US-based family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "China\u0027s major cities host around 2 in-person game-dev events per month, with a growing indie ecosystem, grants, and collaboration chances for Trey and Sarah.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games would establish a China-based studio that hires engineers, artists, and product teams, leveraging local universities and government grants to build a domestic game IP pipeline and cloud/AI tooling. This supports job creation, regional innovation clusters, and cultural output aligned with China\u2019s digital economy and cultural industry priorities; it would promote bilingual talent, local partnerships, and export-ready publishing, with clear pathways for skilled immigration and incentive programs to accelerate growth and regional development."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "CNY 520,000.00 ($74,285.71)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "CN daily life leans Mandarin; English isn\u0027t ubiquitous. With Mandarin learning, expect about 60-69% interactions in local language.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "China\u0027s major cities (Beijing and Shanghai) offer English-medium or bilingual tracks mainly in private schools; public schools are Mandarin.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "China housing for foreigners commonly lands a lease in about 4 weeks via expat compounds and agents; plan 3-5 weeks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In China, immigration status is defined by visa type and the corresponding residence permit. Key status types and how they confer rights: Permanent Residence (\u5916\u56FD\u4EBA\u6C38\u4E45\u5C45\u7559) offers long-term/indefinite stay with work eligibility and access to some public services; Naturalization/Citizenship is extremely rare and requires prolonged residency plus other criteria; Temporary Residence (\u4E34\u65F6\u5C45\u7559) is granted via standard visas (e.g., L, X, Z, D, S/Q family-related) and lasts for the visa period; rights mainly include lawful stay and work only if permitted by the visa, with limited access to public healthcare and welfare compared with citizens; For family members and dependents, specific permits (e.g., S/Q) exist with restricted work rights and social access; These definitions and pathways determine whether the family can live, work, and access services in CN, guiding visa strategy and submission timelines."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "China\u0027s entrepreneur route typically needs a business setup and invitation letter. End-to-end visa timelines often span 13\u201316 weeks.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "China CN: without a recognized sponsor, visa options are unclear or indefinite; expect long, unpredictable timelines.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "China (CN) work visa with a recognized sponsor often takes 7\u20138 weeks end-to-end; include medical checks and consular steps.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "China\u0027s welcome for skilled immigrants is selective and visa paths can be opaque; English ubiquity is limited, tech hubs exist but overall cautious.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In China (CN), naturalization for foreigners is extremely rare; there is no clear path or timeline for your family.",
+      "alignmentValue": 1,
+      "sameAsParent": true
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "In China, foreign permanent residency is rare and often takes 10\u002B years. For this US family, a clear PR path is uncertain.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "In China, Caucasian American kids may face occasional bias; international schools often enforce anti-bullying policies, but awareness helps.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Beijing/Shanghai offer strong public schooling and top STEM results; international schools enable bilingual exposure for young children.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "China\u0027s public school meals follow dietary guidelines and minimize ultra-processed foods. Expected HEI around 75-79 for CN students.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "CN public schools typically offer 4-5 hours/week of English; bilingual aides in core subjects are uncommon; plan for Mandarin exposure.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "CN urban centers offer Mandarin programs for kids via schools and centers; ~30-49 seats per 100 newcomers per year.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Target CN urban centers (Beijing, Shanghai, Guangzhou) for date-nights that work for a two-adult, two-child family: choose family-friendly restaurants with English-friendly menus, safe evening park strolls in well-lit public spaces, board-game or cafe venues that accommodate kids, and short cultural experiences with English guidance. Prioritize venues with reliable Wi-Fi for work, easy transit from residential areas, bilingual staff or menus, and childcare/add-on options where needed; confirm hours and reservations in advance and avoid overly crowded or noisy spots; favor walkable neighborhoods with parks and safety.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Map CN-specific family activities that are safe, walkable, and bilingual-friendly: urban parks with playgrounds; children\u0027s museums and science centers; zoos and aquariums; nature trails near cities; libraries with children\u0027s programs; weekend markets with family-friendly events; ensure English-friendly information and clear signage; prioritize options with nearby childcare and reliable broadband for Trey; target low-crime districts with strong community programs."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Identify 3-5 CN-based, family-friendly, English-accessible evening options in major cities (Beijing, Shanghai, Guangzhou, Shenzhen): expat board-game cafes; after-hours museum/science center programs; bilingual language meetups; family-oriented workshops; safe, walkable venues with reliable Wi-Fi and childcare options. Prioritize predictable schedules, reasonable costs, good transport links, and minimal travel from home. Provide a simple monthly list with venue names, hours, and contact methods."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "CN\u0027s big cities have many after-hours parent-friendly 3rd places with staff. Expect roughly 18\u201321 venues per 100k residents.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "China\u2019s dense cities offer walkable cores and strong transit. Expect roughly 60-69% car-free trips, depending on the city.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "In China\u0027s major cities, healthy food access is reliable: fresh markets and large supermarkets are common; HEI around 80\u201384 in urban areas.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "In China (CN), visa/work permits and tax obligations require about 8-10 hrs/mo of admin; plan for ongoing paperwork.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "China (CN) has no universal monthly child benefit; local subsidies exist but are modest and vary by city (often under $25/child/month).",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Daycare for expats in China: expect 4-6 months to secure a bilingual/private spot for ages 1 and 5; public slots are slower and English options vary.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "CNY 2,500.00 ($362.32)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "CNY 8,000.00 ($1,095.89)",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "CNY 2,450.00 ($345.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "China (CN): ~50-60% of core resident services online end-to-end; expect in-person steps for hukou, school enrollment, and foreign visa appointments.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "China (CN) urban primary care typically has a 5-7 day wait. Private clinics are faster but pricier; public coverage keeps costs affordable.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "CNY 2,000.00 ($285.71)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "CNY 10,950.00 ($1,500.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "CNY 4,200.00 ($600.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "CN: basic medical insurance is largely employment-based; leaving a job can disrupt coverage, though public options exist with city variation.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1800",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "China offers ~14 weeks paid maternity leave at ~100% pay for the birth mother; paternal leave is shorter, giving moderate per-parent generosity.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "China expat tax: for a dual-income US family, with a tax pro, personal filing and records may take about 3-5 hours/year.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "China\u0027s major cities have dense transit networks. Most residents live within 500m of a metro with 10-minute headways for long hours.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "CN public university tuition is generally modest for residents, supporting strong college access for a family prioritizing education.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "CN hosts global top-50 universities (e.g., Tsinghua, PKU), signaling excellent college quality for the family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "China\u0027s major cities offer strong continuing education; roughly 15-19 accredited adult programs per 100k residents, good for Trey and Sarah.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "CN shows moderate senior .NET architect demand (~4-5 postings per million per month). Focus on Beijing/Shanghai; seek English-friendly teams and clear visa pathways.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Ruby on Rails demand in China is very low (about 1-3 postings per million residents per month). Consider remote or cross-border roles.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "CNY 720,000.00 ($100,699.30)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "CNY 360,000.00 ($49,315.07)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Beach life in CN is optional; prioritize inland, temperate regions with walkable neighborhoods, parks, and good schools; if beach options are pursued, choose coastal cities with moderate humidity, reliable public services, and English-friendly resources for families; ensure strong broadband and proximity to tech and education hubs.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "China fall highs commonly range around 65-69\u00B0F in many cities; mild autumns suit this family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "KC, MO (USA): ~150\u2013180 days/yr with highs 50\u201385\u00B0F and humidity \u003C70%, matching your preference for mild, year-round comfort.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "China offers abundant natural beauty near cities; many protected parks within 60 minutes support a family-friendly, mild-climate lifestyle.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "China\u0027s urban areas typically have several large parks within 5 km. Expect around 8\u20139 parks over 10 acres nearby.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in China commonly reach 65-69\u00B0F, with regional variation; suits a mild, family-friendly spring.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "CN summers often reach 81\u201385\u00B0F (27\u201329\u00B0C) in many areas; fits the family\u0027s mild climate preference.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "China winter highs typically 45\u00B0F\u201349\u00B0F, with southern cities reaching 50\u00B0F\u201360\u00B0F.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "China\u0027s mainstream politics do not center anti-immigrant rhetoric; salience is low (fringe level) with focus on nationalism and domestic growth.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "CN shows sustained autocratization (backsliding \u003E0.45); expect tighter civil liberties and more government controls in daily life in China.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "China\u0027s climate stability is moderate; ND-GAIN shows mid-high vulnerability, with typhoon-prone coasts and flood risks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "CN: Dominant political narratives center on political stability under the Communist Party leadership, national sovereignty, and social harmony; economic discourse emphasizes growth with technological self-reliance and security, anti-corruption, and the goal of common prosperity; foreign policy is assertive while information control and ideological discipline sustain social order."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Economic Stability CN: 10 \u2014 0 recession years in last 20; China shows steady growth, supporting reliable jobs and planning for families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "China\u0027s media freedom is very limited; censorship and state outlets dominate. Rely on international, pluralistic sources for information.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "China\u2019s immigration rules are relatively stable; for a first-time family move, expect predictable, disciplined processing with careful timelines.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "China\u0027s V-Dem Liberal Democracy Index percentile is very low, indicating weak political stability. Autocratization risk is higher.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "China\u0027s violent crime rate is well under 200 per 100k, indicating strong safety. This supports a family-friendly, stable quality of life in CN.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "China\u2019s wealth inequality is moderate (Gini ~38\u201341); value 6 reflects mid-range gaps and urban\u2013rural divides with stable policies for families.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    }
+  ]
 }

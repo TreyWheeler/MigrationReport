@@ -1,5 +1,487 @@
 {
   "version": 2,
   "iso": "HU",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "HUF 1,027,000.00 ($2,834.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "HUF 600,000.00 ($1,519.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "HUF 900,000.00 ($2,195.12)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "HUF 750,000.00 ($2,000.00)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "HUF 624,000.00 ($1,579.75)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "HUF 24,000.00 ($60.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "HUF 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "HUF 0.00 ($0.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "HUF 1,470,000.00 ($3,850.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "HUF 608,000.00 ($1,600.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Budapest, Hungary: expect 50-70 hours/year for permits, registrations, and taxes; bureaucratic steps are manageable but not minimal.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "HUF 155,466,666.67 ($420,180.18)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "9%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "US founders can apply for Hungary\u0027s entrepreneur residence. Bureaucracy can slow things; expect roughly 4-5 months.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "15%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- HUF 60,000,000.00 ($171,428.57) \u2013 Creative Europe MEDIA \u2013 Development grant for narrative-driven video games; supports 0.5\u20135M budget projects and offers co-financing suitable for a small indie studio with Hungarian incorporation.\n- HUF 30,000,000.00 ($85,714.29) \u2013 NKFIH Digital Content Innovation Fund \u2013 Prototype/production grant for digital entertainment; competitive funding for early-stage Hungarian entities developing story-driven games.\n- HUF 20,000,000.00 ($57,142.86) \u2013 Sz\u00E9chenyi Card \u2013 State-backed working capital loan for tech startups; flexible terms to cover pre-production costs and payroll during development.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Budapest, Hungary hosts several game-dev events yearly (indie festivals, meetups). Expect about 3\u20134 events annually for demos and networking.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Hungary (Budapest) has a modest freelance pool for art, animation, and sound, within an emerging indie game scene. EU near-remote options broaden access.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Budapest/Hungary has a small, game-friendly accelerator scene; about 3 viable options for indie studios.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Budapest\u0027s indie scene is growing: meetups, jams, and a few studios; a moderate, EU-connected community in Hungary.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Hungary, especially Budapest, has solid universities and a growing game-dev scene with events and funding programs. Depth remains moderate.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Budapest\u0027s budding game scene gives moderate local publisher access; regular meetups exist, but major publishers still require networking/travel.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "2",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "13",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "HUF 4,469,485,020.00 ($11,609,052.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "HUF 252,250,000.00 ($655,194.81)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "HUF 24,086,352,290.00 ($62,561,954.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Budapest, major events like Gamescom in Cologne are about 5 hours door-to-door, enabling feasible travel for the family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Budapest, Hungary has a budding game dev scene with about 2 in-person events per month. Good for building collaboration and local mentors.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Hungary-based Daemon Games would create high-skill jobs in game development, cloud tooling, and QA, with a scalable, remote-enabled model that supports local tech talent and regional equity. It would deliver cultural output through locally produced games, events, and university partnerships, while driving innovation in multiplayer architectures and cloud workflows. The project aligns with Hungary\u0027s digital economy and creative industries priorities and can access EU R\u0026D funds, government grants, and tax incentives to accelerate job creation and knowledge transfer.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "HUF 11,880,000.00 ($33,000.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Hungary (urban): about 20-29% of daily interactions may require Hungarian; English remains common, with continued local language learning planned.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Hungary public schools offer few bilingual tracks; expect roughly 10-20% English options in major cities (Budapest). Consider international schools.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Budapest, Hungary: for a family with two kids, expect a family-friendly lease in about 4 weeks with a reliable agent and proper documents.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Hungary, immigration status is conferred as temporary residence, long-term EU residence, permanent residence, or citizenship. Temporary residence (ideiglenes tart\u00F3zkod\u00E1si enged\u00E9ly) is issued for a defined purpose (employment, study, or family reunification) and allows living in Hungary for a limited period with work rights tied to the permit; it is renewable. Long-term EU residence (hossz\u00FA t\u00E1v\u00FA tart\u00F3zkod\u00E1si enged\u00E9ly) is typically available after several years of lawful residence and offers more stable rights and broader work mobility within the EU, subject to ongoing eligibility criteria (income/means, health insurance, housing) and language/integration requirements. Permanent residence (\u00E1lland\u00F3 tart\u00F3zkod\u00E1si enged\u00E9ly) grants indefinite stay with broad rights, including work, healthcare access, social benefits, and easier travel within Hungary/Schengen. Citizenship (\u00E1llampolg\u00E1rs\u00E1g) is typically obtained by naturalization after a prolonged period of lawful residence and demonstration of language proficiency and integration, conferring full political rights and a Hungarian passport. Determination is via application to the Hungarian immigration authorities; criteria commonly include length of residence, lawful status, income/assets, health insurance, housing, a clean criminal record, and, for citizenship, language and civic knowledge. Rights scale with status: temporary rights are limited and tied to the permit; long-term and permanent statuses improve work flexibility and security; citizenship unlocks full political rights and international mobility. Actionable steps for your family: identify the most suitable path (spouse and two children), prepare documents (passport, proof of income/means, health insurance, housing, background checks), maintain lawful residence, apply before expiry, and plan for language integration if pursuing citizenship.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Hungary entrepreneur visa typically 11-12 weeks end-to-end. Plan about 3 months for Trey\u2019s game/tech startup while Sarah works remotely or hybrid.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Hungary (HU): non-sponsor visa timelines commonly 13-16 weeks end-to-end; plan for bureaucracy and language prep ahead.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Hungary (HU) with a sponsor could be 7-8 weeks end-to-end; pursue startup/tech sponsorship and employer support for the family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Hungary offers skilled visas with roughly 80-84% approval for tech pros; favorable for founders and developers, but bureaucratic steps exist.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Hungary, naturalization typically requires about 8 years of residence; plan for long-term stay and language integration.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "In Hungary, skilled workers and entrepreneurs can reach permanent residency after around 5 years of continuous residence.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Budapest, Hungary has international schools. Bullying risk for Caucasian American students is moderate (about 3-3.9 per 1,000).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Education in Hungary offers solid public schools with growing bilingual options, especially in Budapest; strong early childhood programs.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "In Hungary, school meals vary; urban Budapest schools show progress toward healthier menus, but rural areas lag; HEI mid-70s; watch ultra-processed foods.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Public schools in Hungary typically offer 2-3 hours/week of English; bilingual aides are limited, so core-subject support may be modest.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Hungary offers Hungarian language courses for newcomers; capacity varies by region, with Budapest widely accessible.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "In Hungary, adult date-night options for a family relocating to Budapest include: night-time Danube promenade strolls for illuminated city views; ruin pubs and wine bars in the city center; classical concerts or jazz performances at the Hungarian State Opera or intimate venues; evening thermal-bath visits with night hours (Sz\u00E9chenyi or Gell\u00E9rt) followed by casual dining; and easy, walkable routes in the inner districts. Plan ahead with reservations, verify English friendliness, and arrange a trusted local babysitter or nanny to enable 1\u20133 hour outings.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Plan regular family-friendly activities in Hungary: frequent visits to city parks (V\u00E1rosliget, Margaret Island), family-friendly thermal baths, and short day trips to Lake Balaton or Hortob\u00E1gy; utilize museums with kids\u0027 programs and bilingual events at libraries or community centers to support language learning while keeping costs and logistics manageable."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Hungary (HU): Prioritize English-friendly, family-friendly evening social options in Budapest (and other major cities) that accommodate children aged 5 and 1. Action plan: build a short calendar of recurring board-game nights, family-friendly caf\u00E9s, and expat meetups; assess transit reliability, cost, and kid-friendly spaces or on-site childcare; target 1\u20132 events per month and coordinate with local groups to host or join evenings aligned with the family\u2019s pace and budget."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "In Hungary (Budapest especially), there are many parent-friendly 3rd places open after 6 pm; rural areas have fewer options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Budapest\u0027s transit-rich, walkable districts support car-free trips for families. Parks, tramlines, and safer streets ease daily outings.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Budapest and other Hungarian urban areas offer reliable healthy food access with markets and supermarkets. Rural areas may vary.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Hungary (HU): expect ~3-4 hrs/mo of residency/taxes admin; English-friendly but local forms and steps remain.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Hungary\u0027s per-child benefits for middle-income families are roughly $40-60/month per child; modest but steady nationwide.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Hungary (Budapest), daycare slots often have waitlists. Expect about 4\u20136 months to place a 1-year-old.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "HUF 25,000.00 ($65.79)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "HUF 90,000.00 ($246.58)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "HUF 20,000.00 ($46.51)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Online core services exist in Hungary via \u00DCgyf\u00E9lkapu, but visa/residency steps still require in-person visits. Online completion is about 60\u201370%.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Hungary\u0027s universal primary care offers a 1-2 day GP wait in many areas, aligning with the family\u0027s healthcare access needs in HU.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "HUF 12,000.00 ($31.58)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "HUF 375,000.00 ($1,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "HUF 100,000.00 ($256.41)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Hungary, healthcare is universal; access isn\u0027t tied to employment, so your family would keep coverage even if job status changes.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1800",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Hungary provides ~24 weeks of maternity leave paid ~70% of income; total paid weeks per parent fall in the 24-31 week range.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Hungary tax filing for a dual-income family (US citizens) typically needs 9-12 hours/year; use NAV online and plan cross-border reporting.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Transit is strong in urban Hungary (Budapest) with \u003C=10-min headways most of the day. Most residents live within 500 m, though rural areas lag.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "College access in Hungary is solid for families; English programs cost roughly 12\u201315% of median net income, placing this family in mid-range affordability.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Hungary\u0027s top universities (ELTE, BME) rank roughly 300-400 globally; solid college quality and bilingual programs in Budapest.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Hungary provides robust continuing education with many accredited programs. Budapest and other major cities offer ample options for lifelong learning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Hungary shows moderate demand for senior .NET architects (9-12 postings/mo). Budapest offers English-friendly firms and cost-effective living.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Moderate Rails demand in Hungary (about 10-14 postings per million residents per month); Budapest is the main hub, offering EU-friendly roles.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "HUF 18,000,000.00 ($50,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "HUF 10,500,000.00 ($29,166.67)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Evaluate Hungary\u0027s beach life by listing family-friendly lake beaches (notably Lake Balaton and nearby reservoirs) with lifeguarded swimming zones, accessible public transport, restrooms, shaded areas, and English-friendly information; confirm summer operating hours, water quality, safety rules, and nearby affordable childcare options."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Hungary typically 60\u201364\u00B0F, aligning with a mild autumn for the family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Hungary (HU) has many days in 50-85\u00B0F with moderate humidity, especially spring/fall, aligning with your mild-weather goal.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Hungary offers rich natural beauty near Budapest, with forests and the Danube Bend. About 25-29% of land is protected within 60 minutes.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Excellent nature access in Hungary; Budapest-area parks over 10 acres, 10\u201311 within 5 km, ideal for family outdoor time.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Hungary (HU) are about 65\u00B0F\u201369\u00B0F. A mild, comfortable climate supports outdoor plans.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Summer highs in Hungary are around 81-85\u00B0F (Budapest). This matches the family\u2019s preference for mild, less-humid summers rather than extreme heat.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Budapest, Hungary typically reach 35\u00B0F\u201339\u00B0F. This aligns with your preference for mild winters.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Hungary (HU), mainstream politics are dominated by anti-immigrant rhetoric; expect strict asylum rules and strong migration framing.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Autocratization trend in Hungary shows backsliding in the past decade; monitor rule of law and media freedom in Budapest and nationwide.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Climate stability in Hungary is moderate. Summers can be hot, but extremes are milder than in the Midwest.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Hungary\u0027s national political narrative centers on sovereignty and national identity, strict immigration control, law-and-order and anti-corruption messaging, pragmatic economic stability with welfare considerations, and skepticism toward Brussels/elite liberal policies, framed as defending traditional values and Hungarian culture against external influence.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Hungary shows solid stability with only 2 recession years in the last 20 (2009, 2020). EU-backed growth and a tech scene support families relocating here.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Media freedom in Hungary (Budapest) remains constrained by government influence. Independent outlets face pressure and consolidation.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Hungary\u0027s migration stability is moderate; asylum/border rules have shifted recently, so expect periodic policy tweaks.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Hungary (HU) has mid-range V-Dem LDI stability. Ongoing rule-of-law concerns temper optimism for resilient institutions.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Hungary (HU) offers stable, family-friendly safety; violent crime is usually under 200 per 100k, supporting a calm lifestyle.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Hungary\u0027s Gini index is about 28\u201329, a moderate level of wealth inequality. This supports stable, affordable family life in Hungary.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    }
+  ]
 }

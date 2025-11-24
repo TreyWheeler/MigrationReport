@@ -1,5 +1,487 @@
 {
   "version": 2,
   "iso": "CN",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "CNY 35,000.00 ($5,000.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "CNY 12,000.00 ($1,714.29)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "CNY 17,000.00 ($2,428.57)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "CNY 2,500.00 ($350.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "CNY 10,400.00 ($1,485.71)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "CNY 360.00 ($50.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "CNY 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "CNY 2,000.00 ($285.71)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "CNY 25,200.00 ($3,500.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "CNY 10,500.00 ($1,500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Shenzhen offers expat visas and local business support. Expect substantial paperwork and regulatory checks.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "CNY 4,216,666.67 ($585,648.43)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Shenzhen\u0027s entrepreneur visa for US founders typically takes 5-6 months; the city has a strong startup ecosystem.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "40%",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Shenzhen/Guangdong hosts about 2-3 game/creative-tech events yearly; nearby Hong Kong and Guangzhou provide venues for demos and pitches.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Shenzhen, CN has a strong game-dev scene with ample freelancers in art, animation, audio, and narrative; near-remote collaboration is readily available.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Shenzhen has few game-focused incubators; Tencent WeStart is a local option, but overall the indie game ecosystem there is sparse.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Shenzhen\u0027s indie scene is moderate: a few studios and regular jams exist, but it\u0027s not as dense as major global hubs.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Shenzhen has an abundant partner ecosystem: universities (SUSTech), coworking hubs, and game/tech firms (Tencent/NetEase) funding and hosting events.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Shenzhen, CN has dense game publishers and active bizdev hubs; strong local access to majors, but language/visa steps can matter.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "3",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "20",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "CNY 7,512,000.00 ($1,043,333.33)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "CNY 19,491,000.00 ($2,670,000.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "CNY 373,429,218.75 ($51,154,687.50)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Shenzhen, CN, door-to-door to GDC SF takes about 17 hours total. Europe events like Gamescom are typically 20\u002B hours.",
+      "alignmentValue": 3,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Shenzhen, CN has an active game-dev scene with regular meetups and studios; about 3 in-person events per month for Trey.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games will anchor a high-skill game development cluster in Shenzhen, creating software, art, QA, and cloud roles, while developing local IP and cultural output. The program will partner with Shenzhen universities and tech parks to build talent pipelines, leverage Greater Bay Area incentives and local grants, and support cross-border collaboration. This aligns with regional priorities for digital economy, innovation, and export-ready IP, with commitments to local data hosting and scalable growth."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "CNY 262,800.00 ($36,000.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Shenzhen uses Mandarin in daily life; English helps in tech hubs, but plan to learn basics for roughly 30-40% of interactions.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Shenzhen has many English-bilingual and international-school options. About 70-79% of seats offer bilingual or English instruction.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Shenzhen housing: with a broker, foreigners can secure a family-friendly lease in about 4 weeks; bring passport, visa, proof of income.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Shenzhen, China: Immigration status is determined by current visa category and the Foreigner\u2019s Residence Permit. Common statuses include: (1) short\u2011term visitor (L/M) with limited rights; (2) work\u2011based stay (Z visa) that leads to a Foreigner\u2019s Residence Permit, granting lawful employment, potential access to basic public education for dependents, and eligibility for local social insurance; (3) student status (X visa) with a residence permit and limited work rights; (4) permanent residency (\u6C38\u4E45\u5C45\u7559\u8BB8\u53EF) for select skilled or exceptional cases; (5) citizenship through naturalization is extremely rare. Rights tied to status typically include work authorization, access to public education and healthcare when insured/employed, and the ability to reside and travel within China. To align plans, verify visa type and permit validity, pursue employer sponsorship or school placement, apply for the appropriate permit, and monitor evolving residency and integration requirements.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Shenzhen, CN entrepreneur visa end-to-end ~21-28 weeks; first-time applicants may face longer timelines.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Shenzhen, CN: without a recognized sponsor, visa processing is likely \u003E28 weeks with unpredictable steps for non-sponsored paths.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Shenzhen, CN work visa end-to-end with sponsor likely 13-16 weeks; expect delays.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Shenzhen\u0027s booming tech scene welcomes skilled workers; employer-sponsored visas exist, but processes can be bureaucratic.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Shenzhen, China offers essentially no foreign citizenship path. There is no clear naturalization route for your US family.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "China\u0027s permanent residency for skilled workers is long and unclear. In Shenzhen, expect 10\u002B years or no clear path, even for founders.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Shenzhen CN international schools are diverse; in primary/secondary, expect very low bullying for white expat kids (\u003C1 per 1,000) with supportive campuses.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Shenzhen offers strong urban primary/secondary education; around 70-79th percentile globally with robust public schools and bilingual/international options.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Shenzhen schools follow Chinese dietary guidelines with fresh vegetables, grains, and limited ultra-processed foods; overall quality meets HEI-adapted criteria but varies by school.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Shenzhen public schools offer about 4-5 hours/week of English; bilingual aides in core subjects are not common, though a few schools run bilingual programs.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Shenzhen provides 110-129 Mandarin-language seats per 100 newcomers annually. This supports your kids\u0027 bilingual exposure in China.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Date-night options in Shenzhen, CN: plan short-transit evenings at coastal parks (Shenzhen Bay Park or Shekou waterfront) followed by English-friendly dining in Nanshan/OCT Loft or Coco Park; book childcare in advance with a trusted local service to enable low-stress adults-only time; prioritize venues with clear English menus, predictable hours, and reasonable prices to fit a family-friendly budget."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Shenzhen, prioritize family-friendly outdoor and cultural activities: regular park days (Shenzhen Bay Park, Lianhu Park), kid-friendly venues (Shenzhen Science Museum, Window of the World, Splendid China, Sea World), and short weekend trips to safe, walkable neighborhoods with access to bilingual schooling; ensure reliable broadband for Trey\u0027s work and plan flexible schedules to support Sarah\u0027s remote/hybrid role."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Identify 3-5 family-friendly evening spots in Shenzhen (parks with lit trails, kid-friendly cafes/board-game venues, expat and local social clubs, and community centers) that are safe, English-friendly, affordable, and within easy transit from home; propose a rotating weekly/biweekly meetup plan with friends, prioritizing venues with play areas and reliable hours that fit kids\u0027 bedtimes and work needs (quiet corners or wifi access)."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Shenzhen, CN has many staff-supervised, after-hours family venues. Parks, museums, and kids spaces are common, with about 26-29 venues per 100k.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Shenzhen\u0027s extensive metro and bus network keeps 70-79% of trips car-free; prioritize a family-friendly, park-rich neighborhood near good schools.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Shenzhen, China offers broad healthy food access with abundant fresh markets and Western groceries; expat hubs ease language barriers for your family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Shenzhen, CN: expect about 3-4 hours/month for visa/residency and tax filings; leverage digital gov portals to minimize ongoing compliance tasks.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Shenzhen offers minimal direct per-child cash for middle-income families; most support is via schooling subsidies, not monthly child benefits.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Shenzhen international daycares for a 1-year-old typically require 4-6 months. Bilingual private nurseries often offer slots for expat families.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "CNY 2,700.00 ($385.71)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "CNY 7,000.00 ($986.01)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "CNY 3,000.00 ($416.67)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Shenzhen, CN features broad online core services (tax, healthcare enrollment, school enrollment), but visa bookings remain largely in-person; ~60% online.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Shenzhen, China, has a strong public healthcare base; expect 3\u20134 day waits for non-urgent primary care, with faster private options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "CNY 3,200.00 ($457.14)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "CNY 13,680.00 ($1,900.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "CNY 6,570.00 ($900.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Shenzhen, China\u0027s public medical insurance covers residents beyond employment; switching jobs rarely disrupts basic healthcare.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2080",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Shenzhen offers ~14 weeks maternity leave and ~1-2 weeks paternity leave; overall parental generosity aligns with level 2.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Shenzhen, CN tax filing for a two-income US/China family is complex. Annual cross-border filings often benefit from professional help.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Shenzhen\u0027s dense transit puts most residents within 500 m of transit with \u003C=10-min headways for long hours; great for a family-friendly move.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Shenzhen public university tuition for domestic students is typically under 5% of median household net income; bilingual programs fit your education-first plan.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Shenzhen has strong local universities (SUSTech/SZU) with English programs; global rank around 151-200, aligning with the family\u0027s education priority.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Shenzhen, CN offers abundant continuing education options (universities, vocational schools, online courses) for adults, supporting lifelong learning.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Shenzhen offers solid senior .NET Architect demand (17-20 postings/million/mo) with Azure/cloud focus and active tech ecosystem.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Shenzhen, China has essentially no Ruby on Rails postings; near-zero demand for 6-year Rails pros.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "CNY 720,000.00 ($100,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "CNY 420,000.00 ($58,800.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Shenzhen beaches, such as Dameisha and Xichong, offer accessible coastal life; prioritize spots with shade, lifeguards, clean facilities, stroller-friendly paths, and easy transit. Plan visits in cooler shoulder seasons to avoid peak heat, monitor water quality and typhoon risk, and pair beach time with nearby parks for kid-friendly activities and bilingual safety guidance."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Shenzhen, CN reach 82-85\u00B0F, well above the 70-75\u00B0F mild range. The family\u0027s mild-weather preference is not aligned.",
+      "alignmentValue": 0
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Shenzhen\u0027s climate is humid subtropical. Days with 50-85\u00B0F and humidity under 70% are scarce, roughly 30-59 per year.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Shenzhen, China offers abundant parks and nature within an hour, matching your family-friendly lifestyle and mild climate.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Shenzhen (CN) offers strong nature access; within 5 km there are about 10-11 parks over 10 acres, ideal for family outdoor time.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Shenzhen average 70\u201375\u00B0F (21\u201324\u00B0C), with mild days and humidity; aligns with the family\u0027s mild-weather preference.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Shenzhen summer highs run about 91-95\u00B0F with high humidity. This is hotter than the family\u0027s mild-weather preference and will need strong cooling.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Shenzhen, China has mild winters; winter highs around 60\u201365\u00B0F, generally comfortable for family outdoor time.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Shenzhen, CN, anti-immigrant rhetoric is fringe in mainstream politics. Policy focus is on tech growth, stability, and family-friendly living.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "China (Shenzhen): autocratization trend indicates sustained backsliding over 10-20 years; governance centralized, daily life relatively stable.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Shenzhen, CN: moderate climate stability with mild winters; hot, humid summers and typhoon exposure create mid-range climate risk.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "The dominant narratives in China emphasize economic stability and steady growth under national rejuvenation, strict governance and anti-corruption, tight regulation of platforms and information, \u0027common prosperity\u0027 to address inequality, housing stability, and climate measures, with a strong emphasis on patriotism and social stability. Shenzhen, as a leading tech hub, is positioned to align with these central priorities through innovation, regulatory compliance, and stable living conditions for families.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Shenzhen, CN shows 0-1 recession years in the last 20 years, signaling strong economic stability. This supports entrepreneurship and stable family living costs.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Shenzhen, CN: press freedom is very limited; state influence dominates media, RSF ranks China near bottom; expect censorship and monitored online discourse.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Shenzhen, China offers relatively stable immigration policy with periodic updates; expect gradual changes rather than rapid overhauls.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Shenzhen, CN has very low liberal democracy index; expect tighter civil liberties and evolving policies.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Shenzhen in CN has very low violent crime rates, supporting strong social stability for families. This fits your safety, QoL, and schooling priorities.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "China\u0027s Gini is about 38\u201341, indicating mid-high inequality. Shenzhen\u0027s rapid growth widens gaps, aligning with a 6 wealth-inequality rating.",
+      "alignmentValue": 6
+    }
+  ]
 }

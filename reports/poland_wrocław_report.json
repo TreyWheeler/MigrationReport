@@ -1,5 +1,489 @@
 {
   "version": 2,
   "iso": "PL",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "PLN 8,600.00 ($2,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "PLN 9,500.00 ($2,375.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "PLN 6,500.00 ($1,550.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "PLN 4,000.00 ($1,000.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "PLN 9,360.00 ($2,340.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "PLN 300.00 ($75.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "PLN 1,234.56 ($1,345.67)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "PLN 0.00 ($0.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "PLN 8,500.00 ($1,916.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "PLN 11,200.00 ($2,800.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Poland (Wroc\u0142aw): expect ~60\u201389 hrs/yr of immigration and tax compliance for first-time visas and startup setup.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "PLN 2,316,666.67 ($551,587.31)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "19%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Poland (Wroc\u0142aw) startup visa path is feasible; expect ~5\u20136 months for approval; tap EU funds and a growing tech scene.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "21%",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Wroc\u0142aw has a modest but growing game/dev event scene with about 3 events yearly; decent for demos and networking, less density than Warsaw.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Wroclaw, PL offers a growing but mid-sized freelance game talent pool (artists, animators, sound, narrative); many work remotely.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Wroc\u0142aw, Poland has a small game-focused incubator scene (2-3 programs) offering mentorship and space for indie studios like Daemon Games.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Wroclaw\u0027s indie game scene is developing: studios, meetups, and co-working hubs; decent support, though not as dense as Warsaw.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Moderate partner depth: Wroc\u0142aw has universities and coworking spaces with game dev groups, but the ecosystem lacks the scale of Krak\u00F3w/Warsaw.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Wroc\u0142aw offers a budding game-dev scene and local meetups; some Polish publishers attend events here, but major offices and regular visits are limited.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "2",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "6",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "PLN 41,973,187.50 ($10,493,296.88)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "PLN 15,111,360.00 ($3,685,697.56)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "PLN 210,732,192.00 ($52,683,048.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Wroc\u0142aw, Poland offers 4-6h door-to-door access to major game events (Cologne/Stockholm). Family-friendly, shorter trips are practical.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Wroc\u0142aw, Poland has a growing indie game-dev scene with regular meetups and local studios. Expect about 2 in-person game-dev events per month.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Establishing Daemon Games in Wroc\u0142aw would create skilled jobs in game development, cloud and QA, strengthen local tech clusters, and grow Poland\u2019s digital culture export. The project aligns with Poland\u2019s innovation, R\u0026D, and creative-industries priorities and can leverage EU grants, tax incentives, and a strong university talent pipeline to accelerate growth while maintaining a sustainable operating model."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "PLN 72,000.00 ($18,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Wroc\u0142aw, expect 20-29% Polish in daily tasks; English suffices in tech; plan to learn basic Polish for services and bureaucracy.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Wroc\u0142aw, Poland has public schools with about 30-39% bilingual/English seats; supports English ubiquity but is not universal.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Expats can typically secure a family lease in Wroc\u0142aw in about 4 weeks with agency help and deposits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Poland (Wroc\u0142aw) offers three primary immigration statuses for this US family: 1) temporary residence permit (pobyt czasowy) issued by the voivode based on work, family reunification, or study; it authorizes lawful stay and typically allows work for a defined period with renewals; 2) permanent residence permit (pobyt sta\u0142y) after several years of lawful, continuous residence (often linked to ongoing family ties or employment); it provides enduring stay rights, work without annual renewal, and a smoother path to family reunification; 3) Polish citizenship (obywatelstwo) by naturalization or by descent, granting full civil rights, eligibility for a Polish passport, and rights across the EU; naturalization generally requires long-term residence, language and integration requirements, and fulfillment of residency criteria. An EU long-term resident status may be available after permanent residence for mobility within the EU. Action steps: begin with a temporary residence permit tied to family status or work, gather documents (US passports for Trey and Sarah, marriage and birth certificates for children, proof of housing and income, health coverage), submit to the appropriate Voivode office, and maintain lawful status and renewals; after meeting residence criteria, apply for permanent residence; pursue citizenship by naturalization if long-term stay and language/ integration requirements are met; explore EU long-term resident options if plans change; consult official government resources or an immigration attorney for current requirements and timelines.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "In Poland (Wroclaw), first-time entrepreneur visas typically take 13-16 weeks end-to-end; plan 3-4 months.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Poland (Wroc\u0142aw) non-recognized-sponsor work visas typically 21\u201328 weeks end-to-end. Consider EU Blue Card or startup visa routes to speed pathways.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Poland/Wroc\u0142aw work visa with sponsor: about 13\u201316 weeks end-to-end. Wroc\u0142aw offers a growing tech scene and family-friendly policies.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Poland is moderately welcoming to skilled immigrants; Wroc\u0142aw\u0027s growing tech scene helps, but visa processes can still be slow.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Poland\u0027s naturalization timeline with a Wroc\u0142aw relocation typically spans several years; expect about 6\u20137 years before eligibility.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Poland typically grants permanent residence after about 5 years of legal residence; in Wroc\u0142aw\u0027s tech ecosystem, a skilled entrepreneur path is feasible.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "In Wroc\u0142aw, expat-friendly schools; bullying against caucasian children is rare\u2014about 1-1.9 per 1,000 students.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Poland\u0027s public schools in Wroc\u0142aw offer solid primary/secondary education with growing bilingual options. Strong early-child programs support your kids.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Poland\u0027s Wroc\u0142aw schools generally meet HEI targets with fresh produce and fewer ultra-processed foods, though variability between schools remains.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Poland (Wroc\u0142aw) public schools offer 2-3 hours/week English; bilingual aides are rare, with limited support in some schools.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Wroclaw, Poland offers strong newcomer Polish courses; about 110-129 seats per 100 newcomers help your kids learn Polish.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "In Wroc\u0142aw, Poland, date-night ideas include a romantic stroll through Rynek and Ostr\u00F3w Tumski with river reflections, dining in \u015Ar\u00F3dmie\u015Bcie followed by cocktails or a rooftop view at Sky Tower, a sunset boat cruise on the Odra, and an evening performance at the Opera Wroc\u0142awska or the National Forum of Music.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Wroc\u0142aw, prioritize family-friendly outdoor spaces (Park Szczytnicki and the Centennial Hall complex with the Japanese Garden) for daily play and stroller-friendly walks; add visits to Wroc\u0142aw Zoo/Afrykarium and Hydropolis for kid-friendly science experiences; seek weekend markets and free family events around Rynek and nearby parks; explore bilingual or English-friendly children\u0027s programs at libraries and cultural centers to support early language exposure; target affordable, centrally located activities with easy transit to keep commutes short for the 5-year-old and 1-year-old."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Wroclaw, establish a regular, family-friendly social rhythm with close friends: host or join kid-friendly evenings at a cafe near Rynek or Nadodrze with a small play area; schedule biweekly board-game or movie nights that accommodate a 5- and 1-year-old; leverage English-speaking parent/expat groups for casual after-work meetups; attend outdoor/indoor family events around Wyspa Slodowa, Hala Stulecia, or parks along the Odra; arrange childcare swaps with trusted friends to protect adults\u0027 time; keep nights short, low-stress, and affordable to align with a slower pace of life.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Wroc\u0142aw offers ample after-hours, staff-supervised kid-friendly spaces; good for a slower, community-focused family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Wroclaw, Poland offers a tram/bike-friendly network with ~60-70% car-free trips; family-friendly neighborhoods and parks fit your plan.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "In Wroc\u0142aw, Poland, healthy food options are widely available at supermarkets and local markets. Overall food quality and access are reliable for a family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Life bureaucracy in Wroc\u0142aw, Poland: about 4-5 hours/month for visas, taxes, healthcare, and admin; manageable for expats with planning.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Poland\u0027s 500\u002B program (~$125/child/mo) in Wroc\u0142aw provides moderate support for two kids; aligns with a mid-range family setup.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Wroc\u0142aw daycare for a 1-year-old typically 4-6 months; private bilingual options may be faster but costlier - start applications early.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "PLN 300.00 ($72.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "PLN 1,200.00 ($300.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "PLN 400.00 ($100.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Poland\u0027s e-government covers ~60% of services online. In Wroclaw, taxes and enrollment can be done online; residency registration still needs in-person visits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "In Wroc\u0142aw, Poland, public GP waits are typically 5-7 days. Private clinics offer faster access; healthcare is generally universal.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "PLN 200.00 ($50.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "PLN 2,000.00 ($469.48)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "PLN 1,500.00 ($375.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Poland has universal NFZ healthcare; access isn\u0027t tied to employment, including residents in Wroclaw.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1800",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Poland (Wroc\u0142aw) offers about 32 weeks of parental leave per parent with job protection. Pay is partial, typically 60-80%.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Poland (Wroc\u0142aw) expat taxes likely moderate effort; ~12 hours/year for US and Polish returns; consider a cross-border tax advisor.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Wroc\u0142aw\u0027s dense tram/bus network likely ensures 90%\u002B residents within 500m of 10-minute headways for 16h\u002B, fitting the family\u0027s transit needs.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Wroc\u0142aw\u0027s English-taught tuition runs ~16k\u201340k PLN/year, often \u003E25% of median net income; college access for non-EU families is challenging.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Wroc\u0142aw has solid universities (UW, WUST) with international programs; global rank ~201-300, good for bilingual families.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Wroc\u0142aw, Poland has a strong university ecosystem and many continuing-education programs; solid lifelong learning access with expanding English options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Wroc\u0142aw, PL has solid senior .NET demand (~17\u201320 postings/million/mo) with competitive salaries and a growing EU tech hub.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Rails postings in Wroc\u0142aw, PL are scarce (1\u20133/mn). Recommend flexible web roles and remote Rails options.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "PLN 360,000.00 ($86,400.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "PLN 210,000.00 ($50,602.41)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Beach life in Wroc\u0142aw is inland-focused; target housing with quick access to lake/beach recreation (e.g., Turawa or Mietk\u00F3w lakes) and riverfront spots along the Oder. Schedule regular weekend trips to inland beaches and ensure easy transit to outdoor spaces, parks, and water recreation facilities; choose neighborhoods with bike paths and solid public transport to lakes and rivers."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "In Wroc\u0142aw, Poland, fall highs typically range around 60\u201364\u00B0F, reflecting a mild autumn climate suitable for outdoor activity.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Wroc\u0142aw, Poland offers many mild days; roughly 180-219 days per year with 50-85\u00B0F highs and humidity under 70%.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Wroc\u0142aw, Poland offers abundant green spaces; many protected lands and forests lie within an hour, supporting family outdoor time.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Nature access in Wroc\u0142aw, Poland is strong. About 8\u20139 parks \u003E10 acres lie within 5 km, including Park Szczytnicki, ideal for family outings.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Wroc\u0142aw, Poland typically 60-64\u00B0F, with occasional 65\u00B0F; mild and comfortable for your family.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Wroclaw, Poland, summers typically reach 76\u201380\u00B0F highs (24\u201327\u00B0C). Occasional days climb into the low 80s.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Wroclaw, Poland winters: highs around 35-39\u00B0F (2-4\u00B0C). A mild winter that fits your climate preference.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Polish mainstream politics show notable anti-immigrant rhetoric in migration debates. In Wroc\u0142aw, daily life remains welcoming despite national rhetoric.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Poland shows mild autocratization over 10-20 years. In Wroclaw, democracy endures but monitor judiciary independence and media pluralism.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Poland (Wroc\u0142aw): climate stability is moderate; ND-GAIN mid-range vulnerability suggests manageable climate changes for your family.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Poland\u0027s current national discourse focuses on energy security and relief from rising living costs, EU rule-of-law tensions and funding conditions, pro-family and social policy measures, immigration and border security, and national sovereignty with governance reforms. In Wroc\u0142aw, expect policy shifts around residency, welfare access, and business regulation as these debates unfold at the national level.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Poland recorded 2 recession years in the last 20 (2009, 2020); Wroc\u0142aw benefits from a stable, growing economy for families and tech jobs.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Poland (Wroc\u0142aw) has mid-range press freedom; diverse media exist, but state influence and propaganda risk persist.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Poland (Wroc\u0142aw) has moderate migration stability; expect a few policy overhauls per decade, but generally predictable EU-aligned visa paths for families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Poland (Wroc\u0142aw) has solid liberal-democracy norms under the EU; stable local governance but monitor broader national shifts.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Stability in Wroc\u0142aw, Poland is high; violent crime is well under 200/100k, with safe neighborhoods and strong public services.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Poland\u0027s Gini is mid-30s (roughly 30\u201333), indicating moderate inequality. Wroc\u0142aw offers affordable family living, strong schools, and good public services.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    }
+  ]
 }

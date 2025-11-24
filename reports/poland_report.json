@@ -1,5 +1,494 @@
 {
   "version": 2,
   "iso": "PL",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "PLN 9,500.00 ($2,375.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "PLN 7,500.00 ($1,666.67)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "PLN 8,800.00 ($2,135.90)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "PLN 3,500.00 ($800.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "PLN 7,800.00 ($1,900.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "PLN 210.00 ($52.50)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "PLN 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "PLN 0.00 ($0.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "PLN 14,525.00 ($3,500.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "PLN 6,750.00 ($1,500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Poland: expect ~60\u201389 hours/year of bureaucratic tasks (visas, residency, school enrollment). Plan ahead for smooth onboarding.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "PLN 2,717,500.00 ($654,819.28)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "19%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Poland has startup/entrepreneur pathways with EU funding; expect 4-5 months for approval, with Warsaw and Krak\u00F3w as hubs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "In Poland\u0027s major hubs (Warsaw/Krak\u00F3w), the game/dev scene hosts 12\u002B events yearly\u2014great for Daemon Games to show builds and network locally.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Poland has a solid EU-based freelance game talent pool (art/animation/audio/narrative); near-remote collaboration fits Trey\u0027s team needs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Poland offers a modest game-friendly accelerator scene (about 2 programs) in Warsaw and Krakow to support indie studios.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Poland\u0027s indie scene is growing (Warsaw/Krak\u00F3w) with jams and co-working spaces; good EU funding access, but density still lags top US metros.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Poland\u0027s game ecosystem is robust: Universities (Warsaw/Krak\u00F3w), studios, and events like Pozna\u0144 Game Arena enable funding and partnerships.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Poland\u0027s game scene, centered in Warsaw and Krak\u00F3w, has active publishers and local BizDev events; EU proximity aids regular publisher contacts.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "6",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "22",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "PLN 41,583,375.00 ($10,395,843.75)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "PLN 14,491,912.50 ($3,534,612.80)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "PLN 234,172,012.45 ($55,755,241.06)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Poland, door-to-door to Gamescom (Cologne) is about 5\u20136 hours (short flight \u002B transfer). English is common; travel is practical for events.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Poland\u0027s game-dev scene is growing. Warsaw/Krak\u00F3w host regular meetups; expect about 2 in-person events per month.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Establish Daemon Games as a Poland-based studio hub (Warsaw or Krakow) that creates high-skill game/software roles, grows local IP, and drives innovation through university partnerships and EU grants; leverage Polish incentives to fund hiring, training, and cloud/game-dev infrastructure; offer remote/hybrid options and inclusive, family-friendly policies to attract international talent while developing Polish-language titles and culturally resonant output. This aligns with Poland\u0027s digital economy priorities, education initiatives, and support for resilient creative industries."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "PLN 90,000.00 ($20,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Poland: about 15-19% of daily interactions will need Polish; English is valued, and the family plans to learn Polish for routine life.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Poland offers growing bilingual/English tracks in urban schools; expect roughly 30-40% in many public schools, with better options in big cities.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Poland\u0027s major cities, a 5-6 week lease is typical with a local agent; English-friendly options exist; plan visa steps.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Poland offers several immigration statuses with rights and a clear progression path: 1) Temporary residence permit (pobyt czasowy) issued by a voivode for defined purposes (work, study, family reunification); allows lawful stay and work for the permit duration and can be extended. 2) Permanent residence permit (pobyt sta\u0142y) after years of legal residence; grants long-term stay, easier access to work and social services, and a route toward citizenship. 3) EU long\u2011term residence status under EU directive (after ~5 years of legal residence); provides secure residence in Poland and, in many cases, the right to move and reside in other EU states under the directive, with work rights and similar access to benefits. 4) Polish citizenship (obywatelstwo polskie) by naturalization or other routes (birth/descent); after meeting residence, language/integration requirements, it grants full political rights, a Polish passport, and equal access to benefits. 5) Protection statuses (refugee or subsidiary protection) with residence rights and access to state support; 6) Other paths like citizenship by descent if eligible. How determined: decisions by voivode or the President of Poland based on documents, background checks, proof of income/health insurance, and language/integration criteria. Steps: assess eligibility, prepare documents, apply via gov.pl or local voivode, plan for healthcare, housing, and language study, and consult official guidance or an immigration professional."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Poland (PL): first-time entrepreneur path ~13\u201316 weeks end-to-end (\u22483\u20134 months); expect business-activity permit \u002B national visa.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Poland (PL): visa path without an employer sponsor for a US family is ~11-12 weeks end-to-end. Plan for careful bureaucracy and self-employment options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Poland with a recognized sponsor may resolve work visas in about 7-8 weeks end-to-end for a family of four; plan for permits, consulate appointment, and family visa steps.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Poland offers skilled-immigrant routes (EU Blue Card/permits). Warsaw/Cracow have startup ecosystems, though bureaucratic delays occur.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Poland typically requires long residence for non-EU families. Citizenship can take 10\u002B years.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Poland typically requires about 5 years of legal residence on temporary permits before permanent residency for skilled workers and entrepreneurs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Poland\u0027s primary/secondary schools are generally safe for white immigrant families. Expect occasional xenophobic incidents, but overall low bullying risk.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Poland\u0027s urban public schools are solid; growing bilingual programs and early education options align with your kids\u0027 needs.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Poland\u0027s school meals align with national guidelines, HEI ~75-79. They prioritize fruits, vegetables and whole grains, but some ultra-processed items still appear.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Poland\u0027s public schools usually teach English about 3-5 hours per week. Bilingual exposure is common through English classes and programs.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "In Poland, local Polish-language courses are reasonably accessible; about 50-69 seats per 100 newcomers annually.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Poland (PL): In major cities (Warsaw, Krak\u00F3w, Wroc\u0142aw, Gda\u0144sk), prioritize family-friendly, English-accessible date nights: plan culturally rich evenings (theater, classical concerts, or museums with after-hours programs); enjoy safe riverfront walks (Vistula/Odra) and parks; seek cozy, English-friendly caf\u00E9s or board-game venues; check seasonal outdoor events; arrange childcare backup if needed. Book ahead and favor walkable neighborhoods with reliable transit and safety.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Poland: Identify 2-3 family-friendly cities with parks, safe playgrounds, and affordable cultural venues (museums, zoos, science centers); build a weekly rhythm around outdoor play, bilingual kids\u0027 programs for ages 1 and 5, and community activities via libraries and centers; verify reliable broadband and transit for remote work, and leverage local expat/parent networks to support English exposure and social ties.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Poland: prioritize family-friendly, English-accessible night-out options in major cities (Warsaw, Krak\u00F3w, Wroc\u0142aw). target venues like board-game cafes, kid-friendly venues, community events, and expat groups; prefer safe neighborhoods with reliable transit and affordable, flexible hours to support a slower pace and family life."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "In Poland\u0027s major cities (Warsaw, Krak\u00F3w), after-hours kid-friendly venues are growing; ~18\u201321 per 100k residents.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Poland\u0027s cities offer expanding walkable neighborhoods and strong public transit. Expect about 40-45% car-free trips; prioritize parks and bike lanes.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Poland\u0027s urban areas offer broad healthy food access with markets and supermarkets. EU standards support reliable nutrition for families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Poland (PL): ~4-5 hrs/mo on visa/residence, taxes, and admin; bureaucracy doable but nontrivial for a US founder family.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Poland\u0027s 500\u002B per-child benefit (~500 PLN; ~$130) aligns with middle-income needs in Poland.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Poland: \u017C\u0142obki for under-3s often have 4\u20136 month waits in cities; plan early to target a 4\u20136 month placement.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "PLN 1,000.00 ($250.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "PLN 1,000.00 ($250.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "PLN 600.00 ($142.86)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Poland\u0027s gov.pl enables many core services online; about 50-60% end-to-end, but visa/residence steps still often require in-person.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Poland offers universal public healthcare; GP waits in cities typically 8-10 days, with private clinics offering faster access for families.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "PLN 1,800.00 ($450.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "PLN 3,800.00 ($950.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "PLN 2,000.00 ($500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Poland\u0027s universal NFZ healthcare means coverage is generally not tied to employment; expat families gain access regardless of job status.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2000",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Poland offers up to 52 weeks of paid parental leave per child with job protection; strong fit for our two-parent family in PL.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In Poland, dual-income US family tax filing ~25\u201335 hours/year, covering Polish PIT and US return considerations.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Poland\u0027s big cities offer frequent transit; many residents live within 500 m of 10-minute headways most of the day. In Warsaw or Krakow, access is notably strong.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Tuition for non-EU students in Poland often runs about 12-13% of median annual net income, making public universities achievable with scholarships.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Poland\u0027s top universities sit around 201\u2013300 globally (e.g., University of Warsaw); solid English-taught programs, but not top-50.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Poland offers strong continuing education access. In urban areas, 15-19 programs per 100k with English-taught options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Poland\u0027s senior .NET market is moderate, with IT hubs like Warsaw and Krak\u00F3w. It supports founder/remote work and English-speaking teams.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Poland Rails postings are modest (about 4\u20136 per million residents monthly); consider major hubs like Warsaw/Krak\u00F3w and remote roles.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "PLN 300,000.00 ($75,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "PLN 210,000.00 ($52,500.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Poland\u0027s Baltic coast (Gda\u0144sk/Sopot/Gdynia) offers family-friendly beach life within a compact urban-suburban corridor. Target coastal towns with good public transit, parks, reliable healthcare, affordable family housing, and English-friendly services; summers can be humid near the sea, so plan for shade, water safety, and indoor options for rainy days; prioritize neighborhoods with walkability, schools, and strong community life.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "In Poland, fall highs are typically around 60\u00B0F\u201364\u00B0F. This aligns with your mild autumn preference for comfortable weather.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Poland\u0027s temperate climate offers many 50-85\u00B0F days with moderate humidity, aligning well with your mild-weather preference.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Poland has protected landscapes within 60 minutes of major towns (about 30\u201340%). It offers national parks and family-friendly outdoor options.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "In Poland, major cities typically have several parks over 10 acres within 5 km. This supports easy nature access for a family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Poland spring highs typically range 65\u00B0F\u201369\u00B0F. This matches your family\u0027s mild-weather preference for spring.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Poland (PL) summers typically reach around 76-80\u00B0F (24-27\u00B0C) most days, with rare peaks near 85\u00B0F.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "In Poland (e.g., Warsaw), winter highs are about 35-39\u00B0F, which suits your mild-weather preference.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Poland\u0027s mainstream rhetoric includes anti-immigrant narratives, but they are not dominant; immigration issues remain salient in policy debates (2020s).",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Poland shows mild-to-moderate autocratization (rule-of-law concerns) over 10\u201320 years; overall stability supports family planning in PL.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Poland has strong climate stability (ND-GAIN in the 70s). Mild seasons and reliable living conditions support your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Poland\u0027s dominant political narratives center on national sovereignty, security, and traditional family values, with a strong emphasis on social welfare programs and law-and-order messaging. Ongoing tensions with the EU over rule-of-law, migration, and judicial reforms shape public discourse, while energy independence and price stability are key economic themes. Expect policy continuity around border control and cautious openness to skilled migration, framed within patriotic resilience rhetoric.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Poland\u0027s economy is relatively stable with only two recession years (2009, 2020). This supports your family\u0027s long-term planning in Poland.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Poland\u0027s media freedom is moderate with diverse outlets, though government influence persists; seek plural, independent sources and English-friendly coverage.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Poland\u0027s EU-based rules are relatively stable; expect steady policy with manageable bureaucracy for a US family.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Poland\u0027s V-Dem Liberal Democracy Index percentile sits mid-range; political stability is moderate with ongoing reforms.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Poland provides solid family stability; crime levels are lower than the U.S., with safe, family-friendly cities like Warsaw and Krakow.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Poland\u0027s wealth inequality is mid-range (Gini ~30-33). It suggests stable wages and solid family-focused social programs.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    }
+  ]
 }

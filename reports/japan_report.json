@@ -1,5 +1,485 @@
 {
   "version": 2,
   "iso": "JP",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "JPY 1,100,000.00 ($7,333.33)",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "JPY 420,000.00 ($3,000.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "JPY 420,000.00 ($2,800.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "JPY 210,000.00 ($1,400.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "JPY 312,000.00 ($2,012.90)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "JPY 4,500.00 ($30.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "JPY 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "JPY 300,000.00 ($2,000.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "JPY 600,000.00 ($4,000.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "JPY 266,000.00 ($1,900.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "In Japan (JP), immigration and resident registration add paperwork. Expect about 60-80 hours/yr.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "JPY 130,000,000.00 ($866,666.67)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Japan offers city startup visas (e.g., Tokyo) but approvals take months; requires solid plan and funding; entrepreneurship ecosystem is growing.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "17%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Japan (Tokyo area) hosts several game/creative-tech events yearly. Daemon Games could leverage 4\u20135 opportunities to show, network, or pitch.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Tokyo/JP has a decent freelance game talent pool across art, animation, audio, and narrative; English-friendly options exist, though Japanese helps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Japan (Tokyo region) offers several game accelerators (DMM Game Lab, Unity Japan); about 3\u20134 indie options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Japan\u2019s indie scene is growing (BitSummit, Tokyo/Osaka hubs); strong dev culture and co-working spaces, but fewer weekly jams than major US metros.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Japan offers a strong game dev ecosystem (Tokyo/Osaka) with universities, coworking spaces, and funding events, boosting your studio\u0027s growth.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Strong publisher access in Japan (Tokyo): major offices and frequent events like Tokyo Game Show enable direct bizdev opportunities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "10",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "20",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "JPY 1,513,242,707.90 ($9,762,856.18)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "JPY 509,647,600.00 ($3,288,049.03)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "JPY 7,793,109,375.00 ($50,278,125.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Excellent travel access: from Japan (Tokyo area) to major game events like Tokyo Game Show; door-to-door travel is under 4 hours with airport transfer.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Japan\u0027s Tokyo/Osaka game-dev scene is active; expect about 3 in-person events per month for networking and demos.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games can anchor in Japan as a creator of high-growth digital content, delivering local jobs in game development, cloud engineering, and QA while producing culturally resonant titles for domestic and global audiences. The initiative aligns with Japan\u2019s priorities for digital creative industries, regional revitalization, and talent development; it can tap local universities, studios, and government programs for funding, visas, and IP support, with strong demand for bilingual product localization. Actionable steps include establishing a JP hub (office or studio) in a game cluster (Tokyo/Osaka/Kanagawa), pursuing startup/innovation grants and regional visa programs, building partnerships with local tech and academic partners, and recruiting bilingual engineers and designers to accelerate market entry.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "JPY 9,000,000.00 ($60,000.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Japan (JP): expect roughly 30\u201339% of daily interactions in Japanese. English ubiquity is prioritized, with ongoing acquisition of local language.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Japan has limited bilingual/English seats (roughly 10\u201319%). Target international or city schools in JP for early bilingual exposure.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Japan, foreign families often rely on relocation agents and guarantors. Plan for about 7-8 weeks to secure a lease in Tokyo or Osaka.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Japan\u0027s immigration status framework includes visitors, work/family/student visas, permanent residency (\u6C38\u4F4F\u8005), and naturalization/citizenship. Status is determined by the Immigration Services Agency based on visa category, duration and conditions of residence, employment/family ties, language ability, and conduct. Rights gained by higher-status categories include work authorization with fewer restrictions, access to social security and healthcare, and eligibility for government programs; citizenship unlocks full political rights (national and local elections) and a Japanese passport. For our family profile, target long-term residence via skilled/work-based pathways or family ties, then pursue permanent residency, and ultimately naturalization if desired.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Japan\u0027s entrepreneur visa (Business Manager) often runs about 7-8 weeks end-to-end. Solid funding, plan, and local network help meet timelines.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Japan, visa paths without a recognized sponsor are lengthy; expect 21-28 weeks end-to-end for non-sponsor routes.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Japan work visa with a recognized sponsor is typically 7-8 weeks end-to-end. Plan for about two months total.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Japan\u0027s skilled visa routes favor tech pros; with solid job offers, approvals are strong in Tokyo startup hubs; learning Japanese helps long-term stay.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Japan, naturalization typically requires about 5 years of residence. With steady residency and language progress, your family could be eligible in 4-6 years.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Japan offers faster PR for skilled/entrepreneur visas; with your founder profile and family, PR could be in about 3.5 years if criteria are met.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Japan schools may have occasional bullying of white expat kids; anti-bullying programs and bilingual support help.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "JP public schools offer solid primary/secondary outcomes; bilingual exposure possible but limited; expect strong basics and language support.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Japan\u0027s school meals (kyushoku) emphasize balanced plates with fish, rice, vegetables and limited ultra-processed foods; aligns with your kids\u0027 nutrition goals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Japan public schools typically provide about 4-5 hours of English weekly; bilingual aides for core subjects are rare.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Japan offers municipal Japanese-language courses for newcomers. Capacity around 50-69 seats per 100 newcomers yearly, aiding your bilingual goals.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Focus date-night opportunities in Japan on safe, walkable urban cores (Tokyo, Osaka, Kyoto) with English-friendly services. Curate options such as late-dinner experiences in well-lit neighborhoods, scenic riverside or park strolls, private karaoke rooms with English menus, rooftop bars or lounges with city views, and couples\u0027 onsen/spa experiences. Ensure easy transit access and availability of short-notice childcare or babysitting when needed; provide bilingual reservations and menu guidance to reduce friction."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Prioritize family-friendly, English-accessible leisure options within easy transit of urban JP cores (Tokyo, Osaka). Target parks (Yoyogi, Ueno Park, Osaka Castle Park), zoos/aquariums (Ueno Zoo, Sunshine Aquarium, Kaiyukan), and science/museum venues (Miraikan, Osaka Science Museum). Choose venues with stroller access, long hours, multilingual staff, and affordable family passes; map 2\u20133 core venues per city and plan visits around childcare options or flexible work hours."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Japan, pursue English-friendly, family-friendly evening social options (board game caf\u00E9s, community centers, expat meetups) in major cities accessible by rail; arrange a recurring weekly friend night at a suitable venue with multilingual staff, clear pricing, and activities that accommodate both adults and young children."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Japan\u0027s urban areas offer ~22-25 parent-friendly 3rd places per 100k, with many open after 6pm for families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Japan\u2019s transit-first cities (Tokyo/Osaka) are highly walkable with dense rail networks; supports a car-free family lifestyle and strong public services.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Japan\u0027s urban centers offer broad, healthy food options with abundant markets; HEI likely in the mid-to-high 80s.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Japan: ~3-4 hours/month for visas, residence filings, health insurance, and taxes; use bilingual support to keep compliance simple.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Japan\u0027s child allowance (~10k JPY/child/month, about $75) offers modest support for two kids, aligning with this middle-income family\u0027s needs in JP.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Japan municipal daycares/hoikuen often have 4-6 month waitlists; private centers vary. Plan for 4-6 months and seek English-friendly options.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "JPY 27,900.00 ($180.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "JPY 75,000.00 ($555.56)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "JPY 25,000.00 ($166.67)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Japan\u0027s digital government covers most core services online for families, but visa appointments and some enrollments still require in-person visits.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Japan\u0027s universal healthcare offers accessible primary care; expect 1\u20132 day waits for non-urgent visits, with English-friendly clinics in cities.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "JPY 60,000.00 ($400.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "JPY 310,000.00 ($2,000.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "JPY 100,000.00 ($700.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Japan has universal health coverage; healthcare access isn\u0027t employment-bound, via national or employee health insurance with broad access.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1950",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Japan provides up to 52 weeks of parental leave per parent with job protection. Pay replacement is around 60-70% of income.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Japan tax filing for US dual-income families can be time-intensive; expect about 36\u201348 hours/year, often with a tax professional.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "In Japan, urban transit is extensive; in major cities, most residents live within 500 m of frequent service for long hours; great for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "JP public universities have tuition around 16-18% of median net income. Scholarships help international families access higher education.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "In Japan, top universities such as the University of Tokyo rank in the global top 50, offering strong college prospects for your kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Japan offers broad continuing education via universities and local boards; about 9\u201311 accredited adult programs per 100k residents.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Japan\u0027s senior .NET architect demand is solid in Tokyo and other metros. Expect competitive salaries for 20-year pros.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Japan (JP) Rails demand is moderate for 6 years of experience. Expect about 7-9 postings per million residents monthly; Tokyo/Osaka offer the strongest opportunities.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "JPY 15,000,000.00 ($100,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "JPY 7,500,000.00 ($50,000.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "In Japan, seek coastal neighborhoods with reliable public beach access and safe recreation options. Prioritize housing within 30-60 minutes by transit of public beaches in Kanagawa, Shizuoka, Chiba, or Okinawa; verify beach facilities, lifeguard presence, and seasonal closures, and plan for typhoon season and flood risk. Ensure nearby parks and pedestrian-friendly paths to support outdoor life."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "In Japan, fall highs are typically 70\u201375\u00B0F. This aligns with your mild-weather preference.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Japan (JP) offers many days in the 50-85 F range, especially in spring and fall. Summers are often humid, reducing the mild-weather alignment.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Japan offers strong natural beauty. Around urban centers, protected land is about 30-39% within 60 minutes, with easy access to mountains and coastlines.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Excellent nature access in Japan; major cities offer 10\u002B parks \u003E10 acres within 5 km (e.g., Tokyo) for family outings.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Japan (JP) typically 65-69\u00B0F (18-21\u00B0C). This fits your mild climate preference.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Summer highs in Japan commonly reach 86\u201390\u00B0F (Tokyo area). Humidity can be high, which may reduce comfort despite mild temps.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "In Japan (JP), winter highs commonly reach 50-54\u00B0F, reflecting the mild winters typical across many regions.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Japan\u0027s mainstream anti-immigrant rhetoric is modest. Policy emphasizes skilled-worker visas to address aging demographics.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Japan (JP) remains democratically stable; autocratization trend is effectively flat over the last 10\u201320 years.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Japan offers high climate stability (JP) with resilient infrastructure. This aligns with your preference for low risk and mild weather.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Japan\u0027s current political discourse centers on aging demographics and labor shortages, gradual expansion of skilled immigration, and reforms to tax/social security to sustain growth; defense spending and a cautious energy/climate transition remain priority areas, with policymaking characterized by steady, incremental change rather than rapid shifts."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Japan\u0027s economy is moderately stable; few downturn years (2009, 2020) exist, but it\u0027s a mature market with strong social safety nets for families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Japan has high media freedom with independent outlets; coverage is generally reliable for families relocating, though corporate ownership can influence reporting.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Japan shows stable immigration policy with a few reforms (2019 Skilled Worker visa) guiding predictable planning for this family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Japan\u0027s robust institutions and a high LDI percentile (around 90\u002B) indicate strong political stability, supporting a safe, predictable family life in JP.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Japan (JP) has very low violent crime and strong social cohesion, promoting safe family life; healthcare and services are reliable.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "In Japan, wealth inequality is moderate (Gini ~33), suggesting stable social systems and good safety nets for a family relocating from the US.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    }
+  ]
 }

@@ -1,5 +1,483 @@
 {
   "version": 2,
   "iso": "CN",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "CNY 41,200.00 ($5,722.22)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "CNY 16,000.00 ($2,260.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "CNY 18,000.00 ($2,500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "CNY 3,960.00 ($550.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "CNY 13,000.00 ($1,780.82)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "CNY 350.00 ($50.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "CNY 0.00 ($0.00)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "CNY 2,900.00 ($400.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "CNY 32,400.00 ($4,500.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "CNY 12,960.00 ($1,800.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Shanghai visa, registration and tax tasks will drive ~90-120 hours/year; plan ahead for work permits and local filings.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "CNY 5,412,500.00 ($762,324.60)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Shanghai, CN entrepreneurship visa is lengthy and uncertain for new founders. Expect 8-10 months for approval, depending on investment and local policy.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "42%",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- CNY 350,000.00 ($48,611.11) \u2013 Shanghai Cultural and Creative Industry Seed Grant \u2013 Supports early-stage indie studios with local incorporation; funds pre-production and rapid prototyping within 0\u20133 years.\n- CNY 1,200,000.00 ($166,666.67) \u2013 Shanghai Digital Entertainment Production Grant \u2013 Provides matching or full production grants for prototype-through-final-build of narrative-driven titles; requires local spend and cultural content alignment.\n- CNY 2,000,000.00 ($277,777.78) \u2013 National Cultural Innovation Fund for Premium Digital Games \u2013 National-level fund supporting innovation in premium story-driven games; suitable for a 1.5M budget; competitive but attainable with strong proposal and local incorporation.\n- CNY 600,000.00 ($83,333.33) \u2013 Shanghai Creative Industry Incubator Program \u2013 Incubator with cash stipend and in-kind support (office, mentorship, pilot marketing); targets small foreign-founded studios willing to relocate/incorporate.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Shanghai hosts ChinaJoy yearly plus a few smaller game/creative-tech events, about 3 events annually for showcases and networking.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Shanghai has a large, active game talent pool across art/animation/audio/narrative, with strong near-remote freelance options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Shanghai has a handful of game-focused accelerators and indie hubs that mentor early-stage studios. About 4 viable programs exist locally.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Shanghai\u0027s indie game scene is growing, with studios and meetups. Co-working hubs support founders, though it\u0027s still maturing.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Shanghai\u0027s partner ecosystem is rich. It has top universities, cultural/tech partners, and coworking hubs with active game grants and events.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Shanghai has strong publisher access with local offices of HoYoverse/NetEase. Events like ChinaJoy boost opportunities for Trey\u0027s game startup in China.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "4",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "22",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "CNY 66,582,000.00 ($9,247,500.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "CNY 18,420,750.00 ($2,558,437.50)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "CNY 372,564,168.75 ($51,036,187.50)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Shanghai, door-to-door travel to major game events typically runs around 20\u201324 hours. In-person attendance is therefore challenging.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Shanghai, China hosts a growing game dev scene with regular local meetups and events; about 2 per month on average.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Establish Shanghai as Daemon Games\u0027 hub for high-skill game development and digital media, delivering local jobs, technology transfer, and culturally resonant outputs for domestic and international markets. The narrative should highlight partnerships with Shanghai universities and tech parks, bilingual talent pipelines, and access to grants/incubators, aligning with Shanghai\u0027s digital economy growth and talent-attraction priorities. Propose streamlined visa pathways, a 2-3 year hiring and IP-output roadmap, and measurable milestones (jobs created, partnerships formed, and IP/licensing deals) to satisfy authorities."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "CNY 435,000.00 ($60,000.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Shanghai, CN: English-ubiquity valued; expect ~40% interactions in Mandarin (admin/healthcare/school); family will learn local language.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Shanghai has many private bilingual preschools with English tracks, but local public kindergartens are Mandarin-only. Bilingual routes often cost more.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Shanghai, China: lease secured in about 3 weeks via expat brokers; family-friendly districts with parks and access to good schools.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "China (Shanghai) immigration status and rights: Foreign nationals typically enter on a Z/work visa tied to a residence permit; permanent residency (\u5916\u56FD\u4EBA\u6C38\u4E45\u5C45\u7559) is rare, and citizenship through naturalization is not the norm. Key rights granted by these statuses include legal work authorization and lawful residence; access to public services and education in Shanghai is linked to residency status and hukou. Practical steps: determine the best pathway (employer sponsorship Z visa \u002B residence permit, or family/talent programs), secure employer support, prepare required documents, apply for the appropriate visa and residence permit, anticipate hukou implications for schooling and housing, maintain visa renewals and police registrations, and consult immigration counsel to align with family priorities (schools, healthcare, work).",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Shanghai, China entrepreneur route is lengthy and uncertain; expect 21-28 weeks end-to-end for self-employment visas.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Shanghai visa path without a recognized sponsor is lengthy for first-time US applicants; expect 21 to 28 weeks end-to-end with delays.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Shanghai, CN: with a recognized sponsor, work visa for first-time US applicants typically 7-8 weeks end-to-end.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Shanghai grants active talent programs and a robust startup ecosystem for skilled immigrants. Expect visa steps and some language onboarding.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Shanghai, China, there\u0027s effectively no naturalization path for your US family; citizenship is unlikely; focus on visa routes and long-term residency instead.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Shanghai, China: for a US-based entrepreneur/family, PR is lengthy and unclear; expect \u003E10 years or no clear path.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "In Shanghai, international schools tend to have low bullying risk for expat kids; diverse staff and programs support inclusion; rare incidents.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Shanghai\u0027s PISA results place it among the global top. Expect strong public schools and solid international options for your kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Shanghai school meals aim for balanced nutrition with veggies and grains; ultra-processed foods are limited, HEI around 80; review your child\u0027s menu.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Shanghai public schools typically offer around 4 hours per week of English; bilingual aides in core subjects are limited.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Shanghai, China provides strong language integration with abundant Mandarin courses for newcomers; great support for expat families\u0027 kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Shanghai date-night options should be family-friendly or support trusted babysitting: target early-evening dinners in Jing\u2019an or Xintiandi, twilight Bund or Huangpu River strolls, and venues with kids\u2019 activity zones or babysitting services; ensure English-friendly staff and convenient transit from your base."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Plan family activities in Shanghai that mix indoor/shaded outdoor options to beat humidity: visit kid-friendly venues such as Shanghai Science and Technology Museum, Shanghai Natural History Museum, Shanghai Ocean Aquarium, and Shanghai Zoo; pair with stroller-friendly parks like Century Park or Jing\u2019an Park during cooler mornings or late afternoons; choose English-friendly venues with signage/audio guides and connect with local expat/parent groups for bilingual, affordable activities and childcare options; ensure easy MRT access and keep a slower, balanced pace for Trey and Anduin."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Identify English-friendly, family-conscious evening social options in Shanghai\u2019s expat-friendly neighborhoods (Xuhui, Jing\u2019an, Huangpu). Target venues with reliable Wi\u2011Fi, safe walkability, and flexible hours for parents\u2014board-game cafes, casual expat meetups, and family-friendly community events\u2014and schedule times that minimize bedtime disruption while offering kid-friendly activities when possible."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Shanghai offers many after-6pm kid-friendly venues (malls, parks, playspaces) with supervision; about 18\u201321 per 100k residents.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Shanghai\u0027s transit-first, walkable neighborhoods enable 60-69% car-free trips; strong metro and bike lanes suit a family prioritizing low-car, urban access.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Shanghai offers broad healthy food access with reliable fresh produce and diverse options, supporting the family\u0027s nutrition.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "In Shanghai, China, expect 5-8 hours/month for visas, permits, and residency tasks; plan for local admin and cross-border tax setup.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Shanghai, China offers virtually no monthly per-child cash for middle-income families; benefits are minimal.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Shanghai offers expat-friendly preschools. Expect 2-3 months to secure slots for both kids.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "CNY 2,000.00 ($285.71)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "CNY 4,000.00 ($555.56)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "CNY 3,000.00 ($416.67)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Shanghai, CN offers online resident services. However, foreign residency/visa tasks still require in-person visits; about 40-50% online.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Shanghai has top-tier hospitals and international clinics; expect 5-7 day waits for primary care, with English services available but pricier.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "CNY 3,000.00 ($416.67)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "CNY 12,600.00 ($1,750.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "CNY 6,650.00 ($950.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Shanghai, China: healthcare is moderately tied to employment; locals rely on employer plans, expats often use private insurance, job changes impact coverage.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2080",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Shanghai, CN: ~14 weeks maternity leave at 100% pay; ~2 weeks paternity leave; average per-parent leave ~8 weeks.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In Shanghai, expat dual-income tax filing is moderate. Plan about 25-35 hours/year.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Shanghai offers dense transit: ~90%\u002B live within 500m of frequent transit (\u003C=10-min headways) for 16\u002B hours; ideal for a family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Shanghai, CN: international public-university tuition is typically 30\u201360k RMB/year, roughly 20% of the local median household net income.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Shanghai has top-50 global universities (e.g., Fudan) with English-taught programs, offering strong college options for bilingual families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Shanghai offers abundant accredited adult programs through top universities and community providers. It also features bilingual courses and remote options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Shanghai has about 17-20 senior .NET architect postings per million; solid match for Trey\u0027s .NET/Azure skills and local MNC roles.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Rails postings in Shanghai, China are scarce (1-3 per million/month) for 6\u002B years\u0027 experience; consider alternative stacks.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "CNY 720,000.00 ($100,699.30)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "CNY 420,000.00 ($58,333.33)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Beaches are accessible near Shanghai (coastal areas within 1-2 hours), but summers are hot and humid; plan beach activities for spring/fall or early mornings. Prioritize homes with strong air conditioning and dehumidification, good transit to coastal zones, and nearby parks; ensure reliable broadband and family-friendly facilities to support a beach-friendly urban lifestyle.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Shanghai fall highs typically reach 70\u00B0F\u201375\u00B0F. This aligns with your mild-weather preference for outdoor time in autumn.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Shanghai, China experiences hot, humid summers; mild, low-humidity days (50-85\u00B0F) are limited.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "In Shanghai, China, expect ~10-14% protected land within 60 minutes; urban core with lakes and Chongming wetlands offer pockets of nature.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Shanghai offers 6-7 parks over 10 acres within 5 km of central areas. That gives your family frequent, easy outdoor options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Shanghai spring highs average 65\u201369\u00B0F; many days 60\u201370\u00B0F, with occasional 70\u201375\u00B0F.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Shanghai summer highs typically 91-95\u00B0F (33-35\u00B0C) with high humidity. This aligns with a 6 rating.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Shanghai, CN are typically 46-49\u00B0F, indicating a mild winter suitable for family outdoor time.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Shanghai, CN: Anti-immigrant rhetoric isn\u2019t a central mainstream issue; focus is stability, growth, and foreign investment.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Shanghai, CN shows sustained autocratization over 10-20 years per neutral measures. Governance tightened civil liberties in practice.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Shanghai, CN shows mid-range climate stability; humidity and typhoons noted, but overall resilience matches your mild-weather preference.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Stable governance and social harmony drive national discourse, paired with steady economic growth, regulation of tech and real estate, and centralized leadership. Emphasis on self-reliance in technology, green development, and common prosperity to address inequality, while security and information control frame public narratives. For Shanghai, this means prioritizing stable urban governance, affordable housing measures, innovation and digital infrastructure, and alignment with central policy directives while maintaining social cohesion.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Shanghai, CN shows strong economic stability with 0 negative growth years in the past 20 years; a diversified tech/services base supports families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Shanghai, China: media freedom is tightly restricted; state control and censorship limit independent reporting and online voices.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Shanghai, China has a generally stable but evolving immigration policy; expect periodic updates and ongoing paperwork.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Shanghai, CN has a low liberal-democracy percentile (LDI ~10-19). This aligns poorly with a family seeking resilient democracies and civil liberties.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Shanghai typically records well under 200 violent crimes per 100k, offering strong safety and family stability for your kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "China\u0027s wealth inequality is moderate overall (Gini ~38-41); Shanghai\u0027s urban gaps persist amid rapid growth.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    }
+  ]
 }

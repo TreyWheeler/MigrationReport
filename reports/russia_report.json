@@ -1,5 +1,484 @@
 {
   "version": 2,
   "iso": "RU",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "RUB 420,000.00 ($3,818.18)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "RUB 150,000.00 ($2,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "RUB 230,000.00 ($2,090.91)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "RUB 75,000.00 ($714.29)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "RUB 104,000.00 ($1,000.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "RUB 8,000.00 ($72.73)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "RUB 15,000.00 ($136.36)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "RUB 110,000.00 ($1,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "RUB 440,000.00 ($4,000.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "RUB 100,000.00 ($952.38)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Russia (RU) immigration for US citizens likely requires ~120\u2013150 hrs/year of admin; expect substantial paperwork and permits.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "RUB 105,750,000.00 ($961,363.64)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "20%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Russia startup visa: expect 3-4 months; Moscow\u0027s tech scene offers support.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Russia\u0027s major hubs (Moscow, Saint Petersburg) host several game/dev events yearly. Daemon Games could target around 5 events annually.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Russia has a solid freelance game talent pool (art/animation/sound/narrative) in Moscow and Saint Petersburg; near-remote options exist, English varies.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Russia has limited game-specific incubators; Moscow offers a couple general accelerators (Skolkovo, IIDF) that can mentor indie studios.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Moderate indie scene in Russia (Moscow and Saint Petersburg) with jams and hubs. Strong community, but funding and scale are limited.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Russia\u0027s Moscow/St. Petersburg offer strong universities and tech hubs (MSU, Skolkovo) and coworking spaces for game studios. Sanctions may constrain cross-border work.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Russia (Moscow) offers multiple publishers with local offices and events; majors visit opportunities exist, though international travel can slow deals.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "4",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "15",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "RUB 1,199,280,000.00 ($10,902,545.45)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "RUB 403,457,000.00 ($4,034,570.24)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "RUB 1,884,608,000.00 ($17,132,800.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Kansas City, door-to-door to GDC (San Francisco) is about 5-6 hours. This falls in the 4.1-6 hour window.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Russia\u0027s game-dev scene is sparse; Moscow and St. Petersburg host few in-person events, mostly annual, with limited ongoing local community activity.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games would establish a Russia-based studio that creates high-tech jobs in game development, cloud tooling, and QA, while delivering local IP and building a talent pipeline through university and training-partner collaborations. The initiative aligns with Russia\u0027s digital economy expansion and creative industries priorities and can leverage government grants, tech zones, and tax incentives to maximize regional impact and knowledge spillovers."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "RUB 2,250,000.00 ($25,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Russia, about 40-49% of interactions may require Russian; English is valued and you\u0027ll learn Russian.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "In Russia (RU) bilingual/English tracks in public schools are limited; about 20-29% of seats, higher in Moscow and other major cities.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Russia move: expect lease in about 7-8 weeks in Moscow/St. Petersburg. Use agents, focus on family-friendly neighborhoods with parks.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Russia offers several immigration statuses with defined paths and rights: 1) Temporary Residence Permit (\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u043D\u0430 \u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0435 \u043F\u0440\u043E\u0436\u0438\u0432\u0430\u043D\u0438\u0435) \u2014 enables lawful residence in a specified region for a defined purpose, often linked to employment or investment; issued for a limited period and renewable, with potential progression to permanent residence. 2) Permanent Residence Permit (\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u043D\u0430 \u043F\u043E\u0441\u0442\u043E\u044F\u043D\u043D\u043E\u0435 \u043F\u0440\u043E\u0436\u0438\u0432\u0430\u043D\u0438\u0435) \u2014 long-term residency granting work rights (often without a separate work permit), access to public services and social benefits, and a path to citizenship after meeting residence criteria. 3) Citizenship (\u0413\u0440\u0430\u0436\u0434\u0430\u043D\u0441\u0442\u0432\u043E \u0420\u0424) \u2014 naturalization after meeting residence requirements (commonly 5 years, or shorter in certain cases such as marriage to a Russian citizen); provides a Russian passport, full political rights, and broad long-term privileges. Dual citizenship is permitted with notification per rules. Across statuses, rights typically include legal work, access to healthcare and education, social benefits, and property ownership under applicable limits. Transitions require meeting residency, language/integration, and renewal requirements. For planning, map a progression from temporary to permanent to citizenship, align with family timelines (two adults, two young children), and coordinate with employer sponsorship, language training, regional residency rules, and documentation readiness.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Russia startup visas for entrepreneurs tend to run 17-20 weeks end-to-end; expect bureaucracy and delays for a KC-based family.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "US family can usually obtain a Russian tourist visa in 2\u20134 weeks via hotel/tour operator invitation; no recognized sponsor needed, but delays possible.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Russia work visa with a recognized sponsor could run about 7-8 weeks end-to-end for this US family; prepare sponsor, docs, and local registrations.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Russia (RU) offers skilled-immigrant routes but requires sponsorship and Russian language; expect moderate approval (~60\u201370%).",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Russia typically requires about 5 years of residence for citizenship; for this US family, plan on ~5 years, factoring language and visas.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Russia typically requires about 5 years of continuous residence for PR for skilled workers and entrepreneurs. This US family fits a 7 on the scale.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "6: In RU, Western immigrant kids may face occasional xenophobia; choose inclusive, secular schools with language support and anti-bullying policies.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Russia offers mid-to-high global education percentile; Moscow and big cities have solid public and international programs, but quality varies by region.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "RU school meals are variable; in Moscow, HEI often mid-60s to 70s with some ultra-processed items, so prioritize home-balanced meals.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Russia public schools typically provide English instruction around 2-3 hours per week; bilingual aides supporting core subjects are not common.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Russia provides moderate language courses for newcomers. Access varies by city, with major hubs offering youth programs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Russia (RU): prioritize intimate, privacy-friendly date-night options in major cities with English-friendly services. Actionable ideas include romantic riverside walks and sunset viewpoints (Moscow River embankments, St. Petersburg canals), reservations at quiet, English-friendly restaurants or cafes, after-hours cultural events at indie cinemas or private galleries, and bilingual guidance for transit and entry; ensure safety, accessibility, and alignment with local norms."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Russia, prioritize affordable, family-friendly leisure that supports language exposure and community building: use city parks and playgrounds for daily activity; visit children\u2019s museums and science centers and libraries with kids\u2019 programs; participate in weekend family events at community centers; enjoy seasonal outdoor activities such as skating in winter and nature walks in milder months; seek English-friendly or bilingual programs and join local parent networks for playdates and childcare options; target urban neighborhoods with good schools, services, and broadband access to support remote work and online learning.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Russia (RU), prioritize Moscow and Saint Petersburg for evening social options: family-friendly board game cafes, kid-friendly community center events, and expat or language-exchange meetups after work hours; ensure venues offer English or bilingual hosts, reliable transit, and safe, walkable areas; coordinate with local expat groups via Telegram/Meetup to join scheduled night events."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Russia\u0027s big cities have many after-hours family venues; major hubs like Moscow and St. Petersburg offer about 22-25 per 100k residents.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Russia\u0027s major cities (RU) feature strong transit and walkable cores; roughly half trips are car-free, aligning with the family\u0027s urban, walkable preferences.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "In Russia\u0027s major cities (e.g., Moscow), healthy food access is reliable (HEI ~80\u201384). This supports family meals and QoL goals.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Russia visa/registration for a US family will need upfront planning; ongoing bureaucracy ~2-3 hrs/mo (schools, healthcare, propiska).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Russia provides modest per-child monthly benefits for middle-income families; roughly $25-40 per child per month in practice.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Russia (RU): in major cities, daycare waits are typically 6\u20139 months; plan accordingly for the 1-year-old.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "RUB 25,000.00 ($250.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "RUB 60,000.00 ($545.45)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "RUB 28,000.00 ($350.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Russia RU: for the family, core resident services online end-to-end ~50-59%; Gosuslugi helps, but visa \u002B residence registration often require in-person steps.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Russia offers universal healthcare; in major cities, primary care wait times are typically 5-7 days; private clinics provide faster access at higher cost.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "RUB 30,000.00 ($400.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "RUB 60,000.00 ($545.45)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "RUB 55,000.00 ($550.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Limited employment tie; Russia offers public healthcare for residents via CHI, with private plans common for expats - coverage persists across jobs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "4680",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Russia offers about 20 weeks of maternity leave at 100% pay with job protection per parent, placing it in the 16-23 week band.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Russia (RU) uses a 13% flat tax. US cross-border filings for a dual-income startup family can run ~36-48 hours/year.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "RU transit access varies; Moscow\u0027s metro supports family life with 10-min headways for 16\u002B hours, but nationwide coverage is about 60-69%.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Russia offers subsidized public university spots for citizens; for internationals costs exist but scholarships and English options help keep college affordable.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Russia\u0027s top universities (MSU in Moscow) sit in the 101\u2013150 global range; solid, affordable options for bilingual families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Russia has mixed continuing education access; Moscow and Saint Petersburg offer many accredited programs, while rural areas have gaps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Russia\u0027s IT hubs (Moscow/SPB) have solid senior .NET architect demand. Expect about 9\u201312 postings per million residents with competitive metro salaries; remote options exist.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Russia (RU): Rails postings modest (4\u20136/mn); Moscow/St. Petersburg have occasional roles, but overall demand remains limited.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "RUB 5,400,000.00 ($60,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "RUB 2,400,000.00 ($26,666.67)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "In Russia, beach-life options are regional: target coastal towns on the Black Sea and Baltic Sea that offer family-friendly beaches, healthcare access, and reliable broadband. Assess seasonal beach access, safety, and outdoor amenities; consider climate variability (some areas hot in summer, others milder) and language needs; verify visa/immigration implications for longer stays and ensure housing includes climate control and dependable internet in coastal communities."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Russia average about 60\u201364\u00B0F, a mild autumn. This suits the family\u0027s climate preference.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Russia has limited mild days: about 150\u2013180 days/year with highs 50\u201385\u00B0F and humidity under 70%; winters are long and cold.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Russia offers substantial natural beauty; many regions have protected lands within 60 minutes, with highlights near Sochi and Lake Baikal.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "In Russia\u0027s major cities, 8\u20139 parks over 10 acres are typically within 5 km, enabling ample outdoor time for your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Russia (Moscow region) hover around 55-59\u00B0F. Overall, it offers a mild, comfortable season for the family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Russia summers typically reach 76-80\u00B0F. This aligns with your mild, low-humidity preference.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "In Russia, winter highs are typically 25\u00B0F\u201329\u00B0F. Pack warm layers and be prepared for cold, windy days.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Russia: Anti-immigrant rhetoric is present in mainstream politics but not dominant; immigration is framed around sovereignty and security.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Russia shows autocratization over the last 10-20 years, with tighter civil liberties and media control; democratic norms have eroded.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Russia shows mid-range climate stability; urban centers often have milder seasons, but winters can still be harsh across many regions.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Russia\u0027s dominant political narratives focus on sovereignty and security, an assertive foreign policy against perceived Western meddling, and a rallying of national unity. Economic messaging emphasizes resilience under sanctions, energy leadership, and state-led development. Domestic rhetoric stresses stability, anti-corruption campaigns, and loyalty to the regime, with controlled media and limited political pluralism."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Russia (RU) has ~5 recession years in 2005-2024. Sanctions and reforms create uneven growth; plan with flexibility.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Russia\u0027s media freedom is very low (bottom ~10-15%); state control and censorship limit independent outlets across RU.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Russia RU offers moderate migration stability for US families; expect occasional visa tweaks but no constant overhauls; plan for bureaucratic steps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Russia\u0027s V-Dem Liberal Democracy percentile is very low, signaling weak institutions and higher autocratization risk.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Russia (RU) shows moderate social stability. Urban crime runs around 250-299 per 100k, so choose reputable neighborhoods with active expat networks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Russia\u0027s wealth inequality is moderate (Gini ~38\u201341). Plan for stable middle-class living with varied regional costs and services.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    }
+  ]
 }

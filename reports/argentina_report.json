@@ -1,5 +1,495 @@
 {
   "version": 2,
   "iso": "AR",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "ARS 875,000.00 ($2,500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "ARS 1,280,000.00 ($3,200.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "ARS 230,000.00 ($657.14)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "ARS 315,000.00 ($900.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "ARS 416,000.00 ($1,188.57)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "ARS 9,500.00 ($27.14)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "ARS 30,000.00 ($85.71)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "ARS 350,000.00 ($1,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "ARS 1,225,000.00 ($3,500.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "ARS 150,000.00 ($750.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Argentina (AR) requires careful residency/tax paperwork. Expect about 60-89 hours/year of compliance for this family.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "ARS 60,580,000.00 ($173,086.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "35%",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Argentina\u0027s startup visa path may take 5-6 months; leverage Buenos Aires incubators and grants to support Trey\u0027s entrepreneurial goals.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "33%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Buenos Aires, Argentina has a growing game/dev scene with several local meetups and a few annual events; solid but not dense.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Argentina (AR) has a growing indie scene; Buenos Aires hosts artists, animators, and writers available for remote freelance game work.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Buenos Aires, Argentina has 1 game-focused incubator; most are general tech accelerators. Limited mentorship for indie studios like Daemon Games.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Buenos Aires, Argentina has a moderate indie scene: several studios, regular jams, and coworking hubs. Online networks keep it active.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Argentina\u0027s game ecosystem, led by Buenos Aires, has universities, coworking spaces, and tech orgs collaborating with studios. Solid partner depth with room to grow.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Buenos Aires has a budding indie-publisher scene and regular meetups; local access is moderate; majors still require regional or international trips.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "1",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "15",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "ARS 3,391,565,625.00 ($9,690,187.50)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "ARS 1,038,660,000.00 ($2,967,600.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "ARS 2,921,380,000.00 ($8,346,800.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Argentina (AR): from Buenos Aires to major game events (Gamescom/GDC) is roughly 18\u201320 hours door-to-door.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Argentina\u0027s indie game-dev scene is modest, centered in Buenos Aires with occasional meetups. It\u0027s growing but less vibrant than major US hubs.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games can anchor Argentina\u0027s digital-creative economy by creating skilled local roles in game development, design, QA, and marketing; forging university partnerships for talent pipelines; and producing bilingual, culturally relevant IP that expands cultural exports. The initiative aligns with national priorities on entrepreneurship, innovation, education, and inclusive growth, and can leverage grants, visa pathways, and remote/hybrid work to build a resilient local tech ecosystem.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "ARS 720,000.00 ($2,057.14)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Argentina (AR): ~60-69% of daily interactions require Spanish; English is common in tech, but learning Spanish is essential for life.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "In Argentina, English/bilingual tracks are mainly in private urban schools; about 40\u201350% of seats may be bilingual, matching your plan.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Housing is likely to be secured in about 5-6 weeks in Argentina, especially in Buenos Aires. Use expat-friendly agencies and be prepared for guarantor or deposits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Argentina (AR), immigration statuses include temporary residency (residencia temporaria) and permanent residency (residencia permanente), granted by the Direcci\u00F3n Nacional de Migraciones through visa routes such as work, study, or family reunification; naturalization leads to citizenship (ciudadan\u00EDa argentina) after meeting residence and integration requirements. Temporary and permanent residency provide work authorization and access to public healthcare, education, and some social benefits; permanent residency offers longer renewals and a clearer path to citizenship, while citizenship confers full civil and political rights, including the ability to vote and hold a passport. Action plan: determine the appropriate visa path, prepare required documents (passport, birth and marriage certificates, police background check, proof of finances or sponsorship, health clearance), submit applications to the Direcci\u00F3n Nacional de Migraciones (DNM), maintain lawful status, and pursue naturalization when eligible."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Argentina\u0027s entrepreneur visa routes are slow; end-to-end timelines often exceed 28 weeks\u2014expect months of processing and bureaucratic steps.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Argentina non-sponsored visa timelines are lengthy and uncertain; plan 21-28 weeks end-to-end.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Argentina (AR): with a recognized sponsor, visa end-to-end ~13-16 weeks; expect local bureau delays in Buenos Aires.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Argentina offers skilled-work visas with growing startup support; Buenos Aires and C\u00F3rdoba host strong ecosystems, though bureaucracy can slow approvals.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Argentina typically requires ~2 years of permanent residency before citizenship; your U.S. family could be eligible in roughly 2-3 years.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Argentina usually grants permanent residency after ~2 years of temporary status for skilled workers and entrepreneurs. Startup profile fits; plan ~2 years.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Argentina\u0027s urban international schools (e.g., Buenos Aires) with English programs offer supportive, secular settings. For caucasian US students, bullying risk is low in these schools.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Argentina\u0027s K-12 education is mid-range (roughly 40-50th percentile); urban centers offer bilingual/international options amid public-school variability.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Argentina\u0027s school meals align with local HEI around 75-79. Ultra-processed foods persist; push for more fruit, vegetables, and whole grains.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Argentina\u0027s public schools typically provide 2\u20133 hours per week of English instruction; bilingual aides are not widely available for core subjects.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Language integration services in Argentina are moderate; major cities like Buenos Aires offer newcomer Spanish classes, though waitlists can occur.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Argentina date nights: book tango milongas with live music; enjoy a traditional parrilla dinner with Malbec; stroll Puerto Madero at sunset or explore cafes and bars in Palermo/San Telmo; consider a wine-tasting trip to Mendoza or Cafayate or an estancia overnight; arrange childcare in advance when needed for adult-only outings."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Argentina, focus on family-friendly urban parks and accessible cultural venues in major cities. Plan weekly park days at Bosques de Palermo or Costanera Sur Ecological Reserve with playgrounds and shaded paths; monthly visits to interactive kids venues such as Museo de los Ninos (Abasto) and Planetario Galileo Galilei for family shows; include easy day trips to the Tigre Delta for boat rides; add beginner nature walks at local ecological reserves; seek bilingual early childhood programs and affordable childcare in safe, walkable neighborhoods with reliable broadband and nearby healthcare options."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Identify family\u2011friendly, safe nighttime social options in Argentina (prioritize Buenos Aires and other large urban centers): seek early\u2011evening venues (5\u20139pm) such as cafes with play areas, parks hosting twilight events, and community centers with live music or open\u2011mic nights; ensure venues offer reliable wifi for remote work when needed, affordable pricing, good transit access, and strong security to minimize risk.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Buenos Aires and other Arg cities offer several parent-friendly 3rd places after 6 pm with staff supervision, supporting our after-work family time.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Argentina\u0027s urban centers like Buenos Aires offer walkable cores and strong transit; expect about 60-69% car-free trips.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Argentina offers broad healthy food access in major cities like Buenos Aires; rural areas may face price volatility.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Argentina requires ongoing visa/tax/school paperwork. Expect ~4-5 hours/month of bureaucracy.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Argentina: middle-income families receive modest per-child benefits; typical monthly support is around USD 25-40.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Argentina (Buenos Aires) daycares often have 4-6 month waitlists; private bilingual centers exist for English exposure but cost more.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "ARS 87,500.00 ($250.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "ARS 150,000.00 ($500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "ARS 140,000.00 ($400.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Argentina\u0027s core services are ~50-60% online; visa, school enrollment, and healthcare enrollment still require in-person steps.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Argentina\u0027s public healthcare is universal, but primary care waits often 11\u201315 days; private care is faster but pricier.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "ARS 70,000.00 ($200.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "ARS 100,000.00 ($285.71)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "ARS 122,500.00 ($350.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Argentina provides universal/public healthcare; access isn\u0027t dependent on employment, supporting your family even if job changes.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1925",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Argentina provides about 13 weeks of paid maternity leave (100%) with job protection. Paternity leave is brief.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Argentina \u002B US expat taxes demand substantial yearly filing; expect professional tax help annually.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "In Argentina\u0027s urban centers (e.g., Buenos Aires), transit access is strong. Many residents live within 500 m of transit with frequent headways for 16\u002B hours.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Public universities in Argentina are tuition-free; aligns with your high education priority and family-friendly context.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Argentina\u0027s top universities, such as UBA in Buenos Aires, rank 51\u2013100 globally. This supports affordable, bilingual college pathways for your family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Argentina has robust continuing education with many adult programs in major cities; estimated 12-14 per 100k residents.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Argentina\u0027s senior .NET architect demand is moderate; remote work and local IT firms offer roles for 20\u002B years\u0027 experience.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Moderate Ruby on Rails demand in Argentina; Buenos Aires and other hubs show about 15-19 postings per million, suitable for a 6-year Rails track.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "ARS 36,000,000.00 ($60,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "ARS 16,200,000.00 ($18,000.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "AR Beach Life: Identify Atlantic coast towns with mild, low-humidity summers, safe, family-friendly beaches, and walkable seaside neighborhoods. For each option, assess beach safety (lifeguards, water quality), accessibility (paths, restrooms, shade), and nearby parks; confirm reliable broadband and proximity to schools, childcare, healthcare, and urban amenities for remote work and family life.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Argentina typically reach 70\u00B0F-75\u00B0F. It is mild autumn weather suitable for outdoor plans.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Argentina\u0027s temperate regions yield about 180-219 days/year with 50-85\u00B0F highs and humidity under 70%, good for outdoor living.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Argentina\u0027s natural beauty is vast (Patagonia, Iguaz\u00FA); around cities like Buenos Aires, protected lands within 60 minutes are modest.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Buenos Aires, AR offers 8-9 parks \u003E10 acres within 5 km (e.g., Bosques de Palermo, Reserva Ecol\u00F3gica) for your family\u0027s outdoor time.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Argentina spring highs typically 70\u201375\u00B0F (21\u201324\u00B0C), a mild range ideal for family life in AR.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Argentina summers (AR) typically reach 81-85\u00B0F in many areas. Coastal zones can reach 86-90\u00B0F with humidity; plan for indoor comfort.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Argentina typically reach 55\u00B0F\u201360\u00B0F. This aligns with your mild climate preference for a comfortable, low-stress winter.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Argentina\u0027s mainstream politics shows low salience of anti-immigrant rhetoric. In AR, migration debates are not central to daily life for families like yours.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Argentina (AR): very mild autocratization trend (0.01\u20130.05) over 10\u201320 years; democracy remains broadly stable for the family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Argentina\u0027s climate stability is moderate to favorable; temperate zones offer milder weather that suits family life and planning.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Argentina\u2019s dominant political narratives center on inflation and peso volatility, IMF debt negotiations, and fiscal reform aimed at preserving social protections while trimming subsidies. Governance and corruption reform are recurring themes, with sharp rivalry between Peronist and opposition blocs. Energy pricing and subsidies, food and agricultural policy, and regional disparities (urban vs. rural) frequently shape policy debates and electoral dynamics.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Argentina (AR) has had several negative real GDP years over the last two decades, signaling notable economic volatility that could affect stability.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Argentina\u0027s press freedom is mid-range (RSF ~40th percentile); expect mixed independence\u2014prioritize diverse, independent AR media.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Argentina\u0027s immigration policy changes moderately often. Expect occasional form updates but no rapid, sweeping overhauls.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Argentina\u0027s V-Dem Liberal Democracy Index sits in the mid-60s to low-70s. This indicates moderate political stability suitable for family planning.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Argentina\u0027s urban safety varies; choose stable, family-friendly neighborhoods in Buenos Aires or C\u00F3rdoba with strong community ties.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Argentina\u0027s wealth inequality is in the mid-40s (Gini ~42), signaling gaps in income and access. Public services and stable institutions support families.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    }
+  ]
 }

@@ -1,5 +1,492 @@
 {
   "version": 2,
   "iso": "AU",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "AUD 7,200.00 ($4,680.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "AUD 2,900.00 ($1,914.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "AUD 3,200.00 ($2,112.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "AUD 7,000.00 ($4,620.00)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "AUD 3,500.00 ($2,310.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "AUD 150.00 ($99.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "AUD 650.00 ($429.00)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "AUD 3,000.00 ($1,980.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "AUD 9,200.00 ($6,072.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "AUD 3,800.00 ($2,508.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Melbourne, AU is fairly digital for gov tasks. Expect roughly 20-29 hours/year of admin, fitting a low-bureaucracy aim.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "AUD 1,112,500.00 ($734,250.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Melbourne has a vibrant game/tech startup scene and visa routes for founders. Expect about 3-4 months for entrepreneurship visa approval.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "23%",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- AUD 391,500.00 ($258,390.00) \u2013 R\u0026D Tax Incentive \u2013 refundable offset for eligible R\u0026D expenditures in narrative game development; highly relevant to small/early-stage studios incorporating in AU, with plan to apply during 0\u20133 year development.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Melbourne, AU has about 4 annual game/creative-tech events (MIGW, Pause Fest) for demos and networking; family-friendly venues nearby.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Melbourne offers a growing freelance game talent pool across art, animation, sound, and narrative; strong near-remote options support Trey\u0027s studio needs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Melbourne, AU has several game-friendly incubators/accelerators (roughly 4-5 programs) offering mentorship, space, or funding to indie studios.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Melbourne, AU hosts a solid indie scene: many small studios, frequent jams (Global Game Jam Melbourne), and active game-dev hubs.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Melbourne has a strong game-dev ecosystem: RMIT/Monash collaborations and ACMI support. Creative Victoria and coworking hubs enable funding and events.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Melbourne\u0027s growing game-dev scene and regular events give moderate access to publishers/bizdev; regional hubs nearby help outreach.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "1",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "20",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "AUD 8,667,656.25 ($5,720,653.13)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "AUD 2,368,660.00 ($1,563,315.60)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "AUD 71,582,000.00 ($47,721,333.33)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Melbourne, Australia, door-to-door to GDC or Gamescom is typically 26\u201332 hours. Long-haul travel challenges family attendance.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Melbourne, Australia has an active indie game dev scene; regular meetups and Melbourne International Games Week. About 2 in-person events per month.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Melbourne-based Daemon Games would anchor a mid-size studio that creates local software and creative-tech jobs, produces Australian-made cultural output, and accelerates cloud-enabled game development. The project aligns with Australian and Victorian priorities on job creation, innovation and R\u0026D, regional growth, and accessible visa/grant pathways to attract skilled developers and researchers.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "AUD 75,000.00 ($49,500.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Melbourne, Australia is English-dominant; adults will mostly interact in English, with minimal extra language learning needed.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Melbourne schools offer some bilingual or language-immersion tracks. Most seats are English-only, so bilingual options are limited (about 20-29%).",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Melbourne, AU offers family-friendly inner-suburban living near parks and good schools; expect about 4 weeks to secure a lease with solid references.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Australia offers two primary long-term statuses: Permanent Residency (PR) and Citizenship. PR is granted through skilled, family, or regional/employer-sponsored pathways; eligibility is determined by occupation, age, English proficiency, health, character, and, for many streams, a points-based assessment. PR holders have work rights nationwide, access to Medicare (with waiting periods for some benefits) and a pathway to citizenship and sponsorship of relatives. Citizenship is granted after meeting residency requirements as a PR, plus good character and language requirements, and provides full civic rights including voting and an Australian passport. For Melbourne, map Trey and Sarah\u0027s skills to viable PR streams (e.g., skilled migration or employer sponsorship), estimate points, prepare documentation, connect with migration professionals, and plan timelines from PR grant to potential citizenship; coordinate healthcare enrollment and explore grants or entrepreneur-friendly programs to support a smooth transition."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Melbourne, AU: Entrepreneur visa processing for startups often runs 21-28 weeks end-to-end.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "US family, no sponsor: visa processing 21\u201328 weeks end-to-end; in Melbourne, AU expect state invitations and medicals to add time.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Melbourne, AU: with a recognized sponsor, visa timeline ~11-12 weeks end-to-end; budget around 3 months.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Melbourne offers strong skilled-migration pathways and startup grants; Australia\u2019s English-friendly tech hubs support family-friendly migration.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Australia typically requires about 4 years of residence, including 1 year as a permanent resident. In Melbourne, citizenship is usually possible around year 4.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Melbourne, AU: entrepreneurial path may yield PR in 4-5 years if requirements are met. Plan around grants and visa steps.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Melbourne schools generally report very low bullying for White immigrant families; about 1 per 1,000 students.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Melbourne, Australia offers strong public schools, quality early childhood programs, and accessible bilingual options for kids.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Melbourne schools largely adhere to Victorian healthy canteen guidelines; HEI ~80-84; still room to reduce ultra-processed items.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In Melbourne, Australia, public schools offer about 8-9 hours/week of English instruction with EAL/D or bilingual aides for core subjects.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Melbourne, AU provides strong ESOL in public schools and community programs; ample language-course seats for newcomer kids.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Melbourne date-night options: book family-friendly, stroller-accessible dining along Southbank or Docklands with river views; stroll the CBD laneways (Degraves, Hardware Lane) for intimate bars and dessert spots; catch an early show or live music in Fitzroy or the CBD; finish with a kid-friendly dessert and a short walk along the Yarra. Prioritize venues with easy transit and babysitting options, and schedule slots before kids\u0027 bedtimes to keep it low-stress."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Focus on weekly Melbourne family activities that suit two adults and two young children: outdoor park days at Royal Park, Albert Park Lake, and Princes Park with safe playgrounds; age-appropriate indoor options such as Melbourne Museum, Scienceworks, and SEA LIFE Melbourne Aquarium; occasional beach trips to St Kilda Beach; and stroller-friendly outings to Melbourne Zoo. Leverage libraries and community centers for free story times and programs, and plan around reliable public transit for easy access and minimal stress."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Melbourne, establish a recurring, low-cost \u0027common friend night\u0027 plan: 1\u20132 hour gatherings at kid-friendly parks or community spaces in inner suburbs on mild weeknights (6\u20138:30 pm); supplement with after-hours programs at libraries or community centers; coordinate through Melbourne parent groups (Meetup, local councils) to rotate hosts and venues; target spaces with shade, playgrounds, and easy transit; ensure safe routes for a 5-year-old and a 1-year-old; prioritize bilingual exposure when possible; book spaces in advance."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Melbourne has a solid set of parent-friendly 3rd places after 6 pm (libraries, play cafes, indoor playgrounds). Inner-suburban options suit your family.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Melbourne\u0027s walkable inner suburbs, tram/light rail, and bike paths suit your family; mild climate and strong schools support a car-light lifestyle.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Melbourne, AU offers broad healthy food access with diverse markets and groceries. HEI is in the 85-89 range for families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Melbourne, AU provides Medicare and straightforward taxes. Ongoing admin is moderate (about 3-4 hours/month for visas, taxes, and school matters).",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Melbourne middle-income child benefits run roughly AU$250-320 per child per month (USD 160-210). Aligns with level 8.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Melbourne, Australia, securing two daycare spots often takes 4\u20136 months; plan early and explore subsidies.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "AUD 1,600.00 ($1,056.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "AUD 1,000.00 ($730.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "AUD 700.00 ($462.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Melbourne, AU: about 50-59% of core resident services can be completed online; expect in-person steps like biometrics/ID checks.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "In Melbourne, Medicare provides universal primary care; bulk-billing is common. Expect GP visits within 1-2 days.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "AUD 450.00 ($297.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "AUD 1,400.00 ($924.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "AUD 850.00 ($561.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Melbourne offers universal healthcare via Medicare for residents; access isn\u2019t tied to employment.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2000",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Australia offers up to 18 weeks of Parental Leave to the primary caregiver (plus 2 weeks for the partner). Melbourne eligibility applies.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Melbourne AU tax filing for dual-income US citizens ~20 hours/year; plan with a local tax pro for cross-border rules.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Melbourne, Australia\u0027s inner suburbs have frequent tram/train service within 500m for many residents; overall access supports a family-friendly move.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Melbourne, AU: domestic tuition via HECS-HELP keeps costs at ~6-7% of median household net income for a family of four.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Melbourne, Australia offers top-50 global universities (e.g., University of Melbourne); strong, accessible higher-ed options for your family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Melbourne, AU has strong continuing education with many accredited programs via universities and TAFE. Great for Trey and Sarah\u0027s upskilling and flexible study.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Melbourne, Australia has a solid senior .NET architect market. Remote/hybrid roles and work visas support experienced US engineers.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Melbourne, AU Rails market is moderate: roughly 15-19 postings per million residents per month for a 6-year Rails dev.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "AUD 185,000.00 ($118,400.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "AUD 130,000.00 ($83,200.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Prioritize Melbourne-area beach life by selecting a home within easy reach of Port Phillip Bay beaches (St Kilda, Elwood, Brighton) or tram-accessible bayside parks; look for family-friendly streets, safe walking routes, shade, playgrounds, restrooms, and reliable public transport to beaches; plan outdoor activities in mild parts of the day to avoid heat, and verify water quality and lifeguard presence where applicable.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Melbourne autumn highs typically in the 65\u201369\u00B0F range. This matches your mild fall climate in Australia.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Melbourne, AU has a mild year-round climate; many days are 50-85\u00B0F with moderate humidity, aligning with Mild Weather.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Melbourne, Australia offers strong natural beauty; Dandenong Ranges and Yarra Ranges NP are under 60 minutes, matching the family\u0027s outdoor focus.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Melbourne offers abundant nature: 12\u002B parks \u003E10 acres within 5 km, perfect for family outdoor time.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Melbourne typically 65-69\u00B0F (18-21\u00B0C). Mild season with many comfortable outdoor days.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Melbourne summers commonly reach about 81-85\u00B0F, with occasional heatwaves into the 90s, aligning with mild, low-humidity preferences.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Melbourne winters typical highs 55-60\u00B0F (13-16\u00B0C). Overall mild season with cool evenings.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Melbourne, AU shows moderate anti-immigrant rhetoric in mainstream politics, not dominant; expect pragmatic policy and emphasis on refugee support.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Melbourne, AU remains a stable democracy with no autocratization trend in 10\u201320 years; strong services support families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Melbourne, Australia offers strong climate stability (ND-GAIN ~70\u201379); mild seasons fit your family\u0027s preference for low climate risk.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In Melbourne, dominant national discourse centers on housing affordability and urban infrastructure, climate action and energy transition, immigration/population growth, cost-of-living pressures, and funding for healthcare and education. The policy signal emphasizes affordable housing, transport investment, climate resilience, social inclusion, and pragmatic governance in a diverse, progressive urban setting.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Australia has had 2 recession years in 20 years, signaling resilience for Melbourne\u0027s jobs and living standards.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Melbourne, AU enjoys strong media freedom (RSF ~80\u002B); diverse outlets and public broadcaster, but watch ownership concentration.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Migration stability in Melbourne, AU is moderate. Expect policy tweaks every few years, but local services for newcomers remain robust.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Melbourne, AU shows very high democratic stability; strong institutions and low autocratization risk support your family\u0027s safety, education, and healthcare.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Melbourne, Australia offers strong family safety and stable social life; violent crime is generally low for a major city, supporting steady QoL.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Melbourne, AU: disposable-income Gini around 34; aligns with wealth-inequality level 7 for your family.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    }
+  ]
 }

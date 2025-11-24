@@ -1,5 +1,486 @@
 {
   "version": 2,
   "iso": "TW",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "TWD 100,000.00 ($3,125.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "TWD 65,000.00 ($2,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "TWD 75,000.00 ($2,500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "TWD 39,375.00 ($1,250.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "TWD 31,200.00 ($1,022.95)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "TWD 1,500.00 ($50.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "TWD 6,000.00 ($200.00)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "TWD 25,000.00 ($757.58)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "TWD 78,750.00 ($2,500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "TWD 57,600.00 ($1,800.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Taipei, Taiwan offers expat-friendly services; expect about 20-29 hours/year for visa/ARC and local registrations.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "TWD 22,300,000.00 ($731,147.54)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "20%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Taipei\u0027s startup ecosystem supports founders; expect a 4-5 month entrepreneur visa timeline with incubator backing.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "17%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- TWD 6,000,000.00 ($187,500.00) \u2013 TAICCA Indie Game Development Grant \u2013 up to NT$6M in production funding for narrative-driven indie titles; accepts foreign founders who establish a Taiwan entity; competitive but realistic to target during the 0\u20133 year window.\n- TWD 3,000,000.00 ($93,750.00) \u2013 MOE Cultural and Creative Industries Development Fund \u2013 supports culturally aligned digital content with local spend and policy alignment; feasible with local incorporation and project localization.\n- TWD 2,000,000.00 ($62,500.00) \u2013 MOEA Digital Content Production Subsidy \u2013 subsidizes production costs for digital content; favorable for indie budgets; requires Taiwan entity and local project execution.\n- TWD 1,200,000.00 ($37,500.00) \u2013 Taiwan Creative Content Accelerator \u2013 accelerator/incubator with cash and in-kind support (office, mentorship); targets early-stage teams willing to set up Taiwan presence.\n- TWD 1,000,000.00 ($31,250.00) \u2013 Taiwan Cultural Exchange and Innovation Grant \u2013 small grant for story-driven games with cross-cultural impact; local incorporation preferred; timely for preproduction/post recruitment.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Taipei hosts about 5 game/tech events yearly (Taipei Game Show, Computex tracks, indie dev meetups); solid for demos and networking.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Taipei, TW has a growing indie game scene with freelance artists, animators, and sound designers; solid nearshore talent, though not as deep as Tokyo/Seoul.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Taipei has several game-friendly accelerators (TTA, AppWorks, Garage\u002B); indie studios can access mentorship and space, though options are modest.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Taipei\u0027s indie scene is growing: numerous small studios, frequent game jams, and coworking hubs; a solid, affordable base for indie devs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Taipei\u0027s game scene is growing: multiple universities, studios, and coworking hubs; solid funding events and grants align with your dev/entrepreneur needs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Taipei has a growing local game publisher scene (Gamania, XPEC) and regional events. Access is solid for pitches, but majors are not constantly in residence.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "9",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "TWD 308,496,000.00 ($10,283,200.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "TWD 111,091,200.00 ($3,471,600.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "TWD 1,680,200,000.00 ($54,200,000.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Taipei, Taiwan: door-to-door to major events (GDC/Gamescom) is typically 16-20 hours, making frequent in-person attendance challenging.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Taipei, Taiwan has a growing game-dev scene with about 2-3 in-person events per month. A supportive ecosystem with grants helps Trey grow.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games proposes a Taiwan-based studio in Taipei that will hire local developers and engineers, building high-quality game software, cloud infrastructure, and related IP. This directly supports job creation in STEM and creative industries, advances Taiwan\u0027s digital content economy, and leverages government grants, tax incentives, and visa pathways for founders. The initiative also fosters collaboration with universities and local studios, strengthens cloud/AI-enabled game production capabilities, and positions Taiwan as a regional hub for independent game development and tech innovation.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "TWD 1,200,000.00 ($40,000.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Taipei, Taiwan: English-friendly city, but plan for roughly 30-40% Mandarin interactions in daily life (gov, clinics, shops) while learning Mandarin.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Taipei offers bilingual/English tracks in about 50-59% of seats (intl schools and some public programs). English ubiquity matches your preference.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Taipei, Taiwan offers expat-friendly, family-friendly neighborhoods with parks (e.g., Da\u2019an, Songshan). Expect 5\u20136 weeks to secure a lease.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Taiwan status options for this family: Short-term entry (visa-exempt or visitor visa) grants no work rights; Alien Residence Certificate (ARC) issued for work, study, or family ties allows residence and employment with valid duration and renewal; Permanent Resident Certificate (PRC) provides indefinite residence and work rights after several years of lawful residence, but does not confer citizenship; Naturalization to ROC nationality is possible after extended residency, language/education requirements, and good conduct, typically with potential renunciation of prior nationality; family routes include dependent ARC for spouses/children; entrepreneur/investor visa pathways exist; action plan: secure ARC through an eligible pathway (employment, study, or family), track renewals and stay length, evaluate PRC eligibility after the requisite years, and consider naturalization if long-term residence and integration criteria are met; ensure healthcare enrollment, language learning, and alignment with schooling and rights for children."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Taipei startup visa ends up at 11-12 weeks end-to-end for first-time US entrepreneurs; plan for local bureaucracy and grants access.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Taipei, non-sponsored visa routes are lengthy and uncertain; expect over 28 weeks with possible delays for first-time applicants.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Taipei, Taiwan: with a recognized sponsor, US first-time visa ~7-8 weeks end-to-end (Gold Card/work visa). Sponsor needed.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Taipei\u0027s skilled-immigrant routes (Gold Card) offer strong approval likelihood; vibrant tech scene and English-friendly services.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Taiwan typically requires about 5-6 years of residence before citizenship; for a US family in Taipei, plan around 6 years.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Taipei, Taiwan: PR for entrepreneurs typically 5.1-6 years of residence with an active business.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Taipei international schools enforce strong anti-bullying policies; caucasian expat kids face very low bullying risk (about 1\u20132 per 1,000 students).",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Taipei\u0027s public schools perform in high PISA percentiles, top global tier; strong math/reading and bilingual exposure options.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Taipei school meals follow Taiwan nutrition guidelines for primary/secondary schools; HEI ~80\u201384, with limited ultra-processed foods.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Taipei, Taiwan public schools typically provide 4-5 hours of English per week; bilingual aides are not universal.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Taipei provides solid Mandarin language integration services for newcomers via schools and community centers; supports kids\u0027 bilingual development.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "In Taipei, ideal date-night options include: watch sunset from Elephant Mountain or Taipei 101 Observatory; enjoy a dinner with skyline views in Xinyi; wander Raohe or Shilin Night Market for street food and lights; take a romantic stroll along the Tamsui River or enjoy a riverside bike ride; end with tea in Maokong or a live jazz/bar scene in Zhongshan.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Identify and schedule Taipei-based, family-friendly activities: regular outdoor time at Daan Forest Park or Neihu Riverside Park; monthly visits to kid-friendly museums (Taipei Children\u0027s Museum, National Palace Museum family programs); weekend walks through Shilin/Raohe Night Markets with kid-friendly stops; use MRT and EasyCard for predictable transit costs; pursue bilingual exposure via Taipei Public Libraries and local community centers; ensure nearby affordable childcare and safe, walkable routes for daily routines.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Taipei, Taiwan, prioritize family-friendly, low-stress evening social options such as English-speaking expat groups, board-game caf\u00E9s, and park-side meetups. Action steps: search Meetup/Facebook groups for weekly game nights and bilingual events, pick venues with stroller access and kids\u2019 play space, and arrange childcare to enable adults\u2019 social evenings; aim for a regular cadence (e.g., monthly \u0027friends nights\u0027) and confirm reliable transit options and safety."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Taipei offers a strong parent-friendly scene with after-6pm, staff-supervised kid spaces. Roughly 26\u201329 child-friendly 3rd places per 100k residents exist.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Taipei\u0027s MRT, YouBike, and walkable neighborhoods enable most trips by foot, bike, or transit. This fits a family with 70-79% car-free.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Taipei, Taiwan provides broad healthy food access with plentiful fresh markets and supermarkets; great for family meals.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "In Taipei, Taiwan, expat bureaucracy is manageable for your US family. Ongoing tasks run about 1-2 hours per month (permits, taxes, registrations).",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Taipei\u0027s middle-income child subsidies are modest, around NT$4,000/month per child (~$130), yielding a mid-range generosity level.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Taipei daycare for a 1-year-old typically takes 3-4 months; bilingual private centers can be faster but pricier; 5-year-old options may be quicker.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "TWD 8,680.00 ($280.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "TWD 12,000.00 ($363.64)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "TWD 8,500.00 ($283.33)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Taipei/TW offers strong online core services (tax, NHI enrollment, school registration); most can be completed online, with some visa/ARC steps in person.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Taipei, Taiwan has universal healthcare; primary care visits for families typically require 1\u20132 days.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "TWD 14,000.00 ($437.50)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "TWD 41,600.00 ($1,300.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "TWD 7,500.00 ($250.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Taiwan (Taipei): NHI offers universal coverage; healthcare access isn\u0027t tied to employment, so job changes won\u0027t cut off care.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1700",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Taiwan offers moderate paid parental leave; roughly 16-23 weeks per parent with wage support; Taipei provides accessible subsidies.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Taipei, Taiwan: two-earner US family; cross-border US-Taiwan filings; about 25-35 hours/year.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Taipei offers superb transit: most neighborhoods have 500m access to frequent MRT/bus (16\u002B hours). Great for family mobility and reduced car reliance.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Taipei, Taiwan: public universities are affordable (roughly 6-7% of median household net income), supporting college access.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "NTU in Taipei ranks around 51-100 globally, indicating solid college quality; Taiwan offers strong universities and bilingual options.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Taipei, Taiwan has a robust network of accredited adult education with many university programs. That supports Trey and Sarah\u0027s ongoing learning as they relocate.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Taipei, Taiwan shows moderate demand for senior .NET architects. Expect roughly 9-12 postings per million residents per month with solid salaries.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Rails postings in Taipei, Taiwan are scarce (about 1\u20133 per million residents per month); consider remote roles or alternative stacks.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "TWD 2,800,000.00 ($91,803.28)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "TWD 1,200,000.00 ($39,344.26)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Beaches near Taipei are accessed mainly via weekend trips to Danshui (Tamsui) and Keelung; plan for family-friendly beaches with reliable transit, good water quality, restrooms, and shade, and build a simple summer itinerary that accounts for heat and typhoon season."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Taipei, TW fall highs are around 75\u201380\u00B0F. This matches your mild autumn climate preference.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Taipei, Taiwan offers limited mild outdoor days; about 90-119 days/year meet 50-85\u00B0F with humidity \u003C70%.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Natural beauty around Taipei is strong; within 60 minutes you can reach Yangmingshan and nearby protected lands, ideal for family outdoor days.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Taipei has several parks within 5 km for families, including Da\u0027an Park and Zhongshan Park, plus riverfront greenways for outdoor time.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Taipei spring highs typically 75\u00B0F\u201380\u00B0F (24\u201327\u00B0C); mild and humid, aligns with a 70\u201375\u00B0F spring range.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Taipei, Taiwan summers peak at 86-90\u00B0F. Humidity is high, but this aligns with the family\u0027s preference for mild year-round conditions.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Taipei average about 55\u201360\u00B0F, a mild climate suitable for the family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Taipei, Taiwan: anti-immigrant rhetoric is minor in mainstream politics; focus remains on economy, Cross-Strait ties, and inclusive policies.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Taiwan (Taipei) shows stable democracy with minimal autocratization in the past 20 years; strong rule of law and pluralistic media.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Taipei has humid summers and typhoon risk; climate stability is moderate (ND-GAIN ~60-69), not ideal for low-risk prefs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Taiwan\u0027s national political discourse centers on cross-strait security and sovereignty, economic resilience through high-tech leadership, housing affordability, social welfare, and climate/energy transition, with emphasis on democratic governance and government transparency.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Taiwan has 1 recession year in 20 years (2009); Taipei offers stable growth, fast broadband, safety, and startup support for your family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Taipei, Taiwan offers relatively free media with diverse outlets; low censorship supports transparent daily life for families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Taipei, Taiwan shows stable democracy and predictable visa rules. Immigration policy shifts are rare and gradual.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Taiwan (Taipei) has strong liberal democracy and stable institutions; laws are predictable, aiding family planning, work flexibility, and tech entrepreneurship.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Taipei, Taiwan has very low violent crime (\u003C200 per 100k) and strong family safety. It offers urban conveniences and good schooling for kids.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Taiwan\u0027s Gini ~34 indicates mid-level inequality; Taipei offers strong family support, safety, and good services for families.",
+      "alignmentValue": 7
+    }
+  ]
 }

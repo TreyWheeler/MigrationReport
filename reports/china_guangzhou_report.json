@@ -1,5 +1,490 @@
 {
   "version": 2,
   "iso": "CN",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "CNY 22,000.00 ($3,055.56)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "CNY 9,500.00 ($1,357.14)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "CNY 14,500.00 ($2,071.43)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "CNY 8,400.00 ($1,200.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "CNY 18,200.00 ($2,528.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "CNY 324.50 ($45.07)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "CNY 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "CNY 9,000.00 ($1,232.88)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "CNY 25,200.00 ($3,500.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "CNY 4,200.00 ($583.33)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Guangzhou will involve notable visa/residency tasks for a US family; expect about 90\u2013120 hours/year of bureaucratic work with local authorities.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "CNY 6,067,000.00 ($842,638.89)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Guangzhou, China offers startup pathways but bureaucratic processes; expect about 5\u20136 months for a US family to obtain approval.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "35%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Guangzhou and nearby cities host a small number of game/dev events each year; about 2 events annually suitable for Daemon Games to attend.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Guangzhou has a growing freelance game scene with artists and animators. However, top-tier audio/narrative designers can be harder to source.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Guangzhou, CN has few game-specific incubators; most options are general tech accelerators with limited indie-game support.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Guangzhou has a growing indie scene with several small studios and occasional jams; still not dense, but steady momentum.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Guangzhou has universities (SYSU, SCUT) and coworking spaces that partner with game studios; solid depth, but not as dense as Shanghai/Shenzhen.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Guangzhou, CN offers moderate local publisher and bizdev access via regional events and agencies; major publishers still require formal channels.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "2",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "20",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "CNY 6,918,750.00 ($954,310.34)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "CNY 22,081,320.03 ($3,154,474.29)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "CNY 320,145,480.00 ($44,464,650.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Guangzhou, door-to-door to major events like GDC in SF or Gamescom in Cologne is about 16\u201320 hours. Long, but doable with planning.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Guangzhou, China has a modest game-dev scene; expect about 0.5-0.9 in-person events per month, with occasional local studios and meetups.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games will advance Guangzhou\u0027s tech and creative economy by creating high-skill jobs in game development, software, and cloud, generating cultural output through local IP development, and driving innovation via partnerships with universities and industry players. The initiative aligns with national and Guangzhou priorities for tech-led growth, digital culture, and exportable digital content. Recommended actions include establishing a Guangzhou studio with 40-60 engineers within 24 months, pursuing public grants and visa facilitation, and partnering on local education programs to grow talent and strengthen the ecosystem.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "CNY 284,000.00 ($40,000.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Guangzhou (CN), expect around 60-70% of daily interactions in Chinese; adults will learn basics while English remains helpful.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Guangzhou has a sizable private bilingual/English-track sector (~60\u201369% of seats). Public schools remain more Chinese-centric.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Guangzhou housing for foreigners often takes 5-6 weeks. Target expat-friendly districts like Tianhe/Haizhu with local agents to speed the lease.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Guangzhou (CN), foreigners typically obtain: (a) temporary residence/work visa (Z) or student visa with a corresponding Foreigner Residence Permit for lawful stay and limited work; (b) Foreigner Residence Permit tied to employment or study, renewable for longer stays and ongoing work rights; (c) Permanent Residency (\u5916\u56FD\u4EBA\u6C38\u4E45\u5C45\u7559\u8EAB\u4EFD) for exceptional talent, family ties, or investment\u2014long-term stay with broader access to some public services but not citizenship; (d) Citizenship/Naturalization is extremely rare and requires long residence, good conduct, and renunciation of other nationality; dual citizenship is not recognized. Action: map your family\u2019s planned duration in China to pursue a work permit \u2192 residence permit path, evaluate eligibility for permanent residency, and engage with sponsored employers or schools and local authorities to prepare required documents.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Guangzhou, CN entrepreneur visa likely 21-28 weeks end-to-end; first-time applicant, expect longer bureaucracy.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Guangzhou visa without a recognized sponsor is effectively non-viable or indefinitely uncertain for this US family; pursue a recognized employer or startup route.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Guangzhou, CN: with a recognized sponsor, visa processing for a first-time applicant family is likely 13\u201316 weeks end-to-end. Plan buffers for contingencies.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "China/Guangzhou offers talent visas but approvals depend on sponsorship. Expect moderate processing for skilled immigrants.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Guangzhou, China, foreign naturalization is effectively unavailable; there is no clear path to Chinese citizenship.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Guangzhou (CN) offers limited, unclear paths to permanent residency for expats; expect \u003E10 years or no clear path.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "In Guangzhou, international schools host diverse expat peers; bullying/racism risk for caucasian kids is about 1\u20132 per 1,000 students.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Guangzhou\u0027s primary/secondary schools offer solid public education with a strong STEM emphasis. Bilingual/intl options are expanding, though exam pressure remains.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Guangzhou school meals generally meet local HEI standards; emphasis on vegetables, grains, and limiting ultra-processed foods.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Guangzhou public schools typically offer around 4-5 hours of English per week; bilingual aides in core subjects are uncommon.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Guangzhou offers solid Mandarin immersion for kids; expect 110\u2013129 language-course seats per 100 newcomers annually, aiding bilingual development.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Guangzhou date nights commonly center on: 1) Pearl River dining and a sunset riverside stroll; 2) Cantonese meals (dim sum to hotpot) in Tianhe or Yuexiu; 3) a stroll through Shamian Island\u0027s colonial architecture with dessert or tea; 4) rooftop bars in Zhujiang New Town for skyline views; 5) occasional cultural performances near Guangzhou Opera House. Practical tips: reserve ahead, use metro lines 3 or 5 for easy access, and plan around the humid heat.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Guangzhou, CN: emphasize indoor, climate-controlled, bilingual-friendly family activities. Priorities include Guangzhou Science Center, Guangdong Museum, Guangzhou Library children\u0027s programs, Yuexiu Park playgrounds, and Chimelong Paradise amusement park. Use metro access and pre-book tickets to minimize queues; plan weekend outings to shaded parks with stroller-friendly paths and reliable restrooms; ensure English signage and staff where possible, and identify nearby childcare options."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Guangzhou: plan 1-2 weekly family-friendly evening social nights in expat/bilingual circles; target venues such as board game cafes, community centers, and parks with good lighting. prioritize Tianhe or Yuexiu districts within ~30-45 minutes by metro, with English-speaking staff or multilingual hosts. ensure kid-friendly seating and reliable Wi-Fi; confirm nearby childcare options if needed; tailor times to school nights and bedtimes."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Guangzhou offers many parent-friendly 3rd places after 6pm (parks, libraries, family centers) with staff, supporting bilingual, low-stress family life.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Guangzhou offers walkable, transit-first neighborhoods; about 60-69% car-free trips suit a family-friendly urban lifestyle.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Guangzhou has abundant markets and fresh produce; healthy options are widely accessible for a family, with affordable seafood and veg.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Guangzhou, CN will involve steady expat paperwork: visas, residence permits, school enrollment, and local registrations. Expect about 4\u20135 hours per month.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Guangzhou, CN provides modest per-child support for middle-income families; roughly US$30\u201360 monthly per child, placing this profile at band 4.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Guangzhou has many bilingual nurseries, but top spots can have long waitlists; plan for 6-9 months to secure care for both kids.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "CNY 1,600.00 ($228.57)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "CNY 3,500.00 ($500.00)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "CNY 5,000.00 ($714.29)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Guangzhou, China: core government services are partly online; expat families should expect in-person steps for visa, residence permits, and school enrollment.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Guangzhou offers broad, affordable public healthcare; expats often use private clinics where waits are about 5-7 days.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "CNY 1,000.00 ($138.89)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "CNY 7,920.00 ($1,100.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "CNY 5,950.00 ($850.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Guangzhou, CN: expat healthcare is moderately tied to employment; losing a job may require plan changes unless you have private international insurance.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1900",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Guangzhou, CN offers ~14 weeks maternity leave with income protection; paternal leave is shorter (~2 weeks), aligning with a ~12\u201315 week per-parent benchmark.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Guangzhou expat taxes are complex; expect yearly professional help for CN personal tax and US cross-border filing.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Guangzhou\u0027s dense metro/bus system offers frequent 10-minute headways for long daily hours, likely placing most homes within 500m of transit.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Guangzhou: college accessibility is moderate; international programs cost about 8\u201312k USD/yr, roughly 14\u201318% of median local income.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Guangzhou offers solid local universities (SYSU near 200\u2013300 globally), providing reachable college options and bilingual exposure for your kids.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Guangzhou, China offers 15-19 accredited adult programs per 100k residents. This supports your high education goals and bilingual growth.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Guangzhou, CN shows moderate demand for senior .NET architects; ~6-8 postings per million and solid remote/hybrid options for Trey\u0027s team.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Guangzhou, CN Rails demand is sparse (1-3 postings per million per month); consider remote Rails roles or alternative stacks for your family plan.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "CNY 600,000.00 ($83,333.33)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "CNY 300,000.00 ($41,666.67)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Beaches near Guangzhou are in the Pearl River Delta (Zhuhai, Shenzhen, Nansha). Plan trips during milder months (late spring/early fall) to avoid hot, humid summers; choose family-friendly beaches with shade, restrooms, lifeguards, and clean water. Allocate roughly 2\u20134 hours of travel one-way by rail or car, ensure language-accessible services, and have a beach backup option in parks with water features if conditions are poor."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "In Guangzhou, fall highs are about 80-85\u00B0F; closest match is the 70-75\u00B0F range (alignment value 10).",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Guangzhou\u0027s hot, humid climate offers few 50-85\u00B0F days with humidity below 70%; mild-weather alignment is low for this family.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Guangzhou has abundant city parks and nearby protected nature lands; within 60 minutes you can reach forests and hills for family outings.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Guangzhou offers solid nature access for families. About 8-9 parks \u003E10 acres lie within 5 km of central Guangzhou.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Guangzhou are about 75-82\u00B0F. This is warm but generally mild, aligning with your climate goals.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Guangzhou, China sees summer highs around 91-95\u00B0F. It is hot and humid, not ideal for mild-weather preferences.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Guangzhou, CN winter highs around 60\u00B0F (15\u201316\u00B0C); generally mild with 55\u201360\u00B0F days.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Guangzhou-China has low mainstream anti-immigrant rhetoric; immigration policy is tightly managed by the state, offering policy stability for your family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Guangzhou, CN shows sustained autocratization (backsliding); expect centralized governance and tighter civil freedoms, affecting public discourse.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Guangzhou, China has moderate climate stability; hot, humid summers and typhoon season bring risk, though mild winters help; plan adaptation.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Dominant narratives in China/Guangdong (Guangzhou) center on political stability, economic growth, and \u0027common prosperity\u0027, with strong emphasis on party leadership, social harmony, national sovereignty, and control of information. Local discourse also highlights innovation, urban modernization, housing stabilization, and resilience to external risk, while promoting patriotism and regional development within a tightly managed political frame.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Guangzhou, CN shows strong economic stability with 0 recession years in 20 years, supporting steady family plans and remote work options.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Guangzhou, China has tightly controlled media; censorship and state influence suppress independent reporting and pluralism.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "China\u0027s immigration policy changes moderately, about 3 times per decade. In Guangzhou, prepare for periodic work visa and residency updates; plan for some lead times.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Guangzhou, CN has a very low liberal-democracy percentile; expect bureaucratic friction, but daily life and services remain relatively manageable.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Guangzhou, CN has very low violent crime and stable QoL; great for families with mild weather and good services.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Guangzhou, CN shows moderate wealth inequality (Gini ~38\u201341), aligning with a stable, middle-ground economic environment for the family.",
+      "alignmentValue": 6
+    }
+  ]
 }

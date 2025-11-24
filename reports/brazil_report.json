@@ -1,5 +1,486 @@
 {
   "version": 2,
   "iso": "BR",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "BRL 12,500.00 ($2,500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "BRL 7,500.00 ($1,442.31)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "BRL 11,000.00 ($2,200.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "BRL 3,700.00 ($740.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "BRL 6,240.00 ($1,188.57)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "BRL 260.00 ($52.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "BRL 1,500.00 ($300.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "BRL 3,200.00 ($640.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "BRL 22,500.00 ($4,500.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "BRL 0.00 ($0.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "In Brazil (BR), US visa steps for families can be lengthy. Expect substantial paperwork and local tax considerations.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "BRL 3,813,066.67 ($762,613.33)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "34%",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Moderate ease: Brazil\u0027s Startup Visa can fit with a solid plan. Expect about 5-6 months; strong startup ecosystems in S\u00E3o Paulo and Rio.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "70%",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- BRL 1,500,000.00 ($300,000.00) \u2013 Programa de Apoio a Desenvolvimento de Jogos Digitais \u2013 grants for indie studios to prototype narrative-driven titles; accessible to small teams with local incorporation and culturally relevant content.\n- BRL 3,000,000.00 ($600,000.00) \u2013 Fundo Setorial de Cultura \u2013 Incentivo \u00E0 Produ\u00E7\u00E3o de Jogos Digitais \u2013 production and marketing support with local spend requirements; competitive and suitable for early-stage studios.\n- BRL 1,000,000.00 ($200,000.00) \u2013 Sebrae Inova\u00E7\u00E3o Voucher \u2013 Cultura Digital e Criatividade \u2013 early-stage grants/vouchers plus mentorship; ideal for initial prototyping and validation.\n- BRL 2,000,000.00 ($400,000.00) \u2013 FINEP/Programa de Inova\u00E7\u00E3o em Software \u2013 Research and development funding with co-financing and local incorporation; appropriate for 2-year development and higher-quality scope.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "S\u00E3o Paulo, Brazil hosts a vibrant game/dev scene with about 6 to 7 events yearly; Daemon Games could showcase builds and network regularly.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Brazil, notably S\u00E3o Paulo, has a growing freelance game talent pool. Artists, animators, sound designers, and narrative pros support near-remote work.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Brazil has a budding indie game scene with a few accelerators in S\u00E3o Paulo and Rio; overall options for early-stage studios remain modest.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Brazil\u0027s indie scene is moderate. There are several studios and game jams (SP/RJ), with growing hubs and events but not as dense as US metros.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Brazil has a growing game-dev ecosystem with strong universities and funding. In hubs like Sao Paulo, partnerships and grants bolster studios.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Moderate access to local publishers in Brazil (S\u00E3o Paulo/Rio). Local offices exist; major visits are infrequent\u2014focus on regional networks and events.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "20",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "BRL 51,267,187.50 ($9,954,800.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "BRL 18,251,640.00 ($3,650,328.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "BRL 272,119,237.50 ($51,832,235.71)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From S\u00E3o Paulo, Brazil, door-to-door to major game events is typically \u003E24 hours; plan multi-leg travel and layovers.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Brazil\u0027s major hubs host regular game-dev meetups; expect about 2 per month (plus an annual expo) in cities like S\u00E3o Paulo and Rio.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Brazil\u0027s growing tech and creative economy with government incentives and regional development programs. Daemon Games can create local jobs in game development, QA, art, and localization; produce Portuguese-language content and cultural output; and drive innovation through university partnerships and local studios. To maximize alignment, propose a Brazilian subsidiary or local team with targeted hires in major hubs, active university collaboration, and pursuit of incentives and financing (tech tax credits, FINEP/CTI). This supports Brazil\u0027s goals of job growth, export-ready digital content, and regional innovation.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "BRL 72,000.00 ($14,400.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Brazil, BR: expect 60-69% of adult interactions in Portuguese; English helps in tech, but daily life will require learning Portuguese.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Brazil\u0027s urban areas offer bilingual/English tracks in roughly half of seats. Private options near major cities align with your English goals.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Brazil expat housing typically takes about 5-6 weeks to secure a lease with a broker. Focus on family-friendly neighborhoods with parks and bilingual help.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Brazil uses a tiered immigration framework with temporary residency (visa-based: work, study, family reunification, or investment), permanent residency (indefinite residence with work rights and access to services), and naturalized citizenship (full civil and political rights). How determined: status is granted via visa category or residency program; permanent residency typically requires sustained residence and eligibility through family ties, employment, or investment and successful background checks; naturalization requires a period of permanent residency plus language/cultural integration criteria. Rights by status: temporary residents may work only if the visa permits it and generally have restricted access to some benefits; permanent residents may live and work in Brazil indefinitely, access public healthcare and education, and can eventually apply for naturalization; naturalized citizens gain the same rights as native-born Brazilians (including voting and eligibility for most public positions) and can pass nationality to children. Practical steps for your family: identify the most feasible route (family reunification if applicable; work-based permanent residency; or investment/funding routes), start documentation now (passports, birth/marriage certificates, police clearance, health checks, Portuguese readiness), engage a Brazilian consulate or immigration lawyer for a formal check, and plan for Portuguese language learning and integration (housing, schools, healthcare, and work). Keep residency status current via timely renewals and understand re-entry rules if you travel."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "In Brazil, startup visa and entrepreneur visa processes can exceed 28 weeks with uncertain steps; plan for a lengthy, variable timeline.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In BR, non-sponsored visas for a US founder family are typically lengthy; expect months of processing with potential uncertainty.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Brazil (BR): with a sponsor, work visa likely 11-12 weeks end-to-end; plan ~3 months.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Brazil offers skilled-worker visas and a growing tech-visa pathway, but bureaucratic delays can slow approvals for IT talent.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Brazil naturalization typically requires 4 years of residence; it can be shorter if married to a Brazilian or has a Brazilian child.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Brazil (BR): skilled/entrepreneur routes often require about 4-5 years of lawful residence for permanent residency.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Brazilian primary schools in major cities are generally inclusive, but occasional xenophobia can occur. Expect about 1-2 incidents per 1,000 students.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Brazil\u0027s primary/secondary education quality varies. In major cities there are decent public schools and some bilingual options, but overall percentile is modest.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Brazil: PNAE follows Guia Alimentar to limit ultra-processed foods; HEI-BR commonly ~80-84 in many schools.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Brazil: public schools typically provide 2-3 hours/week of English; bilingual aides in core subjects are uncommon.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Brazil (BR) urban areas offer moderate language integration for kids. Roughly 70 language-course seats per 100 newcomers each year.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Safe, walkable date-night options in Brazil should target urban, transit-friendly neighborhoods with English-friendly venues. Prioritize early-evening dinners at family-friendly venues in major cities (e.g., S\u00E3o Paulo and Rio de Janeiro) with kid-friendly hours, followed by low-stress activities such as waterfront strolls or casual live-music spots. Ensure reservations, consider childcare options if needed, and use rideshares for safety and convenience.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Brazil, focus on family-friendly activities in safe, walkable neighborhoods: parks with shaded play areas, kid-friendly museums and science centers, zoos/aquariums, botanical gardens, and accessible nature reserves. Plan weekend trips to cooler southern towns (e.g., Gramado, Campos do Jord\u00E3o) to dodge heat. Ensure reliable broadband for Trey, English-friendly services and bilingual early childhood exposure for Anduin and Alasdair, affordable childcare, and access to universal healthcare; prioritize regions with strong community networks and low crime for Sarah\u0027s goals."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Focus on English-friendly board-game nights in Brazil\u2019s cities (S\u00E3o Paulo, Rio de Janeiro, Bras\u00EDlia). Seek venues with after-work hours (6\u201310 pm), safety, and good transit; prefer bilingual staff. Connect Trey\u0027s gaming circle with local dev/game meetups and Sarah\u0027s community groups; target 2 recurring events per week and options for private gatherings to socialize with local friends."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Brazil\u0027s urban centers (S\u00E3o Paulo, Rio) offer many after-6pm, child-friendly venues with staff. Access varies by neighborhood.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Brazilian cities like Curitiba can support 35-39% car-free trips with walkable, park-rich neighborhoods and reliable transit for a family.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Quality food access in urban Brazil is generally good, with affordable fresh produce; rural/low-income areas may have gaps.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Brazil (BR): expect about 4-5 hours/month for visa/tax/healthcare tasks; basic Portuguese helps; keep documents organized.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Brazil generally offers little to no per-child cash aid for middle-income families; benefits target low-income households (Bolsa Fam\u00EDlia/Aux\u00EDlio Brasil).",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Brazil (BR) daycare access often takes 4-6 months for newcomers; private centers are faster, bilingual options vary.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "BRL 1,100.00 ($220.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "BRL 1,500.00 ($300.00)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "BRL 1,750.00 ($364.58)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Brazil (BR): ~70-79% core services online via gov.br. Expect some in-person school enrollment and visa steps.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "In Brazil, public primary care waits typically 8\u201310 days; private care is faster but costs more.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "BRL 1,000.00 ($910.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "BRL 2,400.00 ($480.00)",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "BRL 6,000.00 ($1,200.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Brazil offers universal healthcare via SUS; access isn\u0027t employment-dependent, aiding this Kansas City family relocating to BR.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2000",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Brazil offers up to 26 weeks maternity leave (100%) and 5-20 days paternity leave with job protection.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In Brazil, a dual-income US family may spend about 25\u201335 hours/year on IRPF filing and records; cross-border needs often mean a tax pro is wise.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Public transit in Brazil varies by city. In S\u00E3o Paulo, many areas have 10-min headways for much of the day, but some suburbs lag.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Public universities in Brazil (BR) are tuition-free, giving strong college access for your family in BR. Private options exist but are costly.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "In Brazil (S\u00E3o Paulo), USP typically ranks 101\u2013150 globally, offering strong college options for the family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "BR offers diverse continuing education: many accredited programs in Sao Paulo/Rio; access varies by city, but urban areas show strong options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Brazil\u0027s senior .NET architect postings are moderate (about 6-8 per million per month), aligning with a multilingual market and remote options.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Moderate Rails demand in Brazil (BR), strongest in S\u00E3o Paulo/Rio; remote/hybrid options common, ~15\u201319 postings per month.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "BRL 300,000.00 ($60,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "BRL 180,000.00 ($35,294.12)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Brazil (BR): identify coastal areas with a mild year-round climate, safe beaches, and reliable broadband to support remote work; prioritize southern Atlantic cities (e.g., Florian\u00F3polis, Balne\u00E1rio Cambori\u00FA, Joinville region) for family-friendly beaches, parks, schools, and healthcare access; assess beach access rules, lifeguard presence, water quality, and housing options near transit and recreational amenities."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "In Brazil\u0027s autumn, fall highs are typically 65\u201369\u00B0F. This aligns with your mild-weather preference and manageable humidity.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Brazil\u0027s mild days (50-85\u00B0F) with humidity under 70% are mainly in the southern highlands. In many areas, humidity stays high, so climate varies by region.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Brazil offers strong urban-adjacent nature. About 25-29% of land is protected within 60 minutes, aligning with your outdoor-focused family lifestyle in Brazil.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "In Brazil\u0027s urban areas, large parks are common; within 5 km you can expect about 6\u20137 parks \u003E10 acres, supporting family outdoor time.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring in Brazil typically around 70-75\u00B0F in coastal/southern areas, aligning with the family\u0027s mild-weather preference.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Brazil summers often range 81\u201385\u00B0F with humidity; aligns with mild preference, though humidity can affect comfort.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Brazil are typically 60\u201375\u00B0F, giving mild winters (e.g., S\u00E3o Paulo/Rio de Janeiro) for a Kansas City family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Brazil, mainstream anti-immigrant rhetoric is relatively low; Lula\u0027s government emphasizes inclusive migrant policies, favorable for US-origin families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Brazil (BR) shows mild autocratization risk over 10-20 years; monitor civil liberties, but current conditions support family stability.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Brazil\u0027s climate stability is moderate (ND-GAIN mid-range). Consider milder areas like S\u00E3o Paulo; monitor heat and flood risks.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Brazil\u0027s national political discourse centers on anti-corruption and governance reform, economic stabilization with social spending, crime and public security, and environmental/climate policy (notably Amazon protection). It features sharp partisan polarization around the Lula administration and the opposition, with debates over welfare programs, fiscal responsibility, privatization, and regional inequality mitigation.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Economic Stability (Brazil): about 5 recession years in 20 (2009, 2014-16, 2020); stability is moderate.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Brazil (BR): media freedom is moderate; journalists face political pressure and safety risks. Rely on independent, reliable local reporting.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Brazil offers moderate migration stability; entrepreneurs and families have workable visa paths, but expect periodic policy tweaks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Brazil\u0027s V-Dem Liberal Democracy Index shows mid-range stability; strong institutions exist but political polarization persists.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "In Brazil, crime varies by city; anticipate mid-range stability (3). Prioritize safe neighborhoods and reliable services.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "In Brazil (BR), wealth inequality is high (Gini ~53), which may affect housing and services access for this family.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    }
+  ]
 }

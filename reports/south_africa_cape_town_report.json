@@ -1,5 +1,479 @@
 {
   "version": 2,
   "iso": "ZA",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "ZAR 28,000.00 ($1,513.50)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "ZAR 25,000.00 ($1,388.89)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "ZAR 20,000.00 ($1,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "ZAR 25,000.00 ($1,250.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "ZAR 62,400.00 ($3,466.67)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "ZAR 1,200.00 ($60.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "ZAR 7,000.00 ($368.42)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "ZAR 24,000.00 ($1,299.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "ZAR 90,000.00 ($5,000.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "ZAR 9,000.00 ($500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Cape Town visa setup and SA tax will require moderate annual admin. Expect about 60-89 hours/year.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "ZAR 8,442,500.00 ($432,948.72)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "27%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "South Africa entrepreneur visas typically take about 4-5 months; Cape Town has a growing startup ecosystem and grant options for US founders.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "12%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- ZAR 4,000,000.00 ($210,526.32) \u2013 City of Cape Town Film Production Incentive \u2013 a location-based rebate that supports narrative-driven game projects from SA-incorporated studios with clear local spend.\n- ZAR 2,500,000.00 ($131,578.95) \u2013 Western Cape Creative Industries Fund \u2013 prototype/production grants for games and interactive media suitable for early-stage studios.\n- ZAR 2,000,000.00 ($105,263.16) \u2013 NFVF \u2013 development/production grants for interactive media and narrative-driven projects from small teams.\n- ZAR 1,200,000.00 ($63,157.89) \u2013 NLDTF \u2013 arts and culture/digital games grant accessible to micro studios with strong proposals.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Cape Town, SA hosts a handful of game/dev events and meetups yearly; roughly 3 events per year for demos, networking, and pitches.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Cape Town has a budding game dev scene with freelancers in art, animation, audio, and narrative; availability is solid around 7/10.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Cape Town has few dedicated game incubators; most options are general tech accelerators, so indie game studios get limited game-specific mentorship.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Cape Town\u0027s indie game scene is moderate: a few studios, occasional jams, and coworking hubs; workable for small teams and families.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Cape Town offers a solid game ecosystem: UCT/UWC/CPUT, coworking spaces, and Silicon Cape partners funding events.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Access to publishers in Cape Town is moderate. Local indie publishers and BizDev meetups exist, but major publishers have limited local offices.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "6",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "ZAR 176,803,200.00 ($9,305,431.58)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "ZAR 64,775,000.00 ($3,238,750.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "ZAR 944,665,200.00 ($49,719,226.32)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Cape Town to Gamescom/GDC is door-to-door over 24 hours; travel would be burdensome for a family with two young children.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Cape Town hosts several indie game dev meetups and occasional events. The cadence is about 1\u20131.4 per month, indicating a moderate local vibrant scene.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games in Cape Town offers a compelling narrative for job creation and cultural output: a mid-sized studio that hires 15-30 high-skilled developers, designers, and QA within 2-3 years, with internships from local universities (UCT, UWC, CPUT) and coding bootcamps. It would produce culturally resonant games for regional and international markets, strengthening Cape Town\u0027s digital economy and creative industries. The project aligns with South Africa\u0027s priorities on innovation, inclusive growth, and export of digital content, and can access local grants and tax incentives. Action items for authorities: provide incubation space, expedite founder visas, and connect Daemon with university programs and grant streams."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "ZAR 518,000.00 ($28,000.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Cape Town, ZA: English covers most interactions; expect ~10-14% requiring local language; adults will learn basics of Afrikaans/isiXhosa.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "In Cape Town, SA, English-medium schools are common with English-Afrikaans tracks, offering strong bilingual options for the kids.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Cape Town expat housing typically takes 5-8 weeks to secure. Target Southern Suburbs (Rondebosch, Claremont) for family-friendly, walkable options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Cape Town, pursue a staged South Africa immigration plan: (1) obtain a temporary residence visa for Trey (entrepreneurial or skilled-work route) and for Sarah (web development skills) via Home Affairs, using job offers, business plans, or family/partner grounds; (2) maintain continuous lawful residence and apply for Permanent Residence after meeting Home Affairs criteria; (3) when eligible, apply for naturalization to obtain SA citizenship. Rights: temporary residents may live/work/study for the visa term; permanent residents have ongoing live/work rights and access to public services; citizenship confers a SA passport and full political rights (including voting). Immediate actions: gather passports, proof of relationship, professional plans, financial means, police clearances; coordinate with a Cape Town immigration attorney and Home Affairs to determine exact visa categories and timelines."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "US founder visa for South Africa (Cape Town) end-to-end could be 21\u201328 weeks; expect steps and delays for an entrepreneur path.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Cape Town, South Africa, visas without a recognized sponsor are lengthy; end-to-end timelines often exceed 28 weeks for non-sponsored applicants.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Cape Town, ZA: US first-time visa applicants with no sponsor may face 21-28 weeks end-to-end; sponsor access could shorten but isn\u2019t guaranteed.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Cape Town, South Africa offers moderate visa approval chances for skilled immigrants. First-time applicants should expect bureaucratic timelines.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "SA generally requires 5 years of ordinary residence for citizenship; Cape Town offers a stable, English-friendly path for families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Cape Town, SA: permanent residency for a skilled/entrepreneur path typically requires about 5-6 years of continuous residence. Plan for a multiyear timeline.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "In Cape Town, racial dynamics exist; seek schools with strong anti-bullying policies, inclusive culture, and active diversity programs for your kids.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Cape Town public schooling quality is mixed and generally mid-to-lower by global standards; plan careful primary and secondary school choices.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "HEI ~75-79 in Cape Town schools; SA NSNP guides balanced meals with vegetables and grains, but ultra-processed foods remain in some menus.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Cape Town, South Africa public schools typically offer about 10-11 hours of English per week; many schools provide bilingual aides to support core subjects.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Cape Town offers moderate language support for kids; English is widespread, with some Afrikaans exposure and limited newcomer language programs.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Cape Town date-night options for this family include: sunset dinners at Camps Bay or the V\u0026A Waterfront with safe parking; a pre-/post-dinner stroll along the Sea Point Promenade; a golden-hour Table Mountain cable-car ride; a wine-tasting outing in Constantia for adults followed by casual dining; and occasional live music or cultural evenings in Woodstock or Bo-Kaap. Prioritize pre-booked transfers or rideshares to keep evenings low-stress and predictable."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Cape Town family-friendly opportunities include: Kirstenbosch Gardens (easy, stroller-friendly trails and picnics); Table Mountain Cableway (weather-permitting for panoramic views); V\u0026A Waterfront with the Two Oceans Aquarium; Green Point Park and its playgrounds for a relaxed outing; Muizenberg Beach for gentle sand and water; Boulders Beach penguin colony near Simon\u2019s Town (seasonal access). For rainy days or educational options, visit Iziko South African Museum and Planetarium. Plan 2\u20134 hour blocks, prioritize safety for the 1-year-old, and book ahead where required to maintain a slower, family-friendly pace."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Cape Town family-friendly night options: prioritize safe, walkable venues with play spaces or kid-friendly menus, reliable Wi\u2011Fi, and easy public transit. Recommend rotating hosts for board games or casual cafe evenings in accessible neighborhoods; plan light activities suitable for a 5-year-old and a 1-year-old, with stroller access and reasonable hours."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Cape Town, SA offers a moderate supply of after-6pm parent-friendly 3rd places. Expect about 10-13 venues per 100k residents with staff supervision.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Cape Town offers walkable inner suburbs and family-friendly pockets with MyCiTi transit, but most trips remain car-dependent.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Cape Town, SA provides reliable healthy food access with broad fresh options in urban areas; HEI 80-84.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Cape Town ZA likely demands ongoing visa and tax paperwork; estimate 5-8 hours/month for a US family navigating first-time permits.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "In Cape Town, SA, middle-income families get little to no monthly child benefit. Government support mainly targets low-income households.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Cape Town, securing a 1-year-old daycare may take 4-6 months; start inquiries before arrival and shortlist nearby creches.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "ZAR 3,000.00 ($157.89)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "ZAR 6,500.00 ($342.11)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "ZAR 2,500.00 ($131.58)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Cape Town, SA: roughly half of core services are online end-to-end; visa/healthcare enrollment still require in-person visits.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Cape Town, South Africa has long public primary care waits (roughly 3-4 weeks); private clinics help, but at higher cost.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "ZAR 6,000.00 ($333.33)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "ZAR 10,000.00 ($526.32)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "ZAR 7,500.00 ($416.67)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "South Africa (Cape Town) has universal public healthcare, but many rely on employer-based private plans. Job loss can disrupt private coverage; moderate tie.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2040",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Cape Town, ZA offers ~16 weeks paid maternity leave via UIF with job protection; income replacement is typically below 70-100%.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Cape Town, South Africa tax filing for a dual-income US family will require about 25\u201335 hours/year (SARS eFiling \u002B US expat returns).",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Cape Town (SA) offers MyCiTi in the CBD and northern suburbs with 10-min headways; roughly 60-70% live within 500 m of this service for 16\u002B hours.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Cape Town public universities subsidize locals; for expats, tuition often around 19-21% of median income, implying mid-low accessibility.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Cape Town\u0027s UCT ranks 151\u2013200 globally; solid SA option for quality higher education and local affordability.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Cape Town has a robust continuing education ecosystem with universities and providers. English-language options and grants are readily available.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Cape Town, SA has limited senior .NET architect postings (2-3/million/mo); strong remote options and English-friendly market.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Cape Town\u0027s Ruby on Rails demand is moderate (10-14 postings per million residents monthly); suitable for remote or local roles.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "ZAR 1,200,000.00 ($64,864.86)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "ZAR 720,000.00 ($38,918.92)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Cape Town beaches offer many family-friendly options (Muizenberg, Clifton, Camps Bay). For beach days, choose designated swimming areas with lifeguards, check local water-quality advisories, and plan for strong winds and sun exposure by bringing shade, sunscreen, hats, and water. Prioritize calm, kid-friendly coves for the 5- and 1-year-olds; consider parking, restrooms, shade trees, and stroller-friendly paths. Schedule beach time in the morning when temperatures are milder and crowds are smaller, and pair beach visits with nearby parks or kid-friendly activities. Be aware of rip currents and local safety guidelines, and have a plan for quick access to healthcare if needed.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall in Cape Town, ZA (Mar\u2013May) highs around 70\u201375\u00B0F, matching the family\u0027s preference for mild weather.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Cape Town, ZA offers many 50\u201385\u00B0F days with low humidity. This aligns with your mild-weather goal for year-round comfort.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Cape Town\u0027s Table Mountain and coastal reserves within 60 minutes offer dramatic scenery, ideal for family outdoor activities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Cape Town, SA offers several parks \u003E10 acres within 5 km, including Table Mountain area. Excellent for family outdoor time.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Cape Town spring highs are typically 70-75\u00B0F. This matches your mild-weather preference in Cape Town, South Africa.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Cape Town summers average around 76-80\u00B0F. This suits your family\u0027s preference for mild, low-stress weather.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Cape Town winters have winter highs around 55-60\u00B0F; mild compared with US winters.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Cape Town\u0027s mainstream politics show moderate anti-immigrant rhetoric. Xenophobia surfaces but it\u0027s not a dominant campaign focus.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Cape Town, SA shows a mostly stable democracy with mild backsliding signals. Strong civil society, but judiciary and corruption risks warrant monitoring.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Cape Town\u0027s climate stability is moderate; plan for drought and water-saving, with mild, Mediterranean-style weather.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "South Africa\u0027s dominant political narratives center on crime and safety, economic inequality and unemployment, service delivery and governance corruption, energy shortages and the energy transition, land reform debates, and the balance between fiscal restraint and social protection; with ongoing emphasis on rebuilding public trust and delivering tangible improvements in living standards."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Cape Town, ZA has had two recession years in the last 20 (2009, 2020). This suggests solid economic stability for planning a family relocation.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "South Africa shows strong media freedom; Cape Town has diverse, independent outlets with generally safe journalism, despite occasional risks.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "South Africa has had several immigration reforms (roughly 3 per decade). Expect ongoing tweaks, but Cape Town stays a viable relocation option for US families.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Cape Town, South Africa shows moderate political stability; institutions function, but protests and governance challenges temper certainty.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Cape Town\u0027s violent crime rates are higher than many US cities; choose safe, family-friendly neighborhoods and strong local safety planning.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "South Africa (Cape Town) shows very high wealth inequality (Gini ~60-63). This could challenge housing and service access for a family like this one.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    }
+  ]
 }

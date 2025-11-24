@@ -1,5 +1,484 @@
 {
   "version": 2,
   "iso": "BR",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "BRL 9,000.00 ($1,800.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "BRL 9,000.00 ($1,800.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "BRL 7,800.00 ($1,560.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "BRL 5,500.00 ($1,100.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "BRL 9,360.00 ($1,872.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "BRL 360.00 ($72.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "BRL 1,800.00 ($360.00)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "BRL 0.00 ($0.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "BRL 16,575.00 ($3,250.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "BRL 0.00 ($0.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "S\u00E3o Paulo, Brazil: US first-time visa implies moderate bureaucracy; expect 60-89 hours/year; consider local admin help.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "BRL 2,568,333.33 ($484,591.19)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "34%",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "S\u00E3o Paulo startup visa typically 5\u20136 months; expect Portuguese docs and local partnerships; budget time for Brazil\u2019s bureaucracy.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "65%",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- BRL 2,000,000.00 ($400,000.00) \u2013 FINEP Inova\u00E7\u00E3o Tecnol\u00F3gica \u2013 Public co-financing for early-stage software/games; fits a 1.5M USD project when a Brazilian subsidiary is established and remains competitive for a narrative-driven title.\n- BRL 1,500,000.00 ($300,000.00) \u2013 Lei do Bem (Incentivos Fiscais de P\u0026D) \u2013 Federal R\u0026D tax incentives reducing corporate tax by eligible R\u0026D expenditures; requires local entity and documented development work; useful for cost offsets over a 2-year cycle.\n- BRL 1,000,000.00 ($200,000.00) \u2013 ProAC IC \u2013 Secretaria da Cultura do Estado de S\u00E3o Paulo \u2013 Incentives for cultural/interactive projects including games; accessible via local incorporation; competitive but viable with strong narrative/cultural components.\n- BRL 2,000,000.00 ($400,000.00) \u2013 Lei Rouanet (Incentivo \u00E0 Cultura) \u2013 Federal cultural incentive framework enabling sponsorships for eligible projects; powerful for production/marketing spend but highly competitive and requires suitable cultural alignment.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "S\u00E3o Paulo, Brazil hosts about 6-7 game/dev events yearly (BGS, SPIGF, Campus Party), ideal for demos and networking.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "S\u00E3o Paulo offers a growing, bilingual freelance game talent pool (art/animation/audio/narrative) and a robust near-remote dev ecosystem.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "S\u00E3o Paulo has several game-friendly incubators/accelerators; about 4 programs offer mentorship and space for indie studios like Daemon Games.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "S\u00E3o Paulo, Brazil has a solid indie scene: many small studios, frequent game jams, and active meetups and coworking spaces.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "S\u00E3o Paulo has a strong game ecosystem. Universities (USP) and many coworking spaces (Cubo) enable robust partnerships.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "S\u00E3o Paulo\u0027s strong game-dev scene and events like Brasil Game Show offer solid local publisher access and regular bizdev networking.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "2",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "30",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "BRL 37,055,812.50 ($7,058,250.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "BRL 17,718,960.00 ($3,543,792.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "BRL 50,172,300.00 ($9,556,628.57)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From S\u00E3o Paulo, Brazil to major global game events, door-to-door travel is typically 16\u201320 hours (including airport transfer).",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "S\u00E3o Paulo, Brazil hosts about 3 in-person game-dev events per month, signaling a robust local development scene.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Establish a S\u00E3o Paulo-based Daemon Games hub that creates permanent high-skill roles in game development, cloud/tech infra, art, and QA, with student internships and university partnerships to grow local talent. The project aligns with Brazil\u0027s priorities on digital economy, innovation, and cultural exports, enabling local IP creation, access to grants or startup visas, and enhanced regional growth while contributing to bilingual, globally marketable content."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "BRL 150,000.00 ($30,000.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "S\u00E3o Paulo, Brazil: English ubiquity is feasible; expect ~10\u201314% of interactions in Portuguese as the family learns the local language.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "S\u00E3o Paulo, Brazil has growing bilingual options, but access varies. About 40\u201350% of seats offer English tracks in schools (private or municipal).",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "S\u00E3o Paulo leases typically take 5-6 weeks with expat brokers; focus on Jardins/Itaim/Moema for family-friendly housing, parks, and English-friendly services.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Brazilian immigration statuses include: (1) Resid\u00EAncia Permanente (Permanent Residency) granted via family reunification, employment offer, or investment, enabling long-term residence and the right to work in Brazil; (2) Cidadania/Naturaliza\u00E7\u00E3o (Citizenship) awarded after meeting residency and integration requirements (typically several years of permanent residence; in some cases shortened by marriage to a Brazilian or to a Brazilian child), conferring full civil and political rights, including the right to vote and to obtain a Brazilian passport. Status is determined through filing with Brazilian authorities or a Brazilian consulate, submitting supporting documentation (relationships, job offer, or investment), and passing required checks; naturalization adds language/integration requirements and time in country. Actionable steps for your S\u00E3o Paulo family: assess the best pathway (spouse/partner family visa vs. work/investment), gather documents (passports, birth/marriage certificates, proof of funds or employment), have documents translated/apostilled, initiate the residency application with the relevant authorities, begin Portuguese language and local settlement planning, and plan for healthcare, schooling, taxation, and eventual citizenship timelines.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "S\u00E3o Paulo, Brazil. Entrepreneur visas often take 11\u201312 weeks end-to-end, with possible delays.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "S\u00E3o Paulo, BR: non-sponsored visas likely 17-20 weeks end-to-end for first-time applicants; expect bureaucratic steps.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "S\u00E3o Paulo, Brazil: with a recognized sponsor, visa timeline ~9\u201310 weeks end-to-end for a US family; dependents may add time.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "S\u00E3o Paulo\u0027s growing tech scene and Brazil\u0027s skilled-immigrant programs support visas, but bureaucracy can slow approvals.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "S\u00E3o Paulo, Brazil typically requires about 4 years of residence for naturalization. This family aligns with that 4-year path.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "In S\u00E3o Paulo, Brazil, PR for skilled/entrepreneur routes typically spans several years; expect about 6-7 years given bureaucracy.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "S\u00E3o Paulo private/intl schools for white expats often report ~2\u20133 bullying incidents per 1,000; choose schools with strong anti-bullying policies.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Education quality in S\u00E3o Paulo/BR sits around the 20\u201329th percentile globally for K\u201312. Private bilingual options are common for reliable early years.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "S\u00E3o Paulo school meals align with Brazilian guidelines, emphasizing fruits/vegetables; some ultra-processed items remain; room for improvement.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In S\u00E3o Paulo public schools, English instruction averages 2-3 hours per week; bilingual aides for core subjects are uncommon.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "S\u00E3o Paulo offers solid language support for kids, with moderate capacity for Portuguese courses (roughly 50\u201369 seats/100 newcomers yearly).",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Curate a S\u00E3o Paulo date-night plan focused on safety and family-friendliness: identify 3-5 venues with evening hours that accommodate two adults and young children (play areas or on-site childcare), prioritize neighborhoods with walkable streets (Vila Madalena, Itaim, Pinheiros, Avenida Paulista), and include a mix of casual dining with kid-friendly menus, outdoor stroll options in well-lit parks, and occasional adults-only time with vetted babysitting; implement a rotating monthly schedule and verify transit safety and parking."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "S\u00E3o Paulo offers family-friendly activities: prioritize neighborhoods with parks (Ibirapuera, Parque da Aclima\u00E7\u00E3o) and good public schools; plan regular outings to kid-friendly venues such as Catavento Cultural and SESC centers (Pompeia, Vila Mariana) for bilingual-friendly programming; identify affordable, reliable childcare and early education with bilingual exposure; choose housing in walkable districts with parks, good broadband, and access to childcare; leverage local tech/startup networks for remote-work grants and visa guidance; schedule activities to avoid peak heat/humidity; use public transit for commuting to reduce stress and cost.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "S\u00E3o Paulo (BR) evening social options should emphasize safe, English-friendly venues in Vila Madalena, Pinheiros, and Jardins: prioritize late programs at SESC Pompeia and SESC Vila Mariana; seek family-friendly night events at Ibirapuera Park or museums with evening hours; look for English-friendly caf\u00E9s or coworking spaces hosting casual meetups or game nights; check Meetup Brazil and Eventbrite for language exchanges and social gatherings; choose well-lit areas with reliable ride options and plan childcare in advance; target 6-9 pm or later to fit family needs and Trey\u0027s remote-work schedule."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "S\u00E3o Paulo, BR has many after-6pm family venues with supervision. Great for after-school outings.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "S\u00E3o Paulo\u0027s transit-heavy neighborhoods and parks enable about 50-59% car-free trips; occasional car use for errands in family-friendly areas.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "S\u00E3o Paulo offers broad healthy food access with diverse markets and groceries. HEI ~80\u201384; generally reliable but varies by neighborhood.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "S\u00E3o Paulo, Brazil: ongoing admin is moderate. Plan 3-4 hours/month for visas, taxes, and registrations with local help.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "S\u00E3o Paulo, Brazil provides modest per-child benefits for middle-income families, around US$30\u201345/month per child.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "S\u00E3o Paulo, Brazil: private daycares often enroll within 1-2 months; plan 2-3 months to secure reliable, bilingual care for the 1-year-old.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "BRL 1,750.00 ($350.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "BRL 1,200.00 ($240.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "BRL 1,600.00 ($307.69)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "S\u00E3o Paulo offers many online core services via gov.br. However, visa, health enrollment, and some residency steps still require in-person visits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "In S\u00E3o Paulo, SUS primary care commonly waits 11\u201315 days; private clinics are quicker but pricier, aligning with universal/affordable healthcare goals.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "BRL 250.00 ($50.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "BRL 6,000.00 ($1,200.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "BRL 6,240.00 ($1,200.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "S\u00E3o Paulo, Brazil has universal SUS healthcare; access isn\u2019t tied to employment for Trey, Sarah, and the kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1904",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Brazil (S\u00E3o Paulo) has 16 weeks maternity leave at full pay with job protection; paternity leave ~1 week; overall moderate parental generosity.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "S\u00E3o Paulo, Brazil: dual-income U.S./Brazil families often hire tax pros for DIRPF/IRS. Expect substantial cross-border record-keeping.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "S\u00E3o Paulo offers strong central transit (metro/bus); roughly 60\u201369% live within 500m of 10-minute headways, with outer areas lagging.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "In S\u00E3o Paulo, public universities are tuition-free; strong college access matches your high education priority.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "S\u00E3o Paulo hosts USP (global rank ~101-150); strong college options and bilingual exposure for the family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "S\u00E3o Paulo offers abundant continuing education options with many universities and private providers, ideal for adult learners.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "S\u00E3o Paulo\u0027s IT market has steady senior .NET architect demand. Strong finance/tech base, but generally cooler than US levels.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "S\u00E3o Paulo Rails postings roughly 10-14 per million residents per month; steady opportunities for a 6-year Rails dev in startups and agencies.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "BRL 360,000.00 ($72,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "BRL 14,000.00 ($2,800.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "S\u00E3o Paulo coastal options include Baixada Santista (Guaruj\u00E1, Santos) and nearby towns, with Ilhabela ferry access\u2014generally 60\u2013180 minutes from the city depending on traffic. Prioritize neighborhoods with direct beach access, parks, and strong broadband; plan around weekend traffic to keep commutes predictable. Confirm family supports: good public schools, affordable childcare, universal healthcare, safety, and housing costs that fit your equity and liquidity needs while staying within Trey\u0027s and Sarah\u0027s remote/onsite work requirements.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "S\u00E3o Paulo, Brazil fall highs are around 70\u00B0F\u201375\u00B0F. This matches your mild-weather preference.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "S\u00E3o Paulo, BR: year-round 50-85\u00B0F; humidity can be high. Roughly 180-219 days meet the mild-weather target.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "S\u00E3o Paulo, Brazil: within 60 minutes, ~30\u201339% protected land (Cantareira/Serra do Mar), with parks and family-friendly nature options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "S\u00E3o Paulo has several large parks within 5 km (e.g., Ibirapuera). About 8-9 parks exceed 10 acres within reach, supporting family outdoor time.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "S\u00E3o Paulo, Brazil spring highs typically 70\u00B0F\u201375\u00B0F, with mild, pleasant days and manageable humidity.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "S\u00E3o Paulo, Brazil summers typically reach 81\u201385\u00B0F with humidity. This matches your preference for a mild-year-round climate.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in S\u00E3o Paulo typically reach 66\u00B0F\u201375\u00B0F in July. This indicates mild, comfortable winters suitable for family life.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Rhetoric around immigrants is present but not dominant in Brazil; in S\u00E3o Paulo, inclusive policies help ease the transition.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "S\u00E3o Paulo, Brazil shows mild autocratization (\u22480.16\u20130.20) over 2010\u20132024; democracy remains robust for family stability.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "S\u00E3o Paulo, BR has moderate climate stability with improving resilience; milder seasons help, but urban heat and variability remain concerns.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Brazil\u2019s dominant national narratives center on crime/public security, corruption and governance credibility, inflation and economic reform, and social inequality, with climate and urban policy increasingly shaping S\u00E3o Paulo\u2019s debates; in practice, focus on safer neighborhoods, transparent governance, reliable public services, tech-driven job growth, and affordable education and healthcare in the city.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Economic Stability (S\u00E3o Paulo, BR): Brazil had 4 recession years in the last 20 (2009, 2015-16, 2020); recovery underway.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "In Brazil/S\u00E3o Paulo, media freedom is moderate (RSF ~40\u201350%), with diverse outlets but notable political influence.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "S\u00E3o Paulo, Brazil offers relatively stable immigration policy with structured visa steps; expect local paperwork and Portuguese requirements.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "S\u00E3o Paulo, Brazil: V-Dem LDI around the 60s percentile; generally stable institutions with occasional fluctuations\u2014reasonable for a family migration plan.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "S\u00E3o Paulo, BR has higher violent crime than KC; roughly 450\u2013550 per 100k, so stability aligns at 4.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Brazil\u0027s wealth inequality is high (Gini ~53-54 nationally). In S\u00E3o Paulo, disparities persist, affecting housing and access to services for families.",
+      "alignmentValue": 3
+    }
+  ]
 }

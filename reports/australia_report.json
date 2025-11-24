@@ -1,5 +1,486 @@
 {
   "version": 2,
   "iso": "AU",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "AUD 5,450.00 ($3,542.50)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "AUD 2,900.00 ($1,914.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "AUD 2,800.00 ($1,848.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "AUD 1,700.00 ($1,139.00)",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "AUD 3,350.00 ($2,211.00)",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "AUD 135.00 ($90.45)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "AUD 650.00 ($429.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "AUD 2,700.00 ($1,782.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "AUD 12,000.00 ($8,000.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "AUD 6,000.00 ($3,960.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Australia offers straightforward daily life; expect roughly 10-19 hours/year in bureaucratic/tax tasks for this family.",
+      "alignmentValue": 9,
+      "sameAsParent": true
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "AUD 1,338,000.00 ($883,080.00)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Australia offers state-endorsed entrepreneur visas for startups like yours. Expect about 5-6 months for a decision, with grant pathways.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "23%",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- AUD 250,000.00 ($165,000.00) \u2013 Screen Australia \u2013 Game Development Fund \u2013 Supports development of locally produced narrative games; early-stage studios can access co-funding and guidance, with eligibility aligned to 0\u20133 years.\n- AUD 150,000.00 ($99,000.00) \u2013 Create NSW \u2013 Game Development Fund \u2013 NSW government support for prototype and development; favors studios that incorporate in NSW and produce story-driven premium titles.\n- AUD 100,000.00 ($66,000.00) \u2013 R\u0026D Tax Incentive \u2013 Federal offset on eligible R\u0026D activities; helps fund tech/prototyping for game projects without upfront cash; attractive for small studios.\n- AUD 50,000.00 ($33,000.00) \u2013 EMDG \u2013 Export Market Development Grant \u2013 Supports overseas marketing/distribution for digital games, accessible to foreign founders with AU entity; best for Steam/console launch efforts.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "AU major cities host several game/creative-tech events yearly (roughly 6-7 near Melbourne/Sydney), offering solid pitching and networking opportunities.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Australia has a solid freelance game talent pool (artists, animators, sound, narrative) in Melbourne/Sydney. Remote-friendly options help Trey\u0027s venture.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Australia has a handful of game-friendly accelerators in Sydney, Melbourne and Brisbane. For Daemon Games, expect about 4 options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "AU indie scene is active in major cities (Melbourne/Sydney) with studios, jams, and hubs that support Trey\u2019s game-dev path.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Australia has solid university and studio networks (Melbourne/Sydney), plus ACMI and coworking hubs; strong partner depth for game dev.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "AU has solid publisher access via Sydney/Melbourne hubs; regular visits and regional events (PAX Aus) help connect with publishers.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "1",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "20",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "AUD 13,607,648.44 ($9,071,765.63)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "AUD 3,624,390.00 ($2,416,260.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "AUD 50,688,480.00 ($33,454,396.80)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Australia (AU), door-to-door to major events like Gamescom or GDC typically exceeds 24 hours. Regional events or virtual formats may be more practical.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Australia\u0027s major hubs (Sydney, Melbourne) host about 3 in-person game-dev events per month, fostering a solid local dev scene.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Establish an Australia-based Daemon Games studio to create high-skilled software/game development jobs, contribute culturally through locally produced titles, and drive cloud-based gaming innovation. This aligns with Australia\u2019s digital economy and creative industries priorities and can leverage skilled migration pathways, R\u0026D incentives, and government grants to recruit and retain talent; pursue a phased plan with local hires, university partnerships, and regional studio nodes to maximize economic and cultural impact."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "AUD 60,000.00 ($39,600.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Australia relies on English; expect English in most interactions. Family is open to learning a local language; native-language use will be minimal.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Australia uses English-medium schooling widely; bilingual options exist in some schools. English ubiquity and supports should help the family in AU.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Australia (AU), expect 7\u20138 weeks to secure a lease in inner-suburban, family-friendly areas. Visa and relocation plans should align with this timeline.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Australia\u2019s immigration framework distinguishes permanent residency (PR), citizenship, and a range of temporary visas (e.g., skilled/employer-sponsored, student, partner, and bridging visas). Eligibility is determined by pathways such as points-based skilled migration, family sponsorship, employer nomination, or humanitarian programs, with visa-specific criteria and durations. Key rights by status: PR provides work rights, access to Medicare, and a path to citizenship after meeting residence and character requirements; citizenship grants full political rights (including voting) and broader social protections. Temporary visa holders have work rights and access limited by visa terms and may face renewal or transition requirements. Practical steps for this family: pursue PR via skilled migration or employer sponsorship; strengthen English, secure stable finances, and plan to satisfy residency requirements; ensure health coverage and address potential family sponsorship options; chart a concrete timeline from PR to citizenship and comply with visa conditions.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "AU entrepreneur visas are typically 11-12 weeks end-to-end. This suggests a mid-range alignment (6) for Trey\u0027s startup path.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Australia (AU) independent visa path (no sponsor) for a US family is lengthy and unpredictable; expect 7-12\u002B months.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Australia (AU) with a recognized sponsor: expect 21\u201328 weeks end-to-end for a family visa. Plan for medicals and security checks.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Australia\u0027s skilled visa pathways (189/190) offer strong approval likelihood (~90-94%) for this US family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Australia, citizenship by conferral is usually after about 4 years of lawful residence (1 year as permanent resident); for this US family, eligibility around year 4.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Australia\u0027s skilled/entrepreneur routes often reach PR in ~4-5 years of residence. With your family focus and first-time visas, plan ~4-5 years.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Very low bullying risk for white, English-speaking immigrant children in Australian schools; strong anti-bullying policies and inclusive classrooms.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Australia\u0027s primary and secondary education is strong with universal access. Public schools are solid nationwide, with broad early childhood programs; state variation exists.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Australia-wide school meals follow national HEI-like guidelines. Many public canteens emphasize whole foods and limit ultra-processed items.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In Australia public schools, English is taught roughly 5-6 hours/week; many schools provide bilingual aides for core subjects where needed.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Australia\u0027s newcomer English programs (AMEP/settlement services) offer ample courses. This supports Trey and the kids\u0027 language integration.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "AU date-night options should favor inner-suburban, walkable venues that accommodate a family schedule. Prioritize early-evening or after-bedtime outings near parks, beaches, or cafes (e.g., sunset coastal walks, family-friendly eateries with safe play areas, board-game or wine-bar venues with quiet hours), and arrange reliable childcare in advance to keep nights low-stress."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Create a concise shortlist of Australia-based family activities for a 5-year-old and a 1-year-old in urban/inner-suburban areas: parks and playgrounds, nature reserves, libraries, children\u0027s museums, community centers, early-childhood programs, weekend family events, and affordable childcare options. For each item, provide location, typical hours, cost, accessibility (transport and stroller access), safety notes, and opportunities for bilingual exposure; align suggestions with nearby schools, housing options, and a mild climate profile."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Identify weekly/biweekly evening social options in urban/inner-suburban AU areas (board-game cafes, library/game nights, and parent-focused groups). Join local Meetup/Facebook groups to surface events and target 2\u20133 outings per month; prioritize family-friendly times for the 5-year-old or arrange babysitting for adults-only evenings. Build a simple 6\u2011week plan focusing on safe transit, good lighting, accessibility, and inclusive communities, with backup options in case of schedule conflicts."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Australia\u0027s major cities offer about 18\u201321 parent-friendly venues per 100k after 6pm. This aligns with our family\u0027s after-hours needs in AU.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "AU cities with walkable inner suburbs, parks, and good transit align with the family\u0027s needs. Melbourne or Canberra fit a mild, family-friendly lifestyle.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "In Australia\u0027s urban centers, access to healthy food is broad with many markets and options; aligns with HEI around 85-89.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Australia visa for first-time applicants will need steady paperwork. Plan 3-4 hours/month early on for docs, medicals, and submissions.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "In Australia, middle-income families typically receive about USD 80-115 per child monthly; this family sits mid-range.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "AU infant daycare wait times in urban areas typically span 4-6 months. Prioritize early applications and explore government childcare subsidies.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "AUD 800.00 ($560.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "AUD 2,200.00 ($1,452.00)",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "AUD 880.00 ($580.80)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Australia\u0027s core services are largely online (tax, healthcare, school enrollment, visas); some biometrics or in-person steps may still be needed.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Australia\u0027s Medicare provides universal healthcare; GP waits are typically 1\u20132 days, aligning with your healthcare access goals.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "AUD 350.00 ($380.80)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "AUD 2,350.00 ($1,551.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "AUD 1,000.00 ($660.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Australia\u0027s universal Medicare largely decouples healthcare from employment; your family would keep coverage through job changes.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1900",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Australia offers 18 weeks of Paid Parental Leave per birth parent and 2 weeks for partners, with job protection. Not 52 weeks, but supportive parental leave.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In AU, a dual-income US-Australian family will spend about 9-12 hours/year on tax filing. It\u0027s mostly online via myGov with some cross-border work.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "In Australia, inner-suburban areas typically have frequent transit; many residents live within 500m of services with 10-min headways most of the day.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Australia\u0027s domestic tuition relies on HELP loans, keeping upfront costs low for families. This supports affordable college access for Anduin and Alasdair.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "AU has top-50 global universities (Melbourne, ANU). This aligns with your high education priority for the kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Australia\u0027s urban areas offer 12-14 accredited adult programs per 100k. This provides solid continuing education options for families.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "In Australia, senior .NET architect demand is solid in Sydney/Melbourne. Remote options and competitive salaries suit experienced leaders.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Australia has moderate Rails demand (~10-14 postings per million residents per month), strongest in Sydney and Melbourne; remote options are common.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "AUD 180,000.00 ($118,800.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "AUD 135,000.00 ($87,750.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "In Australia, prioritize coastal, family-friendly areas with easy beach access, strong safety and walkability, reliable broadband for remote work, and nearby quality public schools and healthcare; assess climate variability and heat mitigation near beaches to ensure comfortable year-round living for the family."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "AU fall highs typically 65\u00B0F\u201369\u00B0F. Coastal cities like Sydney/Melbourne enjoy mild autumn.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Australia offers many days 50-85 F with mild humidity, aligning with your mild-weather goal; note some coastal summers can be hotter and humid.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Australia\u0027s coast and bush offer abundant protected areas; within 60 minutes of major cities you\u0027ll find ample nature for a family-friendly outdoor life.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Australia offers strong nature access; many cities have 6-7 parks \u003E10 acres within 5 km, matching your family\u0027s outdoor, park-friendly lifestyle.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Australia typically run 65\u00B0F-69\u00B0F. This aligns with the family\u0027s preference for mild, low-humidity springs in AU.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Coastal Australia summers typically reach 81\u201385\u00B0F. That fits your mild-weather preference.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Australia are typically 55\u00B0F\u201360\u00B0F in southern cities. Northern areas can be warmer, but overall winters are mild.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Australia\u0027s mainstream immigration rhetoric is moderate; not a dominant issue, offering stable, inclusive policies for your family in Australia.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Australia remains democratically stable; no autocratization trend evident over the last 10\u201320 years.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Australia ranks strongly for climate stability, with generally mild coastal climates and robust adaptation. Be mindful of heat waves and regional drought risks.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Australia\u2019s national political discourse centers on housing affordability and the cost of living, climate action and energy security, immigration and border policy, Indigenous rights and reconciliation, and debates over public services funding; policy emphasis is on increasing housing supply, stabilizing energy prices, delivering pragmatic climate policies, and maintaining orderly immigration while protecting social cohesion.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Australia shows strong economic stability with 0-1 recession years in the last 20 years; favorable for family relocation to AU.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Australia has solid media freedom (RSF ~74); independent outlets exist, though political and corporate pressure persists.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "AU\u0027s skilled-migration system is relatively stable with clear rules; expect occasional tweaks, but a predictable visa path for families relocating to Australia.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Australia has high political stability with strong institutions; families relocating to AU can expect predictable governance and rule of law.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Australia (AU) generally has low violent crime and strong social cohesion. Family-friendly policies support stable QoL for your family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Australia\u0027s disposable income Gini sits in the mid-30s (\u224834\u201337), a moderate level. Universal healthcare and strong schools support families in AU.",
+      "alignmentValue": 7
+    }
+  ]
 }

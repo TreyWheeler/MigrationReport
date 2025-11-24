@@ -1,5 +1,487 @@
 {
   "version": 2,
   "iso": "PL",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "PLN 12,500.00 ($3,000.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "PLN 6,500.00 ($1,625.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "PLN 6,500.00 ($1,511.63)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "PLN 7,000.00 ($1,707.32)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "PLN 5,200.00 ($1,300.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "PLN 280.00 ($70.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "PLN 0.00 ($0.00)"
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "PLN 0.00 ($0.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "PLN 18,450.00 ($4,500.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "PLN 6,000.00 ($1,395.35)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "In Warsaw, Poland, residency steps for a US family are tangible but manageable. Plan around 60-90 hours/year for permits, registrations, and taxes.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "PLN 3,566,666.68 ($891,666.67)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "19%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Warsaw, Poland Start-Up Visa aims for 3-4 months; a supportive ecosystem with grants and visa options for founders.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "20%",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Warsaw, Poland hosts a modest but real game/dev scene. About 2-3 events per year offer demos, networking, and pitches for Daemon Games.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Poland (Warsaw) offers a solid freelance game talent pool across art, animation, audio, and narrative; strong studios and education support.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Warsaw, Poland has a handful (3\u20134) game-focused accelerators/mentorships; decent indie support but not a large ecosystem.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Warsaw\u0027s indie game scene is growing: multiple studios, meetups, jams, and co-working hubs; strong EU funding routes help Trey\u0027s ventures.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Warsaw, Poland offers a strong game dev ecosystem: universities (UW, PW), cultural partners, and many coworking spaces with grants and events.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Warsaw, Poland has solid local publishers (CD Projekt/CI Games) and a growing BizDev scene; good access for Trey\u0027s game venture.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "6",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "15",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "PLN 44,032,612.50 ($10,739,661.59)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "PLN 13,600,000.00 ($3,400,000.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "PLN 52,781,544.00 ($12,274,778.67)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Warsaw, Poland, Gamescom (Cologne) is ~4\u20136 hours door-to-door; GDC in SF would take well over a day.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Warsaw has about 1 to 1.4 in-person game-dev events monthly (meetups/talks), a modest, family-friendly scene with room to grow.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games in Warsaw can create meaningful local jobs in software development, art, and QA, and contribute to Poland\u2019s cultural output through Polish- and internationally-focused titles. It would strengthen the Polish game-dev ecosystem by partnering with universities and local studios, pursuing EU and national R\u0026D grants, and building a talent pipeline with bilingual, high-skill workers. This aligns with Poland\u2019s priorities for digital economy growth, creative industries, regional tech clustering, and accessible pathways for skilled immigration."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "PLN 160,000.00 ($40,000.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Warsaw, expect about 30-39% of interactions to require Polish; English suffices in many tech/expat services, but plan basic Polish.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Warsaw offers strong bilingual/English options in many private and select public schools; roughly 60% of seats provide English or bilingual tracks for your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Warsaw, Poland, expect 5\u20136 weeks to secure a family-friendly lease in districts like Mokot\u00F3w with parks and reliable broadband.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Poland (Warsaw), immigration status determines rights to live, work and access public services. Core statuses are: 1) Temporary Residence Permit (zezwolenie na pobyt czasowy) issued for work, study or family ties; rights include lawful residence, permission to work within the permit scope, and access to public healthcare and social security after registration, with renewal obligations. 2) Permanent Residence Permit (zezwolenie na pobyt sta\u0142y) after a qualifying period of legal stay; rights include unrestricted work, eligibility for social benefits, and easier family reunification. 3) EU Long-Term Residence (pobyt d\u0142ugoterminowy UE) after five years of legal stay; rights align with EU rules on mobility and work across most member states, subject to local rules. 4) Polish Citizenship (obywatelstwo polskie) by naturalization or descent; rights include full political rights, a Polish passport and EU mobility. Pathways for your family: pursue family reunification where permitted; transition from temporary to permanent residence as staying time accrues; after long-term residence and integration, consider naturalization. Actions: consult official guidance on gov.pl, assess eligibility for the appropriate status, gather documents (proof of residence, income, health insurance, birth/marriage certificates with necessary apostilles), and engage an accredited immigration professional to submit applications with the appropriate voivodeship offices. Maintain status through renewals and compliance and plan for language and integration requirements.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Poland (Warsaw) entrepreneur visa routes typically take 11-12 weeks end-to-end; plan for documentation and potential delays.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Warsaw, Poland, without a recognized sponsor, visa processing may be 21-28 weeks end-to-end for your family.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Warsaw, Poland: with a recognized sponsor, work visa end-to-end is typically 11-12 weeks. Plan ~3 months for permits and residency steps.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Warsaw, Poland offers practical skilled-immigrant routes (EU Blue Card/work permits) and a growing tech scene; approvals are solid but vary.",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Warsaw, Poland, naturalization typically needs 3-5 years of permanent residence; plan for about 4 years minimum.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Poland typically requires about 5 years of legal stay for permanent residency; in Warsaw, a stable entrepreneur/worker path could reach PR in ~5-6 years.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Warsaw has low bullying/racism risk for white immigrant kids. English-friendly schools are often \u003C1 per 1,000; public schools may have language barriers.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Warsaw\u0027s primary/secondary schools offer solid basics; bilingual options exist, and secular programs are common.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Warsaw, Poland\u0027s school meals show moderate nutrition quality for kids. Ultra-processed foods still appear, with HEI roughly 75-79.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Warsaw, Poland public schools typically offer about 3-4 hours/week of English; bilingual aides support core subjects in some schools.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "In Warsaw, Poland, language integration courses exist for newcomers. Capacity is moderate, roughly 30-50 seats per 100 newcomers annually.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Warsaw date-night opportunities for a two-adult, two-kid family: start with family-friendly dining in \u015Ar\u00F3dmie\u015Bcie or Powi\u015Ble with early-evening options; enjoy a stroll along the Vistula boulevards and nearby parks; catch an English-subtitled cinema or a kid-friendly theatre show; visit board-game cafes or family-oriented interactive venues; consider family-friendly escape rooms or museums with evening hours. Plan using reliable transit and nearby childcare options; prioritize venues with walkability and safe, low-stress atmospheres."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Plan a 6-9 month Warsaw family itinerary: weekly outdoor time in \u0141azienki Kr\u00F3lewskie and Pole Mokotowskie; monthly hands-on visits to Copernicus Science Centre (Centrum Nauki Kopernik); regular English-friendly cultural outings; enroll the 5-year-old in a bilingual program and seek bilingual activities for the 1-year-old; prioritize living in family-friendly districts (\u017Boliborz, Mokot\u00F3w) with parks, walkability and strong schools; use remote-work spaces with reliable broadband and connect with local expat/LGBTQ-friendly communities to support values."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Warsaw, Poland: Prioritize family-friendly, English-friendly evening social options for Trey, Sarah, and their children (ages 5 and 1). Target venues include board-game cafes, family game nights at libraries or community centers, and expat meetups that welcome families; ensure venues have reliable Wi-Fi, accessible locations, reasonable pricing, and a safe, welcoming environment. Build a rotating calendar of low-stress events that align with a slower pace of life and the couple\u2019s community-oriented values, with times suitable for after work and weekend afternoons."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "In Warsaw, Poland, there are many supervised kid-friendly venues after 6pm. Libraries, play cafes, and activity centers support family life.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Warsaw\u0027s transit-first setup (metro/trams) and parks support ~60-69% car-free family life; walkable neighborhoods and English-friendly services aid integration.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Quality food access in Warsaw, Poland is strong with markets and supermarkets offering healthy options. This supports your family\u2019s meals and daily life.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "In Warsaw, Poland, ongoing admin is light; most processes are online, about 1 hour per month.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Poland\u0027s 500\u002B in Warsaw provides ~500 PLN/child/month (~$110\u2013$130). This maps to life_child_benefit_generosity 6.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Warsaw, Poland, daycare for a 1-year-old typically takes 4\u20136 months due to demand. Public options exist with subsidies, but wait times vary.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "PLN 600.00 ($133.33)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "PLN 2,000.00 ($500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "PLN 1,550.00 ($387.50)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Warsaw, Poland: roughly 60-70% of core services can be completed online; visa biometrics and school enrollment still require in-person visits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Warsaw, Poland offers universal, affordable care; primary care waits are typically 3\u20134 days in the public system, with faster private options available.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "PLN 2,000.00 ($500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "PLN 4,900.00 ($1,113.64)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "PLN 2,000.00 ($500.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Poland has universal public health via NFZ. Coverage isn\u2019t strictly job-based, so moving to Warsaw won\u2019t usually break healthcare access.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1768",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Poland (Warsaw) offers up to 32 weeks of parental leave per parent with job protection. Pay is around 70% of income.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In Poland (Warsaw), dual-income filing is moderate; expect ~9-12 hrs/year with cross-border US considerations.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Warsaw, Poland offers strong transit; most residents are within 500 m of frequent service (\u003C=10-min headways) for 16\u002B hours a day, aiding family travel.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "In Warsaw, Poland, international student tuition commonly equals about 14-15% of median net income. This signals moderate college accessibility for future funding.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "College quality in Warsaw, Poland is solid. Top Polish universities rank around 201-300 globally.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Warsaw, Poland has a dense network of accredited adult programs (roughly 15\u201319 per 100k), supporting ongoing education for the family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Warsaw has solid senior .NET architect demand (~13-16 postings/M/mo), offering stable, English-friendly tech roles suitable for the family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "In Warsaw, Poland, Rails postings are moderate (15\u201319 per million per month). A 6-year Rails pro should find English-friendly roles with local startups and tech firms.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "PLN 300,000.00 ($71,428.57)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "PLN 210,000.00 ($52,500.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Identify 3-5 family-friendly beach options within 1-2 hours of Warsaw (lakes/river shores). For each option, confirm lifeguards on duty, clean restrooms, shaded picnicking areas, stroller accessibility, affordable entry, and parking or transit access; check English signage. Prioritize sites with seasonal hours aligned to school holidays and lower heat exposure. Prepare a concise plan with transport times, costs, and backup indoor options for bad weather."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Warsaw, Poland typically run about 60\u201365\u00B0F. This aligns with a mild autumn climate for the family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Warsaw, Poland has a temperate climate with many mild days; about 180\u2013210 days/year in the 50\u201385\u00B0F range with moderate humidity.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Natural beauty around Warsaw, Poland is strong, with Kampinos National Park nearby and access to protected landscapes within 60 minutes for family outings.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Nature access: Warsaw, Poland has several large parks (\u003E10 acres) within 5 km, supporting regular outdoor time for the family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "In Warsaw, Poland, spring highs are roughly 60\u00B0F\u201364\u00B0F, offering mild weather for outdoor activities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Warsaw summer highs typically rise to about 76\u201380\u00B0F, aligning with a mild climate for the family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Warsaw, Poland typically reach 30-34\u00B0F. This cool but manageable winter aligns with a preference for mild year-round climate.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Poland (Warsaw) shows persistent anti-immigrant rhetoric in national politics; urban voters are mixed, indicating moderate-to-significant salience.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Poland shows mild autocratization (0.21-0.25) over 10\u201320 years; modest backsliding but Warsaw remains within functioning democratic institutions.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Climate stability in Warsaw, Poland appears moderate (ND-GAIN ~70s). Robust infrastructure and EU policies support resilience for this family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Poland\u0027s dominant political narratives center on protecting national sovereignty and judicial reforms in the face of EU scrutiny, sustaining robust social welfare and family policies, stabilizing the economy amid high energy costs, and a security-minded stance on Ukraine and migration; discourse also shows caution toward deeper EU integration and a pragmatic approach to climate/energy transition that preserves energy reliability.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Poland (Warsaw) shows solid economic stability with only 2 recession years in 2005\u20132024; growth has remained resilient.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Media freedom in Warsaw, Poland is mixed: government influence exists, with pressure on some outlets. Rely on multiple independent sources to avoid propaganda.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Warsaw, Poland offers relatively stable immigration rules; expect about 3 major overhauls per decade, which fits your family planning.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Warsaw, Poland offers solid liberal institutions but evolving rule-of-law tensions; expect steady governance with EU safeguards.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Warsaw, Poland has very low violent crime (\u003C200/100k), enabling stable social life and family-friendly QoL in a growing urban area.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Poland\u0027s Gini around 30\u201332 indicates moderate inequality; Warsaw\u0027s stable social framework and EU ties support family-friendly migration.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    }
+  ]
 }

@@ -1,5 +1,486 @@
 {
   "version": 2,
   "iso": "CL",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "CLP 2,200,000.00 ($2,444.44)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "CLP 1,800,000.00 ($2,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "CLP 2,632,000.00 ($2,800.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "CLP 2,100,000.00 ($2,333.33)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "CLP 1,664,000.00 ($1,848.89)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "CLP 90,000.00 ($90.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "CLP 1,234.56 ($1,345.67)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "CLP 1,035,000.00 ($1,150.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "CLP 6,370,000.00 ($6,500.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "CLP 1,750,000.00 ($1,785.71)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Chile (Santiago) visa setup will be heavier in year 1; ongoing paperwork is moderate, around 20-29 hours/year.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "CLP 966,525,000.00 ($986,250.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "27%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "In Santiago, Chile, Start-Up Chile offers entrepreneur visas with funding options. Approvals typically take 2-3 months.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "23%",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Chile\u0027s Santiago has a modest game-dev scene with events like Gamelab Chile and local meetups, offering occasional demo and networking opportunities.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Santiago has a budding indie game scene with local studios and freelancers; talent is solid but not deep across all art/audio/narrative roles.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Santiago has 2-3 game-friendly accelerators (incl. Start-Up Chile) with mentors and space; not a dense game-dev cluster but accessible.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Santiago, Chile has a growing indie scene with several small studios, regular meetups, and occasional game jams; still mid-sized, not a dense hub.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Santiago, Chile has a robust university and startup ecosystem (Start-Up Chile), coworking spaces, and game-dev groups for funding and events.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Santiago has a modest local publisher scene. Major publishers rarely have offices here, so access depends on LATAM hubs and events.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "3",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "CLP 8,998,797,600.00 ($9,472,418.53)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "CLP 2,935,001,250.00 ($3,089,475.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "CLP 46,192,815,000.00 ($51,325,350.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Santiago, Chile, door-to-door to major global game events is \u003E24 hours; expect long travel times.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Santiago, Chile hosts about two in-person game-dev events per month, supporting a growing local indie scene. This fits Trey and Sarah\u0027s game/tech interests.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Position Daemon Games as a Santiago-based tech-cultural hub: create high-skilled game/software jobs, partner with universities for internships, and produce local-language content to grow digital exports. Aligns with Chile\u0027s innovation grants, entrepreneurship agenda, and workforce development; actionable steps include applying for R\u0026D/creative industry incentives, establishing a hybrid local team with Azure-enabled infrastructure, and building local partnerships to strengthen the game-dev ecosystem and cultural output.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "CLP 22,500,000.00 ($25,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Santiago, Chile: expect around half of local interactions to require Spanish; family prioritizes English ubiquity and is willing to learn the local language.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Santiago, Chile has growing bilingual options; public English tracks are limited\u2014consider private/international schools with English programs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Housing in Santiago, Chile likely secured in 5-6 weeks for a family of four; use local agents in Providencia/Las Condes.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Chile grants immigration status through the Servicio Nacional de Migraciones (and related immigration offices). Key statuses are: Temporary Residence (visa) allowing stay and work under specific categories (work, family reunification, study); after meeting duration/conditions, you may qualify for Permanent Residence (Residencia Definitiva) with indefinite stay and work rights, social services access, and eligibility to sponsor family; and Citizenship by Naturalization after several years of legal residence, with required language and civic-knowledge integration, unlocking full civil and political rights. Actionable steps: choose the right visa category, gather required documents (passport, birth/marriage records, proof of income/solvency, health coverage), file applications through official channels, maintain lawful status and renewals, plan toward permanent residence if desired, and, if citizenship is a goal, track naturalization timelines and requirements; consider consulting an accredited immigration professional and staying updated on rule changes."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Start-Up Chile entrepreneur route; typical end-to-end visa processing in Santiago is around 7\u20138 weeks for founders.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Santiago, Chile, visa path without a recognized sponsor for first-time applicants may take 21-28 weeks end-to-end; plan for several months.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Santiago, Chile: with a recognized sponsor, visa processing is about 7-8 weeks end-to-end. Plan for family relocation and schooling logistics.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Santiago, Chile has a growing tech scene and startup visa options; skilled work visas are reasonably accessible for US professionals.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Santiago, Chile: naturalization typically requires 5 years of continuous residence; expect citizenship eligibility around year 5 for your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Chile generally requires about 5-6 years of temporary residence for skilled workers/entrepreneurs to obtain permanent residency. In Santiago, follow local visa routes.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Bullying/racism risk for Caucasian immigrant kids in Santiago is moderate (about 2\u20132.9 per 1,000 students). Many schools offer anti-bullying policies and bilingual options.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Education quality for kids in Santiago, Chile is mid-range overall. Strong private/bilingual schools exist, but public options vary widely.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "In Santiago, Chile, school meals follow national guidelines to limit ultra-processed foods; HEI likely sits around 70-74, with room to improve.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In Santiago, Chile, public schools typically offer about 4-5 hours/week of English; bilingual aides are not universal, so early bilingual exposure may vary.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Santiago, Chile has robust newcomer language courses (roughly 90\u2013110 seats per 100 newcomers), supporting early bilingual exposure for the kids.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Date-night options in Santiago: stroll Lastarria and Bellavista for cafes, galleries, and live music; savor sunset views from Cerro San Crist\u00F3bal or Sky Costanera rooftop bars; choose intimate dinners in Barrio Italia or Providencia with modern Chilean fusion; consider a wine-tasting or short trip to Maipo Valley; enjoy riverside walks or park-side dining along Mapocho/Parque Forestal; book in advance and use safe transit (Metro/Uber) for late hours.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Take advantage of Santiago\u2019s family-friendly outdoor spaces and bilingual cultural options: prioritize parks (Parque Metropolitano/Cerro San Crist\u00F3bal, Quinta Normal, Parque O\u2019Higgins) for playgrounds and short walks; augment with hands-on venues like Museo Interactivo Mirador (MIM) and kid-friendly workshops; use the Mapocho River bike/walk paths for easy family outings; seek bilingual programs at museums and libraries; connect with local parent groups for affordable, regular activities; plan short seasonal trips to nearby natural areas or coastal towns when the weather is mild."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Identify family-friendly social nights in Santiago (e.g., board game cafes and expat meetups in Providencia/Las Condes); prioritize venues with safe transit, English-speaking staff, and kid-friendly spaces. Target weekend or early-evening events to fit a 5-year-old and a 1-year-old, and arrange childcare if needed.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Santiago has a solid stock of after-hours family-friendly 3rd places (libraries, cafes, parks). Expect about 22-25 venues per 100k residents.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "In Santiago, walkable parks and a strong metro support a car-light family lifestyle. Expats, bilingual schooling, and targeted services match your priorities.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "In Santiago, Chile, broad healthy food options exist via markets and big supermarkets, supporting strong access for your family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Life Bureaucratic Compliance in Santiago, Chile: expect about 1 hour per month of visa/tax tasks. This matches your low tolerance for red tape in CL.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Chile (Santiago) middle-income child benefits are modest, roughly USD 25-50 per child per month; aligns with 3.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Daycare slots in Santiago typically take 3\u20134 months to secure, with bilingual private centers available; public options may have longer waits.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "CLP 261,000.00 ($290.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "CLP 585,000.00 ($650.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "CLP 300,000.00 ($300.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Santiago, Chile: ~70\u201379% of core resident services online; visa appointments and healthcare enrollment may still require in-person visits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Santiago, Chile offers universal public healthcare, but primary care waits typically 11\u201315 days; private care is faster but pricier.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "CLP 420,000.00 ($420.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "CLP 1,083,500.00 ($1,100.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "CLP 720,000.00 ($800.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Chile offers universal healthcare (FONASA); in Santiago, most residents keep coverage when changing jobs, with public options easing access.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2000",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Chile offers ~18 weeks maternity leave with pay and job protection; paternal leave is brief (a few days) for Santiago.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Santiago, Chile: dual-income expats can expect about 13\u201318 hours/yr for Chilean filing, plus cross-border US prep.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Santiago\u0027s public transit is dense; many neighborhoods have frequent headways most of the day, supporting an urban, family-friendly lifestyle.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "In Santiago, Chile, college costs are moderate; tuition often around 8-9% of median income, with public options and scholarships helping the family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "In Santiago, Chile, top universities like UC Chile and Universidad de Chile rank around 101-150 globally. Some programs offer English-taught options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Continuing education is robust in Santiago, Chile with roughly 15-19 accredited adult programs per 100k residents, supporting our family\u0027s flexible learning.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Santiago, Chile shows moderate senior .NET architect demand (~4 postings per million monthly); solid opportunities with remote/hybrid options.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Santiago, Chile has modest Rails demand (~4\u20136 postings per million residents per month); not a Rails hub, but remote roles exist.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "CLP 58,500,000.00 ($65,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "CLP 28,000,000.00 ($31,111.11)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Beaches aren\u2019t in Santiago itself; coast towns like Valpara\u00EDso and Vi\u00F1a del Mar are about 1.5\u20132 hours away by car. If beach life is important, plan regular weekend trips or consider relocating closer to the coast; water is cold and seasons are seasonal, so prioritize summer visits and family-friendly beaches with reliable transit and parking."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Santiago, Chile typically reach 65-69\u00B0F. Mild autumn helps outdoor activities for your family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Santiago, Chile provides a true mild climate: most days are 50-85\u00B0F with low humidity, supporting outdoor time year-round.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Natural beauty near Santiago offers parks and reserves (e.g., R\u00EDo Clarillo) within an hour; great for mild, family-friendly outdoors.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Nature access in Santiago, Chile is strong with many parks within 5 km. Estimated 10\u201311 parks over 10 acres nearby, supporting family outdoor time.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Santiago, Chile run about 65-69\u00B0F (18-21\u00B0C). This mild range supports your family-friendly outdoor plans.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Santiago, Chile summers typically reach 86-90\u00B0F, a warm but manageable, dry climate that fits the family\u0027s mild-weather preference.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Santiago, Chile are about 55-60\u00B0F (13-16\u00B0C). Mild winters suit the family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "In Santiago, Chile, anti-immigrant rhetoric exists but isn\u2019t dominant; mainstream politics focus on stability and social rights.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Autocratization trend: 10 (stable/democratizing). Chile\u2019s democracy remains stable 2005\u20132024; Santiago benefits from strong civic institutions.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Santiago offers a mild, relatively stable climate\u2014dry summers and cool winters\u2014though earthquake risk requires preparedness.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In Santiago, national political discourse centers on inequality and cost of living, housing affordability, and the ongoing constitutional reform; policy tilt is toward expanding social protection (education, healthcare, pensions) while debating fiscal sustainability. Public security/crime, governance transparency, and anti-corruption efforts are constant themes, with climate resilience and energy transition shaping policy choices. Expect proposals that balance growth with targeted social programs and clear governance rules, implemented through regional frameworks within any new constitutional settlement.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Economic stability in Chile (Santiago) rated 9: only 2 recession years (2009, 2020) in 2005\u20132024; economy is comparatively resilient.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Chile (Santiago) offers pluralistic media with independent outlets; some political pressure persists but censorship is limited.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Santiago, Chile has a relatively stable immigration policy with clear family visa paths. Expect predictable processes and modest bureaucracy.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Chile\u0027s liberal democracy in Santiago supports stable institutions; V-Dem LDI ~70s, aligning with your civil-liberties priorities for your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Santiago offers moderate safety with family-friendly neighborhoods. Stick to well-kept areas like Providencia or Las Condes and stay aware.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Chile (Santiago) shows high inequality (Gini ~46\u201349), level 4; plan for affordable housing and robust public services in Santiago.",
+      "alignmentValue": 4
+    }
+  ]
 }

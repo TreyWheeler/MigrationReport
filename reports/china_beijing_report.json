@@ -1,5 +1,495 @@
 {
   "version": 2,
   "iso": "CN",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "CNY 40,000.00 ($5,493.41)",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "CNY 25,000.00 ($3,472.22)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "CNY 15,000.00 ($2,083.33)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "CNY 12,600.00 ($1,800.00)",
+      "alignmentValue": 3
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "CNY 36,400.00 ($5,126.76)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "CNY 450.00 ($63.38)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "CNY 3,000.00 ($428.57)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "CNY 3,000.00 ($413.79)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "CNY 12,000.00 ($1,666.67)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "CNY 2,800.00 ($392.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Beijing visa/residency for US families is time-intensive; budget about 90-119 hours/year for paperwork and renewals.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "CNY 8,367,500.00 ($1,146,231.00)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "25%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Beijing entrepreneurship visa likely 5-6 months; bureaucracy moderate; leverage Beijing incubators and grants to improve odds.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "35%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Beijing offers several game/tech events each year (Beijing CGDC, local expos), enabling demos and networking for Daemon Games.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Beijing has a robust freelance game talent pool across art/animation/audio/narrative; many freelancers work on international titles, with strong near-remote options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Beijing offers multiple game-friendly incubators/accelerators (tech parks and municipal programs) welcoming indie studios like Daemon Games.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Beijing has a developing indie game scene with meetups and hubs. It remains mid-sized and hampered by language and policy factors.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Beijing, China has a robust game-dev ecosystem. Top universities and cultural institutions, plus many incubators and grants, support studios.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Beijing has major domestic publishers and events. For a family-founded game startup, access is possible but not fast due to regulations.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "3",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "40",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "CNY 67,173,600.00 ($9,329,666.67)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "CNY 22,342,500.00 ($3,103,125.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "CNY 368,700,000.00 ($51,291,666.67)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Beijing, China, door-to-door to a major game event is typically 16-20 hours (with one or more layovers). This fits the family\u0027s travel tolerance and planning needs.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Beijing\u0027s game-dev scene is growing with meetups and studios; expect about 2 in-person events per month, good for collaboration.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Beijing-based Daemon Games strengthens the city\u2019s digital economy by creating high-skill software and creative roles, accelerating IP development and cultural output, and catalyzing collaboration with local universities and studios. The initiative aligns with Beijing\u2019s priorities for tech innovation, domestic game development, and talent pipelines, and leverages municipal and national grants, tax incentives, and co-development programs to drive job growth and internationally competitive content.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "CNY 156,200.00 ($22,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Beijing, most day-to-day tasks require Mandarin; adults expect 60-69% of interactions to use local language, while continuing to learn Chinese.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Beijing has bilingual/English options in some schools; about 40-49% of seats, so plan Mandarin immersion with English exposure.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Beijing expat housing is competitive; with steady income and expat agents, expect 5-6 weeks to secure a 1-year lease; English-friendly options exist.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Beijing, immigration status for your family is granted via visa categories (short-term L/M; study X1/X2; work Z; dependents S1/S2) and by residence permits issued by the Public Security Bureau and National Immigration Administration; rights scale with status: short-term visas allow stay but not work; Z visa with a residence permit enables employment and lawful residence; dependents may have stay with limited work rights; permanent residence (\u5916\u56FD\u4EBA\u6C38\u4E45\u5C45\u7559\u8BC1) offers longer residence and broader access to public services but does not confer citizenship; pathways include employer sponsorship, study enrollment, family ties, or specialized skilled residency; action items: confirm your target path, begin visa/permit applications before current status expires, arrange language prep and local housing plans, and monitor policy changes.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Beijing entrepreneur visas for US founders often exceed 28 weeks with unpredictable steps; CN startup processes are lengthy and uncertain.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Beijing, China: non-recognized sponsor visa ~9-10 weeks end-to-end; expect possible delays for a first-time applicant.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Beijing, CN: For US first-time visa applicants with a sponsor. Expect about 21-28 weeks end-to-end, including dependents.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Beijing has a strong tech scene and family-friendly amenities. Skilled-immigrant approvals are moderate amid bureaucracy; English ubiquity is limited.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Beijing, China, naturalization is effectively unavailable for most foreigners; plan for long-term residency via visas.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Beijing\u0027s PR for skilled entrepreneurs is rare; plan 10\u002B years or an unclear path despite strong business plans.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Beijing primary/secondary schools show moderate foreign-targeted incidents (4-4.9 per 1,000). International/bilingual programs help mitigate risk for Caucasian students.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Beijing, China provides top-tier primary/secondary education with strong PISA-style results and extensive public options.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Beijing schools follow national nutrition standards and emphasize fresh ingredients; ultra-processed items persist in some menus, keeping HEI near 80-84.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Beijing public primary schools offer about 3-4 hours of English weekly. Bilingual aides in core subjects are rare outside international tracks.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Beijing, China offers modest language support for newcomers. Mandarin integration seats are around 20\u201329 per 100 newcomers annually.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Beijing date-night opportunities: Target Chaoyang/Sanlitun for English-friendly dining with low-stress ambiance, and locate reliable bilingual childcare nearby. Action steps: (1) pre-book 2\u20134 hour childcare with English-speaking staff; (2) reserve 1\u20132 quiet, English-friendly restaurants or cafes; (3) include occasional English-subtitled cultural outings (theatre or cinema) near convenient subway stops; (4) keep 1\u20132 backup venues in safe, walkable districts near parks for twilight strolls."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Beijing family activity opportunities: develop a rolling plan of 2\u20133 affordable, English-friendly outings per month that support bilingual exposure for the kids. Prioritize safe parks (Chaoyang Park, Olympic Forest Park) and kid-friendly museums/science centers with English programs (Capital Museum, National Museum, Beijing Planetarium) at off-peak times. Use local community centers for parent\u2013child classes and affordable childcare; tap expat groups for social playdates. Choose venues near transit and reliable broadband to support Trey\u2019s remote work.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Beijing: establish a quarterly \u0027Common Friends Night\u0027 schedule at kid-friendly venues in Chaoyang/Haidian (board-game caf\u00E9s or community centers) with English-friendly staff. Schedule 6-9 pm events that include optional kids\u0027 activities or babysitting to help adults connect. Promote via WeChat groups with bilingual invites; include a local host to reduce language barriers; offer a virtual option for remote friends. Choose safe, well-lit venues near metro lines to ease access and keep costs modest."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Beijing, China offers numerous parent-friendly 3rd places after 6pm (libraries, indoor play centers, family venues), aligning with your family\u0027s needs.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Beijing\u0027s dense transit and walkable neighborhoods support about 60\u201369% car-free trips. Strong metro/bike options fit your family\u2019s urban lifestyle.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Beijing, CN offers broad healthy food access via markets and supermarkets; expect price variation by neighborhood, but access is strong.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Beijing foreign residency/visa rules and taxes demand ongoing tasks; expect about 4-5 hours per month with a local advisor.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Beijing, China has no universal per-child cash; middle-income families get virtually no monthly child benefits.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Beijing has many international/bilingual daycares; secure a slot in 3\u20134 months\u2014start early and align with visa timelines.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "CNY 2,000.00 ($277.78)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "CNY 5,000.00 ($685.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "CNY 2,000.00 ($285.71)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Beijing core services are ~70-79% online. Taxes, health, and school enrollment are largely online; visa/hukou may require in-person steps.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Beijing offers universal healthcare; urban primary care waits around 3-4 days; English-friendly clinics exist but may be costly.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "CNY 2,800.00 ($400.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "CNY 12,600.00 ($1,750.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "CNY 7,200.00 ($1,000.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Beijing, CN: healthcare is employment-linked for expatriates; coverage often via employer/private plans, job changes can disrupt access.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1700",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Beijing, China provides ~14 weeks maternity leave and ~2 weeks paternity leave; overall moderate parental generosity.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Beijing, China dual-income with US citizenship creates cross-border IIT complexity; annual professional tax help is advised.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Beijing, China offers dense transit; \u003E90% within 500m of frequent service (\\u226410-min headways) most of the day, supporting family life and remote work.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Beijing, CN: local public tuition is affordable for locals. Expat international fees can reach about 19-21% of median income.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Beijing hosts world-class universities (Tsinghua, PKU) in the global top 50. This supports Trey and Sarah\u0027s tech and education goals.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Beijing offers broad continuing education options (universities, tech institutes, online platforms) for lifelong learning.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Beijing, CN shows steady demand for senior .NET architects in finance/tech; competitive salaries and active cloud/ERP projects.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Beijing, CN Rails demand is low; about 1-3 postings per million residents per month; remote work or diversifying to other stacks may suit the family.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "CNY 700,000.00 ($97,222.22)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "CNY 350,000.00 ($49,295.77)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Beijing\u2019s inland location limits direct beach access; treat Beach Life as optional. Plan periodic coastal trips or water activities within reachable travel time (e.g., to Tianjin coast, Qinhuangdao, Qingdao) and consider future relocation to a coastal city if beach access becomes a high priority for the family.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Beijing fall highs typically 65-69\u00B0F, reflecting a mild autumn suitable for outdoor plans.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Beijing, CN offers many mild days. Roughly 180\u2013219 days annually have highs 50\u201385\u00B0F with humidity below 70%.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Beijing region has multiple parks and nature reserves within an hour; about 25-30% protected land, good for family outdoor time.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Beijing offers strong nature access: central areas have about 8-9 parks \u003E10 acres within 5 km, supporting your family\u0027s outdoor time.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Beijing spring highs typically reach 65\u201369\u00B0F. Expect mild days with comfortable outdoor time during late March to April.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Beijing, China typically sees summer highs around 91\u201395\u00B0F. Humidity often makes it feel hotter, which clashes with a mild-weather preference.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs around 35\u201339\u00B0F in Beijing, China; chilly outdoors, dress in warm layers.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Beijing, CN: anti-immigrant rhetoric is minimal in official discourse; immigration is tightly controlled with limited public campaigning.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Beijing, CN: autocratization has persisted over recent decades; expect tighter civil liberties and information controls.",
+      "alignmentValue": 1,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Beijing, China shows moderate climate stability; seasonal heat and pollution are concerns, but overall conditions support family planning.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Beijing\u0027s dominant political narratives emphasize: maintaining social stability under party leadership; guiding \u0027high-quality\u0027 growth through reform, innovation, and tech self-reliance; pursuing common prosperity while managing inequality; strong regulatory oversight of industry and information; anti-corruption and disciplined governance; environmental green development and climate policy; national sovereignty and security messaging; loyalty to the state and patriotic sentiment, with emphasis on urban\u2013rural balance, housing stability, and social harmony.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "China has had 0 recession years in the last 20, signaling strong stability for Beijing. This supports long-term family planning and business growth in CN.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "In Beijing, media freedom is highly constrained; state control limits independent outlets. Access to pluralistic, independent news is limited.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Beijing immigration policy is relatively stable (about 2 overhauls/decade); plan for gradual changes and language support.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Beijing, China shows a very low V-Dem Liberal Democracy percentile, signaling weaker institutions and higher autocratization risk for families.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Beijing, CN has low violent crime (\u003C200/100k), supporting stable social QoL for families; safe city with robust services, but monitor air quality and crowding.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "CN Gini ~38\u201341. Beijing is in the moderate-high inequality band, with strong tech/entrepreneurial ecosystems but higher living costs.",
+      "alignmentValue": 6
+    }
+  ]
 }

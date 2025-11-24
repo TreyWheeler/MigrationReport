@@ -1,5 +1,480 @@
 {
   "version": 2,
   "iso": "RU",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "RUB 400,000.00 ($3,809.52)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "RUB 250,000.00 ($2,272.73)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "RUB 185,000.00 ($1,850.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "RUB 150,000.00 ($1,363.64)",
+      "alignmentValue": 4
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "RUB 234,000.00 ($2,127.27)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "RUB 4,500.00 ($40.91)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "RUB 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "RUB 90,000.00 ($900.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "RUB 715,000.00 ($6,500.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "RUB 60,000.00 ($666.67)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Moscow, Russia: visa, registration and tax steps add substantial admin; estimate 90-120 hours/year to stay compliant.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "RUB 29,475,000.00 ($268,863.64)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "20%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Russia (Moscow) startup visa likely 5-6 months; plan docs and language steps; tap Moscow tech hubs for potential faster pathways.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "30%",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Moscow, Russia hosts several annual game/creative-tech events (Igromir, DevGAMM Moscow) offering regular demo and networking opportunities.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Relocating to Moscow, you\u0027ll find a modest freelance game-talent pool (art/animation/audio/narrative) with remote work; expect variability in availability and rates.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Moscow has few game-focused accelerators; ~1 viable program for indie studios, with remote options.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Moscow\u0027s indie game scene is modest but growing: meetups, jams, and hubs exist, offering networking and funding paths, though density lags Western hubs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Moscow, Russia has a strong university/tech scene with many game studios, co-working spaces, and funding partners.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Moscow hosts a solid local publishing scene and dev hubs; access to publishers is feasible, but regular major visits can be limited by travel constraints.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "2",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "28",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "RUB 1,031,610,937.50 ($9,378,281.25)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "RUB 400,056,000.00 ($4,000,560.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "RUB 4,240,000.00 ($38,545.45)",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Moscow, door-to-door to major game events in Europe is about 6-8 hours (flight \u002B transfers); Gamescom is reasonably reachable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Moscow, Russia has a modest game-dev scene with about 1 in-person meetup per month; language may limit participation but groups exist.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "In Moscow, Daemon Games can anchor a high-skill tech and creative cluster by creating software, art, QA, and publishing roles, boosting local employment and contributing to Russia\u0027s digital economy and cultural export. The project aligns with national priorities for innovation, domestic IP production, and university\u2013industry collaboration; leveraging local incentives and visa facilitation for key personnel can accelerate scale-up and knowledge transfer. Actionable steps include establishing a Russia-based entity, forming pipelines with Moscow universities and studios, pursuing government grants and tax incentives, and mapping fast-track visa options for critical talent while ensuring bilingual communication and compliance.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "RUB 6,000,000.00 ($60,000.00)",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Moscow, Russia, expect about 20-30% interactions in Russian; adults are ready to learn Russian, with English usable in many services.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "English-medium tracks exist mainly in Moscow\u0027s private/international schools (roughly 40-49%). Public schools are largely Russian.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Moscow, a family rental typically takes 7-8 weeks for expats. Target park-friendly neighborhoods with good schools and reliable childcare.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Russia (Moscow) offers two main resident statuses: temporary residence permit (TRP) and permanent residence permit (PR). TRP is granted for a defined period on grounds like work, family, or study and can lead to PR after meeting residency and integration criteria; PR permits longer stay and can qualify you for citizenship after meeting statutory requirements. Citizenship is the final status with full civil rights, long-term security, and a pathway to visa-free travel and government services. Rights tied to TRP/PR include the ability to live and work legally (often with a separate work permit or employer sponsorship), access to public services and healthcare, schooling for dependents, and eligibility to sponsor relatives; citizenship grants full civil rights, easier travel, and government-service access. Determination is made by the Federal Migration Service / Ministry of Internal Affairs or regional migration authorities based on grounds (employment offer, family ties, education, investment), background checks, financial sufficiency, language and integration criteria, and adherence to residency requirements. Actionable steps for Moscow: consult the Russian consulate in the U.S. or a Moscow-based immigration attorney, assemble required documents (passport, visa history, proof of funds, health and background checks, job offer or family ties), initiate the correct visa route or residence application via gosuslugi/MVD, complete biometrics, and track progression toward PR or citizenship if you plan long-term settlement."
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Moscow startup visa path likely 21-28 weeks end-to-end; RU bureaucracy can slow, not ideal for a fast entrepreneur timeline.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Moscow, visa path without a recognized sponsor likely 11\u201312 weeks end-to-end; plan for modest bureaucracy and strong local support.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Estimated Moscow, RU visa timeline with sponsor: ~11\u201312 weeks end-to-end for this US family; expect some bureaucratic variability.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Moscow, Russia offers skilled-immigrant routes (HQS/tech visas) but strict rules and geopolitics lower approval chances for US applicants.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Moscow, Russia: about 5 years of permanent residence before citizenship eligibility; plan for a multi-year residency.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Moscow\u0027s PR path for skilled/entrepreneur routes is lengthy; plan about 6\u20137 years if requirements are met.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Moderate bullying risk for Caucasian American expats in Moscow, Russia schools; seek international/English-language options to minimize exposure.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Moscow public schools offer solid education, roughly mid-to-high global percentile; strong early programs, with bilingual options in some schools.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Moscow school meals provide basic nutrition with room for improvement; aim for HEI 75-79 to curb ultra-processed foods and support bilingual kids.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Public schools in Moscow typically offer 2-3 hours/week of English; bilingual aides in core subjects are uncommon.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Moscow offers strong language support with about 50-69 Russian courses per 100 newcomers yearly, aligning with your plan to learn Russian.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Moscow date-night options: reserve an evening at the Bolshoi Theatre (ballet/opera) or a classical concert; take a twilight Moskva River cruise with English commentary; stroll through illuminated Red Square and along Arbat/Tverskaya before a central dinner; for easy planning with kids, choose venues with babysitting or family-friendly hours and consider hotel childcare services.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Moscow, map 4\u20136 recurring family leisure options within easy transit: outdoor parks (Gorky Park, Sokolniki Park) for free play and walks; kid-friendly venues (Moscow Zoo, Moscow Planetarium) for interactive learning; museums and exhibitions at VDNKh for hands-on experiences; libraries with children\u2019s programs to support bilingual exposure; and seasonal activities (ice skating in winter, summer festivals). Build a simple monthly calendar of 2\u20133 outings near your future home, prioritizing affordability, safety, and English-friendly resources where available."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "In Moscow, map 2\u20133 recurring, family-friendly night options suitable for English speakers: English-speaking board-game caf\u00E9s, expat/tech meetups, and kid-friendly community nights; ensure venues are safe, transit-accessible, and offer reasonable childcare or family seating. Try one option per week for 6\u20138 weeks, track accessibility, language comfort, and safety, and adjust to prioritize activities that support community integration and family time."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Moscow has about 18-21 venues per 100k after 6pm. This supports your family-friendly lifestyle with after-school options and safe spaces.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Moscow\u0027s strong metro and walkable districts support family trips; car-free options are feasible in central areas.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Moscow offers broad healthy food access via markets and modern groceries; HEI around 80-84 with reliable healthy options.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Live in Moscow: expect ~3-4 hours/month for visas, registration and taxes; manageable with local expat services.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "In Moscow, middle-income families receive modest per-child benefits. It\u0027s roughly $25\u2013$40 per child monthly.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Daycare in Moscow is in high demand; a 1-year-old may wait 9\u201312 months to secure a spot. Private/intl centers can be faster, though pricier.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "RUB 12,000.00 ($120.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "RUB 50,000.00 ($500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "RUB 25,000.00 ($270.27)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Moscow uses Gosuslugi for many core services online. About 70-79% can be completed end-to-end (register, taxes, healthcare enrollment, schooling, visa).",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Moscow public healthcare offers universal access, but GP/pediatric waits are often 5-7 days; private clinics offer faster care at higher cost.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "RUB 0.00 ($0.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "RUB 199,500.00 ($1,900.00)",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "RUB 93,500.00 ($850.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Moscow, Russia, healthcare is universal and not tied to employment. Residents can access public care regardless of job status.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1760",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Parental leave in Moscow is ~20 weeks at 100% for mothers; fathers have short leave, with job protection, so overall moderate generosity for this family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Moscow, RU tax landscape adds cross-border filings for US citizens; expect roughly 9-12 hours/year for personal tax prep and record-keeping.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Public transit in Moscow RU is very accessible. Most residents live within 500 m of frequent service for 16\u002B hours daily.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Expensive for expats: Moscow tuition often exceeds 20% of median net income. Scholarships help, but affordability remains a challenge.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Moscow\u0027s top universities cluster around global rank 101-150 (MSU, HSE). This supports long-term education plans for your children.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Moscow, Russia offers abundant accredited adult programs from universities and private providers; strong continuing education access for adults.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "In Moscow, Russia, senior .NET architect demand is strong with many postings and competitive salaries for 20\u002B years\u0027 experience, including remote options.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Moscow Rails demand is modest; about 4-6 postings per million residents monthly, making 6-year Rails roles feasible but competitive.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "RUB 5,500,000.00 ($66,666.67)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "RUB 3,600,000.00 ($40,000.00)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "In Moscow, outdoor beach life is limited and seasonal. Prioritize inland water recreation (urban riverfronts and lake beaches) during summer, with lifeguards where available. Plan weekend trips to coastal destinations (e.g., Baltic or Black Sea regions) for true beach days. When choosing housing, favor proximity to parks, riverfronts, and indoor aquatic centers to support family-friendly summer activities for the children; budget for travel time and seasonal crowds.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Moscow, RU are typically 55\u00B0F\u201360\u00B0F, aligning with mild climate.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Moscow has roughly 150-180 days with 50-85 F temps and moderate humidity, fitting a mild-weather lifestyle.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Moscow area offers accessible nature: Losiny Ostrov and other protected lands within an hour; great for family outdoor time.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Moscow has many parks \u003E10 acres within 5 km (roughly 10\u201311 options near central districts). Great for outdoor family time.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Moscow, Russia spring highs typically reach 55\u201359\u00B0F, aligning with your mild-spring preference. This fits your goal of mild year-round weather.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Moscow summers commonly reach 76-80\u00B0F highs. This mild range fits the family\u0027s climate preferences.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Moscow, Russia typically range around 25\u00B0F\u201329\u00B0F. It\u0027s a cold winter climate, not the mild year-round vibe the family favors.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Moscow, Russia: anti-immigrant rhetoric is present in mainstream politics but not dominant.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Autocratization trend in Russia (Moscow) shows ongoing backsliding since 2000s; civil liberties and media freedoms narrowed.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Moscow, Russia has mid-range climate stability (ND-GAIN). Cold winters offset by milder summers; overall risk not extreme.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "In Moscow, dominant political narratives stress security, sovereignty, and stability; economic messaging emphasizes resilience under sanctions; state media foregrounds patriotism and traditional family values; geopolitical assertiveness is highlighted, with limited space for dissent or pluralism.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Economic stability in Moscow: about 4 recession years in 2005-2024 (2009, 2015, 2020, 2022). Moderate costs and strong broadband; sanctions risk.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "In Moscow, press freedom is limited with strong state influence. RSF percentile around 10\u201319, limiting independent reporting.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Moscow offers moderate immigration stability. Expect some policy tweaks and visa changes, but predictable timelines with proper guidance.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Moscow, Russia: V-Dem LDI percentile is very low, signaling centralized rule and limited civil liberties affecting daily life and stability.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "In Moscow, Russia, violent crime is typically well under 200 per 100k, offering a stable, family-friendly quality of life.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Russia\u0027s Gini is mid-30s; Moscow\u0027s economy is strong, but inequality persists, shaping family stability and housing choices in the capital.",
+      "alignmentValue": 7
+    }
+  ]
 }

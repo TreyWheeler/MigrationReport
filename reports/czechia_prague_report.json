@@ -1,5 +1,493 @@
 {
   "version": 2,
   "iso": "CZ",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "CZK 106,400.00 ($3,800.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "CZK 65,000.00 ($2,826.09)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "CZK 40,000.00 ($1,572.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "CZK 28,200.00 ($1,200.00)",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "CZK 52,000.00 ($2,260.87)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "CZK 1,800.00 ($72.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "CZK 2,100.00 ($90.52)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "CZK 87,500.00 ($3,500.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "CZK 84,960.00 ($3,600.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "CZK 75,000.00 ($3,000.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Prague bureaucracy will be moderate (40-59 hours/year) with local legal help; US family with first visas should plan accordingly.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "CZK 22,454,666.67 ($847,345.91)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "19%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "In Prague, the Czech entrepreneur visa commonly takes 4-5 months; startup grants and a growing ecosystem help, but bureaucracy can slow progress.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "34%",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- CZK 3,500,000.00 ($152,173.91) \u2013 Creative Europe \u2013 MEDIA Prototype/Development Grants \u2013 Supports narrative, story\u2011driven games and allows cross\u2011border teams; achievable if Daemon forms a CZ\u2011registered entity and lines up a EU co\u2011developer/partner; highly competitive but realistic within 0\u20133 years.\n- CZK 6,000,000.00 ($260,869.57) \u2013 CzechInvest Game Studio Incubator \u2013 Provides cash/in\u2011kind support for early\u2011stage studios that incorporate locally; aligns with a 2\u2011year dev horizon and a 1.5M USD budget.\n- CZK 10,000,000.00 ($434,782.61) \u2013 Technology Agency of the Czech Republic (TA CR) \u2013 Gama/digital gaming R\u0026D funding \u2013 Non\u2011dilutive support for 1\u20132 year development with local spend requirements; plan to apply as a near\u2011term milestone.\n- CZK 2,500,000.00 ($108,695.65) \u2013 Prague City Hall Creative Industry Fund \u2013 Micro\u2011grants for culture/digital interactive projects; accepts small teams and local incorporation; complements early development stage.\n- CZK 12,000,000.00 ($521,739.13) \u2013 EU Horizon Europe \u2013 Digital/Interactive Media calls \u2013 Potential larger grants for premium narrative games via consortia; competitive but feasible with a solid European collaboration; target 0\u20133 year window.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Prague, Czechia has a growing game/dev scene with regular meetups and some annual events; expect roughly 6-7 relevant events per year.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Prague has a growing game dev scene (Warhorse/2K Czech). Solid freelance talent across art/animation/sound/narrative; English-friendly and near-remote access.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Prague has about 3 game-friendly accelerators (e.g., StartupYard); solid mentorship/grants for indie devs, but few game-specific programs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Prague\u0027s indie scene is growing but not dense; several small studios and regular meetups foster steady opportunities.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Prague offers a strong partner ecosystem: CTU/Charles Univ, CGDA, Impact Hub Prague, co-working spaces, and active game events/grants.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Prague has a growing EU game-dev scene; local studios (e.g., Bohemia) and regular meetups provide solid bizdev access for a founder.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "3",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "14",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "CZK 243,793,800.11 ($10,374,204.26)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "CZK 98,901,000.00 ($3,532,178.57)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "CZK 1,392,035,625.00 ($55,681,425.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Prague, door-to-door to Gamescom in Cologne is about 4-6 hours. This supports timely attendance at major game events.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Prague hosts around 2 in-person game-dev events per month, with regular meetups. A growing Czech indie scene supports Trey\u2019s venture.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Daemon Games would establish a Prague-based studio that creates high-skilled software, art, and cloud-engineering roles, delivering direct job creation and lasting cultural output through locally produced games and interactive media. The project aligns with Czech and Prague priorities around digital innovation, EU-funded R\u0026D, and the growth of creative industries, with potential access to grants, startup visas, and a supportive ecosystem for founders. The studio would partner with local universities and research institutions to build a talent pipeline, foster knowledge transfer, and contribute to education and bilingual exposure, while emphasizing an inclusive, family-friendly workplace in line with QoL goals. With reliable broadband and a streamlined administrative path, the venture can scale sustainably while minimizing bureaucratic friction.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "CZK 1,200,000.00 ($52,173.91)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Prague, English is widely used in tech and expat life; plan for about 20-30% local-language interactions and start basic Czech.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Prague public schools offer limited bilingual/English tracks; about 10-19% of seats. Consider private/international schools for stronger options.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Lease timing in Prague for a US family is typically 7\u20138 weeks. Look at Vinohrady or Dejvice for parks and schools.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Czechia immigration status comprises: a) temporary/long-term residence permits (for work, study, family reunification, or self-employment) issued by the Ministry of Interior, granting residence for a defined period and limited work rights; b) permanent residence (after several years of lawful residence and meeting integration/financial requirements), with an indefinite right to reside and work; c) citizenship (naturalization), available after continued lawful residence and meeting language, civic integration, and conduct requirements, giving full political rights and a Czech passport. Rights scale with status: temporary permits provide residence/work access and access to healthcare and services; permanent residence broadens stay/work flexibility; citizenship unlocks full rights and the ability to sponsor family. For this family (first-time visa applicants): start with a long-term residence permit tied to family ties or employment, maintain lawful status and begin integration (language, health insurance, financial self-sufficiency), apply for permanent residence after the required period, and pursue citizenship if desired.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Prague, CZ: first-time entrepreneur visa end-to-end ~9\u201310 weeks. Plan for local processing and possible delays.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Prague, non-recognized sponsor visas may take 21-28 weeks. As US parents with two kids, expect bureaucracy and plan for longer timelines.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Prague, CZ: with a recognized sponsor, visa processing for the family is typically about 11-12 weeks end-to-end. Delays or sponsor timelines could push it longer.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Prague offers a workable skilled-immigrant path with Czech Blue Card routes and startup support; expect moderate bureaucracy and steady approvals.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "In Prague/Czechia, expect roughly 5-6 years of permanent residence before citizenship; plan for Czech language and integration.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "PR in Czechia typically after about 5 years of lawful residence; Prague offers solid pathways for skilled workers and entrepreneurs.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Prague has generally low bullying toward white American expat kids; expect about 1-2 incidents per 1,000 students in primary grades.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Prague public schools are solid with secular options and bilingual programs; good access to early education for the kids.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Prague schools: HEI around 75\u201379; solid baseline but needs stronger limits on ultra-processed foods.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Prague public schools offer about 2-3 hours/week of English instruction; bilingual aides in core subjects are not routinely provided.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "In Prague, Czechia, kids\u0027 language programs are solid; expect about 90-109 seats per 100 newcomers annually for bilingual exposure.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Prague, Czechia: prioritize evenings in walkable, English-friendly neighborhoods (Vinohrady, Old Town, Mala Strana) with late dining options and reliable transit. Action steps: book trusted childcare in advance; reserve a well-rated dinner or wine bar for adults; pair with a post-dinner stroll along the Vltava or a short river cruise; ensure easy return by tram/metro and choose venues near transit hubs with nearby parks for a safe, relaxed end to the night.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Capitalize on Prague\u0027s family-friendly ecosystem: prioritize parks and walkable neighborhoods; schedule regular outdoor time at Stromovka and Letn\u00E1 and family trips to Prague Zoo and the National Technical Museum; pursue bilingual Czech-English early education options and affordable municipal childcare; seek English-speaking services and expat networks to support remote work and social connections; ensure reliable broadband and proximity to tech hubs to support Trey.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Survey Prague evening options that fit a family schedule: identify 2\u20133 kid-friendly, English-friendly venues (board game caf\u00E9s, family pubs, riverfront spaces) within 30 minutes of central Prague; confirm safe late hours, affordable pricing, reliable transit, and Wi-Fi; prioritize spaces with quiet corners for socializing with friends and plan a recurring night that works with local event calendars.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Prague, CZ offers roughly 22\u201325 parent-friendly venues per 100k after 6pm, with libraries, indoor play spaces, and kid-friendly cafes nearby.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Prague\u0027s walkable core and robust transit suit a family-friendly, slower pace. About 70-75% of trips can be car-free there.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Prague, Czechia offers broad healthy food access with many markets and diverse options - great for family meals and balanced nutrition.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Prague, CZ: plan ~3-4 hrs/mo for bureaucracy (visas/permits, taxes, school enrollment) as a first-time US family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "In Prague, middle-income families get modest child benefits; roughly $30-40 per child monthly; about $60-80 for two kids.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Prague has public M\u0160 and private jesle; expect ~4\u20136 months to place a 5- and 1-year-old; private care can be faster but pricier.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "CZK 3,000.00 ($130.43)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "CZK 15,000.00 ($555.56)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "CZK 2,800.00 ($107.69)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "In Prague, CZ, about 70-79% of core resident services can be completed online end-to-end; visa steps and some registrations still require in-person visits.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Prague\u0027s universal healthcare offers generally accessible GP care; expect 3-4 days wait for non-urgent visits.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "CZK 12,000.00 ($521.74)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "CZK 25,000.00 ($1,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "CZK 12,000.00 ($521.74)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Healthcare in Czechia is largely universal; job loss rarely disrupts coverage, with simple public options suitable for a family in Prague.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1840",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Parental leave in Czechia: about 28 weeks maternity at ~70% income per parent with job protection. Fits Prague\u0027s family-friendly policies.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In Prague, cross-border US taxes; expect professional help every year.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Prague offers dense transit: metro and trams within 500m for most residents; headways under 10 min for \u003E=16h/day, making family trips easy.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "In Prague, non-EU students pay roughly 4k-9k USD/year for English programs, about 25-50% of median net income. College access is modest.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Prague\u2019s Charles University sits around 170 globally, offering solid college quality for bilingual families in Czechia.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Prague, Czechia: strong continuing education access; many accredited programs per 100k residents support lifelong learning for families.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Prague\u0027s senior .NET demand is solid (about 9-12 postings/million/mo); favorable for a 20-year architect with English-friendly IT scene and remote options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Rails demand in Prague is modest (about 4-6 postings per million residents per month). It suits a small, team-friendly market for Sarah and Trey.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "CZK 2,200,000.00 ($93,617.02)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "CZK 900,000.00 ($38,297.87)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Prague is inland; traditional beach life is limited. Prioritize inland water and park-based recreation: riverfronts on the Vltava, nearby lake beaches when reachable, shaded playgrounds, splash parks, and safe, nearby water access; ensure kid-friendly safety, accessibility, and heat-mitigation options in outdoor plans."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Prague typically range around 60\u201364\u00B0F. Occasional days reach about 65\u00B0F in early autumn.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Prague, CZ has a mild climate with many 50-85 F days and moderate humidity; fits your climate preference.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Prague, Czechia offers parks and nature trails; about 30-39% protected land within 60 minutes supports easy outdoor family time.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Prague has excellent nature access: multiple parks over 10 acres within 5 km (Stromovka, Letn\u00E1, Pet\u0159\u00EDn) ideal for family outings.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring highs in Prague, Czechia typically reach 60-64\u00B0F. It aligns with a mild, moderate spring with manageable weather.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Prague summers typically reach 81\u00B0F\u201385\u00B0F, with occasional peaks near 86\u00B0F. This aligns with the family\u2019s preference for mild, low-stress heat.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Prague winters typically have highs around 35\u201339\u00B0F; overall mild with occasional cold snaps.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Prague, Czechia shows moderate anti-immigrant rhetoric in mainstream politics; it\u0027s present but not a dominant narrative.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Czechia shows stable governance with no backsliding; Prague offers reliable public services and safe neighborhoods for families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Prague has a mild overall climate with distinct seasons. Climate stability is solid for a low-risk, family-friendly life in Czechia.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Dominant Czech narratives in Prague center on migration controls and EU rule-of-law dynamics, paired with concerns about economic stability, housing affordability, and energy prices. Public safety and anti-corruption credibility are prominent, with climate and energy transition pursued through affordability and national energy security.",
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Czechia shows strong economic stability with ~2 recession years in 20 (2009, 2020); Prague is a solid place for a family move.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Prague, Czechia offers strong media freedom with diverse outlets. Expect plural, reliable reporting with some oligarch influence concerns.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Migration stability in Prague, Czechia is high; expect only a couple of policy overhauls per decade under EU rules.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Prague, Czechia has a high V-Dem LDI percentile, with stable liberal-democratic institutions that support family life, safety, and rights.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Prague, Czechia generally reports violent crime well under 200 per 100k. This supports strong family safety and solid QoL for your kids.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Prague, Czechia has low wealth inequality (Gini around 24-25). This aligns with a stable, family-friendly move for your household.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    }
+  ]
 }

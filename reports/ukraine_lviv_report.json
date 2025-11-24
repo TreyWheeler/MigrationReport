@@ -1,5 +1,488 @@
 {
   "version": 2,
   "iso": "UA",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "UAH 50,000.00 ($1,250.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "UAH 83,600.00 ($2,200.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "UAH 27,000.00 ($729.73)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "UAH 27,750.00 ($750.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "UAH 54,000.00 ($1,350.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "UAH 1,875.00 ($50.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "UAH 0.00 ($0.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "UAH 36,000.00 ($1,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "UAH 133,000.00 ($3,500.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "UAH 58,500.00 ($1,500.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "In Lviv, Ukraine, visa and residence steps for a US family are moderate. Expect about 40-60 hours of paperwork and appointments, with local support.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "UAH 17,516,666.67 ($437,916.67)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "18%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Lviv, Ukraine startup visa: 6-8 months; war risk adds uncertainty. Strong IT scene and grants exist, but bureaucracy can slow progress.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "22%",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Moderate festival presence in Lviv, Ukraine: about 2-3 game/tech events annually (Lviv Game Dev Days, IT Arena). Good for networking, but not a dense calendar.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Lviv, Ukraine offers a solid freelance game talent pool (art/animation/audio/narrative); near-remote options across the region bolster continuity.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "In Lviv, Ukraine, game-focused incubators are scarce; opportunities are mainly general tech accelerators (often Kyiv-based) or remote programs.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Lviv has a growing indie scene with local studios, game jams, and coworking hubs; community-focused but still emerging.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Lviv\u0027s game-dev ecosystem includes universities, IT clusters, and coworking spaces with events and funding links; depth around 60-69.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Lviv has a budding dev scene with few local publishers; access mostly via regional events and studios\u2014limited majors, but local networks help.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "0",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "20",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "UAH 394,326,673.13 ($10,242,251.25)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "UAH 154,055,040.00 ($4,054,080.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "UAH 2,154,894,462.00 ($56,707,749.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Lviv, Ukraine, door-to-door to Gamescom in Cologne is about 6\u20138 hours; GDC SF is much longer (18\u201322 hours).",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Lviv, Ukraine has a growing local game-dev scene with about 2 in-person events per month; a good fit for Trey\u2019s game-dev goals and access to grants.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Propose Lviv-based Daemon Games studio hub: creates software/game development and operations roles, grows local IP output, and strengthens regional creative tech; aligns with Ukraine\u0027s digital economy and IT-export priorities; leverages partnerships with Lviv IT Cluster and universities, national grants, and visa pathways to attract talent and investment. Actionable steps: secure pilot office in broadband-enabled, family-friendly district; establish partnerships with Lviv Polytechnic and local IT firms; apply for regional R\u0026D/game development grants and IT incentives; implement a phased hiring plan prioritizing English-speaking developers; support remote-to-local ramp-up and community outreach to showcase local culture and output."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "UAH 1,222,500.00 ($30,000.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "In Lviv, Ukrainian is common in daily life; English helps in tech work, with about 35% interactions in local language. Plan to learn Ukrainian.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Lviv offers bilingual/English tracks mainly in private/international schools; public seats vary, around 50-59%.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "In Lviv, Ukraine, securing a family lease typically takes about 5-6 weeks; aim for family-friendly districts near parks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "Ukraine offers several immigration statuses with distinct residency rights. Temporary Residence Permit (TRP) is granted for specific purposes (work, family reunification, study, or humanitarian grounds) and allows lawful residence and usually work authorization for the permit period. Permanent Residence Permit is available after qualifying residence time and/or family ties, providing longer residency with broader access to work, healthcare, education, and social services, and a pathway toward citizenship. Citizenship by naturalization requires a period of permanent residence plus integration criteria (language and residency requirements) and then yields full civil and political rights and a Ukrainian passport; dual citizenship is subject to Ukrainian law. Refugee or asylum status provides protection for those meeting conditions, with rights similar to residents under those terms. Other long-term or investor routes exist with their own criteria. Actionable steps for your family: map which status aligns with your timeline and goals (short-term work/family reunification versus long-term residency and eventual citizenship), collect required documents (passports, birth/marriage certificates, proof of housing, employment, or income), apply through the State Migration Service or Ukrainian consulates, monitor processing times and renewals, and plan for children\u0027s education, healthcare access, and earnings accordingly.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Ukraine (Lviv) entrepreneur visa end-to-end 21-28 weeks for first-time applicants; expect a multi-step process.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Lviv, Ukraine: No recognized sponsor means visa timelines are long and uncertain; expect multi-month processing and potential delays.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Lviv, Ukraine: with a recognized sponsor, first-time work visa end-to-end is roughly 7-8 weeks.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Lviv has IT-friendly opportunities and expat networks, with visa paths available. War risk and bureaucracy temper overall welcoming.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Ukraine naturalization in Lviv likely 5-6 years of lawful residence; supports long-term family settlement.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "In Ukraine (Lviv), skilled workers typically need around 5-6 years of temporary residence before permanent residency; plan for a multi-year timeline.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "In Lviv, Ukraine, caucasian American students typically face low bullying risk in schools. Private/intl options offer stronger language support.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "In Lviv, Ukraine, primary/secondary education is mid-range (30-39th percentile by PISA); solid local options exist, but overall not top-tier.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "In Lviv, school meals follow national standards and are improving; HEI is likely around 75\u201379, with room to cut ultra-processed items.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In Lviv, Ukraine, public schools typically offer 2-3 hours/week of English; bilingual aides are not routinely provided for core subjects.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Lviv, Ukraine offers Ukrainian-language programs for kids via schools and NGOs; solid options for your 5-year-old and your younger child.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Book an Lviv date night in the Old Town: attend an evening at the Lviv Opera or enjoy a candlelit dinner near Rynok Square, then take a stroll through the historic center. Prioritize English-friendly venues, reserve a trusted babysitter in advance, and arrange safe transport to minimize stress for a family-friendly balance.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "Leisure opportunities in Lviv for this family: family-friendly parks (City Park, Stryiskyi Park) for daily outdoor play; libraries and cultural centers offering children\u0027s programs and bilingual/storytime events to support English exposure; kid-friendly museums or science/ethnography venues with family activities; community centers hosting weekend workshops and affordable drop-in childcare; walkable, safe neighborhoods with nearby playgrounds and easy weekend trips to nearby nature spots."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Identify and schedule 2\u20133 English-friendly, family\u2011oriented evening venues in central Lviv (Old Town/nearby districts) that offer reliable Wi\u2011Fi and kid\u2011friendly spaces (caf\u00E9s, libraries, community centers) for casual meetups with friends; prioritize safe, affordable options within 15\u201330 minutes of home, with flexible hours and a rotating host calendar; confirm costs, accessibility, and language support in advance and use a shared calendar to coordinate board\u2011game or social nights.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Lviv has kid-friendly venues after 6 pm (cafes and play spaces). About 18-21 per 100k residents, aligning with a 7.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Lviv\u0027s walkable historic center and tram network enable frequent car-free trips; pedestrian zones around Rynok Square fit the family\u0027s preferences in Ukraine.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "In Lviv, Ukraine, healthy food options are readily available via markets and supermarkets. Regional disruption can affect prices.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Lviv, Ukraine: visa/local registrations for a US family will demand moderate ongoing effort; plan roughly 5\u20138 hours/month to stay compliant.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "In Lviv, Ukraine, middle-income families typically get modest child benefits of about $50\u2013$60 per child per month.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "In Lviv, new arrivals often face 4\u20136 month waitlists for a 1-year-old daycare; expect a 6-month timeline and consider private options.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "UAH 7,000.00 ($177.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "UAH 16,800.00 ($420.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "UAH 6,000.00 ($150.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Lviv, Ukraine: ~70-79% of core services online via Diia; some visa appointments and healthcare enrollment still require in-person visits.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Healthcare access in Lviv, Ukraine: public primary care often takes several days; private clinics offer faster care but with higher costs.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "UAH 14,000.00 ($350.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "UAH 23,400.00 ($600.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "UAH 34,000.00 ($850.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "In Lviv, Ukraine, healthcare is largely state-funded and not tied to employment; public options provide access for families like yours.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "2000",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Ukraine (Lviv) offers about 18 weeks of paid maternity leave at ~100% income; paternal leave is comparatively limited.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "In Lviv, Ukraine, payroll withholding plus some foreign-income reporting is expected; tax effort ~9\u201312 hours/year for a dual-income family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Public transit in Lviv is decent. Many neighborhoods are within 500 m of tram/bus stops with daytime headways near 10 minutes, aligning with 60-69%.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "In Lviv, Ukraine, tuition for non-residents often exceeds 25% of median income, reducing college accessibility for the family\u0027s kids.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Lviv, Ukraine offers mid-tier college quality (global rank ~501\u2013700); solid local programs but no top-100 universities.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Lviv, Ukraine offers solid continuing education with roughly 9-11 accredited adult programs per 100k residents. This supports lifelong learning for your family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Lviv, Ukraine shows a solid senior .NET market (13-16 postings per million residents per month), with outsourcing firms and remote options fitting your stack.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Rails demand in Lviv, Ukraine is modest (about 4-6 postings per million residents per month); solid for remote roles.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "UAH 1,665,000.00 ($45,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "UAH 130,000.00 ($3,421.05)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Lviv, Ukraine has limited on-site beach access; maximize outdoor life with inland options: city parks, riverside spaces, and nearby western Ukrainian lakes. Plan occasional longer trips to the Black Sea coast or larger lakes for beach experiences; factor travel time, costs, and seasonal weather when scheduling beach outings."
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall in Lviv, Ukraine typically highs 60-64\u00B0F, aligning with mild autumn expectations for the family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Lviv, Ukraine has mild summers; about 180\u2013219 days/year with 50\u201385\u00B0F highs and humidity under 70%.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Lviv region offers abundant outdoor beauty with protected lands about 25-29% within 60 minutes, plus city parks.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Strong access to large parks in Lviv, Ukraine within 5 km. Parks like Stryiskyi and Ivan Franko offer great family outdoor time.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Lviv, Ukraine spring highs hover around 60-64\u00B0F, with occasional days at 65-66\u00B0F, aligning with mild-weather preferences.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Lviv, Ukraine (UA): summer highs around 76\u201380\u00B0F, reflecting mild, non-humid summers suitable for the family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Lviv, Ukraine, typically 35-39\u00B0F (2-4\u00B0C). This aligns with the family\u2019s mild-winter preference.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Ukraine (Lviv): anti-immigrant rhetoric is relatively low in mainstream politics; refugees welcomed amid war, with humanitarian focus.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Ukraine (Lviv) shows mild autocratization pressure (0.06-0.10) since 2010. Reforms and civil society persist to counterbalance trends.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Lviv, Ukraine offers milder summers and cooler winters, with climate stability that suits your low-risk, family-friendly plans.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Western Ukraine, including Lviv, centers its political discourse on defending sovereignty amid war, accelerating Europe-leaning reforms and EU/NATO alignment, anti-corruption and efficient governance, urgent reconstruction and humanitarian aid, energy independence and resilience, and sustaining social services with international assistance; a strong emphasis on regional pride, decentralization, and open civic participation."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Ukraine (Lviv): negative GDP years in 2009, 2014\u201315, 2020, 2022\u201323; stability mid-range amid reform and ongoing conflict.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Lviv, Ukraine: press freedom around 40\u201345th percentile per RSF; war/oligarch influence risk media independence; rely on diverse outlets.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Ukraine (Lviv) migration policy is highly volatile due to ongoing conflict; visa/residency rules change quickly, complicating relocation plans.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Lviv, Ukraine\u0027s political stability is modest due to ongoing war; institutions function but face strain.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Lviv, Ukraine has low violent crime (\u003C200/100k), supporting family stability. It offers solid community networks and accessible services for everyday life.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Wealth inequality in Lviv, Ukraine is moderate (Gini ~26-29), aligning with a stable, family-friendly environment for your move.",
+      "alignmentValue": 9
+    }
+  ]
 }

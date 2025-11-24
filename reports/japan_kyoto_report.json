@@ -1,5 +1,491 @@
 {
   "version": 2,
   "iso": "JP",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "JPY 420,000.00 ($3,230.77)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "JPY 280,000.00 ($1,806.45)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "JPY 230,000.00 ($1,533.33)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "JPY 1,200,000.00 ($8,000.00)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "JPY 62,400.00 ($416.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "JPY 9,000.00 ($66.67)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "JPY 120,000.00 ($800.00)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "JPY 267,900.00 ($1,786.00)",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "JPY 270,000.00 ($1,800.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "JPY 267,900.00 ($1,786.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Kyoto, Japan: expect substantial visa/housing paperwork for first-time movers; plan ~120\u2013149 hours/yr for compliance.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "JPY 107,750,000.00 ($695,161.29)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "31%",
+      "alignmentValue": 2
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Kyoto startup visa path; expect 2-3 months processing with local support, matching your family-friendly, grant-aware plans.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "17%",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- None \u2013 no realistic grant or incentive programmes identified for this region.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Kyoto area hosts several game/dev events yearly (BitSummit, local meetups) - about 4 per year for demos and networking.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Kyoto/Kansai has a growing indie game scene with local freelancers in art and sound. Tokyo hosts most top talent; Osaka/Kyoto offer near-remote options.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Kyoto, Japan has a small game-friendly startup scene with 2-3 programs in Kansai; mentorship and space exist, plus nearby Osaka options.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Kyoto, Japan has a developing indie game scene with occasional jams and coworking spaces; it\u0027s smaller than Tokyo but accessible for small studios.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Kyoto, Japan has solid university and cultural partner networks plus coworking spaces. It supports game studios with events and funding.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Kyoto provides moderate local publisher access (Nintendo HQ nearby). Major access still requires established industry ties with Kansai or Tokyo hubs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "3",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "4",
+      "alignmentValue": 4
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "JPY 1,519,448,765.30 ($9,802,895.26)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "JPY 421,617,000.00 ($2,810,780.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "JPY 1,913,578.85 ($12,345.67)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "Kyoto to major game events (SF, Cologne) is roughly 12-14 hours door-to-door. Long for a 5- and 1-year-old; prioritise hybrid/remote options.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Kyoto, Japan has a modest game-dev scene with occasional in-person meetups; roughly 0.5-0.9 per month (larger events may occur in Osaka).",
+      "alignmentValue": 6
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Establish a Kyoto-based Daemon Games studio to drive local employment, cultural output, and innovation. Actions: partner with Kyoto University and local studios; pursue prefectural grants and talent visa programs; develop culturally resonant IP that leverages Kyoto\u2019s heritage and tourism; ensure robust broadband/cloud infrastructure; align with Japan\u2019s digital-content and regional revitalization priorities."
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "JPY 7,200,000.00 ($48,000.00)",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Kyoto, Japan: expect ~50-60% of interactions in Japanese; English helps in expat contexts, but prioritize language learning and bilingual schooling for kids.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "Kyoto, Japan has limited bilingual/English tracks in public schools; plan for private international options to ensure English exposure.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Kyoto offers family-friendly neighborhoods and parks; foreign tenants may face guarantor and language hurdles. Expect 5-6 weeks to secure a lease.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Kyoto, Japan, immigration statuses include Temporary Visitor (short stays; no work), residence-based statuses (e.g., Engineer/ Humanities/International Services, Business Manager, Designated Activities) with work rights restricted to the visa subclass, Long-Term Resident, Permanent Resident (PR), and Naturalized Japanese Citizen. Status is determined by visa category at entry, employment or family ties, duration of stay, and government assessment. Core rights: temporary visitors cannot work; work-status holders may work within their visa scope; permanent residents have indefinite stay with broad access to social services and can work freely but cannot vote or hold national office; naturalized citizens gain full political rights and can obtain a Japanese passport. Pathways: secure a valid visa via employer sponsorship or family ties, accumulate lawful residence to qualify for PR, and pursue naturalization after meeting residence, language, and conduct criteria (often involving renunciation of prior citizenship). For Kyoto, plan for compliant visa renewals, language integration, and potential progression toward PR or citizenship if long-term residency is established.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Expect 17\u201320 weeks end-to-end for a first-time entrepreneur visa in Japan (Kyoto); local startup grants help, but processing times vary.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "Kyoto, Japan: non-sponsored startup visas can take 5-7 months end-to-end; prepare for local bureaucracy and contingencies.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Kyoto, Japan: with a recognized sponsor, visa processing is 9-10 weeks end-to-end; family visas may extend this slightly.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Kyoto, Japan offers a favorable but not effortless skilled-immigrant path (points-based visa). Expect bureaucracy and language hurdles, yet strong university and startup support.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Kyoto offers a ~5-year naturalization path; strong schools, stable expat networks, and universal services support your family\u0027s integration.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Kyoto, JP offers a 3-year path to permanent residency for highly skilled professionals with sufficient points; plan for about 3 years of residence.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Kyoto\u0027s expat-friendly schools offer bilingual support; bullying risk for white immigrant kids is typically low (about 1-2 per 1,000).",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Kyoto, Japan public schools show strong PISA results; secular, well-supported, with growing bilingual options for a high-education family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "Kyoto school meals emphasize balance with fish, rice, and vegetables. Ultra-processed items are limited, aligning with high HEI-style quality.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "Kyoto public schools typically offer 2-3 hours/week of English instruction; ALTs support English classes, with bilingual aides seldom covering core subjects.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Kyoto offers solid kids\u0027 language support (Japanese) via city programs and foundations; about 30-49 seats per 100 newcomers annually.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "Kyoto date-night options include a sunset stroll along the Kamogawa River, dinner in Pontocho Alley with reservations, a traditional tea ceremony or wagashi tasting, and visiting illuminated temples in Higashiyama or Arashiyama during seasonal light-ups; plan for off-peak hours and easy transit from central Kyoto, and arrange childcare if a true couple\u0027s night out is desired.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Kyoto, emphasize family-friendly, stroller-accessible leisure: plan days at parks (Maruyama Park, Kyoto Gyoen), nature trips in Arashiyama, and interactive family museums (Kyoto Railway Museum; Kyoto International Manga Museum). Seek bilingual programs and kid-friendly workshops at cultural centers; book ahead, use reliable public transit, and identify nearby childcare options if adults want time together."
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Kyoto, JP: Establish regular, family-friendly evening social options within easy reach (e.g., board-game/play cafes and community centers such as Kyoto International Community House), with English-friendly events. Schedule biweekly Friday nights near central Kyoto (Gion, Kawaramachi, Kyoto Station area) and include parent-child activities or small-group meetups along the Kamo River; rotate hosts to ease planning and ensure evenings accommodate a toddler and a five-year-old.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Kyoto offers family-friendly libraries, play cafes, and kid spaces. Expect about 18\u201321 venues per 100k residents open after 6 pm.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "Kyoto\u0027s walkable, bike-friendly neighborhoods with strong transit suit the family; expect about 70-79% trips car-free in this city.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Kyoto offers broad healthy food options: markets, stores, and seasonal produce with fresh seafood. This supports a kid-friendly, high-quality diet for your family.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "Kyoto, Japan has orderly local admin; for your family, after visa setup expect ~4-5 hrs/month on taxes, healthcare, and school enrollment.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "Kyoto, Japan\u0027s child allowance is roughly 10k-15k JPY/child/month (~$70-$110); mid-range support for two kids.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Kyoto, Japan hoikuen waitlists often run 4\u20136 months; start early for the 1-year-old and consider private daycare options.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "JPY 25,000.00 ($166.67)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "JPY 120,000.00 ($800.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "JPY 25,000.00 ($185.19)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Kyoto offers partial online core services (e-Tax for taxes); resident, visa, and school enrollments still require in-person visits.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Kyoto, Japan offers universal healthcare; primary care waits typically 1-2 days, good access for families with children.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "JPY 90,000.00 ($600.00)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "JPY 150,000.00 ($1,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "JPY 110,000.00 ($850.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Kyoto, Japan offers universal healthcare; coverage isn\u2019t tied to employment. If you change jobs, public plans keep costs predictable.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1900",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Kyoto, Japan provides up to 52 weeks of parental leave with job protection; pay typically 50-67%, generous but not full wage.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Kyoto, Japan: dual-income tax filing ~25-35 hrs/yr; cross-border US/Japan adds complexity; consider a local tax pro for FEIE/credit.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Kyoto has excellent transit access; likely 90%\u002B residents live within 500 m of frequent service (\u003C=10-min headways) for 16\u002B hours daily.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "Kyoto\u0027s public universities charge ~540k-800k JPY/year, roughly 10-11% of median income\u2014supporting accessible college options for your family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Kyoto hosts world-class universities such as Kyoto University, often globally top 50. That offers English-taught options, supporting your education priority.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Kyoto offers strong lifelong learning options: universities, city lifelong-learning centers, and private programs for adults; well-suited for family upskilling.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Kyoto\u0027s senior .NET architect demand is modest (roughly 2-3 postings per million residents per month). Consider remote work or broader JP options.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Kyoto Rails demand is low; expect about 1-3 postings per million residents per month. Consider broader stacks or remote roles.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "JPY 12,000,000.00 ($80,000.00)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "JPY 6,200,000.00 ($41,333.33)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Kyoto, Japan is largely inland; plan beach-life around inland water features and nearby coast trips. Focus on riverfront and lakeside parks (e.g., Kamo River greenspace; Lake Biwa access in Shiga) for safe, family-friendly outings with shade and hydration. Schedule visits for cooler hours and ensure kid-friendly facilities; for actual beach days, consider brief trips to nearby coastlines (Osaka/Wakayama) with travel time and safety in mind.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Kyoto autumn highs typically range 65\u00B0F\u201369\u00B0F, with milder days into late fall. This aligns with a mild, comfortable climate for your family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Kyoto, JP offers many mild days; estimated 180-219 days annually with highs 50-85F and humidity under 70%, aligning with your climate preference.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Kyoto, Japan offers strong natural beauty; within 60 minutes there are protected forests around Arashiyama and Ohara and nearby mountains.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Kyoto, Japan has several parks over 10 acres within 5 km (Kyoto Gyoen, Heian Jingu, Umekoji). This provides solid nature access for your family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Kyoto, Japan spring highs average 65-69\u00B0F. Some days reach 70-75\u00B0F, keeping it mild.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Kyoto summers reach 86\u00B0F-90\u00B0F highs. Humidity is high, which challenges a mild climate preference.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Kyoto, Japan winter highs run about 45\u00B0F\u201349\u00B0F, offering mild winters with modest cold risk.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Kyoto, Japan: mainstream anti-immigrant rhetoric is modest; immigration debates exist but no dominant national campaign recently.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Kyoto, Japan remains a stable democracy; autocratization trend is minimal over the last 10-20 years.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Kyoto, Japan has strong infrastructure and mild seasons, aligning with high climate stability and low climate risk for your family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Japan\u0027s national discourse centers on balancing economic growth with fiscal stability, climate action and energy security, aging society and childcare, and skilled immigration; Kyoto-specific emphasis includes sustainable urban planning, climate adaptation, heritage and tourism management, and social cohesion as the population ages, with calls for reliable public services, regional revitalization, and welcoming skilled migrants to address labor gaps."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Japan\u0027s economic stability is moderate (7). Kyoto\u0027s tech/education strengths and family-friendly policies support resilience amid downturns (2008\u201309, 2020).",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Kyoto, Japan enjoys high media freedom with diverse outlets and independent reporting; propaganda is minimal, matching the family\u0027s preferences.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Kyoto, Japan offers relatively stable immigration policy with a few reforms; expect steady, predictable access.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Kyoto, Japan has high political stability with strong institutions; expect safe neighborhoods and reliable public services for your family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Kyoto, Japan has very low violent crime and safe, family-friendly neighborhoods. It supports your safety and QoL goals.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Japan\u0027s Gini ~33 (low inequality); alignment 8. Kyoto offers family-friendly neighborhoods, good public services, and safe, walkable streets.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    }
+  ]
 }

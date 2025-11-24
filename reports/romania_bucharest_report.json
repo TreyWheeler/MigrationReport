@@ -1,5 +1,488 @@
 {
   "version": 2,
   "iso": "RO",
-  "values": []
+  "values": [
+    {
+      "key": "cost_of_living_family_150m2_in_city_center",
+      "alignmentText": "RON 14,000.00 ($2,857.14)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "cost_of_living_family_150m2_on_city_edge",
+      "alignmentText": "RON 11,880.00 ($2,475.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_150m2_suburb",
+      "alignmentText": "RON 7,200.00 ($1,584.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_3_days_in_er",
+      "alignmentText": "RON 3,444.00 ($763.00)",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_52_therapy_sessions",
+      "alignmentText": "RON 5,200.00 ($1,094.74)",
+      "alignmentValue": 8
+    },
+    {
+      "key": "cost_of_living_family_eating_out",
+      "alignmentText": "RON 300.00 ($60.98)",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_health_insurance_costs",
+      "alignmentText": "RON 1,200.00 ($260.88)",
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_citizen",
+      "alignmentText": "RON 0.00 ($0.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_non_resident",
+      "alignmentText": "RON 8,590.00 ($1,745.94)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "cost_of_living_family_semester_of_college_perm_resident",
+      "alignmentText": "RON 9,000.00 ($1,800.00)",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_bureaucratic_compliance_effort",
+      "alignmentText": "Bucharest, Romania: expect 60-89 hours/year of admin (visa/residence, tax IDs, housing, school enrollment); plan ahead.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_burn_rate",
+      "alignmentText": "RON 1,386,250.00 ($281,758.13)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_corporate_tax_rate",
+      "alignmentText": "16%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_ease_of_entrepreneurship_visa",
+      "alignmentText": "Romania\u0027s startup visa path in Bucharest is feasible for this family. Expect 5-6 months for first-time applicants.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "daemon_games_employer_on_cost_rate",
+      "alignmentText": "15%",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_feasible_game_grants",
+      "alignmentText": "- RON 1,000,000.00 ($210,000.00) \u2013 Creative Europe MEDIA \u2013 EU-backed development grant for narrative-driven games, accessible to small Romanian studios and suitable for self-published Steam/console titles when meeting consortium and cultural eligibility.\n- RON 600,000.00 ($126,000.00) \u2013 Start-Up Nation Romania \u2013 Non-reimbursable grant for new tech/software studios, supports product development and job creation, and allows foreign founders to establish a Romanian entity to qualify.\n- RON 350,000.00 ($73,500.00) \u2013 CNC \u2013 National culture fund supporting prototypes and marketing of digital games under cultural/creative industry streams, with eligibility for foreign-incorporated studios.\n- RON 250,000.00 ($52,500.00) \u2013 UEFISCDI/PNCDI \u2013 Innovation and digital culture call for SMEs; small grants for R\u0026D and game development for early-stage studios that incorporate locally; budget fits 0.5\u20135M.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_festival_and_event_presence",
+      "alignmentText": "Bucharest, Romania hosts several game/creative-tech events annually (e.g., Bucharest Gaming Week, local dev meetups, student hackathons) suitable for Daemon Games.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_freelance_game_talent_availability",
+      "alignmentText": "Romania\u0027s Bucharest hosts a growing pool of game freelancers (art, animation, audio, narrative). English-friendly, near-remote options available.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_game_incubators_and_accelerators",
+      "alignmentText": "Bucharest offers few game-focused incubators; most accelerators are general tech programs. Expect limited game-specific mentorship.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_indie_scene_strength",
+      "alignmentText": "Bucharest, Romania offers a growing indie scene with local studios, jams, and meetups; it\u0027s active but remains modest vs. Western hubs.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_partner_ecosystem_depth",
+      "alignmentText": "Local partner depth in Bucharest, RO is solid: UB and Politehnica universities, coworking spaces, and active tech/game orgs enable funding, events and collabs.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_local_publisher_and_bizdev_access",
+      "alignmentText": "Bucharest has Ubisoft Romania and a growing dev scene; decent access to local publishers and events, with occasional visits from majors.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_number_of_aaa_studios",
+      "alignmentText": "1",
+      "alignmentValue": 3
+    },
+    {
+      "key": "daemon_games_number_of_aa_studios",
+      "alignmentText": "7",
+      "alignmentValue": 7
+    },
+    {
+      "key": "daemon_games_roi_1m_units_2_years",
+      "alignmentText": "RON 54,726,000.00 ($10,945,200.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_roi_400k_units_2_years",
+      "alignmentText": "RON 20,771,520.00 ($4,154,304.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "daemon_games_roi_5m_units_2_years",
+      "alignmentText": "RON 54,856,200.00 ($11,195,142.86)",
+      "alignmentValue": 1
+    },
+    {
+      "key": "daemon_games_travel_access_to_major_game_events",
+      "alignmentText": "From Bucharest, major events are typically 4-6 hours door-to-door. Events like Gamescom (Cologne) or Nordic Game (Malmo) are feasible weekend trips.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "daemon_games_vibrancy_of_local_game_development_communities",
+      "alignmentText": "Bucharest has a developing game-dev scene with monthly meetups; around 2 in-person events per month suit a Unity/dev-focused family.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "daemon_games_visa_narrative_strength",
+      "alignmentText": "Position Daemon Games as a Bucharest-based contributor to Romania\u0027s digital economy by hiring local software engineers and creatives to develop multi-platform titles (Unity/.NET) with cloud-enabled services. This will create high-skill jobs, strengthen the local game-dev ecosystem, and drive innovation aligned with national priorities for education, entrepreneurship, and cultural output; leverage EU grants, tax incentives, and university partnerships to accelerate talent pipelines, while offering remote/hybrid work paths to reduce relocation barriers and support family stability.",
+      "sameAsParent": false
+    },
+    {
+      "key": "daemon_games_yearly_office_space_cost",
+      "alignmentText": "RON 120,000.00 ($24,000.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "integration_adult_language_expectations",
+      "alignmentText": "Bucharest has strong English in tech; expect about 25% of admin/daily tasks in Romanian; plan for bilingual schooling.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_childhood_language_expectations",
+      "alignmentText": "In Bucharest, roughly 40\u201350% of seats offer bilingual/English tracks (private international schools and select public programs) to support your kids.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_housing_accessibility",
+      "alignmentText": "Bucharest offers expat-friendly, park-rich neighborhoods; plan 5-6 weeks to secure a lease with a reputable agent and solid docs.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "integration_immigration_status_rights",
+      "alignmentText": "In Romania (RO), immigration status types are: 1) Temporary Residence Permit\u2014granted for specific purposes (employment, family reunification, study) with lawful stay and conditional work rights; 2) Permanent (Long-Term) Residence\u2014available after several years of continuous legal residence; expands rights to reside and work with fewer restrictions, and access to healthcare, education, and social benefits; 3) Citizenship by naturalization\u2014requires residence duration, language and civics knowledge, and integration; grants full civil and political rights and a Romanian passport; 4) EU Long-Term Resident status\u2014after about five years of legal residence, providing long-term rights to reside and work across EU member states; rights associated with each status include work authorization (where permitted), healthcare access, education for children, social benefits, and, for citizenship, voting and passport eligibility. For your US-based family, initial path will be temporary or family-based residence enabling stay and work (subject to permits); after meeting residence duration and integration criteria, apply for permanent residence, then citizenship per statutory timelines. Action steps: inventory documents, secure a sponsor or job offer for work-based permits, plan language/civics learning, and track residency timelines.",
+      "sameAsParent": false
+    },
+    {
+      "key": "integration_immigration_timeline_entrepreneur",
+      "alignmentText": "Romania (Bucharest) entrepreneur visa likely 13-16 weeks end-to-end for first-timers. Plan for delays and leverage Bucharest\u0027s startup grants and ecosystem.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_immigration_timeline_without_recognized_sponsor",
+      "alignmentText": "In Bucharest, Romania, without a recognized sponsor, visa timelines are long. For first-time US applicants, expect 21-28 weeks end-to-end.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "integration_immigration_timeline_with_recognized_sponsor",
+      "alignmentText": "Romania/Bucharest: sponsor-backed work visa typically 11-12 weeks end-to-end; expect modest bureaucracy.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "integration_welcoming_of_skilled_immigrants",
+      "alignmentText": "Romania\u0027s IT-friendly visas and a growing Bucharest tech scene offer a solid path for skilled immigrants; expect approvals around 85-89%.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "integration_years_to_citizenship",
+      "alignmentText": "Romania typically requires around 8 years of legal residence for citizenship. For your family in Bucharest, plan for about 7-8 years before eligibility.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "integration_years_to_permanent_residency",
+      "alignmentText": "Romania grants permanent residency after ~5 years of continuous legal stay for skilled/entrepreneur routes; Bucharest fits this horizon.",
+      "alignmentValue": 7,
+      "sameAsParent": true
+    },
+    {
+      "key": "kids_bullying_and_racism",
+      "alignmentText": "Low bullying risk for caucasian expat kids in Bucharest; opt for international or secular schools with bilingual options.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_education_quality",
+      "alignmentText": "Education quality in Bucharest sits mid-range globally (roughly 40\u201349th percentile); solid public schools with bilingual options, plan early programs.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_food_quality",
+      "alignmentText": "In Bucharest, public school meals meet basics but rely heavily on processed foods; HEI around mid-60s, with room to reduce ultra-processed items.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_expectations_in_schools",
+      "alignmentText": "In Bucharest, public schools typically offer about 2-3 hours/week of English. Bilingual aides are not universally provided.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "kids_language_integration_services",
+      "alignmentText": "Romania runs Romanian language courses for newcomers. Bucharest has solid capacity and local schools support early language immersion for kids.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "leisure_common_date_night_opportunities",
+      "alignmentText": "For a couple in Bucharest, plan date nights around Centrul Vechi (Lipscani) for romantic dining and a stroll along the D\u00E2mbovi\u021Ba riverfront. Reserve at Caru\u0027 cu Bere or a modern restaurant in Doroban\u021Bi/Floreasca, then finish with a rooftop or wine bar to view the city lights. If you prefer quieter evenings, choose a venue in Floreasca or Universitate with contemporary Romanian or European cuisine and book ahead on weekends. Consider a cultural option like a classical concert at Ateneul Rom\u00E2n or an intimate venue in Bucharest\u0027s arts districts. English is commonly understood in hospitality; use rideshare or taxis after dark and stay on well-lit, busy streets. Plan 2\u20133 hours and book ahead to ensure seating."
+    },
+    {
+      "key": "leisure_common_family_activity_opportunities",
+      "alignmentText": "In Bucharest, focus on family-friendly, low-stress outings: regular park days at Parcul Her\u0103str\u0103u, Parcul Carol, and Parcul Tineretului with safe playgrounds; easy strolls along the D\u00E2mbovi\u021Ba riverfront; cultural outings to Muzeul Na\u021Bional al Satului Dimitrie Gusti and the Bucharest Botanical Garden; occasional visits to Gr\u0103dina Zoologic\u0103 Bucure\u0219ti and kid-friendly workshops at libraries or community centers; seek bilingual-friendly programs and stroller-accessible venues within walkable neighborhoods.",
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_common_friend_night_opportunities",
+      "alignmentText": "Identify and map family-friendly, English-friendly evening social options in Bucharest that suit two adults and two kids: (a) board-game or family caf\u00E9s with play spaces, (b) expat and tech meetups with kid-friendly times, (c) bilingual cultural events at libraries or cultural centers, and (d) parks or plazas hosting safe, low-stress night activities. Create a 2-hour rotation calendar (6\u20139 pm) near central districts with reliable transit, confirm late hours and childcare options where available, and provide quick yes/no guidance for each venue."
+    },
+    {
+      "key": "leisure_parent_friendly_3rd_places",
+      "alignmentText": "Bucharest, Romania offers about 18-21 parent-friendly 3rd places per 100k residents after 6 pm - parks, indoor playgrounds and mall kids zones.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_peoples_centric_cities",
+      "alignmentText": "In Bucharest, walkable neighborhoods and decent transit can support about 50-59% car-free trips, aligning with your family\u0027s urban, parks-and-schools needs.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "leisure_quality_food_access",
+      "alignmentText": "Bucharest has broad healthy options via markets and supermarkets; your family should have reliable access, though some outer neighborhoods are more variable.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_bureaucratic_compliance_effort",
+      "alignmentText": "In Bucharest, Romania, anticipate about 2-3 hours/month for permits, taxes, and healthcare setup; aim for simple, digitally-managed filings.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_child_benefit_generosity",
+      "alignmentText": "In Bucharest, Romania, child benefits per child are modest. Typical monthly support is roughly $25-50 per child.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_daycare_accessibility",
+      "alignmentText": "Bucharest daycares for a 1-year-old typically require 9-12 months; start early and consider private, bilingual options.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_daycare_affordability_citizen",
+      "alignmentText": "RON 1,000.00 ($222.22)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_daycare_affordability_non_resident",
+      "alignmentText": "RON 1,700.00 ($346.94)",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_daycare_affordability_perm_resident",
+      "alignmentText": "RON 250.00 ($53.76)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_digital_government_maturity",
+      "alignmentText": "Romania, Bucharest: about 50% of core services online. Taxes online (ANAF) are possible, but visas and healthcare enrollment often require in-person visits.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_healthcare_accessibility",
+      "alignmentText": "Romania\u0027s Bucharest offers universal healthcare. GP waits are about 8-10 days, workable for a family but not ideal for urgent care.",
+      "alignmentValue": 6,
+      "sameAsParent": true
+    },
+    {
+      "key": "life_healthcare_affordability_citizen",
+      "alignmentText": "RON 420.00 ($87.50)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_non_resident",
+      "alignmentText": "RON 2,640.00 ($550.00)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_affordability_perm_resident",
+      "alignmentText": "RON 3,100.00 ($662.39)",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_healthcare_tied_to_employment",
+      "alignmentText": "Romania\u0027s public health system offers universal care via CNAS. In Bucharest, coverage isn\u0027t tied to employment, with private options available.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_hours_worked_per_year",
+      "alignmentText": "1800",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_parental_leave_generosity",
+      "alignmentText": "Parental leave in Bucharest, Romania is generous (maternity ~63 weeks with pay). Shared leave can extend up to 2 years, aligning with your family priorities.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_personal_tax_filing_effort",
+      "alignmentText": "Romania (Bucharest): dual US-Romania tax filing may take ~25-35 hours/yr, including RO returns and FEIE/FTC cross-border prep.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_public_transportation",
+      "alignmentText": "Bucharest, Romania has a dense metro/tram/bus network; most residents live within 500m of service with \u003C=10-minute headways for much of the day.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "opportunity_college_accessibility",
+      "alignmentText": "In Bucharest, Romania, international tuition is relatively high vs median income, limiting college affordability for this family.",
+      "alignmentValue": 1
+    },
+    {
+      "key": "opportunity_college_quality",
+      "alignmentText": "Bucharest universities rank around 501\u2013700 globally; decent bilingual options, but not in the top-50.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_continuing_education_accessibility",
+      "alignmentText": "Bucharest has 9\u201311 accredited adult programs per 100k residents; English-friendly options support Trey\u0027s upskilling and Sarah\u0027s web skills.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "opportunity_demand_for_dotnet_architect",
+      "alignmentText": "Bucharest has strong senior .NET demand (about 17-20 postings per million per month). English-friendly tech scene with remote/hybrid options.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "opportunity_demand_for_ruby_on_rails",
+      "alignmentText": "Rails demand in Bucharest is modest (about 4-6 posts per million residents monthly); steady for targeted teams, not a high-volume market.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "opportunity_salary_for_dotnet_architect",
+      "alignmentText": "RON 240,000.00 ($53,333.33)"
+    },
+    {
+      "key": "opportunity_salary_for_ruby_on_rails",
+      "alignmentText": "RON 150,000.00 ($33,333.33)"
+    },
+    {
+      "key": "outdoors_beach_life",
+      "alignmentText": "Direct beach access from Bucharest is limited; plan regular coastal trips to Constan\u021Ba/Mamaia on the Black Sea (roughly 2.5\u20133 hours by car/train). Prioritize family-friendly beaches with shallow water, lifeguards, shade, restrooms, and stroller-friendly access. Favor shoulder seasons (late spring/early autumn) for milder weather and lower humidity to match the family\u0027s climate preferences. Prepare for heat, stay hydrated, and use sun protection; confirm transport options, English/Romanian signage, and nearby healthcare. Ensure accommodations support 2 adults \u002B 2 kids and offer reliable broadband if needed; align beach outings with work-life balance and childcare needs.",
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_fall_temperature_range",
+      "alignmentText": "Fall highs in Bucharest typically 65\u00B0F\u201369\u00B0F. This aligns with your mild autumn climate preference in Romania.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "outdoors_mild_weather",
+      "alignmentText": "Bucharest, Romania offers temperate springs/falls; many days stay 50-85F with moderate humidity, aligning with your mild-weather preference.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_natural_beauty",
+      "alignmentText": "Bucharest, Romania has notable natural beauty: ~25-30% protected land within 60 minutes (e.g., Comana Natural Park), matching your outdoors focus.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_nature_access",
+      "alignmentText": "Nature access in Bucharest is strong: 6\u20137 parks \u003E10 acres within 5 km (Herastr\u0103u, Ci\u0219migiu, Tineretului, Carol). Great for outdoor family time.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "outdoors_spring_temperature_range",
+      "alignmentText": "Spring in Bucharest, Romania, typically sees highs of 60\u201375\u00B0F. The core range is 65\u201369\u00B0F, aligning with your mild-weather preference.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "outdoors_summer_temperature_range",
+      "alignmentText": "Summer highs in Bucharest, Romania typically reach 81\u201385\u00B0F. This aligns with the family\u0027s mild-weather preference.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "outdoors_winter_temperature_range",
+      "alignmentText": "Winter highs in Bucharest, Romania are typically about 35\u00B0F-39\u00B0F.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "stability_anti_immigrant_political_rhetoric",
+      "alignmentText": "Romania shows moderate anti-immigrant rhetoric in mainstream politics; not dominant in Bucharest, EU norms and civil liberties still prioritized.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "stability_autocratization_trend",
+      "alignmentText": "Romania (Bucharest) shows mild backsliding over 10-20 years; autocratization signal is small but present; watch rule of law and civil liberties.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_climate_stability",
+      "alignmentText": "Romania (Bucharest) has moderate climate stability (ND-GAIN mid-range). Four seasons with hot summers but generally manageable climate risk.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "stability_dominant_political_narratives",
+      "alignmentText": "Romania\u0027s national discourse emphasizes anti-corruption and rule-of-law reforms, prudent use of EU cohesion funds, inflation control, energy security, and investment in healthcare and education; debates tend to balance pro-EU alignment with domestic concerns, regional development, and governance transparency, with urban centers like Bucharest pushing for rapid public-service improvements."
+    },
+    {
+      "key": "stability_economic_stability",
+      "alignmentText": "Romania shows about 2 recession years in 2005-2024; Bucharest offers a growing IT sector, stable jobs, and affordable family living.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "stability_media_freedom",
+      "alignmentText": "Romania (Bucharest) has moderate media freedom; independent outlets exist, but political and oligarchic pressure persists.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "stability_migration_stability",
+      "alignmentText": "Romania (Bucharest) offers EU-style rules with gradual changes; US family visa paths are steady, aided by digital services and moderate bureaucracy.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "stability_political_stability",
+      "alignmentText": "Bucharest, Romania: V-Dem LDI around the 60s percentile; institutions are reasonably stable under EU governance, with ongoing reforms.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "stability_social_and_quality_of_life_stability",
+      "alignmentText": "Bucharest, Romania: violent crime is low, yielding a stable family environment with solid services and European-level safety.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "stability_wealth_inequality_level",
+      "alignmentText": "Romania\u0027s Gini around mid-30s (approx 34) signals modest-to-moderate inequality; Bucharest offers affordable living and strong IT scene, but gaps remain.",
+      "alignmentValue": 7
+    }
+  ]
 }
