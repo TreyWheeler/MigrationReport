@@ -246,8 +246,8 @@
     /* Map view */
     .map-view__inner { display: flex; flex-direction: column; gap: 12px; padding: 0; }
     .map-view__status { margin: 0; color: color-mix(in srgb, var(--score-red) 90%, var(--md-color-on-surface) 10%); }
-    .map-view__frame { position: relative; background: var(--md-color-surface); border: 1px solid var(--md-color-outline); border-radius: 0; overflow: hidden; min-height: 100vh; height: 100vh; box-shadow: none; }
-    #mapCanvas { width: 100%; height: 100%; min-height: 100vh; }
+    .map-view__frame { position: relative; background: var(--md-color-surface); border: 1px solid var(--md-color-outline); border-radius: 0; overflow: hidden; min-height: calc(100vh - var(--header-height) - var(--footer-height)); height: calc(100vh - var(--header-height) - var(--footer-height)); box-shadow: none; }
+    #mapCanvas { width: 100%; height: 100%; min-height: calc(100vh - var(--header-height) - var(--footer-height)); }
     body[data-theme="dark"] .map-view__frame { background: #0f172a; border-color: #334155; box-shadow: none; }
     .map-focus-badge { position: absolute; inset: 12px 12px auto auto; max-width: min(280px, 70vw); background: var(--glass-bg); border: 1px solid color-mix(in srgb, var(--md-color-outline) 80%, transparent); border-radius: 14px; padding: 8px 10px; box-shadow: 0 6px 20px rgba(0,0,0,0.12); backdrop-filter: blur(10px); display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--md-color-on-surface); z-index: 800; }
     .map-focus-badge__label { font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; color: color-mix(in srgb, var(--md-color-primary) 80%, var(--md-color-on-surface)); }
