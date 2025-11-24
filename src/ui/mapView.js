@@ -4,6 +4,8 @@ import { fetchCountry } from '../data/reports.js';
 import { computeRoundedMetrics } from '../data/scoring.js';
 import { getEffectivePeople } from '../data/weights.js';
 import { getParentFileForNode, resolveParentReportFile } from '../utils/nodes.js';
+import { getScoreBucket, makeScoreChip } from './components/chips.js';
+import { createFlagImg } from '../utils/dom.js';
 
 let leafletPromise = null;
 let worldGeoPromise = null;
@@ -29,11 +31,13 @@ function getPalette() {
 }
 
 function scoreToColor(score, palette) {
-  if (!Number.isFinite(score) || score <= 0) return palette.muted;
-  if (score >= 4.5) return palette.green;
-  if (score >= 3.5) return palette.yellow;
-  if (score >= 2.5) return palette.orange;
-  return palette.red;
+  const bucket = getScoreBucket(score);
+  const key = bucket?.key;
+  if (key === 'red') return palette.red;
+  if (key === 'orange') return palette.orange;
+  if (key === 'yellow') return palette.yellow;
+  if (key === 'green') return palette.green;
+  return palette.muted;
 }
 
 function formatScore(score) {
@@ -76,24 +80,30 @@ async function ensureMetrics(node, mainData, effectivePeople) {
 }
 
 async function buildCountryLookup(mainData, effectivePeople) {
-  const lookup = new Map();
+  const isoMap = new Map();
+  const nameMap = new Map();
   const tasks = (appState.countries || []).map(async country => {
     try {
       const enriched = await ensureMetrics(country, mainData, effectivePeople);
       const iso = enriched?.iso;
       const metrics = enriched?.metrics;
       if (!iso) return;
-      lookup.set(String(iso).toUpperCase(), {
+      const entry = {
         name: country.name,
         metrics,
         report: country.file,
-      });
+      };
+      isoMap.set(String(iso).toUpperCase(), entry);
+      const nameKey = (country.name || '').trim().toLowerCase();
+      if (nameKey && !nameMap.has(nameKey)) {
+        nameMap.set(nameKey, entry);
+      }
     } catch (err) {
       console.warn('Failed to compute country metrics for map', country?.file, err);
     }
   });
   await Promise.allSettled(tasks);
-  return lookup;
+  return { isoMap, nameMap };
 }
 
 async function loadCityCoordinates() {
@@ -151,32 +161,6 @@ function extractIso(feature) {
   return null;
 }
 
-function renderLegend(palette) {
-  const legend = document.getElementById('mapLegend');
-  if (!legend) return;
-  const ranges = [
-    { label: '≥ 4.5 (excellent)', color: palette.green },
-    { label: '3.5 – 4.4', color: palette.yellow },
-    { label: '2.5 – 3.4', color: palette.orange },
-    { label: '≤ 2.4', color: palette.red },
-    { label: 'No data', color: palette.muted },
-  ];
-  legend.innerHTML = '';
-  ranges.forEach(entry => {
-    const item = document.createElement('span');
-    item.className = 'map-legend__item';
-    const swatch = document.createElement('span');
-    swatch.className = 'map-legend__swatch';
-    swatch.style.background = entry.color;
-    const label = document.createElement('span');
-    label.className = 'map-legend__label';
-    label.textContent = entry.label;
-    item.appendChild(swatch);
-    item.appendChild(label);
-    legend.appendChild(item);
-  });
-}
-
 function setStatus(message) {
   const status = document.getElementById('mapStatus');
   if (!status) return;
@@ -209,22 +193,49 @@ function attachMapTabHandler(L) {
   });
 }
 
-function escapeHtml(text) {
-  return String(text || '').replace(/[&<>"']/g, ch => ({
-    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
-  }[ch] || ch));
+function createCityPopup(city) {
+  const wrapper = document.createElement('div');
+  wrapper.className = 'map-city-popup country-item city-item';
+  const chip = makeScoreChip(Number.isFinite(city?.metrics?.overall) ? city.metrics.overall : null, {
+    labelPrefix: 'Alignment score',
+  });
+  if (chip) wrapper.appendChild(chip);
+  const flag = createFlagImg(city?.iso, 18, city?.countryName || city?.name);
+  if (flag) wrapper.appendChild(flag);
+  const textWrap = document.createElement('div');
+  textWrap.className = 'map-city-popup__text';
+  const nameEl = document.createElement('div');
+  nameEl.className = 'map-city-popup__name';
+  nameEl.textContent = city?.name || 'City';
+  const countryEl = document.createElement('div');
+  countryEl.className = 'map-city-popup__country';
+  countryEl.textContent = city?.countryName || '';
+  textWrap.appendChild(nameEl);
+  textWrap.appendChild(countryEl);
+  wrapper.appendChild(textWrap);
+  if (city?.report) {
+    const link = document.createElement('a');
+    link.href = city.report;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.className = 'map-city-popup__link';
+    link.textContent = 'Open report';
+    wrapper.appendChild(link);
+  }
+  return wrapper;
 }
 
-function createCityPopup(city) {
-  const score = city?.metrics?.overall;
-  const parts = [];
-  parts.push(`<strong>${escapeHtml(city.name)}</strong> (${escapeHtml(city.countryName)})`);
-  parts.push(`Overall: ${escapeHtml(formatScore(score))}`);
-  if (city.report) {
-    const safeUrl = escapeHtml(city.report);
-    parts.push(`<a href="${safeUrl}" target="_blank" rel="noopener">Open report</a>`);
+function getFeatureEntry(feature, countryLookup) {
+  const iso = extractIso(feature);
+  if (iso) {
+    const entry = countryLookup.isoMap.get(String(iso).toUpperCase());
+    if (entry) return entry;
   }
-  return parts.join('<br>');
+  const nameKey = (feature?.properties?.name || '').trim().toLowerCase();
+  if (nameKey && countryLookup.nameMap.has(nameKey)) {
+    return countryLookup.nameMap.get(nameKey);
+  }
+  return null;
 }
 
 async function initMapView(mainData) {
@@ -255,8 +266,7 @@ async function initMapView(mainData) {
     if (countryLayer) countryLayer.remove();
     countryLayer = L.geoJSON(worldGeo, {
       style: feature => {
-        const iso = extractIso(feature);
-        const entry = iso ? countryLookup.get(String(iso).toUpperCase()) : null;
+        const entry = getFeatureEntry(feature, countryLookup);
         const color = scoreToColor(entry?.metrics?.overall, palette);
         const hasScore = Number.isFinite(entry?.metrics?.overall);
         return {
@@ -268,8 +278,7 @@ async function initMapView(mainData) {
         };
       },
       onEachFeature: (feature, layer) => {
-        const iso = extractIso(feature);
-        const entry = iso ? countryLookup.get(String(iso).toUpperCase()) : null;
+        const entry = getFeatureEntry(feature, countryLookup);
         bindFeatureTooltip(layer, feature, entry);
       },
     }).addTo(mapInstance);
@@ -296,7 +305,6 @@ async function initMapView(mainData) {
     if (countryLayer && countryLayer.getBounds().isValid()) {
       mapInstance.fitBounds(countryLayer.getBounds(), { padding: [12, 12] });
     }
-    renderLegend(palette);
     setStatus(cityPoints.length === 0 ? 'No cities with coordinates available.' : '');
   } catch (error) {
     console.error('Failed to initialize map view', error);

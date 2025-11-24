@@ -245,19 +245,18 @@
 
     /* Map view */
     .map-view__inner { display: flex; flex-direction: column; gap: 12px; padding: 10px 0 28px; }
-    .map-view__header { display: flex; gap: 14px; align-items: baseline; justify-content: space-between; flex-wrap: wrap; }
+    .map-view__header { display: flex; gap: 14px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
     .map-view__title { margin: 0; font-size: 18px; }
-    .map-view__hint { margin: 0; color: color-mix(in srgb, var(--md-color-on-surface) 74%, transparent); max-width: 640px; }
     .map-view__status { margin: 0; color: color-mix(in srgb, var(--score-red) 90%, var(--md-color-on-surface) 10%); }
     .map-view__frame { background: var(--md-color-surface); border: 1px solid var(--md-color-outline); border-radius: 16px; overflow: hidden; min-height: 420px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
     #mapCanvas { width: 100%; height: clamp(420px, 70vh, 820px); }
-    .map-legend { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 12px; color: color-mix(in srgb, var(--md-color-on-surface) 86%, transparent); }
-    .map-legend__item { display: inline-flex; align-items: center; gap: 6px; }
-    .map-legend__swatch { width: 18px; height: 18px; border-radius: 4px; border: 1px solid color-mix(in srgb, var(--md-color-outline) 80%, transparent); box-shadow: inset 0 1px 1px rgba(0,0,0,0.08); }
-    .map-legend__label { white-space: nowrap; }
     body[data-theme="dark"] .map-view__frame { background: #0f172a; border-color: #334155; box-shadow: 0 8px 20px rgba(0,0,0,0.35); }
-    body[data-theme="dark"] .map-view__hint { color: color-mix(in srgb, var(--md-color-on-surface) 72%, transparent); }
-    body[data-theme="dark"] .map-legend__swatch { border-color: #1f2937; box-shadow: inset 0 1px 1px rgba(0,0,0,0.45); }
+    .map-city-popup { box-shadow: none; margin: 0; cursor: default; }
+    .map-city-popup__text { display: flex; flex-direction: column; gap: 2px; min-width: 120px; }
+    .map-city-popup__name { font-weight: 700; font-size: 13px; }
+    .map-city-popup__country { font-size: 12px; color: color-mix(in srgb, var(--md-color-on-surface) 70%, transparent); }
+    .map-city-popup__link { display: inline-block; margin-left: auto; font-weight: 600; text-decoration: none; color: var(--md-color-primary); }
+    .map-city-popup__link:hover { text-decoration: underline; }
     .sidebar {
       position: sticky; top: calc(var(--header-height) + 12px);
       background: var(--md-color-surface);
@@ -1305,11 +1304,7 @@
     <section id="mapView" class="view-pane" role="tabpanel" aria-labelledby="mapTab" aria-label="Map view" hidden>
       <div class="container map-view__inner">
         <div class="map-view__header">
-          <div>
-            <h2 class="map-view__title">Alignment map</h2>
-            <p class="map-view__hint">Countries are shaded by their overall alignment rating and cities appear as markers where individual reports are available.</p>
-          </div>
-          <div id="mapLegend" class="map-legend" aria-label="Map legend"></div>
+          <h2 class="map-view__title">Alignment map</h2>
         </div>
         <p id="mapStatus" class="map-view__status" role="status" aria-live="polite" hidden></p>
         <div class="map-view__frame" aria-live="polite" aria-label="Alignment map">
