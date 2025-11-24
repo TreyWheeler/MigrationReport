@@ -148,6 +148,21 @@ function getAllReportNodes() {
   return nodes;
 }
 
+function publishFunnelResultsToAppState(includedNodes) {
+  const includedList = Array.isArray(includedNodes) ? includedNodes.slice() : [];
+  appState.funnelIncludedCities = includedList;
+  appState.hasActiveFunnelFilters = funnelState.filters.length > 0;
+  if (typeof document !== 'undefined') {
+    const detail = {
+      included: includedList,
+      includedCount: includedList.length,
+      totalCities: getAllReportNodes().length,
+      hasFilters: appState.hasActiveFunnelFilters,
+    };
+    document.dispatchEvent(new CustomEvent('funnelFiltersUpdated', { detail }));
+  }
+}
+
 function compareNodes(a, b) {
   const nameA = typeof a?.name === 'string' ? a.name : '';
   const nameB = typeof b?.name === 'string' ? b.name : '';
@@ -951,6 +966,7 @@ async function renderFunnel() {
   }
   const finalIncluded = Array.from(activeSet ?? allNodes);
   rows.appendChild(makeAddRow(finalIncluded.sort(compareNodes)));
+  publishFunnelResultsToAppState(finalIncluded);
 }
 
 function wireDragAndDrop() {
@@ -994,6 +1010,7 @@ function initFunnelView(mainData) {
   buildKeyIndex(mainData);
   buildConditionRows();
   funnelState.filters = loadStoredFilters();
+  publishFunnelResultsToAppState(getAllReportNodes());
   wireDialogControls();
   wireDragAndDrop();
   void renderFunnel();

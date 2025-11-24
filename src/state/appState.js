@@ -12,6 +12,9 @@ const appState = {
   reportAlerts: new Map(),
   sidebarAlertFilter: 'all',
   pendingKeyFocus: null,
+  hasActiveFunnelFilters: false,
+  funnelIncludedCities: [],
+  mapApplyFunnelFilter: false,
 };
 
 const keyGuidanceDialogState = { lastTrigger: null };

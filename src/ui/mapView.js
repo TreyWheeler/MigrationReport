@@ -13,6 +13,7 @@ const MAP_DEFAULT_CENTER = [24, 0];
 const MAP_DEFAULT_ZOOM = 2;
 const MAP_MIN_ZOOM = 2;
 const MAP_MAX_ZOOM = 6;
+const MAP_FILTER_STORAGE_KEY = 'mapApplyFunnelFilter';
 
 let leafletPromise = null;
 let worldGeoPromise = null;
@@ -21,6 +22,8 @@ let countryLayer = null;
 let cityLayer = null;
 let lastMainData = null;
 let cityCoordLookupPromise = null;
+let mapApplyFunnelFilter = loadMapFilterPreference();
+let funnelFilterListenerAttached = false;
 
 function getCssColor(varName, fallback) {
   if (typeof window === 'undefined') return fallback;
@@ -59,6 +62,23 @@ function normalizeCategoryName(value) {
 
 function clampZoom(zoom) {
   return Math.max(MAP_MIN_ZOOM, Math.min(MAP_MAX_ZOOM, Number(zoom)));
+}
+
+function loadMapFilterPreference() {
+  if (typeof window === 'undefined' || !window.localStorage) return false;
+  try {
+    const raw = window.localStorage.getItem(MAP_FILTER_STORAGE_KEY);
+    return raw ? JSON.parse(raw) === true : false;
+  } catch {
+    return false;
+  }
+}
+
+function persistMapFilterPreference(enabled) {
+  if (typeof window === 'undefined' || !window.localStorage) return;
+  try {
+    window.localStorage.setItem(MAP_FILTER_STORAGE_KEY, JSON.stringify(!!enabled));
+  } catch {}
 }
 
 function loadSavedExtent() {
@@ -185,7 +205,7 @@ async function buildCountryLookup(mainData, effectivePeople) {
   return { isoMap, nameMap };
 }
 
-async function buildCityPoints(mainData, effectivePeople) {
+async function buildCityPoints(mainData, effectivePeople, allowedSet = null) {
   const points = [];
   const countryList = Array.isArray(appState.countries) ? appState.countries : [];
   const tasks = [];
@@ -214,6 +234,9 @@ async function buildCityPoints(mainData, effectivePeople) {
     (country.cities || []).forEach(city => {
       tasks.push((async () => {
         try {
+          if (allowedSet && !allowedSet.has(city)) {
+            return;
+          }
           const cityCoords = cityCoordLookup.get(city.id);
           const cityLat = Number(city.lat ?? city.latitude ?? cityCoords?.lat);
           const cityLng = Number(city.lng ?? city.longitude ?? cityCoords?.lng);
@@ -321,6 +344,76 @@ function updateFocusBadge(mainData) {
   categoriesEl.textContent = active.join(', ');
 }
 
+function getTotalCityCount() {
+  if (!Array.isArray(appState.countries)) return 0;
+  return appState.countries.reduce((total, country) => {
+    const cityCount = Array.isArray(country?.cities) ? country.cities.length : 0;
+    return total + cityCount;
+  }, 0);
+}
+
+function getFunnelIncludedCities() {
+  return Array.isArray(appState.funnelIncludedCities) ? appState.funnelIncludedCities : [];
+}
+
+function getCityFilterSet() {
+  if (!mapApplyFunnelFilter) return null;
+  if (!appState.hasActiveFunnelFilters) return null;
+  return new Set(getFunnelIncludedCities());
+}
+
+function updateMapFilterBadge() {
+  if (typeof document === 'undefined') return;
+  const badge = document.getElementById('mapFilterBadge');
+  const toggle = document.getElementById('mapFilterToggle');
+  const status = document.getElementById('mapFilterStatus');
+  if (!badge || !toggle || !status) return;
+  toggle.checked = mapApplyFunnelFilter;
+  appState.mapApplyFunnelFilter = mapApplyFunnelFilter;
+  const totalCities = getTotalCityCount();
+  const hasFilters = !!appState.hasActiveFunnelFilters;
+  const includedCount = hasFilters ? getFunnelIncludedCities().length : totalCities;
+  const applyingFilter = hasFilters && mapApplyFunnelFilter;
+
+  if (!hasFilters) {
+    status.textContent = totalCities === 0
+      ? 'Add reports to plot cities.'
+      : `No funnel filters set. Showing all ${totalCities} cities.`;
+  } else if (applyingFilter) {
+    status.textContent = includedCount === 0
+      ? 'Funnel filter on. No cities match.'
+      : `Funnel filter on - showing ${includedCount} of ${totalCities} cities.`;
+  } else {
+    status.textContent = `Funnel filter ready. Showing all ${totalCities} cities.`;
+  }
+}
+
+function attachMapFilterToggle() {
+  if (typeof document === 'undefined') return;
+  const toggle = document.getElementById('mapFilterToggle');
+  if (!toggle || toggle.dataset.__mapFilterHandlerAttached) return;
+  toggle.dataset.__mapFilterHandlerAttached = 'true';
+  toggle.addEventListener('change', () => {
+    mapApplyFunnelFilter = !!toggle.checked;
+    appState.mapApplyFunnelFilter = mapApplyFunnelFilter;
+    persistMapFilterPreference(mapApplyFunnelFilter);
+    updateMapFilterBadge();
+    void initMapView(lastMainData);
+  });
+}
+
+function attachFunnelFilterListener() {
+  if (funnelFilterListenerAttached || typeof document === 'undefined') return;
+  const handler = () => {
+    updateMapFilterBadge();
+    if (mapApplyFunnelFilter) {
+      void initMapView(lastMainData);
+    }
+  };
+  document.addEventListener('funnelFiltersUpdated', handler);
+  funnelFilterListenerAttached = true;
+}
+
 function bindFeatureTooltip(layer, feature, scoreEntry) {
   if (!layer) return;
   const name = feature?.properties?.name || scoreEntry?.name || 'Unknown';
@@ -413,15 +506,21 @@ async function initMapView(mainData) {
   const mapEl = document.getElementById('mapCanvas');
   if (!mapEl) return;
   lastMainData = mainData || lastMainData;
+  appState.mapApplyFunnelFilter = mapApplyFunnelFilter;
+  attachFunnelFilterListener();
+  attachMapFilterToggle();
   updateFocusBadge(mainData);
+  updateMapFilterBadge();
+  const cityFilterSet = getCityFilterSet();
+  const applyingFunnelFilter = !!cityFilterSet;
   const savedExtent = loadSavedExtent();
   try {
-    setStatus('Building map…');
+    setStatus('Building map...');
     const [L, worldGeo] = await Promise.all([loadLeaflet(), loadWorldGeo()]);
     const effectivePeople = getEffectivePeople(mainData);
     const [countryLookup, cityPoints] = await Promise.all([
       buildCountryLookup(mainData, effectivePeople),
-      buildCityPoints(mainData, effectivePeople),
+      buildCityPoints(mainData, effectivePeople, cityFilterSet),
     ]);
     const palette = getPalette();
 
@@ -500,7 +599,12 @@ async function initMapView(mainData) {
       }
     }
     if (mapInstance) persistMapExtent(mapInstance);
-    setStatus(cityPoints.length === 0 ? 'No cities with coordinates available.' : '');
+    const statusMessage = cityPoints.length === 0
+      ? (applyingFunnelFilter && appState.hasActiveFunnelFilters
+        ? 'No cities match the current funnel filters.'
+        : 'No cities with coordinates available.')
+      : '';
+    setStatus(statusMessage);
   } catch (error) {
     console.error('Failed to initialize map view', error);
     setStatus('Unable to render the map right now. Please try again later.');
