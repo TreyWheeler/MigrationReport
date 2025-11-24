@@ -856,6 +856,51 @@
             ]
         },
         {
+            "key": "integration_percent_non_religious_population",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">=60% of the population identifies as atheist, agnostic, or no religion."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "50-59% of the population identifies as atheist, agnostic, or no religion."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "40-49% of the population identifies as atheist, agnostic, or no religion."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "30-39% of the population identifies as atheist, agnostic, or no religion."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "25-29% of the population identifies as atheist, agnostic, or no religion."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "20-24% of the population identifies as atheist, agnostic, or no religion."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "15-19% of the population identifies as atheist, agnostic, or no religion."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "10-14% of the population identifies as atheist, agnostic, or no religion."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "5-9% of the population identifies as atheist, agnostic, or no religion."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "<5% of the population identifies as atheist, agnostic, or no religion."
+                }
+            ]
+        },
+        {
             "key": "life_daycare_accessibility",
             "ratingGuide": [
                 {

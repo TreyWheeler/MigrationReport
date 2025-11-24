@@ -451,6 +451,19 @@
             }
         },
         {
+            "id": "integration_percent_non_religious_population",
+            "categoryId": "integration",
+            "label": "Percent Non-Religious Population",
+            "order": 11,
+            "guidance": "Share of residents who identify as atheist, agnostic, or non-religious.",
+            "informational": false,
+            "metric": {
+                "name": "non_religious_population",
+                "unit": "percent",
+                "direction": "higher is better"
+            }
+        },
+        {
             "id": "life_bureaucratic_compliance_effort",
             "categoryId": "life",
             "label": "Life Bureaucratic Compliance Effort",
