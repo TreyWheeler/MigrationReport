@@ -18,6 +18,7 @@ import { appendTextWithLinks, createFlagImg } from '../utils/dom.js';
 import { toggleSelectNode, updateCountryListSelection, applyCountrySort, applySidebarAlerts } from './sidebar.js';
 import { getParentFileForNode, resolveParentReportFile } from '../utils/nodes.js';
 import { getEffectivePeople } from '../data/weights.js';
+import { initMapView } from './mapView.js';
 import { isInformationalKey } from '../data/informationalOverrides.js';
 import {
   showLoadingIndicator,
@@ -700,6 +701,7 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           loadingMessage: message,
           loadingDelayMs: 120,
         });
+        await initMapView(mainData);
       });
       catHeaderInner.appendChild(toggle);
       catHeaderInner.appendChild(catLabelSpan);
