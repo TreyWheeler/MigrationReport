@@ -8,6 +8,12 @@ import { getScoreBucket, makeScoreChip } from './components/chips.js';
 import { createFlagImg } from '../utils/dom.js';
 import { activateReportSelection } from './funnelView.js';
 
+const MAP_VIEW_STORAGE_KEY = 'mapViewExtent';
+const MAP_DEFAULT_CENTER = [24, 0];
+const MAP_DEFAULT_ZOOM = 2;
+const MAP_MIN_ZOOM = 2;
+const MAP_MAX_ZOOM = 6;
+
 let leafletPromise = null;
 let worldGeoPromise = null;
 let mapInstance = null;
@@ -49,6 +55,51 @@ function formatScore(score) {
 
 function normalizeCategoryName(value) {
   return typeof value === 'string' ? value.trim().toLowerCase() : '';
+}
+
+function clampZoom(zoom) {
+  return Math.max(MAP_MIN_ZOOM, Math.min(MAP_MAX_ZOOM, Number(zoom)));
+}
+
+function loadSavedExtent() {
+  if (typeof window === 'undefined' || !window.localStorage) return null;
+  const raw = window.localStorage.getItem(MAP_VIEW_STORAGE_KEY);
+  if (!raw) return null;
+  try {
+    const parsed = JSON.parse(raw);
+    const lat = Number(parsed?.center?.[0]);
+    const lng = Number(parsed?.center?.[1]);
+    const zoom = clampZoom(parsed?.zoom);
+    if (Number.isFinite(lat) && Number.isFinite(lng) && Number.isFinite(zoom)) {
+      return { center: [lat, lng], zoom };
+    }
+  } catch (err) {
+    console.warn('Failed to parse saved map extent', err);
+  }
+  return null;
+}
+
+function persistMapExtent(map) {
+  if (!map || typeof window === 'undefined' || !window.localStorage) return;
+  try {
+    const center = map.getCenter();
+    const zoom = clampZoom(map.getZoom());
+    const payload = {
+      center: [Number(center.lat), Number(center.lng)],
+      zoom,
+    };
+    window.localStorage.setItem(MAP_VIEW_STORAGE_KEY, JSON.stringify(payload));
+  } catch (err) {
+    console.warn('Failed to persist map extent', err);
+  }
+}
+
+function attachExtentPersistence(map) {
+  if (!map || map.__extentPersistenceAttached) return;
+  const handler = () => persistMapExtent(map);
+  map.on('moveend', handler);
+  map.on('zoomend', handler);
+  map.__extentPersistenceAttached = true;
 }
 
 async function loadLeaflet() {
@@ -363,6 +414,7 @@ async function initMapView(mainData) {
   if (!mapEl) return;
   lastMainData = mainData || lastMainData;
   updateFocusBadge(mainData);
+  const savedExtent = loadSavedExtent();
   try {
     setStatus('Building map…');
     const [L, worldGeo] = await Promise.all([loadLeaflet(), loadWorldGeo()]);
@@ -374,14 +426,24 @@ async function initMapView(mainData) {
     const palette = getPalette();
 
     if (!mapInstance) {
-      mapInstance = L.map(mapEl, { worldCopyJump: true, preferCanvas: true });
-      mapInstance.setView([24, 0], 2);
+      mapInstance = L.map(mapEl, {
+        worldCopyJump: true,
+        preferCanvas: true,
+        minZoom: MAP_MIN_ZOOM,
+        maxZoom: MAP_MAX_ZOOM,
+      });
+      if (savedExtent) {
+        mapInstance.setView(savedExtent.center, savedExtent.zoom);
+      } else {
+        mapInstance.setView(MAP_DEFAULT_CENTER, MAP_DEFAULT_ZOOM);
+      }
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 6,
-        minZoom: 2,
+        maxZoom: MAP_MAX_ZOOM,
+        minZoom: MAP_MIN_ZOOM,
         attribution: '&copy; OpenStreetMap contributors',
       }).addTo(mapInstance);
       attachMapTabHandler(L);
+      attachExtentPersistence(mapInstance);
     }
 
     if (countryLayer) countryLayer.remove();
@@ -433,8 +495,11 @@ async function initMapView(mainData) {
     cityLayer.addTo(mapInstance);
 
     if (countryLayer && countryLayer.getBounds().isValid()) {
-      mapInstance.fitBounds(countryLayer.getBounds(), { padding: [12, 12] });
+      if (!savedExtent) {
+        mapInstance.fitBounds(countryLayer.getBounds(), { padding: [12, 12] });
+      }
     }
+    if (mapInstance) persistMapExtent(mapInstance);
     setStatus(cityPoints.length === 0 ? 'No cities with coordinates available.' : '');
   } catch (error) {
     console.error('Failed to initialize map view', error);
