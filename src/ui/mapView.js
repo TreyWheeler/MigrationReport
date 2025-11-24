@@ -13,6 +13,7 @@ let worldGeoPromise = null;
 let mapInstance = null;
 let countryLayer = null;
 let cityLayer = null;
+let lastMainData = null;
 
 function getCssColor(varName, fallback) {
   if (typeof window === 'undefined') return fallback;
@@ -231,13 +232,15 @@ function updateFocusBadge(mainData) {
   const badge = document.getElementById('mapFocusBadge');
   const categoriesEl = document.getElementById('mapFocusCategories');
   if (!badge || !categoriesEl) return;
-  const active = getActiveFocusCategories(mainData);
+  const active = getActiveFocusCategories(mainData || lastMainData);
   if (active.length === 0) {
     badge.hidden = true;
+    badge.setAttribute('hidden', '');
     categoriesEl.textContent = '';
     return;
   }
   badge.hidden = false;
+  badge.removeAttribute('hidden');
   categoriesEl.textContent = active.join(', ');
 }
 
@@ -255,6 +258,7 @@ function attachMapTabHandler(L) {
   if (tab.dataset.__mapHandlerAttached) return;
   tab.dataset.__mapHandlerAttached = 'true';
   tab.addEventListener('click', () => {
+    updateFocusBadge(lastMainData);
     setTimeout(() => {
       try { mapInstance.invalidateSize(); } catch {}
     }, 60);
@@ -331,6 +335,7 @@ async function initMapView(mainData) {
   if (typeof document === 'undefined') return;
   const mapEl = document.getElementById('mapCanvas');
   if (!mapEl) return;
+  lastMainData = mainData || lastMainData;
   updateFocusBadge(mainData);
   try {
     setStatus('Building map…');
