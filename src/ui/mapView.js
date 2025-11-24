@@ -3,9 +3,10 @@ import { fetchJsonAsset } from '../data/api.js';
 import { fetchCountry } from '../data/reports.js';
 import { computeRoundedMetrics } from '../data/scoring.js';
 import { getEffectivePeople } from '../data/weights.js';
-import { getParentFileForNode, resolveParentReportFile } from '../utils/nodes.js';
+import { getParentFileForNode, resolveParentReportFile, findNodeByFile } from '../utils/nodes.js';
 import { getScoreBucket, makeScoreChip } from './components/chips.js';
 import { createFlagImg } from '../utils/dom.js';
+import { activateReportSelection } from './funnelView.js';
 
 let leafletPromise = null;
 let worldGeoPromise = null;
@@ -63,6 +64,17 @@ async function loadWorldGeo() {
   return worldGeoPromise;
 }
 
+function handleOpenReport(reportFile, node) {
+  const targetNode = node || (reportFile ? findNodeByFile(reportFile) : null);
+  if (targetNode) {
+    activateReportSelection(targetNode);
+    return;
+  }
+  if (reportFile && typeof window !== 'undefined') {
+    window.open(reportFile, '_blank', 'noopener');
+  }
+}
+
 async function ensureMetrics(node, mainData, effectivePeople) {
   if (!node) return null;
   if (node.metrics && node.iso) {
@@ -92,6 +104,8 @@ async function buildCountryLookup(mainData, effectivePeople) {
         name: country.name,
         metrics,
         report: country.file,
+        iso,
+        node: country,
       };
       isoMap.set(String(iso).toUpperCase(), entry);
       const nameKey = (country.name || '').trim().toLowerCase();
@@ -143,6 +157,7 @@ async function buildCityPoints(mainData, effectivePeople) {
           lat: coord.lat,
           lng: coord.lng,
           report: city.file,
+          node: city,
         });
       })());
     });
@@ -171,6 +186,20 @@ function setStatus(message) {
   }
   status.hidden = false;
   status.textContent = message;
+}
+
+function createReportLink(reportFile, text = 'Open report', node) {
+  if (!reportFile && !node) return null;
+  const link = document.createElement('a');
+  link.href = reportFile || '#';
+  link.setAttribute('role', 'button');
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    handleOpenReport(reportFile, node);
+  });
+  link.className = 'map-city-popup__link';
+  link.textContent = text;
+  return link;
 }
 
 function bindFeatureTooltip(layer, feature, scoreEntry) {
@@ -214,14 +243,35 @@ function createCityPopup(city) {
   textWrap.appendChild(countryEl);
   wrapper.appendChild(textWrap);
   if (city?.report) {
-    const link = document.createElement('a');
-    link.href = city.report;
-    link.target = '_blank';
-    link.rel = 'noopener';
-    link.className = 'map-city-popup__link';
-    link.textContent = 'Open report';
-    wrapper.appendChild(link);
+    const link = createReportLink(city.report, 'Open report', city.node);
+    if (link) wrapper.appendChild(link);
   }
+  return wrapper;
+}
+
+function createCountryPopup(feature, entry) {
+  const wrapper = document.createElement('div');
+  wrapper.className = 'map-city-popup country-item';
+  const score = Number.isFinite(entry?.metrics?.overall) ? entry.metrics.overall : null;
+  const chip = makeScoreChip(score, { labelPrefix: 'Alignment score' });
+  if (chip) wrapper.appendChild(chip);
+  const iso = entry?.iso || extractIso(feature);
+  const flag = createFlagImg(iso, 18, entry?.name || feature?.properties?.name);
+  if (flag) wrapper.appendChild(flag);
+
+  const textWrap = document.createElement('div');
+  textWrap.className = 'map-city-popup__text';
+  const nameEl = document.createElement('div');
+  nameEl.className = 'map-city-popup__name';
+  nameEl.textContent = entry?.name || feature?.properties?.name || 'Country';
+  textWrap.appendChild(nameEl);
+  wrapper.appendChild(textWrap);
+
+  if (entry?.report || entry?.node) {
+    const link = createReportLink(entry?.report, 'Open report', entry?.node);
+    if (link) wrapper.appendChild(link);
+  }
+
   return wrapper;
 }
 
@@ -280,6 +330,15 @@ async function initMapView(mainData) {
       onEachFeature: (feature, layer) => {
         const entry = getFeatureEntry(feature, countryLookup);
         bindFeatureTooltip(layer, feature, entry);
+        layer.on('click', (event) => {
+          if (!mapInstance) return;
+          const popupContent = createCountryPopup(feature, entry);
+          if (!popupContent) return;
+          const popup = L.popup({ autoPan: true, closeButton: true });
+          popup.setLatLng(event.latlng);
+          popup.setContent(popupContent);
+          popup.openOn(mapInstance);
+        });
       },
     }).addTo(mapInstance);
 

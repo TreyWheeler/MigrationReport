@@ -999,5 +999,5 @@ function initFunnelView(mainData) {
   void renderFunnel();
 }
 
-export { initFunnelView };
-export default { initFunnelView };
+export { activateReportSelection, initFunnelView };
+export default { activateReportSelection, initFunnelView };
