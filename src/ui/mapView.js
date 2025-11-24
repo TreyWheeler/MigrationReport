@@ -45,6 +45,10 @@ function formatScore(score) {
   return Number.isFinite(score) ? Number(score).toFixed(1) : '—';
 }
 
+function normalizeCategoryName(value) {
+  return typeof value === 'string' ? value.trim().toLowerCase() : '';
+}
+
 async function loadLeaflet() {
   if (!leafletPromise) {
     leafletPromise = import('https://unpkg.com/leaflet@1.9.4/dist/leaflet-src.esm.js')
@@ -202,6 +206,41 @@ function createReportLink(reportFile, text = 'Open report', node) {
   return link;
 }
 
+function getActiveFocusCategories(mainData) {
+  const focusList = Array.isArray(appState.focusedCategories)
+    ? appState.focusedCategories.map(name => (typeof name === 'string' ? name.trim() : '')).filter(Boolean)
+    : [];
+  const normalizedFocus = focusList.map(name => normalizeCategoryName(name)).filter(Boolean);
+  const normalizedSet = new Set(normalizedFocus);
+  if (normalizedSet.size === 0) return [];
+
+  const categories = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
+  const active = [];
+  categories.forEach(cat => {
+    const rawName = typeof cat?.Category === 'string' ? cat.Category.trim() : '';
+    const normalizedName = normalizeCategoryName(rawName);
+    if (!normalizedName || !normalizedSet.has(normalizedName)) return;
+    if (!active.some(existing => normalizeCategoryName(existing) === normalizedName)) {
+      active.push(rawName || cat?.Category || '');
+    }
+  });
+  return active;
+}
+
+function updateFocusBadge(mainData) {
+  const badge = document.getElementById('mapFocusBadge');
+  const categoriesEl = document.getElementById('mapFocusCategories');
+  if (!badge || !categoriesEl) return;
+  const active = getActiveFocusCategories(mainData);
+  if (active.length === 0) {
+    badge.hidden = true;
+    categoriesEl.textContent = '';
+    return;
+  }
+  badge.hidden = false;
+  categoriesEl.textContent = active.join(', ');
+}
+
 function bindFeatureTooltip(layer, feature, scoreEntry) {
   if (!layer) return;
   const name = feature?.properties?.name || scoreEntry?.name || 'Unknown';
@@ -292,6 +331,7 @@ async function initMapView(mainData) {
   if (typeof document === 'undefined') return;
   const mapEl = document.getElementById('mapCanvas');
   if (!mapEl) return;
+  updateFocusBadge(mainData);
   try {
     setStatus('Building map…');
     const [L, worldGeo] = await Promise.all([loadLeaflet(), loadWorldGeo()]);
