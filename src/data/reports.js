@@ -73,8 +73,23 @@ async function loadRawCountry(file) {
     candidates.push(file);
     if (!file.includes('/')) candidates.push(`reports/${file}`);
   }
+
+  // Normalize relative paths, then try encoded variants (handles unicode filenames).
+  const expandCandidates = (path) => {
+    const list = [];
+    const normalized = path.startsWith('./') || path.startsWith('/') || path.includes('://')
+      ? path
+      : `./${path}`;
+    list.push(normalized);
+    if (!normalized.includes('://')) {
+      const encoded = encodeURI(normalized);
+      if (encoded !== normalized) list.push(encoded);
+    }
+    return list;
+  };
+
   let lastErr = null;
-  for (const path of candidates) {
+  for (const path of candidates.flatMap(expandCandidates)) {
     try {
       const response = await fetch(path);
       if (!response.ok) continue;

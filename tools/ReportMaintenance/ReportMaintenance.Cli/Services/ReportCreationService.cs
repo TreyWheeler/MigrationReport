@@ -18,6 +18,7 @@ public sealed class ReportCreationService
     private readonly IRatingGuideProvider _ratingGuideProvider;
     private readonly IKeyDefinitionProvider _keyDefinitionProvider;
     private readonly ILocationMetadataService _locationMetadataService;
+    private readonly ICityLocationProvider _cityLocationProvider;
     private readonly ILogger<ReportCreationService> _logger;
     private readonly ReportMaintenanceOptions _options;
 
@@ -26,6 +27,7 @@ public sealed class ReportCreationService
         IRatingGuideProvider ratingGuideProvider,
         IKeyDefinitionProvider keyDefinitionProvider,
         ILocationMetadataService locationMetadataService,
+        ICityLocationProvider cityLocationProvider,
         IOptions<ReportMaintenanceOptions> options,
         ILogger<ReportCreationService> logger)
     {
@@ -33,6 +35,7 @@ public sealed class ReportCreationService
         _ratingGuideProvider = ratingGuideProvider;
         _keyDefinitionProvider = keyDefinitionProvider;
         _locationMetadataService = locationMetadataService;
+        _cityLocationProvider = cityLocationProvider;
         _logger = logger;
         _options = options.Value;
     }
@@ -115,9 +118,10 @@ public sealed class ReportCreationService
 
         var normalizedIso = NormalizeIso(resolvedIso);
         var document = await CreateDocumentAsync(normalizedIso, cancellationToken).ConfigureAwait(false);
+        var cityId = $"{countrySlug}_{citySlug}";
+        await ApplyCoordinatesAsync(cityId, cityReportName, document, cancellationToken).ConfigureAwait(false);
         await _reportRepository.SaveAsync(cityReportName, document, cancellationToken).ConfigureAwait(false);
         _logger.LogInformation("Created city report {ReportName} ({Iso}).", cityReportName, normalizedIso);
-        var cityId = $"{countrySlug}_{citySlug}";
         await _locationMetadataService.EnsureCityEntryAsync(cityId, countrySlug, cityName.Trim(), BuildReportPath(cityReportName), cancellationToken).ConfigureAwait(false);
         return new CityReportCreationResult(cityReportName, createdCountryReportName);
     }
@@ -142,6 +146,19 @@ public sealed class ReportCreationService
             Iso = iso,
             Values = entries
         };
+    }
+
+    private async Task ApplyCoordinatesAsync(string cityId, string reportName, ReportDocument document, CancellationToken cancellationToken)
+    {
+        var location = await _cityLocationProvider.GetLocationByCityIdAsync(cityId, cancellationToken).ConfigureAwait(false);
+        if (location is null)
+        {
+            _logger.LogWarning("No coordinates found for {CityId}; {ReportName} will not include lat/long.", cityId, reportName);
+            return;
+        }
+
+        document.Latitude ??= location.Latitude;
+        document.Longitude ??= location.Longitude;
     }
 
     private static string NormalizeIso(string iso)

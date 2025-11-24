@@ -71,6 +71,8 @@ async function loadRelationalMain() {
       countryId: city.countryId,
       name: city.name,
       file: city.report,
+      lat: typeof city.lat === 'number' ? city.lat : undefined,
+      lng: typeof city.lng === 'number' ? city.lng : undefined,
     })).sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' })),
   }));
 

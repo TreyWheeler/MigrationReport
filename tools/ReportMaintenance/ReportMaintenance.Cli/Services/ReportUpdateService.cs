@@ -18,6 +18,7 @@ public sealed class ReportUpdateService
     private readonly IOpenAIAlignmentClient _openAiClient;
     private readonly ICategoryKeyProvider _categoryKeyProvider;
     private readonly IKeyDefinitionProvider _keyDefinitionProvider;
+    private readonly ICityLocationProvider _cityLocationProvider;
     private readonly IAlignmentSuggestionCache _cache;
     private readonly ILogger<ReportUpdateService> _logger;
     private readonly ReportMaintenanceOptions _options;
@@ -28,6 +29,7 @@ public sealed class ReportUpdateService
         IOpenAIAlignmentClient openAiClient,
         ICategoryKeyProvider categoryKeyProvider,
         IKeyDefinitionProvider keyDefinitionProvider,
+        ICityLocationProvider cityLocationProvider,
         IAlignmentSuggestionCache cache,
         IOptions<ReportMaintenanceOptions> options,
         ILogger<ReportUpdateService> logger)
@@ -37,6 +39,7 @@ public sealed class ReportUpdateService
         _openAiClient = openAiClient;
         _categoryKeyProvider = categoryKeyProvider;
         _keyDefinitionProvider = keyDefinitionProvider;
+        _cityLocationProvider = cityLocationProvider;
         _cache = cache;
         _logger = logger;
         _options = options.Value;
@@ -152,6 +155,7 @@ public sealed class ReportUpdateService
         var categoryMatch = category is null
             ? null
             : await _categoryKeyProvider.GetCategoryMatchAsync(category, cancellationToken).ConfigureAwait(false);
+        var coordinatesUpdated = await EnsureCoordinatesAsync(reportName, document, cancellationToken).ConfigureAwait(false);
         BackfillMissingEntries(document, definitions, reportName, categoryMatch, category);
         var context = await _contextFactory.CreateAsync(reportName, document, cancellationToken);
 
@@ -184,6 +188,13 @@ public sealed class ReportUpdateService
 
                 if (entries.Count == 0)
                 {
+                    if (coordinatesUpdated)
+                    {
+                        await _reportRepository.SaveAsync(reportName, document, cancellationToken).ConfigureAwait(false);
+                        _logger.LogInformation("Saved coordinate updates for report {ReportName}.", reportName);
+                        return;
+                    }
+
                     _logger.LogInformation("No missing data to backfill for report {ReportName}.", reportName);
                     return;
                 }
@@ -251,7 +262,7 @@ public sealed class ReportUpdateService
 
         await Task.WhenAll(tasks).ConfigureAwait(false);
 
-        if (!updatedEntries.IsEmpty)
+        if (!updatedEntries.IsEmpty || coordinatesUpdated)
         {
             await _reportRepository.SaveAsync(reportName, document, cancellationToken);
         }
@@ -329,6 +340,43 @@ public sealed class ReportUpdateService
         return definitions.Keys
             .Where(key => !string.IsNullOrWhiteSpace(key))
             .Select(key => key.Trim());
+    }
+
+    private async Task<bool> EnsureCoordinatesAsync(string reportName, ReportDocument document, CancellationToken cancellationToken)
+    {
+        var hasLat = document.Latitude is not null;
+        var hasLng = document.Longitude is not null;
+
+        if (hasLat && hasLng)
+        {
+            return false;
+        }
+
+        var location = await _cityLocationProvider.GetLocationForReportAsync(reportName, cancellationToken).ConfigureAwait(false);
+        if (location is null)
+        {
+            return false;
+        }
+
+        var updated = false;
+        if (!hasLat)
+        {
+            document.Latitude = location.Latitude;
+            updated = true;
+        }
+
+        if (!hasLng)
+        {
+            document.Longitude = location.Longitude;
+            updated = true;
+        }
+
+        if (updated)
+        {
+            _logger.LogInformation("Set coordinates for {ReportName} to ({Latitude}, {Longitude}).", reportName, document.Latitude, document.Longitude);
+        }
+
+        return updated;
     }
 
     private static string? NormalizeSelector(string? value) =>

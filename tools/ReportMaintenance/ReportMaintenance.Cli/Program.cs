@@ -82,6 +82,7 @@ builder.Services.AddSingleton<IKeyDefinitionProvider, KeyDefinitionProvider>();
 builder.Services.AddSingleton<ReportContextFactory>();
 builder.Services.AddSingleton<ReportUpdateService>();
 builder.Services.AddSingleton<ICategoryKeyProvider, CategoryKeyProvider>();
+builder.Services.AddSingleton<ICityLocationProvider, CityLocationProvider>();
 builder.Services.AddSingleton<ReportCreationService>();
 builder.Services.AddSingleton<CategoryCreationService>();
 builder.Services.AddSingleton<CategoryKeyCreationService>();

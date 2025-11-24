@@ -14,6 +14,7 @@ let mapInstance = null;
 let countryLayer = null;
 let cityLayer = null;
 let lastMainData = null;
+let cityCoordLookupPromise = null;
 
 function getCssColor(varName, fallback) {
   if (typeof window === 'undefined') return fallback;
@@ -93,6 +94,14 @@ async function ensureMetrics(node, mainData, effectivePeople) {
   if (!node.metrics) {
     node.metrics = computeRoundedMetrics(data, mainData, effectivePeople);
   }
+  if (data) {
+    const lat = Number(data.latitude);
+    const lng = Number(data.longitude);
+    if (Number.isFinite(lat) && Number.isFinite(lng)) {
+      node.latitude = node.latitude ?? lat;
+      node.longitude = node.longitude ?? lng;
+    }
+  }
   return node;
 }
 
@@ -125,49 +134,66 @@ async function buildCountryLookup(mainData, effectivePeople) {
   return { isoMap, nameMap };
 }
 
-async function loadCityCoordinates() {
-  try {
-    const raw = await fetchJsonAsset('data/city_locations.json');
-    const coords = Array.isArray(raw?.cities) ? raw.cities : [];
-    const map = new Map();
-    coords.forEach(entry => {
-      if (!entry || !entry.id) return;
-      if (!Number.isFinite(entry.lat) || !Number.isFinite(entry.lng)) return;
-      map.set(entry.id, { lat: entry.lat, lng: entry.lng });
-    });
-    return map;
-  } catch (err) {
-    console.warn('Failed to load city coordinate data', err);
-    return new Map();
-  }
-}
-
 async function buildCityPoints(mainData, effectivePeople) {
-  const coords = await loadCityCoordinates();
   const points = [];
   const countryList = Array.isArray(appState.countries) ? appState.countries : [];
   const tasks = [];
+  if (!cityCoordLookupPromise) {
+    cityCoordLookupPromise = (async () => {
+      try {
+        const raw = await fetchJsonAsset('data/cities.json');
+        const map = new Map();
+        const list = Array.isArray(raw?.cities) ? raw.cities : [];
+        list.forEach(c => {
+          const lat = Number(c?.lat);
+          const lng = Number(c?.lng);
+          if (c?.id && Number.isFinite(lat) && Number.isFinite(lng)) {
+            map.set(c.id, { lat, lng });
+          }
+        });
+        return map;
+      } catch (err) {
+        console.warn('Failed to load cities.json for coordinates', err);
+        return new Map();
+      }
+    })();
+  }
+  const cityCoordLookup = await cityCoordLookupPromise;
   countryList.forEach(country => {
     (country.cities || []).forEach(city => {
       tasks.push((async () => {
-        const coord = city.id ? coords.get(city.id) : null;
-        if (!coord) return;
-        const enriched = await ensureMetrics(city, mainData, effectivePeople);
-        if (!enriched) return;
-        points.push({
-          name: city.name,
-          countryName: country.name,
-          iso: enriched.iso,
-          metrics: enriched.metrics,
-          lat: coord.lat,
-          lng: coord.lng,
-          report: city.file,
-          node: city,
-        });
+        try {
+          const cityCoords = cityCoordLookup.get(city.id);
+          const cityLat = Number(city.lat ?? city.latitude ?? cityCoords?.lat);
+          const cityLng = Number(city.lng ?? city.longitude ?? cityCoords?.lng);
+          const enriched = await ensureMetrics(city, mainData, effectivePeople);
+          if (!enriched) return;
+          const lat = Number.isFinite(cityLat) ? cityLat : Number(enriched.latitude ?? enriched.lat);
+          const lng = Number.isFinite(cityLng) ? cityLng : Number(enriched.longitude ?? enriched.lng);
+          if (!Number.isFinite(lat) || !Number.isFinite(lng)) {
+            console.warn('City missing coordinates', city?.file || city?.id);
+            return;
+          }
+          points.push({
+            name: city.name,
+            countryName: country.name,
+            iso: enriched.iso,
+            metrics: enriched.metrics,
+            lat,
+            lng,
+            report: city.file,
+            node: city,
+          });
+        } catch (err) {
+          console.warn('Failed to build city point', city?.file, err);
+        }
       })());
     });
   });
   await Promise.allSettled(tasks);
+  if (points.length === 0) {
+    console.warn('No city points built; check city report fetch/coordinates.');
+  }
   return points;
 }
 

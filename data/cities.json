@@ -1,454 +1,604 @@
-{
-  "cities": [
-    {
-      "id": "france_paris",
-      "countryId": "france",
-      "name": "Paris",
-      "report": "reports/france_paris_report.json"
-    },
-    {
-      "id": "finland_helsinki",
-      "countryId": "finland",
-      "name": "Helsinki",
-      "report": "reports/finland_helsinki_report.json"
-    },
-    {
-      "id": "germany_munich",
-      "countryId": "germany",
-      "name": "Munich",
-      "report": "reports/germany_munich_report.json"
-    },
-    {
-      "id": "netherlands_amsterdam",
-      "countryId": "netherlands",
-      "name": "Amsterdam",
-      "report": "reports/netherlands_amsterdam_report.json"
-    },
-    {
-      "id": "netherlands_utrecht",
-      "countryId": "netherlands",
-      "name": "Utrecht",
-      "report": "reports/netherlands_utrecht_report.json"
-    },
-    {
-      "id": "netherlands_rotterdam",
-      "countryId": "netherlands",
-      "name": "Rotterdam",
-      "report": "reports/netherlands_rotterdam_report.json"
-    },
-    {
-      "id": "ireland_dublin",
-      "countryId": "ireland",
-      "name": "Dublin",
-      "report": "reports/ireland_dublin_report.json"
-    },
-    {
-      "id": "ireland_galway",
-      "countryId": "ireland",
-      "name": "Galway",
-      "report": "reports/ireland_galway_report.json"
-    },
-    {
-      "id": "ireland_cork",
-      "countryId": "ireland",
-      "name": "Cork",
-      "report": "reports/ireland_cork_report.json"
-    },
-    {
-      "id": "germany_berlin",
-      "countryId": "germany",
-      "name": "Berlin",
-      "report": "reports/germany_berlin_report.json"
-    },
-    {
-      "id": "germany_hamburg",
-      "countryId": "germany",
-      "name": "Hamburg",
-      "report": "reports/germany_hamburg_report.json"
-    },
-    {
-      "id": "germany_frankfurt",
-      "countryId": "germany",
-      "name": "Frankfurt",
-      "report": "reports/germany_frankfurt_report.json"
-    },
-    {
-      "id": "united_kingdom_london",
-      "countryId": "united_kingdom",
-      "name": "London",
-      "report": "reports/united_kingdom_london_report.json"
-    },
-    {
-      "id": "united_kingdom_guildford",
-      "countryId": "united_kingdom",
-      "name": "Guildford",
-      "report": "reports/united_kingdom_guildford_report.json"
-    },
-    {
-      "id": "united_kingdom_manchester",
-      "countryId": "united_kingdom",
-      "name": "Manchester",
-      "report": "reports/united_kingdom_manchester_report.json"
-    },
-    {
-      "id": "sweden_stockholm",
-      "countryId": "sweden",
-      "name": "Stockholm",
-      "report": "reports/sweden_stockholm_report.json"
-    },
-    {
-      "id": "sweden_gothenburg",
-      "countryId": "sweden",
-      "name": "Gothenburg",
-      "report": "reports/sweden_gothenburg_report.json"
-    },
-    {
-      "id": "sweden_malm\u00F6",
-      "countryId": "sweden",
-      "name": "Malm\u00F6",
-      "report": "reports/sweden_malm\u00F6_report.json"
-    },
-    {
-      "id": "portugal_lisbon",
-      "countryId": "portugal",
-      "name": "Lisbon",
-      "report": "reports/portugal_lisbon_report.json"
-    },
-    {
-      "id": "portugal_porto",
-      "countryId": "portugal",
-      "name": "Porto",
-      "report": "reports/portugal_porto_report.json"
-    },
-    {
-      "id": "portugal_coimbra",
-      "countryId": "portugal",
-      "name": "Coimbra",
-      "report": "reports/portugal_coimbra_report.json"
-    },
-    {
-      "id": "spain_barcelona",
-      "countryId": "spain",
-      "name": "Barcelona",
-      "report": "reports/spain_barcelona_report.json"
-    },
-    {
-      "id": "spain_madrid",
-      "countryId": "spain",
-      "name": "Madrid",
-      "report": "reports/spain_madrid_report.json"
-    },
-    {
-      "id": "spain_valencia",
-      "countryId": "spain",
-      "name": "Valencia",
-      "report": "reports/spain_valencia_report.json"
-    },
-    {
-      "id": "canada_montreal",
-      "countryId": "canada",
-      "name": "Montreal",
-      "report": "reports/canada_montreal_report.json"
-    },
-    {
-      "id": "canada_toronto",
-      "countryId": "canada",
-      "name": "Toronto",
-      "report": "reports/canada_toronto_report.json"
-    },
-    {
-      "id": "canada_vancouver",
-      "countryId": "canada",
-      "name": "Vancouver",
-      "report": "reports/canada_vancouver_report.json"
-    },
-    {
-      "id": "france_lyon",
-      "countryId": "france",
-      "name": "Lyon",
-      "report": "reports/france_lyon_report.json"
-    },
-    {
-      "id": "france_bordeaux",
-      "countryId": "france",
-      "name": "Bordeaux",
-      "report": "reports/france_bordeaux_report.json"
-    },
-    {
-      "id": "norway_oslo",
-      "countryId": "norway",
-      "name": "Oslo",
-      "report": "reports/norway_oslo_report.json"
-    },
-    {
-      "id": "norway_bergen",
-      "countryId": "norway",
-      "name": "Bergen",
-      "report": "reports/norway_bergen_report.json"
-    },
-    {
-      "id": "norway_trondheim",
-      "countryId": "norway",
-      "name": "Trondheim",
-      "report": "reports/norway_trondheim_report.json"
-    },
-    {
-      "id": "finland_tampere",
-      "countryId": "finland",
-      "name": "Tampere",
-      "report": "reports/finland_tampere_report.json"
-    },
-    {
-      "id": "finland_oulu",
-      "countryId": "finland",
-      "name": "Oulu",
-      "report": "reports/finland_oulu_report.json"
-    },
-    {
-      "id": "united_states_kansas_city",
-      "countryId": "united_states",
-      "name": "Kansas City",
-      "report": "reports/united_states_kansas_city_report.json"
-    },
-    {
-      "id": "united_states_austin",
-      "countryId": "united_states",
-      "name": "Austin",
-      "report": "reports/united_states_austin_report.json"
-    },
-    {
-      "id": "united_states_los_angeles",
-      "countryId": "united_states",
-      "name": "Los Angeles",
-      "report": "reports/united_states_los_angeles_report.json"
-    },
-    {
-      "id": "united_states_san_francisco",
-      "countryId": "united_states",
-      "name": "San Francisco",
-      "report": "reports/united_states_san_francisco_report.json"
-    },
-    {
-      "id": "united_states_seattle",
-      "countryId": "united_states",
-      "name": "Seattle",
-      "report": "reports/united_states_seattle_report.json"
-    },
-    {
-      "id": "poland_warsaw",
-      "countryId": "poland",
-      "name": "Warsaw",
-      "report": "reports/poland_warsaw_report.json"
-    },
-    {
-      "id": "poland_kraków",
-      "countryId": "poland",
-      "name": "Kraków",
-      "report": "reports/poland_kraków_report.json"
-    },
-    {
-      "id": "poland_wrocław",
-      "countryId": "poland",
-      "name": "Wrocław",
-      "report": "reports/poland_wrocław_report.json"
-    },
-    {
-      "id": "japan_tokyo",
-      "countryId": "japan",
-      "name": "Tokyo",
-      "report": "reports/japan_tokyo_report.json"
-    },
-    {
-      "id": "japan_osaka",
-      "countryId": "japan",
-      "name": "Osaka",
-      "report": "reports/japan_osaka_report.json"
-    },
-    {
-      "id": "japan_kyoto",
-      "countryId": "japan",
-      "name": "Kyoto",
-      "report": "reports/japan_kyoto_report.json"
-    },
-    {
-      "id": "south_korea_seoul",
-      "countryId": "south_korea",
-      "name": "Seoul",
-      "report": "reports/south_korea_seoul_report.json"
-    },
-    {
-      "id": "china_shanghai",
-      "countryId": "china",
-      "name": "Shanghai",
-      "report": "reports/china_shanghai_report.json"
-    },
-    {
-      "id": "china_beijing",
-      "countryId": "china",
-      "name": "Beijing",
-      "report": "reports/china_beijing_report.json"
-    },
-    {
-      "id": "china_shenzhen",
-      "countryId": "china",
-      "name": "Shenzhen",
-      "report": "reports/china_shenzhen_report.json"
-    },
-    {
-      "id": "china_guangzhou",
-      "countryId": "china",
-      "name": "Guangzhou",
-      "report": "reports/china_guangzhou_report.json"
-    },
-    {
-      "id": "singapore_singapore",
-      "countryId": "singapore",
-      "name": "Singapore",
-      "report": "reports/singapore_singapore_report.json"
-    },
-    {
-      "id": "hong_kong_hong_kong",
-      "countryId": "hong_kong",
-      "name": "Hong Kong",
-      "report": "reports/hong_kong_hong_kong_report.json"
-    },
-    {
-      "id": "taiwan_taipei",
-      "countryId": "taiwan",
-      "name": "Taipei",
-      "report": "reports/taiwan_taipei_report.json"
-    },
-    {
-      "id": "australia_melbourne",
-      "countryId": "australia",
-      "name": "Melbourne",
-      "report": "reports/australia_melbourne_report.json"
-    },
-    {
-      "id": "australia_sydney",
-      "countryId": "australia",
-      "name": "Sydney",
-      "report": "reports/australia_sydney_report.json"
-    },
-    {
-      "id": "australia_brisbane",
-      "countryId": "australia",
-      "name": "Brisbane",
-      "report": "reports/australia_brisbane_report.json"
-    },
-    {
-      "id": "brazil_são_paulo",
-      "countryId": "brazil",
-      "name": "São Paulo",
-      "report": "reports/brazil_são_paulo_report.json"
-    },
-    {
-      "id": "mexico_mexico_city",
-      "countryId": "mexico",
-      "name": "Mexico City",
-      "report": "reports/mexico_mexico_city_report.json"
-    },
-    {
-      "id": "mexico_guadalajara",
-      "countryId": "mexico",
-      "name": "Guadalajara",
-      "report": "reports/mexico_guadalajara_report.json"
-    },
-    {
-      "id": "argentina_buenos_aires",
-      "countryId": "argentina",
-      "name": "Buenos Aires",
-      "report": "reports/argentina_buenos_aires_report.json"
-    },
-    {
-      "id": "chile_santiago",
-      "countryId": "chile",
-      "name": "Santiago",
-      "report": "reports/chile_santiago_report.json"
-    },
-    {
-      "id": "turkey_istanbul",
-      "countryId": "turkey",
-      "name": "Istanbul",
-      "report": "reports/turkey_istanbul_report.json"
-    },
-    {
-      "id": "israel_tel_aviv",
-      "countryId": "israel",
-      "name": "Tel Aviv",
-      "report": "reports/israel_tel_aviv_report.json"
-    },
-    {
-      "id": "south_africa_cape_town",
-      "countryId": "south_africa",
-      "name": "Cape Town",
-      "report": "reports/south_africa_cape_town_report.json"
-    },
-    {
-      "id": "south_africa_johannesburg",
-      "countryId": "south_africa",
-      "name": "Johannesburg",
-      "report": "reports/south_africa_johannesburg_report.json"
-    },
-    {
-      "id": "kenya_nairobi",
-      "countryId": "kenya",
-      "name": "Nairobi",
-      "report": "reports/kenya_nairobi_report.json"
-    },
-    {
-      "id": "russia_moscow",
-      "countryId": "russia",
-      "name": "Moscow",
-      "report": "reports/russia_moscow_report.json"
-    },
-    {
-      "id": "russia_saint_petersburg",
-      "countryId": "russia",
-      "name": "Saint Petersburg",
-      "report": "reports/russia_saint_petersburg_report.json"
-    },
-    {
-      "id": "czechia_prague",
-      "countryId": "czechia",
-      "name": "Prague",
-      "report": "reports/czechia_prague_report.json"
-    },
-    {
-      "id": "hungary_budapest",
-      "countryId": "hungary",
-      "name": "Budapest",
-      "report": "reports/hungary_budapest_report.json"
-    },
-    {
-      "id": "romania_bucharest",
-      "countryId": "romania",
-      "name": "Bucharest",
-      "report": "reports/romania_bucharest_report.json"
-    },
-    {
-      "id": "romania_cluj",
-      "countryId": "romania",
-      "name": "Cluj",
-      "report": "reports/romania_cluj_report.json"
-    },
-    {
-      "id": "serbia_belgrade",
-      "countryId": "serbia",
-      "name": "Belgrade",
-      "report": "reports/serbia_belgrade_report.json"
-    },
-    {
-      "id": "ukraine_kyiv",
-      "countryId": "ukraine",
-      "name": "Kyiv",
-      "report": "reports/ukraine_kyiv_report.json"
-    },
-    {
-      "id": "ukraine_lviv",
-      "countryId": "ukraine",
-      "name": "Lviv",
-      "report": "reports/ukraine_lviv_report.json"
-    }
-  ]
+﻿{
+    "cities":  [
+                   {
+                       "id":  "france_paris",
+                       "countryId":  "france",
+                       "name":  "Paris",
+                       "report":  "reports/france_paris_report.json",
+                       "lat":  48.8566,
+                       "lng":  2.3522
+                   },
+                   {
+                       "id":  "finland_helsinki",
+                       "countryId":  "finland",
+                       "name":  "Helsinki",
+                       "report":  "reports/finland_helsinki_report.json",
+                       "lat":  60.1699,
+                       "lng":  24.9384
+                   },
+                   {
+                       "id":  "germany_munich",
+                       "countryId":  "germany",
+                       "name":  "Munich",
+                       "report":  "reports/germany_munich_report.json",
+                       "lat":  48.1351,
+                       "lng":  11.582
+                   },
+                   {
+                       "id":  "netherlands_amsterdam",
+                       "countryId":  "netherlands",
+                       "name":  "Amsterdam",
+                       "report":  "reports/netherlands_amsterdam_report.json",
+                       "lat":  52.3676,
+                       "lng":  4.9041
+                   },
+                   {
+                       "id":  "netherlands_utrecht",
+                       "countryId":  "netherlands",
+                       "name":  "Utrecht",
+                       "report":  "reports/netherlands_utrecht_report.json",
+                       "lat":  52.0907,
+                       "lng":  5.1214
+                   },
+                   {
+                       "id":  "netherlands_rotterdam",
+                       "countryId":  "netherlands",
+                       "name":  "Rotterdam",
+                       "report":  "reports/netherlands_rotterdam_report.json",
+                       "lat":  51.9244,
+                       "lng":  4.4777
+                   },
+                   {
+                       "id":  "ireland_dublin",
+                       "countryId":  "ireland",
+                       "name":  "Dublin",
+                       "report":  "reports/ireland_dublin_report.json",
+                       "lat":  53.3498,
+                       "lng":  -6.2603
+                   },
+                   {
+                       "id":  "ireland_galway",
+                       "countryId":  "ireland",
+                       "name":  "Galway",
+                       "report":  "reports/ireland_galway_report.json",
+                       "lat":  53.2707,
+                       "lng":  -9.0568
+                   },
+                   {
+                       "id":  "ireland_cork",
+                       "countryId":  "ireland",
+                       "name":  "Cork",
+                       "report":  "reports/ireland_cork_report.json",
+                       "lat":  51.8985,
+                       "lng":  -8.4756
+                   },
+                   {
+                       "id":  "germany_berlin",
+                       "countryId":  "germany",
+                       "name":  "Berlin",
+                       "report":  "reports/germany_berlin_report.json",
+                       "lat":  52.52,
+                       "lng":  13.405
+                   },
+                   {
+                       "id":  "germany_hamburg",
+                       "countryId":  "germany",
+                       "name":  "Hamburg",
+                       "report":  "reports/germany_hamburg_report.json",
+                       "lat":  53.5511,
+                       "lng":  9.9937
+                   },
+                   {
+                       "id":  "germany_frankfurt",
+                       "countryId":  "germany",
+                       "name":  "Frankfurt",
+                       "report":  "reports/germany_frankfurt_report.json",
+                       "lat":  50.1109,
+                       "lng":  8.6821
+                   },
+                   {
+                       "id":  "united_kingdom_london",
+                       "countryId":  "united_kingdom",
+                       "name":  "London",
+                       "report":  "reports/united_kingdom_london_report.json",
+                       "lat":  51.5074,
+                       "lng":  -0.1278
+                   },
+                   {
+                       "id":  "united_kingdom_guildford",
+                       "countryId":  "united_kingdom",
+                       "name":  "Guildford",
+                       "report":  "reports/united_kingdom_guildford_report.json",
+                       "lat":  51.2362,
+                       "lng":  -0.5704
+                   },
+                   {
+                       "id":  "united_kingdom_manchester",
+                       "countryId":  "united_kingdom",
+                       "name":  "Manchester",
+                       "report":  "reports/united_kingdom_manchester_report.json",
+                       "lat":  53.4808,
+                       "lng":  -2.2426
+                   },
+                   {
+                       "id":  "sweden_stockholm",
+                       "countryId":  "sweden",
+                       "name":  "Stockholm",
+                       "report":  "reports/sweden_stockholm_report.json",
+                       "lat":  59.3293,
+                       "lng":  18.0686
+                   },
+                   {
+                       "id":  "sweden_gothenburg",
+                       "countryId":  "sweden",
+                       "name":  "Gothenburg",
+                       "report":  "reports/sweden_gothenburg_report.json",
+                       "lat":  57.7089,
+                       "lng":  11.9746
+                   },
+                   {
+                       "id":  "sweden_malmö",
+                       "countryId":  "sweden",
+                       "name":  "Malmö",
+                       "report":  "reports/sweden_malmö_report.json",
+                       "lat":  55.605,
+                       "lng":  13.0038
+                   },
+                   {
+                       "id":  "portugal_lisbon",
+                       "countryId":  "portugal",
+                       "name":  "Lisbon",
+                       "report":  "reports/portugal_lisbon_report.json",
+                       "lat":  38.7223,
+                       "lng":  -9.1393
+                   },
+                   {
+                       "id":  "portugal_porto",
+                       "countryId":  "portugal",
+                       "name":  "Porto",
+                       "report":  "reports/portugal_porto_report.json",
+                       "lat":  41.1579,
+                       "lng":  -8.6291
+                   },
+                   {
+                       "id":  "portugal_coimbra",
+                       "countryId":  "portugal",
+                       "name":  "Coimbra",
+                       "report":  "reports/portugal_coimbra_report.json",
+                       "lat":  40.2033,
+                       "lng":  -8.4103
+                   },
+                   {
+                       "id":  "spain_barcelona",
+                       "countryId":  "spain",
+                       "name":  "Barcelona",
+                       "report":  "reports/spain_barcelona_report.json",
+                       "lat":  41.3874,
+                       "lng":  2.1686
+                   },
+                   {
+                       "id":  "spain_madrid",
+                       "countryId":  "spain",
+                       "name":  "Madrid",
+                       "report":  "reports/spain_madrid_report.json",
+                       "lat":  40.4168,
+                       "lng":  -3.7038
+                   },
+                   {
+                       "id":  "spain_valencia",
+                       "countryId":  "spain",
+                       "name":  "Valencia",
+                       "report":  "reports/spain_valencia_report.json",
+                       "lat":  39.4699,
+                       "lng":  -0.3763
+                   },
+                   {
+                       "id":  "canada_montreal",
+                       "countryId":  "canada",
+                       "name":  "Montreal",
+                       "report":  "reports/canada_montreal_report.json",
+                       "lat":  45.5019,
+                       "lng":  -73.5674
+                   },
+                   {
+                       "id":  "canada_toronto",
+                       "countryId":  "canada",
+                       "name":  "Toronto",
+                       "report":  "reports/canada_toronto_report.json",
+                       "lat":  43.6532,
+                       "lng":  -79.3832
+                   },
+                   {
+                       "id":  "canada_vancouver",
+                       "countryId":  "canada",
+                       "name":  "Vancouver",
+                       "report":  "reports/canada_vancouver_report.json",
+                       "lat":  49.2827,
+                       "lng":  -123.1207
+                   },
+                   {
+                       "id":  "france_lyon",
+                       "countryId":  "france",
+                       "name":  "Lyon",
+                       "report":  "reports/france_lyon_report.json",
+                       "lat":  45.764,
+                       "lng":  4.8357
+                   },
+                   {
+                       "id":  "france_bordeaux",
+                       "countryId":  "france",
+                       "name":  "Bordeaux",
+                       "report":  "reports/france_bordeaux_report.json",
+                       "lat":  44.8378,
+                       "lng":  -0.5792
+                   },
+                   {
+                       "id":  "norway_oslo",
+                       "countryId":  "norway",
+                       "name":  "Oslo",
+                       "report":  "reports/norway_oslo_report.json",
+                       "lat":  59.9139,
+                       "lng":  10.7522
+                   },
+                   {
+                       "id":  "norway_bergen",
+                       "countryId":  "norway",
+                       "name":  "Bergen",
+                       "report":  "reports/norway_bergen_report.json",
+                       "lat":  60.3913,
+                       "lng":  5.3221
+                   },
+                   {
+                       "id":  "norway_trondheim",
+                       "countryId":  "norway",
+                       "name":  "Trondheim",
+                       "report":  "reports/norway_trondheim_report.json",
+                       "lat":  63.4305,
+                       "lng":  10.3951
+                   },
+                   {
+                       "id":  "finland_tampere",
+                       "countryId":  "finland",
+                       "name":  "Tampere",
+                       "report":  "reports/finland_tampere_report.json",
+                       "lat":  61.4978,
+                       "lng":  23.761
+                   },
+                   {
+                       "id":  "finland_oulu",
+                       "countryId":  "finland",
+                       "name":  "Oulu",
+                       "report":  "reports/finland_oulu_report.json",
+                       "lat":  65.0121,
+                       "lng":  25.4651
+                   },
+                   {
+                       "id":  "united_states_kansas_city",
+                       "countryId":  "united_states",
+                       "name":  "Kansas City",
+                       "report":  "reports/united_states_kansas_city_report.json",
+                       "lat":  39.0997,
+                       "lng":  -94.5786
+                   },
+                   {
+                       "id":  "united_states_austin",
+                       "countryId":  "united_states",
+                       "name":  "Austin",
+                       "report":  "reports/united_states_austin_report.json",
+                       "lat":  30.2672,
+                       "lng":  -97.7431
+                   },
+                   {
+                       "id":  "united_states_los_angeles",
+                       "countryId":  "united_states",
+                       "name":  "Los Angeles",
+                       "report":  "reports/united_states_los_angeles_report.json",
+                       "lat":  34.0522,
+                       "lng":  -118.2437
+                   },
+                   {
+                       "id":  "united_states_san_francisco",
+                       "countryId":  "united_states",
+                       "name":  "San Francisco",
+                       "report":  "reports/united_states_san_francisco_report.json",
+                       "lat":  37.7749,
+                       "lng":  -122.4194
+                   },
+                   {
+                       "id":  "united_states_seattle",
+                       "countryId":  "united_states",
+                       "name":  "Seattle",
+                       "report":  "reports/united_states_seattle_report.json",
+                       "lat":  47.6062,
+                       "lng":  -122.3321
+                   },
+                   {
+                       "id":  "poland_warsaw",
+                       "countryId":  "poland",
+                       "name":  "Warsaw",
+                       "report":  "reports/poland_warsaw_report.json",
+                       "lat":  52.2297,
+                       "lng":  21.0122
+                   },
+                   {
+                       "id":  "poland_kraków",
+                       "countryId":  "poland",
+                       "name":  "Kraków",
+                       "report":  "reports/poland_kraków_report.json",
+                       "lat":  50.0647,
+                       "lng":  19.945
+                   },
+                   {
+                       "id":  "poland_wrocław",
+                       "countryId":  "poland",
+                       "name":  "Wrocław",
+                       "report":  "reports/poland_wrocław_report.json",
+                       "lat":  51.1079,
+                       "lng":  17.0385
+                   },
+                   {
+                       "id":  "japan_tokyo",
+                       "countryId":  "japan",
+                       "name":  "Tokyo",
+                       "report":  "reports/japan_tokyo_report.json",
+                       "lat":  35.6762,
+                       "lng":  139.6503
+                   },
+                   {
+                       "id":  "japan_osaka",
+                       "countryId":  "japan",
+                       "name":  "Osaka",
+                       "report":  "reports/japan_osaka_report.json",
+                       "lat":  34.6937,
+                       "lng":  135.5023
+                   },
+                   {
+                       "id":  "japan_kyoto",
+                       "countryId":  "japan",
+                       "name":  "Kyoto",
+                       "report":  "reports/japan_kyoto_report.json",
+                       "lat":  35.0116,
+                       "lng":  135.7681
+                   },
+                   {
+                       "id":  "south_korea_seoul",
+                       "countryId":  "south_korea",
+                       "name":  "Seoul",
+                       "report":  "reports/south_korea_seoul_report.json",
+                       "lat":  37.5665,
+                       "lng":  126.978
+                   },
+                   {
+                       "id":  "china_shanghai",
+                       "countryId":  "china",
+                       "name":  "Shanghai",
+                       "report":  "reports/china_shanghai_report.json",
+                       "lat":  31.2304,
+                       "lng":  121.4737
+                   },
+                   {
+                       "id":  "china_beijing",
+                       "countryId":  "china",
+                       "name":  "Beijing",
+                       "report":  "reports/china_beijing_report.json",
+                       "lat":  39.9042,
+                       "lng":  116.4074
+                   },
+                   {
+                       "id":  "china_shenzhen",
+                       "countryId":  "china",
+                       "name":  "Shenzhen",
+                       "report":  "reports/china_shenzhen_report.json",
+                       "lat":  22.5431,
+                       "lng":  114.0579
+                   },
+                   {
+                       "id":  "china_guangzhou",
+                       "countryId":  "china",
+                       "name":  "Guangzhou",
+                       "report":  "reports/china_guangzhou_report.json",
+                       "lat":  23.1291,
+                       "lng":  113.2644
+                   },
+                   {
+                       "id":  "singapore_singapore",
+                       "countryId":  "singapore",
+                       "name":  "Singapore",
+                       "report":  "reports/singapore_singapore_report.json",
+                       "lat":  1.3521,
+                       "lng":  103.8198
+                   },
+                   {
+                       "id":  "hong_kong_hong_kong",
+                       "countryId":  "hong_kong",
+                       "name":  "Hong Kong",
+                       "report":  "reports/hong_kong_hong_kong_report.json",
+                       "lat":  22.3193,
+                       "lng":  114.1694
+                   },
+                   {
+                       "id":  "taiwan_taipei",
+                       "countryId":  "taiwan",
+                       "name":  "Taipei",
+                       "report":  "reports/taiwan_taipei_report.json",
+                       "lat":  25.033,
+                       "lng":  121.5654
+                   },
+                   {
+                       "id":  "australia_melbourne",
+                       "countryId":  "australia",
+                       "name":  "Melbourne",
+                       "report":  "reports/australia_melbourne_report.json",
+                       "lat":  -37.8136,
+                       "lng":  144.9631
+                   },
+                   {
+                       "id":  "australia_sydney",
+                       "countryId":  "australia",
+                       "name":  "Sydney",
+                       "report":  "reports/australia_sydney_report.json",
+                       "lat":  -33.8688,
+                       "lng":  151.2093
+                   },
+                   {
+                       "id":  "australia_brisbane",
+                       "countryId":  "australia",
+                       "name":  "Brisbane",
+                       "report":  "reports/australia_brisbane_report.json",
+                       "lat":  -27.4698,
+                       "lng":  153.0251
+                   },
+                   {
+                       "id":  "brazil_são_paulo",
+                       "countryId":  "brazil",
+                       "name":  "São Paulo",
+                       "report":  "reports/brazil_são_paulo_report.json",
+                       "lat":  -23.5505,
+                       "lng":  -46.6333
+                   },
+                   {
+                       "id":  "mexico_mexico_city",
+                       "countryId":  "mexico",
+                       "name":  "Mexico City",
+                       "report":  "reports/mexico_mexico_city_report.json",
+                       "lat":  19.4326,
+                       "lng":  -99.1332
+                   },
+                   {
+                       "id":  "mexico_guadalajara",
+                       "countryId":  "mexico",
+                       "name":  "Guadalajara",
+                       "report":  "reports/mexico_guadalajara_report.json",
+                       "lat":  20.6597,
+                       "lng":  -103.3496
+                   },
+                   {
+                       "id":  "argentina_buenos_aires",
+                       "countryId":  "argentina",
+                       "name":  "Buenos Aires",
+                       "report":  "reports/argentina_buenos_aires_report.json",
+                       "lat":  -34.6037,
+                       "lng":  -58.3816
+                   },
+                   {
+                       "id":  "chile_santiago",
+                       "countryId":  "chile",
+                       "name":  "Santiago",
+                       "report":  "reports/chile_santiago_report.json",
+                       "lat":  -33.4489,
+                       "lng":  -70.6693
+                   },
+                   {
+                       "id":  "turkey_istanbul",
+                       "countryId":  "turkey",
+                       "name":  "Istanbul",
+                       "report":  "reports/turkey_istanbul_report.json",
+                       "lat":  41.0082,
+                       "lng":  28.9784
+                   },
+                   {
+                       "id":  "israel_tel_aviv",
+                       "countryId":  "israel",
+                       "name":  "Tel Aviv",
+                       "report":  "reports/israel_tel_aviv_report.json",
+                       "lat":  32.0853,
+                       "lng":  34.7818
+                   },
+                   {
+                       "id":  "south_africa_cape_town",
+                       "countryId":  "south_africa",
+                       "name":  "Cape Town",
+                       "report":  "reports/south_africa_cape_town_report.json",
+                       "lat":  -33.9249,
+                       "lng":  18.4241
+                   },
+                   {
+                       "id":  "south_africa_johannesburg",
+                       "countryId":  "south_africa",
+                       "name":  "Johannesburg",
+                       "report":  "reports/south_africa_johannesburg_report.json",
+                       "lat":  -26.2041,
+                       "lng":  28.0473
+                   },
+                   {
+                       "id":  "kenya_nairobi",
+                       "countryId":  "kenya",
+                       "name":  "Nairobi",
+                       "report":  "reports/kenya_nairobi_report.json",
+                       "lat":  -1.2921,
+                       "lng":  36.8219
+                   },
+                   {
+                       "id":  "russia_moscow",
+                       "countryId":  "russia",
+                       "name":  "Moscow",
+                       "report":  "reports/russia_moscow_report.json",
+                       "lat":  55.7558,
+                       "lng":  37.6173
+                   },
+                   {
+                       "id":  "russia_saint_petersburg",
+                       "countryId":  "russia",
+                       "name":  "Saint Petersburg",
+                       "report":  "reports/russia_saint_petersburg_report.json",
+                       "lat":  59.9343,
+                       "lng":  30.3351
+                   },
+                   {
+                       "id":  "czechia_prague",
+                       "countryId":  "czechia",
+                       "name":  "Prague",
+                       "report":  "reports/czechia_prague_report.json",
+                       "lat":  50.0755,
+                       "lng":  14.4378
+                   },
+                   {
+                       "id":  "hungary_budapest",
+                       "countryId":  "hungary",
+                       "name":  "Budapest",
+                       "report":  "reports/hungary_budapest_report.json",
+                       "lat":  47.4979,
+                       "lng":  19.0402
+                   },
+                   {
+                       "id":  "romania_bucharest",
+                       "countryId":  "romania",
+                       "name":  "Bucharest",
+                       "report":  "reports/romania_bucharest_report.json",
+                       "lat":  44.4268,
+                       "lng":  26.1025
+                   },
+                   {
+                       "id":  "romania_cluj",
+                       "countryId":  "romania",
+                       "name":  "Cluj",
+                       "report":  "reports/romania_cluj_report.json",
+                       "lat":  46.7712,
+                       "lng":  23.6236
+                   },
+                   {
+                       "id":  "serbia_belgrade",
+                       "countryId":  "serbia",
+                       "name":  "Belgrade",
+                       "report":  "reports/serbia_belgrade_report.json",
+                       "lat":  44.7866,
+                       "lng":  20.4489
+                   },
+                   {
+                       "id":  "ukraine_kyiv",
+                       "countryId":  "ukraine",
+                       "name":  "Kyiv",
+                       "report":  "reports/ukraine_kyiv_report.json",
+                       "lat":  50.4501,
+                       "lng":  30.5234
+                   },
+                   {
+                       "id":  "ukraine_lviv",
+                       "countryId":  "ukraine",
+                       "name":  "Lviv",
+                       "report":  "reports/ukraine_lviv_report.json",
+                       "lat":  49.8397,
+                       "lng":  24.0297
+                   }
+               ]
 }
