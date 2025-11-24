@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "RU",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -489,6 +491,40 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "38%",
       "alignmentValue": 6
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "HDI in Russia is about 0.82, indicating high development with minor gaps. Healthcare and education are strong, but regional disparities persist.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Russia IHDI ~0.71-0.73; inequality drag is moderate; rating 7 fits; urban RU areas (Moscow/St. Petersburg) offer stronger development.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "OECD Better Life Index isn\u0027t officially published for RU; life quality varies by city; Moscow offers better services, rural areas lag.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Russia\u0027s well-being profile shows moderate overall performance with strengths in education and life expectancy, but clear gaps by income and migrant status. Migrant families face language barriers, less consistent healthcare access, and early education integration challenges. Priorities: expand language and integration services; broaden affordable healthcare access for newcomers; support inclusive, bilingual early childhood and public schooling; ensure stable childcare and broadband; and streamline immigration processes to reduce family disruption and support long-term settlement.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Russia\u0027s SPI sits mid-60s to low-70s (\u224868\u201371), indicating below-average progress. In RU cities, service quality and family support vary.",
+      "alignmentValue": 3,
+      "sameAsParent": true
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Russia\u0027s World Happiness Score sits around 3.x (low). For a US family, social support exists but bureaucracy and governance pressures temper daily life in RU.",
+      "alignmentValue": 3
     }
   ]
 }

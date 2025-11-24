@@ -74,10 +74,10 @@ public sealed class CityLocationProvider : ICityLocationProvider
                 return _lookup;
             }
 
-            var path = ResolvePath(_options.CityLocationsPath);
+            var path = ResolvePath(_options.CitiesPath);
             if (!File.Exists(path))
             {
-                _logger.LogWarning("City locations file {Path} was not found; coordinates will not be populated.", path);
+                _logger.LogWarning("Cities file {Path} was not found; coordinates will not be populated.", path);
                 _lookup = LocationLookup.Empty;
                 return _lookup;
             }
@@ -90,7 +90,7 @@ public sealed class CityLocationProvider : ICityLocationProvider
 
             if (document is null || document.Cities.Count == 0)
             {
-                _logger.LogWarning("City locations file {Path} contained no entries; coordinates will not be populated.", path);
+                _logger.LogWarning("Cities file {Path} contained no entries; coordinates will not be populated.", path);
                 _lookup = LocationLookup.Empty;
                 return _lookup;
             }

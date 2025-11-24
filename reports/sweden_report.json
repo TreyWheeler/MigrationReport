@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "SE",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -503,6 +505,40 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "45%",
       "alignmentValue": 7
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "HDI is very high (approx 0.945) in Sweden. Sweden\u0027s strong education and healthcare support a family-friendly life in SE cities like Stockholm.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Sweden (SE) has IHDI well above 0.80 due to low inequality, minimizing losses for your family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "OECD life index ~8.3 for Sweden; strong healthcare, education, safety and work\u2013life balance; English-friendly for families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Sweden shows high well-being across health, education, safety, and social cohesion in OECD indicators. Migrants face gaps in labor market outcomes and earnings, language access, and recognition of foreign qualifications. Strengths include universal healthcare, strong public services, and trust; gaps include migrant employment, language barriers for adults and children, and affordable housing access. Future resources should expand language and integration programs, streamline credential recognition, enhance targeted job-matching and apprenticeships for migrants, and boost affordable housing and bilingual early education. Monitor with OECD well-being data updates to adapt policies and close migrant gaps.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Sweden ranks in the high 80s/90s on the Social Progress Index, with strong healthcare, education, and safety, well aligned with your SE family priorities.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Sweden (SE) ranks high on life evaluation: strong welfare, healthcare, safety, and social support; a solid fit for this family.",
+      "alignmentValue": 9
     }
   ]
 }

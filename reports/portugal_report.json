@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "PT",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -504,6 +506,37 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "62%",
       "alignmentValue": 9
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Portugal\u0027s HDI is about 0.87 (high). Strong healthcare and education support families in Portugal.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Portugal\u0027s IHDI ~0.80\u002B, indicating minimal inequality drag and strong health/education protections in PT.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Portugal\u0027s OECD score ~7.6\u20137.9; strong for families: mild climate, good healthcare/education, and safety. English helps, learning Portuguese aids integration.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Portugal shows solid well-being with strong healthcare, safety, and social cohesion, but migrants can face language barriers, housing affordability, and regional disparities. Actionable steps: expand Portuguese language and civic integration programs; ensure universal healthcare and affordable childcare access for migrant families; target housing support in high-demand areas; leverage EU/national funds to boost entrepreneurship, digital infrastructure, and pathways to work for Trey and Sarah."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Portugal\u0027s SPI sits in the high 80s (about 88-89), signaling strong basic needs, well-being, and opportunities - good for a family-focused relocation.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Portugal offers solid life happiness for expat families: universal healthcare, safety, and a mild climate.",
+      "alignmentValue": 7
     }
   ]
 }

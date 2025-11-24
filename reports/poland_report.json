@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "PL",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -499,6 +501,39 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "45%",
       "alignmentValue": 7
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Poland\u0027s HDI is high (~0.88), indicating solid health, education, and income levels. This supports family-friendly policies and stable social systems for relocation.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Poland\u0027s IHDI is around 0.80\u002B, indicating minimal inequality drag; universal healthcare and family-friendly policies support your family.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Poland (PL) sits around 6.8 on the OECD Better Life Index. Healthcare and education are solid, but housing costs and bureaucracy temper life quality.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Poland shows solid well-being with strong health and education indicators, yet gaps remain in income equality and housing affordability. Migrants and underserved groups face language barriers, recognition of foreign credentials, and variable access to services, with regional disparities. To boost migrant well-being, prioritize language and credential-recognition programs, expand inclusive healthcare access, and invest in affordable housing and digital connectivity, supported by EU funds and national social programs.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Poland\u0027s SPI sits in the upper-mid band; strong basics and wellbeing, with some gaps in healthcare access and English ubiquity for expat families.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Poland\u0027s solid healthcare, education, safety, and EU backdrop support a family-friendly move with reliable broadband and moderate climate.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     }
   ]
 }

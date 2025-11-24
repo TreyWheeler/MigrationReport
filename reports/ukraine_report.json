@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "UA",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -492,6 +494,40 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "55%",
       "alignmentValue": 8
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Ukraine HDI around 0.76; solid urban education/healthcare (Kyiv area) but notable rural gaps and access variation.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Ukraine IHDI ~0.63 (0.62-0.65); inequality drag affects families and children; prioritize stable, inclusive public services.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Ukraine\u0027s OECD life index sits around 5.3. War risk and uneven services make it less stable for a US family seeking a mild climate and English ubiquity.",
+      "alignmentValue": 2,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Ukraine\u0027s well-being profile shows mixed outcomes: health and education access improve in some areas, but regional and displacement-related gaps persist due to conflict. Migrants and internally displaced families face higher unemployment risk, housing insecurity, and barriers to language access and formal recognition, widening gaps with native households. Future resources that could raise well-being include international humanitarian funding, Ukraine reform programs, expanded broadband and digital inclusion, language and job-skills training, and easier access to healthcare and social protections. Actionable notes for migrants: seek stable, affordable housing near job centers; ensure health coverage is accessible; pursue language learning and credential recognition; leverage grants and remote-work opportunities; build local support networks and multilingual information channels.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Ukraine\u0027s Social Progress Index sits around 72-75, with solid basics but notable gaps amid conflict. Prioritize stable services and inclusive policies in Ukraine.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Ukraine\u0027s life evaluation is around 5.0 (mid-low). Ongoing conflict and war risk weigh on well-being.",
+      "alignmentValue": 3,
+      "sameAsParent": false
     }
   ]
 }

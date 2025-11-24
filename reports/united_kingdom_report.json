@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "GB",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -497,6 +499,38 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "45%",
       "alignmentValue": 7
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "HDI for United Kingdom (GB) is very high (about 0.93). Strong education, healthcare, and living standards support family relocation to GB.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "UK IHDI is high (approximately 0.80\u002B), meaning minimal inequality drag; universal healthcare and public services support the family well.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "UK offers strong OECD life index (~7/10): solid healthcare, education, and English ubiquity for a family-friendly move.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "UK OECD well-being snapshot shows strong health, education, and safety baselines supporting high overall life satisfaction. Migrants face gaps in earnings and job quality, language access, and affordable housing, creating uneven outcomes across groups. Actionable resources include expanding language and credential-recognition programs, migrant-focused employment support, affordable childcare, and housing subsidies, with ongoing monitoring using disaggregated migrant-status data to adjust integration and immigration policies."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "UK offers universal healthcare, strong education, and inclusive communities; mild climate and robust broadband suit the family.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "UK life evaluation ~7.3 aligns with strong healthcare and education; social support and stable democracy suit a family-friendly move.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "US",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -503,6 +505,39 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "34%",
       "alignmentValue": 6
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "US HDI is very high (~0.92\u002B), with strong life expectancy, education, and income; Kansas City, MO enjoys solid healthcare and broadband.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "US (Kansas City, MO): IHDI ~0.80\u002B, indicating minimal inequality drag on life expectancy, education, and income.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "US OECD life index ~6.8\u20137.1. Solid family life in Kansas City, MO, but healthcare costs and childcare affordability vary by state.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "US OECD well-being snapshot shows strong overall outcomes but migrant gaps remain in health coverage access, language/education support, housing affordability, and job quality. Regional and ethnic disparities deepen these gaps. To improve, invest in universal or affordable health coverage for immigrants, multilingual education and early childhood programs, affordable housing and childcare, reliable broadband, and streamlined pathways to work authorization and citizenship; use migrant-focused indicators to guide resource allocation."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "US SPI around 82-84 points. This reflects strong foundations for families in Kansas City, MO, with solid healthcare access and education prospects.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "US life evaluation is solidly above average; Kansas City\u2019s community and mild climate support a 7 on the happiness scale.",
+      "alignmentValue": 7,
+      "sameAsParent": false
     }
   ]
 }

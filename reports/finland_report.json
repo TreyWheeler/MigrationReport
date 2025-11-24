@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "FI",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -504,6 +506,38 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "45%",
       "alignmentValue": 7
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Finland\u2019s HDI is very high (\u22480.94). It has strong education and universal healthcare, supporting families nationwide.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Finland IHDI 10: strong equality and welfare minimize inequality drag; excellent healthcare, education, and safety support families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Finland (FI) offers excellent outcomes for families: strong education, safety, healthcare, and work-life balance in a Nordic setting.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Finland shows high well-being overall (health, education, social trust) with migrant families facing language barriers, limited access to early childhood education, and slower labor-market integration. Priorities: expand language and schooling supports for children and parents; maintain affordable childcare; improve access to universal healthcare and public services in multiple languages; boost targeted grants and apprenticeship pathways to migrant workers; monitor regional disparities and strengthen inclusive social networks using OECD well-being indicators."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Finland\u0027s SPI is in the 90s, reflecting strong basic needs, well-being, and opportunities for families.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Finland shows top-decile happiness (\u22487.8/10); strong social support and family-friendly policy align with your values.",
+      "alignmentValue": 10
     }
   ]
 }

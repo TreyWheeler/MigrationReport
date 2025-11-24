@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "DE",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -500,6 +502,38 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "55%",
       "alignmentValue": 8
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Germany (DE) HDI ~0.947 (very high); strong healthcare, education, and social supports suit your family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Germany\u0027s IHDI is high (~0.82\u002B), implying strong equality-adjusted development for a DE family; good services and social safety.",
+      "alignmentValue": 10,
+      "sameAsParent": true
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Germany\u0027s strong education, universal healthcare, and family-friendly policies align with this family\u0027s priorities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Germany currently ranks high on OECD well-being indicators overall, with strong health, education, and income levels. The main gaps for migrants and their families are income parity, language access, and inclusion in education and the labor market. Priorities for improvement include multilingual public services, affordable childcare and early education, language and vocational training for newcomers, equal healthcare access, and targeted grants to support integration; utilize OECD well-being dashboards to track migrant-status gaps and adjust programs."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Germany\u0027s Social Progress Index is about 85\u201387, in band 8, signaling strong well-being foundations and opportunities for families in DE.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Germany (DE) life evaluation ~6.9/10 per the World Happiness Report; strong social support and healthcare make it well-suited for a family.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     }
   ]
 }

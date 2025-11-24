@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "CL",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -496,6 +498,40 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "38%",
       "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "HDI for Chile is about 0.85-0.87 (strong development). Good healthcare, education, and social services for your family in Chile.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Chile (CL) IHDI shows moderate inequality drag (0.70-0.73); overall solid development for families.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Chile (CL) OECD Better Life Index ~7.3: strong housing, education, and safety; governance and resilience gaps for families.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Chile\u0027s OECD Well-being profile shows strong health outcomes and education quality, with safe urban living contributing to high overall well-being. Gaps exist in income equality and housing affordability, creating noticeable disparities for migrants who may face slower job progression, language barriers, and limited access to affordable childcare. To support migrant well-being, focus on language and credential-recognition programs, inclusive employment paths, and streamlined immigration processes, while leveraging ongoing social reforms; invest in broadband and public services to reduce regional disparities and expand access to entrepreneurship resources."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Chile\u0027s SPI around 82-84; strong education and health foundations, with some safety and inequality gaps.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Chile\u0027s life evaluation is solidly above average (6.5-6.8), with a mild climate and improving health/education access supporting your family.",
+      "alignmentValue": 7,
       "sameAsParent": false
     }
   ]

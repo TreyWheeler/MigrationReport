@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "BR",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -491,6 +493,37 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "45%",
       "alignmentValue": 7
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Brazil\u0027s HDI ~0.765 (2021), solid development with regional gaps; good education options and healthcare access align with your family\u0027s needs.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "IHDI for Brazil about 0.66\u20130.69, so noticeable inequality; urban Brazil offers universal healthcare and strong tech hubs that suit the family.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Brazil\u0027s OECD Better Life Index score is mid-range (about 6.5). Safety and English access vary; southern cities offer milder climate and stronger services.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Brazil currently shows gains in education and social cohesion, but persistent regional inequality lowers overall well-being. Migrants may face gaps in income, health access, and language integration; actionable steps include expanding universal health outreach and affordable childcare, offering Portuguese language and local integration programs, ensuring affordable housing near job centers, and expanding reliable broadband to support remote work and entrepreneurship. Additionally, strengthen grant pathways and migrant-friendly visa options, and track migrant-specific outcomes with OECD-style indicators to close gaps and build resilient, inclusive growth.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Brazil\u0027s Social Progress Index sits in the mid-70s, with room to improve in health and education. This supports a family-friendly plan in Brazil.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "World Happiness Score in Brazil around 6.0-6.4; family-friendly living and mild climate, tempered by safety and bureaucracy.",
+      "alignmentValue": 6
     }
   ]
 }

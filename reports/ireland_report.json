@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "IE",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -510,6 +512,38 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "52%",
       "alignmentValue": 8
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "HDI in Ireland is very high (\u22480.96), reflecting strong education, health care, and income levels that support your family in IE.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "IE\u0027s IHDI is high (\u003E=0.80); your family would face minimal inequality drag in Ireland - a strong, family-friendly EU option.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Ireland (IE) OECD Better Life score around 7.8. Strong healthcare, education, safety, and family-friendly work-life balance.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Ireland scores strongly on health, education, safety, and family life in the OECD Well-being data; migrants face language barriers, housing costs, and labor-market integration gaps. Actionable steps: expand English-language and bilingual supports; streamline recognition of foreign qualifications; widen affordable childcare and flexible work options; improve broadband access and regional services; strengthen anti-discrimination protections and targeted migrant programs; monitor migrant well-being to guide resource allocation."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Ireland\u0027s Social Progress Index sits in the high-80s. This signals strong basic needs, well-being, and opportunity for families in Ireland.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Life evaluation in Ireland is around 7.3. This aligns with your priorities: universal healthcare, strong public schools, and family-friendly policies.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

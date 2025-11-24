@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "ZA",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -495,6 +497,36 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "45%",
       "alignmentValue": 7
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "HDI in South Africa is around 0.70, indicating solid development with gaps. This supports your focus on quality schools and affordable healthcare in ZA.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "South Africa (ZA) IHDI ~0.63; notable inequality drag on development. Favor cities with strong services, schooling, and social cohesion.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "ZA sits mid-range on the OECD life index; mild climate helps the family, but safety and healthcare access vary; urban options matter.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "South Africa\u2019s OECD Well-being data show mid-range overall well-being with clear disparities: health and education outcomes are relatively strong, but housing affordability, safety, and migrant inclusion lag\u2014especially for low-income families and new arrivals. Gaps: migrants face language barriers, delayed recognition of qualifications, and limited access to affordable housing and universal health coverage; locals with higher incomes generally access public services more easily. Future resources to close gaps include streamlined immigration and credential-recognition processes; expanded affordable childcare and housing near employment hubs; universal healthcare access; and targeted broadband investments to support remote work and digital ecosystems (including game development). For this family: prioritize housing in walkable tech corridors with reliable broadband, access to English-language and integration services; remote/hybrid work options for Sarah; and robust bilingual education and quality public schools for Anduin and Alasdair."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "South Africa (ZA) SPI shows below-average progress: solid basic needs and well-being, but stark inequality limits opportunity.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "South Africa\u0027s life evaluation sits in the mid-5s (\u22485.3\u20135.5), indicating moderate happiness; cities offer opportunity amid inequality and safety concerns.",
+      "alignmentValue": 4
     }
   ]
 }

@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "HU",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -491,6 +493,39 @@
     {
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "32%",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "HDI around 0.85 in Hungary, reflecting strong education and healthcare\u2014good family livability in Budapest.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "IHDI in Hungary around 0.80\u002B, minimal inequality drag; aligns with HU\u0027s strong education/health outcomes.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Hungary (HU): OECD Better Life Index ~6.5/10; decent safety, healthcare, and education; housing costs and bureaucracy temper the score.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Hungary\u2019s OECD well-being profile shows solid health coverage, education outcomes, and safety, placing it in the middle-to-upper range among peers. Migrants and low-income households face gaps in employment parity, language access, affordable housing, and access to public services, limiting life satisfaction gains for these groups. To close these gaps, leverage EU funds and national programs to expand language training, active labor market policies, childcare subsidies, housing support, and more inclusive public services with language assistance and anti-discrimination protections.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Hungary\u0027s Social Progress Index sits in the upper-mid range (about 76\u201378). Basic needs and education are solid; opportunity elsewhere may lag for families.",
+      "alignmentValue": 5,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Hungary\u0027s life-evaluation sits in the mid-6s (around 6.2\u20136.4). Strong healthcare and EU stability align with your family priorities.",
       "alignmentValue": 6
     }
   ]

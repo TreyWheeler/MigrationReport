@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "SG",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -494,6 +496,40 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "60%",
       "alignmentValue": 9
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "HDI in Singapore is very high (approx. 0.94), reflecting strong life expectancy, education, and income; English is widely used, aiding integration for the family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "IHDI for Singapore is high, with minimal inequality drag. Strong healthcare, education, and safety support your family\u0027s well-being in SG.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Singapore scores around 8.2 on the OECD Better Life Index; strong safety, health, education, and broadband. Climate is tropical, not mild.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Singapore\u2019s well-being profile shows very high safety, health, and education outcomes with strong overall living standards. Migrant families may face gaps in affordable housing, social integration, and consistent healthcare access. To close gaps, prioritize: (1) expand family-friendly housing near high-quality schools, (2) transparent healthcare access and subsidies for new residents, (3) scalable language and integration programs, (4) streamlined visa/work pathways and credential recognition, and (5) support for migrant community networks and tailored grants. Regularly monitor migrant well-being using OECD indicators to adapt resources and services.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Singapore\u0027s Social Progress Index sits around 88-89, signaling strong basic needs, well-being foundations, and ample opportunities for families.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Singapore scores well on life happiness: safe, excellent healthcare, English-wide communication, and strong family support; climate is hot and humid.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     }
   ]
 }

@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "MX",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -498,6 +500,36 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "35%",
       "alignmentValue": 6
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Mexico\u0027s HDI is about 0.78, a high development with regional gaps. Urban areas offer solid healthcare, schooling, and broadband; rural access varies.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Mexico has solid development but notable inequality; ensure inclusive healthcare and education access for your family in MX.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Mexico\u0027s OECD Better Life Index ~6.1; decent education and family life, but health access, safety, and income gaps vary by city.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Mexico shows mid-range well-being with urban health and education advantages but persistent gaps by income and region. For this migrant family, gaps include affordable, family-friendly housing with bilingual schooling, reliable broadband for remote work, and accessible healthcare; safety varies by area and language support plus work protections are uneven. Future resources to improve alignment include bilingual early-childhood and schooling programs, subsidized childcare, streamlined migrant visa/work options, expanded affordable healthcare, and municipal investments in broadband, safe neighborhoods, parks, and community centers to support integration.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Mexico\u0027s Social Progress Index ~73; basic needs and well-being moderate, with education and stability improvements needed for families in MX.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Mexico\u0027s life-evaluation score is about 6.6 (solidly above average). Urban MX offers family-friendly neighborhoods, healthcare access, and community life.",
+      "alignmentValue": 7
     }
   ]
 }

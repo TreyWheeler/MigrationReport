@@ -358,12 +358,32 @@
                     "guidance": "English is sufficient for work, services, and government"
                 },
                 {
+                    "rating": 8,
+                    "guidance": "English works for work and services; occasional government tasks expect local language support"
+                },
+                {
                     "rating": 7,
                     "guidance": "English is sufficient for work, and services"
                 },
                 {
+                    "rating": 6,
+                    "guidance": "English is acceptable at work but many services expect local-language help"
+                },
+                {
                     "rating": 5,
                     "guidance": "English is sufficent for work"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "English accepted in some firms; most public services expect local-language proficiency"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Frequent pressure to use the local language at work and for services"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Local language required for most jobs and services; little English support"
                 },
                 {
                     "rating": 1,
@@ -387,8 +407,40 @@
                     "guidance": "Can complete primary and secondary school entirely in english fully in the public school system"
                 },
                 {
+                    "rating": 9,
+                    "guidance": "Most public schools offer English-track or bilingual programs with full integration support"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Bilingual programs are common in major cities; some subjects taught in the local language"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "English-medium classes exist in limited schools and often have waitlists"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Local language is primary, but strong pull-out or bridge support is offered for English speakers"
+                },
+                {
                     "rating": 5,
                     "guidance": "Regional language proficiency expected, with some inegration assistance"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Local language expected with limited integration support; families must arrange extra tutoring"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Local language expected early; minimal school-provided support for English speakers"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Only immersion options; English support rare and usually private/at-cost"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "No English option; local language mandatory with no integration support"
                 }
             ],
             "metric": {
@@ -406,6 +458,42 @@
                 {
                     "rating": 10,
                     "guidance": "Most people are generally happy with your presence and anti-immigration sentiment is low"
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Generally positive attitudes with only rare political flare-ups"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Mostly welcoming; occasional negativity in certain sectors or regions"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Mixed but pragmatic attitudes; limited hostility in daily life"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Mild skepticism; some anti-immigrant rhetoric during elections"
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Noticeable political friction and some community resistance to newcomers"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Frequent anti-immigrant narratives in media or politics"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Common hostility in daily life or hiring toward skilled immigrants"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Open opposition and discrimination widely reported"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Widespread hostility; strong anti-immigrant politics and social exclusion"
                 }
             ],
             "metric": {
@@ -425,12 +513,40 @@
                     "guidance": "Skilled migrants are able to find an acceptable home in under a month"
                 },
                 {
+                    "rating": 9,
+                    "guidance": "Typical skilled migrants secure housing within six weeks"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Housing can be found within two months with normal effort"
+                },
+                {
                     "rating": 7,
                     "guidance": "Skill migrants are able to find an acceptable home in under three months"
                 },
                 {
+                    "rating": 6,
+                    "guidance": "Housing attainable in around four months with moderate competition"
+                },
+                {
                     "rating": 5,
                     "guidance": "Skill migrants are able to find an acceptable home in under six months"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Expect nine months to secure suitable housing; heavy screening or bidding common"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Around twelve months with repeated denials or long waitlists"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Twelve to eighteen months, often requiring large deposits/guarantors"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Eighteen months or more; market effectively inaccessible to newcomers"
                 }
             ],
             "metric": {
@@ -603,6 +719,38 @@
                     "guidance": "No"
                 },
                 {
+                    "rating": 9,
+                    "guidance": "Universal coverage; employer plans are optional perks only"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Public baseline covers core needs; employer plans mainly add convenience"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Universal coverage, but employer plans meaningfully improve networks or costs"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Most people insured via employers; public option exists but is less comprehensive"
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Many rely on employer coverage; changing jobs causes short gaps or higher costs"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Coverage often lapses when leaving a job unless continuing an employer plan at high cost"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Employer coverage dominant; public safety net is limited and slow"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Losing a job usually means a coverage gap or unaffordable premiums"
+                },
+                {
                     "rating": 1,
                     "guidance": "Yes"
                 }
@@ -628,8 +776,40 @@
                     "guidance": "Less than 1,500"
                 },
                 {
+                    "rating": 9,
+                    "guidance": "1,500-1,700"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "1,701-1,800"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "1,801-1,900"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "1,901-2,000"
+                },
+                {
+                    "rating": 5,
+                    "guidance": "2,001-2,100"
+                },
+                {
                     "rating": 4,
                     "guidance": "2,200"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "2,201-2,300"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "2,301-2,400"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "More than 2,400"
                 }
             ],
             "metric": {
@@ -700,6 +880,294 @@
             "metric": {
                 "name": "benefit",
                 "unit": "local currency/month",
+                "direction": "higher is better"
+            }
+        },
+        {
+            "id": "life_oecd_better_life_index",
+            "categoryId": "life",
+            "label": "OECD Better Life Index",
+            "order": 17,
+            "guidance": "Use the OECD Better Life Index overall country score or composite (0–10). Captures housing, income, jobs, community, education, environment, governance, health, life satisfaction, safety, and work-life balance.",
+            "informational": false,
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Score >= 8.5 (top-tier OECD performance across pillars)"
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Score 8.0-8.4 (excellent outcomes with only small gaps)"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Score 7.6-7.9 (very strong with minor weaknesses)"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Score around 7.5 (strong overall with only minor weak spots)"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Score 6.8-7.1 (solid but several pillars need improvement)"
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Score 6.4-6.7 (middling outcomes across pillars)"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Score 6.0-6.3 (mid-pack outcomes needing improvement)"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Score 5.5-5.9 (below OECD average)"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Score 5.0-5.4 (notably weak across multiple pillars)"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Score < 5.0 (poor performance on most pillars)"
+                }
+            ],
+            "metric": {
+                "name": "BLI score",
+                "unit": "index (0–10)",
+                "direction": "higher is better"
+            }
+        },
+        {
+            "id": "life_oecd_wellbeing_data_monitor",
+            "categoryId": "life",
+            "label": "OECD Well-being Data Monitor",
+            "order": 18,
+            "guidance": "Use a short summary or composite indicator from the OECD Well-being Data Monitor highlighting current well-being, gaps between groups, and future resources. Note main strengths/weaknesses relevant to migrants.",
+            "informational": true,
+            "metric": {
+                "name": "well-being monitor",
+                "unit": "summary",
+                "direction": "higher is better"
+            }
+        },
+        {
+            "id": "life_human_development_index",
+            "categoryId": "life",
+            "label": "Human Development Index (HDI)",
+            "order": 19,
+            "guidance": "Use the UNDP Human Development Index value (0–1), combining life expectancy, education, and GNI per capita.",
+            "informational": false,
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "HDI >= 0.90 (very high human development)"
+                },
+                {
+                    "rating": 9,
+                    "guidance": "HDI 0.88-0.89 (high development with only small gaps)"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "HDI 0.85-0.87 (strong development levels)"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "HDI 0.80-0.84 (high development with minor gaps)"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "HDI 0.75-0.79 (solid but below top tier)"
+                },
+                {
+                    "rating": 5,
+                    "guidance": "HDI 0.70-0.74 (upper-mid development)"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "HDI 0.65-0.69 (mid development outcomes)"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "HDI 0.60-0.64 (lower development with significant gaps)"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "HDI 0.55-0.59 (weak development outcomes)"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "HDI < 0.55 (very low development outcomes)"
+                }
+            ],
+            "metric": {
+                "name": "HDI",
+                "unit": "index (0–1)",
+                "direction": "higher is better"
+            }
+        },
+        {
+            "id": "life_inequality_adjusted_hdi",
+            "categoryId": "life",
+            "label": "Inequality-adjusted HDI (IHDI)",
+            "order": 20,
+            "guidance": "Use the UNDP Inequality-adjusted HDI (0–1). Reflects how much human development is lost when accounting for inequality across people.",
+            "informational": false,
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "IHDI >= 0.80 (minimal losses from inequality)"
+                },
+                {
+                    "rating": 9,
+                    "guidance": "IHDI 0.77-0.79 (very small inequality drag)"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "IHDI 0.74-0.76 (strong outcomes with limited inequality impact)"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "IHDI 0.70-0.73 (limited inequality drag on outcomes)"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "IHDI 0.66-0.69 (some inequality losses but still solid)"
+                },
+                {
+                    "rating": 5,
+                    "guidance": "IHDI 0.62-0.65 (noticeable inequality impact)"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "IHDI 0.58-0.61 (large inequality-related losses)"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "IHDI 0.55-0.57 (very large inequality drag on outcomes)"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "IHDI 0.50-0.54 (severe inequality losses)"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "IHDI < 0.50 (extreme inequality-related losses)"
+                }
+            ],
+            "metric": {
+                "name": "IHDI",
+                "unit": "index (0–1)",
+                "direction": "higher is better"
+            }
+        },
+        {
+            "id": "life_social_progress_index",
+            "categoryId": "life",
+            "label": "Social Progress Index",
+            "order": 21,
+            "guidance": "Use the country’s overall Social Progress Index score (0–100) summarizing Basic Needs, Foundations of Well-being, and Opportunity.",
+            "informational": false,
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Score >= 90 (global leader across social progress pillars)"
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Score 88-89 (near-top performance with small gaps)"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Score 85-87 (very strong outcomes with minor weaknesses)"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Score 82-84 (strong outcomes with a few weaker areas)"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Score 79-81 (solid but several pillars need improvement)"
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Score 76-78 (upper-mid performance)"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Score 72-75 (only moderate social progress performance)"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Score 68-71 (below-average social progress)"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Score 64-67 (weak outcomes across pillars)"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Score < 64 (very weak social progress across pillars)"
+                }
+            ],
+            "metric": {
+                "name": "SPI score",
+                "unit": "index (0–100)",
+                "direction": "higher is better"
+            }
+        },
+        {
+            "id": "life_world_happiness_report_score",
+            "categoryId": "life",
+            "label": "World Happiness Report Score",
+            "order": 22,
+            "guidance": "Use the World Happiness Report’s main life evaluation score (0–10), based on GDP per capita, social support, healthy life expectancy, freedom, generosity, and perceptions of corruption.",
+            "informational": false,
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": "Score >= 7.5 (top-decile life evaluation)"
+                },
+                {
+                    "rating": 9,
+                    "guidance": "Score 7.2-7.4 (excellent reported well-being)"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Score 6.9-7.1 (well above average happiness)"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Score 6.5-6.8 (solidly above average happiness)"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Score 6.0-6.4 (slightly above average)"
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Score 5.6-5.9 (near average)"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Score 5.2-5.5 (below-average life evaluation)"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Score 4.8-5.1 (notably low life evaluation)"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Score 4.3-4.7 (very low life evaluation)"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Score < 4.3 (extremely low reported well-being)"
+                }
+            ],
+            "metric": {
+                "name": "happiness score",
+                "unit": "score (0–10)",
                 "direction": "higher is better"
             }
         },
@@ -1005,6 +1473,34 @@
                 {
                     "rating": 8,
                     "guidance": "College is free or very low cost for our family eventually"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Citizens/PR pay under ~5% of median household income per semester; temporary residents pay modest fees"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Citizens/PR pay ~5-10% of median income per semester; non-residents ~10-15%"
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Citizens/PR pay ~10-15% of median income per semester; non-residents ~15-25%"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Citizens/PR pay ~15-20% of median income per semester; non-residents very high with limited aid"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "High tuition (around 20-30% of median income) for most; subsidies limited"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Very high tuition (around 30-40% of median income); aid is rare"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Extremely high tuition (40%+ of median income); effectively unaffordable without significant wealth"
                 }
             ],
             "metric": {
@@ -1134,6 +1630,38 @@
                 {
                     "rating": 9,
                     "guidance": "Integration services fully provided in the public school system"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Strong bilingual support and ESL teachers available quickly"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Integration services available but limited seats and waitlists"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Pull-out ESL provided but with limited hours; families often supplement"
+                },
+                {
+                    "rating": 5,
+                    "guidance": "Some schools offer integration support; coverage is inconsistent"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Minimal integration support; depends heavily on individual teachers"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Primarily immersion with occasional ad-hoc translation help"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "No formal support; families must arrange private services"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "English discouraged; no support for non-local-language students"
                 }
             ],
             "metric": {
@@ -1154,8 +1682,40 @@
                     "guidance": "none"
                 },
                 {
+                    "rating": 9,
+                    "guidance": "Rare, isolated incidents and strong anti-bullying enforcement"
+                },
+                {
+                    "rating": 8,
+                    "guidance": "Low-level verbal incidents occur occasionally; staff intervene quickly"
+                },
+                {
+                    "rating": 7,
+                    "guidance": "Occasional verbal incidents; school response is generally adequate"
+                },
+                {
+                    "rating": 6,
+                    "guidance": "Recurring verbal and rare physical incidents; vigilance needed"
+                },
+                {
                     "rating": 5,
                     "guidance": "There is some concern for physical safety"
+                },
+                {
+                    "rating": 4,
+                    "guidance": "Frequent verbal and occasional physical incidents; support is uneven"
+                },
+                {
+                    "rating": 3,
+                    "guidance": "Regular harassment or physical risk for immigrant kids"
+                },
+                {
+                    "rating": 2,
+                    "guidance": "Widespread bullying/discrimination; safety often an issue"
+                },
+                {
+                    "rating": 1,
+                    "guidance": "Systemic discrimination and unsafe environment for immigrant kids"
                 }
             ],
             "metric": {

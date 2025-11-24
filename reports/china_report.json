@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "CN",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -493,6 +495,41 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "52%",
       "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "China HDI ~0.76 (solid, not top tier); major cities offer good schools, healthcare, and broadband, but expect regional gaps.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "China IHDI around 0.66\u20130.69 (moderate inequality drag); urban areas outperform rural\u2014impacting schooling, healthcare, and housing plans.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "CN life index ~6.1/10 (OECD style): decent safety/education; weaker environmental quality and governance affect family life.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Current well-being in China shows rising health and living standards overall, supported by urban growth and digital infrastructure, but stark gaps remain by migrant status and urban-rural divide. Migrant families face less consistent access to education for their children, affordable housing, and portable healthcare due to hukou-based rights, while urban residents generally fare better. Future resources to reduce gaps include expanding portable social insurance and healthcare coverage, reforming hukou to ease access to schooling and housing, and investing in affordable housing, early-childhood education, and broadband infrastructure. Actionable alignment for CN: track migrant-status disparities in key well-being indicators, support migrant-inclusive education and healthcare access across provinces, and coordinate with local authorities to ensure transparent, streamlined services that improve quality of life for migrant families.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "China\u0027s SPI is in the low-70s (72\u201375), indicating moderate social progress overall. Coastal regions outperform inland in basic needs and opportunity.",
+      "alignmentValue": 4,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "China\u2019s life-evaluation sits around 5.6-5.9 (mid-range). This aligns with your QoL and education goals, though city differences and policy context matter.",
+      "alignmentValue": 5,
       "sameAsParent": false
     }
   ]

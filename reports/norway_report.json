@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "NO",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -505,6 +507,38 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "42%",
       "alignmentValue": 7
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Norway has a very high HDI (over 0.95). It offers strong education, healthcare, and safety for your family in NO.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Norway\u0027s IHDI is very high (\u003E=0.80), reflecting strong equality, universal healthcare, and robust welfare across the country.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Norway scores about 9.0 on the OECD Better Life Index. It offers strong health, education, safety, and family-friendly policies for a move to NO.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Norway ranks very high on OECD well-being with strong health, education, safety, and social cohesion. For this migrating family from Kansas City, MO, core strengths include universal healthcare and family-friendly policies; key gaps are language integration, recognition of foreign credentials, and urban housing/childcare affordability. Recommended actions: expand targeted language training, streamline credential recognition and visa processes, enhance affordable childcare and housing support, and provide entrepreneurship grants and local ecosystem access to aid labor-market entry; track OECD indicators by migrant status to inform resource allocation."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Norway ranks at the top of the Social Progress Index, with strong basic needs, well-being foundations, and opportunities for families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Norway\u0027s life-evaluation is around 7.5\u002B (top tier), aligning with your family\u0027s strong healthcare, safety, education, and work-life balance.",
+      "alignmentValue": 10
     }
   ]
 }

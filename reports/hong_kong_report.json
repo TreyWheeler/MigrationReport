@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "HK",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -489,6 +491,38 @@
       "alignmentText": "45%",
       "alignmentValue": 7,
       "sameAsParent": false
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Hong Kong\u0027s HDI is very high (0.95\u002B): long life expectancy, excellent education, and strong GNI per capita\u2014great for families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Hong Kong\u0027s IHDI is high (\u003E=0.80), indicating minimal inequality drag; strong education, healthcare, and services support families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Hong Kong is around 7/10 on OECD Better Life: strong healthcare, safety, and job prospects; housing costs and cramped space limit family life.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Hong Kong shows strong health and education outcomes with high safety, but housing affordability and income inequality limit well-being. Migrants face larger gaps in housing costs, language access, social inclusion, and affordable childcare. Actionable priorities: accelerate affordable housing supply and targeted rent subsidies; expand English/Cantonese language support and credential recognition for migrants; broaden affordable childcare and family-friendly work options; strengthen inclusive social services and migrant employment pathways; and use OECD-style metrics to monitor migrant well-being across health, education, income, housing, and social cohesion.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Hong Kong offers strong basics and well-being; reliable healthcare and schooling, with minor gaps in civil liberties.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Hong Kong life evaluation around 7.0 (well above average); strong economy and healthcare, but high costs and political constraints temper daily life.",
+      "alignmentValue": 8
     }
   ]
 }

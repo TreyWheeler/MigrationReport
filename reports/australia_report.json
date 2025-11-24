@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "AU",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -491,6 +493,38 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "42%",
       "alignmentValue": 7
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "HDI in Australia is very high (~0.96). Excellent healthcare, education, and safety fit your AU plan.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Australia\u0027s IHDI is \u22650.80, indicating minimal inequality losses. In AU, health, education, and living standards remain broadly strong for the family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "AU: OECD life index around 8.0\u20138.4; strong education, healthcare, safety, and mild climate for your family.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Australia ranks high on OECD well-being: strong health, education, income, and life satisfaction. However, migrant families face housing affordability and income-inequality gaps, plus regional disparities and language-entry barriers. Actionable priorities include expanding affordable housing and housing support, scalable language and credentialing programs, accessible settlement and job-matching services, and stable, family-friendly work policies. Leverage grants, streamlined visa pathways, and broadband access to boost migrants\u0027 well-being; track progress with OECD indicators on inequality, community vitality, and education access."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Australia ranks high on the Social Progress Index, with strong basic needs, well-being, and opportunity for families in AU.",
+      "alignmentValue": 9,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Australia\u0027s life evaluation is about 7.3 (World Happiness Report); strong healthcare and family-friendly policies fit your AU move.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

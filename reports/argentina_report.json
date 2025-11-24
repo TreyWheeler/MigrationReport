@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "AR",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -502,6 +504,36 @@
       "alignmentText": "42%",
       "alignmentValue": 7,
       "sameAsParent": false
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Argentina\u0027s HDI is about 0.83 (high); major cities like Buenos Aires offer strong education and healthcare access.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Argentina IHDI around 0.75; solid development but inequality drags outcomes; urban hubs like Buenos Aires offer stronger services.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Argentina (AR) life index around 7.5; solid for families with good healthcare/education and mild climate; safety/bureaucracy vary by city.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Argentina shows moderate well-being with migrant-specific gaps. Urban areas offer better income, health, and education access, while rural and migrant communities face higher poverty risk, limited healthcare access, language/credential barriers, and weaker social protection. To improve outcomes, expand universal healthcare and affordable childcare; fund language and credential-recognition programs; strengthen anti-discrimination enforcement; improve migrant data collection and publish disaggregated OECD-well-being indicators; support migrant entrepreneurs with targeted grants and streamlined residency/visa pathways; and invest in broadband and digital services to boost remote work and access to services. Monitor progress with OECD indicators and provide migrant-status breakdowns to guide policy.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Argentina\u0027s SPI sits in the low-to-mid 70s (72\u201375). That level supports your priorities on healthcare, safety, and education in Argentina, with room to improve.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Argentina (AR) life evaluation around 6.0; mild climate, universal healthcare, and family-friendly cities support this family\u0027s needs.",
+      "alignmentValue": 6
     }
   ]
 }

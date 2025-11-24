@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "FR",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -526,6 +528,39 @@
     {
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "45%",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "France\u0027s HDI is very high (~0.90\u002B). It reflects strong life expectancy, education, and income\u2014great for families in FR.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "France\u0027s IHDI is high (approx 0.85\u002B), indicating minimal inequality drag; aligns with your family\u0027s move to FR for stability and education.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "France OECD life index ~7.5; strong education and healthcare, solid family support\u2014good fit for a two-parent, two-child family.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "France\u0027s OECD well-being profile indicates strong health and education outcomes and solid social supports, benefiting migrant families. Gaps include income inequality and migrant integration challenges, with urban housing affordability and lower employment parity for migrants. Actionable focus areas: language/credential recognition, bilingual early childhood programs, streamlined immigration processes, affordable childcare, and multilingual public services; invest in regional integration hubs and broadband to reduce isolation and support work-life balance for newcomers.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "France scores high on social progress with universal healthcare and strong education; aligns with your family values, though some bureaucracy.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "France offers strong healthcare, family-friendly towns, and good schools; life evaluation sits around 6.5-6.8, matching this family\u0027s hopes.",
       "alignmentValue": 7
     }
   ]

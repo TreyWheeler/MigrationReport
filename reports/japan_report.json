@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "JP",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -490,6 +492,40 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "56%",
       "alignmentValue": 8
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Japan\u0027s HDI is very high (~0.91), with strong life expectancy, education, and healthcare\u2014well suited for a family-friendly, tech-enabled life in JP.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Japan\u0027s IHDI is high (approx 0.85\u002B), indicating minimal inequality losses; strong education/health outcomes support your family\u0027s plans.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Japan (JP) OECD Better Life index around 7.5: strong health, safety, and education for families; housing costs and work-life balance are the main gaps.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Japan delivers high well-being in health, education, safety, and basic living standards, but migrants encounter language barriers and limited access to public services and social integration. Actionable priorities include scaling multilingual government services and language/civic training, promoting inclusive schools and affordable childcare, and expanding regional visa pathways, startup grants, and community programs to support migrant families.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Japan\u0027s high Social Progress Index supports our family\u0027s needs. It signals strong basic needs, well-being, and opportunity in JP.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "In Japan, safety, healthcare, and family support are strong; life evaluation is slightly above average for a family like yours.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     }
   ]
 }

@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "RS",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -499,6 +501,38 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "45%",
       "alignmentValue": 7
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Serbia\u0027s HDI is around 0.82 (0.80\u20130.84); strong education/health in urban Serbia, but income gaps and rural disparities remain.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Serbia (RS) IHDI is around 0.75, indicating strong development with modest inequality drag; favorable for family plans in RS.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Serbia\u0027s OECD Better Life score sits in the mid-6s; education/health are solid, but housing affordability and wage growth vary.",
+      "alignmentValue": 5
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "OECD well-being indicators place Serbia at mid-range overall, with relatively strong safety and social cohesion but notable gaps in income equality, job quality, and universal healthcare access. Migrants face language barriers, credential recognition hurdles, and uneven service access, especially outside major cities. Actionable steps include expanding language and integration programs, streamlining immigration/credential processes, and investing in healthcare access and broadband to support families. Future resources to mobilize include EU social-inclusion funds, health-system reforms, and multilingual public-service initiatives to improve schooling and early-childhood support.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Serbia (RS) SPI is mid-range (~68-71). Basic needs are solid, but well-being and opportunity vary by city, with Belgrade advantaged over rural areas.",
+      "alignmentValue": 3
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Serbia\u0027s life-evaluation is mid-range (~5.8); affordable living and a growing tech scene in Belgrade suit your family, with strong community potential.",
+      "alignmentValue": 5
     }
   ]
 }

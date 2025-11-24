@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "KR",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -500,6 +502,41 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "60%",
       "alignmentValue": 9
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "South Korea (KR) has a very high HDI (~0.92). Excellent healthcare, education, and broadband infrastructure support families in Seoul and nationwide.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "South Korea\u0027s IHDI is high (\u22650.80), indicating minimal inequality drag and strong social development for your family in KR.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "KR OECD Better Life Index around 7.0: strong health, safety and education; housing costs and work-life balance can strain families.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "South Korea scores well on health and education, but social inclusion and housing affordability gaps persist for migrants and non-citizens. Actionable priorities: expand language and integration services; ensure accessible healthcare and public education for bilingual children; strengthen protections for work\u2013life balance and non-discriminatory hiring; increase affordable housing options near urban hubs; track progress via OECD well\u2011being indicators with migrant\u2011specific benchmarks and annual funding for integration grants.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "South Korea\u0027s SPI sits in the mid-80s (\u224885\u201387). Seoul offers strong healthcare, education, and safety; some equity gaps remain.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "South Korea\u0027s life evaluation is mid-range; safety and healthcare are strong, but high living costs and busy cities temper happiness.",
+      "alignmentValue": 5,
+      "sameAsParent": false
     }
   ]
 }

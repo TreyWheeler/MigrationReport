@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "IL",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -488,6 +490,38 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "62%",
       "alignmentValue": 9
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Israel HDI ~0.92 (very high); strong education, healthcare, and living standards support families.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Israel\u0027s IHDI is around 0.80\u002B, indicating minimal inequality drag. Public services and family-friendly options support your IL plans.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Israel (IL) offers strong health, education, and a thriving tech scene with English-friendly cities. High cost of living and safety risks should be weighed.",
+      "alignmentValue": 8,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Israel\u0027s OECD well-being profile shows high overall health, education, and living standards, but persistent gaps affect immigrant and Arab-Israeli groups (lower incomes, housing affordability, and higher unemployment). To improve migrant well-being, policymakers should prioritize language acquisition and credential recognition, expand affordable family housing in major cities, ensure universal healthcare access, and fund targeted social inclusion programs. Future resources should broaden bilingual early childhood education, streamline visa and credential pathways, and provide grants to support entrepreneurship and remote work in migrant communities. Regularly monitor cohort-based well-being indicators to track progress and adjust policies."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Israel\u0027s social progress is strong: solid healthcare/education, English access, and a growing tech scene good for families.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Israel\u0027s life evaluation around 7/10; strong healthcare, community, and a vibrant tech scene support families.",
+      "alignmentValue": 8,
+      "sameAsParent": false
     }
   ]
 }

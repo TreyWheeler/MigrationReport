@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "TR",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -489,6 +491,37 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "40%",
       "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Turkey HDI ~0.82 (UNDP 2021\u201322): high development with urban\u2013rural gaps; Istanbul/Ankara have stronger services.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Turkey\u0027s IHDI is around 0.66-0.69, reflecting moderate inequality losses. In TR, prioritize family-friendly policies and universal health access.",
+      "alignmentValue": 6
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Turkey\u0027s OECD Better Life Index sits in the mid-6s. For this family in TR, schools and safety are workable with local language learning.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Turkey\u2019s OECD Well-being data show a moderate overall score with strengths in education and social cohesion, but notable gaps by income, region, and migrant status. Migrants face language barriers, healthcare affordability, and housing/integration hurdles that affect employment and child outcomes. To improve well-being for this location, prioritize language training and credential recognition, affordable healthcare and childcare, and targeted data monitoring on migrant outcomes to guide resource allocation and program design."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Turkey\u0027s Social Progress Index is mid-70s, suggesting solid healthcare and education in TR, with room to bolster civil liberties and inclusivity.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Turkey\u0027s World Happiness score sits around the mid-5s, indicating moderate life evaluation. This aligns with your QoL goals and education focus in TR.",
+      "alignmentValue": 5,
       "sameAsParent": false
     }
   ]

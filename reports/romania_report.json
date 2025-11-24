@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "RO",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -493,6 +495,38 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "45%",
       "alignmentValue": 7
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Romania\u0027s HDI is around 0.85-0.87, indicating strong development. Education and health are solid, with regional disparities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Romania IHDI around 0.70-0.73; modest inequality drag, with solid education and healthcare, though regional disparities remain.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "RO OECD Better Life Index ~7/10: strong health/education and safety; solid for families, with some income/governance gaps.",
+      "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Romania\u2019s OECD well-being profile shows solid health and safety outcomes but migrant groups face gaps in income/labor-market integration and language access. Key gaps include earnings parity, credential recognition, and affordable childcare. Future resources should fund targeted language and credential programs, inclusive public services, migrant entrepreneurship support, and broadband for remote work and education; implement inclusive hiring practices, expand childcare options, and improve digital access in areas with higher migrant populations."
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Romania\u0027s SPI sits in the mid-70s (moderate). Strong healthcare and safety; English is less common outside cities, but it suits a family-friendly move.",
+      "alignmentValue": 4
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Romania\u0027s life evaluation is about 6.3 (slightly above average). Family-friendly policies and a mild climate support a solid family QoL.",
+      "alignmentValue": 6,
+      "sameAsParent": false
     }
   ]
 }

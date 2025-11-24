@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "TW",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -492,6 +494,40 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "45%",
       "alignmentValue": 7,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Taiwan has very high HDI (0.90\u002B): strong healthcare, education, and family-friendly living in TW.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Taiwan\u0027s IHDI is high (0.85-0.90), with minimal inequality drag and strong development; supports stable, accessible services in TW.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Taiwan offers universal healthcare and strong education with safe communities; good broadband and expat-friendly cities. Climate is humid.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Taiwan fares well on safety, healthcare access, and social cohesion, which supports migrants\u0027 basic security and quality of life; however, gaps exist in English-language ubiquity, bilingual education options for children, and straightforward bureaucratic pathways for families and entrepreneurs; to improve well-being for migrants, invest in ESL/bilingual schooling, multilingual public services, simpler visa/family sponsorship processes, affordable housing near transit, and sustained digital infrastructure to enable remote work and grant access.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Taiwan (TW) offers strong social progress: good healthcare, education, and safety for families. Urban centers are English-friendly.",
+      "alignmentValue": 8,
+      "sameAsParent": true
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Taiwan\u0027s universal healthcare, safety, and mild climate support strong life evaluation; reliable broadband helps family life and remote work.",
+      "alignmentValue": 8,
       "sameAsParent": false
     }
   ]

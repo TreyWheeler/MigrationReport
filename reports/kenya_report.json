@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "KE",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -494,6 +496,40 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "25%",
       "alignmentValue": 5
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Kenya HDI ~0.60 (lower development; gaps in health/education). Nairobi and KE cities offer urban family options; verify services access.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Kenya\u0027s IHDI shows inequality drag; Nairobi-area urban-rural gaps temper equality-adjusted development.",
+      "alignmentValue": 3,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Kenya (KE): mid-range OECD life index; English widely used and a growing tech/startup scene; healthcare access and safety need improvement.",
+      "alignmentValue": 6,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Kenya\u2019s well-being profile shows moderate outcomes with strong social cohesion but persistent urban\u2013rural and income gaps. Migrant and rural households face limited access to affordable healthcare, quality education, and reliable broadband. To close gaps, prioritize universal health coverage expansion, enhanced education access in underserved areas, affordable childcare, and targeted language/integration support; invest in reliable digital infrastructure and streamlined service access; monitor progress with OECD well-being indicators across income, health, education, safety, and digital connectivity.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Kenya\u0027s Social Progress Index sits in the low-to-mid 60s. Nairobi shows stronger progress, but healthcare and broadband access remain uneven for families like yours.",
+      "alignmentValue": 2
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Kenya\u0027s life evaluation is around 4.5; Nairobi\u0027s English-friendly environment helps the family adapt, but overall wellbeing remains modest.",
+      "alignmentValue": 2,
+      "sameAsParent": false
     }
   ]
 }

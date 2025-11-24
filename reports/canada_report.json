@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "CA",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -515,6 +517,39 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "45%",
       "alignmentValue": 7
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "Canada (CA) HDI around 0.93 - very high development. Strong public services (healthcare, education) support your family\u0027s needs in Canada.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Canada\u0027s IHDI is very high (\u22480.85\u20130.90), with minimal inequality losses. Universal healthcare and social supports help your family.",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Canada scores around 8.2\u20138.4 on the OECD index, with universal healthcare and strong schools. Your family-friendly policies and mild climates fit well.",
+      "alignmentValue": 9
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Canada scores highly on OECD well-being indicators\u2014strong health, education, income and safety, with universal healthcare and robust social protections. Migrants, however, face gaps in employment outcomes, credential recognition, language access, and housing affordability in major cities. To boost migrant well-being, prioritize expanded language training and credential assessment, targeted job-matching and labour-market supports, and affordable housing plus childcare subsidies; enhance settlement services across provinces to accelerate integration and QoL improvements for families.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Canada (CA) SPI sits in the high-80s; strong basics, wellbeing, and universal healthcare align with your family\u0027s priorities.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Canada\u0027s life evaluation sits around 7.3, aligning with your family\u0027s values. Expect universal healthcare, strong schools, and supportive communities in Canada.",
+      "alignmentValue": 9,
+      "sameAsParent": false
     }
   ]
 }

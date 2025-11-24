@@ -1,6 +1,8 @@
 {
   "version": 2,
   "iso": "CZ",
+  "latitude": null,
+  "longitude": null,
   "values": [
     {
       "key": "cost_of_living_family_150m2_in_city_center",
@@ -485,6 +487,37 @@
       "key": "daemon_games_unity_engine_popularity",
       "alignmentText": "35%",
       "alignmentValue": 6
+    },
+    {
+      "key": "life_human_development_index",
+      "alignmentText": "CZ HDI is around 0.90\u002B, reflecting strong life expectancy, education, and healthcare. Prague offers good schools, healthcare, and English-friendly services for families.",
+      "alignmentValue": 10
+    },
+    {
+      "key": "life_inequality_adjusted_hdi",
+      "alignmentText": "Czechia\u0027s IHDI is around 0.85\u002B, indicating minimal inequality losses. Strong human development for families nationwide (incl. Prague).",
+      "alignmentValue": 10,
+      "sameAsParent": false
+    },
+    {
+      "key": "life_oecd_better_life_index",
+      "alignmentText": "Czechia scores around 7.6-7.9 on OECD Better Life; solid healthcare, education, safety, and work-life balance; bureaucracy remains a hurdle.",
+      "alignmentValue": 8
+    },
+    {
+      "key": "life_oecd_wellbeing_data_monitor",
+      "alignmentText": "Czechia\u2019s OECD Well-being Monitor shows mid\u2011to\u2011high life satisfaction with solid health, education, and social protection, yet migrants face access gaps. Strengths for newcomers include universal healthcare and stable social safety nets; weaknesses include language barriers, slower credential recognition, and limited English ubiquity that impede labor-market entry and civic participation. Future resources should prioritize scalable Czech-language and integration programs, streamlined residency and work-permit processes, affordable family housing near cities, expanded bilingual early education, and targeted grants to attract and retain skilled migrants and startups. Actions also needed: reduce bureaucratic friction, strengthen anti\u2011discrimination enforcement, and expand broadband for remote learning and work.",
+      "sameAsParent": false
+    },
+    {
+      "key": "life_social_progress_index",
+      "alignmentText": "Czechia\u0027s SPI is around 82-84, indicating strong basic needs, well-being, and opportunity. This supports a family-friendly move to Prague, CZ.",
+      "alignmentValue": 7
+    },
+    {
+      "key": "life_world_happiness_report_score",
+      "alignmentText": "Czechia (Prague) offers universal healthcare, good public services, and family-friendly cities. Life evaluation sits around 6.9\u20137.1, a solid outlook.",
+      "alignmentValue": 8
     }
   ]
 }
