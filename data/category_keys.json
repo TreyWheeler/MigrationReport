@@ -179,10 +179,25 @@
             }
         },
         {
+            "id": "daemon_games_unity_engine_popularity",
+            "categoryId": "daemon_games",
+            "label": "Unity Engine Popularity",
+            "order": 14,
+            "guidance": "Estimate how common Unity is among local studios and job postings: use the share of game development job ads that list Unity as required/preferred and/or the share of local studios whose primary engine is Unity.",
+            "valueRequirements": "Value should be a single percentage value such as 45%, representing the share of local game dev jobs or studios using Unity as a primary engine.",
+            "informational": false,
+            "metric": {
+                "name": "unity_usage",
+                "unit": "percent of local game dev market",
+                "direction": "higher is better",
+                "rangeHint": "Share of local game dev job postings and/or studios that primarily use Unity."
+            }
+        },
+        {
             "id": "daemon_games_indie_scene_strength",
             "categoryId": "daemon_games",
             "label": "Indie Scene Strength",
-            "order": 14,
+            "order": 15,
             "guidance": "How dense and visible the indie scene is: number of small/medium studios, game jams, meetups, and co-working hubs focused on games in the metro.",
             "informational": false,
             "metric": {
@@ -195,7 +210,7 @@
             "id": "daemon_games_game_incubators_and_accelerators",
             "categoryId": "daemon_games",
             "label": "Game Incubators & Accelerators",
-            "order": 15,
+            "order": 16,
             "guidance": "Count of game-specific or game-friendly incubators/accelerators in the city/region that accept early-stage indie studios like Daemon Games and offer mentorship, space, or funding.",
             "informational": false,
             "metric": {
@@ -208,7 +223,7 @@
             "id": "daemon_games_freelance_game_talent_availability",
             "categoryId": "daemon_games",
             "label": "Freelance Game Talent Availability",
-            "order": 16,
+            "order": 17,
             "guidance": "Availability of freelance artists, animators, sound designers, and narrative designers with game credits in the local or near-remote market.",
             "informational": false,
             "metric": {
@@ -221,7 +236,7 @@
             "id": "daemon_games_local_publisher_and_bizdev_access",
             "categoryId": "daemon_games",
             "label": "Local Publisher & BizDev Access",
-            "order": 17,
+            "order": 18,
             "guidance": "How easy it is to get in front of relevant publishers, agents, or bizdev people from this city (local offices, regular visits, regional hubs).",
             "informational": false,
             "metric": {
@@ -234,7 +249,7 @@
             "id": "daemon_games_festival_and_event_presence",
             "categoryId": "daemon_games",
             "label": "Festival & Event Presence",
-            "order": 18,
+            "order": 19,
             "guidance": "Number and relevance of game/dev/creative-tech events in or very near the city each year where Daemon Games could show builds, network, or pitch.",
             "informational": false,
             "metric": {
@@ -247,7 +262,7 @@
             "id": "daemon_games_travel_access_to_major_game_events",
             "categoryId": "daemon_games",
             "label": "Travel Access to Major Game Events",
-            "order": 19,
+            "order": 20,
             "guidance": "Typical door-to-door travel time from the city to at least one major global games event (e.g. Gamescom, GDC, Nordic Game) including airport transfer.",
             "informational": false,
             "metric": {
@@ -260,7 +275,7 @@
             "id": "daemon_games_local_partner_ecosystem_depth",
             "categoryId": "daemon_games",
             "label": "Local Partner Ecosystem Depth",
-            "order": 20,
+            "order": 21,
             "guidance": "Depth of potential partners: universities, cultural institutions, coworking spaces, and tech orgs that collaborate with game studios on funding, research, or events.",
             "informational": false,
             "metric": {
@@ -273,7 +288,7 @@
             "id": "daemon_games_visa_narrative_strength",
             "categoryId": "daemon_games",
             "label": "Visa Narrative Strength for Daemon",
-            "order": 21,
+            "order": 22,
             "guidance": "How compelling Daemon Games is as a story for local authorities: job creation, cultural output, innovation, and alignment with the country’s stated economic/cultural priorities.",
             "informational": true,
             "metric": {

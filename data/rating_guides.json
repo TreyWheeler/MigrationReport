@@ -3196,6 +3196,51 @@
             ]
         },
         {
+            "key": "daemon_games_unity_engine_popularity",
+            "ratingGuide": [
+                {
+                    "rating": 10,
+                    "guidance": ">= 70% of local studios/job postings list Unity as a primary engine."
+                },
+                {
+                    "rating": 9,
+                    "guidance": "60-69% of studios/postings use Unity."
+                },
+                {
+                    "rating": 8,
+                    "guidance": "50-59% of studios/postings use Unity."
+                },
+                {
+                    "rating": 7,
+                    "guidance": "40-49% of studios/postings use Unity."
+                },
+                {
+                    "rating": 6,
+                    "guidance": "30-39% of studios/postings use Unity."
+                },
+                {
+                    "rating": 5,
+                    "guidance": "20-29% of studios/postings use Unity."
+                },
+                {
+                    "rating": 4,
+                    "guidance": "10-19% of studios/postings use Unity."
+                },
+                {
+                    "rating": 3,
+                    "guidance": "5-9% of studios/postings use Unity."
+                },
+                {
+                    "rating": 2,
+                    "guidance": "1-4% of studios/postings use Unity."
+                },
+                {
+                    "rating": 1,
+                    "guidance": "<1% of studios/postings use Unity."
+                }
+            ]
+        },
+        {
             "key": "daemon_games_indie_scene_strength",
             "ratingGuide": [
                 {
