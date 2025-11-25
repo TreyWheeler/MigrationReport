@@ -314,27 +314,30 @@ function getActiveFocusCategories(mainData) {
     : [];
   const normalizedFocus = focusList.map(name => normalizeCategoryName(name)).filter(Boolean);
   const normalizedSet = new Set(normalizedFocus);
-  if (normalizedSet.size === 0) return [];
+  if (normalizedSet.size === 0) {
+    return { names: [], hasFocus: false };
+  }
 
   const categories = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
-  const active = [];
+  const names = [];
   categories.forEach(cat => {
     const rawName = typeof cat?.Category === 'string' ? cat.Category.trim() : '';
     const normalizedName = normalizeCategoryName(rawName);
     if (!normalizedName || !normalizedSet.has(normalizedName)) return;
-    if (!active.some(existing => normalizeCategoryName(existing) === normalizedName)) {
-      active.push(rawName || cat?.Category || '');
+    if (!names.some(existing => normalizeCategoryName(existing) === normalizedName)) {
+      names.push(rawName || cat?.Category || '');
     }
   });
-  return active;
+  return { names, hasFocus: names.length > 0 };
 }
 
 function updateFocusBadge(mainData) {
   const badge = document.getElementById('mapFocusBadge');
   const categoriesEl = document.getElementById('mapFocusCategories');
   if (!badge || !categoriesEl) return;
-  const active = getActiveFocusCategories(mainData || lastMainData);
-  if (active.length === 0) {
+  const dataSource = mainData || appState.mainData || lastMainData;
+  const { names, hasFocus } = getActiveFocusCategories(dataSource);
+  if (!hasFocus) {
     badge.hidden = true;
     badge.setAttribute('hidden', '');
     categoriesEl.textContent = '';
@@ -342,7 +345,7 @@ function updateFocusBadge(mainData) {
   }
   badge.hidden = false;
   badge.removeAttribute('hidden');
-  categoriesEl.textContent = active.join(', ');
+  categoriesEl.textContent = names.join(', ');
 }
 
 function getTotalCityCount() {
