@@ -678,6 +678,11 @@ export async function renderComparison(selectedList, mainData, options = {}) {
           .filter(Boolean);
         appState.focusedCategories = sanitized;
         setStored('focusedCategory', sanitized);
+        if (typeof document !== 'undefined') {
+          document.dispatchEvent(new CustomEvent('categoryFocusChanged', {
+            detail: { categories: sanitized },
+          }));
+        }
         clearCachedMetrics();
         try {
           const listEl = document.getElementById('countryList');

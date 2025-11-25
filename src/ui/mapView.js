@@ -24,6 +24,7 @@ let lastMainData = null;
 let cityCoordLookupPromise = null;
 let mapApplyFunnelFilter = loadMapFilterPreference();
 let funnelFilterListenerAttached = false;
+let focusChangeListenerAttached = false;
 
 function getCssColor(varName, fallback) {
   if (typeof window === 'undefined') return fallback;
@@ -414,6 +415,13 @@ function attachFunnelFilterListener() {
   funnelFilterListenerAttached = true;
 }
 
+function attachFocusChangeListener() {
+  if (focusChangeListenerAttached || typeof document === 'undefined') return;
+  const handler = () => updateFocusBadge(lastMainData);
+  document.addEventListener('categoryFocusChanged', handler);
+  focusChangeListenerAttached = true;
+}
+
 function bindFeatureTooltip(layer, feature, scoreEntry) {
   if (!layer) return;
   const name = feature?.properties?.name || scoreEntry?.name || 'Unknown';
@@ -508,6 +516,7 @@ async function initMapView(mainData) {
   lastMainData = mainData || lastMainData;
   appState.mapApplyFunnelFilter = mapApplyFunnelFilter;
   attachFunnelFilterListener();
+  attachFocusChangeListener();
   attachMapFilterToggle();
   updateFocusBadge(mainData);
   updateMapFilterBadge();
