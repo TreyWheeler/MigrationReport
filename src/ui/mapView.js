@@ -314,8 +314,9 @@ function getActiveFocusCategories(mainData) {
     : [];
   const normalizedFocus = focusList.map(name => normalizeCategoryName(name)).filter(Boolean);
   const normalizedSet = new Set(normalizedFocus);
-  if (normalizedSet.size === 0) {
-    return { names: [], hasFocus: false };
+  const hasRawFocus = normalizedSet.size > 0;
+  if (!hasRawFocus) {
+    return { names: [], hasFocus: false, hasRawFocus: false };
   }
 
   const categories = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
@@ -328,7 +329,7 @@ function getActiveFocusCategories(mainData) {
       names.push(rawName || cat?.Category || '');
     }
   });
-  return { names, hasFocus: names.length > 0 };
+  return { names, hasFocus: names.length > 0, hasRawFocus };
 }
 
 function updateFocusBadge(mainData) {
@@ -336,8 +337,8 @@ function updateFocusBadge(mainData) {
   const categoriesEl = document.getElementById('mapFocusCategories');
   if (!badge || !categoriesEl) return;
   const dataSource = mainData || appState.mainData || lastMainData;
-  const { names, hasFocus } = getActiveFocusCategories(dataSource);
-  if (!hasFocus) {
+  const { names, hasFocus, hasRawFocus } = getActiveFocusCategories(dataSource);
+  if (!hasRawFocus || !hasFocus) {
     badge.hidden = true;
     badge.setAttribute('hidden', '');
     categoriesEl.textContent = '';
