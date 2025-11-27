@@ -24,6 +24,7 @@ let lastMainData = null;
 let cityCoordLookupPromise = null;
 let mapApplyFunnelFilter = loadMapFilterPreference();
 let funnelFilterListenerAttached = false;
+let focusChangeListenerAttached = false;
 
 function getCssColor(varName, fallback) {
   if (typeof window === 'undefined') return fallback;
@@ -313,27 +314,31 @@ function getActiveFocusCategories(mainData) {
     : [];
   const normalizedFocus = focusList.map(name => normalizeCategoryName(name)).filter(Boolean);
   const normalizedSet = new Set(normalizedFocus);
-  if (normalizedSet.size === 0) return [];
+  const hasRawFocus = normalizedSet.size > 0;
+  if (!hasRawFocus) {
+    return { names: [], hasFocus: false, hasRawFocus: false };
+  }
 
   const categories = Array.isArray(mainData?.Categories) ? mainData.Categories : [];
-  const active = [];
+  const names = [];
   categories.forEach(cat => {
     const rawName = typeof cat?.Category === 'string' ? cat.Category.trim() : '';
     const normalizedName = normalizeCategoryName(rawName);
     if (!normalizedName || !normalizedSet.has(normalizedName)) return;
-    if (!active.some(existing => normalizeCategoryName(existing) === normalizedName)) {
-      active.push(rawName || cat?.Category || '');
+    if (!names.some(existing => normalizeCategoryName(existing) === normalizedName)) {
+      names.push(rawName || cat?.Category || '');
     }
   });
-  return active;
+  return { names, hasFocus: names.length > 0, hasRawFocus };
 }
 
 function updateFocusBadge(mainData) {
   const badge = document.getElementById('mapFocusBadge');
   const categoriesEl = document.getElementById('mapFocusCategories');
   if (!badge || !categoriesEl) return;
-  const active = getActiveFocusCategories(mainData || lastMainData);
-  if (active.length === 0) {
+  const dataSource = mainData || appState.mainData || lastMainData;
+  const { names, hasFocus, hasRawFocus } = getActiveFocusCategories(dataSource);
+  if (!hasRawFocus || !hasFocus) {
     badge.hidden = true;
     badge.setAttribute('hidden', '');
     categoriesEl.textContent = '';
@@ -341,7 +346,7 @@ function updateFocusBadge(mainData) {
   }
   badge.hidden = false;
   badge.removeAttribute('hidden');
-  categoriesEl.textContent = active.join(', ');
+  categoriesEl.textContent = names.join(', ');
 }
 
 function getTotalCityCount() {
@@ -412,6 +417,13 @@ function attachFunnelFilterListener() {
   };
   document.addEventListener('funnelFiltersUpdated', handler);
   funnelFilterListenerAttached = true;
+}
+
+function attachFocusChangeListener() {
+  if (focusChangeListenerAttached || typeof document === 'undefined') return;
+  const handler = () => updateFocusBadge(lastMainData);
+  document.addEventListener('categoryFocusChanged', handler);
+  focusChangeListenerAttached = true;
 }
 
 function bindFeatureTooltip(layer, feature, scoreEntry) {
@@ -508,6 +520,7 @@ async function initMapView(mainData) {
   lastMainData = mainData || lastMainData;
   appState.mapApplyFunnelFilter = mapApplyFunnelFilter;
   attachFunnelFilterListener();
+  attachFocusChangeListener();
   attachMapFilterToggle();
   updateFocusBadge(mainData);
   updateMapFilterBadge();
