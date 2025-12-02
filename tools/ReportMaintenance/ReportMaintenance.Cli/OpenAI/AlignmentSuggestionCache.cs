@@ -180,10 +180,10 @@ public sealed class FileAlignmentSuggestionCache : IAlignmentSuggestionCache
 
 public static class AlignmentSuggestionCacheKey
 {
-    public static string Create(string prompt, string model)
+    public static string Create(string prefixTemplate, string model)
     {
         var normalizedModel = model?.Trim() ?? string.Empty;
-        var composite = $"{normalizedModel}\n{prompt}";
+        var composite = $"{normalizedModel}\n{prefixTemplate}";
         var bytes = Encoding.UTF8.GetBytes(composite);
         var hash = SHA256.HashData(bytes);
         return Convert.ToHexString(hash);
