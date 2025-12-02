@@ -27,6 +27,7 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
     private readonly HttpClient _httpClient;
     private readonly OpenAIOptions _options;
     private readonly ILogger<OpenAIRatingGuideClient> _logger;
+    private string? _cachedSystemPromptContentId;
 
     public OpenAIRatingGuideClient(HttpClient httpClient, IOptions<OpenAIOptions> options, ILogger<OpenAIRatingGuideClient> logger)
     {
@@ -80,7 +81,7 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
         activity?.SetTag("ai.model", _options.Model);
         activity?.SetTag("report.rating_guide_key", keyName.Trim());
 
-        using var requestMessage = CreateRequestMessage(prompt, out var requestBody);
+        using var requestMessage = CreateRequestMessage(prompt, out var requestBody, out var systemPromptCacheHit);
         var requestUri = requestMessage.RequestUri?.IsAbsoluteUri == true
             ? requestMessage.RequestUri
             : (_httpClient.BaseAddress is not null && requestMessage.RequestUri is not null
@@ -92,12 +93,19 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
             activity?.SetTag("http.url", requestUri.ToString());
         }
 
+        activity?.SetTag("openai.system_prompt.cache_hit", systemPromptCacheHit);
+
         activity?.AddEvent(new ActivityEvent("http.request", tags: new ActivityTagsCollection
         {
-            { "http.request.body", requestBody }
+            { "http.request.body", requestBody },
+            { "openai.system_prompt.cache_hit", systemPromptCacheHit }
         }));
 
-        _logger.LogInformation("OpenAI rating-guide request for {Key}: {Body}", keyName, requestBody);
+        _logger.LogInformation(
+            "OpenAI rating-guide request for {Key} (system prompt cache {CacheStatus}): {Body}",
+            keyName,
+            systemPromptCacheHit ? "hit" : "miss",
+            requestBody);
 
         using var response = await _httpClient.SendAsync(requestMessage, cancellationToken).ConfigureAwait(false);
         var body = await response.Content.ReadAsStringAsync(cancellationToken).ConfigureAwait(false);
@@ -108,6 +116,8 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
         }));
 
         _logger.LogInformation("OpenAI rating-guide response for {Key}: {Body}", keyName, body);
+
+        TryCaptureCachedSystemPrompt(body);
 
         if (!response.IsSuccessStatusCode)
         {
@@ -120,10 +130,89 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
         return suggestion;
     }
 
-    private HttpRequestMessage CreateRequestMessage(string prompt, out string requestBody)
+    private void TryCaptureCachedSystemPrompt(string responseBody)
+    {
+        if (_cachedSystemPromptContentId is not null)
+        {
+            return;
+        }
+
+        var cachedContentId = TryFindCachedContentId(responseBody);
+        if (cachedContentId is null)
+        {
+            _logger.LogInformation("System prompt cache miss. No cached_content id returned.");
+            return;
+        }
+
+        _cachedSystemPromptContentId = cachedContentId;
+        _logger.LogInformation("Captured system prompt cached_content id {CachedContentId}.", cachedContentId);
+    }
+
+    private static string? TryFindCachedContentId(string responseBody)
+    {
+        try
+        {
+            using var document = JsonDocument.Parse(responseBody);
+            return FindCachedContentId(document.RootElement);
+        }
+        catch (JsonException)
+        {
+            return null;
+        }
+    }
+
+    private static string? FindCachedContentId(JsonElement element)
+    {
+        if (element.ValueKind == JsonValueKind.Object)
+        {
+            if (element.TryGetProperty("cached_content", out var cachedContent) && cachedContent.ValueKind == JsonValueKind.String)
+            {
+                return cachedContent.GetString();
+            }
+
+            foreach (var property in element.EnumerateObject())
+            {
+                var nested = FindCachedContentId(property.Value);
+                if (nested is not null)
+                {
+                    return nested;
+                }
+            }
+        }
+        else if (element.ValueKind == JsonValueKind.Array)
+        {
+            foreach (var item in element.EnumerateArray())
+            {
+                var nested = FindCachedContentId(item);
+                if (nested is not null)
+                {
+                    return nested;
+                }
+            }
+        }
+
+        return null;
+    }
+
+    private HttpRequestMessage CreateRequestMessage(string prompt, out string requestBody, out bool systemPromptCacheHit)
     {
         var message = new HttpRequestMessage(HttpMethod.Post, "responses");
         message.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _options.ApiKey);
+
+        systemPromptCacheHit = _cachedSystemPromptContentId is not null;
+
+        var systemPromptContent = _cachedSystemPromptContentId is null
+            ? new
+            {
+                type = "input_text",
+                text = "You are an expert migration advisor who writes concise rating guides. Respond with valid JSON.",
+                cache_control = new { type = "ephemeral" }
+            }
+            : new
+            {
+                type = "cached_content",
+                id = _cachedSystemPromptContentId
+            };
 
         var payload = new
         {
@@ -137,7 +226,7 @@ public sealed class OpenAIRatingGuideClient : IOpenAIRatingGuideClient
                     role = "system",
                     content = new object[]
                     {
-                        new { type = "input_text", text = "You are an expert migration advisor who writes concise rating guides. Respond with valid JSON." }
+                        systemPromptContent
                     }
                 },
                 new

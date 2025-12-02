@@ -31,6 +31,7 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
     private readonly OpenAIOptions _options;
     private readonly ILogger<OpenAIAlignmentClient> _logger;
     private readonly IAlignmentSuggestionCache _cache;
+    private string? _cachedPromptPrefixContentId;
 
     private const string PromptPrefixTemplate = """
 You are an analyst who updates migration report alignment values. Respond with valid JSON.
@@ -114,17 +115,26 @@ Use the provided location, family profile, and rating information to revise alig
                 activity?.SetTag("http.url", requestUri.ToString());
             }
 
+            activity?.SetTag("openai.prompt_prefix.cache_hit", prefixCacheHit);
+
             activity?.AddEvent(new ActivityEvent("http.request", tags: new ActivityTagsCollection
             {
-                { "http.request.length", requestBody?.Length ?? 0 }
+                { "http.request.length", requestBody?.Length ?? 0 },
+                { "openai.prompt_prefix.cache_hit", prefixCacheHit }
             }));
 
-            _logger.LogInformation("OpenAI request for {Key} using {Model} (attempt {Attempt}/{Total}).", entry.Key, model, attempt, totalAttempts);
+            _logger.LogInformation(
+                "OpenAI request for {Key} using {Model} (attempt {Attempt}/{Total}) with prefix cache {CacheStatus}.",
+                entry.Key,
+                model,
+                attempt,
+                totalAttempts,
+                prefixCacheHit ? "hit" : "miss");
 
             try
             {
-                using var response = await _httpClient.SendAsync(requestMessage, cancellationToken);
-                var body = await response.Content.ReadAsStringAsync(cancellationToken);
+                using var response = await _httpClient.SendAsync(requestMessage, cancellationToken).ConfigureAwait(false);
+                var body = await response.Content.ReadAsStringAsync(cancellationToken).ConfigureAwait(false);
                 var rateLimits = ExtractRateLimitInfo(response);
                 activity?.SetTag("http.status_code", (int)response.StatusCode);
                 activity?.AddEvent(new ActivityEvent("http.response", tags: new ActivityTagsCollection
@@ -145,6 +155,8 @@ Use the provided location, family profile, and rating information to revise alig
                     (int)response.StatusCode,
                     body?.Length ?? 0,
                     rateLimits.ToLogSuffix());
+
+                TryCaptureCachedPrefix(body);
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -214,10 +226,25 @@ Use the provided location, family profile, and rating information to revise alig
         return _options.Model.Trim();
     }
 
-    private HttpRequestMessage CreateRequestMessage(PromptParts promptParts, string model, out string requestBody)
+    private HttpRequestMessage CreateRequestMessage(PromptParts promptParts, string model, out string requestBody, out bool prefixCacheHit)
     {
         var message = new HttpRequestMessage(HttpMethod.Post, "responses");
         message.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _options.ApiKey);
+
+        prefixCacheHit = _cachedPromptPrefixContentId is not null;
+
+        var prefixSegment = _cachedPromptPrefixContentId is null
+            ? new
+            {
+                type = "input_text",
+                text = promptParts.PrefixTemplate,
+                cache_control = new { type = "ephemeral" }
+            }
+            : new
+            {
+                type = "cached_content",
+                id = _cachedPromptPrefixContentId
+            };
 
         var payload = new
         {
@@ -239,7 +266,7 @@ Use the provided location, family profile, and rating information to revise alig
                     role = "user",
                     content = new object[]
                     {
-                        new { type = "input_text", text = promptParts.PrefixTemplate, cache_control = new { type = "ephemeral" } },
+                        prefixSegment,
                         new { type = "input_text", text = promptParts.Suffix }
                     }
                 }
@@ -493,6 +520,70 @@ Use the provided location, family profile, and rating information to revise alig
 
     private static bool IsRetryable(System.Net.HttpStatusCode statusCode) =>
         statusCode == System.Net.HttpStatusCode.TooManyRequests || (int)statusCode >= 500;
+
+    private void TryCaptureCachedPrefix(string responseBody)
+    {
+        if (_cachedPromptPrefixContentId is not null)
+        {
+            return;
+        }
+
+        var cachedContentId = TryFindCachedContentId(responseBody);
+        if (cachedContentId is null)
+        {
+            _logger.LogInformation("Prompt prefix cache miss. No cached_content id returned.");
+            return;
+        }
+
+        _cachedPromptPrefixContentId = cachedContentId;
+        _logger.LogInformation("Captured prompt prefix cached_content id {CachedContentId}.", cachedContentId);
+    }
+
+    private static string? TryFindCachedContentId(string responseBody)
+    {
+        try
+        {
+            using var document = JsonDocument.Parse(responseBody);
+            return FindCachedContentId(document.RootElement);
+        }
+        catch (JsonException)
+        {
+            return null;
+        }
+    }
+
+    private static string? FindCachedContentId(JsonElement element)
+    {
+        if (element.ValueKind == JsonValueKind.Object)
+        {
+            if (element.TryGetProperty("cached_content", out var cachedContent) && cachedContent.ValueKind == JsonValueKind.String)
+            {
+                return cachedContent.GetString();
+            }
+
+            foreach (var property in element.EnumerateObject())
+            {
+                var nested = FindCachedContentId(property.Value);
+                if (nested is not null)
+                {
+                    return nested;
+                }
+            }
+        }
+        else if (element.ValueKind == JsonValueKind.Array)
+        {
+            foreach (var item in element.EnumerateArray())
+            {
+                var nested = FindCachedContentId(item);
+                if (nested is not null)
+                {
+                    return nested;
+                }
+            }
+        }
+
+        return null;
+    }
 
     private async Task<AlignmentSuggestion?> TryGetCachedSuggestionAsync(string cacheKey, string entryKey, CancellationToken cancellationToken)
     {
