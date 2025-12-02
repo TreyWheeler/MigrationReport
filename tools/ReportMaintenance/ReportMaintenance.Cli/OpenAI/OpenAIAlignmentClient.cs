@@ -32,6 +32,13 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
     private readonly ILogger<OpenAIAlignmentClient> _logger;
     private readonly IAlignmentSuggestionCache _cache;
 
+    private const string PromptPrefixTemplate = """
+You are an analyst who updates migration report alignment values. Respond with valid JSON.
+Use the provided location, family profile, and rating information to revise alignment suggestions.
+""";
+
+    private sealed record PromptParts(string PrefixTemplate, string Suffix);
+
     private sealed record RateLimitInfo(
         string? RequestId,
         string? RemainingRequests,
@@ -74,7 +81,7 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
         var format = ValueRequirementHelper.GetValueFormat(keyDefinition);
         var basePrompt = BuildPrompt(context, entry, keyDefinition, format, validationFeedback: null);
         var informational = keyDefinition?.Informational == true;
-        var cacheKey = AlignmentSuggestionCacheKey.Create(basePrompt, model);
+        var cacheKey = $"{AlignmentSuggestionCacheKey.Create(basePrompt.PrefixTemplate, model)}:{entry.Key}";
 
         if (await TryGetCachedSuggestionAsync(cacheKey, entry.Key, cancellationToken).ConfigureAwait(false) is { } cachedSuggestion)
         {
@@ -207,7 +214,7 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
         return _options.Model.Trim();
     }
 
-    private HttpRequestMessage CreateRequestMessage(string prompt, string model, out string requestBody)
+    private HttpRequestMessage CreateRequestMessage(PromptParts promptParts, string model, out string requestBody)
     {
         var message = new HttpRequestMessage(HttpMethod.Post, "responses");
         message.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _options.ApiKey);
@@ -232,7 +239,8 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
                     role = "user",
                     content = new object[]
                     {
-                        new { type = "input_text", text = prompt }
+                        new { type = "input_text", text = promptParts.PrefixTemplate, cache_control = new { type = "ephemeral" } },
+                        new { type = "input_text", text = promptParts.Suffix }
                     }
                 }
             }
@@ -259,7 +267,7 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
             ResetTokens: Get("x-ratelimit-reset-tokens"));
     }
 
-    private static string BuildPrompt(ReportContext context, ReportEntry entry, CategoryKey? keyDefinition, ValueFormat format, string? validationFeedback)
+    private static PromptParts BuildPrompt(ReportContext context, ReportEntry entry, CategoryKey? keyDefinition, ValueFormat format, string? validationFeedback)
     {
         var sb = new StringBuilder();
         sb.AppendLine(context.SharedPromptContext);
@@ -341,7 +349,7 @@ public sealed class OpenAIAlignmentClient : IOpenAIAlignmentClient
             sb.AppendLine($"- Previous response failed validation because {validationFeedback}. Provide a corrected response that satisfies this requirement.");
         }
 
-        return sb.ToString();
+        return new PromptParts(PromptPrefixTemplate, sb.ToString());
     }
 
     private AlignmentSuggestion ParseResponse(string json, string key, bool informational)
