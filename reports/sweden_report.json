@@ -51,8 +51,7 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "SEK 45,000.00 ($4,275.00)",
-      "alignmentValue": 8,
-      "sameAsParent": false
+      "alignmentValue": 8
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -253,8 +252,9 @@
     },
     {
       "key": "life_healthcare_affordability_non_resident",
-      "alignmentText": "SEK 11,000.00 ($1,100.00)",
-      "alignmentValue": 9
+      "alignmentText": "SEK 9,000.00 ($900.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

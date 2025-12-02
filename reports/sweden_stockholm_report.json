@@ -51,7 +51,8 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "SEK 42,000.00 ($4,000.00)",
-      "alignmentValue": 8
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -113,8 +114,8 @@
     },
     {
       "key": "daemon_games_roi_5m_units_2_years",
-      "alignmentText": "SEK 37,162,632.00 ($3,378,421.09)",
-      "alignmentValue": 1,
+      "alignmentText": "SEK 600,873,200.00 ($54,624,836.36)",
+      "alignmentValue": 7,
       "sameAsParent": false
     },
     {
@@ -225,18 +226,20 @@
     {
       "key": "life_daycare_affordability_citizen",
       "alignmentText": "SEK 1,100.00 ($100.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_non_resident",
-      "alignmentText": "SEK 3,500.00 ($318.18)",
+      "alignmentText": "SEK 1,250.00 ($113.64)",
       "alignmentValue": 10,
       "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_perm_resident",
       "alignmentText": "SEK 803.50 ($76.33)",
-      "alignmentValue": 3
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_accessibility",
@@ -250,8 +253,9 @@
     },
     {
       "key": "life_healthcare_affordability_non_resident",
-      "alignmentText": "SEK 11,880.00 ($1,100.00)",
-      "alignmentValue": 9
+      "alignmentText": "SEK 12,420.00 ($1,150.00)",
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

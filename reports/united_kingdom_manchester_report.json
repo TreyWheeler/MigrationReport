@@ -47,8 +47,9 @@
     },
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
-      "alignmentText": "GBP 6,000.00 ($7,800.00)",
-      "alignmentValue": 5
+      "alignmentText": "GBP 6,500.00 ($8,450.00)",
+      "alignmentValue": 4,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -230,8 +231,9 @@
     },
     {
       "key": "life_daycare_affordability_non_resident",
-      "alignmentText": "GBP 1,000.00 ($1,260.00)",
-      "alignmentValue": 5
+      "alignmentText": "GBP 830.00 ($1,045.80)",
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_perm_resident",
@@ -252,7 +254,8 @@
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "GBP 1,100.00 ($1,375.00)",
-      "alignmentValue": 9
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

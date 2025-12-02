@@ -50,8 +50,7 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "CLP 6,370,000.00 ($6,500.00)",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "alignmentValue": 6
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -326,7 +325,8 @@
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "CLP 1,083,500.00 ($1,100.00)",
-      "alignmentValue": 9
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

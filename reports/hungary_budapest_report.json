@@ -50,8 +50,7 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "HUF 1,073,000.00 ($2,900.00)",
-      "alignmentValue": 10,
-      "sameAsParent": false
+      "alignmentValue": 10
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -303,7 +302,8 @@
     {
       "key": "life_daycare_affordability_non_resident",
       "alignmentText": "HUF 60,000.00 ($150.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_perm_resident",
@@ -329,8 +329,8 @@
     },
     {
       "key": "life_healthcare_affordability_non_resident",
-      "alignmentText": "HUF 434,500.00 ($1,100.00)",
-      "alignmentValue": 9
+      "alignmentText": "HUF 225,000.00 ($600.00)",
+      "alignmentValue": 10
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

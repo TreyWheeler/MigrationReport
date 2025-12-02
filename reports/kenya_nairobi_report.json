@@ -48,7 +48,8 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "KES 525,000.00 ($3,500.00)",
-      "alignmentValue": 9
+      "alignmentValue": 9,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -324,8 +325,9 @@
     },
     {
       "key": "life_healthcare_affordability_non_resident",
-      "alignmentText": "KES 172,500.00 ($1,150.00)",
-      "alignmentValue": 9
+      "alignmentText": "KES 135,000.00 ($900.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

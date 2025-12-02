@@ -52,7 +52,7 @@
     },
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
-      "alignmentText": "NOK 0.00 ($0.00)",
+      "alignmentText": "NOK 32,258.06 ($3,000.00)",
       "alignmentValue": 10
     },
     {
@@ -232,8 +232,9 @@
     },
     {
       "key": "life_daycare_affordability_non_resident",
-      "alignmentText": "NOK 8,000.00 ($761.90)",
-      "alignmentValue": 7
+      "alignmentText": "NOK 4,500.00 ($428.57)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_perm_resident",

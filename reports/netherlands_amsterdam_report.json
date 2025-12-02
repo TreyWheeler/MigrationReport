@@ -50,8 +50,7 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "EUR 6,500.00 ($7,150.00)",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "alignmentValue": 6
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -222,8 +221,8 @@
     },
     {
       "key": "life_daycare_affordability_non_resident",
-      "alignmentText": "EUR 1,100.00 ($1,210.00)",
-      "alignmentValue": 4
+      "alignmentText": "EUR 500.00 ($550.00)",
+      "alignmentValue": 10
     },
     {
       "key": "life_daycare_affordability_perm_resident",
@@ -244,7 +243,8 @@
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "EUR 350.00 ($378.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
@@ -312,8 +312,8 @@
     },
     {
       "key": "outdoors_mild_weather",
-      "alignmentText": "Amsterdam\u0027s maritime climate is mild but often humid; expect around 60-89 days annually with 50-85\u00B0F and humidity under 70%.",
-      "alignmentValue": 2
+      "alignmentText": "Amsterdam\u0027s mild maritime climate offers 60-89 days/year with highs 50-85\u00B0F and humidity \u003C70%, aligning with a climate-conscious, low-stress family life.",
+      "alignmentValue": 3
     },
     {
       "key": "outdoors_natural_beauty",

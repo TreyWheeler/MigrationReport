@@ -52,7 +52,8 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "EUR 6,500.00 ($7,150.00)",
-      "alignmentValue": 6
+      "alignmentValue": 6,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -227,8 +228,9 @@
     },
     {
       "key": "life_daycare_affordability_non_resident",
-      "alignmentText": "EUR 950.00 ($1,045.00)",
-      "alignmentValue": 5
+      "alignmentText": "EUR 350.00 ($381.50)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_perm_resident",
@@ -249,7 +251,8 @@
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "EUR 1,000.00 ($1,090.00)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

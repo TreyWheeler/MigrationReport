@@ -50,7 +50,8 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "KRW 8,030,000.00 ($5,500.00)",
-      "alignmentValue": 7
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -328,7 +329,8 @@
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "KRW 2,500,000.00 ($1,900.00)",
-      "alignmentValue": 5
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

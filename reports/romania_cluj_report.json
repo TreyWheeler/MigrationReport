@@ -48,8 +48,7 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "RON 15,190.00 ($3,100.00)",
-      "alignmentValue": 9,
-      "sameAsParent": false
+      "alignmentValue": 9
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -296,7 +295,8 @@
     {
       "key": "life_daycare_affordability_non_resident",
       "alignmentText": "RON 1,470.00 ($303.09)",
-      "alignmentValue": 10
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_perm_resident",
@@ -323,8 +323,9 @@
     },
     {
       "key": "life_healthcare_affordability_non_resident",
-      "alignmentText": "RON 5,445.00 ($1,100.00)",
-      "alignmentValue": 9
+      "alignmentText": "RON 4,950.00 ($1,000.00)",
+      "alignmentValue": 10,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

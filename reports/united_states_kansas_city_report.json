@@ -51,8 +51,7 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "USD 12,000.00",
-      "alignmentValue": 2,
-      "sameAsParent": false
+      "alignmentValue": 2
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -238,8 +237,8 @@
     },
     {
       "key": "life_daycare_affordability_non_resident",
-      "alignmentText": "USD 900.00",
-      "alignmentValue": 6,
+      "alignmentText": "USD 650.00",
+      "alignmentValue": 8,
       "sameAsParent": false
     },
     {
@@ -263,7 +262,8 @@
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "USD 3,000.00",
-      "alignmentValue": 2
+      "alignmentValue": 2,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

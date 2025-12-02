@@ -49,7 +49,7 @@
     },
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
-      "alignmentText": "UAH 68,400.00 ($1,800.00)",
+      "alignmentText": "UAH 114,000.00 ($3,000.00)",
       "alignmentValue": 10,
       "sameAsParent": false
     },
@@ -297,7 +297,7 @@
       "key": "life_daycare_affordability_non_resident",
       "alignmentText": "UAH 12,000.00 ($343.00)",
       "alignmentValue": 10,
-      "sameAsParent": false
+      "sameAsParent": true
     },
     {
       "key": "life_daycare_affordability_perm_resident",
@@ -325,7 +325,8 @@
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "UAH 47,500.00 ($1,300.00)",
-      "alignmentValue": 8
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

@@ -619,7 +619,7 @@
         {
             "id": "life_daycare_affordability_non_resident",
             "categoryId": "life",
-            "label": "Daycare Affordability (Non Resident)",
+            "label": "Daycare Affordability (Work Visa Holder)",
             "order": 3,
             "guidance": "Monthly net daycare cost for a 1-year-old child (include subsidies).",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
@@ -672,9 +672,9 @@
         {
             "id": "life_healthcare_affordability_non_resident",
             "categoryId": "life",
-            "label": "Healthcare Affordability (Non Resident)",
+            "label": "Healthcare Affordability (Work Visa Holder)",
             "order": 7,
-            "guidance": "Estimated monthly healthcare expenses (insurance premiums plus typical out-of-pocket) when the family has non-resident status.",
+            "guidance": "Estimated monthly healthcare expenses (insurance premiums plus typical out-of-pocket) when the family holds a work visa (non-permanent status).",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
             "metric": {
                 "name": "cost",
@@ -1819,9 +1819,9 @@
         {
             "id": "cost_of_living_family_semester_of_college_non_resident",
             "categoryId": "cost_of_living_family",
-            "label": "Semester of College (Non Resident)",
+            "label": "Semester of College (Work Visa Holder)",
             "order": 8,
-            "guidance": "Estimated cost for a single semester of college for a non resident",
+            "guidance": "Estimated cost for a single semester of college for a work visa holder",
             "valueRequirements": "Value should be a single numerical value in local currency rounded to two decimals and include the USD conversion in parentheses (e.g., EUR 1,234.56 ($1,345.67)).",
             "metric": {
                 "name": "tuition",

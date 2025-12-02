@@ -51,7 +51,8 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "AUD 12,000.00 ($8,000.00)",
-      "alignmentValue": 5
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -297,7 +298,7 @@
     {
       "key": "life_daycare_affordability_non_resident",
       "alignmentText": "AUD 2,200.00 ($1,452.00)",
-      "alignmentValue": 1,
+      "alignmentValue": 2,
       "sameAsParent": false
     },
     {
@@ -324,7 +325,8 @@
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "AUD 2,350.00 ($1,551.00)",
-      "alignmentValue": 4
+      "alignmentValue": 7,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",

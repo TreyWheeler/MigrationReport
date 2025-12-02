@@ -48,8 +48,7 @@
     {
       "key": "cost_of_living_family_semester_of_college_non_resident",
       "alignmentText": "RUB 715,000.00 ($6,500.00)",
-      "alignmentValue": 6,
-      "sameAsParent": false
+      "alignmentValue": 6
     },
     {
       "key": "cost_of_living_family_semester_of_college_perm_resident",
@@ -292,8 +291,9 @@
     },
     {
       "key": "life_daycare_affordability_non_resident",
-      "alignmentText": "RUB 50,000.00 ($500.00)",
-      "alignmentValue": 10
+      "alignmentText": "RUB 65,000.00 ($650.00)",
+      "alignmentValue": 8,
+      "sameAsParent": false
     },
     {
       "key": "life_daycare_affordability_perm_resident",
@@ -319,7 +319,8 @@
     {
       "key": "life_healthcare_affordability_non_resident",
       "alignmentText": "RUB 199,500.00 ($1,900.00)",
-      "alignmentValue": 5
+      "alignmentValue": 5,
+      "sameAsParent": false
     },
     {
       "key": "life_healthcare_affordability_perm_resident",
